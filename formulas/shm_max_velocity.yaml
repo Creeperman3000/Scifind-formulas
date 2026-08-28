@@ -1,13 +1,13 @@
-name: "Maximum velocity in SHM"
+name: Maximum velocity in SHM
 id: shm_max_velocity
 topic: harmonic_motion
 difficulty: 2
-equation: "(velocity) eq (angular_velocity) (length) mul"
-so:
-  - velocity: "v_max"
-  - angular_velocity: "ω"
-  - length: "A"
-no:
-  - velocity: "Maximum [velocity]"
-  - angular_velocity: "Angular frequency"
-  - length: "Amplitude"
+equation: (velocity) eq ((angular_velocity) mul (length))
+symbol_overrides:
+- velocity: v_max
+- angular_velocity: ω
+- length: A
+name_overrides:
+- velocity: Maximum [velocity]
+- angular_velocity: Angular frequency
+- length: Amplitude

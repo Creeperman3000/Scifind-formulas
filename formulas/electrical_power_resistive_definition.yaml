@@ -1,7 +1,11 @@
-name: "Electrical power in a resistive circuit"
+name: Electrical power in a resistive circuit
 id: electrical_power_resistive_definition
 topic: power
 difficulty: 1
-equation: "(power) eq (electric_potential) (current) mul"
-no:
-  - power: "Electrical [power]"
+equation: (power) eq ((electric_potential) mul (current))
+name_overrides:
+- power: Electrical [power]
+symbol_overrides:
+- current: ''
+- electric_potential: ''
+- power: ''

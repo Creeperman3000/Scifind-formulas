@@ -1,7 +1,10 @@
-name: "Kinetic energy in terms of momentum"
+name: Kinetic energy in terms of momentum
 id: kinetic_energy_from_linear_momentum
 topic: linear_momentum
 difficulty: 2
-equation: "(energy) eq (momentum pow 2) (mass) 2 mul div"
-no:
-  - energy: "Kinetic [energy]"
+equation: (energy) eq ((momentum pow 2) div ((mass) mul 2))
+name_overrides:
+- energy: Kinetic [energy]
+symbol_overrides:
+- energy: ''
+- mass: ''

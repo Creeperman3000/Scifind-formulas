@@ -1,13 +1,12 @@
-name: "Potential energy stored in a spring"
+name: Potential energy stored in a spring
 id: potential_energy_spring_work
 topic: potential_energy
 difficulty: 1
-equation: "(energy) eq (spring_constant) (length pow 2) mul 2 div"
-so:
-  - energy: "U"
-  - spring_constant: "k"
-  - length: "x"
-no:
-  - energy: "Potential [energy]"
-  - spring_constant: "Spring [constant]"
-  - length: "Displacement"
+equation: (energy) eq (((spring_constant) mul (length pow 2)) div 2)
+symbol_overrides:
+- energy: U
+- length: x
+name_overrides:
+- energy: Potential [energy]
+- spring_constant: Spring [constant]
+- length: Displacement

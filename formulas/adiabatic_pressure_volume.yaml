@@ -1,15 +1,13 @@
-name: "Adiabatic relation (pressure-volume)"
+name: Adiabatic relation (pressure-volume)
 id: adiabatic_pressure_volume
 topic: ideal_gases
 difficulty: 3
-equation: "(pressure) (volume) (dimensionless) pow mul eq (dimensionless)"
-so:
-  - pressure: "P"
-  - volume: "V"
-  - dimensionless: "γ"
-  - dimensionless: "C"
-no:
-  - pressure: "[Pressure]"
-  - volume: "[Volume]"
-  - dimensionless: "Heat capacity ratio"
-  - dimensionless: "Constant"
+equation: ((pressure) mul ((volume) pow (dimensionless))) eq (dimensionless)
+symbol_overrides:
+- dimensionless: γ
+- dimensionless: C
+name_overrides:
+- pressure: '[Pressure]'
+- volume: '[Volume]'
+- dimensionless: Heat capacity ratio
+- dimensionless: Constant

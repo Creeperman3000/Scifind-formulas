@@ -1,7 +1,0 @@
-name: "Work by constant force at an angle"
-id: work_force_angle
-topic: work
-difficulty: 1
-equation: "(work) eq (force) (length) mul (angle) cos mul"
-so:
-  - angle: "θ"

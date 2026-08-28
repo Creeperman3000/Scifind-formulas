@@ -1,13 +1,11 @@
-name: "Volumetric flow rate and velocity"
+name: Volumetric flow rate and velocity
 id: continuity_equation_volume_rate_relation
 topic: continuity_equation
 difficulty: 1
-equation: "(volume) (time) div eq (area) (velocity) mul"
-so:
-  - volume: "V"
-  - area: "A"
-  - velocity: "v"
-no:
-  - volume: "Volumetric flow [rate]"
-  - area: "Cross-sectional [area]"
-  - velocity: "Fluid [velocity]"
+equation: ((volume) div (time)) eq ((area) mul (velocity))
+symbol_overrides:
+- time: ''
+name_overrides:
+- volume: Volumetric flow [rate]
+- area: Cross-sectional [area]
+- velocity: Fluid [velocity]

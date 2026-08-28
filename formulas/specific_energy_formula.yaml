@@ -1,5 +1,0 @@
-name: "Specific energy"
-id: specific_energy_formula
-topic: first_law
-difficulty: 1
-equation: "(specific_energy) eq (energy) (mass) div"

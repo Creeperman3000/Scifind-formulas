@@ -1,5 +1,0 @@
-name: "Mass concentration"
-id: mass_concentration_formula
-topic: solutions
-difficulty: 1
-equation: "(mass_concentration) eq (mass) (volume) div"

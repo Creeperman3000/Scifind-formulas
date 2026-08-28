@@ -1,11 +1,11 @@
-name: "Electric potential of a charged conducting sphere"
+name: Electric potential of a charged conducting sphere
 id: electric_potential_charged_sphere
 topic: electric_potential
 difficulty: 2
-equation: "(electric_potential) eq (coulomb_constant) (charge) mul (length) div"
-so:
-  - electric_potential: "V"
-  - length: "R"
-no:
-  - electric_potential: "[Electric potential]"
-  - length: "Sphere radius"
+equation: (electric_potential) eq (((coulomb_constant) mul (charge)) div (length))
+symbol_overrides:
+- charge: ''
+- length: R
+name_overrides:
+- electric_potential: '[Electric potential]'
+- length: Sphere radius

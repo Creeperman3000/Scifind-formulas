@@ -1,11 +1,11 @@
-name: "Volumetric flow rate"
+name: Volumetric flow rate
 id: volume_flow_rate
 topic: continuity_equation
 difficulty: 1
-equation: "(volume) (time) div eq (area) (velocity) mul"
-so:
-  - volume: "V"
-  - time: "t"
-no:
-  - volume: "Volumetric flow rate"
-  - time: "[Time]"
+equation: ((volume) div (time)) eq ((area) mul (velocity))
+symbol_overrides:
+- area: ''
+- velocity: ''
+name_overrides:
+- volume: Volumetric flow rate
+- time: '[Time]'

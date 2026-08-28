@@ -1,11 +1,12 @@
-name: "Area of a parallelogram"
+name: Area of a parallelogram
 id: area_parallelogram
 topic: plane_geometry
 difficulty: 1
-equation: "(area) eq (length) (length) mul"
-so:
-  - length: "b"
-  - length: "h"
-no:
-  - length: "Base"
-  - length: "Height"
+equation: (area) eq ((length) mul (length))
+symbol_overrides:
+- area: ''
+- length: b
+- length: h
+name_overrides:
+- length: Base
+- length: Height

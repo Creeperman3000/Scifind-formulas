@@ -1,9 +1,0 @@
-name: "Hydrostatic pressure"
-id: hydrostatic_pressure
-topic: pressure
-difficulty: 2
-equation: "(pressure) eq (density) (standard_gravity) mul (length) mul"
-so:
-  - length: "h"
-no:
-  - length: "Depth"

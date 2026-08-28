@@ -1,9 +1,0 @@
-name: "Root mean square speed of gas molecules"
-id: rms_speed
-topic: ideal_gases
-difficulty: 3
-equation: "(velocity) eq 3 (gas_constant) mul (temperature) mul (molar_mass) div sqrt"
-so:
-  - velocity: "v_rms"
-no:
-  - velocity: "RMS [velocity]"

@@ -1,11 +1,12 @@
-name: "Newtonian gravitational field strength"
+name: Newtonian gravitational field strength
 id: newtonian_gravitational_field
 topic: newtonian_gravity
 difficulty: 2
-equation: "(acceleration) eq (gravitational_constant) (mass) mul (length pow 2) div"
-so:
-  - acceleration: "g"
-  - mass: "M"
-  - length: "r"
-no:
-  - acceleration: "Gravitational field [strength]"
+equation: (acceleration) eq (((gravitational_constant) mul (mass)) div (length pow 2))
+symbol_overrides:
+- acceleration: g
+- gravitational_constant: ''
+- mass: M
+- length: r
+name_overrides:
+- acceleration: Gravitational field [strength]

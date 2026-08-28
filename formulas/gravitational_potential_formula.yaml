@@ -1,12 +1,13 @@
-name: "Gravitational potential"
+name: Gravitational potential
 id: gravitational_potential_formula
 topic: newtonian_gravity
 difficulty: 3
-equation: "(specific_energy) eq (gravitational_constant) (mass) mul (length) div neg"
-so:
-  - specific_energy: "V"
-  - mass: "M"
-  - length: "r"
-no:
-  - specific_energy: "Gravitational [potential]"
-  - length: "Distance"
+equation: (specific_energy) eq neg((((gravitational_constant) mul (mass)) div (length)))
+symbol_overrides:
+- gravitational_constant: ''
+- length: r
+- mass: M
+- specific_energy: V
+name_overrides:
+- specific_energy: Gravitational [potential]
+- length: Distance

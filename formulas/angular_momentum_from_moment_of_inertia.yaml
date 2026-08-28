@@ -1,9 +1,7 @@
-name: "Angular momentum in terms of moment of inertia"
+name: Angular momentum in terms of moment of inertia
 id: angular_momentum_from_moment_of_inertia
 topic: angular_momentum
 difficulty: 2
-equation: "(angular_momentum) eq (moment_of_inertia) (angular_velocity) mul"
-so:
-  - angular_momentum: "L"
-  - moment_of_inertia: "I"
-  - angular_velocity: "ω"
+equation: (angular_momentum) eq ((moment_of_inertia) mul (angular_velocity))
+symbol_overrides:
+- angular_velocity: ω

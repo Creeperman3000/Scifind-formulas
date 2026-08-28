@@ -1,15 +1,15 @@
-name: "Freezing point depression"
+name: Freezing point depression
 id: freezing_point_depression
 topic: solutions
 difficulty: 2
-equation: "(temperature) eq (dimensionless) (dimensionless) (concentration) mul mul"
-so:
-  - temperature: "ΔT_f"
-  - dimensionless: "i"
-  - dimensionless: "K_f"
-  - concentration: "m"
-no:
-  - temperature: "Freezing point depression"
-  - dimensionless: "Van 't Hoff factor"
-  - dimensionless: "Cryoscopic constant"
-  - concentration: "Molality"
+equation: (temperature) eq ((dimensionless) mul ((dimensionless) mul (concentration)))
+symbol_overrides:
+- temperature: ΔT_f
+- dimensionless: i
+- dimensionless: K_f
+- concentration: m
+name_overrides:
+- temperature: Freezing point depression
+- dimensionless: Van 't Hoff factor
+- dimensionless: Cryoscopic constant
+- concentration: Molality

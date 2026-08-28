@@ -1,13 +1,13 @@
-name: "Sensitivity of analytical method"
+name: Sensitivity of analytical method
 id: analytic_calibration_sensitivity
 topic: analytical_chemistry
 difficulty: 2
-equation: "(dimensionless) eq (dimensionless) (dimensionless) div"
-so:
-  - dimensionless: "S"
-  - dimensionless: "Δsignal"
-  - dimensionless: "Δconcentration"
-no:
-  - dimensionless: "Sensitivity"
-  - dimensionless: "Change in signal"
-  - dimensionless: "Change in concentration"
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+symbol_overrides:
+- dimensionless: S
+- dimensionless: Δsignal
+- dimensionless: Δconcentration
+name_overrides:
+- dimensionless: Sensitivity
+- dimensionless: Change in signal
+- dimensionless: Change in concentration

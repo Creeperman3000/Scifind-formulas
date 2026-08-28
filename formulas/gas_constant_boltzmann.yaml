@@ -1,5 +1,0 @@
-name: "Gas constant from Boltzmann constant"
-id: gas_constant_boltzmann
-topic: ideal_gases
-difficulty: 2
-equation: "(gas_constant) eq (boltzmann_constant) (avogadro_number) mul"

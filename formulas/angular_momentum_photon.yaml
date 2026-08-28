@@ -1,9 +1,0 @@
-name: "Photon angular momentum"
-id: angular_momentum_photon
-topic: quantum_mechanics
-difficulty: 4
-equation: "(angular_momentum) eq (planck_constant) (pi) 2 mul div"
-so:
-  - angular_momentum: "L"
-no:
-  - angular_momentum: "Photon angular [momentum]"

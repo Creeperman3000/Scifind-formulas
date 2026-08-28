@@ -1,11 +1,9 @@
-name: "Photon momentum from energy"
+name: Photon momentum from energy
 id: momentum_photon_energy
 topic: quantum_mechanics
 difficulty: 3
-equation: "(momentum) eq (energy) (speed_of_light) div"
-so:
-  - momentum: "p"
-  - energy: "E"
-no:
-  - momentum: "Photon [momentum]"
-  - energy: "Photon [energy]"
+equation: (momentum) eq ((energy) div (speed_of_light))
+symbol_overrides: []
+name_overrides:
+- momentum: Photon [momentum]
+- energy: Photon [energy]

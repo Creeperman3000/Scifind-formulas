@@ -1,13 +1,13 @@
-name: "45-45-90 triangle side ratios"
+name: 45-45-90 triangle side ratios
 id: right_triangle_45_45_90_sides
 topic: right_triangles
 difficulty: 1
-equation: "(length) eq (length) (dimensionless) mul"
-so:
-  - length: "h"
-  - length: "s"
-  - dimensionless: "√2"
-no:
-  - length: "Hypotenuse"
-  - length: "Leg"
-  - dimensionless: "√2"
+equation: (length) eq ((length) mul (dimensionless))
+symbol_overrides:
+- length: h
+- length: s
+- dimensionless: √2
+name_overrides:
+- length: Hypotenuse
+- length: Leg
+- dimensionless: √2

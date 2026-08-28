@@ -1,13 +1,11 @@
-name: "Net force from mass and acceleration"
+name: Net force from mass and acceleration
 id: net_force_mass_acceleration
 topic: newtons_laws
 difficulty: 1
-equation: "(force) eq (mass) (acceleration) mul"
-so:
-  - force: "F_net"
-  - mass: "m"
-  - acceleration: "a"
-no:
-  - force: "Net [force]"
-  - mass: "[Mass]"
-  - acceleration: "[Acceleration]"
+equation: (force) eq ((mass) mul (acceleration))
+symbol_overrides:
+- force: F_net
+name_overrides:
+- force: Net [force]
+- mass: '[Mass]'
+- acceleration: '[Acceleration]'

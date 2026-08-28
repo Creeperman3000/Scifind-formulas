@@ -1,15 +1,16 @@
-name: "Gravitational potential energy of two masses"
+name: Gravitational potential energy of two masses
 id: gravitational_potential_energy_two_masses
 topic: newtonian_gravity
 difficulty: 2
-equation: "(energy) eq (gravitational_constant) (mass) (mass) mul (length) div mul neg"
-so:
-  - energy: "U"
-  - mass: "m_1"
-  - mass: "m_2"
-  - length: "r"
-no:
-  - energy: "Gravitational potential [energy]"
-  - mass: "[Mass] 1"
-  - mass: "[Mass] 2"
-  - length: "Separation"
+equation: (energy) eq neg(((gravitational_constant) mul (((mass) mul (mass)) div (length))))
+symbol_overrides:
+- energy: U
+- gravitational_constant: ''
+- length: r
+- mass: m_1
+- mass: m_2
+name_overrides:
+- energy: Gravitational potential [energy]
+- mass: '[Mass] 1'
+- mass: '[Mass] 2'
+- length: Separation

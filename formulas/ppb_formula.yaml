@@ -1,15 +1,15 @@
-name: "Parts per billion"
+name: Parts per billion
 id: ppb_formula
 topic: solution_stoichiometry
 difficulty: 1
-equation: "(dimensionless) eq (mass) (mass) div (dimensionless) mul"
-so:
-  - dimensionless: "ppb"
-  - mass: "m_solute"
-  - mass: "m_solution"
-  - dimensionless: "10⁹"
-no:
-  - dimensionless: "Parts per billion"
-  - mass: "Mass of solute"
-  - mass: "Mass of solution"
-  - dimensionless: ""
+equation: (dimensionless) eq (((mass) div (mass)) mul (dimensionless))
+symbol_overrides:
+- dimensionless: ppb
+- mass: m_solute
+- mass: m_solution
+- dimensionless: 10⁹
+name_overrides:
+- dimensionless: Parts per billion
+- mass: Mass of solute
+- mass: Mass of solution
+- dimensionless: ''

@@ -1,7 +1,0 @@
-name: "Planck's law for blackbody radiation"
-id: planck_radiation_law_energy_density
-topic: quantum_mechanics
-difficulty: 5
-equation: "(energy_density) eq (pi) 8 mul (planck_constant) (frequency pow 3) mul mul (speed_of_light pow 3) mul (planck_constant) (frequency) mul (boltzmann_constant) (temperature) mul div exp 1 sub div"
-no:
-  - energy_density: "Spectral [energy] density"

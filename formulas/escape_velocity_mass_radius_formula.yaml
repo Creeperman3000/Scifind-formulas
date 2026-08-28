@@ -1,13 +1,14 @@
-name: "Escape velocity from mass and radius"
+name: Escape velocity from mass and radius
 id: escape_velocity_mass_radius_formula
 topic: escape_velocity
 difficulty: 3
-equation: "(velocity) eq (gravitational_constant) (mass) mul (length) div mul 2 mul sqrt"
-so:
-  - velocity: "v_esc"
-  - mass: "M"
-  - length: "R"
-no:
-  - velocity: "Escape [velocity]"
-  - mass: "Celestial body [mass]"
-  - length: "Body [radius]"
+equation: (velocity) eq (sqrt (((2 mul (gravitational_constant)) mul (mass)) div (length)))
+symbol_overrides:
+- gravitational_constant: ''
+- length: R
+- mass: M
+- velocity: v_esc
+name_overrides:
+- velocity: Escape [velocity]
+- mass: Celestial body [mass]
+- length: Body [radius]

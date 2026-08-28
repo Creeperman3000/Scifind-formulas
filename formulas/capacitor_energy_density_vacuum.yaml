@@ -1,9 +1,0 @@
-name: "Energy density in a capacitor (vacuum)"
-id: capacitor_energy_density_vacuum
-topic: capacitance
-difficulty: 3
-equation: "(energy_density) eq (vacuum_permittivity) (electric_field_strength pow 2) mul 2 div"
-so:
-  - energy_density: "u"
-no:
-  - energy_density: "Energy density"

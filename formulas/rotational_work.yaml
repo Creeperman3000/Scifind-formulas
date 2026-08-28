@@ -1,9 +1,0 @@
-name: "Rotational work done by a constant torque"
-id: rotational_work
-topic: rotational_energy
-difficulty: 2
-equation: "(work) eq (torque) (angle) mul"
-so:
-  - work: "W"
-no:
-  - work: "Rotational [work]"

@@ -1,9 +1,0 @@
-name: "Ohm's law"
-id: ohms_law
-topic: circuits
-difficulty: 1
-equation: "(electric_potential) eq (current) (resistance) mul"
-so:
-  - electric_potential: "V"
-no:
-  - electric_potential: "Voltage"

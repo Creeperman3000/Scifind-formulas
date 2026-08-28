@@ -1,7 +1,11 @@
-name: "Mass from moles and molar mass"
+name: Mass from moles and molar mass
 id: mol_based_mass_calculation
 topic: mole_concept
 difficulty: 1
-equation: "(mass) eq (amount) (molar_mass) mul"
-no:
-  - mass: "[Mass]"
+equation: (mass) eq ((amount) mul (molar_mass))
+name_overrides:
+- mass: '[Mass]'
+symbol_overrides:
+- amount: ''
+- mass: ''
+- molar_mass: ''

@@ -1,8 +1,0 @@
-name: "Secant identity"
-id: secant_identity
-topic: trigonometric_identities
-difficulty: 1
-equation: "(dimensionless) eq 1 (angle) cos div"
-so:
-  - dimensionless: "sec(θ)"
-  - angle: "θ"

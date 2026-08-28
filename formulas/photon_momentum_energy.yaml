@@ -1,8 +1,0 @@
-name: "Photon momentum from energy"
-id: photon_momentum_energy
-topic: particle_physics
-difficulty: 2
-equation: "(momentum) eq (energy) (speed_of_light) div"
-so:
-  - momentum: "p"
-  - energy: "E"

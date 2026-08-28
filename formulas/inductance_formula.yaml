@@ -1,5 +1,0 @@
-name: "Inductance definition"
-id: inductance_formula
-topic: electromagnetic_induction
-difficulty: 2
-equation: "(inductance) eq (magnetic_flux) (current) div"

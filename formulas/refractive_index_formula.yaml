@@ -1,9 +1,0 @@
-name: "Refractive index"
-id: refractive_index_formula
-topic: refraction
-difficulty: 2
-equation: "(refractive_index) eq (speed_of_light) (velocity) div"
-so:
-  - velocity: "v"
-no:
-  - velocity: "Speed in medium"

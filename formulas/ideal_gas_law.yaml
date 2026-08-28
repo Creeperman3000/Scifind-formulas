@@ -1,5 +1,0 @@
-name: "Ideal gas law"
-id: ideal_gas_law
-topic: ideal_gases
-difficulty: 2
-equation: "(pressure) (volume) mul eq (amount) (gas_constant) mul (temperature) mul"

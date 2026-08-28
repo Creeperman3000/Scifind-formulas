@@ -1,9 +1,0 @@
-name: "Surface area of a cube"
-id: surface_area_cube
-topic: plane_geometry
-difficulty: 1
-equation: "(area) eq (length pow 2) 6 mul"
-so:
-  - length: "s"
-no:
-  - length: "Side length"

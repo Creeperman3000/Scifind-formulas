@@ -1,11 +1,12 @@
-name: "Newton's second law (x-component)"
+name: Newton's second law (x-component)
 id: newtons_second_law_component_x
 topic: newtons_laws
 difficulty: 1
-equation: "(force) eq (mass) (acceleration) mul"
-so:
-  - force: "F_x"
-  - acceleration: "a_x"
-no:
-  - force: "Net force in x-direction"
-  - acceleration: "Acceleration in x-direction"
+equation: (force) eq ((mass) mul (acceleration))
+symbol_overrides:
+- acceleration: a_x
+- force: F_x
+- mass: ''
+name_overrides:
+- force: Net force in x-direction
+- acceleration: Acceleration in x-direction

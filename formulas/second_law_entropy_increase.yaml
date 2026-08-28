@@ -1,9 +1,0 @@
-name: "Second law: entropy of isolated system"
-id: second_law_entropy_increase
-topic: second_law
-difficulty: 2
-equation: "(entropy) Delta gt 0"
-so:
-  - entropy: "ΔS"
-no:
-  - entropy: "Change in entropy of isolated [system]"

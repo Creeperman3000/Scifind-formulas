@@ -1,9 +1,0 @@
-name: "Molar mass from ideal gas law"
-id: molar_mass_from_ideal_gas_law
-topic: molar_mass
-difficulty: 2
-equation: "(molar_mass) eq (density) (gas_constant) (temperature) mul (pressure) div mul"
-so:
-  - molar_mass: "M"
-no:
-  - molar_mass: "[Molar mass]"

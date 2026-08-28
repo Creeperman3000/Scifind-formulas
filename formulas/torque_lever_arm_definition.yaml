@@ -1,13 +1,12 @@
-name: "Torque as force times lever arm"
+name: Torque as force times lever arm
 id: torque_lever_arm_definition
 topic: torque
 difficulty: 1
-equation: "(torque) eq (length) (force) mul"
-so:
-  - torque: "τ"
-  - length: "r"
-  - force: "F"
-no:
-  - torque: "[Torque]"
-  - length: "Lever arm"
-  - force: "Applied [force]"
+equation: (torque) eq ((length) mul (force))
+symbol_overrides:
+- torque: τ
+- length: r
+name_overrides:
+- torque: '[Torque]'
+- length: Lever arm
+- force: Applied [force]

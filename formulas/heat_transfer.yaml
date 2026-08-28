@@ -1,5 +1,0 @@
-name: "Heat transfer by temperature change"
-id: heat_transfer
-topic: heat
-difficulty: 1
-equation: "(heat) eq (mass) (specific_heat_capacity) mul (temperature) Delta mul"

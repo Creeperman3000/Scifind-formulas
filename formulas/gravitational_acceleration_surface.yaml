@@ -1,11 +1,13 @@
-name: "Gravitational acceleration at planetary surface"
+name: Gravitational acceleration at planetary surface
 id: gravitational_acceleration_surface
 topic: newtonian_gravity
 difficulty: 1
-equation: "(acceleration) eq (gravitational_constant) (mass) mul (length pow 2) div"
-so:
-  - acceleration: "g"
-  - length: "R"
-no:
-  - acceleration: "Surface gravity"
-  - length: "Planet radius"
+equation: (acceleration) eq (((gravitational_constant) mul (mass)) div (length pow 2))
+symbol_overrides:
+- acceleration: g
+- gravitational_constant: ''
+- mass: ''
+- length: R
+name_overrides:
+- acceleration: Surface gravity
+- length: Planet radius

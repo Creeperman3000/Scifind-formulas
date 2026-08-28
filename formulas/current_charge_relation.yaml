@@ -1,13 +1,8 @@
-name: "Electric current from charge flow"
+name: Electric current from charge flow
 id: current_charge_relation
 topic: current_electricity
 difficulty: 1
-equation: "(current) eq (charge) (time) div"
-so:
-  - current: "I"
-  - charge: "Q"
-  - time: "t"
-no:
-  - current: "[Current]"
-  - charge: "Charge"
-  - time: "Time"
+equation: (current) eq ((charge) div (time))
+name_overrides:
+- current: '[Current]'
+- charge: Charge

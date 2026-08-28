@@ -1,13 +1,11 @@
-name: "Weight from mass"
+name: Weight from mass
 id: force_weight_mass_relation
 topic: forces
 difficulty: 1
-equation: "(force) eq (mass) (acceleration) mul"
-so:
-  - force: "W"
-  - mass: "m"
-  - acceleration: "g"
-no:
-  - force: "[Weight]"
-  - mass: "Mass"
-  - acceleration: "Gravitational [acceleration]"
+equation: (force) eq ((mass) mul (acceleration))
+symbol_overrides:
+- force: W
+- acceleration: g
+name_overrides:
+- force: '[Weight]'
+- acceleration: Gravitational [acceleration]

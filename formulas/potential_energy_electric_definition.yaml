@@ -1,9 +1,11 @@
-name: "Electric potential energy from potential and charge"
+name: Electric potential energy from potential and charge
 id: potential_energy_electric_definition
 topic: potential_energy
 difficulty: 1
-equation: "(energy) eq (charge) (electric_potential) mul"
-so:
-  - energy: "U_e"
-no:
-  - energy: "Electric potential [energy]"
+equation: (energy) eq ((charge) mul (electric_potential))
+symbol_overrides:
+- charge: ''
+- electric_potential: ''
+- energy: U_e
+name_overrides:
+- energy: Electric potential [energy]

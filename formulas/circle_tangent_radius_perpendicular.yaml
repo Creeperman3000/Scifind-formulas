@@ -1,11 +1,11 @@
-name: "Tangent-radius perpendicularity"
+name: Tangent-radius perpendicularity
 id: circle_tangent_radius_perpendicular
 topic: circles
 difficulty: 1
-equation: "(angle) eq (angle)"
-so:
-  - angle: "90°"
-  - angle: "θ"
-no:
-  - angle: "Angle between radius and tangent"
-  - angle: "Angle measure"
+equation: (angle) eq (angle)
+symbol_overrides:
+- angle: 90°
+- angle: θ
+name_overrides:
+- angle: Angle between radius and tangent
+- angle: Angle measure

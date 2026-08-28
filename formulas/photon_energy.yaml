@@ -1,5 +1,0 @@
-name: "Photon energy"
-id: photon_energy
-topic: quantum_mechanics
-difficulty: 2
-equation: "(energy) eq (planck_constant) (frequency) mul"

@@ -1,15 +1,15 @@
-name: "Base dissociation constant"
+name: Base dissociation constant
 id: base_dissociation_constant
 topic: acids_and_bases
 difficulty: 3
-equation: "(equilibrium_constant) eq (concentration) (concentration) mul (concentration) div"
-so:
-  - equilibrium_constant: "K_b"
-  - concentration: "[BH⁺]"
-  - concentration: "[OH⁻]"
-  - concentration: "[B]"
-no:
-  - equilibrium_constant: "Base dissociation [constant]"
-  - concentration: "Conjugate acid [concentration]"
-  - concentration: "Hydroxide [concentration]"
-  - concentration: "Base [concentration]"
+equation: (equilibrium_constant) eq (((concentration) mul (concentration)) div (concentration))
+symbol_overrides:
+- equilibrium_constant: K_b
+- concentration: '[BH⁺]'
+- concentration: '[OH⁻]'
+- concentration: '[B]'
+name_overrides:
+- equilibrium_constant: Base dissociation [constant]
+- concentration: Conjugate acid [concentration]
+- concentration: Hydroxide [concentration]
+- concentration: Base [concentration]

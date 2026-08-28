@@ -1,15 +1,15 @@
-name: "Hydraulic force amplification"
+name: Hydraulic force amplification
 id: hydraulic_force_amplification
 topic: pascals_law
 difficulty: 2
-equation: "(force) eq (force) (area) (area) div mul"
-so:
-  - force: "F_2"
-  - force: "F_1"
-  - area: "A_2"
-  - area: "A_1"
-no:
-  - force: "Output [force]"
-  - force: "Input [force]"
-  - area: "Output [area]"
-  - area: "Input [area]"
+equation: (force) eq ((force) mul ((area) div (area)))
+symbol_overrides:
+- force: F_2
+- force: F_1
+- area: A_2
+- area: A_1
+name_overrides:
+- force: Output [force]
+- force: Input [force]
+- area: Output [area]
+- area: Input [area]

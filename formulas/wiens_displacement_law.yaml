@@ -1,9 +1,0 @@
-name: "Wien's displacement law"
-id: wiens_displacement_law
-topic: heat_transfer
-difficulty: 3
-equation: "(length) (temperature) mul eq (wiens_constant)"
-so:
-  - length: "λ_max"
-no:
-  - length: "Peak wavelength"

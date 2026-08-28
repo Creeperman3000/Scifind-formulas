@@ -1,7 +1,0 @@
-name: "Number of particles from amount and Avogadro constant"
-id: mole_concept_avogadro_number_particles
-topic: mole_concept
-difficulty: 1
-equation: "(number_of_particles) eq (amount) (avogadro_number) mul"
-no:
-  - number_of_particles: "Number of [particles]"

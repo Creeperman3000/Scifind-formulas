@@ -1,9 +1,0 @@
-name: "RC circuit cutoff frequency"
-id: rc_cutoff_frequency
-topic: circuits
-difficulty: 3
-equation: "(frequency) eq 1 2 pi mul (resistance) (capacitance) mul mul div"
-so:
-  - frequency: "f_c"
-no:
-  - frequency: "Cutoff [frequency]"

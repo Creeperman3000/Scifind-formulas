@@ -1,9 +1,0 @@
-name: "Activity from decay constant"
-id: activity_from_decay_constant
-topic: nuclear_physics
-difficulty: 2
-equation: "(activity) eq (amount) (number_of_particles) mul"
-so:
-  - amount: "λ"
-no:
-  - amount: "Decay constant"

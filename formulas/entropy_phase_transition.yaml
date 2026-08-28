@@ -1,13 +1,11 @@
-name: "Entropy change of phase transition"
+name: Entropy change of phase transition
 id: entropy_phase_transition
 topic: entropy
 difficulty: 2
-equation: "(entropy) eq (heat) (temperature) div"
-so:
-  - entropy: "ΔS"
-  - heat: "Q_rev"
-  - temperature: "T"
-no:
-  - entropy: "Change in [entropy]"
-  - heat: "Reversible [heat]"
-  - temperature: "Temperature"
+equation: (entropy) eq ((heat) div (temperature))
+symbol_overrides:
+- entropy: ΔS
+- heat: Q_rev
+name_overrides:
+- entropy: Change in [entropy]
+- heat: Reversible [heat]

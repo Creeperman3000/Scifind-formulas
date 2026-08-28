@@ -1,5 +1,0 @@
-name: "Cosine squared identity"
-id: trigonometric_cosine_squared_identity
-topic: trigonometric_identities
-difficulty: 1
-equation: "(angle) pow 2 cos eq 1 (angle) 2 mul cos add 2 div"

@@ -1,15 +1,15 @@
-name: "Isothermal process relation"
+name: Isothermal process relation
 id: isothermal_relation
 topic: ideal_gases
 difficulty: 2
-equation: "(pressure) (volume) mul eq (pressure) (volume) mul"
-so:
-  - pressure: "P₁"
-  - volume: "V₁"
-  - pressure: "P₂"
-  - volume: "V₂"
-no:
-  - pressure: "Initial [pressure]"
-  - volume: "Initial [volume]"
-  - pressure: "Final [pressure]"
-  - volume: "Final [volume]"
+equation: ((pressure) mul (volume)) eq ((pressure) mul (volume))
+symbol_overrides:
+- pressure: P₁
+- volume: V₁
+- pressure: P₂
+- volume: V₂
+name_overrides:
+- pressure: Initial [pressure]
+- volume: Initial [volume]
+- pressure: Final [pressure]
+- volume: Final [volume]

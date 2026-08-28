@@ -1,7 +1,0 @@
-name: "General Lorentz force (electric and magnetic)"
-id: lorentz_force_electric_magnetic_general
-topic: magnetism
-difficulty: 3
-equation: "(force) eq (charge) (electric_field_strength) mul (charge) (velocity) (magnetic_flux_density) mul cross mul add"
-no:
-  - force: "Lorentz [force]"

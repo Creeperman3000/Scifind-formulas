@@ -1,7 +1,0 @@
-name: "Moment of inertia of a solid sphere"
-id: moi_solid_sphere
-topic: moment_of_inertia
-difficulty: 2
-equation: "(moment_of_inertia) eq (mass) (length pow 2) mul 2 mul 5 div"
-so:
-  - length: "R"

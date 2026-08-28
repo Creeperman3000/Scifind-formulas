@@ -1,13 +1,9 @@
-name: "Moles from mass"
+name: Moles from mass
 id: moles_from_mass
 topic: mole_concept
 difficulty: 1
-equation: "(amount) eq (mass) (molar_mass) div"
-so:
-  - amount: "n"
-  - mass: "m"
-  - molar_mass: "M"
-no:
-  - amount: "Amount of substance (moles)"
-  - mass: "[Mass]"
-  - molar_mass: "Molar [mass]"
+equation: (amount) eq ((mass) div (molar_mass))
+name_overrides:
+- amount: Amount of substance (moles)
+- mass: '[Mass]'
+- molar_mass: Molar [mass]

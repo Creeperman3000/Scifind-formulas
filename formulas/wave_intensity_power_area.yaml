@@ -1,13 +1,11 @@
-name: "Wave intensity from power and area"
+name: Wave intensity from power and area
 id: wave_intensity_power_area
 topic: mechanical_waves
 difficulty: 2
-equation: "(irradiance) eq (power) (area) div"
-so:
-  - irradiance: "I"
-  - power: "P"
-  - area: "A"
-no:
-  - irradiance: "Wave [intensity]"
-  - power: "[Power]"
-  - area: "[Area]"
+equation: (irradiance) eq ((power) div (area))
+symbol_overrides:
+- irradiance: I
+name_overrides:
+- irradiance: Wave [intensity]
+- power: '[Power]'
+- area: '[Area]'

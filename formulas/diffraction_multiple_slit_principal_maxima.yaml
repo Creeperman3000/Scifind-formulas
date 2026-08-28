@@ -1,15 +1,15 @@
-name: "Principal maxima for multiple-slit diffraction"
+name: Principal maxima for multiple-slit diffraction
 id: diffraction_multiple_slit_principal_maxima
 topic: diffraction
 difficulty: 3
-equation: "(length) (angle) sin mul eq (dimensionless) (length) mul"
-so:
-  - length: "d"
-  - angle: "θ"
-  - dimensionless: "m"
-  - length: "λ"
-no:
-  - length: "Slit spacing"
-  - angle: "Diffraction angle"
-  - dimensionless: "Order number"
-  - length: "Wavelength"
+equation: ((length) mul (sin (angle))) eq ((dimensionless) mul (length))
+symbol_overrides:
+- length: d
+- angle: θ
+- dimensionless: m
+- length: λ
+name_overrides:
+- length: Slit spacing
+- angle: Diffraction angle
+- dimensionless: Order number
+- length: Wavelength

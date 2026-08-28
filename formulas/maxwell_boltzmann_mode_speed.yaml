@@ -1,9 +1,0 @@
-name: "Most probable speed from Maxwell-Boltzmann distribution"
-id: maxwell_boltzmann_mode_speed
-topic: ideal_gases
-difficulty: 3
-equation: "(velocity) eq (gas_constant) (temperature) mul 2 mul (molar_mass) div sqrt"
-so:
-  - velocity: "v_mp"
-no:
-  - velocity: "Most probable speed"

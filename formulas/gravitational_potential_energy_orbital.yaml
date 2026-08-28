@@ -1,15 +1,15 @@
-name: "Gravitational potential energy in orbital motion"
+name: Gravitational potential energy in orbital motion
 id: gravitational_potential_energy_orbital
 topic: orbital_motion
 difficulty: 3
-equation: "(energy) eq (gravitational_constant) (mass) (mass) mul mul (length) div neg"
-so:
-  - energy: "U"
-  - mass: "M"
-  - mass: "m"
-  - length: "r"
-no:
-  - energy: "Gravitational potential [energy]"
-  - mass: "Central [mass]"
-  - mass: "Orbiting [mass]"
-  - length: "Separation"
+equation: (energy) eq neg((((gravitational_constant) mul ((mass) mul (mass))) div (length)))
+symbol_overrides:
+- energy: U
+- gravitational_constant: ''
+- length: r
+- mass: M
+name_overrides:
+- energy: Gravitational potential [energy]
+- mass: Central [mass]
+- mass: Orbiting [mass]
+- length: Separation

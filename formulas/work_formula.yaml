@@ -1,7 +1,0 @@
-name: "Work"
-id: work_formula
-topic: work
-difficulty: 1
-equation: "(work) eq (force) (displacement) mul"
-no:
-  - work: "[Work]"

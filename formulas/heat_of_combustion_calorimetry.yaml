@@ -1,11 +1,12 @@
-name: "Heat of combustion from calorimetry"
+name: Heat of combustion from calorimetry
 id: heat_of_combustion_calorimetry
 topic: thermochemistry
 difficulty: 2
-equation: "(molar_energy) eq (energy) (amount) div"
-so:
-  - molar_energy: "ΔH_c"
-no:
-  - molar_energy: "Molar enthalpy of [combustion]"
-  - energy: "[Heat] released"
-  - amount: "Amount of substance"
+equation: (molar_energy) eq ((energy) div (amount))
+symbol_overrides:
+- amount: ''
+- energy: ''
+- molar_energy: ΔH_c
+name_overrides:
+- molar_energy: Molar enthalpy of [combustion]
+- energy: '[Heat] released'

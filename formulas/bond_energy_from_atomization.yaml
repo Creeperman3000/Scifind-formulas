@@ -1,13 +1,13 @@
-name: "Bond energy from atomization enthalpy"
+name: Bond energy from atomization enthalpy
 id: bond_energy_from_atomization
 topic: chemical_bonding
 difficulty: 3
-equation: "(energy) eq (energy) (energy) sub"
-so:
-  - energy: "ΔH_atom"
-  - energy: "ΣD_broken"
-  - energy: "ΣD_formed"
-no:
-  - energy: "Atomization [enthalpy]"
-  - energy: "Sum of bond energies broken"
-  - energy: "Sum of bond energies formed"
+equation: (energy) eq ((energy) sub (energy))
+symbol_overrides:
+- energy: ΔH_atom
+- energy: ΣD_broken
+- energy: ΣD_formed
+name_overrides:
+- energy: Atomization [enthalpy]
+- energy: Sum of bond energies broken
+- energy: Sum of bond energies formed

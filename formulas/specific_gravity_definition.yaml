@@ -1,13 +1,13 @@
-name: "Specific gravity definition"
+name: Specific gravity definition
 id: specific_gravity_definition
 topic: buoyancy
 difficulty: 1
-equation: "(dimensionless) eq (density) (density) div"
-so:
-  - dimensionless: "SG"
-  - density: "ρ_substance"
-  - density: "ρ_water"
-no:
-  - dimensionless: "Specific [gravity]"
-  - density: "Substance [density]"
-  - density: "[Density] of water"
+equation: (dimensionless) eq ((density) div (density))
+symbol_overrides:
+- dimensionless: SG
+- density: ρ_substance
+- density: ρ_water
+name_overrides:
+- dimensionless: Specific [gravity]
+- density: Substance [density]
+- density: '[Density] of water'

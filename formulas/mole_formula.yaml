@@ -1,5 +1,9 @@
-name: "Amount of substance from mass"
+name: Amount of substance from mass
 id: mole_formula
 topic: mole_concept
 difficulty: 1
-equation: "(amount) eq (mass) (molar_mass) div"
+equation: (amount) eq ((mass) div (molar_mass))
+symbol_overrides:
+- amount: ''
+- mass: ''
+- molar_mass: ''

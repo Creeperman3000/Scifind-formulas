@@ -1,9 +1,0 @@
-name: "Dynamic pressure from Bernoulli's equation"
-id: dynamic_pressure_bernoulli
-topic: bernoulli_equation
-difficulty: 2
-equation: "(pressure) eq (density) (velocity pow 2) mul 2 div"
-so:
-  - pressure: "P_dyn"
-no:
-  - pressure: "Dynamic [pressure]"

@@ -1,9 +1,9 @@
-name: "Power dissipation in a resistor"
+name: Power dissipation in a resistor
 id: power_in_resistive_circuit
 topic: circuits
 difficulty: 1
-equation: "(power) eq (current pow 2) (resistance) mul"
-so:
-  - power: "P"
-no:
-  - power: "Power dissipated"
+equation: (power) eq ((current pow 2) mul (resistance))
+symbol_overrides:
+- resistance: ''
+name_overrides:
+- power: Power dissipated

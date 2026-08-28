@@ -1,9 +1,0 @@
-name: "Sum of exterior angles of a polygon"
-id: polygon_exterior_angle_sum
-topic: polygons
-difficulty: 1
-equation: "(angle) eq 360"
-so:
-  - angle: "Σθ_ext"
-no:
-  - angle: "Sum of exterior angles"

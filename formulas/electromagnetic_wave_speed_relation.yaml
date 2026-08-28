@@ -1,11 +1,12 @@
-name: "Relationship between wave speed, frequency, and wavelength"
+name: Relationship between wave speed, frequency, and wavelength
 id: electromagnetic_wave_speed_relation
 topic: electromagnetic_waves
 difficulty: 1
-equation: "(velocity) eq (frequency) (length) mul"
-so:
-  - velocity: "c"
-  - length: "λ"
-no:
-  - velocity: "Wave speed"
-  - length: "Wavelength"
+equation: (velocity) eq ((frequency) mul (length))
+symbol_overrides:
+- frequency: ''
+- length: λ
+- velocity: c
+name_overrides:
+- velocity: Wave speed
+- length: Wavelength

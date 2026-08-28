@@ -1,9 +1,0 @@
-name: "Double-angle formula for sine"
-id: double_angle_sine
-topic: trigonometric_identities
-difficulty: 2
-equation: "(angle) 2 mul sin eq (angle) sin (angle) cos 2 mul mul"
-so:
-  - angle: "θ"
-  - angle: "θ"
-  - angle: "θ"

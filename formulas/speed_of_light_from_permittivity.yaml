@@ -1,5 +1,0 @@
-name: "Speed of light from permittivity and permeability"
-id: speed_of_light_from_permittivity
-topic: electromagnetic_waves
-difficulty: 3
-equation: "(speed_of_light) eq (vacuum_permittivity) (vacuum_permeability) mul sqrt 1 div"

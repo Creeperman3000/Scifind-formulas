@@ -1,9 +1,0 @@
-name: "Derivative of a constant"
-id: derivative_constant_rule
-topic: derivatives
-difficulty: 1
-equation: "(dimensionless) (dimensionless) rmd eq 0"
-so:
-  - dimensionless: "c"
-no:
-  - dimensionless: "d(c)/dx"

@@ -1,5 +1,0 @@
-name: "Molar entropy"
-id: molar_entropy_formula
-topic: entropy
-difficulty: 1
-equation: "(molar_entropy) eq (entropy) (amount) div"

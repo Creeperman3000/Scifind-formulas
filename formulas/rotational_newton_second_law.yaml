@@ -1,13 +1,12 @@
-name: "Rotational form of Newton's second law"
+name: Rotational form of Newton's second law
 id: rotational_newton_second_law
 topic: torque
 difficulty: 2
-equation: "(torque) eq (moment_of_inertia) (angular_acceleration) mul"
-so:
-  - torque: "τ_net"
-  - moment_of_inertia: "I"
-  - angular_acceleration: "α"
-no:
-  - torque: "Net [torque]"
-  - moment_of_inertia: "Moment of [inertia]"
-  - angular_acceleration: "Angular [acceleration]"
+equation: (torque) eq ((moment_of_inertia) mul (angular_acceleration))
+symbol_overrides:
+- torque: τ_net
+- angular_acceleration: α
+name_overrides:
+- torque: Net [torque]
+- moment_of_inertia: Moment of [inertia]
+- angular_acceleration: Angular [acceleration]

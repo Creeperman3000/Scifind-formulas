@@ -1,19 +1,19 @@
-name: "Mass of product from stoichiometry"
+name: Mass of product from stoichiometry
 id: stoichiometric_mass_product
 topic: limiting_reactants
 difficulty: 2
-equation: "(mass) eq (mass) (molar_mass) div (dimensionless) (dimensionless) div (molar_mass) mul"
-so:
-  - mass: "m_product"
-  - mass: "m_reactant"
-  - molar_mass: "M_reactant"
-  - dimensionless: "n_product"
-  - dimensionless: "n_reactant"
-  - molar_mass: "M_product"
-no:
-  - mass: "Mass of product"
-  - mass: "Mass of reactant"
-  - molar_mass: "Molar mass of reactant"
-  - dimensionless: "Coefficient of product"
-  - dimensionless: "Coefficient of reactant"
-  - molar_mass: "Molar mass of product"
+equation: (mass) eq ((((mass) div (molar_mass)) mul ((dimensionless) div (dimensionless))) mul (molar_mass))
+symbol_overrides:
+- mass: m_product
+- mass: m_reactant
+- molar_mass: M_reactant
+- dimensionless: n_product
+- dimensionless: n_reactant
+- molar_mass: M_product
+name_overrides:
+- mass: Mass of product
+- mass: Mass of reactant
+- molar_mass: Molar mass of reactant
+- dimensionless: Coefficient of product
+- dimensionless: Coefficient of reactant
+- molar_mass: Molar mass of product

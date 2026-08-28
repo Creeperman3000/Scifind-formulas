@@ -1,9 +1,10 @@
-name: "Translational kinetic energy definition"
+name: Translational kinetic energy definition
 id: kinetic_energy_translational_definition
 topic: kinetic_energy
 difficulty: 1
-equation: "(energy) eq (mass) (velocity pow 2) mul 2 div"
-so:
-  - energy: "K"
-no:
-  - energy: "Translational kinetic [energy]"
+equation: (energy) eq (((mass) mul (velocity pow 2)) div 2)
+symbol_overrides:
+- energy: K
+- mass: ''
+name_overrides:
+- energy: Translational kinetic [energy]

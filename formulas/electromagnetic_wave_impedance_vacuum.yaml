@@ -1,9 +1,0 @@
-name: "Impedance of free space"
-id: electromagnetic_wave_impedance_vacuum
-topic: electromagnetic_waves
-difficulty: 3
-equation: "(resistance) eq (vacuum_permeability) (vacuum_permittivity) div sqrt"
-so:
-  - resistance: "Z_0"
-no:
-  - resistance: "Impedance of free space"

@@ -1,15 +1,14 @@
-name: "Reynolds number for pipe flow"
+name: Reynolds number for pipe flow
 id: reynolds_number_pipe_formula
 topic: reynolds_number
 difficulty: 2
-equation: "(reynolds_number) eq (density) (velocity) mul (length) mul (dynamic_viscosity) div"
-so:
-  - density: "ρ"
-  - velocity: "v"
-  - length: "D"
-  - dynamic_viscosity: "μ"
-no:
-  - density: "Fluid [density]"
-  - velocity: "Flow [velocity]"
-  - length: "Pipe [diameter]"
-  - dynamic_viscosity: "Dynamic viscosity"
+equation: (reynolds_number) eq ((((density) mul (velocity)) mul (length)) div (dynamic_viscosity))
+symbol_overrides:
+- density: ρ
+- dynamic_viscosity: μ
+- length: D
+- reynolds_number: ''
+name_overrides:
+- density: Fluid [density]
+- velocity: Flow [velocity]
+- length: Pipe [diameter]

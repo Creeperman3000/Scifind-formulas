@@ -1,9 +1,0 @@
-name: "Acceleration from net force"
-id: acceleration_from_net_force
-topic: newtons_laws
-difficulty: 1
-equation: "(acceleration) eq (force) (mass) div"
-so:
-  - acceleration: "a"
-  - force: "F_net"
-  - mass: "m"

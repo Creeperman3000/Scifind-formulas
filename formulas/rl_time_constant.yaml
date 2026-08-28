@@ -1,9 +1,0 @@
-name: "RL circuit time constant"
-id: rl_time_constant
-topic: circuits
-difficulty: 2
-equation: "(time) eq (inductance) (resistance) div"
-so:
-  - time: "τ"
-no:
-  - time: "Time constant"

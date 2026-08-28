@@ -1,9 +1,0 @@
-name: "Energy stored in a capacitor"
-id: capacitor_energy
-topic: capacitance
-difficulty: 2
-equation: "(energy) eq (capacitance) (electric_potential pow 2) mul 2 div"
-so:
-  - energy: "U"
-no:
-  - energy: "Stored [energy]"

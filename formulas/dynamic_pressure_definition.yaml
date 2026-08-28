@@ -1,13 +1,12 @@
-name: "Dynamic pressure"
+name: Dynamic pressure
 id: dynamic_pressure_definition
 topic: bernoulli_equation
 difficulty: 2
-equation: "(pressure) eq (density) (velocity pow 2) mul 2 div"
-so:
-  - pressure: "q"
-  - density: "ρ"
-  - velocity: "v"
-no:
-  - pressure: "Dynamic [pressure]"
-  - density: "Fluid [density]"
-  - velocity: "Flow [velocity]"
+equation: (pressure) eq (((density) mul (velocity pow 2)) div 2)
+symbol_overrides:
+- pressure: q
+- density: ρ
+name_overrides:
+- pressure: Dynamic [pressure]
+- density: Fluid [density]
+- velocity: Flow [velocity]

@@ -1,9 +1,0 @@
-name: "Molar mass of an ideal gas from density"
-id: molar_mass_ideal_gas_density_derived
-topic: molar_mass
-difficulty: 2
-equation: "(molar_mass) eq (density) (gas_constant) (temperature) mul (pressure) div mul"
-so:
-  - molar_mass: "M"
-no:
-  - molar_mass: "[Molar mass]"

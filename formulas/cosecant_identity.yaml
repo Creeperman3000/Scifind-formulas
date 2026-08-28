@@ -1,8 +1,0 @@
-name: "Cosecant identity"
-id: cosecant_identity
-topic: trigonometric_identities
-difficulty: 1
-equation: "(dimensionless) eq 1 (angle) sin div"
-so:
-  - dimensionless: "csc(θ)"
-  - angle: "θ"

@@ -1,9 +1,0 @@
-name: "Kinetic energy from momentum"
-id: kinetic_energy_momentum
-topic: kinetic_energy
-difficulty: 2
-equation: "(energy) eq (momentum pow 2) (mass) 2 mul div"
-so:
-  - energy: "E_k"
-no:
-  - energy: "Kinetic [energy]"

@@ -1,9 +1,5 @@
-name: "Capacitor charge from capacitance and voltage"
+name: Capacitor charge from capacitance and voltage
 id: capacitor_charge_formula
 topic: capacitance
 difficulty: 1
-equation: "(charge) eq (capacitance) (electric_potential) mul"
-so:
-  - charge: "Q"
-  - capacitance: "C"
-  - electric_potential: "V"
+equation: (charge) eq ((capacitance) mul (electric_potential))

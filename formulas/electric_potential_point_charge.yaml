@@ -1,9 +1,0 @@
-name: "Electric potential of a point charge"
-id: electric_potential_point_charge
-topic: electric_potential
-difficulty: 2
-equation: "(electric_potential) eq (coulomb_constant) (charge) mul (length) div"
-so:
-  - length: "r"
-no:
-  - length: "Distance"

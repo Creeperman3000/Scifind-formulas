@@ -1,11 +1,12 @@
-name: "Maximum kinetic energy of photoelectrons"
+name: Maximum kinetic energy of photoelectrons
 id: photoelectric_effect_kinetic_energy
 topic: quantum_mechanics
 difficulty: 3
-equation: "(energy) eq (planck_constant) (frequency) mul (energy) sub"
-so:
-  - energy: "K_max"
-  - energy: "φ"
-no:
-  - energy: "Maximum kinetic [energy]"
-  - energy: "Work function"
+equation: (energy) eq (((planck_constant) mul (frequency)) sub (energy))
+symbol_overrides:
+- energy: K_max
+- energy: φ
+- frequency: ''
+name_overrides:
+- energy: Maximum kinetic [energy]
+- energy: Work function

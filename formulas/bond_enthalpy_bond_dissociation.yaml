@@ -1,13 +1,13 @@
-name: "Bond dissociation energy"
+name: Bond dissociation energy
 id: bond_enthalpy_bond_dissociation
 topic: chemical_bonding
 difficulty: 2
-equation: "(energy) eq (energy) (energy) sub"
-so:
-  - energy: "ΔH_bond"
-  - energy: "E_reactants"
-  - energy: "E_products"
-no:
-  - energy: "Bond dissociation [energy]"
-  - energy: "Energy of reactants"
-  - energy: "Energy of products"
+equation: (energy) eq ((energy) sub (energy))
+symbol_overrides:
+- energy: ΔH_bond
+- energy: E_reactants
+- energy: E_products
+name_overrides:
+- energy: Bond dissociation [energy]
+- energy: Energy of reactants
+- energy: Energy of products

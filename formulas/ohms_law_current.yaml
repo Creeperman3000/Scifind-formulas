@@ -1,7 +1,0 @@
-name: "Ohm's law (current form)"
-id: ohms_law_current
-topic: circuits
-difficulty: 1
-equation: "(current) eq (electric_potential) (resistance) div"
-no:
-  - electric_potential: "Voltage"

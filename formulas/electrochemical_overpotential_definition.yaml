@@ -1,13 +1,13 @@
-name: "Overpotential in electrochemistry"
+name: Overpotential in electrochemistry
 id: electrochemical_overpotential_definition
 topic: electrochemistry
 difficulty: 3
-equation: "(electric_potential) eq (electric_potential) (electric_potential) sub"
-so:
-  - electric_potential: "η"
-  - electric_potential: "E"
-  - electric_potential: "E_eq"
-no:
-  - electric_potential: "Overpotential"
-  - electric_potential: "Applied [potential]"
-  - electric_potential: "Equilibrium [potential]"
+equation: (electric_potential) eq ((electric_potential) sub (electric_potential))
+symbol_overrides:
+- electric_potential: η
+- electric_potential: E
+- electric_potential: E_eq
+name_overrides:
+- electric_potential: Overpotential
+- electric_potential: Applied [potential]
+- electric_potential: Equilibrium [potential]

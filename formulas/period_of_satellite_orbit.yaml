@@ -1,11 +1,13 @@
-name: "Period of a satellite in circular orbit"
+name: Period of a satellite in circular orbit
 id: period_of_satellite_orbit
 topic: orbital_motion
 difficulty: 2
-equation: "(time) eq (pi) 2 mul (length pow 3) (gravitational_constant) (mass) mul div sqrt mul"
-so:
-  - time: "T"
-  - length: "r"
-no:
-  - time: "Orbital period"
-  - length: "Orbital radius"
+equation: (time) eq (((pi) mul 2) mul (sqrt ((length pow 3) div ((gravitational_constant) mul (mass)))))
+symbol_overrides:
+- gravitational_constant: ''
+- mass: ''
+- time: T
+- length: r
+name_overrides:
+- time: Orbital period
+- length: Orbital radius

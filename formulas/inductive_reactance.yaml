@@ -1,9 +1,0 @@
-name: "Inductive reactance"
-id: inductive_reactance
-topic: circuits
-difficulty: 3
-equation: "(resistance) eq (pi) 2 mul (frequency) (inductance) mul mul"
-so:
-  - resistance: "X_L"
-no:
-  - resistance: "Inductive reactance"

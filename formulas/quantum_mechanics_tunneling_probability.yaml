@@ -1,5 +1,0 @@
-name: "Quantum tunneling probability (WKB)"
-id: quantum_mechanics_tunneling_probability
-topic: quantum_mechanics
-difficulty: 5
-equation: "(dimensionless) eq (planck_constant) (pi) 2 mul div (mass) (energy) (energy) sub mul sqrt (length) mul 2 mul neg exp"

@@ -1,9 +1,0 @@
-name: "Impulse"
-id: impulse_formula
-topic: impulse
-difficulty: 1
-equation: "(momentum) eq (force) (time) mul"
-so:
-  - momentum: "J"
-no:
-  - momentum: "[Impulse]"

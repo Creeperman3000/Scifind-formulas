@@ -1,9 +1,0 @@
-name: "RC time constant"
-id: rc_time_constant
-topic: circuits
-difficulty: 2
-equation: "(time) eq (resistance) (capacitance) mul"
-so:
-  - time: "τ"
-no:
-  - time: "Time constant"

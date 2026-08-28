@@ -1,11 +1,11 @@
-name: "Binding energy from mass defect"
+name: Binding energy from mass defect
 id: nuclear_physics_binding_energy_from_mass_defect
 topic: nuclear_physics
 difficulty: 2
-equation: "(energy) eq (mass) (speed_of_light pow 2) mul"
-so:
-  - energy: "E_b"
-  - mass: "Δm"
-no:
-  - energy: "Binding [energy]"
-  - mass: "Mass [defect]"
+equation: (energy) eq ((mass) mul (speed_of_light pow 2))
+symbol_overrides:
+- energy: E_b
+- mass: Δm
+name_overrides:
+- energy: Binding [energy]
+- mass: Mass [defect]

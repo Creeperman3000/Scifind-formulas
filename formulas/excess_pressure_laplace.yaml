@@ -1,11 +1,12 @@
-name: "Laplace pressure for a curved surface"
+name: Laplace pressure for a curved surface
 id: excess_pressure_laplace
 topic: surface_tension
 difficulty: 3
-equation: "(pressure) eq (surface_tension) 2 mul (length) div"
-so:
-  - pressure: "ΔP"
-  - length: "R"
-no:
-  - pressure: "Excess [pressure]"
-  - length: "Radius of curvature"
+equation: (pressure) eq (((surface_tension) mul 2) div (length))
+symbol_overrides:
+- length: R
+- pressure: ΔP
+- surface_tension: ''
+name_overrides:
+- pressure: Excess [pressure]
+- length: Radius of curvature

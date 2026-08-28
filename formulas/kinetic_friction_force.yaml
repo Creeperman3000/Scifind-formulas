@@ -1,13 +1,13 @@
-name: "Kinetic friction force"
+name: Kinetic friction force
 id: kinetic_friction_force
 topic: friction
 difficulty: 1
-equation: "(force) eq (coefficient_of_friction) (force) mul"
-so:
-  - force: "F_k"
-  - coefficient_of_friction: "μ_k"
-  - force: "N"
-no:
-  - force: "Kinetic friction [force]"
-  - coefficient_of_friction: "Coefficient of kinetic friction"
-  - force: "Normal [force]"
+equation: (force) eq ((coefficient_of_friction) mul (force))
+symbol_overrides:
+- force: F_k
+- coefficient_of_friction: μ_k
+- force: N
+name_overrides:
+- force: Kinetic friction [force]
+- coefficient_of_friction: Coefficient of kinetic friction
+- force: Normal [force]

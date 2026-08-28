@@ -1,13 +1,13 @@
-name: "Rolling friction force"
+name: Rolling friction force
 id: rolling_friction_force
 topic: friction
 difficulty: 2
-equation: "(force) eq (coefficient_of_friction) (force) mul"
-so:
-  - force: "f_r"
-  - coefficient_of_friction: "μ_r"
-  - force: "N"
-no:
-  - force: "Rolling [friction]"
-  - coefficient_of_friction: "Coefficient of rolling [friction]"
-  - force: "Normal [force]"
+equation: (force) eq ((coefficient_of_friction) mul (force))
+symbol_overrides:
+- force: f_r
+- coefficient_of_friction: μ_r
+- force: N
+name_overrides:
+- force: Rolling [friction]
+- coefficient_of_friction: Coefficient of rolling [friction]
+- force: Normal [force]

@@ -1,13 +1,13 @@
-name: "Optical power of lenses in contact"
+name: Optical power of lenses in contact
 id: lens_combination_focal_length
 topic: lenses
 difficulty: 4
-equation: "(wavenumber) eq (wavenumber) (wavenumber) add"
-so:
-  - wavenumber: "P"
-  - wavenumber: "P₁"
-  - wavenumber: "P₂"
-no:
-  - wavenumber: "Total optical [power]"
-  - wavenumber: "Lens 1 [power]"
-  - wavenumber: "Lens 2 [power]"
+equation: (wavenumber) eq ((wavenumber) add (wavenumber))
+symbol_overrides:
+- wavenumber: P
+- wavenumber: P₁
+- wavenumber: P₂
+name_overrides:
+- wavenumber: Total optical [power]
+- wavenumber: Lens 1 [power]
+- wavenumber: Lens 2 [power]

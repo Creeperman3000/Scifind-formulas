@@ -1,5 +1,0 @@
-name: "Angular acceleration from torque"
-id: angular_acceleration_from_torque
-topic: torque
-difficulty: 2
-equation: "(angular_acceleration) eq (torque) (moment_of_inertia) div"

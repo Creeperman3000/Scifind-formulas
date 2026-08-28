@@ -1,15 +1,13 @@
-name: "General conditional probability"
+name: General conditional probability
 id: conditional_probability_general
 topic: probability
 difficulty: 2
-equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) div"
-so:
-  - dimensionless: "P(A|B)"
-  - dimensionless: "P(A∩B)"
-  - dimensionless: "P(A∩B)"
-  - dimensionless: "P(B)"
-no:
-  - dimensionless: "Probability of A given B"
-  - dimensionless: "Probability of A and B"
-  - dimensionless: "Probability of A and B"
-  - dimensionless: "Probability of B"
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+symbol_overrides:
+- dimensionless: P(A|B)
+- dimensionless: P(A∩B)
+- dimensionless: P(A∩B)
+name_overrides:
+- dimensionless: Probability of A given B
+- dimensionless: Probability of A and B
+- dimensionless: Probability of A and B

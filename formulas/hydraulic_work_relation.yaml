@@ -1,13 +1,11 @@
-name: "Hydraulic work from pressure and volume change"
+name: Hydraulic work from pressure and volume change
 id: hydraulic_work_relation
 topic: pascals_law
 difficulty: 2
-equation: "(work) eq (pressure) (volume) Delta mul"
-so:
-  - work: "W"
-  - pressure: "P"
-  - volume: "ΔV"
-no:
-  - work: "[Work]"
-  - pressure: "[Pressure]"
-  - volume: "Change in [volume]"
+equation: (work) eq ((pressure) mul Delta((volume)))
+symbol_overrides:
+- volume: ΔV
+name_overrides:
+- work: '[Work]'
+- pressure: '[Pressure]'
+- volume: Change in [volume]

@@ -1,9 +1,0 @@
-name: "Resistors in series"
-id: series_resistance
-topic: circuits
-difficulty: 1
-equation: "(resistance) eq (resistance) (resistance) add"
-so:
-  - resistance: "R_total"
-  - resistance: "R_1"
-  - resistance: "R_2"
