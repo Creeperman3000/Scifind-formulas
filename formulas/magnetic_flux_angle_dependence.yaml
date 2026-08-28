@@ -2,7 +2,7 @@ name: Magnetic flux with angle dependence
 id: magnetic_flux_angle_dependence
 topic: magnetism
 difficulty: 2
-equation: (magnetic_flux) eq (((magnetic_flux_density) mul (area)) mul (cos (angle)))
+equation: magnetic_flux eq magnetic_flux_density mul (area) mul cos angle
 symbol_overrides:
 - magnetic_flux: Φ_B
 - magnetic_flux_density: ''

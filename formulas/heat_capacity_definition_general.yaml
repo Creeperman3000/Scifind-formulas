@@ -2,14 +2,14 @@ name: Heat capacity from heat and temperature change
 id: heat_capacity_definition_general
 topic: heat
 difficulty: 1
-equation: (dimensionless) eq ((heat) div ((temperature) sub (temperature)))
+equation: dimensionless eq energy div temperature sub temperature
 symbol_overrides:
 - dimensionless: C
-- heat: ''
+- energy: ''
 - temperature: T_f
 - temperature: T_i
 name_overrides:
 - dimensionless: Heat capacity
-- heat: ''
+- energy: ''
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

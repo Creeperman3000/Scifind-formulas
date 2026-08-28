@@ -2,7 +2,7 @@ name: Ion product of water
 id: water_ion_product
 topic: acids_and_bases
 difficulty: 2
-equation: (equilibrium_constant) eq ((concentration) mul (concentration))
+equation: equilibrium_constant eq concentration mul concentration
 symbol_overrides:
 - equilibrium_constant: K_w
 - concentration: '[H⁺]'

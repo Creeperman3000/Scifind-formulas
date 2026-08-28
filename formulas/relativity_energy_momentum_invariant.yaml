@@ -2,7 +2,8 @@ name: Energy-momentum invariant
 id: relativity_energy_momentum_invariant
 topic: relativity
 difficulty: 3
-equation: (energy pow 2) eq (((momentum pow 2) mul (speed_of_light pow 2)) add ((mass pow 2) mul (speed_of_light pow 4)))
+equation: energy pow 2 eq (momentum pow 2) mul (speed_of_light pow 2) add (mass pow
+  2) mul speed_of_light pow 4
 name_overrides:
 - energy: Total [energy]
 - momentum: Relativistic [momentum]

@@ -2,7 +2,7 @@ name: Derivative of Log Base a
 id: derivative_log_base_a
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless) div ((dimensionless) mul (ln (dimensionless))))
+equation: dimensionless eq dimensionless div dimensionless mul log euler_e dimensionless
 symbol_overrides:
 - dimensionless: d/dx(log_a x)
 - dimensionless: '1'

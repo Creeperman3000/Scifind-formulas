@@ -2,7 +2,7 @@ name: Dalton's law of partial pressures
 id: dalton_law_partial_pressure
 topic: ideal_gases
 difficulty: 1
-equation: pressure eq sum skip skip pressure
+equation: pressure eq sum drop drop pressure
 symbol_overrides:
 - pressure: P_total
 - pressure: ''

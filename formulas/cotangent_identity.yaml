@@ -2,7 +2,7 @@ name: Cotangent identity
 id: cotangent_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: (dimensionless) eq ((cos (angle)) div (sin (angle)))
+equation: dimensionless eq cos angle div sin angle
 symbol_overrides:
 - dimensionless: cot(θ)
 - angle: θ

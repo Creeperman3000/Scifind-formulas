@@ -2,7 +2,7 @@ name: Formal charge
 id: formal_charge_formula
 topic: chemical_bonding
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) sub ((dimensionless) add ((dimensionless) div 2)))
+equation: dimensionless eq dimensionless sub dimensionless add dimensionless div 2
 symbol_overrides:
 - dimensionless: FC
 - dimensionless: V

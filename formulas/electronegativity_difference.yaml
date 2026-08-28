@@ -2,7 +2,7 @@ name: Electronegativity difference
 id: electronegativity_difference
 topic: chemical_bonding
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
+equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: ΔEN
 - dimensionless: EN_A

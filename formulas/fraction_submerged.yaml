@@ -2,7 +2,7 @@ name: Fraction of object submerged in fluid
 id: fraction_submerged
 topic: buoyancy
 difficulty: 2
-equation: (dimensionless) eq ((density) div (density))
+equation: dimensionless eq density div density
 symbol_overrides:
 - dimensionless: f
 - density: ρ_obj

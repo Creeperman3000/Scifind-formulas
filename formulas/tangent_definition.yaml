@@ -2,7 +2,7 @@ name: Tangent definition
 id: tangent_definition
 topic: right_triangles
 difficulty: 1
-equation: tan((angle)) eq ((length) div (length))
+equation: tan angle eq length div length
 symbol_overrides:
 - angle: θ
 - length: a

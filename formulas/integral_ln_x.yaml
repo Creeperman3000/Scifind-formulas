@@ -2,7 +2,7 @@ name: Integral of Natural Log
 id: integral_ln_x
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) mul (ln (dimensionless))) sub (dimensionless))
+equation: dimensionless eq dimensionless mul log euler_e dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: ∫ln x dx
 - dimensionless: x

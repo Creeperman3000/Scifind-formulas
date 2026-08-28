@@ -2,7 +2,7 @@ name: Bohr orbital radius
 id: bohr_orbital_radius_n
 topic: atomic_physics
 difficulty: 3
-equation: (length) eq (((bohr_radius) mul ((dimensionless) pow 2)) div (dimensionless))
+equation: length eq bohr_radius mul (dimensionless pow 2) div dimensionless
 symbol_overrides:
 - length: r_n
 - bohr_radius: ''

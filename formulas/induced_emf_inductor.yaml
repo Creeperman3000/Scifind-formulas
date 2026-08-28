@@ -2,14 +2,14 @@ name: EMF induced in an inductor
 id: induced_emf_inductor
 topic: electromagnetic_induction
 difficulty: 3
-equation: (electric_potential) eq (inductance) (current) (Delta) (time) (Delta) div mul neg
+equation: electric_potential eq drop (inductance mul current div Delta time) sub
 symbol_overrides:
 - electric_potential: ε
-- inductance: ''
-- current: ''
-- time: ''
+- inductance: L
+- current: I
+- time: t
 name_overrides:
 - electric_potential: Induced EMF
-- inductance: ''
-- current: ''
-- time: ''
+- inductance: Inductance
+- current: Current
+- time: Time

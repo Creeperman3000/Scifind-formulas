@@ -2,7 +2,7 @@ name: Standard Gibbs free energy of reaction
 id: gibbs_standard_reaction
 topic: thermochemistry
 difficulty: 3
-equation: (energy) eq (((dimensionless) mul (energy)) sub ((dimensionless) mul (energy)))
+equation: energy eq dimensionless mul (energy) sub dimensionless mul energy
 symbol_overrides:
 - energy: ΔG°_rxn
 - dimensionless: ν

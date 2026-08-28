@@ -2,23 +2,15 @@ name: Weighted arithmetic mean
 id: weighted_arithmetic_mean
 topic: statistics
 difficulty: 2
-equation: dimensionless eq sum skip skip (dimensionless mul dimensionless ) frac
-  sum skip skip dimensionless
+equation: dimensionless eq sum drop drop (dimensionless mul dimensionless) frac sum
+  drop drop dimensionless
 symbol_overrides:
 - dimensionless: x̄_w
-- dimensionless: w₁
-- dimensionless: x₁
-- dimensionless: w₂
-- dimensionless: x₂
-- dimensionless: w₃
-- dimensionless: x₃
-- dimensionless: w₁
+- dimensionless: w_1
+- dimensionless: x_1
+- dimensionless: w_1
 name_overrides:
 - dimensionless: Weighted mean
 - dimensionless: Weight 1
 - dimensionless: Value 1
-- dimensionless: Weight 2
-- dimensionless: Value 2
-- dimensionless: Weight 3
-- dimensionless: Value 3
-- dimensionless: ''
+- dimensionless: Weight 1

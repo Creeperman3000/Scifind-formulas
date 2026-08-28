@@ -2,7 +2,8 @@ name: Drag force on an object in a fluid
 id: drag_force
 topic: reynolds_number
 difficulty: 3
-equation: (force) eq (((((density) mul (velocity pow 2)) mul (area)) mul (dimensionless)) div 2)
+equation: force eq density mul (velocity pow 2) mul (area) mul (dimensionless) div
+  2
 symbol_overrides:
 - force: F_d
 - density: ρ

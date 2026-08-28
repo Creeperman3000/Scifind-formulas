@@ -2,12 +2,13 @@ name: Ampere's law
 id: amperes_law
 topic: magnetism
 difficulty: 3
-equation: ((magnetic_flux_density) mul (length)) eq ((vacuum_permeability) mul (current))
+equation: oint drop drop (magnetic_flux_density cdot length) eq vacuum_permeability
+  mul current
 symbol_overrides:
-- magnetic_flux_density: ''
-- length: ''
-- current: ''
+- length: l
+- magnetic_flux_density: B
+- current: I_enc
 name_overrides:
-- magnetic_flux_density: Magnetic field
-- length: Path [length]
-- current: Enclosed [current]
+- length: Path length
+- magnetic_flux_density: Field
+- current: Enclosed current

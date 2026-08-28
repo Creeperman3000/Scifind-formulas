@@ -2,7 +2,7 @@ name: Intercept form of a line
 id: intercept_form_line
 topic: equations
 difficulty: 2
-equation: (((length) div (length)) add ((length) div (length))) eq dimensionless
+equation: length div (length) add length div length eq dimensionless
 symbol_overrides:
 - length: x
 - length: a

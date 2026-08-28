@@ -2,7 +2,9 @@ name: Binomial Expansion (Cubed Difference)
 id: binomial_expansion_cubed_diff
 topic: polynomials
 difficulty: 2
-equation: (dimensionless) (dimensionless) sub pow 3 eq ((((dimensionless pow 3) sub (((dimensionless pow 2) mul (dimensionless)) mul 3)) add (((dimensionless) mul (dimensionless pow 2)) mul 3)) sub (dimensionless pow 3))
+equation: dimensionless dimensionless sub pow 3 eq (dimensionless pow 3) sub ((dimensionless
+  pow 2) mul (dimensionless) mul 3) add (dimensionless mul (dimensionless pow 2) mul
+  3) sub dimensionless pow 3
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b

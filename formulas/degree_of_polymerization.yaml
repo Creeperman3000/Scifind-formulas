@@ -2,7 +2,7 @@ name: Degree of polymerization
 id: degree_of_polymerization
 topic: organic_chemistry
 difficulty: 2
-equation: (dimensionless) eq ((molar_mass) div (molar_mass))
+equation: dimensionless eq molar_mass div molar_mass
 symbol_overrides:
 - dimensionless: DP
 - molar_mass: M_polymer

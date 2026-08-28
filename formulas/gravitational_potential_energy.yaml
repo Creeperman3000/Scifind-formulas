@@ -2,12 +2,12 @@ name: Gravitational potential energy
 id: gravitational_potential_energy
 topic: potential_energy
 difficulty: 1
-equation: (energy) eq (((mass) mul (standard_gravity)) mul (length))
+equation: energy eq mass mul (standard_gravity) mul length
 symbol_overrides:
-- energy: E_p
-- mass: ''
+- energy: U
+- mass: m
 - length: h
 name_overrides:
-- energy: Gravitational potential [energy]
-- mass: ''
+- energy: Gravitational [PE]
+- mass: Mass
 - length: Height

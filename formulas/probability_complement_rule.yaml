@@ -2,7 +2,7 @@ name: Complement rule of probability
 id: probability_complement_rule
 topic: probability
 difficulty: 1
-equation: (dimensionless) eq (1 sub (dimensionless))
+equation: dimensionless eq 1 sub dimensionless
 symbol_overrides:
 - dimensionless: P(A')
 - dimensionless: P(A)

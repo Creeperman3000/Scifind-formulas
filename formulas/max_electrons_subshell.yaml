@@ -2,12 +2,10 @@ name: Maximum electrons in a subshell
 id: max_electrons_subshell
 topic: periodic_table
 difficulty: 1
-equation: (dimensionless) eq ((((dimensionless) mul 2) add ((dimensionless) mul 2)) mul 2)
+equation: dimensionless eq (2 mul dimensionless) mul 2
 symbol_overrides:
 - dimensionless: e^-_max
-- dimensionless: l
-- dimensionless: l
+- dimensionless: 2l+1
 name_overrides:
 - dimensionless: Maximum electrons in subshell
-- dimensionless: Azimuthal quantum number l
-- dimensionless: Azimuthal quantum number l
+- dimensionless: Subshell capacity

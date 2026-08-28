@@ -2,7 +2,7 @@ name: Resistors in series
 id: series_resistance
 topic: circuits
 difficulty: 1
-equation: (resistance) eq ((resistance) add (resistance))
+equation: resistance eq resistance add resistance
 symbol_overrides:
 - resistance: R_total
 - resistance: R_1

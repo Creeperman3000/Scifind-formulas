@@ -2,7 +2,7 @@ name: Eigenvalue equation
 id: eigenvalue_definition
 topic: linear_algebra
 difficulty: 3
-equation: ((dimensionless) mul (dimensionless)) eq ((dimensionless) mul (dimensionless))
+equation: dimensionless mul dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A
 - dimensionless: v

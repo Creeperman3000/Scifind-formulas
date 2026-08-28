@@ -2,7 +2,8 @@ name: Integral of sec x
 id: integral_sec
 topic: integrals
 difficulty: 4
-equation: (dimensionless) eq ((dimensionless) mul (ln (((dimensionless) add (sin (angle))) div ((dimensionless) sub (sin (angle))))))
+equation: dimensionless eq dimensionless mul log euler_e ((dimensionless add sin angle)
+  div dimensionless sub sin angle)
 symbol_overrides:
 - dimensionless: ∫sec x dx
 - dimensionless: ½

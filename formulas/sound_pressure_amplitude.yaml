@@ -2,8 +2,7 @@ name: Sound pressure amplitude from intensity
 id: sound_pressure_amplitude
 topic: mechanical_waves
 difficulty: 3
-equation: (pressure) eq sqrt (((density) mul ((velocity) mul ((power) div (area)))))
-  2
+equation: pressure eq sqrt (density mul velocity mul power div area ) 2
 symbol_overrides:
 - pressure: p₀
 - density: ρ

@@ -2,7 +2,7 @@ name: Relativistic momentum
 id: relativistic_momentum
 topic: relativity
 difficulty: 4
-equation: (momentum) eq ((lorentz_factor) mul ((mass) mul (velocity)))
+equation: momentum eq lorentz_factor mul mass mul velocity
 symbol_overrides:
 - momentum: ''
 - lorentz_factor: ''

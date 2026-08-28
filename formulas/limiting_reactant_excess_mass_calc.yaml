@@ -1,8 +1,8 @@
-name: Excess reactant remaining mass
+name: Excess reactant remaining mass (limiting_reactant_excess_mass_calc)
 id: limiting_reactant_excess_mass_calc
 topic: limiting_reactants
 difficulty: 2
-equation: (mass) eq ((mass) sub (mass))
+equation: mass eq mass sub mass
 symbol_overrides:
 - mass: m_excess
 - mass: m_initial

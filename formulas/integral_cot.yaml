@@ -2,7 +2,7 @@ name: Integral of cot x
 id: integral_cot
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq (ln (sin (angle)))
+equation: dimensionless eq log euler_e sin angle
 symbol_overrides:
 - dimensionless: ∫cot x dx
 - angle: x

@@ -2,7 +2,8 @@ name: RC circuit discharge current
 id: rc_discharge_current
 topic: circuits
 difficulty: 3
-equation: (current) eq (neg ((current) mul (exp (neg ((time) div ((resistance) mul (capacitance)))))))
+equation: current eq drop current mul exp (drop (time div resistance mul capacitance)
+  sub) sub
 symbol_overrides:
 - current: I(t)
 - current: I₀

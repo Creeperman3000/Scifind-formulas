@@ -2,12 +2,12 @@ name: Induced EMF from rate of change of magnetic flux
 id: induced_emf_coil_rate_change
 topic: electromagnetic_induction
 difficulty: 2
-equation: (electromagnetic_induction) eq neg(((magnetic_flux) mul rmd(Delta((time)))))
+equation: electromagnetic_induction eq drop (magnetic_flux div Delta time) sub
 symbol_overrides:
 - electromagnetic_induction: ε
-- magnetic_flux: ''
-- time: ''
+- magnetic_flux: Φ
+- time: t
 name_overrides:
 - electromagnetic_induction: Induced EMF
-- magnetic_flux: ''
-- time: ''
+- magnetic_flux: Magnetic flux
+- time: Time

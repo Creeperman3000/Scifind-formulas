@@ -2,7 +2,7 @@ name: Neutron number
 id: neutron_number
 topic: atomic_structure
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
+equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: N
 - dimensionless: A

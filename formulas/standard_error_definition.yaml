@@ -2,7 +2,7 @@ name: Standard error of the mean
 id: standard_error_definition
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (sqrt  (dimensionless) 2))
+equation: dimensionless eq dimensionless div sqrt dimensionless 2
 symbol_overrides:
 - dimensionless: SE
 - dimensionless: σ

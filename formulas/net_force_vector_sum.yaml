@@ -2,7 +2,7 @@ name: Net force from vector sum
 id: net_force_vector_sum
 topic: forces
 difficulty: 2
-equation: (force) eq (((force) add (force)) add (force))
+equation: force eq force add (force) add force
 symbol_overrides:
 - force: F_net
 - force: F_1

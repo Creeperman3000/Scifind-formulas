@@ -2,7 +2,8 @@ name: Springs in series
 id: springs_in_series
 topic: springs
 difficulty: 2
-equation: ((spring_constant) pow -1) eq (((spring_constant) pow -1) add ((spring_constant) pow -1))
+equation: spring_constant pow (drop 1 sub) eq spring_constant pow (drop 1 sub) add
+  spring_constant pow (drop 1 sub)
 symbol_overrides:
 - spring_constant: k_eq
 - spring_constant: k_1

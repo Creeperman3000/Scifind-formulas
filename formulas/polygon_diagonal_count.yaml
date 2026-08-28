@@ -2,7 +2,7 @@ name: Number of diagonals in a polygon
 id: polygon_diagonal_count
 topic: polygons
 difficulty: 2
-equation: (dimensionless) eq (((dimensionless) mul ((dimensionless) sub 3)) div 2)
+equation: dimensionless eq dimensionless mul (dimensionless sub 3) div 2
 symbol_overrides:
 - dimensionless: d
 - dimensionless: n

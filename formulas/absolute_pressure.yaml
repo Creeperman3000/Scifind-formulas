@@ -2,7 +2,7 @@ name: Absolute pressure
 id: absolute_pressure
 topic: pressure
 difficulty: 1
-equation: (pressure) eq ((pressure) add (pressure))
+equation: pressure eq pressure add pressure
 symbol_overrides:
 - pressure: P_abs
 - pressure: P_gauge

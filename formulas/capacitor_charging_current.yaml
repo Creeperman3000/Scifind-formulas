@@ -2,7 +2,8 @@ name: Capacitor charging current
 id: capacitor_charging_current
 topic: capacitance
 difficulty: 3
-equation: (current) eq (((electric_potential) div (resistance)) mul (exp (neg ((time) div ((resistance) mul (capacitance))))))
+equation: current eq electric_potential div (resistance) mul exp (drop (time div resistance
+  mul capacitance) sub)
 symbol_overrides:
 - current: I(t)
 - electric_potential: ''

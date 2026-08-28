@@ -2,14 +2,13 @@ name: Kepler's third law
 id: keplers_third_law
 topic: orbital_motion
 difficulty: 3
-equation: (time pow 2) eq (((2 mul (pi)) pow 2) mul ((length pow 3) div ((gravitational_constant) mul (mass))))
+equation: time pow 2 eq ((2 mul pi ) pow 2) mul ((length pow 3) div gravitational_constant
+  mul mass )
 symbol_overrides:
 - time: T
 - length: a
-- gravitational_constant: ''
 - mass: M
 name_overrides:
 - time: Orbital period
 - length: Semi-major axis
-- gravitational_constant: ''
 - mass: Central [mass]

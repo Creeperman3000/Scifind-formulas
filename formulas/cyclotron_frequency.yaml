@@ -2,7 +2,8 @@ name: Cyclotron frequency
 id: cyclotron_frequency
 topic: magnetism
 difficulty: 3
-equation: (frequency) eq (((elementary_charge) mul (magnetic_flux_density)) div ((2 mul pi) mul (mass)))
+equation: frequency eq elementary_charge mul (magnetic_flux_density) div ((2 mul pi)
+  mul mass )
 symbol_overrides:
 - frequency: ''
 - magnetic_flux_density: ''

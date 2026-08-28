@@ -2,7 +2,7 @@ name: Spring force and displacement
 id: spring_force_displacement
 topic: springs
 difficulty: 1
-equation: (force) eq ((neg (spring_constant)) mul (length))
+equation: force eq drop spring_constant sub mul length
 symbol_overrides:
 - force: ''
 - spring_constant: ''

@@ -2,7 +2,7 @@ name: Angular velocity at constant angular acceleration
 id: angular_velocity_constant_acceleration
 topic: circular_motion
 difficulty: 2
-equation: (angular_velocity) eq ((angular_velocity) add ((angular_acceleration) mul (time)))
+equation: angular_velocity eq angular_velocity add angular_acceleration mul time
 symbol_overrides:
 - angular_velocity: ω
 - angular_velocity: ω₀

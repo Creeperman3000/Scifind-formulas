@@ -2,7 +2,8 @@ name: Capacitors in series (general formula)
 id: capacitors_in_series_general
 topic: capacitance
 difficulty: 2
-equation: ((capacitance) pow -1) eq (((capacitance) pow -1) add ((capacitance) pow -1))
+equation: capacitance pow (drop 1 sub) eq capacitance pow (drop 1 sub) add capacitance
+  pow (drop 1 sub)
 symbol_overrides:
 - capacitance: C_eq
 - capacitance: C_1

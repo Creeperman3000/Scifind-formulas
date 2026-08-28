@@ -2,7 +2,7 @@ name: Equivalent resistance of n equal series resistors
 id: series_resistors_n_equal
 topic: circuits
 difficulty: 1
-equation: (resistance) eq ((dimensionless) mul (resistance))
+equation: resistance eq dimensionless mul resistance
 symbol_overrides:
 - resistance: R_eq
 - dimensionless: n

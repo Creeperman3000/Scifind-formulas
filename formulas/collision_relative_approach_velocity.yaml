@@ -2,7 +2,7 @@ name: Relative approach velocity in collisions
 id: collision_relative_approach_velocity
 topic: collisions
 difficulty: 1
-equation: (velocity) eq ((velocity) sub (velocity))
+equation: velocity eq velocity sub velocity
 symbol_overrides:
 - velocity: v_rel
 - velocity: v₁

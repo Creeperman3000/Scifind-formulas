@@ -2,7 +2,7 @@ name: Reduced mass
 id: reduced_mass
 topic: newtonian_gravity
 difficulty: 2
-equation: (mass) eq (((mass) mul (mass)) div ((mass) add (mass)))
+equation: mass eq mass mul (mass) div mass add mass
 symbol_overrides:
 - mass: μ
 - mass: m₁

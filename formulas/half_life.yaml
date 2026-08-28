@@ -2,7 +2,7 @@ name: Half-life from decay constant
 id: half_life
 topic: nuclear_physics
 difficulty: 2
-equation: (time) eq ((ln 2) div (frequency))
+equation: time eq log euler_e 2 div frequency
 symbol_overrides:
 - time: t_½
 - frequency: λ

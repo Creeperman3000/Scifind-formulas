@@ -2,7 +2,7 @@ name: Transformer current relationship
 id: transformer_current
 topic: electromagnetic_induction
 difficulty: 2
-equation: ((current) mul (current)) eq ((electric_potential) mul (electric_potential))
+equation: current mul current eq electric_potential mul electric_potential
 symbol_overrides:
 - current: I_p
 - current: V_p

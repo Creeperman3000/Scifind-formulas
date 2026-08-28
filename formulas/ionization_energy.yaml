@@ -2,7 +2,7 @@ name: Ionization Energy
 id: ionization_energy
 topic: periodic_table
 difficulty: 2
-equation: (energy) eq ((energy) sub (energy))
+equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ΔE_ea
 - energy: E_neutral

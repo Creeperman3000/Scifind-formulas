@@ -2,7 +2,7 @@ name: Chain rule
 id: derivative_chain_rule
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
+equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: dy/dx
 - dimensionless: dy/du

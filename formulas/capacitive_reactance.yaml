@@ -2,7 +2,8 @@ name: Capacitive reactance
 id: capacitive_reactance
 topic: circuits
 difficulty: 3
-equation: (resistance) eq ((dimensionless) div (((pi) mul 2) mul ((frequency) mul (capacitance))))
+equation: resistance eq dimensionless div ((pi mul 2) mul frequency mul capacitance
+  )
 symbol_overrides:
 - resistance: X_C
 - dimensionless: '1'

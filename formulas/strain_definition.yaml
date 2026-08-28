@@ -2,7 +2,7 @@ name: Engineering strain
 id: strain_definition
 topic: forces
 difficulty: 1
-equation: (dimensionless) eq ((length) div (length))
+equation: dimensionless eq length div length
 symbol_overrides:
 - dimensionless: ε
 - length: ΔL

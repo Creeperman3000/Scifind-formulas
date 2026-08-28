@@ -2,7 +2,7 @@ name: Charge stored in a capacitor
 id: charge_on_capacitor
 topic: capacitance
 difficulty: 1
-equation: (charge) eq ((capacitance) mul (electric_potential))
+equation: charge eq capacitance mul electric_potential
 symbol_overrides:
 - charge: ''
 - capacitance: ''

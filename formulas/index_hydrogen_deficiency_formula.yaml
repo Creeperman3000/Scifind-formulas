@@ -2,7 +2,8 @@ name: Index of hydrogen deficiency (formula)
 id: index_hydrogen_deficiency_formula
 topic: organic_chemistry
 difficulty: 3
-equation: (dimensionless) eq (((((dimensionless) mul 2) sub (dimensionless)) sub (dimensionless)) add (dimensionless) div 2)
+equation: dimensionless eq (dimensionless mul 2) sub (dimensionless) sub (dimensionless)
+  add dimensionless div 2
 symbol_overrides:
 - dimensionless: IHD
 - dimensionless: C

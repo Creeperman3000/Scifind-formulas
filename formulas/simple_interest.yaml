@@ -2,7 +2,7 @@ name: Simple interest future value
 id: simple_interest
 topic: arithmetic
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) add ((dimensionless) mul (dimensionless))))
+equation: dimensionless eq dimensionless mul dimensionless add dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A
 - dimensionless: P

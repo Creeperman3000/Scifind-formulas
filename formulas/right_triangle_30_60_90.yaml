@@ -2,10 +2,10 @@ name: 30-60-90 special right triangle
 id: right_triangle_30_60_90
 topic: right_triangles
 difficulty: 1
-equation: (length) eq ((length) mul (dimensionless))
+equation: length eq length mul dimensionless
 symbol_overrides:
-- length: long_leg
-- length: short_leg
+- length: l_{\mathrm{long}}
+- length: l_{\mathrm{short}}
 - dimensionless: √3
 name_overrides:
 - length: Long leg

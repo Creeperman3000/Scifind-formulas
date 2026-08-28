@@ -2,7 +2,7 @@ name: Reflectance
 id: reflectance_formula
 topic: polarization
 difficulty: 2
-equation: (reflectance) eq ((irradiance) div (irradiance))
+equation: reflectance eq irradiance div irradiance
 symbol_overrides:
 - reflectance: ''
 - irradiance: I_r

@@ -2,7 +2,7 @@ name: Newton's first law (equilibrium)
 id: newtons_first_law_equilibrium
 topic: newtons_laws
 difficulty: 1
-equation: (force) eq 0
+equation: force eq 0
 symbol_overrides:
 - force: ΣF
 name_overrides:

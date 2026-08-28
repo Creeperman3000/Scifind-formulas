@@ -2,7 +2,7 @@ name: Temperature in Rankine from Fahrenheit
 id: temperature_rankine_from_fahrenheit
 topic: temperature
 difficulty: 2
-equation: (temperature) eq ((temperature) add (temperature))
+equation: temperature eq temperature add temperature
 symbol_overrides:
 - temperature: T_R
 - temperature: T_F

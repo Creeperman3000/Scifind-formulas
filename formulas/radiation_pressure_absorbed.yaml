@@ -2,7 +2,7 @@ name: Radiation pressure on a perfect absorber
 id: radiation_pressure_absorbed
 topic: electromagnetic_waves
 difficulty: 4
-equation: (pressure) eq ((irradiance) div (speed_of_light))
+equation: pressure eq irradiance div speed_of_light
 symbol_overrides:
 - pressure: P_rad
 - irradiance: I

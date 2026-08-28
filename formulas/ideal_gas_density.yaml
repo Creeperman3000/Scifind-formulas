@@ -2,16 +2,14 @@ name: Density of an ideal gas
 id: ideal_gas_density
 topic: ideal_gases
 difficulty: 2
-equation: (density) eq (((pressure) mul (molar_mass)) div ((gas_constant) mul (temperature)))
+equation: density eq pressure mul (molar_mass) div gas_constant mul temperature
 name_overrides:
 - density: Gas [density]
 - pressure: ''
 - molar_mass: ''
-- gas_constant: ''
 - temperature: ''
 symbol_overrides:
 - density: ''
 - pressure: ''
 - molar_mass: ''
-- gas_constant: ''
 - temperature: ''

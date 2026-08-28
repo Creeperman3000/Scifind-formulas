@@ -2,15 +2,10 @@ name: Derivative of arcsine
 id: derivative_arcsin
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) (angle) asin rmd eq (dimensionless) (angle) pow 2 sub 1
-  sqrt add 2 div
+equation: rmd (angle asin ) eq 1 frac sqrt (1 sub angle pow 2 ) 2
 symbol_overrides:
-- dimensionless: d/dx
 - angle: x
-- dimensionless: '1'
 - angle: x
 name_overrides:
-- dimensionless: Derivative
 - angle: '[Variable]'
-- dimensionless: ''
-- angle: ''
+- angle: '[Variable]'

@@ -2,7 +2,7 @@ name: Coefficient of restitution
 id: coefficient_of_restitution
 topic: collisions
 difficulty: 2
-equation: (coefficient_of_friction) eq (((velocity) sub (velocity)) div ((velocity) sub (velocity)))
+equation: coefficient_of_friction eq (velocity sub velocity ) div velocity sub velocity
 symbol_overrides:
 - coefficient_of_friction: e
 - velocity: v'_2

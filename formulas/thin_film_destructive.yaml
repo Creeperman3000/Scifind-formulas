@@ -2,7 +2,7 @@ name: Thin film destructive interference
 id: thin_film_destructive
 topic: interference
 difficulty: 3
-equation: (((length) mul (reflectance)) mul 2) eq (((dimensionless) add (dimensionless)) mul (length))
+equation: 2 mul length mul reflectance eq (dimensionless add dimensionless) mul length
 symbol_overrides:
 - length: n
 - reflectance: t

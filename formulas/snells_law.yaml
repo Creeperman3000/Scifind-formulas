@@ -2,14 +2,14 @@ name: Snell's law
 id: snells_law
 topic: refraction
 difficulty: 2
-equation: ((refractive_index) mul (sin (angle))) eq ((refractive_index) mul (sin (angle)))
+equation: dimensionless eq dimensionless mul (dimensionless) div dimensionless
 symbol_overrides:
-- refractive_index: n_1
-- angle: θ_1
-- refractive_index: n_2
-- angle: θ_2
+- dimensionless: n_1
+- dimensionless: n_2
+- dimensionless: \sin\theta_2
+- dimensionless: \sin\theta_1
 name_overrides:
-- refractive_index: Incident medium [refractive index|index]
-- angle: Angle of incidence
-- refractive_index: Refracting medium [refractive index|index]
-- angle: Angle of refraction
+- dimensionless: n₁ sin θ₁
+- dimensionless: n₂
+- dimensionless: sin θ₂
+- dimensionless: sin θ₁

@@ -2,7 +2,7 @@ name: Range of azimuthal quantum number
 id: periodic_quantum_number_azimuthal_range
 topic: periodic_table
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
+equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: l
 - dimensionless: n

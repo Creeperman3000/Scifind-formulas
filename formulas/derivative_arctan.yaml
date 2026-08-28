@@ -2,14 +2,10 @@ name: Derivative of arctangent
 id: derivative_arctan
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) (angle) atan rmd eq (dimensionless) (angle) pow 2 add div
+equation: rmd (angle atan ) eq 1 frac 1 add angle pow 2
 symbol_overrides:
-- dimensionless: d/dx
 - angle: x
-- dimensionless: '1'
 - angle: x
 name_overrides:
-- dimensionless: Derivative
 - angle: '[Variable]'
-- dimensionless: ''
-- angle: ''
+- angle: '[Variable]'

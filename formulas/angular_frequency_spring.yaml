@@ -2,7 +2,7 @@ name: Angular frequency of a spring-mass system
 id: angular_frequency_spring
 topic: harmonic_motion
 difficulty: 2
-equation: (angular_velocity) eq sqrt (((spring_constant) div (mass))) 2
+equation: angular_velocity eq sqrt (spring_constant div mass ) 2
 symbol_overrides:
 - angular_velocity: ω
 - spring_constant: ''

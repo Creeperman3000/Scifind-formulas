@@ -2,7 +2,7 @@ name: Integration by parts
 id: integration_by_parts
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) sub (dimensionless))
+equation: dimensionless eq dimensionless mul (dimensionless) sub dimensionless
 symbol_overrides:
 - dimensionless: ∫u dv
 - dimensionless: u

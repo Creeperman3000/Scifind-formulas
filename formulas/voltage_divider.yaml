@@ -2,7 +2,8 @@ name: Voltage divider
 id: voltage_divider
 topic: circuits
 difficulty: 2
-equation: (electric_potential) eq (((electric_potential) mul (resistance)) div ((resistance) add (resistance)))
+equation: electric_potential eq electric_potential mul (resistance) div resistance
+  add resistance
 symbol_overrides:
 - electric_potential: V_out
 - electric_potential: V_in

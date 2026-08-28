@@ -2,7 +2,7 @@ name: Moment of inertia of a thin rod about center
 id: moi_rod_center
 topic: moment_of_inertia
 difficulty: 2
-equation: (moment_of_inertia) eq (((mass) mul (length pow 2)) div 12)
+equation: moment_of_inertia eq mass mul (length pow 2) div 12
 symbol_overrides:
 - moment_of_inertia: ''
 - mass: ''

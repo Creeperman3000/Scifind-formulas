@@ -2,14 +2,14 @@ name: Volume of an annular cylinder
 id: volume_annular_cylinder
 topic: plane_geometry
 difficulty: 2
-equation: (volume) eq (((length) pow (length)) mul ((2 pow (length)) sub 2))
+equation: volume eq pi mul (length) mul ((length pow 2) sub length pow 2 )
 symbol_overrides:
-- volume: ''
-- length: π
+- volume: V
+- length: h
 - length: R
 - length: r
 name_overrides:
-- volume: '[Volume]'
-- length: '[Pi]'
+- volume: Volume
+- length: Height
 - length: Outer radius
 - length: Inner radius

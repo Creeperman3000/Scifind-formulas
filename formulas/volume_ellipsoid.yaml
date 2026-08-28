@@ -2,14 +2,14 @@ name: Volume of an ellipsoid
 id: volume_ellipsoid
 topic: plane_geometry
 difficulty: 3
-equation: (volume) eq ((((((pi) mul 4) mul (length)) mul (length)) mul (length)) div 3)
+equation: volume eq (4 div 3) mul (pi) mul (length) mul (length) mul length
 symbol_overrides:
-- volume: ''
+- volume: V
 - length: a
 - length: b
 - length: c
 name_overrides:
-- volume: '[Volume]'
+- volume: Volume
 - length: Semi-axis a
 - length: Semi-axis b
 - length: Semi-axis c

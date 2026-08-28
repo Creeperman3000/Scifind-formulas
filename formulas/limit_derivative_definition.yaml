@@ -2,7 +2,7 @@ name: Limit definition of derivative
 id: limit_derivative_definition
 topic: limits
 difficulty: 2
-equation: (dimensionless) eq (((dimensionless) sub (dimensionless)) div (dimensionless))
+equation: dimensionless eq (dimensionless sub dimensionless ) div dimensionless
 symbol_overrides:
 - dimensionless: f'(x)
 - dimensionless: f(x+h)

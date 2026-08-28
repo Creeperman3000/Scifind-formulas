@@ -2,12 +2,12 @@ name: Ohm's law (current form)
 id: ohms_law_current
 topic: circuits
 difficulty: 1
-equation: (current) eq ((electric_potential) div (resistance))
+equation: current eq electric_potential div resistance
 name_overrides:
-- current: ''
+- current: Current
 - electric_potential: Voltage
-- resistance: ''
+- resistance: Resistance
 symbol_overrides:
-- current: ''
-- electric_potential: ''
-- resistance: ''
+- current: I
+- electric_potential: V
+- resistance: R

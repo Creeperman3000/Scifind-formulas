@@ -2,7 +2,7 @@ name: Interquartile range
 id: interquartile_range
 topic: statistics
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
+equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: IQR
 - dimensionless: Q₃

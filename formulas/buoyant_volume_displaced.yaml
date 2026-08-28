@@ -2,7 +2,7 @@ name: Volume of fluid displaced by floating object
 id: buoyant_volume_displaced
 topic: buoyancy
 difficulty: 2
-equation: (volume) eq ((mass) div (density))
+equation: volume eq mass div density
 symbol_overrides:
 - volume: V_displaced
 - mass: m_object

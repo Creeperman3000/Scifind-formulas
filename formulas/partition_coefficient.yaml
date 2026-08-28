@@ -2,7 +2,7 @@ name: Partition coefficient
 id: partition_coefficient
 topic: analytical_chemistry
 difficulty: 2
-equation: (dimensionless) eq ((concentration) div (concentration))
+equation: dimensionless eq concentration div concentration
 symbol_overrides:
 - dimensionless: K
 - concentration: c_org

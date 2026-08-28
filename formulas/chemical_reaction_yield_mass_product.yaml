@@ -2,7 +2,7 @@ name: Mass of product from limiting reactant
 id: chemical_reaction_yield_mass_product
 topic: chemical_reactions
 difficulty: 2
-equation: (mass) eq (((mass) div (molar_mass)) mul (molar_mass))
+equation: mass eq mass div (molar_mass) mul molar_mass
 symbol_overrides:
 - mass: m_product
 - mass: m_limiting

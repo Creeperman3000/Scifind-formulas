@@ -2,7 +2,7 @@ name: Standard enthalpy of reaction
 id: standard_enthalpy_reaction
 topic: thermochemistry
 difficulty: 3
-equation: (energy) eq ((energy) sub (energy))
+equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ΔH°
 - energy: ΣΔH_f°(products)

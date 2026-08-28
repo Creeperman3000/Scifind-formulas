@@ -1,8 +1,8 @@
-name: Electric potential energy of two point charges
+name: Electric potential energy of two point charges (electric_potential_energy_two_charges)
 id: electric_potential_energy_two_charges
 topic: potential_energy
 difficulty: 2
-equation: (energy) eq ((((coulomb_constant) mul (charge)) mul (charge)) div (length))
+equation: energy eq coulomb_constant mul (charge) mul (charge) div length
 symbol_overrides:
 - energy: U
 - charge: q_1

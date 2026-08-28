@@ -2,12 +2,12 @@ name: Latent heat
 id: latent_heat
 topic: heat
 difficulty: 2
-equation: (heat) eq ((mass) mul (specific_energy))
+equation: energy eq mass mul specific_energy
 symbol_overrides:
-- heat: ''
+- energy: ''
 - mass: ''
 - specific_energy: L
 name_overrides:
-- heat: ''
+- energy: ''
 - mass: ''
 - specific_energy: Latent [heat]

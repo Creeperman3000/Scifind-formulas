@@ -2,10 +2,10 @@ name: First-order half-life
 id: first_order_half_life
 topic: chemical_kinetics
 difficulty: 2
-equation: (time) eq (((ln (euler_e)) mul 2) div (frequency))
+equation: time eq log euler_e 2 div frequency
 symbol_overrides:
-- time: t_½
+- time: t_half
 - frequency: k
 name_overrides:
 - time: Half-life
-- frequency: Rate constant
+- frequency: Decay constant

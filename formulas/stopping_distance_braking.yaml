@@ -2,7 +2,8 @@ name: Stopping distance from friction
 id: stopping_distance_braking
 topic: friction
 difficulty: 2
-equation: (length) eq ((velocity pow 2) div (((coefficient_of_friction) mul (standard_gravity)) mul 2))
+equation: length eq (velocity pow 2) div coefficient_of_friction mul (standard_gravity)
+  mul 2
 symbol_overrides:
 - length: d
 - velocity: ''

@@ -2,7 +2,8 @@ name: Thin film condition for minimum reflection
 id: thin_film_minimum_reflection
 topic: interference
 difficulty: 4
-equation: ((dimensionless) mul (length)) eq (((dimensionless) add ((dimensionless) div 2)) mul (length))
+equation: dimensionless mul length eq (dimensionless add dimensionless div 2 ) mul
+  length
 symbol_overrides:
 - dimensionless: 2nt
 - length: λ

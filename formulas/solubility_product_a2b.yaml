@@ -2,12 +2,12 @@ name: Solubility product for A₂B-type salt
 id: solubility_product_a2b
 topic: solutions
 difficulty: 3
-equation: (equilibrium_constant) eq ((concentration) mul (2 pow (concentration)))
+equation: dimensionless eq (concentration pow 2) mul concentration
 symbol_overrides:
-- equilibrium_constant: K_sp
+- dimensionless: K_sp
+- concentration: '[A]'
+- concentration: '[B]'
+name_overrides:
+- dimensionless: Solubility product
 - concentration: '[A⁺]'
 - concentration: '[B²⁻]'
-name_overrides:
-- equilibrium_constant: Solubility product
-- concentration: Cation [concentration]
-- concentration: Anion [concentration]

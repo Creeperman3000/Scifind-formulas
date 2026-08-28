@@ -2,7 +2,7 @@ name: Pythagorean trigonometric identity
 id: pythagorean_trig_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: (angle) sin pow 2 (angle) cos pow 2 add eq 1
+equation: angle sin pow 2 angle cos pow 2 add eq 1
 symbol_overrides:
 - angle: ''
 - angle: ''

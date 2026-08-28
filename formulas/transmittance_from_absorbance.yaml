@@ -2,7 +2,7 @@ name: Transmittance from absorbance
 id: transmittance_from_absorbance
 topic: analytical_chemistry
 difficulty: 2
-equation: (dimensionless) eq (10 pow (neg (absorbance)))
+equation: dimensionless eq 10 pow (drop absorbance sub)
 symbol_overrides:
 - dimensionless: T
 - absorbance: ''

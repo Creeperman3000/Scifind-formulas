@@ -2,7 +2,7 @@ name: Luminance from luminous intensity and area
 id: luminance_formula
 topic: electromagnetic_waves
 difficulty: 3
-equation: (luminance) eq ((luminous_intensity) div (area))
+equation: luminance eq luminous_intensity div area
 symbol_overrides:
 - luminance: ''
 - luminous_intensity: ''

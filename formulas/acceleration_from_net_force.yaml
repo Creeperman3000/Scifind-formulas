@@ -2,12 +2,12 @@ name: Acceleration from net force
 id: acceleration_from_net_force
 topic: newtons_laws
 difficulty: 1
-equation: (acceleration) eq ((force) div (mass))
+equation: acceleration eq force div mass
 symbol_overrides:
-- acceleration: ''
-- force: F_net
-- mass: ''
+- acceleration: a
+- force: F
+- mass: m
 name_overrides:
-- acceleration: ''
-- force: ''
-- mass: ''
+- acceleration: Acceleration
+- force: Net [force]
+- mass: Mass

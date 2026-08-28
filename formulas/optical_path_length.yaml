@@ -2,7 +2,7 @@ name: Optical path length
 id: optical_path_length
 topic: interference
 difficulty: 2
-equation: (length) eq ((refractive_index) mul (length))
+equation: length eq refractive_index mul length
 symbol_overrides:
 - length: OPL
 - refractive_index: ''

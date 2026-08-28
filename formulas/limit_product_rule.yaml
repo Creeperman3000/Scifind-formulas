@@ -2,7 +2,7 @@ name: Limit of a product
 id: limit_product_rule
 topic: limits
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
+equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: lim(f·g)
 - dimensionless: lim f

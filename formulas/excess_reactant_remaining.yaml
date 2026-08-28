@@ -2,7 +2,7 @@ name: Excess reactant remaining
 id: excess_reactant_remaining
 topic: limiting_reactants
 difficulty: 2
-equation: (amount) eq ((amount) sub (amount))
+equation: amount eq amount sub amount
 symbol_overrides:
 - amount: n_excess
 - amount: n_initial

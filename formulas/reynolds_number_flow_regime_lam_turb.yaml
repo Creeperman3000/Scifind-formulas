@@ -2,7 +2,7 @@ name: Reynolds number flow regime criterion
 id: reynolds_number_flow_regime_lam_turb
 topic: reynolds_number
 difficulty: 1
-equation: (reynolds_number) lt 2000
+equation: reynolds_number lt 2000
 name_overrides:
 - reynolds_number: Reynolds number (laminar condition)
 symbol_overrides:

@@ -2,7 +2,7 @@ name: Limiting reactant identification
 id: limiting_reactant_identification
 topic: limiting_reactants
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) div (dimensionless)) gt ((dimensionless) div (dimensionless)))
+equation: dimensionless eq dimensionless div dimensionless gt dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: ratio_A
 - dimensionless: n_A

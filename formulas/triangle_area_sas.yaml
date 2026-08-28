@@ -2,7 +2,7 @@ name: Triangle area (SAS)
 id: triangle_area_sas
 topic: triangles
 difficulty: 2
-equation: (area) eq ((((length) mul (length)) mul (sin (angle))) div 2)
+equation: area eq length mul (length) mul (sin angle ) div 2
 symbol_overrides:
 - area: ''
 - length: a

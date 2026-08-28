@@ -2,7 +2,8 @@ name: Standard addition calibration
 id: standard_addition_calibration
 topic: analytical_chemistry
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) div ((dimensionless) sub (dimensionless)))
+equation: dimensionless eq dimensionless mul (dimensionless) div dimensionless sub
+  dimensionless
 symbol_overrides:
 - dimensionless: C_x
 - dimensionless: I_x

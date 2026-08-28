@@ -2,7 +2,8 @@ name: Magnetic field at center of a current loop
 id: magnetic_field_circular_loop
 topic: magnetism
 difficulty: 3
-equation: (magnetic_flux_density) eq (((vacuum_permeability) mul (current)) div ((length) mul 2))
+equation: magnetic_flux_density eq vacuum_permeability mul (current) div length mul
+  2
 symbol_overrides:
 - magnetic_flux_density: ''
 - current: ''

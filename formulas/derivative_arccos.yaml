@@ -2,15 +2,10 @@ name: Derivative of arccosine
 id: derivative_arccos
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) (angle) acos rmd eq (dimensionless) (angle) pow 2 sub 1
-  sqrt add 2 div neg
+equation: rmd (angle acos) eq drop (1 frac sqrt (1 sub angle pow 2) 2) sub
 symbol_overrides:
-- dimensionless: d/dx
 - angle: x
-- dimensionless: '1'
 - angle: x
 name_overrides:
-- dimensionless: Derivative
 - angle: '[Variable]'
-- dimensionless: ''
-- angle: ''
+- angle: '[Variable]'

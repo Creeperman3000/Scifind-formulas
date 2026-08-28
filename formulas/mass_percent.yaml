@@ -2,7 +2,7 @@ name: Mass percent
 id: mass_percent
 topic: solutions
 difficulty: 1
-equation: (dimensionless) eq (((mass) div (mass)) mul 100)
+equation: dimensionless eq mass div (mass) mul 100
 symbol_overrides:
 - dimensionless: '%'
 - mass: m_solute

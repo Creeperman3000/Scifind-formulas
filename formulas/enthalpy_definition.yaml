@@ -2,7 +2,7 @@ name: Enthalpy definition
 id: enthalpy_definition
 topic: thermochemistry
 difficulty: 2
-equation: (energy) eq ((energy) add ((pressure) mul (volume)))
+equation: energy eq energy add pressure mul volume
 symbol_overrides:
 - energy: H
 - energy: U

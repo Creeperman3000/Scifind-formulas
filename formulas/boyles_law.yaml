@@ -2,7 +2,7 @@ name: Boyle's law
 id: boyles_law
 topic: ideal_gases
 difficulty: 1
-equation: ((pressure) mul (volume)) eq ((pressure) mul (volume))
+equation: pressure mul volume eq pressure mul volume
 symbol_overrides:
 - pressure: P_1
 - volume: V_1

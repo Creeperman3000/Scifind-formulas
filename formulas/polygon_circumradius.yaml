@@ -2,7 +2,7 @@ name: Polygon circumradius
 id: polygon_circumradius
 topic: polygons
 difficulty: 3
-equation: (length) eq (((length) div 2) div (sin (angle)))
+equation: length eq (length div 2) div sin angle
 symbol_overrides:
 - length: R
 - length: s

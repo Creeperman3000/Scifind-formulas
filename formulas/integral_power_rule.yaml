@@ -2,7 +2,8 @@ name: Integral of x^n
 id: integral_power_rule
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq (((dimensionless) pow ((dimensionless) add 1)) div ((dimensionless) add 1))
+equation: dimensionless eq dimensionless pow (dimensionless add 1) div dimensionless
+  add 1
 symbol_overrides:
 - dimensionless: ∫x^n dx
 - dimensionless: x

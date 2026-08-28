@@ -2,7 +2,8 @@ name: Power of a quotient
 id: power_of_quotient_rule
 topic: exponents
 difficulty: 2
-equation: (((dimensionless) div (dimensionless)) pow (dimensionless)) eq (((dimensionless) pow (dimensionless)) div ((dimensionless) pow (dimensionless)))
+equation: (dimensionless div dimensionless ) pow dimensionless eq dimensionless pow
+  (dimensionless) div dimensionless pow dimensionless
 symbol_overrides:
 - dimensionless: (a/b)^n
 - dimensionless: a^n

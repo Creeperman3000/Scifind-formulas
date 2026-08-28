@@ -2,7 +2,7 @@ name: Geometric distribution mean
 id: geometric_distribution_mean
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: E[X]
 - dimensionless: '1'

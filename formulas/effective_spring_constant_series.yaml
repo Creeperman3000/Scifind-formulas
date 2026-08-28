@@ -2,7 +2,8 @@ name: Equivalent spring constant (series)
 id: effective_spring_constant_series
 topic: springs
 difficulty: 2
-equation: ((spring_constant) pow -1) eq ((((spring_constant) pow -1) ((spring_constant) pow -1) add) ((spring_constant) pow -1) add)
+equation: spring_constant pow (drop 1 sub) eq ((spring_constant pow (drop 1 sub) )
+  spring_constant pow (drop 1 sub) add) spring_constant pow (drop 1 sub) add
 symbol_overrides:
 - spring_constant: k_eq
 - spring_constant: k_1

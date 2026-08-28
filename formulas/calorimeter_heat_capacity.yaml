@@ -2,12 +2,12 @@ name: Heat capacity of a calorimeter
 id: calorimeter_heat_capacity
 topic: thermochemistry
 difficulty: 2
-equation: (specific_heat_capacity) eq ((heat) div Delta((temperature)))
+equation: specific_heat_capacity eq energy div Delta temperature
 symbol_overrides:
 - specific_heat_capacity: C_cal
-- heat: ''
+- energy: ''
 - temperature: ''
 name_overrides:
 - specific_heat_capacity: Calorimeter [heat capacity]
-- heat: ''
+- energy: ''
 - temperature: ''

@@ -2,7 +2,7 @@ name: Stokes' law for drag on a sphere
 id: stokes_law_drag
 topic: reynolds_number
 difficulty: 2
-equation: (force) eq (((((pi) mul 6) mul (dynamic_viscosity)) mul (length)) mul (velocity))
+equation: force eq (pi mul 6) mul (dynamic_viscosity) mul (length) mul velocity
 symbol_overrides:
 - force: F_d
 - dynamic_viscosity: ''

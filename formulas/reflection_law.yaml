@@ -2,7 +2,7 @@ name: Reflection Law
 id: reflection_law
 topic: reflection
 difficulty: 1
-equation: (angle) eq (angle)
+equation: angle eq angle
 symbol_overrides:
 - angle: θ_r
 - angle: θ_i

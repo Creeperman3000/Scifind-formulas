@@ -2,7 +2,7 @@ name: Nuclear radius
 id: nuclear_radius
 topic: nuclear_physics
 difficulty: 3
-equation: (length) eq ((dimensionless) mul ((dimensionless) pow (1 div 3)))
+equation: length eq dimensionless mul dimensionless pow 1 div 3
 symbol_overrides:
 - length: R
 - dimensionless: R_0

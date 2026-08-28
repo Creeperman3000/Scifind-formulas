@@ -2,7 +2,8 @@ name: Degree of unsaturation (DBE) definition
 id: organic_chemistry_dbu_definition
 topic: organic_chemistry
 difficulty: 2
-equation: (dimensionless) eq ((((dimensionless) mul 2) add (dimensionless)) sub (dimensionless) add 2 div 2)
+equation: dimensionless eq (dimensionless mul 2) add (dimensionless) sub (dimensionless)
+  add 2 div 2
 symbol_overrides:
 - dimensionless: DBE
 - dimensionless: C

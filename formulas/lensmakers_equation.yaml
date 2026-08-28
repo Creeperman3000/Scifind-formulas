@@ -2,14 +2,21 @@ name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
 difficulty: 4
-equation: ((length) div 1) eq (((refractive_index) sub 1) mul (((length) div 1) sub ((length) div 1)))
+equation: dimensionless eq (dimensionless sub dimensionless ) mul dimensionless div
+  (length) sub dimensionless div length
 symbol_overrides:
-- length: f
-- refractive_index: ''
+- dimensionless: 1/f
+- dimensionless: n
+- dimensionless: '1'
+- dimensionless: '1'
 - length: R_1
+- dimensionless: '1'
 - length: R_2
 name_overrides:
-- length: Focal length
-- refractive_index: Lens [refractive index|index]
-- length: First radius of curvature
-- length: Second radius of curvature
+- dimensionless: Reciprocal focal length
+- dimensionless: Refractive index
+- dimensionless: One
+- dimensionless: One
+- length: First radius
+- dimensionless: One
+- length: Second radius

@@ -2,10 +2,10 @@ name: Refractive index
 id: refractive_index_formula
 topic: refraction
 difficulty: 2
-equation: (refractive_index) eq ((speed_of_light) div (velocity))
+equation: dimensionless eq speed_of_light div velocity
 symbol_overrides:
-- refractive_index: ''
-- velocity: ''
+- dimensionless: n
+- velocity: v
 name_overrides:
-- refractive_index: ''
+- dimensionless: Refractive index
 - velocity: Speed in medium

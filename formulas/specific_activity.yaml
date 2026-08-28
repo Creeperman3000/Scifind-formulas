@@ -2,7 +2,7 @@ name: Specific activity
 id: specific_activity
 topic: nuclear_physics
 difficulty: 2
-equation: (activity) eq ((amount) div (mass))
+equation: activity eq amount div mass
 symbol_overrides:
 - activity: a
 - amount: λ

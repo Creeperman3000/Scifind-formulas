@@ -2,15 +2,15 @@ name: Escape velocity
 id: escape_velocity_formula
 topic: escape_velocity
 difficulty: 3
-equation: (velocity) eq (sqrt  (((2 mul (gravitational_constant)) mul (mass)) div
-  (length)) 2)
+equation: velocity eq sqrt (dimensionless mul (gravitational_constant) mul (mass)
+  div length ) 2
 symbol_overrides:
-- velocity: v_esc
-- gravitational_constant: ''
+- velocity: v_{esc}
+- dimensionless: '2'
 - mass: M
 - length: r
 name_overrides:
 - velocity: Escape [velocity]
-- gravitational_constant: ''
-- mass: ''
-- length: Radius
+- dimensionless: Two
+- mass: Mass
+- length: Distance from center

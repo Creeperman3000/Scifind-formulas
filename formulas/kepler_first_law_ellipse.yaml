@@ -2,7 +2,7 @@ name: Kepler's first law (elliptical orbit)
 id: kepler_first_law_ellipse
 topic: orbital_motion
 difficulty: 2
-equation: (length) eq ((length) mul ((dimensionless) div (1 add ((dimensionless) mul (cos (angle))))))
+equation: length eq (length mul dimensionless) div 1 add dimensionless mul cos angle
 symbol_overrides:
 - length: r
 - length: a
@@ -12,6 +12,6 @@ symbol_overrides:
 name_overrides:
 - length: Orbital radius
 - length: Semi-major axis
+- dimensionless: One minus e squared
 - dimensionless: Eccentricity
-- dimensionless: ''
 - angle: True anomaly

@@ -2,10 +2,10 @@ name: First law of thermodynamics for isochoric process
 id: first_law_isochoric_process
 topic: first_law
 difficulty: 2
-equation: (heat) eq (energy)
+equation: energy eq energy
 symbol_overrides:
-- heat: ''
+- energy: ''
 - energy: ΔU
 name_overrides:
-- heat: ''
+- energy: ''
 - energy: Change in internal [energy]

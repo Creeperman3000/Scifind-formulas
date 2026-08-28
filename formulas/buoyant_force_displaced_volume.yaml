@@ -2,7 +2,7 @@ name: Buoyant force from displaced volume
 id: buoyant_force_displaced_volume
 topic: buoyancy
 difficulty: 1
-equation: (force) eq (((density) mul (acceleration)) mul (volume))
+equation: force eq density mul (acceleration) mul volume
 symbol_overrides:
 - force: F_b
 - density: ρ_fluid

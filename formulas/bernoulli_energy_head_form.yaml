@@ -2,7 +2,8 @@ name: Bernoulli energy head form
 id: bernoulli_energy_head_form
 topic: bernoulli_equation
 difficulty: 3
-equation: (length) eq ((((pressure) div ((density) mul (acceleration))) add (((velocity) mul (velocity)) div ((acceleration) mul 2))) add (length))
+equation: length eq pressure div (density mul acceleration ) add (velocity) mul (velocity)
+  div (acceleration mul 2) add length
 symbol_overrides:
 - length: H
 - pressure: ''

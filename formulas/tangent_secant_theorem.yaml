@@ -2,7 +2,7 @@ name: Tangent-secant theorem
 id: tangent_secant_theorem
 topic: circles
 difficulty: 3
-equation: (length) eq sqrt (((length) mul (length))) 2
+equation: length eq sqrt (length mul length ) 2
 symbol_overrides:
 - length: PT
 - length: PA

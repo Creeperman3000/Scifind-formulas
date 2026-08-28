@@ -2,8 +2,8 @@ name: Margin of error
 id: margin_of_error
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) div (sqrt  (dimensionless)
-  2)))
+equation: dimensionless eq dimensionless mul dimensionless div sqrt dimensionless
+  2
 symbol_overrides:
 - dimensionless: ME
 - dimensionless: z*

@@ -2,12 +2,12 @@ name: Work done by a gas
 id: work_by_gas
 topic: first_law
 difficulty: 2
-equation: (work) eq ((pressure) mul Delta((volume)))
+equation: energy eq pressure mul Delta volume
 name_overrides:
-- work: '[Work]'
+- energy: '[Work]'
 - pressure: '[Pressure]'
 - volume: '[Volume]'
 symbol_overrides:
-- work: ''
+- energy: ''
 - pressure: ''
 - volume: ''

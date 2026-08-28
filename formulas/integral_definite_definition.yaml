@@ -2,12 +2,12 @@ name: Definite integral as area
 id: integral_definite_definition
 topic: integrals
 difficulty: 3
-equation: dimensionless eq sum skip skip (dimensionless mul dimensionless )
+equation: dimensionless eq sum drop drop (dimensionless mul dimensionless)
 symbol_overrides:
 - dimensionless: ∫_a^b f(x) dx
-- dimensionless: lim
-- dimensionless: n→∞
+- dimensionless: f(x_i)
+- dimensionless: Δx
 name_overrides:
 - dimensionless: Definite integral
-- dimensionless: Limit
-- dimensionless: n → ∞
+- dimensionless: Function value
+- dimensionless: Interval width

@@ -2,7 +2,8 @@ name: Force between parallel current-carrying wires
 id: force_between_parallel_wires
 topic: magnetism
 difficulty: 3
-equation: (force) eq ((((vacuum_permeability) mul ((current) mul (current))) mul (length)) div (((pi) mul 2) mul (length)))
+equation: force eq vacuum_permeability mul (current mul current ) mul (length) div
+  ((pi mul 2) mul length )
 symbol_overrides:
 - force: ''
 - current: I₁

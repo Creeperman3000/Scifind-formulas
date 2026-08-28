@@ -2,16 +2,15 @@ name: Kp from Kc and temperature change
 id: chemical_equilibrium_kp_from_kc
 topic: chemical_equilibrium
 difficulty: 2
-equation: (equilibrium_constant) eq (((equilibrium_constant) pow ((gas_constant) mul (temperature))) mul (dimensionless))
+equation: equilibrium_constant eq equilibrium_constant mul (gas_constant mul temperature
+  ) pow dimensionless
 symbol_overrides:
 - equilibrium_constant: K_p
 - equilibrium_constant: K_c
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Δn
 name_overrides:
 - equilibrium_constant: Kp
 - equilibrium_constant: Kc
-- gas_constant: ''
 - temperature: '[Temperature]'
 - dimensionless: Change in moles of gas

@@ -2,15 +2,12 @@ name: Spring-mass system period
 id: spring_mass_period
 topic: springs
 difficulty: 2
-equation: (time) eq ((((dimensionless) mul (sqrt  ((mass) div (spring_constant)) 2))
-  mul 2) mul pi)
+equation: time eq 2 mul pi mul sqrt (mass div spring_constant ) 2
 symbol_overrides:
 - time: T
-- dimensionless: ''
-- mass: ''
-- spring_constant: ''
+- mass: m
+- spring_constant: k
 name_overrides:
 - time: Period
-- dimensionless: ''
-- mass: ''
+- mass: Mass
 - spring_constant: Spring [constant]

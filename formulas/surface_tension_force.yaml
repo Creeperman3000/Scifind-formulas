@@ -2,7 +2,7 @@ name: Surface tension force
 id: surface_tension_force
 topic: surface_tension
 difficulty: 2
-equation: (force) eq ((surface_tension) mul (length))
+equation: force eq surface_tension mul length
 symbol_overrides:
 - force: ''
 - surface_tension: γ

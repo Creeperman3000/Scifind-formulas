@@ -1,15 +1,13 @@
-name: Compton scattering wavelength shift
+name: Compton scattering wavelength shift (compton_shift_equation)
 id: compton_shift_equation
 topic: particle_physics
 difficulty: 5
-equation: (length) eq ((length) add (((planck_constant) div ((mass) mul (speed_of_light))) mul (1 sub (cos (angle)))))
+equation: length eq planck_constant div (mass mul speed_of_light ) mul 1 sub cos angle
 symbol_overrides:
-- length: λ' - λ
-- length: λ'
-- mass: ''
+- length: Δλ
+- mass: m_e
 - angle: θ
 name_overrides:
-- length: Compton shift
-- length: Wavelength after scattering
+- length: Wavelength shift
 - mass: Electron [mass]
-- angle: ''
+- angle: Scattering angle

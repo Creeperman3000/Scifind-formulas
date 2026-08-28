@@ -2,21 +2,21 @@ name: 3D distance formula
 id: distance_3d
 topic: coordinate_geometry
 difficulty: 2
-equation: (length) eq (dimensionless) (dimensionless) sub pow 2 (dimensionless) (dimensionless)
-  sub pow 2 add (dimensionless) (dimensionless) sub pow 2 sqrt add 2
+equation: length eq sqrt (((dimensionless sub dimensionless ) pow 2) add ((dimensionless
+  sub dimensionless ) pow 2) add (dimensionless sub dimensionless ) pow 2 ) 2
 symbol_overrides:
-- length: ''
+- length: d
+- dimensionless: x_2
+- dimensionless: x_1
+- dimensionless: y_2
+- dimensionless: y_1
+- dimensionless: z_2
+- dimensionless: z_1
+name_overrides:
+- length: Distance
 - dimensionless: x₂
 - dimensionless: x₁
 - dimensionless: y₂
 - dimensionless: y₁
 - dimensionless: z₂
 - dimensionless: z₁
-name_overrides:
-- length: Distance
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''

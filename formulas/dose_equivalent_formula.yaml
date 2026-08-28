@@ -2,7 +2,7 @@ name: Dose equivalent
 id: dose_equivalent_formula
 topic: nuclear_physics
 difficulty: 2
-equation: (dose_equivalent) eq ((absorbed_dose) mul (dimensionless))
+equation: dose_equivalent eq absorbed_dose mul dimensionless
 symbol_overrides:
 - dose_equivalent: ''
 - absorbed_dose: ''

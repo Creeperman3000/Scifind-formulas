@@ -2,16 +2,17 @@ name: Displacement at constant acceleration
 id: displacement_constant_acceleration
 topic: constant_acceleration
 difficulty: 2
-equation: (displacement) eq (((velocity) mul (time)) add (((acceleration) mul ((time) mul (time))) div 2))
+equation: length eq velocity mul (time) add acceleration mul (time mul time ) div
+  2
 symbol_overrides:
-- displacement: s
+- length: s
 - velocity: u
 - time: ''
 - acceleration: ''
 - time: ''
 - time: ''
 name_overrides:
-- displacement: ''
+- length: ''
 - velocity: Initial [velocity]
 - time: ''
 - acceleration: ''

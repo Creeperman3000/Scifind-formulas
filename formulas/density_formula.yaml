@@ -2,7 +2,7 @@ name: Density
 id: density_formula
 topic: pressure
 difficulty: 1
-equation: (density) eq ((mass) div (volume))
+equation: density eq mass div volume
 symbol_overrides:
 - density: ''
 - mass: ''

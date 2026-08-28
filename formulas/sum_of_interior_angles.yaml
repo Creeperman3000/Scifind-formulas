@@ -2,7 +2,7 @@ name: Sum of interior angles of a polygon
 id: sum_of_interior_angles
 topic: polygons
 difficulty: 1
-equation: (angle) eq (((dimensionless) sub 2) mul 180)
+equation: angle eq (dimensionless sub 2) mul 180
 symbol_overrides:
 - angle: S
 - dimensionless: n

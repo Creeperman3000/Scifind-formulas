@@ -2,7 +2,7 @@ name: Stoichiometric mole ratio calculation
 id: stoichiometric_mole_ratio
 topic: limiting_reactants
 difficulty: 2
-equation: (amount) eq ((amount) mul ((dimensionless) div (dimensionless)))
+equation: amount eq amount mul dimensionless div dimensionless
 symbol_overrides:
 - amount: n_product
 - amount: n_reactant

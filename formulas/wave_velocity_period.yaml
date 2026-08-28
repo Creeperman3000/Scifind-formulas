@@ -2,7 +2,7 @@ name: Wave velocity from wavelength and period
 id: wave_velocity_period
 topic: mechanical_waves
 difficulty: 1
-equation: (velocity) eq ((length) div (time))
+equation: velocity eq length div time
 symbol_overrides:
 - velocity: ''
 - length: λ

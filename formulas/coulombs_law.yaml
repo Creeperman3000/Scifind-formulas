@@ -2,7 +2,7 @@ name: Coulomb's law
 id: coulombs_law
 topic: electrostatics
 difficulty: 2
-equation: (force) eq (((coulomb_constant) mul ((charge) mul (charge))) div (length pow 2))
+equation: force eq coulomb_constant mul (charge mul charge ) div length pow 2
 symbol_overrides:
 - force: F_e
 - charge: q_1

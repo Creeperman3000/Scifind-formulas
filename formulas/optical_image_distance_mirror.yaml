@@ -2,11 +2,12 @@ name: Image distance for a convex mirror
 id: optical_image_distance_mirror
 topic: mirrors
 difficulty: 2
-equation: ((length) pow -1) eq (((length) pow -1) sub ((length) pow -1))
+equation: length pow (drop 1 sub) eq length pow (drop 1 sub) add length pow (drop
+  1 sub)
 symbol_overrides:
-- length: 1/f
-- length: 1/u
-- length: 1/v
+- length: f
+- length: d_o
+- length: d_i
 name_overrides:
 - length: Reciprocal focal length
 - length: Reciprocal object distance

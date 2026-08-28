@@ -2,7 +2,7 @@ name: Kirchhoff's current law
 id: kirchhoff_current_law
 topic: circuits
 difficulty: 2
-equation: sum skip skip current eq 0
+equation: sum drop drop current eq 0
 name_overrides:
 - current: Sum of currents
 symbol_overrides:

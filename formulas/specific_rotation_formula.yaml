@@ -2,7 +2,7 @@ name: Specific rotation in polarimetry
 id: specific_rotation_formula
 topic: analytical_chemistry
 difficulty: 2
-equation: (angle) eq ((angle) div ((concentration) mul (length)))
+equation: angle eq angle div concentration mul length
 symbol_overrides:
 - angle: '[α]'
 - angle: α

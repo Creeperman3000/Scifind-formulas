@@ -2,7 +2,7 @@ name: Intensity after a polarizer
 id: polarization_intensity_after_polarizer
 topic: polarization
 difficulty: 2
-equation: (irradiance) eq ((irradiance) mul (cos (angle pow 2)))
+equation: irradiance eq irradiance mul cos (angle pow 2)
 symbol_overrides:
 - irradiance: I
 - irradiance: I_0

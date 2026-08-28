@@ -2,7 +2,7 @@ name: Law of sines side ratio
 id: law_of_sines_angle_sum
 topic: laws_of_sines_and_cosines
 difficulty: 1
-equation: ((length) div (sin (angle))) eq ((length) div (sin (angle))) eq ((length) div (sin (angle)))
+equation: length div sin angle eq length div sin angle eq length div sin angle
 symbol_overrides:
 - length: a
 - angle: A

@@ -2,12 +2,12 @@ name: Spring constant from Hooke's law
 id: spring_constant_hookes_law
 topic: springs
 difficulty: 1
-equation: (spring_constant) eq ((force) div (displacement))
+equation: spring_constant eq force div length
 symbol_overrides:
 - spring_constant: ''
 - force: ''
-- displacement: ''
+- length: ''
 name_overrides:
 - spring_constant: ''
 - force: ''
-- displacement: Extension
+- length: Extension

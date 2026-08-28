@@ -2,7 +2,7 @@ name: Volume percent concentration
 id: volume_percent
 topic: solution_stoichiometry
 difficulty: 1
-equation: (dimensionless) eq (((volume) div (volume)) mul (dimensionless))
+equation: dimensionless eq volume div (volume) mul dimensionless
 symbol_overrides:
 - dimensionless: '%v/v'
 - volume: V_solute

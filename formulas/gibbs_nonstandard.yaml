@@ -2,16 +2,14 @@ name: Gibbs free energy under non-standard conditions
 id: gibbs_nonstandard
 topic: chemical_equilibrium
 difficulty: 3
-equation: (energy) eq ((energy) add (((gas_constant) mul (temperature)) mul (ln (dimensionless))))
+equation: energy eq energy add gas_constant mul (temperature) mul log euler_e dimensionless
 symbol_overrides:
 - energy: ΔG
 - energy: ΔG°
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Q
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Standard Gibbs [energy] change
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Reaction quotient

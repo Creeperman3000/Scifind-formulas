@@ -2,7 +2,7 @@ name: Integral of Exponential
 id: integral_exponential
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq exp((dimensionless))
+equation: dimensionless eq exp dimensionless
 symbol_overrides:
 - dimensionless: ∫eˣ dx
 - dimensionless: x

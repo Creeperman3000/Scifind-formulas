@@ -2,12 +2,12 @@ name: Gibbs free energy from cell potential
 id: gibbs_cell_potential
 topic: electrochemistry
 difficulty: 3
-equation: (energy) eq neg(((((amount) mul (elementary_charge)) mul (avogadro_number)) mul (electric_potential)))
+equation: energy eq drop dimensionless sub mul (faraday_constant) mul electric_potential
 symbol_overrides:
 - energy: ΔG
-- amount: ''
+- dimensionless: n
 - electric_potential: E
 name_overrides:
 - energy: Gibbs free [energy] change
-- amount: Moles of electrons
+- dimensionless: Moles of electrons
 - electric_potential: Cell [potential]

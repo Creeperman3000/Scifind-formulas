@@ -2,7 +2,7 @@ name: Impedance of a series RC circuit
 id: impedance_rc_series
 topic: circuits
 difficulty: 3
-equation: (resistance) eq sqrt (((resistance) add (2 pow ((resistance) pow 2)))) 2
+equation: resistance eq sqrt (resistance add 2 pow resistance pow 2 ) 2
 symbol_overrides:
 - resistance: Z
 - resistance: X_C

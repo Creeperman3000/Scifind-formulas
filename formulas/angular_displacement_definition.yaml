@@ -2,7 +2,7 @@ name: Angular displacement from rotation
 id: angular_displacement_definition
 topic: circular_motion
 difficulty: 1
-equation: (angle) eq ((length) div (length))
+equation: angle eq length div length
 symbol_overrides:
 - angle: θ
 - length: s

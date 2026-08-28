@@ -2,7 +2,8 @@ name: Otto cycle efficiency
 id: otto_cycle_efficiency
 topic: heat_engines
 difficulty: 4
-equation: (dimensionless) eq (dimensionless) (dimensionless) (dimensionless) sub (dimensionless) pow div sub 1
+equation: dimensionless eq dimensionless dimensionless dimensionless sub dimensionless
+  pow div sub 1
 symbol_overrides:
 - dimensionless: η_Otto
 - dimensionless: r

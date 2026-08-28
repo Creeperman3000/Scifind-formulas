@@ -2,7 +2,7 @@ name: Derivative of natural logarithm
 id: derivative_ln
 topic: derivatives
 difficulty: 2
-equation: ((dimensionless) mul (rmd (ln (angle)))) eq ((1 div (angle)))
+equation: dimensionless mul rmd log euler_e angle eq 1 div angle
 symbol_overrides:
 - dimensionless: d/dx
 - angle: x

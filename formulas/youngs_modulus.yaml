@@ -2,7 +2,7 @@ name: Young's modulus
 id: youngs_modulus
 topic: forces
 difficulty: 2
-equation: (pressure) eq ((pressure) div (dimensionless))
+equation: pressure eq pressure div dimensionless
 symbol_overrides:
 - pressure: E
 - pressure: σ

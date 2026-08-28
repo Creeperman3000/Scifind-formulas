@@ -2,7 +2,7 @@ name: Atom economy
 id: atom_economy
 topic: chemical_reactions
 difficulty: 2
-equation: (dimensionless) eq (((mass) div (mass)) mul (dimensionless))
+equation: dimensionless eq mass div (mass) mul dimensionless
 symbol_overrides:
 - dimensionless: '% AE'
 - mass: m_desired

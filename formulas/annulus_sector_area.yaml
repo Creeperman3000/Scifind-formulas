@@ -2,7 +2,7 @@ name: Area of an annular sector
 id: annulus_sector_area
 topic: circles
 difficulty: 3
-equation: (area) eq (((angle) mul ((length pow 2) sub (length pow 2))) div 2)
+equation: area eq angle mul ((length pow 2) sub length pow 2 ) div 2
 symbol_overrides:
 - area: ''
 - angle: θ

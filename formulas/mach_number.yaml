@@ -2,7 +2,7 @@ name: Mach number
 id: mach_number
 topic: mechanical_waves
 difficulty: 2
-equation: (dimensionless) eq ((velocity) div (velocity))
+equation: dimensionless eq velocity div velocity
 symbol_overrides:
 - dimensionless: M
 - velocity: c

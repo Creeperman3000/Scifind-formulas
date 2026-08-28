@@ -2,7 +2,7 @@ name: Torque from perpendicular force component
 id: torque_perpendicular_force
 topic: torque
 difficulty: 2
-equation: (torque) eq ((length) mul ((force) mul (sin (angle))))
+equation: torque eq length mul force mul sin angle
 symbol_overrides:
 - torque: τ
 - length: r

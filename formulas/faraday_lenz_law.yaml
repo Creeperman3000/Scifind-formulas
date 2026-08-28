@@ -2,12 +2,8 @@ name: Faraday-Lenz law
 id: faraday_lenz_law
 topic: electromagnetic_induction
 difficulty: 3
-equation: (electromagnetic_induction) eq neg(((magnetic_flux) mul rmd((time))))
+equation: electric_potential eq drop rmd magnetic_flux sub div rmd time
 symbol_overrides:
-- electromagnetic_induction: ε
-- magnetic_flux: ''
-- time: ''
+- electric_potential: EMF
 name_overrides:
-- electromagnetic_induction: Induced EMF
-- magnetic_flux: ''
-- time: ''
+- electric_potential: EMF

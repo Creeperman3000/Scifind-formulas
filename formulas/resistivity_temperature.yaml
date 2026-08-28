@@ -2,16 +2,10 @@ name: Resistivity temperature dependence
 id: resistivity_temperature
 topic: circuits
 difficulty: 3
-equation: (resistance) eq ((resistance) mul (((dimensionless) mul ((temperature) sub (temperature))) add 1))
+equation: resistance eq resistance mul 1 add dimensionless mul temperature sub temperature
 symbol_overrides:
+- resistance: R
 - resistance: R_0
-- resistance: ''
 - dimensionless: α
+- temperature: T
 - temperature: T_0
-- temperature: ''
-name_overrides:
-- resistance: '[Resistance] at T'
-- resistance: Reference [resistance]
-- dimensionless: Temperature coefficient
-- temperature: '[Temperature]'
-- temperature: Reference [temperature]

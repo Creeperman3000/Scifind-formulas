@@ -2,7 +2,7 @@ name: Combined gas law
 id: combined_gas_law
 topic: ideal_gases
 difficulty: 2
-equation: (((pressure) mul (volume)) div (temperature)) eq (((pressure) mul (volume)) div (temperature))
+equation: pressure mul (volume) div temperature eq pressure mul (volume) div temperature
 symbol_overrides:
 - pressure: P_1
 - volume: V_1

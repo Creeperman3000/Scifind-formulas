@@ -2,7 +2,7 @@ name: Friction force on a horizontal surface
 id: friction_force_horizontal
 topic: friction
 difficulty: 1
-equation: (force) eq (((coefficient_of_friction) mul (mass)) mul (acceleration))
+equation: force eq coefficient_of_friction mul (mass) mul acceleration
 symbol_overrides:
 - force: f_k
 - coefficient_of_friction: μ_k

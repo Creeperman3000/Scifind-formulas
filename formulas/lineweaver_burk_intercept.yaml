@@ -2,7 +2,8 @@ name: Lineweaver-Burk y-intercept
 id: lineweaver_burk_intercept
 topic: biochemistry
 difficulty: 3
-equation: ((catalytic_activity) pow -1) eq (((catalytic_activity) pow -1) add (((catalytic_activity) pow -1) mul ((concentration) pow -1)))
+equation: catalytic_activity pow (drop 1 sub) eq catalytic_activity pow (drop 1 sub)
+  add catalytic_activity pow (drop 1 sub) mul concentration pow (drop 1 sub)
 symbol_overrides:
 - catalytic_activity: 1/v
 - catalytic_activity: K_m/V_max

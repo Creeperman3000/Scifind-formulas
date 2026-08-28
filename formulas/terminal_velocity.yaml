@@ -2,17 +2,17 @@ name: Terminal velocity
 id: terminal_velocity
 topic: reynolds_number
 difficulty: 3
-equation: (velocity) eq sqrt (((((mass) mul (standard_gravity)) mul 2) div (((density)
-  mul (area)) mul (dimensionless)))) 2
+equation: velocity eq sqrt (2 mul (mass mul standard_gravity ) div density mul (area)
+  mul dimensionless ) 2
 symbol_overrides:
 - velocity: v_t
-- mass: ''
+- mass: m
 - density: ρ
-- area: ''
+- area: A
 - dimensionless: C_d
 name_overrides:
 - velocity: Terminal [velocity]
-- mass: ''
+- mass: Mass
 - density: Fluid [density]
-- area: ''
+- area: Cross-sectional area
 - dimensionless: Drag coefficient

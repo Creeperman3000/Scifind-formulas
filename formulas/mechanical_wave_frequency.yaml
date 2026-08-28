@@ -2,7 +2,7 @@ name: Mechanical wave frequency from wave speed and wavelength
 id: mechanical_wave_frequency
 topic: mechanical_waves
 difficulty: 1
-equation: (frequency) eq ((velocity) div (length))
+equation: frequency eq velocity div length
 symbol_overrides:
 - frequency: ''
 - velocity: ''

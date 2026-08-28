@@ -2,7 +2,7 @@ name: Resistivity from resistance
 id: resistivity_from_resistance
 topic: circuits
 difficulty: 2
-equation: (resistance) eq (((resistance) mul (area)) div (length))
+equation: resistance eq resistance mul (area) div length
 symbol_overrides:
 - resistance: ρ
 - resistance: ''

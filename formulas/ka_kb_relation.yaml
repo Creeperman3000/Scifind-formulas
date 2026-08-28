@@ -2,7 +2,7 @@ name: Relationship between Ka and Kb
 id: ka_kb_relation
 topic: acids_and_bases
 difficulty: 2
-equation: ((equilibrium_constant) mul (equilibrium_constant)) eq (equilibrium_constant)
+equation: equilibrium_constant mul equilibrium_constant eq equilibrium_constant
 symbol_overrides:
 - equilibrium_constant: K_a
 - equilibrium_constant: K_b

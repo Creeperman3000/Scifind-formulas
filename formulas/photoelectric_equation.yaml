@@ -2,7 +2,7 @@ name: Photoelectric equation
 id: photoelectric_equation
 topic: quantum_mechanics
 difficulty: 3
-equation: (energy) eq (((planck_constant) mul (frequency)) sub (energy))
+equation: energy eq planck_constant mul (frequency) sub energy
 symbol_overrides:
 - energy: E_k_max
 - frequency: ''

@@ -2,7 +2,7 @@ name: Absorbance from transmittance
 id: absorbance_transmittance
 topic: analytical_chemistry
 difficulty: 2
-equation: absorbance eq neg (log 10 dimensionless)
+equation: absorbance eq drop log 10 dimensionless sub
 symbol_overrides:
 - absorbance: ''
 - dimensionless: T

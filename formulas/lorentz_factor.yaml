@@ -2,11 +2,15 @@ name: Lorentz factor
 id: lorentz_factor
 topic: relativity
 difficulty: 3
-equation: (lorentz_factor) eq (velocity) (speed_of_light) div pow 2 1 sub neg sqrt  1
-  2 div
+equation: dimensionless eq dimensionless div sqrt (dimensionless sub (velocity pow
+  2) div speed_of_light pow 2 ) 2
 symbol_overrides:
-- lorentz_factor: γ
-- velocity: ''
+- dimensionless: γ
+- dimensionless: '1'
+- dimensionless: '1'
+- velocity: v
 name_overrides:
-- lorentz_factor: '[Lorentz factor]'
-- velocity: ''
+- dimensionless: Lorentz factor
+- dimensionless: One
+- dimensionless: One
+- velocity: Velocity

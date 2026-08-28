@@ -2,7 +2,7 @@ name: Unit vector definition
 id: unit_vector_definition
 topic: linear_algebra
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: û
 - dimensionless: v

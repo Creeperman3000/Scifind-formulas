@@ -2,11 +2,11 @@ name: Kinetic energy loss in collision
 id: collision_kinetic_energy_loss
 topic: collisions
 difficulty: 2
-equation: (energy) eq ((energy) sub (energy))
+equation: energy eq energy sub energy
 symbol_overrides:
-- energy: ΔKE
-- energy: KE_after
-- energy: KE_before
+- energy: \Delta\mathrm{KE}
+- energy: \mathrm{KE}_{\mathrm{after}}
+- energy: \mathrm{KE}_{\mathrm{before}}
 name_overrides:
 - energy: Change in kinetic [energy]
 - energy: Kinetic [energy] after

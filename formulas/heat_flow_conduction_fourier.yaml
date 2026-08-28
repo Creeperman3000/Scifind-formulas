@@ -2,9 +2,10 @@ name: Fourier's law of heat conduction
 id: heat_flow_conduction_fourier
 topic: heat_transfer
 difficulty: 2
-equation: ((heat) div (time)) eq (((thermal_conductivity) mul (area)) mul ((length) div ((temperature) sub (temperature))))
+equation: energy div time eq thermal_conductivity mul (area) mul length div temperature
+  sub temperature
 symbol_overrides:
-- heat: ''
+- energy: ''
 - time: ''
 - thermal_conductivity: ''
 - area: ''
@@ -12,7 +13,7 @@ symbol_overrides:
 - temperature: T_2
 - temperature: T_1
 name_overrides:
-- heat: '[Heat] flow'
+- energy: '[Heat] flow'
 - time: ''
 - thermal_conductivity: ''
 - area: ''

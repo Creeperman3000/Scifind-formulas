@@ -2,16 +2,14 @@ name: Heat energy from specific heat capacity
 id: specific_heat_capacity_heat_energy
 topic: heat
 difficulty: 1
-equation: (heat) eq (((mass) mul (specific_heat_capacity)) mul ((temperature) sub (temperature)))
+equation: energy eq mass mul (specific_heat_capacity) mul temperature
 symbol_overrides:
-- heat: ''
-- mass: ''
-- specific_heat_capacity: ''
-- temperature: T_f
-- temperature: T_i
+- energy: Q
+- mass: m
+- specific_heat_capacity: c
+- temperature: dT
 name_overrides:
-- heat: ''
-- mass: ''
-- specific_heat_capacity: ''
-- temperature: Final [temperature]
-- temperature: Initial [temperature]
+- energy: Heat
+- mass: Mass
+- specific_heat_capacity: Specific heat
+- temperature: Temp change

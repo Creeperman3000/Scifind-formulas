@@ -2,14 +2,12 @@ name: Gravitational potential of a point mass
 id: gravitational_potential_point
 topic: newtonian_gravity
 difficulty: 3
-equation: (specific_energy) eq neg((((gravitational_constant) mul (mass)) div (length)))
+equation: specific_energy eq drop (gravitational_constant mul (mass) div length) sub
 symbol_overrides:
 - specific_energy: Φ
-- gravitational_constant: ''
 - mass: M
 - length: r
 name_overrides:
 - specific_energy: Gravitational [potential]
-- gravitational_constant: ''
 - mass: Source [mass]
 - length: Distance from center

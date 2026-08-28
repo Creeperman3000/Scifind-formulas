@@ -2,7 +2,7 @@ name: Lens Magnification
 id: lens_magnification
 topic: lenses
 difficulty: 1
-equation: (dimensionless) eq ((length) div (length))
+equation: dimensionless eq length div length
 symbol_overrides:
 - dimensionless: m
 - length: v

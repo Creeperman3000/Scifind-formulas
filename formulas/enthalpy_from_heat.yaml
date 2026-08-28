@@ -2,12 +2,12 @@ name: Enthalpy change from heat at constant pressure
 id: enthalpy_from_heat
 topic: thermochemistry
 difficulty: 2
-equation: (energy) eq ((heat) div (amount))
+equation: energy eq energy div amount
 symbol_overrides:
 - energy: ΔH
-- heat: q
+- energy: q
 - amount: ''
 name_overrides:
 - energy: Molar enthalpy change
-- heat: '[Heat]'
+- energy: '[Heat]'
 - amount: ''

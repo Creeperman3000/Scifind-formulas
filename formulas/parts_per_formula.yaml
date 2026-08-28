@@ -1,8 +1,8 @@
-name: Parts Per Formula
+name: Parts per billion
 id: parts_per_formula
 topic: solution_stoichiometry
 difficulty: 1
-equation: (dimensionless) eq (((mass) div (mass)) mul (dimensionless))
+equation: dimensionless eq (mass div mass) mul dimensionless
 symbol_overrides:
 - dimensionless: ppb
 - mass: m_solute

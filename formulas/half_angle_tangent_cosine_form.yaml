@@ -2,7 +2,7 @@ name: Half Angle Tangent (Cosine Form)
 id: half_angle_tangent_cosine_form
 topic: trigonometric_identities
 difficulty: 3
-equation: (tan ((angle) div 2)) eq (((dimensionless) sub (cos (angle))) div (sin (angle)))
+equation: tan (angle div 2) eq (dimensionless sub cos angle ) div sin angle
 symbol_overrides:
 - angle: θ
 - dimensionless: '1'

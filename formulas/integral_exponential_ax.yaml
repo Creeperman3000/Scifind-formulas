@@ -2,7 +2,7 @@ name: Integral of Exponential ax
 id: integral_exponential_ax
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq ((exp ((dimensionless) mul (dimensionless))) div (dimensionless))
+equation: dimensionless eq exp (dimensionless mul dimensionless ) div dimensionless
 symbol_overrides:
 - dimensionless: ∫e^(ax) dx
 - dimensionless: a

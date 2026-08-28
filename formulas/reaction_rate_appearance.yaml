@@ -2,7 +2,7 @@ name: Reaction rate from appearance of product
 id: reaction_rate_appearance
 topic: chemical_reactions
 difficulty: 2
-equation: ((concentration) div (time)) eq ((concentration) div (time))
+equation: concentration div time eq concentration div time
 symbol_overrides:
 - concentration: rate
 - time: Δt

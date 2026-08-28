@@ -2,7 +2,7 @@ name: Limiting reactant moles comparison
 id: limiting_reactant_moles_comparison
 topic: limiting_reactants
 difficulty: 2
-equation: (amount) eq ((amount) div (dimensionless))
+equation: amount eq amount div dimensionless
 symbol_overrides:
 - amount: n_A/ν_A
 - amount: n_A

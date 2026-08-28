@@ -2,7 +2,7 @@ name: Mechanical advantage of a lever
 id: lever_mechanical_advantage
 topic: forces
 difficulty: 1
-equation: (dimensionless) eq ((length) div (length))
+equation: dimensionless eq length div length
 symbol_overrides:
 - dimensionless: MA
 - length: d_e

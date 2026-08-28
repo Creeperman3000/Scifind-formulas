@@ -2,7 +2,8 @@ name: Bernoulli differential equation
 id: bernoulli_differential_equation
 topic: differential_equations
 difficulty: 5
-equation: (rmd((dimensionless)) add ((dimensionless) mul (dimensionless))) eq ((dimensionless) mul ((dimensionless) pow (dimensionless)))
+equation: rmd dimensionless add dimensionless mul dimensionless eq dimensionless mul
+  dimensionless pow dimensionless
 symbol_overrides:
 - dimensionless: dy/dx
 - dimensionless: P(x)

@@ -2,7 +2,7 @@ name: Convex mirror focal length sign
 id: convex_mirror_focal_sign
 topic: mirrors
 difficulty: 2
-equation: (length) eq neg(((length) div 2))
+equation: length eq drop (length div 2) sub
 symbol_overrides:
 - length: f_convex
 - length: R

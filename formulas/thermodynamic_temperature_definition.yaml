@@ -2,12 +2,12 @@ name: Thermodynamic definition of temperature
 id: thermodynamic_temperature_definition
 topic: second_law
 difficulty: 3
-equation: (temperature) eq ((heat) div (entropy))
+equation: temperature eq energy div entropy
 symbol_overrides:
 - temperature: ''
-- heat: ΔQ_rev
+- energy: ΔQ_rev
 - entropy: ΔS
 name_overrides:
 - temperature: Thermodynamic [temperature]
-- heat: Reversible heat transfer
+- energy: Reversible heat transfer
 - entropy: Entropy change

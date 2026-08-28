@@ -2,7 +2,7 @@ name: Galilean velocity addition
 id: physics_galilean_relativity
 topic: relativity
 difficulty: 1
-equation: (velocity) eq ((velocity) add (velocity))
+equation: velocity eq velocity add velocity
 symbol_overrides:
 - velocity: v_AB
 - velocity: v_AC

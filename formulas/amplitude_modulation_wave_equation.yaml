@@ -2,7 +2,8 @@ name: Amplitude modulation wave
 id: amplitude_modulation_wave_equation
 topic: electromagnetic_waves
 difficulty: 4
-equation: (dimensionless) eq (((dimensionless) mul (cos (((frequency) mul (time)) mul 2 mul pi))) mul ((dimensionless) add (cos (((dimensionless) mul (time)) mul 2 mul pi))))
+equation: dimensionless eq dimensionless mul cos ((frequency) mul (time) mul 2 mul
+  pi) mul dimensionless add cos (dimensionless mul (time) mul 2 mul pi)
 symbol_overrides:
 - dimensionless: y(t)
 - dimensionless: A_c

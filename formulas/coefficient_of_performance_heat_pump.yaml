@@ -2,12 +2,12 @@ name: Coefficient of performance of a heat pump
 id: coefficient_of_performance_heat_pump
 topic: heat_engines
 difficulty: 3
-equation: (dimensionless) eq ((heat) div (work))
+equation: dimensionless eq energy div energy
 symbol_overrides:
-- dimensionless: COP_HP
-- heat: Q_h
-- work: ''
+- dimensionless: \mathrm{COP}_{\mathrm{HP}}
+- energy: Q_h
+- energy: W
 name_overrides:
 - dimensionless: COP of heat [pump]
-- heat: Heat delivered
-- work: Work input
+- energy: Heat delivered
+- energy: Work input

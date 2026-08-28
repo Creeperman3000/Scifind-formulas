@@ -2,12 +2,12 @@ name: Wave speed from tension and linear density
 id: mechanical_wave_speed_tension
 topic: mechanical_waves
 difficulty: 2
-equation: (velocity) eq sqrt (((force) div (surface_density))) 2
+equation: velocity eq sqrt (force div mass_concentration ) 2
 symbol_overrides:
-- velocity: ''
+- velocity: v
 - force: T
-- surface_density: μ
+- mass_concentration: \mu
 name_overrides:
-- velocity: Wave [velocity]
+- velocity: Wave speed
 - force: Tension
-- surface_density: Linear [density]
+- mass_concentration: Linear mass density

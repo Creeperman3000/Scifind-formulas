@@ -2,7 +2,7 @@ name: Number of permutations
 id: permutations
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: P(n,r)
 - dimensionless: n!

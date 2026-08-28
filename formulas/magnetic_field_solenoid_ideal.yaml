@@ -2,7 +2,8 @@ name: Magnetic field inside an ideal solenoid
 id: magnetic_field_solenoid_ideal
 topic: magnetism
 difficulty: 2
-equation: (magnetic_flux_density) eq ((vacuum_permeability) mul (((dimensionless) div (length)) mul (current)))
+equation: magnetic_flux_density eq vacuum_permeability mul dimensionless div (length)
+  mul current
 symbol_overrides:
 - magnetic_flux_density: ''
 - dimensionless: N

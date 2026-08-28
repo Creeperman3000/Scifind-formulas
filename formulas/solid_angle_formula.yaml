@@ -2,7 +2,7 @@ name: Solid angle
 id: solid_angle_formula
 topic: circles
 difficulty: 2
-equation: (solid_angle) eq ((area) div (length pow 2))
+equation: solid_angle eq area div length pow 2
 symbol_overrides:
 - solid_angle: Ω
 - area: ''

@@ -2,7 +2,7 @@ name: Dynamic viscosity from shear stress
 id: dynamic_viscosity_definition
 topic: reynolds_number
 difficulty: 4
-equation: (dynamic_viscosity) eq (((force) div (area)) div ((velocity) div (length)))
+equation: dynamic_viscosity eq force div (area) div velocity div length
 symbol_overrides:
 - dynamic_viscosity: ''
 - force: ''

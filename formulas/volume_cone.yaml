@@ -2,12 +2,12 @@ name: Volume of a cone
 id: volume_cone
 topic: plane_geometry
 difficulty: 1
-equation: (volume) eq ((((pi) mul (length pow 2)) mul (length)) div 3)
+equation: volume eq pi mul (length pow 2) mul (length) div 3
 symbol_overrides:
-- volume: ''
+- volume: V
 - length: r
 - length: h
 name_overrides:
-- volume: ''
+- volume: Volume
 - length: Radius
 - length: Height

@@ -2,7 +2,7 @@ name: Peak frequency of blackbody radiation
 id: blackbody_radiation_peak_frequency
 topic: quantum_mechanics
 difficulty: 3
-equation: (frequency) eq (((wavenumber) mul (temperature)) mul (speed_of_light))
+equation: frequency eq wavenumber mul (temperature) mul speed_of_light
 symbol_overrides:
 - frequency: ν_peak
 - wavenumber: b'

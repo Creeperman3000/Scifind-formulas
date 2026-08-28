@@ -2,14 +2,14 @@ name: Velocity at constant acceleration
 id: velocity_constant_acceleration
 topic: constant_acceleration
 difficulty: 1
-equation: (velocity) eq ((velocity) add ((acceleration) mul (time)))
+equation: velocity eq velocity add acceleration mul time
 symbol_overrides:
+- velocity: v
 - velocity: u
-- velocity: ''
-- acceleration: ''
-- time: ''
+- acceleration: a
+- time: t
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
-- acceleration: ''
-- time: ''
+- acceleration: Acceleration
+- time: Time

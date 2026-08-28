@@ -2,7 +2,8 @@ name: Self-inductance of a solenoid
 id: self_inductance_solenoid
 topic: electromagnetic_induction
 difficulty: 3
-equation: (inductance) eq (((((vacuum_permeability) pow (dimensionless)) mul 2) mul (area)) div (length))
+equation: inductance eq (vacuum_permeability pow (dimensionless) mul 2) mul (area)
+  div length
 symbol_overrides:
 - inductance: ''
 - dimensionless: N

@@ -2,7 +2,8 @@ name: Law of cosines rearranged for angle
 id: law_of_cosines_angle_rearranged
 topic: laws_of_sines_and_cosines
 difficulty: 2
-equation: (angle) eq (acos (((((length) mul (length)) add ((length) mul (length))) sub ((length) mul (length))) div (((length) mul (length)) mul 2)))
+equation: angle eq acos ((length mul (length) add (length) mul (length) sub length
+  mul length ) div length mul (length) mul 2 )
 symbol_overrides:
 - angle: C
 - length: a

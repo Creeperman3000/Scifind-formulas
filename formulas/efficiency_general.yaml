@@ -2,7 +2,7 @@ name: General efficiency
 id: efficiency_general
 topic: conservation_of_energy
 difficulty: 1
-equation: (dimensionless) eq ((energy) div (energy))
+equation: dimensionless eq energy div energy
 symbol_overrides:
 - dimensionless: η
 - energy: E_out

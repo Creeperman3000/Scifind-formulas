@@ -2,7 +2,7 @@ name: Harmonic mean
 id: harmonic_mean_formula
 topic: arithmetic
 difficulty: 2
-equation: (dimensionless) eq (2 div (((dimensionless) div 1) add ((dimensionless) div 1)))
+equation: dimensionless eq 2 div ((dimensionless div 1) add dimensionless div 1 )
 symbol_overrides:
 - dimensionless: HM
 - dimensionless: a

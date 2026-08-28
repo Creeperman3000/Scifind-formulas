@@ -2,7 +2,7 @@ name: Optical absorbance
 id: optical_absorbance
 topic: polarization
 difficulty: 1
-equation: dimensionless eq neg (log 10 (dimensionless frac dimensionless))
+equation: dimensionless eq drop log 10 (dimensionless frac dimensionless) sub
 symbol_overrides:
 - dimensionless: A
 - power: I_0

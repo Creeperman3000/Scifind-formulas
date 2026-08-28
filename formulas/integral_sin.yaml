@@ -2,7 +2,7 @@ name: Integral of sine
 id: integral_sin
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq (neg (cos (angle)))
+equation: dimensionless eq drop cos angle sub
 symbol_overrides:
 - dimensionless: ∫sin(x)dx
 - angle: x

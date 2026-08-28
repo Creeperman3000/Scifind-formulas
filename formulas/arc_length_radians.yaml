@@ -2,7 +2,7 @@ name: Arc length from angle in radians
 id: arc_length_radians
 topic: circles
 difficulty: 1
-equation: (length) eq ((length) mul (angle))
+equation: length eq length mul angle
 symbol_overrides:
 - length: s
 - length: r

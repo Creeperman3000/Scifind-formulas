@@ -2,7 +2,7 @@ name: Atomic number
 id: atomic_number_formula
 topic: atomic_structure
 difficulty: 1
-equation: (amount) eq (dimensionless)
+equation: amount eq dimensionless
 symbol_overrides:
 - amount: Z
 - dimensionless: N_p

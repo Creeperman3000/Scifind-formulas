@@ -1,8 +1,9 @@
-name: Harmonic mean
+name: Harmonic mean (harmonic_mean_statistics)
 id: harmonic_mean_statistics
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (((dimensionless) div (dimensionless)) add ((dimensionless) div (dimensionless))))
+equation: dimensionless eq dimensionless div dimensionless div (dimensionless) add
+  dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: H
 - dimensionless: '2'

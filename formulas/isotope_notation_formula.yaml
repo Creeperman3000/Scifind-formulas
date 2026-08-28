@@ -2,7 +2,7 @@ name: Isotope notation
 id: isotope_notation_formula
 topic: atomic_structure
 difficulty: 1
-equation: (mass) eq ((dimensionless) add (dimensionless))
+equation: mass eq dimensionless add dimensionless
 symbol_overrides:
 - mass: ''
 - dimensionless: Z

@@ -1,15 +1,15 @@
-name: Integral of a^x
+name: Integral of base-a exponential
 id: integral_exp_base
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq (((angle) pow (dimensionless)) div (ln (dimensionless)))
+equation: dimensionless eq dimensionless pow (dimensionless) div log euler_e dimensionless
 symbol_overrides:
-- dimensionless: ∫aˣdx
-- angle: x
+- dimensionless: ∫a^x dx
 - dimensionless: a
+- dimensionless: x
 - dimensionless: a
 name_overrides:
-- dimensionless: Integral of a^x
-- angle: '[Variable]'
+- dimensionless: Integral of a to x
 - dimensionless: '[Base]'
+- dimensionless: '[Variable]'
 - dimensionless: '[Base]'

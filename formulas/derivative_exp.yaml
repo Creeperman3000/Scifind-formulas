@@ -2,7 +2,7 @@ name: Derivative of exponential
 id: derivative_exp
 topic: derivatives
 difficulty: 2
-equation: ((dimensionless) mul (rmd (exp (angle)))) eq (exp (angle))
+equation: dimensionless mul rmd exp angle eq exp angle
 symbol_overrides:
 - dimensionless: d/dx
 - angle: x

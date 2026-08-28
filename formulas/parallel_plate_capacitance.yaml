@@ -2,7 +2,7 @@ name: Parallel plate capacitance
 id: parallel_plate_capacitance
 topic: capacitance
 difficulty: 2
-equation: (capacitance) eq (((vacuum_permittivity) mul (area)) div (length))
+equation: capacitance eq vacuum_permittivity mul (area) div length
 symbol_overrides:
 - capacitance: ''
 - area: ''

@@ -2,18 +2,14 @@ name: Gravitational force between two masses
 id: gravitational_force_two_masses
 topic: newtonian_gravity
 difficulty: 1
-equation: (force) eq ((gravitational_constant) mul (((mass) mul (mass)) div ((length) mul (length))))
+equation: force eq gravitational_constant mul (mass) mul (mass) div length pow 2
 symbol_overrides:
-- force: F_g
-- gravitational_constant: ''
-- mass: M
-- mass: ''
+- force: F
+- mass: m_1
+- mass: m_2
 - length: r
-- length: ''
 name_overrides:
-- force: Gravitational [force]
-- gravitational_constant: ''
-- mass: '[Mass] 1'
-- mass: '[Mass] 2'
-- length: Separation
-- length: ''
+- force: Force
+- mass: Mass 1
+- mass: Mass 2
+- length: Distance

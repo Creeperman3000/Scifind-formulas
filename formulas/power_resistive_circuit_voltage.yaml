@@ -2,12 +2,12 @@ name: Power from voltage and resistance
 id: power_resistive_circuit_voltage
 topic: circuits
 difficulty: 1
-equation: (power) eq ((electric_potential pow 2) div (resistance))
+equation: power eq (electric_potential pow 2) div resistance
 symbol_overrides:
-- power: ''
-- electric_potential: ''
-- resistance: ''
+- power: P
+- electric_potential: V
+- resistance: R
 name_overrides:
-- power: Power dissipated
-- electric_potential: ''
-- resistance: ''
+- power: Power
+- electric_potential: Voltage
+- resistance: Resistance

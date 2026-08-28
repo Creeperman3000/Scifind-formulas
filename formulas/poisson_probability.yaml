@@ -2,7 +2,8 @@ name: Poisson probability mass function
 id: poisson_probability
 topic: probability
 difficulty: 3
-equation: (dimensionless) eq ((((dimensionless) pow (dimensionless)) mul (exp (neg (dimensionless)))) div (factorial (dimensionless)))
+equation: dimensionless eq dimensionless pow (dimensionless) mul exp (drop dimensionless
+  sub) div factorial dimensionless
 symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: λ

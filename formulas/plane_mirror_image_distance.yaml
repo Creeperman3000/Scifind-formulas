@@ -2,7 +2,7 @@ name: Plane mirror image distance
 id: plane_mirror_image_distance
 topic: reflection
 difficulty: 1
-equation: (length) eq neg((length))
+equation: length eq drop length sub
 symbol_overrides:
 - length: d_i
 - length: d_o

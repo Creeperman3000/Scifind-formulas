@@ -2,16 +2,16 @@ name: Parallel combination of inductors
 id: inductance_parallel
 topic: electromagnetic_induction
 difficulty: 2
-equation: (inductance) eq ((inductance) mul ((inductance) div ((inductance) add (inductance))))
+equation: inductance eq (inductance mul inductance) div inductance add inductance
 symbol_overrides:
 - inductance: L_eq
-- inductance: L₁
-- inductance: L₂
-- inductance: ''
-- inductance: ''
+- inductance: L_1
+- inductance: L_2
+- inductance: L_1
+- inductance: L_2
 name_overrides:
 - inductance: Equivalent [inductance]
 - inductance: '[Inductance] 1'
 - inductance: '[Inductance] 2'
-- inductance: ''
-- inductance: ''
+- inductance: '[Inductance] 1'
+- inductance: '[Inductance] 2'

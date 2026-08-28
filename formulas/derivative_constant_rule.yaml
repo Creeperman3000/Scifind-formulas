@@ -2,10 +2,8 @@ name: Derivative of a constant
 id: derivative_constant_rule
 topic: derivatives
 difficulty: 1
-equation: ((dimensionless) mul (rmd (dimensionless))) eq 0
+equation: dimensionless eq 0
 symbol_overrides:
-- dimensionless: c
-- dimensionless: ''
+- dimensionless: dc/dx
 name_overrides:
-- dimensionless: d(c)/dx
-- dimensionless: ''
+- dimensionless: Derivative of a constant

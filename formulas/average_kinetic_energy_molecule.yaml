@@ -2,12 +2,15 @@ name: Average kinetic energy per molecule
 id: average_kinetic_energy_molecule
 topic: ideal_gases
 difficulty: 3
-equation: (energy) eq (((boltzmann_constant) mul (temperature)) mul (dimensionless))
+equation: energy eq dimensionless div (dimensionless) mul (boltzmann_constant) mul
+  temperature
 symbol_overrides:
-- energy: KE_avg
-- temperature: ''
-- dimensionless: 3/2
+- energy: \langle K \rangle
+- dimensionless: '3'
+- dimensionless: '2'
+- temperature: T
 name_overrides:
-- energy: Average kinetic [energy] per molecule
-- temperature: ''
-- dimensionless: ''
+- energy: Average KE
+- dimensionless: Three
+- dimensionless: Two
+- temperature: Temperature

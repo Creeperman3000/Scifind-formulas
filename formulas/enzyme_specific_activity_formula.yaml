@@ -2,7 +2,7 @@ name: Enzyme assay specific activity
 id: enzyme_specific_activity_formula
 topic: biochemistry
 difficulty: 3
-equation: (catalytic_activity) eq ((catalytic_activity) div (mass))
+equation: catalytic_activity eq catalytic_activity div mass
 symbol_overrides:
 - catalytic_activity: SA
 - catalytic_activity: V_max

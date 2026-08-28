@@ -2,7 +2,7 @@ name: Polytropic process
 id: polytropic_process
 topic: ideal_gases
 difficulty: 3
-equation: ((pressure) mul ((volume) pow (dimensionless))) eq (dimensionless)
+equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
 - pressure: ''
 - volume: ''

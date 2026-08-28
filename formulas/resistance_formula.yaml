@@ -2,7 +2,7 @@ name: Resistance of a conductor
 id: resistance_formula
 topic: circuits
 difficulty: 2
-equation: (resistance) eq (((resistance) mul (length)) div (area))
+equation: resistance eq resistance mul (length) div area
 symbol_overrides:
 - resistance: ρ
 - resistance: ''

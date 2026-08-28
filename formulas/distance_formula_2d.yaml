@@ -2,17 +2,17 @@ name: Distance formula in 2D
 id: distance_formula_2d
 topic: coordinate_geometry
 difficulty: 2
-equation: (length) eq (length) (length) sub pow 2 (length) (length) sub pow 2 sqrt
-  add 2
+equation: length eq sqrt (((dimensionless sub dimensionless ) pow 2) add (dimensionless
+  sub dimensionless ) pow 2 ) 2
 symbol_overrides:
 - length: d
-- length: x_2
-- length: x_1
-- length: y_2
-- length: y_1
+- dimensionless: x_2
+- dimensionless: x_1
+- dimensionless: y_2
+- dimensionless: y_1
 name_overrides:
 - length: Distance
-- length: ''
-- length: ''
-- length: ''
-- length: ''
+- dimensionless: x₂
+- dimensionless: x₁
+- dimensionless: y₂
+- dimensionless: y₁

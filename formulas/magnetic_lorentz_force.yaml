@@ -1,15 +1,15 @@
-name: Magnetic Lorentz force
+name: Magnetic Lorentz force (magnetic_lorentz_force)
 id: magnetic_lorentz_force
 topic: magnetism
 difficulty: 3
-equation: (force) eq (((charge) mul (velocity)) mul (magnetic_flux_density))
+equation: force eq charge mul (velocity) mul magnetic_flux_density
 symbol_overrides:
-- force: ''
+- force: F
 - charge: q
-- velocity: ''
-- magnetic_flux_density: ''
+- velocity: v
+- magnetic_flux_density: B
 name_overrides:
-- force: Magnetic [force]
-- charge: ''
-- velocity: ''
-- magnetic_flux_density: ''
+- force: Force
+- charge: Charge
+- velocity: Velocity
+- magnetic_flux_density: Field

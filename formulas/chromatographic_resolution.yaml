@@ -2,7 +2,7 @@ name: Chromatographic resolution
 id: chromatographic_resolution
 topic: analytical_chemistry
 difficulty: 3
-equation: (dimensionless) eq ((((time) sub (time)) mul 2) div ((time) add (time)))
+equation: dimensionless eq 2 mul (time sub time ) div time add time
 symbol_overrides:
 - dimensionless: R_s
 - time: t_R2

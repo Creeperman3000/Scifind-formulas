@@ -2,7 +2,7 @@ name: Impulse
 id: impulse_formula
 topic: impulse
 difficulty: 1
-equation: (momentum) eq ((force) mul (time))
+equation: momentum eq force mul time
 symbol_overrides:
 - momentum: J
 - force: ''

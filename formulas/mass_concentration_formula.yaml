@@ -2,7 +2,7 @@ name: Mass concentration
 id: mass_concentration_formula
 topic: solutions
 difficulty: 1
-equation: (mass_concentration) eq ((mass) div (volume))
+equation: mass_concentration eq mass div volume
 symbol_overrides:
 - mass_concentration: ''
 - mass: ''

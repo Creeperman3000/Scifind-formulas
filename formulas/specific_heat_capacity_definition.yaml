@@ -2,14 +2,14 @@ name: Specific heat capacity definition
 id: specific_heat_capacity_definition
 topic: heat
 difficulty: 1
-equation: (specific_heat_capacity) eq ((heat) div ((mass) mul Delta((temperature))))
+equation: specific_heat_capacity eq energy div mass mul temperature
 symbol_overrides:
-- specific_heat_capacity: ''
-- heat: ''
-- mass: ''
-- temperature: ''
+- specific_heat_capacity: c
+- energy: Q
+- mass: m
+- temperature: \Delta T
 name_overrides:
-- specific_heat_capacity: ''
-- heat: ''
-- mass: ''
-- temperature: ''
+- specific_heat_capacity: Specific heat
+- energy: Heat
+- mass: Mass
+- temperature: Temperature change

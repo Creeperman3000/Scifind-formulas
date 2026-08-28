@@ -2,7 +2,7 @@ name: Transformer equation
 id: transformer_equation
 topic: electromagnetic_induction
 difficulty: 3
-equation: ((electric_potential) div (electric_potential)) eq ((amount) div (amount))
+equation: electric_potential div electric_potential eq amount div amount
 symbol_overrides:
 - electric_potential: V_s
 - electric_potential: V_p

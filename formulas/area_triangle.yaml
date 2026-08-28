@@ -2,12 +2,16 @@ name: Area of a triangle
 id: area_triangle
 topic: triangles
 difficulty: 1
-equation: (area) eq (((length) mul (length)) div 2)
+equation: area eq dimensionless div (dimensionless) mul (length) mul length
 symbol_overrides:
-- area: ''
+- area: A
+- dimensionless: '1'
+- dimensionless: '2'
 - length: b
 - length: h
 name_overrides:
-- area: ''
+- area: Area
+- dimensionless: One
+- dimensionless: Two
 - length: Base
 - length: Height

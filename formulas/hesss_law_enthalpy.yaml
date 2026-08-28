@@ -2,7 +2,7 @@ name: Hess's law for enthalpy change
 id: hesss_law_enthalpy
 topic: thermochemistry
 difficulty: 2
-equation: (energy) eq ((energy) add (energy))
+equation: energy eq energy add energy
 symbol_overrides:
 - energy: ΔH_rxn
 - energy: ΔH₁

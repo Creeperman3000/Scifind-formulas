@@ -2,16 +2,20 @@ name: Molar mass from atomic masses
 id: molar_mass_from_atomic_masses
 topic: molar_mass
 difficulty: 2
-equation: molar_mass eq sum skip skip (dimensionless mul mass)
+equation: molar_mass eq sum drop drop (amount mul mass)
 symbol_overrides:
-- molar_mass: ''
+- molar_mass: M
+- amount: n_1
 - mass: m_1
+- amount: n_2
 - mass: m_2
+- amount: n_3
 - mass: m_3
-- amount: ''
 name_overrides:
-- molar_mass: Molar [mass]
-- mass: Mass of element 1
-- mass: Mass of element 2
-- mass: Mass of element 3
-- amount: Amount of substance (moles)
+- molar_mass: Molar mass
+- amount: Moles of element 1
+- mass: Atomic mass of element 1
+- amount: Moles of element 2
+- mass: Atomic mass of element 2
+- amount: Moles of element 3
+- mass: Atomic mass of element 3

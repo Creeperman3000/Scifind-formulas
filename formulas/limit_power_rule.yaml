@@ -2,7 +2,7 @@ name: Limit power rule
 id: limit_power_rule
 topic: limits
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) pow (dimensionless))
+equation: dimensionless eq dimensionless pow dimensionless
 symbol_overrides:
 - dimensionless: lim[x→a] f(x)^n
 - dimensionless: lim[x→a] f(x)

@@ -2,7 +2,8 @@ name: 'Sum-to-product: cos A - cos B'
 id: sum_to_product_cosine_minus
 topic: trigonometric_identities
 difficulty: 3
-equation: ((cos (angle)) sub (cos (angle))) eq (neg ((dimensionless) mul ((sin (((angle) add (angle)) div 2)) mul (sin (((angle) sub (angle)) div 2)))))
+equation: cos angle sub cos angle eq drop dimensionless mul (sin ((angle add angle)
+  div 2) mul sin ((angle sub angle) div 2) ) sub
 symbol_overrides:
 - angle: A
 - angle: B

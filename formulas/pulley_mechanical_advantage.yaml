@@ -2,7 +2,7 @@ name: Mechanical advantage of a pulley system
 id: pulley_mechanical_advantage
 topic: forces
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: MA
 - dimensionless: F_load

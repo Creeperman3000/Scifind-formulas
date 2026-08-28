@@ -2,7 +2,7 @@ name: Electric field definition
 id: electric_field_definition
 topic: electric_fields
 difficulty: 1
-equation: (electric_field_strength) eq ((force) div (charge))
+equation: electric_field_strength eq force div charge
 symbol_overrides:
 - electric_field_strength: ''
 - force: ''

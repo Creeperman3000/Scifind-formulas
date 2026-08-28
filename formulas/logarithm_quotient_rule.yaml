@@ -2,7 +2,8 @@ name: Logarithm quotient rule
 id: logarithm_quotient_rule
 topic: logarithms
 difficulty: 2
-equation: (ln ((dimensionless) div (dimensionless))) eq ((ln (dimensionless)) sub (ln (dimensionless)))
+equation: log euler_e (dimensionless div dimensionless) eq log euler_e dimensionless
+  sub log euler_e dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: y

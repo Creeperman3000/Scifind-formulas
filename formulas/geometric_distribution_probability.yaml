@@ -2,7 +2,8 @@ name: Geometric Distribution Probability
 id: geometric_distribution_probability
 topic: probability
 difficulty: 3
-equation: (dimensionless) eq ((((dimensionless) sub (dimensionless)) pow ((dimensionless) sub 1)) mul (dimensionless))
+equation: dimensionless eq (dimensionless sub dimensionless ) pow (dimensionless sub
+  1) mul dimensionless
 symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: '1'

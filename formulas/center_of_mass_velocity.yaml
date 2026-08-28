@@ -2,7 +2,7 @@ name: Velocity of the center of mass
 id: center_of_mass_velocity
 topic: linear_momentum
 difficulty: 2
-equation: (velocity) eq ((((mass) mul (velocity)) add ((mass) mul (velocity))) div ((mass) add (mass)))
+equation: velocity eq (mass mul (velocity) add mass mul velocity ) div mass add mass
 symbol_overrides:
 - velocity: v_cm
 - mass: m_1

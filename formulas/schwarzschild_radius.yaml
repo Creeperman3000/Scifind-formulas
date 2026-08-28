@@ -2,12 +2,13 @@ name: Schwarzschild radius
 id: schwarzschild_radius
 topic: escape_velocity
 difficulty: 4
-equation: (length) eq ((((gravitational_constant) mul 2) mul (mass)) div (speed_of_light pow 2))
+equation: length eq dimensionless mul (gravitational_constant) mul (mass) div speed_of_light
+  pow 2
 symbol_overrides:
 - length: r_s
-- gravitational_constant: ''
+- dimensionless: '2'
 - mass: M
 name_overrides:
-- length: Schwarzschild [radius]
-- gravitational_constant: ''
-- mass: ''
+- length: Schwarzschild radius
+- dimensionless: Two
+- mass: Mass

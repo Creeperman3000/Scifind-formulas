@@ -2,7 +2,8 @@ name: Uncompetitive inhibition velocity
 id: uncompetitive_inhibition_velocity
 topic: biochemistry
 difficulty: 5
-equation: (catalytic_activity) eq (((catalytic_activity) mul (concentration)) div ((concentration) add (((concentration) add (concentration)) mul (dimensionless))))
+equation: catalytic_activity eq catalytic_activity mul (concentration) div concentration
+  add (concentration add concentration ) mul dimensionless
 symbol_overrides:
 - catalytic_activity: v
 - catalytic_activity: V_max

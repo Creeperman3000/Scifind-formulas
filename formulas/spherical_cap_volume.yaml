@@ -2,14 +2,16 @@ name: Volume of a spherical cap
 id: spherical_cap_volume
 topic: plane_geometry
 difficulty: 3
-equation: (volume) eq ((((pi) mul (length pow 2)) mul (((length) mul 3) sub (length))) div 3)
+equation: volume eq pi mul (length pow 2) mul length sub length div 3
 symbol_overrides:
 - volume: ''
 - length: h
 - length: R
 - length: h
+- length: h
 name_overrides:
 - volume: '[Volume] of spherical cap'
 - length: Height of cap
 - length: Sphere [radius]
+- length: ''
 - length: ''

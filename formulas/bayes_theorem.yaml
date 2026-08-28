@@ -2,7 +2,7 @@ name: Bayes' theorem
 id: bayes_theorem
 topic: probability
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) div (dimensionless))
+equation: dimensionless eq dimensionless mul (dimensionless) div dimensionless
 symbol_overrides:
 - dimensionless: P(A|B)
 - dimensionless: P(B|A)

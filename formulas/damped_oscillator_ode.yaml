@@ -2,14 +2,17 @@ name: Damped harmonic oscillator differential equation
 id: damped_oscillator_ode
 topic: differential_equations
 difficulty: 5
-equation: (rmd((rmd((dimensionless)))) add (rmd((dimensionless)) add ((angular_velocity pow 2) mul (displacement)))) eq 0
+equation: dimensionless add (dimensionless) mul (dimensionless) add (angular_velocity
+  pow 2) mul dimensionless eq 0
 symbol_overrides:
-- dimensionless: d²x/dt²
-- dimensionless: 2γ dx/dt
+- dimensionless: ẍ
+- dimensionless: 2γ
+- dimensionless: ẋ
 - angular_velocity: ω_0
-- displacement: ''
+- dimensionless: x
 name_overrides:
-- dimensionless: Second derivative
-- dimensionless: Damping term
+- dimensionless: Acceleration
+- dimensionless: Damping coefficient
+- dimensionless: Velocity
 - angular_velocity: Natural [angular frequency]
-- displacement: ''
+- dimensionless: Displacement

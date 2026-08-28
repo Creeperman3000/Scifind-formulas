@@ -2,7 +2,7 @@ name: Thermal stress formula
 id: thermal_stress_formula
 topic: temperature
 difficulty: 3
-equation: (pressure) eq (((pressure) mul (coefficient_of_linear_expansion)) mul (temperature))
+equation: pressure eq pressure mul (coefficient_of_linear_expansion) mul temperature
 symbol_overrides:
 - pressure: σ
 - pressure: E

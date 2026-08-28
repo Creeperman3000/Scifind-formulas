@@ -2,7 +2,7 @@ name: Standard cell potential
 id: cell_potential_standard
 topic: electrochemistry
 difficulty: 2
-equation: (electric_potential) eq ((electric_potential) sub (electric_potential))
+equation: electric_potential eq electric_potential sub electric_potential
 symbol_overrides:
 - electric_potential: E°_cell
 - electric_potential: E°_cathode

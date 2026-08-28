@@ -2,7 +2,7 @@ name: Reaction rate from reactant consumption
 id: reaction_rate_consumption
 topic: chemical_reactions
 difficulty: 2
-equation: ((concentration) rmd) eq (neg ((dimensionless) mul (catalytic_activity)))
+equation: concentration rmd eq drop (dimensionless mul catalytic_activity) sub
 symbol_overrides:
 - concentration: '[A]'
 - dimensionless: ν_A

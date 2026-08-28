@@ -2,7 +2,7 @@ name: Resultant projectile velocity
 id: projectile_velocity_resultant
 topic: projectile_motion
 difficulty: 2
-equation: (velocity) eq sqrt (((velocity) add (2 pow ((velocity) pow 2)))) 2
+equation: velocity eq sqrt (velocity add 2 pow velocity pow 2 ) 2
 symbol_overrides:
 - velocity: v_x
 - velocity: v_y

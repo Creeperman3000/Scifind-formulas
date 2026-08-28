@@ -2,7 +2,7 @@ name: Expected value of a discrete random variable
 id: expected_value_discrete
 topic: probability
 difficulty: 2
-equation: dimensionless eq sum skip skip (dimensionless mul dimensionless )
+equation: dimensionless eq sum drop drop (dimensionless mul dimensionless)
 symbol_overrides:
 - dimensionless: E(X)
 - dimensionless: x₁

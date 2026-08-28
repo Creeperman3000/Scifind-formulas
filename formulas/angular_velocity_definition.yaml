@@ -2,7 +2,7 @@ name: Angular velocity definition
 id: angular_velocity_definition
 topic: circular_motion
 difficulty: 1
-equation: (angular_velocity) eq ((angle) div (time))
+equation: angular_velocity eq angle div time
 symbol_overrides:
 - angular_velocity: ω
 - angle: θ

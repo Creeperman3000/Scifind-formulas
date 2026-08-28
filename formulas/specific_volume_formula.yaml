@@ -2,7 +2,7 @@ name: Specific volume
 id: specific_volume_formula
 topic: pressure
 difficulty: 1
-equation: (specific_volume) eq ((volume) div (mass))
+equation: specific_volume eq volume div mass
 symbol_overrides:
 - specific_volume: ''
 - volume: ''

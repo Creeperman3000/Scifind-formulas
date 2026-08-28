@@ -2,7 +2,7 @@ name: RC cutoff frequency
 id: cutoff_frequency_rc
 topic: circuits
 difficulty: 2
-equation: (frequency) eq (1 div (2 mul (pi mul ((resistance) mul (capacitance)))))
+equation: frequency eq 1 div 2 mul pi mul resistance mul capacitance
 symbol_overrides:
 - frequency: f_c
 - resistance: ''

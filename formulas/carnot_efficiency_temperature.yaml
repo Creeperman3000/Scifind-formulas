@@ -2,7 +2,7 @@ name: Carnot efficiency in terms of temperatures
 id: carnot_efficiency_temperature
 topic: second_law
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless) sub ((temperature) div (temperature)))
+equation: dimensionless eq dimensionless sub temperature div temperature
 symbol_overrides:
 - dimensionless: η_C
 - dimensionless: ''

@@ -2,9 +2,10 @@ name: Heat conduction through a composite wall
 id: heat_conduction_composite_wall
 topic: heat_transfer
 difficulty: 3
-equation: ((heat) div (time)) eq ((((temperature) sub (temperature)) mul (area)) div ((dimensionless) add (dimensionless)))
+equation: energy div time eq (temperature sub temperature ) mul (area) div dimensionless
+  add dimensionless
 symbol_overrides:
-- heat: ''
+- energy: ''
 - time: ''
 - temperature: T_1
 - temperature: T_2
@@ -12,7 +13,7 @@ symbol_overrides:
 - dimensionless: R_1
 - dimensionless: R_2
 name_overrides:
-- heat: '[Heat] transferred'
+- energy: '[Heat] transferred'
 - time: ''
 - temperature: Hot side [temperature]
 - temperature: Cold side [temperature]

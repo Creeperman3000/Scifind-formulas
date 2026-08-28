@@ -2,7 +2,7 @@ name: Second-order reaction half-life
 id: second_order_half_life
 topic: chemical_kinetics
 difficulty: 3
-equation: (time) eq ((dimensionless) div ((frequency) mul (concentration)))
+equation: time eq dimensionless div frequency mul concentration
 symbol_overrides:
 - time: t_½
 - dimensionless: '1'

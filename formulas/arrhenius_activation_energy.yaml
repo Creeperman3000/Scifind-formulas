@@ -2,10 +2,10 @@ name: Arrhenius activation energy from two temperatures
 id: arrhenius_activation_energy
 topic: chemical_kinetics
 difficulty: 4
-equation: (energy) eq ((gas_constant) mul ((((temperature) mul (temperature)) div ((temperature) sub (temperature))) mul (ln ((frequency) div (frequency)))))
+equation: energy eq gas_constant mul temperature mul (temperature) div (temperature
+  sub temperature) mul log euler_e (frequency div frequency)
 symbol_overrides:
 - energy: E_a
-- gas_constant: ''
 - temperature: T₁
 - temperature: T₂
 - temperature: T₂
@@ -14,7 +14,6 @@ symbol_overrides:
 - frequency: k₁
 name_overrides:
 - energy: Activation energy
-- gas_constant: ''
 - temperature: Temperature 1
 - temperature: Temperature 2
 - temperature: Temperature 2

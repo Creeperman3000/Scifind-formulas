@@ -2,7 +2,7 @@ name: Volume from cross-sectional area and height
 id: volume_area_height
 topic: plane_geometry
 difficulty: 1
-equation: (volume) eq ((area) mul (length))
+equation: volume eq area mul length
 symbol_overrides:
 - volume: ''
 - area: ''

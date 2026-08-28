@@ -2,7 +2,7 @@ name: Odds from probability
 id: odds_formula
 topic: probability
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) div ((dimensionless) sub (dimensionless)))
+equation: dimensionless eq dimensionless div dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: odds
 - dimensionless: p

@@ -2,11 +2,11 @@ name: Residual standard error
 id: residual_standard_error
 topic: statistics
 difficulty: 3
-equation: (dimensionless) eq sqrt (((dimensionless) div (((dimensionless) sub (dimensionless))
-  sub 1))) 2
+equation: dimensionless eq sqrt (dimensionless div ((dimensionless sub dimensionless)
+  sub 1) ) 2
 symbol_overrides:
 - dimensionless: s_e
-- dimensionless: SS_res
+- dimensionless: SS_{\mathrm{res}}
 - dimensionless: n
 - dimensionless: p
 name_overrides:

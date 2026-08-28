@@ -2,7 +2,7 @@ name: Integral of sec² x
 id: integral_sec_squared
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq ((sin (angle)) div (cos (angle)))
+equation: dimensionless eq sin angle div cos angle
 symbol_overrides:
 - dimensionless: ∫sec²x dx
 - angle: x

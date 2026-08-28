@@ -2,12 +2,12 @@ name: Entropy change of surroundings
 id: entropy_change_surroundings
 topic: entropy
 difficulty: 2
-equation: (entropy) eq neg(((heat) div (temperature)))
+equation: entropy eq drop (energy div temperature) sub
 symbol_overrides:
 - entropy: ΔS_surr
-- heat: ''
+- energy: ''
 - temperature: ''
 name_overrides:
 - entropy: Change in [entropy] of surroundings
-- heat: ''
+- energy: ''
 - temperature: ''

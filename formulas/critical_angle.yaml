@@ -2,7 +2,7 @@ name: Critical angle for total internal reflection
 id: critical_angle
 topic: refraction
 difficulty: 3
-equation: (angle) eq sin(((refractive_index) div (refractive_index)))
+equation: angle eq sin (refractive_index div refractive_index )
 symbol_overrides:
 - angle: θ_c
 - refractive_index: n_2

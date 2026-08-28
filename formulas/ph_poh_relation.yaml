@@ -2,7 +2,7 @@ name: pH and pOH relation
 id: ph_poh_relation
 topic: acids_and_bases
 difficulty: 1
-equation: ((ph) add (ph)) eq 14
+equation: ph add ph eq 14
 symbol_overrides:
 - ph: pH
 - ph: pOH

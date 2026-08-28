@@ -2,10 +2,10 @@ name: Period of a simple pendulum
 id: pendulum_period
 topic: harmonic_motion
 difficulty: 2
-equation: (time) eq (((pi) mul 2) mul (sqrt  ((length) div (standard_gravity)) 2))
+equation: time eq 2 mul pi mul sqrt (length div standard_gravity ) 2
 symbol_overrides:
 - time: T
 - length: L
 name_overrides:
 - time: Period
-- length: Pendulum length
+- length: Length

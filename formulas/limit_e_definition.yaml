@@ -2,12 +2,14 @@ name: Limit definition of e
 id: limit_e_definition
 topic: limits
 difficulty: 2
-equation: euler_e eq lim dimensionless skip (1 add (1 frac dimensionless)) pow dimensionless
+equation: euler_e eq lim dimensionless drop (1 add 1 div dimensionless) pow dimensionless
 symbol_overrides:
-- dimensionless: e
+- dimensionless: lim_{n→∞} (1+1/n)^n
+- dimensionless: ''
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: Euler's number
+- dimensionless: Limit definition of e
+- dimensionless: ''
 - dimensionless: Index
-- dimensionless: '[Index]'
+- dimensionless: Index

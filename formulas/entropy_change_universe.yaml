@@ -2,7 +2,7 @@ name: Entropy change of the universe
 id: entropy_change_universe
 topic: second_law
 difficulty: 3
-equation: (entropy) eq ((entropy) add (entropy))
+equation: entropy eq entropy add entropy
 symbol_overrides:
 - entropy: ΔS_univ
 - entropy: ΔS_sys

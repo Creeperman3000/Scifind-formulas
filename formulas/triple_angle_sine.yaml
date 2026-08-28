@@ -2,7 +2,7 @@ name: Triple Angle Sine
 id: triple_angle_sine
 topic: trigonometric_identities
 difficulty: 3
-equation: (sin ((angle) mul 3)) eq ((((sin (angle)) mul 3) pow (sin (angle))) sub (3 mul 4))
+equation: sin (angle mul 3) eq 3 mul (sin angle ) sub 4 mul sin angle pow 3
 symbol_overrides:
 - angle: θ
 - angle: θ
