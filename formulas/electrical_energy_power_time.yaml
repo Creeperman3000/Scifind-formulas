@@ -2,7 +2,7 @@ name: Electrical energy from power and time
 id: electrical_energy_power_time
 topic: circuits
 difficulty: 1
-equation: (energy) eq ((power) mul (time))
+equation: energy eq power mul time
 name_overrides:
 - energy: Electrical [energy]
 - power: ''

@@ -2,11 +2,12 @@ name: Magnetic field strength
 id: magnetic_field_strength_h
 topic: magnetism
 difficulty: 3
-equation: (magnetic_field_strength) eq ((magnetic_flux_density) div (permeability))
+equation: magnetic_field_strength eq magnetic_flux_density frac
+  permeability
 symbol_overrides:
 - magnetic_field_strength: ''
 - magnetic_flux_density: ''
-- permeability: μ
+- permeability: "\\mu"
 name_overrides:
 - magnetic_field_strength: Magnetic field [strength]
 - magnetic_flux_density: ''

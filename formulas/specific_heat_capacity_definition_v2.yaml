@@ -2,7 +2,8 @@ name: Specific heat capacity definition
 id: specific_heat_capacity_definition_v2
 topic: heat
 difficulty: 1
-equation: (specific_heat_capacity) eq ((energy) div ((mass) mul ((temperature) sub (temperature))))
+equation: specific_heat_capacity eq energy frac (mass mul (temperature
+  sub temperature ) )
 symbol_overrides:
 - specific_heat_capacity: ''
 - energy: ''

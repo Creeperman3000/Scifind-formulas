@@ -2,7 +2,7 @@ name: Acceleration from net force
 id: acceleration_from_net_force
 topic: newtons_laws
 difficulty: 1
-equation: (acceleration) eq ((force) div (mass))
+equation: acceleration eq force frac mass
 symbol_overrides:
 - acceleration: ''
 - force: F_net

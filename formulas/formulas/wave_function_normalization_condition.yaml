@@ -1,9 +1,0 @@
-name: Normalization condition for a wave function
-id: wave_function_normalization_condition
-topic: quantum_mechanics
-difficulty: 4
-equation: dimensionless eq 1
-symbol_overrides:
-- dimensionless: ∫|ψ|²dx
-name_overrides:
-- dimensionless: Normalization integral

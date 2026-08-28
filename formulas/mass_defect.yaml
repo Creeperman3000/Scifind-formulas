@@ -2,9 +2,9 @@ name: Mass defect from binding energy
 id: mass_defect
 topic: nuclear_physics
 difficulty: 3
-equation: (mass) eq ((energy) div (speed_of_light pow 2))
+equation: mass eq energy frac speed_of_light pow 2
 symbol_overrides:
-- mass: Δm
+- mass: "\\Delta m"
 - energy: E_b
 name_overrides:
 - mass: Mass defect

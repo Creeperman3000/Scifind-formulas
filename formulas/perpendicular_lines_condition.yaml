@@ -1,9 +1,0 @@
-name: Perpendicular lines condition
-id: perpendicular_lines_condition
-topic: equations
-difficulty: 1
-equation: ((reynolds_number) pow (2)) eq neg(1)
-symbol_overrides:
-- reynolds_number: m_1
-name_overrides:
-- reynolds_number: Slope of line 1

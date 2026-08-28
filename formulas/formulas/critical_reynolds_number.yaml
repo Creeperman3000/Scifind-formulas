@@ -1,9 +1,0 @@
-name: Critical Reynolds number
-id: critical_reynolds_number
-topic: reynolds_number
-difficulty: 2
-equation: reynolds_number approx 2300
-symbol_overrides:
-- reynolds_number: Re_c
-name_overrides:
-- reynolds_number: Critical [Reynolds number]

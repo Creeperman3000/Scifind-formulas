@@ -2,9 +2,9 @@ name: Radioactive decay constant and half-life
 id: nuclear_radioactive_decay_constant_relation
 topic: nuclear_physics
 difficulty: 2
-equation: (frequency) eq ((ln 2) div (time))
+equation: frequency eq ln 2 frac time
 symbol_overrides:
-- frequency: λ
+- frequency: "\\lambda"
 - time: T_1/2
 name_overrides:
 - frequency: Decay constant

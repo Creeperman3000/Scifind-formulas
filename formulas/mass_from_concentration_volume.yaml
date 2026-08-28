@@ -2,7 +2,7 @@ name: Mass from concentration and volume
 id: mass_from_concentration_volume
 topic: solution_stoichiometry
 difficulty: 1
-equation: (mass) eq (((concentration) mul (molar_mass)) mul (volume))
+equation: mass eq concentration mul molar_mass mul volume
 name_overrides:
 - mass: Mass of [solute]
 - concentration: Molar [concentration]

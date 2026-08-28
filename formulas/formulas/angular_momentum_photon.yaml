@@ -1,9 +1,0 @@
-name: Photon angular momentum
-id: angular_momentum_photon
-topic: quantum_mechanics
-difficulty: 4
-equation: angular_momentum eq planck_constant div pi mul 2
-symbol_overrides:
-- angular_momentum: ''
-name_overrides:
-- angular_momentum: Photon angular [momentum]

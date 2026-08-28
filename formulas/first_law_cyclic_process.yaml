@@ -1,9 +1,0 @@
-name: First law for a cyclic process
-id: first_law_cyclic_process
-topic: first_law
-difficulty: 2
-equation: (energy) eq (0)
-symbol_overrides:
-- energy: ΔU_cycle
-name_overrides:
-- energy: Internal energy change in cyclic [process]

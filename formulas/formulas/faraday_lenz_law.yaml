@@ -1,9 +1,0 @@
-name: Faraday-Lenz law
-id: faraday_lenz_law
-topic: electromagnetic_induction
-difficulty: 3
-equation: electric_potential eq neg rmd magnetic_flux div rmd time
-symbol_overrides:
-- electric_potential: EMF
-name_overrides:
-- electric_potential: EMF

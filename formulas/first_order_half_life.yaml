@@ -2,9 +2,9 @@ name: First-order half-life
 id: first_order_half_life
 topic: chemical_kinetics
 difficulty: 2
-equation: (time) eq ((ln (2)) div (frequency))
+equation: time eq ln 2 frac frequency
 symbol_overrides:
-- time: t_½
+- time: "t_{1/2}"
 - frequency: k
 name_overrides:
 - time: Half-life
