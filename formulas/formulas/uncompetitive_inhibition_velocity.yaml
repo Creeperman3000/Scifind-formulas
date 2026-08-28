@@ -1,0 +1,21 @@
+name: Uncompetitive inhibition velocity
+id: uncompetitive_inhibition_velocity
+topic: biochemistry
+difficulty: 5
+equation: (catalytic_activity) eq (((catalytic_activity) mul (concentration)) div ((concentration) add (((concentration) add (concentration)) mul (dimensionless))))
+symbol_overrides:
+- catalytic_activity: v
+- catalytic_activity: V_max
+- concentration: '[S]'
+- concentration: K_m
+- concentration: '[S]'
+- concentration: I
+- dimensionless: K_i
+name_overrides:
+- catalytic_activity: Reaction [velocity]
+- catalytic_activity: Maximum [velocity]
+- concentration: Substrate [concentration]
+- concentration: Michaelis constant K_m
+- concentration: Substrate [concentration]
+- concentration: Inhibitor [concentration] I
+- dimensionless: Inhibition constant K_i

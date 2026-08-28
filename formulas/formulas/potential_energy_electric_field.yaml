@@ -1,0 +1,15 @@
+name: Electric potential energy in uniform field
+id: potential_energy_electric_field
+topic: potential_energy
+difficulty: 1
+equation: (energy) eq (((charge) mul (electric_field_strength)) mul (length))
+symbol_overrides:
+- energy: ΔU
+- charge: q
+- electric_field_strength: ''
+- length: d
+name_overrides:
+- energy: Change in electric potential [energy]
+- charge: '[Charge]'
+- electric_field_strength: Electric [field]
+- length: Displacement

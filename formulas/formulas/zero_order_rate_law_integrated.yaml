@@ -1,0 +1,15 @@
+name: Integrated rate law (zero order)
+id: zero_order_rate_law_integrated
+topic: chemical_kinetics
+difficulty: 2
+equation: (concentration) eq ((concentration) sub ((frequency) mul (time)))
+symbol_overrides:
+- concentration: '[A]_t'
+- concentration: '[A]_0'
+- frequency: k
+- time: ''
+name_overrides:
+- concentration: Concentration at time t
+- concentration: Initial concentration
+- frequency: Rate constant
+- time: ''

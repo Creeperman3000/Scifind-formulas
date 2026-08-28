@@ -1,0 +1,15 @@
+name: Electric field on the axis of a dipole
+id: electric_field_dipole_on_axis
+topic: electric_fields
+difficulty: 3
+equation: (electric_field_strength) eq ((((coulomb_constant) mul ((charge) mul (length))) mul 2) div ((length) pow 3))
+symbol_overrides:
+- electric_field_strength: ''
+- charge: q
+- length: d
+- length: r
+name_overrides:
+- electric_field_strength: '[Electric field]'
+- charge: ''
+- length: Dipole separation
+- length: Distance from dipole center

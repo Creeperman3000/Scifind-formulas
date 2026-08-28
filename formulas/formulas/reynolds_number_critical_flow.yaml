@@ -1,0 +1,11 @@
+name: Critical Reynolds number for transition to turbulence
+id: reynolds_number_critical_flow
+topic: reynolds_number
+difficulty: 2
+equation: (reynolds_number) gt (reynolds_number)
+symbol_overrides:
+- reynolds_number: Re
+- reynolds_number: Re_c
+name_overrides:
+- reynolds_number: Critical [Reynolds number]
+- reynolds_number: ''

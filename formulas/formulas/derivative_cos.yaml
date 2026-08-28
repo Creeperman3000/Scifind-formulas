@@ -1,0 +1,13 @@
+name: Derivative of cosine
+id: derivative_cos
+topic: derivatives
+difficulty: 2
+equation: ((dimensionless) mul (rmd (cos (angle)))) eq (neg (sin (angle)))
+symbol_overrides:
+- dimensionless: d/dx
+- angle: x
+- angle: x
+name_overrides:
+- dimensionless: Derivative
+- angle: '[Variable]'
+- angle: '[Variable]'

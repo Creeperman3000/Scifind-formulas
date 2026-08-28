@@ -1,0 +1,11 @@
+name: Celsius to Kelvin conversion
+id: celsius_to_kelvin
+topic: temperature
+difficulty: 1
+equation: (temperature) eq ((temperature) add (celsius_zero))
+symbol_overrides:
+- temperature: T_K
+- temperature: T_C
+name_overrides:
+- temperature: Temperature in Kelvin
+- temperature: Temperature in Celsius

@@ -1,0 +1,11 @@
+name: Photon momentum from energy
+id: photon_momentum_energy
+topic: particle_physics
+difficulty: 2
+equation: (momentum) eq ((energy) div (speed_of_light))
+symbol_overrides:
+- momentum: ''
+- energy: ''
+name_overrides:
+- momentum: ''
+- energy: ''

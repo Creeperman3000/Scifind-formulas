@@ -1,0 +1,11 @@
+name: Integral of csc x
+id: integral_csc
+topic: integrals
+difficulty: 4
+equation: (dimensionless) eq (ln (tan ((angle) div 2)))
+symbol_overrides:
+- dimensionless: ∫csc x dx
+- angle: x
+name_overrides:
+- dimensionless: Integral of cosecant
+- angle: '[Variable]'

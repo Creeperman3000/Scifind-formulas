@@ -1,0 +1,15 @@
+name: Fringe spacing in double-slit
+id: fringe_spacing_double_slit
+topic: interference
+difficulty: 3
+equation: (length) eq ((length) mul ((length) div (length)))
+symbol_overrides:
+- length: Δy
+- length: λ
+- length: L
+- length: d
+name_overrides:
+- length: Fringe spacing
+- length: Wavelength
+- length: Distance to screen
+- length: Slit separation

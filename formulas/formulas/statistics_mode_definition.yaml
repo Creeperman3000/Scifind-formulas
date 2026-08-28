@@ -1,0 +1,11 @@
+name: Mode of a dataset
+id: statistics_mode_definition
+topic: statistics
+difficulty: 1
+equation: (dimensionless) eq (dimensionless)
+symbol_overrides:
+- dimensionless: Mode
+- dimensionless: most frequent value
+name_overrides:
+- dimensionless: Mode
+- dimensionless: Most frequent value

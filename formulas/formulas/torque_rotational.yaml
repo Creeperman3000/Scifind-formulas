@@ -1,0 +1,13 @@
+name: Torque from moment of inertia
+id: torque_rotational
+topic: torque
+difficulty: 2
+equation: (torque) eq ((moment_of_inertia) mul (angular_acceleration))
+symbol_overrides:
+- torque: τ
+- moment_of_inertia: ''
+- angular_acceleration: ''
+name_overrides:
+- torque: '[Torque]'
+- moment_of_inertia: ''
+- angular_acceleration: ''

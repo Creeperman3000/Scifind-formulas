@@ -1,0 +1,11 @@
+name: Focal length of a spherical mirror
+id: focal_length_mirror
+topic: mirrors
+difficulty: 1
+equation: (length) eq ((length) div 2)
+symbol_overrides:
+- length: f
+- length: R
+name_overrides:
+- length: Focal length
+- length: Radius of curvature

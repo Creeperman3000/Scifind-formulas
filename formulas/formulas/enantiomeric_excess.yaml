@@ -1,0 +1,17 @@
+name: Enantiomeric excess
+id: enantiomeric_excess
+topic: organic_chemistry
+difficulty: 2
+equation: (dimensionless) eq (((abs ((dimensionless) sub (dimensionless))) div ((dimensionless) add (dimensionless))) mul 100)
+symbol_overrides:
+- dimensionless: ee
+- dimensionless: R
+- dimensionless: S
+- dimensionless: R
+- dimensionless: S
+name_overrides:
+- dimensionless: Enantiomeric [excess]
+- dimensionless: R enantiomer
+- dimensionless: S enantiomer
+- dimensionless: ''
+- dimensionless: ''

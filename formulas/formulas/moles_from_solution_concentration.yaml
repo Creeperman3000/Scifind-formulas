@@ -1,0 +1,13 @@
+name: Moles from solution concentration
+id: moles_from_solution_concentration
+topic: mole_concept
+difficulty: 1
+equation: (amount) eq ((concentration) mul (volume))
+name_overrides:
+- amount: Amount of [solute]
+- concentration: Molar [concentration]
+- volume: '[Volume] of solution'
+symbol_overrides:
+- amount: ''
+- concentration: ''
+- volume: ''

@@ -1,0 +1,21 @@
+name: Hill equation (cooperative binding)
+id: hill_equation
+topic: biochemistry
+difficulty: 4
+equation: (catalytic_activity) eq (((catalytic_activity) mul (concentration pow dimensionless)) div ((dimensionless) add (concentration pow dimensionless)))
+symbol_overrides:
+- catalytic_activity: v
+- catalytic_activity: V_max
+- concentration: '[S]'
+- dimensionless: n
+- dimensionless: K_d
+- concentration: '[S]'
+- dimensionless: n
+name_overrides:
+- catalytic_activity: Reaction [velocity]
+- catalytic_activity: Maximum [velocity]
+- concentration: Substrate concentration
+- dimensionless: Hill coefficient
+- dimensionless: Dissociation constant
+- concentration: Substrate concentration
+- dimensionless: Hill coefficient

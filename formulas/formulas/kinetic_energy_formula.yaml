@@ -1,0 +1,13 @@
+name: Kinetic energy
+id: kinetic_energy_formula
+topic: kinetic_energy
+difficulty: 1
+equation: (energy) eq (((mass) mul (velocity pow 2)) div 2)
+symbol_overrides:
+- energy: E_k
+- mass: ''
+- velocity: ''
+name_overrides:
+- energy: Kinetic [energy]
+- mass: ''
+- velocity: ''

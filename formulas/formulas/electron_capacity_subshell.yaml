@@ -1,0 +1,11 @@
+name: Electron capacity of a subshell
+id: electron_capacity_subshell
+topic: periodic_table
+difficulty: 1
+equation: (dimensionless) eq (((dimensionless) mul 2) mul 2)
+symbol_overrides:
+- dimensionless: max_electrons
+- dimensionless: l
+name_overrides:
+- dimensionless: Maximum [electrons]
+- dimensionless: Azimuthal quantum number

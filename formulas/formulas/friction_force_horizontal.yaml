@@ -1,0 +1,15 @@
+name: Friction force on a horizontal surface
+id: friction_force_horizontal
+topic: friction
+difficulty: 1
+equation: (force) eq (((coefficient_of_friction) mul (mass)) mul (acceleration))
+symbol_overrides:
+- force: f_k
+- coefficient_of_friction: μ_k
+- mass: ''
+- acceleration: g
+name_overrides:
+- force: Kinetic [friction]
+- coefficient_of_friction: Coefficient of kinetic [friction]
+- mass: '[Mass]'
+- acceleration: Gravitational [acceleration]

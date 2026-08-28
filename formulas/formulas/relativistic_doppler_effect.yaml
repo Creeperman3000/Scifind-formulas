@@ -1,0 +1,15 @@
+name: Relativistic Doppler effect (approaching)
+id: relativistic_doppler_effect
+topic: relativity
+difficulty: 5
+equation: (frequency) eq ((frequency) mul (sqrt (((speed_of_light) add (velocity)) div ((speed_of_light) sub (velocity)))))
+symbol_overrides:
+- frequency: f'
+- frequency: ''
+- velocity: ''
+- velocity: ''
+name_overrides:
+- frequency: Observed [frequency]
+- frequency: Source [frequency]
+- velocity: Relative [velocity]
+- velocity: ''

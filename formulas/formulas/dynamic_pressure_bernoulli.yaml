@@ -1,0 +1,13 @@
+name: Dynamic pressure from Bernoulli's equation
+id: dynamic_pressure_bernoulli
+topic: bernoulli_equation
+difficulty: 2
+equation: (pressure) eq (((density) mul (velocity pow 2)) div 2)
+symbol_overrides:
+- pressure: P_dyn
+- density: ''
+- velocity: ''
+name_overrides:
+- pressure: Dynamic [pressure]
+- density: ''
+- velocity: ''

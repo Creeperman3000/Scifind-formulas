@@ -1,0 +1,11 @@
+name: 30-60-90 triangle short leg relation
+id: right_triangle_30_60_90_short_leg
+topic: right_triangles
+difficulty: 1
+equation: (length) eq ((length) div 2)
+symbol_overrides:
+- length: short_leg
+- length: h
+name_overrides:
+- length: Short leg
+- length: Hypotenuse

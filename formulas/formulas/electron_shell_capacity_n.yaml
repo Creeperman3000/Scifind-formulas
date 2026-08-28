@@ -1,0 +1,11 @@
+name: Maximum electrons in a shell
+id: electron_shell_capacity_n
+topic: atomic_structure
+difficulty: 1
+equation: (dimensionless) eq ((dimensionless) mul (2 pow 2))
+symbol_overrides:
+- dimensionless: 2n²
+- dimensionless: n
+name_overrides:
+- dimensionless: Maximum electrons in shell n
+- dimensionless: Principal quantum number

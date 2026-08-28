@@ -1,0 +1,9 @@
+name: Phase shift on reflection
+id: phase_shift_on_reflection
+topic: interference
+difficulty: 3
+equation: (dimensionless) eq (pi)
+symbol_overrides:
+- dimensionless: Δφ
+name_overrides:
+- dimensionless: Phase shift (π radians)

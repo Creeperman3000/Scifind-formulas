@@ -1,0 +1,11 @@
+name: Integral of cot x
+id: integral_cot
+topic: integrals
+difficulty: 3
+equation: (dimensionless) eq (ln (sin (angle)))
+symbol_overrides:
+- dimensionless: ∫cot x dx
+- angle: x
+name_overrides:
+- dimensionless: Integral of cotangent
+- angle: '[Variable]'

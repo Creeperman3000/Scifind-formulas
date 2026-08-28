@@ -1,0 +1,15 @@
+name: Logarithm quotient rule
+id: logarithm_quotient_rule
+topic: logarithms
+difficulty: 2
+equation: (ln ((dimensionless) div (dimensionless))) eq ((ln (dimensionless)) sub (ln (dimensionless)))
+symbol_overrides:
+- dimensionless: x
+- dimensionless: y
+- dimensionless: x
+- dimensionless: y
+name_overrides:
+- dimensionless: Quotient
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''

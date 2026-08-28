@@ -1,0 +1,23 @@
+name: Escape velocity from density and radius
+id: escape_velocity_density_radius
+topic: escape_velocity
+difficulty: 4
+equation: (velocity) eq sqrt(((((((gravitational_constant) mul (density)) mul (length)) mul (length)) mul (length)) mul ((dimensionless) div (dimensionless))))
+symbol_overrides:
+- velocity: v_esc
+- gravitational_constant: ''
+- density: ρ
+- length: R
+- length: R
+- length: R
+- dimensionless: ''
+- dimensionless: ''
+name_overrides:
+- velocity: Escape [velocity]
+- gravitational_constant: ''
+- density: Body [density]
+- length: Body [radius]
+- length: ''
+- length: ''
+- dimensionless: ''
+- dimensionless: ''

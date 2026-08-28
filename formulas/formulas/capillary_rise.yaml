@@ -1,0 +1,17 @@
+name: Capillary rise
+id: capillary_rise
+topic: surface_tension
+difficulty: 3
+equation: (length) eq ((((surface_tension) mul (cos (angle))) mul 2) div (((density) mul (standard_gravity)) mul (length)))
+symbol_overrides:
+- length: h
+- surface_tension: γ
+- angle: θ
+- density: ρ
+- length: r
+name_overrides:
+- length: Height
+- surface_tension: ''
+- angle: Contact angle
+- density: ''
+- length: Tube radius

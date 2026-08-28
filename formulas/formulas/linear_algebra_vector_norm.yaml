@@ -1,0 +1,13 @@
+name: Euclidean norm of a vector
+id: linear_algebra_vector_norm
+topic: linear_algebra
+difficulty: 2
+equation: (dimensionless) eq sqrt(((dimensionless) add (2 pow ((dimensionless) pow 2))))
+symbol_overrides:
+- dimensionless: '||v||'
+- dimensionless: v_x
+- dimensionless: v_y
+name_overrides:
+- dimensionless: Vector [norm]
+- dimensionless: x-component
+- dimensionless: y-component

@@ -1,0 +1,19 @@
+name: Gravitational acceleration at height
+id: gravitational_acceleration_at_height
+topic: newtonian_gravity
+difficulty: 3
+equation: (acceleration) eq ((((gravitational_constant) mul (mass)) pow (((length) add (length)) add (length))) div 2)
+symbol_overrides:
+- acceleration: g(h)
+- gravitational_constant: ''
+- mass: M
+- length: R
+- length: h
+- length: ''
+name_overrides:
+- acceleration: Gravitational [acceleration] at height h
+- gravitational_constant: ''
+- mass: Planet [mass]
+- length: Planet [radius]
+- length: Height above surface
+- length: ''

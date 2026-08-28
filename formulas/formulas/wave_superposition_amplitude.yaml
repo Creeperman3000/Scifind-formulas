@@ -1,0 +1,17 @@
+name: Wave superposition amplitude
+id: wave_superposition_amplitude
+topic: wave_interference
+difficulty: 3
+equation: (dimensionless) eq sqrt((((dimensionless) mul (dimensionless)) add ((dimensionless) mul (dimensionless))))
+symbol_overrides:
+- dimensionless: A
+- dimensionless: A_1
+- dimensionless: A_2
+- dimensionless: A_1
+- dimensionless: A_2
+name_overrides:
+- dimensionless: Resultant amplitude
+- dimensionless: Amplitude of wave 1
+- dimensionless: Amplitude of wave 2
+- dimensionless: ''
+- dimensionless: ''

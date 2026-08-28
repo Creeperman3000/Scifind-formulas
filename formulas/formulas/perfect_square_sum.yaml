@@ -1,0 +1,19 @@
+name: Perfect square of a sum
+id: perfect_square_sum
+topic: polynomials
+difficulty: 1
+equation: (dimensionless) (dimensionless) add pow 2 eq (((dimensionless pow 2) add (((dimensionless) mul (dimensionless)) mul 2)) add (dimensionless pow 2))
+symbol_overrides:
+- dimensionless: a
+- dimensionless: b
+- dimensionless: a
+- dimensionless: a
+- dimensionless: b
+- dimensionless: b
+name_overrides:
+- dimensionless: Term a
+- dimensionless: Term b
+- dimensionless: a²
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: b²

@@ -1,0 +1,13 @@
+name: Inradius of a triangle
+id: triangle_inradius
+topic: triangles
+difficulty: 2
+equation: (length) eq ((area) div (length))
+symbol_overrides:
+- length: r
+- area: ''
+- length: s
+name_overrides:
+- length: Inradius
+- area: ''
+- length: Semiperimeter

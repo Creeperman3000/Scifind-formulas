@@ -1,0 +1,15 @@
+name: Kepler's second law (areal velocity)
+id: orbital_angular_momentum_kepler
+topic: orbital_motion
+difficulty: 3
+equation: (angular_momentum) eq ((mass) mul (((area) mul 2) div (time)))
+symbol_overrides:
+- angular_momentum: ''
+- mass: ''
+- area: ''
+- time: ''
+name_overrides:
+- angular_momentum: Orbital [angular momentum]
+- mass: ''
+- area: Swept area
+- time: Time interval

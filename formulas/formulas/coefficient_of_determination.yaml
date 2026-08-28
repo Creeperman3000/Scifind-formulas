@@ -1,0 +1,15 @@
+name: Coefficient of determination
+id: coefficient_of_determination
+topic: statistics
+difficulty: 3
+equation: (dimensionless) eq ((dimensionless) sub ((dimensionless) div (dimensionless)))
+symbol_overrides:
+- dimensionless: R²
+- dimensionless: '1'
+- dimensionless: SS_res
+- dimensionless: SS_tot
+name_overrides:
+- dimensionless: Coefficient of [determination]
+- dimensionless: '1'
+- dimensionless: Residual sum of squares
+- dimensionless: Total sum of squares

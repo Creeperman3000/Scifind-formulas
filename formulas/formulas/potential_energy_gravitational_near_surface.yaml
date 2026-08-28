@@ -1,0 +1,15 @@
+name: Gravitational potential energy near surface
+id: potential_energy_gravitational_near_surface
+topic: potential_energy
+difficulty: 1
+equation: (energy) eq ((mass) mul ((acceleration) mul (length)))
+symbol_overrides:
+- energy: U
+- mass: ''
+- acceleration: g
+- length: h
+name_overrides:
+- energy: Gravitational potential [energy]
+- mass: ''
+- acceleration: Gravitational [acceleration]
+- length: Height

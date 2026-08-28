@@ -1,0 +1,11 @@
+name: Mass-energy equivalence
+id: mass_energy_equivalence
+topic: relativity
+difficulty: 2
+equation: (energy) eq ((mass) mul (speed_of_light pow 2))
+symbol_overrides:
+- energy: ''
+- mass: ''
+name_overrides:
+- energy: ''
+- mass: ''

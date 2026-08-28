@@ -1,0 +1,13 @@
+name: Moseley's law
+id: moseleys_law
+topic: periodic_table
+difficulty: 4
+equation: sqrt((frequency)) eq ((dimensionless) sub (dimensionless))
+symbol_overrides:
+- frequency: ''
+- dimensionless: k
+- dimensionless: Z
+name_overrides:
+- frequency: Characteristic X-ray [frequency]
+- dimensionless: Proportionality constant
+- dimensionless: Atomic number

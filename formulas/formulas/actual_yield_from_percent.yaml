@@ -1,0 +1,13 @@
+name: Actual yield from percent yield
+id: actual_yield_from_percent
+topic: percent_yield
+difficulty: 1
+equation: (dimensionless) eq (dimensionless) (dimensionless) div 100 mul
+symbol_overrides:
+- dimensionless: actual
+- dimensionless: '%'
+- dimensionless: theoretical
+name_overrides:
+- dimensionless: Actual yield
+- dimensionless: Percent yield
+- dimensionless: Theoretical yield

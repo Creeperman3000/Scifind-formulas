@@ -1,0 +1,13 @@
+name: Maximum height of a projectile
+id: projectile_max_height
+topic: projectile_motion
+difficulty: 2
+equation: (length) eq ((((velocity pow 2) pow (sin (angle))) mul 2) div ((standard_gravity) mul 2))
+symbol_overrides:
+- length: h_max
+- velocity: v_0
+- angle: ''
+name_overrides:
+- length: Maximum height
+- velocity: Initial [velocity]
+- angle: ''

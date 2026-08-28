@@ -1,0 +1,15 @@
+name: Wedge film interference fringe spacing
+id: wedge_film_fringe_spacing
+topic: interference
+difficulty: 4
+equation: (length) eq ((length) div (((dimensionless) mul (tan (angle))) mul 2))
+symbol_overrides:
+- length: Δx
+- length: λ
+- dimensionless: n
+- angle: θ
+name_overrides:
+- length: Fringe spacing
+- length: Wavelength
+- dimensionless: Refractive [index]
+- angle: Wedge angle

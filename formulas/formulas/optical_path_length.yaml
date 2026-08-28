@@ -1,0 +1,13 @@
+name: Optical path length
+id: optical_path_length
+topic: interference
+difficulty: 2
+equation: (length) eq ((refractive_index) mul (length))
+symbol_overrides:
+- length: OPL
+- refractive_index: ''
+- length: d
+name_overrides:
+- length: Optical path [length]
+- refractive_index: Refractive [index]
+- length: Geometric [distance]

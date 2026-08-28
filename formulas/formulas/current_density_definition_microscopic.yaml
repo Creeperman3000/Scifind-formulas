@@ -1,0 +1,15 @@
+name: Microscopic current density
+id: current_density_definition_microscopic
+topic: current_electricity
+difficulty: 2
+equation: (current_density) eq ((charge) mul ((dimensionless) mul (velocity)))
+symbol_overrides:
+- current_density: J
+- charge: ''
+- dimensionless: n
+- velocity: v_d
+name_overrides:
+- current_density: '[Current density]'
+- charge: ''
+- dimensionless: Charge carrier density
+- velocity: Drift velocity

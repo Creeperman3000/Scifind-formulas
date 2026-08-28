@@ -1,0 +1,13 @@
+name: Half-angle sine identity
+id: half_angle_sine
+topic: trigonometric_identities
+difficulty: 2
+equation: (angle) 2 div sin pow 2 eq (((dimensionless) sub cos((angle))) div 2)
+symbol_overrides:
+- angle: θ
+- dimensionless: '1'
+- angle: ''
+name_overrides:
+- angle: '[Angle]'
+- dimensionless: ''
+- angle: ''

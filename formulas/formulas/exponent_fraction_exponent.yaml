@@ -1,0 +1,15 @@
+name: Fraction raised to an exponent
+id: exponent_fraction_exponent
+topic: exponents
+difficulty: 1
+equation: (dimensionless) eq (((dimensionless) pow (dimensionless)) root (dimensionless))
+symbol_overrides:
+- dimensionless: (a/b)ⁿ
+- dimensionless: a
+- dimensionless: b
+- dimensionless: n
+name_overrides:
+- dimensionless: Power of a [fraction]
+- dimensionless: '[Numerator]'
+- dimensionless: '[Denominator]'
+- dimensionless: '[Exponent]'

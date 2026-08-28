@@ -1,0 +1,13 @@
+name: Gauss's law for electricity
+id: gauss_law_electric
+topic: electric_fields
+difficulty: 4
+equation: ((electric_field_strength) mul (area)) eq ((charge) div (vacuum_permittivity))
+symbol_overrides:
+- electric_field_strength: ''
+- area: ''
+- charge: ''
+name_overrides:
+- electric_field_strength: Electric field
+- area: Surface [area]
+- charge: ''

@@ -1,0 +1,15 @@
+name: Adiabatic Process
+id: adiabatic_process
+topic: ideal_gases
+difficulty: 3
+equation: ((pressure) mul ((volume) pow (dimensionless))) eq (dimensionless)
+symbol_overrides:
+- pressure: ''
+- volume: ''
+- dimensionless: γ
+- dimensionless: C
+name_overrides:
+- pressure: '[Pressure]'
+- volume: '[Volume]'
+- dimensionless: Heat capacity ratio
+- dimensionless: Constant

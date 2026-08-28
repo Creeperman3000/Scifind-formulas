@@ -1,0 +1,11 @@
+name: Perpendicular lines condition
+id: perpendicular_lines_condition
+topic: equations
+difficulty: 1
+equation: ((reynolds_number) mul (reynolds_number)) eq neg(1)
+symbol_overrides:
+- reynolds_number: m_1
+- reynolds_number: m_2
+name_overrides:
+- reynolds_number: Slope of line 1
+- reynolds_number: Slope of line 2

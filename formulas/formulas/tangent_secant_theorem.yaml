@@ -1,0 +1,13 @@
+name: Tangent-secant theorem
+id: tangent_secant_theorem
+topic: circles
+difficulty: 3
+equation: (length) eq sqrt(((length) mul (length)))
+symbol_overrides:
+- length: PT
+- length: PA
+- length: PB
+name_overrides:
+- length: Tangent length
+- length: External segment
+- length: Whole secant length

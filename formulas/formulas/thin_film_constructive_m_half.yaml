@@ -1,0 +1,19 @@
+name: Thin film constructive (m+½)
+id: thin_film_constructive_m_half
+topic: interference
+difficulty: 4
+equation: ((dimensionless) mul (length)) eq (((dimensionless) mul ((dimensionless) add ((dimensionless) div 2))) mul (length))
+symbol_overrides:
+- dimensionless: '2'
+- length: n
+- dimensionless: m
+- dimensionless: ½
+- dimensionless: ''
+- length: λ
+name_overrides:
+- dimensionless: '2'
+- length: Film thickness t
+- dimensionless: Order m
+- dimensionless: 1/2
+- dimensionless: ''
+- length: Wavelength

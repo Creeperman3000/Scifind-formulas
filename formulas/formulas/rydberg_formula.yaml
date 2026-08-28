@@ -1,0 +1,13 @@
+name: Rydberg formula
+id: rydberg_formula
+topic: atomic_physics
+difficulty: 4
+equation: ((length) div 1) eq (((rydberg_constant) pow (dimensionless)) mul (((2 div 1) pow (dimensionless)) sub (2 div 1)))
+symbol_overrides:
+- length: λ
+- dimensionless: n_1
+- dimensionless: n_2
+name_overrides:
+- length: Wavelength
+- dimensionless: Lower energy level
+- dimensionless: Higher energy level

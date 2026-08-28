@@ -1,0 +1,13 @@
+name: Double-angle formula for sine
+id: double_angle_sine
+topic: trigonometric_identities
+difficulty: 2
+equation: (sin ((angle) mul 2)) eq ((sin (angle)) mul ((cos (angle)) mul 2))
+symbol_overrides:
+- angle: θ
+- angle: θ
+- angle: θ
+name_overrides:
+- angle: ''
+- angle: ''
+- angle: ''

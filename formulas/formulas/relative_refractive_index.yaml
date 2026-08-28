@@ -1,0 +1,13 @@
+name: Relative refractive index
+id: relative_refractive_index
+topic: refraction
+difficulty: 2
+equation: (refractive_index) eq ((refractive_index) div (refractive_index))
+symbol_overrides:
+- refractive_index: n_{21}
+- refractive_index: n_2
+- refractive_index: n_1
+name_overrides:
+- refractive_index: Relative [refractive index]
+- refractive_index: '[Refractive index] of medium 2'
+- refractive_index: '[Refractive index] of medium 1'

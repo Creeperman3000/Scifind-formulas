@@ -1,0 +1,13 @@
+name: Hess's law for enthalpy change
+id: hesss_law_enthalpy
+topic: thermochemistry
+difficulty: 2
+equation: (energy) eq ((energy) add (energy))
+symbol_overrides:
+- energy: ΔH_rxn
+- energy: ΔH₁
+- energy: ΔH₂
+name_overrides:
+- energy: Reaction [enthalpy]
+- energy: Enthalpy of step 1
+- energy: Enthalpy of step 2
