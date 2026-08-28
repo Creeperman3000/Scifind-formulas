@@ -5,7 +5,7 @@ difficulty: 1
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: d
-- dimensionless: a_n+1
+- dimensionless: a_{n+1}
 - dimensionless: a_n
 name_overrides:
 - dimensionless: Common difference

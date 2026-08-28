@@ -2,14 +2,13 @@ name: Escape velocity from density and radius
 id: escape_velocity_density_radius
 topic: escape_velocity
 difficulty: 4
-equation: velocity eq sqrt (8 mul pi mul gravitational_constant mul density mul length mul length frac 3)
+equation: velocity eq sqrt (8 mul pi mul gravitational_constant mul density mul
+  length pow 2 frac 3)
 symbol_overrides:
 - velocity: v_{\mathrm{esc}}
 - density: \rho
 - length: R
-- length: R
 name_overrides:
 - velocity: Escape [velocity]
 - density: Body [density]
-- length: Body [radius]
 - length: Body [radius]

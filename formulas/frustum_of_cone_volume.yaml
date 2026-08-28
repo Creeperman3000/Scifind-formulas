@@ -2,13 +2,14 @@ name: Volume of a conical frustum
 id: frustum_of_cone_volume
 topic: plane_geometry
 difficulty: 3
-equation: volume eq pi mul length mul (length pow 2 add length pow 2
-  add length pow 2 ) frac 3
+equation: volume eq pi mul length mul ((length pow 2) add (length mul
+  length) add (length pow 2)) frac 3
 symbol_overrides:
-- volume: ''
+- volume: V
 - length: h
 - length: R
 - length: R
+- length: r
 - length: r
 name_overrides:
 - volume: '[Volume] of conical frustum'
@@ -16,3 +17,4 @@ name_overrides:
 - length: Top [radius]
 - length: ''
 - length: Bottom [radius]
+- length: ''

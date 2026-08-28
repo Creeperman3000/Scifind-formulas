@@ -2,14 +2,12 @@ name: Molar mass from atomic masses
 id: molar_mass_from_atomic_masses
 topic: molar_mass
 difficulty: 2
-equation: molar_mass eq mass add mass add mass
+equation: molar_mass eq sum (dimensionless mul mass)
 symbol_overrides:
 - molar_mass: M
-- mass: m_1
-- mass: m_2
-- mass: m_3
+- dimensionless: \nu_i
+- mass: m_i
 name_overrides:
 - molar_mass: Molar [mass]
-- mass: Mass of element 1
-- mass: Mass of element 2
-- mass: Mass of element 3
+- dimensionless: Stoichiometric coefficient
+- mass: Atomic [mass]

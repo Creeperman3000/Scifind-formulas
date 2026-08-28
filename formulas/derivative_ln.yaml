@@ -2,8 +2,9 @@ name: Derivative of natural logarithm
 id: derivative_ln
 topic: derivatives
 difficulty: 2
-equation: rmd ln angle eq 1 frac angle
+equation: (rmd (ln angle)) frac (rmd angle) eq 1 frac angle
 symbol_overrides:
+- angle: x
 - angle: x
 - angle: x
 name_overrides:

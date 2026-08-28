@@ -2,7 +2,7 @@ name: Work done by a gas
 id: work_by_gas
 topic: first_law
 difficulty: 2
-equation: (energy) eq ((pressure) mul (Delta volume))
+equation: (energy) eq ((pressure) mul (volume))
 name_overrides:
 - energy: '[Work]'
 - pressure: Constant [pressure]

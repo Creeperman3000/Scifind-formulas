@@ -2,10 +2,8 @@ name: 'Second law: Kelvin-Planck statement'
 id: kelvin_planck_statement
 topic: second_law
 difficulty: 4
-equation: energy prop energy
+equation: heat_engine_efficiency lt 1
 symbol_overrides:
-- energy: Q_H
-- energy: Q_C
+- heat_engine_efficiency: "\\eta"
 name_overrides:
-- energy: Heat input
-- energy: Heat rejected
+- heat_engine_efficiency: Thermal [efficiency]

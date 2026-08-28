@@ -2,14 +2,14 @@ name: Circular polarization condition
 id: circular_polarization_condition
 topic: polarization
 difficulty: 3
-equation: (((dimensionless) eq (dimensionless)) prop ((dimensionless) pm ((pi) frac (dimensionless))))
+equation: (dimensionless eq dimensionless) newline (dimensionless pm (pi frac dimensionless))
 symbol_overrides:
 - dimensionless: '|E_x|'
 - dimensionless: '|E_y|'
 - dimensionless: \Delta\phi
 - dimensionless: '2'
 name_overrides:
-- dimensionless: x-amplitude
-- dimensionless: y-amplitude
+- dimensionless: x-component amplitude
+- dimensionless: y-component amplitude
 - dimensionless: Phase difference
-- dimensionless: ''
+- dimensionless: '2'

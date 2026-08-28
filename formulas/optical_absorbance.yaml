@@ -2,12 +2,12 @@ name: Optical absorbance
 id: optical_absorbance
 topic: polarization
 difficulty: 1
-equation: dimensionless eq log (power frac power )
+equation: dimensionless eq neg log10 (dimensionless frac dimensionless)
 symbol_overrides:
 - dimensionless: A
-- power: I_0
-- power: I
+- dimensionless: I_0
+- dimensionless: I
 name_overrides:
 - dimensionless: Absorbance
-- power: ''
-- power: ''
+- dimensionless: Incident [intensity]
+- dimensionless: Transmitted [intensity]

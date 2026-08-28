@@ -2,17 +2,17 @@ name: Polygon area from side length
 id: polygon_area_from_side
 topic: polygons
 difficulty: 3
-equation: area eq length pow 2 mul (dimensionless frac dimensionless )
-  mul dimensionless
+equation: area eq (dimensionless mul length pow 2) frac (dimensionless mul
+  tan (pi frac dimensionless))
 symbol_overrides:
 - area: A
-- length: n
+- dimensionless: n
+- length: s
 - dimensionless: '4'
-- dimensionless: "\\tan(\\pi/n)"
-- dimensionless: '0.25'
+- dimensionless: n
 name_overrides:
 - area: Polygon area
-- length: Number of sides
+- dimensionless: Number of sides
+- length: Side [length]
 - dimensionless: '4'
-- dimensionless: tan(π/n)
-- dimensionless: 1/4
+- dimensionless: Number of sides

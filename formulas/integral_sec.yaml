@@ -2,8 +2,8 @@ name: Integral of sec x
 id: integral_sec
 topic: integrals
 difficulty: 4
-equation: dimensionless eq dimensionless mul ln ((1 add sin angle ) div 1 sub sin
-  angle )
+equation: dimensionless eq dimensionless mul ln ((1 add sin angle ) div (1 sub
+  sin angle ))
 symbol_overrides:
 - dimensionless: "\\int\\sec x\\,\\mathrm{d}x"
 - dimensionless: "\\frac{1}{2}"

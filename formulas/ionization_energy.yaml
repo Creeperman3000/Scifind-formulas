@@ -4,10 +4,10 @@ topic: periodic_table
 difficulty: 2
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: \Delta E_{\text{ea}}
+- energy: \Delta E_{\mathrm{ion}}
+- energy: E_{\mathrm{cation}}
 - energy: E_{\mathrm{neutral}}
-- energy: E_{\mathrm{anion}}
 name_overrides:
-- energy: Electron [affinity]
+- energy: Ionization [energy]
+- energy: '[Energy] of cation'
 - energy: '[Energy] of neutral atom'
-- energy: '[Energy] of negative ion'

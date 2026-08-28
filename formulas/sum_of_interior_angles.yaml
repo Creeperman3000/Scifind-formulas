@@ -2,10 +2,12 @@ name: Sum of interior angles of a polygon
 id: sum_of_interior_angles
 topic: polygons
 difficulty: 1
-equation: angle eq 180 mul (dimensionless sub 2)
+equation: angle eq dimensionless mul (dimensionless sub 2)
 symbol_overrides:
 - angle: S
+- dimensionless: 180^{\circ}
 - dimensionless: n
 name_overrides:
 - angle: Sum of interior angles
+- dimensionless: '[Degrees] per triangle'
 - dimensionless: Number of sides

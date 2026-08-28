@@ -2,14 +2,16 @@ name: Image distance for a mirror
 id: mirror_image_distance_relation
 topic: mirrors
 difficulty: 2
-equation: length eq length pow 2 frac (length add length )
+equation: length eq (length mul length) frac (length add length)
 symbol_overrides:
 - length: f
 - length: u
 - length: v
 - length: u
+- length: v
 name_overrides:
 - length: Focal [length]
 - length: Object distance
 - length: Image distance
 - length: Object distance
+- length: Image distance

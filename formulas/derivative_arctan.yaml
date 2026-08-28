@@ -2,8 +2,9 @@ name: Derivative of arctangent
 id: derivative_arctan
 topic: derivatives
 difficulty: 3
-equation: rmd (angle atan ) eq 1 frac (1 add angle pow 2 )
+equation: (rmd (angle atan)) frac (rmd angle) eq 1 frac (1 add angle pow 2)
 symbol_overrides:
+- angle: x
 - angle: x
 - angle: x
 name_overrides:

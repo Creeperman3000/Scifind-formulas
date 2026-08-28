@@ -2,10 +2,10 @@ name: Limit of Exponential Difference
 id: limit_exponential_minus_one
 topic: limits
 difficulty: 3
-equation: dimensionless eq 1
+equation: dimensionless eq dimensionless
 symbol_overrides:
-- ? ''
-  : ''
+- dimensionless: "\\lim_{x\\to 0}\\frac{e^x-1}{x}"
+- dimensionless: '1'
 name_overrides:
-- ? ''
-  : ''
+- dimensionless: '[Limit] of exponential difference'
+- dimensionless: Limit [value]

@@ -2,11 +2,11 @@ name: Electric potential energy in uniform field
 id: potential_energy_electric_field
 topic: potential_energy
 difficulty: 1
-equation: energy eq charge mul electric_field_strength mul length
+equation: energy eq neg (charge mul electric_field_strength mul length)
 symbol_overrides:
 - energy: "\\Delta U"
 - charge: q
-- electric_field_strength: ''
+- electric_field_strength: E
 - length: d
 name_overrides:
 - energy: Change in electric potential [energy]

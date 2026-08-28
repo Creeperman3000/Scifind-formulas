@@ -4,7 +4,7 @@ topic: conservation_of_energy
 difficulty: 2
 equation: energy eq energy add energy
 symbol_overrides:
-- energy: \Delta E
+- energy: \Delta E_{\mathrm{mech}}
 - energy: W_{\mathrm{nc}}
 - energy: W_{\mathrm{other}}
 name_overrides:

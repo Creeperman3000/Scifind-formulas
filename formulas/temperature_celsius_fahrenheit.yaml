@@ -4,8 +4,8 @@ topic: temperature
 difficulty: 1
 equation: temperature eq temperature mul (9 frac 5 ) add 32
 symbol_overrides:
-- temperature: "^{\\circ}\\mathrm{F}"
-- temperature: "^{\\circ}\\mathrm{C}"
+- temperature: T_{\mathrm{F}}
+- temperature: T_{\mathrm{C}}
 name_overrides:
 - temperature: Temperature in [Fahrenheit]
 - temperature: Temperature in [Celsius]

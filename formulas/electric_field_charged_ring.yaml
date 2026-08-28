@@ -3,7 +3,7 @@ id: electric_field_charged_ring
 topic: electric_fields
 difficulty: 3
 equation: electric_field_strength eq coulomb_constant mul (charge mul length)
-  frac (length pow 2 add length pow 2 ) pow 1.5
+  frac (length pow 2 add length pow 2 ) pow (3 frac 2)
 symbol_overrides:
 - electric_field_strength: E
 - charge: Q

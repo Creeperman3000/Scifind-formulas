@@ -5,10 +5,10 @@ difficulty: 3
 equation: electric_potential eq coulomb_constant mul sum (charge frac
   length )
 symbol_overrides:
-- electric_potential: ''
-- charge: ''
-- length: ''
+- electric_potential: V
+- charge: Q_i
+- length: r_i
 name_overrides:
 - electric_potential: Total [electric potential]
-- charge: ''
-- length: ''
+- charge: Point charge
+- length: Distance

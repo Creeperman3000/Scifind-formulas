@@ -8,7 +8,7 @@ symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: "\\lambda"
 - dimensionless: k
-- dimensionless: k
+- dimensionless: "\\lambda"
 - dimensionless: k
 name_overrides:
 - dimensionless: Probability

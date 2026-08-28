@@ -4,8 +4,8 @@ topic: temperature
 difficulty: 1
 equation: temperature eq temperature frac 1.8
 symbol_overrides:
-- temperature: K
-- temperature: "^{\\circ}\\mathrm{R}"
+- temperature: T_{\mathrm{K}}
+- temperature: T_{\mathrm{R}}
 name_overrides:
 - temperature: Kelvin
 - temperature: Rankine

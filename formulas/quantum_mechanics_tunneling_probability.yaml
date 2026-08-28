@@ -2,17 +2,18 @@ name: Quantum tunneling probability (WKB)
 id: quantum_mechanics_tunneling_probability
 topic: quantum_mechanics
 difficulty: 5
-equation: ((dimensionless) eq ((((((2) mul (dimensionless)) mul (((2) mul ((mass) mul ((energy) sub (energy)))) sqrt)) mul (length)) neg) exp))
+equation: ((dimensionless) eq ((((dimensionless) mul (sqrt ((2) mul (mass)
+  mul ((energy) sub (energy))))) mul (length)) neg) exp)
 symbol_overrides:
 - dimensionless: T
-- dimensionless: 1/\hbar
+- dimensionless: "\\frac{2}{\\hbar}"
 - mass: m
 - energy: V
 - energy: E
 - length: L
 name_overrides:
 - dimensionless: Tunneling probability
-- dimensionless: 1/ℏ factor
+- dimensionless: WKB prefactor
 - mass: Mass
 - energy: Barrier height
 - energy: Particle energy

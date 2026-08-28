@@ -2,10 +2,10 @@ name: Limit of sin(x)/x as x approaches 0
 id: limit_sin_over_x
 topic: limits
 difficulty: 2
-equation: 1 eq sin angle frac angle
+equation: dimensionless eq dimensionless
 symbol_overrides:
-- angle: x
-- angle: x
+- dimensionless: "\\lim_{x\\to 0}\\frac{\\sin x}{x}"
+- dimensionless: '1'
 name_overrides:
-- angle: x (→0)
-- angle: x (→0)
+- dimensionless: '[Limit] of sin x / x'
+- dimensionless: Limit [value]

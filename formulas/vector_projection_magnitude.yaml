@@ -2,12 +2,12 @@ name: Scalar projection of a onto b
 id: vector_projection_magnitude
 topic: linear_algebra
 difficulty: 2
-equation: dimensionless eq dimensionless frac dimensionless
+equation: length eq length frac length
 symbol_overrides:
-- dimensionless: \text{comp}_{\text{b}}(\text{a})
-- dimensionless: "a\\cdot b"
-- dimensionless: '|b|'
+- length: \text{comp}_{\text{b}}(\text{a})
+- length: "a\\cdot b"
+- length: '|b|'
 name_overrides:
-- dimensionless: Scalar projection of a onto b
-- dimensionless: Dot product
-- dimensionless: Magnitude of b
+- length: Scalar projection of a onto b
+- length: Dot product
+- length: Magnitude of b

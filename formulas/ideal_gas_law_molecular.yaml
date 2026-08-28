@@ -11,5 +11,5 @@ symbol_overrides:
 name_overrides:
 - pressure: ''
 - volume: ''
-- dimensionless: ''
+- dimensionless: Number of particles
 - temperature: ''

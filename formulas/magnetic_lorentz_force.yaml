@@ -2,14 +2,17 @@ name: Magnetic Lorentz force
 id: magnetic_lorentz_force
 topic: magnetism
 difficulty: 3
-equation: force eq charge mul velocity mul magnetic_flux_density
+equation: force eq charge mul velocity mul magnetic_flux_density mul sin
+  angle
 symbol_overrides:
-- force: ''
+- force: F
 - charge: q
-- velocity: ''
-- magnetic_flux_density: ''
+- velocity: v
+- magnetic_flux_density: B
+- angle: "\\theta"
 name_overrides:
 - force: Magnetic [force]
 - charge: ''
 - velocity: ''
 - magnetic_flux_density: ''
+- angle: Angle between v and B

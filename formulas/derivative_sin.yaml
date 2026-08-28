@@ -2,8 +2,9 @@ name: Derivative of sine
 id: derivative_sin
 topic: derivatives
 difficulty: 2
-equation: rmd sin angle eq cos angle
+equation: (rmd (sin angle)) frac (rmd angle) eq cos angle
 symbol_overrides:
+- angle: x
 - angle: x
 - angle: x
 name_overrides:
