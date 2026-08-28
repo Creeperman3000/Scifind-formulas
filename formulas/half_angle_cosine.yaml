@@ -2,10 +2,12 @@ name: Half-angle cosine identity
 id: half_angle_cosine
 topic: trigonometric_identities
 difficulty: 2
-equation: cos (angle frac 2 ) eq sqrt ((1 add cos angle ) frac 2 )
+equation: (angle) 2 div cos pow 2 eq (((dimensionless) add cos((angle))) div 2)
 symbol_overrides:
-- angle: "\\theta"
-- angle: "\\theta"
+- angle: θ
+- dimensionless: '1'
+- angle: ''
 name_overrides:
-- angle: Half-angle (θ/2)
-- angle: Angle θ
+- angle: '[Angle]'
+- dimensionless: ''
+- angle: ''

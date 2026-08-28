@@ -2,20 +2,16 @@ name: Standard equation of an ellipse
 id: ellipse_standard_form
 topic: coordinate_geometry
 difficulty: 2
-equation: ((((dimensionless sub dimensionless ) pow 2) frac (dimensionless pow 2)) add (((dimensionless sub dimensionless ) pow 2) frac (dimensionless pow 2))) eq (dimensionless)
+equation: (dimensionless) eq ((((dimensionless) pow 2) div ((dimensionless) pow 2)) add (((dimensionless) pow 2) div ((dimensionless) pow 2)))
 symbol_overrides:
+- dimensionless: '1'
 - dimensionless: x
-- dimensionless: h
 - dimensionless: a
 - dimensionless: y
-- dimensionless: k
 - dimensionless: b
-- dimensionless: '1'
 name_overrides:
+- dimensionless: Ellipse equation
+- dimensionless: ''
 - dimensionless: x-coordinate
-- dimensionless: Center x-coordinate
 - dimensionless: Semi-major axis
 - dimensionless: y-coordinate
-- dimensionless: Center y-coordinate
-- dimensionless: Semi-minor axis
-- dimensionless: ''

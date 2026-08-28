@@ -2,14 +2,12 @@ name: 'Bernoulli: pressure-velocity relation (horizontal)'
 id: bernoulli_pressure_velocity_horizontal
 topic: bernoulli_equation
 difficulty: 2
-equation: (((pressure) add (((density) mul ((velocity) pow (2))) div (2))) eq (dimensionless))
+equation: (pressure) eq (((density) mul ((velocity) pow 2)) div 2)
 symbol_overrides:
-- pressure: P
-- density: \rho
-- velocity: v
-- dimensionless: P_0
+- pressure: P_1
+- density: ρ
+- velocity: v_1
 name_overrides:
-- pressure: Pressure at point
+- pressure: '[Pressure] at point 1'
 - density: Fluid [density]
-- velocity: '[velocity]'
-- dimensionless: Stagnation [pressure]
+- velocity: '[Velocity] at point 1'

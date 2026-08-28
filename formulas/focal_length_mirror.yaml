@@ -2,8 +2,7 @@ name: Focal length of a spherical mirror
 id: focal_length_mirror
 topic: mirrors
 difficulty: 1
-description: "Valid for paraxial rays on a spherical mirror; f = R/2."
-equation: length eq length frac 2
+equation: (length) eq ((length) div 2)
 symbol_overrides:
 - length: f
 - length: R

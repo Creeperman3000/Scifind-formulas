@@ -2,7 +2,7 @@ name: Surface area of a cone
 id: surface_area_cone
 topic: plane_geometry
 difficulty: 2
-equation: area eq pi mul (length mul (length add length ) )
+equation: (area) eq ((pi) mul ((length) mul ((length) add (length))))
 symbol_overrides:
 - area: ''
 - length: r
@@ -11,5 +11,5 @@ symbol_overrides:
 name_overrides:
 - area: ''
 - length: Radius
-- length: Radius
+- length: ''
 - length: Slant height

@@ -2,8 +2,7 @@ name: Energy density of a magnetic field
 id: magnetic_energy_density
 topic: magnetism
 difficulty: 4
-equation: energy_density eq magnetic_flux_density pow 2 frac (2 mul
-  vacuum_permeability )
+equation: (energy_density) eq ((magnetic_flux_density pow 2) div ((vacuum_permeability) mul 2))
 symbol_overrides:
 - energy_density: u_B
 - magnetic_flux_density: ''

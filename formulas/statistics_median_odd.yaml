@@ -2,10 +2,10 @@ name: Median of an odd-sized dataset
 id: statistics_median_odd
 topic: statistics
 difficulty: 1
-equation: dimensionless eq dimensionless
+equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
 - dimensionless: Median
-- dimensionless: "x_{(n+1)/2}"
+- dimensionless: x_((n+1)/2)
 name_overrides:
 - dimensionless: Median
 - dimensionless: Middle value when sorted

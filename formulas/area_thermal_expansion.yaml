@@ -2,12 +2,11 @@ name: Area thermal expansion
 id: area_thermal_expansion
 topic: heat
 difficulty: 2
-equation: area eq 2 mul coefficient_of_linear_expansion mul (area mul Delta temperature
-  )
+equation: (area) eq (((coefficient_of_linear_expansion) mul 2) mul ((area) mul Delta((temperature))))
 symbol_overrides:
-- area: "\\Delta A"
-- coefficient_of_linear_expansion: "\\alpha"
-- area: "A_0"
+- area: ΔA
+- coefficient_of_linear_expansion: ''
+- area: A₀
 - temperature: ''
 name_overrides:
 - area: Change in [area]

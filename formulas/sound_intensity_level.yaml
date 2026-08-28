@@ -2,13 +2,13 @@ name: Sound intensity level in decibels
 id: sound_intensity_level
 topic: mechanical_waves
 difficulty: 3
-equation: logarithmic_ratio eq 10 mul log (irradiance frac irradiance
-  )
+equation: logarithmic_ratio eq 10 mul (log 10 (irradiance frac irradiance
+  ))
 symbol_overrides:
-- logarithmic_ratio: "\\beta"
+- sound_intensity_level: β
 - irradiance: I
-- irradiance: "I_0"
+- irradiance: I₀
 name_overrides:
-- logarithmic_ratio: Sound [level]
+- sound_intensity_level: Sound [level]
 - irradiance: Sound [intensity]
 - irradiance: Reference [intensity]

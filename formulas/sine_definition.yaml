@@ -2,9 +2,9 @@ name: Sine definition
 id: sine_definition
 topic: right_triangles
 difficulty: 1
-equation: sin angle eq length frac length
+equation: sin((angle)) eq ((length) div (length))
 symbol_overrides:
-- angle: "\\theta"
+- angle: θ
 - length: a
 - length: c
 name_overrides:

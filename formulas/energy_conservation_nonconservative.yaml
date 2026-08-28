@@ -2,11 +2,11 @@ name: Energy conservation with nonconservative work
 id: energy_conservation_nonconservative
 topic: conservation_of_energy
 difficulty: 2
-equation: energy add energy eq energy
+equation: (Delta((energy)) add Delta((energy))) eq (energy)
 symbol_overrides:
-- energy: \Delta\text{KE}
-- energy: \Delta\text{PE}
-- energy: W_{\mathrm{nc}}
+- energy: ΔKE
+- energy: ΔPE
+- energy: W_nc
 name_overrides:
 - energy: Change in kinetic [energy]
 - energy: Change in potential [energy]

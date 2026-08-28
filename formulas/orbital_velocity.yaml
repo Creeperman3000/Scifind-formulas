@@ -2,13 +2,15 @@ name: Orbital velocity
 id: orbital_velocity
 topic: orbital_motion
 difficulty: 3
-equation: velocity eq sqrt (gravitational_constant mul mass frac
-  length )
+equation: (velocity) eq sqrt ((((gravitational_constant) mul (mass)) div (length)))
+  2
 symbol_overrides:
 - velocity: ''
+- gravitational_constant: ''
 - mass: M
 - length: r
 name_overrides:
 - velocity: Orbital [velocity]
-- mass: Central [mass]
+- gravitational_constant: ''
+- mass: ''
 - length: Orbital radius

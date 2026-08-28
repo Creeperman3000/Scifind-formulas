@@ -2,12 +2,12 @@ name: Enzyme reaction velocity definition
 id: enzyme_reaction_velocity_definition
 topic: biochemistry
 difficulty: 2
-equation: catalytic_activity eq Delta concentration frac Delta time
+equation: (catalytic_activity) eq ((concentration) div (time))
 symbol_overrides:
 - catalytic_activity: v
-- concentration: '[P]'
+- concentration: '[S]'
 - time: ''
 name_overrides:
 - catalytic_activity: Reaction velocity
-- concentration: Product concentration
+- concentration: Substrate concentration
 - time: ''

@@ -2,9 +2,9 @@ name: Integral of 1/x
 id: integral_one_over_x
 topic: integrals
 difficulty: 2
-equation: dimensionless eq ln dimensionless
+equation: (dimensionless) eq ln((dimensionless))
 symbol_overrides:
-- dimensionless: "\\int 1/x\\,\\mathrm{d}x"
+- dimensionless: ∫1/x dx
 - dimensionless: '|x|'
 name_overrides:
 - dimensionless: Integral of reciprocal

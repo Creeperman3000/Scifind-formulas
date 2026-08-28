@@ -2,16 +2,14 @@ name: Angular momentum of a point particle
 id: angular_momentum_point_particle
 topic: angular_momentum
 difficulty: 2
-equation: angular_momentum eq mass mul velocity mul length mul sin angle
+equation: (angular_momentum) eq (((mass) mul (velocity)) mul (length))
 symbol_overrides:
 - angular_momentum: ''
 - mass: ''
 - velocity: ''
 - length: r
-- angle: ''
 name_overrides:
 - angular_momentum: ''
 - mass: ''
 - velocity: ''
 - length: Radius
-- angle: ''

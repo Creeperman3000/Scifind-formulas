@@ -2,12 +2,12 @@ name: Density from specific gravity
 id: density_from_specific_gravity
 topic: buoyancy
 difficulty: 1
-equation: density eq dimensionless mul density
+equation: (density) eq ((dimensionless) mul (density))
 symbol_overrides:
-- density: "\\rho_{\\text{substance}}"
+- density: ρ_water
 - dimensionless: SG
-- density: "\\rho_{\\text{water}}"
+- density: ''
 name_overrides:
-- density: Substance [density]
-- dimensionless: Specific gravity
 - density: Reference [density]
+- dimensionless: Specific gravity
+- density: ''

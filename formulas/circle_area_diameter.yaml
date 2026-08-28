@@ -2,7 +2,7 @@ name: Circle area from diameter
 id: circle_area_diameter
 topic: circles
 difficulty: 1
-equation: area eq pi mul length pow 2 frac 4
+equation: (area) eq (((pi) mul (length pow 2)) div 4)
 symbol_overrides:
 - area: ''
 - length: d

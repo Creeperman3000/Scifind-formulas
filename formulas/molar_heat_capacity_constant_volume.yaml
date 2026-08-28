@@ -2,11 +2,10 @@ name: Molar heat capacity at constant volume
 id: molar_heat_capacity_constant_volume
 topic: thermochemistry
 difficulty: 2
-equation: molar_energy eq energy frac (amount mul (temperature sub
-  temperature ) )
+equation: (molar_energy) eq ((energy) div ((amount) mul ((temperature) sub (temperature))))
 symbol_overrides:
 - molar_energy: C_v
-- energy: "\\Delta U"
+- energy: ΔU
 - amount: ''
 - temperature: T_f
 - temperature: T_i

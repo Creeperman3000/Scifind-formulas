@@ -2,12 +2,11 @@ name: Photoelectric equation
 id: photoelectric_equation
 topic: quantum_mechanics
 difficulty: 3
-description: "Valid for photon energies above the work function (hν ≥ φ); below threshold no electrons are emitted."
-equation: energy eq planck_constant mul frequency sub energy
+equation: (energy) eq (((planck_constant) mul (frequency)) sub (energy))
 symbol_overrides:
-- energy: E_{k,\max}
-- frequency: f
-- energy: "\\phi"
+- energy: E_k_max
+- frequency: ''
+- energy: φ
 name_overrides:
 - energy: Maximum kinetic [energy]
 - frequency: ''

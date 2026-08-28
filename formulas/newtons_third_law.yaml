@@ -2,7 +2,7 @@ name: Newton's third law
 id: newtons_third_law
 topic: newtons_laws
 difficulty: 1
-equation: force eq neg force
+equation: (force) eq neg((force))
 symbol_overrides:
 - force: F_{12}
 - force: F_{21}

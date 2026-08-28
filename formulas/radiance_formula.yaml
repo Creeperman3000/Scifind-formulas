@@ -1,16 +1,13 @@
-name: Radiance
+name: Radiance from radiant intensity and area
 id: radiance_formula
 topic: electromagnetic_waves
 difficulty: 3
-description: "Radiance from radiant intensity and projected area; L_e = I / (A cos θ)."
-equation: (radiance) eq ((radiant_intensity) frac ((area) mul (cos (angle))))
+equation: (radiance) eq ((radiant_intensity) div (area))
 symbol_overrides:
-- radiance: L_e
-- radiant_intensity: I_e
-- area: A
-- angle: \theta
+- radiance: ''
+- radiant_intensity: ''
+- area: ''
 name_overrides:
-- radiance: Radiance
-- radiant_intensity: Radiant intensity
-- area: Projected [area]
-- angle: Angle from normal
+- radiance: ''
+- radiant_intensity: ''
+- area: ''

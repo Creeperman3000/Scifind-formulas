@@ -2,13 +2,12 @@ name: Linear expansion coefficient
 id: thermal_expansion_linear_coefficient
 topic: temperature
 difficulty: 2
-equation: coefficient_of_linear_expansion eq length frac (length mul
-  temperature )
+equation: (coefficient_of_linear_expansion) eq ((length) div ((length) mul (temperature)))
 symbol_overrides:
-- coefficient_of_linear_expansion: "\\alpha"
-- length: "\\Delta L"
-- length: "L_0"
-- temperature: "\\Delta T"
+- coefficient_of_linear_expansion: α
+- length: ΔL
+- length: L₀
+- temperature: ΔT
 name_overrides:
 - coefficient_of_linear_expansion: Linear expansion [coefficient]
 - length: Change in [length]

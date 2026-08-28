@@ -2,12 +2,12 @@ name: Impulse-momentum theorem
 id: impulse_momentum_theorem
 topic: impulse
 difficulty: 2
-equation: ((force) mul (Delta time)) eq (Delta momentum)
+equation: (force) (Delta) (time) mul eq (momentum) (Delta)
 symbol_overrides:
-- force: F_{avg}
-- time: \Delta t
-- momentum: \Delta p
+- force: ''
+- time: ''
+- momentum: ''
 name_overrides:
-- force: Average [force]
-- time: '[Time] interval'
-- momentum: Change in [momentum]
+- force: Net [force]
+- time: '[Time]'
+- momentum: '[Momentum]'

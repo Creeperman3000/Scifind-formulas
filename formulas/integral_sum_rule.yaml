@@ -2,11 +2,11 @@ name: Integral sum rule
 id: integral_sum_rule
 topic: integrals
 difficulty: 1
-equation: dimensionless eq dimensionless add dimensionless
+equation: (dimensionless) eq ((dimensionless) add (dimensionless))
 symbol_overrides:
-- dimensionless: "\\int [f(x)+g(x)]\\,\\mathrm{d}x"
-- dimensionless: "\\int f(x)\\,\\mathrm{d}x"
-- dimensionless: "\\int g(x)\\,\\mathrm{d}x"
+- dimensionless: ∫[f(x)+g(x)] dx
+- dimensionless: ∫f(x) dx
+- dimensionless: ∫g(x) dx
 name_overrides:
 - dimensionless: Integral of sum
 - dimensionless: Integral of f(x)

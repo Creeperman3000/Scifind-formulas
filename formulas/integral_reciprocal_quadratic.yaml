@@ -2,9 +2,9 @@ name: Integral of 1/(a²+x²)
 id: integral_reciprocal_quadratic
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless frac dimensionless ) mul (atan (dimensionless frac dimensionless )))
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul (atan ((dimensionless) div (dimensionless))))
 symbol_overrides:
-- dimensionless: "\\int \\frac{\\mathrm{d}x}{a^2+x^2}"
+- dimensionless: ∫dx/(a²+x²)
 - dimensionless: '1'
 - dimensionless: a
 - dimensionless: x
@@ -12,6 +12,6 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Integral of reciprocal quadratic
 - dimensionless: ''
-- dimensionless: '[Constant] a'
-- dimensionless: x
-- dimensionless: '[Constant] a'
+- dimensionless: '[Constant]'
+- dimensionless: '[Variable]'
+- dimensionless: ''

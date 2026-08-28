@@ -2,11 +2,12 @@ name: Derivative of sine
 id: derivative_sin
 topic: derivatives
 difficulty: 2
-equation: (rmd (sin angle)) frac (rmd angle) eq cos angle
+equation: ((dimensionless) mul (rmd (sin (angle)))) eq (cos (angle))
 symbol_overrides:
-- angle: x
+- dimensionless: d/dx
 - angle: x
 - angle: x
 name_overrides:
+- dimensionless: Derivative
 - angle: '[Variable]'
 - angle: '[Variable]'

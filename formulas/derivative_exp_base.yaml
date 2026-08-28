@@ -2,19 +2,18 @@ name: Derivative of exponential with base
 id: derivative_exp_base
 topic: derivatives
 difficulty: 2
-equation: rmd (dimensionless pow dimensionless ) frac rmd dimensionless
-  eq dimensionless pow dimensionless mul ln dimensionless
+equation: ((dimensionless) mul (rmd ((angle) pow (dimensionless)))) eq ((((angle) pow (dimensionless)) mul (ln (dimensionless))))
 symbol_overrides:
+- dimensionless: d/dx
+- angle: x
 - dimensionless: a
-- dimensionless: x
-- dimensionless: x
+- angle: x
 - dimensionless: a
-- dimensionless: x
 - dimensionless: a
 name_overrides:
-- dimensionless: Base
-- dimensionless: '[Variable]'
-- dimensionless: '[Variable]'
-- dimensionless: Base
-- dimensionless: '[Variable]'
-- dimensionless: Base
+- dimensionless: Derivative
+- angle: '[Variable]'
+- dimensionless: '[Base]'
+- angle: '[Variable]'
+- dimensionless: '[Base]'
+- dimensionless: '[Base]'

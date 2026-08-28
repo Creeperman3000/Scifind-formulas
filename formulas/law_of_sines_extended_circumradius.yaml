@@ -2,21 +2,16 @@ name: Extended law of sines (circumdiameter)
 id: law_of_sines_extended_circumradius
 topic: laws_of_sines_and_cosines
 difficulty: 2
-equation: length frac sin angle eq length frac sin angle eq length
-  frac sin angle eq 2 mul length
+equation: ((length) div (sin (angle))) eq ((length) div (sin (angle))) eq ((length) mul 2)
 symbol_overrides:
 - length: a
 - angle: A
 - length: b
 - angle: B
-- length: c
-- angle: C
 - length: R
 name_overrides:
 - length: Side a
 - angle: Angle A
 - length: Side b
 - angle: Angle B
-- length: Side c
-- angle: Angle C
 - length: Circumdiameter

@@ -2,20 +2,20 @@ name: Power of a quotient
 id: power_of_quotient_rule
 topic: exponents
 difficulty: 2
-equation: (((dimensionless) frac (dimensionless)) pow dimensionless) eq ((dimensionless) pow (dimensionless) frac (dimensionless) pow (dimensionless))
+equation: (((dimensionless) div (dimensionless)) pow (dimensionless)) eq (((dimensionless) pow (dimensionless)) div ((dimensionless) pow (dimensionless)))
 symbol_overrides:
-- dimensionless: a
-- dimensionless: b
-- dimensionless: n
-- dimensionless: a
-- dimensionless: n
-- dimensionless: b
-- dimensionless: n
+- dimensionless: (a/b)^n
+- dimensionless: a^n
+- dimensionless: b^n
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
 name_overrides:
-- dimensionless: Numerator a
-- dimensionless: Denominator b
-- dimensionless: Exponent n
-- dimensionless: Numerator a
-- dimensionless: Exponent n
-- dimensionless: Denominator b
-- dimensionless: Exponent n
+- dimensionless: Power of a quotient
+- dimensionless: a^n
+- dimensionless: b^n
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''

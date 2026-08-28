@@ -2,11 +2,10 @@ name: Rayleigh criterion
 id: rayleigh_criterion
 topic: diffraction
 difficulty: 4
-description: "Diffraction-limited angular resolution for a circular aperture; valid for incoherent point sources."
-equation: angle eq 1.22 mul length frac length
+equation: (angle) eq ((1.22 mul (length)) div (length))
 symbol_overrides:
-- angle: "\\theta_{\\text{min}}"
-- length: "\\lambda"
+- angle: θ_min
+- length: λ
 - length: D
 name_overrides:
 - angle: Minimum angular resolution

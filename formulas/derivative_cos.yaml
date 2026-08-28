@@ -2,11 +2,12 @@ name: Derivative of cosine
 id: derivative_cos
 topic: derivatives
 difficulty: 2
-equation: (rmd (cos angle)) frac (rmd angle) eq neg (sin angle)
+equation: ((dimensionless) mul (rmd (cos (angle)))) eq (neg (sin (angle)))
 symbol_overrides:
-- angle: x
+- dimensionless: d/dx
 - angle: x
 - angle: x
 name_overrides:
+- dimensionless: Derivative
 - angle: '[Variable]'
 - angle: '[Variable]'

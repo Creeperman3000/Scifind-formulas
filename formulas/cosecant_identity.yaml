@@ -2,10 +2,10 @@ name: Cosecant identity
 id: cosecant_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: dimensionless eq 1 frac sin angle
+equation: (dimensionless) eq (1 div (sin (angle)))
 symbol_overrides:
-- dimensionless: "\\csc(\\theta)"
-- angle: "\\theta"
+- dimensionless: csc(θ)
+- angle: θ
 name_overrides:
 - dimensionless: ''
 - angle: ''

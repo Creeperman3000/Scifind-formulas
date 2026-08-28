@@ -2,7 +2,7 @@ name: Power from voltage and resistance
 id: power_resistive_circuit_voltage
 topic: circuits
 difficulty: 1
-equation: power eq electric_potential pow 2 frac resistance
+equation: (power) eq ((electric_potential pow 2) div (resistance))
 symbol_overrides:
 - power: ''
 - electric_potential: ''

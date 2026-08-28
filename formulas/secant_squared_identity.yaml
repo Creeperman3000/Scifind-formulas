@@ -2,10 +2,12 @@ name: Secant Squared Identity
 id: secant_squared_identity
 topic: trigonometric_identities
 difficulty: 2
-equation: dimensionless eq 1 add dimensionless
+equation: (dimensionless) eq (((dimensionless) pow (tan (angle))) add 2)
 symbol_overrides:
-- dimensionless: "\\sec^2\\theta"
-- dimensionless: "\\tan^2\\theta"
+- dimensionless: sec²θ
+- dimensionless: '1'
+- angle: θ
 name_overrides:
 - dimensionless: Secant squared
-- dimensionless: Tangent squared
+- dimensionless: '1'
+- angle: Angle θ

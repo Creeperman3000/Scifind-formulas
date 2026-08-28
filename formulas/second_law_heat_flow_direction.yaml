@@ -2,8 +2,8 @@ name: Direction of heat flow (second law)
 id: second_law_heat_flow_direction
 topic: second_law
 difficulty: 1
-equation: (energy) gt (0)
+equation: (heat) gt 0
 name_overrides:
-- energy: Heat flow hot to cold
+- heat: Heat transferred from hot to cold
 symbol_overrides:
-- energy: Q_{h\to c}
+- heat: ''

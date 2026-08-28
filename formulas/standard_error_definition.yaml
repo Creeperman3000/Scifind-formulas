@@ -2,10 +2,10 @@ name: Standard error of the mean
 id: standard_error_definition
 topic: statistics
 difficulty: 2
-equation: dimensionless eq dimensionless frac sqrt dimensionless
+equation: (dimensionless) eq ((dimensionless) div (sqrt  (dimensionless) 2))
 symbol_overrides:
 - dimensionless: SE
-- dimensionless: "\\sigma"
+- dimensionless: σ
 - dimensionless: n
 name_overrides:
 - dimensionless: Standard error

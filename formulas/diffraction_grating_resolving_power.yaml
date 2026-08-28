@@ -2,7 +2,7 @@ name: Resolving power of a diffraction grating
 id: diffraction_grating_resolving_power
 topic: diffraction
 difficulty: 4
-equation: dimensionless eq amount mul dimensionless
+equation: (dimensionless) eq ((amount) mul (dimensionless))
 symbol_overrides:
 - dimensionless: R
 - amount: N

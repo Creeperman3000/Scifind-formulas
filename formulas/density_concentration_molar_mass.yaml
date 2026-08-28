@@ -1,11 +1,10 @@
-name: Solution density
+name: Solution density from concentration and molar mass
 id: density_concentration_molar_mass
 topic: solutions
 difficulty: 1
-description: "Density of a solution from molarity and molar mass; ρ = c M."
-equation: mass_concentration eq concentration mul molar_mass
+equation: (mass_concentration) eq ((concentration) mul (molar_mass))
 symbol_overrides:
-- mass_concentration: "\\rho_{\\text{soln}}"
+- mass_concentration: ρ_soln
 - concentration: ''
 - molar_mass: ''
 name_overrides:

@@ -1,19 +1,17 @@
-name: Molar mass (boiling elevation)
+name: Molar mass from boiling point elevation
 id: molar_mass_from_boiling_point_elevation
 topic: molar_mass
 difficulty: 3
-description: "Molar mass from boiling-point elevation; M = (K_b m_solute) / (ΔT_b m_solvent)."
-equation: molar_mass eq specific_energy mul mass frac (temperature
-  mul mass )
+equation: (molar_mass) eq (((temperature) mul (mass)) div ((temperature) mul (mass)))
 symbol_overrides:
-- molar_mass: M
-- specific_energy: K_b
-- mass: m_{solvent}
-- temperature: "\\Delta T_{\\text{b}}"
-- mass: m_{solute}
+- molar_mass: ''
+- temperature: K_b
+- mass: m_solute
+- temperature: ΔT_b
+- mass: m_solvent
 name_overrides:
-- molar_mass: Molar mass of solute
-- specific_energy: Ebullioscopic [constant]
-- mass: Mass of solvent
+- molar_mass: '[Molar mass]'
+- temperature: Ebullioscopic [constant]
+- mass: Mass of [solute]
 - temperature: Boiling point [elevation]
-- mass: Mass of solute
+- mass: Mass of [solvent]

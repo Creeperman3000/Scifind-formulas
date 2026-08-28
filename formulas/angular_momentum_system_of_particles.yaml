@@ -2,9 +2,9 @@ name: Angular momentum of a system
 id: angular_momentum_system_of_particles
 topic: angular_momentum
 difficulty: 3
-equation: angular_momentum eq angular_momentum add angular_momentum add angular_momentum
+equation: (angular_momentum) eq (((angular_momentum) add (angular_momentum)) add (angular_momentum))
 symbol_overrides:
-- angular_momentum: L_{\mathrm{sys}}
+- angular_momentum: L_sys
 - angular_momentum: L_1
 - angular_momentum: L_2
 - angular_momentum: L_3

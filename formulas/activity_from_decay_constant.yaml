@@ -2,12 +2,12 @@ name: Activity from decay constant
 id: activity_from_decay_constant
 topic: nuclear_physics
 difficulty: 2
-equation: activity eq decay_constant mul amount
+equation: (activity) eq ((amount) mul (number_of_particles))
 symbol_overrides:
-- activity: A
-- decay_constant: "\\lambda"
-- amount: N
+- activity: ''
+- amount: λ
+- number_of_particles: ''
 name_overrides:
-- activity: '[Activity]'
-- decay_constant: Decay constant
-- amount: Number of nuclei
+- activity: ''
+- amount: Decay constant
+- number_of_particles: ''

@@ -2,9 +2,9 @@ name: 'Right triangle: trigonometric ratios (SOH CAH TOA)'
 id: soh_cah_toa_sine
 topic: right_triangles
 difficulty: 1
-equation: dimensionless eq length frac length
+equation: (dimensionless) eq ((length) div (length))
 symbol_overrides:
-- dimensionless: "\\sin \\theta"
+- dimensionless: sin θ
 - length: opposite
 - length: hypotenuse
 name_overrides:

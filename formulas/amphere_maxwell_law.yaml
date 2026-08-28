@@ -2,16 +2,16 @@ name: Ampere-Maxwell law
 id: amphere_maxwell_law
 topic: magnetism
 difficulty: 4
-equation: ((oint (magnetic_flux_density cdot length)) eq (vacuum_permeability mul (current add (vacuum_permittivity mul (rmd dimensionless frac rmd time)))))
+equation: ((oint skip skip (magnetic_flux_density cdot length)) eq (vacuum_permeability mul (current add (vacuum_permittivity mul (rmd dimensionless frac rmd time)))))
 symbol_overrides:
-- magnetic_flux_density: "\\mathbf{B}"
-- length: "\\mathrm{d}\\mathbf{l}"
-- current: I_{\text{enc}}
-- dimensionless: "\\Phi_E"
-- time: t
+- length: ''
+- magnetic_flux_density: ''
+- current: ''
+- electric_field_strength: ''
+- time: ''
 name_overrides:
-- magnetic_flux_density: Magnetic field
-- length: Path line element
-- current: Enclosed current
-- dimensionless: Electric flux
-- time: Time
+- length: Path length
+- magnetic_flux_density: ''
+- current: Conduction [current]
+- electric_field_strength: ''
+- time: ''

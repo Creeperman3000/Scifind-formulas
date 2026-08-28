@@ -2,10 +2,12 @@ name: Escape velocity using surface gravity
 id: escape_velocity_earth_surface
 topic: escape_velocity
 difficulty: 2
-equation: velocity eq sqrt (2 mul (standard_gravity mul length ) )
+equation: (velocity) eq sqrt ((((acceleration) mul (length)) mul 2)) 2
 symbol_overrides:
-- velocity: v_{esc}
+- velocity: v_esc
+- acceleration: g
 - length: R
 name_overrides:
 - velocity: Escape [velocity]
-- length: Body radius
+- acceleration: ''
+- length: Planet radius

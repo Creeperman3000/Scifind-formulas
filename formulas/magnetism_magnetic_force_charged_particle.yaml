@@ -2,13 +2,13 @@ name: Magnetic force on a charged particle
 id: magnetism_magnetic_force_charged_particle
 topic: magnetism
 difficulty: 2
-equation: (force) eq ((charge) mul (velocity) mul (magnetic_flux_density) mul (sin (angle)))
+equation: (force) eq (((charge) mul ((velocity) mul (magnetic_flux_density))) mul (sin (angle)))
 symbol_overrides:
-- force: F
+- force: ''
 - charge: q
-- velocity: v
-- magnetic_flux_density: B
-- angle: \theta
+- velocity: ''
+- magnetic_flux_density: ''
+- angle: θ
 name_overrides:
 - force: Magnetic [force]
 - charge: Particle [charge]

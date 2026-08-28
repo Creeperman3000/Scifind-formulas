@@ -2,12 +2,12 @@ name: Cross product magnitude
 id: cross_product_magnitude
 topic: linear_algebra
 difficulty: 2
-equation: dimensionless eq dimensionless mul (dimensionless mul sin angle )
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) mul (sin (angle))))
 symbol_overrides:
-- dimensionless: "|a\\times b|"
+- dimensionless: '|a×b|'
 - dimensionless: '|a|'
 - dimensionless: '|b|'
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - dimensionless: Cross product magnitude
 - dimensionless: Magnitude of a

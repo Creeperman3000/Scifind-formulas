@@ -2,10 +2,13 @@ name: Torricelli's theorem
 id: torricellis_theorem
 topic: bernoulli_equation
 difficulty: 2
-equation: velocity eq sqrt (2 mul standard_gravity mul length )
+equation: (velocity) eq sqrt (((((dimensionless) mul 2) mul (standard_gravity)) mul
+  (length))) 2
 symbol_overrides:
-- velocity: v
+- velocity: ''
+- dimensionless: ''
 - length: h
 name_overrides:
-- velocity: Velocity
-- length: Height
+- velocity: Efflux [velocity]
+- dimensionless: ''
+- length: Depth

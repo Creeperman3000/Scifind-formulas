@@ -2,9 +2,9 @@ name: Integral of cosine
 id: integral_cos
 topic: integrals
 difficulty: 2
-equation: dimensionless eq sin angle
+equation: (dimensionless) eq sin((angle))
 symbol_overrides:
-- dimensionless: "\\int\\cos(x)\\,\\mathrm{d}x"
+- dimensionless: ∫cos(x)dx
 - angle: x
 name_overrides:
 - dimensionless: ∫ cos(x) dx

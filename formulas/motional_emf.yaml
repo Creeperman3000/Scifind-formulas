@@ -2,9 +2,9 @@ name: Motional electromotive force
 id: motional_emf
 topic: electromagnetic_induction
 difficulty: 3
-equation: electric_potential eq magnetic_flux_density mul (length mul velocity )
+equation: (electric_potential) eq ((magnetic_flux_density) mul ((length) mul (velocity)))
 symbol_overrides:
-- electric_potential: "\\epsilon"
+- electric_potential: ε
 - magnetic_flux_density: ''
 - length: L
 - velocity: ''

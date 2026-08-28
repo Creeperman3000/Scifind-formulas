@@ -2,12 +2,12 @@ name: Coefficient of performance of a refrigerator
 id: coefficient_of_performance
 topic: heat_engines
 difficulty: 3
-equation: heat_engine_efficiency eq energy frac energy
+equation: (heat_engine_efficiency) eq ((heat) div (work))
 symbol_overrides:
 - heat_engine_efficiency: COP
-- energy: Q_c
-- energy: W
+- heat: Q_c
+- work: ''
 name_overrides:
 - heat_engine_efficiency: Coefficient of performance
-- energy: Heat extracted from cold reservoir
-- energy: Work input
+- heat: Heat extracted from cold reservoir
+- work: ''

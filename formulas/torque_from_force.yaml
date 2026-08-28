@@ -2,14 +2,12 @@ name: Torque from force
 id: torque_from_force
 topic: torque
 difficulty: 2
-equation: torque eq length mul force mul sin angle
+equation: (torque) eq ((length) mul (force))
 symbol_overrides:
 - torque: ''
 - length: r
 - force: ''
-- angle: ''
 name_overrides:
 - torque: ''
 - length: Lever arm
 - force: ''
-- angle: ''

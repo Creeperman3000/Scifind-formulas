@@ -2,14 +2,14 @@ name: Gravitational field strength
 id: gravitational_field_strength
 topic: newtonian_gravity
 difficulty: 2
-description: "Valid outside a spherically symmetric mass; the body is treated as a point mass at its centre."
-equation: acceleration eq gravitational_constant mul mass frac length
-  pow 2
+equation: (acceleration) eq (((gravitational_constant) mul (mass)) div (length pow 2))
 symbol_overrides:
 - acceleration: g
-- mass: M
+- gravitational_constant: ''
+- mass: ''
 - length: r
 name_overrides:
 - acceleration: Gravitational field strength
-- mass: Mass [of body]
+- gravitational_constant: ''
+- mass: ''
 - length: Distance

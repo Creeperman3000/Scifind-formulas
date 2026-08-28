@@ -2,16 +2,14 @@ name: Position in simple harmonic motion
 id: shm_position
 topic: harmonic_motion
 difficulty: 3
-equation: length eq length mul cos (angular_velocity mul time add angle )
+equation: (displacement) eq ((length) mul (cos ((angular_velocity) mul (time))))
 symbol_overrides:
-- length: x
+- displacement: ''
 - length: A
-- angular_velocity: "\\omega"
+- angular_velocity: ω
 - time: ''
-- angle: "\\phi"
 name_overrides:
-- length: Position
+- displacement: ''
 - length: Amplitude
 - angular_velocity: Angular frequency
 - time: ''
-- angle: Phase constant

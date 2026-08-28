@@ -2,14 +2,16 @@ name: Charge carrier density calculation
 id: current_carrier_density_calculation
 topic: current_electricity
 difficulty: 3
-equation: (dimensionless) eq ((current) frac ((area) mul elementary_charge mul (velocity)))
+equation: ((number_of_particles) div (volume)) eq ((current) div (((area) mul (elementary_charge)) mul (velocity)))
 symbol_overrides:
-- dimensionless: n
-- current: I
-- area: A
+- number_of_particles: ''
+- volume: ''
+- current: ''
+- area: ''
 - velocity: v_d
 name_overrides:
-- dimensionless: Carrier number density
+- number_of_particles: Number of charge [carriers]
+- volume: '[Volume]'
 - current: '[Current]'
 - area: Cross-sectional [area]
 - velocity: Drift [velocity]

@@ -2,14 +2,12 @@ name: Work
 id: work_formula
 topic: work
 difficulty: 1
-description: Valid only for a constant force parallel to the displacement. The general
-  definition is W = ∫F·dr.
-equation: energy eq force mul length
+equation: (work) eq ((force) mul (displacement))
 name_overrides:
-- energy: '[Energy]'
+- work: '[Work]'
 - force: ''
-- length: ''
+- displacement: ''
 symbol_overrides:
-- energy: ''
+- work: ''
 - force: ''
-- length: ''
+- displacement: ''

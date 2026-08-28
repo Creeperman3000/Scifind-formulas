@@ -2,13 +2,12 @@ name: Sum of first n natural numbers
 id: sum_of_natural_numbers
 topic: arithmetic
 difficulty: 1
-equation: dimensionless eq dimensionless mul (dimensionless add 1)
-  frac 2
+equation: (dimensionless) eq (((dimensionless) mul ((dimensionless) add 1)) div 2)
 symbol_overrides:
 - dimensionless: S
 - dimensionless: n
-- dimensionless: n
+- dimensionless: ''
 name_overrides:
 - dimensionless: Sum
 - dimensionless: Number of terms
-- dimensionless: Number of terms
+- dimensionless: ''

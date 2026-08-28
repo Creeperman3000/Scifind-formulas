@@ -2,14 +2,16 @@ name: Simple interest future value
 id: simple_interest
 topic: arithmetic
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) mul ((1) add ((dimensionless) mul (dimensionless))))
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) add ((dimensionless) mul (dimensionless))))
 symbol_overrides:
 - dimensionless: A
 - dimensionless: P
+- dimensionless: '1'
 - dimensionless: r
-- dimensionless: n
+- dimensionless: t
 name_overrides:
 - dimensionless: Future value
 - dimensionless: Principal
-- dimensionless: Rate per period
-- dimensionless: Number of periods
+- dimensionless: ''
+- dimensionless: Interest rate
+- dimensionless: Time

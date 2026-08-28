@@ -2,13 +2,15 @@ name: Average speed from Maxwell-Boltzmann distribution
 id: average_speed_maxwell_boltzmann
 topic: ideal_gases
 difficulty: 3
-description: "Mean speed from the Maxwell-Boltzmann speed distribution; v̄ = √(8 k_B T / π m)."
-equation: velocity eq sqrt (8 mul (gas_constant mul temperature ) frac (pi mul molar_mass ) )
+equation: (velocity) eq sqrt (((((gas_constant) mul (temperature)) mul 8) div ((pi)
+  mul (molar_mass)))) 2
 symbol_overrides:
-- velocity: v_{\mathrm{avg}}
+- velocity: v_avg
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''
 name_overrides:
 - velocity: Average speed
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''

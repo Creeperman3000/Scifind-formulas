@@ -2,12 +2,16 @@ name: Limiting reactant identification
 id: limiting_reactant_identification
 topic: limiting_reactants
 difficulty: 3
-equation: dimensionless eq dimensionless frac dimensionless
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) gt ((dimensionless) div (dimensionless)))
 symbol_overrides:
 - dimensionless: ratio_A
 - dimensionless: n_A
-- dimensionless: "\\nu_{\\text{A}}"
+- dimensionless: ν_A
+- dimensionless: n_B
+- dimensionless: ν_B
 name_overrides:
-- dimensionless: Mole ratio for A
+- dimensionless: Actual mole ratio
 - dimensionless: Amount of A
 - dimensionless: Stoichiometric coefficient of A
+- dimensionless: Amount of B
+- dimensionless: Stoichiometric coefficient of B

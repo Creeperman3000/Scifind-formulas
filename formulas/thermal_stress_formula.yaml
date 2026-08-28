@@ -2,16 +2,14 @@ name: Thermal stress formula
 id: thermal_stress_formula
 topic: temperature
 difficulty: 3
-description: Valid for a fully-constrained material; sign convention as shown
-  (compressive stress for heating).
-equation: (pressure) eq (neg ((pressure) mul (coefficient_of_linear_expansion) mul (temperature)))
+equation: (pressure) eq (((pressure) mul (coefficient_of_linear_expansion)) mul (temperature))
 symbol_overrides:
-- pressure: \sigma
+- pressure: σ
 - pressure: E
-- coefficient_of_linear_expansion: \alpha
-- temperature: \Delta T
+- coefficient_of_linear_expansion: α
+- temperature: ΔT
 name_overrides:
 - pressure: Thermal [stress]
 - pressure: Young's modulus
 - coefficient_of_linear_expansion: Expansion [coefficient]
-- temperature: '[Temperature] change'
+- temperature: Temperature [change]

@@ -2,7 +2,7 @@ name: Impulse as momentum change
 id: impulse_momentum_change_specific
 topic: impulse
 difficulty: 2
-equation: momentum eq mass mul velocity sub mass mul velocity
+equation: (momentum) eq (((mass) mul (velocity)) sub ((mass) mul (velocity)))
 symbol_overrides:
 - momentum: J
 - mass: ''

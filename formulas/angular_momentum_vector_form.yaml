@@ -2,14 +2,14 @@ name: Angular momentum vector
 id: angular_momentum_vector_form
 topic: angular_momentum
 difficulty: 3
-equation: (angular_momentum) eq (length mul momentum mul sin (angle))
+equation: (angular_momentum) eq (((length) mul (momentum)) mul (sin (angle)))
 symbol_overrides:
-- angular_momentum: '|\mathbf{L}|'
+- angular_momentum: ''
 - length: r
-- momentum: '|\mathbf{p}|'
-- angle: \theta
+- momentum: ''
+- angle: θ
 name_overrides:
-- angular_momentum: Magnitude of angular momentum
-- length: Position magnitude
-- momentum: Momentum magnitude
-- angle: Angle between r and p
+- angular_momentum: '[Angular momentum]'
+- length: Radius
+- momentum: ''
+- angle: Angle between [radius] and [momentum]

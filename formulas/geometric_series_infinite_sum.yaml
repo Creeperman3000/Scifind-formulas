@@ -2,9 +2,9 @@ name: Sum of infinite geometric series
 id: geometric_series_infinite_sum
 topic: arithmetic
 difficulty: 2
-equation: dimensionless eq dimensionless frac (1 sub dimensionless )
+equation: (dimensionless) eq ((dimensionless) div (1 sub (dimensionless)))
 symbol_overrides:
-- dimensionless: "S_\\infty"
+- dimensionless: S_∞
 - dimensionless: a
 - dimensionless: r
 name_overrides:

@@ -2,7 +2,7 @@ name: Charles's law
 id: charles_law
 topic: ideal_gases
 difficulty: 1
-equation: volume frac temperature eq volume frac temperature
+equation: ((volume) div (temperature)) eq ((volume) div (temperature))
 symbol_overrides:
 - volume: V_1
 - temperature: T_1

@@ -2,12 +2,14 @@ name: Atom economy
 id: atom_economy
 topic: chemical_reactions
 difficulty: 2
-equation: dimensionless eq 100 mul (mass frac mass )
+equation: (dimensionless) eq (((mass) div (mass)) mul (dimensionless))
 symbol_overrides:
-- dimensionless: "\\%\\,\\text{AE}"
-- mass: m_{\text{d}}
-- mass: m_{\text{total}}
+- dimensionless: '% AE'
+- mass: m_desired
+- mass: m_total
+- dimensionless: '100'
 name_overrides:
 - dimensionless: Atom economy
 - mass: Mass of desired product
 - mass: Total mass of reactants
+- dimensionless: ''

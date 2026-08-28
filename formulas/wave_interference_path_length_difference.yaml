@@ -2,11 +2,11 @@ name: Path length difference for two sources
 id: wave_interference_path_length_difference
 topic: wave_interference
 difficulty: 2
-equation: length eq length sub length
+equation: (length) eq ((length) sub (length))
 symbol_overrides:
-- length: "\\Delta x"
-- length: "r_1"
-- length: "r_2"
+- length: Δx
+- length: r₁
+- length: r₂
 name_overrides:
 - length: Path [difference]
 - length: Distance from source 1

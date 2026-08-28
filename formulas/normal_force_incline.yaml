@@ -1,0 +1,15 @@
+name: 'Dynamics: normal force on incline'
+id: normal_force_incline
+topic: forces
+difficulty: 2
+equation: (force) eq (((mass) mul (acceleration)) mul (cos (angle)))
+symbol_overrides:
+- force: N
+- mass: ''
+- acceleration: g
+- angle: θ
+name_overrides:
+- force: Normal [force]
+- mass: '[Mass]'
+- acceleration: Gravitational [acceleration]
+- angle: Incline angle

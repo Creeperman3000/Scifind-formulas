@@ -2,11 +2,11 @@ name: Gauge pressure
 id: gauge_pressure_definition
 topic: pressure
 difficulty: 1
-equation: pressure eq pressure sub pressure
+equation: (pressure) eq ((pressure) sub (pressure))
 symbol_overrides:
-- pressure: P_{\mathrm{gauge}}
-- pressure: P_{\mathrm{abs}}
-- pressure: P_{\mathrm{atm}}
+- pressure: P_gauge
+- pressure: P_abs
+- pressure: P_atm
 name_overrides:
 - pressure: Gauge [pressure]
 - pressure: Absolute [pressure]

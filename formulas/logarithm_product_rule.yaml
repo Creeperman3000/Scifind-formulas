@@ -2,7 +2,7 @@ name: Logarithm product rule
 id: logarithm_product_rule
 topic: logarithms
 difficulty: 2
-equation: ln (dimensionless mul dimensionless ) eq ln dimensionless add ln dimensionless
+equation: (ln ((dimensionless) mul (dimensionless))) eq ((ln (dimensionless)) add (ln (dimensionless)))
 symbol_overrides:
 - dimensionless: x
 - dimensionless: y

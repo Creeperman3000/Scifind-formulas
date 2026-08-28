@@ -2,9 +2,9 @@ name: Proper time
 id: proper_time
 topic: relativity
 difficulty: 3
-equation: time eq time frac lorentz_factor
+equation: (time) eq ((time) div (lorentz_factor))
 symbol_overrides:
-- time: "\\tau"
+- time: τ
 - time: ''
 - lorentz_factor: ''
 name_overrides:

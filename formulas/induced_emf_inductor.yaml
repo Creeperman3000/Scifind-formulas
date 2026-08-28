@@ -2,10 +2,9 @@ name: EMF induced in an inductor
 id: induced_emf_inductor
 topic: electromagnetic_induction
 difficulty: 3
-equation: electric_potential eq neg inductance mul Delta current frac
-  Delta time
+equation: (electric_potential) eq (inductance) (current) (Delta) (time) (Delta) div mul neg
 symbol_overrides:
-- electric_potential: "\\epsilon"
+- electric_potential: ε
 - inductance: ''
 - current: ''
 - time: ''

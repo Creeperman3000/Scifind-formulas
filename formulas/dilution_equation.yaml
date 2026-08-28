@@ -2,12 +2,12 @@ name: Dilution Equation
 id: dilution_equation
 topic: solution_stoichiometry
 difficulty: 1
-equation: concentration mul volume eq concentration mul volume
+equation: ((concentration) mul (volume)) eq ((concentration) mul (volume))
 symbol_overrides:
-- concentration: "c_1"
-- volume: "V_1"
-- concentration: "c_2"
-- volume: "V_2"
+- concentration: c₁
+- volume: V₁
+- concentration: c₂
+- volume: V₂
 name_overrides:
 - concentration: Initial [concentration]
 - volume: Initial [volume]

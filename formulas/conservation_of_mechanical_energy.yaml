@@ -2,7 +2,7 @@ name: Conservation of mechanical energy
 id: conservation_of_mechanical_energy
 topic: conservation_of_energy
 difficulty: 2
-equation: energy add energy eq energy add energy
+equation: ((energy) add (energy)) eq ((energy) add (energy))
 symbol_overrides:
 - energy: E_k1
 - energy: E_p1

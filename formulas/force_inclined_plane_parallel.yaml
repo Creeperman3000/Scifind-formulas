@@ -2,11 +2,11 @@ name: Parallel force component on an inclined plane
 id: force_inclined_plane_parallel
 topic: forces
 difficulty: 2
-equation: force eq mass mul standard_gravity mul sin angle
+equation: (force) eq (((mass) mul (standard_gravity)) mul (sin (angle)))
 symbol_overrides:
-- force: "F_\\parallel"
+- force: F_∥
 - mass: ''
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - force: Parallel component of [weight]
 - mass: ''

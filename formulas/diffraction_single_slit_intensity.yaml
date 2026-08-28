@@ -2,13 +2,12 @@ name: Single-slit diffraction intensity pattern
 id: diffraction_single_slit_intensity
 topic: diffraction
 difficulty: 5
-equation: dimensionless eq dimensionless mul (sin dimensionless frac
-  dimensionless ) pow 2
+equation: (dimensionless) eq ((dimensionless) mul (((sin (dimensionless)) div (dimensionless)) pow 2))
 symbol_overrides:
-- dimensionless: "I(\\theta)"
+- dimensionless: I(θ)
 - dimensionless: I_0
-- dimensionless: "\\beta"
-- dimensionless: "\\beta"
+- dimensionless: β
+- dimensionless: β
 name_overrides:
 - dimensionless: Intensity at angle θ
 - dimensionless: Maximum [intensity]

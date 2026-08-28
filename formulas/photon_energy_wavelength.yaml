@@ -2,10 +2,10 @@ name: Photon energy from wavelength
 id: photon_energy_wavelength
 topic: quantum_mechanics
 difficulty: 2
-equation: energy eq planck_constant mul speed_of_light frac length
+equation: (energy) eq (((planck_constant) mul (speed_of_light)) div (length))
 symbol_overrides:
 - energy: ''
-- length: "\\lambda"
+- length: λ
 name_overrides:
 - energy: ''
 - length: Wavelength

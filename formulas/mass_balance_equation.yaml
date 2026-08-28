@@ -2,7 +2,7 @@ name: Mass balance equation
 id: mass_balance_equation
 topic: analytical_chemistry
 difficulty: 2
-equation: concentration eq concentration add concentration
+equation: (concentration) eq ((concentration) add (concentration))
 symbol_overrides:
 - concentration: c_T
 - concentration: '[HA]'

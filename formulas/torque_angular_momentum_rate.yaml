@@ -2,11 +2,11 @@ name: Torque as rate of change of angular momentum
 id: torque_angular_momentum_rate
 topic: angular_momentum
 difficulty: 2
-equation: (torque) eq (rmd (angular_momentum) div rmd (time))
+equation: (torque) eq (Delta((angular_momentum)) div Delta((time)))
 symbol_overrides:
-- torque: \tau
-- angular_momentum: L
-- time: t
+- torque: τ
+- angular_momentum: ''
+- time: ''
 name_overrides:
 - torque: Net [torque]
 - angular_momentum: '[Angular momentum]'

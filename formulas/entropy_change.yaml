@@ -2,14 +2,12 @@ name: Entropy change for reversible heat transfer
 id: entropy_change
 topic: entropy
 difficulty: 2
-description: Valid only at constant temperature. The general reversible expression
-  is ΔS = ∫(δq_rev / T).
-equation: entropy eq energy frac temperature
+equation: (entropy) eq ((heat) div (temperature))
 symbol_overrides:
-- entropy: \Delta S
-- energy: q_{rev}
-- temperature: T
+- entropy: ΔS
+- heat: ''
+- temperature: ''
 name_overrides:
 - entropy: Change in [entropy]
-- energy: Reversible heat
-- temperature: Temperature
+- heat: ''
+- temperature: ''

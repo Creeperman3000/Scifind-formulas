@@ -2,7 +2,7 @@ name: Energy stored in a capacitor
 id: capacitor_energy
 topic: capacitance
 difficulty: 2
-equation: energy eq capacitance mul electric_potential pow 2 frac 2
+equation: (energy) eq (((capacitance) mul (electric_potential pow 2)) div 2)
 symbol_overrides:
 - energy: U
 - capacitance: ''

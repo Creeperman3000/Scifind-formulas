@@ -2,13 +2,13 @@ name: Electric potential from multiple point charges
 id: electric_potential_multiple_charges
 topic: electric_potential
 difficulty: 3
-equation: electric_potential eq coulomb_constant mul sum (charge frac
+equation: electric_potential eq coulomb_constant mul sum skip skip (charge frac
   length )
 symbol_overrides:
-- electric_potential: V
-- charge: Q_i
-- length: r_i
+- electric_potential: ''
+- charge: ''
+- length: ''
 name_overrides:
 - electric_potential: Total [electric potential]
-- charge: Point charge
-- length: Distance
+- charge: ''
+- length: ''

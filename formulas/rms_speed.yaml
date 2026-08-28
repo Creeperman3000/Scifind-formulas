@@ -2,12 +2,15 @@ name: Root mean square speed of gas molecules
 id: rms_speed
 topic: ideal_gases
 difficulty: 3
-equation: velocity eq sqrt (3 mul gas_constant mul temperature frac molar_mass )
+equation: (velocity) eq sqrt ((((3 mul (gas_constant)) mul (temperature)) div (molar_mass)))
+  2
 symbol_overrides:
-- velocity: v_{\mathrm{rms}}
+- velocity: v_rms
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''
 name_overrides:
 - velocity: RMS [velocity]
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''

@@ -2,7 +2,7 @@ name: Linear magnification
 id: magnification_formula
 topic: lenses
 difficulty: 1
-equation: neg (length frac length ) eq length frac length
+equation: neg(((length) div (length))) eq ((length) div (length))
 symbol_overrides:
 - length: h_i
 - length: h_o

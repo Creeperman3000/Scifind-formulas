@@ -2,14 +2,14 @@ name: Volume of a triangular prism
 id: volume_triangular_prism
 topic: plane_geometry
 difficulty: 1
-equation: volume eq length mul length mul length frac 2
+equation: (volume) eq ((((length) mul (length)) mul (length)) div 2)
 symbol_overrides:
 - volume: ''
 - length: b
 - length: h
-- length: L
+- length: ''
 name_overrides:
 - volume: '[Volume]'
-- length: Triangle base
+- length: Base width
 - length: Triangle height
 - length: Prism length

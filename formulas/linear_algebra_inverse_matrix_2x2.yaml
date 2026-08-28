@@ -2,14 +2,16 @@ name: Inverse of a 2×2 matrix
 id: linear_algebra_inverse_matrix_2x2
 topic: linear_algebra
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless) frac (dimensionless)) mul (dimensionless)
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) div ((dimensionless) sub (dimensionless))))
 symbol_overrides:
-- dimensionless: A^{-1}
-- dimensionless: '1'
-- dimensionless: ad-bc
-- dimensionless: "\\begin{pmatrix}d & -b\\\\-c & a\\end{pmatrix}"
+- dimensionless: A⁻¹
+- dimensionless: adj(A)
+- dimensionless: a
+- dimensionless: d
+- dimensionless: b
 name_overrides:
 - dimensionless: Inverse matrix
-- dimensionless: '1'
-- dimensionless: Determinant
-- dimensionless: Adjugate matrix
+- dimensionless: Adjugate
+- dimensionless: a
+- dimensionless: d
+- dimensionless: b

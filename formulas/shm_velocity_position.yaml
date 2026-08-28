@@ -2,15 +2,15 @@ name: Velocity as function of position in SHM
 id: shm_velocity_position
 topic: harmonic_motion
 difficulty: 3
-description: "Valid for simple harmonic motion; v = ±ω√(A² − x²) relates velocity to position."
-equation: velocity eq angular_velocity mul sqrt (length pow 2 sub length pow 2 )
+equation: (velocity) eq ((angular_velocity) mul (sqrt  ((length pow 2) sub (displacement
+  pow 2)) 2))
 symbol_overrides:
 - velocity: ''
-- angular_velocity: "\\omega"
+- angular_velocity: ω
 - length: A
-- length: x
+- displacement: ''
 name_overrides:
 - velocity: '[Velocity]'
 - angular_velocity: Angular frequency
 - length: Amplitude
-- length: Position
+- displacement: ''

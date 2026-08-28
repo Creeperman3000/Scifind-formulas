@@ -2,16 +2,16 @@ name: Zeeman splitting energy
 id: zeeman_splitting_energy
 topic: atomic_physics
 difficulty: 4
-equation: (energy) eq ((dimensionless) mul (torque) mul (magnetic_flux_density) mul (dimensionless))
+equation: (energy) eq ((((torque) mul (magnetic_flux_density)) mul (dimensionless)) mul (dimensionless))
 symbol_overrides:
-- energy: \Delta E
-- dimensionless: g
-- torque: \mu_B
-- magnetic_flux_density: B
+- energy: ΔE
+- torque: μ_B
+- magnetic_flux_density: ''
 - dimensionless: m_l
+- dimensionless: g_J
 name_overrides:
 - energy: Zeeman [splitting]
-- dimensionless: Landé g-factor
-- torque: Bohr magneton
+- torque: Bohr [magneton]
 - magnetic_flux_density: Magnetic [field]
 - dimensionless: Magnetic quantum [number]
+- dimensionless: Landé g-factor

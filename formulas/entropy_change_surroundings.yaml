@@ -2,12 +2,12 @@ name: Entropy change of surroundings
 id: entropy_change_surroundings
 topic: entropy
 difficulty: 2
-equation: entropy eq neg (energy frac temperature )
+equation: (entropy) eq neg(((heat) div (temperature)))
 symbol_overrides:
-- entropy: \Delta S_{surr}
-- energy: q_{sys}
-- temperature: T
+- entropy: ΔS_surr
+- heat: ''
+- temperature: ''
 name_overrides:
 - entropy: Change in [entropy] of surroundings
-- energy: System heat input
-- temperature: Temperature
+- heat: ''
+- temperature: ''

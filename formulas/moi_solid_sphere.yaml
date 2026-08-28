@@ -2,7 +2,7 @@ name: Moment of inertia of a solid sphere
 id: moi_solid_sphere
 topic: moment_of_inertia
 difficulty: 2
-equation: moment_of_inertia eq 2 mul (mass mul length pow 2 ) frac 5
+equation: (moment_of_inertia) eq ((((mass) mul (length pow 2)) mul 2) div 5)
 symbol_overrides:
 - moment_of_inertia: ''
 - mass: ''

@@ -2,15 +2,18 @@ name: Stefan-Boltzmann law
 id: stefan_boltzmann_law
 topic: heat_transfer
 difficulty: 3
-description: "Valid for an ideal blackbody (perfect emitter and absorber)."
-equation: (power) eq ((dimensionless) mul stefan_boltzmann_constant mul (area) mul ((temperature) pow 4))
+equation: (power) eq ((area) mul (((temperature) mul (temperature)) mul ((temperature) mul (temperature))))
 symbol_overrides:
-- power: P
-- dimensionless: \varepsilon
-- area: A
-- temperature: T
+- power: ''
+- area: ''
+- temperature: ''
+- temperature: ''
+- temperature: ''
+- temperature: ''
 name_overrides:
 - power: Radiated [power]
-- dimensionless: Emissivity
 - area: Surface [area]
 - temperature: '[Temperature]'
+- temperature: ''
+- temperature: ''
+- temperature: ''

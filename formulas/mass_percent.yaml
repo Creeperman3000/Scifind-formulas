@@ -2,11 +2,11 @@ name: Mass percent
 id: mass_percent
 topic: solutions
 difficulty: 1
-equation: dimensionless eq 100 mul (mass frac mass )
+equation: (dimensionless) eq (((mass) div (mass)) mul 100)
 symbol_overrides:
-- dimensionless: \%
-- mass: m_{\mathrm{solute}}
-- mass: m_{\mathrm{solution}}
+- dimensionless: '%'
+- mass: m_solute
+- mass: m_solution
 name_overrides:
 - dimensionless: Mass percent
 - mass: Mass of solute

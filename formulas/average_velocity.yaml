@@ -2,12 +2,12 @@ name: Average velocity
 id: average_velocity
 topic: constant_acceleration
 difficulty: 1
-equation: velocity eq length frac time
+equation: (velocity) eq ((displacement) div (time))
 symbol_overrides:
-- velocity: v_{\mathrm{avg}}
-- length: ''
+- velocity: v_avg
+- displacement: ''
 - time: ''
 name_overrides:
 - velocity: Average [velocity]
-- length: ''
+- displacement: ''
 - time: ''

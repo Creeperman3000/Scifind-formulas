@@ -2,12 +2,12 @@ name: Linear thermal expansion
 id: linear_thermal_expansion
 topic: temperature
 difficulty: 2
-equation: (length) eq ((coefficient_of_linear_expansion) mul (length) mul (temperature))
+equation: (length) eq (((coefficient_of_linear_expansion) mul (length)) mul Delta((temperature)))
 symbol_overrides:
-- length: \Delta L
-- coefficient_of_linear_expansion: \alpha
+- length: ΔL
+- coefficient_of_linear_expansion: α
 - length: L_0
-- temperature: \Delta T
+- temperature: ΔT
 name_overrides:
 - length: Change in [length]
 - coefficient_of_linear_expansion: Coefficient of linear [expansion]

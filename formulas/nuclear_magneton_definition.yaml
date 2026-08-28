@@ -2,10 +2,9 @@ name: Nuclear magneton
 id: nuclear_magneton_definition
 topic: nuclear_physics
 difficulty: 4
-equation: torque eq elementary_charge mul (planck_constant frac (2 mul
-  pi ) ) frac (2 mul mass )
+equation: (torque) eq (((elementary_charge) mul ((planck_constant) div ((pi) mul 2))) div ((mass) mul 2))
 symbol_overrides:
-- torque: "\\mu_{\\text{N}}"
+- torque: μ_N
 - mass: m_p
 name_overrides:
 - torque: Nuclear [magneton]

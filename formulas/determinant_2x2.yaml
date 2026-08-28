@@ -4,7 +4,7 @@ topic: linear_algebra
 difficulty: 2
 equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) sub ((dimensionless) mul (dimensionless)))
 symbol_overrides:
-- dimensionless: \det(A)
+- dimensionless: det(A)
 - dimensionless: a
 - dimensionless: d
 - dimensionless: b

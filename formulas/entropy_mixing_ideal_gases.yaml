@@ -2,13 +2,14 @@ name: Entropy of mixing ideal gases
 id: entropy_mixing_ideal_gases
 topic: entropy
 difficulty: 4
-description: "Valid for ideal gases mixing at constant temperature and pressure; ΔS_mix = −nR Σ x_i ln x_i."
-equation: entropy eq sum neg (amount mul gas_constant mul ln dimensionless )
+equation: entropy eq sum skip skip neg (amount mul gas_constant mul ln dimensionless )
 symbol_overrides:
-- entropy: "\\Delta S_{\\text{mix}}"
+- entropy: ΔS_mix
 - amount: ''
+- gas_constant: ''
 - dimensionless: x_i
 name_overrides:
 - entropy: Entropy of mixing
 - amount: ''
+- gas_constant: ''
 - dimensionless: Mole fraction of component i

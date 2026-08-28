@@ -2,13 +2,12 @@ name: Electric potential in uniform field
 id: electric_potential_uniform_field
 topic: electric_potential
 difficulty: 2
-description: "Valid for a uniform electric field; V = −E·r + constant."
-equation: (electric_potential) eq (neg ((electric_field_strength) mul (length)))
+equation: (electric_potential) eq ((electric_field_strength) mul (length))
 symbol_overrides:
-- electric_potential: \Delta V
-- electric_field_strength: \mathbf{E}
+- electric_potential: ''
+- electric_field_strength: ''
 - length: d
 name_overrides:
 - electric_potential: Potential difference
-- electric_field_strength: Electric field
-- length: Displacement
+- electric_field_strength: ''
+- length: Distance

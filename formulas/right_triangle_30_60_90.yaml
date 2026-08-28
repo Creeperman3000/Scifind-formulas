@@ -2,12 +2,12 @@ name: 30-60-90 special right triangle
 id: right_triangle_30_60_90
 topic: right_triangles
 difficulty: 1
-equation: length eq length mul dimensionless
+equation: (length) eq ((length) mul (dimensionless))
 symbol_overrides:
-- length: l
-- length: s
-- dimensionless: "\\sqrt{3}"
+- length: long_leg
+- length: short_leg
+- dimensionless: √3
 name_overrides:
-- length: Long leg (opposite 60°)
-- length: Short leg (opposite 30°)
+- length: Long leg
+- length: Short leg
 - dimensionless: ''

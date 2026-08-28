@@ -1,0 +1,13 @@
+name: Mass from moles
+id: mass_from_moles
+topic: mole_concept
+difficulty: 1
+equation: (mass) eq ((amount) mul (molar_mass))
+name_overrides:
+- mass: '[Mass]'
+- amount: Amount of substance (moles)
+- molar_mass: Molar [mass]
+symbol_overrides:
+- mass: ''
+- amount: ''
+- molar_mass: ''

@@ -2,10 +2,10 @@ name: Permittivity relation
 id: permittivity_relation
 topic: electrostatics
 difficulty: 2
-equation: permittivity eq permittivity mul vacuum_permittivity
+equation: (permittivity) eq ((permittivity) mul (vacuum_permittivity))
 symbol_overrides:
-- permittivity: "\\epsilon"
-- permittivity: "\\epsilon_{\\text{r}}"
+- permittivity: ε
+- permittivity: ε_r
 name_overrides:
 - permittivity: '[Permittivity]'
 - permittivity: Relative [permittivity]

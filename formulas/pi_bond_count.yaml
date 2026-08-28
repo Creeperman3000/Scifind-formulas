@@ -2,12 +2,12 @@ name: Pi bond count in multiple bonds
 id: pi_bond_count
 topic: chemical_bonding
 difficulty: 2
-equation: dimensionless eq dimensionless sub dimensionless
+equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
 symbol_overrides:
-- dimensionless: "\\pi"
-- dimensionless: BO
-- dimensionless: N_{\sigma}
+- dimensionless: π
+- dimensionless: Bond_order
+- dimensionless: σ_bonds
 name_overrides:
 - dimensionless: Pi bond count
 - dimensionless: Bond order
-- dimensionless: Number of sigma bonds
+- dimensionless: Sigma bond count

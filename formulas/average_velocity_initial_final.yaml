@@ -2,9 +2,9 @@ name: Average velocity from initial and final
 id: average_velocity_initial_final
 topic: constant_acceleration
 difficulty: 1
-equation: velocity eq (velocity add velocity ) frac 2
+equation: (velocity) eq (((velocity) add (velocity)) div 2)
 symbol_overrides:
-- velocity: v_{\mathrm{avg}}
+- velocity: v_avg
 - velocity: u
 - velocity: ''
 name_overrides:

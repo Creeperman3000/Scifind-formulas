@@ -2,14 +2,12 @@ name: Catalytic efficiency
 id: catalytic_efficiency
 topic: biochemistry
 difficulty: 3
-equation: (frequency) eq ((catalytic_activity) frac (concentration mul concentration))
+equation: (frequency) eq ((catalytic_activity) div (concentration))
 symbol_overrides:
-- frequency: k_{cat}/K_m
-- catalytic_activity: V_{max}
+- frequency: k_cat/K_m
+- catalytic_activity: V_max
 - concentration: K_m
-- concentration: '[E]_{total}'
 name_overrides:
-- frequency: Catalytic efficiency
-- catalytic_activity: Maximum velocity
-- concentration: Michaelis constant
-- concentration: Total enzyme concentration
+- frequency: ''
+- catalytic_activity: ''
+- concentration: ''

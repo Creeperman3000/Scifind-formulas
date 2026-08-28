@@ -2,14 +2,13 @@ name: Fractional exponent rule
 id: fractional_exponent_rule
 topic: exponents
 difficulty: 2
-equation: dimensionless eq (dimensionless pow dimensionless ) root dimensionless
+equation: dimensionless eq sqrt (dimensionless pow dimensionless) dimensionless
 symbol_overrides:
-- dimensionless: a^{m/n}
+- dimensionless: a^(m/n)
 - dimensionless: a
 - dimensionless: m
 - dimensionless: n
 name_overrides:
 - dimensionless: Fractional exponent
-- dimensionless: a
-- dimensionless: m
+- dimensionless: a raised to m
 - dimensionless: Root index

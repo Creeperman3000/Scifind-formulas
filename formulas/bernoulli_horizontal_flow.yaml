@@ -2,15 +2,13 @@ name: Bernoulli's equation for horizontal flow
 id: bernoulli_horizontal_flow
 topic: bernoulli_equation
 difficulty: 2
-description: "Special case of Bernoulli's equation at constant height; valid for steady, incompressible, inviscid flow."
-equation: pressure add density mul velocity pow 2 frac 2 eq pressure
-  add density mul velocity pow 2 frac 2
+equation: ((pressure) add (((density) mul (velocity pow 2)) div 2)) eq ((pressure) add (((density) mul (velocity pow 2)) div 2))
 symbol_overrides:
 - pressure: P_1
-- density: "\\rho"
+- density: ρ
 - velocity: v_1
 - pressure: P_2
-- density: "\\rho"
+- density: ρ
 - velocity: v_2
 name_overrides:
 - pressure: Pressure at point 1

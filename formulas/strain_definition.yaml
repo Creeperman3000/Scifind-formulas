@@ -2,11 +2,11 @@ name: Engineering strain
 id: strain_definition
 topic: forces
 difficulty: 1
-equation: dimensionless eq length frac length
+equation: (dimensionless) eq ((length) div (length))
 symbol_overrides:
-- dimensionless: "\\epsilon"
-- length: "\\Delta L"
-- length: "L_0"
+- dimensionless: ε
+- length: ΔL
+- length: L₀
 name_overrides:
 - dimensionless: Strain
 - length: Change in length

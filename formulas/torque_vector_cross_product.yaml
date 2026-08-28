@@ -2,9 +2,9 @@ name: Torque from cross product (vector)
 id: torque_vector_cross_product
 topic: torque
 difficulty: 3
-equation: torque eq length times force
+equation: (torque) eq ((length) times (force))
 symbol_overrides:
-- torque: "\\tau"
+- torque: τ
 - length: r
 - force: ''
 name_overrides:

@@ -2,7 +2,7 @@ name: Volume of a cylinder
 id: volume_cylinder
 topic: plane_geometry
 difficulty: 1
-equation: volume eq pi mul length pow 2 mul length
+equation: (volume) eq (((pi) mul (length pow 2)) mul (length))
 symbol_overrides:
 - volume: ''
 - length: r

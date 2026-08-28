@@ -2,7 +2,7 @@ name: Standard form of a circle
 id: circle_standard_form
 topic: circles
 difficulty: 1
-equation: ((((length sub length) pow 2) add ((length sub length) pow 2)) eq ((length) pow 2))
+equation: (length) (length) sub pow 2 (length) (length) sub pow 2 add eq (length pow 2)
 symbol_overrides:
 - length: x
 - length: h

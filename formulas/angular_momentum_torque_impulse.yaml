@@ -2,11 +2,11 @@ name: Angular momentum from torque impulse
 id: angular_momentum_torque_impulse
 topic: angular_momentum
 difficulty: 2
-equation: angular_momentum eq torque mul time
+equation: Delta((angular_momentum)) eq ((torque) mul (time))
 symbol_overrides:
-- angular_momentum: "\\Delta L"
-- torque: "\\tau"
-- time: "\\Delta t"
+- angular_momentum: ΔL
+- torque: τ
+- time: Δt
 name_overrides:
 - angular_momentum: Change in [angular momentum]
 - torque: '[Torque]'

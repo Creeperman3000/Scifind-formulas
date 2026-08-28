@@ -2,11 +2,11 @@ name: Rotational work-energy theorem
 id: rotational_energy_from_work
 topic: rotational_energy
 difficulty: 2
-equation: energy eq torque mul angle
+equation: (energy) eq ((torque) mul (angle))
 symbol_overrides:
 - energy: W
-- torque: "\\tau"
-- angle: "\\theta"
+- torque: τ
+- angle: θ
 name_overrides:
 - energy: Rotational [work]
 - torque: '[Torque]'

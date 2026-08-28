@@ -2,7 +2,7 @@ name: Horizontal line
 id: horizontal_line_equation
 topic: equations
 difficulty: 1
-equation: dimensionless eq dimensionless
+equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
 - dimensionless: y
 - dimensionless: b

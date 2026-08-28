@@ -2,12 +2,12 @@ name: Clausius inequality
 id: clausius_inequality
 topic: second_law
 difficulty: 4
-equation: (entropy) geq ((energy) frac (temperature))
+equation: (entropy) gt ((heat) div (temperature))
 symbol_overrides:
 - entropy: dS
-- energy: \delta Q
-- temperature: T
+- heat: ''
+- temperature: ''
 name_overrides:
 - entropy: Change in [entropy]
-- energy: Inexact heat differential
-- temperature: '[Temperature]'
+- heat: ''
+- temperature: ''

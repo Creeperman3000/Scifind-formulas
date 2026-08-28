@@ -2,7 +2,7 @@ name: Surface area of a sphere
 id: surface_area_sphere
 topic: plane_geometry
 difficulty: 1
-equation: area eq 4 mul pi mul length pow 2
+equation: (area) eq (((pi) mul 4) mul (length pow 2))
 symbol_overrides:
 - area: ''
 - length: r

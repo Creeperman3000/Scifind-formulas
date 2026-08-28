@@ -2,11 +2,11 @@ name: Length contraction
 id: length_contraction
 topic: relativity
 difficulty: 3
-equation: length eq length frac lorentz_factor
+equation: (length) eq ((length) div (lorentz_factor))
 symbol_overrides:
 - length: L
 - length: L_0
-- lorentz_factor: "\\gamma"
+- lorentz_factor: γ
 name_overrides:
 - length: Contracted [length]
 - length: Proper [length]

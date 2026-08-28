@@ -2,12 +2,12 @@ name: Carnot efficiency
 id: carnot_efficiency
 topic: heat_engines
 difficulty: 3
-equation: dimensionless eq 1 sub temperature frac temperature
+equation: (heat_engine_efficiency) eq (((temperature) div (temperature)) sub 1)
 symbol_overrides:
-- dimensionless: "\\eta"
+- heat_engine_efficiency: η
 - temperature: T_C
 - temperature: T_H
 name_overrides:
-- dimensionless: Carnot [efficiency]
+- heat_engine_efficiency: Carnot [efficiency]
 - temperature: Cold reservoir [temperature]
 - temperature: Hot reservoir [temperature]

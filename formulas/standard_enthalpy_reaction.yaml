@@ -2,11 +2,11 @@ name: Standard enthalpy of reaction
 id: standard_enthalpy_reaction
 topic: thermochemistry
 difficulty: 3
-equation: energy eq energy sub energy
+equation: (energy) eq ((energy) sub (energy))
 symbol_overrides:
-- energy: "\\Delta H^{\\circ}"
-- energy: "\\Sigma\\Delta H_{\\text{f}}^{\\circ}(\\text{products})"
-- energy: "\\Sigma\\Delta H_{\\text{f}}^{\\circ}(\\text{reactants})"
+- energy: ΔH°
+- energy: ΣΔH_f°(products)
+- energy: ΣΔH_f°(reactants)
 name_overrides:
 - energy: Standard enthalpy of [reaction]
 - energy: Sum of enthalpies of [formation] of products

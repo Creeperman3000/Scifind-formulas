@@ -2,12 +2,12 @@ name: Variance shortcut formula
 id: variance_shortcut
 topic: statistics
 difficulty: 2
-equation: dimensionless eq dimensionless sub dimensionless pow 2
+equation: (dimensionless) eq (((dimensionless) pow (dimensionless)) sub 2)
 symbol_overrides:
 - dimensionless: Var(X)
-- dimensionless: "E(X^2)"
+- dimensionless: E(X²)
 - dimensionless: E(X)
 name_overrides:
 - dimensionless: Variance
 - dimensionless: Expected value of squares
-- dimensionless: Expected value
+- dimensionless: Square of expected value

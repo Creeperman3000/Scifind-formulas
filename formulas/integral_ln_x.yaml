@@ -2,9 +2,9 @@ name: Integral of Natural Log
 id: integral_ln_x
 topic: integrals
 difficulty: 3
-equation: dimensionless eq dimensionless mul ln dimensionless sub dimensionless
+equation: (dimensionless) eq (((dimensionless) mul (ln (dimensionless))) sub (dimensionless))
 symbol_overrides:
-- dimensionless: "\\int\\ln x\\,\\mathrm{d}x"
+- dimensionless: ∫ln x dx
 - dimensionless: x
 - dimensionless: x
 - dimensionless: x

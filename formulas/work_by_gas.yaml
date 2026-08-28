@@ -2,13 +2,12 @@ name: Work done by a gas
 id: work_by_gas
 topic: first_law
 difficulty: 2
-description: "Valid for constant external pressure (isobaric process); the general work is W = ∫P dV."
-equation: (energy) eq ((pressure) mul (volume))
+equation: (work) eq ((pressure) mul Delta((volume)))
 name_overrides:
-- energy: '[Work]'
-- pressure: Constant [pressure]
-- volume: '[Volume] change'
+- work: '[Work]'
+- pressure: '[Pressure]'
+- volume: '[Volume]'
 symbol_overrides:
-- energy: W
-- pressure: P
-- volume: \Delta V
+- work: ''
+- pressure: ''
+- volume: ''

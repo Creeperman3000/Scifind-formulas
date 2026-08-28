@@ -2,7 +2,7 @@ name: Power from force and velocity
 id: power_force_velocity
 topic: power
 difficulty: 2
-equation: power eq force mul velocity
+equation: (power) eq ((force) mul (velocity))
 symbol_overrides:
 - power: ''
 - force: ''

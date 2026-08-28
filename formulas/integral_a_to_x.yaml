@@ -2,10 +2,9 @@ name: Integral of a^x
 id: integral_a_to_x
 topic: integrals
 difficulty: 3
-equation: dimensionless eq dimensionless pow dimensionless frac ln
-  dimensionless
+equation: (dimensionless) eq (((dimensionless) pow (dimensionless)) div (ln (dimensionless)))
 symbol_overrides:
-- dimensionless: "\\int a^x\\,\\mathrm{d}x"
+- dimensionless: ∫a^x dx
 - dimensionless: a
 - dimensionless: x
 - dimensionless: a

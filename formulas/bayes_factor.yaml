@@ -2,12 +2,12 @@ name: Bayes factor
 id: bayes_factor
 topic: probability
 difficulty: 3
-equation: dimensionless eq dimensionless frac dimensionless
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
 symbol_overrides:
 - dimensionless: BF
-- dimensionless: P(D|H_1)
-- dimensionless: P(D|H_2)
+- dimensionless: P(D|H₁)
+- dimensionless: P(D|H₂)
 name_overrides:
-- dimensionless: Bayes [factor]
-- dimensionless: Likelihood under H_1
-- dimensionless: Likelihood under H_2
+- dimensionless: Bayes factor
+- dimensionless: Likelihood under H₁
+- dimensionless: Likelihood under H₂

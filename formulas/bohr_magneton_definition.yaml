@@ -2,10 +2,9 @@ name: Bohr magneton
 id: bohr_magneton_definition
 topic: atomic_physics
 difficulty: 4
-equation: torque eq elementary_charge mul (planck_constant frac (2 mul
-  pi ) ) frac (2 mul mass )
+equation: (torque) eq (((elementary_charge) mul ((planck_constant) div ((pi) mul 2))) div ((mass) mul 2))
 symbol_overrides:
-- torque: "\\mu_{\\text{B}}"
+- torque: μ_B
 - mass: m_e
 name_overrides:
 - torque: Bohr [magneton]

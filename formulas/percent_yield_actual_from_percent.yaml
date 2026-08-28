@@ -1,13 +1,12 @@
-name: Actual yield
+name: Actual yield from percent yield and theoretical yield
 id: percent_yield_actual_from_percent
 topic: percent_yield
 difficulty: 1
-description: "actual = (%/100) × theoretical."
-equation: dimensionless eq dimensionless mul dimensionless frac 100
+equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) div 100)
 symbol_overrides:
-- dimensionless: m_{\mathrm{actual}}
-- dimensionless: "\\%"
-- dimensionless: m_{\mathrm{theoretical}}
+- dimensionless: actual
+- dimensionless: '%'
+- dimensionless: theoretical
 name_overrides:
 - dimensionless: Actual yield
 - dimensionless: Percent yield

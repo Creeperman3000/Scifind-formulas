@@ -2,10 +2,9 @@ name: Sum of cubes
 id: sum_of_cubes
 topic: polynomials
 difficulty: 2
-equation: dimensionless eq (dimensionless add dimensionless ) mul (dimensionless
-  pow 2 sub dimensionless mul dimensionless add dimensionless pow 2 )
+equation: (dimensionless) eq (((dimensionless) add (dimensionless)) mul (((dimensionless pow 2) sub ((dimensionless) mul (dimensionless))) add (dimensionless pow 2)))
 symbol_overrides:
-- dimensionless: "a^3 + b^3"
+- dimensionless: a³ + b³
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
@@ -17,6 +16,6 @@ name_overrides:
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: a
+- dimensionless: b
+- dimensionless: b

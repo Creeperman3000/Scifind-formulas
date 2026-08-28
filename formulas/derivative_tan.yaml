@@ -2,11 +2,12 @@ name: Derivative of tangent
 id: derivative_tan
 topic: derivatives
 difficulty: 2
-equation: (rmd (tan angle)) frac (rmd angle) eq 1 frac cos angle pow 2
+equation: ((dimensionless) mul (rmd (tan (angle)))) eq ((1 div ((cos (angle)) pow 2)))
 symbol_overrides:
-- angle: x
+- dimensionless: d/dx
 - angle: x
 - angle: x
 name_overrides:
+- dimensionless: Derivative
 - angle: '[Variable]'
 - angle: '[Variable]'

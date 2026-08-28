@@ -1,0 +1,11 @@
+name: Concave mirror focal length
+id: concave_mirror_focal_length
+topic: reflection
+difficulty: 3
+equation: (length) eq ((length) div 2)
+symbol_overrides:
+- length: f
+- length: R
+name_overrides:
+- length: Focal [length]
+- length: Radius of curvature

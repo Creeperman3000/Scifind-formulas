@@ -2,21 +2,20 @@ name: Amplitude modulation wave
 id: amplitude_modulation_wave_equation
 topic: electromagnetic_waves
 difficulty: 4
-equation: dimensionless eq dimensionless mul (1 add dimensionless mul cos
-  (2 mul pi mul frequency mul time ) ) mul cos (2 mul pi mul frequency mul time )
+equation: (dimensionless) eq (((dimensionless) mul (cos (((frequency) mul (time)) mul 2 mul pi))) mul ((dimensionless) add (cos (((dimensionless) mul (time)) mul 2 mul pi))))
 symbol_overrides:
 - dimensionless: y(t)
 - dimensionless: A_c
-- dimensionless: m
-- frequency: f_m
-- time: t
 - frequency: f_c
-- time: t
+- time: ''
+- dimensionless: m
+- dimensionless: f_m
+- time: ''
 name_overrides:
 - dimensionless: Modulated signal
 - dimensionless: Carrier amplitude
-- dimensionless: Modulation index
-- frequency: Modulating frequency
-- time: ''
 - frequency: Carrier frequency
+- time: ''
+- dimensionless: Modulation index
+- dimensionless: Modulating frequency
 - time: ''

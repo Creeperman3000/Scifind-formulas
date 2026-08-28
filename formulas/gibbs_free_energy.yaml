@@ -2,12 +2,12 @@ name: Gibbs free energy
 id: gibbs_free_energy
 topic: thermochemistry
 difficulty: 3
-equation: energy eq energy sub temperature mul entropy
+equation: (energy) eq ((energy) sub ((temperature) mul (entropy)))
 symbol_overrides:
-- energy: "\\Delta G"
-- energy: "\\Delta H"
+- energy: ΔG
+- energy: ΔH
 - temperature: ''
-- entropy: "\\Delta S"
+- entropy: ΔS
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Enthalpy change

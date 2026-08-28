@@ -2,10 +2,10 @@ name: Linear velocity from angular velocity
 id: circular_motion_angular_to_linear_velocity
 topic: circular_motion
 difficulty: 1
-equation: velocity eq angular_velocity mul length
+equation: (velocity) eq ((angular_velocity) mul (length))
 symbol_overrides:
 - velocity: ''
-- angular_velocity: "\\omega"
+- angular_velocity: ω
 - length: r
 name_overrides:
 - velocity: Linear [velocity]

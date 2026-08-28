@@ -2,10 +2,10 @@ name: Sine squared identity
 id: trigonometric_sine_squared_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: sin angle pow 2 eq (1 sub cos (2 mul angle ) ) frac 2
+equation: sin(((angle) pow 2)) eq ((1 sub cos(((angle) mul 2))) div 2)
 symbol_overrides:
-- angle: "\\theta"
-- angle: "\\theta"
+- angle: ''
+- angle: ''
 name_overrides:
-- angle: Angle θ
-- angle: Double angle
+- angle: ''
+- angle: ''

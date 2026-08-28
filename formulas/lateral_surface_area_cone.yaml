@@ -2,12 +2,12 @@ name: Lateral surface area of a cone
 id: lateral_surface_area_cone
 topic: plane_geometry
 difficulty: 2
-equation: area eq length mul length mul length
+equation: (area) eq ((length) mul ((length) mul (length)))
 symbol_overrides:
 - area: LA
-- length: "\\pi"
+- length: π
 - length: r
-- length: l
+- length: ''
 name_overrides:
 - area: Lateral surface [area]
 - length: '[Pi]'

@@ -2,19 +2,20 @@ name: Projectile trajectory equation
 id: trajectory_equation_projectile
 topic: projectile_motion
 difficulty: 3
-equation: length eq length mul tan angle sub standard_gravity mul
-  length pow 2 frac (2 mul velocity pow 2 mul cos angle pow 2 )
+equation: (displacement) eq (((displacement) mul (tan (angle))) sub (((acceleration) mul (displacement pow 2)) div (((2 mul (velocity)) pow (cos (angle))) mul 2)))
 symbol_overrides:
-- length: y
-- length: x
-- angle: "\\theta"
-- length: x
+- displacement: y
+- displacement: ''
+- angle: θ
+- acceleration: g
+- displacement: ''
 - velocity: v_0
-- angle: "\\theta"
+- angle: ''
 name_overrides:
-- length: Vertical [displacement]
-- length: Horizontal [displacement]
+- displacement: Vertical [displacement]
+- displacement: Horizontal [displacement]
 - angle: Launch angle
-- length: Horizontal [displacement]
+- acceleration: ''
+- displacement: Horizontal [displacement]
 - velocity: Initial [velocity]
 - angle: ''

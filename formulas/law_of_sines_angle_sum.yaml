@@ -2,14 +2,18 @@ name: Law of sines side ratio
 id: law_of_sines_angle_sum
 topic: laws_of_sines_and_cosines
 difficulty: 1
-equation: length frac sin angle eq length frac sin angle
+equation: ((length) div (sin (angle))) eq ((length) div (sin (angle))) eq ((length) div (sin (angle)))
 symbol_overrides:
 - length: a
 - angle: A
 - length: b
 - angle: B
+- length: c
+- angle: C
 name_overrides:
 - length: Side a
 - angle: Angle A
 - length: Side b
 - angle: Angle B
+- length: Side c
+- angle: Angle C

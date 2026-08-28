@@ -2,11 +2,10 @@ name: nth term of a geometric sequence
 id: geometric_series_nth_term
 topic: arithmetic
 difficulty: 1
-equation: dimensionless eq dimensionless mul dimensionless pow (dimensionless sub
-  1)
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) pow ((dimensionless) sub 1)))
 symbol_overrides:
 - dimensionless: a_n
-- dimensionless: "a_1"
+- dimensionless: a₁
 - dimensionless: r
 - dimensionless: n
 name_overrides:

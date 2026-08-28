@@ -2,14 +2,14 @@ name: Volume of a rectangular prism
 id: volume_rectangular_prism
 topic: plane_geometry
 difficulty: 1
-equation: volume eq length mul length mul length
+equation: (volume) eq ((length) mul ((length) mul (length)))
 symbol_overrides:
 - volume: ''
-- length: l
 - length: w
 - length: h
+- length: d
 name_overrides:
 - volume: ''
-- length: Length
 - length: Width
 - length: Height
+- length: Depth

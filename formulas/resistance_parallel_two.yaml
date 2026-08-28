@@ -2,16 +2,16 @@ name: Two resistors in parallel
 id: resistance_parallel_two
 topic: circuits
 difficulty: 2
-equation: resistance eq resistance mul resistance frac (resistance add resistance )
+equation: (resistance) eq (((resistance) mul (resistance)) div ((resistance) add (resistance)))
 symbol_overrides:
-- resistance: R_{\mathrm{eq}}
-- resistance: R_1
-- resistance: R_2
-- resistance: R_1
-- resistance: R_2
+- resistance: R_eq
+- resistance: R₁
+- resistance: R₂
+- resistance: ''
+- resistance: ''
 name_overrides:
 - resistance: Equivalent [resistance]
 - resistance: '[Resistance] 1'
 - resistance: '[Resistance] 2'
-- resistance: '[Resistance] 1'
-- resistance: '[Resistance] 2'
+- resistance: ''
+- resistance: ''

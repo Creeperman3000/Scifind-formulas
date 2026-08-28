@@ -2,9 +2,9 @@ name: Boiling point elevation
 id: boiling_point_elevation
 topic: solutions
 difficulty: 2
-equation: temperature eq dimensionless mul (dimensionless mul concentration )
+equation: (temperature) eq ((dimensionless) mul ((dimensionless) mul (concentration)))
 symbol_overrides:
-- temperature: "\\Delta T_{\\text{b}}"
+- temperature: ΔT_b
 - dimensionless: i
 - dimensionless: K_b
 - concentration: m

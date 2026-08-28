@@ -2,9 +2,9 @@ name: Angular frequency
 id: angular_frequency
 topic: harmonic_motion
 difficulty: 2
-equation: angular_velocity eq 2 mul pi mul frequency
+equation: (angular_velocity) eq (((pi) mul 2) mul (frequency))
 symbol_overrides:
-- angular_velocity: "\\omega"
+- angular_velocity: ω
 - frequency: ''
 name_overrides:
 - angular_velocity: Angular frequency

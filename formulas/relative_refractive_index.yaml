@@ -2,7 +2,7 @@ name: Relative refractive index
 id: relative_refractive_index
 topic: refraction
 difficulty: 2
-equation: refractive_index eq refractive_index frac refractive_index
+equation: (refractive_index) eq ((refractive_index) div (refractive_index))
 symbol_overrides:
 - refractive_index: n_{21}
 - refractive_index: n_2

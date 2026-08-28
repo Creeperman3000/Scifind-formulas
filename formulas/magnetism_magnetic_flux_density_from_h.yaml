@@ -1,12 +1,11 @@
-name: Magnetic flux density (linear medium)
+name: Magnetic flux density from magnetic field intensity
 id: magnetism_magnetic_flux_density_from_h
 topic: magnetism
 difficulty: 2
-description: "Linear magnetic medium (no hysteresis); B = μ H = μ₀ μ_r H."
-equation: magnetic_flux_density eq permeability mul magnetic_field_strength
+equation: (magnetic_flux_density) eq ((permeability) mul (magnetic_field_strength))
 symbol_overrides:
 - magnetic_flux_density: ''
-- permeability: "\\mu"
+- permeability: μ
 - magnetic_field_strength: ''
 name_overrides:
 - magnetic_flux_density: Magnetic flux [density]

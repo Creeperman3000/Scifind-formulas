@@ -2,14 +2,12 @@ name: Series combination of inductors
 id: inductance_series
 topic: electromagnetic_induction
 difficulty: 2
-equation: inductance eq inductance add (inductance add inductance )
+equation: (inductance) eq ((inductance) add (inductance))
 symbol_overrides:
-- inductance: L_{\mathrm{eq}}
-- inductance: L_1
-- inductance: L_2
-- inductance: L_3
+- inductance: L_eq
+- inductance: L₁
+- inductance: L₂
 name_overrides:
 - inductance: Equivalent [inductance]
 - inductance: '[Inductance] 1'
 - inductance: '[Inductance] 2'
-- inductance: '[Inductance] 3'

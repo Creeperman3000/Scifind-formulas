@@ -2,10 +2,10 @@ name: EM wave frequency from wavelength
 id: em_wave_frequency_wavelength
 topic: electromagnetic_waves
 difficulty: 1
-equation: frequency eq speed_of_light frac length
+equation: (frequency) eq ((speed_of_light) div (length))
 symbol_overrides:
 - frequency: ''
-- length: "\\lambda"
+- length: λ
 name_overrides:
 - frequency: Wave [frequency]
 - length: Wavelength

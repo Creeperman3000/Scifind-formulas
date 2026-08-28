@@ -2,10 +2,9 @@ name: RMS current from peak current
 id: rms_current
 topic: circuits
 difficulty: 1
-description: "Root-mean-square current for a sinusoidal waveform; I_rms = I_peak / √2."
-equation: current eq current frac sqrt 2
+equation: (current) eq ((current) div (sqrt  2 2))
 symbol_overrides:
-- current: I_{\mathrm{rms}}
+- current: I_rms
 - current: I_0
 name_overrides:
 - current: RMS [current]

@@ -2,7 +2,7 @@ name: Moment of inertia of a thin hoop
 id: moi_thin_hoop
 topic: moment_of_inertia
 difficulty: 2
-equation: moment_of_inertia eq mass mul length pow 2
+equation: (moment_of_inertia) eq ((mass) mul (length pow 2))
 symbol_overrides:
 - moment_of_inertia: ''
 - mass: M

@@ -2,13 +2,13 @@ name: Density from buoyant force measurement
 id: buoyant_density_relation
 topic: buoyancy
 difficulty: 3
-equation: density eq density mul (force frac (force sub force ) )
+equation: (density) eq ((density) mul ((force) div ((force) sub (force))))
 symbol_overrides:
-- density: \rho_{\text{object}}
-- density: \rho_{\text{fluid}}
+- density: ρ_object
+- density: ρ_fluid
 - force: W
 - force: W
-- force: W_{\mathrm{apparent}}
+- force: W_apparent
 name_overrides:
 - density: Object [density]
 - density: Fluid [density]

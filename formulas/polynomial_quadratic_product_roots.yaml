@@ -2,9 +2,9 @@ name: Product of roots of a quadratic
 id: polynomial_quadratic_product_roots
 topic: polynomials
 difficulty: 2
-equation: dimensionless eq dimensionless frac dimensionless
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
 symbol_overrides:
-- dimensionless: "\\alpha\\beta"
+- dimensionless: αβ
 - dimensionless: c
 - dimensionless: a
 name_overrides:

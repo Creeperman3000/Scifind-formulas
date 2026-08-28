@@ -2,12 +2,12 @@ name: Hooke's law
 id: hookes_law
 topic: springs
 difficulty: 1
-equation: force eq neg (spring_constant mul length)
+equation: (force) eq ((spring_constant) mul (displacement))
 symbol_overrides:
-- force: F
-- spring_constant: k
-- length: x
+- force: ''
+- spring_constant: ''
+- displacement: ''
 name_overrides:
 - force: Spring [force]
 - spring_constant: ''
-- length: Displacement
+- displacement: Extension

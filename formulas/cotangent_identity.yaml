@@ -2,11 +2,11 @@ name: Cotangent identity
 id: cotangent_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: dimensionless eq cos angle frac sin angle
+equation: (dimensionless) eq ((cos (angle)) div (sin (angle)))
 symbol_overrides:
-- dimensionless: "\\cot(\\theta)"
-- angle: "\\theta"
-- angle: "\\theta"
+- dimensionless: cot(θ)
+- angle: θ
+- angle: θ
 name_overrides:
 - dimensionless: ''
 - angle: ''

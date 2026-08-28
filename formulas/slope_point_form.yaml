@@ -2,12 +2,12 @@ name: Point-slope form of a line
 id: slope_point_form
 topic: coordinate_geometry
 difficulty: 1
-equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless )
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) sub (dimensionless)))
 symbol_overrides:
-- dimensionless: "y - y_1"
+- dimensionless: y - y₁
 - dimensionless: m
 - dimensionless: x
-- dimensionless: "x_1"
+- dimensionless: x₁
 name_overrides:
 - dimensionless: Difference in y
 - dimensionless: Slope

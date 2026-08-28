@@ -2,7 +2,7 @@ name: Area of a spherical zone
 id: spherical_zone_area
 topic: plane_geometry
 difficulty: 3
-equation: area eq 2 mul pi mul length mul length
+equation: (area) eq ((((pi) mul 2) mul (length)) mul (length))
 symbol_overrides:
 - area: ''
 - length: R

@@ -2,12 +2,12 @@ name: F-statistic for regression
 id: f_statistic_regression
 topic: statistics
 difficulty: 4
-equation: dimensionless eq dimensionless frac dimensionless frac (dimensionless frac (dimensionless sub dimensionless sub 1) )
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) div ((dimensionless) div (((dimensionless) sub (dimensionless)) sub 1)))
 symbol_overrides:
 - dimensionless: F
-- dimensionless: SS_{\mathrm{reg}}
+- dimensionless: SS_reg
 - dimensionless: p
-- dimensionless: SS_{\mathrm{res}}
+- dimensionless: SS_res
 - dimensionless: n
 - dimensionless: p
 name_overrides:

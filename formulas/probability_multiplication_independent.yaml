@@ -4,7 +4,7 @@ topic: probability
 difficulty: 1
 equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
 symbol_overrides:
-- dimensionless: P(A\cap B)
+- dimensionless: P(A∩B)
 - dimensionless: P(A)
 - dimensionless: P(B)
 name_overrides:

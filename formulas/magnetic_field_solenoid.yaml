@@ -2,12 +2,12 @@ name: Magnetic field inside a solenoid
 id: magnetic_field_solenoid
 topic: magnetism
 difficulty: 3
-equation: magnetic_flux_density eq vacuum_permeability mul dimensionless mul current
+equation: (magnetic_flux_density) eq (((vacuum_permeability) mul (dimensionless)) mul (current))
 symbol_overrides:
 - magnetic_flux_density: ''
 - dimensionless: n
-- current: I
+- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - dimensionless: Turns per unit length
-- current: Current
+- current: '[Current]'

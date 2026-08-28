@@ -2,16 +2,16 @@ name: Michaelis-Menten equation
 id: michaelis_menten
 topic: biochemistry
 difficulty: 4
-equation: catalytic_activity eq catalytic_activity mul concentration frac (concentration add concentration )
+equation: (catalytic_activity) eq (((catalytic_activity) mul (concentration)) div ((concentration) add (concentration)))
 symbol_overrides:
 - catalytic_activity: v
-- catalytic_activity: V_{\mathrm{max}}
+- catalytic_activity: V_max
 - concentration: '[S]'
 - concentration: K_m
-- concentration: '[S]'
+- concentration: ''
 name_overrides:
 - catalytic_activity: Reaction rate
 - catalytic_activity: Maximum rate
 - concentration: Substrate [concentration]
 - concentration: Michaelis constant
-- concentration: Substrate [concentration]
+- concentration: ''

@@ -2,10 +2,10 @@ name: Fringe spacing in double-slit
 id: fringe_spacing_double_slit
 topic: interference
 difficulty: 3
-equation: length eq length mul (length frac length )
+equation: (length) eq ((length) mul ((length) div (length)))
 symbol_overrides:
-- length: "\\Delta y"
-- length: "\\lambda"
+- length: Δy
+- length: λ
 - length: L
 - length: d
 name_overrides:

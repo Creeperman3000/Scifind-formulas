@@ -2,14 +2,14 @@ name: Parallel axis theorem
 id: parallel_axis_theorem
 topic: moment_of_inertia
 difficulty: 3
-equation: (moment_of_inertia) eq ((moment_of_inertia) add ((mass) mul ((length) pow 2)))
+equation: (moment_of_inertia) eq ((moment_of_inertia) add ((mass) mul (length pow 2)))
 symbol_overrides:
-- moment_of_inertia: I
-- moment_of_inertia: I_{cm}
-- mass: m
+- moment_of_inertia: I_cm
+- moment_of_inertia: ''
+- mass: ''
 - length: d
 name_overrides:
-- moment_of_inertia: Moment of inertia about axis
+- moment_of_inertia: Moment of inertia about any axis
 - moment_of_inertia: Moment of inertia about center of mass
-- mass: Mass
+- mass: ''
 - length: Distance between axes

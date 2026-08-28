@@ -2,8 +2,7 @@ name: Rate law
 id: rate_law
 topic: chemical_kinetics
 difficulty: 3
-equation: frequency eq frequency mul concentration pow dimensionless mul concentration
-  pow dimensionless
+equation: (frequency) eq (((frequency) mul ((concentration) pow (dimensionless))) mul ((concentration) pow (dimensionless)))
 symbol_overrides:
 - frequency: rate
 - frequency: k

@@ -2,17 +2,22 @@ name: Sample variance (Bessel's correction)
 id: sample_variance_bessel
 topic: statistics
 difficulty: 2
-equation: dimensionless eq dimensionless frac (dimensionless sub 1)
-  mul sum ((dimensionless sub dimensionless ) pow 2)
+equation: dimensionless eq 1 frac (dimensionless sub 1) mul sum skip skip ((dimensionless sub dimensionless ) pow 2)
 symbol_overrides:
-- dimensionless: s^2
-- dimensionless: '1'
+- dimensionless: s²
+- dimensionless: x₁
+- dimensionless: μ
+- dimensionless: x₂
+- dimensionless: μ
+- dimensionless: x₃
+- dimensionless: μ
 - dimensionless: n
-- dimensionless: x_i
-- dimensionless: \bar{x}
 name_overrides:
 - dimensionless: Sample [variance]
-- dimensionless: '1'
+- dimensionless: Value 1
+- dimensionless: Mean
+- dimensionless: Value 2
+- dimensionless: ''
+- dimensionless: Value 3
+- dimensionless: ''
 - dimensionless: Sample size
-- dimensionless: Value i
-- dimensionless: Sample mean

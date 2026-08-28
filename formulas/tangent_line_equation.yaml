@@ -2,14 +2,13 @@ name: Tangent line equation
 id: tangent_line_equation
 topic: derivatives
 difficulty: 2
-equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless ) add
-  dimensionless
+equation: (dimensionless) eq (((dimensionless) mul ((dimensionless) sub (dimensionless))) add (dimensionless))
 symbol_overrides:
 - dimensionless: y
-- dimensionless: "f'(x_0)"
+- dimensionless: f'(x₀)
 - dimensionless: x
-- dimensionless: "x_0"
-- dimensionless: "f(x_0)"
+- dimensionless: x₀
+- dimensionless: f(x₀)
 name_overrides:
 - dimensionless: y-coordinate
 - dimensionless: Slope at point

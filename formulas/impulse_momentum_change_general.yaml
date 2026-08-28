@@ -2,10 +2,10 @@ name: General impulse-momentum relation
 id: impulse_momentum_change_general
 topic: impulse
 difficulty: 1
-equation: force mul time eq mass mul velocity sub mass mul velocity
+equation: ((force) mul (time)) eq (((mass) mul (velocity)) sub ((mass) mul (velocity)))
 symbol_overrides:
-- force: F_{\mathrm{avg}}
-- time: \Delta t
+- force: F_avg
+- time: Δt
 - mass: ''
 - velocity: v_f
 - mass: ''

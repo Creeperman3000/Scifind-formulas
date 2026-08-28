@@ -2,12 +2,12 @@ name: Reactive power in AC circuit
 id: reactive_power_ac
 topic: circuits
 difficulty: 3
-equation: power eq electric_potential mul current mul sin angle
+equation: (power) eq (((electric_potential) mul (current)) mul (sin (angle)))
 symbol_overrides:
 - power: Q
-- electric_potential: V_{\mathrm{rms}}
-- current: I_{\mathrm{rms}}
-- angle: \phi
+- electric_potential: V_rms
+- current: I_rms
+- angle: φ
 name_overrides:
 - power: Reactive [power]
 - electric_potential: RMS [voltage]

@@ -2,12 +2,12 @@ name: Wheatstone bridge balance condition
 id: wheatstone_bridge_balance
 topic: circuits
 difficulty: 3
-equation: resistance frac resistance eq resistance frac resistance
+equation: ((resistance) div (resistance)) eq ((resistance) div (resistance))
 symbol_overrides:
-- resistance: "R_1"
-- resistance: "R_2"
-- resistance: "R_3"
-- resistance: "R_4"
+- resistance: R₁
+- resistance: R₂
+- resistance: R₃
+- resistance: R₄
 name_overrides:
 - resistance: R₁
 - resistance: R₂

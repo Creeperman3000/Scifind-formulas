@@ -2,12 +2,12 @@ name: Power from work
 id: power_from_work
 topic: power
 difficulty: 1
-equation: power eq energy frac time
+equation: (power) eq ((work) div (time))
 symbol_overrides:
 - power: ''
-- energy: ''
+- work: ''
 - time: ''
 name_overrides:
 - power: ''
-- energy: ''
+- work: ''
 - time: ''

@@ -2,10 +2,10 @@ name: Gyroscope precession angular velocity
 id: angular_momentum_gyroscope_precession
 topic: angular_momentum
 difficulty: 4
-equation: angular_velocity eq torque frac angular_momentum
+equation: (angular_velocity) eq ((torque) div (angular_momentum))
 symbol_overrides:
-- angular_velocity: "\\Omega"
-- torque: "\\tau"
+- angular_velocity: Ω
+- torque: τ
 - angular_momentum: ''
 name_overrides:
 - angular_velocity: Precession angular [velocity]

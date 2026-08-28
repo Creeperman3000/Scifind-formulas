@@ -2,11 +2,11 @@ name: Double-slit interference path difference
 id: double_slit_path_difference
 topic: interference
 difficulty: 2
-equation: length eq length mul sin angle
+equation: (length) eq ((length) mul (sin (angle)))
 symbol_overrides:
-- length: "\\Delta x"
+- length: Δx
 - length: d
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - length: Path [difference]
 - length: Slit separation

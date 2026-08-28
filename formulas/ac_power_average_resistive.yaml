@@ -2,9 +2,9 @@ name: Average power in an AC resistive circuit
 id: ac_power_average_resistive
 topic: circuits
 difficulty: 2
-equation: power eq current mul electric_potential frac 2
+equation: (power) eq (((current) mul (electric_potential)) div 2)
 symbol_overrides:
-- power: P_{\mathrm{avg}}
+- power: P_avg
 - current: I_0
 - electric_potential: V_0
 name_overrides:

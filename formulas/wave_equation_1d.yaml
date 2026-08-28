@@ -2,17 +2,12 @@ name: One-dimensional wave equation
 id: wave_equation_1d
 topic: differential_equations
 difficulty: 4
-equation: (dimensionless frac dimensionless) eq (dimensionless pow 2 mul
-  (dimensionless frac dimensionless))
+equation: (rmd(rmd(dimensionless))) eq ((rmd(rmd(dimensionless))) div ((velocity) pow 2))
 symbol_overrides:
-- dimensionless: \partial^2 y
-- dimensionless: \partial t^2
-- dimensionless: v
-- dimensionless: \partial^2 y
-- dimensionless: \partial x^2
+- dimensionless: y
+- dimensionless: y
+- velocity: ''
 name_overrides:
-- dimensionless: Second partial derivative
-- dimensionless: Second time [derivative]
-- dimensionless: Wave speed
-- dimensionless: Second partial derivative
-- dimensionless: Second spatial [derivative]
+- dimensionless: ∂²y/∂x²
+- dimensionless: ∂²y/∂t²
+- velocity: Wave [velocity]

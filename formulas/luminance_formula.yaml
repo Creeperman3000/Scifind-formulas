@@ -1,9 +1,8 @@
-name: Luminance
+name: Luminance from luminous intensity and area
 id: luminance_formula
 topic: electromagnetic_waves
 difficulty: 3
-description: "Luminance from luminous intensity and projected area; L = I / (A cos θ)."
-equation: luminance eq luminous_intensity frac area
+equation: (luminance) eq ((luminous_intensity) div (area))
 symbol_overrides:
 - luminance: ''
 - luminous_intensity: ''

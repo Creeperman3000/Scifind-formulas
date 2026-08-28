@@ -2,13 +2,12 @@ name: Rotational work done by a constant torque
 id: rotational_work
 topic: rotational_energy
 difficulty: 2
-description: "Valid for a constant torque; W = τ Δθ."
-equation: energy eq torque mul angle
+equation: (work) eq ((torque) mul (angle))
 symbol_overrides:
-- energy: ''
+- work: ''
 - torque: ''
 - angle: ''
 name_overrides:
-- energy: Rotational [work]
+- work: Rotational [work]
 - torque: ''
 - angle: ''

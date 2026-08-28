@@ -2,8 +2,7 @@ name: Angle difference identity for tangent
 id: angle_diff_tangent
 topic: trigonometric_identities
 difficulty: 2
-equation: tan (angle sub angle ) eq (tan angle sub tan angle ) frac (1
-  add tan angle mul tan angle )
+equation: (tan ((angle) sub (angle))) eq (((tan (angle)) sub (tan (angle))) div (1 add ((tan (angle)) mul (tan (angle)))))
 symbol_overrides:
 - angle: A
 - angle: B

@@ -2,11 +2,12 @@ name: Derivative of natural logarithm
 id: derivative_ln
 topic: derivatives
 difficulty: 2
-equation: (rmd (ln angle)) frac (rmd angle) eq 1 frac angle
+equation: ((dimensionless) mul (rmd (ln (angle)))) eq ((1 div (angle)))
 symbol_overrides:
-- angle: x
+- dimensionless: d/dx
 - angle: x
 - angle: x
 name_overrides:
+- dimensionless: Derivative
 - angle: '[Variable]'
 - angle: '[Variable]'

@@ -2,11 +2,11 @@ name: Percent yield definition
 id: percent_yield_definition
 topic: percent_yield
 difficulty: 1
-equation: dimensionless eq 100 mul (mass frac mass )
+equation: (dimensionless) eq (((mass) div (mass)) mul 100)
 symbol_overrides:
-- dimensionless: \%\,\text{yield}
-- mass: m_{\mathrm{actual}}
-- mass: m_{\mathrm{theoretical}}
+- dimensionless: '% yield'
+- mass: m_actual
+- mass: m_theoretical
 name_overrides:
 - dimensionless: Percent [yield]
 - mass: Actual [mass]

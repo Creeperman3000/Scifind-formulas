@@ -2,7 +2,7 @@ name: Conservation of angular momentum
 id: conservation_angular_momentum
 topic: angular_momentum
 difficulty: 2
-equation: angular_momentum eq angular_momentum
+equation: (angular_momentum) eq (angular_momentum)
 symbol_overrides:
 - angular_momentum: L_i
 - angular_momentum: L_f

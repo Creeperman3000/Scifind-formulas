@@ -2,9 +2,9 @@ name: Resistivity from resistance
 id: resistivity_from_resistance
 topic: circuits
 difficulty: 2
-equation: resistance eq resistance mul area frac length
+equation: (resistance) eq (((resistance) mul (area)) div (length))
 symbol_overrides:
-- resistance: "\\rho"
+- resistance: ρ
 - resistance: ''
 - area: ''
 - length: L

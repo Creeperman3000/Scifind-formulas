@@ -2,11 +2,11 @@ name: Area of a circular segment
 id: circle_segment_area
 topic: circles
 difficulty: 3
-equation: area eq length pow 2 mul (angle sub sin angle ) frac 2
+equation: (area) eq (((length pow 2) mul ((angle) sub (sin (angle)))) div 2)
 symbol_overrides:
 - area: ''
 - length: R
-- angle: "\\theta"
+- angle: θ
 - angle: ''
 name_overrides:
 - area: Segment area

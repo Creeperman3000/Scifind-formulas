@@ -2,10 +2,14 @@ name: Fahrenheit to Celsius conversion
 id: temperature_fahrenheit_celsius
 topic: temperature
 difficulty: 1
-equation: temperature eq (temperature sub 32 ) mul (5 frac 9 )
+equation: (temperature) eq (((temperature) sub (dimensionless)) mul (dimensionless))
 symbol_overrides:
-- temperature: T_{\mathrm{C}}
-- temperature: T_{\mathrm{F}}
+- temperature: °C
+- temperature: °F
+- dimensionless: '32'
+- dimensionless: 5/9
 name_overrides:
 - temperature: Temperature in [Celsius]
 - temperature: Temperature in [Fahrenheit]
+- dimensionless: ''
+- dimensionless: ''

@@ -2,10 +2,10 @@ name: Limit power rule
 id: limit_power_rule
 topic: limits
 difficulty: 2
-equation: dimensionless eq dimensionless pow dimensionless
+equation: (dimensionless) eq ((dimensionless) pow (dimensionless))
 symbol_overrides:
-- dimensionless: "\\lim_{x\\to a} f(x)^n"
-- dimensionless: "\\lim_{x\\to a} f(x)"
+- dimensionless: lim[x→a] f(x)^n
+- dimensionless: lim[x→a] f(x)
 - dimensionless: n
 name_overrides:
 - dimensionless: Limit of f(x)^n

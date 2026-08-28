@@ -1,14 +1,16 @@
-name: Most probable speed
+name: Most probable speed from Maxwell-Boltzmann distribution
 id: maxwell_boltzmann_mode_speed
 topic: ideal_gases
 difficulty: 3
-description: "Most probable speed from the Maxwell-Boltzmann speed distribution; v_p = √(2 k_B T / m)."
-equation: velocity eq sqrt (2 mul (gas_constant mul temperature ) frac molar_mass )
+equation: (velocity) eq sqrt (((((gas_constant) mul (temperature)) mul 2) div (molar_mass)))
+  2
 symbol_overrides:
-- velocity: v_{\mathrm{mp}}
+- velocity: v_mp
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''
 name_overrides:
 - velocity: Most probable speed
+- gas_constant: ''
 - temperature: ''
 - molar_mass: ''

@@ -2,14 +2,14 @@ name: Coefficient of performance (refrigerator)
 id: heat_engine_refrigerator_coefficient
 topic: heat_engines
 difficulty: 2
-equation: dimensionless eq energy frac (energy sub energy )
+equation: (dimensionless) eq ((heat) div ((heat) sub (heat)))
 symbol_overrides:
 - dimensionless: COP
-- energy: Q_c
-- energy: Q_h
-- energy: Q_c
+- heat: Q_c
+- heat: Q_h
+- heat: Q_c
 name_overrides:
 - dimensionless: Coefficient of performance
-- energy: Heat removed from cold reservoir
-- energy: Heat from hot reservoir
-- energy: Heat removed from cold reservoir
+- heat: Heat removed from cold reservoir
+- heat: Heat from hot reservoir
+- heat: Heat removed from cold reservoir

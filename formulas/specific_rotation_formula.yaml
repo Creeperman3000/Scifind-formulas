@@ -2,14 +2,14 @@ name: Specific rotation in polarimetry
 id: specific_rotation_formula
 topic: analytical_chemistry
 difficulty: 2
-equation: angle eq angle frac (concentration mul length )
+equation: (angle) eq ((angle) div ((concentration) mul (length)))
 symbol_overrides:
-- angle: "[\\alpha]"
-- angle: "\\alpha"
-- concentration: c
-- length: l
+- angle: '[α]'
+- angle: α
+- concentration: ''
+- length: ''
 name_overrides:
 - angle: Specific [rotation]
 - angle: Observed [rotation]
-- concentration: Concentration
+- concentration: ''
 - length: Path length

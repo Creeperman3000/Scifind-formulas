@@ -2,16 +2,16 @@ name: Entropy change for isothermal expansion of ideal gas
 id: entropy_isothermal_expansion
 topic: entropy
 difficulty: 3
-description: "Valid for an ideal gas undergoing a reversible isothermal expansion; ΔS = nR ln(V_f / V_i)."
-equation: entropy eq amount mul gas_constant mul ln (volume frac
-  volume )
+equation: (entropy) eq (((amount) mul (gas_constant)) mul (ln ((volume) div (volume))))
 symbol_overrides:
-- entropy: "\\Delta S"
+- entropy: ΔS
 - amount: ''
+- gas_constant: ''
 - volume: V_2
 - volume: V_1
 name_overrides:
 - entropy: Change in [entropy]
 - amount: ''
+- gas_constant: ''
 - volume: Final [volume]
 - volume: Initial [volume]

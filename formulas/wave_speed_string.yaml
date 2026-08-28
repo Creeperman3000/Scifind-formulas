@@ -1,0 +1,15 @@
+name: Wave speed on a string
+id: wave_speed_string
+topic: mechanical_waves
+difficulty: 2
+equation: (velocity) eq sqrt (((force) div ((mass) div (length)))) 2
+symbol_overrides:
+- velocity: ''
+- force: T
+- mass: ''
+- length: L
+name_overrides:
+- velocity: Wave [velocity]
+- force: Tension
+- mass: Mass of string
+- length: String length

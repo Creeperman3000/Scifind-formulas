@@ -2,7 +2,7 @@ name: Centripetal acceleration
 id: centripetal_acceleration
 topic: circular_motion
 difficulty: 2
-equation: acceleration eq velocity pow 2 frac length
+equation: (acceleration) eq ((velocity pow 2) div (length))
 symbol_overrides:
 - acceleration: a_c
 - velocity: ''

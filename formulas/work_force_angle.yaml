@@ -2,15 +2,14 @@ name: Work by constant force at an angle
 id: work_force_angle
 topic: work
 difficulty: 1
-description: "Valid for a constant force; W = F d cos θ (work done by the force)."
-equation: (energy) eq ((force) mul (length) mul (cos (angle)))
+equation: (work) eq (((force) mul (length)) mul (cos (angle)))
 symbol_overrides:
-- energy: W
-- force: F
-- length: l
-- angle: \theta
+- work: ''
+- force: ''
+- length: ''
+- angle: θ
 name_overrides:
-- energy: '[Work]'
-- force: '[Force]'
-- length: Displacement
-- angle: Angle between F and l
+- work: ''
+- force: ''
+- length: ''
+- angle: ''

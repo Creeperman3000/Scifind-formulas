@@ -2,7 +2,7 @@ name: Impulse equals change in momentum
 id: impulse_equals_momentum_change
 topic: impulse
 difficulty: 1
-equation: momentum eq momentum sub momentum
+equation: (momentum) eq ((momentum) sub (momentum))
 symbol_overrides:
 - momentum: J
 - momentum: p_f

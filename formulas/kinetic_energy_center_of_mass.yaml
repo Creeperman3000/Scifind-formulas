@@ -2,12 +2,12 @@ name: Kinetic energy of center of mass
 id: kinetic_energy_center_of_mass
 topic: kinetic_energy
 difficulty: 3
-equation: energy eq mass mul velocity pow 2 frac 2 add energy
+equation: (energy) eq ((((mass) mul (velocity pow 2)) div 2) add (energy))
 symbol_overrides:
-- energy: KE_{\mathrm{total}}
+- energy: KE_total
 - mass: M
-- velocity: v_{\mathrm{cm}}
-- energy: KE_{\mathrm{rel}}
+- velocity: v_cm
+- energy: KE_rel
 name_overrides:
 - energy: Total kinetic [energy]
 - mass: Total [mass]

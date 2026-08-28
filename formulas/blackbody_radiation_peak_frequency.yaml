@@ -2,11 +2,12 @@ name: Peak frequency of blackbody radiation
 id: blackbody_radiation_peak_frequency
 topic: quantum_mechanics
 difficulty: 3
-description: "Valid for blackbody radiation; relates peak emission frequency to temperature."
-equation: frequency eq wiens_constant mul temperature
+equation: (frequency) eq (((wavenumber) mul (temperature)) mul (speed_of_light))
 symbol_overrides:
-- frequency: "\\nu_{\\text{peak}}"
-- temperature: T
+- frequency: ν_peak
+- wavenumber: b'
+- temperature: ''
 name_overrides:
 - frequency: Peak frequency
-- temperature: Temperature
+- wavenumber: Wien frequency displacement constant
+- temperature: ''

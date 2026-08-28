@@ -2,8 +2,7 @@ name: Angle sum identity for sine
 id: angle_sum_sine
 topic: trigonometric_identities
 difficulty: 2
-equation: sin (angle add angle ) eq sin angle mul cos angle add cos angle mul sin
-  angle
+equation: (sin ((angle) add (angle))) eq (((sin (angle)) mul (cos (angle))) add ((cos (angle)) mul (sin (angle))))
 symbol_overrides:
 - angle: A
 - angle: B

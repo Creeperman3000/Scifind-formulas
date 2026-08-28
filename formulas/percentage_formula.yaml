@@ -2,9 +2,9 @@ name: Percentage
 id: percentage_formula
 topic: arithmetic
 difficulty: 1
-equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul 100)
 symbol_overrides:
-- dimensionless: "\\%"
+- dimensionless: '%'
 - dimensionless: part
 - dimensionless: whole
 name_overrides:

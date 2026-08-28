@@ -2,12 +2,12 @@ name: AC circuit power factor
 id: ac_circuit_power_factor
 topic: circuits
 difficulty: 3
-equation: dimensionless eq power frac (electric_potential mul current )
+equation: (dimensionless) eq ((power) div ((electric_potential) mul (current)))
 symbol_overrides:
 - dimensionless: PF
 - power: ''
-- electric_potential: V_{\mathrm{rms}}
-- current: I_{\mathrm{rms}}
+- electric_potential: V_rms
+- current: I_rms
 name_overrides:
 - dimensionless: Power [factor]
 - power: Real [power]

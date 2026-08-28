@@ -2,10 +2,9 @@ name: Bernoulli differential equation
 id: bernoulli_differential_equation
 topic: differential_equations
 difficulty: 5
-equation: dimensionless add dimensionless mul dimensionless eq dimensionless
-  mul dimensionless pow dimensionless
+equation: (rmd((dimensionless)) add ((dimensionless) mul (dimensionless))) eq ((dimensionless) mul ((dimensionless) pow (dimensionless)))
 symbol_overrides:
-- dimensionless: y'
+- dimensionless: dy/dx
 - dimensionless: P(x)
 - dimensionless: y
 - dimensionless: Q(x)
@@ -13,8 +12,8 @@ symbol_overrides:
 - dimensionless: n
 name_overrides:
 - dimensionless: Derivative of y
-- dimensionless: '[Function]'
+- dimensionless: P(x)
 - dimensionless: y
-- dimensionless: '[Function]'
-- dimensionless: y
-- dimensionless: '[Exponent] n'
+- dimensionless: Q(x)
+- dimensionless: y^n
+- dimensionless: Power n

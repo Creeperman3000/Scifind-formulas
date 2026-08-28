@@ -2,12 +2,12 @@ name: Diffraction grating equation
 id: diffraction_grating_equation
 topic: diffraction
 difficulty: 2
-equation: dimensionless mul length eq length mul sin angle
+equation: ((dimensionless) mul (length)) eq ((length) mul (sin (angle)))
 symbol_overrides:
 - dimensionless: m
-- length: "\\lambda"
+- length: λ
 - length: d
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - dimensionless: Order
 - length: Wavelength

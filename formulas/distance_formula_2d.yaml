@@ -2,7 +2,8 @@ name: Distance formula in 2D
 id: distance_formula_2d
 topic: coordinate_geometry
 difficulty: 2
-equation: (length) eq ((((length sub length) pow 2) add ((length sub length) pow 2)) sqrt)
+equation: (length) eq (length) (length) sub pow 2 (length) (length) sub pow 2 sqrt
+  add 2
 symbol_overrides:
 - length: d
 - length: x_2

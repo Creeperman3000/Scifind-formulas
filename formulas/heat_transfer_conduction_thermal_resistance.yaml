@@ -2,10 +2,9 @@ name: Heat transfer by conduction (Fourier's law)
 id: heat_transfer_conduction_thermal_resistance
 topic: heat_transfer
 difficulty: 2
-equation: energy frac time eq (temperature sub temperature ) frac
-  (length frac (thermal_conductivity mul area ) )
+equation: ((heat) div (time)) eq (((temperature) sub (temperature)) div ((length) div ((thermal_conductivity) mul (area))))
 symbol_overrides:
-- energy: ''
+- heat: ''
 - time: ''
 - temperature: T_1
 - temperature: T_2
@@ -13,7 +12,7 @@ symbol_overrides:
 - thermal_conductivity: ''
 - area: ''
 name_overrides:
-- energy: '[Energy] transferred'
+- heat: '[Heat] transferred'
 - time: ''
 - temperature: Hot [temperature]
 - temperature: Cold [temperature]

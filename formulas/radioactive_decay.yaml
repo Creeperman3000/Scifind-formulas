@@ -2,14 +2,14 @@ name: Radioactive decay law
 id: radioactive_decay
 topic: nuclear_physics
 difficulty: 3
-equation: dimensionless eq dimensionless mul exp neg (frequency mul time )
+equation: (number_of_particles) eq ((number_of_particles) mul (exp (neg ((frequency) mul (time)))))
 symbol_overrides:
-- dimensionless: N_t
-- dimensionless: N_0
-- frequency: "\\lambda"
-- time: t
+- number_of_particles: N_0
+- number_of_particles: ''
+- frequency: λ
+- time: ''
 name_overrides:
-- dimensionless: Remaining nuclei
-- dimensionless: Initial nuclei
+- number_of_particles: Remaining nuclei
+- number_of_particles: Initial nuclei
 - frequency: Decay constant
-- time: Time
+- time: ''

@@ -1,11 +1,10 @@
-name: "Newton's second law (momentum)"
+name: Newton's second law in terms of momentum
 id: newtons_second_law_momentum_form
 topic: newtons_laws
 difficulty: 2
-description: "Newton's second law in terms of momentum; F = dp/dt."
-equation: force eq momentum (Delta) time (Delta) frac
+equation: (force) eq ((momentum) (Delta) (time) (Delta) div)
 symbol_overrides:
-- force: F_{\mathrm{net}}
+- force: F_net
 - momentum: ''
 - time: ''
 name_overrides:

@@ -2,9 +2,9 @@ name: 'Right triangle: tangent ratio (TOA)'
 id: soh_cah_toa_tangent
 topic: right_triangles
 difficulty: 1
-equation: dimensionless eq length frac length
+equation: (dimensionless) eq ((length) div (length))
 symbol_overrides:
-- dimensionless: "\\tan \\theta"
+- dimensionless: tan θ
 - length: opposite
 - length: adjacent
 name_overrides:

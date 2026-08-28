@@ -2,7 +2,7 @@ name: Moment of inertia of a solid cone
 id: moi_cone
 topic: moment_of_inertia
 difficulty: 4
-equation: moment_of_inertia eq 3 mul (mass mul length pow 2 ) frac 10
+equation: (moment_of_inertia) eq ((((mass) mul (length pow 2)) mul 3) div 10)
 symbol_overrides:
 - moment_of_inertia: ''
 - mass: M

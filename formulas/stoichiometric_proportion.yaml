@@ -2,12 +2,12 @@ name: Stoichiometric proportion for a reaction
 id: stoichiometric_proportion
 topic: chemical_reactions
 difficulty: 2
-equation: amount frac dimensionless eq amount frac dimensionless
+equation: ((amount) div (dimensionless)) eq ((amount) div (dimensionless))
 symbol_overrides:
 - amount: n_A
-- dimensionless: "\\nu_{\\text{A}}"
+- dimensionless: ν_A
 - amount: n_B
-- dimensionless: "\\nu_{\\text{B}}"
+- dimensionless: ν_B
 name_overrides:
 - amount: Amount of A
 - dimensionless: Stoichiometric coefficient of A

@@ -2,10 +2,10 @@ name: Coefficient of static friction
 id: friction_coefficient_static_definition
 topic: friction
 difficulty: 1
-equation: coefficient_of_friction eq force frac force
+equation: (coefficient_of_friction) eq ((force) div (force))
 symbol_overrides:
-- coefficient_of_friction: "\\mu_{\\text{s}}"
-- force: F_{s,\max}
+- coefficient_of_friction: μ_s
+- force: F_s_max
 - force: N
 name_overrides:
 - coefficient_of_friction: Coefficient of static friction

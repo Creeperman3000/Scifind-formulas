@@ -2,14 +2,18 @@ name: Volume thermal expansion definition
 id: volume_thermal_expansion_definition
 topic: heat
 difficulty: 2
-equation: (volume) eq ((volume) mul (3 mul coefficient_of_linear_expansion mul (temperature)))
+equation: ((volume) sub (volume)) eq ((volume) mul (((coefficient_of_linear_expansion) mul 3) mul ((temperature) sub (temperature))))
 symbol_overrides:
-- volume: \Delta V
 - volume: V_0
-- coefficient_of_linear_expansion: \alpha
-- temperature: \Delta T
+- volume: V_0
+- volume: ''
+- coefficient_of_linear_expansion: α
+- temperature: T_0
+- temperature: ''
 name_overrides:
-- volume: Change in [volume]
+- volume: Final [volume]
+- volume: Initial [volume]
 - volume: Initial [volume]
 - coefficient_of_linear_expansion: Linear expansion coefficient
-- temperature: Change in [temperature]
+- temperature: Final [temperature]
+- temperature: Initial [temperature]

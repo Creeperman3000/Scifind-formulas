@@ -2,10 +2,14 @@ name: Free fall height from time
 id: free_fall_height
 topic: constant_acceleration
 difficulty: 1
-equation: length eq standard_gravity mul time pow 2 frac 2
+equation: (length) eq (((acceleration) mul ((time) mul (time))) div 2)
 symbol_overrides:
 - length: h
+- acceleration: g
+- time: ''
 - time: ''
 name_overrides:
 - length: Height (free fall)
+- acceleration: Gravitational [acceleration]
 - time: Fall [time]
+- time: ''

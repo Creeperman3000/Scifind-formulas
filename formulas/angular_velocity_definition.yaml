@@ -4,10 +4,10 @@ topic: circular_motion
 difficulty: 1
 equation: (angular_velocity) eq ((angle) div (time))
 symbol_overrides:
-- angular_velocity: \omega
-- angle: \Delta\theta
-- time: \Delta t
+- angular_velocity: ω
+- angle: θ
+- time: ''
 name_overrides:
-- angular_velocity: Angular velocity
-- angle: Angular displacement
-- time: Time interval
+- angular_velocity: Angular [velocity]
+- angle: Angular [displacement]
+- time: '[Time]'

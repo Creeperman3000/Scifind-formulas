@@ -2,11 +2,11 @@ name: Young's modulus
 id: youngs_modulus
 topic: forces
 difficulty: 2
-equation: pressure eq pressure frac dimensionless
+equation: (pressure) eq ((pressure) div (dimensionless))
 symbol_overrides:
 - pressure: E
-- pressure: "\\sigma"
-- dimensionless: "\\epsilon"
+- pressure: σ
+- dimensionless: ε
 name_overrides:
 - pressure: Young's modulus
 - pressure: Stress

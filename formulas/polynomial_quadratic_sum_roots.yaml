@@ -2,9 +2,9 @@ name: Sum of roots of a quadratic
 id: polynomial_quadratic_sum_roots
 topic: polynomials
 difficulty: 2
-equation: dimensionless eq neg dimensionless frac dimensionless
+equation: (dimensionless) eq ((neg (dimensionless)) div (dimensionless))
 symbol_overrides:
-- dimensionless: "\\alpha+\\beta"
+- dimensionless: α+β
 - dimensionless: b
 - dimensionless: a
 name_overrides:

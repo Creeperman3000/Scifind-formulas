@@ -2,7 +2,7 @@ name: Image height from magnification
 id: optics_image_height_magnification
 topic: mirrors
 difficulty: 1
-equation: length eq neg (dimensionless mul length )
+equation: (length) eq neg(((dimensionless) mul (length)))
 symbol_overrides:
 - length: h_i
 - dimensionless: m

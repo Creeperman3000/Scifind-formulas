@@ -2,9 +2,9 @@ name: Kinetic energy from work done
 id: kinetic_energy_definition_work
 topic: kinetic_energy
 difficulty: 1
-equation: energy eq force mul length
+equation: (energy) eq ((force) mul (length))
 symbol_overrides:
-- energy: "\\Delta\\text{KE}"
+- energy: ΔKE
 - force: ''
 - length: d
 name_overrides:

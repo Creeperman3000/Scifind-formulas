@@ -2,10 +2,10 @@ name: Coherence length from bandwidth
 id: coherence_length_bandwidth
 topic: interference
 difficulty: 4
-equation: length eq speed_of_light frac frequency
+equation: (length) eq ((speed_of_light) div (frequency))
 symbol_overrides:
 - length: L_c
-- frequency: "\\Delta f"
+- frequency: Δf
 name_overrides:
 - length: Coherence [length]
 - frequency: Frequency bandwidth

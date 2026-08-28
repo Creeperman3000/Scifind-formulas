@@ -2,10 +2,9 @@ name: Percent error formula
 id: percent_error_formula
 topic: percent_yield
 difficulty: 2
-equation: dimensionless eq 100 mul abs ((dimensionless sub
-  dimensionless ) frac dimensionless )
+equation: (dimensionless) eq ((abs (((dimensionless) sub (dimensionless)) div (dimensionless))) mul 100)
 symbol_overrides:
-- dimensionless: "\\%\\,\\text{error}"
+- dimensionless: '% error'
 - dimensionless: experimental
 - dimensionless: 'true'
 - dimensionless: 'true'

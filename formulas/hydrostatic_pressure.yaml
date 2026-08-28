@@ -2,7 +2,7 @@ name: Hydrostatic pressure
 id: hydrostatic_pressure
 topic: pressure
 difficulty: 2
-equation: pressure eq density mul standard_gravity mul length
+equation: (pressure) eq (((density) mul (standard_gravity)) mul (length))
 symbol_overrides:
 - pressure: ''
 - density: ''

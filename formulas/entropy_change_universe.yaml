@@ -2,11 +2,11 @@ name: Entropy change of the universe
 id: entropy_change_universe
 topic: second_law
 difficulty: 3
-equation: entropy eq entropy add entropy
+equation: (entropy) eq ((entropy) add (entropy))
 symbol_overrides:
-- entropy: "\\Delta S_{\\text{univ}}"
-- entropy: "\\Delta S_{\\text{sys}}"
-- entropy: "\\Delta S_{\\text{surr}}"
+- entropy: ΔS_univ
+- entropy: ΔS_sys
+- entropy: ΔS_surr
 name_overrides:
 - entropy: Universe [entropy] change
 - entropy: System [entropy] change

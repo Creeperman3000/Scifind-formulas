@@ -2,12 +2,14 @@ name: Volume percent concentration
 id: volume_percent
 topic: solution_stoichiometry
 difficulty: 1
-equation: dimensionless eq 100 mul (volume frac volume )
+equation: (dimensionless) eq (((volume) div (volume)) mul (dimensionless))
 symbol_overrides:
-- dimensionless: \%\,\text{v/v}
-- volume: V_{\mathrm{solute}}
-- volume: V_{\mathrm{solution}}
+- dimensionless: '%v/v'
+- volume: V_solute
+- volume: V_solution
+- dimensionless: '100'
 name_overrides:
 - dimensionless: Volume percent
 - volume: '[Volume] of solute'
 - volume: '[Volume] of solution'
+- dimensionless: ''

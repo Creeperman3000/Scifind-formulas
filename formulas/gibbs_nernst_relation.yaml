@@ -2,9 +2,9 @@ name: Gibbs free energy and cell potential
 id: gibbs_nernst_relation
 topic: electrochemistry
 difficulty: 3
-equation: energy eq neg (amount mul (faraday_constant mul electric_potential ) )
+equation: (energy) eq neg(((amount) mul ((faraday_constant) mul (electric_potential))))
 symbol_overrides:
-- energy: "\\Delta G"
+- energy: ΔG
 - amount: ''
 - electric_potential: E
 name_overrides:

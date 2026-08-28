@@ -2,7 +2,7 @@ name: Triangle side projection formula
 id: laws_of_sines_projection_formula
 topic: laws_of_sines_and_cosines
 difficulty: 3
-equation: length eq length mul cos angle add length mul cos angle
+equation: (length) eq (((length) mul (cos (angle))) add ((length) mul (cos (angle))))
 symbol_overrides:
 - length: a
 - length: b

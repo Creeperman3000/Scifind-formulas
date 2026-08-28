@@ -2,11 +2,9 @@ name: Solid angle
 id: solid_angle_formula
 topic: circles
 difficulty: 2
-description: Valid for a spherical surface patch of area A at radius r (projected-area
-  interpretation). Not a generic area-over-length-squared formula.
-equation: solid_angle eq area frac length pow 2
+equation: (solid_angle) eq ((area) div (length pow 2))
 symbol_overrides:
-- solid_angle: "\\Omega"
+- solid_angle: Ω
 - area: ''
 - length: r
 name_overrides:

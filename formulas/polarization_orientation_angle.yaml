@@ -2,9 +2,9 @@ name: Polarization orientation angle
 id: polarization_orientation_angle
 topic: polarization
 difficulty: 2
-equation: angle eq atan (dimensionless dimensionless frac)
+equation: (angle) eq atan(((dimensionless) (dimensionless) div))
 symbol_overrides:
-- angle: "\\psi"
+- angle: ψ
 - dimensionless: E_y
 - dimensionless: E_x
 name_overrides:

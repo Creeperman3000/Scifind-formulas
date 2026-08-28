@@ -5,9 +5,9 @@ difficulty: 2
 equation: (equilibrium_constant) eq ((concentration) mul (concentration))
 symbol_overrides:
 - equilibrium_constant: K_w
-- concentration: '[\mathrm{H}^+]'
-- concentration: '[\mathrm{OH}^-]'
+- concentration: '[H⁺]'
+- concentration: '[OH⁻]'
 name_overrides:
-- equilibrium_constant: Ion product of water
-- concentration: '[Hydrogen ion]'
-- concentration: '[Hydroxide ion]'
+- equilibrium_constant: ''
+- concentration: ''
+- concentration: ''

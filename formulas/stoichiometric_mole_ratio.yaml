@@ -2,12 +2,12 @@ name: Stoichiometric mole ratio calculation
 id: stoichiometric_mole_ratio
 topic: limiting_reactants
 difficulty: 2
-equation: amount eq amount mul (dimensionless frac dimensionless )
+equation: (amount) eq ((amount) mul ((dimensionless) div (dimensionless)))
 symbol_overrides:
-- amount: n_{\mathrm{product}}
-- amount: n_{\mathrm{reactant}}
-- dimensionless: \nu_{\text{product}}
-- dimensionless: \nu_{\text{reactant}}
+- amount: n_product
+- amount: n_reactant
+- dimensionless: ν_product
+- dimensionless: ν_reactant
 name_overrides:
 - amount: Moles of [product]
 - amount: Moles of [reactant]

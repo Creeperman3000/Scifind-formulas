@@ -2,14 +2,13 @@ name: Torque on an electric dipole in a uniform field
 id: electric_dipole_torque_uniform_field
 topic: electrostatics
 difficulty: 3
-description: "Valid in a uniform electric field; τ = pE sin θ."
-equation: torque eq charge mul length mul electric_field_strength mul sin angle
+equation: (torque) eq ((((charge) mul (length)) mul (electric_field_strength)) mul (sin (angle)))
 symbol_overrides:
-- torque: "\\tau"
+- torque: τ
 - charge: q
 - length: d
 - electric_field_strength: ''
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - torque: '[Torque] on dipole'
 - charge: ''

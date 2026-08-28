@@ -2,12 +2,14 @@ name: Lateral surface area of a cylinder
 id: lateral_surface_area_cylinder
 topic: plane_geometry
 difficulty: 1
-equation: area eq 2 mul pi mul length mul length
+equation: (area) eq ((((length) mul (length)) mul (length)) mul 2)
 symbol_overrides:
 - area: LA
+- length: π
 - length: r
 - length: h
 name_overrides:
 - area: Lateral surface [area]
+- length: '[Pi]'
 - length: Radius
 - length: Height

@@ -2,10 +2,9 @@ name: Mole fraction from mass
 id: mole_fraction_mass_conversion
 topic: mole_concept
 difficulty: 3
-equation: dimensionless eq mass frac molar_mass frac (mass frac
-  molar_mass add mass frac molar_mass )
+equation: (dimensionless) eq (((mass) div (molar_mass)) div (((mass) div (molar_mass)) add ((mass) div (molar_mass))))
 symbol_overrides:
-- dimensionless: "\\chi_{\\text{A}}"
+- dimensionless: χ_A
 - mass: m_A
 - molar_mass: M_A
 - mass: m_A

@@ -2,7 +2,7 @@ name: Absolute zero temperature
 id: temperature_absolute_value
 topic: temperature
 difficulty: 1
-equation: temperature geq 0
+equation: (temperature) gt 0
 name_overrides:
 - temperature: Absolute [temperature]
 symbol_overrides:

@@ -2,18 +2,22 @@ name: Bernoulli energy head form
 id: bernoulli_energy_head_form
 topic: bernoulli_equation
 difficulty: 3
-description: "Valid for steady, incompressible, inviscid flow; expressed as energy per unit weight (head)."
-equation: length eq pressure frac (density mul standard_gravity ) add
-  velocity pow 2 frac (2 mul standard_gravity ) add length
+equation: (length) eq ((((pressure) div ((density) mul (acceleration))) add (((velocity) mul (velocity)) div ((acceleration) mul 2))) add (length))
 symbol_overrides:
 - length: H
 - pressure: ''
-- density: "\\rho"
+- density: ρ
+- acceleration: g
 - velocity: ''
+- velocity: ''
+- acceleration: g
 - length: z
 name_overrides:
 - length: Total [head]
 - pressure: '[Pressure]'
 - density: Fluid [density]
+- acceleration: Gravitational [acceleration]
 - velocity: Flow [velocity]
+- velocity: ''
+- acceleration: Gravitational [acceleration]
 - length: Elevation [head]

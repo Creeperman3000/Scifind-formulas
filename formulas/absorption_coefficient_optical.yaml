@@ -2,15 +2,12 @@ name: Absorption coefficient from absorbance
 id: absorption_coefficient_optical
 topic: interference
 difficulty: 2
-equation: absorption_coefficient eq (absorbance mul (ln dimensionless))
-  frac length
+equation: (length) eq ((dimensionless) div (length))
 symbol_overrides:
-- absorption_coefficient: "\\alpha"
-- absorbance: A
-- dimensionless: '10'
+- length: α
+- dimensionless: A
 - length: L
 name_overrides:
-- absorption_coefficient: Absorption [coefficient]
-- absorbance: Absorbance
-- dimensionless: ln 10
+- length: Absorption [coefficient]
+- dimensionless: ''
 - length: Path [length]

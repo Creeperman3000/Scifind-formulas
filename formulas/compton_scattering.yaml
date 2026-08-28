@@ -2,12 +2,11 @@ name: Compton scattering wavelength shift
 id: compton_scattering
 topic: quantum_mechanics
 difficulty: 4
-equation: length eq planck_constant frac (mass mul speed_of_light )
-  mul (1 sub cos angle )
+equation: (length) eq (((planck_constant) div ((mass) mul (speed_of_light))) mul ((cos (angle)) sub 1))
 symbol_overrides:
-- length: "\\Delta\\lambda"
+- length: Δλ
 - mass: m_e
-- angle: "\\theta"
+- angle: θ
 name_overrides:
 - length: Wavelength shift
 - mass: Electron [mass]

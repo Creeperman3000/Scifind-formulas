@@ -2,7 +2,7 @@ name: Probability of an event
 id: probability_of_event
 topic: probability
 difficulty: 1
-equation: dimensionless eq dimensionless frac dimensionless
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
 symbol_overrides:
 - dimensionless: P(E)
 - dimensionless: n(E)

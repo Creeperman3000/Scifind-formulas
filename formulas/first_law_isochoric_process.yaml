@@ -1,12 +1,11 @@
-name: First law (isochoric)
+name: First law of thermodynamics for isochoric process
 id: first_law_isochoric_process
 topic: first_law
 difficulty: 2
-description: "Valid for an isochoric (constant-volume) process; W = 0 and ΔU = Q."
-equation: energy eq energy
+equation: (heat) eq (energy)
 symbol_overrides:
-- energy: ''
-- energy: "\\Delta U"
+- heat: ''
+- energy: ΔU
 name_overrides:
-- energy: ''
+- heat: ''
 - energy: Change in internal [energy]

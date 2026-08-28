@@ -2,7 +2,7 @@ name: pKa from Ka
 id: pka_definition
 topic: acids_and_bases
 difficulty: 1
-equation: ph eq neg log equilibrium_constant
+equation: ph eq neg (log 10 equilibrium_constant)
 symbol_overrides:
 - ph: pK_a
 - equilibrium_constant: K_a

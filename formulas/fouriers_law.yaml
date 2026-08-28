@@ -2,13 +2,12 @@ name: Heat conduction (Fourier's law)
 id: fouriers_law
 topic: heat_transfer
 difficulty: 4
-equation: power eq thermal_conductivity mul area mul (temperature frac
-  length )
+equation: (power) eq (((thermal_conductivity) mul (area)) mul ((temperature) div (length)))
 symbol_overrides:
-- power: "\\Phi"
+- power: Φ
 - thermal_conductivity: ''
 - area: ''
-- temperature: "\\Delta T"
+- temperature: ΔT
 - length: d
 name_overrides:
 - power: Heat flux

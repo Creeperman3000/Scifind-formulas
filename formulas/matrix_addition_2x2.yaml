@@ -2,7 +2,7 @@ name: Matrix addition (2x2)
 id: matrix_addition_2x2
 topic: linear_algebra
 difficulty: 2
-equation: dimensionless eq dimensionless add dimensionless
+equation: (dimensionless) eq ((dimensionless) add (dimensionless))
 symbol_overrides:
 - dimensionless: c_{11}
 - dimensionless: a_{11}

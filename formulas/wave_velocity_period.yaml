@@ -1,12 +1,11 @@
-name: Wave velocity
+name: Wave velocity from wavelength and period
 id: wave_velocity_period
 topic: mechanical_waves
 difficulty: 1
-description: "Wave velocity from wavelength and period; v = λ / T."
-equation: velocity eq length frac time
+equation: (velocity) eq ((length) div (time))
 symbol_overrides:
 - velocity: ''
-- length: "\\lambda"
+- length: λ
 - time: T
 name_overrides:
 - velocity: Wave [velocity]

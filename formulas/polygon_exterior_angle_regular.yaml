@@ -2,9 +2,9 @@ name: Exterior angle of a regular polygon
 id: polygon_exterior_angle_regular
 topic: polygons
 difficulty: 1
-equation: angle eq angle frac dimensionless
+equation: (angle) eq ((angle) div (dimensionless))
 symbol_overrides:
-- angle: "\\theta_{\\text{ext}}"
+- angle: θ_ext
 - angle: '360'
 - dimensionless: n
 name_overrides:

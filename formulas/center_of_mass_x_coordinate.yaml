@@ -2,14 +2,14 @@ name: Center of mass x-coordinate
 id: center_of_mass_x_coordinate
 topic: linear_momentum
 difficulty: 2
-equation: length eq (sum (mass mul length) frac sum mass)
+equation: length eq (sum skip skip (mass mul length) frac sum skip skip mass)
 symbol_overrides:
-- length: x_{\mathrm{cm}}
-- mass: m_i
-- length: x_i
-- mass: m_i
+- length: x_cm
+- mass: ''
+- length: ''
+- mass: ''
 name_overrides:
 - length: Center of mass position
-- mass: Mass of particle
-- length: Position of particle
-- mass: Total [mass]
+- mass: ''
+- length: ''
+- mass: ''

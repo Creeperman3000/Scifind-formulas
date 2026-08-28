@@ -2,23 +2,22 @@ name: Integral of 1/(a²-x²)
 id: integral_reciprocal_diff_squares
 topic: integrals
 difficulty: 4
-equation: (dimensionless) eq ((dimensionless frac (dimensionless mul
-  dimensionless )) mul (ln ((dimensionless add dimensionless ) frac (dimensionless sub dimensionless ) )))
+equation: (dimensionless) eq (((dimensionless) div ((dimensionless) mul (dimensionless))) mul (ln (((dimensionless) add (angle)) div ((dimensionless) sub (angle)))))
 symbol_overrides:
-- dimensionless: "\\int \\frac{\\mathrm{d}x}{a^2-x^2}"
+- dimensionless: ∫dx/(a²-x²)
 - dimensionless: '1'
 - dimensionless: '2'
 - dimensionless: a
 - dimensionless: a
-- dimensionless: x
-- dimensionless: a
-- dimensionless: x
+- angle: x
+- dimensionless: ''
+- angle: x
 name_overrides:
-- dimensionless: Integral of reciprocal difference of squares
+- dimensionless: Integral of reciprocal diff squares
 - dimensionless: ''
 - dimensionless: ''
-- dimensionless: '[Constant] a'
-- dimensionless: '[Constant] a'
-- dimensionless: x
-- dimensionless: '[Constant] a'
-- dimensionless: x
+- dimensionless: '[Constant]'
+- dimensionless: ''
+- angle: '[Variable]'
+- dimensionless: ''
+- angle: ''

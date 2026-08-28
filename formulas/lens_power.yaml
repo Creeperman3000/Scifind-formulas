@@ -2,7 +2,7 @@ name: Lens power
 id: lens_power
 topic: lenses
 difficulty: 1
-equation: wavenumber eq 1 frac length
+equation: (wavenumber) eq ((length) div 1)
 symbol_overrides:
 - wavenumber: P
 - length: f

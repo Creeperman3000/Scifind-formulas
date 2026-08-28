@@ -2,11 +2,10 @@ name: Parallel plate capacitance with dielectric
 id: capacitance_parallel_plate_dielectric
 topic: capacitance
 difficulty: 2
-equation: capacitance eq dimensionless mul vacuum_permittivity mul
-  area frac length
+equation: (capacitance) eq ((((dimensionless) mul (vacuum_permittivity)) mul (area)) div (length))
 symbol_overrides:
 - capacitance: ''
-- dimensionless: "\\epsilon_{\\text{r}}"
+- dimensionless: ε_r
 - area: ''
 - length: d
 name_overrides:

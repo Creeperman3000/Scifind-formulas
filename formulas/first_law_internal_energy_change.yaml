@@ -2,12 +2,12 @@ name: 'First law: internal energy change'
 id: first_law_internal_energy_change
 topic: first_law
 difficulty: 2
-equation: energy eq energy add energy
+equation: Delta((energy)) eq ((heat) add (work))
 symbol_overrides:
-- energy: "\\Delta U"
-- energy: Q
-- energy: W_{on}
+- energy: ΔU
+- heat: ''
+- work: ''
 name_overrides:
 - energy: Change in internal [energy]
-- energy: Heat added
-- energy: Work done on system
+- heat: Heat added
+- work: Work done on system

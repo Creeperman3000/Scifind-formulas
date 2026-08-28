@@ -2,11 +2,11 @@ name: Tangent identity
 id: tangent_identity
 topic: trigonometric_identities
 difficulty: 1
-equation: dimensionless eq sin angle frac cos angle
+equation: (dimensionless) eq ((sin (angle)) div (cos (angle)))
 symbol_overrides:
-- dimensionless: "\\tan(\\theta)"
-- angle: "\\theta"
-- angle: "\\theta"
+- dimensionless: tan(θ)
+- angle: θ
+- angle: θ
 name_overrides:
 - dimensionless: ''
 - angle: Angle

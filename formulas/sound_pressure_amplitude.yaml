@@ -1,16 +1,18 @@
-name: Sound pressure amplitude
+name: Sound pressure amplitude from intensity
 id: sound_pressure_amplitude
 topic: mechanical_waves
 difficulty: 3
-description: "Sound pressure amplitude from intensity; p₀ = √(2 I ρ v)."
-equation: (pressure) eq ((sqrt ((density) mul (velocity) mul (power))))
+equation: (pressure) eq sqrt (((density) mul ((velocity) mul ((power) div (area)))))
+  2
 symbol_overrides:
-- pressure: p_0
-- density: \rho
-- velocity: v
+- pressure: p₀
+- density: ρ
+- velocity: ''
 - power: I
+- area: ''
 name_overrides:
 - pressure: Pressure amplitude
-- density: Medium [density]
+- density: Medium density
 - velocity: Speed of sound
-- power: Sound [intensity]
+- power: Sound intensity
+- area: Unit area

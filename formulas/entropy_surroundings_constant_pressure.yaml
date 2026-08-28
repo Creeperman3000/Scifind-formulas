@@ -2,11 +2,10 @@ name: Entropy change of surroundings at constant pressure
 id: entropy_surroundings_constant_pressure
 topic: second_law
 difficulty: 3
-description: "Valid for surroundings at constant pressure; ΔS_surr = −ΔH_sys / T."
-equation: entropy eq neg energy frac temperature
+equation: (entropy) eq ((neg (energy)) div (temperature))
 symbol_overrides:
-- entropy: "\\Delta S_{\\text{surr}}"
-- energy: "\\Delta H"
+- entropy: ΔS_surr
+- energy: ΔH
 - temperature: ''
 name_overrides:
 - entropy: '[Entropy] change of surroundings'

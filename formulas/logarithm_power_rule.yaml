@@ -2,7 +2,7 @@ name: Logarithm power rule
 id: logarithm_power_rule
 topic: logarithms
 difficulty: 2
-equation: ln (dimensionless pow dimensionless ) eq dimensionless mul ln dimensionless
+equation: (ln ((dimensionless) pow (dimensionless))) eq ((dimensionless) mul (ln (dimensionless)))
 symbol_overrides:
 - dimensionless: x
 - dimensionless: n

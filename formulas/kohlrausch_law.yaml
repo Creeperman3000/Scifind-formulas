@@ -2,11 +2,11 @@ name: Kohlrausch's law of independent migration
 id: kohlrausch_law
 topic: electrochemistry
 difficulty: 2
-equation: conductance eq conductance add conductance
+equation: (conductance) eq ((conductance) add (conductance))
 symbol_overrides:
-- conductance: "\\Lambda^{\\circ}_{\\text{m}}"
-- conductance: "\\lambda^{\\circ}_{\\text{cation}}"
-- conductance: "\\lambda^{\\circ}_{\\text{anion}}"
+- conductance: Λ°_m
+- conductance: λ°_cation
+- conductance: λ°_anion
 name_overrides:
 - conductance: Limiting molar [conductivity]
 - conductance: Cation limiting [conductivity]

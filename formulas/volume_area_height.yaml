@@ -1,9 +1,8 @@
-name: Volume (A × h)
+name: Volume from cross-sectional area and height
 id: volume_area_height
 topic: plane_geometry
 difficulty: 1
-description: "Volume from cross-sectional area and height; V = A h."
-equation: volume eq area mul length
+equation: (volume) eq ((area) mul (length))
 symbol_overrides:
 - volume: ''
 - area: ''

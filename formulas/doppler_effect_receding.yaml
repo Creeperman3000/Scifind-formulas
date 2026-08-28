@@ -2,17 +2,16 @@ name: Doppler effect with source receding
 id: doppler_effect_receding
 topic: mechanical_waves
 difficulty: 3
-equation: frequency eq frequency mul (velocity frac (velocity add
-  velocity ) )
+equation: (frequency) eq ((frequency) mul ((velocity) div ((velocity) add (velocity))))
 symbol_overrides:
 - frequency: f'
-- frequency: f
-- velocity: v
-- velocity: v
+- frequency: ''
 - velocity: v_s
+- velocity: ''
+- velocity: ''
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
 - velocity: Wave [speed]
-- velocity: Wave [speed]
+- velocity: ''
 - velocity: Source [speed]

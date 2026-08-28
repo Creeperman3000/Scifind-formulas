@@ -2,10 +2,12 @@ name: Crystal field splitting energy (octahedral)
 id: crystal_field_splitting_octahedral
 topic: inorganic_chemistry
 difficulty: 4
-equation: energy eq 10 mul energy
+equation: (energy) eq ((dimensionless) mul (energy))
 symbol_overrides:
-- energy: "\\Delta_{\\text{oct}}"
-- energy: Dq
+- energy: Δ_oct
+- dimensionless: Δ_oct
+- energy: ''
 name_overrides:
 - energy: Octahedral crystal field splitting
+- dimensionless: Number of d-electrons
 - energy: Spectrochemical series parameter

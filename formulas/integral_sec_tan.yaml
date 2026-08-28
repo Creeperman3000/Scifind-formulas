@@ -2,9 +2,9 @@ name: Integral of sec x tan x
 id: integral_sec_tan
 topic: integrals
 difficulty: 3
-equation: dimensionless eq 1 frac cos angle
+equation: (dimensionless) eq ((cos (angle)) div 1)
 symbol_overrides:
-- dimensionless: "\\int\\sec x\\,\\tan x\\,\\mathrm{d}x"
+- dimensionless: ∫sec x tan x dx
 - angle: x
 name_overrides:
 - dimensionless: ∫ sec x tan x dx

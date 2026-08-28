@@ -2,14 +2,14 @@ name: Work as dot product of force and displacement
 id: work_force_displacement_general
 topic: work
 difficulty: 1
-equation: energy eq force mul length mul cos angle
+equation: (work) eq (((force) mul (displacement)) mul (cos (angle)))
 symbol_overrides:
-- energy: ''
+- work: ''
 - force: ''
-- length: ''
-- angle: "\\theta"
+- displacement: ''
+- angle: θ
 name_overrides:
-- energy: '[Energy]'
+- work: '[Work]'
 - force: ''
-- length: ''
+- displacement: ''
 - angle: Angle between [force] and [displacement]

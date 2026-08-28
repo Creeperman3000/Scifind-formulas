@@ -2,10 +2,10 @@ name: Integral of csc x cot x
 id: integral_csc_cot
 topic: integrals
 difficulty: 3
-equation: dimensionless eq neg dimensionless
+equation: (dimensionless) eq (neg ((sin (angle)) div 1))
 symbol_overrides:
-- dimensionless: \int \csc x \cot x dx
-- dimensionless: \csc x
+- dimensionless: ∫csc x cot x dx
+- angle: x
 name_overrides:
-- dimensionless: Integral of csc x cot x
-- dimensionless: cosecant
+- dimensionless: ∫ csc x cot x dx
+- angle: '[Variable]'

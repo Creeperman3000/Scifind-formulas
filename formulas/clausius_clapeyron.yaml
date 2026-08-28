@@ -2,17 +2,18 @@ name: Clausius-Clapeyron equation
 id: clausius_clapeyron
 topic: solutions
 difficulty: 5
-equation: ln (pressure frac pressure ) eq neg (molar_energy frac
-  gas_constant ) mul (1 frac temperature sub 1 frac temperature )
+equation: (ln ((pressure) div (pressure))) eq ((neg ((molar_energy) div (gas_constant))) mul (((temperature) div 1) sub ((temperature) div 1)))
 symbol_overrides:
 - pressure: P_2
 - pressure: P_1
-- molar_energy: "\\Delta H_{\\text{vap}}"
+- molar_energy: ΔH_vap
+- gas_constant: ''
 - temperature: T_2
 - temperature: T_1
 name_overrides:
 - pressure: Final vapor [pressure]
 - pressure: Initial vapor [pressure]
 - molar_energy: Enthalpy of [vaporization]
+- gas_constant: ''
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

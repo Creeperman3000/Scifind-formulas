@@ -2,12 +2,12 @@ name: Partial pressure from mole ratio
 id: ideal_gas_partial_pressure_mole_ratio
 topic: ideal_gases
 difficulty: 2
-equation: pressure eq pressure mul (amount frac amount )
+equation: (pressure) eq ((pressure) mul ((amount) div (amount)))
 symbol_overrides:
 - pressure: P_i
-- pressure: P_{\mathrm{total}}
+- pressure: P_total
 - amount: n_i
-- amount: n_{\mathrm{total}}
+- amount: n_total
 name_overrides:
 - pressure: Partial [pressure]
 - pressure: Total [pressure]

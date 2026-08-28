@@ -1,14 +1,15 @@
-name: Reaction rate
+name: Reaction rate from appearance of product
 id: reaction_rate_appearance
 topic: chemical_reactions
 difficulty: 2
-description: "Reaction rate from rate of product appearance; r = (1/ν) d[P]/dt."
-equation: catalytic_activity eq concentration frac time
+equation: ((concentration) div (time)) eq ((concentration) div (time))
 symbol_overrides:
-- catalytic_activity: r
-- concentration: "\\Delta[\\mathrm{P}]"
-- time: "\\Delta t"
+- concentration: rate
+- time: Δt
+- concentration: Δ[P]
+- time: ''
 name_overrides:
-- catalytic_activity: Reaction rate
-- concentration: Change in product [concentration]
+- concentration: Reaction rate
 - time: Change in [time]
+- concentration: Change in product [concentration]
+- time: ''

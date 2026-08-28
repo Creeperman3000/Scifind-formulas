@@ -2,12 +2,12 @@ name: Resonance bandwidth
 id: resonance_bandwidth
 topic: circuits
 difficulty: 4
-equation: frequency eq resistance frac (2 mul pi mul inductance )
+equation: (frequency) eq ((frequency) div (dimensionless))
 symbol_overrides:
-- frequency: "\\Delta f"
-- resistance: R
-- inductance: L
+- frequency: Δf
+- frequency: f₀
+- dimensionless: Q
 name_overrides:
 - frequency: Bandwidth
-- resistance: Resistance
-- inductance: Inductance
+- frequency: Resonant [frequency]
+- dimensionless: Quality [factor]

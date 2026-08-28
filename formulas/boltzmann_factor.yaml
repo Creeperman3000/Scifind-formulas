@@ -2,8 +2,7 @@ name: Boltzmann factor
 id: boltzmann_factor
 topic: entropy
 difficulty: 3
-equation: dimensionless prop exp neg (energy frac (boltzmann_constant
-  mul temperature ) )
+equation: (dimensionless) prop (exp (neg ((energy) div ((boltzmann_constant) mul (temperature)))))
 symbol_overrides:
 - dimensionless: P(E)
 - energy: ''

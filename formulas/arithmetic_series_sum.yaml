@@ -2,8 +2,7 @@ name: Sum of arithmetic series
 id: arithmetic_series_sum
 topic: arithmetic
 difficulty: 2
-equation: dimensionless eq dimensionless mul (dimensionless add
-  dimensionless ) frac 2
+equation: (dimensionless) eq (((dimensionless) mul ((dimensionless) add (dimensionless))) div 2)
 symbol_overrides:
 - dimensionless: S_n
 - dimensionless: n

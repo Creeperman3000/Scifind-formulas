@@ -2,14 +2,14 @@ name: Internal energy of an ideal monatomic gas
 id: internal_energy_ideal_gas
 topic: ideal_gases
 difficulty: 3
-description: "Valid for an ideal monatomic gas; U = (3/2) n R T."
-equation: energy eq 3 mul (amount mul gas_constant mul temperature )
-  frac 2
+equation: (energy) eq (((((amount) mul (gas_constant)) mul (temperature)) mul 3) div 2)
 symbol_overrides:
 - energy: U
 - amount: ''
+- gas_constant: ''
 - temperature: ''
 name_overrides:
 - energy: Internal [energy]
 - amount: ''
+- gas_constant: ''
 - temperature: ''

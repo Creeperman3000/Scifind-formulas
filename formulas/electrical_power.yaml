@@ -2,7 +2,7 @@ name: Electrical power
 id: electrical_power
 topic: circuits
 difficulty: 1
-equation: power eq electric_potential mul current
+equation: (power) eq ((electric_potential) mul (current))
 symbol_overrides:
 - power: ''
 - electric_potential: ''

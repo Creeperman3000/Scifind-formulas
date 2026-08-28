@@ -2,28 +2,26 @@ name: Van der Waals equation
 id: van_der_waals_equation
 topic: ideal_gases
 difficulty: 4
-description: "Approximate real-gas equation of state; reduces to the ideal gas law at low density."
-description: "Approximate real-gas equation of state; reduces to the ideal gas law at low density."
-equation: (pressure add van_der_waals_attraction mul amount pow 2 frac
-  volume pow 2 ) mul (volume sub amount mul van_der_waals_volume ) eq
-  amount mul gas_constant mul temperature
+equation: ((((pressure) pow (amount)) add (((2 mul (van_der_waals_attraction)) pow (volume)) div 2)) mul ((volume) sub ((amount) mul (van_der_waals_volume)))) eq (((amount) mul (gas_constant)) mul (temperature))
 symbol_overrides:
-- pressure: P
-- van_der_waals_attraction: a
-- amount: n
-- volume: V
-- volume: V
-- amount: n
-- van_der_waals_volume: b
-- amount: n
-- temperature: T
+- pressure: ''
+- amount: ''
+- van_der_waals_attraction: ''
+- volume: ''
+- volume: ''
+- amount: ''
+- van_der_waals_volume: ''
+- amount: ''
+- gas_constant: ''
+- temperature: ''
 name_overrides:
-- pressure: '[Pressure]'
+- pressure: ''
+- amount: Amount
 - van_der_waals_attraction: Attraction parameter
-- amount: Amount
-- volume: '[Volume]'
-- volume: '[Volume]'
-- amount: Amount
+- volume: ''
+- volume: ''
+- amount: ''
 - van_der_waals_volume: Volume parameter
-- amount: Amount
-- temperature: '[Temperature]'
+- amount: ''
+- gas_constant: ''
+- temperature: ''

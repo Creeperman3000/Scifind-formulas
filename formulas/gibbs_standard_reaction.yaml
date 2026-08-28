@@ -2,13 +2,13 @@ name: Standard Gibbs free energy of reaction
 id: gibbs_standard_reaction
 topic: thermochemistry
 difficulty: 3
-equation: energy eq dimensionless mul energy sub dimensionless mul energy
+equation: (energy) eq (((dimensionless) mul (energy)) sub ((dimensionless) mul (energy)))
 symbol_overrides:
-- energy: "\\Delta G^{\\circ}_{\\text{rxn}}"
-- dimensionless: "\\nu"
-- energy: "\\Delta G^{\\circ}_{\\text{f}}(\\text{products})"
-- dimensionless: "\\nu"
-- energy: "\\Delta G^{\\circ}_{\\text{f}}(\\text{reactants})"
+- energy: ΔG°_rxn
+- dimensionless: ν
+- energy: ΔG°_f(products)
+- dimensionless: ν
+- energy: ΔG°_f(reactants)
 name_overrides:
 - energy: Standard Gibbs [energy] change
 - dimensionless: Stoichiometric coefficient

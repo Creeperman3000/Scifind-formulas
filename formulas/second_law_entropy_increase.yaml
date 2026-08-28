@@ -2,8 +2,8 @@ name: 'Second law: entropy of isolated system'
 id: second_law_entropy_increase
 topic: second_law
 difficulty: 2
-equation: (entropy) geq (0)
+equation: Delta((entropy)) gt 0
 symbol_overrides:
-- entropy: \Delta S
+- entropy: ΔS
 name_overrides:
-- entropy: Change in [entropy] of isolated [system]
+- entropy: Change in entropy of isolated [system]

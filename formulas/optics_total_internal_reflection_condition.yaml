@@ -2,10 +2,10 @@ name: Condition for total internal reflection
 id: optics_total_internal_reflection_condition
 topic: refraction
 difficulty: 2
-equation: angle gt angle
+equation: (angle) gt (angle)
 symbol_overrides:
-- angle: "\\theta_{\\text{i}}"
-- angle: "\\theta_{\\text{c}}"
+- angle: θ_i
+- angle: θ_c
 name_overrides:
 - angle: Angle of incidence
 - angle: Critical [angle]

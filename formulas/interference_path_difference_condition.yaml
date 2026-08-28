@@ -1,13 +1,12 @@
-name: Interference condition
+name: Interference condition from path difference
 id: interference_path_difference_condition
 topic: wave_interference
 difficulty: 2
-description: "Constructive/destructive condition from path difference; Δ = mλ (constructive) or (m+½)λ (destructive)."
-equation: length eq dimensionless mul length
+equation: (length) eq ((dimensionless) mul (length))
 symbol_overrides:
-- length: "\\Delta L"
+- length: ΔL
 - dimensionless: m
-- length: "\\lambda"
+- length: λ
 name_overrides:
 - length: Path [difference]
 - dimensionless: Order

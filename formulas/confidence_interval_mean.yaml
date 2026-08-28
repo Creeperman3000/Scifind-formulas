@@ -2,15 +2,17 @@ name: Confidence interval margin of error
 id: confidence_interval_mean
 topic: statistics
 difficulty: 3
-equation: dimensionless eq dimensionless mul dimensionless frac sqrt
-  dimensionless
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) mul ((dimensionless)
+  div (sqrt  (dimensionless) 2))))
 symbol_overrides:
 - dimensionless: E
-- dimensionless: z^*
-- dimensionless: \sigma
+- dimensionless: z*
+- dimensionless: σ
 - dimensionless: n
+- dimensionless: ''
 name_overrides:
 - dimensionless: Margin of error
 - dimensionless: Critical value
 - dimensionless: Standard deviation
 - dimensionless: Sample size
+- dimensionless: ''

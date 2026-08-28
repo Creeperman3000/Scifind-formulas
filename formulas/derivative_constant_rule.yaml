@@ -2,10 +2,10 @@ name: Derivative of a constant
 id: derivative_constant_rule
 topic: derivatives
 difficulty: 1
-equation: (rmd dimensionless) frac (rmd angle) eq 0
+equation: ((dimensionless) mul (rmd (dimensionless))) eq 0
 symbol_overrides:
 - dimensionless: c
-- angle: x
+- dimensionless: ''
 name_overrides:
-- dimensionless: Constant c
-- angle: '[Variable]'
+- dimensionless: d(c)/dx
+- dimensionless: ''

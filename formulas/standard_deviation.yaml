@@ -2,12 +2,10 @@ name: Standard deviation
 id: standard_deviation
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq (sqrt ((dimensionless) frac (dimensionless)))
+equation: (dimensionless) eq sqrt ((dimensionless)) 2
 symbol_overrides:
-- dimensionless: \sigma
-- dimensionless: \sum (x_i - \mu)^2
-- dimensionless: N
+- dimensionless: σ
+- dimensionless: σ²
 name_overrides:
 - dimensionless: Standard deviation
-- dimensionless: Sum of squared deviations
-- dimensionless: Number of values
+- dimensionless: Variance

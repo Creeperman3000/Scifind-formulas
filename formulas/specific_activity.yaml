@@ -2,14 +2,12 @@ name: Specific activity
 id: specific_activity
 topic: nuclear_physics
 difficulty: 2
-equation: activity eq decay_constant mul amount frac mass
+equation: (activity) eq ((amount) div (mass))
 symbol_overrides:
 - activity: a
-- decay_constant: "\\lambda"
-- amount: N
-- mass: m
+- amount: λ
+- mass: ''
 name_overrides:
 - activity: Specific [activity]
-- decay_constant: Decay constant
-- amount: Number of nuclei
+- amount: Decay constant
 - mass: Mass of sample

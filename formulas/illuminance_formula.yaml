@@ -2,7 +2,7 @@ name: Illuminance from luminous flux and area
 id: illuminance_formula
 topic: electromagnetic_waves
 difficulty: 2
-equation: illuminance eq luminous_flux frac area
+equation: (illuminance) eq ((luminous_flux) div (area))
 symbol_overrides:
 - illuminance: ''
 - luminous_flux: ''

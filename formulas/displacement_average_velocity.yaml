@@ -2,14 +2,14 @@ name: Displacement from average velocity
 id: displacement_average_velocity
 topic: constant_acceleration
 difficulty: 1
-equation: length eq (velocity add velocity ) frac 2 mul time
+equation: (displacement) eq ((((velocity) add (velocity)) div 2) mul (time))
 symbol_overrides:
-- length: ''
+- displacement: ''
 - velocity: u
 - velocity: ''
 - time: ''
 name_overrides:
-- length: ''
+- displacement: ''
 - velocity: Initial [velocity]
 - velocity: Final [velocity]
 - time: ''

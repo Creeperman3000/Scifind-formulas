@@ -2,10 +2,9 @@ name: Angle of repose
 id: angle_of_repose
 topic: friction
 difficulty: 2
-description: "Valid for static friction on an inclined plane; tan θ = μ_s where μ_s is the static coefficient."
-equation: angle eq atan coefficient_of_friction
+equation: (angle) eq atan((coefficient_of_friction))
 symbol_overrides:
-- angle: "\\theta"
+- angle: θ
 - coefficient_of_friction: ''
 name_overrides:
 - angle: Angle of [repose]

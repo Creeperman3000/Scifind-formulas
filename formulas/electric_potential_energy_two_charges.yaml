@@ -2,8 +2,7 @@ name: Electric potential energy of two point charges
 id: electric_potential_energy_two_charges
 topic: potential_energy
 difficulty: 2
-description: "Valid for two point charges, or spherically symmetric charge distributions."
-equation: energy eq coulomb_constant mul charge mul charge frac length
+equation: (energy) eq ((((coulomb_constant) mul (charge)) mul (charge)) div (length))
 symbol_overrides:
 - energy: U
 - charge: q_1
