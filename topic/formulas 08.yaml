@@ -1,0 +1,1198 @@
+"30-60-90 special right triangle": right_triangles
+"30-60-90 triangle short leg relation": right_triangles
+"3D distance formula": coordinate_geometry
+"3D vector norm (magnitude)": linear_algebra
+"AC circuit power factor": circuits
+"Absolute pressure": pressure
+"Absolute zero temperature": temperature
+"Absorbance from transmittance": analytical_chemistry
+"Absorbed dose rate": nuclear_physics
+"Absorbed dose": nuclear_physics
+"Absorption coefficient from absorbance": analytical_chemistry
+"Acceleration from net force": newtons_laws
+"Acceleration of an Atwood machine": newtons_laws
+"Acid dissociation constant": acids_and_bases
+"Activity at time t": nuclear_physics
+"Activity from decay constant": nuclear_physics
+"Activity from half-life and number of nuclei": nuclear_physics
+"Activity ratio in secular equilibrium": nuclear_physics
+"Addition rule for probability": probability
+"Adiabatic Process": first_law
+"Adiabatic relation (temperature-volume)": first_law
+"Adiabatic work of an ideal gas": first_law
+"Altitude of a triangle": triangles
+"Amount of substance from mass": mole_concept
+"Ampere's law": magnetism
+"Ampere-Maxwell law": magnetism
+"Amplitude modulation wave": electromagnetic_waves
+"Analytical Sensitivity": analytical_chemistry
+"Angle difference identity for cosine": trigonometric_identities
+"Angle difference identity for sine": trigonometric_identities
+"Angle difference identity for tangent": trigonometric_identities
+"Angle of deviation by a plane mirror": reflection
+"Angle of repose": friction
+"Angle sum identity for cosine": trigonometric_identities
+"Angle sum identity for sine": trigonometric_identities
+"Angle sum identity for tangent": trigonometric_identities
+"Angular Radius Of The Airy Disk": diffraction
+"Angular acceleration from torque": torque
+"Angular displacement at constant angular acceleration": circular_motion
+"Angular displacement from rotation": circular_motion
+"Angular frequency of a simple pendulum": harmonic_motion
+"Angular frequency of a spring-mass system": harmonic_motion
+"Angular frequency": harmonic_motion
+"Angular momentum from torque impulse": angular_momentum
+"Angular momentum of a point particle": angular_momentum
+"Angular momentum of a system": angular_momentum
+"Angular momentum quantization": quantum_mechanics
+"Angular momentum vector": angular_momentum
+"Angular momentum z-component eigenvalue": quantum_mechanics
+"Angular momentum": angular_momentum
+"Angular velocity at constant angular acceleration": circular_motion
+"Angular velocity definition": circular_motion
+"Angular velocity squared relation": circular_motion
+"Angular wavenumber from wavelength": mechanical_waves
+"Anti-reflective coating condition": interference
+"Apparent depth formula": refraction
+"Apparent weight in fluid": buoyancy
+"Arc length from angle in radians": circles
+"Arc length": circles
+"Area of a circle": circles
+"Area of a circular segment": circles
+"Area of a kite": plane_geometry
+"Area of a polygon by triangulation": polygons
+"Area of a rectangle": plane_geometry
+"Area of a regular hexagon": polygons
+"Area of a regular polygon (regular_polygon_area)": polygons
+"Area of a regular polygon": polygons
+"Area of a sector": circles
+"Area of a spherical zone": plane_geometry
+"Area of a squere": plane_geometry
+"Area of a trapezoid": plane_geometry
+"Area of a triangle": triangles
+"Area of an annular sector": plane_geometry
+"Area of an annulus": circles
+"Area of an ellipse": plane_geometry
+"Area thermal expansion": heat
+"Arithmetic mean": statistics
+"Arrhenius activation energy from two temperatures": chemical_kinetics
+"Arrhenius equation": chemical_kinetics
+"Asymptote equation of a hyperbola": coordinate_geometry
+"Atom economy (percent_yield_atom_economy)": percent_yield
+"Atom economy": percent_yield
+"Atomic mass defect": nuclear_physics
+"Atomic number from composition": atomic_structure
+"Atomic number": atomic_structure
+"Average atomic mass": atomic_structure
+"Average force from impulse": impulse
+"Average impact force from momentum change": impulse
+"Average kinetic energy per molecule": ideal_gases
+"Average power in an AC resistive circuit": circuits
+"Average rate of a chemical reaction": chemical_kinetics
+"Average speed from Maxwell-Boltzmann distribution": ideal_gases
+"Average velocity definition": constant_acceleration
+"Average velocity from initial and final": constant_acceleration
+"Average velocity": constant_acceleration
+"Banking angle": circular_motion
+"Bayes factor": probability
+"Bayes' theorem": probability
+"Beat frequency": wave_interference
+"Beer-Lambert law": analytical_chemistry
+"Bernoulli differential equation": differential_equations
+"Bernoulli energy head form": bernoulli_equation
+"Bernoulli stagnation pressure": bernoulli_equation
+"Bernoulli's equation for horizontal flow": bernoulli_equation
+"Bernoulli's equation": bernoulli_equation
+"Bernoulli: pressure-velocity relation (horizontal)": bernoulli_equation
+"Binding energy per nucleon": nuclear_physics
+"Binomial Expansion (Cubed Difference)": polynomials
+"Binomial Theorem (Cubed)": polynomials
+"Binomial probability mass function": probability
+"Biot-Savart law (current element)": magnetism
+"Bohr magneton": atomic_physics
+"Bohr model electron velocity": atomic_physics
+"Bohr orbital radius": atomic_physics
+"Bohr radius definition": atomic_physics
+"Bohr radius": atomic_physics
+"Boiling point elevation": solutions
+"Boltzmann factor": ideal_gases
+"Boltzmann's entropy formula": entropy
+"Bond Dissociation Energy": chemical_bonding
+"Bond order": chemical_bonding
+"Born rule for probability density": quantum_mechanics
+"Born-Landé lattice energy equation": inorganic_chemistry
+"Boyle's law": ideal_gases
+"Bragg's law": diffraction
+"Brewster's angle from refractive indices": polarization
+"Buoyant force from displaced volume": buoyancy
+"Buoyant force": buoyancy
+"Calibration curve (linear regression model)": analytical_chemistry
+"Canonical commutation relation": quantum_mechanics
+"Capacitance definition": capacitance
+"Capacitive reactance": circuits
+"Capacitor charging current": capacitance
+"Capacitor energy from voltage and charge": capacitance
+"Capacitor voltage during RC charging": circuits
+"Capacitors in parallel": capacitance
+"Capacitors in series (general formula)": capacitance
+"Capacitors in series (two)": capacitance
+"Capillary rise": surface_tension
+"Carnot efficiency in terms of temperatures": heat_engines
+"Carnot efficiency": heat_engines
+"Catalytic activity concentration": biochemistry
+"Catalytic efficiency": biochemistry
+"Celsius to Fahrenheit conversion": temperature
+"Celsius to Kelvin conversion": temperature
+"Center of mass of two particles": linear_momentum
+"Center of mass x-coordinate": linear_momentum
+"Central force in Newtonian gravitation": newtonian_gravity
+"Centripetal acceleration (centripetal_acceleration_formula)": circular_motion
+"Centripetal acceleration in terms of angular velocity": circular_motion
+"Centripetal acceleration": circular_motion
+"Centripetal force": circular_motion
+"Centroid of a triangle (coordinates)": coordinate_geometry
+"Centroid of a triangle (x-coordinate)": coordinate_geometry
+"Chain rule": derivatives
+"Charge carrier density calculation": current_electricity
+"Charge density from charge and volume": electrostatics
+"Charge stored in a capacitor": capacitance
+"Charles's law": ideal_gases
+"Chi-squared statistic": statistics
+"Chord length": circles
+"Chromatographic resolution": analytical_chemistry
+"Circle area from diameter": circles
+"Circular polarization amplitude condition": polarization
+"Circumference of a circle": circles
+"Circumradius of a triangle": triangles
+"Clausius inequality": second_law
+"Clausius statement of the second law": second_law
+"Clausius-Clapeyron equation": solutions
+"Coefficient of determination": statistics
+"Coefficient of performance (refrigerator)": heat_engines
+"Coefficient of performance of a heat pump": heat_engines
+"Coefficient of performance of a refrigerator": heat_engines
+"Coefficient of restitution": collisions
+"Coefficient of static friction": friction
+"Coefficient of variation": statistics
+"Coherence length from bandwidth (physical_optics_coherence_length)": interference
+"Coherence length from bandwidth": interference
+"Coherence time from bandwidth": interference
+"Combined gas law": ideal_gases
+"Common difference of an arithmetic sequence": arithmetic
+"Competitive inhibition velocity": biochemistry
+"Complement rule of probability": probability
+"Compound interest future value": arithmetic
+"Compton scattering wavelength shift (compton_shift_equation)": quantum_mechanics
+"Compton scattering wavelength shift": quantum_mechanics
+"Compton wavelength": quantum_mechanics
+"Concentration from amount and volume": solutions
+"Concentration from mass and volume": solutions
+"Concentration in ppm": solutions
+"Condition for total internal reflection": refraction
+"Conditional probability": probability
+"Conductance from resistance": current_electricity
+"Confidence interval margin of error": statistics
+"Conservation of angular momentum": angular_momentum
+"Conservation of mechanical energy": conservation_of_energy
+"Conservation of momentum in 2D": linear_momentum
+"Conservation of momentum in one dimension": linear_momentum
+"Constructive interference condition": wave_interference
+"Contact angle from Young's equation": surface_tension
+"Continuity equation": continuity_equation
+"Conversion efficiency from yield": percent_yield
+"Convex mirror focal length sign": mirrors
+"Coordination number definition": inorganic_chemistry
+"Cosecant Squared Identity": trigonometric_identities
+"Cosecant identity": trigonometric_identities
+"Cosine definition": trigonometric_identities
+"Cosine double angle (cosine form)": trigonometric_identities
+"Cosine squared identity": trigonometric_identities
+"Cotangent identity": trigonometric_identities
+"Coulomb force in a dielectric medium": electrostatics
+"Coulomb force in vacuum": electrostatics
+"Coulomb's law": electrostatics
+"Coulombic contribution to lattice energy": inorganic_chemistry
+"Covariance of two variables": statistics
+"Critical Reynolds number for transition to turbulence": reynolds_number
+"Critical Reynolds number": reynolds_number
+"Critical angle for total internal reflection": refraction
+"Cross product magnitude": linear_algebra
+"Crystal field splitting energy (octahedral)": inorganic_chemistry
+"Crystal field stabilization energy (octahedral)": inorganic_chemistry
+"Current density": current_electricity
+"Current division in parallel resistors (two)": circuits
+"Current from drift velocity": current_electricity
+"Current growth in an RL circuit": circuits
+"Cyclotron frequency": magnetism
+"Cyclotron radius": magnetism
+"Dalton's law of partial pressures": ideal_gases
+"Damped harmonic oscillator differential equation": differential_equations
+"De Broglie wavelength": quantum_mechanics
+"Definite integral as area": integrals
+"Definition of pH": acids_and_bases
+"Degree of polarization from intensity": polarization
+"Degree of polymerization": organic_chemistry
+"Degree of unsaturation (DBE) definition": organic_chemistry
+"Degree of unsaturation": organic_chemistry
+"Density from buoyant force measurement": buoyancy
+"Density of an ideal gas": ideal_gases
+"Density": mole_concept
+"Derivative constant multiple rule": derivatives
+"Derivative of Absolute Value": derivatives
+"Derivative of Log Base a": derivatives
+"Derivative of a constant": derivatives
+"Derivative of arccosine": derivatives
+"Derivative of arcsine": derivatives
+"Derivative of arctangent": derivatives
+"Derivative of cosecant": derivatives
+"Derivative of cosine": derivatives
+"Derivative of cotangent": derivatives
+"Derivative of exponential with base": derivatives
+"Derivative of exponential": derivatives
+"Derivative of natural logarithm": derivatives
+"Derivative of secant": derivatives
+"Derivative of sine": derivatives
+"Derivative of tangent": derivatives
+"Derivative power rule": derivatives
+"Derivative sum rule": derivatives
+"Destructive interference condition": wave_interference
+"Destructive interference path difference": wave_interference
+"Determinant of a 2×2 matrix": linear_algebra
+"Diesel cycle efficiency": heat_engines
+"Difference of cubes": polynomials
+"Difference of squares": polynomials
+"Diffraction grating equation (diffraction_grating_equation)": diffraction
+"Diffraction grating equation": diffraction
+"Dilution Equation": solutions
+"Dilution factor": solutions
+"Direction of heat flow (second law)": second_law
+"Discriminant of a quadratic": polynomials
+"Displacement at constant acceleration": constant_acceleration
+"Displacement from average velocity": constant_acceleration
+"Displacement using average velocity": constant_acceleration
+"Displacement using final velocity": constant_acceleration
+"Distance formula in 2D": coordinate_geometry
+"Distance from a point to a line": coordinate_geometry
+"Doppler effect for sound": mechanical_waves
+"Doppler effect with source approaching": mechanical_waves
+"Doppler effect with source receding": mechanical_waves
+"Dose equivalent": nuclear_physics
+"Dot product of two 2D vectors": linear_algebra
+"Dot product of two 3D vectors": linear_algebra
+"Double slit fringe spacing": interference
+"Double-angle formula for cosine": trigonometric_identities
+"Double-angle formula for sine": trigonometric_identities
+"Double-slit bright fringe position": interference
+"Double-slit interference path difference": interference
+"Drag force on an object in a fluid": reynolds_number
+"Drift velocity": current_electricity
+"Dynamic pressure from Bernoulli's equation": bernoulli_equation
+"Dynamic pressure from density and velocity": bernoulli_equation
+"Dynamic viscosity from shear stress": reynolds_number
+"Dynamics: normal force on incline": newtons_laws
+"Dynamics: tension in a hanging mass": newtons_laws
+"EM wave frequency from wavelength": electromagnetic_waves
+"EMF induced in an inductor": electromagnetic_induction
+"Eccentricity of a hyperbola": coordinate_geometry
+"Eccentricity of an ellipse": coordinate_geometry
+"Effective nuclear charge (Slater's rules)": atomic_structure
+"Eigenvalue equation": linear_algebra
+"Elastic collision final velocity 1 (1D)": collisions
+"Elastic collision final velocity 2 (1D)": collisions
+"Elastic energy density": potential_energy
+"Elastic potential energy from force": potential_energy
+"Elastic potential energy": potential_energy
+"Electric current definition": current_electricity
+"Electric dipole moment": electrostatics
+"Electric energy density of an EM wave": electromagnetic_waves
+"Electric field between parallel plates": electric_fields
+"Electric field definition": electric_fields
+"Electric field inside a uniformly charged sphere": electric_fields
+"Electric field of a point charge": electric_fields
+"Electric field of an infinite line charge": electric_fields
+"Electric field of an infinite plane": electric_fields
+"Electric field on the axis of a charged ring": electric_fields
+"Electric field on the axis of a dipole": electric_fields
+"Electric field perpendicular to dipole axis": electric_fields
+"Electric force on a charge in a field": electric_fields
+"Electric potential energy in uniform field": electric_potential
+"Electric potential energy of a charge configuration": electric_potential
+"Electric potential energy of point charges": electric_potential
+"Electric potential energy of two point charges (electric_potential_energy_two_charges)": electric_potential
+"Electric potential energy of two point charges": electric_potential
+"Electric potential from multiple point charges": electric_potential
+"Electric potential in uniform field": electric_potential
+"Electric potential of a dipole": electric_potential
+"Electric potential of a point charge": electric_potential
+"Electric potential on axis of a charged ring": electric_potential
+"Electrical conductivity from resistivity": current_electricity
+"Electrical energy from power and time": circuits
+"Electrical power from current and resistance (electrical_power_current_resistance)": circuits
+"Electrical power from current and resistance": circuits
+"Electrical power": circuits
+"Electron capacity of a subshell": atomic_structure
+"Electronegativity difference": chemical_bonding
+"Ellipse area from semi-axes": plane_geometry
+"Enantiomeric excess": organic_chemistry
+"Energy conservation with nonconservative work": conservation_of_energy
+"Energy density in a capacitor (vacuum)": capacitance
+"Energy density of a magnetic field": magnetism
+"Energy loss due to friction": friction
+"Energy loss due to kinetic friction": friction
+"Energy stored in a capacitor from charge": capacitance
+"Energy stored in a capacitor": capacitance
+"Energy stored in an inductor": electromagnetic_induction
+"Energy-momentum invariant": relativity
+"Engineering strain": forces
+"Enthalpy change at constant pressure": thermochemistry
+"Enthalpy change from heat at constant pressure": thermochemistry
+"Enthalpy definition": thermochemistry
+"Entropy change for isothermal expansion of ideal gas": entropy
+"Entropy change for reversible heat transfer": entropy
+"Entropy change of ideal gas with temperature and volume": entropy
+"Entropy change of surroundings (reversible)": entropy
+"Entropy change of surroundings at constant pressure": entropy
+"Entropy change of surroundings": entropy
+"Entropy change of the universe": entropy
+"Entropy of mixing ideal gases": entropy
+"Enzyme assay specific activity": biochemistry
+"Enzyme reaction velocity definition": biochemistry
+"Enzyme turnover number": biochemistry
+"Equilibrium constant definition": chemical_equilibrium
+"Equilibrium constant from concentrations": chemical_equilibrium
+"Equilibrium constant from standard Gibbs": chemical_equilibrium
+"Equivalent resistance of n equal parallel resistors": circuits
+"Equivalent resistance of n equal series resistors": circuits
+"Equivalent spring constant (series)": springs
+"Error propagation for sum": statistics
+"Escape kinetic energy": escape_velocity
+"Escape velocity from a spherical body": escape_velocity
+"Escape velocity from density and radius": escape_velocity
+"Escape velocity from gravitational potential": escape_velocity
+"Escape velocity from mass and radius": escape_velocity
+"Escape velocity from orbital velocity": escape_velocity
+"Escape velocity using surface gravity": escape_velocity
+"Escape velocity": escape_velocity
+"Euclidean norm of a vector": linear_algebra
+"Euler's formula for triangle distance": triangles
+"Euler-Lagrange equation": differential_equations
+"Excess pressure inside a spherical bubble": surface_tension
+"Excess pressure inside a spherical droplet": surface_tension
+"Excess reactant remaining mass (limiting_reactant_excess_mass_calc)": limiting_reactants
+"Excess reactant remaining mass": limiting_reactants
+"Excess reactant remaining": limiting_reactants
+"Expected value of a binomial distribution": probability
+"Expected value of a discrete random variable": probability
+"Exponent as inverse of logarithm": exponents
+"Exponent power rule": exponents
+"Exponent product rule": exponents
+"Exponent quotient rule": exponents
+"Exponential decay differential equation": differential_equations
+"Exponential growth differential equation": differential_equations
+"Exponential growth solution": differential_equations
+"Extended law of sines (circumdiameter)": laws_of_sines_and_cosines
+"Exterior angle of a regular polygon": polygons
+"F-number of a lens": lenses
+"F-statistic for regression": statistics
+"Factorial definition": arithmetic
+"Fahrenheit to Celsius conversion": temperature
+"Faraday constant in terms of fundamental constants": electrochemistry
+"Faraday's law of induction": electromagnetic_induction
+"Faraday's law with N turns": electromagnetic_induction
+"Faraday-Lenz law": electromagnetic_induction
+"Fine-structure constant": atomic_physics
+"First law for a cyclic process": first_law
+"First law of thermodynamics for isobaric process": first_law
+"First law of thermodynamics for isochoric process": first_law
+"First law of thermodynamics": first_law
+"First law: adiabatic process": first_law
+"First law: internal energy change": first_law
+"First-order half-life": chemical_kinetics
+"Flow velocity from pipe radius change": continuity_equation
+"Focal length of a spherical mirror": mirrors
+"Force between parallel current-carrying wires": magnetism
+"Force from pressure": pressure
+"Forced damped harmonic oscillator ODE": differential_equations
+"Formal charge calculation": chemical_bonding
+"Formal charge": chemical_bonding
+"Fourier's law of heat conduction": heat_transfer
+"Fraction of object submerged in fluid": buoyancy
+"Fraction raised to an exponent": exponents
+"Fractional conversion to percent yield": percent_yield
+"Fractional exponent rule": exponents
+"Free fall height from time": constant_acceleration
+"Free fall velocity from height": constant_acceleration
+"Frequency from period": harmonic_motion
+"Friction force on a horizontal surface": friction
+"Friction force": friction
+"Fringe spacing in double-slit": interference
+"Froude number": reynolds_number
+"Galilean velocity addition": constant_acceleration
+"Gas constant from Boltzmann constant": ideal_gases
+"Gauge pressure": pressure
+"Gauss's law for electricity": electric_fields
+"Gauss's law for magnetism": magnetism
+"Gay-Lussac's law": ideal_gases
+"General Lorentz force (electric and magnetic)": magnetism
+"General conservation of energy": conservation_of_energy
+"General efficiency": power
+"General impulse-momentum relation": impulse
+"Geometric Distribution Probability": probability
+"Geometric distribution mean": probability
+"Geometric distribution variance": probability
+"Geometric mean": statistics
+"Gibbs free energy and cell potential": electrochemistry
+"Gibbs free energy and equilibrium constant": chemical_equilibrium
+"Gibbs free energy from cell potential": electrochemistry
+"Gibbs free energy spontaneity condition": thermochemistry
+"Gibbs free energy under non-standard conditions": chemical_equilibrium
+"Gibbs free energy": thermochemistry
+"Graham's law of effusion": ideal_gases
+"Gravitational acceleration at height": newtonian_gravity
+"Gravitational binding energy of a uniform sphere (gravitational_binding_energy_uniform_sphere)": newtonian_gravity
+"Gravitational binding energy of a uniform sphere": newtonian_gravity
+"Gravitational field inside a uniform sphere": newtonian_gravity
+"Gravitational field of a point mass": newtonian_gravity
+"Gravitational field strength": newtonian_gravity
+"Gravitational force between two masses": newtonian_gravity
+"Gravitational potential at surface": newtonian_gravity
+"Gravitational potential energy (general)": potential_energy
+"Gravitational potential energy in a field": potential_energy
+"Gravitational potential energy near Earth's surface": potential_energy
+"Gravitational potential energy near surface": potential_energy
+"Gravitational potential energy of two point masses": potential_energy
+"Gravitational potential energy": potential_energy
+"Gravitational potential of a point mass": newtonian_gravity
+"Gravitational time dilation": relativity
+"Gyroscope precession angular velocity": angular_momentum
+"Half Angle Tangent (Cosine Form)": trigonometric_identities
+"Half Angle Tangent (Sine Form)": trigonometric_identities
+"Half-angle cosine identity": trigonometric_identities
+"Half-angle sine identity": trigonometric_identities
+"Half-life from decay constant": nuclear_physics
+"Hall voltage": magnetism
+"Harmonic mean (harmonic_mean_statistics)": statistics
+"Harmonic mean": statistics
+"Harmonic series for a standing wave on a string": mechanical_waves
+"Heat capacity from heat and temperature change": heat
+"Heat capacity of a calorimeter": heat
+"Heat capacity ratio": ideal_gases
+"Heat conduction (Fourier's law)": heat_transfer
+"Heat conduction through a composite wall": heat_transfer
+"Heat energy from specific heat capacity": heat
+"Heat engine efficiency": heat_engines
+"Heat transfer by conduction (Fourier's law)": heat_transfer
+"Heat transfer by temperature change": heat
+"Heisenberg energy-time uncertainty principle": quantum_mechanics
+"Heisenberg uncertainty principle (position-momentum)": quantum_mechanics
+"Heisenberg uncertainty principle": quantum_mechanics
+"Henderson-Hasselbalch equation": acids_and_bases
+"Henry's law constant definition": solutions
+"Henry's law": solutions
+"Hess's law for enthalpy change": thermochemistry
+"Hill equation (cooperative binding)": biochemistry
+"Hooke's law": springs
+"Horizontal line": coordinate_geometry
+"Horizontal velocity of a projectile": projectile_motion
+"Hybridization electron groups": chemical_bonding
+"Hydraulic piston displacement relation": pascals_law
+"Hydraulic pressure ratio (Pascal's law)": pascals_law
+"Hydrogen atom energy levels": atomic_physics
+"Hydrostatic pressure": pressure
+"Ideal gas law (molecular form)": ideal_gases
+"Ideal gas law": ideal_gases
+"Identity matrix definition": linear_algebra
+"Illuminance from luminous flux and area": electromagnetic_waves
+"Image distance for a convex mirror": mirrors
+"Image distance for a mirror": mirrors
+"Image distance in a plane mirror": mirrors
+"Image height from magnification": lenses
+"Impedance of a series RC circuit": circuits
+"Impedance of a series RLC circuit": circuits
+"Impedance of free space": electromagnetic_waves
+"Impulse as change in momentum": impulse
+"Impulse as momentum change": impulse
+"Impulse equals change in momentum": impulse
+"Impulse from force-time graph area": impulse
+"Impulse": impulse
+"Impulse-momentum theorem": impulse
+"Index of hydrogen deficiency (IHD)": organic_chemistry
+"Index of hydrogen deficiency (formula)": organic_chemistry
+"Induced EMF from rate of change of magnetic flux": electromagnetic_induction
+"Inductance definition": electromagnetic_induction
+"Inductive reactance": circuits
+"Inradius of a triangle": triangles
+"Inscribed angle theorem": circles
+"Integral constant multiple rule": integrals
+"Integral of 1/(a²+x²)": integrals
+"Integral of 1/(a²-x²)": integrals
+"Integral of 1/x": integrals
+"Integral of 1/√(a²-x²)": integrals
+"Integral of Exponential ax": integrals
+"Integral of Exponential": integrals
+"Integral of Natural Log": integrals
+"Integral of a to the x": integrals
+"Integral of base-a exponential": integrals
+"Integral of cosine": integrals
+"Integral of cot x": integrals
+"Integral of csc x cot x": integrals
+"Integral of csc x": integrals
+"Integral of csc² x": integrals
+"Integral of sec x tan x": integrals
+"Integral of sec x": integrals
+"Integral of sec² x": integrals
+"Integral of sine": integrals
+"Integral of tan x": integrals
+"Integral of x^n": integrals
+"Integral sum rule": integrals
+"Integrated rate law (first order)": chemical_kinetics
+"Integrated rate law (second order)": chemical_kinetics
+"Integrated rate law (zero order)": chemical_kinetics
+"Integration by parts": integrals
+"Intensity after a polarizer": polarization
+"Intercept form of a line": coordinate_geometry
+"Interior angle of a regular polygon": polygons
+"Internal energy of an ideal monatomic gas": ideal_gases
+"Interquartile range": statistics
+"Invariant mass from energy and momentum": relativity
+"Inverse of a 2×2 matrix": linear_algebra
+"Iodine number of a fat": organic_chemistry
+"Ion product of water": acids_and_bases
+"Ionic radius ratio for coordination": inorganic_chemistry
+"Ionization Energy": periodic_table
+"Ionization energy from nuclear charge": periodic_table
+"Irradiance from power and area": electromagnetic_waves
+"Isothermal work on ideal gas": first_law
+"Isotope notation": atomic_structure
+"Kepler's first law (elliptical orbit)": orbital_motion
+"Kepler's first law of planetary motion": orbital_motion
+"Kepler's second law (areal velocity) (orbital_angular_momentum_kepler)": orbital_motion
+"Kepler's second law (areal velocity)": orbital_motion
+"Kepler's third law": orbital_motion
+"Kinetic energy from momentum": kinetic_energy
+"Kinetic energy from work done": kinetic_energy
+"Kinetic energy loss in collision": collisions
+"Kinetic energy of center of mass": kinetic_energy
+"Kinetic energy": kinetic_energy
+"Kirchhoff's current law": circuits
+"Kirchhoff's loop rule": circuits
+"Kirchhoff's voltage law": circuits
+"Kohlrausch's law of independent migration": electrochemistry
+"Kp from Kc and temperature change": chemical_equilibrium
+"LC circuit resonance frequency": circuits
+"Larmor precession frequency": magnetism
+"Latent heat": heat
+"Lateral area of a conical frustum": plane_geometry
+"Lateral surface area of a cone": plane_geometry
+"Lateral surface area of a cylinder": plane_geometry
+"Latus rectum of an ellipse": coordinate_geometry
+"Law of cosines for angle": laws_of_sines_and_cosines
+"Law of cosines rearranged for angle": laws_of_sines_and_cosines
+"Law of cosines": laws_of_sines_and_cosines
+"Law of sines side ratio": laws_of_sines_and_cosines
+"Law of sines with circumradius": laws_of_sines_and_cosines
+"Law of sines": laws_of_sines_and_cosines
+"Law of tangents": laws_of_sines_and_cosines
+"Law of total probability": probability
+"Lens Magnification": lenses
+"Lens power": lenses
+"Lensmaker's equation (thin lens)": lenses
+"Lensmaker's equation for a thick lens": lenses
+"Limit definition of derivative": derivatives
+"Limit definition of e": limits
+"Limit of (1-cos(x))/x as x approaches 0": limits
+"Limit of Log Ratio": limits
+"Limit of a constant": limits
+"Limit of a product": limits
+"Limit of a quotient": limits
+"Limit of a sum": limits
+"Limit of detection": analytical_chemistry
+"Limit of exponential difference": limits
+"Limit of sin(x)/x as x approaches 0": limits
+"Limit of x^n as x→0": limits
+"Limit power rule": limits
+"Limiting reactant by mass comparison": limiting_reactants
+"Limiting reactant identification": limiting_reactants
+"Limiting reactant moles comparison": limiting_reactants
+"Linear equation solution": equations
+"Linear expansion coefficient": heat
+"Linear magnification": lenses
+"Linear mass density": mechanical_waves
+"Linear momentum": linear_momentum
+"Linear thermal expansion": heat
+"Linear velocity from angular velocity": circular_motion
+"Lineweaver-Burk equation": biochemistry
+"Lineweaver-Burk plot slope": biochemistry
+"Lineweaver-Burk y-intercept": biochemistry
+"Logarithm as inverse of exponent": logarithms
+"Logarithm base definition": logarithms
+"Logarithm change of base": logarithms
+"Logarithm of 1": logarithms
+"Logarithm of the base": logarithms
+"Logarithm power rule": logarithms
+"Logarithm product rule": logarithms
+"Logarithm quotient rule": logarithms
+"Logistic growth differential equation": differential_equations
+"Longitudinal relativistic Doppler effect": relativity
+"Lorentz factor": relativity
+"Luminance from luminous intensity and area": electromagnetic_waves
+"Mach number": reynolds_number
+"Magnetic Lorentz force (magnetic_lorentz_force)": magnetism
+"Magnetic Lorentz force": magnetism
+"Magnetic dipole moment of a current loop (magnetic_moment_current_loop)": magnetism
+"Magnetic dipole moment of a current loop": magnetism
+"Magnetic field around a long straight wire": magnetism
+"Magnetic field at center of a current loop": magnetism
+"Magnetic field from a long straight wire": magnetism
+"Magnetic field inside a solenoid": magnetism
+"Magnetic field inside a toroid": magnetism
+"Magnetic field inside an ideal solenoid": magnetism
+"Magnetic field strength": magnetism
+"Magnetic flux density (B-field) from flux": magnetism
+"Magnetic flux density from magnetic field intensity": magnetism
+"Magnetic flux linkage": electromagnetic_induction
+"Magnetic flux with angle dependence": magnetism
+"Magnetic flux": magnetism
+"Magnetic force on a charged particle": magnetism
+"Magnetic force on a current-carrying wire": magnetism
+"Magnetic force per unit length between parallel wires": magnetism
+"Magnetic moment from unpaired electrons": inorganic_chemistry
+"Magnification from mirror equation": mirrors
+"Malus's law": polarization
+"Mandelstam invariant s": particle_physics
+"Margin of error": statistics
+"Mass balance equation": continuity_equation
+"Mass concentration": solutions
+"Mass continuity equation": continuity_equation
+"Mass deposited in electrolysis (electrolysis_mass)": electrochemistry
+"Mass deposited in electrolysis": electrochemistry
+"Mass flow rate continuity": continuity_equation
+"Mass flow rate": continuity_equation
+"Mass from concentration and volume": solutions
+"Mass from moles": mole_concept
+"Mass from number of molecules": mole_concept
+"Mass number": atomic_structure
+"Mass of product from limiting reactant": limiting_reactants
+"Mass percent concentration": solutions
+"Mass percent": mole_concept
+"Mass ratio from stoichiometric coefficients": mole_concept
+"Mass-energy equivalence": relativity
+"Mass-to-mass stoichiometry": mole_concept
+"Mass-volume percent concentration": solutions
+"Matrix addition (2x2)": linear_algebra
+"Matrix multiplication 2x2 (first element)": linear_algebra
+"Maximum acceleration in SHM": harmonic_motion
+"Maximum electrons in a shell": atomic_structure
+"Maximum electrons in a subshell": atomic_structure
+"Maximum height of a projectile": projectile_motion
+"Maximum number of electrons in a shell": atomic_structure
+"Maximum number of stereoisomers": organic_chemistry
+"Maximum range of projectile": projectile_motion
+"Mayer's relation for ideal gases": ideal_gases
+"Mean free path of an ideal gas molecule": ideal_gases
+"Mean lifetime from decay constant": nuclear_physics
+"Mechanical advantage of a lever": forces
+"Mechanical advantage of a pulley system": forces
+"Mechanical rotational power": power
+"Mechanical wave frequency from wave speed and wavelength": mechanical_waves
+"Median length of a triangle": triangles
+"Median of an odd-sized dataset": statistics
+"Michaelis-Menten equation": biochemistry
+"Microscopic current density": current_electricity
+"Midpoint formula": coordinate_geometry
+"Mirror And Thin Lens Equation": lenses
+"Mirror image distance formula": mirrors
+"Mirror image magnification": mirrors
+"Mode of a dataset": statistics
+"Molality from amount and mass of solvent": solutions
+"Molar absorptivity from Beer-Lambert law": analytical_chemistry
+"Molar conductivity": electrochemistry
+"Molar energy": thermochemistry
+"Molar entropy": entropy
+"Molar heat capacity at constant pressure": heat
+"Molar heat capacity at constant volume": heat
+"Molar heat capacity definition": heat
+"Molar mass from atomic masses": molar_mass
+"Molar mass from boiling point elevation": solutions
+"Molar mass from empirical formula weight": molar_mass
+"Molar mass from freezing point depression": solutions
+"Molar mass from ideal gas law": molar_mass
+"Molar mass from mass and amount": molar_mass
+"Molar mass of a compound": molar_mass
+"Molar mass of a gas from density": molar_mass
+"Molar volume at STP from Avogadro's law": mole_concept
+"Mole fraction from mass": solutions
+"Mole fraction": solutions
+"Moles from gas volume at STP": mole_concept
+"Moles from solution concentration": solution_stoichiometry
+"Moment of inertia of a rectangular plate (center axis)": moment_of_inertia
+"Moment of inertia of a rectangular plate": moment_of_inertia
+"Moment of inertia of a solid cone": moment_of_inertia
+"Moment of inertia of a solid disk": moment_of_inertia
+"Moment of inertia of a solid sphere": moment_of_inertia
+"Moment of inertia of a thin hoop": moment_of_inertia
+"Moment of inertia of a thin rod about center": moment_of_inertia
+"Moment of inertia of a thin rod about end": moment_of_inertia
+"Moment of inertia of a thin spherical shell": moment_of_inertia
+"Moment of inertia of an annular cylinder": moment_of_inertia
+"Momentum change from force integral": impulse
+"Momentum of a system of particles": linear_momentum
+"Moseley's law": atomic_physics
+"Most probable speed from Maxwell-Boltzmann distribution": ideal_gases
+"Motional electromotive force": electromagnetic_induction
+"Natural logarithm definition": logarithms
+"Negative exponent rule": exponents
+"Nernst equation": electrochemistry
+"Net force from vector sum": newtons_laws
+"Neutron number": atomic_structure
+"Newton's first law (equilibrium)": newtons_laws
+"Newton's first law (inertia)": newtons_laws
+"Newton's first law of motion": newtons_laws
+"Newton's first law: equilibrium condition": newtons_laws
+"Newton's law of cooling (convection)": heat_transfer
+"Newton's law of cooling": heat_transfer
+"Newton's law of universal gravitation": newtonian_gravity
+"Newton's rings radius": interference
+"Newton's second law in terms of momentum": newtons_laws
+"Newton's second law": newtons_laws
+"Newton's third law": newtons_laws
+"Normal force on an inclined plane": newtons_laws
+"Normality from molarity and n-factor": solutions
+"Normalization condition for a wave function": quantum_mechanics
+"Nuclear magneton": nuclear_physics
+"Nuclear radius": nuclear_physics
+"Number average molar mass": organic_chemistry
+"Number of combinations": probability
+"Number of diagonals in a polygon": polygons
+"Number of images formed by two mirrors": mirrors
+"Number of orbitals in a subshell": atomic_structure
+"Number of particles from amount and Avogadro constant": mole_concept
+"Number of permutations": probability
+"Odds from probability": probability
+"Ohm's law (current form)": circuits
+"Ohm's law": circuits
+"One-dimensional wave equation": mechanical_waves
+"Optical absorbance": analytical_chemistry
+"Optical path length": interference
+"Optical power of combined thin lenses": lenses
+"Optical purity": organic_chemistry
+"Optical transmittance": analytical_chemistry
+"Optimal launch angle for maximum range": projectile_motion
+"Orbital angular momentum": quantum_mechanics
+"Orbital mechanical energy": orbital_motion
+"Orbital period of a satellite": orbital_motion
+"Orbital velocity relation to escape velocity": orbital_motion
+"Orbital velocity": orbital_motion
+"Osmotic pressure": solutions
+"Otto cycle efficiency": heat_engines
+"Overall percent yield for multi-step synthesis": percent_yield
+"Overall yield of sequential reactions": percent_yield
+"Pair production threshold energy": particle_physics
+"Parallel axis theorem": moment_of_inertia
+"Parallel combination of inductors": electromagnetic_induction
+"Parallel force component on an inclined plane": newtons_laws
+"Parallel lines condition": coordinate_geometry
+"Parallel plate capacitance with dielectric": capacitance
+"Parallel plate capacitance": capacitance
+"Parametric form of a line": coordinate_geometry
+"Partial pressure from mole fraction": ideal_gases
+"Partial pressure from mole ratio": ideal_gases
+"Particle decay width and lifetime": particle_physics
+"Particle in a box energy levels": quantum_mechanics
+"Partition coefficient": solutions
+"Parts per billion": solutions
+"Pascal's law (hydraulic lift)": pascals_law
+"Pascal's principle (hydraulic press)": pascals_law
+"Path length difference for two sources": wave_interference
+"Peak frequency of blackbody radiation": heat_transfer
+"Pearson correlation coefficient": statistics
+"Percent composition of an element": mole_concept
+"Percent composition": mole_concept
+"Percent error formula": arithmetic
+"Percent excess reactant": limiting_reactants
+"Percent ionic character": chemical_bonding
+"Percent ionization from Ka and concentration": acids_and_bases
+"Percent ionization of a weak acid": acids_and_bases
+"Percent yield from actual and theoretical": percent_yield
+"Percent yield": percent_yield
+"Percentage difference": arithmetic
+"Percentage error": arithmetic
+"Percentage": arithmetic
+"Perfect square of a difference": polynomials
+"Perfect square of a sum": polynomials
+"Perfectly inelastic collision": collisions
+"Period of a compound (physical) pendulum": harmonic_motion
+"Period of a mass-spring system": harmonic_motion
+"Period of a simple pendulum": harmonic_motion
+"Permeability relation": magnetism
+"Permittivity relation": electric_fields
+"Perpendicular lines condition": coordinate_geometry
+"Phase difference from path difference": wave_interference
+"Phase shift on reflection": mechanical_waves
+"Photoelectric equation": quantum_mechanics
+"Photon angular momentum": quantum_mechanics
+"Photon energy": quantum_mechanics
+"Photon momentum": quantum_mechanics
+"Pi bond count in multiple bonds": chemical_bonding
+"Pitot tube dynamic pressure": bernoulli_equation
+"Planck relation (reduced Planck constant)": quantum_mechanics
+"Planck's law for blackbody radiation": heat_transfer
+"Plane mirror image distance": mirrors
+"Point-slope form of a line": coordinate_geometry
+"Poiseuille's law for laminar flow": reynolds_number
+"Poisson distribution mean": probability
+"Poisson probability mass function": probability
+"Polarization orientation angle": polarization
+"Polygon area from side length": polygons
+"Polygon circumradius": polygons
+"Polynomial cubic identity": polynomials
+"Polytropic process": first_law
+"Population variance": statistics
+"Position in simple harmonic motion": harmonic_motion
+"Position of bright fringes in double-slit": interference
+"Potential energy of a dipole in a field": electric_potential
+"Power efficiency": power
+"Power from force, velocity and angle": power
+"Power from voltage and resistance": circuits
+"Power of a point theorem": circles
+"Power of a product": exponents
+"Power of a quotient": exponents
+"Poynting vector magnitude": electromagnetic_waves
+"Pressure at a depth in fluid": pressure
+"Pressure at depth in a fluid": pressure
+"Pressure conversion using specific gravity": pressure
+"Pressure from kinetic theory": ideal_gases
+"Principle of wave superposition": wave_interference
+"Probability from odds": probability
+"Probability of an event": probability
+"Probability of independent events": probability
+"Probability of mutually exclusive events": probability
+"Product of roots of a quadratic": polynomials
+"Product rule": derivatives
+"Product-to-sum: cos A cos B": trigonometric_identities
+"Product-to-sum: sin A cos B": trigonometric_identities
+"Product-to-sum: sin A sin B": trigonometric_identities
+"Projectile height at time": projectile_motion
+"Projectile range dependence on launch angle": projectile_motion
+"Projectile trajectory equation": projectile_motion
+"Proper time": relativity
+"Pythagorean theorem": right_triangles
+"Pythagorean trigonometric identity": trigonometric_identities
+"Q factor of a series RLC circuit": circuits
+"Q factor of an RLC circuit": circuits
+"Q-value of a fusion reaction": nuclear_physics
+"Q-value of a nuclear reaction": nuclear_physics
+"Quadratic formula": equations
+"Quantum number magnetic range": atomic_structure
+"Quantum tunneling probability (WKB)": quantum_mechanics
+"Quotient rule": derivatives
+"RC circuit charging": circuits
+"RC circuit cutoff frequency": circuits
+"RC circuit discharge current": circuits
+"RC circuit discharging": circuits
+"RC cutoff frequency": circuits
+"RC time constant": circuits
+"RL circuit time constant": circuits
+"RLC circuit resonant frequency": circuits
+"RMS current from peak current": circuits
+"RMS voltage from peak voltage": circuits
+"Radiance from radiant intensity and area": electromagnetic_waves
+"Radiation exposure": nuclear_physics
+"Radiation pressure on a perfect absorber": electromagnetic_waves
+"Radiative heat transfer (Stefan-Boltzmann)": heat_transfer
+"Radioactive decay constant and half-life": nuclear_physics
+"Radioactive decay law": nuclear_physics
+"Radioactive equilibrium activity": nuclear_physics
+"Radiocarbon dating formula": nuclear_physics
+"Range of a data set": statistics
+"Range of a projectile": projectile_motion
+"Range of azimuthal quantum number": atomic_structure
+"Rankine to Fahrenheit conversion": temperature
+"Rankine to Kelvin conversion": temperature
+"Raoult's law": solutions
+"Rate law": chemical_kinetics
+"Rate of chemical reaction": chemical_kinetics
+"Rational exponent rule": exponents
+"Rayleigh criterion": diffraction
+"Rayleigh-Jeans law (blackbody radiation)": heat_transfer
+"Reaction quotient": chemical_equilibrium
+"Reaction rate from appearance of product": chemical_kinetics
+"Reaction rate from reactant consumption": chemical_kinetics
+"Reactive power in AC circuit": circuits
+"Reduced mass": newtonian_gravity
+"Reflectance": reflection
+"Reflection Law": reflection
+"Reflection coefficient at normal incidence": reflection
+"Refractive index": refraction
+"Regular polygon apothem area": polygons
+"Regular polygon perimeter": polygons
+"Relationship between Ka and Kb": acids_and_bases
+"Relationship between Kp and Kc": chemical_equilibrium
+"Relative approach velocity in collisions": collisions
+"Relative density (specific gravity)": pressure
+"Relative refractive index": refraction
+"Relative speed in elastic collision": collisions
+"Relativistic Doppler effect (approaching)": relativity
+"Relativistic energy of a particle": relativity
+"Relativistic energy-momentum relation": relativity
+"Relativistic kinetic energy (relativistic_kinetic_energy)": relativity
+"Relativistic kinetic energy": relativity
+"Relativistic mass": relativity
+"Relativistic momentum": relativity
+"Relativistic velocity addition": relativity
+"Residual standard error": statistics
+"Resistance of a conductor": current_electricity
+"Resistivity from resistance": current_electricity
+"Resistivity temperature dependence": current_electricity
+"Resistors in parallel (two)": circuits
+"Resistors in series (three)": circuits
+"Resistors in series": circuits
+"Resolving power of a diffraction grating": diffraction
+"Resonance bandwidth": circuits
+"Resultant projectile velocity": projectile_motion
+"Retention factor in chromatography": analytical_chemistry
+"Reynolds number flow regime criterion": reynolds_number
+"Reynolds number with kinematic viscosity": reynolds_number
+"Reynolds number": reynolds_number
+"Right triangle: cosine ratio (CAH)": right_triangles
+"Right triangle: tangent ratio (TOA)": right_triangles
+"Right triangle: trigonometric ratios (SOH CAH TOA)": right_triangles
+"Rocket thrust equation": linear_momentum
+"Rolling kinetic energy": rotational_energy
+"Root as fractional exponent": exponents
+"Root mean square speed of gas molecules": ideal_gases
+"Rotational kinetic energy (rotational_kinetic_energy)": rotational_energy
+"Rotational kinetic energy from angular momentum (rotational_ke_from_angular_momentum)": rotational_energy
+"Rotational kinetic energy from angular momentum": rotational_energy
+"Rotational kinetic energy": rotational_energy
+"Rotational work done by a constant torque": rotational_energy
+"Rotational work-energy theorem": rotational_energy
+"Rydberg formula": atomic_physics
+"Rydberg unit of energy": atomic_physics
+"Sample variance (Bessel's correction)": statistics
+"Saponification value": organic_chemistry
+"Scalar projection of a onto b": linear_algebra
+"Schwarzschild radius": relativity
+"Secant identity": trigonometric_identities
+"Secant squared identity": trigonometric_identities
+"Second law: Kelvin-Planck statement": second_law
+"Second law: entropy of isolated system": second_law
+"Second law: maximum possible efficiency": heat_engines
+"Second-order reaction half-life": chemical_kinetics
+"Self-inductance of a solenoid (solenoid_inductance)": electromagnetic_induction
+"Self-inductance of a solenoid": electromagnetic_induction
+"Semiperimeter of a triangle": triangles
+"Series combination of inductors": electromagnetic_induction
+"Signal-to-noise ratio": analytical_chemistry
+"Similar triangles side ratio": triangles
+"Simple harmonic motion differential equation": harmonic_motion
+"Simple harmonic oscillator ODE (standard form)": harmonic_motion
+"Simple interest future value": arithmetic
+"Sine definition": trigonometric_identities
+"Sine squared identity": trigonometric_identities
+"Single-slit diffraction intensity pattern": diffraction
+"Single-slit diffraction minima": diffraction
+"Slope of a line": coordinate_geometry
+"Slope-intercept form": coordinate_geometry
+"Snell's law": refraction
+"Solid angle": plane_geometry
+"Solubility product for AB-type salt": chemical_equilibrium
+"Solubility product for A₂B-type salt": chemical_equilibrium
+"Solution conductivity from concentration and molar conductivity": electrochemistry
+"Solution density from concentration and molar mass": solutions
+"Sound intensity level from pressure amplitude": mechanical_waves
+"Sound intensity level in decibels": mechanical_waves
+"Sound pressure amplitude from intensity": mechanical_waves
+"Specific activity": nuclear_physics
+"Specific heat capacity definition (specific_heat_capacity_definition_v2)": heat
+"Specific heat capacity definition": heat
+"Specific impulse": linear_momentum
+"Specific rotation in polarimetry": polarization
+"Specific volume": ideal_gases
+"Speed of light from permittivity and permeability": electromagnetic_waves
+"Speed of sound in an ideal gas": ideal_gases
+"Spin-only magnetic moment": inorganic_chemistry
+"Spring constant from Hooke's law": springs
+"Spring force and displacement": springs
+"Spring potential energy": potential_energy
+"Spring-mass system period": harmonic_motion
+"Springs in parallel": springs
+"Springs in series": springs
+"Standard Gibbs free energy of reaction": thermochemistry
+"Standard addition calibration": analytical_chemistry
+"Standard cell potential from equilibrium": electrochemistry
+"Standard cell potential": electrochemistry
+"Standard deviation": statistics
+"Standard enthalpy of reaction": thermochemistry
+"Standard entropy change of reaction": entropy
+"Standard entropy of reaction": entropy
+"Standard equation of a hyperbola": coordinate_geometry
+"Standard equation of an ellipse": coordinate_geometry
+"Standard error of the mean": statistics
+"Standard form of a circle": coordinate_geometry
+"Standard form of a line": coordinate_geometry
+"Standing wave frequency": mechanical_waves
+"Standing wave node positions": mechanical_waves
+"Stefan-Boltzmann constant from fundamental constants": heat_transfer
+"Stefan-Boltzmann law": heat_transfer
+"Stoichiometric mole ratio calculation": mole_concept
+"Stoichiometric proportion for a reaction": mole_concept
+"Stokes' law for drag on a sphere": reynolds_number
+"Stopping distance from friction": friction
+"Stopping potential in photoelectric effect": quantum_mechanics
+"Sum of arithmetic series": arithmetic
+"Sum of cubes": polynomials
+"Sum of exterior angles of a polygon": polygons
+"Sum of finite geometric series": equations
+"Sum of first n natural numbers": arithmetic
+"Sum of infinite geometric series": equations
+"Sum of interior angles of a polygon": polygons
+"Sum of roots of a quadratic": polynomials
+"Sum-to-product: cos A + cos B": trigonometric_identities
+"Sum-to-product: cos A - cos B": trigonometric_identities
+"Sum-to-product: sin A + sin B": trigonometric_identities
+"Sum-to-product: sin A - sin B": trigonometric_identities
+"Surface area of a cone": plane_geometry
+"Surface area of a cube": plane_geometry
+"Surface area of a cylinder": plane_geometry
+"Surface area of a rectangular prism": plane_geometry
+"Surface area of a sphere": plane_geometry
+"Surface area of a torus": plane_geometry
+"Surface area of a triangular prism": plane_geometry
+"Surface charge density": electrostatics
+"Surface density": electrostatics
+"Surface energy from surface tension": surface_tension
+"Surface tension force": surface_tension
+"Surface tension from surface energy": surface_tension
+"Surface tension": surface_tension
+"Tangent as ratio of sine and cosine": trigonometric_identities
+"Tangent definition": trigonometric_identities
+"Tangent identity": trigonometric_identities
+"Tangent line equation": derivatives
+"Tangent-radius perpendicularity": circles
+"Tangent-secant theorem": circles
+"Tangential acceleration": circular_motion
+"Tangential velocity": circular_motion
+"Temperature from average kinetic energy": ideal_gases
+"Temperature in Rankine from Fahrenheit": temperature
+"Tension in an Atwood machine": newtons_laws
+"Terminal velocity in Stokes flow": reynolds_number
+"Terminal velocity": reynolds_number
+"Tetrahedral to octahedral crystal field splitting ratio": inorganic_chemistry
+"Thermal efficiency of a heat engine": heat_engines
+"Thermal resistance (R-value)": heat_transfer
+"Thermal stress formula": heat
+"Thermodynamic definition of temperature": temperature
+"Thin film condition for minimum reflection": interference
+"Thin film constructive (m+½)": interference
+"Thin film constructive interference": interference
+"Thin film destructive (zero order)": interference
+"Thin film destructive interference": interference
+"Thin film interference (constructive)": interference
+"Thin film interference condition": interference
+"Thin film interference constructive (normal incidence)": interference
+"Thin film reflection phase shift condition": interference
+"Time of flight of a projectile": projectile_motion
+"Torque as rate of change of angular momentum": torque
+"Torque from cross product (vector)": torque
+"Torque from force and moment arm": torque
+"Torque from force": torque
+"Torque from moment of inertia": torque
+"Torque from perpendicular force component": torque
+"Torque on a current loop in a magnetic field": magnetism
+"Torque on an electric dipole in a uniform field": electrostatics
+"Torricelli's theorem": bernoulli_equation
+"Total linear momentum of a system": linear_momentum
+"Total mechanical energy": conservation_of_energy
+"Total surface area of a cone": plane_geometry
+"Transformer current relationship": electromagnetic_induction
+"Transformer equation": electromagnetic_induction
+"Translational kinetic energy of an ideal gas": ideal_gases
+"Transmittance from absorbance": analytical_chemistry
+"Triangle angle sum": triangles
+"Triangle area (SAS)": triangles
+"Triangle area from three sides (Heron's formula)": triangles
+"Triangle side projection formula": triangles
+"Triple Angle Cosine": trigonometric_identities
+"Triple Angle Sine": trigonometric_identities
+"Two resistors in parallel": circuits
+"Two-point form of a line": coordinate_geometry
+"Two-source interference condition": wave_interference
+"Uncompetitive inhibition velocity": biochemistry
+"Unit vector definition": linear_algebra
+"Valence electrons from group number": periodic_table
+"Van 't Hoff equation (van_t_hoff_equation)": chemical_equilibrium
+"Van 't Hoff equation": chemical_equilibrium
+"Van der Waals equation": ideal_gases
+"Variance of a binomial distribution": probability
+"Variance shortcut formula": statistics
+"Velocity as function of position in SHM": harmonic_motion
+"Velocity at constant acceleration": constant_acceleration
+"Velocity of the center of mass": linear_momentum
+"Velocity squared relation": constant_acceleration
+"Velocity-squared relation at constant acceleration": constant_acceleration
+"Venturi effect (pressure difference)": bernoulli_equation
+"Venturi tube pressure difference": bernoulli_equation
+"Vertex form of a parabola": coordinate_geometry
+"Vertex of a parabola": coordinate_geometry
+"Vertical line": coordinate_geometry
+"Vertical velocity of a projectile": projectile_motion
+"Vis-viva equation": orbital_motion
+"Voltage across capacitor in RC circuit (discharging)": circuits
+"Voltage divider": circuits
+"Voltage division in series resistors": circuits
+"Volume from cross-sectional area and height": plane_geometry
+"Volume of a cone": plane_geometry
+"Volume of a conical frustum": plane_geometry
+"Volume of a cube": plane_geometry
+"Volume of a cylinder from diameter": plane_geometry
+"Volume of a cylinder": plane_geometry
+"Volume of a pyramid": plane_geometry
+"Volume of a rectangular prism": plane_geometry
+"Volume of a regular tetrahedron": plane_geometry
+"Volume of a sphere": plane_geometry
+"Volume of a spherical cap": plane_geometry
+"Volume of a spherical segment": plane_geometry
+"Volume of a torus": plane_geometry
+"Volume of a triangular prism": plane_geometry
+"Volume of a truncated pyramid (frustum)": plane_geometry
+"Volume of an annular cylinder": plane_geometry
+"Volume of an ellipsoid": plane_geometry
+"Volume of fluid displaced by floating object": buoyancy
+"Volume percent concentration": solutions
+"Volume thermal expansion definition": heat
+"Volume thermal expansion": heat
+"Volumetric flow rate": continuity_equation
+"Wave intensity": mechanical_waves
+"Wave speed from tension and linear density": mechanical_waves
+"Wave speed on a string": mechanical_waves
+"Wave superposition amplitude": wave_interference
+"Wave velocity from wavelength and period": mechanical_waves
+"Wave velocity": mechanical_waves
+"Wavelength from CFSE": inorganic_chemistry
+"Wedge film interference fringe spacing": interference
+"Weight force": newtons_laws
+"Weighted arithmetic mean": statistics
+"Wheatstone bridge balance condition": circuits
+"Wien's displacement law": heat_transfer
+"Work as dot product of force and displacement": work
+"Work by constant force at an angle": work
+"Work done against friction": friction
+"Work done by a gas": first_law
+"Work done by a heat engine": heat_engines
+"Work done by a spring": springs
+"Work done by non-conservative forces": conservation_of_energy
+"Work done when force is perpendicular to displacement": work
+"Work from force-displacement graph": work
+"Work": work
+"Work-energy theorem": work
+"Young's modulus": forces
+"Z-score": statistics
+"Zeeman splitting energy": atomic_physics
+"Zero exponent rule": exponents
+"Zero-order reaction half-life": chemical_kinetics
+"nth term of a geometric sequence": equations
+"nth term of an arithmetic sequence": arithmetic
+"pH and pOH relation": acids_and_bases
+"pKa from Ka": acids_and_bases
+"t-test statistic": statistics
