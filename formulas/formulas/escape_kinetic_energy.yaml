@@ -1,0 +1,15 @@
+name: Escape kinetic energy
+id: escape_kinetic_energy
+topic: escape_velocity
+difficulty: 3
+equation: energy eq gravitational_constant mul (mass) mul (mass) div length
+symbol_overrides:
+- energy: E_esc
+- mass: M
+- mass: ''
+- length: r
+name_overrides:
+- energy: Escape [energy]
+- mass: Planet [mass]
+- mass: Object [mass]
+- length: Radius

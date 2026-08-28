@@ -1,0 +1,13 @@
+name: Surface density
+id: surface_density_formula
+topic: plane_geometry
+difficulty: 1
+equation: surface_density eq mass div area
+symbol_overrides:
+- surface_density: ''
+- mass: ''
+- area: ''
+name_overrides:
+- surface_density: ''
+- mass: ''
+- area: ''

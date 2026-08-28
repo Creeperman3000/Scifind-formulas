@@ -2,12 +2,10 @@ name: Integral of sec² x
 id: integral_sec_squared
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq ((sin (angle)) div (cos (angle)))
+equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
-- dimensionless: ∫sec²x dx
-- angle: x
-- angle: x
+- dimensionless: \int \sec^2 x dx
+- dimensionless: \tan x
 name_overrides:
-- dimensionless: ∫ sec² x dx
-- angle: '[Variable]'
-- angle: '[Variable]'
+- dimensionless: Integral of sec²x
+- dimensionless: tangent

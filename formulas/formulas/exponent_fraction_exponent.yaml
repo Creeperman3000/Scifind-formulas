@@ -1,0 +1,22 @@
+name: Fraction raised to an exponent
+id: exponent_fraction_exponent
+topic: exponents
+difficulty: 1
+equation: (dimensionless frac dimensionless ) pow dimensionless eq dimensionless pow
+  dimensionless frac dimensionless pow dimensionless
+symbol_overrides:
+- dimensionless: a
+- dimensionless: b
+- dimensionless: n
+- dimensionless: a
+- dimensionless: n
+- dimensionless: b
+- dimensionless: n
+name_overrides:
+- dimensionless: '[Numerator]'
+- dimensionless: '[Denominator]'
+- dimensionless: '[Exponent]'
+- dimensionless: a
+- dimensionless: ''
+- dimensionless: b
+- dimensionless: ''

@@ -1,0 +1,13 @@
+name: Gravitational field of a point mass
+id: gravitational_field_point_mass
+topic: newtonian_gravity
+difficulty: 2
+equation: acceleration eq (gravitational_constant mul mass ) pow (length) div 2
+symbol_overrides:
+- acceleration: g
+- mass: M
+- length: r
+name_overrides:
+- acceleration: Gravitational field [strength]
+- mass: Point [mass]
+- length: Distance from mass

@@ -4,10 +4,10 @@ topic: entropy
 difficulty: 2
 equation: (entropy) eq ((energy) div (temperature))
 symbol_overrides:
-- entropy: ΔS
-- energy: ''
-- temperature: ''
+- entropy: \Delta S
+- energy: q_{rev}
+- temperature: T
 name_overrides:
 - entropy: Change in [entropy]
-- energy: ''
-- temperature: ''
+- energy: Reversible heat
+- temperature: Temperature

@@ -1,0 +1,11 @@
+name: First law of thermodynamics for isochoric process
+id: first_law_isochoric_process
+topic: first_law
+difficulty: 2
+equation: energy eq energy
+symbol_overrides:
+- energy: ''
+- energy: ΔU
+name_overrides:
+- energy: ''
+- energy: Change in internal [energy]

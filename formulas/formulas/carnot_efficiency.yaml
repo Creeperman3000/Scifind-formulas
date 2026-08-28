@@ -1,0 +1,15 @@
+name: Carnot efficiency
+id: carnot_efficiency
+topic: heat_engines
+difficulty: 3
+equation: dimensionless eq dimensionless sub temperature div temperature
+symbol_overrides:
+- dimensionless: \eta
+- dimensionless: '1'
+- temperature: T_C
+- temperature: T_H
+name_overrides:
+- dimensionless: Carnot [efficiency]
+- dimensionless: One
+- temperature: Cold reservoir [temperature]
+- temperature: Hot reservoir [temperature]

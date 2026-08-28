@@ -1,0 +1,13 @@
+name: Image distance for a mirror
+id: mirror_image_distance_relation
+topic: mirrors
+difficulty: 2
+equation: 1 div length eq (1 div length) add 1 div length
+symbol_overrides:
+- length: f
+- length: d_o
+- length: d_i
+name_overrides:
+- length: Focal [length]
+- length: Object distance
+- length: Image distance

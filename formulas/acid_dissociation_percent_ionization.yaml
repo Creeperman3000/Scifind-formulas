@@ -2,7 +2,7 @@ name: Percent ionization from Ka and concentration
 id: acid_dissociation_percent_ionization
 topic: acids_and_bases
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) div (concentration)) mul 100)
+equation: ((dimensionless) eq (100 mul ((dimensionless) div (concentration))))
 symbol_overrides:
 - dimensionless: '% ionization'
 - dimensionless: '[H⁺]'

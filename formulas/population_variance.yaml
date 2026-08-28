@@ -2,18 +2,16 @@ name: Population variance
 id: population_variance
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq (dimensionless) (dimensionless) sub pow 2 (dimensionless) (dimensionless) sub pow 2 add (dimensionless) div
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul (sum (((dimensionless) sub (dimensionless)) pow 2)))
 symbol_overrides:
-- dimensionless: σ²
-- dimensionless: x_1
-- dimensionless: μ
-- dimensionless: x_2
-- dimensionless: μ
+- dimensionless: \sigma^2
+- dimensionless: '1'
 - dimensionless: N
+- dimensionless: x_i
+- dimensionless: \mu
 name_overrides:
 - dimensionless: Variance
-- dimensionless: Value 1
-- dimensionless: Mean
-- dimensionless: Value 2
-- dimensionless: Mean
+- dimensionless: '1'
 - dimensionless: Number of values
+- dimensionless: Value i
+- dimensionless: Mean

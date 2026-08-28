@@ -1,0 +1,18 @@
+name: Voltage division in series resistors
+id: circuit_voltage_division_series
+topic: circuits
+difficulty: 2
+equation: electric_potential eq electric_potential mul resistance div resistance add
+  resistance
+symbol_overrides:
+- electric_potential: V_1
+- electric_potential: ''
+- resistance: R_1
+- resistance: R_1
+- resistance: R_2
+name_overrides:
+- electric_potential: Voltage across R₁
+- electric_potential: Total voltage
+- resistance: '[Resistance] R₁'
+- resistance: '[Resistance] R₁'
+- resistance: '[Resistance] R₂'

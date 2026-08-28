@@ -1,0 +1,9 @@
+name: Derivative of a constant
+id: derivative_constant_rule
+topic: derivatives
+difficulty: 1
+equation: dimensionless eq 0
+symbol_overrides:
+- dimensionless: dc/dx
+name_overrides:
+- dimensionless: Derivative of a constant

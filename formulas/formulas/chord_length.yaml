@@ -1,0 +1,13 @@
+name: Chord length
+id: chord_length
+topic: circles
+difficulty: 2
+equation: length eq 2 mul (length) mul sin (angle div 2)
+symbol_overrides:
+- length: c
+- length: R
+- angle: θ
+name_overrides:
+- length: Chord [length]
+- length: Radius
+- angle: Central [angle]

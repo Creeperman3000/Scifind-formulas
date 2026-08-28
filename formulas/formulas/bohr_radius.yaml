@@ -1,0 +1,12 @@
+name: Bohr radius
+id: bohr_radius
+topic: atomic_physics
+difficulty: 4
+equation: length eq vacuum_permittivity mul (planck_constant pow 2) div pi mul mass
+  mul elementary_charge pow 2
+symbol_overrides:
+- length: a_0
+- mass: m_e
+name_overrides:
+- length: Bohr [radius]
+- mass: Electron [mass]

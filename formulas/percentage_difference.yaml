@@ -2,7 +2,7 @@ name: Percentage difference
 id: percentage_difference
 topic: arithmetic
 difficulty: 1
-equation: (dimensionless) eq ((abs ((dimensionless) sub (dimensionless)) div (((dimensionless) add (dimensionless)) div 2)) mul 100)
+equation: ((dimensionless) eq (100 mul ((abs ((dimensionless) sub (dimensionless))) div (((dimensionless) add (dimensionless)) div 2))))
 symbol_overrides:
 - dimensionless: '% diff'
 - dimensionless: a

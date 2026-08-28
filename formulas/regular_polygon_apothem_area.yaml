@@ -2,10 +2,14 @@ name: Regular polygon apothem area
 id: regular_polygon_apothem_area
 topic: polygons
 difficulty: 2
-equation: (area) eq (((length) pow (2)) div 2)
+equation: (area) eq (((dimensionless) mul (length) mul (length)) div 2)
 symbol_overrides:
-- area: ''
+- area: A
+- dimensionless: n
+- length: s
 - length: a
 name_overrides:
-- area: ''
+- area: '[Area]'
+- dimensionless: Number of sides
+- length: Side length
 - length: Apothem

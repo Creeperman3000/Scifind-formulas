@@ -2,7 +2,7 @@ name: Bragg's law
 id: braggs_law
 topic: atomic_physics
 difficulty: 3
-equation: ((amount) mul (length)) eq (((length) mul (sin (angle))) mul 2)
+equation: (((amount) mul (length)) eq (2 mul ((length) mul (sin (angle)))))
 symbol_overrides:
 - amount: m
 - length: λ

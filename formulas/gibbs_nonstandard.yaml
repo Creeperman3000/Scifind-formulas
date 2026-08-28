@@ -6,12 +6,14 @@ equation: (energy) eq ((energy) add (((gas_constant) mul (temperature)) mul (ln 
 symbol_overrides:
 - energy: ΔG
 - energy: ΔG°
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Q
+- ? ''
+  : ''
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Standard Gibbs [energy] change
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Reaction quotient
+- ? ''
+  : ''

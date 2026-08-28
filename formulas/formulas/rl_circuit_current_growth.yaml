@@ -1,0 +1,22 @@
+name: Current growth in an RL circuit
+id: rl_circuit_current_growth
+topic: circuits
+difficulty: 3
+equation: current eq electric_potential div (resistance) mul dimensionless sub exp
+  (time mul (resistance) div inductance neg)
+symbol_overrides:
+- current: I(t)
+- electric_potential: ''
+- resistance: ''
+- dimensionless: ''
+- time: ''
+- resistance: ''
+- inductance: ''
+name_overrides:
+- current: Current at time t
+- electric_potential: ''
+- resistance: ''
+- dimensionless: ''
+- time: ''
+- resistance: ''
+- inductance: ''

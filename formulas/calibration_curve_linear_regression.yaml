@@ -2,12 +2,14 @@ name: Calibration curve (linear regression model)
 id: calibration_curve_linear_regression
 topic: analytical_chemistry
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless) add ((dimensionless) pow (2)))
+equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) add (dimensionless))
 symbol_overrides:
 - dimensionless: y
 - dimensionless: m
 - dimensionless: x
+- dimensionless: b
 name_overrides:
-- dimensionless: Signal [response]
+- dimensionless: '[Response]'
 - dimensionless: Slope
-- dimensionless: Concentration
+- dimensionless: '[Concentration]'
+- dimensionless: '[Intercept]'

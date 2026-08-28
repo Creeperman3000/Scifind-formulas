@@ -1,0 +1,14 @@
+name: Ampere's law
+id: amperes_law
+topic: magnetism
+difficulty: 3
+equation: oint skip skip (magnetic_flux_density cdot length) eq vacuum_permeability
+  mul current
+symbol_overrides:
+- length: l
+- magnetic_flux_density: B
+- current: I_enc
+name_overrides:
+- length: Path length
+- magnetic_flux_density: Field
+- current: Enclosed current

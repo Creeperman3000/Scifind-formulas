@@ -1,0 +1,13 @@
+name: Molar energy
+id: molar_energy_formula
+topic: thermochemistry
+difficulty: 1
+equation: molar_energy eq energy div amount
+symbol_overrides:
+- molar_energy: ''
+- energy: ''
+- amount: ''
+name_overrides:
+- molar_energy: ''
+- energy: ''
+- amount: ''

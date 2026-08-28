@@ -2,16 +2,16 @@ name: Molar mass from freezing point depression
 id: molar_mass_colligative_freezing
 topic: molar_mass
 difficulty: 3
-equation: (molar_mass) eq (((specific_energy) mul (mass)) div (Delta((temperature)) div (mass)))
+equation: (molar_mass) eq (((specific_energy) mul (mass)) div ((Delta (temperature) mul (mass))))
 symbol_overrides:
-- molar_mass: ''
+- molar_mass: M
 - specific_energy: K_f
-- mass: m_{\text{solute}}
-- temperature: ΔT_f
-- mass: m_{\text{solvent}}
+- mass: m_{solvent}
+- temperature: \Delta T_f
+- mass: m_{solute}
 name_overrides:
-- molar_mass: Molar [mass] of solute
+- molar_mass: Molar mass
 - specific_energy: Cryoscopic constant
-- mass: Mass of solute
-- temperature: Freezing point depression
 - mass: Mass of solvent
+- temperature: Freezing point depression
+- mass: Mass of solute

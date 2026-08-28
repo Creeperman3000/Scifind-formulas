@@ -2,12 +2,14 @@ name: Bayes' theorem
 id: bayes_theorem
 topic: probability
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) pow (2)) div (dimensionless))
+equation: (dimensionless) eq ((((dimensionless) mul (dimensionless)) div (dimensionless)))
 symbol_overrides:
 - dimensionless: P(A|B)
 - dimensionless: P(B|A)
 - dimensionless: P(A)
+- dimensionless: P(B)
 name_overrides:
 - dimensionless: Posterior probability
 - dimensionless: Likelihood
 - dimensionless: Prior probability
+- dimensionless: Evidence [probability] P(B)

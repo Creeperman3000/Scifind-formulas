@@ -1,0 +1,17 @@
+name: Drift velocity
+id: drift_velocity
+topic: current_electricity
+difficulty: 3
+equation: velocity eq current div area mul (amount div volume ) mul elementary_charge
+symbol_overrides:
+- velocity: v_d
+- current: ''
+- area: ''
+- amount: ''
+- volume: ''
+name_overrides:
+- velocity: Drift [velocity]
+- current: ''
+- area: ''
+- amount: Number of charge carriers
+- volume: '[Volume]'

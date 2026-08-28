@@ -1,0 +1,9 @@
+name: Newton's first law (inertia)
+id: newton_first_law_inertia
+topic: newtons_laws
+difficulty: 1
+equation: force eq 0
+symbol_overrides:
+- force: ΣF
+name_overrides:
+- force: Net [force]

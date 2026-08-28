@@ -1,0 +1,15 @@
+name: Moment of inertia of a rectangular plate
+id: moment_of_inertia_rectangular_plate
+topic: moment_of_inertia
+difficulty: 3
+equation: moment_of_inertia eq mass mul (((length pow 2) add length pow 2 ) div 12)
+symbol_overrides:
+- moment_of_inertia: ''
+- mass: M
+- length: a
+- length: b
+name_overrides:
+- moment_of_inertia: Moment of [inertia]
+- mass: ''
+- length: Width
+- length: Height

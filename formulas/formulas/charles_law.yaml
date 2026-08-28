@@ -1,0 +1,15 @@
+name: Charles's law
+id: charles_law
+topic: ideal_gases
+difficulty: 1
+equation: volume div temperature eq volume div temperature
+symbol_overrides:
+- volume: V_1
+- temperature: T_1
+- volume: V_2
+- temperature: T_2
+name_overrides:
+- volume: Initial [volume]
+- temperature: Initial [temperature]
+- volume: Final [volume]
+- temperature: Final [temperature]

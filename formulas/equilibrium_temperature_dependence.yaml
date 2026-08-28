@@ -6,12 +6,14 @@ equation: (dimensionless) eq (((energy) div (gas_constant)) mul ((dimensionless)
 symbol_overrides:
 - dimensionless: ln(K₂/K₁)
 - energy: ΔH°
-- gas_constant: ''
 - dimensionless: 1/T₁
 - dimensionless: 1/T₂
+- ? ''
+  : ''
 name_overrides:
 - dimensionless: Log ratio of equilibrium constants
 - energy: Standard [enthalpy] change
-- gas_constant: ''
 - dimensionless: Reciprocal of initial temperature
 - dimensionless: Reciprocal of final temperature
+- ? ''
+  : ''

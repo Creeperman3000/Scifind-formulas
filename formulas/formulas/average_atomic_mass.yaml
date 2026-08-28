@@ -1,0 +1,17 @@
+name: Average atomic mass
+id: average_atomic_mass
+topic: atomic_structure
+difficulty: 2
+equation: mass eq mass mul (dimensionless) add mass mul dimensionless
+symbol_overrides:
+- mass: m̄
+- mass: m₁
+- dimensionless: f₁
+- mass: m₂
+- dimensionless: f₂
+name_overrides:
+- mass: Average atomic [mass]
+- mass: Mass of isotope 1
+- dimensionless: Abundance of isotope 1
+- mass: Mass of isotope 2
+- dimensionless: Abundance of isotope 2

@@ -5,11 +5,7 @@ difficulty: 5
 equation: (dimensionless) eq (((planck_constant) div (2 mul (pi))) mul (dimensionless))
 symbol_overrides:
 - dimensionless: '[\hat{x},\hat{p}]'
-- planck_constant: h
-- pi: ''
 - dimensionless: i
 name_overrides:
 - dimensionless: Commutation [relation]
-- planck_constant: Planck constant
-- pi: ''
 - dimensionless: Imaginary unit

@@ -2,7 +2,7 @@ name: Terminal velocity in Stokes flow
 id: terminal_velocity_stokes
 topic: reynolds_number
 difficulty: 3
-equation: (velocity) eq (((mass) mul (standard_gravity)) div ((((dynamic_viscosity) mul (length)) mul 6) mul pi))
+equation: ((velocity) eq (((mass) mul (standard_gravity)) div ((6 mul ((dynamic_viscosity) mul (length))) mul (pi))))
 symbol_overrides:
 - velocity: v_t
 - mass: ''

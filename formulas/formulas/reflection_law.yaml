@@ -1,0 +1,11 @@
+name: Reflection Law
+id: reflection_law
+topic: reflection
+difficulty: 1
+equation: angle eq angle
+symbol_overrides:
+- angle: θ_r
+- angle: θ_i
+name_overrides:
+- angle: Angle of reflection
+- angle: Angle of incidence

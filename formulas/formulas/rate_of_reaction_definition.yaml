@@ -1,0 +1,13 @@
+name: Rate of chemical reaction
+id: rate_of_reaction_definition
+topic: chemical_reactions
+difficulty: 2
+equation: catalytic_activity eq concentration div Delta time
+symbol_overrides:
+- catalytic_activity: r
+- concentration: '[A]'
+- time: ''
+name_overrides:
+- catalytic_activity: Reaction [rate]
+- concentration: Concentration of reactant
+- time: '[Time]'

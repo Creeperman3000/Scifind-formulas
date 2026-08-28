@@ -1,0 +1,13 @@
+name: Clausius inequality
+id: clausius_inequality
+topic: second_law
+difficulty: 4
+equation: entropy geq energy div temperature
+symbol_overrides:
+- entropy: dS
+- energy: δQ
+- temperature: T
+name_overrides:
+- entropy: Change in [entropy]
+- energy: Reversible heat
+- temperature: ''

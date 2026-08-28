@@ -12,8 +12,9 @@ symbol_overrides:
 - amount: ''
 - van_der_waals_volume: ''
 - amount: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''
 name_overrides:
 - pressure: ''
 - van_der_waals_attraction: Attraction parameter
@@ -23,5 +24,6 @@ name_overrides:
 - amount: ''
 - van_der_waals_volume: Volume parameter
 - amount: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''

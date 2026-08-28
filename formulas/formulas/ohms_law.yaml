@@ -1,0 +1,13 @@
+name: Ohm's law
+id: ohms_law
+topic: circuits
+difficulty: 1
+equation: electric_potential eq current mul resistance
+symbol_overrides:
+- electric_potential: V
+- current: I
+- resistance: R
+name_overrides:
+- electric_potential: Voltage
+- current: Current
+- resistance: Resistance

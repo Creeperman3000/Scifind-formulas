@@ -1,0 +1,22 @@
+name: Projectile trajectory equation
+id: trajectory_equation_projectile
+topic: projectile_motion
+difficulty: 3
+equation: length eq length mul (tan angle ) sub standard_gravity mul (length pow 2)
+  div ((velocity pow 2) mul 2 mul cos angle pow 2 )
+symbol_overrides:
+- length: y
+- length: x
+- angle: θ
+- standard_gravity: ''
+- length: x
+- velocity: v_0
+- angle: ''
+name_overrides:
+- length: Vertical [displacement]
+- length: Horizontal [displacement]
+- angle: Launch angle
+- standard_gravity: ''
+- length: Horizontal [displacement]
+- velocity: Initial [velocity]
+- angle: ''

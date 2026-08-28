@@ -2,17 +2,10 @@ name: Bohr model electron velocity
 id: atomic_bohr_model_velocity
 topic: atomic_physics
 difficulty: 3
-equation: (velocity) eq ((elementary_charge pow 2) div ((((2) mul (vacuum_permittivity))
-  mul (planck_constant)) mul (dimensionless)))
+equation: (velocity) eq ((elementary_charge pow 2) div ((((2) mul (vacuum_permittivity)) mul (planck_constant)) mul (dimensionless)))
 symbol_overrides:
 - velocity: v_n
 - dimensionless: n
-- vacuum_permittivity: ''
-- planck_constant: ''
-- dimensionless: n
 name_overrides:
 - velocity: Electron [velocity]
-- dimensionless: Principal quantum number
-- vacuum_permittivity: ''
-- planck_constant: ''
-- dimensionless: Principal quantum number
+- dimensionless: Principal quantum number n

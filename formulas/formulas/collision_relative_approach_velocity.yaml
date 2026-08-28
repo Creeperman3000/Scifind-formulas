@@ -1,0 +1,13 @@
+name: Relative approach velocity in collisions
+id: collision_relative_approach_velocity
+topic: collisions
+difficulty: 1
+equation: velocity eq velocity sub velocity
+symbol_overrides:
+- velocity: v_rel
+- velocity: v₁
+- velocity: v₂
+name_overrides:
+- velocity: Relative approach [velocity]
+- velocity: Velocity of body 1
+- velocity: Velocity of body 2

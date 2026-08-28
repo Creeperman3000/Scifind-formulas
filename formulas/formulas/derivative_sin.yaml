@@ -1,0 +1,13 @@
+name: Derivative of sine
+id: derivative_sin
+topic: derivatives
+difficulty: 2
+equation: dimensionless mul rmd sin angle eq cos angle
+symbol_overrides:
+- dimensionless: d/dx
+- angle: x
+- angle: x
+name_overrides:
+- dimensionless: Derivative
+- angle: '[Variable]'
+- angle: '[Variable]'

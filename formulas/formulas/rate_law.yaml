@@ -1,0 +1,20 @@
+name: Rate law
+id: rate_law
+topic: chemical_kinetics
+difficulty: 3
+equation: frequency eq frequency mul (concentration) pow (dimensionless) mul concentration
+  pow dimensionless
+symbol_overrides:
+- frequency: rate
+- frequency: k
+- concentration: '[A]'
+- dimensionless: m
+- concentration: '[B]'
+- dimensionless: n
+name_overrides:
+- frequency: Reaction [rate]
+- frequency: Rate constant
+- concentration: Reactant A [concentration]
+- dimensionless: Order with respect to A
+- concentration: Reactant B [concentration]
+- dimensionless: Order with respect to B

@@ -1,0 +1,17 @@
+name: Dynamic viscosity from shear stress
+id: dynamic_viscosity_definition
+topic: reynolds_number
+difficulty: 4
+equation: dynamic_viscosity eq force div (area) div velocity div length
+symbol_overrides:
+- dynamic_viscosity: ''
+- force: ''
+- area: ''
+- velocity: ''
+- length: d
+name_overrides:
+- dynamic_viscosity: ''
+- force: Shear [force]
+- area: Plate [area]
+- velocity: Flow [velocity]
+- length: Separation

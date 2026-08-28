@@ -1,0 +1,17 @@
+name: Standard entropy of reaction
+id: standard_entropy_of_reaction
+topic: entropy
+difficulty: 3
+equation: entropy eq entropy add (entropy) sub entropy add entropy
+symbol_overrides:
+- entropy: ΔS°_rxn
+- entropy: S°_C
+- entropy: S°_D
+- entropy: S°_A
+- entropy: S°_B
+name_overrides:
+- entropy: Standard [entropy] of reaction
+- entropy: Standard [entropy] of product C
+- entropy: Standard [entropy] of product D
+- entropy: Standard [entropy] of reactant A
+- entropy: Standard [entropy] of reactant B

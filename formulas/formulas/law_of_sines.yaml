@@ -1,0 +1,15 @@
+name: Law of sines
+id: law_of_sines
+topic: laws_of_sines_and_cosines
+difficulty: 2
+equation: length div sin angle eq length div sin angle
+symbol_overrides:
+- length: a
+- angle: A
+- length: b
+- angle: B
+name_overrides:
+- length: ''
+- angle: ''
+- length: ''
+- angle: ''

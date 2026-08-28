@@ -1,0 +1,15 @@
+name: Newton's law of universal gravitation
+id: newtons_law_of_gravitation
+topic: newtonian_gravity
+difficulty: 2
+equation: force eq gravitational_constant mul (mass mul mass ) div length pow 2
+symbol_overrides:
+- force: F_g
+- mass: m_1
+- mass: m_2
+- length: r
+name_overrides:
+- force: Gravitational [force]
+- mass: ''
+- mass: ''
+- length: Distance

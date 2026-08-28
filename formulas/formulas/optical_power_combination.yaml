@@ -1,0 +1,13 @@
+name: Optical power of combined thin lenses
+id: optical_power_combination
+topic: lenses
+difficulty: 2
+equation: wavenumber eq wavenumber add wavenumber
+symbol_overrides:
+- wavenumber: P
+- wavenumber: P_1
+- wavenumber: P_2
+name_overrides:
+- wavenumber: Total optical [power]
+- wavenumber: Lens [power] 1
+- wavenumber: Lens [power] 2

@@ -1,0 +1,15 @@
+name: Z-score
+id: z_score_formula
+topic: statistics
+difficulty: 2
+equation: dimensionless eq (dimensionless sub dimensionless ) div dimensionless
+symbol_overrides:
+- dimensionless: z
+- dimensionless: x
+- dimensionless: μ
+- dimensionless: σ
+name_overrides:
+- dimensionless: z-score
+- dimensionless: Value
+- dimensionless: Mean
+- dimensionless: Standard deviation

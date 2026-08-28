@@ -1,0 +1,13 @@
+name: Catalytic activity concentration
+id: catalytic_activity_concentration_formula
+topic: chemical_kinetics
+difficulty: 2
+equation: catalytic_activity_concentration eq catalytic_activity div volume
+symbol_overrides:
+- catalytic_activity_concentration: ''
+- catalytic_activity: ''
+- volume: ''
+name_overrides:
+- catalytic_activity_concentration: ''
+- catalytic_activity: ''
+- volume: ''

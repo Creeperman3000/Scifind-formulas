@@ -2,14 +2,12 @@ name: Expected value of a discrete random variable
 id: expected_value_discrete
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq ((((dimensionless) pow (2)) add ((dimensionless) pow (2))) add ((dimensionless) pow (2)))
+equation: (dimensionless) eq (sum (((dimensionless) mul (dimensionless))))
 symbol_overrides:
-- dimensionless: E(X)
-- dimensionless: x₁
-- dimensionless: p₁
-- dimensionless: x₂
+- dimensionless: E[X]
+- dimensionless: x_i
+- dimensionless: p_i
 name_overrides:
 - dimensionless: Expected value
-- dimensionless: Value 1
-- dimensionless: Probability 1
-- dimensionless: Value 2
+- dimensionless: Value i
+- dimensionless: Probability i

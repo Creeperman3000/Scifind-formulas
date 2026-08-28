@@ -1,0 +1,13 @@
+name: Volume of a pyramid
+id: volume_pyramid
+topic: plane_geometry
+difficulty: 1
+equation: volume eq area mul (length) div 3
+symbol_overrides:
+- volume: V
+- area: A
+- length: h
+name_overrides:
+- volume: Volume
+- area: Base area
+- length: Height

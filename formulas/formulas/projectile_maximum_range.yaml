@@ -1,0 +1,15 @@
+name: Maximum range of projectile
+id: projectile_maximum_range
+topic: projectile_motion
+difficulty: 2
+equation: length eq velocity mul (velocity) div acceleration
+symbol_overrides:
+- length: R_max
+- velocity: v_0
+- velocity: ''
+- acceleration: g
+name_overrides:
+- length: Maximum [range]
+- velocity: Initial [velocity]
+- velocity: ''
+- acceleration: Gravitational [acceleration]

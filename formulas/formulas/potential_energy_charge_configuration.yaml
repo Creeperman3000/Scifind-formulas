@@ -1,0 +1,15 @@
+name: Electric potential energy of a charge configuration
+id: potential_energy_charge_configuration
+topic: electric_potential
+difficulty: 3
+equation: energy eq coulomb_constant mul (charge mul charge ) div length mul 2
+symbol_overrides:
+- energy: ''
+- charge: q_1
+- charge: q_2
+- length: r
+name_overrides:
+- energy: Potential [energy]
+- charge: ''
+- charge: ''
+- length: Separation

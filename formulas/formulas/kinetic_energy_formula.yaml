@@ -1,0 +1,18 @@
+name: Kinetic energy
+id: kinetic_energy_formula
+topic: kinetic_energy
+difficulty: 1
+equation: energy eq dimensionless div (dimensionless) mul (mass) mul velocity pow
+  2
+symbol_overrides:
+- energy: K
+- dimensionless: '1'
+- dimensionless: '2'
+- mass: m
+- velocity: v
+name_overrides:
+- energy: Kinetic [energy]
+- dimensionless: One
+- dimensionless: Two
+- mass: Mass
+- velocity: Speed

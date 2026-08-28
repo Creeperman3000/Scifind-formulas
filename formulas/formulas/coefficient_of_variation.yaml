@@ -1,0 +1,15 @@
+name: Coefficient of variation
+id: coefficient_of_variation
+topic: statistics
+difficulty: 2
+equation: dimensionless eq dimensionless div (dimensionless) mul dimensionless
+symbol_overrides:
+- dimensionless: CV
+- dimensionless: σ
+- dimensionless: μ
+- dimensionless: '100'
+name_overrides:
+- dimensionless: Coefficient of variation
+- dimensionless: Standard deviation
+- dimensionless: Mean
+- dimensionless: ''

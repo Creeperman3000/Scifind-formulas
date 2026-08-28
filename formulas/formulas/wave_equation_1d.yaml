@@ -1,0 +1,13 @@
+name: One-dimensional wave equation
+id: wave_equation_1d
+topic: differential_equations
+difficulty: 4
+equation: rmd rmd dimensionless eq rmd rmd dimensionless div velocity pow 2
+symbol_overrides:
+- dimensionless: y
+- dimensionless: y
+- velocity: ''
+name_overrides:
+- dimensionless: ∂²y/∂x²
+- dimensionless: ∂²y/∂t²
+- velocity: Wave [velocity]

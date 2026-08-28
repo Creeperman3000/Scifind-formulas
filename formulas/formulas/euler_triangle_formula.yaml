@@ -1,0 +1,15 @@
+name: Euler's formula for triangle distance
+id: euler_triangle_formula
+topic: triangles
+difficulty: 4
+equation: length pow 2 eq length mul length sub length mul 2
+symbol_overrides:
+- length: d
+- length: R
+- length: R
+- length: r
+name_overrides:
+- length: Distance between circumcenter and incenter
+- length: Circumradius
+- length: Circumradius
+- length: Inradius

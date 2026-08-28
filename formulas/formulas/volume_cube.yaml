@@ -1,0 +1,11 @@
+name: Volume of a cube
+id: volume_cube
+topic: plane_geometry
+difficulty: 1
+equation: volume eq length pow 3
+symbol_overrides:
+- volume: V
+- length: s
+name_overrides:
+- volume: Volume
+- length: Side

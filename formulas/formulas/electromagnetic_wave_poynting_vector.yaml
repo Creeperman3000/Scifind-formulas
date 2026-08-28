@@ -1,0 +1,13 @@
+name: Poynting vector magnitude
+id: electromagnetic_wave_poynting_vector
+topic: electromagnetic_waves
+difficulty: 3
+equation: power eq electric_field_strength mul (magnetic_field_strength) div vacuum_permeability
+symbol_overrides:
+- power: S
+- electric_field_strength: ''
+- magnetic_field_strength: B
+name_overrides:
+- power: Poynting vector magnitude
+- electric_field_strength: Electric [field]
+- magnetic_field_strength: Magnetic [field]

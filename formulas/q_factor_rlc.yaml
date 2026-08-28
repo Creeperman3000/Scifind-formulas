@@ -2,14 +2,14 @@ name: Q factor of an RLC circuit
 id: q_factor_rlc
 topic: circuits
 difficulty: 3
-equation: (dimensionless) eq ((1 div (resistance)) mul (sqrt ((inductance) div (capacitance))))
+equation: (dimensionless) eq ((1 div (inductance)) mul (sqrt ((inductance) div (capacitance))))
 symbol_overrides:
 - dimensionless: Q
-- resistance: ''
-- inductance: ''
-- capacitance: ''
+- inductance: R
+- inductance: L
+- capacitance: C
 name_overrides:
-- dimensionless: Quality factor
-- resistance: '[Resistance]'
+- dimensionless: Quality [factor]
+- inductance: '[Resistance]'
 - inductance: '[Inductance]'
 - capacitance: '[Capacitance]'

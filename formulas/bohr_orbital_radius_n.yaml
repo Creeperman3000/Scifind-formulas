@@ -2,12 +2,12 @@ name: Bohr orbital radius
 id: bohr_orbital_radius_n
 topic: atomic_physics
 difficulty: 3
-equation: (length) eq ((bohr_radius) mul ((dimensionless) pow 2))
+equation: (length) eq (((bohr_radius) mul (dimensionless pow 2)) div (dimensionless))
 symbol_overrides:
 - length: r_n
-- bohr_radius: a_0
 - dimensionless: n
+- dimensionless: Z
 name_overrides:
 - length: Orbital [radius]
-- bohr_radius: Bohr radius
 - dimensionless: Principal quantum number n
+- dimensionless: Atomic number

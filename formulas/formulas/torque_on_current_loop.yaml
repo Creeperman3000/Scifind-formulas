@@ -1,0 +1,20 @@
+name: Torque on a current loop in a magnetic field
+id: torque_on_current_loop
+topic: magnetism
+difficulty: 3
+equation: torque eq current mul (area) mul (amount) mul (magnetic_flux_density) mul
+  sin angle
+symbol_overrides:
+- torque: τ
+- current: ''
+- area: ''
+- amount: N
+- magnetic_flux_density: ''
+- angle: θ
+name_overrides:
+- torque: '[Torque]'
+- current: ''
+- area: Loop [area]
+- amount: Number of turns
+- magnetic_flux_density: ''
+- angle: Angle between normal and B

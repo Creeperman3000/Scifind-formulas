@@ -2,14 +2,14 @@ name: Thin film constructive interference
 id: thin_film_constructive
 topic: interference
 difficulty: 3
-equation: (((length) mul (reflectance)) mul 2) eq ((dimensionless) mul (length))
+equation: (((2) mul (refractive_index) mul (length)) eq ((dimensionless) mul (length)))
 symbol_overrides:
-- length: n
-- reflectance: t
+- refractive_index: n
+- length: t
 - dimensionless: m
-- length: λ
+- length: \lambda
 name_overrides:
-- length: Film refractive index
-- reflectance: Film thickness
+- refractive_index: Film refractive index
+- length: Film thickness
 - dimensionless: Order number
 - length: Wavelength in vacuum

@@ -1,0 +1,13 @@
+name: Regular polygon apothem area
+id: regular_polygon_apothem_area
+topic: polygons
+difficulty: 2
+equation: area eq length mul (length) div 2
+symbol_overrides:
+- area: ''
+- length: a
+- length: P
+name_overrides:
+- area: ''
+- length: Apothem
+- length: '[Perimeter]'

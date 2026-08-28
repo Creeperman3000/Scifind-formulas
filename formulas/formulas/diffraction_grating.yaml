@@ -1,0 +1,15 @@
+name: Diffraction grating equation
+id: diffraction_grating
+topic: diffraction
+difficulty: 3
+equation: length mul sin angle eq amount mul length
+symbol_overrides:
+- length: d
+- angle: θ
+- amount: m
+- length: λ
+name_overrides:
+- length: Grating spacing
+- angle: Diffraction angle
+- amount: Order number
+- length: Wavelength

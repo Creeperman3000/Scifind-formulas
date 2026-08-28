@@ -1,0 +1,13 @@
+name: Molality from amount and mass of solvent
+id: molality
+topic: solutions
+difficulty: 1
+equation: concentration eq amount div mass
+symbol_overrides:
+- concentration: m
+- amount: n
+- mass: m_{\mathrm{solvent}}
+name_overrides:
+- concentration: Molality
+- amount: Amount of solute
+- mass: Mass of solvent

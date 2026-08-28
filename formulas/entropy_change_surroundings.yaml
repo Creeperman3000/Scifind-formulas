@@ -4,10 +4,10 @@ topic: entropy
 difficulty: 2
 equation: (entropy) eq neg(((energy) div (temperature)))
 symbol_overrides:
-- entropy: ΔS_surr
-- energy: ''
-- temperature: ''
+- entropy: \Delta S_{surr}
+- energy: q_{sys}
+- temperature: T
 name_overrides:
 - entropy: Change in [entropy] of surroundings
-- energy: ''
-- temperature: ''
+- energy: System heat input
+- temperature: Temperature

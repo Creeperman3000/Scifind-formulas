@@ -1,0 +1,11 @@
+name: Angular momentum z-component eigenvalue
+id: angular_momentum_eigenvalue
+topic: quantum_mechanics
+difficulty: 4
+equation: angular_momentum eq dimensionless mul planck_constant div pi mul 2
+symbol_overrides:
+- angular_momentum: L_z
+- dimensionless: m_l
+name_overrides:
+- angular_momentum: z-component of angular [momentum]
+- dimensionless: Magnetic quantum [number]

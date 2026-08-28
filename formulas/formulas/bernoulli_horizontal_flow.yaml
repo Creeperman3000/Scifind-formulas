@@ -1,0 +1,20 @@
+name: Bernoulli's equation for horizontal flow
+id: bernoulli_horizontal_flow
+topic: bernoulli_equation
+difficulty: 2
+equation: pressure add density mul (velocity pow 2) div 2 eq pressure add density
+  mul (velocity pow 2) div 2
+symbol_overrides:
+- pressure: P_1
+- density: ρ
+- velocity: v_1
+- pressure: P_2
+- density: ρ
+- velocity: v_2
+name_overrides:
+- pressure: Pressure at point 1
+- density: Fluid [density]
+- velocity: Velocity at point 1
+- pressure: Pressure at point 2
+- density: Fluid [density]
+- velocity: Velocity at point 2

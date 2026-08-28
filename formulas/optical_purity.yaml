@@ -2,7 +2,7 @@ name: Optical purity
 id: optical_purity
 topic: organic_chemistry
 difficulty: 2
-equation: (dimensionless) eq (((angle) div (angle)) mul 100)
+equation: ((dimensionless) eq (100 mul ((angle) div (angle))))
 symbol_overrides:
 - dimensionless: OP
 - angle: '[α]_{\text{obs}}'

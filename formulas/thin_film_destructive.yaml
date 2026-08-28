@@ -2,16 +2,14 @@ name: Thin film destructive interference
 id: thin_film_destructive
 topic: interference
 difficulty: 3
-equation: (((length) mul (reflectance)) mul 2) eq (((dimensionless) add (dimensionless)) mul (length))
+equation: (((2) mul (refractive_index) mul (length)) eq (((dimensionless) add (1 div 2)) mul (length)))
 symbol_overrides:
-- length: n
-- reflectance: t
+- refractive_index: n
+- length: t
 - dimensionless: m
-- dimensionless: ½
-- length: λ
+- length: \lambda
 name_overrides:
-- length: Film refractive index
-- reflectance: Film thickness
+- refractive_index: Film refractive index
+- length: Film thickness
 - dimensionless: Order number
-- dimensionless: ''
 - length: Wavelength in vacuum

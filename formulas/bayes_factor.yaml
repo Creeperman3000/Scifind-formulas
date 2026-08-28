@@ -5,9 +5,9 @@ difficulty: 3
 equation: (dimensionless) eq ((dimensionless) div (dimensionless))
 symbol_overrides:
 - dimensionless: BF
-- dimensionless: P(D|H₁)
-- dimensionless: P(D|H₂)
+- dimensionless: P(D|H_1)
+- dimensionless: P(D|H_2)
 name_overrides:
-- dimensionless: Bayes factor
-- dimensionless: Likelihood under H₁
-- dimensionless: Likelihood under H₂
+- dimensionless: Bayes [factor]
+- dimensionless: Likelihood under H_1
+- dimensionless: Likelihood under H_2

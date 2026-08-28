@@ -1,0 +1,13 @@
+name: Entropy change for reversible heat transfer
+id: entropy_change
+topic: entropy
+difficulty: 2
+equation: entropy eq energy div temperature
+symbol_overrides:
+- entropy: ΔS
+- energy: ''
+- temperature: ''
+name_overrides:
+- entropy: Change in [entropy]
+- energy: ''
+- temperature: ''

@@ -1,0 +1,14 @@
+name: Gravitational binding energy of a uniform sphere (gravitational_binding_energy_uniform_sphere)
+id: gravitational_binding_energy_uniform_sphere
+topic: newtonian_gravity
+difficulty: 5
+equation: energy eq (gravitational_constant mul (mass pow 2) mul 3) div length mul
+  5
+symbol_overrides:
+- energy: E_b
+- mass: ''
+- length: R
+name_overrides:
+- energy: Binding [energy]
+- mass: ''
+- length: Sphere radius

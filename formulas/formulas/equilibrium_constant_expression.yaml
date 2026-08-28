@@ -1,0 +1,18 @@
+name: Equilibrium constant from concentrations
+id: equilibrium_constant_expression
+topic: chemical_equilibrium
+difficulty: 2
+equation: equilibrium_constant eq concentration mul (concentration) div concentration
+  mul concentration
+symbol_overrides:
+- equilibrium_constant: K_c
+- concentration: '[C]'
+- concentration: '[D]'
+- concentration: '[A]'
+- concentration: '[B]'
+name_overrides:
+- equilibrium_constant: ''
+- concentration: Concentration of C
+- concentration: Concentration of D
+- concentration: Concentration of A
+- concentration: Concentration of B

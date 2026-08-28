@@ -2,10 +2,10 @@ name: Limit of (1-cos(x))/x as x approaches 0
 id: limit_one_minus_cos_over_x
 topic: limits
 difficulty: 2
-equation: (0) eq ((1 sub (cos (angle))) div (angle))
+equation: (dimensionless) eq (0)
 symbol_overrides:
-- angle: x
-- angle: x
+- ? ''
+  : ''
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
+- ? ''
+  : ''

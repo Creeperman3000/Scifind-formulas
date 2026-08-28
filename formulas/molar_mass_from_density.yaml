@@ -6,12 +6,14 @@ equation: (molar_mass) eq ((((density) mul (gas_constant)) mul (temperature)) di
 name_overrides:
 - molar_mass: Molar [mass]
 - density: Gas [density]
-- gas_constant: ''
 - temperature: '[Temperature]'
 - pressure: '[Pressure]'
+- ? ''
+  : ''
 symbol_overrides:
 - molar_mass: ''
 - density: ''
-- gas_constant: ''
 - temperature: ''
 - pressure: ''
+- ? ''
+  : ''

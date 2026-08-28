@@ -1,0 +1,13 @@
+name: F-number of a lens
+id: f_number
+topic: lenses
+difficulty: 2
+equation: dimensionless eq length div length
+symbol_overrides:
+- dimensionless: N
+- length: f
+- length: D
+name_overrides:
+- dimensionless: F-number
+- length: Focal length
+- length: Aperture diameter

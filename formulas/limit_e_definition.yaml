@@ -9,5 +9,5 @@ symbol_overrides:
 - dimensionless: n
 name_overrides:
 - dimensionless: Euler's number
-- dimensionless: Index
-- dimensionless: '[Index]'
+- dimensionless: Index n
+- dimensionless: Index n

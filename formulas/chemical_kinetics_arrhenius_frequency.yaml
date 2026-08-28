@@ -7,11 +7,13 @@ symbol_overrides:
 - frequency: k
 - frequency: A
 - energy: E_a
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''
 name_overrides:
 - frequency: Rate [constant]
 - frequency: Pre-exponential factor
 - energy: Activation [energy]
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''

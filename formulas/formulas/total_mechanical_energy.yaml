@@ -1,0 +1,13 @@
+name: Total mechanical energy
+id: total_mechanical_energy
+topic: conservation_of_energy
+difficulty: 1
+equation: energy eq energy add energy
+symbol_overrides:
+- energy: K
+- energy: U
+- energy: ''
+name_overrides:
+- energy: Total mechanical [energy]
+- energy: Kinetic [energy]
+- energy: Potential [energy]

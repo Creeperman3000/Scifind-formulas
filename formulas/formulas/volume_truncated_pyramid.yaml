@@ -1,0 +1,20 @@
+name: Volume of a truncated pyramid (frustum)
+id: volume_truncated_pyramid
+topic: plane_geometry
+difficulty: 3
+equation: volume eq (length div 3) mul ((area add area) add sqrt (area mul area) 2
+  )
+symbol_overrides:
+- volume: V
+- length: h
+- area: A_1
+- area: A_2
+- area: A_1
+- area: A_2
+name_overrides:
+- volume: Volume
+- length: Height of frustum
+- area: Area of top base
+- area: Area of bottom base
+- area: Top base area
+- area: Bottom base area

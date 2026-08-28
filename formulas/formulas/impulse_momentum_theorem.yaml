@@ -1,0 +1,13 @@
+name: Impulse-momentum theorem
+id: impulse_momentum_theorem
+topic: impulse
+difficulty: 2
+equation: momentum eq momentum sub momentum
+symbol_overrides:
+- momentum: J
+- momentum: p_f
+- momentum: p_i
+name_overrides:
+- impulse: Impulse
+- momentum: Final [momentum]
+- momentum: Initial [momentum]

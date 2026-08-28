@@ -6,12 +6,14 @@ equation: (velocity) eq sqrt(((dimensionless) mul ((gas_constant) mul (temperatu
 symbol_overrides:
 - velocity: ''
 - dimensionless: γ
-- gas_constant: ''
 - temperature: ''
 - molar_mass: ''
+- ? ''
+  : ''
 name_overrides:
 - velocity: Speed of sound
 - dimensionless: Adiabatic index
-- gas_constant: ''
 - temperature: ''
 - molar_mass: ''
+- ? ''
+  : ''

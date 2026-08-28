@@ -6,10 +6,12 @@ equation: (energy) eq (((amount) mul ((gas_constant) mul (temperature))) mul ((3
 symbol_overrides:
 - energy: KE
 - amount: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''
 name_overrides:
 - energy: Translational kinetic [energy]
 - amount: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''

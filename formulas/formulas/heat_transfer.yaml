@@ -1,0 +1,15 @@
+name: Heat transfer by temperature change
+id: heat_transfer
+topic: heat
+difficulty: 1
+equation: energy eq mass mul (specific_heat_capacity) mul Delta temperature
+symbol_overrides:
+- energy: ''
+- mass: ''
+- specific_heat_capacity: ''
+- temperature: ''
+name_overrides:
+- energy: ''
+- mass: ''
+- specific_heat_capacity: ''
+- temperature: ''

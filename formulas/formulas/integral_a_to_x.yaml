@@ -1,0 +1,15 @@
+name: Integral of a to the x
+id: integral_a_to_x
+topic: integrals
+difficulty: 3
+equation: dimensionless eq dimensionless pow (dimensionless) div ln dimensionless
+symbol_overrides:
+- dimensionless: ∫a^x dx
+- dimensionless: a
+- dimensionless: x
+- dimensionless: a
+name_overrides:
+- dimensionless: Integral of exponential
+- dimensionless: '[Base]'
+- dimensionless: '[Variable]'
+- dimensionless: '[Base]'

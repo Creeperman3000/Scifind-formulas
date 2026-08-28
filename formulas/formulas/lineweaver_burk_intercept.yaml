@@ -1,0 +1,16 @@
+name: Lineweaver-Burk y-intercept
+id: lineweaver_burk_intercept
+topic: biochemistry
+difficulty: 3
+equation: catalytic_activity pow -1 eq (catalytic_activity pow -1) add (catalytic_activity
+  pow -1) mul concentration pow -1
+symbol_overrides:
+- catalytic_activity: 1/v
+- catalytic_activity: K_m/V_max
+- catalytic_activity: 1/V_max
+- concentration: 1/[S]
+name_overrides:
+- catalytic_activity: Reciprocal [velocity]
+- catalytic_activity: Slope term
+- catalytic_activity: Intercept
+- concentration: Reciprocal [substrate]

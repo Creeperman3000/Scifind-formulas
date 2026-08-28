@@ -1,0 +1,13 @@
+name: Magnetic flux density (B-field) from flux
+id: magnetic_flux_density_definition
+topic: magnetism
+difficulty: 2
+equation: magnetic_flux_density eq magnetic_flux div area
+symbol_overrides:
+- magnetic_flux_density: ''
+- magnetic_flux: ''
+- area: ''
+name_overrides:
+- magnetic_flux_density: '[Magnetic] flux density'
+- magnetic_flux: ''
+- area: Area perpendicular to field

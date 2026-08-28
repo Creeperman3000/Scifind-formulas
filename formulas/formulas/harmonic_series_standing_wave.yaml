@@ -1,0 +1,15 @@
+name: Harmonic series for a standing wave on a string
+id: harmonic_series_standing_wave
+topic: mechanical_waves
+difficulty: 2
+equation: frequency eq dimensionless mul velocity div length mul 2
+symbol_overrides:
+- frequency: f_n
+- dimensionless: n
+- velocity: ''
+- length: L
+name_overrides:
+- frequency: nth harmonic [frequency]
+- dimensionless: Harmonic number
+- velocity: Wave speed
+- length: String length

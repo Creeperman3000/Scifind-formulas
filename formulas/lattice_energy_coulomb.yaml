@@ -2,21 +2,14 @@ name: Coulombic contribution to lattice energy
 id: lattice_energy_coulomb
 topic: inorganic_chemistry
 difficulty: 4
-equation: (energy) eq (((coulomb_constant) mul (((avogadro_number) mul (dimensionless))
-  mul (((dimensionless) pow (2)) mul (elementary_charge pow 2)))) div (length))
+equation: (energy) eq (((coulomb_constant) mul (((avogadro_number) mul (dimensionless)) mul (((dimensionless) pow (2)) mul (elementary_charge pow 2)))) div (length))
 symbol_overrides:
 - energy: U
-- coulomb_constant: k_e
-- avogadro_number: N_A
 - dimensionless: M
 - dimensionless: z_+
-- elementary_charge: e
 - length: r_0
 name_overrides:
 - energy: Lattice [energy]
-- coulomb_constant: Coulomb constant
-- avogadro_number: Avogadro number
 - dimensionless: Madelung constant
 - dimensionless: Cation charge number
-- elementary_charge: Elementary charge
 - length: Nearest neighbor distance

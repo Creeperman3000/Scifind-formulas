@@ -2,10 +2,10 @@ name: Lorentz factor
 id: lorentz_factor
 topic: relativity
 difficulty: 3
-equation: (lorentz_factor) eq (velocity) (speed_of_light) div pow 2 1 sub neg sqrt 1 div
+equation: (lorentz_factor) eq (1) div sqrt ((1) sub (((velocity) pow 2) div ((speed_of_light) pow 2)))
 symbol_overrides:
 - lorentz_factor: γ
-- velocity: ''
+- velocity: v
 name_overrides:
 - lorentz_factor: '[Lorentz factor]'
 - velocity: ''

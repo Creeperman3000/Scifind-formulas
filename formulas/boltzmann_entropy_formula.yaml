@@ -4,10 +4,8 @@ topic: entropy
 difficulty: 4
 equation: (entropy) eq ((boltzmann_constant) mul (ln (dimensionless)))
 symbol_overrides:
-- entropy: ''
-- boltzmann_constant: k_B
+- entropy: S
 - dimensionless: \Omega
 name_overrides:
 - entropy: '[Entropy]'
-- boltzmann_constant: Boltzmann constant
 - dimensionless: Number of microstates

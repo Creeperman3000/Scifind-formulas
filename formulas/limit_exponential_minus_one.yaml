@@ -2,12 +2,10 @@ name: Limit of Exponential Difference
 id: limit_exponential_minus_one
 topic: limits
 difficulty: 3
-equation: (dimensionless) eq (((exp (dimensionless)) sub (1)) div (dimensionless))
+equation: (dimensionless) eq (1)
 symbol_overrides:
-- dimensionless: lim_{x→0} (eˣ-1)/x
-- dimensionless: x
-- dimensionless: x
+- ? ''
+  : ''
 name_overrides:
-- dimensionless: '[Limit] of exponential difference'
-- dimensionless: '[Variable]'
-- dimensionless: '[Variable]'
+- ? ''
+  : ''

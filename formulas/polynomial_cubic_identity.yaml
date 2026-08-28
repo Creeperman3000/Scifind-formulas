@@ -2,7 +2,7 @@ name: Polynomial Cubic Identity
 id: polynomial_cubic_identity
 topic: polynomials
 difficulty: 3
-equation: (dimensionless) (dimensionless) add (dimensionless) add pow 2 eq ((((((dimensionless pow 2) add (dimensionless pow 2)) add (dimensionless pow 2)) add (((dimensionless) pow (2)) mul 2)) add (((dimensionless) pow (2)) mul 2)) add (((dimensionless) pow (2)) mul 2))
+equation: (((dimensionless) add ((dimensionless) add (dimensionless))) pow 3) eq (((((dimensionless) pow 3) add ((dimensionless) pow 3)) add ((dimensionless) pow 3)) add ((3) mul (((dimensionless) mul (dimensionless)) mul (dimensionless))))
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b
@@ -17,9 +17,9 @@ name_overrides:
 - dimensionless: a
 - dimensionless: b
 - dimensionless: c
-- dimensionless: a²
-- dimensionless: b²
-- dimensionless: c²
-- dimensionless: 2ab
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: a³
+- dimensionless: b³
+- dimensionless: c³
+- dimensionless: a
+- dimensionless: b
+- dimensionless: a

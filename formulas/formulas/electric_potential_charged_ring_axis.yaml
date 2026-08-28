@@ -1,0 +1,16 @@
+name: Electric potential on axis of a charged ring
+id: electric_potential_charged_ring_axis
+topic: electric_potential
+difficulty: 4
+equation: electric_potential eq coulomb_constant mul (charge) div sqrt ((length pow
+  2) add length pow 2 ) 2
+symbol_overrides:
+- electric_potential: ''
+- charge: ''
+- length: R
+- length: x
+name_overrides:
+- electric_potential: Electric [potential]
+- charge: '[Charge]'
+- length: Ring [radius]
+- length: Distance on [axis]

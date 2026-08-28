@@ -2,10 +2,12 @@ name: Expected value of a binomial distribution
 id: expected_value_binomial
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) pow (2))
+equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
 symbol_overrides:
 - dimensionless: E[X]
 - dimensionless: n
+- dimensionless: p
 name_overrides:
 - dimensionless: Expected value
 - dimensionless: Number of trials
+- dimensionless: Success probability

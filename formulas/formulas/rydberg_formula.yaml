@@ -1,0 +1,18 @@
+name: Rydberg formula
+id: rydberg_formula
+topic: atomic_physics
+difficulty: 4
+equation: dimensionless eq rydberg_constant mul dimensionless div (dimensionless pow
+  2) sub dimensionless div dimensionless pow 2
+symbol_overrides:
+- dimensionless: 1/lambda
+- dimensionless: n1
+- dimensionless: n1
+- dimensionless: n2
+- dimensionless: n2
+name_overrides:
+- dimensionless: 1/λ
+- dimensionless: n₁
+- dimensionless: n₁
+- dimensionless: n₂
+- dimensionless: n₂

@@ -7,11 +7,13 @@ symbol_overrides:
 - pressure: Π
 - dimensionless: i
 - concentration: M
-- gas_constant: R
 - temperature: T
+- ? ''
+  : ''
 name_overrides:
 - pressure: Osmotic [pressure]
 - dimensionless: Van 't Hoff factor
 - concentration: Molarity
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''

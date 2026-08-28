@@ -5,9 +5,11 @@ difficulty: 4
 equation: (length) eq ((((2) mul (gravitational_constant)) mul (mass)) div (speed_of_light pow 2))
 symbol_overrides:
 - length: r_s
-- gravitational_constant: ''
 - mass: M
+- ? ''
+  : ''
 name_overrides:
 - length: Schwarzschild [radius]
-- gravitational_constant: ''
 - mass: ''
+- ? ''
+  : ''

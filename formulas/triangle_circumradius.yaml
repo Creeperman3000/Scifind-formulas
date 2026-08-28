@@ -2,14 +2,16 @@ name: Circumradius of a triangle
 id: triangle_circumradius
 topic: triangles
 difficulty: 2
-equation: (length) eq ((((length) pow (2)) mul (length)) div ((4) mul (area)))
+equation: (length) eq (((((length) mul (length)) mul (length)) div ((4) mul (area))))
 symbol_overrides:
 - length: R
 - length: a
 - length: b
-- area: ''
+- length: c
+- area: A
 name_overrides:
 - length: Circumradius
 - length: Side a
 - length: Side b
-- area: ''
+- length: Side c
+- area: Triangle area

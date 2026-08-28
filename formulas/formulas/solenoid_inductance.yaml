@@ -1,0 +1,15 @@
+name: Self-inductance of a solenoid (solenoid_inductance)
+id: solenoid_inductance
+topic: electromagnetic_induction
+difficulty: 4
+equation: inductance eq vacuum_permeability mul (amount pow 2) mul (area) div length
+symbol_overrides:
+- inductance: ''
+- amount: N
+- area: ''
+- length: ''
+name_overrides:
+- inductance: ''
+- amount: Number of turns
+- area: Cross-sectional [area]
+- length: Solenoid length

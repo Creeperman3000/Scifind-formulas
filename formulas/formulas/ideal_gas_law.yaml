@@ -1,0 +1,15 @@
+name: Ideal gas law
+id: ideal_gas_law
+topic: ideal_gases
+difficulty: 2
+equation: pressure mul volume eq amount mul (gas_constant) mul temperature
+symbol_overrides:
+- pressure: P
+- volume: V
+- amount: n
+- temperature: T
+name_overrides:
+- pressure: Pressure
+- volume: Volume
+- amount: Moles
+- temperature: Temperature

@@ -1,0 +1,13 @@
+name: Latus rectum of an ellipse
+id: ellipse_latus_rectum
+topic: coordinate_geometry
+difficulty: 2
+equation: length eq 2 mul (length pow 2) div length
+symbol_overrides:
+- length: LR
+- length: b
+- length: a
+name_overrides:
+- length: Latus rectum
+- length: Semi-minor axis
+- length: Semi-major axis

@@ -1,0 +1,15 @@
+name: Relativistic momentum
+id: relativistic_momentum
+topic: relativity
+difficulty: 4
+equation: momentum eq lorentz_factor mul mass mul velocity
+symbol_overrides:
+- momentum: ''
+- lorentz_factor: ''
+- mass: ''
+- velocity: ''
+name_overrides:
+- momentum: Relativistic [momentum]
+- lorentz_factor: ''
+- mass: ''
+- velocity: ''

@@ -1,0 +1,20 @@
+name: Percentage difference
+id: percentage_difference
+topic: arithmetic
+difficulty: 1
+equation: dimensionless eq (dimensionless sub dimensionless ) div ((dimensionless
+  add dimensionless ) div 2) mul dimensionless
+symbol_overrides:
+- dimensionless: '% diff'
+- dimensionless: a
+- dimensionless: b
+- dimensionless: '100'
+- dimensionless: ''
+- dimensionless: ''
+name_overrides:
+- dimensionless: Percentage difference
+- dimensionless: Value a
+- dimensionless: Value b
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''

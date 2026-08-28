@@ -1,0 +1,16 @@
+name: Faraday's law with N turns
+id: induced_emf_faraday_flux_change_rate
+topic: electromagnetic_induction
+difficulty: 2
+equation: electromagnetic_induction eq neg (dimensionless mul magnetic_flux div Delta
+  time )
+symbol_overrides:
+- electromagnetic_induction: ε
+- dimensionless: N
+- magnetic_flux: Φ
+- time: t
+name_overrides:
+- electromagnetic_induction: Induced EMF
+- dimensionless: Number of turns
+- magnetic_flux: Magnetic flux
+- time: Time

@@ -1,0 +1,13 @@
+name: Energy stored in a capacitor from charge
+id: capacitor_energy_q
+topic: capacitance
+difficulty: 2
+equation: energy eq (charge pow 2) div capacitance mul 2
+name_overrides:
+- energy: Stored [energy]
+- charge: ''
+- capacitance: ''
+symbol_overrides:
+- energy: ''
+- charge: ''
+- capacitance: ''

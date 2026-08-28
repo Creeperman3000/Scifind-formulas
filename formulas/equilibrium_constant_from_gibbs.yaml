@@ -6,10 +6,12 @@ equation: (dimensionless) eq (exp (neg ((energy) div ((gas_constant) mul (temper
 symbol_overrides:
 - dimensionless: K
 - energy: ΔG°
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''
 name_overrides:
 - dimensionless: Equilibrium constant K
 - energy: Standard Gibbs free [energy] change
-- gas_constant: Gas [constant]
 - temperature: Absolute [temperature]
+- ? ''
+  : ''

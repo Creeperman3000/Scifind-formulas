@@ -2,7 +2,7 @@ name: Saponification value
 id: saponification_value
 topic: organic_chemistry
 difficulty: 3
-equation: (dimensionless) eq ((((dimensionless) div (molar_mass)) mul 3) mul 1000)
+equation: ((dimensionless) eq (1000 mul (3 mul ((dimensionless) div (molar_mass)))))
 symbol_overrides:
 - dimensionless: SV
 - dimensionless: n_KOH

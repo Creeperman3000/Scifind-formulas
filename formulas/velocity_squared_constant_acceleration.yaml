@@ -2,14 +2,14 @@ name: Velocity squared relation
 id: velocity_squared_constant_acceleration
 topic: constant_acceleration
 difficulty: 2
-equation: (velocity pow 2) eq ((velocity pow 2) add (((acceleration) mul (length)) mul 2))
+equation: ((velocity) pow 2) eq (((velocity) pow 2) add ((2) mul ((acceleration) mul (length))))
 symbol_overrides:
-- velocity: ''
+- velocity: v
 - velocity: u
-- acceleration: ''
-- length: ''
+- acceleration: a
+- length: s
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
-- acceleration: ''
-- length: ''
+- acceleration: '[Acceleration]'
+- length: '[Displacement]'

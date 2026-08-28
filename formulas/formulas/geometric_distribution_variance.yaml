@@ -1,0 +1,16 @@
+name: Geometric distribution variance
+id: geometric_distribution_variance
+topic: probability
+difficulty: 3
+equation: dimensionless eq (dimensionless sub dimensionless ) pow (dimensionless)
+  div 2
+symbol_overrides:
+- dimensionless: Var[X]
+- dimensionless: '1'
+- dimensionless: p
+- dimensionless: p
+name_overrides:
+- dimensionless: Variance of geometric [distribution]
+- dimensionless: '1'
+- dimensionless: Success probability
+- dimensionless: ''

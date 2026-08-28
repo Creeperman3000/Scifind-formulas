@@ -2,12 +2,12 @@ name: Entropy change of surroundings (reversible)
 id: entropy_change_surroundings_reversible
 topic: entropy
 difficulty: 3
-equation: (entropy) eq ((energy) div (temperature))
+equation: (entropy) eq neg(((energy) div (temperature)))
 symbol_overrides:
-- entropy: ΔS_surr
-- energy: Q
-- temperature: ''
+- entropy: \Delta S_{surr}
+- energy: q_{sys}
+- temperature: T
 name_overrides:
 - entropy: Entropy change of surroundings
-- energy: Heat transferred
-- temperature: '[Temperature]'
+- energy: System heat
+- temperature: Temperature

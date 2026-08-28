@@ -1,0 +1,15 @@
+name: Number of combinations
+id: combinations_ncr
+topic: probability
+difficulty: 2
+equation: dimensionless eq dimensionless div dimensionless mul dimensionless
+symbol_overrides:
+- dimensionless: C(n,r)
+- dimensionless: n!
+- dimensionless: r!
+- dimensionless: (n-r)!
+name_overrides:
+- dimensionless: Number of combinations
+- dimensionless: n factorial
+- dimensionless: r factorial
+- dimensionless: (n-r) factorial

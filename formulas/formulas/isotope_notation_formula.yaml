@@ -1,0 +1,13 @@
+name: Isotope notation
+id: isotope_notation_formula
+topic: atomic_structure
+difficulty: 1
+equation: mass eq dimensionless add dimensionless
+symbol_overrides:
+- mass: ''
+- dimensionless: Z
+- dimensionless: N
+name_overrides:
+- mass: Atomic [mass]
+- dimensionless: Proton number
+- dimensionless: Neutron number

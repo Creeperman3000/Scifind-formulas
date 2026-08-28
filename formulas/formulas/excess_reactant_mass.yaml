@@ -1,0 +1,15 @@
+name: Excess reactant remaining mass
+id: excess_reactant_mass
+topic: limiting_reactants
+difficulty: 3
+equation: mass eq mass sub dimensionless mul molar_mass
+symbol_overrides:
+- mass: m_excess
+- mass: m_initial
+- dimensionless: n_used
+- molar_mass: ''
+name_overrides:
+- mass: Excess [mass] remaining
+- mass: Initial [mass] of excess reactant
+- dimensionless: Moles consumed
+- molar_mass: ''

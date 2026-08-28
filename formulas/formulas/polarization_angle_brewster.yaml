@@ -1,0 +1,13 @@
+name: Brewster's angle from refractive indices
+id: polarization_angle_brewster
+topic: polarization
+difficulty: 2
+equation: angle eq atan (refractive_index div refractive_index )
+symbol_overrides:
+- angle: θ_B
+- refractive_index: n_2
+- refractive_index: n_1
+name_overrides:
+- angle: Brewster's [angle]
+- refractive_index: Refractive index of transmitted medium
+- refractive_index: Refractive index of incident medium

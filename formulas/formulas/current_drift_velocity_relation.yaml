@@ -1,0 +1,17 @@
+name: Current from drift velocity
+id: current_drift_velocity_relation
+topic: current_electricity
+difficulty: 3
+equation: current eq dimensionless mul charge mul velocity mul area
+symbol_overrides:
+- current: ''
+- dimensionless: n
+- charge: e
+- velocity: v_d
+- area: ''
+name_overrides:
+- current: '[Current]'
+- dimensionless: Charge carrier density
+- charge: Elementary [charge]
+- velocity: Drift [velocity]
+- area: Cross-sectional [area]

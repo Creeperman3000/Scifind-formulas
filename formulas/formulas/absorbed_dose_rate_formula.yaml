@@ -1,0 +1,13 @@
+name: Absorbed dose rate
+id: absorbed_dose_rate_formula
+topic: nuclear_physics
+difficulty: 2
+equation: absorbed_dose_rate eq absorbed_dose div time
+symbol_overrides:
+- absorbed_dose_rate: Ḋ
+- absorbed_dose: ''
+- time: ''
+name_overrides:
+- absorbed_dose_rate: Absorbed dose [rate]
+- absorbed_dose: ''
+- time: ''

@@ -1,0 +1,13 @@
+name: Tangential velocity
+id: tangential_velocity
+topic: circular_motion
+difficulty: 2
+equation: velocity eq length mul angular_velocity
+symbol_overrides:
+- velocity: ''
+- length: r
+- angular_velocity: ''
+name_overrides:
+- velocity: Tangential [velocity]
+- length: Radius
+- angular_velocity: ''

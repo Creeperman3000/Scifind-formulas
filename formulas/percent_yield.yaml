@@ -2,7 +2,7 @@ name: Percent yield
 id: percent_yield
 topic: percent_yield
 difficulty: 1
-equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul 100)
+equation: ((dimensionless) eq (100 mul ((dimensionless) div (dimensionless))))
 symbol_overrides:
 - dimensionless: '%'
 - dimensionless: actual

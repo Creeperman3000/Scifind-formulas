@@ -1,0 +1,13 @@
+name: 'First law: internal energy change'
+id: first_law_internal_energy_change
+topic: first_law
+difficulty: 2
+equation: Delta energy eq energy add energy
+symbol_overrides:
+- energy: ΔU
+- energy: ''
+- energy: ''
+name_overrides:
+- energy: Change in internal [energy]
+- energy: Heat added
+- energy: Work done on system

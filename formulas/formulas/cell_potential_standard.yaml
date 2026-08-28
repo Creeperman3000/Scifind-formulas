@@ -1,0 +1,13 @@
+name: Standard cell potential
+id: cell_potential_standard
+topic: electrochemistry
+difficulty: 2
+equation: electric_potential eq electric_potential sub electric_potential
+symbol_overrides:
+- electric_potential: E°_cell
+- electric_potential: E°_cathode
+- electric_potential: E°_anode
+name_overrides:
+- electric_potential: Standard cell [potential]
+- electric_potential: Cathode [potential]
+- electric_potential: Anode [potential]

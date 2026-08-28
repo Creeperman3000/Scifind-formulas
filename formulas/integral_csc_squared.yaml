@@ -2,12 +2,10 @@ name: Integral of csc² x
 id: integral_csc_squared
 topic: integrals
 difficulty: 2
-equation: (dimensionless) eq (neg ((cos (angle)) div (sin (angle))))
+equation: (dimensionless) eq neg((dimensionless))
 symbol_overrides:
-- dimensionless: ∫csc²x dx
-- angle: x
-- angle: x
+- dimensionless: \int \csc^2 x dx
+- dimensionless: \cot x
 name_overrides:
-- dimensionless: ∫ csc² x dx
-- angle: '[Variable]'
-- angle: '[Variable]'
+- dimensionless: Integral of csc²x
+- dimensionless: cotangent

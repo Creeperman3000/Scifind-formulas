@@ -6,12 +6,14 @@ equation: (equilibrium_constant) eq ((equilibrium_constant) mul (((gas_constant)
 symbol_overrides:
 - equilibrium_constant: K_p
 - equilibrium_constant: K_c
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Δn
+- ? ''
+  : ''
 name_overrides:
 - equilibrium_constant: Equilibrium constant in terms of [pressure]
 - equilibrium_constant: Equilibrium constant in terms of [concentration]
-- gas_constant: ''
 - temperature: ''
 - dimensionless: Change in moles of gas
+- ? ''
+  : ''

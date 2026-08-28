@@ -1,0 +1,13 @@
+name: Simple harmonic motion differential equation
+id: shm_ode_second_order
+topic: differential_equations
+difficulty: 4
+equation: rmd dimensionless eq neg ((angular_velocity pow 2) mul length )
+symbol_overrides:
+- dimensionless: d²x/dt²
+- angular_velocity: ω
+- length: ''
+name_overrides:
+- dimensionless: Second derivative of position
+- angular_velocity: ''
+- length: Displacement from equilibrium

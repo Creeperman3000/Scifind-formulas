@@ -1,0 +1,15 @@
+name: Transformer current relationship
+id: transformer_current
+topic: electromagnetic_induction
+difficulty: 2
+equation: current mul current eq electric_potential mul electric_potential
+symbol_overrides:
+- current: I_p
+- current: V_p
+- electric_potential: V_s
+- electric_potential: I_s
+name_overrides:
+- current: Primary [current]
+- current: Primary [voltage]
+- electric_potential: Secondary [voltage]
+- electric_potential: Secondary [current]

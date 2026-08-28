@@ -2,14 +2,14 @@ name: Enthalpy change at constant pressure
 id: enthalpy_change_definition
 topic: thermochemistry
 difficulty: 2
-equation: (energy) eq (energy) (pressure) (Delta) (volume) mul add
+equation: (energy) eq (energy add ((pressure) mul ((Delta (volume)))))
 symbol_overrides:
-- energy: ΔH
-- energy: ΔU
-- pressure: ''
-- volume: ''
+- energy: \Delta H
+- energy: \Delta U
+- pressure: P
+- volume: \Delta V
 name_overrides:
 - energy: '[Enthalpy] change'
 - energy: Internal [energy] change
-- pressure: ''
+- pressure: Pressure
 - volume: Volume change

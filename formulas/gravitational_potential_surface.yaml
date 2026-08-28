@@ -6,12 +6,14 @@ equation: ((energy) div (mass)) eq neg((((gravitational_constant) mul (mass)) di
 symbol_overrides:
 - energy: Φ
 - mass: M
-- gravitational_constant: ''
 - mass: M
 - length: R
+- ? ''
+  : ''
 name_overrides:
 - energy: Gravitational [potential]
 - mass: Mass [of body]
-- gravitational_constant: ''
 - mass: Mass [of body]
 - length: Body [radius]
+- ? ''
+  : ''

@@ -1,0 +1,13 @@
+name: Surface area of a torus
+id: surface_area_torus
+topic: plane_geometry
+difficulty: 3
+equation: area eq 4 mul ((pi pow 2) mul (length) mul length )
+symbol_overrides:
+- area: A
+- length: R
+- length: r
+name_overrides:
+- area: Surface area
+- length: Major radius
+- length: Minor radius

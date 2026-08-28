@@ -2,12 +2,14 @@ name: Electric potential energy of a charge configuration
 id: potential_energy_charge_configuration
 topic: electric_potential
 difficulty: 3
-equation: (energy) eq (((coulomb_constant) mul ((charge) pow (2))) div ((2) mul (length)))
+equation: (energy) eq (((coulomb_constant) mul ((charge) mul (charge))) div (length))
 symbol_overrides:
-- energy: ''
+- energy: U
 - charge: q_1
+- charge: q_2
 - length: r
 name_overrides:
 - energy: Potential [energy]
-- charge: ''
+- charge: Charge 1
+- charge: Charge 2
 - length: Separation

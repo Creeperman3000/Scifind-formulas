@@ -1,0 +1,13 @@
+name: Exponential decay differential equation
+id: exponential_decay_diff_eq
+topic: differential_equations
+difficulty: 3
+equation: dimensionless eq neg (amount mul frequency )
+symbol_overrides:
+- dimensionless: dN/dt
+- amount: ''
+- frequency: λ
+name_overrides:
+- dimensionless: Rate of change
+- amount: '[Population]'
+- frequency: Decay constant

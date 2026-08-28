@@ -1,0 +1,13 @@
+name: Average velocity
+id: average_velocity
+topic: constant_acceleration
+difficulty: 1
+equation: velocity eq length div time
+symbol_overrides:
+- velocity: v_avg
+- length: ''
+- time: ''
+name_overrides:
+- velocity: Average [velocity]
+- length: ''
+- time: ''

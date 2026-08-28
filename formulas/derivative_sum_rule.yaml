@@ -2,21 +2,14 @@ name: Derivative sum rule
 id: derivative_sum_rule
 topic: derivatives
 difficulty: 1
-equation: ((dimensionless) mul (rmd ((dimensionless) add (dimensionless)))) eq (((dimensionless)
-  mul (rmd (dimensionless))) add ((dimensionless) mul (rmd (dimensionless))))
+equation: (rmd ((dimensionless) add (dimensionless))) eq ((rmd (dimensionless)) add (rmd (dimensionless)))
 symbol_overrides:
-- dimensionless: f
-- dimensionless: g
-- dimensionless: f
-- dimensionless: g
-- dimensionless: f
-- dimensionless: g
-- dimensionless: g
-name_overrides:
-- dimensionless: d(f+g)/dx
-- dimensionless: df/dx
-- dimensionless: dg/dx
 - dimensionless: ''
-- dimensionless: First function
-- dimensionless: Second function
-- dimensionless: Second function derivative
+- dimensionless: f
+- dimensionless: g
+- dimensionless: ''
+name_overrides:
+- dimensionless: Derivative
+- dimensionless: Function f
+- dimensionless: Function g
+- dimensionless: ''

@@ -1,0 +1,13 @@
+name: Electric force on a charge in a field
+id: electric_force_field
+topic: electric_fields
+difficulty: 1
+equation: force eq charge mul electric_field_strength
+symbol_overrides:
+- force: ''
+- charge: ''
+- electric_field_strength: ''
+name_overrides:
+- force: ''
+- charge: ''
+- electric_field_strength: ''

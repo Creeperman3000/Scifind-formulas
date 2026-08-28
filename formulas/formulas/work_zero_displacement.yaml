@@ -1,0 +1,9 @@
+name: Work done when force is perpendicular to displacement
+id: work_zero_displacement
+topic: work
+difficulty: 1
+equation: energy eq 0
+name_overrides:
+- energy: '[Work]'
+symbol_overrides:
+- energy: ''

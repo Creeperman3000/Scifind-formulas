@@ -1,0 +1,16 @@
+name: Orbital mechanical energy
+id: orbital_mechanical_energy
+topic: orbital_motion
+difficulty: 4
+equation: energy eq neg (gravitational_constant mul (mass mul mass ) div length mul
+  2 )
+symbol_overrides:
+- energy: ''
+- mass: M
+- mass: ''
+- length: a
+name_overrides:
+- energy: Orbital mechanical [energy]
+- mass: Central [mass]
+- mass: Orbiting [mass]
+- length: Semi-major [axis]

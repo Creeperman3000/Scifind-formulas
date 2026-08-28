@@ -1,0 +1,13 @@
+name: Area of a sector
+id: area_sector
+topic: circles
+difficulty: 2
+equation: area eq (length pow 2) mul (angle) div 2
+symbol_overrides:
+- area: ''
+- length: r
+- angle: θ
+name_overrides:
+- area: Sector [area]
+- length: Radius
+- angle: Central angle (radians)

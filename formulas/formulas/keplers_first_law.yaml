@@ -1,0 +1,22 @@
+name: Kepler's first law of planetary motion
+id: keplers_first_law
+topic: orbital_motion
+difficulty: 3
+equation: length eq length mul (dimensionless sub dimensionless pow 2 ) div dimensionless
+  add dimensionless mul cos angle
+symbol_overrides:
+- length: r
+- length: a
+- dimensionless: 1
+- dimensionless: e
+- dimensionless: 1
+- dimensionless: e
+- angle: θ
+name_overrides:
+- length: Orbital radius
+- length: Semi-major axis
+- dimensionless: One
+- dimensionless: Eccentricity
+- dimensionless: One
+- dimensionless: Eccentricity
+- angle: True anomaly

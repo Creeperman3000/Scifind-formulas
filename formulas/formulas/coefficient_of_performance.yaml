@@ -1,0 +1,13 @@
+name: Coefficient of performance of a refrigerator
+id: coefficient_of_performance
+topic: heat_engines
+difficulty: 3
+equation: heat_engine_efficiency eq energy div energy
+symbol_overrides:
+- heat_engine_efficiency: COP
+- energy: Q_c
+- energy: ''
+name_overrides:
+- heat_engine_efficiency: Coefficient of performance
+- energy: Heat extracted from cold reservoir
+- energy: ''

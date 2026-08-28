@@ -1,0 +1,11 @@
+name: Integral of sine
+id: integral_sin
+topic: integrals
+difficulty: 2
+equation: dimensionless eq neg cos angle
+symbol_overrides:
+- dimensionless: ∫sin(x)dx
+- angle: x
+name_overrides:
+- dimensionless: ∫ sin(x) dx
+- angle: '[Variable]'

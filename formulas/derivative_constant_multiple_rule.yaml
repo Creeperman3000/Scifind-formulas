@@ -2,17 +2,14 @@ name: Derivative constant multiple rule
 id: derivative_constant_multiple_rule
 topic: derivatives
 difficulty: 1
-equation: ((dimensionless) mul (rmd ((dimensionless) pow (2)))) eq ((dimensionless)
-  mul ((dimensionless) mul (rmd (dimensionless))))
+equation: ((dimensionless) mul (rmd (dimensionless))) eq ((dimensionless) mul (rmd (dimensionless)))
 symbol_overrides:
-- dimensionless: cf
 - dimensionless: c
 - dimensionless: f
 - dimensionless: c
 - dimensionless: f
 name_overrides:
-- dimensionless: d(cf)/dx
-- dimensionless: Constant c
-- dimensionless: df/dx
-- dimensionless: Constant c
-- dimensionless: Function f
+- dimensionless: '[Constant] c'
+- dimensionless: '[Function] f'
+- dimensionless: '[Constant] c'
+- dimensionless: '[Function] f'

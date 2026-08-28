@@ -1,0 +1,13 @@
+name: Gibbs free energy from cell potential
+id: gibbs_cell_potential
+topic: electrochemistry
+difficulty: 3
+equation: energy eq neg dimensionless mul (faraday_constant) mul electric_potential
+symbol_overrides:
+- energy: ΔG
+- dimensionless: n
+- electric_potential: E
+name_overrides:
+- energy: Gibbs free [energy] change
+- dimensionless: Moles of electrons
+- electric_potential: Cell [potential]

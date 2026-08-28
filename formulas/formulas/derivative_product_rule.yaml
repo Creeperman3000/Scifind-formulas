@@ -1,0 +1,18 @@
+name: Product rule
+id: derivative_product_rule
+topic: derivatives
+difficulty: 3
+equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
+  dimensionless
+symbol_overrides:
+- dimensionless: d/dx(f·g)
+- dimensionless: df/dx
+- dimensionless: g
+- dimensionless: f
+- dimensionless: dg/dx
+name_overrides:
+- dimensionless: Derivative of product
+- dimensionless: Derivative of f
+- dimensionless: g
+- dimensionless: f
+- dimensionless: Derivative of g

@@ -2,10 +2,10 @@ name: Logarithm as inverse of exponent
 id: logarithm_inverse_relation
 topic: logarithms
 difficulty: 1
-equation: (log (10 pow (dimensionless))) eq (dimensionless)
+equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
+- dimensionless: log_a(a^x)
 - dimensionless: x
-- dimensionless: a
 name_overrides:
-- dimensionless: Result
-- dimensionless: Base
+- dimensionless: 'Log base a of a to the x'
+- dimensionless: 'Exponent x'

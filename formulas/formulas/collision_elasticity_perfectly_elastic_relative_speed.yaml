@@ -1,0 +1,15 @@
+name: Relative speed in elastic collision
+id: collision_elasticity_perfectly_elastic_relative_speed
+topic: collisions
+difficulty: 2
+equation: velocity sub velocity eq neg (velocity sub velocity )
+symbol_overrides:
+- velocity: v_1
+- velocity: v_2
+- velocity: v'_1
+- velocity: v'_2
+name_overrides:
+- velocity: Speed of approach
+- velocity: Speed of separation
+- velocity: ''
+- velocity: ''

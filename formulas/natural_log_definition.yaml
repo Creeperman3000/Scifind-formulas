@@ -2,10 +2,10 @@ name: Natural logarithm definition
 id: natural_log_definition
 topic: logarithms
 difficulty: 2
-equation: ln((dimensionless)) eq (dimensionless)
+equation: (dimensionless) eq (exp (dimensionless))
 symbol_overrides:
-- dimensionless: ln(x)
+- dimensionless: x
 - dimensionless: y
 name_overrides:
-- dimensionless: '[Natural] [logarithm]'
-- dimensionless: Exponent such that e^y = x
+- dimensionless: e raised to y
+- dimensionless: '[Exponent] y'

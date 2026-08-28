@@ -1,0 +1,11 @@
+name: Hydraulic pressure ratio (Pascal's law)
+id: pascals_law_hydraulic_pressure_ratio
+topic: pascals_law
+difficulty: 1
+equation: pressure eq pressure
+symbol_overrides:
+- pressure: P_1
+- pressure: P_2
+name_overrides:
+- pressure: Applied [pressure]
+- pressure: Transmitted [pressure]

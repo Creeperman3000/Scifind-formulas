@@ -7,11 +7,13 @@ name_overrides:
 - density: Gas [density]
 - pressure: ''
 - molar_mass: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''
 symbol_overrides:
 - density: ''
 - pressure: ''
 - molar_mass: ''
-- gas_constant: ''
 - temperature: ''
+- ? ''
+  : ''

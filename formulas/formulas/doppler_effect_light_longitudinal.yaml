@@ -1,0 +1,20 @@
+name: Longitudinal relativistic Doppler effect
+id: doppler_effect_light_longitudinal
+topic: relativity
+difficulty: 4
+equation: frequency eq frequency mul sqrt ((dimensionless sub dimensionless ) div
+  dimensionless add dimensionless ) 2
+symbol_overrides:
+- frequency: f'
+- frequency: ''
+- dimensionless: '1'
+- dimensionless: β
+- dimensionless: '1'
+- dimensionless: β
+name_overrides:
+- frequency: Observed [frequency]
+- frequency: Source [frequency]
+- dimensionless: ''
+- dimensionless: v/c
+- dimensionless: ''
+- dimensionless: ''

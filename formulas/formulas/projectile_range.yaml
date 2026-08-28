@@ -1,0 +1,13 @@
+name: Range of a projectile
+id: projectile_range
+topic: projectile_motion
+difficulty: 2
+equation: length eq (velocity pow 2) mul sin ((angle) mul 2) div standard_gravity
+symbol_overrides:
+- length: R
+- velocity: v_0
+- angle: ''
+name_overrides:
+- length: Range
+- velocity: Initial [velocity]
+- angle: ''

@@ -6,14 +6,16 @@ equation: (energy) eq ((((amount) mul (gas_constant)) mul (temperature)) mul (ln
 symbol_overrides:
 - energy: ''
 - amount: ''
-- gas_constant: ''
 - temperature: ''
 - volume: V₂
 - volume: V₁
+- ? ''
+  : ''
 name_overrides:
 - energy: Isothermal [work]
 - amount: ''
-- gas_constant: ''
 - temperature: ''
 - volume: Final [volume]
 - volume: Initial [volume]
+- ? ''
+  : ''

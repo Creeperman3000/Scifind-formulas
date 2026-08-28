@@ -1,0 +1,16 @@
+name: Electric potential of a dipole
+id: electric_potential_dipole
+topic: electric_potential
+difficulty: 3
+equation: electric_potential eq coulomb_constant mul (torque) mul (cos angle ) div
+  length pow 2
+symbol_overrides:
+- electric_potential: ''
+- torque: p
+- angle: θ
+- length: r
+name_overrides:
+- electric_potential: Electric [potential]
+- torque: Dipole [moment]
+- angle: Angle from dipole axis
+- length: Distance

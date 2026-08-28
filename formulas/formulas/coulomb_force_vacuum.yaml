@@ -1,0 +1,16 @@
+name: Coulomb force in vacuum
+id: coulomb_force_vacuum
+topic: electrostatics
+difficulty: 2
+equation: force eq charge mul (charge) div vacuum_permittivity mul (pi mul 4) mul
+  length pow 2
+symbol_overrides:
+- force: F_e
+- charge: q₁
+- charge: q₂
+- length: r
+name_overrides:
+- force: Electrostatic [force]
+- charge: ''
+- charge: ''
+- length: Separation distance

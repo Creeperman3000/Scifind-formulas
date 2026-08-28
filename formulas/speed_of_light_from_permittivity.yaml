@@ -2,15 +2,6 @@ name: Speed of light from permittivity and permeability
 id: speed_of_light_from_permittivity
 topic: electromagnetic_waves
 difficulty: 3
-equation: (speed_of_light) eq ((dimensionless) div (sqrt ((vacuum_permittivity) mul
-  (vacuum_permeability))))
-symbol_overrides:
-- speed_of_light: c
-- dimensionless: '1'
-- vacuum_permittivity: \varepsilon_0
-- vacuum_permeability: \mu_0
-name_overrides:
-- speed_of_light: Speed of light
-- dimensionless: '1'
-- vacuum_permittivity: Vacuum permittivity
-- vacuum_permeability: Vacuum permeability
+equation: (speed_of_light) eq (1 div (sqrt ((vacuum_permittivity) mul (vacuum_permeability))))
+symbol_overrides: []
+name_overrides: []

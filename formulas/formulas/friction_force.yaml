@@ -1,0 +1,13 @@
+name: Friction force
+id: friction_force
+topic: friction
+difficulty: 1
+equation: force eq coefficient_of_friction mul force
+symbol_overrides:
+- force: F_f
+- coefficient_of_friction: μ
+- force: N
+name_overrides:
+- force: Friction [force]
+- coefficient_of_friction: ''
+- force: Normal [force]

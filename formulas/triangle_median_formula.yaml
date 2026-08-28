@@ -2,16 +2,14 @@ name: Median length of a triangle
 id: triangle_median_formula
 topic: triangles
 difficulty: 3
-equation: (length) eq (sqrt((((((length) pow (2 mul (2 pow (length)))) pow (2 add (length))) add (2 mul 2)) sub ((length) pow 2))) div 2)
+equation: (length) eq (sqrt (((2 mul ((length) pow 2)) add ((2 mul ((length) pow 2)) sub ((length) pow 2)))))
 symbol_overrides:
 - length: m_a
 - length: b
-- length: b
 - length: c
-- length: c
+- length: a
 name_overrides:
-- length: '[Median] to side a'
-- length: Side b
+- length: Median to side a
 - length: Side b
 - length: Side c
-- length: Side c
+- length: Side a

@@ -1,0 +1,17 @@
+name: Acceleration of an Atwood machine
+id: acceleration_atwood_machine
+topic: newtons_laws
+difficulty: 2
+equation: acceleration eq standard_gravity mul (mass sub mass ) div mass add mass
+symbol_overrides:
+- acceleration: ''
+- mass: m_1
+- mass: m_2
+- mass: m_1
+- mass: m_2
+name_overrides:
+- acceleration: '[Acceleration]'
+- mass: Mass 1
+- mass: Mass 2
+- mass: Mass 1
+- mass: Mass 2

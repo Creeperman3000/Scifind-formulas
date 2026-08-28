@@ -1,0 +1,15 @@
+name: Central force in Newtonian gravitation
+id: central_force_newton_gravitation
+topic: orbital_motion
+difficulty: 2
+equation: force eq gravitational_constant mul (mass) mul (mass) div length pow 2
+symbol_overrides:
+- force: ''
+- mass: M
+- mass: ''
+- length: r
+name_overrides:
+- force: Gravitational [force]
+- mass: ''
+- mass: ''
+- length: Separation

@@ -6,10 +6,12 @@ equation: (time pow 2) eq (((2 mul (pi)) pow 2) mul ((length pow 3) div ((gravit
 symbol_overrides:
 - time: T
 - length: a
-- gravitational_constant: ''
 - mass: M
+- ? ''
+  : ''
 name_overrides:
 - time: Orbital period
 - length: Semi-major axis
-- gravitational_constant: ''
 - mass: Central [mass]
+- ? ''
+  : ''

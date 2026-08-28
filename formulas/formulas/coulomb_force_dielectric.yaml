@@ -1,0 +1,18 @@
+name: Coulomb force in a dielectric medium
+id: coulomb_force_dielectric
+topic: electrostatics
+difficulty: 2
+equation: force eq coulomb_constant mul (charge) mul (charge) div dimensionless mul
+  length pow 2
+symbol_overrides:
+- force: ''
+- charge: q_1
+- charge: q_2
+- dimensionless: ε_r
+- length: r
+name_overrides:
+- force: Coulomb [force]
+- charge: Charge 1
+- charge: Charge 2
+- dimensionless: Relative permittivity
+- length: Separation

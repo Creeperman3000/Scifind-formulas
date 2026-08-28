@@ -2,7 +2,7 @@ name: Atom economy
 id: percent_yield_atom_economy
 topic: percent_yield
 difficulty: 2
-equation: (dimensionless) eq (((molar_mass) div ((molar_mass) add (molar_mass))) mul 100)
+equation: ((dimensionless) eq (100 mul ((molar_mass) div ((molar_mass) add (molar_mass)))))
 symbol_overrides:
 - dimensionless: '% AE'
 - molar_mass: M_{\text{d}}

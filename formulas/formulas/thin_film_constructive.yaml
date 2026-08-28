@@ -1,0 +1,15 @@
+name: Thin film constructive interference
+id: thin_film_constructive
+topic: interference
+difficulty: 3
+equation: 2 mul length mul reflectance eq dimensionless mul length
+symbol_overrides:
+- length: n
+- reflectance: t
+- dimensionless: m
+- length: λ
+name_overrides:
+- length: Film refractive index
+- reflectance: Film thickness
+- dimensionless: Order number
+- length: Wavelength in vacuum

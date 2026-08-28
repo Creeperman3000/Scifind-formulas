@@ -1,0 +1,15 @@
+name: Radioactive decay law
+id: radioactive_decay
+topic: nuclear_physics
+difficulty: 3
+equation: amount eq amount mul exp neg (frequency mul time )
+symbol_overrides:
+- amount: N_0
+- amount: ''
+- frequency: λ
+- time: ''
+name_overrides:
+- amount: Remaining nuclei
+- amount: Initial nuclei
+- frequency: Decay constant
+- time: ''

@@ -1,0 +1,16 @@
+name: Area of a regular hexagon
+id: area_hexagon
+topic: polygons
+difficulty: 2
+equation: area eq (dimensionless mul sqrt 3 2 ) div (dimensionless) mul length pow
+  2
+symbol_overrides:
+- area: A
+- dimensionless: '3'
+- dimensionless: '2'
+- length: s
+name_overrides:
+- area: Area
+- dimensionless: Three
+- dimensionless: Two
+- length: Side

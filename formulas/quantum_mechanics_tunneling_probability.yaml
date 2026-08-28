@@ -2,7 +2,7 @@ name: Quantum tunneling probability (WKB)
 id: quantum_mechanics_tunneling_probability
 topic: quantum_mechanics
 difficulty: 5
-equation: (dimensionless) eq (exp ((((sqrt ((mass) mul ((energy) sub (energy)))) mul (length)) mul 2) neg))
+equation: ((dimensionless) eq (exp (neg (2 mul ((sqrt ((mass) mul ((energy) sub (energy)))) mul (length))))))
 symbol_overrides:
 - dimensionless: T
 - mass: m

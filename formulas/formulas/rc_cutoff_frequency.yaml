@@ -1,0 +1,13 @@
+name: RC circuit cutoff frequency
+id: rc_cutoff_frequency
+topic: circuits
+difficulty: 3
+equation: frequency eq 1 div ((2 mul pi) mul resistance mul capacitance )
+symbol_overrides:
+- frequency: f_c
+- resistance: ''
+- capacitance: ''
+name_overrides:
+- frequency: Cutoff [frequency]
+- resistance: ''
+- capacitance: ''

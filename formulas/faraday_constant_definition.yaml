@@ -4,3 +4,4 @@ topic: electrochemistry
 difficulty: 2
 equation: (faraday_constant) eq ((avogadro_number) mul (elementary_charge))
 symbol_overrides: []
+name_overrides: []

@@ -1,0 +1,24 @@
+name: Integral of 1/(a²-x²)
+id: integral_reciprocal_diff_squares
+topic: integrals
+difficulty: 4
+equation: dimensionless eq dimensionless div (dimensionless mul dimensionless ) mul
+  ln ((dimensionless add angle ) div dimensionless sub angle )
+symbol_overrides:
+- dimensionless: ∫dx/(a²-x²)
+- dimensionless: '1'
+- dimensionless: '2'
+- dimensionless: a
+- dimensionless: a
+- angle: x
+- dimensionless: ''
+- angle: x
+name_overrides:
+- dimensionless: Integral of reciprocal diff squares
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: '[Constant]'
+- dimensionless: ''
+- angle: '[Variable]'
+- dimensionless: ''
+- angle: ''

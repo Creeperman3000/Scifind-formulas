@@ -2,7 +2,7 @@ name: Projectile trajectory equation
 id: trajectory_equation_projectile
 topic: projectile_motion
 difficulty: 3
-equation: (length) eq (((length) mul (tan (angle))) sub (((acceleration) mul (length pow 2)) div (((2 mul (velocity)) pow (cos (angle))) mul 2)))
+equation: ((length) eq (((length) mul (tan (angle))) sub (((acceleration) mul ((length) pow 2)) div (2 mul ((2 mul (velocity)) pow (cos (angle)))))))
 symbol_overrides:
 - length: y
 - length: ''

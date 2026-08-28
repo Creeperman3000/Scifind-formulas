@@ -1,0 +1,16 @@
+name: Weighted arithmetic mean
+id: weighted_arithmetic_mean
+topic: statistics
+difficulty: 2
+equation: dimensionless eq sum skip skip (dimensionless mul dimensionless) frac sum
+  skip skip dimensionless
+symbol_overrides:
+- dimensionless: x̄_w
+- dimensionless: w_1
+- dimensionless: x_1
+- dimensionless: w_1
+name_overrides:
+- dimensionless: Weighted mean
+- dimensionless: Weight 1
+- dimensionless: Value 1
+- dimensionless: Weight 1

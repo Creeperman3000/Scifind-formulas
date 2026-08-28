@@ -1,0 +1,17 @@
+name: Standard form of a line
+id: standard_form_line
+topic: equations
+difficulty: 1
+equation: dimensionless mul (length) add dimensionless mul length eq dimensionless
+symbol_overrides:
+- dimensionless: A
+- length: x
+- dimensionless: B
+- length: y
+- dimensionless: C
+name_overrides:
+- dimensionless: Coefficient A
+- length: x-coordinate
+- dimensionless: Coefficient B
+- length: y-coordinate
+- dimensionless: Constant C

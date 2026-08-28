@@ -1,0 +1,15 @@
+name: Polytropic process
+id: polytropic_process
+topic: ideal_gases
+difficulty: 3
+equation: pressure mul volume pow dimensionless eq dimensionless
+symbol_overrides:
+- pressure: ''
+- volume: ''
+- dimensionless: n
+- dimensionless: C
+name_overrides:
+- pressure: '[Pressure]'
+- volume: '[Volume]'
+- dimensionless: Polytropic index
+- dimensionless: Constant

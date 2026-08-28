@@ -1,0 +1,15 @@
+name: Area of a regular polygon
+id: area_regular_polygon
+topic: plane_geometry
+difficulty: 2
+equation: area eq length mul (length) mul (amount) div 2
+symbol_overrides:
+- area: ''
+- length: a
+- length: s
+- amount: ''
+name_overrides:
+- area: ''
+- length: Apothem
+- length: Side length
+- amount: Number of sides

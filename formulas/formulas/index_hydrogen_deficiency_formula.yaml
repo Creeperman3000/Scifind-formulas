@@ -1,0 +1,18 @@
+name: Index of hydrogen deficiency (formula)
+id: index_hydrogen_deficiency_formula
+topic: organic_chemistry
+difficulty: 3
+equation: dimensionless eq (dimensionless mul 2) sub (dimensionless) sub (dimensionless)
+  add dimensionless div 2
+symbol_overrides:
+- dimensionless: IHD
+- dimensionless: C
+- dimensionless: '2'
+- dimensionless: H
+- dimensionless: X
+name_overrides:
+- dimensionless: Index of hydrogen [deficiency]
+- dimensionless: Number of carbon atoms
+- dimensionless: '2'
+- dimensionless: Number of hydrogen atoms
+- dimensionless: Number of halogen atoms

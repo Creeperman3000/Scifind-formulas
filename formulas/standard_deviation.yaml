@@ -2,10 +2,16 @@ name: Standard deviation
 id: standard_deviation
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq sqrt((dimensionless))
+equation: (dimensionless) eq (sqrt (((dimensionless) div (dimensionless)) mul (sum (((dimensionless) sub (dimensionless)) pow 2))))
 symbol_overrides:
-- dimensionless: σ
-- dimensionless: σ²
+- dimensionless: \sigma
+- dimensionless: '1'
+- dimensionless: N
+- dimensionless: x_i
+- dimensionless: \mu
 name_overrides:
 - dimensionless: Standard deviation
-- dimensionless: Variance
+- dimensionless: '1'
+- dimensionless: Number of values
+- dimensionless: Value i
+- dimensionless: Mean

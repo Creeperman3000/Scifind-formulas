@@ -1,0 +1,15 @@
+name: Integrated rate law (second order)
+id: second_order_rate_law_integrated
+topic: chemical_kinetics
+difficulty: 3
+equation: concentration pow -1 eq (concentration pow -1) add frequency mul time
+symbol_overrides:
+- concentration: 1/[A]_t
+- concentration: 1/[A]_0
+- frequency: k
+- time: ''
+name_overrides:
+- concentration: Reciprocal [concentration] at time t
+- concentration: Reciprocal initial [concentration]
+- frequency: Rate constant
+- time: ''

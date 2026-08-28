@@ -1,0 +1,15 @@
+name: Mole fraction
+id: mole_fraction
+topic: solutions
+difficulty: 1
+equation: concentration eq amount div amount add amount
+symbol_overrides:
+- concentration: χ_A
+- amount: n_A
+- amount: n_A
+- amount: n_B
+name_overrides:
+- concentration: Mole fraction of A
+- amount: Amount of A
+- amount: Amount of A
+- amount: Amount of B

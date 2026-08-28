@@ -1,0 +1,19 @@
+name: Total surface area of a cone
+id: surface_area_cone_total
+topic: plane_geometry
+difficulty: 2
+equation: area eq length mul (length) mul length add length mul length
+symbol_overrides:
+- area: SA
+- length: π
+- length: r
+- length: ''
+- length: ''
+- length: ''
+name_overrides:
+- area: Total surface [area]
+- length: '[Pi]'
+- length: Radius
+- length: ''
+- length: Slant height
+- length: ''

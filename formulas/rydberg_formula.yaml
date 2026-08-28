@@ -2,15 +2,12 @@ name: Rydberg formula
 id: rydberg_formula
 topic: atomic_physics
 difficulty: 4
-equation: (wavenumber) eq ((rydberg_constant) mul ((1 div ((dimensionless) pow 2))
-  sub (1 div ((dimensionless) pow 2))))
+equation: (wavenumber) eq ((rydberg_constant) mul ((1 div ((dimensionless) pow 2)) sub (1 div ((dimensionless) pow 2))))
 symbol_overrides:
 - wavenumber: ''
-- rydberg_constant: R
 - dimensionless: n_1
 - dimensionless: n_2
 name_overrides:
 - wavenumber: Wavenumber
-- rydberg_constant: Rydberg constant
 - dimensionless: Lower energy level
 - dimensionless: Upper energy level

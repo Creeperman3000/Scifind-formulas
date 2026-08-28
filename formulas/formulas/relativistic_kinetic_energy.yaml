@@ -1,0 +1,13 @@
+name: Relativistic kinetic energy (relativistic_kinetic_energy)
+id: relativistic_kinetic_energy
+topic: relativity
+difficulty: 4
+equation: energy eq (lorentz_factor sub 1) mul mass mul speed_of_light pow 2
+symbol_overrides:
+- energy: K
+- lorentz_factor: ''
+- mass: ''
+name_overrides:
+- energy: Relativistic kinetic [energy]
+- lorentz_factor: ''
+- mass: Rest [mass]

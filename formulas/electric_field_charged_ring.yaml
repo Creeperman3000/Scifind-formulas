@@ -4,14 +4,14 @@ topic: electric_fields
 difficulty: 3
 equation: (electric_field_strength) eq (((coulomb_constant) mul ((charge) mul (length))) div ((((length) pow 2) add ((length) pow 2)) pow 1.5))
 symbol_overrides:
-- electric_field_strength: ''
-- charge: ''
+- electric_field_strength: E
+- charge: Q
 - length: z
 - length: z
 - length: R
 name_overrides:
 - electric_field_strength: '[Electric field]'
-- charge: ''
+- charge: Electric charge
 - length: Distance on axis
 - length: Distance on axis
 - length: Ring [radius]

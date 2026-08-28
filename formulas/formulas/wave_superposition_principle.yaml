@@ -1,0 +1,13 @@
+name: Principle of wave superposition
+id: wave_superposition_principle
+topic: wave_interference
+difficulty: 1
+equation: length eq length add length
+symbol_overrides:
+- length: y
+- length: y_1
+- length: y_2
+name_overrides:
+- length: Total [displacement]
+- length: Wave 1 [displacement]
+- length: Wave 2 [displacement]

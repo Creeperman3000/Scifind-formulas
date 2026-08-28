@@ -5,13 +5,15 @@ difficulty: 4
 equation: (velocity) eq sqrt((((((((8) mul (pi)) mul (gravitational_constant)) mul (density)) mul (length)) mul (length)) div 3))
 symbol_overrides:
 - velocity: v_esc
-- gravitational_constant: ''
 - density: ρ
 - length: R
 - length: R
+- ? ''
+  : ''
 name_overrides:
 - velocity: Escape [velocity]
-- gravitational_constant: ''
 - density: Body [density]
 - length: Body [radius]
 - length: Body [radius]
+- ? ''
+  : ''

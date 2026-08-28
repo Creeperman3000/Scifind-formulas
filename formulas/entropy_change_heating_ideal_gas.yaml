@@ -10,9 +10,10 @@ symbol_overrides:
 - temperature: T_2
 - temperature: T_1
 - amount: ''
-- gas_constant: ''
 - volume: V_2
 - volume: V_1
+- ? ''
+  : ''
 name_overrides:
 - entropy: Change in [entropy]
 - amount: Amount of [substance]
@@ -20,6 +21,7 @@ name_overrides:
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
 - amount: ''
-- gas_constant: ''
 - volume: Final [volume]
 - volume: Initial [volume]
+- ? ''
+  : ''

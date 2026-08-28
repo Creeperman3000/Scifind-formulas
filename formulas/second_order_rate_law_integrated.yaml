@@ -4,12 +4,12 @@ topic: chemical_kinetics
 difficulty: 3
 equation: ((concentration) pow -1) eq (((concentration) pow -1) add ((frequency) mul (time)))
 symbol_overrides:
-- concentration: 1/[A]_t
-- concentration: 1/[A]_0
+- concentration: '[A]_t'
+- concentration: '[A]_0'
 - frequency: k
-- time: ''
+- time: t
 name_overrides:
-- concentration: Reciprocal [concentration] at time t
-- concentration: Reciprocal initial [concentration]
+- concentration: Concentration at t
+- concentration: Initial concentration
 - frequency: Rate constant
-- time: ''
+- time: Time

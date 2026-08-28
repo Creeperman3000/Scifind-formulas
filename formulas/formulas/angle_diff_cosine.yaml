@@ -1,0 +1,20 @@
+name: Angle difference identity for cosine
+id: angle_diff_cosine
+topic: trigonometric_identities
+difficulty: 2
+equation: cos (angle sub angle ) eq cos angle mul (cos angle ) add sin angle mul sin
+  angle
+symbol_overrides:
+- angle: A
+- angle: B
+- angle: A
+- angle: B
+- angle: A
+- angle: B
+name_overrides:
+- angle: Angle A
+- angle: Angle B
+- angle: Angle A
+- angle: Angle B
+- angle: Angle A
+- angle: Angle B

@@ -1,0 +1,11 @@
+name: Definition of pH
+id: ph_definition
+topic: acids_and_bases
+difficulty: 2
+equation: ph eq neg log 10 concentration
+symbol_overrides:
+- ph: ''
+- concentration: '[H⁺]'
+name_overrides:
+- ph: '[pH]'
+- concentration: Hydronium ion [concentration]

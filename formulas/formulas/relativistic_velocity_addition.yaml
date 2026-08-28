@@ -1,0 +1,20 @@
+name: Relativistic velocity addition
+id: relativistic_velocity_addition
+topic: relativity
+difficulty: 4
+equation: velocity eq (velocity add velocity) div dimensionless add (velocity mul
+  velocity) div speed_of_light pow 2
+symbol_overrides:
+- velocity: u
+- velocity: u'
+- velocity: v
+- dimensionless: '1'
+- velocity: u'
+- velocity: v
+name_overrides:
+- velocity: Resultant [velocity]
+- velocity: Frame [velocity]
+- velocity: Object [velocity]
+- dimensionless: ''
+- velocity: ''
+- velocity: ''
