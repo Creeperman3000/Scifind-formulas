@@ -2,15 +2,15 @@ name: First law of thermodynamics for isobaric process
 id: first_law_isobaric_process
 topic: first_law
 difficulty: 2
-equation: (heat) eq ((energy) add ((pressure) mul ((volume) sub (volume))))
+equation: (energy) eq ((energy) add ((pressure) mul ((volume) sub (volume))))
 symbol_overrides:
-- heat: ''
+- energy: ''
 - energy: ΔU
 - pressure: ''
 - volume: V_f
 - volume: V_i
 name_overrides:
-- heat: ''
+- energy: ''
 - energy: Change in internal [energy]
 - pressure: ''
 - volume: Final [volume]

@@ -2,12 +2,12 @@ name: Exponential decay differential equation
 id: exponential_decay_diff_eq
 topic: differential_equations
 difficulty: 3
-equation: (dimensionless) eq neg(((number_of_particles) mul (frequency)))
+equation: (dimensionless) eq neg(((amount) mul (frequency)))
 symbol_overrides:
 - dimensionless: dN/dt
-- number_of_particles: ''
+- amount: ''
 - frequency: λ
 name_overrides:
 - dimensionless: Rate of change
-- number_of_particles: '[Population]'
+- amount: '[Population]'
 - frequency: Decay constant

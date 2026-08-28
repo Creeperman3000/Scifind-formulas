@@ -2,12 +2,12 @@ name: Work done by a heat engine
 id: heat_engine_work
 topic: heat_engines
 difficulty: 2
-equation: (work) eq ((heat) sub (heat))
+equation: (energy) eq ((energy) sub (energy))
 symbol_overrides:
-- work: ''
-- heat: Q_h
-- heat: Q_c
+- energy: ''
+- energy: Q_h
+- energy: Q_c
 name_overrides:
-- work: '[Work] output'
-- heat: Heat from hot reservoir
-- heat: Heat to cold reservoir
+- energy: '[Work] output'
+- energy: Heat from hot reservoir
+- energy: Heat to cold reservoir

@@ -2,14 +2,14 @@ name: Ideal gas law (molecular form)
 id: ideal_gas_law_molecular
 topic: ideal_gases
 difficulty: 2
-equation: ((pressure) mul (volume)) eq (((number_of_particles) mul (boltzmann_constant)) mul (temperature))
+equation: ((pressure) mul (volume)) eq (((amount) mul (boltzmann_constant)) mul (temperature))
 symbol_overrides:
 - pressure: ''
 - volume: ''
-- number_of_particles: ''
+- amount: ''
 - temperature: ''
 name_overrides:
 - pressure: ''
 - volume: ''
-- number_of_particles: ''
+- amount: ''
 - temperature: ''

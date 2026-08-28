@@ -2,14 +2,14 @@ name: Radioactive decay law
 id: radioactive_decay
 topic: nuclear_physics
 difficulty: 3
-equation: (number_of_particles) eq ((number_of_particles) mul (exp (neg ((frequency) mul (time)))))
+equation: (amount) eq ((amount) mul (exp (neg ((frequency) mul (time)))))
 symbol_overrides:
-- number_of_particles: N_0
-- number_of_particles: ''
+- amount: N_0
+- amount: ''
 - frequency: λ
 - time: ''
 name_overrides:
-- number_of_particles: Remaining nuclei
-- number_of_particles: Initial nuclei
+- amount: Remaining nuclei
+- amount: Initial nuclei
 - frequency: Decay constant
 - time: ''

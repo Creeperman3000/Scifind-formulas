@@ -2,15 +2,15 @@ name: Displacement using final velocity
 id: displacement_with_final_velocity
 topic: constant_acceleration
 difficulty: 2
-equation: (displacement) eq (((velocity) mul (time)) sub (((acceleration) mul (time pow 2)) div 2))
+equation: (length) eq (((velocity) mul (time)) sub (((acceleration) mul (time pow 2)) div 2))
 symbol_overrides:
-- displacement: s
+- length: s
 - velocity: ''
 - time: ''
 - acceleration: ''
 - time: ''
 name_overrides:
-- displacement: ''
+- length: ''
 - velocity: Final [velocity]
 - time: '[Time]'
 - acceleration: '[Acceleration]'

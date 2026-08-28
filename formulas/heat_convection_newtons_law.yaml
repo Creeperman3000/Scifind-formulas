@@ -2,16 +2,16 @@ name: Newton's law of cooling (convection)
 id: heat_convection_newtons_law
 topic: heat_transfer
 difficulty: 2
-equation: ((heat) div (time)) eq (((dimensionless) mul (area)) mul ((temperature) sub (temperature)))
+equation: ((energy) div (time)) eq (((dimensionless) mul (area)) mul ((temperature) sub (temperature)))
 symbol_overrides:
-- heat: ''
+- energy: ''
 - time: ''
 - dimensionless: h
 - area: ''
 - temperature: T_s
 - temperature: T_env
 name_overrides:
-- heat: '[Heat] transfer rate'
+- energy: '[Heat] transfer rate'
 - time: ''
 - dimensionless: Convection coefficient
 - area: Surface [area]

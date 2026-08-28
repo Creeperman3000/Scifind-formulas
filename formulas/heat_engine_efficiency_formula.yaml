@@ -2,12 +2,12 @@ name: Heat engine efficiency
 id: heat_engine_efficiency_formula
 topic: heat_engines
 difficulty: 2
-equation: (heat_engine_efficiency) eq ((work) div (heat))
+equation: (heat_engine_efficiency) eq ((energy) div (energy))
 symbol_overrides:
 - heat_engine_efficiency: ''
-- work: ''
-- heat: Q_H
+- energy: ''
+- energy: Q_H
 name_overrides:
 - heat_engine_efficiency: '[Efficiency]'
-- work: '[Work] output'
-- heat: '[Heat] input'
+- energy: '[Work] output'
+- energy: '[Heat] input'

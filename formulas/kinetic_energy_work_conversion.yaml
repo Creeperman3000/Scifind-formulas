@@ -2,12 +2,12 @@ name: Work-energy theorem for kinetic energy
 id: kinetic_energy_work_conversion
 topic: kinetic_energy
 difficulty: 1
-equation: (energy) eq ((work) add (energy))
+equation: (energy) eq ((energy) add (energy))
 symbol_overrides:
 - energy: KE_f
-- work: ''
+- energy: ''
 - energy: KE_i
 name_overrides:
 - energy: Final kinetic [energy]
-- work: Net [work]
+- energy: Net [work]
 - energy: Initial kinetic [energy]

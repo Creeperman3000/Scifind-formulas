@@ -2,12 +2,12 @@ name: Impulse from force-time graph area
 id: impulse_from_force_time_graph
 topic: impulse
 difficulty: 2
-equation: (impulse) eq ((force) mul (time))
+equation: (momentum) eq ((force) mul (time))
 symbol_overrides:
-- impulse: ''
+- momentum: ''
 - force: ''
 - time: ''
 name_overrides:
-- impulse: '[Impulse]'
+- momentum: '[Impulse]'
 - force: ''
 - time: ''
