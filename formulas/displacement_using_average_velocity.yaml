@@ -1,0 +1,15 @@
+name: "Displacement using average velocity"
+id: displacement_using_average_velocity
+topic: constant_acceleration
+difficulty: 1
+equation: "(displacement) eq (velocity) (velocity) add (time) mul 2 div"
+so:
+  - displacement: "s"
+  - velocity: "u"
+  - velocity: "v"
+  - time: "t"
+no:
+  - displacement: "Displacement"
+  - velocity: "Initial [velocity]"
+  - velocity: "Final [velocity]"
+  - time: "[Time]"

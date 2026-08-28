@@ -1,0 +1,11 @@
+name: "Translational kinetic energy of an ideal gas"
+id: kinetic_energy_translational_ideal_gas
+topic: ideal_gases
+difficulty: 2
+equation: "(energy) eq (amount) (gas_constant) (temperature) mul mul (dimensionless) mul"
+so:
+  - energy: "KE"
+  - dimensionless: "3/2"
+no:
+  - energy: "Translational kinetic [energy]"
+  - dimensionless: ""

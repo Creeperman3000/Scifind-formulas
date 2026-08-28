@@ -1,0 +1,11 @@
+name: "Proper time"
+id: proper_time
+topic: relativity
+difficulty: 3
+equation: "(time) eq (time) (lorentz_factor) div"
+so:
+  - time: "τ"
+  - time: "t"
+no:
+  - time: "Proper [time]"
+  - time: "Coordinate [time]"

@@ -1,0 +1,14 @@
+name: "Gibbs free energy"
+id: gibbs_free_energy
+topic: thermochemistry
+difficulty: 3
+equation: "(energy) eq (energy) (temperature) (entropy) mul sub"
+so:
+  - energy: "ΔG"
+  - energy: "ΔH"
+  - temperature: "T"
+  - entropy: "ΔS"
+no:
+  - energy: "Gibbs free [energy] change"
+  - energy: "Enthalpy change"
+  - entropy: "Entropy change"

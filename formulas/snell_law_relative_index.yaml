@@ -1,0 +1,15 @@
+name: "Snell's law with relative refractive index"
+id: snell_law_relative_index
+topic: refraction
+difficulty: 2
+equation: "(refractive_index) (angle) sin mul eq (refractive_index) (angle) sin mul"
+so:
+  - refractive_index: "n_1"
+  - angle: "θ_1"
+  - refractive_index: "n_2"
+  - angle: "θ_2"
+no:
+  - refractive_index: "Medium 1 [refractive index]"
+  - angle: "Angle of incidence"
+  - refractive_index: "Medium 2 [refractive index]"
+  - angle: "Angle of refraction"

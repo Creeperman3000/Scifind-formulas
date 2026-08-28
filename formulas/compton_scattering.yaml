@@ -1,0 +1,13 @@
+name: "Compton scattering wavelength shift"
+id: compton_scattering
+topic: quantum_mechanics
+difficulty: 4
+equation: "(length) eq (planck_constant) (mass) (speed_of_light) mul div (angle) cos 1 sub mul"
+so:
+  - length: "Δλ"
+  - mass: "m_e"
+  - angle: "θ"
+no:
+  - length: "Wavelength shift"
+  - mass: "Electron [mass]"
+  - angle: "Scattering angle"

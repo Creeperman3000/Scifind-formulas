@@ -1,0 +1,13 @@
+name: "Specific activity"
+id: specific_activity
+topic: nuclear_physics
+difficulty: 2
+equation: "(activity) eq (amount) (mass) div"
+so:
+  - activity: "a"
+  - amount: "λ"
+  - mass: "m"
+no:
+  - activity: "Specific [activity]"
+  - amount: "Decay constant"
+  - mass: "Mass of sample"

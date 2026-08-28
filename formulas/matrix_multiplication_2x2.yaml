@@ -1,0 +1,17 @@
+name: "Matrix multiplication 2x2 (first element)"
+id: matrix_multiplication_2x2
+topic: linear_algebra
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul (dimensionless) (dimensionless) mul add"
+so:
+  - dimensionless: "c₁₁"
+  - dimensionless: "a₁₁"
+  - dimensionless: "b₁₁"
+  - dimensionless: "a₁₂"
+  - dimensionless: "b₂₁"
+no:
+  - dimensionless: "Element c₁₁"
+  - dimensionless: "a₁₁"
+  - dimensionless: "b₁₁"
+  - dimensionless: "a₁₂"
+  - dimensionless: "b₂₁"

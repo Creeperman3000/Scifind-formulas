@@ -1,0 +1,13 @@
+name: "Buoyant force equals weight of displaced fluid"
+id: buoyant_force_weight_displaced
+topic: buoyancy
+difficulty: 1
+equation: "(force) eq (mass) (acceleration) mul"
+so:
+  - force: "F_b"
+  - mass: "m_displaced"
+  - acceleration: "g"
+no:
+  - force: "Buoyant [force]"
+  - mass: "Mass of displaced fluid"
+  - acceleration: "Gravitational [acceleration]"

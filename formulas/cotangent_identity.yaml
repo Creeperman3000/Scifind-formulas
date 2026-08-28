@@ -1,0 +1,9 @@
+name: "Cotangent identity"
+id: cotangent_identity
+topic: trigonometric_identities
+difficulty: 1
+equation: "(dimensionless) eq (angle) cos (angle) sin div"
+so:
+  - dimensionless: "cot(θ)"
+  - angle: "θ"
+  - angle: "θ"

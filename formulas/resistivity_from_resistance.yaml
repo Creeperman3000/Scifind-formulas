@@ -1,0 +1,15 @@
+name: "Resistivity from resistance"
+id: resistivity_from_resistance
+topic: circuits
+difficulty: 2
+equation: "(resistance) eq (resistance) (area) mul (length) div"
+so:
+  - resistance: "ρ"
+  - resistance: "R"
+  - area: "A"
+  - length: "L"
+no:
+  - resistance: "Resistivity"
+  - resistance: "[Resistance]"
+  - area: "Cross-sectional [area]"
+  - length: "Length"

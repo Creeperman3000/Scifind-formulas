@@ -1,0 +1,13 @@
+name: "Bayes factor"
+id: bayes_factor
+topic: probability
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div"
+so:
+  - dimensionless: "BF"
+  - dimensionless: "P(D|H₁)"
+  - dimensionless: "P(D|H₂)"
+no:
+  - dimensionless: "Bayes factor"
+  - dimensionless: "Likelihood under H₁"
+  - dimensionless: "Likelihood under H₂"

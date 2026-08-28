@@ -1,0 +1,15 @@
+name: "Sound intensity level in decibels"
+id: sound_intensity_level_formula
+topic: mechanical_waves
+difficulty: 2
+equation: "(sound_intensity_level) eq (irradiance) (irradiance) div log (dimensionless) 10 mul"
+so:
+  - sound_intensity_level: "\u03B2"
+  - irradiance: "I"
+  - irradiance: "I\u2080"
+  - dimensionless: "10"
+no:
+  - sound_intensity_level: "Sound [level]"
+  - irradiance: "[Intensity]"
+  - irradiance: "Reference [intensity]"
+  - dimensionless: "10"

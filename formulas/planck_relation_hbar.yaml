@@ -1,0 +1,11 @@
+name: "Planck relation (reduced Planck constant)"
+id: planck_relation_hbar
+topic: quantum_mechanics
+difficulty: 2
+equation: "(energy) eq (planck_constant) (pi) 2 mul div (angular_velocity) mul"
+so:
+  - energy: "E"
+  - angular_velocity: "ω"
+no:
+  - energy: "Photon [energy]"
+  - angular_velocity: "Angular [frequency]"

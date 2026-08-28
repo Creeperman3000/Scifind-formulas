@@ -1,0 +1,16 @@
+name: "Logistic growth differential equation"
+id: logistic_growth_diff_eq
+topic: differential_equations
+difficulty: 4
+equation: "(dimensionless) eq (number_of_particles) (frequency) mul 1 (number_of_particles) (number_of_particles) div sub mul"
+so:
+  - number_of_particles: "N"
+  - frequency: "r"
+  - number_of_particles: "N"
+  - number_of_particles: "K"
+no:
+  - dimensionless: "Rate of change"
+  - number_of_particles: "[Population]"
+  - frequency: "Growth rate"
+  - number_of_particles: "[Population]"
+  - number_of_particles: "Carrying capacity"

@@ -1,0 +1,5 @@
+name: "Newton-Euler rotational dynamics"
+id: newton_euler_rotational
+topic: torque
+difficulty: 3
+equation: "(torque) eq (moment_of_inertia) (angular_acceleration) mul"

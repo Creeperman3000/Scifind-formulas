@@ -1,0 +1,15 @@
+name: "Angular width of central maximum"
+id: diffraction_angular_width_central_maximum
+topic: diffraction
+difficulty: 3
+equation: "(angle) eq (length) (length) div (dimensionless) 2 mul"
+so:
+  - angle: "Δθ"
+  - length: "λ"
+  - length: "w"
+  - dimensionless: "2"
+no:
+  - angle: "Angular width of central [maximum]"
+  - length: "[Wavelength]"
+  - length: "Slit [width]"
+  - dimensionless: "2"

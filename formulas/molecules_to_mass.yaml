@@ -1,0 +1,11 @@
+name: "Mass from number of molecules"
+id: molecules_to_mass
+topic: mole_concept
+difficulty: 2
+equation: "(mass) eq (dimensionless) (molar_mass) mul (avogadro_number) div"
+so:
+  - dimensionless: "N"
+  - mass: "m"
+no:
+  - dimensionless: "Number of molecules"
+  - mass: "[Mass]"

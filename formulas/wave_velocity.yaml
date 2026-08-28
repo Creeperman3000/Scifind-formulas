@@ -1,0 +1,11 @@
+name: "Wave velocity"
+id: wave_velocity
+topic: mechanical_waves
+difficulty: 1
+equation: "(velocity) eq (frequency) (length) mul"
+so:
+  - velocity: "v"
+  - length: "λ"
+no:
+  - velocity: "Wave [velocity]"
+  - length: "Wavelength"

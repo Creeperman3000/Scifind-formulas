@@ -1,0 +1,13 @@
+name: "Partial pressure from mole fraction"
+id: partial_pressure_mole_fraction
+topic: ideal_gases
+difficulty: 1
+equation: "(pressure) eq (dimensionless) (pressure) mul"
+so:
+  - pressure: "P_i"
+  - dimensionless: "x_i"
+  - pressure: "P_total"
+no:
+  - pressure: "Partial [pressure] of component i"
+  - dimensionless: "Mole fraction of i"
+  - pressure: "Total [pressure]"

@@ -1,0 +1,11 @@
+name: "Enzyme reaction velocity definition"
+id: enzyme_reaction_velocity_definition
+topic: biochemistry
+difficulty: 2
+equation: "(catalytic_activity) eq (concentration) (time) div"
+so:
+  - catalytic_activity: "v"
+  - concentration: "[S]"
+no:
+  - catalytic_activity: "Reaction velocity"
+  - concentration: "Substrate concentration"

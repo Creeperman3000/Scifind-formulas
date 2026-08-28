@@ -1,0 +1,13 @@
+name: "Mutual inductance"
+id: mutual_inductance_formula
+topic: electromagnetic_induction
+difficulty: 4
+equation: "(inductance) eq (magnetic_flux) (current) div"
+so:
+  - inductance: "M"
+  - magnetic_flux: "Φ₂₁"
+  - current: "I₁"
+no:
+  - inductance: "Mutual [inductance]"
+  - magnetic_flux: "Flux through coil 2"
+  - current: "Current in coil 1"

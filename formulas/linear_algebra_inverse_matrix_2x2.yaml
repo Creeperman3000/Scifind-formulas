@@ -1,0 +1,19 @@
+name: "Inverse of a 2×2 matrix"
+id: linear_algebra_inverse_matrix_2x2
+topic: linear_algebra
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) (dimensionless) sub div mul"
+so:
+  - dimensionless: "A⁻¹"
+  - dimensionless: "adj(A)"
+  - dimensionless: "a"
+  - dimensionless: "d"
+  - dimensionless: "b"
+  - dimensionless: "c"
+no:
+  - dimensionless: "Inverse matrix"
+  - dimensionless: "Adjugate"
+  - dimensionless: "a"
+  - dimensionless: "d"
+  - dimensionless: "b"
+  - dimensionless: "c"

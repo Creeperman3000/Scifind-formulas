@@ -1,0 +1,14 @@
+name: "Terminal velocity"
+id: terminal_velocity
+topic: reynolds_number
+difficulty: 3
+equation: "(velocity) eq (mass) (standard_gravity) mul 2 mul (density) (area) mul (dimensionless) mul div sqrt"
+so:
+  - velocity: "v_t"
+  - density: "ρ"
+  - area: "A"
+  - dimensionless: "C_d"
+no:
+  - velocity: "Terminal [velocity]"
+  - density: "Fluid [density]"
+  - dimensionless: "Drag coefficient"

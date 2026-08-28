@@ -1,0 +1,13 @@
+name: "Coherence length from bandwidth"
+id: physical_optics_coherence_length
+topic: interference
+difficulty: 3
+equation: "(length) eq (speed_of_light) (frequency) (frequency) div mul"
+so:
+  - length: "L_c"
+  - frequency: "c"
+  - frequency: "Δν"
+no:
+  - length: "Coherence length"
+  - frequency: "Speed of light"
+  - frequency: "Frequency bandwidth"

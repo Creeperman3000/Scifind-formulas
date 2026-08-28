@@ -1,0 +1,9 @@
+name: "Torque from moment of inertia"
+id: torque_rotational
+topic: torque
+difficulty: 2
+equation: "(torque) eq (moment_of_inertia) (angular_acceleration) mul"
+so:
+  - torque: "τ"
+no:
+  - torque: "[Torque]"

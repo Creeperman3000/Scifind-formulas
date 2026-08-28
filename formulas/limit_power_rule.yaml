@@ -1,0 +1,13 @@
+name: "Limit power rule"
+id: limit_power_rule
+topic: limits
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) pow (dimensionless)"
+so:
+  - dimensionless: "lim[x→a] f(x)^n"
+  - dimensionless: "lim[x→a] f(x)"
+  - dimensionless: "n"
+no:
+  - dimensionless: "Limit of f(x)^n"
+  - dimensionless: "Limit of f(x)"
+  - dimensionless: "Power"

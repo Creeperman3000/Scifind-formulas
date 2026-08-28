@@ -1,0 +1,11 @@
+name: "Average kinetic energy per molecule"
+id: average_kinetic_energy_molecule
+topic: ideal_gases
+difficulty: 3
+equation: "(energy) eq (boltzmann_constant) (temperature) mul (dimensionless) mul"
+so:
+  - energy: "KE_avg"
+  - dimensionless: "3/2"
+no:
+  - energy: "Average kinetic [energy] per molecule"
+  - dimensionless: ""

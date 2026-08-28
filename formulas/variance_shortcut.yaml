@@ -1,0 +1,13 @@
+name: "Variance shortcut formula"
+id: variance_shortcut
+topic: statistics
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) pow 2 sub"
+so:
+  - dimensionless: "Var(X)"
+  - dimensionless: "E(X²)"
+  - dimensionless: "E(X)"
+no:
+  - dimensionless: "Variance"
+  - dimensionless: "Expected value of squares"
+  - dimensionless: "Square of expected value"

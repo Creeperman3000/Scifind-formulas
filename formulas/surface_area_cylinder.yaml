@@ -1,0 +1,14 @@
+name: "Surface area of a cylinder"
+id: surface_area_cylinder
+topic: plane_geometry
+difficulty: 2
+equation: "(area) eq (pi) (length) mul 2 mul (length) mul (pi) (length pow 2) mul 2 mul add"
+so:
+  - length: "r"
+  - length: "h"
+  - length: "r"
+no:
+  - area: "Surface [area]"
+  - length: "Radius"
+  - length: "Height"
+  - length: "Radius"

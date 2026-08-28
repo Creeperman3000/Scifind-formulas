@@ -1,0 +1,15 @@
+name: "Lateral surface area of a cylinder"
+id: lateral_surface_area_cylinder
+topic: plane_geometry
+difficulty: 1
+equation: "(area) eq (length) (length) mul (length) mul 2 mul"
+so:
+  - area: "LA"
+  - length: "π"
+  - length: "r"
+  - length: "h"
+no:
+  - area: "Lateral surface [area]"
+  - length: "[Pi]"
+  - length: "Radius"
+  - length: "Height"

@@ -1,0 +1,9 @@
+name: "Impulse from force-time graph area"
+id: impulse_from_force_time_graph
+topic: impulse
+difficulty: 2
+equation: "(impulse) eq (force) (time) mul"
+so:
+  - impulse: "J"
+no:
+  - impulse: "[Impulse]"

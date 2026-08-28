@@ -1,0 +1,13 @@
+name: "Osmotic pressure"
+id: osmotic_pressure
+topic: solutions
+difficulty: 3
+equation: "(pressure) eq (dimensionless) (concentration) (gas_constant) mul (temperature) mul mul"
+so:
+  - pressure: "Π"
+  - dimensionless: "i"
+  - concentration: "M"
+no:
+  - pressure: "Osmotic [pressure]"
+  - dimensionless: "Van 't Hoff factor"
+  - concentration: "Molarity"

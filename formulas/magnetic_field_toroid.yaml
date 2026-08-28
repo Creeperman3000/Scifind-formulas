@@ -1,0 +1,13 @@
+name: "Magnetic field inside a toroid"
+id: magnetic_field_toroid
+topic: magnetism
+difficulty: 3
+equation: "(magnetic_flux_density) eq (vacuum_permeability) (amount) (current) mul (pi) 2 mul (length) mul div"
+so:
+  - magnetic_flux_density: "B"
+  - amount: "N"
+  - length: "r"
+no:
+  - magnetic_flux_density: "Magnetic field"
+  - amount: "Number of turns"
+  - length: "Radius"

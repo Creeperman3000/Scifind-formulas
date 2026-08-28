@@ -1,0 +1,5 @@
+name: "Irradiance from power and area"
+id: irradiance_formula
+topic: electromagnetic_waves
+difficulty: 2
+equation: "(irradiance) eq (power) (area) div"

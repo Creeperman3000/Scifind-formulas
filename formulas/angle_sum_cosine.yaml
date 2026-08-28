@@ -1,0 +1,19 @@
+name: "Angle sum identity for cosine"
+id: angle_sum_cosine
+topic: trigonometric_identities
+difficulty: 2
+equation: "(angle) (angle) add cos eq (angle) cos (angle) cos mul (angle) sin (angle) sin mul sub"
+so:
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"

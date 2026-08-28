@@ -1,0 +1,15 @@
+name: "Centroid of a triangle (x-coordinate)"
+id: centroid_triangle_x
+topic: coordinate_geometry
+difficulty: 1
+equation: "(length) eq (length) (length) (length) add add 3 div"
+so:
+  - length: "x_c"
+  - length: "x_1"
+  - length: "x_2"
+  - length: "x_3"
+no:
+  - length: "Centroid x-coordinate"
+  - length: "Vertex 1 x-coordinate"
+  - length: "Vertex 2 x-coordinate"
+  - length: "Vertex 3 x-coordinate"

@@ -1,0 +1,12 @@
+name: "Period of a compound (physical) pendulum"
+id: compound_pendulum_period
+topic: harmonic_motion
+difficulty: 3
+equation: "(time) eq (pi) 2 mul (moment_of_inertia) (mass) (standard_gravity) (length) mul mul div sqrt mul"
+so:
+  - time: "T"
+  - moment_of_inertia: "I"
+  - length: "d"
+no:
+  - time: "Period"
+  - length: "Distance from pivot to center of mass"

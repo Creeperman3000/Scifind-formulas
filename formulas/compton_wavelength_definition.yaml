@@ -1,0 +1,10 @@
+name: "Compton wavelength"
+id: compton_wavelength_definition
+topic: particle_physics
+difficulty: 3
+equation: "(length) eq (planck_constant) (mass) (speed_of_light) mul div"
+so:
+  - length: "λ_C"
+  - mass: "m"
+no:
+  - length: "Compton wavelength"

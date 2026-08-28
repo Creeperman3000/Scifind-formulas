@@ -1,0 +1,9 @@
+name: "Zero exponent rule"
+id: zero_exponent_rule
+topic: exponents
+difficulty: 1
+equation: "(dimensionless) eq 1"
+so:
+  - dimensionless: "a⁰"
+no:
+  - dimensionless: "Any nonzero number raised to zero"

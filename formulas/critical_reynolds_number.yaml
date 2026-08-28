@@ -1,0 +1,9 @@
+name: "Critical Reynolds number"
+id: critical_reynolds_number
+topic: reynolds_number
+difficulty: 2
+equation: "(reynolds_number) approx 2300"
+so:
+  - reynolds_number: "Re_c"
+no:
+  - reynolds_number: "Critical [Reynolds number]"

@@ -1,0 +1,17 @@
+name: "Thin film destructive interference"
+id: thin_film_destructive
+topic: thin_film_interference
+difficulty: 3
+equation: "(length) (reflectance) mul 2 mul eq (dimensionless) (dimensionless) add (length) mul"
+so:
+  - length: "n"
+  - reflectance: "t"
+  - dimensionless: "m"
+  - dimensionless: "½"
+  - length: "λ"
+no:
+  - length: "Film refractive index"
+  - reflectance: "Film thickness"
+  - dimensionless: "Order number"
+  - dimensionless: ""
+  - length: "Wavelength in vacuum"

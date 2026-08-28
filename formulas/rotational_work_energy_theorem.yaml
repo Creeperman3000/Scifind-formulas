@@ -1,0 +1,13 @@
+name: "Rotational work-energy theorem"
+id: rotational_work_energy_theorem
+topic: rotational_energy
+difficulty: 3
+equation: "(work) eq (energy) (energy) sub"
+so:
+  - work: "W_rot"
+  - energy: "K_rot_f"
+  - energy: "K_rot_i"
+no:
+  - work: "Rotational [work]"
+  - energy: "Final rotational kinetic [energy]"
+  - energy: "Initial rotational kinetic [energy]"

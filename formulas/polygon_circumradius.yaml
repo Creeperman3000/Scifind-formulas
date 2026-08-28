@@ -1,0 +1,13 @@
+name: "Polygon circumradius"
+id: polygon_circumradius
+topic: polygons
+difficulty: 3
+equation: "(length) eq (length) 2 div (angle) sin div"
+so:
+  - length: "R"
+  - length: "s"
+  - angle: "π/n"
+no:
+  - length: "Circum[radius]"
+  - length: "Side [length]"
+  - angle: "Central angle"

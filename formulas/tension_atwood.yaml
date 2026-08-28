@@ -1,0 +1,17 @@
+name: "Tension in an Atwood machine"
+id: tension_atwood
+topic: forces
+difficulty: 3
+equation: "(force) eq (mass) (mass) mul (standard_gravity) mul 2 mul (mass) (mass) add div"
+so:
+  - force: "T"
+  - mass: "m₁"
+  - mass: "m₂"
+  - mass: ""
+  - mass: ""
+no:
+  - force: "Tension"
+  - mass: "Mass 1"
+  - mass: "Mass 2"
+  - mass: ""
+  - mass: ""

@@ -1,0 +1,9 @@
+name: "Kinetic energy"
+id: kinetic_energy_formula
+topic: kinetic_energy
+difficulty: 1
+equation: "(energy) eq (mass) (velocity pow 2) mul 2 div"
+so:
+  - energy: "E_k"
+no:
+  - energy: "Kinetic [energy]"

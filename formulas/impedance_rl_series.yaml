@@ -1,0 +1,13 @@
+name: "Impedance of a series RL circuit"
+id: impedance_rl_series
+topic: circuits
+difficulty: 3
+equation: "(resistance) eq (resistance) pow 2 (resistance) pow 2 add sqrt"
+so:
+  - resistance: "Z"
+  - resistance: "R"
+  - resistance: "X_L"
+no:
+  - resistance: "Impedance"
+  - resistance: "[Resistance]"
+  - resistance: "Inductive reactance"

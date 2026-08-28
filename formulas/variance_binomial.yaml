@@ -1,0 +1,17 @@
+name: "Variance of a binomial distribution"
+id: variance_binomial
+topic: probability
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) (dimensionless) sub mul mul"
+so:
+  - dimensionless: "Var[X]"
+  - dimensionless: "n"
+  - dimensionless: "p"
+  - dimensionless: "1"
+  - dimensionless: "p"
+no:
+  - dimensionless: "[Variance]"
+  - dimensionless: "Number of trials"
+  - dimensionless: "Success probability"
+  - dimensionless: ""
+  - dimensionless: ""

@@ -1,0 +1,13 @@
+name: "First law: internal energy change"
+id: first_law_internal_energy_change
+topic: first_law
+difficulty: 2
+equation: "(energy) Delta eq (heat) (work) add"
+so:
+  - energy: "ΔU"
+  - heat: "Q"
+  - work: "W"
+no:
+  - energy: "Change in internal [energy]"
+  - heat: "Heat added"
+  - work: "Work done on system"

@@ -1,0 +1,13 @@
+name: "Percent yield"
+id: percent_yield
+topic: percent_yield
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div 100 mul"
+so:
+  - dimensionless: "%"
+  - dimensionless: "actual"
+  - dimensionless: "theoretical"
+no:
+  - dimensionless: "Percent yield"
+  - dimensionless: "Actual yield"
+  - dimensionless: "Theoretical yield"

@@ -1,0 +1,15 @@
+name: "Area of an annulus"
+id: area_annulus
+topic: circles
+difficulty: 2
+equation: "(area) eq (length) (length) pow 2 (length) pow 2 sub mul"
+so:
+  - area: "A"
+  - length: "π"
+  - length: "R"
+  - length: "r"
+no:
+  - area: "[Area]"
+  - length: "[Pi]"
+  - length: "Outer radius"
+  - length: "Inner radius"

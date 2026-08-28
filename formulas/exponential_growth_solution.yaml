@@ -1,0 +1,13 @@
+name: "Exponential growth solution"
+id: exponential_growth_solution
+topic: differential_equations
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (frequency) (time) mul exp mul"
+so:
+  - dimensionless: "N(t)"
+  - dimensionless: "N_0"
+  - frequency: "r"
+no:
+  - dimensionless: "Population at time t"
+  - dimensionless: "Initial population"
+  - frequency: "Growth rate"

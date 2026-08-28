@@ -1,0 +1,5 @@
+name: "Specific volume"
+id: specific_volume_formula
+topic: pressure
+difficulty: 1
+equation: "(specific_volume) eq (volume) (mass) div"

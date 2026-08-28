@@ -1,0 +1,13 @@
+name: "Heat capacity ratio"
+id: heat_capacity_ratio
+topic: ideal_gases
+difficulty: 1
+equation: "(dimensionless) eq (specific_heat_capacity) (specific_heat_capacity) div"
+so:
+  - dimensionless: "γ"
+  - specific_heat_capacity: "C_p"
+  - specific_heat_capacity: "C_v"
+no:
+  - dimensionless: "Heat capacity ratio"
+  - specific_heat_capacity: "Heat capacity at constant pressure"
+  - specific_heat_capacity: "Heat capacity at constant volume"

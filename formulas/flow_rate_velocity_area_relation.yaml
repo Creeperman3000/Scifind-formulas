@@ -1,0 +1,11 @@
+name: "Flow rate from velocity and cross-sectional area"
+id: flow_rate_velocity_area_relation
+topic: continuity_equation
+difficulty: 1
+equation: "(volume) (time) div eq (area) (velocity) mul"
+so:
+  - volume: "V"
+  - time: "t"
+no:
+  - volume: "Volumetric flow rate"
+  - time: "Time"

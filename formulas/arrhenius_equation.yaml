@@ -1,0 +1,13 @@
+name: "Arrhenius equation"
+id: arrhenius_equation
+topic: chemical_kinetics
+difficulty: 4
+equation: "(frequency) eq (frequency) (molar_energy) (gas_constant) (temperature) mul div neg exp mul"
+so:
+  - frequency: "k"
+  - frequency: "A"
+  - molar_energy: "E_a"
+no:
+  - frequency: "Rate constant"
+  - frequency: "Pre-exponential factor"
+  - molar_energy: "Activation [energy]"

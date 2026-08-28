@@ -1,0 +1,9 @@
+name: "Weight force"
+id: weight_force
+topic: forces
+difficulty: 1
+equation: "(force) eq (mass) (standard_gravity) mul"
+so:
+  - force: "F_g"
+no:
+  - force: "Gravitational [force]"

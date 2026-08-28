@@ -1,0 +1,11 @@
+name: "Molar heat capacity definition"
+id: molar_heat_capacity
+topic: thermochemistry
+difficulty: 1
+equation: "(molar_energy) eq (heat) (amount) (temperature) Delta mul div"
+so:
+  - molar_energy: "C_m"
+  - heat: "Q"
+no:
+  - molar_energy: "Molar heat capacity"
+  - heat: "[Heat]"

@@ -1,0 +1,19 @@
+name: "Standard equation of a hyperbola"
+id: hyperbola_standard_form
+topic: coordinate_geometry
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) pow 2 (dimensionless) pow 2 div (dimensionless) (dimensionless) pow 2 (dimensionless) pow 2 div sub"
+so:
+  - dimensionless: ""
+  - dimensionless: "1"
+  - dimensionless: "x"
+  - dimensionless: "a"
+  - dimensionless: "y"
+  - dimensionless: "b"
+no:
+  - dimensionless: "Hyperbola equation"
+  - dimensionless: ""
+  - dimensionless: "x-coordinate"
+  - dimensionless: "Semi-transverse axis"
+  - dimensionless: "y-coordinate"
+  - dimensionless: "Semi-conjugate axis"

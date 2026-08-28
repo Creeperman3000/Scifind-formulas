@@ -1,0 +1,17 @@
+name: "Circumradius of a triangle"
+id: triangle_circumradius
+topic: triangles
+difficulty: 2
+equation: "(length) eq (length) (length) mul (length) mul (area) 4 mul div"
+so:
+  - length: "R"
+  - length: "a"
+  - length: "b"
+  - length: "c"
+  - area: "A"
+no:
+  - length: "Circumradius"
+  - length: "Side a"
+  - length: "Side b"
+  - length: "Side c"
+  - area: "Area"

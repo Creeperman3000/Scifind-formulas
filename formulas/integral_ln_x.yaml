@@ -1,0 +1,15 @@
+name: "Integral of Natural Log"
+id: integral_ln_x
+topic: integrals
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) ln mul (dimensionless) sub"
+so:
+  - dimensionless: "∫ln x dx"
+  - dimensionless: "x"
+  - dimensionless: "x"
+  - dimensionless: "x"
+no:
+  - dimensionless: "[Integral] of natural log"
+  - dimensionless: "[Variable]"
+  - dimensionless: ""
+  - dimensionless: ""

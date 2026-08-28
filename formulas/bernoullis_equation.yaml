@@ -1,0 +1,29 @@
+name: "Bernoulli's equation"
+id: bernoullis_equation
+topic: bernoulli_equation
+difficulty: 4
+equation: "(pressure) (density) (velocity pow 2) mul 2 div add (density) (standard_gravity) (length) mul mul add eq (pressure) (density) (velocity pow 2) mul 2 div add (density) (standard_gravity) (length) mul mul add"
+so:
+  - pressure: "P_1"
+  - density: "ρ"
+  - velocity: "v_1"
+  - density: "ρ"
+  - standard_gravity: "g"
+  - length: "h_1"
+  - pressure: "P_2"
+  - density: "ρ"
+  - velocity: "v_2"
+  - density: "ρ"
+  - standard_gravity: "g"
+  - length: "h_2"
+no:
+  - pressure: "Pressure at point 1"
+  - density: "Fluid [density]"
+  - velocity: "Flow [velocity] at point 1"
+  - density: "Fluid [density]"
+  - length: "Height at point 1"
+  - pressure: "Pressure at point 2"
+  - density: "Fluid [density]"
+  - velocity: "Flow [velocity] at point 2"
+  - density: "Fluid [density]"
+  - length: "Height at point 2"

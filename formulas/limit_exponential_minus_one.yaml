@@ -1,0 +1,17 @@
+name: "Limit of Exponential Difference"
+id: limit_exponential_minus_one
+topic: limits
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) exp (dimensionless) sub (dimensionless) div"
+so:
+  - dimensionless: "lim_{x→0} (eˣ-1)/x"
+  - dimensionless: "1"
+  - dimensionless: "x"
+  - dimensionless: "1"
+  - dimensionless: "x"
+no:
+  - dimensionless: "[Limit] of exponential difference"
+  - dimensionless: "1"
+  - dimensionless: "[Variable]"
+  - dimensionless: "1"
+  - dimensionless: "[Variable]"

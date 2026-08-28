@@ -1,0 +1,13 @@
+name: "Range of a data set"
+id: range_statistics
+topic: statistics
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub"
+so:
+  - dimensionless: "R"
+  - dimensionless: "x_max"
+  - dimensionless: "x_min"
+no:
+  - dimensionless: "[Range]"
+  - dimensionless: "Maximum"
+  - dimensionless: "Minimum"

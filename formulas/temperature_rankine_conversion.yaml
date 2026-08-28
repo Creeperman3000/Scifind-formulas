@@ -1,0 +1,11 @@
+name: "Rankine to Fahrenheit conversion"
+id: temperature_rankine_conversion
+topic: temperature
+difficulty: 1
+equation: "(temperature) eq (temperature) 459.67 sub"
+so:
+  - temperature: "°F"
+  - temperature: "°R"
+no:
+  - temperature: "Fahrenheit"
+  - temperature: "Rankine"

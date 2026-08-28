@@ -1,0 +1,13 @@
+name: "Moment of inertia of a solid cylinder"
+id: moi_solid_cylinder
+topic: moment_of_inertia
+difficulty: 2
+equation: "(moment_of_inertia) eq (mass) (length pow 2) mul 2 div"
+so:
+  - moment_of_inertia: "I"
+  - mass: "M"
+  - length: "R"
+no:
+  - moment_of_inertia: "Moment of [inertia]"
+  - mass: "Mass"
+  - length: "Radius"

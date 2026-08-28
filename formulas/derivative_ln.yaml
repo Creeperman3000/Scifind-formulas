@@ -1,0 +1,13 @@
+name: "Derivative of natural logarithm"
+id: derivative_ln
+topic: derivatives
+difficulty: 2
+equation: "(dimensionless) (angle) ln rmd eq 1 (angle) div"
+so:
+  - dimensionless: "d/dx"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "Derivative"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

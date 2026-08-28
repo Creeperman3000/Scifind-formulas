@@ -1,0 +1,13 @@
+name: "Relative refractive index"
+id: refraction_relative_index_definition
+topic: refraction
+difficulty: 1
+equation: "(refractive_index) eq (refractive_index) (refractive_index) div"
+so:
+  - refractive_index: "n_21"
+  - refractive_index: "n_2"
+  - refractive_index: "n_1"
+no:
+  - refractive_index: "Relative refractive index"
+  - refractive_index: "Refractive index of medium 2"
+  - refractive_index: "Refractive index of medium 1"

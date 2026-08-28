@@ -1,0 +1,13 @@
+name: "Impulse as change in momentum"
+id: linear_momentum_impulse_relation
+topic: linear_momentum
+difficulty: 1
+equation: "(impulse) eq (momentum) (momentum) sub"
+so:
+  - impulse: "J"
+  - momentum: "p_f"
+  - momentum: "p_i"
+no:
+  - impulse: "[Impulse]"
+  - momentum: "Final [momentum]"
+  - momentum: "Initial [momentum]"

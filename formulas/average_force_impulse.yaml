@@ -1,0 +1,13 @@
+name: "Average force from impulse"
+id: average_force_impulse
+topic: impulse
+difficulty: 2
+equation: "(force) eq (momentum) Delta (time) Delta div"
+so:
+  - force: "F_avg"
+  - momentum: "p"
+  - time: "t"
+no:
+  - force: "Average [force]"
+  - momentum: "[Momentum]"
+  - time: "[Time]"

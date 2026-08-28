@@ -1,0 +1,17 @@
+name: "Force between parallel current-carrying wires"
+id: force_between_parallel_wires
+topic: magnetism
+difficulty: 3
+equation: "(force) eq (vacuum_permeability) (current) (current) mul mul (length) mul (pi) 2 mul (length) mul div"
+so:
+  - force: "F"
+  - current: "I₁"
+  - current: "I₂"
+  - length: "L"
+  - length: "d"
+no:
+  - force: "Magnetic [force]"
+  - current: "Current in wire 1"
+  - current: "Current in wire 2"
+  - length: "Wire length"
+  - length: "Separation distance"

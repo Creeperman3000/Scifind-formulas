@@ -1,0 +1,13 @@
+name: "Rotational kinetic energy"
+id: rotational_ke_formula
+topic: rotational_energy
+difficulty: 2
+equation: "(energy) eq (moment_of_inertia) (angular_velocity) (angular_velocity) mul mul 2 div"
+so:
+  - energy: "K_rot"
+  - moment_of_inertia: "I"
+  - angular_velocity: "ω"
+no:
+  - energy: "Rotational kinetic [energy]"
+  - moment_of_inertia: "Moment of [inertia]"
+  - angular_velocity: "Angular [velocity]"

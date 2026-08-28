@@ -1,0 +1,13 @@
+name: "Specific heat capacity definition"
+id: specific_heat_capacity_definition_v2
+topic: heat
+difficulty: 1
+equation: "(specific_heat_capacity) eq (heat) (mass) (temperature) (temperature) sub mul div"
+so:
+  - specific_heat_capacity: "c"
+  - temperature: "T_f"
+  - temperature: "T_i"
+no:
+  - specific_heat_capacity: "Specific heat [capacity]"
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

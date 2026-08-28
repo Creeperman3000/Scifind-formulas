@@ -1,0 +1,15 @@
+name: "Discriminant of a quadratic"
+id: discriminant_quadratic
+topic: polynomials
+difficulty: 1
+equation: "(dimensionless) eq (length pow 2) (length) (length) mul 4 mul sub"
+so:
+  - dimensionless: "D"
+  - length: "b"
+  - length: "a"
+  - length: "c"
+no:
+  - dimensionless: "Discriminant"
+  - length: "Coefficient b"
+  - length: "Coefficient a"
+  - length: "Coefficient c"

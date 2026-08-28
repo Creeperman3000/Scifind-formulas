@@ -1,0 +1,17 @@
+name: "Equilibrium constant from concentrations"
+id: equilibrium_constant_expression
+topic: chemical_equilibrium
+difficulty: 2
+equation: "(equilibrium_constant) eq (concentration) (concentration) mul (concentration) (concentration) mul div"
+so:
+  - equilibrium_constant: "K_c"
+  - concentration: "[C]"
+  - concentration: "[D]"
+  - concentration: "[A]"
+  - concentration: "[B]"
+no:
+  - equilibrium_constant: "Equilibrium constant"
+  - concentration: "Concentration of C"
+  - concentration: "Concentration of D"
+  - concentration: "Concentration of A"
+  - concentration: "Concentration of B"

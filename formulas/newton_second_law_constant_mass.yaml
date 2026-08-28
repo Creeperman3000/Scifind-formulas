@@ -1,0 +1,9 @@
+name: "Newton's second law with constant mass"
+id: newton_second_law_constant_mass
+topic: newtons_laws
+difficulty: 1
+equation: "(force) eq (mass) (acceleration) mul"
+so:
+  - force: "F_net"
+  - mass: "m"
+  - acceleration: "a"

@@ -1,0 +1,15 @@
+name: "Cosecant Squared Identity"
+id: cosecant_squared_identity
+topic: trigonometric_identities
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (angle) cos (angle) sin div pow 2 add"
+so:
+  - dimensionless: "csc²θ"
+  - dimensionless: "1"
+  - angle: "θ"
+  - angle: "θ"
+no:
+  - dimensionless: "Cosecant squared"
+  - dimensionless: "1"
+  - angle: "Angle θ"
+  - angle: ""

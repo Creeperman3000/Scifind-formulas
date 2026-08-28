@@ -1,0 +1,7 @@
+name: "Electrical energy from power and time"
+id: electrical_energy_power_time
+topic: circuits
+difficulty: 1
+equation: "(energy) eq (power) (time) mul"
+no:
+  - energy: "Electrical [energy]"

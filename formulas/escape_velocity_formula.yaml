@@ -1,0 +1,12 @@
+name: "Escape velocity"
+id: escape_velocity_formula
+topic: escape_velocity
+difficulty: 3
+equation: "(velocity) eq (gravitational_constant) (mass) mul (length) div mul 2 mul sqrt"
+so:
+  - velocity: "v_esc"
+  - mass: "M"
+  - length: "r"
+no:
+  - velocity: "Escape [velocity]"
+  - length: "Radius"

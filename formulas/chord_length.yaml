@@ -1,0 +1,13 @@
+name: "Chord length"
+id: chord_length
+topic: circles
+difficulty: 2
+equation: "(length) eq 2 (length) mul (angle) 2 div sin mul"
+so:
+  - length: "c"
+  - length: "R"
+  - angle: "θ"
+no:
+  - length: "Chord [length]"
+  - length: "Radius"
+  - angle: "Central [angle]"

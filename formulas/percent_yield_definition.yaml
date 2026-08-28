@@ -1,0 +1,13 @@
+name: "Percent yield definition"
+id: percent_yield_definition
+topic: percent_yield
+difficulty: 1
+equation: "(dimensionless) eq (mass) (mass) div 100 mul"
+so:
+  - dimensionless: "% yield"
+  - mass: "m_actual"
+  - mass: "m_theoretical"
+no:
+  - dimensionless: "Percent [yield]"
+  - mass: "Actual [mass]"
+  - mass: "Theoretical [mass]"

@@ -1,0 +1,15 @@
+name: "Capacitors in series (two)"
+id: series_capacitance
+topic: circuits
+difficulty: 2
+equation: "(capacitance) eq (capacitance) (capacitance) div 1 add (capacitance) div 1 div"
+so:
+  - capacitance: "C_total"
+  - capacitance: "C_1"
+  - capacitance: "C_2"
+  - capacitance: "C_1"
+no:
+  - capacitance: "Total [capacitance]"
+  - capacitance: "[Capacitance] 1"
+  - capacitance: "[Capacitance] 2"
+  - capacitance: "[Capacitance] 1"

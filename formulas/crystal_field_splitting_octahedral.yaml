@@ -1,0 +1,12 @@
+name: "Crystal field splitting energy (octahedral)"
+id: crystal_field_splitting_octahedral
+topic: inorganic_chemistry
+difficulty: 4
+equation: "(energy) eq (dimensionless) (energy) mul"
+so:
+  - energy: "Δ_oct"
+  - dimensionless: "Δ_oct"
+no:
+  - energy: "Octahedral crystal field splitting"
+  - energy: "Spectrochemical series parameter"
+  - dimensionless: "Number of d-electrons"

@@ -1,0 +1,11 @@
+name: "Bohr magneton"
+id: bohr_magneton_definition
+topic: atomic_physics
+difficulty: 4
+equation: "(torque) eq (elementary_charge) (planck_constant) (pi) 2 mul div mul (mass) 2 mul div"
+so:
+  - torque: "μ_B"
+  - mass: "m_e"
+no:
+  - torque: "Bohr [magneton]"
+  - mass: "Electron [mass]"

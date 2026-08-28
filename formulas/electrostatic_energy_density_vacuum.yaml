@@ -1,0 +1,9 @@
+name: "Electrostatic energy density in vacuum"
+id: electrostatic_energy_density_vacuum
+topic: electrostatics
+difficulty: 3
+equation: "(energy_density) eq (vacuum_permittivity) (electric_field_strength pow 2) mul 2 div"
+so:
+  - energy_density: "u"
+no:
+  - energy_density: "Energy density"

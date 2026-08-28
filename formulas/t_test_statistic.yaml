@@ -1,0 +1,17 @@
+name: "t-test statistic"
+id: t_test_statistic
+topic: statistics
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) (dimensionless) sqrt div div"
+so:
+  - dimensionless: "t"
+  - dimensionless: "x̄"
+  - dimensionless: "μ₀"
+  - dimensionless: "s"
+  - dimensionless: "n"
+no:
+  - dimensionless: "t-test [statistic]"
+  - dimensionless: "Sample mean"
+  - dimensionless: "Population mean"
+  - dimensionless: "Sample standard deviation"
+  - dimensionless: "Sample size"

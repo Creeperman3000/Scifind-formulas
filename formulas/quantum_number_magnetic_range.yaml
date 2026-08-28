@@ -1,0 +1,11 @@
+name: "Quantum number magnetic range"
+id: quantum_number_magnetic_range
+topic: atomic_structure
+difficulty: 2
+equation: "(dimensionless) abs (dimensionless) lt"
+so:
+  - dimensionless: "m_l"
+  - dimensionless: "l"
+no:
+  - dimensionless: "Magnetic quantum [number]"
+  - dimensionless: "Azimuthal quantum [number]"

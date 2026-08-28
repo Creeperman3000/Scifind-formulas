@@ -1,0 +1,11 @@
+name: "Conductivity from resistivity"
+id: conductivity_from_resistivity
+topic: current_electricity
+difficulty: 2
+equation: "(conductance) eq (dimensionless) (resistance) div"
+so:
+  - conductance: "σ"
+  - resistance: "ρ"
+no:
+  - conductance: "Electrical [conductivity]"
+  - resistance: "Resistivity"

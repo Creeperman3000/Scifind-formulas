@@ -1,0 +1,15 @@
+name: "Volume of a regular tetrahedron"
+id: regular_tetrahedron_volume
+topic: plane_geometry
+difficulty: 3
+equation: "(volume) eq (length pow 3) (dimensionless) 6 (dimensionless) 2 sqrt mul mul div"
+so:
+  - volume: "V"
+  - length: "a"
+  - dimensionless: "1"
+  - dimensionless: "1"
+no:
+  - volume: "[Volume] of regular tetrahedron"
+  - length: "Edge [length]"
+  - dimensionless: "1"
+  - dimensionless: "√2"

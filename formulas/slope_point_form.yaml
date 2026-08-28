@@ -1,0 +1,15 @@
+name: "Point-slope form of a line"
+id: slope_point_form
+topic: coordinate_geometry
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) sub mul"
+so:
+  - dimensionless: "y - y₁"
+  - dimensionless: "m"
+  - dimensionless: "x"
+  - dimensionless: "x₁"
+no:
+  - dimensionless: "Difference in y"
+  - dimensionless: "Slope"
+  - dimensionless: "x-coordinate"
+  - dimensionless: "Point x-coordinate"

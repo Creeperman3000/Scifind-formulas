@@ -1,0 +1,13 @@
+name: "Volume of fluid displaced by floating object"
+id: buoyant_volume_displaced
+topic: buoyancy
+difficulty: 2
+equation: "(volume) eq (mass) (density) div"
+so:
+  - volume: "V_displaced"
+  - mass: "m_object"
+  - density: "ρ_fluid"
+no:
+  - volume: "Volume displaced"
+  - mass: "Mass of object"
+  - density: "Density of fluid"

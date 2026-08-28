@@ -1,0 +1,17 @@
+name: "Cross product y-component"
+id: cross_product_component_y
+topic: linear_algebra
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul (dimensionless) (dimensionless) mul sub"
+so:
+  - dimensionless: "(a×b)_y"
+  - dimensionless: "a_z"
+  - dimensionless: "b_x"
+  - dimensionless: "a_x"
+  - dimensionless: "b_z"
+no:
+  - dimensionless: "y-component of cross product"
+  - dimensionless: "z-component of a"
+  - dimensionless: "x-component of b"
+  - dimensionless: "x-component of a"
+  - dimensionless: "z-component of b"

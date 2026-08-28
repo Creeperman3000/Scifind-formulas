@@ -1,0 +1,13 @@
+name: "Carnot efficiency in terms of temperatures"
+id: carnot_efficiency_temperature
+topic: second_law
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (temperature) (temperature) div sub"
+so:
+  - dimensionless: "η_C"
+  - temperature: "T_C"
+  - temperature: "T_H"
+no:
+  - dimensionless: "Carnot [efficiency]"
+  - temperature: "Cold reservoir [temperature]"
+  - temperature: "Hot reservoir [temperature]"

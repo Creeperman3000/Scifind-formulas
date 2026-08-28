@@ -1,0 +1,10 @@
+name: "Cyclotron frequency"
+id: cyclotron_frequency
+topic: magnetism
+difficulty: 3
+equation: "(frequency) eq (elementary_charge) (magnetic_flux_density) mul 2 pi mul (mass) mul div"
+so:
+  - frequency: "f"
+  - mass: "m"
+no:
+  - frequency: "Cyclotron [frequency]"

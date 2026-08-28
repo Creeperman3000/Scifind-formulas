@@ -1,0 +1,13 @@
+name: "Percentage"
+id: percentage_formula
+topic: arithmetic
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div 100 mul"
+so:
+  - dimensionless: "%"
+  - dimensionless: "part"
+  - dimensionless: "whole"
+no:
+  - dimensionless: "Percentage"
+  - dimensionless: "Part"
+  - dimensionless: "Whole"

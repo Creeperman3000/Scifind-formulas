@@ -1,0 +1,15 @@
+name: "Dilution formula"
+id: dilution_formula
+topic: solution_stoichiometry
+difficulty: 1
+equation: "(concentration) (volume) mul eq (concentration) (volume) mul"
+so:
+  - concentration: "M_1"
+  - volume: "V_1"
+  - concentration: "M_2"
+  - volume: "V_2"
+no:
+  - concentration: "Initial [concentration]"
+  - volume: "Initial [volume]"
+  - concentration: "Final [concentration]"
+  - volume: "Final [volume]"

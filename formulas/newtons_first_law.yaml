@@ -1,0 +1,9 @@
+name: "Newton's first law of motion"
+id: newtons_first_law
+topic: newtons_laws
+difficulty: 1
+equation: "(force) eq dimensionless"
+so:
+  - force: "ΣF"
+no:
+  - force: "Net [force]"

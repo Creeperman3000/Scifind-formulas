@@ -1,0 +1,19 @@
+name: "Quadratic formula"
+id: quadratic_formula
+topic: polynomials
+difficulty: 2
+equation: "(length) eq (length) pow 2 (length) (length) mul 4 mul sub sqrt (length) sub (length) 2 mul div"
+so:
+  - length: "x"
+  - length: "b"
+  - length: "a"
+  - length: "c"
+  - length: "b"
+  - length: "a"
+no:
+  - length: "Solution"
+  - length: "Coefficient b"
+  - length: "Coefficient a"
+  - length: "Coefficient c"
+  - length: "Coefficient b"
+  - length: "Coefficient a"

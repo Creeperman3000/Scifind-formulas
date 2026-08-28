@@ -1,0 +1,9 @@
+name: "Electric potential energy from potential and charge"
+id: potential_energy_electric_definition
+topic: potential_energy
+difficulty: 1
+equation: "(energy) eq (charge) (electric_potential) mul"
+so:
+  - energy: "U_e"
+no:
+  - energy: "Electric potential [energy]"

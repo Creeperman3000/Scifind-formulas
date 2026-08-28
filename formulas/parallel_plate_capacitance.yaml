@@ -1,0 +1,9 @@
+name: "Parallel plate capacitance"
+id: parallel_plate_capacitance
+topic: capacitance
+difficulty: 2
+equation: "(capacitance) eq (vacuum_permittivity) (area) mul (length) div"
+so:
+  - length: "d"
+no:
+  - length: "Plate separation"

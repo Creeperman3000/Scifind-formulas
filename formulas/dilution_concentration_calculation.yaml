@@ -1,0 +1,15 @@
+name: "Dilution concentration calculation"
+id: dilution_concentration_calculation
+topic: solution_stoichiometry
+difficulty: 1
+equation: "(concentration) (volume) mul eq (concentration) (volume) mul"
+so:
+  - concentration: "c₁"
+  - volume: "V₁"
+  - concentration: "c₂"
+  - volume: "V₂"
+no:
+  - concentration: "Initial [concentration]"
+  - volume: "Initial [volume]"
+  - concentration: "Final [concentration]"
+  - volume: "Final [volume]"

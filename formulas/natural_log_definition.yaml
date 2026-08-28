@@ -1,0 +1,11 @@
+name: "Natural logarithm definition"
+id: natural_log_definition
+topic: logarithms
+difficulty: 2
+equation: "(dimensionless) ln eq (dimensionless)"
+so:
+  - dimensionless: "ln(x)"
+  - dimensionless: "y"
+no:
+  - dimensionless: "[Natural] [logarithm]"
+  - dimensionless: "Exponent such that e^y = x"

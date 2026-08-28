@@ -1,0 +1,17 @@
+name: "Percentage error"
+id: percentage_error
+topic: arithmetic
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) div (dimensionless) mul"
+so:
+  - dimensionless: "% error"
+  - dimensionless: "theoretical"
+  - dimensionless: "experimental"
+  - dimensionless: "theoretical"
+  - dimensionless: "100"
+no:
+  - dimensionless: "Percentage error"
+  - dimensionless: "Theoretical value"
+  - dimensionless: "Experimental value"
+  - dimensionless: ""
+  - dimensionless: ""

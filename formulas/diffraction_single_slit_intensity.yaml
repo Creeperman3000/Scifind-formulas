@@ -1,0 +1,15 @@
+name: "Single-slit diffraction intensity pattern"
+id: diffraction_single_slit_intensity
+topic: diffraction
+difficulty: 5
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sin (dimensionless) div pow 2"
+so:
+  - dimensionless: "I(θ)"
+  - dimensionless: "I_0"
+  - dimensionless: "β"
+  - dimensionless: "β"
+no:
+  - dimensionless: "Intensity at angle θ"
+  - dimensionless: "Maximum [intensity]"
+  - dimensionless: "Half phase difference"
+  - dimensionless: "Half phase difference"

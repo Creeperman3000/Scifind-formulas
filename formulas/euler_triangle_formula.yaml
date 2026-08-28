@@ -1,0 +1,17 @@
+name: "Euler's formula for triangle distance"
+id: euler_triangle_formula
+topic: triangles
+difficulty: 4
+equation: "(length) eq (length) (length) (length) (length) 2 mul mul sub sqrt"
+so:
+  - length: "d"
+  - length: "R"
+  - length: "R"
+  - length: "r"
+  - length: "r"
+no:
+  - length: "Distance between circumcenter and incenter"
+  - length: "Circumradius"
+  - length: "Circumradius"
+  - length: "Inradius"
+  - length: "Inradius"

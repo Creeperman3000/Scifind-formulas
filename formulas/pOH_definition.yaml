@@ -1,0 +1,11 @@
+name: "Definition of pOH"
+id: pOH_definition
+topic: acids_and_bases
+difficulty: 2
+equation: "(ph) eq (concentration) 10 log mul neg"
+so:
+  - ph: "pOH"
+  - concentration: "[OH⁻]"
+no:
+  - ph: "[pOH]"
+  - concentration: "Hydroxide ion [concentration]"

@@ -1,0 +1,27 @@
+name: "Weighted arithmetic mean"
+id: weighted_arithmetic_mean
+topic: statistics
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul (dimensionless) add (dimensionless) add (dimensionless) (dimensionless) add (dimensionless) add div"
+so:
+  - dimensionless: "x̄_w"
+  - dimensionless: "w₁"
+  - dimensionless: "x₁"
+  - dimensionless: "w₂"
+  - dimensionless: "x₂"
+  - dimensionless: "w₃"
+  - dimensionless: "x₃"
+  - dimensionless: "w₁"
+  - dimensionless: "w₂"
+  - dimensionless: "w₃"
+no:
+  - dimensionless: "Weighted mean"
+  - dimensionless: "Weight 1"
+  - dimensionless: "Value 1"
+  - dimensionless: "Weight 2"
+  - dimensionless: "Value 2"
+  - dimensionless: "Weight 3"
+  - dimensionless: "Value 3"
+  - dimensionless: ""
+  - dimensionless: ""
+  - dimensionless: ""

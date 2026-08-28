@@ -1,0 +1,5 @@
+name: "Electric field definition"
+id: electric_field_definition
+topic: electric_fields
+difficulty: 1
+equation: "(electric_field_strength) eq (force) (charge) div"

@@ -1,0 +1,11 @@
+name: "Wave number from wavelength"
+id: wave_number_from_wavelength
+topic: mechanical_waves
+difficulty: 1
+equation: "(wavenumber) eq (pi) 2 mul (length) div"
+so:
+  - wavenumber: "k"
+  - length: "λ"
+no:
+  - wavenumber: "Wave [number]"
+  - length: "Wavelength"

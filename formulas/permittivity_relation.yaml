@@ -1,0 +1,11 @@
+name: "Permittivity relation"
+id: permittivity_relation
+topic: electrostatics
+difficulty: 2
+equation: "(permittivity) eq (permittivity) (vacuum_permittivity) mul"
+so:
+  - permittivity: "ε"
+  - permittivity: "ε_r"
+no:
+  - permittivity: "[Permittivity]"
+  - permittivity: "Relative [permittivity]"

@@ -1,0 +1,15 @@
+name: "Atmospheric pressure in pascals"
+id: atmospheric_pressure_pascals
+topic: pressure
+difficulty: 1
+equation: "(pressure) eq (density) (acceleration) mul (length) mul"
+so:
+  - pressure: "P_atm"
+  - density: "ρ_Hg"
+  - acceleration: "g"
+  - length: "h_Hg"
+no:
+  - pressure: "Atmospheric [pressure]"
+  - density: "[Density] of mercury"
+  - acceleration: "Gravitational [acceleration]"
+  - length: "Height of mercury column"

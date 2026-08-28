@@ -1,0 +1,13 @@
+name: "Pythagorean theorem"
+id: pythagorean_theorem
+topic: triangles
+difficulty: 1
+equation: "(length pow 2) eq (length pow 2) (length pow 2) add"
+so:
+  - length: "c"
+  - length: "a"
+  - length: "b"
+no:
+  - length: "Hypotenuse"
+  - length: "Side a"
+  - length: "Side b"

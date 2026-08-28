@@ -1,0 +1,13 @@
+name: "Gravitational potential of a point mass"
+id: gravitational_potential_point
+topic: newtonian_gravity
+difficulty: 3
+equation: "(specific_energy) eq (gravitational_constant) (mass) mul (length) div neg"
+so:
+  - specific_energy: "Φ"
+  - mass: "M"
+  - length: "r"
+no:
+  - specific_energy: "Gravitational [potential]"
+  - mass: "Source [mass]"
+  - length: "Distance from center"

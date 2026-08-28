@@ -1,0 +1,11 @@
+name: "RMS current from peak current"
+id: rms_current_definition
+topic: circuits
+difficulty: 2
+equation: "(current) eq (current) 2 sqrt div"
+so:
+  - current: "I_rms"
+  - current: "I_0"
+no:
+  - current: "RMS [current]"
+  - current: "Peak [current]"

@@ -1,0 +1,13 @@
+name: "Distance formula in 2D"
+id: distance_formula_2d
+topic: coordinate_geometry
+difficulty: 2
+equation: "(length) eq (length) (length) sub pow 2 (length) (length) sub pow 2 add sqrt"
+so:
+  - length: "d"
+  - length: "x_2"
+  - length: "x_1"
+  - length: "y_2"
+  - length: "y_1"
+no:
+  - length: "Distance"

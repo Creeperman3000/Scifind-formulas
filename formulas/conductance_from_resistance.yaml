@@ -1,0 +1,13 @@
+name: "Conductance from resistance"
+id: conductance_from_resistance
+topic: circuits
+difficulty: 1
+equation: "(conductance) eq (dimensionless) (resistance) div"
+so:
+  - conductance: "G"
+  - dimensionless: "1"
+  - resistance: "R"
+no:
+  - conductance: "[Conductance]"
+  - dimensionless: "1"
+  - resistance: "[Resistance]"

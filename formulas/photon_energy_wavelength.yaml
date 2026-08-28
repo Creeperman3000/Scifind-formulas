@@ -1,0 +1,9 @@
+name: "Photon energy from wavelength"
+id: photon_energy_wavelength
+topic: quantum_mechanics
+difficulty: 2
+equation: "(energy) eq (planck_constant) (speed_of_light) mul (length) div"
+so:
+  - length: "λ"
+no:
+  - length: "Wavelength"

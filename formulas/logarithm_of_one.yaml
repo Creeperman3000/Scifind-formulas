@@ -1,0 +1,11 @@
+name: "Logarithm of 1"
+id: logarithm_of_one
+topic: logarithms
+difficulty: 1
+equation: "(dimensionless) (dimensionless) log eq 0"
+so:
+  - dimensionless: "log_a(1)"
+  - dimensionless: "a"
+no:
+  - dimensionless: "Logarithm of 1"
+  - dimensionless: "Base"

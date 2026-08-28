@@ -1,0 +1,17 @@
+name: "z-test statistic"
+id: z_test_statistic
+topic: statistics
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) (dimensionless) sqrt div div"
+so:
+  - dimensionless: "z"
+  - dimensionless: "x̄"
+  - dimensionless: "μ₀"
+  - dimensionless: "σ"
+  - dimensionless: "n"
+no:
+  - dimensionless: "z-test [statistic]"
+  - dimensionless: "Sample mean"
+  - dimensionless: "Population mean"
+  - dimensionless: "Standard deviation"
+  - dimensionless: "Sample size"

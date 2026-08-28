@@ -1,0 +1,9 @@
+name: "Engineering stress"
+id: stress_definition
+topic: forces
+difficulty: 1
+equation: "(pressure) eq (force) (area) div"
+so:
+  - pressure: "σ"
+no:
+  - pressure: "Stress"

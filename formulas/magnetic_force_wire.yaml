@@ -1,0 +1,13 @@
+name: "Magnetic force on a current-carrying wire"
+id: magnetic_force_wire
+topic: magnetism
+difficulty: 3
+equation: "(force) eq (magnetic_flux_density) (current) mul (length) mul"
+so:
+  - force: "F"
+  - magnetic_flux_density: "B"
+  - current: "I"
+  - length: "L"
+no:
+  - force: "Magnetic [force]"
+  - length: "Wire length"

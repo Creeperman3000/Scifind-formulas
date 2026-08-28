@@ -1,0 +1,13 @@
+name: "Harmonic mean"
+id: harmonic_mean_formula
+topic: arithmetic
+difficulty: 2
+equation: "(dimensionless) eq 2 (dimensionless) 1 div (dimensionless) 1 div add div"
+so:
+  - dimensionless: "HM"
+  - dimensionless: "a"
+  - dimensionless: "b"
+no:
+  - dimensionless: "Harmonic mean"
+  - dimensionless: "Value a"
+  - dimensionless: "Value b"

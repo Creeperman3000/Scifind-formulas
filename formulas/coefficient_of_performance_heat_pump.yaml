@@ -1,0 +1,13 @@
+name: "Coefficient of performance of a heat pump"
+id: coefficient_of_performance_heat_pump
+topic: heat_engines
+difficulty: 3
+equation: "(dimensionless) eq (heat) (work) div"
+so:
+  - dimensionless: "COP_HP"
+  - heat: "Q_h"
+  - work: "W"
+no:
+  - dimensionless: "COP of heat [pump]"
+  - heat: "Heat delivered"
+  - work: "Work input"

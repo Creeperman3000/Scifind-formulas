@@ -1,0 +1,17 @@
+name: "Vis-viva equation"
+id: vis_viva_equation
+topic: orbital_motion
+difficulty: 4
+equation: "(velocity pow 2) eq (gravitational_constant) (mass) mul (dimensionless) (length) div 1 (length) div sub mul"
+so:
+  - velocity: "v"
+  - mass: "M"
+  - dimensionless: "2"
+  - length: "r"
+  - length: "a"
+no:
+  - velocity: "Orbital [velocity]"
+  - mass: "Central [mass]"
+  - dimensionless: "2"
+  - length: "Distance"
+  - length: "Semi-major axis"

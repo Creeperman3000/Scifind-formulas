@@ -1,0 +1,23 @@
+name: "Distance from a point to a line"
+id: distance_point_to_line
+topic: coordinate_geometry
+difficulty: 3
+equation: "(length) eq (dimensionless) (length) mul (dimensionless) (length) mul add (length) add pow 2 (dimensionless pow 2) (dimensionless pow 2) add div sqrt"
+so:
+  - length: "d"
+  - dimensionless: "A"
+  - length: "x_0"
+  - dimensionless: "B"
+  - length: "y_0"
+  - length: "C"
+  - dimensionless: "A"
+  - dimensionless: "B"
+no:
+  - length: "Perpendicular [distance]"
+  - dimensionless: "Coefficient A"
+  - length: "Point x-coordinate"
+  - dimensionless: "Coefficient B"
+  - length: "Point y-coordinate"
+  - length: "Constant C"
+  - dimensionless: ""
+  - dimensionless: ""

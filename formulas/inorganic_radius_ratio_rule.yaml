@@ -1,0 +1,13 @@
+name: "Ionic radius ratio for coordination"
+id: inorganic_radius_ratio_rule
+topic: inorganic_chemistry
+difficulty: 3
+equation: "(dimensionless) eq (length) (length) div"
+so:
+  - dimensionless: "r₊/r₋"
+  - length: "r_cation"
+  - length: "r_anion"
+no:
+  - dimensionless: "Radius [ratio]"
+  - length: "Cation [radius]"
+  - length: "Anion [radius]"

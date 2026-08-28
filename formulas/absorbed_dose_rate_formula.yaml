@@ -1,0 +1,9 @@
+name: "Absorbed dose rate"
+id: absorbed_dose_rate_formula
+topic: nuclear_physics
+difficulty: 2
+equation: "(absorbed_dose_rate) eq (absorbed_dose) (time) div"
+so:
+  - absorbed_dose_rate: "Ḋ"
+no:
+  - absorbed_dose_rate: "Absorbed dose [rate]"

@@ -1,0 +1,11 @@
+name: "Range of a projectile"
+id: projectile_range
+topic: projectile_motion
+difficulty: 2
+equation: "(length) eq (velocity pow 2) (angle) 2 mul sin mul (standard_gravity) div"
+so:
+  - length: "R"
+  - velocity: "v_0"
+no:
+  - length: "Range"
+  - velocity: "Initial [velocity]"

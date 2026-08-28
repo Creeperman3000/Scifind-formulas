@@ -1,0 +1,13 @@
+name: "Empirical formula from percent composition"
+id: empirical_formula_from_percent
+topic: organic_chemistry
+difficulty: 3
+equation: "(amount) eq (mass) (molar_mass) div"
+so:
+  - amount: "n_C"
+  - mass: "m_C"
+  - molar_mass: "M_C"
+no:
+  - amount: "Moles of carbon"
+  - mass: "Mass of carbon"
+  - molar_mass: "Molar mass of carbon"

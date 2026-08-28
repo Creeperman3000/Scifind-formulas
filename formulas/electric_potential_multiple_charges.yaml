@@ -1,0 +1,9 @@
+name: "Electric potential from multiple point charges"
+id: electric_potential_multiple_charges
+topic: electric_potential
+difficulty: 3
+equation: "(electric_potential) eq (coulomb_constant) (charge) (length) div sum mul"
+so:
+  - electric_potential: "V"
+no:
+  - electric_potential: "Total [electric potential]"

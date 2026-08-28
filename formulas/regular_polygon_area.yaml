@@ -1,0 +1,17 @@
+name: "Area of a regular polygon"
+id: regular_polygon_area
+topic: polygons
+difficulty: 3
+equation: "(area) eq (dimensionless) (length pow 2) mul (dimensionless) (pi) (dimensionless) div tan mul div"
+so:
+  - area: "A"
+  - dimensionless: "n"
+  - length: "s"
+  - dimensionless: "4"
+  - dimensionless: "n"
+no:
+  - area: "Area of regular [polygon]"
+  - dimensionless: "Number of sides"
+  - length: "Side [length]"
+  - dimensionless: "4"
+  - dimensionless: ""

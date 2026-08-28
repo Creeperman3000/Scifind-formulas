@@ -1,0 +1,15 @@
+name: "Centroid of a triangle (coordinates)"
+id: coordinate_geometry_centroid_formula
+topic: coordinate_geometry
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) add (dimensionless) add 3 div"
+so:
+  - dimensionless: "x_G"
+  - dimensionless: "x_1"
+  - dimensionless: "x_2"
+  - dimensionless: "x_3"
+no:
+  - dimensionless: "Centroid x-coordinate"
+  - dimensionless: "x₁"
+  - dimensionless: "x₂"
+  - dimensionless: "x₃"

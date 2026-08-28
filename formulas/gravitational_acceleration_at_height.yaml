@@ -1,0 +1,15 @@
+name: "Gravitational acceleration at height"
+id: gravitational_acceleration_at_height
+topic: newtonian_gravity
+difficulty: 3
+equation: "(acceleration) eq (gravitational_constant) (mass) mul (length) (length) add (length) add pow 2 div"
+so:
+  - acceleration: "g(h)"
+  - mass: "M"
+  - length: "R"
+  - length: "h"
+no:
+  - acceleration: "Gravitational [acceleration] at height h"
+  - mass: "Planet [mass]"
+  - length: "Planet [radius]"
+  - length: "Height above surface"

@@ -1,0 +1,15 @@
+name: "Logarithm power rule"
+id: logarithm_power_rule
+topic: logarithms
+difficulty: 2
+equation: "(dimensionless) (dimensionless) pow ln eq (dimensionless) (dimensionless) ln mul"
+so:
+  - dimensionless: "x"
+  - dimensionless: "n"
+  - dimensionless: "n"
+  - dimensionless: "x"
+no:
+  - dimensionless: "Power"
+  - dimensionless: "[Exponent]"
+  - dimensionless: "[Exponent]"
+  - dimensionless: ""

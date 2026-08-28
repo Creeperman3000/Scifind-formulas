@@ -1,0 +1,13 @@
+name: "Absolute and gauge pressure relation"
+id: absolute_pressure_gauge_relation
+topic: pressure
+difficulty: 1
+equation: "(pressure) eq (pressure) (pressure) add"
+so:
+  - pressure: "P_abs"
+  - pressure: "P_gauge"
+  - pressure: "P_atm"
+no:
+  - pressure: "Absolute [pressure]"
+  - pressure: "Gauge [pressure]"
+  - pressure: "Atmospheric [pressure]"

@@ -1,0 +1,12 @@
+name: "Gravitational potential energy near Earth's surface"
+id: potential_energy_gravitational_definition
+topic: potential_energy
+difficulty: 1
+equation: "(energy) eq (mass) (acceleration) mul (length) mul"
+so:
+  - energy: "U_g"
+  - acceleration: "g"
+  - length: "h"
+no:
+  - energy: "Gravitational potential [energy]"
+  - length: "Height above reference"

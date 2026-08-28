@@ -1,0 +1,11 @@
+name: "Nuclear magneton"
+id: nuclear_magneton_definition
+topic: nuclear_physics
+difficulty: 4
+equation: "(torque) eq (elementary_charge) (planck_constant) (pi) 2 mul div mul (mass) 2 mul div"
+so:
+  - torque: "μ_N"
+  - mass: "m_p"
+no:
+  - torque: "Nuclear [magneton]"
+  - mass: "Proton [mass]"

@@ -1,0 +1,13 @@
+name: "Standard enthalpy of reaction"
+id: standard_enthalpy_reaction
+topic: thermochemistry
+difficulty: 3
+equation: "(energy) eq (energy) (energy) sub"
+so:
+  - energy: "ΔH°"
+  - energy: "ΣΔH_f°(products)"
+  - energy: "ΣΔH_f°(reactants)"
+no:
+  - energy: "Standard enthalpy of [reaction]"
+  - energy: "Sum of enthalpies of [formation] of products"
+  - energy: "Sum of enthalpies of [formation] of reactants"

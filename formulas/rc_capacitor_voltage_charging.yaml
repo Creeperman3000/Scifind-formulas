@@ -1,0 +1,11 @@
+name: "Capacitor voltage during RC charging"
+id: rc_capacitor_voltage_charging
+topic: circuits
+difficulty: 3
+equation: "(electric_potential) eq (electric_potential) 1 (time) (resistance) (capacitance) mul div neg exp sub mul"
+so:
+  - electric_potential: "V(t)"
+  - electric_potential: "V_0"
+no:
+  - electric_potential: "Voltage at time t"
+  - electric_potential: "Source voltage"

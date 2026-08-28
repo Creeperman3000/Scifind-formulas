@@ -1,0 +1,13 @@
+name: "Derivative of exponential"
+id: derivative_exp
+topic: derivatives
+difficulty: 2
+equation: "(dimensionless) (angle) exp rmd eq (angle) exp"
+so:
+  - dimensionless: "d/dx"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "Derivative"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

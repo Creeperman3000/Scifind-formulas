@@ -1,0 +1,8 @@
+name: "Gravitational binding energy of a uniform sphere"
+id: gravitational_binding_energy_sphere
+topic: newtonian_gravity
+difficulty: 4
+equation: "(energy) eq (gravitational_constant) (mass pow 2) mul (length) div 3 mul 5 div"
+so:
+  - mass: "M"
+  - length: "R"

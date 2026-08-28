@@ -1,0 +1,11 @@
+name: "Magnetic field from a long straight wire"
+id: magnetic_field_straight_wire_distance
+topic: magnetism
+difficulty: 2
+equation: "(magnetic_flux_density) eq (vacuum_permeability) (current) mul (pi) 2 mul (length) mul div"
+so:
+  - magnetic_flux_density: "B"
+  - length: "r"
+no:
+  - magnetic_flux_density: "[Magnetic] flux density"
+  - length: "Radial distance"

@@ -1,0 +1,15 @@
+name: "AC circuit power factor"
+id: ac_circuit_power_factor
+topic: circuits
+difficulty: 3
+equation: "(dimensionless) eq (power) (electric_potential) (current) mul div"
+so:
+  - dimensionless: "PF"
+  - power: "P"
+  - electric_potential: "V_rms"
+  - current: "I_rms"
+no:
+  - dimensionless: "Power [factor]"
+  - power: "Real [power]"
+  - electric_potential: "RMS [voltage]"
+  - current: "RMS [current]"

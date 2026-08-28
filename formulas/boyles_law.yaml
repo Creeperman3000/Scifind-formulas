@@ -1,0 +1,15 @@
+name: "Boyle's law"
+id: boyles_law
+topic: ideal_gases
+difficulty: 1
+equation: "(pressure) (volume) mul eq (pressure) (volume) mul"
+so:
+  - pressure: "P_1"
+  - volume: "V_1"
+  - pressure: "P_2"
+  - volume: "V_2"
+no:
+  - pressure: "Initial [pressure]"
+  - volume: "Initial [volume]"
+  - pressure: "Final [pressure]"
+  - volume: "Final [volume]"

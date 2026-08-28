@@ -1,0 +1,13 @@
+name: "Orbital period of a satellite"
+id: satellite_orbital_period
+topic: orbital_motion
+difficulty: 3
+equation: "(time) eq (pi) 2 mul (length pow 3) (gravitational_constant) (mass) mul div sqrt mul"
+so:
+  - time: "T"
+  - length: "r"
+  - mass: "M"
+no:
+  - time: "Orbital period"
+  - length: "Orbital radius"
+  - mass: "Central [mass]"

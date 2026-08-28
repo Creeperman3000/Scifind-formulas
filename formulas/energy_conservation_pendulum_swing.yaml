@@ -1,0 +1,11 @@
+name: "Energy conservation: pendulum swing"
+id: energy_conservation_pendulum_swing
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) eq (energy)"
+so:
+  - energy: "mgh_max"
+  - energy: "½mv²"
+no:
+  - energy: "Max potential [energy]"
+  - energy: "Max kinetic [energy]"

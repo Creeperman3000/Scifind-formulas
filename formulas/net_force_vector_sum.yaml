@@ -1,0 +1,15 @@
+name: "Net force from vector sum"
+id: net_force_vector_sum
+topic: forces
+difficulty: 2
+equation: "(force) eq (force) (force) add (force) add"
+so:
+  - force: "F_net"
+  - force: "F_1"
+  - force: "F_2"
+  - force: "F_3"
+no:
+  - force: "Net [force]"
+  - force: "[Force] 1"
+  - force: "[Force] 2"
+  - force: "[Force] 3"

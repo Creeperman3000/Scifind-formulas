@@ -1,0 +1,13 @@
+name: "Coulomb's law"
+id: coulombs_law
+topic: electrostatics
+difficulty: 2
+equation: "(force) eq (coulomb_constant) (charge) (charge) mul mul (length pow 2) div"
+so:
+  - force: "F_e"
+  - charge: "q_1"
+  - charge: "q_2"
+  - length: "r"
+no:
+  - force: "Electrostatic [force]"
+  - length: "Distance"

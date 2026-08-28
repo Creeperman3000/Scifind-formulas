@@ -1,0 +1,13 @@
+name: "Beat frequency from frequency difference"
+id: beats_frequency_difference
+topic: mechanical_waves
+difficulty: 1
+equation: "(frequency) eq (frequency) (frequency) sub"
+so:
+  - frequency: "f_beat"
+  - frequency: "f_1"
+  - frequency: "f_2"
+no:
+  - frequency: "Beat [frequency]"
+  - frequency: "[Frequency] 1"
+  - frequency: "[Frequency] 2"

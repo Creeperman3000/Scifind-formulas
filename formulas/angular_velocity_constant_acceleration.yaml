@@ -1,0 +1,11 @@
+name: "Angular velocity at constant angular acceleration"
+id: angular_velocity_constant_acceleration
+topic: circular_motion
+difficulty: 2
+equation: "(angular_velocity) eq (angular_velocity) (angular_acceleration) (time) mul add"
+so:
+  - angular_velocity: "ω"
+  - angular_velocity: "ω₀"
+no:
+  - angular_velocity: "Final angular [velocity|velocity]"
+  - angular_velocity: "Initial angular [velocity|velocity]"

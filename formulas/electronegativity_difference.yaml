@@ -1,0 +1,13 @@
+name: "Electronegativity difference"
+id: electronegativity_difference
+topic: chemical_bonding
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub"
+so:
+  - dimensionless: "ΔEN"
+  - dimensionless: "EN_A"
+  - dimensionless: "EN_B"
+no:
+  - dimensionless: "Electronegativity difference"
+  - dimensionless: "[Electronegativity] of A"
+  - dimensionless: "[Electronegativity] of B"

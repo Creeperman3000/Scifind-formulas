@@ -1,0 +1,10 @@
+name: "Potential energy of a charge in an electric field"
+id: potential_energy_charge_field
+topic: electric_potential
+difficulty: 2
+equation: "(energy) eq (charge) (electric_potential) mul"
+so:
+  - energy: "U"
+no:
+  - energy: "Electric potential [energy]"
+  - electric_potential: "Electric [potential]"

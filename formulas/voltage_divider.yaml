@@ -1,0 +1,17 @@
+name: "Voltage divider"
+id: voltage_divider
+topic: circuits
+difficulty: 2
+equation: "(electric_potential) eq (electric_potential) (resistance) mul (resistance) (resistance) add div"
+so:
+  - electric_potential: "V_out"
+  - electric_potential: "V_in"
+  - resistance: "R_2"
+  - resistance: "R_1"
+  - resistance: "R_2"
+no:
+  - electric_potential: "Output [voltage]"
+  - electric_potential: "Input [voltage]"
+  - resistance: "Second [resistance]"
+  - resistance: "First [resistance]"
+  - resistance: "Second [resistance]"

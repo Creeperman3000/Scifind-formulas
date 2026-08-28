@@ -1,0 +1,15 @@
+name: "Volume of a triangular prism"
+id: volume_triangular_prism
+topic: plane_geometry
+difficulty: 1
+equation: "(volume) eq (length) (length) mul (length) mul 2 div"
+so:
+  - volume: "V"
+  - length: "b"
+  - length: "h"
+  - length: "l"
+no:
+  - volume: "[Volume]"
+  - length: "Base width"
+  - length: "Triangle height"
+  - length: "Prism length"

@@ -1,0 +1,9 @@
+name: "Net torque and angular acceleration"
+id: net_torque_formula
+topic: torque
+difficulty: 2
+equation: "(torque) eq (moment_of_inertia) (angular_acceleration) mul"
+so:
+  - torque: "τ_net"
+no:
+  - torque: "Net [torque]"

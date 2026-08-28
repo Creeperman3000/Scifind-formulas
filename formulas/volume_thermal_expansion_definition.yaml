@@ -1,0 +1,19 @@
+name: "Volume thermal expansion definition"
+id: volume_thermal_expansion_definition
+topic: heat
+difficulty: 2
+equation: "(volume) (volume) sub eq (volume) (coefficient_of_linear_expansion) 3 mul (temperature) (temperature) sub mul mul"
+so:
+  - volume: "V"
+  - volume: "V_0"
+  - volume: "V_0"
+  - coefficient_of_linear_expansion: "α"
+  - temperature: "T"
+  - temperature: "T_0"
+no:
+  - volume: "Final [volume]"
+  - volume: "Initial [volume]"
+  - volume: "Initial [volume]"
+  - coefficient_of_linear_expansion: "Linear expansion coefficient"
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

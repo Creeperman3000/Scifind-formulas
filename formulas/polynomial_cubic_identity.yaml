@@ -1,0 +1,29 @@
+name: "Polynomial Cubic Identity"
+id: polynomial_cubic_identity
+topic: polynomials
+difficulty: 3
+equation: "(dimensionless) (dimensionless) add (dimensionless) add pow 2 eq (dimensionless pow 2) (dimensionless pow 2) add (dimensionless pow 2) add (dimensionless) (dimensionless) mul 2 mul add (dimensionless) (dimensionless) mul 2 mul add (dimensionless) (dimensionless) mul 2 mul add"
+so:
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "c"
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "c"
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "a"
+  - dimensionless: "c"
+  - dimensionless: "b"
+  - dimensionless: "c"
+no:
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "c"
+  - dimensionless: "a²"
+  - dimensionless: "b²"
+  - dimensionless: "c²"
+  - dimensionless: "2ab"
+  - dimensionless: ""
+  - dimensionless: ""
+  - dimensionless: ""

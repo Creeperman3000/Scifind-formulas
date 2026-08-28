@@ -1,0 +1,15 @@
+name: "Calibration curve (linear regression model)"
+id: calibration_curve_linear_regression
+topic: analytical_chemistry
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) mul add"
+so:
+  - dimensionless: "y"
+  - dimensionless: "m"
+  - dimensionless: "x"
+  - dimensionless: "b"
+no:
+  - dimensionless: "Signal [response]"
+  - dimensionless: "Slope"
+  - dimensionless: "Concentration"
+  - dimensionless: "Intercept"

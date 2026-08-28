@@ -1,0 +1,13 @@
+name: "Electric potential of a point charge"
+id: electric_potential_of_point_charge
+topic: electric_potential
+difficulty: 2
+equation: "(electric_potential) eq (coulomb_constant) (charge) mul (length) div"
+so:
+  - electric_potential: "V"
+  - charge: "q"
+  - length: "r"
+no:
+  - electric_potential: "Electric [potential]"
+  - charge: "Point [charge]"
+  - length: "Distance from charge"

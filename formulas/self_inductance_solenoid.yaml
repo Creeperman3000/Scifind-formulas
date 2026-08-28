@@ -1,0 +1,15 @@
+name: "Self-inductance of a solenoid"
+id: self_inductance_solenoid
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(inductance) eq (vacuum_permeability) (dimensionless) pow 2 mul (area) mul (length) div"
+so:
+  - inductance: "L"
+  - dimensionless: "N"
+  - area: "A"
+  - length: "l"
+no:
+  - inductance: "[Inductance]"
+  - dimensionless: "Number of turns"
+  - area: "Cross-sectional [area]"
+  - length: "Solenoid [length]"

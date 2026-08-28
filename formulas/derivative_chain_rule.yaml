@@ -1,0 +1,13 @@
+name: "Chain rule"
+id: derivative_chain_rule
+topic: derivatives
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul"
+so:
+  - dimensionless: "dy/dx"
+  - dimensionless: "dy/du"
+  - dimensionless: "du/dx"
+no:
+  - dimensionless: "Derivative of composite function"
+  - dimensionless: "Derivative of outer"
+  - dimensionless: "Derivative of inner"

@@ -1,0 +1,13 @@
+name: "Mass number"
+id: mass_number_formula
+topic: atomic_structure
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) add"
+so:
+  - dimensionless: "A"
+  - dimensionless: "Z"
+  - dimensionless: "N"
+no:
+  - dimensionless: "Mass number"
+  - dimensionless: "Atomic number"
+  - dimensionless: "Neutron number"

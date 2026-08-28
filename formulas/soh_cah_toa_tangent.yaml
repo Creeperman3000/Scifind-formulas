@@ -1,0 +1,13 @@
+name: "Right triangle: tangent ratio (TOA)"
+id: soh_cah_toa_tangent
+topic: right_triangles
+difficulty: 1
+equation: "(dimensionless) eq (length) (length) div"
+so:
+  - dimensionless: "tan θ"
+  - length: "opposite"
+  - length: "adjacent"
+no:
+  - dimensionless: "Tangent"
+  - length: "Opposite side"
+  - length: "Adjacent side"

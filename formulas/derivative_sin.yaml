@@ -1,0 +1,13 @@
+name: "Derivative of sine"
+id: derivative_sin
+topic: derivatives
+difficulty: 2
+equation: "(dimensionless) (angle) sin rmd eq (angle) cos"
+so:
+  - dimensionless: "d/dx"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "Derivative"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

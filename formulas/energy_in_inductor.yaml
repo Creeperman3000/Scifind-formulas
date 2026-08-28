@@ -1,0 +1,9 @@
+name: "Energy stored in an inductor"
+id: energy_in_inductor
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(energy) eq (inductance) (current pow 2) mul 2 div"
+so:
+  - energy: "E_L"
+no:
+  - energy: "Stored [energy]"

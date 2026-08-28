@@ -1,0 +1,13 @@
+name: "Magnetic flux density from magnetic field intensity"
+id: magnetism_magnetic_flux_density_from_h
+topic: magnetism
+difficulty: 2
+equation: "(magnetic_flux_density) eq (permeability) (magnetic_field_strength) mul"
+so:
+  - magnetic_flux_density: "B"
+  - permeability: "μ"
+  - magnetic_field_strength: "H"
+no:
+  - magnetic_flux_density: "Magnetic flux [density]"
+  - permeability: "[Permeability] of medium"
+  - magnetic_field_strength: "Magnetic field [intensity]"

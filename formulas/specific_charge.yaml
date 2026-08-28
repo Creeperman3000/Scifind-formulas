@@ -1,0 +1,5 @@
+name: "Specific charge"
+id: specific_charge
+topic: atomic_physics
+difficulty: 1
+equation: "(specific_charge) eq (charge) (mass) div"

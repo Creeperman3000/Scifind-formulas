@@ -1,0 +1,12 @@
+name: "Centripetal force"
+id: centripetal_force
+topic: circular_motion
+difficulty: 2
+equation: "(force) eq (mass) (velocity pow 2) mul (length) div"
+so:
+  - force: "F_c"
+  - velocity: "v"
+  - length: "r"
+no:
+  - force: "Centripetal [force]"
+  - length: "Radius"

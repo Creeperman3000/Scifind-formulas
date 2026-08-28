@@ -1,0 +1,11 @@
+name: "Velocity magnitude from kinetic energy"
+id: kinetic_energy_velocity_magnitude
+topic: kinetic_energy
+difficulty: 1
+equation: "(velocity) eq (energy) 2 mul (mass) div sqrt"
+so:
+  - velocity: "v"
+  - energy: "E_k"
+no:
+  - velocity: "Speed"
+  - energy: "Kinetic [energy]"

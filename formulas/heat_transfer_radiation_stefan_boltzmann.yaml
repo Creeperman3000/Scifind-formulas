@@ -1,0 +1,15 @@
+name: "Radiative heat transfer (Stefan-Boltzmann)"
+id: heat_transfer_radiation_stefan_boltzmann
+topic: heat_transfer
+difficulty: 3
+equation: "(power) eq (dimensionless) (stefan_boltzmann_constant) mul (area) mul (temperature pow 4) mul"
+so:
+  - power: "P"
+  - dimensionless: "ε"
+  - area: "A"
+  - temperature: "T"
+no:
+  - power: "Radiative [power]"
+  - dimensionless: "Emissivity"
+  - area: "Surface [area]"
+  - temperature: "Temperature"

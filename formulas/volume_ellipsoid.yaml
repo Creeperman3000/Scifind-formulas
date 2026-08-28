@@ -1,0 +1,15 @@
+name: "Volume of an ellipsoid"
+id: volume_ellipsoid
+topic: plane_geometry
+difficulty: 3
+equation: "(volume) eq (pi) 4 mul (length) mul (length) mul (length) mul 3 div"
+so:
+  - volume: "V"
+  - length: "a"
+  - length: "b"
+  - length: "c"
+no:
+  - volume: "[Volume]"
+  - length: "Semi-axis a"
+  - length: "Semi-axis b"
+  - length: "Semi-axis c"

@@ -1,0 +1,13 @@
+name: "Entropy change of phase transition"
+id: entropy_phase_transition
+topic: entropy
+difficulty: 2
+equation: "(entropy) eq (heat) (temperature) div"
+so:
+  - entropy: "ΔS"
+  - heat: "Q_rev"
+  - temperature: "T"
+no:
+  - entropy: "Change in [entropy]"
+  - heat: "Reversible [heat]"
+  - temperature: "Temperature"

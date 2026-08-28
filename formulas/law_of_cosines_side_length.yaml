@@ -1,0 +1,19 @@
+name: "Law of cosines for side length"
+id: law_of_cosines_side_length
+topic: laws_of_sines_and_cosines
+difficulty: 2
+equation: "(length pow 2) eq (length pow 2) (length pow 2) add (length) (length) mul 2 mul (angle) cos mul sub"
+so:
+  - length: "c"
+  - length: "a"
+  - length: "b"
+  - length: "a"
+  - length: "b"
+  - angle: "C"
+no:
+  - length: "Side c"
+  - length: "Side a"
+  - length: "Side b"
+  - length: "Side a"
+  - length: "Side b"
+  - angle: "Angle C"

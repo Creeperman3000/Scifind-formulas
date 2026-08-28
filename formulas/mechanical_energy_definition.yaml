@@ -1,0 +1,13 @@
+name: "Total mechanical energy"
+id: mechanical_energy_definition
+topic: conservation_of_energy
+difficulty: 1
+equation: "(energy) eq (energy) (energy) add"
+so:
+  - energy: "E"
+  - energy: "KE"
+  - energy: "PE"
+no:
+  - energy: "Total mechanical [energy]"
+  - energy: "Kinetic [energy]"
+  - energy: "Potential [energy]"

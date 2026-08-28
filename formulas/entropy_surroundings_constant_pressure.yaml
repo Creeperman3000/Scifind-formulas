@@ -1,0 +1,11 @@
+name: "Entropy change of surroundings at constant pressure"
+id: entropy_surroundings_constant_pressure
+topic: second_law
+difficulty: 3
+equation: "(entropy) eq (energy) neg (temperature) div"
+so:
+  - entropy: "ΔS_surr"
+  - energy: "ΔH"
+no:
+  - entropy: "[Entropy] change of surroundings"
+  - energy: "[Enthalpy] change of system"

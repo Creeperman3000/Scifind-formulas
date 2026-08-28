@@ -1,0 +1,13 @@
+name: "Specific gravity from density"
+id: specific_gravity_formula
+topic: buoyancy
+difficulty: 1
+equation: "(dimensionless) eq (density) (density) div"
+so:
+  - dimensionless: "SG"
+  - density: "ρ_substance"
+  - density: "ρ_water"
+no:
+  - dimensionless: "Specific gravity"
+  - density: "Substance [density]"
+  - density: "Reference [density] (water)"

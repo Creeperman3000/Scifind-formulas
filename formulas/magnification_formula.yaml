@@ -1,0 +1,15 @@
+name: "Linear magnification"
+id: magnification_formula
+topic: lenses
+difficulty: 1
+equation: "(length) (length) div neg eq (length) (length) div"
+so:
+  - length: "h_i"
+  - length: "h_o"
+  - length: "v"
+  - length: "u"
+no:
+  - length: "Image height"
+  - length: "Object height"
+  - length: "Image distance"
+  - length: "Object distance"

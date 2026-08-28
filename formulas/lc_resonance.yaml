@@ -1,0 +1,9 @@
+name: "LC circuit resonance frequency"
+id: lc_resonance
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(angular_velocity) eq (inductance) (capacitance) mul sqrt 1 div"
+so:
+  - angular_velocity: "ω"
+no:
+  - angular_velocity: "Resonant angular frequency"

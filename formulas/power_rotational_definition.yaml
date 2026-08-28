@@ -1,0 +1,13 @@
+name: "Rotational power from force and velocity"
+id: power_rotational_definition
+topic: power
+difficulty: 2
+equation: "(power) eq (force) (velocity) mul"
+so:
+  - power: "P"
+  - force: "F"
+  - velocity: "v"
+no:
+  - power: "[Power]"
+  - force: "Tangential [force]"
+  - velocity: "Tangential [velocity]"

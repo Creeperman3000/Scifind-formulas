@@ -1,0 +1,13 @@
+name: "Two-source interference maxima"
+id: two_source_interference_maxima
+topic: interference
+difficulty: 3
+equation: "(length) eq (dimensionless) (length) mul"
+so:
+  - length: "ΔL"
+  - dimensionless: "m"
+  - length: "λ"
+no:
+  - length: "Path difference"
+  - dimensionless: "Order m"
+  - length: "Wavelength"

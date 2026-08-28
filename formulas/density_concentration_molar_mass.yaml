@@ -1,0 +1,13 @@
+name: "Solution density from concentration and molar mass"
+id: density_concentration_molar_mass
+topic: solutions
+difficulty: 1
+equation: "(mass_concentration) eq (concentration) (molar_mass) mul"
+so:
+  - mass_concentration: "ρ_soln"
+  - concentration: "c"
+  - molar_mass: "M"
+no:
+  - mass_concentration: "Mass [concentration]"
+  - concentration: "Molar [concentration]"
+  - molar_mass: "[Molar mass]"

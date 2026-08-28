@@ -1,0 +1,15 @@
+name: "Limit definition of derivative"
+id: limit_derivative_definition
+topic: limits
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) div"
+so:
+  - dimensionless: "f'(x)"
+  - dimensionless: "f(x+h)"
+  - dimensionless: "f(x)"
+  - dimensionless: "h"
+no:
+  - dimensionless: "Derivative"
+  - dimensionless: "[f(x+h)]"
+  - dimensionless: "[f(x)]"
+  - dimensionless: "Increment"

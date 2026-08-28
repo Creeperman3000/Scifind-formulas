@@ -1,0 +1,13 @@
+name: "Sum of infinite geometric series"
+id: geometric_series_infinite_sum
+topic: arithmetic
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) 1 (dimensionless) sub div"
+so:
+  - dimensionless: "S_∞"
+  - dimensionless: "a"
+  - dimensionless: "r"
+no:
+  - dimensionless: "Sum to infinity"
+  - dimensionless: "First term"
+  - dimensionless: "Common ratio"

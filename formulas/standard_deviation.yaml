@@ -1,0 +1,11 @@
+name: "Standard deviation"
+id: standard_deviation
+topic: statistics
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) sqrt"
+so:
+  - dimensionless: "σ"
+  - dimensionless: "σ²"
+no:
+  - dimensionless: "Standard deviation"
+  - dimensionless: "Variance"

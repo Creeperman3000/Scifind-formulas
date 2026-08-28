@@ -1,0 +1,11 @@
+name: "Canonical commutation relation"
+id: commutation_relation_quantum
+topic: quantum_mechanics
+difficulty: 5
+equation: "(dimensionless) eq (planck_constant) (pi) 2 mul div (dimensionless) mul"
+so:
+  - dimensionless: "[\u0078\u0302,\u0070\u0302]"
+  - dimensionless: "i"
+no:
+  - dimensionless: "Commutation [relation]"
+  - dimensionless: "Imaginary unit"

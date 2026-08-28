@@ -1,0 +1,14 @@
+name: "Integrated rate law (first order)"
+id: integrated_first_order
+topic: chemical_kinetics
+difficulty: 3
+equation: "(concentration) ln eq (concentration) ln (frequency) (time) mul sub"
+so:
+  - concentration: "[A]_t"
+  - concentration: "[A]_0"
+  - frequency: "k"
+  - time: "t"
+no:
+  - concentration: "[Concentration] at time t"
+  - concentration: "Initial [concentration]"
+  - frequency: "Rate constant"

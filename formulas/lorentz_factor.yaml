@@ -1,0 +1,9 @@
+name: "Lorentz factor"
+id: lorentz_factor
+topic: relativity
+difficulty: 3
+equation: "(lorentz_factor) eq (velocity) (speed_of_light) div pow 2 1 sub neg sqrt 1 div"
+so:
+  - lorentz_factor: "γ"
+no:
+  - lorentz_factor: "[Lorentz factor]"

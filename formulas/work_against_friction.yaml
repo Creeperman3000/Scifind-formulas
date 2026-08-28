@@ -1,0 +1,13 @@
+name: "Work done against friction"
+id: work_against_friction
+topic: work
+difficulty: 2
+equation: "(work) eq (force) (length) mul"
+so:
+  - work: "W_fric"
+  - force: "f_k"
+  - length: "d"
+no:
+  - work: "Work against [friction]"
+  - force: "Kinetic [friction]"
+  - length: "[Displacement]"

@@ -1,0 +1,7 @@
+name: "Electrical power in a resistive circuit"
+id: electrical_power_resistive_definition
+topic: power
+difficulty: 1
+equation: "(power) eq (electric_potential) (current) mul"
+no:
+  - power: "Electrical [power]"

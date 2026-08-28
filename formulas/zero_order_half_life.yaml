@@ -1,0 +1,13 @@
+name: "Zero-order reaction half-life"
+id: zero_order_half_life
+topic: chemical_kinetics
+difficulty: 3
+equation: "(time) eq (concentration) (frequency) 2 mul div"
+so:
+  - time: "t_½"
+  - concentration: "[A]_0"
+  - frequency: "k"
+no:
+  - time: "Half-life"
+  - concentration: "Initial [concentration]"
+  - frequency: "Rate constant"

@@ -1,0 +1,5 @@
+name: "Surface density"
+id: surface_density_formula
+topic: plane_geometry
+difficulty: 1
+equation: "(surface_density) eq (mass) (area) div"

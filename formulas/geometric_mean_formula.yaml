@@ -1,0 +1,13 @@
+name: "Geometric mean"
+id: geometric_mean_formula
+topic: arithmetic
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul sqrt"
+so:
+  - dimensionless: "GM"
+  - dimensionless: "a"
+  - dimensionless: "b"
+no:
+  - dimensionless: "Geometric mean"
+  - dimensionless: "Value a"
+  - dimensionless: "Value b"

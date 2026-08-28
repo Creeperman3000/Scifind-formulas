@@ -1,0 +1,13 @@
+name: "Velocity from momentum"
+id: velocity_from_momentum
+topic: linear_momentum
+difficulty: 1
+equation: "(velocity) eq (momentum) (mass) div"
+so:
+  - velocity: "v"
+  - momentum: "p"
+  - mass: "m"
+no:
+  - velocity: "[Velocity]"
+  - momentum: "[Momentum]"
+  - mass: "[Mass]"

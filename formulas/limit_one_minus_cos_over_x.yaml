@@ -1,0 +1,13 @@
+name: "Limit of (1-cos(x))/x as x approaches 0"
+id: limit_one_minus_cos_over_x
+topic: limits
+difficulty: 2
+equation: "(dimensionless) eq 1 (angle) cos sub (angle) div"
+so:
+  - dimensionless: "0"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "Limit"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

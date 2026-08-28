@@ -1,0 +1,13 @@
+name: "Kinetic energy loss in collision"
+id: collision_kinetic_energy_loss
+topic: collisions
+difficulty: 2
+equation: "(energy) eq (energy) (energy) sub"
+so:
+  - energy: "ΔKE"
+  - energy: "KE_after"
+  - energy: "KE_before"
+no:
+  - energy: "Change in kinetic [energy]"
+  - energy: "Kinetic [energy] after"
+  - energy: "Kinetic [energy] before"

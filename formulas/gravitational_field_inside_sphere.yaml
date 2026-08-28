@@ -1,0 +1,16 @@
+name: "Gravitational field inside a uniform sphere"
+id: gravitational_field_inside_sphere
+topic: newtonian_gravity
+difficulty: 4
+equation: "(acceleration) eq (gravitational_constant) (mass) (length) mul (length) (length) (length) mul div mul"
+so:
+  - acceleration: "g(r)"
+  - mass: "M"
+  - length: "r"
+  - length: "R"
+  - length: "R"
+no:
+  - acceleration: "Gravitational field at [radius] r"
+  - mass: "Total [mass]"
+  - length: "Distance from center"
+  - length: "Body [radius]"

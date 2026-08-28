@@ -1,0 +1,15 @@
+name: "nth term of an arithmetic sequence"
+id: arithmetic_series_nth_term
+topic: arithmetic
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) 1 sub mul add"
+so:
+  - dimensionless: "a_n"
+  - dimensionless: "a₁"
+  - dimensionless: "n"
+  - dimensionless: "d"
+no:
+  - dimensionless: "nth term"
+  - dimensionless: "First term"
+  - dimensionless: "Term number"
+  - dimensionless: "Common difference"

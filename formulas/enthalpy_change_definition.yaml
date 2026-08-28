@@ -1,0 +1,14 @@
+name: "Enthalpy change at constant pressure"
+id: enthalpy_change_definition
+topic: thermochemistry
+difficulty: 2
+equation: "(energy) eq (energy) (pressure) (Delta) (volume) mul add"
+so:
+  - energy: "ΔH"
+  - energy: "ΔU"
+  - pressure: "P"
+  - volume: "V"
+no:
+  - energy: "[Enthalpy] change"
+  - energy: "Internal [energy] change"
+  - volume: "Volume change"

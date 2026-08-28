@@ -1,0 +1,17 @@
+name: "Extended law of sines (circumdiameter)"
+id: law_of_sines_extended_circumradius
+topic: laws_of_sines_and_cosines
+difficulty: 2
+equation: "(length) (angle) sin div eq (length) (angle) sin div eq (length) 2 mul"
+so:
+  - length: "a"
+  - angle: "A"
+  - length: "b"
+  - angle: "B"
+  - length: "R"
+no:
+  - length: "Side a"
+  - angle: "Angle A"
+  - length: "Side b"
+  - angle: "Angle B"
+  - length: "Circumdiameter"

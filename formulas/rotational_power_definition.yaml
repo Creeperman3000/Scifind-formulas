@@ -1,0 +1,13 @@
+name: "Rotational power from torque"
+id: rotational_power_definition
+topic: rotational_energy
+difficulty: 2
+equation: "(power) eq (torque) (angular_velocity) mul"
+so:
+  - power: "P"
+  - torque: "τ"
+  - angular_velocity: "ω"
+no:
+  - power: "Rotational [power]"
+  - torque: "[Torque]"
+  - angular_velocity: "Angular [velocity]"

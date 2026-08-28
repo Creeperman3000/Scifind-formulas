@@ -1,0 +1,19 @@
+name: "Angle difference identity for sine"
+id: angle_diff_sine
+topic: trigonometric_identities
+difficulty: 2
+equation: "(angle) (angle) sub sin eq (angle) sin (angle) cos mul (angle) cos (angle) sin mul sub"
+so:
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"

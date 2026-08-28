@@ -1,0 +1,13 @@
+name: "Probability of an event"
+id: probability_of_event
+topic: probability
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div"
+so:
+  - dimensionless: "P(E)"
+  - dimensionless: "n(E)"
+  - dimensionless: "n(S)"
+no:
+  - dimensionless: "Probability of event E"
+  - dimensionless: "Number of favorable outcomes"
+  - dimensionless: "Total number of outcomes"

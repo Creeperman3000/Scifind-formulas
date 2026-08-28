@@ -1,0 +1,13 @@
+name: "Restoring force in SHM"
+id: harmonic_motion_restoring_force
+topic: harmonic_motion
+difficulty: 1
+equation: "(force) eq (spring_constant) neg (length) mul"
+so:
+  - force: "F"
+  - spring_constant: "k"
+  - length: "x"
+no:
+  - force: "Restoring [force]"
+  - spring_constant: "Force constant"
+  - length: "Displacement"

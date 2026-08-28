@@ -1,0 +1,17 @@
+name: "Mirror image distance formula"
+id: mirror_image_distance_formula
+topic: mirrors
+difficulty: 2
+equation: "(length) eq (length) (length) mul (length) (length) sub div"
+so:
+  - length: "v"
+  - length: "u"
+  - length: "f"
+  - length: "u"
+  - length: "f"
+no:
+  - length: "Image [distance]"
+  - length: "Object [distance]"
+  - length: "Focal [length]"
+  - length: ""
+  - length: ""

@@ -1,0 +1,17 @@
+name: "Dot product of two 2D vectors"
+id: dot_product_2d
+topic: linear_algebra
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul (dimensionless) (dimensionless) mul add"
+so:
+  - dimensionless: "a·b"
+  - dimensionless: "a_x"
+  - dimensionless: "b_x"
+  - dimensionless: "a_y"
+  - dimensionless: "b_y"
+no:
+  - dimensionless: "Dot product"
+  - dimensionless: "x-component of a"
+  - dimensionless: "x-component of b"
+  - dimensionless: "y-component of a"
+  - dimensionless: "y-component of b"

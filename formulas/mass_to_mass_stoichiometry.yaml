@@ -1,0 +1,19 @@
+name: "Mass-to-mass stoichiometry"
+id: mass_to_mass_stoichiometry
+topic: limiting_reactants
+difficulty: 3
+equation: "(mass) eq (mass) (molar_mass) div (dimensionless) (dimensionless) div mul (molar_mass) mul"
+so:
+  - mass: "m_B"
+  - mass: "m_A"
+  - molar_mass: "M_A"
+  - dimensionless: "ν_B"
+  - dimensionless: "ν_A"
+  - molar_mass: "M_B"
+no:
+  - mass: "Mass of product B"
+  - mass: "Mass of reactant A"
+  - molar_mass: "Molar mass of A"
+  - dimensionless: "Stoichiometric coefficient of B"
+  - dimensionless: "Stoichiometric coefficient of A"
+  - molar_mass: "Molar mass of B"

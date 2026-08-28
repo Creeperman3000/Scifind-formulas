@@ -1,0 +1,19 @@
+name: "Derivative of exponential with base"
+id: derivative_exp_base
+topic: derivatives
+difficulty: 2
+equation: "(dimensionless) (angle) (dimensionless) pow rmd eq (angle) (dimensionless) pow (dimensionless) ln mul"
+so:
+  - dimensionless: "d/dx"
+  - angle: "x"
+  - dimensionless: "a"
+  - angle: "x"
+  - dimensionless: "a"
+  - dimensionless: "a"
+no:
+  - dimensionless: "Derivative"
+  - angle: "[Variable]"
+  - dimensionless: "[Base]"
+  - angle: "[Variable]"
+  - dimensionless: "[Base]"
+  - dimensionless: "[Base]"

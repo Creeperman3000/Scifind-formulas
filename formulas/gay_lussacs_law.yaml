@@ -1,0 +1,15 @@
+name: "Gay-Lussac's law"
+id: gay_lussacs_law
+topic: ideal_gases
+difficulty: 1
+equation: "(pressure) (temperature) div eq (pressure) (temperature) div"
+so:
+  - pressure: "P_1"
+  - temperature: "T_1"
+  - pressure: "P_2"
+  - temperature: "T_2"
+no:
+  - pressure: "Initial [pressure]"
+  - temperature: "Initial [temperature]"
+  - pressure: "Final [pressure]"
+  - temperature: "Final [temperature]"

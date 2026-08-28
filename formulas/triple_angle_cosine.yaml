@@ -1,0 +1,13 @@
+name: "Triple Angle Cosine"
+id: triple_angle_cosine
+topic: trigonometric_identities
+difficulty: 3
+equation: "(angle) 3 mul cos eq (angle) cos pow 3 4 mul (angle) cos 3 mul sub"
+so:
+  - angle: "θ"
+  - angle: "θ"
+  - angle: "θ"
+no:
+  - angle: "Angle θ"
+  - angle: ""
+  - angle: ""

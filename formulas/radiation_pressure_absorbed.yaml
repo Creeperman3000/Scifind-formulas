@@ -1,0 +1,11 @@
+name: "Radiation pressure on a perfect absorber"
+id: radiation_pressure_absorbed
+topic: electromagnetic_waves
+difficulty: 4
+equation: "(pressure) eq (irradiance) (speed_of_light) div"
+so:
+  - pressure: "P_rad"
+  - irradiance: "I"
+no:
+  - pressure: "Radiation [pressure]"
+  - irradiance: "Intensity"

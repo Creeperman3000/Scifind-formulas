@@ -1,0 +1,7 @@
+name: "Kirchhoff's current law"
+id: kirchhoff_current_law
+topic: circuits
+difficulty: 2
+equation: "(current) sum eq 0"
+no:
+  - current: "Sum of currents"

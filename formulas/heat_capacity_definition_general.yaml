@@ -1,0 +1,13 @@
+name: "Heat capacity from heat and temperature change"
+id: heat_capacity_definition_general
+topic: heat
+difficulty: 1
+equation: "(dimensionless) eq (heat) (temperature) (temperature) sub div"
+so:
+  - dimensionless: "C"
+  - temperature: "T_f"
+  - temperature: "T_i"
+no:
+  - dimensionless: "Heat capacity"
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

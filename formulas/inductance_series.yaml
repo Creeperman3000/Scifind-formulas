@@ -1,0 +1,13 @@
+name: "Series combination of inductors"
+id: inductance_series
+topic: electromagnetic_induction
+difficulty: 2
+equation: "(inductance) eq (inductance) (inductance) add"
+so:
+  - inductance: "L_eq"
+  - inductance: "L₁"
+  - inductance: "L₂"
+no:
+  - inductance: "Equivalent [inductance]"
+  - inductance: "[Inductance] 1"
+  - inductance: "[Inductance] 2"

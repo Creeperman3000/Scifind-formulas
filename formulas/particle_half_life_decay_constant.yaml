@@ -1,0 +1,11 @@
+name: "Half-life from decay constant"
+id: particle_half_life_decay_constant
+topic: particle_physics
+difficulty: 2
+equation: "(time) eq 2 ln (frequency) div"
+so:
+  - time: "t_½"
+  - frequency: "λ"
+no:
+  - time: "Half-life"
+  - frequency: "Decay constant"

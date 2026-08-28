@@ -1,0 +1,5 @@
+name: "Number of particles from amount"
+id: number_of_particles_formula
+topic: mole_concept
+difficulty: 1
+equation: "(number_of_particles) eq (amount) (avogadro_number) mul"

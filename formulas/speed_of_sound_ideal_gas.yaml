@@ -1,0 +1,11 @@
+name: "Speed of sound in an ideal gas"
+id: speed_of_sound_ideal_gas
+topic: mechanical_waves
+difficulty: 3
+equation: "(velocity) eq (dimensionless) (gas_constant) (temperature) mul (molar_mass) div sqrt mul"
+so:
+  - velocity: "v"
+  - dimensionless: "γ"
+no:
+  - velocity: "Speed of sound"
+  - dimensionless: "Adiabatic index"

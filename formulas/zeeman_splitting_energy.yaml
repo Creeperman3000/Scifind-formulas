@@ -1,0 +1,17 @@
+name: "Zeeman splitting energy"
+id: zeeman_splitting_energy
+topic: atomic_physics
+difficulty: 4
+equation: "(energy) eq (torque) (magnetic_flux_density) mul (dimensionless) mul (dimensionless) mul"
+so:
+  - energy: "\u0394E"
+  - torque: "\u03BC_B"
+  - magnetic_flux_density: "B"
+  - dimensionless: "m_l"
+  - dimensionless: "g_J"
+no:
+  - energy: "Zeeman [splitting]"
+  - torque: "Bohr [magneton]"
+  - magnetic_flux_density: "Magnetic [field]"
+  - dimensionless: "Magnetic quantum [number]"
+  - dimensionless: "Land\u00E9 g-factor"

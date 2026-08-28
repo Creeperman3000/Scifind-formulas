@@ -1,0 +1,5 @@
+name: "Charge stored in a capacitor"
+id: charge_on_capacitor
+topic: capacitance
+difficulty: 1
+equation: "(charge) eq (capacitance) (electric_potential) mul"

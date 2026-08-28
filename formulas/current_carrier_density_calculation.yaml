@@ -1,0 +1,17 @@
+name: "Charge carrier density calculation"
+id: current_carrier_density_calculation
+topic: current_electricity
+difficulty: 3
+equation: "(number_of_particles) (volume) div eq (current) (area) (elementary_charge) mul (velocity) mul div"
+so:
+  - number_of_particles: "N"
+  - volume: "V"
+  - current: "I"
+  - area: "A"
+  - velocity: "v_d"
+no:
+  - number_of_particles: "Number of charge [carriers]"
+  - volume: "[Volume]"
+  - current: "[Current]"
+  - area: "Cross-sectional [area]"
+  - velocity: "Drift [velocity]"

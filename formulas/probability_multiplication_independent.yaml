@@ -1,0 +1,13 @@
+name: "Probability of independent events"
+id: probability_multiplication_independent
+topic: probability
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul"
+so:
+  - dimensionless: "P(A∩B)"
+  - dimensionless: "P(A)"
+  - dimensionless: "P(B)"
+no:
+  - dimensionless: "Probability of A and B"
+  - dimensionless: "Probability of A"
+  - dimensionless: "Probability of B"

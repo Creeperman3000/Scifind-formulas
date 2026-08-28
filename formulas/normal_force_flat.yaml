@@ -1,0 +1,9 @@
+name: "Normal force on a horizontal surface"
+id: normal_force_flat
+topic: forces
+difficulty: 1
+equation: "(force) eq (mass) (standard_gravity) mul"
+so:
+  - force: "N"
+no:
+  - force: "Normal [force]"

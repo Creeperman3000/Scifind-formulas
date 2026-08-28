@@ -1,0 +1,15 @@
+name: "Linear thermal expansion"
+id: linear_thermal_expansion
+topic: temperature
+difficulty: 2
+equation: "(length) eq (coefficient_of_linear_expansion) (length) mul (temperature) Delta mul"
+so:
+  - length: "ΔL"
+  - coefficient_of_linear_expansion: "α"
+  - length: "L_0"
+  - temperature: "ΔT"
+no:
+  - length: "Change in [length]"
+  - coefficient_of_linear_expansion: "Coefficient of linear [expansion]"
+  - length: "Original [length]"
+  - temperature: "Change in [temperature]"

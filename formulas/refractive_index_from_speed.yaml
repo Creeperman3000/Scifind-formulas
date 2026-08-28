@@ -1,0 +1,11 @@
+name: "Refractive index from speed"
+id: refractive_index_from_speed
+topic: refraction
+difficulty: 2
+equation: "(refractive_index) eq (speed_of_light) (velocity) div"
+so:
+  - refractive_index: "n"
+  - velocity: "v"
+no:
+  - refractive_index: "[Refractive index]"
+  - velocity: "Speed of light in medium"

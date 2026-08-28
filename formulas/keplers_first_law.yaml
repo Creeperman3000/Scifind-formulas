@@ -1,0 +1,15 @@
+name: "Kepler's first law of planetary motion"
+id: keplers_first_law
+topic: orbital_motion
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul 1 (dimensionless) (angle) cos mul add div"
+so:
+  - dimensionless: "r"
+  - dimensionless: "a"
+  - dimensionless: "e"
+  - dimensionless: "e"
+  - angle: "θ"
+no:
+  - dimensionless: "Orbit [radius]"
+  - dimensionless: "Semi-major axis"
+  - dimensionless: "Eccentricity"

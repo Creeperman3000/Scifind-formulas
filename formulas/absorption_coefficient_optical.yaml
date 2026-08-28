@@ -1,0 +1,12 @@
+name: "Absorption coefficient from absorbance"
+id: absorption_coefficient_optical
+topic: interference
+difficulty: 2
+equation: "(length) eq (dimensionless) (length) div"
+so:
+  - length: "α"
+  - dimensionless: "A"
+  - length: "L"
+no:
+  - length: "Absorption [coefficient]"
+  - length: "Path [length]"

@@ -1,0 +1,15 @@
+name: "Percent composition of an element"
+id: percent_composition_element
+topic: organic_chemistry
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (molar_mass) mul (molar_mass) div 100 mul"
+so:
+  - dimensionless: "%"
+  - dimensionless: "n"
+  - molar_mass: "M_element"
+  - molar_mass: "M_compound"
+no:
+  - dimensionless: "Percent [composition]"
+  - dimensionless: "Number of atoms"
+  - molar_mass: "Molar mass of [element]"
+  - molar_mass: "Molar mass of [compound]"

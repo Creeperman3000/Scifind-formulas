@@ -1,0 +1,17 @@
+name: "Compound interest future value"
+id: compound_interest
+topic: arithmetic
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) (dimensionless) add pow mul"
+so:
+  - dimensionless: "A"
+  - dimensionless: "P"
+  - dimensionless: "1"
+  - dimensionless: "r"
+  - dimensionless: "n"
+no:
+  - dimensionless: "Future value"
+  - dimensionless: "Principal"
+  - dimensionless: ""
+  - dimensionless: "Interest rate"
+  - dimensionless: "Number of periods"

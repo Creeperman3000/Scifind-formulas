@@ -1,0 +1,11 @@
+name: "Newton's shell theorem (outside spherical shell)"
+id: newtons_shell_theorem
+topic: newtonian_gravity
+difficulty: 3
+equation: "(force) eq (gravitational_constant) (mass) mul (mass) mul (length pow 2) div"
+so:
+  - mass: "M_shell"
+  - length: "r"
+no:
+  - force: "Gravitational [force]"
+  - length: "Distance from center"

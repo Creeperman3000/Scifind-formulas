@@ -1,0 +1,17 @@
+name: "Coulombic contribution to lattice energy"
+id: lattice_energy_coulomb
+topic: inorganic_chemistry
+difficulty: 4
+equation: "(energy) eq (coulomb_constant) (avogadro_number) (dimensionless) mul (dimensionless) (dimensionless) mul (elementary_charge pow 2) mul mul mul (length) div"
+so:
+  - energy: "U"
+  - dimensionless: "M"
+  - dimensionless: "z⁺"
+  - dimensionless: "z⁻"
+  - length: "r_0"
+no:
+  - energy: "Lattice [energy]"
+  - dimensionless: "Madelung constant"
+  - dimensionless: "Cation charge"
+  - dimensionless: "Anion charge"
+  - length: "Nearest neighbor distance"

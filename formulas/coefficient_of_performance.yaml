@@ -1,0 +1,11 @@
+name: "Coefficient of performance of a refrigerator"
+id: coefficient_of_performance
+topic: heat_engines
+difficulty: 3
+equation: "(heat_engine_efficiency) eq (heat) (work) div"
+so:
+  - heat_engine_efficiency: "COP"
+  - heat: "Q_c"
+no:
+  - heat_engine_efficiency: "Coefficient of performance"
+  - heat: "Heat extracted from cold reservoir"

@@ -1,0 +1,13 @@
+name: "Angular momentum quantization"
+id: angular_momentum_quantization
+topic: quantum_mechanics
+difficulty: 4
+equation: "(angular_momentum) eq (dimensionless) (dimensionless) 1 add mul sqrt (planck_constant) (pi) 2 mul div mul"
+so:
+  - angular_momentum: "L"
+  - dimensionless: "l"
+  - dimensionless: "l"
+no:
+  - angular_momentum: "Orbital angular [momentum]"
+  - dimensionless: "Azimuthal quantum [number]"
+  - dimensionless: ""

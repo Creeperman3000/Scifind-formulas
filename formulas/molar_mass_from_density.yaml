@@ -1,0 +1,10 @@
+name: "Molar mass of a gas from density"
+id: molar_mass_from_density
+topic: molar_mass
+difficulty: 2
+equation: "(molar_mass) eq (density) (gas_constant) mul (temperature) mul (pressure) div"
+no:
+  - molar_mass: "Molar [mass]"
+  - density: "Gas [density]"
+  - temperature: "[Temperature]"
+  - pressure: "[Pressure]"

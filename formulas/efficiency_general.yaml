@@ -1,0 +1,13 @@
+name: "General efficiency"
+id: efficiency_general
+topic: conservation_of_energy
+difficulty: 1
+equation: "(dimensionless) eq (energy) (energy) div"
+so:
+  - dimensionless: "η"
+  - energy: "E_out"
+  - energy: "E_in"
+no:
+  - dimensionless: "[Efficiency]"
+  - energy: "Useful output [energy]"
+  - energy: "Total input [energy]"

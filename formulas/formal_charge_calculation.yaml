@@ -1,0 +1,17 @@
+name: "Formal charge calculation"
+id: formal_charge_calculation
+topic: chemical_bonding
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) (dimensionless) mul 2 div sub"
+so:
+  - dimensionless: "FC"
+  - dimensionless: "V"
+  - dimensionless: "L"
+  - dimensionless: "S"
+  - dimensionless: "S"
+no:
+  - dimensionless: "Formal charge"
+  - dimensionless: "Valence electrons"
+  - dimensionless: "Lone pair electrons"
+  - dimensionless: "Bonding electrons"
+  - dimensionless: "Bonding electrons"

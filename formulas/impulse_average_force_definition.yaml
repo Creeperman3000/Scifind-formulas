@@ -1,0 +1,13 @@
+name: "Impulse from average force and time"
+id: impulse_average_force_definition
+topic: impulse
+difficulty: 2
+equation: "(momentum) eq (force) (time) mul"
+so:
+  - momentum: "J"
+  - force: "F_avg"
+  - time: "Δt"
+no:
+  - momentum: "Impulse J"
+  - force: "Average [force]"
+  - time: "Time interval"

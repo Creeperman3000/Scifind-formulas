@@ -1,0 +1,13 @@
+name: "Raoult's law"
+id: raoults_law
+topic: solutions
+difficulty: 2
+equation: "(pressure) eq (concentration) (pressure) mul"
+so:
+  - pressure: "P"
+  - concentration: "χ"
+  - pressure: "P°"
+no:
+  - pressure: "Vapor [pressure] of solution"
+  - concentration: "Mole fraction of solvent"
+  - pressure: "Vapor [pressure] of pure solvent"

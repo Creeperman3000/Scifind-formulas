@@ -1,0 +1,13 @@
+name: "Atomic number from composition"
+id: periodic_atomic_number_composition
+topic: periodic_table
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) add"
+so:
+  - dimensionless: "Z"
+  - dimensionless: "p"
+  - dimensionless: "e"
+no:
+  - dimensionless: "Atomic [number]"
+  - dimensionless: "Number of protons"
+  - dimensionless: "Number of electrons (neutral atom)"

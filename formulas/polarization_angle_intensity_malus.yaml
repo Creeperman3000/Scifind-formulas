@@ -1,0 +1,13 @@
+name: "Malus's law for polarized light intensity"
+id: polarization_angle_intensity_malus
+topic: polarization
+difficulty: 2
+equation: "(irradiance) eq (irradiance) (angle) cos pow 2 mul"
+so:
+  - irradiance: "I"
+  - irradiance: "I_0"
+  - angle: "θ"
+no:
+  - irradiance: "Transmitted intensity"
+  - irradiance: "Initial intensity"
+  - angle: "Angle between polarizer axes"

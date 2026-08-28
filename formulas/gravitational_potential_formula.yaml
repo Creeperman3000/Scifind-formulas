@@ -1,0 +1,12 @@
+name: "Gravitational potential"
+id: gravitational_potential_formula
+topic: newtonian_gravity
+difficulty: 3
+equation: "(specific_energy) eq (gravitational_constant) (mass) mul (length) div neg"
+so:
+  - specific_energy: "V"
+  - mass: "M"
+  - length: "r"
+no:
+  - specific_energy: "Gravitational [potential]"
+  - length: "Distance"

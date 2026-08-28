@@ -1,0 +1,13 @@
+name: "Torque vector (right-hand rule)"
+id: torque_direction_right_hand_rule
+topic: torque
+difficulty: 2
+equation: "(torque) eq (length) (force) mul (angle) sin mul"
+so:
+  - torque: "τ"
+  - length: "r"
+  - angle: "θ"
+no:
+  - torque: "Torque magnitude"
+  - length: "Lever arm"
+  - angle: "Angle between r and F"

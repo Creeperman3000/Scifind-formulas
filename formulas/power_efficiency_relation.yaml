@@ -1,0 +1,13 @@
+name: "Power efficiency"
+id: power_efficiency_relation
+topic: power
+difficulty: 2
+equation: "(dimensionless) eq (power) (power) div"
+so:
+  - dimensionless: "η"
+  - power: "P_out"
+  - power: "P_in"
+no:
+  - dimensionless: "Efficiency"
+  - power: "Output [power]"
+  - power: "Input [power]"

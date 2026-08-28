@@ -1,0 +1,12 @@
+name: "Area thermal expansion"
+id: area_thermal_expansion
+topic: heat
+difficulty: 2
+equation: "(area) eq (coefficient_of_linear_expansion) 2 mul (area) (temperature) Delta mul mul"
+so:
+  - area: "ΔA"
+  - area: "A₀"
+no:
+  - area: "Change in [area]"
+  - coefficient_of_linear_expansion: "α"
+  - area: "Initial area"

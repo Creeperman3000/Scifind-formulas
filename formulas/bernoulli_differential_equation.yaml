@@ -1,0 +1,19 @@
+name: "Bernoulli differential equation"
+id: bernoulli_differential_equation
+topic: differential_equations
+difficulty: 5
+equation: "(dimensionless) rmd (dimensionless) (dimensionless) mul add eq (dimensionless) (dimensionless) (dimensionless) pow mul"
+so:
+  - dimensionless: "dy/dx"
+  - dimensionless: "P(x)"
+  - dimensionless: "y"
+  - dimensionless: "Q(x)"
+  - dimensionless: "y"
+  - dimensionless: "n"
+no:
+  - dimensionless: "Derivative of y"
+  - dimensionless: "P(x)"
+  - dimensionless: "y"
+  - dimensionless: "Q(x)"
+  - dimensionless: "y^n"
+  - dimensionless: "Power n"

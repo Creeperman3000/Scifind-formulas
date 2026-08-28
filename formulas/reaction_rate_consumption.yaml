@@ -1,0 +1,13 @@
+name: "Reaction rate from reactant consumption"
+id: reaction_rate_consumption
+topic: chemical_reactions
+difficulty: 2
+equation: "(concentration) (time) rmd eq (dimensionless) neg (catalytic_activity) mul"
+so:
+  - concentration: "[A]"
+  - dimensionless: "ν_A"
+  - catalytic_activity: "r"
+no:
+  - concentration: "[Concentration] of A"
+  - dimensionless: "Stoichiometric coefficient"
+  - catalytic_activity: "Reaction [rate]"

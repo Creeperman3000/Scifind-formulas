@@ -1,0 +1,7 @@
+name: "Mass from amount and molar mass"
+id: mole_to_mass
+topic: mole_concept
+difficulty: 1
+equation: "(mass) eq (amount) (molar_mass) mul"
+no:
+  - mass: "Mass of substance"

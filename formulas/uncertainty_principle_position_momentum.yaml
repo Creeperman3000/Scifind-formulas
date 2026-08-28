@@ -1,0 +1,11 @@
+name: "Heisenberg uncertainty principle (position-momentum)"
+id: uncertainty_principle_position_momentum
+topic: quantum_mechanics
+difficulty: 3
+equation: "(length) (momentum) mul gt (planck_constant) (pi) 4 mul div"
+so:
+  - length: "Δx"
+  - momentum: "Δp"
+no:
+  - length: "Uncertainty in position"
+  - momentum: "Uncertainty in momentum"

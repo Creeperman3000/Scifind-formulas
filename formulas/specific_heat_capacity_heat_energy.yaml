@@ -1,0 +1,11 @@
+name: "Heat energy from specific heat capacity"
+id: specific_heat_capacity_heat_energy
+topic: heat
+difficulty: 1
+equation: "(heat) eq (mass) (specific_heat_capacity) mul (temperature) (temperature) sub mul"
+so:
+  - temperature: "T_f"
+  - temperature: "T_i"
+no:
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

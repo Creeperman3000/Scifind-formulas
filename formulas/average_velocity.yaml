@@ -1,0 +1,9 @@
+name: "Average velocity"
+id: average_velocity
+topic: constant_acceleration
+difficulty: 1
+equation: "(velocity) eq (displacement) (time) div"
+so:
+  - velocity: "v_avg"
+no:
+  - velocity: "Average [velocity]"

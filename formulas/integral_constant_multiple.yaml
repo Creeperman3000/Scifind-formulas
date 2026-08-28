@@ -1,0 +1,13 @@
+name: "Integral constant multiple rule"
+id: integral_constant_multiple
+topic: integrals
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul"
+so:
+  - dimensionless: "∫cf(x) dx"
+  - dimensionless: "c"
+  - dimensionless: "∫f(x) dx"
+no:
+  - dimensionless: "Integral of c·f(x)"
+  - dimensionless: "Constant factor"
+  - dimensionless: "Integral of f(x)"

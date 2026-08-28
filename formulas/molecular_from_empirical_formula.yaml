@@ -1,0 +1,13 @@
+name: "Molecular formula from empirical formula"
+id: molecular_from_empirical_formula
+topic: organic_chemistry
+difficulty: 2
+equation: "(dimensionless) eq (molar_mass) (molar_mass) div"
+so:
+  - dimensionless: "n"
+  - molar_mass: "M_molecular"
+  - molar_mass: "M_empirical"
+no:
+  - dimensionless: "Multiplier"
+  - molar_mass: "Molecular [molar mass]"
+  - molar_mass: "Empirical formula [mass]"

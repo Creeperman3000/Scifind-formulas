@@ -1,0 +1,17 @@
+name: "Van 't Hoff equation"
+id: van_t_hoff_equation
+topic: chemical_equilibrium
+difficulty: 5
+equation: "(equilibrium_constant) (equilibrium_constant) div ln eq (energy) (gas_constant) div neg (temperature) 1 div (temperature) 1 div sub mul"
+so:
+  - equilibrium_constant: "K_2"
+  - equilibrium_constant: "K_1"
+  - energy: "ΔH"
+  - temperature: "T_2"
+  - temperature: "T_1"
+no:
+  - equilibrium_constant: "Equilibrium constant at T₂"
+  - equilibrium_constant: "Equilibrium constant at T₁"
+  - energy: "Enthalpy change"
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

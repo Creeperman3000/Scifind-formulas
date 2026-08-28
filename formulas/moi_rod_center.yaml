@@ -1,0 +1,7 @@
+name: "Moment of inertia of a thin rod about center"
+id: moi_rod_center
+topic: moment_of_inertia
+difficulty: 2
+equation: "(moment_of_inertia) eq (mass) (length pow 2) mul 12 div"
+so:
+  - length: "L"

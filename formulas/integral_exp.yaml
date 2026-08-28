@@ -1,0 +1,11 @@
+name: "Integral of exponential"
+id: integral_exp
+topic: integrals
+difficulty: 2
+equation: "(dimensionless) eq (angle) exp"
+so:
+  - dimensionless: "∫eˣdx"
+  - angle: "x"
+no:
+  - dimensionless: "∫ eˣ dx"
+  - angle: "[Variable]"

@@ -1,0 +1,15 @@
+name: "Radiocarbon dating formula"
+id: radioactive_carbon_dating
+topic: nuclear_physics
+difficulty: 3
+equation: "(time) eq (time) (dimensionless) (dimensionless) div ln (time) 2 ln div mul"
+so:
+  - time: "t"
+  - time: "t_½"
+  - dimensionless: "N_0"
+  - dimensionless: "N"
+no:
+  - time: "Age of sample"
+  - time: "Half-life"
+  - dimensionless: "Initial activity"
+  - dimensionless: "Current activity"

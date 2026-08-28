@@ -1,0 +1,11 @@
+name: "Gravitational field strength"
+id: gravitational_field_strength
+topic: newtonian_gravity
+difficulty: 2
+equation: "(acceleration) eq (gravitational_constant) (mass) mul (length pow 2) div"
+so:
+  - acceleration: "g"
+  - length: "r"
+no:
+  - acceleration: "Gravitational field strength"
+  - length: "Distance"

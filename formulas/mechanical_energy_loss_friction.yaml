@@ -1,0 +1,15 @@
+name: "Energy loss due to friction"
+id: mechanical_energy_loss_friction
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) eq (energy) (energy) add (work) sub"
+so:
+  - energy: "E_f"
+  - energy: "K_i"
+  - energy: "U_i"
+  - work: "W_friction"
+no:
+  - energy: "Final mechanical [energy]"
+  - energy: "Initial kinetic [energy]"
+  - energy: "Initial potential [energy]"
+  - work: "Work done by friction"

@@ -1,0 +1,15 @@
+name: "Derivative of arcsine"
+id: derivative_arcsin
+topic: derivatives
+difficulty: 3
+equation: "(dimensionless) (angle) asin rmd eq (dimensionless) (angle) pow 2 sub 1 add sqrt div"
+so:
+  - dimensionless: "d/dx"
+  - angle: "x"
+  - dimensionless: "1"
+  - angle: "x"
+no:
+  - dimensionless: "Derivative"
+  - angle: "[Variable]"
+  - dimensionless: ""
+  - angle: ""

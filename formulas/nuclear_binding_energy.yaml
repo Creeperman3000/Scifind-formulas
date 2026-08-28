@@ -1,0 +1,11 @@
+name: "Nuclear binding energy"
+id: nuclear_binding_energy
+topic: nuclear_physics
+difficulty: 3
+equation: "(energy) eq (mass) (speed_of_light pow 2) mul"
+so:
+  - energy: "E_b"
+  - mass: "Δm"
+no:
+  - energy: "Binding [energy]"
+  - mass: "Mass defect"

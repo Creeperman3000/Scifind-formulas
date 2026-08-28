@@ -1,0 +1,15 @@
+name: "Area of a polygon by triangulation"
+id: plane_geometry_polygon_area_triangulation
+topic: plane_geometry
+difficulty: 3
+equation: "(area) eq (area) (area) add (area) add"
+so:
+  - area: "A_total"
+  - area: "A_1"
+  - area: "A_2"
+  - area: "A_3"
+no:
+  - area: "Total [area]"
+  - area: "Triangle 1 area"
+  - area: "Triangle 2 area"
+  - area: "Triangle 3 area"

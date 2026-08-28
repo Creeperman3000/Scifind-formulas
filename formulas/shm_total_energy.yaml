@@ -1,0 +1,12 @@
+name: "Total energy in simple harmonic motion"
+id: shm_total_energy
+topic: harmonic_motion
+difficulty: 2
+equation: "(energy) eq (spring_constant) (length pow 2) mul 2 div"
+so:
+  - energy: "E"
+  - spring_constant: "k"
+  - length: "A"
+no:
+  - energy: "Total [energy]"
+  - length: "Amplitude"

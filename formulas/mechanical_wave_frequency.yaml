@@ -1,0 +1,11 @@
+name: "Mechanical wave frequency from wave speed and wavelength"
+id: mechanical_wave_frequency
+topic: mechanical_waves
+difficulty: 1
+equation: "(frequency) eq (velocity) (length) div"
+so:
+  - velocity: "v"
+  - length: "λ"
+no:
+  - velocity: "Wave [velocity]"
+  - length: "Wavelength"

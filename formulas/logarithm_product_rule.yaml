@@ -1,0 +1,15 @@
+name: "Logarithm product rule"
+id: logarithm_product_rule
+topic: logarithms
+difficulty: 2
+equation: "(dimensionless) (dimensionless) mul ln eq (dimensionless) ln (dimensionless) ln add"
+so:
+  - dimensionless: "x"
+  - dimensionless: "y"
+  - dimensionless: "x"
+  - dimensionless: "y"
+no:
+  - dimensionless: "Product"
+  - dimensionless: ""
+  - dimensionless: ""
+  - dimensionless: ""

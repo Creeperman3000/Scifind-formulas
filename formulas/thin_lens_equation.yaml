@@ -1,0 +1,13 @@
+name: "Thin lens equation"
+id: thin_lens_equation
+topic: lenses
+difficulty: 2
+equation: "(length) 1 div eq (length) 1 div (length) 1 div add"
+so:
+  - length: "f"
+  - length: "u"
+  - length: "v"
+no:
+  - length: "Focal length"
+  - length: "Object distance"
+  - length: "Image distance"

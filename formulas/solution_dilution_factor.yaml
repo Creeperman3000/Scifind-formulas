@@ -1,0 +1,13 @@
+name: "Dilution factor"
+id: solution_dilution_factor
+topic: solution_stoichiometry
+difficulty: 1
+equation: "(dimensionless) eq (volume) (volume) div"
+so:
+  - dimensionless: "DF"
+  - volume: "V_final"
+  - volume: "V_initial"
+no:
+  - dimensionless: "Dilution [factor]"
+  - volume: "Final [volume]"
+  - volume: "Initial [volume]"

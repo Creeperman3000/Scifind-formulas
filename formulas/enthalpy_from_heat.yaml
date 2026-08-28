@@ -1,0 +1,13 @@
+name: "Enthalpy change from heat at constant pressure"
+id: enthalpy_from_heat
+topic: thermochemistry
+difficulty: 2
+equation: "(energy) eq (heat) (amount) div"
+so:
+  - energy: "ΔH"
+  - heat: "q"
+  - amount: "n"
+no:
+  - energy: "Molar enthalpy change"
+  - heat: "[Heat]"
+  - amount: "Amount of substance"

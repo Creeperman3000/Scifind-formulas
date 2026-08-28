@@ -1,0 +1,13 @@
+name: "Wave velocity from wavelength and period"
+id: wave_velocity_period
+topic: mechanical_waves
+difficulty: 1
+equation: "(velocity) eq (length) (time) div"
+so:
+  - velocity: "v"
+  - length: "λ"
+  - time: "T"
+no:
+  - velocity: "Wave [velocity]"
+  - length: "Wavelength"
+  - time: "Period"

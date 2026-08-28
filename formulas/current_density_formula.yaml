@@ -1,0 +1,5 @@
+name: "Current density"
+id: current_density_formula
+topic: current_electricity
+difficulty: 2
+equation: "(current_density) eq (current) (area) div"

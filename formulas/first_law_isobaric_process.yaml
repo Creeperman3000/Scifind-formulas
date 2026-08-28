@@ -1,0 +1,14 @@
+name: "First law of thermodynamics for isobaric process"
+id: first_law_isobaric_process
+topic: first_law
+difficulty: 2
+equation: "(heat) eq (energy) (pressure) (volume) (volume) sub mul add"
+so:
+  - energy: "ΔU"
+  - pressure: "P"
+  - volume: "V_f"
+  - volume: "V_i"
+no:
+  - energy: "Change in internal [energy]"
+  - volume: "Final [volume]"
+  - volume: "Initial [volume]"

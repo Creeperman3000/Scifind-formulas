@@ -1,0 +1,9 @@
+name: "Linear mass density"
+id: linear_density
+topic: mechanical_waves
+difficulty: 1
+equation: "(surface_density) eq (mass) (length) div"
+so:
+  - surface_density: "μ"
+no:
+  - surface_density: "Linear [density]"

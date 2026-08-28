@@ -1,0 +1,17 @@
+name: "Integral of 1/(a²+x²)"
+id: integral_reciprocal_quadratic
+topic: integrals
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (angle) (dimensionless) div atan mul"
+so:
+  - dimensionless: "∫dx/(a²+x²)"
+  - dimensionless: "1"
+  - dimensionless: "a"
+  - angle: "x"
+  - dimensionless: "a"
+no:
+  - dimensionless: "Integral of reciprocal quadratic"
+  - dimensionless: ""
+  - dimensionless: "[Constant]"
+  - angle: "[Variable]"
+  - dimensionless: ""

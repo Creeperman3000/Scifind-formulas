@@ -1,0 +1,19 @@
+name: "Doppler effect for sound"
+id: doppler_effect_sound
+topic: mechanical_waves
+difficulty: 3
+equation: "(frequency) eq (frequency) (velocity) (velocity) add (velocity) (velocity) add div mul"
+so:
+  - frequency: "f'"
+  - frequency: "f"
+  - velocity: "v"
+  - velocity: "v_o"
+  - velocity: "v"
+  - velocity: "v_s"
+no:
+  - frequency: "Observed [frequency]"
+  - frequency: "Source [frequency]"
+  - velocity: "Wave [velocity]"
+  - velocity: "Observer [velocity]"
+  - velocity: "Wave [velocity]"
+  - velocity: "Source [velocity]"

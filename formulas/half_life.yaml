@@ -1,0 +1,11 @@
+name: "Half-life from decay constant"
+id: half_life
+topic: nuclear_physics
+difficulty: 2
+equation: "(time) eq (euler_e) ln 2 mul (amount) div"
+so:
+  - time: "t_½"
+  - amount: "λ"
+no:
+  - time: "Half-life"
+  - amount: "Decay constant"

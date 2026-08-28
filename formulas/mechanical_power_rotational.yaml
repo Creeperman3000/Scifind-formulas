@@ -1,0 +1,5 @@
+name: "Mechanical rotational power"
+id: mechanical_power_rotational
+topic: power
+difficulty: 2
+equation: "(power) eq (torque) (angular_velocity) mul"

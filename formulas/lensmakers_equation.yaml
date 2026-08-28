@@ -1,0 +1,15 @@
+name: "Lensmaker's equation (thin lens)"
+id: lensmakers_equation
+topic: lenses
+difficulty: 4
+equation: "(length) 1 div eq (refractive_index) 1 sub (length) 1 div (length) 1 div sub mul"
+so:
+  - length: "f"
+  - refractive_index: "n"
+  - length: "R_1"
+  - length: "R_2"
+no:
+  - length: "Focal length"
+  - refractive_index: "Lens [refractive index|index]"
+  - length: "First radius of curvature"
+  - length: "Second radius of curvature"

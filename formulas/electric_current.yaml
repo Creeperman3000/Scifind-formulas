@@ -1,0 +1,5 @@
+name: "Electric current definition"
+id: electric_current
+topic: current_electricity
+difficulty: 1
+equation: "(current) eq (charge) (time) div"

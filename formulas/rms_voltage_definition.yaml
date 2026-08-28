@@ -1,0 +1,11 @@
+name: "RMS voltage from peak voltage"
+id: rms_voltage_definition
+topic: circuits
+difficulty: 2
+equation: "(electric_potential) eq (electric_potential) 2 sqrt div"
+so:
+  - electric_potential: "V_rms"
+  - electric_potential: "V_0"
+no:
+  - electric_potential: "RMS [voltage]"
+  - electric_potential: "Peak [voltage]"

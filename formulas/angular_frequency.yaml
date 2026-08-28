@@ -1,0 +1,9 @@
+name: "Angular frequency"
+id: angular_frequency
+topic: harmonic_motion
+difficulty: 2
+equation: "(angular_velocity) eq (pi) 2 mul (frequency) mul"
+so:
+  - angular_velocity: "ω"
+no:
+  - angular_velocity: "Angular frequency"

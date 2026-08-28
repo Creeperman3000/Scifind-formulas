@@ -1,0 +1,11 @@
+name: "Pair production threshold energy"
+id: pair_production_threshold
+topic: particle_physics
+difficulty: 3
+equation: "(energy) eq (mass) 2 mul (speed_of_light pow 2) mul"
+so:
+  - energy: "E_threshold"
+  - mass: "m_e"
+no:
+  - energy: "Threshold [energy]"
+  - mass: "Electron rest [mass]"

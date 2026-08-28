@@ -1,0 +1,11 @@
+name: "Density from specific gravity"
+id: density_from_specific_gravity
+topic: buoyancy
+difficulty: 1
+equation: "(density) eq (dimensionless) (density) mul"
+so:
+  - dimensionless: "SG"
+  - density: "ρ_water"
+no:
+  - dimensionless: "Specific gravity"
+  - density: "Reference [density]"

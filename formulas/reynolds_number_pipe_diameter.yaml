@@ -1,0 +1,11 @@
+name: "Reynolds number for pipe flow"
+id: reynolds_number_pipe_diameter
+topic: reynolds_number
+difficulty: 1
+equation: "(reynolds_number) eq (density) (velocity) mul (length) mul (dynamic_viscosity) div"
+so:
+  - reynolds_number: "Re"
+  - length: "D"
+no:
+  - reynolds_number: "[Reynolds number]"
+  - length: "Pipe diameter"

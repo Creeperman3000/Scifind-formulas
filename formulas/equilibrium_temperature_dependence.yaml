@@ -1,0 +1,15 @@
+name: "Van 't Hoff equation"
+id: equilibrium_temperature_dependence
+topic: chemical_equilibrium
+difficulty: 4
+equation: "(dimensionless) eq (energy) (gas_constant) div (dimensionless) (dimensionless) sub mul"
+so:
+  - dimensionless: "ln(K₂/K₁)"
+  - energy: "ΔH°"
+  - dimensionless: "1/T₁"
+  - dimensionless: "1/T₂"
+no:
+  - dimensionless: "Log ratio of equilibrium constants"
+  - energy: "Standard [enthalpy] change"
+  - dimensionless: "Reciprocal of initial temperature"
+  - dimensionless: "Reciprocal of final temperature"

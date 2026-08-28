@@ -1,0 +1,9 @@
+name: "Absorbed dose"
+id: absorbed_dose_formula
+topic: nuclear_physics
+difficulty: 2
+equation: "(absorbed_dose) eq (energy) (mass) div"
+so:
+  - absorbed_dose: "D"
+no:
+  - absorbed_dose: "Absorbed [dose]"

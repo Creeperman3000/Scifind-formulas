@@ -1,0 +1,9 @@
+name: "Rolling kinetic energy"
+id: rolling_kinetic_energy
+topic: rotational_energy
+difficulty: 3
+equation: "(energy) eq (mass) (velocity pow 2) mul 2 div (moment_of_inertia) (angular_velocity pow 2) mul 2 div add"
+so:
+  - energy: "KE"
+no:
+  - energy: "Total kinetic [energy]"

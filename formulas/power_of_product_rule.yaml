@@ -1,0 +1,14 @@
+name: "Power of a product"
+id: power_of_product_rule
+topic: exponents
+difficulty: 2
+equation: "(dimensionless) (dimensionless) mul (dimensionless) pow eq (dimensionless) (dimensionless) pow mul (dimensionless) (dimensionless) pow mul"
+so:
+  - dimensionless: "(ab)^n"
+  - dimensionless: "a^n"
+  - dimensionless: "b^n"
+  - dimensionless: ""
+no:
+  - dimensionless: "Power of a product"
+  - dimensionless: "a^n"
+  - dimensionless: "b^n"

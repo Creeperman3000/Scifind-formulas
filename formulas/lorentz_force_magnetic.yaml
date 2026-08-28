@@ -1,0 +1,16 @@
+name: "Magnetic Lorentz force"
+id: lorentz_force_magnetic
+topic: magnetism
+difficulty: 3
+equation: "(force) eq (charge) (velocity) mul (magnetic_flux_density) mul (angle) sin mul"
+so:
+  - charge: "q"
+  - velocity: "v"
+  - magnetic_flux_density: "B"
+  - angle: "\u03B8"
+no:
+  - force: "Magnetic Lorentz [force]"
+  - charge: "[Charge]"
+  - velocity: "[Velocity]"
+  - magnetic_flux_density: "Magnetic [field]"
+  - angle: "Angle between v and B"

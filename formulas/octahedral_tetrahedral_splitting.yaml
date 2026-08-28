@@ -1,0 +1,11 @@
+name: "Tetrahedral to octahedral crystal field splitting ratio"
+id: octahedral_tetrahedral_splitting
+topic: inorganic_chemistry
+difficulty: 4
+equation: "(energy) eq (energy) 4 mul 9 div"
+so:
+  - energy: "Δ_tet"
+  - energy: "Δ_oct"
+no:
+  - energy: "Tetrahedral crystal field splitting"
+  - energy: "Octahedral crystal field splitting"

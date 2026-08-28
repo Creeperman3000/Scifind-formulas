@@ -1,0 +1,15 @@
+name: "Half Angle Tangent (Cosine Form)"
+id: half_angle_tangent_cosine_form
+topic: trigonometric_identities
+difficulty: 3
+equation: "(angle) 2 div tan eq (dimensionless) (angle) cos sub (angle) sin div"
+so:
+  - angle: "θ"
+  - dimensionless: "1"
+  - angle: "θ"
+  - angle: "θ"
+no:
+  - angle: "Angle θ"
+  - dimensionless: "1"
+  - angle: ""
+  - angle: ""

@@ -1,0 +1,13 @@
+name: "Magnetic field inside a solenoid"
+id: magnetic_field_solenoid
+topic: magnetism
+difficulty: 3
+equation: "(magnetic_flux_density) eq (vacuum_permeability) (dimensionless) mul (current) mul"
+so:
+  - magnetic_flux_density: "B"
+  - dimensionless: "n"
+  - current: "I"
+no:
+  - magnetic_flux_density: "Magnetic field"
+  - dimensionless: "Turns per unit length"
+  - current: "[Current]"

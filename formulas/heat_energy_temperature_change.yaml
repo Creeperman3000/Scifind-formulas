@@ -1,0 +1,11 @@
+name: "Heat energy from temperature change"
+id: heat_energy_temperature_change
+topic: heat
+difficulty: 1
+equation: "(heat) eq (mass) (specific_heat_capacity) mul (temperature) Delta mul"
+so:
+  - heat: "Q"
+  - temperature: "ΔT"
+no:
+  - heat: "[Heat]"
+  - temperature: "Temperature change"

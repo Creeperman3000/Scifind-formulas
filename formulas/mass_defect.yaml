@@ -1,0 +1,11 @@
+name: "Mass defect from binding energy"
+id: mass_defect
+topic: nuclear_physics
+difficulty: 3
+equation: "(mass) eq (energy) (speed_of_light pow 2) div"
+so:
+  - mass: "Δm"
+  - energy: "E_b"
+no:
+  - mass: "Mass defect"
+  - energy: "Binding [energy]"

@@ -1,0 +1,10 @@
+name: "Frequency from period"
+id: frequency_period
+topic: harmonic_motion
+difficulty: 1
+equation: "(frequency) eq (time) 1 div"
+so:
+  - time: "T"
+no:
+  - frequency: "[Frequency]"
+  - time: "Period"

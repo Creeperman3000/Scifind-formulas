@@ -1,0 +1,13 @@
+name: "Destructive interference path difference"
+id: interference_destructive_path_difference
+topic: wave_interference
+difficulty: 2
+equation: "(length) eq (dimensionless) (dimensionless) 2 div add (length) mul"
+so:
+  - length: "ΔL"
+  - dimensionless: "m"
+  - length: "λ"
+no:
+  - length: "Path [difference]"
+  - dimensionless: "Order"
+  - length: "Wavelength"

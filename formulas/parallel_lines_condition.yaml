@@ -1,0 +1,11 @@
+name: "Parallel lines condition"
+id: parallel_lines_condition
+topic: equations
+difficulty: 1
+equation: "(reynolds_number) eq (reynolds_number)"
+so:
+  - reynolds_number: "m_1"
+  - reynolds_number: "m_2"
+no:
+  - reynolds_number: "Slope of line 1"
+  - reynolds_number: "Slope of line 2"

@@ -1,0 +1,9 @@
+name: "Electric field of a point charge"
+id: electric_field_point_charge
+topic: electric_fields
+difficulty: 2
+equation: "(electric_field_strength) eq (coulomb_constant) (charge) mul (length pow 2) div"
+so:
+  - length: "r"
+no:
+  - length: "Distance"

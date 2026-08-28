@@ -1,0 +1,11 @@
+name: "Latent heat"
+id: latent_heat
+topic: heat
+difficulty: 2
+equation: "(heat) eq (mass) (specific_energy) mul"
+so:
+  - heat: "Q"
+  - mass: "m"
+  - specific_energy: "L"
+no:
+  - specific_energy: "Latent [heat]"

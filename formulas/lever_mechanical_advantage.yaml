@@ -1,0 +1,13 @@
+name: "Mechanical advantage of a lever"
+id: lever_mechanical_advantage
+topic: forces
+difficulty: 1
+equation: "(dimensionless) eq (length) (length) div"
+so:
+  - dimensionless: "MA"
+  - length: "d_e"
+  - length: "d_l"
+no:
+  - dimensionless: "Mechanical advantage"
+  - length: "Effort arm"
+  - length: "Load arm"

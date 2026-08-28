@@ -1,0 +1,7 @@
+name: "Mechanical power"
+id: mechanical_power_linear_definition
+topic: power
+difficulty: 1
+equation: "(power) eq (work) (time) div"
+no:
+  - power: "Average [power]"

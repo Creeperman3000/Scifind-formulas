@@ -1,0 +1,9 @@
+name: "Power from voltage and resistance"
+id: power_resistive_circuit_voltage
+topic: circuits
+difficulty: 1
+equation: "(power) eq (electric_potential pow 2) (resistance) div"
+so:
+  - power: "P"
+no:
+  - power: "Power dissipated"

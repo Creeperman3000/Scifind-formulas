@@ -1,0 +1,15 @@
+name: "Atom economy"
+id: percent_yield_atom_economy
+topic: percent_yield
+difficulty: 2
+equation: "(dimensionless) eq (molar_mass) (molar_mass) (molar_mass) add div 100 mul"
+so:
+  - dimensionless: "% AE"
+  - molar_mass: "M_desired"
+  - molar_mass: "M_desired"
+  - molar_mass: "M_waste"
+no:
+  - dimensionless: "Atom economy"
+  - molar_mass: "Molar mass of desired product"
+  - molar_mass: "Molar mass of desired product"
+  - molar_mass: "Molar mass of waste"

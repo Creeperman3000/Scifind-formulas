@@ -1,0 +1,11 @@
+name: "Newton's second law in component form (y)"
+id: newtons_second_law_component_y
+topic: newtons_laws
+difficulty: 2
+equation: "(force) eq (mass) (acceleration) mul"
+so:
+  - force: "ΣF_y"
+  - acceleration: "a_y"
+no:
+  - force: "Sum of y-component [force]s"
+  - acceleration: "y-component of [acceleration]"

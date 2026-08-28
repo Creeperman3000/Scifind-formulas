@@ -1,0 +1,7 @@
+name: "Density of an ideal gas"
+id: ideal_gas_density
+topic: ideal_gases
+difficulty: 2
+equation: "(density) eq (pressure) (molar_mass) mul (gas_constant) (temperature) mul div"
+no:
+  - density: "Gas [density]"

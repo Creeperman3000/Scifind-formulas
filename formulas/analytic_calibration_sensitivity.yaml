@@ -1,0 +1,13 @@
+name: "Sensitivity of analytical method"
+id: analytic_calibration_sensitivity
+topic: analytical_chemistry
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div"
+so:
+  - dimensionless: "S"
+  - dimensionless: "Δsignal"
+  - dimensionless: "Δconcentration"
+no:
+  - dimensionless: "Sensitivity"
+  - dimensionless: "Change in signal"
+  - dimensionless: "Change in concentration"

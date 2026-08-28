@@ -1,0 +1,11 @@
+name: "Bohr radius definition"
+id: atomic_bohr_radius_definition
+topic: atomic_physics
+difficulty: 3
+equation: "(length) eq (vacuum_permittivity) (planck_constant pow 2) mul (pi) mul (mass) (elementary_charge pow 2) mul mul div"
+so:
+  - length: "a_0"
+  - mass: "m_e"
+no:
+  - length: "Bohr radius"
+  - mass: "Electron [mass]"

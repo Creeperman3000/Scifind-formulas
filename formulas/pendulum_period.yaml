@@ -1,0 +1,11 @@
+name: "Period of a simple pendulum"
+id: pendulum_period
+topic: harmonic_motion
+difficulty: 2
+equation: "(time) eq (pi) 2 mul (length) (standard_gravity) div sqrt mul"
+so:
+  - time: "T"
+  - length: "L"
+no:
+  - time: "Period"
+  - length: "Pendulum length"

@@ -1,0 +1,9 @@
+name: "Angular momentum of a rigid body"
+id: angular_momentum_rigid_body
+topic: angular_momentum
+difficulty: 2
+equation: "(angular_momentum) eq (moment_of_inertia) (angular_velocity) mul"
+so:
+  - angular_momentum: "L"
+no:
+  - angular_momentum: "[Angular momentum]"

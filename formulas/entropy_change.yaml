@@ -1,0 +1,9 @@
+name: "Entropy change for reversible heat transfer"
+id: entropy_change
+topic: entropy
+difficulty: 2
+equation: "(entropy) eq (heat) (temperature) div"
+so:
+  - entropy: "ΔS"
+no:
+  - entropy: "Change in [entropy]"

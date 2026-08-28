@@ -1,0 +1,11 @@
+name: "Stokes' law for drag on a sphere"
+id: stokes_law_drag
+topic: reynolds_number
+difficulty: 2
+equation: "(force) eq (pi) 6 mul (dynamic_viscosity) mul (length) mul (velocity) mul"
+so:
+  - force: "F_d"
+  - length: "r"
+no:
+  - force: "Drag [force]"
+  - length: "Sphere radius"

@@ -1,0 +1,13 @@
+name: "Ampere-Maxwell law"
+id: amphere_maxwell_law
+topic: magnetism
+difficulty: 4
+equation: "(length) (magnetic_field_strength) mul eq (permeability) (current) mul (permeability) (permittivity) mul (electric_field_strength) (time) rmd mul add"
+so:
+  - length: "l"
+  - magnetic_field_strength: "B"
+  - current: "I"
+no:
+  - length: "Path length"
+  - magnetic_field_strength: "Magnetic field"
+  - current: "Conduction [current]"

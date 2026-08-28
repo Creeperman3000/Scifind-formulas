@@ -1,0 +1,19 @@
+name: "F-statistic for regression"
+id: f_statistic_regression
+topic: statistics
+difficulty: 4
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div (dimensionless) (dimensionless) (dimensionless) sub 1 sub div div"
+so:
+  - dimensionless: "F"
+  - dimensionless: "SS_reg"
+  - dimensionless: "p"
+  - dimensionless: "SS_res"
+  - dimensionless: "n"
+  - dimensionless: "p"
+no:
+  - dimensionless: "F-statistic"
+  - dimensionless: "Regression sum of squares"
+  - dimensionless: "Predictors"
+  - dimensionless: "Residual sum of squares"
+  - dimensionless: "Sample size"
+  - dimensionless: ""

@@ -1,0 +1,13 @@
+name: "Phase difference from path difference"
+id: phase_difference
+topic: wave_interference
+difficulty: 2
+equation: "(angle) eq (length) (length) div (pi) 2 mul mul"
+so:
+  - angle: "Δφ"
+  - length: "Δx"
+  - length: "λ"
+no:
+  - angle: "Phase difference"
+  - length: "Path difference"
+  - length: "Wavelength"

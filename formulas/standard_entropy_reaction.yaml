@@ -1,0 +1,13 @@
+name: "Standard entropy change of reaction"
+id: standard_entropy_reaction
+topic: thermochemistry
+difficulty: 2
+equation: "(entropy) eq (entropy) (entropy) sub"
+so:
+  - entropy: "ΔS°"
+  - entropy: "ΣS°(products)"
+  - entropy: "ΣS°(reactants)"
+no:
+  - entropy: "Standard entropy change of [reaction]"
+  - entropy: "Sum of standard entropies of products"
+  - entropy: "Sum of standard entropies of reactants"

@@ -1,0 +1,15 @@
+name: "Work done by constant force (general)"
+id: work_constant_force_general
+topic: work
+difficulty: 2
+equation: "(work) eq (force) (length) mul (angle) cos mul"
+so:
+  - work: "W"
+  - force: "F"
+  - length: "d"
+  - angle: "θ"
+no:
+  - work: "[Work]"
+  - force: "Magnitude of [force]"
+  - length: "Magnitude of [displacement]"
+  - angle: "Angle between F and d"

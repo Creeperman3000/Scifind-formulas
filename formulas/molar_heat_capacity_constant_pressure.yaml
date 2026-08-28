@@ -1,0 +1,13 @@
+name: "Molar heat capacity at constant pressure"
+id: molar_heat_capacity_constant_pressure
+topic: thermochemistry
+difficulty: 2
+equation: "(molar_energy) eq (heat) (amount) (temperature) (temperature) sub mul div"
+so:
+  - molar_energy: "C_p"
+  - temperature: "T_f"
+  - temperature: "T_i"
+no:
+  - molar_energy: "Molar heat capacity at constant pressure"
+  - temperature: "Final [temperature]"
+  - temperature: "Initial [temperature]"

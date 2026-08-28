@@ -1,0 +1,11 @@
+name: "Tangential velocity"
+id: tangential_velocity
+topic: circular_motion
+difficulty: 2
+equation: "(velocity) eq (length) (angular_velocity) mul"
+so:
+  - velocity: "v"
+  - length: "r"
+no:
+  - velocity: "Tangential [velocity]"
+  - length: "Radius"

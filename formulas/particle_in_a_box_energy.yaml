@@ -1,0 +1,13 @@
+name: "Particle in a box energy levels"
+id: particle_in_a_box_energy
+topic: quantum_mechanics
+difficulty: 4
+equation: "(energy) eq (dimensionless pow 2) (planck_constant pow 2) mul (mass) (length pow 2) mul 8 mul div"
+so:
+  - energy: "E_n"
+  - dimensionless: "n"
+  - length: "L"
+no:
+  - energy: "[Energy] level"
+  - dimensionless: "Quantum number"
+  - length: "Box length"

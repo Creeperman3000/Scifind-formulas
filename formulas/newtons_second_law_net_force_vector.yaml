@@ -1,0 +1,9 @@
+name: "Newton's second law (vector form)"
+id: newtons_second_law_net_force_vector
+topic: newtons_laws
+difficulty: 1
+equation: "(force) eq (mass) (acceleration) mul"
+so:
+  - force: "F_net"
+no:
+  - force: "Net [force]"

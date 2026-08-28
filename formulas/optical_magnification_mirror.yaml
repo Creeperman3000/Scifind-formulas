@@ -1,0 +1,13 @@
+name: "Magnification from mirror equation"
+id: optical_magnification_mirror
+topic: mirrors
+difficulty: 2
+equation: "(dimensionless) eq (length) (length) div neg"
+so:
+  - dimensionless: "m"
+  - length: "v"
+  - length: "u"
+no:
+  - dimensionless: "Linear magnification"
+  - length: "Image distance"
+  - length: "Object distance"

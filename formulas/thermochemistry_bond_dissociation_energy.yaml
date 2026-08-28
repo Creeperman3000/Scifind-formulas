@@ -1,0 +1,13 @@
+name: "Bond dissociation energy from enthalpy of reaction"
+id: thermochemistry_bond_dissociation_energy
+topic: thermochemistry
+difficulty: 3
+equation: "(energy) eq (energy) (energy) sub"
+so:
+  - energy: "ΔH_reaction"
+  - energy: "ΣD_bonds_broken"
+  - energy: "ΣD_bonds_formed"
+no:
+  - energy: "Enthalpy of [reaction]"
+  - energy: "Sum of bond energies broken"
+  - energy: "Sum of bond energies formed"

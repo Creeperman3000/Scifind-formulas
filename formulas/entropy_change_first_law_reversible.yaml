@@ -1,0 +1,9 @@
+name: "Entropy change from reversible process"
+id: entropy_change_first_law_reversible
+topic: first_law
+difficulty: 2
+equation: "(entropy) eq (heat) (temperature) div"
+so:
+  - entropy: "ΔS"
+no:
+  - entropy: "Change in [entropy]"

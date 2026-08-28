@@ -1,0 +1,17 @@
+name: "Doppler effect with source approaching"
+id: doppler_effect_approaching
+topic: mechanical_waves
+difficulty: 3
+equation: "(frequency) eq (frequency) (velocity) (velocity) (velocity) sub div mul"
+so:
+  - frequency: "f'"
+  - frequency: "f"
+  - velocity: "v"
+  - velocity: "v"
+  - velocity: "v_s"
+no:
+  - frequency: "Observed [frequency]"
+  - frequency: "Source [frequency]"
+  - velocity: "Wave [speed]"
+  - velocity: ""
+  - velocity: "Source [speed]"

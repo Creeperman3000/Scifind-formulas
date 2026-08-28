@@ -1,0 +1,12 @@
+name: "45-45-90 special right triangle"
+id: right_triangle_45_45_90
+topic: right_triangles
+difficulty: 1
+equation: "(length) eq (length) (dimensionless) mul"
+so:
+  - length: "hypotenuse"
+  - length: "leg"
+  - dimensionless: "√2"
+no:
+  - length: "Hypotenuse"
+  - length: "Leg"

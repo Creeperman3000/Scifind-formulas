@@ -1,0 +1,13 @@
+name: "Current from charge and time"
+id: current_charge_time_relation
+topic: current_electricity
+difficulty: 1
+equation: "(current) eq (charge) (time) div"
+so:
+  - current: "I"
+  - charge: "ΔQ"
+  - time: "Δt"
+no:
+  - current: "Electric [current]"
+  - charge: "Charge passing through"
+  - time: "Time interval"

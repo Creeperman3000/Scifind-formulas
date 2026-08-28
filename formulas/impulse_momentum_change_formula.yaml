@@ -1,0 +1,17 @@
+name: "Impulse from momentum change"
+id: impulse_momentum_change_formula
+topic: impulse
+difficulty: 1
+equation: "(momentum) eq (mass) (velocity) mul (mass) (velocity) mul sub"
+so:
+  - momentum: "J"
+  - mass: "m"
+  - velocity: "v"
+  - mass: "m"
+  - velocity: "u"
+no:
+  - momentum: "[Impulse]"
+  - mass: "Mass"
+  - velocity: "Final [velocity]"
+  - mass: "Mass"
+  - velocity: "Initial [velocity]"

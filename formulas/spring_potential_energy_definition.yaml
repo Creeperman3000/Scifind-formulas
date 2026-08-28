@@ -1,0 +1,11 @@
+name: "Spring potential energy"
+id: spring_potential_energy_definition
+topic: potential_energy
+difficulty: 1
+equation: "(energy) eq (spring_constant) (length pow 2) mul 2 div"
+so:
+  - energy: "U"
+  - length: "x"
+no:
+  - energy: "Spring [potential] [energy]"
+  - length: "Displacement"

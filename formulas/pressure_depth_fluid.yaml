@@ -1,0 +1,15 @@
+name: "Pressure at a depth in fluid"
+id: pressure_depth_fluid
+topic: pressure
+difficulty: 1
+equation: "(pressure) eq (density) (acceleration) mul (length) mul"
+so:
+  - pressure: "P"
+  - density: "ρ"
+  - acceleration: "g"
+  - length: "h"
+no:
+  - pressure: "Gauge [pressure] at depth h"
+  - density: "Fluid [density]"
+  - acceleration: "Gravitational [acceleration]"
+  - length: "Depth"

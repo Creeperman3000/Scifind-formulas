@@ -1,0 +1,13 @@
+name: "Power of a quotient"
+id: power_of_quotient_rule
+topic: exponents
+difficulty: 2
+equation: "(dimensionless) (dimensionless) div (dimensionless) pow eq (dimensionless) (dimensionless) pow (dimensionless) (dimensionless) pow div"
+so:
+  - dimensionless: "(a/b)^n"
+  - dimensionless: "a^n"
+  - dimensionless: "b^n"
+no:
+  - dimensionless: "Power of a quotient"
+  - dimensionless: "a^n"
+  - dimensionless: "b^n"

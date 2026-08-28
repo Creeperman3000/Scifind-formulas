@@ -1,0 +1,9 @@
+name: "Moment of inertia of a point mass"
+id: moment_of_inertia_point_mass
+topic: moment_of_inertia
+difficulty: 2
+equation: "(moment_of_inertia) eq (mass) (length pow 2) mul"
+so:
+  - length: "r"
+no:
+  - length: "Radius"

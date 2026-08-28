@@ -1,0 +1,11 @@
+name: "pKb from Kb"
+id: pkb_definition
+topic: acids_and_bases
+difficulty: 1
+equation: "(ph) eq (equilibrium_constant) 10 log mul neg"
+so:
+  - ph: "pK_b"
+  - equilibrium_constant: "K_b"
+no:
+  - ph: "[pK_b]"
+  - equilibrium_constant: "Base dissociation [constant]"

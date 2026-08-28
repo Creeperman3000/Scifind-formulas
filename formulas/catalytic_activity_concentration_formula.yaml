@@ -1,0 +1,5 @@
+name: "Catalytic activity concentration"
+id: catalytic_activity_concentration_formula
+topic: chemical_kinetics
+difficulty: 2
+equation: "(catalytic_activity_concentration) eq (catalytic_activity) (volume) div"

@@ -1,0 +1,17 @@
+name: "Geometric Distribution Probability"
+id: geometric_distribution_probability
+topic: probability
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) 1 sub pow (dimensionless) mul"
+so:
+  - dimensionless: "P(X=k)"
+  - dimensionless: "1"
+  - dimensionless: "p"
+  - dimensionless: "k"
+  - dimensionless: "p"
+no:
+  - dimensionless: "Geometric probability"
+  - dimensionless: "1"
+  - dimensionless: "Success probability"
+  - dimensionless: "Trial number"
+  - dimensionless: "Success probability"

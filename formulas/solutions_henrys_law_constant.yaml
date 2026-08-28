@@ -1,0 +1,13 @@
+name: "Henry's law constant definition"
+id: solutions_henrys_law_constant
+topic: solutions
+difficulty: 2
+equation: "(concentration) eq (concentration) (pressure) mul"
+so:
+  - concentration: "c"
+  - concentration: "k_H"
+  - pressure: "P"
+no:
+  - concentration: "Gas [concentration] in solution"
+  - concentration: "Henry's law constant"
+  - pressure: "Partial pressure"

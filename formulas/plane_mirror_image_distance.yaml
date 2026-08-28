@@ -1,0 +1,11 @@
+name: "Plane mirror image distance"
+id: plane_mirror_image_distance
+topic: reflection
+difficulty: 1
+equation: "(length) eq (length) neg"
+so:
+  - length: "d_i"
+  - length: "d_o"
+no:
+  - length: "Image distance"
+  - length: "Object distance"

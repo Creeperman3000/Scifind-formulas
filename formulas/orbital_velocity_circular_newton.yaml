@@ -1,0 +1,11 @@
+name: "Orbital velocity from Newton's law of gravitation"
+id: orbital_velocity_circular_newton
+topic: orbital_motion
+difficulty: 2
+equation: "(velocity) eq (gravitational_constant) (mass) mul (length) div sqrt"
+so:
+  - velocity: "v"
+  - length: "r"
+no:
+  - velocity: "Orbital [velocity]"
+  - length: "Orbital radius"

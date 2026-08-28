@@ -1,0 +1,15 @@
+name: "Angular momentum of a system"
+id: angular_momentum_system_of_particles
+topic: angular_momentum
+difficulty: 3
+equation: "(angular_momentum) eq (angular_momentum) (angular_momentum) add (angular_momentum) add"
+so:
+  - angular_momentum: "L_sys"
+  - angular_momentum: "L_1"
+  - angular_momentum: "L_2"
+  - angular_momentum: "L_3"
+no:
+  - angular_momentum: "Total angular [momentum]"
+  - angular_momentum: "Particle 1 angular [momentum]"
+  - angular_momentum: "Particle 2 angular [momentum]"
+  - angular_momentum: "Particle 3 angular [momentum]"

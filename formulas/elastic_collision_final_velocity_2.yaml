@@ -1,0 +1,12 @@
+name: "Elastic collision final velocity 2 (1D)"
+id: elastic_collision_final_velocity_2
+topic: collisions
+difficulty: 3
+equation: "(velocity) eq (mass) 2 mul (mass) (mass) add div (velocity) mul (mass) (mass) sub (mass) (mass) add div (velocity) mul add"
+so:
+  - velocity: "v_{2f}"
+  - mass: "m_1"
+  - velocity: "v_{1i}"
+  - mass: "m_2"
+  - mass: "m_1"
+  - velocity: "v_{2i}"

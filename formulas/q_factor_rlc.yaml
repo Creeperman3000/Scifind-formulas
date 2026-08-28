@@ -1,0 +1,15 @@
+name: "Q factor of an RLC circuit"
+id: q_factor_rlc
+topic: circuits
+difficulty: 3
+equation: "(dimensionless) eq 1 (resistance) div (inductance) (capacitance) div sqrt mul"
+so:
+  - dimensionless: "Q"
+  - resistance: "R"
+  - inductance: "L"
+  - capacitance: "C"
+no:
+  - dimensionless: "Quality factor"
+  - resistance: "[Resistance]"
+  - inductance: "[Inductance]"
+  - capacitance: "[Capacitance]"

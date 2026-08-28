@@ -1,0 +1,9 @@
+name: "Spring constant from Hooke's law"
+id: spring_constant_hookes_law
+topic: springs
+difficulty: 1
+equation: "(spring_constant) eq (force) (displacement) div"
+so:
+  - displacement: "x"
+no:
+  - displacement: "Extension"

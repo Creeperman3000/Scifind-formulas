@@ -1,0 +1,11 @@
+name: "Law of reflection (angle equality)"
+id: reflection_law_angle_equality
+topic: reflection
+difficulty: 1
+equation: "(angle) eq (angle)"
+so:
+  - angle: "θ_r"
+  - angle: "θ_i"
+no:
+  - angle: "Angle of reflection"
+  - angle: "Angle of incidence"

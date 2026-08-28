@@ -1,0 +1,15 @@
+name: "Volume of a spherical cap"
+id: spherical_cap_volume
+topic: plane_geometry
+difficulty: 3
+equation: "(volume) eq (pi) (length pow 2) mul (length) 3 mul (length) sub mul 3 div"
+so:
+  - volume: "V"
+  - length: "h"
+  - length: "R"
+  - length: "h"
+no:
+  - volume: "[Volume] of spherical cap"
+  - length: "Height of cap"
+  - length: "Sphere [radius]"
+  - length: ""

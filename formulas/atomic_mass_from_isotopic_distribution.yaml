@@ -1,0 +1,17 @@
+name: "Average atomic mass from isotopic abundance"
+id: atomic_mass_from_isotopic_distribution
+topic: atomic_structure
+difficulty: 2
+equation: "(mass) eq (mass) (dimensionless) mul (mass) (dimensionless) mul add"
+so:
+  - mass: "m̄"
+  - mass: "m_1"
+  - dimensionless: "f_1"
+  - mass: "m_2"
+  - dimensionless: "f_2"
+no:
+  - mass: "Average atomic [mass]"
+  - mass: "Mass of isotope 1"
+  - dimensionless: "Abundance of isotope 1"
+  - mass: "Mass of isotope 2"
+  - dimensionless: "Abundance of isotope 2"

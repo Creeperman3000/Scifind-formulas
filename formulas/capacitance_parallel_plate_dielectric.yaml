@@ -1,0 +1,15 @@
+name: "Parallel plate capacitance with dielectric"
+id: capacitance_parallel_plate_dielectric
+topic: capacitance
+difficulty: 2
+equation: "(capacitance) eq (dimensionless) (vacuum_permittivity) mul (area) mul (length) div"
+so:
+  - capacitance: "C"
+  - dimensionless: "ε_r"
+  - area: "A"
+  - length: "d"
+no:
+  - capacitance: "[Capacitance]"
+  - dimensionless: "Relative permittivity"
+  - area: "Plate [area]"
+  - length: "Plate separation"

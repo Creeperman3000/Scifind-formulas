@@ -1,0 +1,13 @@
+name: "Relationship between common and natural logarithms"
+id: logarithm_common_natural_relation
+topic: logarithms
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) ln (dimensionless) ln div"
+so:
+  - dimensionless: "log(x)"
+  - dimensionless: "x"
+  - dimensionless: "10"
+no:
+  - dimensionless: "Log base 10"
+  - dimensionless: "[Argument]"
+  - dimensionless: "[Base]"

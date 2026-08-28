@@ -1,0 +1,17 @@
+name: "Index of hydrogen deficiency (IHD)"
+id: organic_chemistry_index_hydrogen_deficiency
+topic: organic_chemistry
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) 2 mul 2 (dimensionless) add (dimensionless) sub (dimensionless) sub 2 div"
+so:
+  - dimensionless: "IHD"
+  - dimensionless: "C"
+  - dimensionless: "N"
+  - dimensionless: "H"
+  - dimensionless: "X"
+no:
+  - dimensionless: "Index of hydrogen deficiency"
+  - dimensionless: "Number of carbons"
+  - dimensionless: "Number of nitrogens"
+  - dimensionless: "Number of hydrogens"
+  - dimensionless: "Number of halogens"

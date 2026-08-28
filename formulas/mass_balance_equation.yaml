@@ -1,0 +1,13 @@
+name: "Mass balance equation"
+id: mass_balance_equation
+topic: analytical_chemistry
+difficulty: 2
+equation: "(concentration) eq (concentration) (concentration) add"
+so:
+  - concentration: "c_T"
+  - concentration: "[HA]"
+  - concentration: "[A^-]"
+no:
+  - concentration: "Total concentration"
+  - concentration: "Concentration of HA"
+  - concentration: "Concentration of A⁻"

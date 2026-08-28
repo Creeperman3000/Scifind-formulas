@@ -1,0 +1,9 @@
+name: "Absolute zero temperature"
+id: temperature_absolute_value
+topic: temperature
+difficulty: 1
+equation: "(temperature) gt 0"
+so:
+  - temperature: "T"
+no:
+  - temperature: "Absolute [temperature]"

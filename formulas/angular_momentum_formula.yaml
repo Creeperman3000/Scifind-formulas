@@ -1,0 +1,5 @@
+name: "Angular momentum"
+id: angular_momentum_formula
+topic: angular_momentum
+difficulty: 2
+equation: "(angular_momentum) eq (moment_of_inertia) (angular_velocity) mul"

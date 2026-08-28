@@ -1,0 +1,17 @@
+name: "Mass deposited in electrolysis"
+id: electrolysis_current_time_mass
+topic: electrochemistry
+difficulty: 3
+equation: "(mass) eq (molar_mass) (current) (time) mul (faraday_constant) (dimensionless) mul div mul"
+so:
+  - mass: "m"
+  - molar_mass: "M"
+  - current: "I"
+  - time: "t"
+  - dimensionless: "z"
+no:
+  - mass: "Mass deposited"
+  - molar_mass: "Molar [mass]"
+  - current: "[Current]"
+  - time: "Time"
+  - dimensionless: "Number of electrons"

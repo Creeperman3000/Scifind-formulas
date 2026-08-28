@@ -1,0 +1,13 @@
+name: "Electric potential from uniform field"
+id: electric_potential_uniform_field_distance
+topic: electric_potential
+difficulty: 2
+equation: "(electric_potential) eq (electric_field_strength) (length) mul"
+so:
+  - electric_potential: "ΔV"
+  - electric_field_strength: "E"
+  - length: "d"
+no:
+  - electric_potential: "[Potential] difference"
+  - electric_field_strength: "Uniform electric [field strength]"
+  - length: "Distance"

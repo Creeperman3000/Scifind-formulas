@@ -1,0 +1,10 @@
+name: "Moment of inertia of a hollow cylinder (hoop)"
+id: moi_hollow_cylinder
+topic: moment_of_inertia
+difficulty: 2
+equation: "(moment_of_inertia) eq (mass) (length pow 2) mul"
+so:
+  - length: "R"
+no:
+  - moment_of_inertia: "[Moment of inertia]"
+  - length: "Radius"

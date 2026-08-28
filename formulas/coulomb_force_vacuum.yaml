@@ -1,0 +1,13 @@
+name: "Coulomb force in vacuum"
+id: coulomb_force_vacuum
+topic: electrostatics
+difficulty: 2
+equation: "(force) eq (charge) (charge) mul (vacuum_permittivity) pi 4 mul mul (length pow 2) mul div"
+so:
+  - force: "F_e"
+  - charge: "q₁"
+  - charge: "q₂"
+  - length: "r"
+no:
+  - force: "Electrostatic [force]"
+  - length: "Separation distance"

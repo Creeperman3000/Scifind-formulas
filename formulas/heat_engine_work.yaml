@@ -1,0 +1,13 @@
+name: "Work done by a heat engine"
+id: heat_engine_work
+topic: heat_engines
+difficulty: 2
+equation: "(work) eq (heat) (heat) sub"
+so:
+  - work: "W"
+  - heat: "Q_h"
+  - heat: "Q_c"
+no:
+  - work: "[Work] output"
+  - heat: "Heat from hot reservoir"
+  - heat: "Heat to cold reservoir"

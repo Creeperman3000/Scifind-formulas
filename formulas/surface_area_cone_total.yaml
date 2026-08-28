@@ -1,0 +1,17 @@
+name: "Total surface area of a cone"
+id: surface_area_cone_total
+topic: plane_geometry
+difficulty: 2
+equation: "(area) eq (length) (length) mul (length) (length) (length) mul add mul"
+so:
+  - area: "SA"
+  - length: "π"
+  - length: "r"
+  - length: ""
+  - length: "l"
+no:
+  - area: "Total surface [area]"
+  - length: "[Pi]"
+  - length: "Radius"
+  - length: ""
+  - length: "Slant height"

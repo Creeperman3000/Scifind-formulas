@@ -1,0 +1,13 @@
+name: "Work done by net force"
+id: work_done_by_net_force
+topic: work
+difficulty: 2
+equation: "(work) eq (force) (length) mul"
+so:
+  - work: "W_net"
+  - force: "F_net"
+  - length: "d"
+no:
+  - work: "Net [work]"
+  - force: "Net [force]"
+  - length: "[Displacement]"

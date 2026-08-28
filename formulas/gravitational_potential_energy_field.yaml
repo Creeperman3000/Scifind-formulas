@@ -1,0 +1,13 @@
+name: "Gravitational potential energy in a field"
+id: gravitational_potential_energy_field
+topic: newtonian_gravity
+difficulty: 3
+equation: "(energy) eq (gravitational_constant) (mass) (mass) mul mul (length) div neg"
+so:
+  - energy: "U"
+  - mass: "M"
+  - mass: "m"
+  - length: "r"
+no:
+  - energy: "Gravitational potential [energy]"
+  - length: "Distance"

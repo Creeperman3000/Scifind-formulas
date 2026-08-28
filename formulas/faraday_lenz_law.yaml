@@ -1,0 +1,9 @@
+name: "Faraday-Lenz law"
+id: faraday_lenz_law
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(electromagnetic_induction) eq (magnetic_flux) (time) rmd mul neg"
+so:
+  - electromagnetic_induction: "ε"
+no:
+  - electromagnetic_induction: "Induced EMF"

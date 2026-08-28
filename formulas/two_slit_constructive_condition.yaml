@@ -1,0 +1,15 @@
+name: "Two-slit interference condition"
+id: two_slit_constructive_condition
+topic: interference
+difficulty: 3
+equation: "(length) (angle) sin mul eq (dimensionless) (length) mul"
+so:
+  - length: "d"
+  - angle: "θ"
+  - dimensionless: "m"
+  - length: "λ"
+no:
+  - length: "Slit separation d"
+  - angle: "Angle from central maximum"
+  - dimensionless: "Order m"
+  - length: "Wavelength"

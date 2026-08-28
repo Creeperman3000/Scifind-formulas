@@ -1,0 +1,15 @@
+name: "Relativistic Doppler effect (approaching)"
+id: relativistic_doppler_effect
+topic: relativity
+difficulty: 5
+equation: "(frequency) eq (frequency) (speed_of_light) (velocity) add (speed_of_light) (velocity) sub div sqrt mul"
+so:
+  - frequency: "f'"
+  - frequency: "f"
+  - velocity: "v"
+  - velocity: "v"
+no:
+  - frequency: "Observed [frequency]"
+  - frequency: "Source [frequency]"
+  - velocity: "Relative [velocity]"
+  - velocity: ""

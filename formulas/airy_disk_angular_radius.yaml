@@ -1,0 +1,14 @@
+name: "Circular aperture diffraction (Airy disk)"
+id: airy_disk_angular_radius
+topic: diffraction
+difficulty: 4
+equation: "(angle) eq (dimensionless) (length) (length) div mul"
+so:
+  - angle: "θ"
+  - dimensionless: "1.22"
+  - length: "λ"
+  - length: "D"
+no:
+  - angle: "Angular [radius] of Airy disk"
+  - length: "Wavelength"
+  - length: "Aperture diameter"

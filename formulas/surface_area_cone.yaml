@@ -1,0 +1,13 @@
+name: "Surface area of a cone"
+id: surface_area_cone
+topic: plane_geometry
+difficulty: 2
+equation: "(area) eq (pi) (length) (length) (length) add mul mul"
+so:
+  - length: "r"
+  - length: "r"
+  - length: "l"
+no:
+  - length: "Radius"
+  - length: ""
+  - length: "Slant height"

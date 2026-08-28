@@ -1,0 +1,15 @@
+name: "Work as energy transfer"
+id: work_energy_transfer
+topic: work
+difficulty: 1
+equation: "(work) eq (force) (length) mul (angle) cos mul"
+so:
+  - work: "W"
+  - force: "F"
+  - length: "d"
+  - angle: "θ"
+no:
+  - work: "[Work]"
+  - force: "[Force]"
+  - length: "Displacement"
+  - angle: "Angle between force and displacement"

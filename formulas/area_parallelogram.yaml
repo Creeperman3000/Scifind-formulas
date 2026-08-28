@@ -1,0 +1,11 @@
+name: "Area of a parallelogram"
+id: area_parallelogram
+topic: plane_geometry
+difficulty: 1
+equation: "(area) eq (length) (length) mul"
+so:
+  - length: "b"
+  - length: "h"
+no:
+  - length: "Base"
+  - length: "Height"

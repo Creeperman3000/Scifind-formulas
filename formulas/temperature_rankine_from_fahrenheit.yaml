@@ -1,0 +1,13 @@
+name: "Temperature in Rankine from Fahrenheit"
+id: temperature_rankine_from_fahrenheit
+topic: temperature
+difficulty: 2
+equation: "(temperature) eq (temperature) (temperature) add"
+so:
+  - temperature: "T_R"
+  - temperature: "T_F"
+  - temperature: "459.67"
+no:
+  - temperature: "Rankine [temperature]"
+  - temperature: "Fahrenheit [temperature]"
+  - temperature: "Offset"

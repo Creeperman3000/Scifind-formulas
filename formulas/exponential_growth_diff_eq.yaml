@@ -1,0 +1,13 @@
+name: "Exponential growth differential equation"
+id: exponential_growth_diff_eq
+topic: differential_equations
+difficulty: 2
+equation: "(dimensionless) eq (number_of_particles) (frequency) mul"
+so:
+  - dimensionless: "dN/dt"
+  - number_of_particles: "N"
+  - frequency: "r"
+no:
+  - dimensionless: "Rate of change"
+  - number_of_particles: "[Population]"
+  - frequency: "Growth rate"

@@ -1,0 +1,12 @@
+name: "Magnetic field around a long straight wire"
+id: magnetic_field_wire
+topic: magnetism
+difficulty: 3
+equation: "(magnetic_flux_density) eq (vacuum_permeability) (current) mul (pi) 2 mul (length) div div"
+so:
+  - magnetic_flux_density: "B"
+  - current: "I"
+  - length: "r"
+no:
+  - magnetic_flux_density: "Magnetic field"
+  - length: "Distance from wire"

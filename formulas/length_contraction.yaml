@@ -1,0 +1,13 @@
+name: "Length contraction"
+id: length_contraction
+topic: relativity
+difficulty: 3
+equation: "(length) eq (length) (lorentz_factor) div"
+so:
+  - length: "L"
+  - length: "L_0"
+  - lorentz_factor: "γ"
+no:
+  - length: "Contracted [length]"
+  - length: "Proper [length]"
+  - lorentz_factor: "[Lorentz factor]"

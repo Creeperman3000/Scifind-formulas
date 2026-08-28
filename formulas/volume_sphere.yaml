@@ -1,0 +1,9 @@
+name: "Volume of a sphere"
+id: volume_sphere
+topic: plane_geometry
+difficulty: 1
+equation: "(volume) eq (pi) (length pow 3) mul 4 mul 3 div"
+so:
+  - length: "r"
+no:
+  - length: "Radius"

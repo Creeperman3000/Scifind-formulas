@@ -1,0 +1,21 @@
+name: "Sum-to-product: cos A + cos B"
+id: sum_to_product_cosine_plus
+topic: trigonometric_identities
+difficulty: 3
+equation: "(angle) cos (angle) cos add eq (dimensionless) (angle) (angle) add 2 div cos (angle) (angle) sub 2 div cos mul mul"
+so:
+  - angle: "A"
+  - angle: "B"
+  - dimensionless: "2"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "[Angle] A"
+  - angle: "[Angle] B"
+  - dimensionless: ""
+  - angle: ""
+  - angle: ""
+  - angle: ""
+  - angle: ""

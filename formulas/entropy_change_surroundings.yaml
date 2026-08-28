@@ -1,0 +1,9 @@
+name: "Entropy change of surroundings"
+id: entropy_change_surroundings
+topic: entropy
+difficulty: 2
+equation: "(entropy) eq (heat) (temperature) div neg"
+so:
+  - entropy: "ΔS_surr"
+no:
+  - entropy: "Change in [entropy] of surroundings"

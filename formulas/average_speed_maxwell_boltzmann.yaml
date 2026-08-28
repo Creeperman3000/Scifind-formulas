@@ -1,0 +1,9 @@
+name: "Average speed from Maxwell-Boltzmann distribution"
+id: average_speed_maxwell_boltzmann
+topic: ideal_gases
+difficulty: 3
+equation: "(velocity) eq (gas_constant) (temperature) mul 8 mul (pi) (molar_mass) mul div sqrt"
+so:
+  - velocity: "v_avg"
+no:
+  - velocity: "Average speed"

@@ -1,0 +1,5 @@
+name: "Molar mass from mass and amount"
+id: molar_mass_formula
+topic: molar_mass
+difficulty: 1
+equation: "(molar_mass) eq (mass) (amount) div"

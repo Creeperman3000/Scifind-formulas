@@ -1,0 +1,5 @@
+name: "Sine squared identity"
+id: trigonometric_sine_squared_identity
+topic: trigonometric_identities
+difficulty: 1
+equation: "(angle) pow 2 sin eq 1 (angle) 2 mul cos sub 2 div"

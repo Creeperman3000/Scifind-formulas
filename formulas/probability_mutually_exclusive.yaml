@@ -1,0 +1,13 @@
+name: "Probability of mutually exclusive events"
+id: probability_mutually_exclusive
+topic: probability
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) add"
+so:
+  - dimensionless: "P(A∪B)"
+  - dimensionless: "P(A)"
+  - dimensionless: "P(B)"
+no:
+  - dimensionless: "Probability of A or B"
+  - dimensionless: "Probability of A"
+  - dimensionless: "Probability of B"

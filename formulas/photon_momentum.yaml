@@ -1,0 +1,9 @@
+name: "Photon momentum"
+id: photon_momentum
+topic: quantum_mechanics
+difficulty: 3
+equation: "(momentum) eq (planck_constant) (length) div"
+so:
+  - length: "λ"
+no:
+  - length: "Wavelength"

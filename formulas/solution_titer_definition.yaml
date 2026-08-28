@@ -1,0 +1,13 @@
+name: "Titer of a solution"
+id: solution_titer_definition
+topic: solution_stoichiometry
+difficulty: 2
+equation: "(mass_concentration) eq (mass) (volume) div"
+so:
+  - mass_concentration: "T"
+  - mass: "m_solute"
+  - volume: "V_solution"
+no:
+  - mass_concentration: "Titer"
+  - mass: "Mass of solute"
+  - volume: "Volume of solution"

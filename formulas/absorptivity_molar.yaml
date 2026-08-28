@@ -1,0 +1,13 @@
+name: "Molar absorptivity from Beer-Lambert law"
+id: absorptivity_molar
+topic: analytical_chemistry
+difficulty: 2
+equation: "(absorbance) eq (dimensionless) (concentration) (length) mul mul"
+so:
+  - absorbance: "A"
+  - dimensionless: "ε"
+  - length: "l"
+no:
+  - absorbance: "Absorbance"
+  - dimensionless: "Molar absorptivity"
+  - length: "Path length"

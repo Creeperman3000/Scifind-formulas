@@ -1,0 +1,19 @@
+name: "Angle difference identity for tangent"
+id: angle_diff_tangent
+topic: trigonometric_identities
+difficulty: 2
+equation: "(angle) (angle) sub tan eq (angle) tan (angle) tan sub 1 (angle) tan (angle) tan mul add div"
+so:
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"

@@ -1,0 +1,11 @@
+name: "Spring potential energy (alternative form)"
+id: potential_energy_spring_alternative
+topic: potential_energy
+difficulty: 1
+equation: "(energy) eq (spring_constant) (displacement pow 2) mul 2 div"
+so:
+  - energy: "U_s"
+  - displacement: "x"
+no:
+  - energy: "Spring potential [energy]"
+  - displacement: "Displacement from equilibrium"

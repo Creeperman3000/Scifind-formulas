@@ -1,0 +1,12 @@
+name: "Impulse-momentum theorem"
+id: impulse_momentum_theorem
+topic: impulse
+difficulty: 2
+equation: "(force) (Delta) (time) mul eq (momentum) (Delta)"
+so:
+  - time: "t"
+  - momentum: "p"
+no:
+  - force: "Net [force]"
+  - time: "[Time]"
+  - momentum: "[Momentum]"

@@ -1,0 +1,16 @@
+name: "Kepler's first law (elliptical orbit)"
+id: kepler_first_law_ellipse
+topic: orbital_motion
+difficulty: 2
+equation: "(length) eq (length) (dimensionless) 1 (dimensionless) (angle) cos mul add div mul"
+so:
+  - length: "r"
+  - length: "a"
+  - dimensionless: "1-e²"
+  - dimensionless: "e"
+  - angle: "θ"
+no:
+  - length: "Orbital radius"
+  - length: "Semi-major axis"
+  - dimensionless: "Eccentricity"
+  - angle: "True anomaly"

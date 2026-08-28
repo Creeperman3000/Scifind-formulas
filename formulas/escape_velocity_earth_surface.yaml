@@ -1,0 +1,12 @@
+name: "Escape velocity using surface gravity"
+id: escape_velocity_earth_surface
+topic: escape_velocity
+difficulty: 2
+equation: "(velocity) eq (acceleration) (length) mul 2 mul sqrt"
+so:
+  - velocity: "v_esc"
+  - acceleration: "g"
+  - length: "R"
+no:
+  - velocity: "Escape [velocity]"
+  - length: "Planet radius"

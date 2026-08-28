@@ -1,0 +1,9 @@
+name: "Capacitors in parallel"
+id: parallel_capacitance
+topic: circuits
+difficulty: 1
+equation: "(capacitance) eq (capacitance) (capacitance) add"
+so:
+  - capacitance: "C_total"
+  - capacitance: "C_1"
+  - capacitance: "C_2"

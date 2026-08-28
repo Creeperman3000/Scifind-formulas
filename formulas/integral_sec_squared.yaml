@@ -1,0 +1,13 @@
+name: "Integral of sec² x"
+id: integral_sec_squared
+topic: integrals
+difficulty: 2
+equation: "(dimensionless) eq (angle) sin (angle) cos div"
+so:
+  - dimensionless: "∫sec²x dx"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "∫ sec² x dx"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

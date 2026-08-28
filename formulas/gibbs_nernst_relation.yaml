@@ -1,0 +1,13 @@
+name: "Gibbs free energy and cell potential"
+id: gibbs_nernst_relation
+topic: electrochemistry
+difficulty: 3
+equation: "(energy) eq (amount) (faraday_constant) (electric_potential) mul mul neg"
+so:
+  - energy: "ΔG"
+  - amount: "n"
+  - electric_potential: "E"
+no:
+  - energy: "Gibbs free [energy] change"
+  - amount: "Number of electrons transferred"
+  - electric_potential: "Cell [potential]"

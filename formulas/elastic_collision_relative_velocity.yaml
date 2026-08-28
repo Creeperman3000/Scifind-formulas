@@ -1,0 +1,15 @@
+name: "Relative velocity in elastic collisions"
+id: elastic_collision_relative_velocity
+topic: collisions
+difficulty: 3
+equation: "(velocity) (velocity) sub eq (velocity) (velocity) sub neg"
+so:
+  - velocity: "v_1"
+  - velocity: "v_2"
+  - velocity: "v'_1"
+  - velocity: "v'_2"
+no:
+  - velocity: "Initial [velocity] 1"
+  - velocity: "Initial [velocity] 2"
+  - velocity: "Final [velocity] 1"
+  - velocity: "Final [velocity] 2"

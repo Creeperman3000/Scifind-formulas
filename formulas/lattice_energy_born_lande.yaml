@@ -1,0 +1,21 @@
+name: "Born-Landé lattice energy equation"
+id: lattice_energy_born_lande
+topic: inorganic_chemistry
+difficulty: 5
+equation: "(energy) eq (coulomb_constant) (avogadro_number) mul (dimensionless) (charge) mul (charge) mul (dimensionless) (vacuum_permittivity) (length) mul div 1 (dimensionless) 1 div sub mul"
+so:
+  - energy: "U"
+  - dimensionless: "M"
+  - charge: "z_+"
+  - charge: "z_-"
+  - dimensionless: "n"
+  - length: "r_0"
+  - dimensionless: "n"
+no:
+  - energy: "Lattice [energy]"
+  - dimensionless: "Madelung constant"
+  - charge: "Cation charge"
+  - charge: "Anion charge"
+  - dimensionless: "Born exponent"
+  - length: "Nearest neighbor distance"
+  - dimensionless: "Born exponent"

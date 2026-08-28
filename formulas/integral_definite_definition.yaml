@@ -1,0 +1,17 @@
+name: "Definite integral as area"
+id: integral_definite_definition
+topic: integrals
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) (dimensionless) mul sum"
+so:
+  - dimensionless: "∫_a^b f(x) dx"
+  - dimensionless: "lim"
+  - dimensionless: "n→∞"
+  - dimensionless: "f(x_i)"
+  - dimensionless: "Δx"
+no:
+  - dimensionless: "Definite integral"
+  - dimensionless: "Limit"
+  - dimensionless: "n → ∞"
+  - dimensionless: "Function value"
+  - dimensionless: "Width of subinterval"

@@ -1,0 +1,12 @@
+name: "Area of a circular segment"
+id: circle_segment_area
+topic: circles
+difficulty: 3
+equation: "(area) eq (length pow 2) (angle) (angle) sin sub mul 2 div"
+so:
+  - length: "R"
+  - angle: "θ"
+no:
+  - area: "Segment area"
+  - length: "Radius"
+  - angle: "Central [angle]"

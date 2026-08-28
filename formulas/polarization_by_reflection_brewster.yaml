@@ -1,0 +1,13 @@
+name: "Polarization by reflection at Brewster's angle"
+id: polarization_by_reflection_brewster
+topic: polarization
+difficulty: 2
+equation: "(angle) eq (refractive_index) (refractive_index) div atan"
+so:
+  - angle: "θ_B"
+  - refractive_index: "n_2"
+  - refractive_index: "n_1"
+no:
+  - angle: "Brewster's angle"
+  - refractive_index: "Refracting medium [index]"
+  - refractive_index: "Incident medium [index]"

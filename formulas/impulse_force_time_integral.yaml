@@ -1,0 +1,13 @@
+name: "Impulse from force-time integral"
+id: impulse_force_time_integral
+topic: impulse
+difficulty: 2
+equation: "(momentum) eq (force) (time) mul"
+so:
+  - momentum: "J"
+  - force: "F"
+  - time: "Δt"
+no:
+  - momentum: "[Impulse]"
+  - force: "Average [force]"
+  - time: "Time interval"

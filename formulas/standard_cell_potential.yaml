@@ -1,0 +1,13 @@
+name: "Standard cell potential"
+id: standard_cell_potential
+topic: electrochemistry
+difficulty: 2
+equation: "(electric_potential) eq (electric_potential) (electric_potential) sub"
+so:
+  - electric_potential: "E°_cell"
+  - electric_potential: "E°_cathode"
+  - electric_potential: "E°_anode"
+no:
+  - electric_potential: "Standard cell [potential]"
+  - electric_potential: "Cathode [potential]"
+  - electric_potential: "Anode [potential]"

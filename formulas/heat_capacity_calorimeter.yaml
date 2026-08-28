@@ -1,0 +1,11 @@
+name: "Heat capacity of a calorimeter"
+id: heat_capacity_calorimeter
+topic: thermochemistry
+difficulty: 2
+equation: "(specific_heat_capacity) eq (heat) (temperature) Delta div"
+so:
+  - specific_heat_capacity: "C_cal"
+no:
+  - specific_heat_capacity: "Calorimeter heat [capacity]"
+  - heat: "[Heat] absorbed"
+  - temperature: "[Temperature] change"

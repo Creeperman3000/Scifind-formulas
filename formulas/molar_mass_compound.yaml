@@ -1,0 +1,17 @@
+name: "Molar mass of a compound"
+id: molar_mass_compound
+topic: molar_mass
+difficulty: 1
+equation: "(molar_mass) eq (molar_mass) (dimensionless) mul (molar_mass) (dimensionless) mul add"
+so:
+  - molar_mass: "M"
+  - molar_mass: "M_A"
+  - dimensionless: "x"
+  - molar_mass: "M_B"
+  - dimensionless: "y"
+no:
+  - molar_mass: "Compound [molar mass]"
+  - molar_mass: "Atomic [mass] of A"
+  - dimensionless: "Number of A atoms"
+  - molar_mass: "Atomic [mass] of B"
+  - dimensionless: "Number of B atoms"

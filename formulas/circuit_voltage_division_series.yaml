@@ -1,0 +1,17 @@
+name: "Voltage division in series resistors"
+id: circuit_voltage_division_series
+topic: circuits
+difficulty: 2
+equation: "(electric_potential) eq (electric_potential) (resistance) (resistance) (resistance) add div mul"
+so:
+  - electric_potential: "V_1"
+  - electric_potential: "V"
+  - resistance: "R_1"
+  - resistance: "R_1"
+  - resistance: "R_2"
+no:
+  - electric_potential: "Voltage across R₁"
+  - electric_potential: "Total voltage"
+  - resistance: "[Resistance] R₁"
+  - resistance: "[Resistance] R₁"
+  - resistance: "[Resistance] R₂"

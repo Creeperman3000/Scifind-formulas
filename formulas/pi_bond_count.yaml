@@ -1,0 +1,13 @@
+name: "Pi bond count in multiple bonds"
+id: pi_bond_count
+topic: chemical_bonding
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub"
+so:
+  - dimensionless: "π"
+  - dimensionless: "Bond_order"
+  - dimensionless: "σ_bonds"
+no:
+  - dimensionless: "Pi bond count"
+  - dimensionless: "Bond order"
+  - dimensionless: "Sigma bond count"

@@ -1,0 +1,13 @@
+name: "Free fall height from time"
+id: free_fall_height
+topic: constant_acceleration
+difficulty: 1
+equation: "(length) eq (acceleration) (time) (time) mul mul 2 div"
+so:
+  - length: "h"
+  - acceleration: "g"
+  - time: "t"
+no:
+  - length: "Height (free fall)"
+  - acceleration: "Gravitational [acceleration]"
+  - time: "Fall [time]"

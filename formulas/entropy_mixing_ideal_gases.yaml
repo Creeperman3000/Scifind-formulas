@@ -1,0 +1,11 @@
+name: "Entropy of mixing ideal gases"
+id: entropy_mixing_ideal_gases
+topic: entropy
+difficulty: 4
+equation: "(entropy) eq (amount) (gas_constant) mul (dimensionless) ln mul neg sum"
+so:
+  - entropy: "ΔS_mix"
+  - dimensionless: "x_i"
+no:
+  - entropy: "Entropy of mixing"
+  - dimensionless: "Mole fraction of component i"

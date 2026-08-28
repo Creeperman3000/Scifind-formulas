@@ -1,0 +1,11 @@
+name: "Vertical line"
+id: vertical_line_equation
+topic: equations
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless)"
+so:
+  - dimensionless: "x"
+  - dimensionless: "a"
+no:
+  - dimensionless: "x-coordinate"
+  - dimensionless: "Constant"

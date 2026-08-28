@@ -1,0 +1,10 @@
+name: "Work as dot product of force and displacement"
+id: work_force_displacement_general
+topic: work
+difficulty: 1
+equation: "(work) eq (force) (displacement) mul (angle) cos mul"
+so:
+  - angle: "θ"
+no:
+  - work: "[Work]"
+  - angle: "Angle between [force] and [displacement]"

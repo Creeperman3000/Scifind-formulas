@@ -1,0 +1,9 @@
+name: "Rest energy"
+id: rest_energy
+topic: particle_physics
+difficulty: 2
+equation: "(energy) eq (mass) (speed_of_light pow 2) mul"
+so:
+  - energy: "E₀"
+no:
+  - energy: "Rest [energy]"

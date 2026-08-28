@@ -1,0 +1,17 @@
+name: "Biot-Savart law (current element)"
+id: biot_savart_law
+topic: magnetism
+difficulty: 4
+equation: "(magnetic_flux_density) eq (vacuum_permeability) (current) mul (length) mul (angle) sin mul (pi) 4 mul (length) (length) mul div div"
+so:
+  - magnetic_flux_density: "dB"
+  - current: "I"
+  - length: "dl"
+  - angle: "θ"
+  - length: "r"
+no:
+  - magnetic_flux_density: "Magnetic field contribution"
+  - current: "Current"
+  - length: "Wire element"
+  - angle: "Angle between dl and r"
+  - length: "Distance"

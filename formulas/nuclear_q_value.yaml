@@ -1,0 +1,13 @@
+name: "Q-value of a nuclear reaction"
+id: nuclear_q_value
+topic: nuclear_physics
+difficulty: 4
+equation: "(energy) eq (mass) (mass) sub (speed_of_light pow 2) mul"
+so:
+  - energy: "Q"
+  - mass: "m_initial"
+  - mass: "m_final"
+no:
+  - energy: "Reaction Q-value"
+  - mass: "Initial [mass]"
+  - mass: "Final [mass]"

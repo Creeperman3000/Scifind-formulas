@@ -1,0 +1,9 @@
+name: "Electric energy density of an EM wave"
+id: energy_density_electromagnetic_wave
+topic: electromagnetic_waves
+difficulty: 4
+equation: "(energy_density) eq (vacuum_permittivity) (electric_field_strength pow 2) mul"
+so:
+  - electric_field_strength: "E"
+no:
+  - energy_density: "Electromagnetic energy [density]"

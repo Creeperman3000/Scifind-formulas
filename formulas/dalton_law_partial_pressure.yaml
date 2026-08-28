@@ -1,0 +1,9 @@
+name: "Dalton's law of partial pressures"
+id: dalton_law_partial_pressure
+topic: ideal_gases
+difficulty: 1
+equation: "(pressure) eq (pressure) sum"
+so:
+  - pressure: "P_total"
+no:
+  - pressure: "Total [pressure]"

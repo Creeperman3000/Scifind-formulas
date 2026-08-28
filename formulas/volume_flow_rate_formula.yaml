@@ -1,0 +1,15 @@
+name: "Volume flow rate (flux)"
+id: volume_flow_rate_formula
+topic: continuity_equation
+difficulty: 1
+equation: "(volume) (time) div eq (area) (velocity) mul"
+so:
+  - volume: "Q"
+  - time: "t"
+  - area: "A"
+  - velocity: "v"
+no:
+  - volume: "[Volume] flow rate Q"
+  - time: "Time"
+  - area: "Cross-sectional [area]"
+  - velocity: "Flow [velocity]"

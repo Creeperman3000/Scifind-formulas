@@ -1,0 +1,11 @@
+name: "Exponent as inverse of logarithm"
+id: exponent_logarithm_inverse
+topic: logarithms
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) pow"
+so:
+  - dimensionless: "x"
+  - dimensionless: "x"
+no:
+  - dimensionless: "Result"
+  - dimensionless: "log_a(x)"

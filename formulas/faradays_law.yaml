@@ -1,0 +1,13 @@
+name: "Faraday's law of induction"
+id: faradays_law
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(electric_potential) eq (amount) (magnetic_flux) (Delta) (time) (Delta) div mul"
+so:
+  - electric_potential: "ε"
+  - amount: "N"
+  - magnetic_flux: "Φ"
+  - time: "t"
+no:
+  - electric_potential: "Induced EMF"
+  - amount: "Number of turns"

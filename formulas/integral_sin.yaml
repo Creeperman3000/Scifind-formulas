@@ -1,0 +1,11 @@
+name: "Integral of sine"
+id: integral_sin
+topic: integrals
+difficulty: 2
+equation: "(dimensionless) eq (angle) cos neg"
+so:
+  - dimensionless: "∫sin(x)dx"
+  - angle: "x"
+no:
+  - dimensionless: "∫ sin(x) dx"
+  - angle: "[Variable]"

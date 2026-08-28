@@ -1,0 +1,7 @@
+name: "Mass from moles and molar mass"
+id: mol_based_mass_calculation
+topic: mole_concept
+difficulty: 1
+equation: "(mass) eq (amount) (molar_mass) mul"
+no:
+  - mass: "[Mass]"

@@ -1,0 +1,15 @@
+name: "Moseley's law"
+id: moseleys_law
+topic: periodic_table
+difficulty: 4
+equation: "(frequency) sqrt eq (dimensionless) (dimensionless) sub"
+so:
+  - frequency: "f"
+  - dimensionless: "k"
+  - dimensionless: "Z"
+  - dimensionless: "σ"
+no:
+  - frequency: "Characteristic X-ray [frequency]"
+  - dimensionless: "Proportionality constant"
+  - dimensionless: "Atomic number"
+  - dimensionless: "Screening constant"

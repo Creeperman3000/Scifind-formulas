@@ -1,0 +1,13 @@
+name: "Analytical sensitivity"
+id: analytical_sensitivity_definition
+topic: analytical_chemistry
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) div"
+so:
+  - dimensionless: "γ"
+  - dimensionless: "dS/dC"
+  - dimensionless: "σ_noise"
+no:
+  - dimensionless: "Analytical sensitivity γ"
+  - dimensionless: "Calibration [sensitivity]"
+  - dimensionless: "Noise standard deviation"

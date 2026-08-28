@@ -1,0 +1,13 @@
+name: "Gibbs free energy from cell potential"
+id: gibbs_cell_potential
+topic: electrochemistry
+difficulty: 3
+equation: "(energy) eq (amount) (elementary_charge) mul (avogadro_number) mul (electric_potential) mul neg"
+so:
+  - energy: "ΔG"
+  - amount: "n"
+  - electric_potential: "E"
+no:
+  - energy: "Gibbs free [energy] change"
+  - amount: "Moles of electrons"
+  - electric_potential: "Cell [potential]"

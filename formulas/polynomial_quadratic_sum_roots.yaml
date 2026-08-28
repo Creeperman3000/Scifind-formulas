@@ -1,0 +1,13 @@
+name: "Sum of roots of a quadratic"
+id: polynomial_quadratic_sum_roots
+topic: polynomials
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) neg (dimensionless) div"
+so:
+  - dimensionless: "α+β"
+  - dimensionless: "b"
+  - dimensionless: "a"
+no:
+  - dimensionless: "Sum of roots"
+  - dimensionless: "Coefficient b"
+  - dimensionless: "Coefficient a"

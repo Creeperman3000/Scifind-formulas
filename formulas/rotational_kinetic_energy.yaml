@@ -1,0 +1,9 @@
+name: "Rotational kinetic energy"
+id: rotational_kinetic_energy
+topic: rotational_energy
+difficulty: 2
+equation: "(energy) eq (moment_of_inertia) (angular_velocity pow 2) mul 2 div"
+so:
+  - energy: "E_k_rot"
+no:
+  - energy: "Rotational kinetic [energy]"

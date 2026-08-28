@@ -1,0 +1,15 @@
+name: "Volume of an annular cylinder"
+id: volume_annular_cylinder
+topic: plane_geometry
+difficulty: 2
+equation: "(volume) eq (length) (length) pow 2 (length) pow 2 sub mul"
+so:
+  - volume: "V"
+  - length: "π"
+  - length: "R"
+  - length: "r"
+no:
+  - volume: "[Volume]"
+  - length: "[Pi]"
+  - length: "Outer radius"
+  - length: "Inner radius"

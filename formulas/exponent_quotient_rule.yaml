@@ -1,0 +1,21 @@
+name: "Exponent quotient rule"
+id: exponent_quotient_rule
+topic: exponents
+difficulty: 1
+equation: "(dimensionless) (dimensionless) pow (dimensionless) (dimensionless) pow div eq (dimensionless) (dimensionless) (dimensionless) sub pow"
+so:
+  - dimensionless: "a"
+  - dimensionless: "m"
+  - dimensionless: "a"
+  - dimensionless: "n"
+  - dimensionless: "a"
+  - dimensionless: "m"
+  - dimensionless: "n"
+no:
+  - dimensionless: "a"
+  - dimensionless: "Exponent m"
+  - dimensionless: "a"
+  - dimensionless: "Exponent n"
+  - dimensionless: "a"
+  - dimensionless: ""
+  - dimensionless: ""

@@ -1,0 +1,13 @@
+name: "Triangle area (SAS)"
+id: triangle_area_sas
+topic: triangles
+difficulty: 2
+equation: "(area) eq (length) (length) mul (angle) sin mul 2 div"
+so:
+  - length: "a"
+  - length: "b"
+  - angle: "C"
+no:
+  - length: "Side a"
+  - length: "Side b"
+  - angle: "Included [angle]"

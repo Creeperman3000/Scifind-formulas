@@ -1,0 +1,13 @@
+name: "Area of a regular hexagon"
+id: area_hexagon
+topic: polygons
+difficulty: 2
+equation: "(area) eq (dimensionless) (length) pow 2 mul"
+so:
+  - area: "A"
+  - dimensionless: "3√3/2"
+  - length: "s"
+no:
+  - area: "[Area]"
+  - dimensionless: ""
+  - length: "Side length"

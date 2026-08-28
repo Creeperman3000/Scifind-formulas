@@ -1,0 +1,15 @@
+name: "Resistors in parallel (two)"
+id: parallel_resistance
+topic: circuits
+difficulty: 2
+equation: "(resistance) eq (resistance) (resistance) div 1 add (resistance) div 1 div"
+so:
+  - resistance: "R_total"
+  - resistance: "R_1"
+  - resistance: "R_2"
+  - resistance: "R_1"
+no:
+  - resistance: "Total [resistance]"
+  - resistance: "[Resistance] 1"
+  - resistance: "[Resistance] 2"
+  - resistance: "[Resistance] 1"

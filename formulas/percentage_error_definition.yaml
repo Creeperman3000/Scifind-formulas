@@ -1,0 +1,14 @@
+name: "Percentage error"
+id: percentage_error_definition
+topic: percent_yield
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub (dimensionless) div abs 100 mul"
+so:
+  - dimensionless: "%"
+  - dimensionless: "measured"
+  - dimensionless: "accepted"
+  - dimensionless: "accepted"
+no:
+  - dimensionless: "Percent [error]"
+  - dimensionless: "Measured [value]"
+  - dimensionless: "Accepted [value]"

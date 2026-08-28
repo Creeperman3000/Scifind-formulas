@@ -1,0 +1,13 @@
+name: "Spring-mass system period"
+id: spring_mass_period
+topic: springs
+difficulty: 2
+equation: "(time) eq (dimensionless) (mass) (spring_constant) div sqrt mul 2 mul pi mul"
+so:
+  - time: "T"
+  - mass: "m"
+  - spring_constant: "k"
+no:
+  - time: "Period"
+  - mass: "Mass"
+  - spring_constant: "Spring [constant]"

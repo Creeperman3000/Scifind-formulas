@@ -1,0 +1,13 @@
+name: "Froude number"
+id: froude_number
+topic: reynolds_number
+difficulty: 2
+equation: "(dimensionless) eq (velocity) (standard_gravity) (length) mul sqrt div"
+so:
+  - dimensionless: "Fr"
+  - velocity: "v"
+  - length: "L"
+no:
+  - dimensionless: "Froude [number]"
+  - velocity: "Flow [velocity]"
+  - length: "Characteristic [length]"

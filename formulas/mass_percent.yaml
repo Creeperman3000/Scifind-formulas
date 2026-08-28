@@ -1,0 +1,13 @@
+name: "Mass percent"
+id: mass_percent
+topic: solutions
+difficulty: 1
+equation: "(dimensionless) eq (mass) (mass) div 100 mul"
+so:
+  - dimensionless: "%"
+  - mass: "m_solute"
+  - mass: "m_solution"
+no:
+  - dimensionless: "Mass percent"
+  - mass: "Mass of solute"
+  - mass: "Mass of solution"

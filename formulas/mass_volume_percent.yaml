@@ -1,0 +1,15 @@
+name: "Mass-volume percent concentration"
+id: mass_volume_percent
+topic: solution_stoichiometry
+difficulty: 1
+equation: "(dimensionless) eq (mass) (volume) div (dimensionless) mul"
+so:
+  - dimensionless: "%m/v"
+  - mass: "m_solute"
+  - volume: "V_solution"
+  - dimensionless: "100"
+no:
+  - dimensionless: "Mass-volume percent"
+  - mass: "Mass of solute"
+  - volume: "[Volume] of solution"
+  - dimensionless: ""

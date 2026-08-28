@@ -1,0 +1,15 @@
+name: "Conservation of mechanical energy"
+id: conservation_of_mechanical_energy
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) (energy) add eq (energy) (energy) add"
+so:
+  - energy: "E_k1"
+  - energy: "E_p1"
+  - energy: "E_k2"
+  - energy: "E_p2"
+no:
+  - energy: "Initial kinetic [energy]"
+  - energy: "Initial potential [energy]"
+  - energy: "Final kinetic [energy]"
+  - energy: "Final potential [energy]"

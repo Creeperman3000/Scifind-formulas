@@ -1,0 +1,9 @@
+name: "Period of a mass-spring system"
+id: spring_period
+topic: harmonic_motion
+difficulty: 2
+equation: "(time) eq (pi) 2 mul (mass) (spring_constant) div sqrt mul"
+so:
+  - time: "T"
+no:
+  - time: "Period"

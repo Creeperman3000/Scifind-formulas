@@ -1,0 +1,11 @@
+name: "Circumference of a circle"
+id: circumference_circle
+topic: circles
+difficulty: 1
+equation: "(length) eq (pi) (length) 2 mul mul"
+so:
+  - length: "C"
+  - length: "r"
+no:
+  - length: "Circumference"
+  - length: "Radius"

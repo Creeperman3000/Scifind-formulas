@@ -1,0 +1,11 @@
+name: "Condition for total internal reflection"
+id: optics_total_internal_reflection_condition
+topic: refraction
+difficulty: 2
+equation: "(angle) gt (angle)"
+so:
+  - angle: "θ_i"
+  - angle: "θ_c"
+no:
+  - angle: "Angle of incidence"
+  - angle: "Critical [angle]"

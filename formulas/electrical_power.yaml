@@ -1,0 +1,9 @@
+name: "Electrical power"
+id: electrical_power
+topic: circuits
+difficulty: 1
+equation: "(power) eq (electric_potential) (current) mul"
+so:
+  - power: "P"
+no:
+  - electric_potential: "Voltage"

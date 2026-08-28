@@ -1,0 +1,19 @@
+name: "Excess reactant remaining mass"
+id: excess_reactant_mass
+topic: limiting_reactants
+difficulty: 3
+equation: "(mass) eq (mass) (dimensionless) (molar_mass) mul (dimensionless) (molar_mass) mul sum sub"
+so:
+  - mass: "m_excess"
+  - mass: "m_initial"
+  - dimensionless: "n_used"
+  - molar_mass: "M"
+  - dimensionless: "n_used"
+  - molar_mass: "M"
+no:
+  - mass: "Excess [mass] remaining"
+  - mass: "Initial [mass] of excess reactant"
+  - dimensionless: "Moles consumed"
+  - molar_mass: "Molar mass"
+  - dimensionless: "Moles consumed"
+  - molar_mass: "Molar mass"

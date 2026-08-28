@@ -1,0 +1,15 @@
+name: "Triangle area using sine rule"
+id: triangle_area_sine_rule
+topic: triangles
+difficulty: 1
+equation: "(area) eq (length) (length) mul (angle) sin mul 2 div"
+so:
+  - area: "A"
+  - length: "a"
+  - length: "b"
+  - angle: "C"
+no:
+  - area: "[Area]"
+  - length: "Side a"
+  - length: "Side b"
+  - angle: "Angle C"

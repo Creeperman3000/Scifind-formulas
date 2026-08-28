@@ -1,0 +1,11 @@
+name: "Escape velocity from a spherical body"
+id: escape_velocity_surface
+topic: escape_velocity
+difficulty: 2
+equation: "(velocity) eq (gravitational_constant) (mass) mul 2 mul (length) div sqrt"
+so:
+  - velocity: "v_esc"
+  - length: "R"
+no:
+  - velocity: "Escape [velocity]"
+  - length: "Body radius"

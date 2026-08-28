@@ -1,0 +1,11 @@
+name: "Lens power"
+id: lens_power
+topic: lenses
+difficulty: 1
+equation: "(wavenumber) eq (length) 1 div"
+so:
+  - wavenumber: "P"
+  - length: "f"
+no:
+  - wavenumber: "Optical [power]"
+  - length: "Focal length"

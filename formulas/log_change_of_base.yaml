@@ -1,0 +1,13 @@
+name: "Logarithm change of base"
+id: log_change_of_base
+topic: logarithms
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) ln (dimensionless) ln div"
+so:
+  - dimensionless: "log_a(x)"
+  - dimensionless: "x"
+  - dimensionless: "a"
+no:
+  - dimensionless: "Logarithm with new base"
+  - dimensionless: "[Argument]"
+  - dimensionless: "[Base]"

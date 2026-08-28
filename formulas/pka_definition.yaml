@@ -1,0 +1,11 @@
+name: "pKa from Ka"
+id: pka_definition
+topic: acids_and_bases
+difficulty: 1
+equation: "(ph) eq (equilibrium_constant) 10 log mul neg"
+so:
+  - ph: "pK_a"
+  - equilibrium_constant: "K_a"
+no:
+  - ph: "[pK_a]"
+  - equilibrium_constant: "Acid dissociation [constant]"

@@ -1,0 +1,13 @@
+name: "Limit of sin(x)/x as x approaches 0"
+id: limit_sin_over_x
+topic: limits
+difficulty: 2
+equation: "(dimensionless) eq (angle) sin (angle) div"
+so:
+  - dimensionless: "1"
+  - angle: "x"
+  - angle: "x"
+no:
+  - dimensionless: "Limit"
+  - angle: "[Variable]"
+  - angle: "[Variable]"

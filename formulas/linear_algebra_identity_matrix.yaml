@@ -1,0 +1,11 @@
+name: "Identity matrix definition"
+id: linear_algebra_identity_matrix
+topic: linear_algebra
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless)"
+so:
+  - dimensionless: "I"
+  - dimensionless: "I_2"
+no:
+  - dimensionless: "Identity matrix"
+  - dimensionless: "2×2 identity"

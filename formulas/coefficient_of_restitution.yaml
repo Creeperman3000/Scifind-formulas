@@ -1,0 +1,17 @@
+name: "Coefficient of restitution"
+id: coefficient_of_restitution
+topic: collisions
+difficulty: 2
+equation: "(coefficient_of_friction) eq (velocity) (velocity) sub (velocity) (velocity) sub div"
+so:
+  - coefficient_of_friction: "e"
+  - velocity: "v'_2"
+  - velocity: "v'_1"
+  - velocity: "v_1"
+  - velocity: "v_2"
+no:
+  - coefficient_of_friction: "Coefficient of restitution"
+  - velocity: "Final [velocity] 2"
+  - velocity: "Final [velocity] 1"
+  - velocity: "Initial [velocity] 1"
+  - velocity: "Initial [velocity] 2"

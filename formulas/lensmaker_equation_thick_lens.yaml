@@ -1,0 +1,33 @@
+name: "Lensmaker's equation for a thick lens"
+id: lensmaker_equation_thick_lens
+topic: lenses
+difficulty: 4
+equation: "(wavenumber) eq (refractive_index) (refractive_index) sub (length) 1 (length) 1 div sub (refractive_index) (length) (refractive_index) (length) (length) (refractive_index) (length) 1 div mul mul div add mul"
+so:
+  - wavenumber: "1/f"
+  - refractive_index: "n"
+  - refractive_index: "n_0"
+  - length: "R_1"
+  - length: "R_2"
+  - refractive_index: "n"
+  - length: "d"
+  - refractive_index: "n_0"
+  - length: "R_1"
+  - length: "R_2"
+  - length: "n_0"
+  - refractive_index: "n"
+  - length: "R_2"
+no:
+  - wavenumber: "Optical power"
+  - refractive_index: "Lens [refractive index]"
+  - refractive_index: "Medium [refractive index]"
+  - length: "First radius of curvature"
+  - length: "Second radius of curvature"
+  - refractive_index: "Lens [refractive index]"
+  - length: "Lens thickness"
+  - refractive_index: "Medium [refractive index]"
+  - length: "First radius"
+  - length: "Second radius"
+  - length: "Medium [refractive index]"
+  - refractive_index: "Lens [refractive index]"
+  - length: "Second radius"

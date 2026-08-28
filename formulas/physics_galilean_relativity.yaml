@@ -1,0 +1,13 @@
+name: "Galilean velocity addition"
+id: physics_galilean_relativity
+topic: relativity
+difficulty: 1
+equation: "(velocity) eq (velocity) (velocity) add"
+so:
+  - velocity: "v_AB"
+  - velocity: "v_AC"
+  - velocity: "v_CB"
+no:
+  - velocity: "Velocity of A relative to B"
+  - velocity: "Velocity of A relative to C"
+  - velocity: "Velocity of C relative to B"

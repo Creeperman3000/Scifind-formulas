@@ -1,0 +1,13 @@
+name: "Actual yield from percent yield and theoretical yield"
+id: percent_yield_actual_from_percent
+topic: percent_yield
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul 100 div"
+so:
+  - dimensionless: "actual"
+  - dimensionless: "%"
+  - dimensionless: "theoretical"
+no:
+  - dimensionless: "Actual yield"
+  - dimensionless: "Percent yield"
+  - dimensionless: "Theoretical yield"

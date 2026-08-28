@@ -1,0 +1,21 @@
+name: "Integral of 1/(a²-x²)"
+id: integral_reciprocal_diff_squares
+topic: integrals
+difficulty: 4
+equation: "(dimensionless) eq (dimensionless) (dimensionless) (dimensionless) (angle) add (dimensionless) (angle) sub div ln mul"
+so:
+  - dimensionless: "∫dx/(a²-x²)"
+  - dimensionless: "1"
+  - dimensionless: "2"
+  - dimensionless: "a"
+  - angle: "x"
+  - dimensionless: "a"
+  - angle: "x"
+no:
+  - dimensionless: "Integral of reciprocal diff squares"
+  - dimensionless: ""
+  - dimensionless: ""
+  - dimensionless: "[Constant]"
+  - angle: "[Variable]"
+  - dimensionless: ""
+  - angle: ""

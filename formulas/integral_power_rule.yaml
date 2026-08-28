@@ -1,0 +1,15 @@
+name: "Integral of x^n"
+id: integral_power_rule
+topic: integrals
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) 1 add pow (dimensionless) 1 add div"
+so:
+  - dimensionless: "∫x^n dx"
+  - dimensionless: "x"
+  - dimensionless: "n"
+  - dimensionless: "n"
+no:
+  - dimensionless: "Integral"
+  - dimensionless: "[Variable]"
+  - dimensionless: "Exponent"
+  - dimensionless: "[Exponent]"

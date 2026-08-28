@@ -1,0 +1,17 @@
+name: "Magnetic force per unit length between parallel wires"
+id: magnetic_force_between_parallel_wires_per_length
+topic: magnetism
+difficulty: 2
+equation: "(force) (length) div eq (vacuum_permeability) (current) mul (current) mul (pi) 2 mul (length) mul div"
+so:
+  - force: "F"
+  - length: "L"
+  - current: "I_1"
+  - current: "I_2"
+  - length: "d"
+no:
+  - force: "[Force]"
+  - length: "Wire length"
+  - current: "Current 1"
+  - current: "Current 2"
+  - length: "Separation"

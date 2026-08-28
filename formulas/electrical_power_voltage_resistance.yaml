@@ -1,0 +1,9 @@
+name: "Electrical power from voltage and resistance"
+id: electrical_power_voltage_resistance
+topic: power
+difficulty: 1
+equation: "(power) eq (electric_potential pow 2) (resistance) div"
+so:
+  - electric_potential: "V"
+no:
+  - power: "Electrical [power]"

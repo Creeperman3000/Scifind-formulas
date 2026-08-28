@@ -1,0 +1,13 @@
+name: "Limiting reactant moles comparison"
+id: limiting_reactant_moles_comparison
+topic: limiting_reactants
+difficulty: 2
+equation: "(amount) eq (amount) (dimensionless) div"
+so:
+  - amount: "n_A/ν_A"
+  - amount: "n_A"
+  - dimensionless: "ν_A"
+no:
+  - amount: "Scaled moles of A"
+  - amount: "Moles of reactant A"
+  - dimensionless: "Stoichiometric coefficient of A"

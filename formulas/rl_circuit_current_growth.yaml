@@ -1,0 +1,9 @@
+name: "Current growth in an RL circuit"
+id: rl_circuit_current_growth
+topic: circuits
+difficulty: 3
+equation: "(current) eq (electric_potential) (resistance) div (time) (resistance) (inductance) div neg exp 1 sub mul"
+so:
+  - current: "I(t)"
+no:
+  - current: "Current at time t"

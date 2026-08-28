@@ -1,0 +1,13 @@
+name: "Tangent definition"
+id: tangent_definition
+topic: right_triangles
+difficulty: 1
+equation: "(angle) tan eq (length) (length) div"
+so:
+  - angle: "θ"
+  - length: "a"
+  - length: "b"
+no:
+  - angle: "[Angle]"
+  - length: "Opposite [length]"
+  - length: "Adjacent [length]"

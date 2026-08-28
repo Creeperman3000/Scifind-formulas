@@ -1,0 +1,11 @@
+name: "Absorbance from transmittance"
+id: absorbance_transmittance
+topic: analytical_chemistry
+difficulty: 2
+equation: "(absorbance) eq (dimensionless) log neg"
+so:
+  - absorbance: "A"
+  - dimensionless: "T"
+no:
+  - absorbance: "Absorbance"
+  - dimensionless: "Transmittance"

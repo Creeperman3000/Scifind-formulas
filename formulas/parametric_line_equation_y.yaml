@@ -1,0 +1,15 @@
+name: "Parametric form of a line (y-coordinate)"
+id: parametric_line_equation_y
+topic: equations
+difficulty: 2
+equation: "(length) eq (length) (length) (dimensionless) mul add"
+so:
+  - length: "y"
+  - length: "y_0"
+  - length: "b"
+  - dimensionless: "t"
+no:
+  - length: "y-coordinate"
+  - length: "Initial y"
+  - length: "Direction y-component"
+  - dimensionless: "Parameter"

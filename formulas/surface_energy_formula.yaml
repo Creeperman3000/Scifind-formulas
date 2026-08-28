@@ -1,0 +1,13 @@
+name: "Surface energy"
+id: surface_energy_formula
+topic: surface_tension
+difficulty: 2
+equation: "(energy) eq (surface_tension) (area) mul"
+so:
+  - energy: "U"
+  - surface_tension: "γ"
+  - area: "A"
+no:
+  - energy: "Surface [energy]"
+  - surface_tension: "Surface [tension]"
+  - area: "Surface [area]"

@@ -1,0 +1,17 @@
+name: "Concentration equilibrium with K"
+id: equilibrium_concentration_calculation
+topic: chemical_equilibrium
+difficulty: 3
+equation: "(dimensionless) eq (concentration) (concentration) mul (concentration) (concentration) mul div"
+so:
+  - dimensionless: "K_c"
+  - concentration: "[C]"
+  - concentration: "[D]"
+  - concentration: "[A]"
+  - concentration: "[B]"
+no:
+  - dimensionless: "Equilibrium constant K_c"
+  - concentration: "Concentration of C"
+  - concentration: "Concentration of D"
+  - concentration: "Concentration of A"
+  - concentration: "Concentration of B"

@@ -1,0 +1,5 @@
+name: "Charge density from charge and volume"
+id: charge_density_formula
+topic: electrostatics
+difficulty: 1
+equation: "(charge_density) eq (charge) (volume) div"

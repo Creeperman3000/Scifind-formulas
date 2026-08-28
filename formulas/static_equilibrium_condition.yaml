@@ -1,0 +1,9 @@
+name: "Static equilibrium condition"
+id: static_equilibrium_condition
+topic: newtons_laws
+difficulty: 2
+equation: "(force) eq 0"
+so:
+  - force: "F_net"
+no:
+  - force: "Net [force]"

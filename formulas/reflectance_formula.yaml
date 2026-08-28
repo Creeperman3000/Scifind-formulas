@@ -1,0 +1,13 @@
+name: "Reflectance"
+id: reflectance_formula
+topic: polarization
+difficulty: 2
+equation: "(reflectance) eq (irradiance) (irradiance) div"
+so:
+  - reflectance: "R"
+  - irradiance: "I_r"
+  - irradiance: "I_i"
+no:
+  - reflectance: "[Reflectance]"
+  - irradiance: "Reflected [intensity]"
+  - irradiance: "Incident [intensity]"

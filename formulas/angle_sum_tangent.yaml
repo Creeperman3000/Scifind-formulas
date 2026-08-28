@@ -1,0 +1,19 @@
+name: "Angle sum identity for tangent"
+id: angle_sum_tangent
+topic: trigonometric_identities
+difficulty: 2
+equation: "(angle) (angle) add tan eq (angle) tan (angle) tan add 1 (angle) tan (angle) tan mul sub div"
+so:
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"
+  - angle: "Angle A"
+  - angle: "Angle B"

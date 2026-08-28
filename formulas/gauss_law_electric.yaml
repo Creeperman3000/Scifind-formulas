@@ -1,0 +1,11 @@
+name: "Gauss's law for electricity"
+id: gauss_law_electric
+topic: electric_fields
+difficulty: 4
+equation: "(electric_field_strength) (area) mul eq (charge) (vacuum_permittivity) div"
+so:
+  - electric_field_strength: "E"
+  - area: "A"
+no:
+  - electric_field_strength: "Electric field"
+  - area: "Surface [area]"

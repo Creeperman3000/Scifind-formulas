@@ -1,0 +1,13 @@
+name: "Tetrahedral crystal field splitting"
+id: crystal_field_splitting_tetrahedral
+topic: inorganic_chemistry
+difficulty: 4
+equation: "(energy) eq (dimensionless) (energy) mul"
+so:
+  - energy: "Δ_tet"
+  - dimensionless: "4/9"
+  - energy: "Δ_oct"
+no:
+  - energy: "Tetrahedral splitting"
+  - dimensionless: "Splitting ratio"
+  - energy: "Octahedral splitting"

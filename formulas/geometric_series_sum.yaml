@@ -1,0 +1,17 @@
+name: "Sum of finite geometric series"
+id: geometric_series_sum
+topic: arithmetic
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) 1 (dimensionless) (dimensionless) pow sub mul 1 (dimensionless) sub div"
+so:
+  - dimensionless: "S_n"
+  - dimensionless: "a"
+  - dimensionless: "r"
+  - dimensionless: "n"
+  - dimensionless: "r"
+no:
+  - dimensionless: "Sum of n terms"
+  - dimensionless: "First term"
+  - dimensionless: "Common ratio"
+  - dimensionless: "Number of terms"
+  - dimensionless: ""

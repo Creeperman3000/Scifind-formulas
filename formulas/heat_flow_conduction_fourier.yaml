@@ -1,0 +1,15 @@
+name: "Fourier's law of heat conduction"
+id: heat_flow_conduction_fourier
+topic: heat_transfer
+difficulty: 2
+equation: "(heat) (time) div eq (thermal_conductivity) (area) mul (length) (temperature) (temperature) sub div mul"
+so:
+  - heat: "Q"
+  - length: "d"
+  - temperature: "T_2"
+  - temperature: "T_1"
+no:
+  - heat: "[Heat] flow"
+  - length: "Thickness"
+  - temperature: "Hot [temperature]"
+  - temperature: "Cold [temperature]"

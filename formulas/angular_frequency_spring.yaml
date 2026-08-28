@@ -1,0 +1,9 @@
+name: "Angular frequency of a spring-mass system"
+id: angular_frequency_spring
+topic: harmonic_motion
+difficulty: 2
+equation: "(angular_velocity) eq (spring_constant) (mass) div sqrt"
+so:
+  - angular_velocity: "ω"
+no:
+  - angular_velocity: "Angular frequency"

@@ -1,0 +1,13 @@
+name: "Area of a sector"
+id: area_sector
+topic: circles
+difficulty: 2
+equation: "(area) eq (length pow 2) (angle) mul 2 div"
+so:
+  - area: "A"
+  - length: "r"
+  - angle: "θ"
+no:
+  - area: "Sector [area]"
+  - length: "Radius"
+  - angle: "Central angle (radians)"

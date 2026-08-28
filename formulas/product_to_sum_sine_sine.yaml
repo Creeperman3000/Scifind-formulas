@@ -1,0 +1,21 @@
+name: "Product-to-sum: sin A sin B"
+id: product_to_sum_sine_sine
+topic: trigonometric_identities
+difficulty: 3
+equation: "(angle) sin (angle) sin mul eq (dimensionless) (angle) (angle) sub cos (angle) (angle) add cos sub mul"
+so:
+  - angle: "A"
+  - angle: "B"
+  - dimensionless: "½"
+  - angle: "A"
+  - angle: "B"
+  - angle: "A"
+  - angle: "B"
+no:
+  - angle: "[Angle] A"
+  - angle: "[Angle] B"
+  - dimensionless: ""
+  - angle: ""
+  - angle: ""
+  - angle: ""
+  - angle: ""

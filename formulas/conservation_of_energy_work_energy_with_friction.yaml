@@ -1,0 +1,15 @@
+name: "Conservation of energy with friction"
+id: conservation_of_energy_work_energy_with_friction
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) eq (energy) (energy) add (work) sub"
+so:
+  - energy: "E_f"
+  - energy: "E_i"
+  - energy: "KE_i"
+  - work: "W_nc"
+no:
+  - energy: "Final mechanical [energy]"
+  - energy: "Initial mechanical [energy]"
+  - energy: "Kinetic [energy]"
+  - work: "Non-conservative [work]"

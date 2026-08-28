@@ -1,0 +1,13 @@
+name: "Magnification from lens equation"
+id: lens_magnification_equation
+topic: lenses
+difficulty: 2
+equation: "(dimensionless) eq (length) (length) div"
+so:
+  - dimensionless: "m"
+  - length: "q"
+  - length: "p"
+no:
+  - dimensionless: "Magnification"
+  - length: "Image [distance]"
+  - length: "Object [distance]"

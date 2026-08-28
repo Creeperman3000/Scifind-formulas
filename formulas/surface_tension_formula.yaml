@@ -1,0 +1,10 @@
+name: "Surface tension"
+id: surface_tension_formula
+topic: surface_tension
+difficulty: 2
+equation: "(surface_tension) eq (force) (length) div"
+so:
+  - surface_tension: "γ"
+  - length: "L"
+no:
+  - length: "Length of contact line"

@@ -1,0 +1,7 @@
+name: "Torque from angular acceleration"
+id: torque_rotational_newton
+topic: torque
+difficulty: 2
+equation: "(torque) eq (moment_of_inertia) (angular_acceleration) mul"
+no:
+  - torque: "Net [torque]"

@@ -1,0 +1,17 @@
+name: "Parallel combination of inductors"
+id: inductance_parallel
+topic: electromagnetic_induction
+difficulty: 2
+equation: "(inductance) eq (inductance) (inductance) (inductance) (inductance) add div mul"
+so:
+  - inductance: "L_eq"
+  - inductance: "L₁"
+  - inductance: "L₂"
+  - inductance: ""
+  - inductance: ""
+no:
+  - inductance: "Equivalent [inductance]"
+  - inductance: "[Inductance] 1"
+  - inductance: "[Inductance] 2"
+  - inductance: ""
+  - inductance: ""

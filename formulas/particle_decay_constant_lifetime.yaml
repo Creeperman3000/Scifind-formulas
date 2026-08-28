@@ -1,0 +1,11 @@
+name: "Mean lifetime from decay constant"
+id: particle_decay_constant_lifetime
+topic: particle_physics
+difficulty: 1
+equation: "(time) eq (frequency) 1 div"
+so:
+  - time: "τ"
+  - frequency: "λ"
+no:
+  - time: "Mean lifetime"
+  - frequency: "Decay constant"

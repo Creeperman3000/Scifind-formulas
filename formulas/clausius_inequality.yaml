@@ -1,0 +1,9 @@
+name: "Clausius inequality"
+id: clausius_inequality
+topic: second_law
+difficulty: 4
+equation: "(entropy) gt (heat) (temperature) div"
+so:
+  - entropy: "dS"
+no:
+  - entropy: "Change in [entropy]"

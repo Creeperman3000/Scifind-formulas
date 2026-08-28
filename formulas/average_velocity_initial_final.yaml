@@ -1,0 +1,13 @@
+name: "Average velocity from initial and final"
+id: average_velocity_initial_final
+topic: constant_acceleration
+difficulty: 1
+equation: "(velocity) eq (velocity) (velocity) add 2 div"
+so:
+  - velocity: "v_avg"
+  - velocity: "u"
+  - velocity: "v"
+no:
+  - velocity: "Average [velocity]"
+  - velocity: "Initial [velocity]"
+  - velocity: "Final [velocity]"

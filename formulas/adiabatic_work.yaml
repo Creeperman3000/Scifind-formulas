@@ -1,0 +1,19 @@
+name: "Adiabatic work of an ideal gas"
+id: adiabatic_work
+topic: heat
+difficulty: 4
+equation: "(work) eq (pressure) (volume) mul (pressure) (volume) mul sub (dimensionless) 1 sub div"
+so:
+  - work: "W"
+  - pressure: "P_1"
+  - volume: "V_1"
+  - pressure: "P_2"
+  - volume: "V_2"
+  - dimensionless: "γ"
+no:
+  - work: "Adiabatic [work]"
+  - pressure: "Initial [pressure]"
+  - volume: "Initial [volume]"
+  - pressure: "Final [pressure]"
+  - volume: "Final [volume]"
+  - dimensionless: "Heat capacity ratio"

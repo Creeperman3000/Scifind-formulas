@@ -1,0 +1,5 @@
+name: "Pressure from force"
+id: pressure_force
+topic: pressure
+difficulty: 1
+equation: "(pressure) eq (force) (area) div"

@@ -1,0 +1,14 @@
+name: "Limit of detection"
+id: limit_of_detection_formula
+topic: analytical_chemistry
+difficulty: 3
+equation: "(concentration) eq (dimensionless) (dimensionless) mul (dimensionless) div"
+so:
+  - concentration: "LOD"
+  - dimensionless: "3.3"
+  - dimensionless: "σ"
+  - dimensionless: "S"
+no:
+  - concentration: "Limit of detection"
+  - dimensionless: "Standard deviation of blank"
+  - dimensionless: "Slope of calibration curve"

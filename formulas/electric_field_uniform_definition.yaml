@@ -1,0 +1,13 @@
+name: "Uniform electric field strength"
+id: electric_field_uniform_definition
+topic: electric_fields
+difficulty: 2
+equation: "(electric_field_strength) eq (electric_potential) (length) div"
+so:
+  - electric_field_strength: "E"
+  - electric_potential: "V"
+  - length: "d"
+no:
+  - electric_field_strength: "Electric [field]"
+  - electric_potential: "Potential difference"
+  - length: "Separation"

@@ -1,0 +1,14 @@
+name: "Acid dissociation constant"
+id: acid_dissociation_constant
+topic: acids_and_bases
+difficulty: 3
+equation: "(equilibrium_constant) eq (concentration) (concentration) mul (concentration) div"
+so:
+  - equilibrium_constant: "K_a"
+  - concentration: "[H⁺]"
+  - concentration: "[A⁻]"
+  - concentration: "[HA]"
+no:
+  - concentration: "Hydronium [concentration]"
+  - concentration: "Conjugate base [concentration]"
+  - concentration: "Acid [concentration]"

@@ -1,0 +1,15 @@
+name: "Resistance of a conductor"
+id: resistance_formula
+topic: circuits
+difficulty: 2
+equation: "(resistance) eq (resistance) (length) mul (area) div"
+so:
+  - resistance: "R"
+  - resistance: "ρ"
+  - length: "L"
+  - area: "A"
+no:
+  - resistance: "[Resistance]"
+  - resistance: "Resistivity"
+  - length: "Length"
+  - area: "Cross-sectional [area]"

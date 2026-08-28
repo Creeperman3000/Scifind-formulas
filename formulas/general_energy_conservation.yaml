@@ -1,0 +1,11 @@
+name: "General conservation of energy"
+id: general_energy_conservation
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) eq (energy)"
+so:
+  - energy: "E_total_i"
+  - energy: "E_total_f"
+no:
+  - energy: "Initial total [energy]"
+  - energy: "Final total [energy]"

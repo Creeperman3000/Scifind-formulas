@@ -1,0 +1,13 @@
+name: "Reaction rate from appearance of product"
+id: reaction_rate_appearance
+topic: chemical_reactions
+difficulty: 2
+equation: "(concentration) (time) div eq (concentration) (time) div"
+so:
+  - concentration: "rate"
+  - concentration: "Δ[P]"
+  - time: "Δt"
+no:
+  - concentration: "Reaction rate"
+  - concentration: "Change in product [concentration]"
+  - time: "Change in [time]"

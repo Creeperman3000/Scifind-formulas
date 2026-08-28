@@ -1,0 +1,13 @@
+name: "Newton's first law (inertia)"
+id: newton_first_law_inertia
+topic: newtons_laws
+difficulty: 1
+equation: "(force) eq 0 prop (velocity) eq (velocity)"
+so:
+  - force: "ΣF"
+  - velocity: "v_initial"
+  - velocity: "v_final"
+no:
+  - force: "Net [force]"
+  - velocity: "Initial [velocity]"
+  - velocity: "Final [velocity]"

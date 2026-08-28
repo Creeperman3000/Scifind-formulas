@@ -1,0 +1,5 @@
+name: "Capacitance definition"
+id: capacitance_formula
+topic: capacitance
+difficulty: 1
+equation: "(capacitance) eq (charge) (electric_potential) div"

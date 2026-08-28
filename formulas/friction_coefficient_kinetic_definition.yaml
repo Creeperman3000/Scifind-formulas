@@ -1,0 +1,13 @@
+name: "Coefficient of kinetic friction"
+id: friction_coefficient_kinetic_definition
+topic: friction
+difficulty: 1
+equation: "(coefficient_of_friction) eq (force) (force) div"
+so:
+  - coefficient_of_friction: "μ_k"
+  - force: "F_k"
+  - force: "N"
+no:
+  - coefficient_of_friction: "Coefficient of kinetic friction"
+  - force: "Kinetic friction [force]"
+  - force: "Normal [force]"

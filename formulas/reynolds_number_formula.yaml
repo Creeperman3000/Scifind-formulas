@@ -1,0 +1,9 @@
+name: "Reynolds number"
+id: reynolds_number_formula
+topic: reynolds_number
+difficulty: 3
+equation: "(reynolds_number) eq (density) (velocity) mul (length) mul (dynamic_viscosity) div"
+so:
+  - length: "L"
+no:
+  - length: "Characteristic length"

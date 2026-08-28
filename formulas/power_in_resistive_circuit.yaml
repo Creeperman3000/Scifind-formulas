@@ -1,0 +1,9 @@
+name: "Power dissipation in a resistor"
+id: power_in_resistive_circuit
+topic: circuits
+difficulty: 1
+equation: "(power) eq (current pow 2) (resistance) mul"
+so:
+  - power: "P"
+no:
+  - power: "Power dissipated"

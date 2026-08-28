@@ -1,0 +1,19 @@
+name: "Perfect square of a difference"
+id: perfect_square_diff
+topic: polynomials
+difficulty: 1
+equation: "(dimensionless) (dimensionless) sub pow 2 eq (dimensionless pow 2) (dimensionless) (dimensionless) mul 2 mul sub (dimensionless pow 2) add"
+so:
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "a"
+  - dimensionless: "a"
+  - dimensionless: "b"
+  - dimensionless: "b"
+no:
+  - dimensionless: "Term a"
+  - dimensionless: "Term b"
+  - dimensionless: "a²"
+  - dimensionless: ""
+  - dimensionless: ""
+  - dimensionless: "b²"

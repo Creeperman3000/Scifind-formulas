@@ -1,0 +1,9 @@
+name: "Radiation exposure"
+id: exposure_formula
+topic: nuclear_physics
+difficulty: 2
+equation: "(exposure) eq (charge) (mass) div"
+so:
+  - exposure: "X"
+no:
+  - exposure: "[Exposure]"

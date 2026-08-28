@@ -1,0 +1,19 @@
+name: "Heat transfer by conduction (Fourier's law)"
+id: heat_transfer_conduction_thermal_resistance
+topic: heat_transfer
+difficulty: 2
+equation: "(heat) (time) div eq (temperature) (temperature) sub (length) (thermal_conductivity) (area) mul div div"
+so:
+  - heat: "Q"
+  - temperature: "T_1"
+  - temperature: "T_2"
+  - length: "L"
+  - thermal_conductivity: "k"
+  - area: "A"
+no:
+  - heat: "[Heat] transferred"
+  - temperature: "Hot [temperature]"
+  - temperature: "Cold [temperature]"
+  - length: "Thickness"
+  - thermal_conductivity: "Thermal [conductivity]"
+  - area: "Cross-sectional [area]"

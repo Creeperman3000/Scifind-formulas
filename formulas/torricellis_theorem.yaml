@@ -1,0 +1,11 @@
+name: "Torricelli's theorem"
+id: torricellis_theorem
+topic: bernoulli_equation
+difficulty: 2
+equation: "(velocity) eq (dimensionless) 2 mul (standard_gravity) mul (length) mul sqrt"
+so:
+  - velocity: "v"
+  - length: "h"
+no:
+  - velocity: "Efflux [velocity]"
+  - length: "Depth"

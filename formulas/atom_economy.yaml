@@ -1,0 +1,15 @@
+name: "Atom economy"
+id: atom_economy
+topic: chemical_reactions
+difficulty: 2
+equation: "(dimensionless) eq (mass) (mass) div (dimensionless) mul"
+so:
+  - dimensionless: "% AE"
+  - mass: "m_desired"
+  - mass: "m_total"
+  - dimensionless: "100"
+no:
+  - dimensionless: "Atom economy"
+  - mass: "Mass of desired product"
+  - mass: "Total mass of reactants"
+  - dimensionless: ""

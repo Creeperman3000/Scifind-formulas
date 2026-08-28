@@ -1,0 +1,15 @@
+name: "Elastic energy density"
+id: spring_energy_density
+topic: springs
+difficulty: 3
+equation: "(energy_density) eq (spring_constant) (length pow 2) mul (volume) 2 mul div"
+so:
+  - energy_density: "u"
+  - spring_constant: "k"
+  - length: "x"
+  - volume: "V"
+no:
+  - energy_density: "Elastic [energy density]"
+  - spring_constant: "Spring [constant]"
+  - length: "Displacement"
+  - volume: "Volume"

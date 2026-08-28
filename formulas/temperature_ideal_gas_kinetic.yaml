@@ -1,0 +1,11 @@
+name: "Temperature from average kinetic energy"
+id: temperature_ideal_gas_kinetic
+topic: temperature
+difficulty: 3
+equation: "(temperature) eq (energy) 2 mul (boltzmann_constant) 3 mul div"
+so:
+  - temperature: "T"
+  - energy: "KE_avg"
+no:
+  - temperature: "[Temperature]"
+  - energy: "Average kinetic [energy] per molecule"

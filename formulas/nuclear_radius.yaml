@@ -1,0 +1,13 @@
+name: "Nuclear radius"
+id: nuclear_radius
+topic: nuclear_physics
+difficulty: 3
+equation: "(length) eq (dimensionless) (dimensionless) 3 div pow mul"
+so:
+  - length: "R"
+  - dimensionless: "R_0"
+  - dimensionless: "A"
+no:
+  - length: "Nuclear [radius]"
+  - dimensionless: "Nuclear radius constant"
+  - dimensionless: "Mass number"

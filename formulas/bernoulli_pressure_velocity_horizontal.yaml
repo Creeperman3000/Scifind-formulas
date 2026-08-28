@@ -1,0 +1,19 @@
+name: "Bernoulli: pressure-velocity relation (horizontal)"
+id: bernoulli_pressure_velocity_horizontal
+topic: bernoulli_equation
+difficulty: 2
+equation: "(pressure) (density) (velocity) (velocity) mul 2 div add eq (pressure) (density) (velocity) (velocity) mul 2 div add"
+so:
+  - pressure: "P_1"
+  - density: "ρ"
+  - velocity: "v_1"
+  - pressure: "P_2"
+  - density: "ρ"
+  - velocity: "v_2"
+no:
+  - pressure: "[Pressure] at point 1"
+  - density: "Fluid [density]"
+  - velocity: "[Velocity] at point 1"
+  - pressure: "[Pressure] at point 2"
+  - density: "Fluid [density]"
+  - velocity: "[Velocity] at point 2"

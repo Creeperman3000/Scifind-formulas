@@ -1,0 +1,11 @@
+name: "Relativistic kinetic energy"
+id: relativistic_kinetic_energy
+topic: relativity
+difficulty: 4
+equation: "(energy) eq (lorentz_factor) 1 sub (mass) (speed_of_light pow 2) mul mul"
+so:
+  - energy: "K"
+  - mass: "m"
+no:
+  - energy: "Relativistic kinetic [energy]"
+  - mass: "Rest [mass]"

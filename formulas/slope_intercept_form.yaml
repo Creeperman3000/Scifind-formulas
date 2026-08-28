@@ -1,0 +1,15 @@
+name: "Slope-intercept form"
+id: slope_intercept_form
+topic: equations
+difficulty: 1
+equation: "(length) eq (reynolds_number) (length) mul (length) add"
+so:
+  - length: "y"
+  - reynolds_number: "m"
+  - length: "x"
+  - length: "b"
+no:
+  - length: "y-coordinate"
+  - reynolds_number: "Slope"
+  - length: "x-coordinate"
+  - length: "y-intercept"

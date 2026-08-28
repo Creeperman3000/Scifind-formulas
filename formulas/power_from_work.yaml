@@ -1,0 +1,5 @@
+name: "Power from work"
+id: power_from_work
+topic: power
+difficulty: 1
+equation: "(power) eq (work) (time) div"

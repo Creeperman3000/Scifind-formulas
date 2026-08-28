@@ -1,0 +1,13 @@
+name: "Factorial definition"
+id: factorial_definition
+topic: arithmetic
+difficulty: 1
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul"
+so:
+  - dimensionless: "n!"
+  - dimensionless: "n"
+  - dimensionless: "(n-1)!"
+no:
+  - dimensionless: "n factorial"
+  - dimensionless: "[n]"
+  - dimensionless: "(n-1) factorial"

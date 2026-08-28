@@ -1,0 +1,19 @@
+name: "Van der Waals equation"
+id: van_der_waals_equation
+topic: ideal_gases
+difficulty: 4
+equation: "(pressure) (amount) pow 2 (van_der_waals_attraction) mul (volume) pow 2 div add (volume) (amount) (van_der_waals_volume) mul sub mul eq (amount) (gas_constant) mul (temperature) mul"
+so:
+  - pressure: "P"
+  - amount: "n"
+  - van_der_waals_attraction: "a"
+  - volume: "V"
+  - volume: "V"
+  - amount: "n"
+  - van_der_waals_volume: "b"
+  - amount: "n"
+  - temperature: "T"
+no:
+  - van_der_waals_attraction: "Attraction parameter"
+  - van_der_waals_volume: "Volume parameter"
+  - amount: "Amount"

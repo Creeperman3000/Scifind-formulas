@@ -1,0 +1,15 @@
+name: "Equilibrium constant from standard Gibbs"
+id: equilibrium_constant_from_gibbs
+topic: chemical_equilibrium
+difficulty: 3
+equation: "(dimensionless) eq (energy) (gas_constant) (temperature) mul div neg exp"
+so:
+  - dimensionless: "K"
+  - energy: "ΔG°"
+  - gas_constant: "R"
+  - temperature: "T"
+no:
+  - dimensionless: "Equilibrium constant K"
+  - energy: "Standard Gibbs free [energy] change"
+  - gas_constant: "Gas [constant]"
+  - temperature: "Absolute [temperature]"

@@ -1,0 +1,12 @@
+name: "Stopping distance from friction"
+id: stopping_distance_braking
+topic: friction
+difficulty: 2
+equation: "(length) eq (velocity pow 2) (coefficient_of_friction) (standard_gravity) mul 2 mul div"
+so:
+  - length: "d"
+  - coefficient_of_friction: "μ"
+no:
+  - length: "Braking [distance]"
+  - velocity: "Initial [velocity]"
+  - coefficient_of_friction: "Coefficient of friction"

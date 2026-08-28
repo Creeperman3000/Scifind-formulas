@@ -1,0 +1,17 @@
+name: "Standard form of a circle"
+id: circle_standard_form
+topic: circles
+difficulty: 1
+equation: "(length) (length) sub pow 2 (length) (length) sub pow 2 add eq (length pow 2)"
+so:
+  - length: "x"
+  - length: "h"
+  - length: "y"
+  - length: "k"
+  - length: "r"
+no:
+  - length: "x-coordinate"
+  - length: "Center x"
+  - length: "y-coordinate"
+  - length: "Center y"
+  - length: "Radius"

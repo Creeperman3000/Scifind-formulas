@@ -1,0 +1,11 @@
+name: "Boltzmann's entropy formula"
+id: boltzmann_entropy_formula
+topic: entropy
+difficulty: 4
+equation: "(entropy) eq (boltzmann_constant) (dimensionless) ln mul"
+so:
+  - entropy: "S"
+  - dimensionless: "Ω"
+no:
+  - entropy: "[Entropy]"
+  - dimensionless: "Number of microstates"

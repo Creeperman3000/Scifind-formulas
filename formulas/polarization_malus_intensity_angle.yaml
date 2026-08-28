@@ -1,0 +1,13 @@
+name: "Intensity after polarizer (Malus's law)"
+id: polarization_malus_intensity_angle
+topic: polarization
+difficulty: 2
+equation: "(irradiance) eq (irradiance) (angle) cos pow 2 mul"
+so:
+  - irradiance: "I"
+  - irradiance: "I_0"
+  - angle: "θ"
+no:
+  - irradiance: "Transmitted intensity"
+  - irradiance: "Incident intensity"
+  - angle: "Angle between axes"

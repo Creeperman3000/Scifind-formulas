@@ -1,0 +1,11 @@
+name: "Molar conductivity"
+id: molar_conductivity
+topic: electrochemistry
+difficulty: 2
+equation: "(conductance) eq (conductance) (concentration) div"
+so:
+  - conductance: "Λ_m"
+  - conductance: "κ"
+no:
+  - conductance: "Molar [conductivity]"
+  - conductance: "Specific conductivity"

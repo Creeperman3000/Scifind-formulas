@@ -1,0 +1,13 @@
+name: "Path difference in double-slit interference"
+id: interference_two_slit_path_diff
+topic: interference
+difficulty: 2
+equation: "(length) eq (length) (angle) sin mul"
+so:
+  - length: "ΔL"
+  - length: "d"
+  - angle: "θ"
+no:
+  - length: "Path difference"
+  - length: "Slit separation"
+  - angle: "Angle from central maximum"

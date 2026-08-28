@@ -1,0 +1,7 @@
+name: "Kirchhoff's voltage law"
+id: kirchhoff_voltage_law
+topic: circuits
+difficulty: 2
+equation: "(electric_potential) sum eq 0"
+no:
+  - electric_potential: "Sum of potential differences"

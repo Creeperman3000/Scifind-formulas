@@ -1,0 +1,13 @@
+name: "Excess reactant remaining"
+id: excess_reactant_remaining
+topic: limiting_reactants
+difficulty: 2
+equation: "(amount) eq (amount) (amount) sub"
+so:
+  - amount: "n_excess"
+  - amount: "n_initial"
+  - amount: "n_consumed"
+no:
+  - amount: "Excess remaining [amount]"
+  - amount: "Initial [amount]"
+  - amount: "Consumed [amount]"

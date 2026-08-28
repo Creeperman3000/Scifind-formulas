@@ -1,0 +1,11 @@
+name: "Relativistic momentum"
+id: relativistic_momentum
+topic: relativity
+difficulty: 4
+equation: "(momentum) eq (lorentz_factor) (mass) (velocity) mul mul"
+so:
+  - momentum: "p"
+  - mass: "m"
+  - velocity: "v"
+no:
+  - momentum: "Relativistic [momentum]"

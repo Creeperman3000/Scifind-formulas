@@ -1,0 +1,9 @@
+name: "Q factor of a series RLC circuit"
+id: q_factor_series_rlc
+topic: circuits
+difficulty: 4
+equation: "(dimensionless) eq (inductance) (capacitance) div sqrt (resistance) div"
+so:
+  - dimensionless: "Q"
+no:
+  - dimensionless: "Quality [factor]"

@@ -1,0 +1,17 @@
+name: "Product rule"
+id: derivative_product_rule
+topic: derivatives
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) mul (dimensionless) (dimensionless) mul add"
+so:
+  - dimensionless: "d/dx(f·g)"
+  - dimensionless: "df/dx"
+  - dimensionless: "g"
+  - dimensionless: "f"
+  - dimensionless: "dg/dx"
+no:
+  - dimensionless: "Derivative of product"
+  - dimensionless: "Derivative of f"
+  - dimensionless: "g"
+  - dimensionless: "f"
+  - dimensionless: "Derivative of g"

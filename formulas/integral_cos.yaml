@@ -1,0 +1,11 @@
+name: "Integral of cosine"
+id: integral_cos
+topic: integrals
+difficulty: 2
+equation: "(dimensionless) eq (angle) sin"
+so:
+  - dimensionless: "∫cos(x)dx"
+  - angle: "x"
+no:
+  - dimensionless: "∫ cos(x) dx"
+  - angle: "[Variable]"

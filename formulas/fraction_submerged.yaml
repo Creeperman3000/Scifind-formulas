@@ -1,0 +1,13 @@
+name: "Fraction of object submerged in fluid"
+id: fraction_submerged
+topic: buoyancy
+difficulty: 2
+equation: "(dimensionless) eq (density) (density) div"
+so:
+  - dimensionless: "f"
+  - density: "ρ_obj"
+  - density: "ρ_fluid"
+no:
+  - dimensionless: "Fraction submerged"
+  - density: "Object [density]"
+  - density: "Fluid [density]"

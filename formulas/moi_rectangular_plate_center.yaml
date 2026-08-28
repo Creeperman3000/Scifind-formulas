@@ -1,0 +1,15 @@
+name: "Moment of inertia of a rectangular plate (center axis)"
+id: moi_rectangular_plate_center
+topic: moment_of_inertia
+difficulty: 3
+equation: "(moment_of_inertia) eq (mass) (length pow 2) (length pow 2) add mul 12 div"
+so:
+  - moment_of_inertia: "I"
+  - mass: "M"
+  - length: "a"
+  - length: "b"
+no:
+  - moment_of_inertia: "Moment of [inertia]"
+  - mass: "Mass"
+  - length: "Side [a]"
+  - length: "Side [b]"

@@ -1,0 +1,13 @@
+name: "Derivative of Absolute Value"
+id: derivative_abs_x
+topic: derivatives
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless) (dimensionless) abs div"
+so:
+  - dimensionless: "d/dx(|x|)"
+  - dimensionless: "x"
+  - dimensionless: "x"
+no:
+  - dimensionless: "Derivative of absolute value"
+  - dimensionless: "[Variable]"
+  - dimensionless: "[Variable]"

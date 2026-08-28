@@ -1,0 +1,11 @@
+name: "Torque as cross product magnitude"
+id: torque_cross_product_formula
+topic: torque
+difficulty: 2
+equation: "(torque) eq (length) (force) mul (angle) sin mul"
+so:
+  - length: "r"
+  - angle: "θ"
+no:
+  - length: "Lever arm"
+  - angle: "Angle between [force] and lever arm"

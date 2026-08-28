@@ -1,0 +1,13 @@
+name: "Simple harmonic oscillator ODE (standard form)"
+id: sho_ode_standard
+topic: differential_equations
+difficulty: 4
+equation: "(dimensionless) rmd (dimensionless) rmd (angular_velocity) (angular_velocity) mul (displacement) mul add eq 0"
+so:
+  - dimensionless: "d²x/dt²"
+  - angular_velocity: "ω"
+  - displacement: "x"
+no:
+  - dimensionless: "Second derivative"
+  - angular_velocity: "Angular [frequency]"
+  - displacement: "[Displacement]"

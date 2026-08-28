@@ -1,0 +1,17 @@
+name: "Current division in parallel resistors (two)"
+id: circuit_current_division_parallel
+topic: circuits
+difficulty: 2
+equation: "(current) eq (current) (resistance) (resistance) (resistance) add div mul"
+so:
+  - current: "I_1"
+  - current: "I"
+  - resistance: "R_2"
+  - resistance: "R_1"
+  - resistance: "R_2"
+no:
+  - current: "Current through R₁"
+  - current: "Total current"
+  - resistance: "Opposite resistance"
+  - resistance: "[Resistance] R₁"
+  - resistance: "[Resistance] R₂"

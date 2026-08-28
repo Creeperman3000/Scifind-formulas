@@ -1,0 +1,21 @@
+name: "Bernoulli energy head form"
+id: bernoulli_energy_head_form
+topic: bernoulli_equation
+difficulty: 3
+equation: "(length) eq (pressure) (density) (acceleration) mul div (velocity) (velocity) mul (acceleration) 2 mul div add (length) add"
+so:
+  - length: "H"
+  - pressure: "P"
+  - density: "ρ"
+  - acceleration: "g"
+  - velocity: "v"
+  - acceleration: "g"
+  - length: "z"
+no:
+  - length: "Total [head]"
+  - pressure: "[Pressure]"
+  - density: "Fluid [density]"
+  - acceleration: "Gravitational [acceleration]"
+  - velocity: "Flow [velocity]"
+  - acceleration: "Gravitational [acceleration]"
+  - length: "Elevation [head]"

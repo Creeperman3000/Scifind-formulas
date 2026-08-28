@@ -1,0 +1,13 @@
+name: "Thermodynamic definition of temperature"
+id: thermodynamic_temperature_definition
+topic: second_law
+difficulty: 3
+equation: "(temperature) eq (heat) (entropy) div"
+so:
+  - temperature: "T"
+  - heat: "ΔQ_rev"
+  - entropy: "ΔS"
+no:
+  - temperature: "Thermodynamic [temperature]"
+  - heat: "Reversible heat transfer"
+  - entropy: "Entropy change"

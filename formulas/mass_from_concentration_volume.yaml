@@ -1,0 +1,15 @@
+name: "Mass from concentration and volume"
+id: mass_from_concentration_volume
+topic: solution_stoichiometry
+difficulty: 1
+equation: "(mass) eq (concentration) (molar_mass) mul (volume) mul"
+so:
+  - mass: "m"
+  - concentration: "c"
+  - molar_mass: "M"
+  - volume: "V"
+no:
+  - mass: "Mass of [solute]"
+  - concentration: "Molar [concentration]"
+  - molar_mass: "Molar [mass]"
+  - volume: "Volume of [solution]"

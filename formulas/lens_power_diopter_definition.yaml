@@ -1,0 +1,11 @@
+name: "Lens power in diopters"
+id: lens_power_diopter_definition
+topic: lenses
+difficulty: 1
+equation: "(wavenumber) eq (length) 1 div"
+so:
+  - wavenumber: "P"
+  - length: "f"
+no:
+  - wavenumber: "Lens power"
+  - length: "Focal length"

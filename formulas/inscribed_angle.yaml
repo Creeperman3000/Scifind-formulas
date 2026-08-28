@@ -1,0 +1,11 @@
+name: "Inscribed angle theorem"
+id: inscribed_angle
+topic: circles
+difficulty: 1
+equation: "(angle) eq (angle) 2 div"
+so:
+  - angle: "θ_i"
+  - angle: "θ_c"
+no:
+  - angle: "Inscribed [angle]"
+  - angle: "Central [angle]"

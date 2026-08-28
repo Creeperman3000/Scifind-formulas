@@ -1,0 +1,13 @@
+name: "Energy conservation: spring-mass system"
+id: energy_conservation_spring_mass
+topic: conservation_of_energy
+difficulty: 2
+equation: "(energy) eq (energy) (energy) add"
+so:
+  - energy: "E_total"
+  - energy: "KE"
+  - energy: "PE"
+no:
+  - energy: "Total mechanical [energy]"
+  - energy: "Kinetic [energy]"
+  - energy: "Potential [energy]"

@@ -1,0 +1,13 @@
+name: "Regular polygon perimeter"
+id: regular_polygon_perimeter
+topic: polygons
+difficulty: 1
+equation: "(length) eq (dimensionless) (length) mul"
+so:
+  - length: "P"
+  - dimensionless: "n"
+  - length: "s"
+no:
+  - length: "[Perimeter]"
+  - dimensionless: "Number of sides"
+  - length: "Side [length]"

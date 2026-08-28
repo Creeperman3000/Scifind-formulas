@@ -1,0 +1,13 @@
+name: "Error propagation for sum"
+id: error_propagation_sum
+topic: statistics
+difficulty: 3
+equation: "(dimensionless) eq (dimensionless pow 2) (dimensionless pow 2) add"
+so:
+  - dimensionless: "σ_f"
+  - dimensionless: "σ_x"
+  - dimensionless: "σ_y"
+no:
+  - dimensionless: "Error propagation for [sum]"
+  - dimensionless: "Error in x"
+  - dimensionless: "Error in y"

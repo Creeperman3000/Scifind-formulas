@@ -1,0 +1,11 @@
+name: "First law: adiabatic process"
+id: first_law_adiabatic_process
+topic: first_law
+difficulty: 3
+equation: "(energy) eq (work)"
+so:
+  - energy: "ΔU"
+  - work: "W"
+no:
+  - energy: "Change in internal [energy]"
+  - work: "Work done on system"

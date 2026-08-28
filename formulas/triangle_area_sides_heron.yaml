@@ -1,0 +1,31 @@
+name: "Triangle area from three sides (Heron's formula)"
+id: triangle_area_sides_heron
+topic: triangles
+difficulty: 3
+equation: "(area) eq (length) (length) (length) add add 2 div (length) (length) (length) add add 2 div (length) sub mul (length) (length) (length) add add 2 div (length) sub mul (length) (length) (length) add add 2 div (length) sub mul sqrt"
+so:
+  - area: "A"
+  - length: "a"
+  - length: "b"
+  - length: "c"
+  - length: "a"
+  - length: "b"
+  - length: "c"
+  - length: "b"
+  - length: "a"
+  - length: "b"
+  - length: "c"
+  - length: "c"
+no:
+  - area: "[Area]"
+  - length: "Side a"
+  - length: "Side b"
+  - length: "Side c"
+  - length: "Side a"
+  - length: "Side b"
+  - length: "Side c"
+  - length: "Side b"
+  - length: "Side a"
+  - length: "Side b"
+  - length: "Side c"
+  - length: "Side c"

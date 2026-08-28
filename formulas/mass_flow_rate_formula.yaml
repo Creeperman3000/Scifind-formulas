@@ -1,0 +1,17 @@
+name: "Mass flow rate"
+id: mass_flow_rate_formula
+topic: continuity_equation
+difficulty: 1
+equation: "(mass) (time) div eq (density) (area) mul (velocity) mul"
+so:
+  - mass: "ṁ"
+  - time: "t"
+  - density: "ρ"
+  - area: "A"
+  - velocity: "v"
+no:
+  - mass: "Mass flow rate"
+  - time: "Time"
+  - density: "Fluid [density]"
+  - area: "Cross-sectional [area]"
+  - velocity: "Flow [velocity]"

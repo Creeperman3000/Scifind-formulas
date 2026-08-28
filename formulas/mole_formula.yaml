@@ -1,0 +1,5 @@
+name: "Amount of substance from mass"
+id: mole_formula
+topic: mole_concept
+difficulty: 1
+equation: "(amount) eq (mass) (molar_mass) div"

@@ -1,0 +1,9 @@
+name: "Induced EMF from rate of change of magnetic flux"
+id: induced_emf_coil_rate_change
+topic: electromagnetic_induction
+difficulty: 2
+equation: "(electromagnetic_induction) eq (magnetic_flux) (time) Delta rmd mul neg"
+so:
+  - electromagnetic_induction: "ε"
+no:
+  - electromagnetic_induction: "Induced EMF"

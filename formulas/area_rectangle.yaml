@@ -1,0 +1,11 @@
+name: "Area of a rectangle"
+id: area_rectangle
+topic: plane_geometry
+difficulty: 1
+equation: "(area) eq (length) (length) mul"
+so:
+  - length: "w"
+  - length: "h"
+no:
+  - length: "Width"
+  - length: "Height"

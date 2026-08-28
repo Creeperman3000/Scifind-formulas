@@ -1,0 +1,17 @@
+name: "Degree of polarization from intensity"
+id: degree_of_polarization_formula
+topic: polarization
+difficulty: 3
+equation: "(degree_of_polarization) eq (irradiance) (irradiance) sub (irradiance) (irradiance) add div"
+so:
+  - degree_of_polarization: "P"
+  - irradiance: "I_max"
+  - irradiance: "I_min"
+  - irradiance: "I_max"
+  - irradiance: "I_min"
+no:
+  - degree_of_polarization: "[Degree of polarization]"
+  - irradiance: "Maximum [intensity]"
+  - irradiance: "Minimum [intensity]"
+  - irradiance: ""
+  - irradiance: ""

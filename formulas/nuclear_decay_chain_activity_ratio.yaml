@@ -1,0 +1,15 @@
+name: "Activity ratio in secular equilibrium"
+id: nuclear_decay_chain_activity_ratio
+topic: nuclear_physics
+difficulty: 3
+equation: "(activity) (activity) div eq (time) (time) div"
+so:
+  - activity: "A_2"
+  - activity: "A_1"
+  - time: "t_½_2"
+  - time: "t_½_1"
+no:
+  - activity: "Daughter activity"
+  - activity: "Parent activity"
+  - time: "Daughter half-life"
+  - time: "Parent half-life"

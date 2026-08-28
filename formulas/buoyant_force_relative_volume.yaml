@@ -1,0 +1,9 @@
+name: "Buoyant force from volume of displaced fluid"
+id: buoyant_force_relative_volume
+topic: buoyancy
+difficulty: 1
+equation: "(force) eq (density) (standard_gravity) mul (volume) mul"
+so:
+  - force: "F_b"
+no:
+  - force: "Buoyant [force]"

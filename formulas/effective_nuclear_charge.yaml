@@ -1,0 +1,13 @@
+name: "Effective nuclear charge (Slater's rules)"
+id: effective_nuclear_charge
+topic: atomic_structure
+difficulty: 2
+equation: "(dimensionless) eq (dimensionless) (dimensionless) sub"
+so:
+  - dimensionless: "Z_eff"
+  - dimensionless: "Z"
+  - dimensionless: "σ"
+no:
+  - dimensionless: "Effective nuclear charge"
+  - dimensionless: "Atomic number"
+  - dimensionless: "Shielding constant"

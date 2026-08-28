@@ -1,0 +1,13 @@
+name: "Motional electromotive force"
+id: motional_emf
+topic: electromagnetic_induction
+difficulty: 3
+equation: "(electric_potential) eq (magnetic_flux_density) (length) (velocity) mul mul"
+so:
+  - electric_potential: "ε"
+  - magnetic_flux_density: "B"
+  - length: "L"
+no:
+  - electric_potential: "Induced EMF"
+  - magnetic_flux_density: "Magnetic field"
+  - length: "Conductor length"

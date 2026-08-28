@@ -1,0 +1,5 @@
+name: "Surface charge density"
+id: surface_charge_density_formula
+topic: electrostatics
+difficulty: 1
+equation: "(surface_charge_density) eq (charge) (area) div"

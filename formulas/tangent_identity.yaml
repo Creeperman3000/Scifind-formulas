@@ -1,0 +1,12 @@
+name: "Tangent identity"
+id: tangent_identity
+topic: trigonometric_identities
+difficulty: 1
+equation: "(dimensionless) eq (angle) sin (angle) cos div"
+so:
+  - dimensionless: "tan(θ)"
+  - angle: "θ"
+  - angle: "θ"
+no:
+  - angle: "Angle"
+  - angle: ""

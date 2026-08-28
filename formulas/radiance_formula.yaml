@@ -1,0 +1,5 @@
+name: "Radiance from radiant intensity and area"
+id: radiance_formula
+topic: electromagnetic_waves
+difficulty: 3
+equation: "(radiance) eq (radiant_intensity) (area) div"

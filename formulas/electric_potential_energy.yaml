@@ -1,0 +1,13 @@
+name: "Electric potential energy of two point charges"
+id: electric_potential_energy
+topic: electrostatics
+difficulty: 3
+equation: "(energy) eq (coulomb_constant) (charge) (charge) mul mul (length) div"
+so:
+  - energy: "U_e"
+  - charge: "q_1"
+  - charge: "q_2"
+  - length: "r"
+no:
+  - energy: "Electric potential [energy]"
+  - length: "Separation"

@@ -1,0 +1,15 @@
+name: "Second law: maximum possible efficiency"
+id: second_law_carnot_limit
+topic: second_law
+difficulty: 2
+equation: "(dimensionless) lt (dimensionless) (dimensionless) sub (dimensionless) div"
+so:
+  - dimensionless: "η"
+  - dimensionless: "T_h"
+  - dimensionless: "T_c"
+  - dimensionless: "T_h"
+no:
+  - dimensionless: "Engine [efficiency]"
+  - dimensionless: "Hot reservoir [temperature]"
+  - dimensionless: "Cold reservoir [temperature]"
+  - dimensionless: "Hot reservoir [temperature]"

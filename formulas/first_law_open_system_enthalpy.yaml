@@ -1,0 +1,15 @@
+name: "First law for open system (enthalpy)"
+id: first_law_open_system_enthalpy
+topic: first_law
+difficulty: 4
+equation: "(energy) eq (energy) (pressure) (volume) mul add"
+so:
+  - energy: "H"
+  - energy: "U"
+  - pressure: "P"
+  - volume: "V"
+no:
+  - energy: "Enthalpy"
+  - energy: "Internal [energy]"
+  - pressure: "[Pressure]"
+  - volume: "[Volume]"

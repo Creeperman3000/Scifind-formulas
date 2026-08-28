@@ -1,0 +1,13 @@
+name: "Moment of inertia of a solid cone"
+id: moi_cone
+topic: moment_of_inertia
+difficulty: 4
+equation: "(moment_of_inertia) eq (mass) (length pow 2) mul 3 mul 10 div"
+so:
+  - moment_of_inertia: "I"
+  - mass: "M"
+  - length: "R"
+no:
+  - moment_of_inertia: "Moment of [inertia]"
+  - mass: "Mass"
+  - length: "Base [radius]"

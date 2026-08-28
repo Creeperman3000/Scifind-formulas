@@ -1,0 +1,13 @@
+name: "Binding energy per nucleon"
+id: nuclear_binding_energy_per_nucleon
+topic: nuclear_physics
+difficulty: 2
+equation: "(energy) eq (energy) (dimensionless) div"
+so:
+  - energy: "E_b/A"
+  - energy: "E_b"
+  - dimensionless: "A"
+no:
+  - energy: "Binding [energy] per nucleon"
+  - energy: "Total binding [energy]"
+  - dimensionless: "Mass number"
