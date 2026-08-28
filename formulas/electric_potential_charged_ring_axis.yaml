@@ -2,16 +2,23 @@ name: Electric potential on axis of a charged ring
 id: electric_potential_charged_ring_axis
 topic: electric_potential
 difficulty: 8
-description: "Valid on the axis of a uniformly charged ring."
-equation: electric_potential eq coulomb_constant mul (charge) frac sqrt ((length pow
+links:
+- https://books.physics.oregonstate.edu/GSF/ring.html
+- https://phys.libretexts.org/Courses/Kettering_University/Electricity_and_Magnetism_with_Applications_to_Amateur_Radio_and_Wireless_Technology/03%3A_The_Electric_Potential/3.07%3A_Common_Models_of_Electric_Potential
+- https://www.vedantu.com/jee-main/physics-electric-field-due-to-a-uniformly-charged-ring
+- https://www.shaalaa.com/question-bank-solutions/consider-circular-ring-radius-r-uniformly-charged-linear-charge-density-find-electric-potential-point-axis-distance-x-centre-ring_68913
+description: Gives the electric potential at a point on the symmetry axis of a thin
+  ring carrying charge uniformly distributed around its circumference. Because every
+  charge element is the same distance from an axial point, all contributions add equally;
+  the potential is taken as zero at infinity and reduces to the point-charge value
+  far from the ring.
+equation: electric_potential eq frac (coulomb_constant mul charge) sqrt ((length pow
   2) add length pow 2 ) 2
 symbol_overrides:
-- electric_potential: ''
-- charge: ''
 - length: R
 - length: x
 name_overrides:
-- electric_potential: Electric [potential]
-- charge: '[Charge]'
-- length: Ring [radius]
-- length: Distance on [axis]
+- electric_potential: '[electric_potential]'
+- charge: '[charge|Charge]'
+- length: Ring radius
+- length: Distance on axis

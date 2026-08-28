@@ -2,15 +2,20 @@ name: Molar mass of a compound
 id: molar_mass_compound
 topic: molar_mass
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Molar_mass#Molar_masses_of_compounds
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/02%3A_Atoms_Molecules_and_Chemical_Reactions/2.06%3A_Molar_Mass
+  - https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mass-spectrometry/v/molecular-and-empirical-formulas
+  - https://courses.lumenlearning.com/introchem/chapter/molar-mass/
+description: "The molar mass of a compound equals the sum of the atomic molar masses of its constituent elements, each weighted by the number of atoms of that element appearing in one formula unit. This is how a chemical formula is converted into a mass per mole, e.g. for water the molar mass is roughly twice the atomic mass of hydrogen plus the atomic mass of oxygen."
 equation: molar_mass eq molar_mass mul (dimensionless) add molar_mass mul dimensionless
 symbol_overrides:
 - molar_mass: M_A
 - molar_mass: M_B
 - dimensionless: x
-- molar_mass: ''
 - dimensionless: y
 name_overrides:
-- molar_mass: Compound [molar mass]
+- molar_mass: Compound [molar_mass]
 - molar_mass: Atomic [mass] of A
 - dimensionless: Number of A atoms
 - molar_mass: Atomic [mass] of B

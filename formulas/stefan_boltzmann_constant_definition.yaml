@@ -2,12 +2,18 @@ name: Stefan-Boltzmann constant from fundamental constants
 id: stefan_boltzmann_constant_definition
 topic: heat_transfer
 difficulty: 9
-description: "Stefan-Boltzmann constant expressed via fundamental constants; σ = 2 π⁵ k_B⁴ / (15 h³ c²)."
+links:
+- https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law
+- https://en.wikipedia.org/wiki/Boltzmann_constant
+- https://en.wikipedia.org/wiki/Planck_constant
+- https://www.britannica.com/science/blackbody-radiation
+- https://physics.nist.gov/cgi-bin/cuu/Value?sigma
+description: The Stefan–Boltzmann constant can be expressed entirely in terms of Boltzmann’s
+  constant, Planck’s constant, the speed of light, and π. Following the 2019 SI redefinition,
+  k, h, and c are fixed exactly, so σ is also exactly determined.
 equation: dimensionless eq 2 mul (pi pow 5) mul (boltzmann_constant pow 4) frac 15
   mul (planck_constant pow 3) mul speed_of_light pow 2
 symbol_overrides:
 - dimensionless: σ
-- dimensionless: '2'
 name_overrides:
 - dimensionless: Stefan-Boltzmann constant
-- dimensionless: Two

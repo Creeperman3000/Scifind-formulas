@@ -2,11 +2,14 @@ name: Wien's displacement law
 id: wiens_displacement_law
 topic: heat_transfer
 difficulty: 8
-description: "Valid for blackbody radiation; relates peak emission wavelength to temperature."
+links:
+  - https://en.wikipedia.org/wiki/Wien%27s_displacement_law
+  - https://physics.info/wien-displacement/
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/01%3A_The_Dawn_of_the_Quantum_Theory/1.02%3A_Blackbody_Radiation
+  - https://www.physnet.uni-hamburg.de/joomla/index.php/en/physics-of-the-universe/wiens-displacement-law
+description: "States that the wavelength at which a blackbody's spectral radiance is maximum is inversely proportional to its absolute temperature, with the proportionality given by Wien's displacement constant. This explains why hot objects shift from red to blue as their temperature rises, and underlies stellar color-temperature relations and infrared applications."
 equation: length mul temperature eq wiens_constant
 symbol_overrides:
-- length: λ_{max}
-- temperature: ''
+- length: \lambda_{\max}
 name_overrides:
 - length: Peak wavelength
-- temperature: ''

@@ -2,6 +2,13 @@ name: Coefficient of performance (refrigerator)
 id: heat_engine_refrigerator_coefficient
 topic: heat_engines
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Coefficient_of_performance
+  - https://en.wikipedia.org/wiki/Heat_pump_and_refrigeration_cycle
+  - https://www.britannica.com/technology/heat-pump
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/03%3A_The_Second_Law_of_Thermodynamics/3.06%3A_Refrigerators
+  - https://courses.lumenlearning.com/suny-physics/chapter/15-5-the-second-law-of-thermodynamics/
+description: "The coefficient of performance (COP) of a refrigerator is the ratio of the heat removed from the cold reservoir to the net work input to the refrigerator. By the first law of thermodynamics, the work input equals the heat rejected to the hot reservoir minus the heat absorbed from the cold reservoir, so the COP can equivalently be written as the cold-reservoir heat divided by that difference. COP values greater than one are common because refrigeration requires moving heat rather than generating it."
 equation: dimensionless eq energy frac energy sub energy
 symbol_overrides:
 - dimensionless: COP

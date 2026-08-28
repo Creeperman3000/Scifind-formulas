@@ -2,12 +2,10 @@ name: Charge stored in a capacitor
 id: charge_on_capacitor
 topic: capacitance
 difficulty: 5
+links:
+  - https://openstax.org/books/college-physics-2e/pages/19-5-capacitors-and-dielectrics
+  - https://openstax.org/books/university-physics-volume-2/pages/8-1-capacitors-and-capacitance
+  - https://phys.libretexts.org/Courses/Martin_Luther_College/MLC_-_Physical_Science/03%3A_Electricity_and_Magnetism/3.03%3A_Capacitors_and_Dielectrics
+  - https://en.wikipedia.org/wiki/Capacitance
+description: "Gives the electric charge held on the plates of a capacitor in terms of its capacitance and the potential difference applied across it. Capacitance measures charge stored per volt, so a larger capacitance or higher voltage means more stored charge. This relation assumes an ideal linear capacitor."
 equation: charge eq capacitance mul electric_potential
-symbol_overrides:
-- charge: ''
-- capacitance: ''
-- electric_potential: ''
-name_overrides:
-- charge: ''
-- capacitance: ''
-- electric_potential: ''

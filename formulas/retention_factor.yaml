@@ -2,12 +2,18 @@ name: Retention factor in chromatography
 id: retention_factor
 topic: analytical_chemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Retardation_factor
+  - https://en.wikipedia.org/wiki/Thin-layer_chromatography
+  - https://en.wikipedia.org/wiki/Paper_chromatography
+  - https://en.wikipedia.org/wiki/Chromatography
+description: The retention factor is the ratio of the distance traveled by an analyte to the distance traveled by the solvent front in planar chromatography, providing a characteristic value used to identify compounds. Values lie between zero and one, and the same stationary and mobile phases should be used when comparing R_f values across experiments.
 equation: dimensionless eq length frac length
 symbol_overrides:
-- dimensionless: R_f
-- length: d_{compound}
-- length: d_{solvent}
+  - dimensionless: R_f
+  - length: d_{compound}
+  - length: d_{solvent}
 name_overrides:
-- dimensionless: Retention factor
-- length: Distance traveled by compound
-- length: Distance traveled by solvent front
+  - dimensionless: Retention factor
+  - length: Distance traveled by compound
+  - length: Distance traveled by solvent front

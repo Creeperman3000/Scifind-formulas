@@ -2,12 +2,21 @@ name: Saponification value
 id: saponification_value
 topic: organic_chemistry
 difficulty: 8
-equation: dimensionless eq (dimensionless frac (molar_mass) mul 3) mul 1000
+links:
+- https://en.wikipedia.org/wiki/Saponification_value
+- https://en.wikipedia.org/wiki/Saponification
+- https://www.aocs.org/attain-lab-services/methods/methods/search/search-results?method=111542
+- https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Lipids/Properties_of_Lipids/Saponification_Value
+- https://www.britannica.com/science/saponification-number
+description: The saponification value (SV) of a fat or oil is the number of milligrams
+  of KOH required to saponify one gram of the sample, inversely related to the average
+  molecular weight of the constituent triglycerides. For a pure triglyceride it can
+  be computed from the molar mass of the fat, since each triglyceride consumes three
+  equivalents of KOH (molar mass 56.1 g/mol).
+equation: dimensionless eq 3 mul 1000 mul 56.1 frac molar_mass
 symbol_overrides:
 - dimensionless: SV
-- dimensionless: n_{KOH}
 - molar_mass: M_{fat}
 name_overrides:
-- dimensionless: Saponification [value]
-- dimensionless: Moles of KOH
-- molar_mass: Molar mass of fat
+- dimensionless: Saponification value
+- molar_mass: Molar mass of the fat

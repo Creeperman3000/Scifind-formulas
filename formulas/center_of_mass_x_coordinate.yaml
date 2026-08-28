@@ -2,14 +2,19 @@ name: Center of mass x-coordinate
 id: center_of_mass_x_coordinate
 topic: linear_momentum
 difficulty: 6
+links:
+  - https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I%3A_Classical_Mechanics/34%3A__Center_of_Mass/34.01%3A_Discrete_Masses
+  - https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass
+  - https://math.libretexts.org/Bookshelves/Calculus/CLP-2_Integral_Calculus_(Feldman_Rechnitzer_and_Yeager)/02%3A_Applications_of_Integration/2.03%3A_Centre_of_Mass_and_Torque
+description: "Locates the center of mass of a system of particles along the x-axis as the mass-weighted average of the particles' x-coordinates. Each particle contributes in proportion to its share of the total mass, so the point lies closer to the heavier particles. This coordinate is used to reduce a multi-particle system to a single equivalent point for dynamics and collision problems."
 equation: length eq sum drop drop (mass mul length) frac sum drop drop mass
 symbol_overrides:
 - length: x_{cm}
-- mass: ''
-- length: ''
-- mass: ''
+- length: x_i
+- mass: m_i
+- mass: m_i
 name_overrides:
-- length: Center of mass position
-- mass: ''
-- length: ''
-- mass: ''
+- length: '[length|Position] of the center of mass'
+- length: '[length|x-position] of particle i'
+- mass: '[mass] of particle i'
+- mass: total [mass]

@@ -2,12 +2,22 @@ name: Mass percent concentration
 id: solution_concentration_mass_percent
 topic: solution_stoichiometry
 difficulty: 4
-equation: dimensionless eq 100 mul (mass frac mass )
+links:
+- https://en.wikipedia.org/wiki/Mass_fraction_(chemistry)
+- https://en.wikipedia.org/wiki/Mass_concentration_(chemistry)
+- https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/05%3A_Standardizing_Analytical_Methods/5.2%3A_Concentrations_of_Solutions
+- https://www.khanacademy.org/science/chemistry/states-of-matter-and-intermolecular-forces/mixtures-and-solutions/v/mass-percent
+- https://www.britannica.com/science/mass-fraction
+description: Mass percent (% m/m, also called weight percent or % w/w) expresses solute
+  concentration as the mass of solute per 100 mass units of total solution. It is
+  a common and convenient unit in chemistry, pharmacy, and industry because masses
+  are easily measured on a balance.
+equation: dimensionless eq 100 mul mass frac mass
 symbol_overrides:
 - dimensionless: \% m/m
 - mass: m_{solute}
 - mass: m_{solution}
 name_overrides:
 - dimensionless: Mass percent
-- mass: Mass of solute
-- mass: Mass of solution
+- mass: '[mass] of solute'
+- mass: '[mass] of solution'

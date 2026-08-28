@@ -2,21 +2,27 @@ name: Amplitude modulation wave
 id: amplitude_modulation_wave_equation
 topic: electromagnetic_waves
 difficulty: 8
-equation: dimensionless eq dimensionless mul cos ((2 mul pi) mul (frequency) mul (time
-  )) mul dimensionless add cos ((2 mul pi) mul dimensionless mul (time ))
+links:
+- https://en.wikipedia.org/wiki/Amplitude_modulation
+- https://user.eng.umd.edu/~tretter/commlab/c6713slides/ch5.pdf
+- https://en.wikibooks.org/wiki/Communication_Systems/Amplitude_Modulation
+- https://www.electronics-notes.com/articles/radio/modulation/amplitude-modulation-am-theory-equations-formulas.php
+description: 'Describes the standard single-tone amplitude-modulated signal: the envelope
+  of a high-frequency carrier wave varies in proportion to a lower-frequency message
+  signal, with the modulation index controlling the depth of that variation. It is
+  the basic model of AM radio transmission and is used to analyze carrier and sideband
+  content; overmodulation occurs when the index exceeds one.'
+equation: dimensionless eq dimensionless mul (1 add dimensionless mul cos ((2 mul
+  pi) mul dimensionless mul time) ) mul cos ((2 mul pi) mul frequency mul time)
 symbol_overrides:
 - dimensionless: y(t)
 - dimensionless: A_c
-- frequency: f_c
-- time: ''
 - dimensionless: m
 - dimensionless: f_m
-- time: ''
+- frequency: f_c
 name_overrides:
 - dimensionless: Modulated signal
 - dimensionless: Carrier amplitude
-- frequency: Carrier frequency
-- time: ''
+- frequency: Carrier [frequency]
 - dimensionless: Modulation index
 - dimensionless: Modulating frequency
-- time: ''

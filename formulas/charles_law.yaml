@@ -2,6 +2,12 @@ name: Charles's law
 id: charles_law
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Charles%27s_Law
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Fundamentals_of_General_Organic_and_Biological_Chemistry_(LibreTexts)/08%3A_Gases_Liquids_and_Solids/8.06%3A_Charless_Law-_The_Relation_between_Volume_and_Temperature
+  - https://www.engineeringtoolbox.com/charles-law-d_1277.html
+  - https://chem.libretexts.org/Courses/Pasadena_City_College/PCC_Chemistry_2A/02%3A_Energy_and_Matter/2.02%3A_Gas_Properties/2.2.03%3A_The_temperature-volume_relationship
+description: "Charles's law (the law of volumes) states that for a fixed amount of gas held at constant pressure, the volume is directly proportional to the absolute temperature. The two-state form lets you predict how a gas sample's volume changes between an initial and a final temperature. Temperatures must be expressed in kelvin, and the law holds only approximately for real gases."
 equation: volume frac temperature eq volume frac temperature
 symbol_overrides:
 - volume: V_1

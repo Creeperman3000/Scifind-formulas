@@ -1,11 +1,17 @@
-name: Area of a squere
+name: Area of a square
 id: area_squere
 topic: plane_geometry
 difficulty: 1
+links:
+  - https://en.wikipedia.org/wiki/square
+  - https://mathworld.wolfram.com/Square.html
+  - https://www.mathsisfun.com/geometry/square.html
+  - https://www.mathwords.com/s/square.htm
+  - https://proofwiki.org/wiki/Area_of_Square
+description: "Gives the region enclosed by a square from its single side length; since all four sides are equal, the area is the side multiplied by itself. It is the special case of the rectangle formula with equal sides and is the basis of square units of measurement."
 equation: area eq length pow 2
 symbol_overrides:
-- area: ''
 - length: a
 name_overrides:
-- area: Area of square
-- length: Side length
+- area: '[area] of square'
+- length: Side [length]

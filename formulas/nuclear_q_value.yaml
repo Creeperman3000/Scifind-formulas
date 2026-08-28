@@ -2,12 +2,18 @@ name: Q-value of a nuclear reaction
 id: nuclear_q_value
 topic: nuclear_physics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Q_value_(nuclear_science)
+  - https://www.nuclear-power.com/nuclear-power/nuclear-reactions/q-value/
+  - https://link.aps.org/doi/10.1103/PhysRevC.95.024310
+  - https://www.lehigh.edu/~eus204/teaching/ME362/lectures/lecture01.pdf
+description: The Q-value of a nuclear reaction is the energy released or absorbed as a result of the reaction, computed from the difference between the rest masses of the initial reactants and final products via E=mc². A positive Q indicates an exothermic reaction, while a negative Q indicates an endothermic one.
 equation: energy eq (mass sub mass ) mul speed_of_light pow 2
 symbol_overrides:
-- energy: Q
-- mass: m_{initial}
-- mass: m_{final}
+  - energy: Q
+  - mass: m_{initial}
+  - mass: m_{final}
 name_overrides:
-- energy: Reaction Q-value
-- mass: Initial [mass]
-- mass: Final [mass]
+  - energy: Reaction Q-value
+  - mass: Initial [mass]
+  - mass: Final [mass]

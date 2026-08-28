@@ -2,6 +2,11 @@ name: Variance of a binomial distribution
 id: variance_binomial
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Binomial_distribution
+  - https://en.wikipedia.org/wiki/Variance
+  - https://mathworld.wolfram.com/BinomialDistribution.html
+description: "For a binomial random variable counting the number of successes in n independent trials each with success probability p, the variance is the product of the number of trials and the two outcome probabilities."
 equation: dimensionless eq dimensionless mul dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: Var[X]
@@ -10,8 +15,6 @@ symbol_overrides:
 - dimensionless: '1'
 - dimensionless: p
 name_overrides:
-- dimensionless: '[Variance]'
+- dimensionless: Variance
 - dimensionless: Number of trials
 - dimensionless: Success probability
-- dimensionless: ''
-- dimensionless: ''

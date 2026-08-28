@@ -2,10 +2,19 @@ name: Density from buoyant force measurement
 id: buoyant_density_relation
 topic: buoyancy
 difficulty: 6
+links:
+- https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Body_Physics_-_Motion_to_Metabolism_(Davis)/04%3A_Better_Body_Composition_Measurement/4.06%3A_Hydrostatic_Weighing
+- https://openoregon.pressbooks.pub/bodyphysics2ed/chapter/hydrostatic/
+- https://en.wikipedia.org/wiki/Archimedes_principle
+- https://courses.lumenlearning.com/suny-physics/chapter/11-7-archimedes-principle/
+description: 'This relation, used in hydrostatic weighing, lets you find an object''s
+  density without measuring its volume: weigh it in air and again while fully submerged
+  in a fluid of known density. The difference between the two weights is the buoyant
+  force, which equals the weight of displaced fluid by Archimedes'' principle.'
 equation: density eq density mul force frac force sub force
 symbol_overrides:
-- density: ρ_{object}
-- density: ρ_{fluid}
+- density: \rho_{object}
+- density: \rho_{fluid}
 - force: W
 - force: W
 - force: W_{apparent}

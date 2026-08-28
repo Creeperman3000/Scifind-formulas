@@ -2,12 +2,12 @@ name: Electrical power
 id: electrical_power
 topic: circuits
 difficulty: 4
+links:
+  - https://openstax.org/books/physics/pages/19-4-electric-power
+  - https://en.wikipedia.org/wiki/Electrical_Power
+  - https://phys.libretexts.org/Courses/Joliet_Junior_College/JJC_-_PHYS_110/College_Physics_for_Health_Professions/20%3A_Electric_Current_Resistance_and_Ohm%27s_Law/20.05%3A_20.4_Electric_Power_and_Energy
+description: "Electric power is the rate at which a circuit element converts electrical energy, measured in watts. It equals the product of the current through the element and the voltage drop across it, and applies to sources as well as dissipative devices such as resistors."
 equation: power eq current mul electric_potential
-symbol_overrides:
-- power: P
-- current: I
-- electric_potential: V
 name_overrides:
-- power: Power
 - current: Current
 - electric_potential: Voltage

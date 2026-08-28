@@ -2,14 +2,19 @@ name: Rayleigh-Jeans law (blackbody radiation)
 id: rayleigh_jeans_law
 topic: quantum_mechanics
 difficulty: 9
-description: "Classical low-frequency limit of blackbody radiation; diverges at high frequencies (ultraviolet catastrophe)."
-equation: energy_density eq (pi mul 8) mul (frequency pow 2) mul (boltzmann_constant)
-  mul (temperature) frac speed_of_light pow 3
+links:
+  - https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Deriving_the_Rayleigh-Jeans_Radiation_Law
+  - https://www.britannica.com/science/Rayleigh-Jeans-law
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/quantum/rayj.html
+  - https://en.wikipedia.org/wiki/Ultraviolet_catastrophe
+description: "The Rayleigh–Jeans law is the classical low-frequency approximation to the spectral energy density of blackbody radiation, derived from the equipartition theorem applied to standing electromagnetic waves. It agrees with measurements at long wavelengths (low frequencies) but diverges at short wavelengths, the failure known as the ultraviolet catastrophe that motivated Planck's quantum hypothesis."
+equation: energy_density eq (pi mul 8) mul (frequency pow 2) mul (boltzmann_constant) mul (temperature) frac speed_of_light pow 3
+symbol_overrides:
+- energy_density: u(\nu,T)
+- frequency: \nu
+- boltzmann_constant: k_{\mathrm{B}}
+- temperature: T
+- speed_of_light: c
 name_overrides:
 - energy_density: Spectral [energy] density
-- frequency: ''
-- temperature: ''
-symbol_overrides:
-- energy_density: ''
-- frequency: ''
-- temperature: ''

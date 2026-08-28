@@ -2,14 +2,20 @@ name: Q-value of a fusion reaction
 id: nuclear_fusion_q
 topic: nuclear_physics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Fusion_energy_gain_factor
+  - https://en.wikipedia.org/wiki/Q_value_(nuclear_science)
+  - https://www.nuclear-power.com/nuclear-power/nuclear-reactions/nuclear-fusion-reactions/
+  - https://www.lehigh.edu/~eus204/teaching/ME362/lectures/lecture01.pdf
+description: The Q-value of a nuclear reaction is the energy released or absorbed, given by the mass difference between initial and final states times c². For fusion a positive Q means the reaction is exothermic, releasing energy when light nuclei combine into heavier ones.
 equation: energy eq (mass add (mass) sub mass ) mul speed_of_light pow 2
 symbol_overrides:
-- energy: Q
-- mass: m_{reactants}
-- mass: ''
-- mass: m_{products}
+  - energy: Q
+  - mass: m_{reactants}
+  - mass: ''
+  - mass: m_{products}
 name_overrides:
-- energy: '[Energy] released'
-- mass: Total mass of reactants
-- mass: ''
-- mass: Total mass of products
+  - energy: '[energy] released'
+  - mass: Total [mass] of reactants
+  - mass: ''
+  - mass: Total [mass] of products

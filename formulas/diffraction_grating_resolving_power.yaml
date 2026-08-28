@@ -2,6 +2,12 @@ name: Resolving power of a diffraction grating
 id: diffraction_grating_resolving_power
 topic: diffraction
 difficulty: 8
+links:
+  - https://www.newport.com/n/resolving-power/
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/gratres.html
+  - http://www.physicsbootcamp.org/section-dispersion-and-resolving-power-light.html
+  - https://www.edmundoptics.com/ViewDocument/MKS%20Diffraction%20Grating%20Handbook%20(8th%20edition).pdf
+description: "The resolving power measures a grating's ability to separate two closely spaced spectral lines, defined as the average wavelength divided by the smallest resolvable wavelength difference under the Rayleigh criterion. It grows with both the diffraction order and the number of illuminated grooves, and it is a key specification for spectrometer design."
 equation: dimensionless eq amount mul dimensionless
 symbol_overrides:
 - dimensionless: R

@@ -2,8 +2,15 @@ name: Distance formula in 2D
 id: distance_formula_2d
 topic: coordinate_geometry
 difficulty: 4
-equation: length eq sqrt (((dimensionless sub dimensionless ) pow 2) add (dimensionless
-  sub dimensionless ) pow 2 ) 2
+links:
+- https://en.wikipedia.org/wiki/Euclidean_distance
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/12%3A_Vectors_in_Space/12.02%3A_Vectors_in_Three_Dimensions
+description: Gives the straight-line (Euclidean) distance between two points in the
+  Cartesian plane, derived by applying the Pythagorean theorem to a right triangle
+  whose hypotenuse joins the two points. It is one of the most widely used formulas
+  in coordinate geometry.
+equation: length eq sqrt (((dimensionless sub dimensionless) pow 2) add (dimensionless
+  sub dimensionless) pow 2 ) 2
 symbol_overrides:
 - length: d
 - dimensionless: x_2
@@ -12,7 +19,7 @@ symbol_overrides:
 - dimensionless: y_1
 name_overrides:
 - length: Distance
-- dimensionless: x₂
-- dimensionless: x₁
-- dimensionless: y₂
-- dimensionless: y₁
+- dimensionless: x-coordinate of point 2
+- dimensionless: x-coordinate of point 1
+- dimensionless: y-coordinate of point 2
+- dimensionless: y-coordinate of point 1

@@ -2,11 +2,20 @@ name: Bohr magneton
 id: bohr_magneton_definition
 topic: atomic_physics
 difficulty: 9
-equation: torque eq elementary_charge mul (planck_constant frac (2 mul pi )) frac
-  (2 mul mass )
+links:
+- https://en.wikipedia.org/wiki/Bohr_magneton
+- https://goldbook.iupac.org/terms/view/B00692
+- https://proofwiki.org/wiki/Definition%3ABohr_Magneton
+- https://jila.colorado.edu/~ajsh/courses/astr5110_24/notes/spin.pdf
+description: The Bohr magneton is a physical constant serving as the natural unit
+  for the magnetic dipole moment of an electron caused by its orbital or spin angular
+  momentum. It is used throughout atomic physics and quantum chemistry to express
+  electron magnetic moments and to analyze paramagnetic and Zeeman-effect behavior.
+equation: torque eq elementary_charge mul (planck_constant frac 2 mul pi ) frac 2
+  mul mass
 symbol_overrides:
 - torque: μ_B
 - mass: m_e
 name_overrides:
-- torque: Bohr [magneton]
+- torque: Bohr magneton
 - mass: Electron [mass]

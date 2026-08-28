@@ -2,13 +2,24 @@ name: Luminance from luminous intensity and area
 id: luminance_formula
 topic: electromagnetic_waves
 difficulty: 8
-description: "Luminance from luminous intensity and projected area; L = I / (A cos θ)."
-equation: luminance eq luminous_intensity frac area
+links:
+- https://en.wikipedia.org/wiki/Luminance
+- https://en.wikipedia.org/wiki/Luminous_intensity
+- https://en.wikipedia.org/wiki/Photometry
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01:_The_Nature_of_Light
+- https://www.britannica.com/science/luminance
+description: Luminance is the photometric measure of luminous intensity per unit projected
+  area of a surface, in a specified direction. It determines how bright a surface
+  will appear to an observer, and is invariant along rays in lossless optical systems.
+  The SI unit is the candela per square metre (cd/m²), also called the nit.
+equation: luminance eq luminous_intensity frac area mul cos angle
 symbol_overrides:
-- luminance: ''
-- luminous_intensity: ''
-- area: ''
+- luminance: L_v
+- luminous_intensity: I_v
+- area: A
+- angle: \theta
 name_overrides:
-- luminance: ''
-- luminous_intensity: ''
-- area: ''
+- luminance: Luminance
+- luminous_intensity: Luminous intensity
+- area: Projected area
+- angle: Angle from surface normal

@@ -2,8 +2,14 @@ name: Michaelis-Menten equation
 id: michaelis_menten
 topic: biochemistry
 difficulty: 8
-equation: catalytic_activity eq catalytic_activity mul (concentration) frac concentration
-  add concentration
+links:
+  - https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics
+  - https://en.wikipedia.org/wiki/Enzyme_kinetics
+  - https://en.wikipedia.org/wiki/Specificity_constant
+  - https://en.wikipedia.org/wiki/Turnover_number
+  - https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Enzymes/Enzyme_Kinetics/Michaelis-Menten_Equation
+description: Models the rate of a simple enzyme-catalyzed reaction as a function of substrate concentration under steady-state (or rapid-equilibrium) assumptions, with Vmax the limiting rate at saturation and Km the substrate concentration at half-maximum velocity. Widely used in enzyme kinetics, pharmacology, and microbial growth modeling.
+equation: catalytic_activity eq catalytic_activity mul (concentration) frac concentration add concentration
 symbol_overrides:
 - catalytic_activity: v
 - catalytic_activity: V_{max}

@@ -2,6 +2,11 @@ name: Sum of arithmetic series
 id: arithmetic_series_sum
 topic: arithmetic
 difficulty: 4
+links:
+  - https://mathworld.wolfram.com/ArithmeticSeries.html
+  - https://www.cuemath.com/sum-of-arithmetic-sequence-formula/
+  - https://mathbitsnotebook.com/Algebra2/Sequences/SSGauss.html
+description: "Gives the total when the terms of an arithmetic sequence are added together. It works by pairing terms from opposite ends of the series, a technique famously used by Gauss as a schoolboy, so the sum equals the number of terms times the average of the first and last term. Applies to any finite arithmetic series, whether the terms grow or shrink."
 equation: dimensionless eq dimensionless mul (dimensionless add dimensionless ) frac
   2
 symbol_overrides:

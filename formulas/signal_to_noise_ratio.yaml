@@ -2,7 +2,18 @@ name: Signal-to-noise ratio
 id: signal_to_noise_ratio
 topic: analytical_chemistry
 difficulty: 7
-equation: dimensionless eq (dimensionless frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Signal-to-noise_ratio
+- https://www.brown.edu/research/labs/idles/projects-software/signal-to-noise-ratio
+- https://www.analog.com/en/resources/technical-articles/signal-to-noise-ratio.html
+- https://www.sciencedirect.com/topics/engineering/signal-to-noise-ratio
+- https://www.thinksrs.com/downloads/papers/AN301.pdf
+description: The signal-to-noise ratio compares the level of a desired signal to the
+  level of background noise in a measurement or transmission channel. It is a key
+  figure of merit in communications, imaging, spectroscopy, and audio engineering,
+  and is often quoted in decibels; the Shannon–Hartley theorem sets the maximum reliable
+  data rate over a channel as a function of bandwidth and SNR.
+equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: SNR
 - dimensionless: S

@@ -2,12 +2,19 @@ name: Partial pressure from mole fraction
 id: partial_pressure_mole_fraction
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Partial_pressure
+  - https://en.wikipedia.org/wiki/Dalton%27s_law
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/10%3A_Gases/10.06%3A_Gas_Mixtures_and_Partial_Pressures
+  - https://www.britannica.com/science/partial-pressure
+  - https://en.wikipedia.org/wiki/Mole_fraction
+description: "In an ideal-gas mixture, the partial pressure exerted by any component equals its mole fraction multiplied by the total pressure of the mixture. This is a direct consequence of Dalton's law of partial pressures and follows from the fact that each gas in an ideal mixture behaves independently of the others."
 equation: pressure eq dimensionless mul pressure
 symbol_overrides:
-- pressure: P_i
-- dimensionless: x_i
-- pressure: P_{total}
+  - pressure: P_i
+  - dimensionless: x_i
+  - pressure: P_{total}
 name_overrides:
-- pressure: Partial [pressure] of component i
-- dimensionless: Mole fraction of i
-- pressure: Total [pressure]
+  - pressure: Partial [pressure] of component i
+  - dimensionless: Mole fraction of i
+  - pressure: Total [pressure]

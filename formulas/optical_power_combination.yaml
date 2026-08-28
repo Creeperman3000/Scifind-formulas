@@ -2,6 +2,12 @@ name: Optical power of combined thin lenses
 id: optical_power_combination
 topic: lenses
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Optical_power
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation
+  - https://www.britannica.com/science/optical-power
+  - https://opentextbc.ca/physics/chapter/16-3-the-simple-magnifier/
+description: "When two thin lenses are placed in contact (or very close together) the combined optical power is the sum of the individual powers, because each lens adds its own convergence or divergence. Optical power is measured in dioptres (inverse metres); the rule fails if the separation between the lenses is not negligible compared with their focal lengths."
 equation: wavenumber eq wavenumber add wavenumber
 symbol_overrides:
 - wavenumber: P

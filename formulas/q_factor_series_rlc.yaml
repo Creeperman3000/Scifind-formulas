@@ -2,14 +2,14 @@ name: Q factor of a series RLC circuit
 id: q_factor_series_rlc
 topic: circuits
 difficulty: 8
-equation: dimensionless eq sqrt (inductance frac capacitance ) 2 frac resistance
+links:
+  - https://en.wikipedia.org/wiki/Q_factor
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/16%3A_Alternating-Current_Circuits/16.04%3A_Q_Factor
+  - https://www.electronics-tutorials.ws/accircuits/series-resonance.html
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resonance/a/ee-resonance-overview
+description: "The Q factor of a series RLC circuit describes how underdamped the resonance is: it equals the ratio of inductive reactance to resistance at the resonant frequency, equivalently one over R times the square root of L over C."
+equation: dimensionless eq sqrt (inductance frac capacitance) 2 frac resistance
 symbol_overrides:
 - dimensionless: Q
-- inductance: ''
-- capacitance: ''
-- resistance: ''
 name_overrides:
-- dimensionless: Quality [factor]
-- inductance: ''
-- capacitance: ''
-- resistance: ''
+- dimensionless: Quality factor

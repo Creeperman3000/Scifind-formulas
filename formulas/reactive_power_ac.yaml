@@ -2,6 +2,13 @@ name: Reactive power in AC circuit
 id: reactive_power_ac
 topic: circuits
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/AC_power
+  - https://en.wikipedia.org/wiki/Volt-ampere_reactive
+  - https://www.electronics-tutorials.ws/accircuits/power-in-ac-circuits.html
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-ac-analysis/v/ee-ac-power
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Alternating-Current_Circuits/15.04%3A_Power_in_an_AC_Circuit
+description: "Reactive power Q in a sinusoidal AC circuit equals the product of the RMS voltage, RMS current, and the sine of the phase angle between them; it represents the rate at which energy is exchanged between the source and reactive storage elements (inductors and capacitors) without net energy transfer."
 equation: power eq electric_potential mul (current) mul sin angle
 symbol_overrides:
 - power: Q
@@ -10,6 +17,6 @@ symbol_overrides:
 - angle: φ
 name_overrides:
 - power: Reactive [power]
-- electric_potential: RMS [voltage]
+- electric_potential: RMS voltage
 - current: RMS [current]
 - angle: Phase [angle]

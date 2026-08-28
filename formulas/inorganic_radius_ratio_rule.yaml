@@ -2,12 +2,23 @@ name: Ionic radius ratio for coordination
 id: inorganic_radius_ratio_rule
 topic: inorganic_chemistry
 difficulty: 9
-equation: dimensionless eq (length frac length)
+links:
+- https://en.wikipedia.org/wiki/Cation-anion_radius_ratio
+- https://en.wikipedia.org/wiki/Pauling%27s_rules#First_rule:_the_radius_ratio_rule
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft_and_Sharpe)/6%3A_Structures_and_energetics_of_metallic_and_ionic_solids/6.7%3A_Ionic_radii_(r_of_MX_n)
+- https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-periodic-table/v/ionic-radius-trends
+- https://en.wikipedia.org/wiki/Ionic_radius
+description: The cation-anion radius ratio is the ratio of the radius of the cation
+  to that of the surrounding anions in an ionic crystal. It is used as a first-approximation
+  predictor of coordination number and polyhedral geometry, with each coordination
+  number (3, 4, 6, 8, ...) corresponding to a characteristic minimum ratio below which
+  the structure becomes unstable.
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: \rho
 - length: r_+
 - length: r_-
 name_overrides:
-- dimensionless: Radius [ratio]
-- length: Cation [radius]
-- length: Anion [radius]
+- dimensionless: Radius ratio
+- length: Cation radius
+- length: Anion radius

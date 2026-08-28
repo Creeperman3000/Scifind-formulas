@@ -2,17 +2,21 @@ name: Degree of polarization from intensity
 id: degree_of_polarization_formula
 topic: polarization
 difficulty: 8
-equation: degree_of_polarization eq (irradiance sub irradiance ) frac irradiance add
-  irradiance
+links:
+  - https://en.wikipedia.org/wiki/Degree_of_polarization
+  - https://www.physics.umd.edu/courses/Phys375/GammonSpring08/lab3.pdf
+  - https://interactivetextbooks.tudelft.nl/interactive-optics/content/Chap4_Polarisation/Polarization_2022_01Clean.html
+  - https://www.pw.live/school-prep/exams/polarization-formula
+description: "Measures what fraction of a light beam's intensity is polarized, obtained by rotating an ideal analyzer and recording the maximum and minimum transmitted intensities. It runs from 0 for unpolarized light to 1 for fully polarized light; the max/min form applies to partially linearly polarized beams."
+equation: degree_of_polarization eq frac (irradiance sub irradiance) (irradiance add irradiance)
 symbol_overrides:
-- degree_of_polarization: ''
 - irradiance: I_{max}
 - irradiance: I_{min}
 - irradiance: I_{max}
 - irradiance: I_{min}
 name_overrides:
-- degree_of_polarization: '[Degree of polarization]'
-- irradiance: Maximum [intensity]
-- irradiance: Minimum [intensity]
-- irradiance: ''
-- irradiance: ''
+- degree_of_polarization: Degree of polarization
+- irradiance: Maximum intensity
+- irradiance: Minimum intensity
+- irradiance: Maximum intensity
+- irradiance: Minimum intensity

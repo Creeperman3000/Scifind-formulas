@@ -2,8 +2,17 @@ name: Integral of 1/√(a²-x²)
 id: integral_reciprocal_root_quadratic
 topic: integrals
 difficulty: 8
-equation: int drop drop (((rmd angle) frac (sqrt ((dimensionless pow 2) sub (angle pow 2)) 2))) eq asin
-  (angle frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Trigonometric_substitution
+- https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.5%3A_Substitution
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-basic-differentiation-rules/v/proof-of-derivative-of-arcsin
+- https://tutorial.math.lamar.edu/classes/calcii/trigsub.aspx
+description: The antiderivative of 1/√(a²-x²) is arcsin(x/a). The result follows from
+  the substitution x = a sin θ, which converts the radical expression into a constant
+  under the square root and reduces the integrand to dθ.
+equation: int drop drop (rmd angle frac sqrt ((dimensionless pow 2) sub angle pow
+  2 ) 2 ) eq asin (angle frac dimensionless)
 symbol_overrides:
 - angle: x
 - dimensionless: a
@@ -11,8 +20,8 @@ symbol_overrides:
 - angle: x
 - dimensionless: a
 name_overrides:
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
 - dimensionless: Constant a

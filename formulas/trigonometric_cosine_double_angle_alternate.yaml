@@ -2,12 +2,23 @@ name: Cosine double angle (cosine form)
 id: trigonometric_cosine_double_angle_alternate
 topic: trigonometric_identities
 difficulty: 5
-equation: cos (angle mul 2) eq (cos angle pow 2) sub 1 sub (cos angle pow 2)
+links:
+- https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+- https://en.wikipedia.org/wiki/Trigonometric_functions
+- https://en.wikipedia.org/wiki/De_Moivre%27s_formula
+- https://mathworld.wolfram.com/Double-AngleFormulas.html
+- https://mathworld.wolfram.com/Multiple-AngleFormulas.html
+description: This is one of the standard double-angle identities expressing the cosine
+  of twice an angle purely in terms of the cosine of that angle. It is derived from
+  the angle sum formula for cosine and the Pythagorean identity, and is widely used
+  to simplify products of cosines and to reduce powers of cosine in integration and
+  signal-processing problems.
+equation: cos (angle mul 2) eq 2 mul (cos angle pow 2) sub 1
 symbol_overrides:
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: θ
+- angle: θ
+- angle: θ
 name_overrides:
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: Angle
+- angle: Angle
+- angle: Angle

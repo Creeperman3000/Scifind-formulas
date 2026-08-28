@@ -2,6 +2,13 @@ name: Horizontal velocity of a projectile
 id: projectile_horizontal_velocity
 topic: projectile_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion#Velocity
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/04%3A_Motion_in_Two_and_Three_Dimensions
+  - https://www.khanacademy.org/science/physics/two-dimensional-motion
+  - https://www.britannica.com/science/projectile-motion
+  - https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion
+description: "The horizontal component of a projectile's velocity is constant throughout the flight (neglecting air resistance), since no horizontal force acts on the projectile. It is obtained by projecting the initial speed onto the horizontal axis using the cosine of the launch angle."
 equation: velocity eq velocity mul cos angle
 symbol_overrides:
 - velocity: v_x

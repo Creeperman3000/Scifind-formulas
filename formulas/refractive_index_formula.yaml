@@ -2,10 +2,16 @@ name: Refractive index
 id: refractive_index_formula
 topic: refraction
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Refractive_index
+  - https://en.wikipedia.org/wiki/Snell%27s_law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01%3A_The_Nature_of_Light/1.04%3A_Total_Internal_Reflection
+  - https://www.britannica.com/science/refractive-index
+  - https://www.khanacademy.org/science/physics/geometric-optics/index-of-refraction/v/index-of-refraction-and-dispersion
+description: "The absolute refractive index of a medium is the ratio of the speed of light in vacuum to the phase velocity of light in the medium. It determines how strongly light is refracted upon entering the medium, as described by Snell's law, and is generally greater than or equal to 1."
 equation: dimensionless eq speed_of_light frac velocity
 symbol_overrides:
 - dimensionless: n
-- velocity: v
 name_overrides:
 - dimensionless: Refractive index
 - velocity: Speed in medium

@@ -2,12 +2,15 @@ name: Half-angle sine identity
 id: half_angle_sine
 topic: trigonometric_identities
 difficulty: 6
-equation: angle 2 frac sin pow 2 eq (dimensionless sub cos angle ) frac 2
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://mathworld.wolfram.com/Half-AngleFormulas.html
+  - https://www.khanacademy.org/math/trigonometry/trig-identities-and-proofs/half-angle-identities/a/half-angle-identities
+  - https://www.cuemath.com/trigonometry/half-angle-formula/
+description: "Expresses the square of the sine of half an angle in terms of the cosine of the full angle. It follows from the angle-addition identity cos(2a) = 1 - 2sin\u00b2(a), and is widely used to evaluate trigonometric expressions at angles such as 22.5\u00b0 or 75\u00b0."
+equation: angle 2 frac sin pow 2 eq (dimensionless sub cos angle) frac 2
 symbol_overrides:
-- angle: θ
+- angle: "\u03B8"
 - dimensionless: '1'
-- angle: ''
 name_overrides:
-- angle: '[Angle]'
-- dimensionless: ''
-- angle: ''
+- angle: '[angle|Angle]'

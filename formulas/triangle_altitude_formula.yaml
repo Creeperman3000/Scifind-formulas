@@ -2,12 +2,16 @@ name: Altitude of a triangle
 id: triangle_altitude_formula
 topic: triangles
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Triangle
+  - https://mathworld.wolfram.com/Altitude.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(OpenStax)/10%3A_Area/10.02%3A_Area_and_Circumference
+  - https://www.khanacademy.org/math/geometry/triangle-properties/triangle-area/v/area-of-a-triangle
+description: "Relates the altitude (height) of a triangle to its area and the length of the chosen base, derived by inverting the standard area formula A = (1/2) b h. It is useful whenever the area and base are known and the perpendicular height is required, for example in coordinate-geometry problems or in surveying. The altitude is the perpendicular distance from the opposite vertex to the line containing the base."
 equation: length eq (area mul 2) frac length
 symbol_overrides:
 - length: h
-- area: ''
 - length: b
 name_overrides:
 - length: Altitude
-- area: ''
 - length: Base

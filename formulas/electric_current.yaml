@@ -2,12 +2,10 @@ name: Electric current definition
 id: electric_current
 topic: current_electricity
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Electric_current
+  - https://openstax.org/books/university-physics-volume-2/pages/9-1-electrical-current
+  - https://www.physicsclassroom.com/tutorial/Electric-Circuits/electric-current/electric-current
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/09%3A_Current_and_Resistance/9.02%3A_Electrical_Current
+description: "Electric current is the net rate at which electric charge flows through a cross-section of a conductor, such as the rate at which charge passes a point in a circuit. Its SI unit is the ampere, corresponding to one coulomb of charge passing per second, and it is measured with an ammeter. This defining relation applies to steady flow; for time-varying flow the instantaneous current is the corresponding derivative."
 equation: current eq charge frac time
-symbol_overrides:
-- current: ''
-- charge: ''
-- time: ''
-name_overrides:
-- current: ''
-- charge: ''
-- time: ''

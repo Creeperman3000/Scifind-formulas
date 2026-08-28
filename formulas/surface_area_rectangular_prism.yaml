@@ -2,8 +2,16 @@ name: Surface area of a rectangular prism
 id: surface_area_rectangular_prism
 topic: plane_geometry
 difficulty: 3
-equation: area eq 2 mul length mul (length) add (length) mul (length) add length mul
-  length
+links:
+  - https://en.wikipedia.org/wiki/Rectangular_cuboid
+  - https://en.wikipedia.org/wiki/Cuboid
+  - https://mathworld.wolfram.com/Cuboid.html
+  - https://www.cuemath.com/geometry/surface-area-of-a-rectangular-prism/
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-box
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/12%3A_Surface_Area/12.05%3A_Surface_Area_of_a_Rectangular_Prism
+description: "A rectangular prism has three pairs of congruent rectangular faces, so its total surface area is twice the sum of the areas of the three distinct face types. \nThe formula holds for any right box (orthogonal parallelepiped) and is the generalisation of which the cube's formula is the special case where all three edge lengths are equal."
+equation: area eq 2 mul length mul length add 2 mul length mul length add 2 mul length
+  mul length
 symbol_overrides:
 - area: SA
 - length: l

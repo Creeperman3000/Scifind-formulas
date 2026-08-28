@@ -2,12 +2,20 @@ name: Derivative of tangent
 id: derivative_tan
 topic: derivatives
 difficulty: 6
-equation: frac (rmd tan angle) (rmd angle) eq 1 frac (cos angle pow 2)
+links:
+- https://proofwiki.org/wiki/Derivative_of_Tangent_Function
+- https://math.libretexts.org/Courses/Laney_College/Math_3A%3A_Calculus_1_(Fall_2022)/03%3A_Derivatives/3.06%3A_Derivatives_of_Trigonometric_Functions
+- https://www.mathsisfun.com/calculus/derivatives-trig-proof.html
+- https://courseware.cemc.uwaterloo.ca/11/assignments/194/4
+description: The derivative of the tangent function is the secant squared, equivalently
+  the reciprocal of cosine squared. It follows from applying the quotient rule to
+  tangent written as sine over cosine, and holds wherever cosine is nonzero.
+equation: frac rmd tan angle rmd angle eq frac 1 pow cos angle 2
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

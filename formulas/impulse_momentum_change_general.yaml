@@ -2,18 +2,22 @@ name: General impulse-momentum relation
 id: impulse_momentum_change_general
 topic: impulse
 difficulty: 6
-equation: force mul time eq mass mul (velocity) sub mass mul velocity
+links:
+  - https://en.wikipedia.org/wiki/Impulse_(physics)
+  - https://en.wikipedia.org/wiki/Momentum
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Linear_Momentum_and_Collisions/8.02%3A_Impulse_and_Collisions
+  - https://www.britannica.com/science/impulse-physics
+description: "The impulse-momentum theorem states that the impulse delivered to an object equals its change in linear momentum. For a constant mass this links the average applied force and the contact time interval to the change in the body's velocity."
+equation: force mul time eq mass mul velocity sub mass mul velocity
 symbol_overrides:
 - force: F_{avg}
 - time: Δt
-- mass: ''
 - velocity: v_f
-- mass: ''
 - velocity: v_i
 name_overrides:
 - force: Average [force]
-- time: Time interval
-- mass: '[Mass]'
+- time: '[time] interval'
+- mass: '[mass]'
 - velocity: Final [velocity]
-- mass: '[Mass]'
+- mass: '[mass]'
 - velocity: Initial [velocity]

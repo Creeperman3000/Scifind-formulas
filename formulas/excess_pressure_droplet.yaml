@@ -2,12 +2,16 @@ name: Excess pressure inside a spherical droplet
 id: excess_pressure_droplet
 topic: surface_tension
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Laplace_pressure
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/20%3A_Miscellaneous/20.02%3A_Surface_Tension/20.2.01%3A_Excess_Pressure_Inside_Drops_and_Bubbles
+  - https://en.wikipedia.org/wiki/Young%E2%80%93Laplace_equation
+description: "Also known as the Laplace pressure of a spherical drop, this gives how much greater the pressure inside a small liquid droplet is than the pressure of the surrounding gas. The excess arises because surface tension pulls the curved surface inward, and it grows as the droplet gets smaller; it assumes a static spherical interface with a single liquid-gas surface (a soap bubble has two surfaces and twice the effect)."
 equation: pressure eq (surface_tension mul 2) frac length
 symbol_overrides:
-- pressure: ΔP
-- surface_tension: ''
+- pressure: \Delta P
+- surface_tension: \gamma
 - length: r
 name_overrides:
 - pressure: Excess [pressure]
-- surface_tension: ''
-- length: Radius
+- length: Radius of the droplet

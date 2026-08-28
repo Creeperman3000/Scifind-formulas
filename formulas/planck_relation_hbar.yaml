@@ -2,9 +2,15 @@ name: Planck relation (reduced Planck constant)
 id: planck_relation_hbar
 topic: quantum_mechanics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Planck_constant
+  - https://en.wikipedia.org/wiki/Reduced_Planck_constant
+  - https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(McIntyre)/02%3A_Mathematical_Background
+  - https://www.britannica.com/science/Planck-constant
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/quantum/quantpho.html
+description: "Relates the energy of a photon to its angular frequency through the reduced Planck constant (h-bar, h divided by two pi), the form of the Planck–Einstein relation most often used in quantum mechanics. It is the temporal component of the relativistic four-momentum carried by a photon and underlies quantization across quantum theory."
 equation: energy eq planck_constant frac (pi mul 2) mul angular_velocity
 symbol_overrides:
-- energy: ''
 - angular_velocity: ω
 name_overrides:
 - energy: Photon [energy]

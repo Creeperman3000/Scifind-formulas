@@ -2,13 +2,22 @@ name: Stefan-Boltzmann law
 id: stefan_boltzmann_law
 topic: heat_transfer
 difficulty: 7
-description: Valid for an ideal blackbody (perfect emitter and absorber).
-equation: power eq area mul (temperature pow 4 )
+links:
+- https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law
+- https://en.wikipedia.org/wiki/Thermal_radiation
+- https://en.wikipedia.org/wiki/Black_body
+- https://www.britannica.com/science/blackbody-radiation
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_The_Nature_of_Light
+description: The Stefan–Boltzmann law states that the total thermal power radiated
+  by a blackbody is proportional to the fourth power of its absolute temperature.
+  Real (grey) surfaces emit less by a factor equal to their emissivity ε, so the general
+  form is P = εσAT⁴.
+equation: power eq area mul stefan_boltzmann_constant mul temperature pow 4
 symbol_overrides:
-- power: ''
-- area: ''
-- temperature: ''
+- power: P
+- area: A
+- temperature: T
 name_overrides:
 - power: Radiated [power]
 - area: Surface [area]
-- temperature: '[Temperature]'
+- temperature: '[temperature]'

@@ -2,8 +2,13 @@ name: Volume thermal expansion
 id: volume_thermal_expansion
 topic: heat
 difficulty: 6
-equation: volume eq 3 mul (coefficient_of_linear_expansion) mul (volume) mul Delta
-  temperature
+links:
+  - https://en.wikipedia.org/wiki/Thermal_expansion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/17%3A_Temperature_and_Heat/17.04%3A_Thermal_Expansion
+  - https://www.britannica.com/science/thermal-expansion
+  - https://courses.lumenlearning.com/suny-physics/chapter/13-3-thermal-expansion/
+description: "The change in volume of a body due to a temperature change is approximately three times the linear expansion coefficient times the initial volume times the change in temperature, valid for isotropic solids and small temperature intervals. This comes from the fact that the volumetric expansion coefficient is roughly three times the linear one."
+equation: volume eq 3 mul (coefficient_of_linear_expansion) mul (volume) mul Delta temperature
 symbol_overrides:
 - volume: ΔV
 - coefficient_of_linear_expansion: α
@@ -11,6 +16,5 @@ symbol_overrides:
 - temperature: ΔT
 name_overrides:
 - volume: Change in [volume]
-- coefficient_of_linear_expansion: Coefficient of linear expansion
-- volume: Initial volume
-- temperature: Change in temperature
+- volume: Initial [volume]
+- temperature: Change in [temperature]

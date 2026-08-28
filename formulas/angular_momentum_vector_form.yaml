@@ -2,14 +2,16 @@ name: Angular momentum vector
 id: angular_momentum_vector_form
 topic: angular_momentum
 difficulty: 7
-equation: angular_momentum eq length mul (momentum) mul sin angle
+links:
+  - https://en.wikipedia.org/wiki/Angular_momentum
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/amom.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum/11.03%3A_Angular_Momentum
+description: "The angular momentum of a point particle about a chosen origin is the moment of its linear momentum, given by the magnitude of the cross product of the particle's position vector and its momentum. Only the component of momentum perpendicular to the position vector contributes, so a particle moving along a line through the origin carries no angular momentum about it."
+equation: angular_momentum eq length mul momentum mul sin angle
 symbol_overrides:
-- angular_momentum: ''
 - length: r
-- momentum: ''
 - angle: θ
 name_overrides:
-- angular_momentum: '[Angular momentum]'
+- angular_momentum: '[angular_momentum]'
 - length: Radius
-- momentum: ''
-- angle: Angle between [radius] and [momentum]
+- angle: Angle between radius and [momentum]

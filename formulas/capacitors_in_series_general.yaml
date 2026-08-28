@@ -2,13 +2,18 @@ name: Capacitors in series (general formula)
 id: capacitors_in_series_general
 topic: capacitance
 difficulty: 6
-equation: capacitance pow (drop 1 sub) eq capacitance pow (drop 1 sub) add capacitance
-  pow (drop 1 sub)
+links:
+  - https://openstax.org/books/college-physics-2e/pages/19-6-capacitors-in-series-and-parallel
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/19%3A_Electric_Potential_and_Electric_Field/19.06%3A_Capacitors_in_Series_and_Parallel
+  - https://www.engineeringtoolbox.com/capacitors-parallel-series-d_1388.html
+  - https://farside.ph.utexas.edu/teaching/316/lectures/node46.html
+description: "Capacitors connected in series all store the same charge while the applied voltage divides among them, and this rule gives the single equivalent capacitance that could replace the whole chain. The pattern extends to any number of capacitors by adding more reciprocal terms, and the result is always smaller than the smallest individual capacitance. It is used to simplify circuit networks before applying voltage or charge analysis."
+equation: capacitance pow (drop 1 sub) eq capacitance pow (drop 1 sub) add capacitance pow (drop 1 sub)
 symbol_overrides:
 - capacitance: C_{eq}
 - capacitance: C_1
 - capacitance: C_2
 name_overrides:
 - capacitance: Equivalent [capacitance]
-- capacitance: '[Capacitance] 1'
-- capacitance: '[Capacitance] 2'
+- capacitance: '[capacitance] 1'
+- capacitance: '[capacitance] 2'

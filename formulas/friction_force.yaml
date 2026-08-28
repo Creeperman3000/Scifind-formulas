@@ -2,13 +2,17 @@ name: Friction force
 id: friction_force
 topic: friction
 difficulty: 4
-description: "Valid for kinetic (sliding) friction on dry surfaces; μ_k is the kinetic coefficient."
+links:
+  - https://en.wikipedia.org/wiki/Friction#Kinetic_friction
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06:_Applying_Newton's_Laws
+  - https://www.britannica.com/science/friction
+  - https://www.physics.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dutra)/04%3A_Lagrangian_Mechanics/4.02%3A_Constraints_and_Friction
+description: "The Coulomb/Amontons friction law relates the magnitude of dry friction to the normal force pressing two surfaces together via an empirical coefficient of friction. For kinetic (sliding) friction the magnitude is approximately constant and independent of the apparent contact area and sliding speed, in the simple Amontons-Coulomb model."
 equation: force eq coefficient_of_friction mul force
 symbol_overrides:
-- force: F_f
-- coefficient_of_friction: μ
-- force: N
+  - force: F_f
+  - coefficient_of_friction: \mu
+  - force: N
 name_overrides:
-- force: Friction [force]
-- coefficient_of_friction: ''
-- force: Normal [force]
+  - force: Friction [force]
+  - force: Normal [force]

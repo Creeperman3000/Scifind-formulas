@@ -2,7 +2,17 @@ name: Derivative of Log Base a
 id: derivative_log_base_a
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (log dimensionless angle)) (rmd angle) eq 1 frac (angle mul log euler_e dimensionless)
+links:
+- https://tutorial.math.lamar.edu/Classes/CalcI/DiffExpLogFcns.aspx
+- https://math.libretexts.org/Courses/Irvine_Valley_College/Math_3AC%3A_Analytic_Geometry_and_Calculus_I/10%3A_Logarithms/10.03%3A_Derivatives_of_Logarithms
+- https://proofwiki.org/wiki/Derivative_of_General_Logarithm_Function
+- https://brilliant.org/wiki/derivative-of-logarithmic-functions/
+description: The derivative of a logarithm with an arbitrary base is the reciprocal
+  of the argument times the natural logarithm of the base. It follows from rewriting
+  the general logarithm in terms of the natural logarithm via the change-of-base formula,
+  and holds for any positive base other than one.
+equation: frac rmd (log dimensionless angle) rmd angle eq 1 frac angle mul log euler_e
+  dimensionless
 symbol_overrides:
 - dimensionless: a
 - dimensionless: a
@@ -12,6 +22,6 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Base a
 - dimensionless: Base a
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

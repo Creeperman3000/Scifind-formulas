@@ -2,14 +2,18 @@ name: Gibbs free energy
 id: gibbs_free_energy
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Thermodynamics_of_Biological_Processes/The_Gibbs_Free_Energy
+  - https://www.khanacademy.org/test-prep/mcat/chemical-processes/thermodynamics-and-equilibrium/a/gibbs-free-energy
+  - https://www.britannica.com/science/Gibbs-free-energy
+description: "Gibbs free energy combines enthalpy and entropy into a single thermodynamic potential for processes at constant temperature and pressure. A negative change in Gibbs free energy indicates a spontaneous process, and equilibrium corresponds to the state at which this change is zero."
 equation: energy eq energy sub temperature mul entropy
 symbol_overrides:
-- energy: ΔG
-- energy: ΔH
-- temperature: ''
-- entropy: ΔS
+- energy: \Delta G
+- energy: \Delta H
+- entropy: \Delta S
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Enthalpy change
-- temperature: ''
-- entropy: Entropy change
+- entropy: '[entropy] change'

@@ -2,12 +2,17 @@ name: Tangential acceleration
 id: tangential_acceleration
 topic: circular_motion
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Acceleration
+  - https://en.wikipedia.org/wiki/Circular_motion
+  - https://en.wikipedia.org/wiki/Angular_acceleration
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/04%3A_Motion_in_Two_and_Three_Dimensions
+  - https://www.khanacademy.org/science/physics/centripetal-force-and-gravitation/centripetal-acceleration/a/centripetal-acceleration-review
+description: "The tangential component of an object's acceleration along a curved path; it equals the radius times the angular acceleration and points along the direction of motion. It governs the rate of change of speed (as opposed to the centripetal component, which changes the direction of velocity)."
 equation: acceleration eq length mul angular_acceleration
 symbol_overrides:
 - acceleration: a_t
 - length: r
-- angular_acceleration: ''
 name_overrides:
 - acceleration: Tangential [acceleration]
 - length: Radius
-- angular_acceleration: ''

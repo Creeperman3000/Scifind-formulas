@@ -2,6 +2,12 @@ name: Energy conservation with nonconservative work
 id: energy_conservation_nonconservative
 topic: conservation_of_energy
 difficulty: 6
+links:
+  - https://openstax.org/books/college-physics-2e/pages/7-5-nonconservative-forces
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/07%3A_Work_Energy_and_Energy_Resources/7.05%3A_Nonconservative_Forces
+  - https://courses.lumenlearning.com/suny-physics/chapter/7-5-nonconservative-forces/
+  - https://theory.uwinnipeg.ca/physics/work/node10.html
+description: "Extends mechanical energy conservation to systems where friction, drag, or other nonconservative forces act. The work done by such forces accounts exactly for the change in the system's total mechanical energy: positive work adds energy (for example a person pushing a crate), while negative work removes it (as friction does). It is used to solve motion problems without applying Newton's laws force by force."
 equation: Delta energy add Delta energy eq energy
 symbol_overrides:
 - energy: ΔKE

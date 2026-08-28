@@ -2,10 +2,20 @@ name: Compton wavelength
 id: compton_wavelength_definition
 topic: particle_physics
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/Compton_wavelength
+- https://phys.libretexts.org/Courses/Muhlenberg_College/MC_%3A_Physics_213_-_Modern_Physics/03%3A_Photons_and_Matter_Waves/3.04%3A_The_Compton_Effect
+- https://proofwiki.org/wiki/Definition:Compton_Wavelength
+- https://www.calctool.org/quantum-mechanics/compton-wavelength
+description: The Compton wavelength is a fundamental length scale associated with
+  a massive particle, defined as the wavelength of a photon whose energy equals the
+  particle's rest energy. It sets the scale for the wavelength shift in Compton scattering
+  and marks the regime below which relativistic quantum effects become essential.
+  For the electron it is about 2.43 picometers.
 equation: length eq planck_constant frac mass mul speed_of_light
 symbol_overrides:
 - length: λ_C
-- mass: ''
+- mass: m_e
 name_overrides:
 - length: Compton wavelength
-- mass: ''
+- mass: Electron [mass]

@@ -2,24 +2,25 @@ name: Entropy change of ideal gas with temperature and volume
 id: entropy_change_heating_ideal_gas
 topic: entropy
 difficulty: 8
-description: "Valid for an ideal gas heated at constant volume; ΔS = n C_v ln(T_f / T_i)."
-equation: entropy eq amount mul (molar_energy) mul log euler_e ((temperature) frac
-  temperature) add amount mul (gas_constant) mul log euler_e (volume frac volume)
+links:
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/entropy-of-a-gas-3/
+  - https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node40.html
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(Fleming)/05%3A_The_Second_Law/5.04%3A_Calculating_Entropy_Changes
+description: "Gives the total entropy change of a fixed quantity of ideal gas between two states, combining a temperature contribution through the constant-volume molar heat capacity and a volume contribution through the gas constant. Because entropy is a state function, this value holds for any path between the same initial and final states."
+equation: entropy eq amount mul molar_energy mul log euler_e (temperature frac temperature) add amount mul gas_constant mul log euler_e (volume frac volume)
 symbol_overrides:
 - entropy: ΔS
-- amount: ''
 - molar_energy: C_V
 - temperature: T_2
 - temperature: T_1
-- amount: ''
 - volume: V_2
 - volume: V_1
 name_overrides:
 - entropy: Change in [entropy]
-- amount: Amount of [substance]
+- amount: '[amount] of gas'
 - molar_energy: Molar heat capacity at constant [volume]
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
-- amount: ''
+- amount: '[amount] of gas'
 - volume: Final [volume]
 - volume: Initial [volume]

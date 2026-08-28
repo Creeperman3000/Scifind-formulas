@@ -2,15 +2,18 @@ name: Entropy change for isothermal expansion of ideal gas
 id: entropy_isothermal_expansion
 topic: entropy
 difficulty: 8
-description: "Valid for an ideal gas undergoing a reversible isothermal expansion; ΔS = nR ln(V_f / V_i)."
-equation: entropy eq amount mul (gas_constant) mul log euler_e (volume frac volume)
+links:
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(Fleming)/05%3A_The_Second_Law/5.04%3A_Calculating_Entropy_Changes
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map:_Chemistry_-_The_Central_Science_(Brown_et_al.)/19:_Chemical_Thermodynamics/19.02:_Entropy_and_the_Second_Law_of_Thermodynamics
+  - https://completeera.com/entropy-change-of-an-ideal-gas-the-basics-of-thermodynamics/
+description: "Gives the entropy gained by a fixed quantity of ideal gas expanding at constant temperature. Since internal energy of an ideal gas depends only on temperature, all heat absorbed reversibly during the expansion goes into work, and the entropy increase depends only on how much the volume grows."
+equation: entropy eq amount mul gas_constant mul log euler_e (volume frac volume)
 symbol_overrides:
 - entropy: ΔS
-- amount: ''
 - volume: V_2
 - volume: V_1
 name_overrides:
 - entropy: Change in [entropy]
-- amount: ''
+- amount: '[amount] of gas'
 - volume: Final [volume]
 - volume: Initial [volume]

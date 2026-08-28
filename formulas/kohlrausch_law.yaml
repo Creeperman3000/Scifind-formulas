@@ -2,12 +2,17 @@ name: Kohlrausch's law of independent migration
 id: kohlrausch_law
 topic: electrochemistry
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Kohlrausch%27s_law
+  - https://en.wikipedia.org/wiki/Molar_conductivity
+  - https://en.wikipedia.org/wiki/Friedrich_Kohlrausch_(physicist)
+description: "Kohlrausch's law of independent migration of ions states that at infinite dilution the limiting molar conductivity of an electrolyte equals the sum of the limiting molar ionic conductivities of its cation and anion, each multiplied by the number of such ions in the formula unit. The contributions of different ions are additive and independent of the partner ion."
 equation: conductance eq conductance add conductance
 symbol_overrides:
 - conductance: Λ°_m
 - conductance: λ°_{cation}
 - conductance: λ°_{anion}
 name_overrides:
-- conductance: Limiting molar [conductivity]
-- conductance: Cation limiting [conductivity]
-- conductance: Anion limiting [conductivity]
+- conductance: Limiting molar conductivity
+- conductance: Cation limiting conductivity
+- conductance: Anion limiting conductivity

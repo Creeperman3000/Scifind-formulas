@@ -2,21 +2,27 @@ name: Fourier's law of heat conduction
 id: heat_flow_conduction_fourier
 topic: heat_transfer
 difficulty: 7
-equation: energy frac time eq thermal_conductivity mul (area) mul length frac temperature
-  sub temperature
+links:
+- https://en.wikipedia.org/wiki/Thermal_conduction
+- https://en.wikipedia.org/wiki/Fourier%27s_law
+- https://www.britannica.com/science/Fouriers-law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/01%3A_Temperature_and_Heat
+- https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/heat-transfer-conduction
+description: Fourier's law of heat conduction states that the time rate of heat flow
+  through a homogeneous material is proportional to the cross-sectional area, the
+  temperature difference between the two sides, and the material's thermal conductivity,
+  and inversely proportional to the thickness of the material. It is a constitutive
+  law for heat conduction under steady-state conditions and assumes the material is
+  homogeneous and isotropic; a more general differential form uses the temperature
+  gradient.
+equation: energy frac time eq thermal_conductivity mul (area) mul frac (temperature
+  sub temperature) length
 symbol_overrides:
-- energy: ''
-- time: ''
-- thermal_conductivity: ''
-- area: ''
 - length: d
 - temperature: T_2
 - temperature: T_1
 name_overrides:
-- energy: '[Heat] flow'
-- time: ''
-- thermal_conductivity: ''
-- area: ''
+- energy: Heat flow
 - length: Thickness
 - temperature: Hot [temperature]
 - temperature: Cold [temperature]

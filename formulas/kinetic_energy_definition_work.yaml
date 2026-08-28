@@ -2,10 +2,15 @@ name: Kinetic energy from work done
 id: kinetic_energy_definition_work
 topic: kinetic_energy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Kinetic_energy
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://en.wikipedia.org/wiki/Work%E2%80%93energy_principle
+  - https://en.wikipedia.org/wiki/Mechanical_work
+description: "The work-energy theorem states that the net work done by the resultant force on a body equals its change in kinetic energy. For a constant net force along the displacement, this work equals the product of the force magnitude and the displacement."
 equation: energy eq force mul length
 symbol_overrides:
-- energy: ΔKE
-- force: ''
+- energy: \Delta KE
 - length: d
 name_overrides:
 - energy: Change in kinetic [energy]

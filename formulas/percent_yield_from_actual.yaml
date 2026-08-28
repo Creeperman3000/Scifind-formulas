@@ -2,12 +2,24 @@ name: Percent yield from actual and theoretical
 id: percent_yield_from_actual
 topic: chemical_reactions
 difficulty: 5
-equation: dimensionless eq 100 mul (mass frac mass )
+links:
+- https://en.wikipedia.org/wiki/Yield_(chemistry)
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/04%3A_The_Basics_of_Chemistry/4.08%3A_Reaction_Yields
+- https://www.thoughtco.com/percent-yield-definition-606345
+- https://www.khanacademy.org/science/ap-chemistry/stoichiometry-ideal/ap-ch-percent-yield/v/percent-yield
+- https://www.bbc.co.uk/bitesize/guides/zqcrq6f/revision/3
+description: Percent yield compares the actual mass of product isolated from a laboratory
+  reaction to the maximum mass predicted by stoichiometry (the theoretical yield)
+  and expresses the result as a percentage. The theoretical yield assumes the limiting
+  reagent is fully converted with no losses, so a percent yield below 100% reflects
+  incomplete reaction, side products, and material lost during isolation and purification.
+  It is the most commonly reported measure of reaction efficiency in synthetic chemistry.
+equation: dimensionless eq 100 mul mass frac mass
 symbol_overrides:
 - dimensionless: \% yield
 - mass: m_{actual}
 - mass: m_{theoretical}
 name_overrides:
-- dimensionless: Percent [yield]
+- dimensionless: Percent yield
 - mass: Actual [mass] produced
 - mass: Theoretical [mass]

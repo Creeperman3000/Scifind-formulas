@@ -2,12 +2,11 @@ name: Illuminance from luminous flux and area
 id: illuminance_formula
 topic: electromagnetic_waves
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Illuminance
+  - https://en.wikipedia.org/wiki/Luminous_flux
+  - https://www.britannica.com/science/illuminance
+  - https://phys.libretexts.org/Bookshelves/Optics
+  - https://www.engineeringtoolbox.com/light-level-rooms-d_708.html
+description: "Illuminance is the total luminous flux incident per unit area on a surface, weighted by the standard luminosity function so that it correlates with the perceived brightness to the human eye. It is measured in lux (lumens per square metre) and is widely used in lighting design and photography."
 equation: illuminance eq luminous_flux frac area
-symbol_overrides:
-- illuminance: ''
-- luminous_flux: ''
-- area: ''
-name_overrides:
-- illuminance: ''
-- luminous_flux: ''
-- area: ''

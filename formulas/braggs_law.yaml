@@ -2,12 +2,23 @@ name: Bragg's law
 id: braggs_law
 topic: atomic_physics
 difficulty: 8
-equation: amount mul length eq length mul (sin angle ) mul 2
+links:
+- https://en.wikipedia.org/wiki/Bragg_law
+- https://www.britannica.com/science/Bragg-law
+- https://eng.libretexts.org/Bookshelves/Materials_Science/Supplemental_Modules_(Materials_Science)/Electronic_Properties/X-ray_diffraction_Bragg%27s_law_and_Laue_equation
+- https://phys.libretexts.org/Courses/Bowdoin_College/Phys1140%3A_Introductory_Physics_II%3A_Part_2/04%3A_Diffraction/4.07%3A_X-Ray_Diffraction
+- https://serc.carleton.edu/research_education/geochemsheets/BraggsLaw.html
+description: 'Bragg''s law gives the condition for constructive interference of waves
+  (typically X-rays) scattered by successive planes of atoms in a crystal: diffraction
+  peaks occur only when the extra path difference between neighboring planes is a
+  whole number of wavelengths. It is the basis of X-ray crystallography for determining
+  crystal structures.'
+equation: amount mul length eq 2 mul length mul sin angle
 symbol_overrides:
 - amount: m
-- length: λ
+- length: \lambda
 - length: d
-- angle: θ
+- angle: \theta
 name_overrides:
 - amount: Order number
 - length: Wavelength

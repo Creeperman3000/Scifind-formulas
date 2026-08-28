@@ -2,14 +2,19 @@ name: AC circuit power factor
 id: ac_circuit_power_factor
 topic: circuits
 difficulty: 8
+links:
+  - https://en.m.wikipedia.org/wiki/Power_factor
+  - https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/07%3A_AC_Power/7.3%3A_Power_Triangle
+  - https://www.allaboutcircuits.com/textbook/alternating-current/chpt-11/true-reactive-and-apparent-power/
+  - https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec04.pdf
+description: "The power factor is a dimensionless measure of how effectively an AC circuit converts supplied electrical power into useful (real) power, defined as the ratio of real power to apparent power. For sinusoidal waveforms it equals the cosine of the phase angle between voltage and current; values below one indicate reactive or distorted current flow. It is used for sizing and billing in power systems and for power factor correction."
 equation: dimensionless eq power frac electric_potential mul current
 symbol_overrides:
 - dimensionless: PF
-- power: ''
 - electric_potential: V_{rms}
 - current: I_{rms}
 name_overrides:
-- dimensionless: Power [factor]
+- dimensionless: Power factor
 - power: Real [power]
-- electric_potential: RMS [voltage]
+- electric_potential: RMS voltage
 - current: RMS [current]

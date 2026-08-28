@@ -2,6 +2,13 @@ name: Hydraulic pressure ratio (Pascal's law)
 id: pascals_law_hydraulic_pressure_ratio
 topic: pascals_law
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pascal%27s_law
+  - https://www.britannica.com/science/Pascals-principle
+  - https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/Pascals_principle.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.05%3A_Pascal's_Principle
+  - https://courses.lumenlearning.com/suny-physics/chapter/11-3-the-simplest-case-of-pascals-law/
+description: "Pascal's law states that a change in pressure applied to a confined incompressible fluid is transmitted undiminished throughout the fluid, so the pressure applied at one piston equals the pressure at any other point in the fluid. This is the foundational statement of Pascal's principle in fluid statics."
 equation: pressure eq pressure
 symbol_overrides:
 - pressure: P_1

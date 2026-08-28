@@ -2,13 +2,14 @@ name: Root mean square speed of gas molecules
 id: rms_speed
 topic: ideal_gases
 difficulty: 7
-equation: velocity eq sqrt (3 mul (gas_constant) mul (temperature) frac molar_mass
-  ) 2
+links:
+  - https://en.wikipedia.org/wiki/Kinetic_theory_of_gases
+  - https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Laws/The_Ideal_Gas_Law/Root_Mean_Square_Speed
+  - https://www.grc.nasa.gov/WWW/K-12/airplane/eqstat.html
+description: "The root-mean-square speed characterizes the typical speed of molecules in an ideal gas in thermal equilibrium, derived from the Maxwell–Boltzmann distribution. It depends on the absolute temperature and the molar mass of the gas, increasing with temperature and decreasing for heavier molecules."
+equation: velocity eq sqrt (3 mul (gas_constant) mul (temperature) frac molar_mass) 2
 symbol_overrides:
 - velocity: v_{rms}
-- temperature: ''
-- molar_mass: ''
 name_overrides:
-- velocity: RMS [velocity]
-- temperature: ''
-- molar_mass: ''
+- velocity: RMS speed

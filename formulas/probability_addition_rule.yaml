@@ -2,17 +2,20 @@ name: Addition rule for probability
 id: probability_addition_rule
 topic: probability
 difficulty: 5
-equation: dimensionless eq dimensionless add (dimensionless) sub dimensionless mul
-  dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Probability
+  - https://en.wikipedia.org/wiki/Mutual_exclusivity
+  - https://en.wikipedia.org/wiki/Complementary_event
+  - https://www.britannica.com/science/probability-theory
+description: "The probability that either of two events occurs equals the sum of their individual probabilities minus the probability that both occur simultaneously, a statement known as the inclusion-exclusion rule for two events. It reduces to simple addition when the events are mutually exclusive."
+equation: dimensionless eq dimensionless add dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: P(A∪B)
 - dimensionless: P(A)
 - dimensionless: P(B)
-- dimensionless: P(A)
-- dimensionless: P(B)
+- dimensionless: P(A∩B)
 name_overrides:
 - dimensionless: Probability of A or B
 - dimensionless: Probability of A
 - dimensionless: Probability of B
-- dimensionless: Probability of A
-- dimensionless: Probability of B
+- dimensionless: Probability of A and B

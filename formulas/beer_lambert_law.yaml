@@ -2,14 +2,12 @@ name: Beer-Lambert law
 id: beer_lambert_law
 topic: analytical_chemistry
 difficulty: 7
+links:
+  - https://biologynotesonline.com/beer-lambert-law
+  - https://www.calctool.org/optics/beer-lambert-law
+  - https://resources.wolframcloud.com/FormulaRepository/resources/BeerLambert-Law-With-Decadic-Absorbance
+  - https://www.scienceabc.com/pure-sciences/what-is-beers-law
+description: "The Beer-Lambert law states that the absorbance of monochromatic light by a solution is directly proportional to the concentration of the absorbing species and the optical path length through the sample. It is the basis of quantitative spectrophotometry and colorimetric analysis. The linear relation holds for dilute, homogeneous, non-scattering samples and breaks down at high concentrations."
 equation: absorbance eq molar_absorptivity mul (concentration) mul length
-symbol_overrides:
-- absorbance: A
-- molar_absorptivity: \varepsilon
-- concentration: c
-- length: l
 name_overrides:
-- absorbance: Absorbance
-- molar_absorptivity: Molar absorptivity
-- concentration: Concentration
-- length: Path length
+- length: Path [length]

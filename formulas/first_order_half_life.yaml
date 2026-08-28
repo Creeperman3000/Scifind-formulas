@@ -2,10 +2,16 @@ name: First-order half-life
 id: first_order_half_life
 topic: chemical_kinetics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Rate_equation#First_order
+  - https://en.wikipedia.org/wiki/Half-life
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/First-Order_Reactions
+  - https://www.khanacademy.org/science/biology/biochemistry/chemical-reactions-rate-laws/v/first-order-reaction-half-life
+description: "The half-life of a first-order reaction is the time required for the reactant concentration to fall to half its initial value. It is independent of the initial concentration and is determined solely by the rate constant k, which is the basis for techniques such as radiocarbon dating."
 equation: time eq log euler_e 2 frac frequency
 symbol_overrides:
-- time: t_{half}
-- frequency: k
+  - time: t_{1/2}
+  - frequency: k
 name_overrides:
-- time: Half-life
-- frequency: Decay constant
+  - time: Half-life
+  - frequency: First-order rate constant

@@ -2,15 +2,18 @@ name: Terminal velocity in Stokes flow
 id: terminal_velocity_stokes
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Terminal_velocity
+  - https://en.wikipedia.org/wiki/Stokes%27_law
+  - https://www.britannica.com/science/Stokes-law-fluid-mechanics
+  - https://courses.lumenlearning.com/physics/chapter/9-6-terminal-velocity/
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.06%3A_Stokes'_Law
+description: "Stokes' law gives the drag force on a small sphere moving through a viscous fluid at very low Reynolds number, and equating it to the gravitational (and optional buoyancy) force gives the terminal settling velocity. The simplified form here is valid for a sphere whose effective mass m already accounts for buoyancy, or for a sphere in vacuum-like conditions where buoyancy is negligible."
 equation: velocity eq mass mul (standard_gravity) frac ((dynamic_viscosity mul (length)
   mul 6) mul pi)
 symbol_overrides:
 - velocity: v_t
-- mass: ''
-- dynamic_viscosity: ''
 - length: r
 name_overrides:
 - velocity: Terminal [velocity]
-- mass: ''
-- dynamic_viscosity: ''
 - length: Particle radius

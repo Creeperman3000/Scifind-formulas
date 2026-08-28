@@ -2,8 +2,18 @@ name: Elastic collision final velocity 2 (1D)
 id: elastic_collision_final_velocity_2
 topic: collisions
 difficulty: 7
-equation: velocity eq 2 mul (mass) frac (mass add mass ) mul (velocity) add (mass sub
-  mass ) frac (mass add mass ) mul velocity
+links:
+- https://openstax.org/books/college-physics-ap-courses-2e/pages/8-4-elastic-collisions-in-one-dimension
+- https://jwu.pressbooks.pub/collegephysics/chapter/elastic-collisions-in-one-dimension/
+- https://calculover.com/science/mechanics/elastic-collision/
+- https://calculator.academy/elastic-collision-calculator-2/
+description: Gives the post-collision velocity of the second object in a head-on,
+  perfectly elastic one-dimensional collision between two bodies, in terms of both
+  initial velocities and the two masses. It is obtained by solving conservation of
+  momentum and conservation of kinetic energy simultaneously, and is symmetric to
+  the corresponding expression for object one under exchange of labels 1 and 2.
+equation: velocity eq (2 mul mass) frac (mass add mass) mul (velocity) add (mass sub
+  mass) frac (mass add mass) mul velocity
 symbol_overrides:
 - velocity: v_{2f}
 - mass: m_1
@@ -16,13 +26,13 @@ symbol_overrides:
 - mass: m_2
 - velocity: v_{2i}
 name_overrides:
-- velocity: Final velocity of mass 2
+- velocity: Final [velocity] of mass 2
 - mass: m_1
 - mass: m_1
 - mass: m_2
-- velocity: Initial velocity of mass 1
+- velocity: Initial [velocity] of mass 1
 - mass: m_2
 - mass: m_1
 - mass: m_1
 - mass: m_2
-- velocity: Initial velocity of mass 2
+- velocity: Initial [velocity] of mass 2

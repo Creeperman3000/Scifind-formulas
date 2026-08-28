@@ -2,6 +2,12 @@ name: Standard form of a circle
 id: circle_standard_form
 topic: circles
 difficulty: 4
+links:
+  - https://www.mathsisfun.com/algebra/circle-equations.html
+  - https://math.libretexts.org/Courses/College_of_the_Desert/College_Algebra_for_Liberal_Arts_and_Humanities/02%3A_The_Rectangular_Coordinate_System_and_Graphs/2.02%3A_The_Circle
+  - https://byjus.com/maths/equation-of-a-circle/
+  - https://www.purplemath.com/modules/circle.htm
+description: "The standard (center-radius) form of a circle's equation states that a point lies on the circle exactly when its squared horizontal and vertical offsets from the center sum to the squared radius. It follows from the Pythagorean theorem applied to the distance from the center to any point on the circle. Reading off the center and radius from this form is the usual first step for graphing a circle or converting from its expanded equation."
 equation: ((length sub length ) pow 2) add (length sub length ) pow 2 eq length pow
   2
 symbol_overrides:

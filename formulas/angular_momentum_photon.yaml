@@ -2,8 +2,14 @@ name: Photon angular momentum
 id: angular_momentum_photon
 topic: quantum_mechanics
 difficulty: 9
-equation: angular_momentum eq (planck_constant frac (2 mul pi ))
-symbol_overrides:
-- angular_momentum: ''
+links:
+- https://en.wikipedia.org/wiki/Spin_angular_momentum_of_light
+- https://en.wikipedia.org/wiki/Angular_momentum_of_light
+- https://arxiv.org/abs/1609.05218
+description: Each photon carries an intrinsic (spin) angular momentum whose magnitude
+  is one reduced quantum of action, with sign set by its circular polarization (helicity).
+  This quantized value underlies phenomena such as optical torque on birefringent
+  particles and spin-to-orbital angular momentum conversion.
+equation: angular_momentum eq planck_constant frac 2 mul pi
 name_overrides:
 - angular_momentum: Photon angular [momentum]

@@ -2,19 +2,27 @@ name: Longitudinal relativistic Doppler effect
 id: doppler_effect_light_longitudinal
 topic: relativity
 difficulty: 9
-equation: frequency eq frequency mul sqrt ((dimensionless sub dimensionless ) frac
+links:
+- https://en.wikipedia.org/wiki/Relativistic_Doppler_effect
+- https://en.wikipedia.org/wiki/Redshift
+description: Gives the frequency of light measured by an observer when the source
+  moves directly away along the line of sight at a relativistic speed, combining the
+  classical wave-front bunching with relativistic time dilation. The result is the
+  redshift used to interpret recession speeds of stars and galaxies; it involves no
+  medium, unlike the sound Doppler effect.
+equation: frequency eq frequency mul sqrt ((dimensionless sub dimensionless) frac
   dimensionless add dimensionless ) 2
 symbol_overrides:
 - frequency: f'
-- frequency: ''
-- dimensionless: '1'
-- dimensionless: β
-- dimensionless: '1'
-- dimensionless: β
+- frequency: f
+- dimensionless: 1
+- dimensionless: \beta
+- dimensionless: 1
+- dimensionless: \beta
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
 - dimensionless: ''
-- dimensionless: v/c
+- dimensionless: Speed ratio v/c
 - dimensionless: ''
-- dimensionless: ''
+- dimensionless: Speed ratio v/c

@@ -2,14 +2,19 @@ name: Thin film interference constructive (normal incidence)
 id: interference_constructive_thin_film
 topic: interference
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Thin-film_interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference
+  - https://www.britannica.com/science/thin-film-interference
+  - https://opentextbc.ca/physicstestbook2/chapter/thin-film-interference/
+  - https://www.animations.physics.unsw.edu.au/jw/light/thin-film-interference.htm
+description: "For light at normal incidence on a thin film, constructive interference of the reflected beams occurs when twice the optical path through the film equals an integer number of wavelengths. This assumes no net phase shift on reflection; if a half-wavelength phase shift occurs at one boundary, the condition is shifted by a half-integer."
 equation: 2 mul length mul refractive_index eq dimensionless mul length
 symbol_overrides:
 - length: t
-- refractive_index: n
 - dimensionless: m
 - length: λ
 name_overrides:
 - length: Film thickness
-- refractive_index: Refractive index
 - dimensionless: Order
 - length: Wavelength in vacuum

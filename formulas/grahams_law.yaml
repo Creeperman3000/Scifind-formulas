@@ -2,14 +2,25 @@ name: Graham's law of effusion
 id: grahams_law
 topic: ideal_gases
 difficulty: 7
-equation: velocity frac velocity eq sqrt (molar_mass frac molar_mass ) 2
+links:
+- https://en.wikipedia.org/wiki/Graham%27s_law
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/09._Gas_Phase_Kinetics/Graham's_Laws_of_Effusion_and_Diffusion
+- https://www.britannica.com/science/Grahams-law
+- https://www.chem.purdue.edu/gchelp/atoms/therfflaw.html
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Supplemental_Modules_and_Websites_(Inorganic_Chemistry)/Chemical_Reactions/Case_Studies/Graham's_Law_of_Effusion
+description: Graham's law relates the rates at which two gases effuse through a small
+  hole to the square roots of their molar masses. The empirical law follows from kinetic
+  theory, which gives the rms speed of gas molecules as inversely proportional to
+  the square root of their molar mass, and is widely used to separate isotopes and
+  to estimate molecular weights from measured effusion rates.
+equation: ((velocity frac velocity) eq ((molar_mass frac molar_mass) sqrt 2))
 symbol_overrides:
-- velocity: v₁
-- velocity: v₂
-- molar_mass: M₂
-- molar_mass: M₁
+- velocity: v_1
+- velocity: v_2
+- molar_mass: M_2
+- molar_mass: M_1
 name_overrides:
 - velocity: Effusion rate 1
 - velocity: Effusion rate 2
-- molar_mass: Molar mass 2
-- molar_mass: Molar mass 1
+- molar_mass: '[molar_mass] of gas 2'
+- molar_mass: '[molar_mass] of gas 1'

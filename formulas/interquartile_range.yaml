@@ -2,6 +2,13 @@ name: Interquartile range
 id: interquartile_range
 topic: statistics
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Interquartile_range
+  - https://www.britannica.com/statistic/interquartile-range
+  - https://www.statisticshowto.com/probability-and-statistics/interquartile-range/
+  - https://mathworld.wolfram.com/InterquartileRange.html
+  - https://www.scribbr.com/statistics/interquartile-range/
+description: "The interquartile range is a measure of statistical dispersion, defined as the spread between the first and third quartiles of a dataset. It is more robust to outliers than the total range and is used to construct box plots, identify outliers via the 1.5×IQR rule, and indicate skewness in the data."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: IQR

@@ -2,12 +2,18 @@ name: Absorption coefficient from absorbance
 id: absorption_coefficient_optical
 topic: interference
 difficulty: 7
-equation: wavenumber eq dimensionless frac (2.303 mul length)
+links:
+  - https://en.wikipedia.org/wiki/Absorbance
+  - https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law
+  - https://www.rp-photonics.com/absorbance.html
+  - https://www.rp-photonics.com/absorption_coefficient.html
+description: "Relates the decadic absorbance measured for a uniform sample to the absorption coefficient, the quantity that measures how strongly a medium attenuates light per unit distance. Because absorbance is base-10 logarithmic while the absorption coefficient enters an exponential (base-e) attenuation law, the factor ln(10) ≈ 2.303 converts between the two. Assumes a homogeneous, non-scattering medium."
+equation: wavenumber eq (2.303 mul dimensionless) frac length
 symbol_overrides:
 - wavenumber: \alpha
-- absorbance: ''
+- dimensionless: A
 - length: t
 name_overrides:
 - wavenumber: Absorption coefficient
-- absorbance:
+- dimensionless: Absorbance
 - length: Sample thickness

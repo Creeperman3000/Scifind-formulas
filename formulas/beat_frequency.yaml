@@ -2,12 +2,18 @@ name: Beat frequency
 id: beat_frequency
 topic: wave_interference
 difficulty: 6
-equation: frequency eq frequency sub frequency
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/17%3A_Sound/17.07%3A_Beats
+  - https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_7C_-_General_Physics/8%3A_Waves/8.6%3A_Beats
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/beat.html
+  - https://www.geeksforgeeks.org/physics/beat-frequency-formula/
+description: "When two waves of slightly different frequencies overlap, their superposition produces a periodic rise and fall in amplitude called beats. The beat frequency counts how many amplitude maxima occur per second and equals the magnitude of the difference between the two wave frequencies, which is why the result must be non-negative. It is commonly used for tuning musical instruments and comparing nearby frequencies."
+equation: frequency eq abs (frequency sub frequency)
 symbol_overrides:
 - frequency: f_{beat}
 - frequency: f_1
 - frequency: f_2
 name_overrides:
 - frequency: Beat [frequency]
-- frequency: '[Frequency] 1'
-- frequency: '[Frequency] 2'
+- frequency: '[frequency] 1'
+- frequency: '[frequency] 2'

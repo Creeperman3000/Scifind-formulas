@@ -2,15 +2,21 @@ name: Polytropic process
 id: polytropic_process
 topic: ideal_gases
 difficulty: 8
-description: "Valid for a polytropic process PV^n = const; includes isothermal (n=1), isobaric (n=0), isochoric (n→∞), adiabatic (n=γ) as special cases."
+links:
+  - https://en.wikipedia.org/wiki/Polytropic_process
+  - https://en.wikipedia.org/wiki/Thermodynamic_process
+  - https://en.wikipedia.org/wiki/Ideal_gas_law
+  - https://www.britannica.com/science/polytropic-process
+  - https://www.engineersedge.com/thermodynamics/polytropic_process_equations_13820.htm
+description: "A polytropic process is a thermodynamic expansion or compression of a gas that obeys PV^n = constant, where n is the polytropic index. It unifies the standard ideal-gas processes as special cases: isobaric (n=0), isothermal (n=1), isentropic (n=γ), and isochoric (n→∞)."
 equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
-- pressure: ''
-- volume: ''
+- pressure: P
+- volume: V
 - dimensionless: n
 - dimensionless: C
 name_overrides:
-- pressure: '[Pressure]'
-- volume: '[Volume]'
+- pressure: Pressure
+- volume: Volume
 - dimensionless: Polytropic index
 - dimensionless: Constant

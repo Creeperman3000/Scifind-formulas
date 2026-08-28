@@ -2,7 +2,20 @@ name: Formal charge
 id: formal_charge_formula
 topic: chemical_bonding
 difficulty: 6
-equation: dimensionless eq dimensionless sub dimensionless add dimensionless frac 2
+links:
+- https://en.wikipedia.org/wiki/Formal_charge
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_(OpenStax)/04%3A_Structural_Geometry_of_Molecules/4.05%3A_Formal_Charges_and_Resonance
+- https://www.khanacademy.org/science/organic-chemistry/gen-chem-review/bonding-in-lewis-structures/v/formal-charge-1
+- https://www.masterorganicchemistry.com/2010/09/24/formal-charge/
+- https://www.britannica.com/science/formal-charge
+description: 'Formal charge is a bookkeeping tool for evaluating Lewis structures:
+  each atom in a molecule is assigned a hypothetical charge equal to its group valence
+  electrons minus the electrons assigned to it in the structure (its lone-pair electrons
+  plus half of its shared bonding electrons). Structures in which the formal charges
+  on all atoms are closest to zero (and any nonzero charges reside on the most electronegative
+  atoms) are considered the best Lewis representation of the molecule.'
+equation: dimensionless eq dimensionless sub (dimensionless) sub dimensionless frac
+  2
 symbol_overrides:
 - dimensionless: FC
 - dimensionless: V

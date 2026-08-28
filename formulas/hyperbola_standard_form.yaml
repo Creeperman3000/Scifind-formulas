@@ -2,6 +2,16 @@ name: Standard equation of a hyperbola
 id: hyperbola_standard_form
 topic: coordinate_geometry
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Hyperbola#Equation
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/Intermediate_Algebra_2e_(OpenStax)/12%3A_Conic_Sections/12.04%3A_The_Hyperbola
+- https://www.cuemath.com/geometry/hyperbola/
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:conic-sections/x2f8bb11595b61c86:hyperbola-equations/v/horizontal-hyperbola
+- https://www.britannica.com/science/hyperbola
+description: The standard Cartesian form of a hyperbola centered at the origin with
+  its transverse axis along the x-axis, where a is the semi-transverse axis and b
+  is the semi-conjugate axis. Replacing x by (x-h) and y by (y-k) shifts the center
+  to (h, k).
 equation: dimensionless eq (dimensionless pow 2) frac (dimensionless pow 2) sub (dimensionless
   pow 2) frac dimensionless pow 2
 symbol_overrides:
@@ -12,7 +22,7 @@ symbol_overrides:
 - dimensionless: b
 name_overrides:
 - dimensionless: Hyperbola equation
-- dimensionless: ''
 - dimensionless: x-coordinate
 - dimensionless: Semi-transverse axis
 - dimensionless: y-coordinate
+- dimensionless: Semi-conjugate axis

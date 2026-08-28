@@ -2,14 +2,18 @@ name: Excess reactant remaining mass
 id: excess_reactant_mass
 topic: limiting_reactants
 difficulty: 6
+links:
+  - https://chem.libretexts.org/Courses/College_of_the_Canyons/Chem_151%3A_Preparatory_General_Chemistry_OER/08%3A_Quantities_in_Chemical_Reactions_(Stoichiometry)/8.06%3A_How_Much_of_the_Excess_Reactant_Remains_after_a_Reaction
+  - https://general.chemistrysteps.com/how-to-find-the-amount-of-excess-reactant/
+  - https://www.physicsclassroom.com/tutorial/stoichiometry/limiting-and-excess-reactants/determining-the-excess-amount
+  - https://chem.libretexts.org/Courses/Anoka-Ramsey_Community_College/Introduction_to_Chemistry/08:_Stoichiometry/8.06:_Limiting_Reactants_and_Excess_Reactants
+description: "In a reaction with a limiting reactant, this gives the amount of the excess reactant left over once the reaction stops. The moles consumed are found from the limiting reactant via the stoichiometric mole ratio, converted to mass with the molar mass, and subtracted from what was present initially. It assumes the reaction goes to completion."
 equation: mass eq mass sub dimensionless mul molar_mass
 symbol_overrides:
 - mass: m_{excess}
 - mass: m_{initial}
 - dimensionless: n_{used}
-- molar_mass: ''
 name_overrides:
 - mass: Excess [mass] remaining
 - mass: Initial [mass] of excess reactant
-- dimensionless: Moles consumed
-- molar_mass: ''
+- dimensionless: Moles of excess reactant consumed

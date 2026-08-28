@@ -2,12 +2,19 @@ name: Resistors in series
 id: series_resistance
 topic: circuits
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistance
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/09%3A_Current_and_Resistance/9.04%3A_Resistors_in_Series_and_Parallel
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-resistors/v/series-resistors
+  - https://www.electronics-tutorials.ws/resistor/res_3.html
+  - https://www.britannica.com/science/series-resistance
+description: "When resistors are connected end-to-end in a series loop, the same current flows through each, and the total voltage drop across the combination is the sum of the individual drops. The equivalent resistance is therefore the sum of the individual resistances, and is always larger than any single resistance in the group."
 equation: resistance eq resistance add resistance
 symbol_overrides:
 - resistance: R_{total}
 - resistance: R_1
 - resistance: R_2
 name_overrides:
-- resistance: ''
-- resistance: ''
-- resistance: ''
+- resistance: Total [resistance]
+- resistance: '[resistance] 1'
+- resistance: '[resistance] 2'

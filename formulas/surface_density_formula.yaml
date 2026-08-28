@@ -2,12 +2,11 @@ name: Surface density
 id: surface_density_formula
 topic: plane_geometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Area_density
+  - https://en.wikipedia.org/wiki/Column_density
+  - https://www.britannica.com/science/areal-density
+  - https://www.tec-science.com/materials-science/density/density-of-flat-objects/
+  - https://www.nist.gov/pml/weights-and-measures/si-units
+description: "Surface (areal) density is the mass per unit area of a thin, approximately two-dimensional object. It is widely used to characterize paper (grammage), fabrics, snowpack, and astronomical column densities integrated along a line of sight."
 equation: surface_density eq mass frac area
-symbol_overrides:
-- surface_density: ''
-- mass: ''
-- area: ''
-name_overrides:
-- surface_density: ''
-- mass: ''
-- area: ''

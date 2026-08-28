@@ -2,13 +2,14 @@ name: Electric potential in uniform field
 id: electric_potential_uniform_field
 topic: electric_potential
 difficulty: 6
-description: "Valid for a uniform electric field; V = −E·r + constant."
+links:
+  - https://courses.lumenlearning.com/suny-physics/chapter/19-2-electric-potential-in-a-uniform-electric-field/
+  - https://pressbooks.online.ucf.edu/phy2054jr/chapter/electric-potential-in-a-uniform-electric-field/
+  - https://openstax.org/books/university-physics-volume-2/pages/7-4-determining-field-from-potential
+description: "In a uniform electric field, such as that between parallel conducting plates, the potential difference between two points equals the field strength times the displacement measured along the field. Because the potential decreases in the direction the field points, a minus sign appears when the displacement is taken along the field direction."
 equation: electric_potential eq electric_field_strength mul length
 symbol_overrides:
-- electric_potential: ''
-- electric_field_strength: ''
 - length: d
 name_overrides:
 - electric_potential: Potential difference
-- electric_field_strength: ''
 - length: Distance

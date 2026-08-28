@@ -2,8 +2,17 @@ name: Derivative constant multiple rule
 id: derivative_constant_multiple_rule
 topic: derivatives
 difficulty: 5
-equation: frac (rmd (dimensionless mul dimensionless)) (rmd dimensionless) eq dimensionless mul (frac
-  (rmd dimensionless) (rmd dimensionless))
+links:
+- https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules
+- https://tutorial.math.lamar.edu/classes/calci/DiffFormulas.aspx
+- https://www.khanacademy.org/v/basic-differentiation-rules
+- https://www.geeksforgeeks.org/maths/constant-multiple-rule/
+description: 'The constant multiple rule states that a multiplicative constant can
+  be factored out of a derivative: differentiating a constant times a function gives
+  the constant times the derivative of the function. It is one of the basic differentiation
+  rules and follows directly from the limit definition of the derivative.'
+equation: frac rmd (dimensionless mul dimensionless) rmd dimensionless eq dimensionless
+  mul frac rmd dimensionless rmd dimensionless
 symbol_overrides:
 - dimensionless: c
 - dimensionless: f
@@ -14,7 +23,7 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Constant factor
 - dimensionless: Function f
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Constant factor
 - dimensionless: Derivative of f
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'

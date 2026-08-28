@@ -2,10 +2,21 @@ name: Secant squared identity
 id: secant_squared_identity
 topic: trigonometric_identities
 difficulty: 5
-equation: cos angle pow (drop 2 sub) eq 1 add tan angle pow 2
+links:
+- https://en.wikipedia.org/wiki/Pythagorean_trigonometric_identity
+- https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+- https://en.wikibooks.org/wiki/Trigonometry/Trigonometric_Formula_Reference
+- https://mathworld.wolfram.com/SecantSquared.html
+description: A Pythagorean trigonometric identity obtained by dividing the fundamental
+  identity sin²θ + cos²θ = 1 by cos²θ. It expresses the secant function in terms of
+  the tangent and is valid wherever cos θ is nonzero. It is frequently used in calculus
+  for integrating secant-based expressions and in derivations of integration formulas.
+equation: frac 1 cos angle pow 2 eq 1 add tan angle pow 2
 symbol_overrides:
 - angle: θ
 - angle: θ
+- angle: θ
 name_overrides:
+- angle: Angle θ
 - angle: Angle θ
 - angle: Angle θ

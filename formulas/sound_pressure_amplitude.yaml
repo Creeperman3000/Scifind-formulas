@@ -2,17 +2,23 @@ name: Sound pressure amplitude from intensity
 id: sound_pressure_amplitude
 topic: mechanical_waves
 difficulty: 8
-description: "Sound pressure amplitude from intensity; p₀ = √(2 I ρ v)."
-equation: pressure eq sqrt (density mul velocity mul power frac area ) 2
+links:
+- https://en.wikipedia.org/wiki/Sound_pressure
+- https://en.wikipedia.org/wiki/Sound_intensity
+- https://en.wikipedia.org/wiki/Acoustic_impedance
+- https://en.wikipedia.org/wiki/Particle_velocity
+description: For a plane sinusoidal sound wave in a fluid, the sound pressure amplitude
+  is related to the acoustic intensity, the medium's density, and the speed of sound.
+  This relation follows from the definition of intensity as the product of pressure
+  and particle velocity, combined with the plane-wave relation between those two quantities.
+equation: ((pressure) eq (((2 mul irradiance mul density mul velocity) sqrt 2)))
 symbol_overrides:
-- pressure: p₀
-- density: ρ
-- velocity: ''
-- power: I
-- area: ''
+- pressure: p_0
+- irradiance: I
+- density: \rho
+- velocity: v
 name_overrides:
-- pressure: Pressure amplitude
-- density: Medium density
+- pressure: '[pressure] amplitude'
+- irradiance: Sound intensity
+- density: Medium [density]
 - velocity: Speed of sound
-- power: Sound intensity
-- area: Unit area

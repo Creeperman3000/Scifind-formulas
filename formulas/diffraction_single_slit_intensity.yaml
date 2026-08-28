@@ -2,15 +2,23 @@ name: Single-slit diffraction intensity pattern
 id: diffraction_single_slit_intensity
 topic: diffraction
 difficulty: 9
-equation: dimensionless eq dimensionless mul (sin dimensionless frac dimensionless
-  ) pow 2
+links:
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/04%3A_Diffraction/4.03%3A_Intensity_in_Single-Slit_Diffraction
+- https://www.sciencefacts.net/single-slit-diffraction.html
+- https://www.physicsbootcamp.org/section-intensity-in-diffraction-pattern-light
+description: Gives how the intensity of monochromatic light varies with angle across
+  the pattern formed by Fraunhofer diffraction at a single narrow slit. The central
+  maximum is by far the brightest, and the intensity falls to zero at the minima where
+  the half phase difference is an integer multiple of pi.
+equation: dimensionless eq dimensionless mul (sin dimensionless frac dimensionless)
+  pow 2
 symbol_overrides:
-- dimensionless: I(θ)
+- dimensionless: I(\theta)
 - dimensionless: I_0
-- dimensionless: β
-- dimensionless: β
+- dimensionless: \beta
+- dimensionless: \beta
 name_overrides:
 - dimensionless: Intensity at angle θ
-- dimensionless: Maximum [intensity]
+- dimensionless: Maximum intensity
 - dimensionless: Half phase difference
 - dimensionless: Half phase difference

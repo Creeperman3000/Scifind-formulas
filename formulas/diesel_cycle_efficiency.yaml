@@ -2,23 +2,44 @@ name: Diesel cycle efficiency
 id: diesel_cycle_efficiency
 topic: heat_engines
 difficulty: 9
-equation: dimensionless eq dimensionless sub (dimensionless pow (dimensionless) sub
-  dimensionless ) frac ((dimensionless sub dimensionless ) mul dimensionless )
+links:
+- https://kevinjkircher.com/wp-content/uploads/2023/04/diesel-and-dual-cycles.pdf
+- https://www.nuclear-power.com/nuclear-engineering/thermodynamics/thermodynamic-cycles/diesel-cycle-diesel-engine/diesel-cycle-problem-with-solution/
+- https://mechcodex.com/calculators/thermodynamics/diesel-cycle
+- https://novasolver.jp/en/tools/diesel-cycle.html
+description: This is the air-standard thermal efficiency of the ideal Diesel cycle,
+  the theoretical model for compression-ignition engines with isentropic compression,
+  constant-pressure heat addition, isentropic expansion, and constant-volume heat
+  rejection. It depends on the compression ratio, the cutoff ratio, and the ratio
+  of specific heats; for a fixed compression ratio it is always slightly below the
+  Otto cycle efficiency, though real diesels compensate with much higher compression
+  ratios.
+equation: dimensionless eq dimensionless sub frac dimensionless (pow dimensionless
+  sub dimensionless dimensionless ) mul frac (sub (pow dimensionless dimensionless)
+  dimensionless) mul dimensionless sub dimensionless dimensionless
 symbol_overrides:
 - dimensionless: η_{Diesel}
 - dimensionless: '1'
-- dimensionless: r_c
-- dimensionless: γ
-- dimensionless: ''
 - dimensionless: '1'
 - dimensionless: r
 - dimensionless: γ
+- dimensionless: '1'
+- dimensionless: r_c
+- dimensionless: γ
+- dimensionless: '1'
+- dimensionless: γ
+- dimensionless: r_c
+- dimensionless: '1'
 name_overrides:
-- dimensionless: Diesel cycle [efficiency]
-- dimensionless: '1'
-- dimensionless: Cutoff ratio [r_c]
-- dimensionless: Ratio of specific heats [γ]
-- dimensionless: Compressed [r_c^γ]
-- dimensionless: '1'
-- dimensionless: Compression [ratio r]
-- dimensionless: Ratio of specific heats [γ]
+- dimensionless: Diesel cycle efficiency
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: Compression ratio r
+- dimensionless: Ratio of specific heats γ
+- dimensionless: ''
+- dimensionless: Cutoff ratio r_c
+- dimensionless: Ratio of specific heats γ
+- dimensionless: ''
+- dimensionless: Ratio of specific heats γ
+- dimensionless: Cutoff ratio r_c
+- dimensionless: ''

@@ -2,9 +2,16 @@ name: Interior angle of a regular polygon
 id: polygon_interior_angle_regular
 topic: polygons
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Regular_polygon
+  - https://en.wikipedia.org/wiki/Internal_and_external_angles
+  - https://en.wikipedia.org/wiki/Interior_angle
+  - https://mathworld.wolfram.com/RegularPolygon.html
+  - https://www.cuemath.com/geometry/regular-polygon/
+description: "Each interior angle of a regular n-gon has the same measure, found by dividing the total interior angle sum (n−2)·180° equally among the n vertices. As n grows, the interior angle approaches 180° and the polygon approaches a circle."
 equation: angle eq dimensionless mul (dimensionless sub 2) frac dimensionless
 symbol_overrides:
-- angle: θ
+- angle: \theta
 - dimensionless: '180'
 - dimensionless: n
 - dimensionless: n

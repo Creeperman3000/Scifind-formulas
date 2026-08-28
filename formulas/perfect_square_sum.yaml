@@ -2,6 +2,12 @@ name: Perfect square of a sum
 id: perfect_square_sum
 topic: polynomials
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Factorization
+  - https://en.wikipedia.org/wiki/Polynomial
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra
+  - https://www.cuemath.com/algebra/perfect-square-trinomial/
+description: The square of a binomial sum expands to a perfect square trinomial with a positive cross term, a common pattern used in expanding polynomials and in completing the square. The result factors back into the original binomial squared.
 equation: (dimensionless add dimensionless ) pow 2 eq (dimensionless pow 2) add (2
   mul (dimensionless) mul dimensionless) add dimensionless pow 2
 symbol_overrides:

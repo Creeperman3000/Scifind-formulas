@@ -2,17 +2,20 @@ name: Nernst equation
 id: nernst_equation
 topic: electrochemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Nernst_equation
+  - https://www.britannica.com/science/Nernst-equation
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Chemistry/The_Nernst_Equation
+  - https://www.khanacademy.org/science/ap-chemistry/thermodynamics-ap/effect-of-concentration-on-cell-potential/v/the-nernst-equation
+description: "The Nernst equation relates the reduction potential of an electrochemical half-cell or full cell to its standard electrode potential, temperature, number of transferred electrons, and the activities of the chemical species. It is fundamental to electrochemistry, governing how cell potentials shift away from standard conditions."
 equation: electric_potential eq electric_potential sub gas_constant mul (temperature)
   frac (amount mul (elementary_charge) mul avogadro_number) mul log euler_e equilibrium_constant
 symbol_overrides:
 - electric_potential: E
 - electric_potential: E°
-- temperature: ''
-- amount: ''
 - equilibrium_constant: Q
 name_overrides:
-- electric_potential: Cell [potential]
-- electric_potential: Standard cell [potential]
-- temperature: ''
+- electric_potential: Cell potential
+- electric_potential: Standard cell potential
 - amount: Moles of electrons
 - equilibrium_constant: Reaction quotient

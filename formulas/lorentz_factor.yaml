@@ -2,15 +2,23 @@ name: Lorentz factor
 id: lorentz_factor
 topic: relativity
 difficulty: 8
-equation: dimensionless eq dimensionless frac sqrt (dimensionless sub (velocity pow
-  2) frac speed_of_light pow 2 ) 2
+links:
+- https://en.wikipedia.org/wiki/Lorentz_factor
+- https://en.wikipedia.org/wiki/Special_relativity
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/05%3A__Relativity
+- https://mathworld.wolfram.com/LorentzFactor.html
+- https://www.khanacademy.org/science/physics/special-relativity/minkowski-spacetime-2016-01-18t18-26-43-00-00/v/lorentz-transformation
+description: The Lorentz factor is a dimensionless quantity that quantifies how relativistic
+  effects such as time dilation, length contraction, and relativistic mass increase
+  scale with a particle's velocity. It appears throughout special relativity and approaches
+  infinity as the speed approaches that of light.
+equation: dimensionless eq dimensionless frac sqrt (dimensionless sub frac (velocity
+  pow 2) speed_of_light pow 2 ) 2
 symbol_overrides:
 - dimensionless: γ
 - dimensionless: '1'
 - dimensionless: '1'
-- velocity: v
 name_overrides:
-- dimensionless: Lorentz factor
-- dimensionless: One
-- dimensionless: One
-- velocity: Velocity
+- dimensionless: Lorentz factor γ
+- dimensionless: Numerator one
+- dimensionless: One inside the radical

@@ -2,8 +2,15 @@ name: Convex mirror focal length sign
 id: convex_mirror_focal_sign
 topic: mirrors
 difficulty: 5
-description: "Sign convention: convex mirrors have negative focal length in the real-is-positive (Cartesian) convention."
-equation: length eq drop (length frac 2) sub
+links:
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/University_Physics_III_-_Optics_and_Modern_Physics_%28OpenStax%29/02%3A_Geometric_Optics_and_Image_Formation/2.03%3A_Spherical_Mirrors
+- https://flexbooks.ck12.org/cbook/cbse-physics-class-10/section/1.4/primary/lesson/images-formed-by-convex-mirrors/
+- https://www.geeksforgeeks.org/physics/sign-convention-for-spherical-mirrors/
+description: A convex mirror diverges light, so its focal point lies behind the reflecting
+  surface. Under the real-is-positive sign convention this makes its focal length
+  negative, with magnitude equal to half the radius of curvature. This sign matters
+  when applying the mirror equation to locate virtual, upright, diminished images.
+equation: length eq 0 sub length frac 2
 symbol_overrides:
 - length: f_{convex}
 - length: R

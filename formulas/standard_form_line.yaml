@@ -2,6 +2,14 @@ name: Standard form of a line
 id: standard_form_line
 topic: equations
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Linear_equation
+  - https://en.wikipedia.org/wiki/Equation_of_a_line
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/04%3A_Graphing_Linear_Equations_and_Inequalities/4.01%3A_Graphing_Linear_Equations
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:standard-form/v/standard-form-of-linear-equations
+  - https://www.cuemath.com/geometry/standard-form-of-a-line/
+  - https://www.mathsisfun.com/algebra/line-equation-standardform.html
+description: "The standard form of a line expresses a linear equation in two variables as a sum of the variables each multiplied by a coefficient, equated to a constant, with at least one coefficient nonzero. It is convenient for quickly reading off the x- and y-intercepts and for solving systems of linear equations by elimination. Special cases include vertical and horizontal lines where one of the variable coefficients is zero."
 equation: dimensionless mul (length) add dimensionless mul length eq dimensionless
 symbol_overrides:
 - dimensionless: A

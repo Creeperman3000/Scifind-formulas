@@ -2,12 +2,15 @@ name: Ion product of water
 id: water_ion_product
 topic: acids_and_bases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Self-ionization_of_water
+  - https://en.wikipedia.org/wiki/Dissociation_constant
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_(OpenStax)/14%3A_Acid-Base_Equilibria/14.02%3A_The_Ion_Product_of_Water
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/autoionization-of-water
+  - https://goldbook.iupac.org/terms/view/A00532.html
+description: "Water self-ionizes to a small extent into hydronium and hydroxide ions, with the equilibrium constant for this process known as the ion product of water, Kw. At 25 degrees Celsius Kw has the value 1.0 times ten to the negative fourteenth, and pKw plus pH plus pOH sums to 14; Kw depends strongly on temperature, pressure, and ionic strength."
 equation: equilibrium_constant eq concentration mul concentration
 symbol_overrides:
 - equilibrium_constant: K_w
 - concentration: '[H⁺]'
 - concentration: '[OH⁻]'
-name_overrides:
-- equilibrium_constant: ''
-- concentration: ''
-- concentration: ''

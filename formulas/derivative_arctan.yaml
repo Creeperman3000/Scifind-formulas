@@ -2,10 +2,21 @@ name: Derivative of arctangent
 id: derivative_arctan
 topic: derivatives
 difficulty: 7
-equation: rmd (angle atan ) eq 1 frac 1 add angle pow 2
+links:
+- https://proofwiki.org/wiki/Derivative_of_Arctangent_Function
+- https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/37028101f134cc6e0e41572fdc6735d8_MIT18_01SCF10_Ses15b.pdf
+- https://www.cuemath.com/calculus/derivative-of-arctan/
+- https://www.contemporarycalculus.com/cc/hoffman_calculus_7_4.pdf
+description: Gives the slope of the inverse tangent function, which is always positive
+  and defined for every real input. The graph flattens toward horizontal as the input
+  grows large in magnitude, reflecting the function's horizontal asymptotes; the result
+  follows from implicit differentiation of the tangent relation.
+equation: frac rmd atan angle rmd angle eq frac 1 (1 add angle pow 2 )
 symbol_overrides:
 - angle: x
 - angle: x
+- angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

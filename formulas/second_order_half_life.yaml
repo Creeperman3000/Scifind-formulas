@@ -2,6 +2,16 @@ name: Second-order reaction half-life
 id: second_order_half_life
 topic: chemical_kinetics
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/Rate_equation
+- https://en.wikipedia.org/wiki/Half-life
+- https://en.wikipedia.org/wiki/Reaction_rate_constant
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Second-Order_Reactions
+description: For a second-order chemical reaction, the half-life (the time required
+  for a reactant's concentration to fall to half its initial value) is inversely proportional
+  to both the initial concentration and the rate constant. Unlike first-order reactions,
+  the half-life grows shorter as the reaction proceeds because the rate depends on
+  concentration.
 equation: time eq dimensionless frac frequency mul concentration
 symbol_overrides:
 - time: t_{1/2}
@@ -10,6 +20,5 @@ symbol_overrides:
 - concentration: '[A]_0'
 name_overrides:
 - time: Half-life
-- dimensionless: ''
 - frequency: Rate constant
 - concentration: Initial [concentration]

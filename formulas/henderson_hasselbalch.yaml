@@ -2,15 +2,24 @@ name: Henderson-Hasselbalch equation
 id: henderson_hasselbalch
 topic: acids_and_bases
 difficulty: 7
-equation: ph eq drop log 10 equilibrium_constant sub add log 10 (concentration frac
-  concentration)
+links:
+- https://en.wikipedia.org/wiki/Henderson%E2%80%93Hasselbalch_equation
+- https://en.wikipedia.org/wiki/Acid_dissociation_constant
+- https://en.wikipedia.org/wiki/Buffer_solution
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation
+- https://www.khanacademy.org/science/biology/acids-bases-and-water/acids-and-bases/v/henderson-hasselbalch-equation
+description: The Henderson-Hasselbalch equation relates the pH of a buffer solution
+  to the acid dissociation constant of the weak acid and the ratio of the concentrations
+  of its conjugate base and the acid itself. It is derived from the acid dissociation
+  equilibrium and applies in the buffer region where the concentrations of conjugate
+  base and acid are both larger than the dissociated hydrogen ion concentration.
+equation: ph eq (drop sub log 10 equilibrium_constant ) add log 10 (concentration
+  frac concentration)
 symbol_overrides:
-- ph: pH
-- equilibrium_constant: K_a
-- concentration: '[A⁻]'
-- concentration: '[HA]'
+  ph: pH
+  equilibrium_constant: K_a
+  concentration: '[HA]'
 name_overrides:
-- ph: '[pH]'
-- equilibrium_constant: Acid dissociation [constant]
-- concentration: Conjugate base [concentration]
-- concentration: Acid [concentration]
+  ph: '[ph]'
+  equilibrium_constant: Acid dissociation constant
+  concentration: Acid [concentration]

@@ -2,14 +2,18 @@ name: Triangle area (SAS)
 id: triangle_area_sas
 topic: triangles
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Area_of_a_triangle
+  - https://en.wikipedia.org/wiki/Law_of_sines
+  - https://math.libretexts.org/Bookshelves/Trigonometry
+  - https://www.cuemath.com/geometry/area-of-triangle/
+description: "The area of a triangle whose two sides a and b and the included angle C are known is computed from those two adjacent sides and the sine of the angle between them. This side-angle-side form is useful in surveying and navigation when the included angle can be measured directly rather than the height."
 equation: area eq length mul (length) mul (sin angle ) frac 2
 symbol_overrides:
-- area: ''
 - length: a
 - length: b
 - angle: C
 name_overrides:
-- area: ''
 - length: Side a
 - length: Side b
 - angle: Included [angle]

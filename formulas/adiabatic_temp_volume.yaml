@@ -2,14 +2,22 @@ name: Adiabatic relation (temperature-volume)
 id: adiabatic_temp_volume
 topic: ideal_gases
 difficulty: 8
+links:
+- https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_First_Law_of_Thermodynamics/3.07%3A_Adiabatic_Processes_for_an_Ideal_Gas
+- https://www.vedantu.com/physics/adiabatic-process
+description: 'For a quasi-static adiabatic process (no heat exchange) of an ideal
+  gas, the temperature and volume are not independent: the product of the temperature
+  and the volume raised to the heat capacity ratio minus one stays constant along
+  the process. It follows from combining the first law of thermodynamics with the
+  ideal gas law and is used to find the temperature after an adiabatic compression
+  or expansion.'
 equation: temperature mul volume pow dimensionless sub 1 eq dimensionless
 symbol_overrides:
-- temperature: ''
-- volume: ''
-- dimensionless: γ
-- dimensionless: C
+- dimensionless: \gamma
+- dimensionless: K
 name_overrides:
-- temperature: '[Temperature]'
-- volume: '[Volume]'
+- temperature: '[temperature]'
+- volume: '[volume]'
 - dimensionless: Heat capacity ratio
 - dimensionless: Constant

@@ -2,13 +2,20 @@ name: Entropy change of surroundings at constant pressure
 id: entropy_surroundings_constant_pressure
 topic: second_law
 difficulty: 8
-description: "Valid for surroundings at constant pressure; ΔS_surr = −ΔH_sys / T."
-equation: entropy eq drop energy sub frac temperature
+links:
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/16:_Entropy_and_Spontaneous_Reactions/16.13:_Including_the_Surroundings
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_and_Decoste)/10%3A_Entropy_Gibbs_Energy_and_Spontaneity/10.05%3A_Entropy_and_the_Second_Law_of_Thermodynamics
+- https://chemistry.stackexchange.com/questions/53364/is-%CE%94s-of-a-system-related-to-temperature-and-change-in-enthalpy
+description: For a process at constant pressure and constant temperature, the heat
+  absorbed by the surroundings equals the enthalpy change the system releases, so
+  the surroundings' entropy change follows directly from tabulated reaction enthalpies.
+  This relation is the bridge used to derive the Gibbs free energy spontaneity criterion.
+equation: entropy eq 0 sub energy frac temperature
 symbol_overrides:
 - entropy: ΔS_{surr}
-- energy: ΔH
-- temperature: ''
+- energy: ΔH_{sys}
+- temperature: T
 name_overrides:
-- entropy: '[Entropy] change of surroundings'
-- energy: '[Enthalpy] change of system'
-- temperature: ''
+- entropy: '[entropy] change of surroundings'
+- energy: Enthalpy change of system
+- temperature: Constant [temperature]

@@ -2,12 +2,18 @@ name: Nuclear radius
 id: nuclear_radius
 topic: nuclear_physics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Charge_radius
+  - https://en.wikipedia.org/wiki/Atomic_nucleus
+  - https://www.nuclear-power.com/nuclear-power/nuclear-physics/atomic-nucleus/nuclear-radius/
+  - https://physics.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_(OpenStax)/10%3A__Fixed-Axis_Rotation/10.5%3A_Nuclear_Physics
+description: "Empirical relation from the liquid-drop model giving the approximate radius of an atomic nucleus in terms of its mass number. The proportionality constant r_0 is typically 1.2–1.5 fm, reflecting the nearly constant nuclear matter density, and the relation holds well for heavier nuclei (A > 20)."
 equation: length eq dimensionless mul dimensionless pow 1 frac 3
 symbol_overrides:
 - length: R
 - dimensionless: R_0
 - dimensionless: A
 name_overrides:
-- length: Nuclear [radius]
+- length: Nuclear radius
 - dimensionless: Nuclear radius constant
 - dimensionless: Mass number

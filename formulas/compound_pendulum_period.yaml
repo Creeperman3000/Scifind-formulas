@@ -2,15 +2,23 @@ name: Period of a compound (physical) pendulum
 id: compound_pendulum_period
 topic: harmonic_motion
 difficulty: 8
-equation: time eq 2 mul pi mul sqrt (moment_of_inertia frac mass mul (standard_gravity)
-  mul length ) 2
+links:
+- https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter24.pdf
+- https://www.physicsbootcamp.org/sho-Physical-Pendulum.html
+- https://byjus.com/jee/simple-pendulum/
+- https://unseel.com/physics/physical-pendulum
+description: A compound (physical) pendulum is an extended rigid body swinging about
+  a fixed horizontal pivot under gravity, rather than a point mass on a massless string.
+  Its small-angle oscillation period is set by the moment of inertia about the pivot
+  and the distance from the pivot to the center of mass. It reduces to the simple-pendulum
+  result in the point-mass limit and is the basis of precision gravimeters such as
+  Kater's reversible pendulum.
+equation: ((time) eq (2 mul pi mul ((moment_of_inertia frac (mass mul (standard_gravity
+  mul length))) sqrt 2)))
 symbol_overrides:
 - time: T
-- moment_of_inertia: I
-- mass: m
-- length: l
+- length: d
 name_overrides:
 - time: Period
 - moment_of_inertia: Inertia
-- mass: Mass
 - length: Distance to pivot

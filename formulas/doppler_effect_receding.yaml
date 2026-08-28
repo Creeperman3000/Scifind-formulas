@@ -2,16 +2,22 @@ name: Doppler effect with source receding
 id: doppler_effect_receding
 topic: mechanical_waves
 difficulty: 6
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/17%3A_Sound/17.08%3A_The_Doppler_Effect
+  - https://en.wikipedia.org/wiki/Doppler_effect
+  - https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_7C_-_General_Physics/8%3A_Waves/8.4%3A_Doppler_Effect
+  - http://labman.phys.utk.edu/phys221core/modules/m12/doppler_effect.html
+  - https://www.easycalculation.com/formulas/doppler-shift-formula.html
+description: "Gives the frequency heard by a stationary observer when a wave source moves directly away from them. Because each wavefront is emitted from farther away, successive crests arrive later and the observed pitch drops below the emitted one; the shift grows with the source speed. Assumes a non-relativistic source moving in a uniform medium, such as sound in air."
 equation: frequency eq frequency mul velocity frac velocity add velocity
 symbol_overrides:
 - frequency: f'
-- frequency: f
-- velocity: v
-- velocity: v
+- velocity: ''
+- velocity: ''
 - velocity: v_s
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
 - velocity: Wave speed
 - velocity: Wave speed
-- velocity: Source [speed]
+- velocity: Source speed

@@ -2,10 +2,17 @@ name: Mean lifetime from decay constant
 id: particle_decay_constant_lifetime
 topic: particle_physics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Exponential_decay
+  - https://en.wikipedia.org/wiki/Exponential_decay#Mean_lifetime
+  - https://en.wikipedia.org/wiki/Radioactive_decay
+  - https://en.wikipedia.org/wiki/Half-life
+  - https://www.nist.gov/pml/radioactivity/radioactive-decay
+description: "The mean lifetime of an exponentially decaying population equals the reciprocal of the decay constant. It is the average time an individual member of the population survives, related to the half-life by a factor of ln(2)."
 equation: time eq 1 frac frequency
 symbol_overrides:
-- time: τ
-- frequency: λ
+  - time: τ
+  - frequency: λ
 name_overrides:
-- time: Mean lifetime
-- frequency: Decay constant
+  - time: Mean lifetime
+  - frequency: Decay constant

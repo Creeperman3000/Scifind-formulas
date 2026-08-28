@@ -2,8 +2,12 @@ name: Direction of heat flow (second law)
 id: second_law_heat_flow_direction
 topic: second_law
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Second_law_of_thermodynamics
+  - https://en.wikipedia.org/wiki/Thermal_conduction
+  - https://en.wikipedia.org/wiki/Heat
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_Second_Law_of_Thermodynamics
+description: "When two bodies at different temperatures are placed in thermal contact, heat flows spontaneously from the hotter to the colder body, never the reverse, until thermal equilibrium is reached. This directional rule is the everyday observational basis for the second law of thermodynamics."
 equation: energy gt 0
 name_overrides:
 - energy: Heat transferred from hot to cold
-symbol_overrides:
-- energy: ''

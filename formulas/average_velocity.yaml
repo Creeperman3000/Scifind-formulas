@@ -2,12 +2,18 @@ name: Average velocity
 id: average_velocity
 topic: constant_acceleration
 difficulty: 3
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_%28OpenStax%29/03%3A_Motion_Along_a_Straight_Line/3.02%3A_Position_Displacement_and_Average_Velocity
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_%28OpenStax%29/02%3A_Kinematics/2.03%3A_Time_Velocity_and_Speed
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/04%3A_One_Dimensional_Kinematics/4.03%3A_Velocity
+  - https://openstax.org/books/university-physics-volume-1/pages/3-1-position-displacement-and-average-velocity
+description: "Average velocity is defined as the displacement of an object divided by the elapsed time during which that displacement occurs. It is a vector, so it carries direction and can be negative or zero even when motion occurred; it differs from average speed, which uses total path distance."
 equation: velocity eq length frac time
 symbol_overrides:
 - velocity: v_{avg}
-- length: ''
-- time: ''
+- length: \Delta x
+- time: \Delta t
 name_overrides:
 - velocity: Average [velocity]
-- length: ''
-- time: ''
+- length: '[length|displacement]'
+- time: Elapsed [time]

@@ -2,10 +2,16 @@ name: Coherence length from bandwidth
 id: coherence_length_bandwidth
 topic: interference
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Coherence_length
+  - https://www.rp-photonics.com/coherence_time.html
+  - https://ephotonics.com/coherence-length-calculator/
+  - https://www.toptica.com/fileadmin/Editors_English/04_applications/10_application_notes/01_Application_Note_-_Phase_and_Frequency_Locking_of_Diode_Lasers/Appl-1010_12_orders_of_coherence_control.pdf
+description: "The coherence length is the propagation distance over which a light wave maintains a fixed phase relationship with itself. It is inversely proportional to the source's spectral bandwidth, so narrow-linewidth lasers stay coherent over kilometers while broadband sources such as LEDs lose coherence within micrometers. This relation sets the maximum path-length difference usable in interferometry, coherent communications, and OCT imaging."
 equation: length eq speed_of_light frac frequency
 symbol_overrides:
 - length: L_c
 - frequency: Δf
 name_overrides:
 - length: Coherence [length]
-- frequency: Frequency bandwidth
+- frequency: '[frequency] bandwidth'

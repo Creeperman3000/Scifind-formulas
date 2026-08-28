@@ -2,8 +2,19 @@ name: Integral of x^n
 id: integral_power_rule
 topic: integrals
 difficulty: 6
-equation: int drop drop (((dimensionless pow dimensionless) mul rmd dimensionless)) eq ((dimensionless
-  pow (dimensionless add 1)) frac (dimensionless add 1))
+links:
+- https://en.wikipedia.org/wiki/Antiderivative
+- https://en.wikipedia.org/wiki/Power_rule
+- https://en.wikipedia.org/wiki/Lists_of_integrals
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.04%3A_Integration_Formulas_and_the_Net_Change_Theorem
+- https://www.khanacademy.org/math/integral-calculus/indefinite-integrals/antiderivative-rules/v/antiderivative-of-x-1
+- https://mathworld.wolfram.com/PowerRule.html
+description: 'The power rule for integration: the antiderivative of x^n is x^(n+1)/(n+1),
+  valid for any real n except n = -1 (which is handled by the logarithm rule). The
+  exponent is increased by one and the result is divided by the new exponent. Combined
+  with the constant multiple and sum rules, it lets one integrate any polynomial.'
+equation: int drop drop ((dimensionless pow dimensionless) mul rmd dimensionless)
+  eq dimensionless pow (dimensionless add 1) frac dimensionless add 1
 symbol_overrides:
 - dimensionless: x
 - dimensionless: n
@@ -12,9 +23,9 @@ symbol_overrides:
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Exponent
-- dimensionless: '''[Variable]'''
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
+- dimensionless: '[variable]'
 - dimensionless: Exponent
 - dimensionless: Exponent

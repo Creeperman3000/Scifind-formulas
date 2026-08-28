@@ -2,12 +2,23 @@ name: Factorial definition
 id: factorial_definition
 topic: arithmetic
 difficulty: 3
-equation: dimensionless factorial eq dimensionless mul ((dimensionless sub 1) factorial)
+links:
+- https://en.wikipedia.org/wiki/Factorial
+- https://mathworld.wolfram.com/Factorial.html
+- https://www.khanacademy.org/math/precalculus/xb83d8e8f1d8e0a80:prob-comb/xb83d8e8f1d8e0a80:combinatorics-basics/v/factorial-and-counting-arrangements
+- https://www.britannica.com/science/factorial
+- https://oeis.org/A000142
+description: The factorial of a non-negative integer n is the product of all positive
+  integers less than or equal to n, with the empty product for n=0 defined as 1 by
+  convention. Factorials count permutations of n distinct objects, underlie the binomial
+  coefficients, and admit a continuous extension to the gamma function for non-integer
+  arguments.
+equation: dimensionless factorial eq dimensionless mul (dimensionless sub 1) factorial
 symbol_overrides:
 - dimensionless: n
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[n]'''
-- dimensionless: '''[n]'''
-- dimensionless: '''[n]'''
+- dimensionless: '[variable|n]'
+- dimensionless: '[variable|n]'
+- dimensionless: '[variable|n]'

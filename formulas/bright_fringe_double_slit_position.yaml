@@ -2,11 +2,17 @@ name: Position of bright fringes in double-slit
 id: bright_fringe_double_slit_position
 topic: diffraction
 difficulty: 7
+links:
+  - https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference/3.02%3A_Young%27s_Double-Slit_Interference
+  - https://byjus.com/physics/youngs-double-slit-experiment-derivation/
+  - https://www.physicsclassroom.com/class/light/u12l3d
+description: "In Young's double-slit experiment this gives how far from the central maximum the m-th bright fringe appears on a screen. It follows from the constructive-interference path-difference condition combined with the small-angle approximation, valid when the screen distance is much larger than the slit separation."
 equation: length eq dimensionless mul (length) mul (length) frac length
 symbol_overrides:
 - length: y_m
 - dimensionless: m
-- length: λ
+- length: \lambda
 - length: L
 - length: d
 name_overrides:

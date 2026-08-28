@@ -2,11 +2,18 @@ name: Fraction of object submerged in fluid
 id: fraction_submerged
 topic: buoyancy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Buoyancy
+  - https://www.britannica.com/science/Archimedes-principle
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.05%3A_Archimedes_Principle
+  - https://www.khanacademy.org/science/physics/fluids/buoyancy-archimedes-principle
+  - https://courses.lumenlearning.com/sunysb-physics/chapter/archimedes-principle/
+description: "For a floating object in hydrostatic equilibrium, the fraction of the object's volume submerged in a fluid equals the ratio of the object's average density to the fluid's density. This follows from equating the object's weight to the weight of the displaced fluid (Archimedes' principle)."
 equation: dimensionless eq density frac density
 symbol_overrides:
 - dimensionless: f
-- density: ρ_{obj}
-- density: ρ_{fluid}
+- density: \rho_{obj}
+- density: \rho_{fluid}
 name_overrides:
 - dimensionless: Fraction submerged
 - density: Object [density]

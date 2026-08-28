@@ -2,12 +2,22 @@ name: Lineweaver-Burk plot slope
 id: biochemical_lineweaver_burk_slope
 topic: biochemistry
 difficulty: 8
-equation: time eq (concentration frac catalytic_activity)
+links:
+- https://en.wikipedia.org/wiki/Lineweaver-Burk_plot
+- https://www.medschoolcoach.com/mcat/lineweaver-burk-plots
+- https://employees.csbsju.edu/cschaller/Reactivity/kinetics/arkenzymelb.htm
+- https://www.pearson.com/channels/biochemistry/learn/jason/enzymes-and-enzyme-kinetics/lineweaver-burk-plot
+description: The slope of the Lineweaver-Burk plot, the double-reciprocal linearization
+  of the Michaelis-Menten equation used in enzyme kinetics. It relates the Michaelis
+  constant to the maximum reaction velocity and lets both parameters be read off a
+  straight line fitted to rate data; how inhibitors change this slope helps classify
+  competitive, uncompetitive, and mixed inhibition.
+equation: time eq concentration frac catalytic_activity
 symbol_overrides:
 - time: m
 - concentration: K_m
 - catalytic_activity: V_{max}
 name_overrides:
 - time: Lineweaver-Burk plot slope
-- concentration: Michaelis [constant]
+- concentration: Michaelis constant
 - catalytic_activity: Maximum [velocity]

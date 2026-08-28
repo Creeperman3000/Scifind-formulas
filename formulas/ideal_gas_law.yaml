@@ -2,14 +2,15 @@ name: Ideal gas law
 id: ideal_gas_law
 topic: ideal_gases
 difficulty: 5
-equation: pressure mul volume eq amount mul (gas_constant) mul temperature
+links:
+  - https://en.wikipedia.org/wiki/Ideal_gas_law
+  - https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/v/the-ideal-gas-law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/The_Ideal_Gas_Law
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book:_Thermodynamics_(Tatum)/04:_Ideal_Gases
+  - https://www.britannica.com/science/ideal-gas-law
+description: "The ideal gas law relates the pressure, volume, temperature, and amount of an ideal gas in a single equation of state. It is an extension of Boyle's, Charles's, and Avogadro's laws and provides a good approximation for real gases at low density and high temperature."
+equation: pressure mul volume eq amount mul gas_constant mul temperature
 symbol_overrides:
-- pressure: P
-- volume: V
-- amount: n
-- temperature: T
+  - gas_constant: R
 name_overrides:
-- pressure: Pressure
-- volume: Volume
-- amount: Moles
-- temperature: Temperature
+  - amount: Moles

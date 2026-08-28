@@ -2,8 +2,18 @@ name: Product rule
 id: derivative_product_rule
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (dimensionless mul dimensionless)) (rmd dimensionless) eq ((frac (rmd dimensionless)
-  (rmd dimensionless)) mul dimensionless) add (dimensionless mul (frac (rmd dimensionless) (rmd dimensionless)))
+links:
+- https://en.wikipedia.org/wiki/Product_rule
+- https://tutorial.math.lamar.edu/classes/calci/ProductQuotientRule.aspx
+- https://math.hmc.edu/calculus/hmc-mathematics-calculus-online-tutorials/single-variable-calculus/product-rule/
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_by_David_Guichard_(Improved)/03%3A_Rules_for_Finding_Derivatives/3.03%3A_The_Product_Rule
+description: The product rule gives the derivative of a product of two differentiable
+  functions as the first function's derivative times the second plus the first times
+  the second's derivative. It is essential because, unlike with sums, the derivative
+  of a product is not simply the product of the derivatives.
+equation: frac rmd (dimensionless mul dimensionless) rmd dimensionless eq (frac rmd
+  dimensionless rmd dimensionless mul dimensionless) add dimensionless mul frac rmd
+  dimensionless rmd dimensionless
 symbol_overrides:
 - dimensionless: f
 - dimensionless: g
@@ -17,10 +27,10 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Function f
 - dimensionless: Function g
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Derivative of f
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Function g
 - dimensionless: Function f
 - dimensionless: Derivative of g
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'

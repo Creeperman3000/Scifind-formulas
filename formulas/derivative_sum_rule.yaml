@@ -2,14 +2,30 @@ name: Derivative sum rule
 id: derivative_sum_rule
 topic: derivatives
 difficulty: 5
-equation: rmd (dimensionless add dimensionless) eq rmd dimensionless add rmd dimensionless
+links:
+- https://en.wikipedia.org/wiki/Sum_rule_in_differentiation
+- https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.03%3A_Differentiation_Rules
+- https://tutorial.math.lamar.edu/classes/calci/DiffFormulas.aspx
+description: The sum rule in differentiation states that the derivative of a sum of
+  differentiable functions is the sum of their derivatives. It follows directly from
+  the limit definition of the derivative and the sum law for limits, and extends to
+  sums of any number of terms.
+equation: frac rmd (dimensionless add dimensionless) rmd dimensionless eq frac rmd
+  dimensionless rmd dimensionless add frac rmd dimensionless rmd dimensionless
 symbol_overrides:
 - dimensionless: f
 - dimensionless: g
+- dimensionless: x
 - dimensionless: f
+- dimensionless: x
 - dimensionless: g
+- dimensionless: x
 name_overrides:
-- dimensionless: Derivative of a sum
-- dimensionless: Derivative of a sum
-- dimensionless: Sum of a derivative
-- dimensionless: Sum of a derivative
+- dimensionless: Function f
+- dimensionless: Function g
+- dimensionless: '[variable|x]'
+- dimensionless: Derivative of f
+- dimensionless: '[variable|x]'
+- dimensionless: Derivative of g
+- dimensionless: '[variable|x]'

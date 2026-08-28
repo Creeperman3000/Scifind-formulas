@@ -2,12 +2,18 @@ name: Torque from cross product (vector)
 id: torque_vector_cross_product
 topic: torque
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Torque
+  - https://en.wikipedia.org/wiki/Cross_product
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/06%3A_Work_and_Energy/6.04%3A_Cross_Product_Review
+  - https://www.britannica.com/science/cross-product
+  - https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/v/cross-product-and-torque
+description: "In three dimensions, the torque produced by a force about a point is the cross product of the position vector from that point to the point of force application with the force vector. The resulting torque vector is perpendicular to the plane of r and F, with direction given by the right-hand rule."
 equation: torque eq length times force
 symbol_overrides:
 - torque: τ
 - length: r
-- force: ''
 name_overrides:
-- torque: '[Torque]'
+- torque: '[torque]'
 - length: Position vector
-- force: '[Force]'
+- force: '[force]'

@@ -2,12 +2,14 @@ name: Magnetic flux
 id: magnetic_flux_formula
 topic: magnetism
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_flux
+  - https://en.wikipedia.org/wiki/Magnetic_field
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields
+  - https://www.britannica.com/science/magnetic-flux
+description: "Magnetic flux quantifies the amount of magnetic field passing through a surface and is the surface integral of the normal component of B. It underlies Faraday's law of induction, where the time-varying flux through a loop produces an electromotive force."
 equation: magnetic_flux eq magnetic_flux_density mul area
-symbol_overrides:
-- magnetic_flux: ''
-- magnetic_flux_density: ''
-- area: ''
 name_overrides:
-- magnetic_flux: ''
-- magnetic_flux_density: ''
-- area: ''
+- magnetic_flux: '[magnetic_flux]'
+- magnetic_flux_density: '[magnetic_flux_density]'
+- area: '[area] perpendicular to field'

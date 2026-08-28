@@ -2,12 +2,19 @@ name: Derivative of cosine
 id: derivative_cos
 topic: derivatives
 difficulty: 6
-equation: frac (rmd cos angle) (rmd angle) eq drop sin angle sub
+links:
+- https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules
+- https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-7/a/proving-the-derivatives-of-sinx-and-cosx
+- https://ecampusontario.pressbooks.pub/scccalculus1/chapter/derivatives-of-trigonometric-functions/
+- https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec3/
+description: The derivative of the cosine function is the negative of the sine function.
+  This means cosine is a decreasing function wherever its sine counterpart is increasing,
+  and vice versa. The result holds when the angle is measured in radians and can be
+  proved from the limit definition of the derivative.
+equation: frac rmd cos angle rmd angle eq 0 sub sin angle
 symbol_overrides:
 - angle: x
 - angle: x
-- angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'

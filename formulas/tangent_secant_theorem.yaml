@@ -2,12 +2,19 @@ name: Tangent-secant theorem
 id: tangent_secant_theorem
 topic: circles
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Tangent%E2%80%93secant_theorem
+  - https://en.wikipedia.org/wiki/Power_of_a_point
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/10%3A_Circles/10.04%3A_Other_Segments_from_a_Chord
+  - https://www.khanacademy.org/math/geometry/hs-geo-circles/hs-geo-tangent-secant-angles/v/tangent-secant-angles
+  - https://www.britannica.com/science/power-of-a-point
+description: "If a tangent from an external point meets a circle at T and a secant from the same point meets the circle at A (near) and B (far), then the squared tangent length equals the product of the external and whole secant segments. It is one of three classical cases (along with the intersecting chords and intersecting secants theorems) of the more general power-of-a-point theorem, originally proved in Euclid's Elements (Book III, Proposition 36)."
 equation: length eq sqrt (length mul length ) 2
 symbol_overrides:
 - length: PT
 - length: PA
 - length: PB
 name_overrides:
-- length: Tangent length
+- length: Tangent [length]
 - length: External segment
-- length: Whole secant length
+- length: Whole secant [length]

@@ -2,6 +2,12 @@ name: Excess reactant remaining
 id: excess_reactant_remaining
 topic: limiting_reactants
 difficulty: 6
+links:
+  - https://general.chemistrysteps.com/how-to-find-the-amount-of-excess-reactant/
+  - https://psiberg.com/how-to-calculate-excess-reactant
+  - https://www.physicsclassroom.com/tutorial/stoichiometry/limiting-and-excess-reactants/determining-the-excess-amount
+  - https://chem.libretexts.org/Courses/College_of_the_Canyons/Chem_151%3A_Preparatory_General_Chemistry_OER/08%3A_Quantities_in_Chemical_Reactions_(Stoichiometry)/8.06%3A_How_Much_of_the_Excess_Reactant_Remains_after_a_Reaction
+description: "Gives the amount of substance of the excess reactant left over after a reaction stops when the limiting reactant is used up. The consumed amount is found from the limiting reactant using the stoichiometric mole ratio, then subtracted from the initial amount. It assumes a complete reaction and a balanced chemical equation."
 equation: amount eq amount sub amount
 symbol_overrides:
 - amount: n_{excess}

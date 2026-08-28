@@ -2,12 +2,19 @@ name: Springs in parallel
 id: springs_in_parallel
 topic: springs
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_springs
+  - https://en.wikipedia.org/wiki/Spring_(device)
+  - https://en.wikipedia.org/wiki/Capacitor-spring_analogy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.02%3A_Simple_Harmonic_Motion
+  - https://www.khanacademy.org/science/physics/work-and-energy/hookes-law/a/what-is-hookes-law
+description: "When two or more linear springs are connected side-by-side so each experiences the same displacement, their restoring forces add and the effective spring constant is the sum of the individual constants. This mirrors the rule for capacitances in parallel and the rule for resistances in series."
 equation: spring_constant eq spring_constant add spring_constant
 symbol_overrides:
 - spring_constant: k_{eq}
 - spring_constant: k_1
 - spring_constant: k_2
 name_overrides:
-- spring_constant: Equivalent [spring constant]
-- spring_constant: '[Spring constant] 1'
-- spring_constant: '[Spring constant] 2'
+- spring_constant: Equivalent [spring_constant]
+- spring_constant: '[spring_constant] 1'
+- spring_constant: '[spring_constant] 2'

@@ -2,9 +2,15 @@ name: Sum of infinite geometric series
 id: geometric_series_infinite_sum
 topic: arithmetic
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Geometric_series
+  - https://en.wikipedia.org/wiki/Geometric_progression
+  - https://mathworld.wolfram.com/GeometricSeries.html
+  - https://en.wikibooks.org/wiki/Algebra/Chapter_15/Geometric_Progression_(GP)
+description: "When the common ratio r has absolute value less than 1, an infinite geometric series converges to a finite sum equal to its first term divided by one minus the common ratio. The formula follows by taking the limit of the finite geometric series sum as the number of terms grows without bound, since the trailing term vanishes."
 equation: dimensionless eq dimensionless frac 1 sub dimensionless
 symbol_overrides:
-- dimensionless: S_∞
+- dimensionless: S_\infty
 - dimensionless: a
 - dimensionless: r
 name_overrides:

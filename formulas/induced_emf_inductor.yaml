@@ -2,14 +2,18 @@ name: EMF induced in an inductor
 id: induced_emf_inductor
 topic: electromagnetic_induction
 difficulty: 7
-equation: electric_potential eq drop (inductance mul current frac Delta time) sub
+links:
+- https://en.wikipedia.org/wiki/Inductor
+- https://en.wikipedia.org/wiki/Lenz%27s_law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Inductance/14.02%3A_Self-Inductance_and_Inductors
+- https://www.britannica.com/technology/inductor-electronics
+description: The voltage induced across an inductor equals the negative of its inductance
+  times the time-rate-of-change of current through it. This is the defining constitutive
+  relation of an ideal inductor and reflects the fact that an inductor opposes any
+  change in current.
+equation: electric_potential eq 0 sub inductance mul frac rmd current rmd time
 symbol_overrides:
 - electric_potential: ε
-- inductance: L
-- current: I
-- time: t
 name_overrides:
 - electric_potential: Induced EMF
-- inductance: Inductance
 - current: Current
-- time: Time

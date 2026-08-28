@@ -2,12 +2,17 @@ name: Buoyant force
 id: buoyant_force
 topic: buoyancy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Archimedes_principle
+  - https://www.britannica.com/science/Archimedes-principle
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/10%3A_Fluids/10.3%3A_Archimedes_Principle
+  - https://physics.info/buoyancy/
+  - https://www.physicsclassroom.com/tutorial/fluids/pressure/buoyant-force-and-archimedes-principle
+description: "The buoyant force is the upward force a fluid exerts on an immersed object, equal in magnitude to the weight of the fluid displaced (Archimedes' principle). It applies to any fluid, whether the object is partially or fully submerged, and determines whether objects float or sink."
 equation: force eq density mul (standard_gravity) mul volume
 symbol_overrides:
 - force: F_b
-- density: ''
-- volume: ''
 name_overrides:
 - force: Buoyant [force]
 - density: Fluid [density]
-- volume: ''
+- volume: Displaced volume

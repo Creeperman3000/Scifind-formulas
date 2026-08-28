@@ -2,10 +2,14 @@ name: Dalton's law of partial pressures
 id: dalton_law_partial_pressure
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Dalton%27s_law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Laws/Dalton%27s_Law_%28Law_of_Partial_Pressures%29
+  - https://www.engineeringtoolbox.com/partial-pressure-ideal-gas-law-total-mixture-blending-d_1968.html
+description: "Dalton's law states that the total pressure exerted by a mixture of non-reacting gases equals the sum of the partial pressures of its components, where each partial pressure is what that gas would exert if it occupied the container alone. It follows from the ideal gas model, in which gas molecules act independently, and is used to analyze gas mixtures such as air and collected-over-water gas samples."
 equation: pressure eq sum drop drop pressure
 symbol_overrides:
 - pressure: P_{total}
-- pressure: ''
 name_overrides:
 - pressure: Total [pressure]
-- pressure: ''
+- pressure: Partial pressures

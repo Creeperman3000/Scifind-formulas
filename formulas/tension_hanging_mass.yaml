@@ -2,16 +2,23 @@ name: 'Dynamics: tension in a hanging mass'
 id: tension_hanging_mass
 topic: forces
 difficulty: 5
-equation: force eq mass mul (acceleration) sub mass mul acceleration
+links:
+- https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+- https://www.physicsclassroom.com/Class/newtlaws/u2l2e.cfm
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newtons_Laws
+- https://openstax.org/books/university-physics-volume-1/pages/6-5-friction
+description: Newton's second law applied to a single mass m hanging from a string,
+  where the mass is accelerating upward at rate a. The upward tension must support
+  the weight mg and additionally accelerate the mass, giving the net tension as the
+  difference between gravitational and inertial contributions.
+equation: force eq mass mul acceleration sub acceleration
 symbol_overrides:
 - force: T
 - mass: ''
 - acceleration: g
-- mass: ''
 - acceleration: ''
 name_overrides:
 - force: Tension
-- mass: '[Mass]'
+- mass: '[mass]'
 - acceleration: Gravitational [acceleration]
-- mass: '[Mass]'
-- acceleration: '[Acceleration]'
+- acceleration: '[acceleration]'

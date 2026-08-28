@@ -2,8 +2,14 @@ name: Law of tangents
 id: law_of_tangents
 topic: laws_of_sines_and_cosines
 difficulty: 7
-equation: (length sub length ) frac length add length eq tan ((angle sub angle ) frac
-  2) frac tan ((angle add angle ) frac 2)
+links:
+  - https://en.wikipedia.org/wiki/Law_of_tangents
+  - https://mathworld.wolfram.com/LawofTangents.html
+  - https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(Lumen)/09%3A_Additional_Topics/9.04%3A_Law_of_Tangents
+  - https://www.cuemath.com/trigonometry/law-of-tangents/
+  - https://www.britannica.com/science/law-of-tangents
+description: "The law of tangents relates the tangent of half the sum and difference of two angles of a triangle to the corresponding opposite side lengths. Historically useful before calculators for solving triangles from two sides and the included angle, since it avoids the square root needed by the law of cosines and offers better numerical stability when two sides are nearly equal."
+equation: (length sub length ) frac length add length eq tan ((angle sub angle ) frac 2) frac tan ((angle add angle ) frac 2)
 symbol_overrides:
 - length: a
 - length: b
@@ -13,12 +19,3 @@ symbol_overrides:
 - angle: B
 - angle: A
 - angle: B
-name_overrides:
-- length: ''
-- length: ''
-- length: ''
-- length: ''
-- angle: ''
-- angle: ''
-- angle: ''
-- angle: ''

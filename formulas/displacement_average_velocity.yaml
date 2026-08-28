@@ -2,14 +2,17 @@ name: Displacement from average velocity
 id: displacement_average_velocity
 topic: constant_acceleration
 difficulty: 3
+links:
+  - https://phys.libretexts.org/Courses/Coalinga_College/Physical_Science_for_Educators_Volume_2/02%3A_Motion/2.03%3A_Motion_in_One-Dimension/2.3.07%3A_Displacement_During_Uniform_Acceleration
+  - https://www.calculatorsoup.com/calculators/physics/displacement_v_t.php
+  - https://unisium.io/guides/kinematics-4-average-velocity
+description: "One of the constant-acceleration kinematics equations: because velocity changes linearly with time under uniform acceleration, its arithmetic mean gives the average velocity over the interval. Multiplying that average by the elapsed time yields the displacement; it is most useful when both endpoint velocities and time are known but acceleration is not."
 equation: length eq ((velocity add velocity ) frac 2) mul time
 symbol_overrides:
-- length: ''
+- length: s
 - velocity: u
-- velocity: ''
-- time: ''
+- velocity: v
 name_overrides:
-- length: ''
+- length: Displacement
 - velocity: Initial [velocity]
 - velocity: Final [velocity]
-- time: ''

@@ -2,12 +2,15 @@ name: Torque from moment of inertia
 id: torque_rotational
 topic: torque
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Moment_of_inertia
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.05%3A_Newton's_Second_Law_for_Rotation
+  - https://www.britannica.com/science/moment-of-inertia
+  - https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/v/rotational-inertia
+  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/10-5-newtons-second-law-for-rotation/
+description: "The net torque on a rigid body rotating about a fixed axis equals its moment of inertia about that axis times its angular acceleration. This is the rotational analogue of Newton's second law of motion, valid when the body's shape and mass distribution are constant."
 equation: torque eq moment_of_inertia mul angular_acceleration
 symbol_overrides:
 - torque: τ
-- moment_of_inertia: ''
-- angular_acceleration: ''
 name_overrides:
-- torque: '[Torque]'
-- moment_of_inertia: ''
-- angular_acceleration: ''
+- torque: '[torque]'

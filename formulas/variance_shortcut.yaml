@@ -2,10 +2,17 @@ name: Variance shortcut formula
 id: variance_shortcut
 topic: statistics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Variance
+  - https://en.wikipedia.org/wiki/Expected_value
+  - https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance
+  - https://mathworld.wolfram.com/Variance.html
+  - https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-mean-and-variance/v/variance-of-a-random-variable
+description: "An identity expressing the variance of a random variable as the difference between the mean of the square and the square of the mean. It is useful for algebra but suffers from catastrophic cancellation in floating-point arithmetic, so numerically stable algorithms (e.g. Welford's) are preferred in practice."
 equation: dimensionless eq dimensionless sub dimensionless pow 2
 symbol_overrides:
 - dimensionless: Var(X)
-- dimensionless: E(X²)
+- dimensionless: E(X^2)
 - dimensionless: E(X)
 name_overrides:
 - dimensionless: Variance

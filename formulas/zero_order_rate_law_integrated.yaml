@@ -2,14 +2,19 @@ name: Integrated rate law (zero order)
 id: zero_order_rate_law_integrated
 topic: chemical_kinetics
 difficulty: 7
+links:
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/02%3A_Reaction_Rates/2.10%3A_Zero-Order_Reactions
+  - https://en.wikipedia.org/wiki/Rate_equation#Zero_order
+  - https://www.khanacademy.org/science/chemistry/chemical-kinetics-topic/zero-order-reactions
+  - https://courses.lumenlearning.com/suny-mcc-organicchemistry/chapter/zero-order-reactions/
+  - https://www.chemteam.info/kinetics/zero-order.html
+description: "The integrated zero-order rate law expresses the concentration of a reactant as a linear function of time. Because the rate is independent of concentration, the reactant decays at a constant rate, giving a straight line on a plot of concentration versus time with slope equal to minus the rate constant. Zero-order behavior is most often observed when a catalyst or surface is saturated, such as in many enzyme-catalyzed reactions."
 equation: concentration eq concentration sub frequency mul time
 symbol_overrides:
 - concentration: '[A]_t'
 - concentration: '[A]_0'
 - frequency: k
-- time: ''
 name_overrides:
-- concentration: Concentration at time t
-- concentration: Initial concentration
+- concentration: '[concentration] at time t'
+- concentration: Initial [concentration]
 - frequency: Rate constant
-- time: ''

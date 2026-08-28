@@ -2,19 +2,22 @@ name: Heat conduction through a composite wall
 id: heat_conduction_composite_wall
 topic: heat_transfer
 difficulty: 8
-equation: energy frac time eq (temperature sub temperature ) mul (area) frac dimensionless
-  add dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Thermal_conductance_and_resistance
+  - https://en.wikipedia.org/wiki/Heat_conduction
+  - https://en.wikipedia.org/wiki/Thermal_insulation
+  - https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Heat_Transfer_(Bergman)/Conduction
+  - https://www.engineersedge.com/heat_transfer/composite_wall_thermal_resistance_13924.htm
+  - https://www.thermal-engineering.org/what-is-composite-wall-heat-transfer/
+description: "Steady-state heat conduction through a composite wall made of two layers in series is analogous to a thermal circuit in which the layer thermal resistances add. The rate of heat flow equals the temperature difference between the hot and cold sides divided by the sum of the per-layer thermal resistances, with the area appearing in the resistance definitions."
+equation: energy frac time eq (temperature sub temperature ) mul (area) frac dimensionless add dimensionless
 symbol_overrides:
-- energy: ''
-- time: ''
 - temperature: T_1
 - temperature: T_2
-- area: ''
 - dimensionless: R_1
 - dimensionless: R_2
 name_overrides:
-- energy: '[Heat] transferred'
-- time: ''
+- energy: Heat transferred
 - temperature: Hot side [temperature]
 - temperature: Cold side [temperature]
 - area: Cross-sectional [area]

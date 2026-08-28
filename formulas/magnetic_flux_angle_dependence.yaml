@@ -2,14 +2,16 @@ name: Magnetic flux with angle dependence
 id: magnetic_flux_angle_dependence
 topic: magnetism
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_flux
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/13%3A_Electromagnetic_Induction/13.01%3A_Faradays_Law
+  - https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction
+  - https://en.wikipedia.org/wiki/Magnetic_field
+description: "The magnetic flux through a planar surface of area A in a uniform magnetic field B depends on the angle θ between the field direction and the surface normal, reaching its maximum when the field is perpendicular to the surface and falling to zero when the field lies in the plane. This cosine dependence is the basis of Faraday's law of induction."
 equation: magnetic_flux eq magnetic_flux_density mul (area) mul cos angle
 symbol_overrides:
 - magnetic_flux: Φ_B
-- magnetic_flux_density: ''
-- area: ''
 - angle: θ
 name_overrides:
-- magnetic_flux: '[Magnetic flux]'
-- magnetic_flux_density: ''
-- area: ''
+- magnetic_flux: '[magnetic_flux]'
 - angle: Angle between field and normal

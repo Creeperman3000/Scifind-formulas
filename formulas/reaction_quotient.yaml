@@ -2,6 +2,12 @@ name: Reaction quotient
 id: reaction_quotient
 topic: chemical_equilibrium
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Reaction_quotient
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Reaction_Quotient
+  - https://www.khanacademy.org/science/chemistry/chemical-equilibrium/xa3595dfbab0ae5e7:equilibrium-constant/xa3595dfbab0ae5e7/the-reaction-quotient
+  - https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Reaction_Quotient.htm
+description: "The reaction quotient Q is a dimensionless quantity that measures the relative amounts of products and reactants in a reaction mixture at any instant; comparing Q to the equilibrium constant K predicts the direction in which the reaction must shift to reach equilibrium."
 equation: equilibrium_constant eq concentration pow (dimensionless) mul (concentration)
   pow (dimensionless) frac concentration pow (dimensionless) mul concentration pow
   dimensionless
@@ -17,11 +23,3 @@ symbol_overrides:
 - dimensionless: b
 name_overrides:
 - equilibrium_constant: Reaction quotient
-- concentration: ''
-- dimensionless: ''
-- concentration: ''
-- dimensionless: ''
-- concentration: ''
-- dimensionless: ''
-- concentration: ''
-- dimensionless: ''

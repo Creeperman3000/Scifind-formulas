@@ -2,13 +2,21 @@ name: Coulomb force in a dielectric medium
 id: coulomb_force_dielectric
 topic: electrostatics
 difficulty: 7
-equation: force eq coulomb_constant mul (charge) mul (charge) frac dimensionless mul
+links:
+- https://www.vedantu.com/jee-main/physics-permittivity-and-relative-permittivity-for-coulombs-law
+- https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/01%3A_Electric_Fields/1.05%3A_Coulomb%27s_Law
+- https://farside.ph.utexas.edu/teaching/316/lectures/node45.html
+description: When two point charges interact inside an insulating (dielectric) material,
+  the surrounding medium polarizes and weakens their mutual electrostatic force. The
+  force is reduced relative to vacuum by the medium's relative permittivity (dielectric
+  constant). This form of Coulomb's law applies to point charges at rest in a homogeneous,
+  linear dielectric.
+equation: force eq ((coulomb_constant mul charge) mul charge) frac dimensionless mul
   length pow 2
 symbol_overrides:
-- force: ''
 - charge: q_1
 - charge: q_2
-- dimensionless: ε_r
+- dimensionless: \varepsilon_r
 - length: r
 name_overrides:
 - force: Coulomb [force]

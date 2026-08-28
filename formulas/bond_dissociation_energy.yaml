@@ -2,12 +2,18 @@ name: Bond Dissociation Energy
 id: bond_dissociation_energy
 topic: chemical_bonding
 difficulty: 6
+links:
+  - https://chem.libretexts.org/Courses/University_of_Toronto/Chemistry%3A_Physical_Principles/05%3A_Thermochemistry/5.07%3A_Bond_Energies
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/10%3A_Chemical_Bonding_I%3A_Basic_Concepts/10.9%3A_Bond_Energies
+  - https://wisc.pb.unizin.org/minimisgenchem/chapter/bond-length-and-strength-m8q4/
+  - https://www.chadsprep.com/chads-general-chemistry-videos/bond-enthalpies/
+description: "Estimates the enthalpy change of a reaction from bond dissociation energies: breaking bonds in the reactants absorbs energy while forming bonds in the products releases it. Since tabulated bond energies are averages over many molecules, the result is an approximation that works best for gas-phase reactions."
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: ΔH_{atom}
+- energy: ΔH_{rxn}
 - energy: ΣD_{broken}
 - energy: ΣD_{formed}
 name_overrides:
-- energy: Atomization [enthalpy]
+- energy: Reaction [enthalpy]
 - energy: Sum of bond energies broken
 - energy: Sum of bond energies formed

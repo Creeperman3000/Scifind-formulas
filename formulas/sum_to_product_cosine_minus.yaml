@@ -2,6 +2,16 @@ name: 'Sum-to-product: cos A - cos B'
 id: sum_to_product_cosine_minus
 topic: trigonometric_identities
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Sum-to-product_identities
+- https://mathworld.wolfram.com/Sum-to-ProductFormulas.html
+- https://www.cuemath.com/trigonometry/sum-to-product-formulas/
+- https://www.khanacademy.org/math/trigonometry/trig-equations-and-identities/sum-to-product-formula/a/sum-to-product-formula-review
+- https://www.britannica.com/science/sum-to-product-identities
+description: Converts the difference of two cosines into a product, expressing it
+  in terms of half-angle sines. The identity follows from the cosine addition and
+  subtraction formulas and is useful for combining or simplifying trigonometric expressions
+  and solving certain trigonometric equations.
 equation: cos angle sub cos angle eq drop dimensionless mul (sin ((angle add angle)
   frac 2) mul sin ((angle sub angle) frac 2) ) sub
 symbol_overrides:
@@ -13,10 +23,5 @@ symbol_overrides:
 - angle: A
 - angle: B
 name_overrides:
-- angle: '[Angle] A'
-- angle: '[Angle] B'
-- dimensionless: ''
-- angle: ''
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: '[angle|Angle] A'
+- angle: '[angle|Angle] B'

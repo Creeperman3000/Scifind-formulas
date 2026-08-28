@@ -2,8 +2,14 @@ name: Gibbs free energy spontaneity condition
 id: gibbs_spontaneity_condition
 topic: second_law
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Spontaneous_process
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/The_Four_Laws_of_Thermodynamics/Spontaneity_(Thermodynamics)
+  - https://www.khanacademy.org/science/biology/energy-and-enzymes/the-laws-of-thermodynamics/a/gibbs-free-energy
+description: "At constant temperature and pressure, the sign of the Gibbs free energy change determines whether a process is spontaneous, non-spontaneous, or at equilibrium. A negative change drives the process forward, a positive change requires input of free energy, and zero change corresponds to thermodynamic equilibrium."
 equation: energy lt 0
 symbol_overrides:
-- energy: ΔG
+- energy: \Delta G
 name_overrides:
-- energy: Gibbs free energy change
+- energy: Gibbs free [energy] change

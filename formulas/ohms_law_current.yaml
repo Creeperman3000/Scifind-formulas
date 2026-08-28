@@ -2,12 +2,14 @@ name: Ohm's law (current form)
 id: ohms_law_current
 topic: circuits
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Ohm%27s_law
+  - https://www.britannica.com/science/Ohms-law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_(OpenStax)/09%3A_Current_and_Resistance/9.3%3A_Resistivity_and_Resistance
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ohms-law
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/electric/ohmlaw.html
+description: "Rearrangement of Ohm's law expressing the current through a conductor in terms of the voltage across it and its resistance. It is useful in circuit analysis when one needs to compute the current from a known applied voltage and the resistance of a circuit element."
 equation: current eq electric_potential frac resistance
 name_overrides:
 - current: Current
 - electric_potential: Voltage
-- resistance: Resistance
-symbol_overrides:
-- current: I
-- electric_potential: V
-- resistance: R

@@ -2,11 +2,17 @@ name: Number of particles from amount and Avogadro constant
 id: mole_concept_avogadro_number_particles
 topic: mole_concept
 difficulty: 4
-description: "Number of particles from amount of substance; N = n N_A."
-equation: amount eq amount mul avogadro_number
+links:
+  - https://en.wikipedia.org/wiki/Avogadro_constant
+  - https://en.wikipedia.org/wiki/Mole_(unit)
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/01%3A_Introduction_-_The_Ambit_of_Chemistry/1.05%3A_The_Avogadro_Constant
+  - https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mole-concept/v/the-mole-and-avogadro-s-number
+description: "One mole of any substance contains exactly the Avogadro number of elementary entities (atoms, molecules, ions, or formula units). Multiplying an amount of substance expressed in moles by the Avogadro constant gives the number of particles in the sample; this is the defining relation of the mole as a counting unit in chemistry."
+equation: dimensionless eq amount mul avogadro_number
 symbol_overrides:
-- amount: N
+- dimensionless: N
 - amount: n
+- avogadro_number: N_\mathrm{A}
 name_overrides:
-- amount: Number of [particles]
+- dimensionless: Number of particles
 - amount: Amount of substance

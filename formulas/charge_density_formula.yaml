@@ -2,12 +2,9 @@ name: Charge density from charge and volume
 id: charge_density_formula
 topic: electrostatics
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Charge_density
+  - https://openstax.org/books/university-physics-volume-2/pages/5-5-calculating-electric-fields-of-charge-distributions
+  - https://byjus.com/charge-density-formula/
+description: "Defines the average volume charge density of a body as its total electric charge spread over the three-dimensional space it occupies. It characterizes how much charge resides in each unit of volume and is the starting point for computing electric fields from continuous charge distributions. The result carries a sign, since charge itself may be positive or negative."
 equation: charge_density eq charge frac volume
-symbol_overrides:
-- charge_density: ''
-- charge: ''
-- volume: ''
-name_overrides:
-- charge_density: ''
-- charge: ''
-- volume: ''

@@ -2,12 +2,10 @@ name: Electric field definition
 id: electric_field_definition
 topic: electric_fields
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Electric_field
+  - https://openstax.org/books/physics/pages/18-3-electric-field
+  - https://www.physicsclassroom.com/tutorial/Static-Electricity/electric-fields/electric-field-intensity
+  - https://www.britannica.com/science/electric-field
+description: "Defines the electric field strength at a point as the electrostatic force per unit charge experienced by a small positive test charge placed there. It is a vector quantity pointing along the force on a positive charge, measured in newtons per coulomb (or volts per meter), and assumes the test charge is small enough not to disturb the source charges."
 equation: electric_field_strength eq force frac charge
-symbol_overrides:
-- electric_field_strength: ''
-- force: ''
-- charge: ''
-name_overrides:
-- electric_field_strength: ''
-- force: ''
-- charge: ''

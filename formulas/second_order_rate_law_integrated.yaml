@@ -2,12 +2,23 @@ name: Integrated rate law (second order)
 id: second_order_rate_law_integrated
 topic: chemical_kinetics
 difficulty: 7
-equation: (frac 1 concentration) eq (frac 1 concentration) add (frequency mul time)
+links:
+- https://en.wikipedia.org/wiki/Rate_equation#Second_order
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Second-Order_Reactions
+- https://www.khanacademy.org/science/chemistry/chemical-kinetics/reaction-rates/v/second-order-reaction-with-two-reactants
+- https://www.chemguide.co.uk/physical/basicrates/secondorder.html
+- https://www.masterorganicchemistry.com/2013/03/08/integrated-rate-laws/
+description: For a reaction that is second order in a single reactant, the integrated
+  rate law is obtained by integrating the rate law d[A]/dt = -k[A]². It gives a linear
+  relation between the reciprocal of the reactant concentration and time, and is used
+  to extract the second-order rate constant k from experimental concentration-versus-time
+  data.
+equation: frac 1 concentration eq frac 1 concentration add frequency mul time
 symbol_overrides:
 - concentration: '[A]_t'
 - concentration: '[A]_0'
 - frequency: k
 name_overrides:
-- concentration: Concentration at time t
+- concentration: '[concentration] at time t'
 - concentration: Initial [concentration]
 - frequency: Rate constant

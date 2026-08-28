@@ -2,7 +2,16 @@ name: Angle difference identity for tangent
 id: angle_diff_tangent
 topic: trigonometric_identities
 difficulty: 6
-equation: tan (angle sub angle ) eq (tan angle sub tan angle ) frac 1 add tan angle
+links:
+- https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_1e_(OpenStax)/07%3A_Trigonometric_Identities_and_Equations/7.02%3A_Sum_and_Difference_Identities
+- https://proofwiki.org/wiki/Tangent_of_Difference
+- https://www.cuemath.com/trigonometry/tan-a-minus-b/
+description: Expresses the tangent of the difference of two angles through the tangents
+  of the individual angles, where the sign between the terms of the numerator matches
+  the angle difference and the sign in the denominator is opposite. It follows from
+  dividing the sine and cosine difference identities and holds wherever both tangents
+  are defined.
+equation: tan (angle sub angle) eq (tan angle sub tan angle) frac 1 add tan angle
   mul tan angle
 symbol_overrides:
 - angle: A

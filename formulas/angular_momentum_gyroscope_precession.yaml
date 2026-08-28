@@ -2,12 +2,16 @@ name: Gyroscope precession angular velocity
 id: angular_momentum_gyroscope_precession
 topic: angular_momentum
 difficulty: 9
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum/11.05%3A_Precession_of_a_Gyroscope
+  - https://pressbooks.online.ucf.edu/osuniversityphysics/chapter/11-3-precession-of-a-gyroscope/
+  - https://mechsimulator.com/blog/articles/gyroscope-angular-momentum-precession-guide/
+description: "When a torque is applied to a spinning gyroscope, its spin axis does not tip over in the direction of the torque but sweeps sideways around a vertical axis — steady precession. The precession rate equals the applied torque divided by the spin angular momentum, valid when precession is slow compared with the spin; faster spin therefore means slower, more stable precession."
 equation: angular_velocity eq torque frac angular_momentum
 symbol_overrides:
-- angular_velocity: Ω
-- torque: τ
-- angular_momentum: ''
+- angular_velocity: \Omega
+- torque: \tau
 name_overrides:
-- angular_velocity: Precession angular [velocity]
+- angular_velocity: Precession angular velocity
 - torque: Applied [torque]
-- angular_momentum: Spin angular [momentum]
+- angular_momentum: Spin angular momentum

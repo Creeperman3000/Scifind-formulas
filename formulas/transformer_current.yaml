@@ -2,14 +2,20 @@ name: Transformer current relationship
 id: transformer_current
 topic: electromagnetic_induction
 difficulty: 6
-equation: current mul current eq electric_potential mul electric_potential
+links:
+  - https://en.wikipedia.org/wiki/Transformer
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Electromagnetic_Induction/14.05%3A_Transformers
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electromagnetic-induction/v/transformers
+  - https://www.allaboutcircuits.com/textbook/alternating-current/chpt-9/mutual-inductance/
+description: "Derived from conservation of power in an ideal transformer, equating the apparent electrical power in the primary and secondary windings. Combined with the turns-ratio relationship it links primary and secondary currents to primary and secondary voltages. It underpins the design of step-up and step-down power transformers used in AC power distribution."
+equation: current mul electric_potential eq current mul electric_potential
 symbol_overrides:
 - current: I_p
-- current: V_p
+- electric_potential: V_p
+- current: I_s
 - electric_potential: V_s
-- electric_potential: I_s
 name_overrides:
 - current: Primary [current]
-- current: Primary [voltage]
-- electric_potential: Secondary [voltage]
-- electric_potential: Secondary [current]
+- electric_potential: Primary voltage
+- current: Secondary [current]
+- electric_potential: Secondary voltage

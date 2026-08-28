@@ -2,12 +2,19 @@ name: Work done by a heat engine
 id: heat_engine_work
 topic: heat_engines
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Heat_engine
+  - https://en.wikipedia.org/wiki/Thermal_efficiency
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://www.britannica.com/technology/heat-engine
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/03%3A_The_Second_Law_of_Thermodynamics/3.04%3A_The_First_Law_Applied_to_Heat_Engines
+description: "By the first law of thermodynamics, the work output of a cyclic heat engine equals the heat absorbed from the high-temperature reservoir minus the heat rejected to the low-temperature reservoir. This is a direct consequence of energy conservation for any device that returns to its initial state after one complete cycle."
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ''
 - energy: Q_h
 - energy: Q_c
 name_overrides:
-- energy: '[Work] output'
+- energy: Work output
 - energy: Heat from hot reservoir
 - energy: Heat to cold reservoir

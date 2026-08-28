@@ -2,8 +2,17 @@ name: Coulomb force in vacuum
 id: coulomb_force_vacuum
 topic: electrostatics
 difficulty: 6
-equation: force eq charge mul (charge) frac vacuum_permittivity mul (pi mul 4) mul
-  length pow 2
+links:
+- https://en.wikipedia.org/wiki/Coulomb%27s_law
+- https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/01%3A_Electric_Fields/1.05%3A_Coulomb%27s_Law
+- https://openstax.org/books/physics/pages/18-2-coulombs-law
+description: Coulomb's law in vacuum gives the electrostatic force between two stationary
+  point charges. The force acts along the line joining the charges, is repulsive for
+  like charges and attractive for opposite ones, and weakens with the square of their
+  separation. It applies exactly to point (or spherically symmetric) charges at rest
+  in free space.
+equation: force eq (charge mul charge) frac ((pi mul 4) mul vacuum_permittivity mul
+  length pow 2 )
 symbol_overrides:
 - force: F_e
 - charge: q₁
@@ -11,6 +20,4 @@ symbol_overrides:
 - length: r
 name_overrides:
 - force: Electrostatic [force]
-- charge: ''
-- charge: ''
 - length: Separation distance

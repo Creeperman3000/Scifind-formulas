@@ -2,11 +2,10 @@ name: Energy density in a capacitor (vacuum)
 id: capacitor_energy_density_vacuum
 topic: capacitance
 difficulty: 8
-equation: energy_density eq vacuum_permittivity mul (electric_field_strength pow 2)
-  frac 2
-symbol_overrides:
-- energy_density: ''
-- electric_field_strength: ''
-name_overrides:
-- energy_density: ''
-- electric_field_strength: ''
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/8-3-energy-stored-in-a-capacitor
+  - https://en.wikipedia.org/wiki/Electrical_potential_energy
+  - https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Book%3A_Applications_of_Maxwells_Equations_(Cochran_and_Heinrich)/03%3A_Electrostatic_Field_II/3.03%3A_Electrostatic_Field_Energy
+  - https://uclnatsci.github.io/Electromagnetism-Fluids-and-Waves/electromagnetism/EMenergy.html
+description: "The energy stored in an electric field is spread throughout the space the field occupies, and this quantity gives the energy per unit volume held by the field between capacitor plates in vacuum. Because it depends only on the local field strength, it applies point-by-point to any electrostatic field configuration, not just parallel-plate capacitors. A dielectric-filled gap would use the material permittivity instead."
+equation: energy_density eq vacuum_permittivity mul (electric_field_strength pow 2) frac 2

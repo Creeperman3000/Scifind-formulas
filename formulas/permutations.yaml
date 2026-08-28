@@ -2,7 +2,17 @@ name: Number of permutations
 id: permutations
 topic: probability
 difficulty: 5
-equation: dimensionless eq (dimensionless factorial) frac ((dimensionless sub dimensionless) factorial)
+links:
+- https://en.wikipedia.org/wiki/Permutation
+- https://en.wikipedia.org/wiki/Factorial
+- https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Book%3A_Combinatorics_(Hegarty)/02%3A_Applications_of_Basic_Counting/2.02%3A_Permutations
+- https://www.khanacademy.org/math/statistics-probability/counting-permutations-and-combinations/permutations/v/permutation-formula
+- https://www.britannica.com/science/permutation-mathematics
+description: The number of ordered arrangements of r distinct items chosen from n
+  distinct items, sometimes called k-permutations of n. It is the foundation of counting
+  problems in probability, cryptography, and the analysis of sorting algorithms.
+equation: dimensionless eq (dimensionless factorial) frac (dimensionless sub dimensionless)
+  factorial
 symbol_overrides:
 - dimensionless: P(n,r)
 - dimensionless: n

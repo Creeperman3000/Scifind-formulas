@@ -2,10 +2,17 @@ name: Permittivity relation
 id: permittivity_relation
 topic: electrostatics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Permittivity
+  - https://en.wikipedia.org/wiki/Relative_permittivity
+  - https://en.wikipedia.org/wiki/Vacuum_permittivity
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11%3A_Electric_Force_between_Charges/11.02%3A_Coulomb's_Law
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-capacitors/v/capacitance
+description: The absolute permittivity of a dielectric medium equals its relative permittivity (a dimensionless factor, sometimes called the dielectric constant) multiplied by the permittivity of free space. This relation is used in Gauss's law, capacitance calculations, and the Coulomb force constant.
 equation: permittivity eq permittivity mul vacuum_permittivity
 symbol_overrides:
 - permittivity: ε
 - permittivity: ε_r
 name_overrides:
-- permittivity: '[Permittivity]'
+- permittivity: '[permittivity]'
 - permittivity: Relative [permittivity]

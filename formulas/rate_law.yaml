@@ -2,19 +2,25 @@ name: Rate law
 id: rate_law
 topic: chemical_kinetics
 difficulty: 6
-equation: frequency eq frequency mul (concentration) pow (dimensionless) mul concentration
-  pow dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Rate_equation
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/02:_Reaction_Rates
+  - https://en.wikipedia.org/wiki/Order_of_reaction
+  - https://www.britannica.com/science/chemical-kinetics/The-rate-law
+  - https://www.chemguide.co.uk/physical/basicrates/rateorders.html
+description: "A rate law (or rate equation) expresses the rate of a chemical reaction as proportional to a rate constant times the concentrations of the reactants raised to empirically determined powers called reaction orders. The exponents and overall order cannot in general be deduced from stoichiometry and must be found experimentally, then used to infer information about the reaction mechanism."
+equation: frequency eq frequency mul (concentration) pow (dimensionless) mul concentration pow dimensionless
 symbol_overrides:
-- frequency: rate
+- frequency: r
 - frequency: k
 - concentration: '[A]'
 - dimensionless: m
 - concentration: '[B]'
 - dimensionless: n
 name_overrides:
-- frequency: Reaction [rate]
+- frequency: Reaction rate
 - frequency: Rate constant
-- concentration: Reactant A [concentration]
+- concentration: Concentration of reactant A
 - dimensionless: Order with respect to A
-- concentration: Reactant B [concentration]
+- concentration: Concentration of reactant B
 - dimensionless: Order with respect to B

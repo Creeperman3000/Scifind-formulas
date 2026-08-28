@@ -2,6 +2,10 @@ name: Probability of independent events
 id: probability_multiplication_independent
 topic: probability
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Probability
+  - https://www.britannica.com/science/probability-theory
+description: "Two events are independent when the occurrence of one does not affect the probability of the other, in which case the probability of both occurring equals the product of their individual probabilities."
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P(A∩B)

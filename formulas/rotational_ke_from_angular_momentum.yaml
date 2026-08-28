@@ -2,12 +2,19 @@ name: Rotational kinetic energy from angular momentum (rotational_ke_from_angula
 id: rotational_ke_from_angular_momentum
 topic: rotational_energy
 difficulty: 7
-equation: energy eq (angular_momentum pow 2) frac (2 mul moment_of_inertia )
+links:
+- https://en.wikipedia.org/wiki/Angular_momentum
+- https://en.wikipedia.org/wiki/Rotational_energy
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum
+description: For a rigid body rotating about a fixed axis, the angular momentum equals
+  the product of the moment of inertia and the angular velocity. Eliminating the angular
+  velocity in favor of the angular momentum gives a useful alternative expression
+  for the rotational kinetic energy, which is convenient when L is conserved or measured
+  directly.
+equation: energy eq (angular_momentum pow 2) frac 2 mul moment_of_inertia
 symbol_overrides:
 - energy: K_{rot}
-- angular_momentum: L
-- moment_of_inertia: I
 name_overrides:
 - energy: Rotational kinetic [energy]
 - angular_momentum: Angular [momentum]
-- moment_of_inertia: Moment of [inertia]
+- moment_of_inertia: '[moment_of_inertia]'

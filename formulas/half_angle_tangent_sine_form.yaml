@@ -2,14 +2,23 @@ name: Half Angle Tangent (Sine Form)
 id: half_angle_tangent_sine_form
 topic: trigonometric_identities
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/Tangent_half-angle_formula
+- https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+- https://math.libretexts.org/Bookshelves/Precalculus/Book%3A_Precalculus_(OpenStax)/7%3A_The_Unit_Circle-_Cosine_and_Sine/7.05%3A_Other_Trigonometric_Functions
+- https://www.encyclopediaofmath.org/index.php?title=Tangent_formula
+- https://planetmath.org/TangentOfHalvedAngle
+description: The tangent half-angle identity expresses tan(θ/2) in terms of the full-angle
+  sine and cosine. It is widely used in calculus (Weierstrass/tangent half-angle substitution)
+  to convert trigonometric integrals into rational form, and in geometry to relate
+  rational values of the half-angle tangent to Pythagorean triples.
 equation: tan (angle frac 2) eq sin angle frac dimensionless add cos angle
 symbol_overrides:
 - angle: θ
 - angle: θ
-- dimensionless: '1'
 - angle: θ
+- dimensionless: '1'
 name_overrides:
 - angle: Angle θ
-- angle: ''
+- angle: Angle θ
 - dimensionless: '1'
-- angle: ''

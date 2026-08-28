@@ -2,17 +2,25 @@ name: Electric field on the axis of a charged ring
 id: electric_field_charged_ring
 topic: electric_fields
 difficulty: 8
-equation: electric_field_strength eq coulomb_constant mul (charge mul length ) frac
+links:
+- https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/01%3A_Electric_Fields/1.06%3A_Electric_Field_E/1.6D%3A_Field_on_the_Axis_of_and_in_the_Plane_of_a_Charged_Ring
+- https://web.pa.msu.edu/people/duxbury/courses/phy294H/lectures/lecture10/lecture10.html
+- https://books.physics.oregonstate.edu/GSF/ering1act.html
+- https://www.tutorchase.com/answers/a-level/physics/how-do-you-calculate-the-electric-field-due-to-a-ring-of-charge
+description: Gives the electric field at a point on the symmetry axis of a thin ring
+  carrying charge uniformly distributed around it, found by integrating the contributions
+  of all charge elements; transverse components cancel by symmetry, leaving only the
+  axial component. The field is zero at the ring's center and reduces to that of a
+  point charge far from the ring; off the axis the distribution requires a more general
+  treatment.
+equation: electric_field_strength eq coulomb_constant mul (charge mul length) frac
   ((length pow 2) add length pow 2 ) pow 1.5
 symbol_overrides:
-- electric_field_strength: ''
-- charge: ''
 - length: z
 - length: z
 - length: R
 name_overrides:
-- electric_field_strength: '[Electric field]'
-- charge: ''
+- electric_field_strength: Electric field
 - length: Distance on axis
 - length: Distance on axis
-- length: Ring [radius]
+- length: Ring radius

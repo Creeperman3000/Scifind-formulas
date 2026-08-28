@@ -2,11 +2,15 @@ name: 'First law: internal energy change'
 id: first_law_internal_energy_change
 topic: first_law
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://en.wikipedia.org/wiki/Internal_energy
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_(Sire)/04%3A_The_First_Law_of_Thermodynamics/4.02%3A_Internal_Energy_and_the_First_Law
+  - https://www.khanacademy.org/science/physics/thermodynamics-essentials
+description: "The first law of thermodynamics expresses conservation of energy: the change in a closed system's internal energy equals the heat added to the system plus the work done on it. This is one common sign convention; an equivalent form used in engineering writes the change as heat added minus work done by the system."
 equation: Delta energy eq energy add energy
 symbol_overrides:
 - energy: ΔU
-- energy: ''
-- energy: ''
 name_overrides:
 - energy: Change in internal [energy]
 - energy: Heat added

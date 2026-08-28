@@ -2,6 +2,13 @@ name: Z-score
 id: z_score_formula
 topic: statistics
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Standard_score
+  - https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data/z-scores/a/z-scores-review
+  - https://www.britannica.com/statistic/z-score
+  - https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics/06%3A_The_Normal_Distribution/6.04%3A_Standard_Scores_and_z-scores
+  - https://mathworld.wolfram.com/z-Score.html
+description: "The z-score (standard score) expresses how many standard deviations a raw observation lies from the population mean. It is a dimensionless quantity used to compare values measured on different scales and to assess relative position in a distribution, assuming the population parameters are known."
 equation: dimensionless eq (dimensionless sub dimensionless ) frac dimensionless
 symbol_overrides:
 - dimensionless: z

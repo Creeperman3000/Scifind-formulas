@@ -2,17 +2,17 @@ name: Voltage across capacitor in RC circuit (discharging)
 id: series_rc_circuit_voltage_capacitor
 topic: circuits
 difficulty: 7
-equation: electric_potential eq electric_potential mul exp (drop (time frac resistance
-  mul capacitance) sub)
+links:
+  - https://en.wikipedia.org/wiki/RC_circuit#Natural_response
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11%3A_Alternating-Current_Circuits/11.06%3A_RC_Circuits
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-capacitors/v/rc-circuits-intro
+  - https://www.electronics-tutorials.ws/rc/rc_1.html
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-16/time-constants/
+description: "When a charged capacitor in a series RC network is allowed to discharge through the resistor (no source), the voltage across the capacitor decays exponentially with time. The decay rate is set by the time constant RC, which is the resistance times the capacitance."
+equation: electric_potential eq electric_potential mul exp (drop (time frac resistance mul capacitance) sub)
 symbol_overrides:
 - electric_potential: V(t)
 - electric_potential: V_0
-- time: ''
-- resistance: ''
-- capacitance: ''
 name_overrides:
 - electric_potential: Voltage at time t
 - electric_potential: Initial voltage
-- time: ''
-- resistance: ''
-- capacitance: ''

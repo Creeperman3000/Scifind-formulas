@@ -2,20 +2,19 @@ name: Bernoulli stagnation pressure
 id: bernoulli_stagnation_pressure
 topic: bernoulli_equation
 difficulty: 7
-description: "Valid for steady, incompressible, inviscid flow; stagnation pressure is the pressure at zero local velocity."
-equation: pressure eq pressure add dimensionless frac (dimensionless) mul (density)
-  mul velocity pow 2
+links:
+- https://en.wikipedia.org/wiki/Stagnation_pressure
+- https://en.wikipedia.org/wiki/Dynamic_pressure
+- https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoullis-equation/
+description: Stagnation pressure (total pressure) is the pressure a flowing fluid
+  reaches when it is brought to rest, converting its kinetic energy into pressure.
+  It equals the sum of the static pressure and the dynamic pressure of the stream.
+  Valid for steady, incompressible, inviscid flow along a streamline with negligible
+  height change; measured by pitot tubes.
+equation: pressure eq pressure add density mul (velocity pow 2) frac 2
 symbol_overrides:
 - pressure: P_0
-- pressure: P
-- dimensionless: '1'
-- dimensionless: '2'
-- density: \rho
-- velocity: v
 name_overrides:
 - pressure: Stagnation [pressure]
 - pressure: Static [pressure]
-- dimensionless: One
-- dimensionless: Two
-- density: Density
 - velocity: Speed

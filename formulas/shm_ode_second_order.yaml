@@ -2,15 +2,25 @@ name: Simple harmonic motion differential equation
 id: shm_ode_second_order
 topic: differential_equations
 difficulty: 8
-equation: frac (rmd (rmd dimensionless)) ((rmd time) pow 2) eq drop ((angular_velocity pow 2) mul length)
-  sub
+links:
+- https://en.wikipedia.org/wiki/Simple_harmonic_motion#Dynamics
+- https://en.wikipedia.org/wiki/Harmonic_oscillator
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.02%3A_Simple_Harmonic_Motion
+- https://math.libretexts.org/Bookshelves/Differential_Equations/Elementary_Differential_Equations_(Arnold)/01%3A_Introduction/1.01%3A_Simple_Harmonic_Oscillator
+- https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/introduction-to-harmonic-motion
+- https://hyperphysics.phy-astr.gsu.edu/hbase/shm.html
+description: The second-order linear differential equation governing undamped simple
+  harmonic motion. Its solutions are sinusoidal with angular frequency equal to the
+  coefficient under the square root of the restoring-force-to-mass ratio, and it is
+  the limiting case of the damped harmonic oscillator when the damping coefficient
+  vanishes.
+equation: frac rmd rmd dimensionless (rmd time pow 2) add (angular_velocity pow 2)
+  mul dimensionless eq 0
 symbol_overrides:
 - dimensionless: x
-- time: t
-- angular_velocity: \omega
-- length: x
+- dimensionless: x
+- angular_velocity: ω
 name_overrides:
 - dimensionless: Displacement
-- time: Time
+- dimensionless: Displacement
 - angular_velocity: Angular [frequency]
-- length: Displacement from equilibrium

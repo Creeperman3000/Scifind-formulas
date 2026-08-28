@@ -2,18 +2,18 @@ name: Drag force on an object in a fluid
 id: drag_force
 topic: reynolds_number
 difficulty: 7
-description: "Drag-force form F_d = ½ρv²C_d A; valid for high-Reynolds-number flow where viscous drag is negligible compared to pressure drag."
+links:
+  - https://en.wikipedia.org/wiki/Drag_(physics)
+  - https://en.wikipedia.org/wiki/Drag_equation
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/
+description: "Quadratic drag law giving the resistive force a fluid exerts on a body moving through it at relatively high speed, where pressure (form) drag dominates over viscous drag. The resistance grows with the square of the relative speed and also depends on the fluid density, the reference area of the body, and a dimensionless drag coefficient determined by shape and surface roughness. Used for aircraft, vehicles, and falling objects; at very low Reynolds numbers Stokes' linear drag applies instead."
 equation: force eq density mul (velocity pow 2) mul (area) mul (dimensionless) frac
   2
 symbol_overrides:
 - force: F_d
 - density: ρ
-- velocity: ''
-- area: ''
 - dimensionless: C_d
 name_overrides:
 - force: Drag [force]
 - density: Fluid [density]
-- velocity: ''
-- area: ''
 - dimensionless: Drag coefficient

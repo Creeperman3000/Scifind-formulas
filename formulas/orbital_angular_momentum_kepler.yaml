@@ -1,15 +1,21 @@
-name: Kepler's second law (areal velocity) (orbital_angular_momentum_kepler)
+name: Kepler's second law (areal velocity)
 id: orbital_angular_momentum_kepler
 topic: orbital_motion
 difficulty: 8
-equation: angular_momentum eq mass mul ((area mul 2) frac time )
-symbol_overrides:
-- angular_momentum: ''
-- mass: ''
-- area: ''
-- time: ''
+links:
+- https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion#Second_law
+- https://en.wikipedia.org/wiki/Areal_velocity
+- https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/06%3A_Central_Forces/6.02%3A_Kepler's_Second_Law
+- https://www.britannica.com/science/Keplers-laws-of-planetary-motion
+- https://www.phys.libretexts.org/Bookshelves/Astronomy_and_Cosmology_TextMaps/Map%3A_Astronomy_(OpenStax)/3%3A_Orbits_and_Gravity/3.2%3A_Keplers_Laws_of_Planetary_Motion
+description: Kepler's second law states that the line joining a planet to the Sun
+  sweeps out equal areas in equal times, so the areal velocity is constant. Equivalently,
+  the orbital angular momentum per unit mass is twice the rate at which area is swept
+  out by the radius vector, a direct consequence of conservation of angular momentum
+  in a central force field.
+equation: area div time eq angular_momentum div mass mul 2
 name_overrides:
-- angular_momentum: Orbital [angular momentum]
-- mass: ''
-- area: Swept area
-- time: Time interval
+- area: Swept [area]
+- time: '[time] interval'
+- angular_momentum: Orbital [angular_momentum]
+- mass: Orbiting [mass]

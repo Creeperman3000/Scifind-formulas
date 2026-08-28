@@ -2,19 +2,22 @@ name: Projectile height at time
 id: projectile_height_at_time
 topic: projectile_motion
 difficulty: 5
-equation: length eq velocity mul (sin angle ) mul (time) sub acceleration mul (time
-  pow 2 ) frac 2
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion#Displacement
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/04%3A_Motion_in_Two_and_Three_Dimensions
+  - https://www.khanacademy.org/science/physics/two-dimensional-motion
+  - https://www.britannica.com/science/projectile-motion
+  - https://openstax.org/books/university-physics-volume-1/pages/4-3-projectile-motion
+description: "Gives the vertical position of a projectile as a function of elapsed time, assuming launch from ground level with uniform downward gravitational acceleration and no air resistance. The first term represents the contribution of the initial vertical velocity and the second term the downward displacement due to gravity."
+equation: length eq velocity mul (sin angle ) mul (time) sub acceleration mul (time pow 2 ) frac 2
 symbol_overrides:
 - length: y
 - velocity: v_0
 - angle: θ
-- time: ''
 - acceleration: g
-- time: ''
 name_overrides:
 - length: Vertical position
 - velocity: Initial [velocity]
 - angle: Launch angle
-- time: '[Time]'
+- time: '[time]'
 - acceleration: Gravitational [acceleration]
-- time: ''

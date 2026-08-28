@@ -2,12 +2,19 @@ name: Energy loss due to kinetic friction
 id: friction_kinetic_energy_loss
 topic: friction
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Friction#Kinetic_friction
+  - https://en.wikipedia.org/wiki/Work_(physics)#Moving_in_a_straight_line_(skid_to_a_stop)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06:_Applying_Newton's_Laws
+  - https://www.britannica.com/science/friction
+  - https://www.physics.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dutra)/04%3A_Lagrangian_Mechanics/4.02%3A_Constraints_and_Friction
+description: "The mechanical energy dissipated by kinetic friction over a sliding distance equals the product of the kinetic friction force and the distance traveled (work done against the friction force). All this energy is converted to heat, sound, and surface deformation; the formula assumes the friction force is approximately constant over the path."
 equation: energy eq force mul length
 symbol_overrides:
-- energy: ΔE
-- force: f_k
-- length: d
+  - energy: \Delta E
+  - force: f_k
+  - length: d
 name_overrides:
-- energy: Energy dissipated
-- force: Kinetic friction [force]
-- length: Distance slid
+  - energy: '[energy] dissipated'
+  - force: Kinetic friction [force]
+  - length: Distance slid

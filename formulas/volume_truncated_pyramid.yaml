@@ -2,19 +2,23 @@ name: Volume of a truncated pyramid (frustum)
 id: volume_truncated_pyramid
 topic: plane_geometry
 difficulty: 6
-equation: volume eq (length frac 3) mul ((area add area) add sqrt (area mul area) 2
-  )
+links:
+  - https://en.wikipedia.org/wiki/Frustum
+  - https://en.wikipedia.org/wiki/Pyramid_(geometry)#Frustum
+  - https://mathworld.wolfram.com/PyramidalFrustum.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/11%3A_Measurement_and_Geometry/11.04%3A_Volume
+  - https://www.cuemath.com/geometry/volume-of-a-frustum/
+description: "A pyramidal frustum is the portion of a pyramid cut off by a plane parallel to its base. The volume of any pyramidal or conical frustum is one third of the perpendicular height times the Heronian mean of the two base areas, a result known since Heron of Alexandria and recorded even earlier for square frusta in the Moscow Mathematical Papyrus."
+equation: volume eq (length frac 3) mul ((area add area) add sqrt (area mul area) 2)
 symbol_overrides:
-- volume: V
 - length: h
 - area: A_1
 - area: A_2
 - area: A_1
 - area: A_2
 name_overrides:
-- volume: Volume
 - length: Height of frustum
-- area: Area of top base
-- area: Area of bottom base
-- area: Top base area
-- area: Bottom base area
+- area: '[area] of top base'
+- area: '[area] of bottom base'
+- area: Top base [area]
+- area: Bottom base [area]

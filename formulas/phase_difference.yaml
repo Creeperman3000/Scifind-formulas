@@ -2,8 +2,13 @@ name: Phase difference from path difference
 id: phase_difference
 topic: wave_interference
 difficulty: 7
-description: Phase difference from path difference; assumes a wave of wavelength λ
-  in a uniform medium.
+links:
+  - https://en.wikipedia.org/wiki/Phase_(waves)#For_shifted_signals
+  - https://en.wikipedia.org/wiki/Wave_interference#Between_two_plane_waves
+  - https://www.khanacademy.org/science/physics/light-waves/interference-of-light-waves/a/constructive-and-destructive-interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference_of_Light_Waves
+  - https://www.toppr.com/guides/physics-formulas/path-difference-formula/
+description: Converts a geometric path difference into a phase difference for two coherent waves of the same wavelength. The relation follows directly from the wave number k = 2π/λ and assumes both waves travel in the same medium.
 equation: angle eq ((2 mul pi) mul length) frac length
 symbol_overrides:
 - angle: Δφ

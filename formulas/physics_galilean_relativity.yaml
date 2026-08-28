@@ -2,12 +2,19 @@ name: Galilean velocity addition
 id: physics_galilean_relativity
 topic: relativity
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Galilean_transformation
+  - https://en.wikipedia.org/wiki/Galilean_invariance
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/25%3A_Relativity
+  - https://www.britannica.com/science/Galilean-transformation
+  - https://mathworld.wolfram.com/GalileanTransformation.html
+description: "Relates the velocity of a body in one reference frame to its velocity in another frame moving uniformly with respect to the first, an addition rule valid in the Newtonian (non-relativistic) limit where relative speeds are much smaller than the speed of light. It is the classical counterpart of the relativistic velocity-addition formula and embodies the assumption of absolute time shared by all inertial observers."
 equation: velocity eq velocity add velocity
 symbol_overrides:
 - velocity: v_{AB}
 - velocity: v_{AC}
 - velocity: v_{CB}
 name_overrides:
-- velocity: Velocity of A relative to B
-- velocity: Velocity of A relative to C
-- velocity: Velocity of C relative to B
+- velocity: '[velocity] of A relative to B'
+- velocity: '[velocity] of A relative to C'
+- velocity: '[velocity] of C relative to B'

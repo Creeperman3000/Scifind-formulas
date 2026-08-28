@@ -2,10 +2,17 @@ name: Permeability relation
 id: permeability_relation
 topic: magnetism
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Permeability_(electromagnetism)
+  - https://en.wikipedia.org/wiki/Relative_permeability
+  - https://en.wikipedia.org/wiki/Vacuum_permeability
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.04%3A_Magnetic_Field_of_a_Current_Loop
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields-and-induction/magnetic-field-current-carrying-wire/v/magnetic-permeability
+description: The absolute permeability of a medium equals its relative permeability (a dimensionless factor) multiplied by the permeability of free space, allowing the magnetic response of any material to be expressed relative to vacuum.
 equation: permeability eq permeability mul vacuum_permeability
 symbol_overrides:
 - permeability: μ
 - permeability: μ_r
 name_overrides:
-- permeability: '[Permeability]'
+- permeability: '[permeability]'
 - permeability: Relative [permeability]

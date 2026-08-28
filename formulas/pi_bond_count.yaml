@@ -2,6 +2,13 @@ name: Pi bond count in multiple bonds
 id: pi_bond_count
 topic: chemical_bonding
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Pi_bond
+  - https://en.wikipedia.org/wiki/Bond_order
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Chemical_Bonding/Fundamentals_of_Chemical_Bonding/Bond_Order_and_Lengths
+  - https://www.britannica.com/science/pi-bond
+  - https://www.chemistrysteps.com/bond-order-and-lengths/
+description: "The number of pi bonds in a multiple bond equals the bond order minus the number of sigma bonds, since each multiple bond consists of one sigma bond plus additional pi bonds (e.g. one pi bond in a double bond, two in a triple bond). The relation is used to count pi bonds from a Lewis structure when determining molecular geometry, hybridization, and reactivity."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: \pi

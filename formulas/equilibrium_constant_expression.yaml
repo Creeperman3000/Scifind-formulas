@@ -2,8 +2,13 @@ name: Equilibrium constant from concentrations
 id: equilibrium_constant_expression
 topic: chemical_equilibrium
 difficulty: 6
-equation: equilibrium_constant eq concentration mul (concentration) frac concentration
-  mul concentration
+links:
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Equilibria/Chemical_Equilibria/The_Equilibrium_Constant
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/15%3A_Principles_of_Chemical_Equilibrium/15.2%3A_The_Equilibrium_Constant_Expression
+  - https://www.chemguide.co.uk/physical/equilibria/kc.html
+  - https://unacademy.com/content/jee/study-material/chemistry/equilibrium-constant-kp-and-kc
+description: "The law of mass action states that for a reversible reaction at equilibrium and constant temperature, the ratio of product concentrations to reactant concentrations is constant. Each concentration is raised to the power of its stoichiometric coefficient in the balanced equation; only gaseous and aqueous species are included, since pure solids and liquids have effectively constant concentration."
+equation: equilibrium_constant eq frac (concentration mul concentration) (concentration mul concentration)
 symbol_overrides:
 - equilibrium_constant: K_c
 - concentration: '[C]'
@@ -11,8 +16,7 @@ symbol_overrides:
 - concentration: '[A]'
 - concentration: '[B]'
 name_overrides:
-- equilibrium_constant: ''
-- concentration: Concentration of C
-- concentration: Concentration of D
-- concentration: Concentration of A
-- concentration: Concentration of B
+- concentration: '[concentration] of C'
+- concentration: '[concentration] of D'
+- concentration: '[concentration] of A'
+- concentration: '[concentration] of B'

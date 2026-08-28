@@ -2,10 +2,16 @@ name: Fractional conversion to percent yield
 id: percent_yield_fractional_conversion
 topic: percent_yield
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Conversion_(chemistry)
+  - https://en.wikipedia.org/wiki/Yield_(chemistry)
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Conversion_and_Yield
+  - https://www.thoughtco.com/definition-of-percent-yield-in-chemistry-606345
+description: "In a single-reaction process with no competing side products, the selectivity is unity and the fractional conversion of the limiting reactant equals the fractional yield. The percent yield is therefore simply 100 times the fractional conversion. For multi-reaction systems the relation generalises to Y = X·S, where S is the selectivity to the desired product."
 equation: dimensionless eq 100 mul dimensionless
 symbol_overrides:
-- dimensionless: \%
+- dimensionless: '\%'
 - dimensionless: X
 name_overrides:
-- dimensionless: Percent [yield]
+- dimensionless: Percent yield
 - dimensionless: Fractional conversion

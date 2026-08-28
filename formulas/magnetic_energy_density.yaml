@@ -2,11 +2,22 @@ name: Energy density of a magnetic field
 id: magnetic_energy_density
 topic: magnetism
 difficulty: 8
-equation: energy_density eq (magnetic_flux_density pow 2) frac (2 mul vacuum_permeability
-  )
+links:
+- https://en.wikipedia.org/wiki/Magnetic_energy
+- https://en.wikipedia.org/wiki/Energy_density
+- https://en.wikipedia.org/wiki/Magnetic_field
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14:_Electromagnetic_Induction
+- https://www.britannica.com/science/magnetic-field
+description: Energy per unit volume stored in a magnetic field in free space (or a
+  linear medium), expressed in terms of the magnetic flux density B and the permeability
+  of the medium. It is the magnetic analogue of the electric-field energy density
+  u_E = ε₀E²/2 and follows from Poynting's theorem.
+equation: energy_density eq (magnetic_flux_density pow 2) frac 2 mul vacuum_permeability
 symbol_overrides:
 - energy_density: u_B
-- magnetic_flux_density: ''
+- magnetic_flux_density: B
+- vacuum_permeability: \mu_0
 name_overrides:
 - energy_density: Magnetic energy [density]
-- magnetic_flux_density: ''
+- magnetic_flux_density: Magnetic flux density
+- vacuum_permeability: Vacuum permeability

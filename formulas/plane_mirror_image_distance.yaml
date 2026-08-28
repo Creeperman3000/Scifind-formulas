@@ -2,7 +2,13 @@ name: Plane mirror image distance
 id: plane_mirror_image_distance
 topic: reflection
 difficulty: 4
-description: "Sign convention: image distance is negative (virtual image behind the mirror) when the object distance is positive."
+links:
+  - https://en.wikipedia.org/wiki/Plane_mirror
+  - https://www.physicsclassroom.com/class/refln/Lesson-2/Image-Formation-in-a-Plane-Mirror
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation
+  - https://www.britannica.com/science/optics-imaging/Plane-mirrors
+  - https://www.khanacademy.org/science/physics/geometric-optics/reflection/article/mirrors
+description: "A plane mirror forms a virtual image located the same distance behind the mirror as the object is in front of it. With the standard sign convention, the image distance is taken as negative because the image lies on the opposite side of the reflecting surface from the object."
 equation: length eq drop length sub
 symbol_overrides:
 - length: d_i

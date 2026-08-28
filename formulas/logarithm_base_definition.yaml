@@ -1,13 +1,22 @@
-name: Logarithm base definition
+name: Logarithm change of base identity
 id: logarithm_base_definition
 topic: logarithms
 difficulty: 4
-equation: dimensionless eq dimensionless mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Logarithm
+- https://en.wikipedia.org/wiki/List_of_logarithmic_identities
+- https://en.wikipedia.org/wiki/Natural_logarithm
+- https://mathworld.wolfram.com/ChangeofBaseFormula.html
+- https://www.khanacademy.org/math/algebra2/x2ec2f6476b63c4d6:logs/x2ec2f6476b63c4d6:change-of-base/v/change-of-base-formula
+description: The change-of-base identity expresses a logarithm with one base as the
+  ratio of logarithms with another base, providing a unified way to convert between
+  bases such as 2, 10, and e.
+equation: dimensionless eq frac dimensionless dimensionless
 symbol_overrides:
 - dimensionless: log_a(x)
 - dimensionless: log_b(x)
-- dimensionless: log_a(b)
+- dimensionless: log_b(a)
 name_overrides:
 - dimensionless: Log base a of x
-- dimensionless: Log of x
-- dimensionless: Log of base
+- dimensionless: Log base b of x
+- dimensionless: Log base b of a

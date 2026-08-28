@@ -2,6 +2,17 @@ name: Competitive inhibition velocity
 id: competitive_inhibition_velocity
 topic: biochemistry
 difficulty: 9
+links:
+- https://en.wikipedia.org/wiki/Competitive_inhibition
+- https://bio.libretexts.org/Workbench/Biochem_Remix_Acevedo/06%3A_Enzyme_Activity/6.04%3A_Enzyme_Inhibition
+- https://chem.libretexts.org/Courses/CSU_Chico/CSU_Chico%3A_CHEM_451_-_Biochemistry_I/CHEM_451_Test/08%3A_Transport_and_Kinetics/8.4%3A_Enzyme_Inhibition/Competitive_Inhibition
+- https://math.libretexts.org/Bookshelves/Applied_Mathematics/Mathematical_Biology_(Chasnov)/06%3A_Biochemical_Reactions/6.03%3A_Competitive_Inhibition
+description: This modified Michaelis-Menten relation gives the initial reaction rate
+  of an enzyme when a competitive inhibitor competes with the substrate for binding
+  at the active site. The inhibitor raises the apparent Michaelis constant while leaving
+  the maximum velocity unchanged, so inhibition can be overcome at high substrate
+  concentration. It is widely used to analyze enzyme kinetics and to characterize
+  inhibitor drugs.
 equation: catalytic_activity eq catalytic_activity mul (concentration) frac dimensionless
   mul (dimensionless add concentration frac dimensionless ) add concentration
 symbol_overrides:
@@ -16,9 +27,9 @@ symbol_overrides:
 name_overrides:
 - catalytic_activity: Reaction [velocity]
 - catalytic_activity: Maximum [velocity]
-- concentration: Substrate concentration
+- concentration: Substrate [concentration]
 - dimensionless: Michaelis constant
-- dimensionless: Inhibition constant
-- concentration: Inhibitor concentration
 - dimensionless: ''
-- concentration: Substrate concentration
+- dimensionless: Inhibition constant
+- concentration: Inhibitor [concentration]
+- concentration: Substrate [concentration]

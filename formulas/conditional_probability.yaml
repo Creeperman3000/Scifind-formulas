@@ -2,6 +2,12 @@ name: Conditional probability
 id: conditional_probability
 topic: probability
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Conditional_probability
+  - https://online.stat.psu.edu/stat414/Lesson04
+  - https://www.probabilitycourse.com/chapter1/1_4_0_conditional_probability.php
+  - https://math.libretexts.org/Courses/Los_Angeles_City_College/STAT_C1000/04%3A_Probability_Concepts/4.05%3A_Conditional_Probability_and_Multiplication__Rules
+description: "The conditional probability of event A given that event B has occurred measures how likely A is once the sample space is restricted to outcomes where B happens. It underlies Bayes' theorem, the multiplication rule, and independence testing. It is defined only when B has nonzero probability."
 equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: P(A|B)

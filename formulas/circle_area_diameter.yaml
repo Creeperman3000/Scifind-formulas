@@ -2,10 +2,14 @@ name: Circle area from diameter
 id: circle_area_diameter
 topic: circles
 difficulty: 2
+links:
+  - https://www.mathsisfun.com/geometry/circle-area.html
+  - https://byjus.com/maths/area-of-circle/
+  - https://mathcracker.com/area-circle-diameter
+description: "Computes the area enclosed by a circle directly from its diameter, avoiding the intermediate step of halving to get the radius. It follows from the standard radius-based area formula together with the relation that a diameter is twice a radius. Useful whenever a measured or specified size is given as a diameter, such as pipes, disks, and wheels."
 equation: area eq pi mul (length pow 2) frac 4
 symbol_overrides:
-- area: ''
 - length: d
 name_overrides:
-- area: Area of [circle]
+- area: '[area] of circle'
 - length: Diameter

@@ -2,6 +2,12 @@ name: Chi-squared statistic
 id: chi_squared_statistic
 topic: statistics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Pearson's_chi-square_test
+  - https://itl.nist.gov/div898/handbook/eda/section3/eda35f.htm
+  - https://stats.libretexts.org/Courses/Penn_State_University_Greater_Allegheny/STAT_200%3A_Elementary_Statistics/11%3A_The_Chi-Square_Distribution/11.03%3A_Goodness-of-Fit_Test
+  - https://www.scribbr.com/statistics/chi-square-goodness-of-fit/
+description: "Pearson's chi-squared statistic quantifies how far observed category counts deviate from the counts expected under a null hypothesis, with deviations weighted by their expected sizes. It underpins chi-square tests of goodness of fit, independence, and homogeneity, and is compared against the chi-square distribution to obtain a p-value. Each expected count should be at least about five for the test to be valid."
 equation: dimensionless eq ((dimensionless sub dimensionless ) pow 2) frac (dimensionless)
   add ((dimensionless sub dimensionless ) pow 2) frac dimensionless
 symbol_overrides:
@@ -13,10 +19,9 @@ symbol_overrides:
 - dimensionless: E₂
 - dimensionless: E₂
 name_overrides:
-- dimensionless: Chi-squared [statistic]
+- dimensionless: Chi-squared statistic
 - dimensionless: Observed 1
 - dimensionless: Expected 1
 - dimensionless: ''
 - dimensionless: Observed 2
 - dimensionless: Expected 2
-- dimensionless: ''

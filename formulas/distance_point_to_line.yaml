@@ -2,8 +2,15 @@ name: Distance from a point to a line
 id: distance_point_to_line
 topic: coordinate_geometry
 difficulty: 5
-equation: length eq dimensionless length mul dimensionless length mul add (length)
-  add pow 2 (dimensionless pow 2) (dimensionless pow 2) add sqrt frac 2
+links:
+- https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line
+- https://mathworld.wolfram.com/Point-LineDistance2-Dimensional.html
+description: Gives the shortest (perpendicular) distance from a fixed point to an
+  infinite line in the plane written as Ax + By + C = 0. The absolute value makes
+  the distance nonnegative regardless of which side of the line the point lies on,
+  and it is used in analytic geometry and in measuring scatter about a fitted line.
+equation: length eq abs ((dimensionless mul length) add (dimensionless mul length)
+  add length) frac sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
 symbol_overrides:
 - length: d
 - dimensionless: A
@@ -14,11 +21,11 @@ symbol_overrides:
 - dimensionless: A
 - dimensionless: B
 name_overrides:
-- length: Perpendicular [distance]
+- length: Perpendicular distance
 - dimensionless: Coefficient A
 - length: Point x-coordinate
 - dimensionless: Coefficient B
 - length: Point y-coordinate
-- length: Constant C
-- dimensionless: ''
-- dimensionless: ''
+- length: Constant term C
+- dimensionless: Coefficient A
+- dimensionless: Coefficient B

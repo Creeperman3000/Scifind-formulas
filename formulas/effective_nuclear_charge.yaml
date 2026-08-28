@@ -2,6 +2,12 @@ name: Effective nuclear charge (Slater's rules)
 id: effective_nuclear_charge
 topic: atomic_structure
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Slater%27s_rules
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Periodic_Trends/Slater%27s_Rules_for_Effective_Nuclear_Charge
+  - https://chem.libretexts.org/Courses/Mount_Royal_University/Chem_1201/Unit_2._Periodic_Properties_of_the_Elements/2.06%3A_Slater%27s_Rules
+  - https://www.geeksforgeeks.org/chemistry/effective-nuclear-charge/
+description: "The effective nuclear charge is the net positive attraction experienced by a particular electron in a multi-electron atom, reduced from the bare nuclear charge by the screening effect of the other electrons. Slater's rules give an empirical scheme for estimating the shielding constant from the electron configuration, and the result helps explain periodic trends such as atomic radius and ionization energy."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: Z_{eff}

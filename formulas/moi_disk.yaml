@@ -2,12 +2,15 @@ name: Moment of inertia of a solid disk
 id: moi_disk
 topic: moment_of_inertia
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+- https://en.wikipedia.org/wiki/Moment_of_inertia
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.06%3A_Moments_of_Inertia
+- https://www.britannica.com/science/moment-of-inertia
+description: The moment of inertia of a uniform solid disk about the symmetry axis
+  through its center equals one-half the mass times the radius squared. It is a special
+  case of the solid cylinder (height h=0) and underlies the rotational dynamics of
+  flywheels, record players, and rotating machinery.
 equation: moment_of_inertia eq mass mul (length pow 2) frac 2
 symbol_overrides:
-- moment_of_inertia: ''
-- mass: ''
 - length: R
-name_overrides:
-- moment_of_inertia: ''
-- mass: ''
-- length: ''

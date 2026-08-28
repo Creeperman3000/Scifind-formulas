@@ -2,6 +2,12 @@ name: Hybridization electron groups
 id: hybridization_electron_groups
 topic: chemical_bonding
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/VSEPR_theory
+  - https://en.wikipedia.org/wiki/Orbital_hybridisation
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Molecular_Geometry_and_VSEPR
+  - https://www.khanacademy.org/science/organic-chemistry/genetics-chemistry-review/hybridization-and-hybrid-orbitals-a-review
+description: "The number of electron groups (also called the steric number) around a central atom equals the total count of bonded atoms (sigma-bonded groups) plus the number of non-bonding lone pairs on that atom. This sum determines the underlying electron-group geometry, which in turn fixes the hybridization of the central atom (sp, sp², sp³, sp³d, sp³d², etc.) and the predicted molecular shape by VSEPR. The relation is the basis for assigning hybridization and predicting the geometry of molecules and polyatomic ions."
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: N_{\mathrm{groups}}

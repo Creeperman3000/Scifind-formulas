@@ -2,12 +2,17 @@ name: Parallel force component on an inclined plane
 id: force_inclined_plane_parallel
 topic: forces
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Inclined_plane
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton's_Laws/6.04%3A_Friction_(Part_1)
+  - https://www.physicsclassroom.com/class/vectors/Lesson-3/Inclined-Planes
+  - https://www.khanacademy.org/science/physics/forces-newtons-laws/inclined-planes-friction/a/inclined-planes-friction
+  - https://www.britannica.com/science/inclined-plane
+description: "On a frictionless inclined plane at angle θ above the horizontal, the component of an object's weight directed parallel to the surface (down the slope) is the gravitational force component mg sin θ. This component drives the object's acceleration along the plane when no other force opposes it."
 equation: force eq mass mul (standard_gravity) mul sin angle
 symbol_overrides:
-- force: F_{\parallel}
-- mass: ''
-- angle: θ
+  - force: F_{\parallel}
+  - angle: \theta
 name_overrides:
-- force: Parallel component of [weight]
-- mass: ''
-- angle: Incline angle
+  - force: Parallel component of weight
+  - angle: Incline angle

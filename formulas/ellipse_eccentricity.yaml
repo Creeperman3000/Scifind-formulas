@@ -2,15 +2,22 @@ name: Eccentricity of an ellipse
 id: ellipse_eccentricity
 topic: coordinate_geometry
 difficulty: 6
-equation: dimensionless eq dimensionless sub sqrt ((length pow 2) frac length pow 2
-  ) 2
+links:
+- https://en.wikipedia.org/wiki/Eccentricity_(mathematics)
+- https://www.cuemath.com/geometry/eccentricity-of-ellipse
+- https://www.geeksforgeeks.org/maths/eccentricity-of-ellipse/
+- https://resources.wolframcloud.com/FormulaRepository/resources/Eccentricity-of-an-Ellipse
+description: 'The eccentricity measures how strongly an ellipse deviates from a circle,
+  computed from its semi-major axis a and semi-minor axis b. It is a dimensionless
+  number between 0 and 1: a circle has eccentricity 0, while values approaching 1
+  indicate a long, thin ellipse. It is widely used in conic-section geometry and in
+  orbital mechanics to characterize planetary and satellite orbits.'
+equation: dimensionless eq sqrt (1 sub (length pow 2) div length pow 2 ) 2
 symbol_overrides:
 - dimensionless: e
-- dimensionless: '1'
 - length: b
 - length: a
 name_overrides:
-- dimensionless: '[Eccentricity]'
-- dimensionless: ''
+- dimensionless: Eccentricity
 - length: Semi-minor axis
 - length: Semi-major axis

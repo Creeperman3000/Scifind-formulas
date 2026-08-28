@@ -2,14 +2,20 @@ name: Activity ratio in secular equilibrium
 id: nuclear_decay_chain_activity_ratio
 topic: nuclear_physics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Secular_equilibrium
+  - https://en.wikipedia.org/wiki/Transient_equilibrium
+  - https://www.nuclear-power.com/nuclear-power/radioactive-decay/activity/
+  - https://goldbook.iupac.org/S05532.html
+description: In secular equilibrium a long-lived parent radionuclide sustains a much shorter-lived daughter, and after several daughter half-lives the daughter activity equals the parent activity. The relationship between parent and daughter activities and their half-lives underpins generator-based radionuclide production.
 equation: activity frac activity eq time frac time
 symbol_overrides:
-- activity: A_2
-- activity: A_1
-- time: t_{1/2,2}
-- time: t_{1/2,1}
+  - activity: A_2
+  - activity: A_1
+  - time: t_{1/2,2}
+  - time: t_{1/2,1}
 name_overrides:
-- activity: Daughter activity
-- activity: Parent activity
-- time: Daughter half-life
-- time: Parent half-life
+  - activity: Daughter [activity]
+  - activity: Parent [activity]
+  - time: Daughter half-life
+  - time: Parent half-life

@@ -2,7 +2,14 @@ name: Midpoint formula
 id: midpoint_formula
 topic: coordinate_geometry
 difficulty: 3
-equation: length eq (length add length ) frac 2
+links:
+  - https://en.wikipedia.org/wiki/Cartesian_coordinate_system
+  - https://en.wikipedia.org/wiki/Section_formula
+  - https://en.wikipedia.org/wiki/Euclidean_distance
+  - https://math.libretexts.org/Bookshelves/Algebra/Algebra_and_Trigonometry/Book%3A_Algebra_and_Trigonometry_(AIA)/09%3A_Conic_Sections_and_Systems_of_Nonlinear_Equations/9.01%3A_The_Circle
+  - https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/a/midpoint-formula
+description: Locates the point exactly halfway between two given points on a coordinate axis or in Cartesian space, expressed as the arithmetic mean of their coordinates. Generalizes to higher dimensions by averaging each coordinate independently and to a weighted version for division of a segment in any ratio.
+equation: length eq (length add length) frac 2
 symbol_overrides:
 - length: x_m
 - length: x_1

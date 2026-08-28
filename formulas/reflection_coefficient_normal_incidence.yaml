@@ -2,17 +2,25 @@ name: Reflection coefficient at normal incidence
 id: reflection_coefficient_normal_incidence
 topic: reflection
 difficulty: 8
-equation: reflectance eq refractive_index refractive_index sub refractive_index refractive_index
-  add frac pow 2
+links:
+- https://en.wikipedia.org/wiki/Fresnel_equations
+- https://en.wikipedia.org/wiki/Reflection_coefficient
+- https://en.wikipedia.org/wiki/Refractive_index
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01%3A_The_Nature_of_Light/1.03%3A_The_Law_of_Reflection
+- https://www.britannica.com/science/Fresnel-equations
+description: The reflectance at normal incidence from a single interface between two
+  non-absorbing media, derived from the Fresnel equations. It gives the fraction of
+  incident optical power reflected; for example, an air-glass interface (n ≈ 1.5)
+  reflects about 4% of normally incident light per surface.
+equation: reflectance eq pow (frac (refractive_index sub refractive_index) (refractive_index
+  add refractive_index) ) 2
 symbol_overrides:
-- reflectance: ''
-- refractive_index: n₁
-- refractive_index: n₂
-- refractive_index: n₁
-- refractive_index: n₂
+- refractive_index: n_1
+- refractive_index: n_2
+- refractive_index: n_1
+- refractive_index: n_2
 name_overrides:
-- reflectance: Reflection [coefficient]
-- refractive_index: Incident [index]
-- refractive_index: Transmitted [index]
-- refractive_index: ''
-- refractive_index: ''
+- refractive_index: '[refractive_index] of incident medium'
+- refractive_index: '[refractive_index] of transmitted medium'
+- refractive_index: '[refractive_index] of incident medium'
+- refractive_index: '[refractive_index] of transmitted medium'

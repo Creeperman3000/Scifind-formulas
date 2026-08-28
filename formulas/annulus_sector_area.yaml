@@ -2,14 +2,18 @@ name: Area of an annular sector
 id: annulus_sector_area
 topic: circles
 difficulty: 6
-equation: area eq angle mul ((length pow 2) sub length pow 2 ) frac 2
+links:
+  - https://www.formuladen.com/en/area-of-annulus-sector-formula/Formula-30915
+  - https://www.redcrab-software.com/en/Calculator/Geometry/Annulus-Sector
+  - https://www.dalonmachinery.com/tools/calculators/area/annular-sector.php
+description: "An annular sector is the ring-shaped wedge bounded by two concentric circular arcs and two radial edges, like a bent strip cut from a washer. Its area grows linearly with the central angle and with the difference of the squares of the outer and inner radii, assuming both arcs share the same centre and the angle is expressed in radians. This shape arises in engineering calculations for washers, flange segments, and curved structural members."
+equation: area eq angle mul (length pow 2 sub length pow 2) frac 2
 symbol_overrides:
-- area: ''
 - angle: θ
 - length: R
 - length: r
 name_overrides:
-- area: Area of annular [sector]
+- area: '[area] of annular sector'
 - angle: Central [angle]
-- length: Outer [radius]
-- length: Inner [radius]
+- length: Outer radius
+- length: Inner radius

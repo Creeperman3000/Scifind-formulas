@@ -2,13 +2,20 @@ name: Boltzmann factor
 id: boltzmann_factor
 topic: entropy
 difficulty: 8
-equation: dimensionless prop exp (drop (energy frac boltzmann_constant mul temperature)
-  sub)
+links:
+- https://en.wikipedia.org/wiki/Boltzmann_distribution
+- https://encyclopediaofmath.org/wiki/Boltzmann_weight
+- https://courses.physics.illinois.edu/phys213/su2024/prelecture11.pdf
+- https://chem.libretexts.org/Courses/Knox_College/Chem_321%3A_Physical_Chemistry_I/05%3A_Boltzmann/5.02%3A_The_Thermal_Boltzman_Distribution
+description: 'Gives the relative probability that a system in thermal equilibrium
+  at a given temperature occupies a state of a given energy: states of higher energy
+  are exponentially less populated. This unnormalized weight is the building block
+  of the Boltzmann distribution and the partition function in statistical mechanics.'
+equation: dimensionless prop exp ((0 sub energy) frac boltzmann_constant mul temperature
+  )
 symbol_overrides:
 - dimensionless: P(E)
-- energy: ''
-- temperature: ''
 name_overrides:
-- dimensionless: Boltzmann [factor]
-- energy: Energy of [state]
-- temperature: '[Temperature]'
+- dimensionless: Boltzmann factor
+- energy: '[energy] of state'
+- temperature: '[temperature]'

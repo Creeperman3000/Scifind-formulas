@@ -2,12 +2,17 @@ name: Frequency from period
 id: frequency_period
 topic: harmonic_motion
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Frequency#Definitions_and_units
+  - https://en.wikipedia.org/wiki/Period_(physics)
+  - https://www.khanacademy.org/science/physics/wave-mechanics-introduction/wave-properties/v/period-of-waves
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Waves/15.03%3A_Period_Frequency_and_Amplitude
+  - https://www.britannica.com/science/frequency
+description: "The frequency of a periodic phenomenon is the reciprocal of its period: f = 1/T. The period is the time to complete one full cycle, while frequency counts the number of cycles per unit time (measured in hertz)."
 equation: frequency eq dimensionless frac time
 symbol_overrides:
-- frequency: f
 - dimensionless: '1'
 - time: T
 name_overrides:
-- frequency: Frequency
 - dimensionless: One
 - time: Period

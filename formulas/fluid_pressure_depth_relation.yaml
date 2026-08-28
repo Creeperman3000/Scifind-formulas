@@ -2,14 +2,18 @@ name: Pressure at depth in a fluid
 id: fluid_pressure_depth_relation
 topic: pressure
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pressure#Hydrostatic_pressure
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.03%3A_Fluid_Statics
+  - https://www.khanacademy.org/science/physics/fluids/density-and-pressure-topic/a/what-is-pressure
+  - https://www.britannica.com/science/fluid-statics
+description: "The pressure in a static fluid increases linearly with depth, as the weight of the overlying fluid adds to the pressure at the surface. This hydrostatic relation holds for an incompressible fluid in a gravitational field and is the basis of manometers, barometers, and the calculation of forces on submerged surfaces."
 equation: pressure eq pressure add density mul (standard_gravity) mul length
 symbol_overrides:
-- pressure: P_0
-- pressure: ''
-- density: ''
-- length: h
+  - pressure: P
+  - pressure: P_0
+  - length: h
 name_overrides:
-- pressure: Absolute [pressure]
-- pressure: Surface [pressure]
-- density: ''
-- length: Depth
+  - pressure: "[pressure] at depth"
+  - pressure: Surface [pressure]
+  - length: Depth

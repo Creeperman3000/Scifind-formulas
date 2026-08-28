@@ -2,17 +2,26 @@ name: Voltage division in series resistors
 id: circuit_voltage_division_series
 topic: circuits
 difficulty: 6
-equation: electric_potential eq electric_potential mul resistance frac resistance add
-  resistance
+links:
+- https://www.electronics-tutorials.ws/dccircuits/voltage-divider.html
+- https://circuitdigest.com/calculators/voltage-divider-calculator
+- https://elecalculator.com/guides/circuit-analysis/voltage-divider-circuits/
+description: The voltage divider rule gives the voltage appearing across one resistor
+  of a series pair as a fraction of the total applied voltage, proportional to that
+  resistor's share of the total resistance. It follows from Ohm's law and the fact
+  that the same current flows through series elements. It applies to unloaded resistive
+  dividers; a load connected across the output changes the ratio.
+equation: electric_potential eq electric_potential mul resistance frac resistance
+  add resistance
 symbol_overrides:
 - electric_potential: V_1
-- electric_potential: ''
+- electric_potential: V_{total}
 - resistance: R_1
 - resistance: R_1
 - resistance: R_2
 name_overrides:
 - electric_potential: Voltage across R₁
 - electric_potential: Total voltage
-- resistance: '[Resistance] R₁'
-- resistance: '[Resistance] R₁'
-- resistance: '[Resistance] R₂'
+- resistance: '[resistance] R₁'
+- resistance: '[resistance] R₁'
+- resistance: '[resistance] R₂'

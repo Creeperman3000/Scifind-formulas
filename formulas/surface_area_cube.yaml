@@ -2,10 +2,16 @@ name: Surface area of a cube
 id: surface_area_cube
 topic: plane_geometry
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Cube
+  - https://mathworld.wolfram.com/Cube.html
+  - https://www.cuemath.com/geometry/surface-area-of-cube/
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-cube
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/12%3A_Surface_Area/12.04%3A_Surface_Area_of_a_Cube
+description: "A cube has six congruent square faces, so its total surface area is six times the area of one face. \nThe result holds for any right parallelepiped with equal edge lengths and is used in problems involving cubic volumes, materials estimation, and unit-cell calculations in crystallography."
 equation: area eq 6 mul length pow 2
 symbol_overrides:
-- area: A
 - length: s
 name_overrides:
-- area: Surface area
+- area: Surface [area]
 - length: Side

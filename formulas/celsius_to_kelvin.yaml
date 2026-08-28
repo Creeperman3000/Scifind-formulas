@@ -2,10 +2,16 @@ name: Celsius to Kelvin conversion
 id: celsius_to_kelvin
 topic: temperature
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Temperature_conversion_formulas
+  - https://en.wikipedia.org/wiki/Kelvin
+  - https://www.nist.gov/pml/owm/si-units-temperature
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A__Introductory_Chemistry_(Corwin)/03%3A_The_Metric_System/3.08%3A_Temperature
+description: "Converts a temperature expressed on the Celsius scale to the Kelvin scale, the SI base unit of thermodynamic temperature. The two scales have equal-sized degrees but different zero points: 0 degrees Celsius corresponds to about 273 kelvins at the freezing point of water, and absolute zero is 0 K."
 equation: temperature eq temperature add celsius_zero
 symbol_overrides:
 - temperature: T_K
 - temperature: T_C
 name_overrides:
-- temperature: Temperature in Kelvin
-- temperature: Temperature in Celsius
+- temperature: '[temperature] in Kelvin'
+- temperature: '[temperature] in Celsius'

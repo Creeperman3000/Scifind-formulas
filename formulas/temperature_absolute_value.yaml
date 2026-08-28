@@ -2,8 +2,13 @@ name: Absolute zero temperature
 id: temperature_absolute_value
 topic: temperature
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Absolute_zero
+  - https://en.wikipedia.org/wiki/Thermodynamic_temperature
+  - https://www.britannica.com/science/absolute-zero
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Laws/The_Ideal_Gas_Law
+  - https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/v/the-ideal-gas-law
+description: "On the absolute (Kelvin) temperature scale, the lowest theoretically attainable temperature is zero. In other words, absolute thermodynamic temperature is strictly positive; absolute zero is unattainable in a finite number of steps by the third law of thermodynamics."
 equation: temperature gt 0
 name_overrides:
 - temperature: Absolute [temperature]
-symbol_overrides:
-- temperature: ''

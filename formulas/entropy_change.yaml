@@ -2,13 +2,16 @@ name: Entropy change for reversible heat transfer
 id: entropy_change
 topic: entropy
 difficulty: 8
-description: Valid only at constant temperature. The general reversible expression
+links:
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_4%3A_Equilibrium_in_Chemical_Reactions/13%3A_Spontaneous_Processes_and_Thermodynamic_Equilibrium/13.4%3A_Entropy_Changes_in_Reversible_Processes
+  - https://en.wikipedia.org/wiki/Reversible_process_(thermodynamics)
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Thermodynamics_and_Chemical_Equilibrium_(Ellgen)/09%3A_The_Second_Law_-_Entropy_and_Spontaneous_Change/9.06%3A_Entropy_Changes_for_A_Reversible_Process
+description: "Defines the entropy change of a system as the heat exchanged along a reversible path divided by the absolute temperature at which the transfer occurs. It applies directly to constant-temperature processes such as phase changes, and since entropy is a state function, the same value describes the real (possibly irreversible) change between the same states."
 equation: entropy eq energy frac temperature
 symbol_overrides:
 - entropy: ΔS
-- energy: ''
-- temperature: ''
+- energy: q_{rev}
+- temperature: T
 name_overrides:
 - entropy: Change in [entropy]
-- energy: ''
-- temperature: ''
+- energy: Heat transferred reversibly

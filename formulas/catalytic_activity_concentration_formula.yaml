@@ -2,12 +2,10 @@ name: Catalytic activity concentration
 id: catalytic_activity_concentration_formula
 topic: chemical_kinetics
 difficulty: 8
+links:
+  - https://goldbook.iupac.org/terms/view/C00882
+  - https://goldbook.iupac.org/terms/view/C00881
+  - https://goldbook.iupac.org/terms/view/K03372
+  - https://labterminology.com/list-of-kinds-of-property/catalytic-activity-concentration-cat-c/
+description: "This quantity expresses how much catalytic power — most often enzyme activity — is present per unit volume of a system, and is the standard way of reporting enzyme levels in clinical chemistry. Its SI-coherent unit is the katal per litre, though enzyme units per litre are also common. Reported values depend on the assay conditions such as temperature, pH, and substrate, which should be stated alongside the result."
 equation: catalytic_activity_concentration eq catalytic_activity frac volume
-symbol_overrides:
-- catalytic_activity_concentration: ''
-- catalytic_activity: ''
-- volume: ''
-name_overrides:
-- catalytic_activity_concentration: ''
-- catalytic_activity: ''
-- volume: ''

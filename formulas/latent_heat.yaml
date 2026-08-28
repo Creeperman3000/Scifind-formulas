@@ -2,12 +2,15 @@ name: Latent heat
 id: latent_heat
 topic: heat
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Latent_heat
+  - https://en.wikipedia.org/wiki/Enthalpy_of_fusion
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Energies_and_Potentials_of_Interaction/Enthalpy_of_Fusion
+  - https://www.britannica.com/science/latent-heat
+  - https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-latent-heat
+description: "Relates the energy absorbed or released during a phase change (such as melting, freezing, or vaporization) to the mass of the substance and its specific latent heat. The temperature of the substance stays constant throughout the phase change, so the energy goes entirely into breaking or forming intermolecular bonds rather than raising the temperature."
 equation: energy eq mass mul specific_energy
 symbol_overrides:
-- energy: ''
-- mass: ''
 - specific_energy: L
 name_overrides:
-- energy: ''
-- mass: ''
-- specific_energy: Latent [heat]
+- specific_energy: Latent heat

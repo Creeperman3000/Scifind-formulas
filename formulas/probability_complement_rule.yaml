@@ -2,6 +2,11 @@ name: Complement rule of probability
 id: probability_complement_rule
 topic: probability
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Complementary_event
+  - https://en.wikipedia.org/wiki/Probability
+  - https://www.britannica.com/science/probability-theory
+description: "The probability of an event's complement equals one minus the probability of the event itself, reflecting the requirement that the event and its complement are mutually exclusive and collectively exhaustive."
 equation: dimensionless eq 1 sub dimensionless
 symbol_overrides:
 - dimensionless: P(A')

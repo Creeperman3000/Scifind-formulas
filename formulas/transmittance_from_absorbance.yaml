@@ -2,10 +2,15 @@ name: Transmittance from absorbance
 id: transmittance_from_absorbance
 topic: analytical_chemistry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Transmittance
+  - https://en.wikipedia.org/wiki/Absorbance
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Instrumental_Analysis_(LibreTexts)/13%3A_Introduction_to_Ultraviolet_Visible_Absorption_Spectrometry/13.01%3A_Transmittance_and_Absorbance
+  - https://www.sigmaaldrich.com/GB/en/support/calculators-and-apps/absorbance-transmittance-conversion
+description: "Gives the fractional transmittance of light through a sample directly from its decadic absorbance, equivalent to rearranging the definition A = -log10(T). It is widely used in UV-Vis and infrared spectrophotometry to convert between the two common ways of expressing light attenuation. The relation holds for monochromatic light and samples that obey the Beer-Lambert law."
 equation: dimensionless eq 10 pow (drop absorbance sub)
 symbol_overrides:
 - dimensionless: T
-- absorbance: ''
 name_overrides:
 - dimensionless: Transmittance
-- absorbance: Absabsorbance
+- absorbance: Absorbance

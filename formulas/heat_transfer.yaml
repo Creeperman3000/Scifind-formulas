@@ -2,14 +2,21 @@ name: Heat transfer by temperature change
 id: heat_transfer
 topic: heat
 difficulty: 4
-equation: energy eq mass mul (specific_heat_capacity) mul Delta temperature
+links:
+- https://en.wikipedia.org/wiki/Specific_heat_capacity
+- https://en.wikipedia.org/wiki/Heat_capacity
+- https://en.wikipedia.org/wiki/Sensible_heat
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/02%3A_Temperature_and_Heat
+- https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-heat-of-fusion/v/specific-heat
+description: The amount of heat transferred to or from an object equals the product
+  of its mass, its specific heat capacity, and the change in its temperature. This
+  is the sensible-heat relation used in calorimetry and process heating/cooling calculations,
+  and it applies to substances whose specific heat can be treated as approximately
+  constant over the temperature interval of interest.
+equation: energy eq mass mul specific_heat_capacity mul Delta temperature
 symbol_overrides:
-- energy: ''
-- mass: ''
-- specific_heat_capacity: ''
-- temperature: ''
+  energy: Q
+  specific_heat_capacity: c
 name_overrides:
-- energy: ''
-- mass: ''
-- specific_heat_capacity: ''
-- temperature: ''
+  energy: Heat transferred
+  specific_heat_capacity: Specific [heat capacity]

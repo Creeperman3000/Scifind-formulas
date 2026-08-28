@@ -2,12 +2,20 @@ name: Derivative of sine
 id: derivative_sin
 topic: derivatives
 difficulty: 6
-equation: frac (rmd sin angle) (rmd angle) eq cos angle
+links:
+- https://openstax.org/books/calculus-volume-1/pages/3-5-derivatives-of-trigonometric-functions
+- https://math.libretexts.org/Courses/Los_Angeles_City_College/MATH_261%3A_Calculus_I/01%3A_Limits/1.10%3A_Derivatives/1.10.05%3A_Derivatives_of_Trigonometric_Functions
+- https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-7/a/proving-the-derivatives-of-sinx-and-cosx
+- https://proofwiki.org/wiki/Derivative_of_Sine_Function
+description: The derivative of the sine function is the cosine function, proved from
+  the limit definition of the derivative using standard trigonometric limits. The
+  angle must be measured in radians for this result to hold.
+equation: frac rmd sin angle rmd angle eq cos angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

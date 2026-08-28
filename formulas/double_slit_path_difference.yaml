@@ -2,12 +2,16 @@ name: Double-slit interference path difference
 id: double_slit_path_difference
 topic: interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Double-slit_experiment
+  - https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference
+description: "Gives the extra distance one wave travels compared with the other from the two slits of a double-slit setup to a point seen at angle theta on a distant screen. Comparing this difference to the wavelength determines whether the waves arrive in phase (constructive interference, bright fringe) or out of phase (destructive, dark fringe). It relies on the far-field approximation, where the two rays are essentially parallel."
 equation: length eq length mul sin angle
 symbol_overrides:
 - length: Δx
 - length: d
 - angle: θ
 name_overrides:
-- length: Path [difference]
+- length: Path difference
 - length: Slit separation
-- angle: '[Angle]'
+- angle: '[angle|Angle]'

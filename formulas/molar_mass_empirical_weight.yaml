@@ -2,10 +2,14 @@ name: Molar mass from empirical formula weight
 id: molar_mass_empirical_weight
 topic: molar_mass
 difficulty: 6
-description: "Molar mass from empirical formula weight."
+links:
+  - https://en.wikipedia.org/wiki/Empirical_formula
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry%3A_Counting_Molecules_and_Atoms/3.2%3A_Determining_Empirical_and_Molecular_Formulas
+  - https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiometry/empirical-and-molecular-formulas/v/empirical-molecular-and-formula-mass
+  - https://www.chemistrylearner.com/empirical-formula.html
+description: "Once the empirical formula of a compound is known, multiplying its empirical formula weight (EFW) by an integer n gives the molar mass of the molecular compound. The integer n is the ratio of the molecular mass to the empirical formula mass, and is used to convert an empirical formula into the true molecular formula."
 equation: molar_mass eq mass mul dimensionless
 symbol_overrides:
-- molar_mass: ''
 - mass: EFW
 - dimensionless: n
 name_overrides:

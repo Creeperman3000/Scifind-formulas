@@ -2,8 +2,18 @@ name: Lineweaver-Burk equation
 id: lineweaver_burk
 topic: biochemistry
 difficulty: 8
-equation: (frac 1 dimensionless) eq ((frac dimensionless dimensionless) mul (frac 1 dimensionless)) add
-  (frac 1 dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot
+- https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics
+- https://www.ncbi.nlm.nih.gov/books/NBK92007/
+- https://bio.libretexts.org/Bookshelves/Biochemistry/Book%3A_Biochemistry_Free_For_All_(Ahern_Rajagopal_and_Tan)
+- https://www.chem.fsu.edu/chem-fall/chm3210/lineweaver-burk.pdf
+description: The Lineweaver-Burk equation (double-reciprocal plot) is a linearized
+  form of the Michaelis-Menten equation obtained by taking reciprocals. It is widely
+  used to determine the Michaelis constant K_m and the limiting rate V_max graphically,
+  although non-linear regression is now preferred for parameter estimation.
+equation: frac 1 dimensionless eq (frac dimensionless dimensionless mul frac 1 dimensionless
+  ) add frac 1 dimensionless
 symbol_overrides:
 - dimensionless: v
 - dimensionless: K_m

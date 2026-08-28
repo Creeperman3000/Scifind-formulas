@@ -2,12 +2,20 @@ name: Standard entropy change of reaction
 id: standard_entropy_reaction
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Entropy
+  - https://en.wikipedia.org/wiki/Thermodynamic_database_for_pure_substances
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Standard_Entropy_Change_of_a_Reaction
+  - https://www.chem.purdue.edu/∼chembook/entropy-app.html
+  - https://www.khanacademy.org/science/chemistry/thermodynamics-chemistry/entropy-chemistry/v/entropy-and-the-second-law-of-thermodynamics
+  - https://chemed.chem.pitt.edu/entropy
+description: "The standard entropy change of a reaction quantifies the change in disorder associated with converting reactants in their standard states into products in their standard states. It is computed as the difference between the sum of the standard molar entropies of the products and that of the reactants, each weighted by its stoichiometric coefficient. The sign and magnitude of this quantity indicate whether the reaction increases or decreases the disorder of the system at standard conditions."
 equation: entropy eq entropy sub entropy
 symbol_overrides:
 - entropy: ΔS°
 - entropy: ΣS°(products)
 - entropy: ΣS°(reactants)
 name_overrides:
-- entropy: Standard entropy change of [reaction]
+- entropy: Standard [entropy] change of reaction
 - entropy: Sum of standard entropies of products
 - entropy: Sum of standard entropies of reactants

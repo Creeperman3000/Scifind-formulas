@@ -2,12 +2,15 @@ name: Dose equivalent
 id: dose_equivalent_formula
 topic: nuclear_physics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Equivalent_dose
+  - https://www.radiation-dosimetry.org/what-is-equivalent-dose-formula-equation-definition/
+  - https://www.nuclear-power.com/nuclear-engineering/radiation-protection/equivalent-dose/radiation-weighting-factor/
+  - https://www.rug.nl/education/courses/other-education/radiation-protection/a-z/a-z-data/radiation-weighting-factor?lang=en
+description: "Dose (equivalent) is a radiation-protection quantity that scales the absorbed dose by a weighting factor accounting for how biologically damaging the radiation type is; photons and electrons have a factor of one while alpha particles have about twenty. It is measured in sieverts (Sv) and is used to compare the stochastic biological risk of different radiation exposures. Strictly, the ICRP applies this weighting when averaging over an organ or tissue."
 equation: dose_equivalent eq absorbed_dose mul dimensionless
 symbol_overrides:
-- dose_equivalent: ''
-- absorbed_dose: ''
 - dimensionless: w_R
 name_overrides:
-- dose_equivalent: ''
-- absorbed_dose: Absorbed [dose]
+- absorbed_dose: '[absorbed_dose]'
 - dimensionless: Radiation weighting factor

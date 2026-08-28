@@ -2,41 +2,46 @@ name: Triangle area from three sides (Heron's formula)
 id: triangle_area_sides_heron
 topic: triangles
 difficulty: 5
-description: Equivalently expressed using the semiperimeter s = (a+b+c)/2 as
-equation: area eq sqrt (((length add length add length ) frac 2) mul (((length add
-  length add length ) frac 2) sub length ) mul (((length add length add length ) frac
-  2) sub length ) mul (((length add length add length ) frac 2) sub length ) ) 2
+links:
+  - https://en.wikipedia.org/wiki/Heron%27s_formula
+  - https://en.wikipedia.org/wiki/Area_of_a_triangle
+  - https://en.wikipedia.org/wiki/Semiperimeter
+  - https://mathworld.wolfram.com/HeronsFormula.html
+  - https://www.cuemath.com/geometry/herons-formula/
+description: "Heron's formula expresses the area of a triangle purely in terms of the three side lengths a, b, and c, using the semiperimeter s = (a+b+c)/2. It is attributed to Heron of Alexandria and is widely applied in surveying, navigation, and any setting where side lengths are easier to obtain than heights."
+equation: area eq sqrt ( ((length add length add length) frac 2) mul (((length add length add length)
+  frac 2) sub length) mul (((length add length add length) frac 2) sub length) mul (((length
+  add length add length) frac 2) sub length) ) 2
 symbol_overrides:
-- area: ''
 - length: a
 - length: b
 - length: c
 - length: a
 - length: b
 - length: c
-- length: b
 - length: a
 - length: b
 - length: c
+- length: a
+- length: b
 - length: c
-- length: ''
-- length: ''
-- length: ''
-- length: ''
+- length: a
+- length: b
+- length: c
 name_overrides:
-- area: '[Area]'
+- area: '[area]'
 - length: Side a
 - length: Side b
 - length: Side c
 - length: Side a
 - length: Side b
 - length: Side c
-- length: Side b
 - length: Side a
 - length: Side b
 - length: Side c
+- length: Side a
+- length: Side b
 - length: Side c
-- length: ''
-- length: ''
-- length: ''
-- length: ''
+- length: Side a
+- length: Side b
+- length: Side c

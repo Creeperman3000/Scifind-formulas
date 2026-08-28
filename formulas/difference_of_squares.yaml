@@ -2,8 +2,17 @@ name: Difference of squares
 id: difference_of_squares
 topic: polynomials
 difficulty: 3
-equation: (dimensionless pow 2) sub dimensionless pow 2 eq (dimensionless add dimensionless
-  ) mul dimensionless sub dimensionless
+links:
+- https://en.wikipedia.org/wiki/Difference_of_squares
+- https://www.purplemath.com/modules/specfact.htm
+- https://openstax.org/books/algebra-1/pages/6-6-3-factoring-the-difference-of-squares
+- https://www.mathwords.com/d/difference_of_squares.htm
+description: A fundamental factoring identity stating that the difference of two squares
+  factors into the product of a sum and a difference of the two base terms. It holds
+  in any commutative ring and is used constantly to factor binomials, simplify rational
+  expressions, and perform mental arithmetic.
+equation: (dimensionless pow 2) sub dimensionless pow 2 eq (dimensionless add dimensionless)
+  mul dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b
@@ -12,9 +21,9 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: b
 name_overrides:
-- dimensionless: a²
-- dimensionless: b²
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: First squared term a
+- dimensionless: Second squared term b
+- dimensionless: First base a
+- dimensionless: Second base b
+- dimensionless: First base a
+- dimensionless: Second base b

@@ -2,17 +2,23 @@ name: Derivative of cosecant
 id: derivative_csc
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (frac 1 (sin angle))) (rmd angle) eq drop ((frac 1 (sin angle)) mul (frac (cos angle)
-  (sin angle))) sub
+links:
+- https://www.analyzemath.com/calculus/derivative/proof-derivative-of-cscx.html
+- https://www.cuemath.com/trigonometry/derivative-of-cosec-x/
+- https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf
+- https://math.dartmouth.edu/~klbooksite/2.09/209.html
+description: The derivative of the cosecant function is the negative product of cosecant
+  and cotangent. It follows from applying the quotient rule to cosecant written as
+  one over sine, and holds wherever sine is nonzero with angles measured in radians.
+equation: frac rmd (frac 1 sin angle ) rmd angle eq 0 sub frac 1 sin angle mul frac
+  cos angle sin angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 - angle: x
-- angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

@@ -2,12 +2,17 @@ name: Regular polygon apothem area
 id: regular_polygon_apothem_area
 topic: polygons
 difficulty: 5
-equation: area eq length mul (length) frac 2
+links:
+  - https://en.wikipedia.org/wiki/Regular_polygon
+  - https://en.wikipedia.org/wiki/Apothem
+  - https://mathworld.wolfram.com/Apothem.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)
+  - https://www.cuemath.com/geometry/area-of-regular-polygon/
+description: "The area of a regular polygon equals half the product of its apothem (perpendicular distance from the center to a side) and its perimeter. This follows from decomposing the polygon into n congruent isosceles triangles of equal height."
+equation: area eq frac (length mul length) 2
 symbol_overrides:
-- area: ''
 - length: a
 - length: P
 name_overrides:
-- area: ''
 - length: Apothem
-- length: '[Perimeter]'
+- length: Perimeter

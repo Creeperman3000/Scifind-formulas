@@ -2,17 +2,29 @@ name: Percentage error
 id: percentage_error
 topic: arithmetic
 difficulty: 3
-equation: dimensionless eq (dimensionless sub dimensionless ) frac (dimensionless)
-  mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Approximation_error
+- https://en.wikipedia.org/wiki/Relative_change
+- https://mathworld.wolfram.com/PercentageError.html
+- https://www.thoughtco.com/percentage-error-formula-3126206
+- https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/more-on-standard-deviation/v/population-standard-deviation-example
+description: Percentage error quantifies the difference between an experimental measurement
+  and a theoretical (accepted) value, normalised by the magnitude of the theoretical
+  value and expressed as a percentage. It is widely used in experimental sciences
+  to express the accuracy of a measurement, and its sign convention preserves the
+  direction of the deviation (positive when the experimental value exceeds the accepted
+  value). The formula is undefined when the theoretical value is exactly zero.
+equation: dimensionless eq (dimensionless sub dimensionless ) frac (abs dimensionless
+  ) mul dimensionless
 symbol_overrides:
-- dimensionless: '\% error'
-- dimensionless: theoretical
+- dimensionless: \% error
 - dimensionless: experimental
+- dimensionless: theoretical
 - dimensionless: theoretical
 - dimensionless: '100'
 name_overrides:
 - dimensionless: Percentage error
-- dimensionless: Theoretical value
 - dimensionless: Experimental value
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Theoretical value
+- dimensionless: Theoretical value
+- dimensionless: '100'

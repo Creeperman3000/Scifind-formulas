@@ -2,17 +2,24 @@ name: Median length of a triangle
 id: triangle_median_formula
 topic: triangles
 difficulty: 6
-equation: length eq sqrt ((length pow 2 mul 2 pow length ) pow (2 add length ) add
-  (2 mul 2) sub length pow 2 ) 2 frac 2
+links:
+- https://en.wikipedia.org/wiki/Median_(geometry)
+- https://en.wikipedia.org/wiki/Apollonius%27s_theorem
+- https://mathworld.wolfram.com/TriangleMedian.html
+- https://www.cuemath.com/geometry/median-of-a-triangle/
+description: The length of a triangle's median to side a is determined by the two
+  sides b and c adjacent to that median and by side a itself, via Apollonius's theorem.
+  The three medians always meet at the centroid, which divides each in a 2:1 ratio
+  measured from the vertex.
+equation: length eq sqrt ((2 mul length pow 2) add (2 mul length pow 2) sub length
+  pow 2 ) 2 frac 2
 symbol_overrides:
 - length: m_a
 - length: b
-- length: b
 - length: c
-- length: c
+- length: a
 name_overrides:
-- length: '[Median] to side a'
-- length: Side b
+- length: Median to side a
 - length: Side b
 - length: Side c
-- length: Side c
+- length: Side a

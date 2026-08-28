@@ -2,12 +2,16 @@ name: Volume of a triangular prism
 id: volume_triangular_prism
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Triangular_prism
+  - https://en.wikipedia.org/wiki/Prism_(geometry)
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/11%3A_Measurement_and_Geometry/11.04%3A_Volume
+  - https://www.cuemath.com/geometry/volume-of-a-triangular-prism/
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-volume/v/volume-of-a-triangular-prism
+description: "The volume of any prism equals the area of its base times the perpendicular distance between the two parallel base planes. For a triangular prism the base is a triangle, so multiplying the triangle's area by the prism's length gives the volume; for a right triangular prism with equilateral bases the result further reduces to a closed form in the edge length."
 equation: volume eq area mul length
 symbol_overrides:
-- volume: V
 - area: A_{base}
 - length: L
 name_overrides:
-- volume: Volume
-- area: Base area
-- length: Length
+- area: Base [area]

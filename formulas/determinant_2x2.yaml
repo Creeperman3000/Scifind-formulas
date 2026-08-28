@@ -2,6 +2,12 @@ name: Determinant of a 2×2 matrix
 id: determinant_2x2
 topic: linear_algebra
 difficulty: 6
+links:
+  - https://www.mathsisfun.com/algebra/matrix-determinant.html
+  - https://www.geeksforgeeks.org/maths/determinant-of-2x2-matrix/
+  - https://math.libretexts.org/Courses/Ohio_Northern_University/Differential_Equations_and_Linear_Algebra_(Anup_Lamichhane)/04%3A_Matrices_and_Determinants/4.07%3A_Determinants
+  - https://books.physics.oregonstate.edu/LinAlg/det.html
+description: "The determinant of a two-by-two matrix is a single scalar obtained by subtracting the product of the off-diagonal entries from the product of the diagonal entries. Its sign tells whether the matrix preserves orientation, and it is zero exactly when the matrix is singular (non-invertible)."
 equation: dimensionless eq dimensionless mul (dimensionless) sub dimensionless mul
   dimensionless
 symbol_overrides:
@@ -12,7 +18,7 @@ symbol_overrides:
 - dimensionless: c
 name_overrides:
 - dimensionless: Determinant
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Top-left entry
+- dimensionless: Bottom-right entry
+- dimensionless: Top-right entry
+- dimensionless: Bottom-left entry

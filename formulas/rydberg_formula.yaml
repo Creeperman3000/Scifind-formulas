@@ -2,8 +2,19 @@ name: Rydberg formula
 id: rydberg_formula
 topic: atomic_physics
 difficulty: 8
-equation: wavenumber eq rydberg_constant mul ((1 frac ((dimensionless) pow 2)) sub (1 frac ((dimensionless)
-  pow 2)))
+links:
+- https://en.wikipedia.org/wiki/Rydberg_formula
+- https://en.wikipedia.org/wiki/Rydberg_constant
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/01%3A_The_Dawn_of_the_Quantum_Theory/1.05%3A_The_Rydberg_Formula_and_the_Hydrogen_Atomic_Spectrum
+- https://www.britannica.com/science/Rydberg-constant
+- https://physics.info/rydberg/
+description: The Rydberg formula gives the wavenumber of spectral lines emitted in
+  atomic electron transitions of hydrogen, expressed as a constant times the difference
+  of reciprocals of squared principal quantum numbers. It generalizes the Balmer series
+  and applies to hydrogen-like ions, providing the empirical basis later explained
+  by the Bohr model.
+equation: wavenumber eq rydberg_constant mul 1 frac (dimensionless pow 2) sub 1 frac
+  dimensionless pow 2
 symbol_overrides:
 - dimensionless: n_1
 - dimensionless: n_2

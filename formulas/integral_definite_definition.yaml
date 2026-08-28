@@ -2,19 +2,26 @@ name: Definite integral as area
 id: integral_definite_definition
 topic: integrals
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Integral
+  - https://en.wikipedia.org/wiki/Riemann_integral
+  - https://en.wikipedia.org/wiki/Riemann_sum
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.07%3A_Integrals
+  - https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-the-squeeze-theorem/v/sigma-notation-sum
+description: "A definite integral represents the signed area under the curve of a function between two bounds. In the Riemann-sum formulation the area is approximated as a finite sum of rectangles whose heights are the function values and whose widths are the subinterval widths; the integral is the limit of such sums as the partition becomes finer."
 equation: int dimensionless dimensionless (dimensionless mul dimensionless) eq sum drop drop (dimensionless
   mul dimensionless)
 symbol_overrides:
-- dimensionless: a
-- dimensionless: b
-- dimensionless: f(x_i)
-- dimensionless: \Delta x
-- dimensionless: f(x_i)
-- dimensionless: \Delta x
+  - dimensionless: a
+  - dimensionless: b
+  - dimensionless: f(x_i)
+  - dimensionless: \Delta x
+  - dimensionless: f(x_i)
+  - dimensionless: \Delta x
 name_overrides:
-- dimensionless: Lower bound
-- dimensionless: Upper bound
-- dimensionless: Function value
-- dimensionless: Interval width
-- dimensionless: Function value
-- dimensionless: Interval width
+  - dimensionless: Lower bound
+  - dimensionless: Upper bound
+  - dimensionless: Function value
+  - dimensionless: Interval width
+  - dimensionless: Function value
+  - dimensionless: Interval width

@@ -2,8 +2,18 @@ name: Index of hydrogen deficiency (IHD)
 id: organic_chemistry_index_hydrogen_deficiency
 topic: organic_chemistry
 difficulty: 7
-equation: dimensionless eq ((((2 mul dimensionless) add 2) add dimensionless sub dimensionless
-  sub dimensionless)) frac 2
+links:
+- https://en.wikipedia.org/wiki/Degree_of_unsaturation
+- https://en.wikipedia.org/wiki/Organic_chemistry
+- https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Fundamentals/Index_of_Hydrogen_Deficiency
+- https://www.khanacademy.org/science/organic-chemistry/gen-chem-review/gold-book-video-series/v/organic-chemistry-fundamentals
+description: The index of hydrogen deficiency (also called the degree of unsaturation
+  or double bond equivalent) gives the total number of rings plus π bonds in an organic
+  molecule from its molecular formula. Oxygen and other divalent atoms do not affect
+  the count because they require no additional hydrogens relative to a saturated acyclic
+  hydrocarbon skeleton.
+equation: dimensionless eq (((2 mul dimensionless) add 2) add dimensionless sub dimensionless
+  sub dimensionless) frac 2
 symbol_overrides:
 - dimensionless: IHD
 - dimensionless: C

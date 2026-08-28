@@ -2,13 +2,20 @@ name: Ampere's law
 id: amperes_law
 topic: magnetism
 difficulty: 8
-equation: oint drop drop (magnetic_flux_density cdot length) eq vacuum_permeability
+links:
+- https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+- https://openstax.org/books/university-physics-volume-2/pages/12-5-amperes-law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.06%3A_Amperes_Law
+description: Relates the circulation of the magnetic field around a closed loop to
+  the total electric current passing through any surface bounded by that loop. It
+  is one of Maxwell's equations and is the standard tool for computing magnetic fields
+  in configurations with high symmetry, such as straight wires, solenoids, and toroids.
+  The steady-current form shown here neglects displacement current.
+equation: oint drop drop (magnetic_flux_density cdot rmd length ) eq vacuum_permeability
   mul current
 symbol_overrides:
-- length: l
-- magnetic_flux_density: B
 - current: I_{enc}
 name_overrides:
-- length: Path length
+- length: Path [length]
 - magnetic_flux_density: Field
 - current: Enclosed current

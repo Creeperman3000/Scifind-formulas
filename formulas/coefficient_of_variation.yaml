@@ -2,14 +2,21 @@ name: Coefficient of variation
 id: coefficient_of_variation
 topic: statistics
 difficulty: 6
-equation: dimensionless eq dimensionless frac (dimensionless) mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Coefficient_of_variation
+- https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/coefvari.htm
+- https://www.geeksforgeeks.org/maths/coefficient-of-variation-formula/
+- https://casrai.org/guides/coefficient-of-variation
+description: A unitless, relative measure of dispersion that expresses the standard
+  deviation as a percentage of the mean. Because it strips units away, it allows comparison
+  of variability between datasets with different scales or very different averages.
+  It is only meaningful for ratio-scale data with a nonzero mean well away from zero.
+equation: dimensionless eq (dimensionless frac dimensionless) mul 100
 symbol_overrides:
 - dimensionless: CV
-- dimensionless: σ
-- dimensionless: μ
-- dimensionless: '100'
+- dimensionless: \sigma
+- dimensionless: \mu
 name_overrides:
 - dimensionless: Coefficient of variation
 - dimensionless: Standard deviation
 - dimensionless: Mean
-- dimensionless: ''

@@ -2,12 +2,11 @@ name: Electrical energy from power and time
 id: electrical_energy_power_time
 topic: circuits
 difficulty: 4
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/9-5-electrical-energy-and-power
+  - https://courses.lumenlearning.com/suny-physics/chapter/20-4-electric-power-and-energy/
+  - https://phys.libretexts.org/Courses/Coalinga_College/Physical_Science_for_Educators_Volume_2/04%3A_Electricity/4.05%3A_Electric_Circuits/4.5.01%3A_Energy_Transfer_in_Electric_Circuits
+description: "The electrical energy consumed or supplied by a device equals its power consumption multiplied by the time it operates, valid for constant power. This relation underlies the kilowatt-hour used on electricity bills, since utilities charge for energy rather than power."
 equation: energy eq power mul time
 name_overrides:
 - energy: Electrical [energy]
-- power: ''
-- time: ''
-symbol_overrides:
-- energy: ''
-- power: ''
-- time: ''

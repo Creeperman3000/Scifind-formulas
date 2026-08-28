@@ -2,6 +2,14 @@ name: Stoichiometric proportion for a reaction
 id: stoichiometric_proportion
 topic: chemical_reactions
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Stoichiometry
+  - https://en.wikipedia.org/wiki/Stoichiometric_amount
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/03%3A_Chemical_Reactions_-_Quantitative_Information_from_Balanced_Equations
+  - https://www.britannica.com/science/stoichiometry
+description: "For any balanced reaction, the ratio of the amount of each species to its
+  stoichiometric coefficient is the same for all species. This proportion lets one convert
+  between moles of any two participants once one amount is known."
 equation: amount frac dimensionless eq amount frac dimensionless
 symbol_overrides:
 - amount: n_A

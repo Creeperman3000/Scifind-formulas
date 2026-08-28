@@ -2,12 +2,18 @@ name: Hess's law for enthalpy change
 id: hesss_law_enthalpy
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Hess%27s_law
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/05%3A_Thermochemistry/5.06%3A_Hess's_Law
+  - https://en.wikipedia.org/wiki/Enthalpy
+  - https://www.chemteam.info/Chem-History/Hess-1840.html
+description: "Hess's law states that the total enthalpy change for a chemical reaction is independent of the pathway taken and equals the sum of the enthalpy changes of the individual steps. Because enthalpy is a state function, intermediate-step enthalpies can be added (with appropriate signs) to obtain the overall reaction enthalpy, which is the basis for tabulating and using standard enthalpies of formation."
 equation: energy eq energy add energy
 symbol_overrides:
-- energy: ΔH_{rxn}
-- energy: ΔH₁
-- energy: ΔH₂
+- energy: \Delta H_{\mathrm{rxn}}
+- energy: \Delta H_{1}
+- energy: \Delta H_{2}
 name_overrides:
-- energy: Reaction [enthalpy]
+- energy: Reaction enthalpy
 - energy: Enthalpy of step 1
 - energy: Enthalpy of step 2

@@ -2,6 +2,12 @@ name: Triple Angle Sine
 id: triple_angle_sine
 topic: trigonometric_identities
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://en.wikipedia.org/wiki/De_Moivre%27s_formula
+  - https://mathworld.wolfram.com/Multiple-AngleFormulas.html
+description: "This triple-angle identity expresses the sine of three times an angle as a polynomial in the sine of that angle. It is derived from the angle-addition formulas and is closely related to the corresponding triple-angle formula for cosine. The identity is used in simplifying cubic expressions in sin θ and in solving trigonometric equations of degree three."
 equation: sin (angle mul 3) eq 3 mul (sin angle ) sub 4 mul sin angle pow 3
 symbol_overrides:
 - angle: θ
@@ -9,5 +15,5 @@ symbol_overrides:
 - angle: θ
 name_overrides:
 - angle: Angle θ
-- angle: ''
-- angle: ''
+- angle: Angle θ
+- angle: Angle θ

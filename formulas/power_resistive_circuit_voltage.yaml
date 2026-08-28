@@ -2,12 +2,13 @@ name: Power from voltage and resistance
 id: power_resistive_circuit_voltage
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Electric_power
+  - https://en.wikipedia.org/wiki/Joule_heating
+  - https://en.wikipedia.org/wiki/Ohm%27s_law
+  - https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/09%3A_Current_and_Resistance/9.06%3A_Electrical_Energy_and_Power
+description: "In a purely resistive element, the power dissipated equals the square of the voltage across it divided by its resistance. This is one of three equivalent forms of Joule's first law, derivable by combining P = IV with Ohm's law V = IR."
 equation: power eq (electric_potential pow 2) frac resistance
-symbol_overrides:
-- power: P
-- electric_potential: V
-- resistance: R
 name_overrides:
-- power: Power
-- electric_potential: Voltage
-- resistance: Resistance
+  - electric_potential: Voltage

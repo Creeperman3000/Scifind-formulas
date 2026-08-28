@@ -2,6 +2,11 @@ name: Probability of mutually exclusive events
 id: probability_mutually_exclusive
 topic: probability
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Mutual_exclusivity
+  - https://en.wikipedia.org/wiki/Probability
+  - https://www.britannica.com/science/probability-theory
+description: "Two events are mutually exclusive when they cannot both occur, so the probability that either one happens equals the sum of their individual probabilities. This is the special case of the addition rule when the intersection has probability zero."
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: P(A∪B)

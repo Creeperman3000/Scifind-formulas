@@ -2,10 +2,10 @@ name: Conductance from resistance
 id: conductance_formula
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance
+  - https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/01%3A_Basic_Concepts_and_Quantitites/1.07%3A_Resistance_and_Conductance
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/conductance/
+  - https://goldbook.iupac.org/terms/view/E01925
+description: "Electrical conductance measures how easily electric current passes through a component or circuit element. It is the reciprocal of resistance and offers the opposite viewpoint of the same property: high conductance means low opposition to current flow. Its SI unit is the siemens (S), formerly called the mho."
 equation: conductance eq 1 frac resistance
-symbol_overrides:
-- conductance: ''
-- resistance: ''
-name_overrides:
-- conductance: ''
-- resistance: ''

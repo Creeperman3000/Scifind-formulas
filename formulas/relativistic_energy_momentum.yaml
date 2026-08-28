@@ -2,13 +2,17 @@ name: Relativistic energy-momentum relation
 id: relativistic_energy_momentum
 topic: relativity
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Energy%E2%80%93momentum_relation
+  - https://en.wikipedia.org/wiki/Four-momentum
+  - https://en.wikipedia.org/wiki/Special_relativity
+  - https://phys.libretexts.org/Bookshelves/Relativity/Book%3A_Special_Relativity_(Crowell)
+  - https://www.britannica.com/science/relativistic-mechanics
+description: "The energy-momentum relation of special relativity relates a free particle's total energy, invariant (rest) mass, and the magnitude of its relativistic momentum. In flat (Minkowski) spacetime it follows from the Lorentz-invariant norm of the four-momentum and reduces to mass-energy equivalence in the rest frame."
 equation: energy pow 2 eq ((momentum mul speed_of_light) pow 2) add (mass mul speed_of_light
-  pow 2 ) pow 2
+  pow 2) pow 2
 symbol_overrides:
-- energy: E
-- momentum: p
 - mass: m_0
 name_overrides:
 - energy: Total [energy]
-- momentum: Momentum
-- mass: Rest mass
+- mass: Rest [mass]

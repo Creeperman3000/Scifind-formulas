@@ -2,6 +2,13 @@ name: Asymptote equation of a hyperbola
 id: hyperbola_asymptote_equation
 topic: coordinate_geometry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Hyperbola#Asymptotes
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/Intermediate_Algebra_2e_(OpenStax)/12%3A_Conic_Sections/12.04%3A_The_Hyperbola
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:conic-sections/x2f8bb11595b61c86:hyperbola-equations/v/horizontal-hyperbola
+  - https://www.britannica.com/science/hyperbola
+  - https://byjus.com/maths/hyperbola/
+description: "The straight line that the branches of a centered hyperbola approach at large distance, used to sketch the curve and to analyze its behavior at infinity. A standard hyperbola has two symmetric asymptotes passing through the center with slope determined by the ratio of the semi-conjugate to the semi-transverse axis."
 equation: dimensionless eq length frac (length) mul dimensionless
 symbol_overrides:
 - dimensionless: y

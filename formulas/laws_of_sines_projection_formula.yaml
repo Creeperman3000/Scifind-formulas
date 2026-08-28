@@ -2,6 +2,13 @@ name: Triangle side projection formula
 id: laws_of_sines_projection_formula
 topic: laws_of_sines_and_cosines
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Law_of_cosines
+  - https://mathworld.wolfram.com/LawofCosines.html
+  - https://www.cuemath.com/geometry/projection-formula/
+  - https://www.britannica.com/science/law-of-cosines
+  - https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(Lumen)/09%3A_Additional_Topics/9.03%3A_Law_of_Cosines
+description: "The projection formula expresses one side of a triangle as the sum of the projections of the other two sides onto it, using the cosine of the adjacent angles. It is a useful rearrangement of the law of cosines that connects sides and angles in a single linear relationship."
 equation: length eq length mul (cos angle ) add length mul cos angle
 symbol_overrides:
 - length: a

@@ -2,6 +2,10 @@ name: Double-slit bright fringe position
 id: double_slit_bright_fringe_position
 topic: interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Double-slit_experiment
+  - https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference
+description: "Gives where the m-th bright interference fringe appears on a screen in Young's double-slit experiment, measured from the central maximum. It follows from the constructive-interference condition together with the small-angle approximation, so it applies when the screen is far compared with the slit separation. Bright fringes spread farther apart for longer wavelengths, wider screens, and narrower slit spacing."
 equation: length eq amount mul (length) mul (length) frac length
 symbol_overrides:
 - length: y

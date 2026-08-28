@@ -2,11 +2,21 @@ name: Total surface area of a cone
 id: surface_area_cone_total
 topic: plane_geometry
 difficulty: 4
-equation: area eq pi mul length mul (length add length )
+links:
+- https://en.wikipedia.org/wiki/Cone
+- https://mathworld.wolfram.com/Cone.html
+- https://www.cuemath.com/geometry/surface-area-of-a-cone/
+- https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-cone
+- https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/12%3A_Surface_Area/12.05%3A_Surface_Areas_of_Pyramids_and_Cones
+description: "The total surface area of a right circular cone includes its circular\
+  \ base plus the lateral area swept out by the slant height. \nIt assumes a right\
+  \ circular cone and uses the radius of the base together with the slant height measured\
+  \ from the base edge to the apex."
+equation: area eq pi mul length mul length add length
 symbol_overrides:
 - area: SA
 - length: r
-- length: l
+- length: ''
 - length: r
 name_overrides:
 - area: Total surface [area]

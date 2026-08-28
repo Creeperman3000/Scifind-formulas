@@ -2,8 +2,19 @@ name: Equilibrium constant definition
 id: equilibrium_constant_definition
 topic: chemical_equilibrium
 difficulty: 6
-equation: equilibrium_constant eq concentration mul (dimensionless) pow (concentration)
-  pow (dimensionless) frac concentration mul dimensionless pow concentration pow dimensionless
+links:
+- https://en.wikipedia.org/wiki/Equilibrium_constant
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Equilibrium_Constant
+- https://www.chemguide.co.uk/physical/equilibria/kc.html
+description: 'Defines the equilibrium constant of a reversible reaction as the value
+  the reaction quotient takes once equilibrium is reached: product concentrations
+  appear in the numerator and reactant concentrations in the denominator, each raised
+  to its stoichiometric coefficient. For a given temperature it is independent of
+  the starting concentrations, making it the key quantity for predicting how far a
+  reaction proceeds.'
+equation: equilibrium_constant eq (concentration pow dimensionless) mul (concentration
+  pow dimensionless) frac ((concentration pow dimensionless) mul concentration pow
+  dimensionless )
 symbol_overrides:
 - equilibrium_constant: K_c
 - concentration: '[C]'
@@ -15,12 +26,11 @@ symbol_overrides:
 - concentration: '[B]'
 - dimensionless: b
 name_overrides:
-- equilibrium_constant: ''
-- concentration: Concentration of C
+- concentration: '[concentration] of C'
 - dimensionless: Coefficient of C
-- concentration: Concentration of D
+- concentration: '[concentration] of D'
 - dimensionless: Coefficient of D
-- concentration: Concentration of A
+- concentration: '[concentration] of A'
 - dimensionless: Coefficient of A
-- concentration: Concentration of B
+- concentration: '[concentration] of B'
 - dimensionless: Coefficient of B

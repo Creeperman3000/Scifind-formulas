@@ -2,15 +2,19 @@ name: Elastic energy density
 id: spring_energy_density
 topic: springs
 difficulty: 8
-equation: energy_density eq spring_constant mul (length pow 2) frac (2 mul volume
-  )
+links:
+- https://en.wikipedia.org/wiki/Elastic_energy
+- https://en.wikipedia.org/wiki/Hooke%27s_law
+- https://en.wikipedia.org/wiki/Linear_elasticity
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/12%3A_Static_Equilibrium_and_Elasticity/12.06%3A_Elasticity_and_Plasticity
+description: Elastic energy density is the elastic potential energy stored per unit
+  volume of a deformed Hookean material, equal to half the product of stress and strain.
+  It is a local, intensive quantity used in continuum mechanics and is independent
+  of the geometry of the particular spring.
+equation: energy_density eq spring_constant mul (length pow 2) frac 2 mul volume
 symbol_overrides:
-- energy_density: ''
-- spring_constant: ''
 - length: x
-- volume: ''
 name_overrides:
-- energy_density: Elastic [energy density]
-- spring_constant: Spring [constant]
+- energy_density: Elastic [energy_density]
+- spring_constant: '[spring_constant]'
 - length: Displacement
-- volume: ''

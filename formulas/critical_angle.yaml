@@ -2,12 +2,18 @@ name: Critical angle for total internal reflection
 id: critical_angle
 topic: refraction
 difficulty: 6
-equation: angle eq sin (refractive_index frac refractive_index )
+links:
+  - https://en.wikipedia.org/wiki/Total_internal_reflection
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_%28OpenStax%29/25%3A_Geometric_Optics/25.04%3A_Total_Internal_Reflection
+  - https://www.physicsclassroom.com/tutorial/refraction-and-lenses/total-internal-reflection/critical-angle
+  - http://labman.phys.utk.edu/phys222core/modules/m7/internal-reflection.html
+description: "The critical angle is the angle of incidence, measured from the normal, at which the refracted ray grazes along the boundary between two media. At incidence angles above it, light is completely reflected back into the incident medium (total internal reflection), which only occurs going from an optically denser to a rarer medium; this principle underlies optical fibers and prism binoculars."
+equation: angle eq asin (refractive_index frac refractive_index )
 symbol_overrides:
 - angle: θ_c
 - refractive_index: n_2
 - refractive_index: n_1
 name_overrides:
 - angle: Critical angle
-- refractive_index: Refracting medium [refractive index|index]
-- refractive_index: Incident medium [refractive index|index]
+- refractive_index: Refracting medium [refractive_index|index]
+- refractive_index: Incident medium [refractive_index|index]

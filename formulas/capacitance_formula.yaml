@@ -2,12 +2,10 @@ name: Capacitance definition
 id: capacitance_formula
 topic: capacitance
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Capacitance
+  - https://openstax.org/books/university-physics-volume-2/pages/8-1-capacitors-and-capacitance
+  - https://www.britannica.com/science/capacitance
+  - https://phys.libretexts.org/Courses/Berea_College/Electromagnetics_I_(Messina)/05%3A_Electrostatics/5.22%3A_Capacitance
+description: "Capacitance measures how much electric charge a conductor or pair of conductors stores per unit potential difference between them, measured in farads. It is a purely geometric/material property of the device, independent of the actual charge or voltage applied."
 equation: capacitance eq charge frac electric_potential
-symbol_overrides:
-- capacitance: ''
-- charge: ''
-- electric_potential: ''
-name_overrides:
-- capacitance: ''
-- charge: ''
-- electric_potential: ''

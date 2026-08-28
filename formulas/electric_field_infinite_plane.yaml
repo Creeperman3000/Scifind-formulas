@@ -2,11 +2,15 @@ name: Electric field of an infinite plane
 id: electric_field_infinite_plane
 topic: electric_fields
 difficulty: 8
-equation: electric_field_strength eq surface_charge_density frac (2 mul vacuum_permittivity
-  )
+links:
+  - https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/01%3A_Electric_Fields/1.06%3A_Electric_Field_E/1.6F%3A_Field_of_a_Uniformly_Charged_Infinite_Plane_Sheet
+  - https://farside.ph.utexas.edu/teaching/316/lectures/node27.html
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elesht.html
+  - https://byjus.com/physics/electric-field-intensity-due-to-a-thin-uniformly-charged-infinite-plane-sheet/
+description: "Gives the electric field of a thin, infinitely extended sheet carrying uniform surface charge density, directed perpendicular to the sheet and away from it if positively charged. A key result of Gauss's law is that this field is uniform, with a magnitude independent of the distance from the sheet; it also underlies the parallel-plate capacitor field."
+equation: electric_field_strength eq frac surface_charge_density (2 mul vacuum_permittivity)
 symbol_overrides:
-- electric_field_strength: ''
 - surface_charge_density: σ
 name_overrides:
-- electric_field_strength: Electric [field]
+- electric_field_strength: Electric field
 - surface_charge_density: Surface charge [density]

@@ -2,16 +2,22 @@ name: Electric field inside a uniformly charged sphere
 id: electric_field_charged_sphere_inside
 topic: electrostatics
 difficulty: 8
-description: "Valid inside a uniformly charged sphere; field varies linearly with distance from the centre."
-equation: electric_field_strength eq coulomb_constant mul (charge) mul (length) frac
-  length pow 3
+links:
+- http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elesph.html
+- https://www.miniphysics.com/uy1-electric-field-of-a-uniformly-charged-sphere.html
+- https://photonics101.com/fs-charge-configurations/homogeneously-charged-sphere.html
+- https://0space.org/c/6022-ympem-02009-electric-field-uniformly-charged-sphere
+description: Gives the electric field at a point inside a non-conducting sphere carrying
+  charge uniformly throughout its volume. Derived from Gauss's law, the field grows
+  linearly with distance from the centre, is zero at the centre, and matches the exterior
+  point-charge field at the surface.
+equation: electric_field_strength eq frac (coulomb_constant mul (charge) mul length
+  ) length pow 3
 symbol_overrides:
-- electric_field_strength: ''
-- charge: ''
 - length: r
 - length: R
 name_overrides:
-- electric_field_strength: Electric [field] inside sphere
-- charge: '[Charge]'
+- electric_field_strength: Electric field inside sphere
+- charge: '[charge|Charge]'
 - length: Distance from center
-- length: Sphere [radius]
+- length: Sphere radius

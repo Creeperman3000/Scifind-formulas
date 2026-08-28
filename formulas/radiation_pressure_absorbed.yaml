@@ -2,6 +2,13 @@ name: Radiation pressure on a perfect absorber
 id: radiation_pressure_absorbed
 topic: electromagnetic_waves
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Radiation_pressure
+  - https://en.wikipedia.org/wiki/Solar_sail
+  - https://en.wikipedia.org/wiki/Poynting%E2%80%93Robertson_effect
+  - https://www.britannica.com/science/radiation-pressure
+  - https://phys.libretexts.org/Bookshelves/Optics/Book%3A_Geometric_Optics_(Tunnell)/1%3A_Introduction/1.2%3A_Properties_of_Light
+description: "Radiation pressure is the mechanical pressure exerted when electromagnetic radiation transfers momentum to a surface. On a perfect (black-body) absorber at normal incidence, the pressure equals the incident irradiance divided by the speed of light, in agreement with Maxwell's theory and confirmed experimentally by Lebedev. The effect is small in everyday settings but governs solar-sail propulsion, dust dynamics in the solar system, and stellar-interior physics."
 equation: pressure eq irradiance frac speed_of_light
 symbol_overrides:
 - pressure: P_{rad}

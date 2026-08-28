@@ -2,10 +2,16 @@ name: Canonical commutation relation
 id: commutation_relation_quantum
 topic: quantum_mechanics
 difficulty: 10
+links:
+  - https://en.wikipedia.org/wiki/Canonical_commutation_relation
+  - https://en.wikipedia.org/wiki/canonical_quantization
+  - https://www.maths.dur.ac.uk/users/kasper.peeters/mathphys/uncertainty.html
+  - https://paulskrzypczyk.github.io/qm-lecture-notes/comm-up
+description: "The canonical commutation relation states how the quantum-mechanical position and momentum operators fail to commute, their commutator being defined as the difference of the two operator products. It is a cornerstone postulate of quantum mechanics, encoding that position and momentum are incompatible observables, and it directly implies the Heisenberg uncertainty principle."
 equation: dimensionless eq planck_constant frac (pi mul 2) mul dimensionless
 symbol_overrides:
 - dimensionless: '[x̂,p̂]'
 - dimensionless: i
 name_overrides:
-- dimensionless: Commutation [relation]
+- dimensionless: Commutation relation
 - dimensionless: Imaginary unit

@@ -2,6 +2,12 @@ name: Bayes factor
 id: bayes_factor
 topic: probability
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Bayes_factor
+  - https://easystats.github.io/bayestestR/articles/bayes_factors.html
+  - https://plato.stanford.edu/entries/bayes-theorem
+  - https://metricgate.com/docs/bayes-factor
+description: "The Bayes factor quantifies the relative evidence that observed data provide for one hypothesis or model over another, expressed as the ratio of their marginal likelihoods. It acts as the Bayesian alternative to the p-value in hypothesis testing and model comparison: values above 1 support the hypothesis in the numerator, values below 1 support the denominator hypothesis."
 equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: BF

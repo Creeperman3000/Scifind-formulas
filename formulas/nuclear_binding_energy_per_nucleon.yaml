@@ -2,12 +2,21 @@ name: Binding energy per nucleon
 id: nuclear_binding_energy_per_nucleon
 topic: nuclear_physics
 difficulty: 8
-equation: energy eq (energy frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Nuclear_binding_energy
+- https://www.nuclear-power.com/nuclear-power/nuclear-reactions/nuclear-binding-energy/
+- https://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/nucbin.html
+- https://openstax.org/books/college-physics-2e/pages/31-5-nuclear-binding-energy
+description: The binding energy per nucleon is the total nuclear binding energy of
+  a nuclide divided by its mass number, giving the average energy required to remove
+  a single nucleon from the nucleus. It characterizes nuclear stability and is maximum
+  around iron-56.
+equation: energy eq energy frac dimensionless
 symbol_overrides:
 - energy: \varepsilon
 - energy: E_b
 - dimensionless: A
 name_overrides:
-- energy: Binding energy per nucleon
+- energy: Binding [energy] per nucleon
 - energy: Total binding [energy]
 - dimensionless: Mass number

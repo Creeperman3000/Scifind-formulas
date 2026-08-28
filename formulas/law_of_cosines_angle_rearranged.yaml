@@ -2,25 +2,28 @@ name: Law of cosines rearranged for angle
 id: law_of_cosines_angle_rearranged
 topic: laws_of_sines_and_cosines
 difficulty: 5
-equation: angle eq acos ((length mul (length) add (length) mul (length) sub length
-  mul length ) frac length mul (length) mul 2 )
+links:
+- https://en.wikipedia.org/wiki/Law_of_cosines
+- https://www.britannica.com/science/law-of-cosines
+- https://www.mathsisfun.com/algebra/trig-cosine-law.html
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/02%3A_General_Triangles/2.02%3A_The_Law_of_Cosines
+- https://louis.pressbooks.pub/trigonometry/chapter/3-3-the-law-of-cosines/
+description: An equivalent form of the law of cosines solved for the cosine of an
+  unknown angle. This form is convenient because cosine is sign-sensitive, distinguishing
+  acute from obtuse angles without ambiguity, in contrast to the law of sines.
+equation: angle eq acos (((length pow 2) add (length pow 2) sub length pow 2 ) frac
+  2 mul length mul length )
 symbol_overrides:
 - angle: C
 - length: a
 - length: b
 - length: c
-- length: ''
-- length: ''
-- length: ''
-- length: ''
-- length: ''
+- length: a
+- length: b
 name_overrides:
 - angle: Angle C
 - length: Side a
 - length: Side b
 - length: Side c
-- length: ''
-- length: ''
-- length: ''
-- length: ''
-- length: ''
+- length: Side a
+- length: Side b

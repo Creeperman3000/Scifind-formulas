@@ -2,13 +2,16 @@ name: Torricelli's theorem
 id: torricellis_theorem
 topic: bernoulli_equation
 difficulty: 6
-equation: velocity eq sqrt ((dimensionless mul 2) mul (standard_gravity) mul length
-  ) 2
+links:
+  - https://en.wikipedia.org/wiki/Torricelli%27s_law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.06%3A_Bernoulli%27s_Equation
+  - https://www.britannica.com/science/Torricellis-theorem
+  - https://www.khanacademy.org/science/physics/fluids/what-is-fluids/v/what-is-fluids-introduction
+  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/14-6-bernoullis-equation/
+description: "Torricelli's theorem states that the speed of fluid flowing out of an orifice equals the speed a body would attain in free fall from the same height above the orifice. It applies under the idealized conditions of an incompressible, non-viscous fluid and an orifice that is small compared to the container's cross-section, and is a special case of Bernoulli's principle."
+equation: velocity eq sqrt ((dimensionless mul 2) mul (standard_gravity) mul length) 2
 symbol_overrides:
-- velocity: ''
-- dimensionless: ''
 - length: h
 name_overrides:
 - velocity: Efflux [velocity]
-- dimensionless: ''
 - length: Depth

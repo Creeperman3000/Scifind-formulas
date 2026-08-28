@@ -2,13 +2,14 @@ name: Volume from cross-sectional area and height
 id: volume_area_height
 topic: plane_geometry
 difficulty: 3
-description: "Volume from cross-sectional area and height; V = A h."
+links:
+  - https://en.wikipedia.org/wiki/Volume
+  - https://en.wikipedia.org/wiki/Cross_section_(geometry)
+  - https://mathworld.wolfram.com/Volume.html
+  - https://en.wikipedia.org/wiki/Prism_(geometry)
+description: "Relates the volume of a right prism or cylinder-like solid to its uniform cross-sectional area and the perpendicular distance between its two parallel bases. Cavalieri's principle shows it extends to any solid whose horizontal cross-sectional area is constant along the height."
 equation: volume eq area mul length
 symbol_overrides:
-- volume: ''
-- area: ''
-- length: h
+  - length: h
 name_overrides:
-- volume: ''
-- area: ''
-- length: Height
+  - length: Height

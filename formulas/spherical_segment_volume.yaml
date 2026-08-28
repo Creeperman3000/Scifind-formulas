@@ -2,17 +2,24 @@ name: Volume of a spherical segment
 id: spherical_segment_volume
 topic: plane_geometry
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/Spherical_segment
+- https://mathworld.wolfram.com/SphericalSegment.html
+- https://en.wikipedia.org/wiki/Spherical_cap
+- https://www.ck12.org/geometry/spherical-segment/
+- https://byjus.com/maths/spherical-segment/
+description: A spherical segment is the solid region of a sphere lying between two
+  parallel cutting planes. Its volume depends on the distance between the planes and
+  the radii of the two circular cross sections they produce.
 equation: volume eq pi mul (length) mul (((length pow 2) mul 3) add ((length pow 2)
-  mul 3) add length pow 2 ) frac 6
+  mul 3) add length pow 2) frac 6
 symbol_overrides:
-- volume: ''
 - length: h
 - length: a
 - length: b
 - length: h
 name_overrides:
-- volume: '[Volume] of spherical segment'
+- volume: '[volume] of spherical segment'
 - length: Height
-- length: Lower [radius]
-- length: Upper [radius]
-- length: ''
+- length: Lower radius
+- length: Upper radius

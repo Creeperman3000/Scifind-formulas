@@ -2,19 +2,31 @@ name: Percentage difference
 id: percentage_difference
 topic: arithmetic
 difficulty: 3
-equation: dimensionless eq (dimensionless sub dimensionless ) frac ((dimensionless
-  add dimensionless ) frac 2) mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Relative_change
+- https://en.wikipedia.org/wiki/Relative_difference
+- https://www.calculatorsoup.com/calculators/algebra/percent-difference-calculator.php
+- https://www.mathsisfun.com/numbers/percentage-difference.html
+- https://www.thoughtco.com/percentage-difference-formula-3126262
+description: Percentage difference expresses how far apart two values are as a fraction
+  of their average size, so the order of a and b does not affect the result. It is
+  widely used in science and engineering to compare an experimental measurement to
+  a reference value or to quantify the discrepancy between two measurements of the
+  same quantity. The conventional form uses absolute values in the denominator to
+  keep the result defined for numbers of mixed sign.
+equation: dimensionless eq (dimensionless sub dimensionless ) frac ((abs dimensionless
+  add abs dimensionless ) frac 2) mul dimensionless
 symbol_overrides:
-- dimensionless: '\% diff'
+- dimensionless: \% diff
+- dimensionless: a
+- dimensionless: b
 - dimensionless: a
 - dimensionless: b
 - dimensionless: '100'
-- dimensionless: ''
-- dimensionless: ''
 name_overrides:
 - dimensionless: Percentage difference
 - dimensionless: Value a
 - dimensionless: Value b
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Value a
+- dimensionless: Value b
+- dimensionless: '100'

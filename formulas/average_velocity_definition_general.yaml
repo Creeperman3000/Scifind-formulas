@@ -2,7 +2,12 @@ name: Average velocity definition
 id: average_velocity_definition_general
 topic: constant_acceleration
 difficulty: 3
-equation: velocity eq (length sub length ) frac time sub time
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_%28OpenStax%29/03%3A_Motion_Along_a_Straight_Line/3.02%3A_Position_Displacement_and_Average_Velocity
+  - https://openstax.org/books/university-physics-volume-1/pages/3-1-position-displacement-and-average-velocity
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_%28OpenStax%29/02%3A_Kinematics/2.03%3A_Time_Velocity_and_Speed
+description: "This is the general definition of average velocity for motion between two instants: the change in displacement over that interval divided by the corresponding elapsed time. Because it uses displacement, it is directional and can differ from the path length divided by the time."
+equation: velocity eq frac (length sub length) (time sub time)
 symbol_overrides:
 - velocity: v̄
 - length: s₂
@@ -11,7 +16,7 @@ symbol_overrides:
 - time: t₁
 name_overrides:
 - velocity: Average [velocity]
-- length: Final [displacement]
-- length: Initial [displacement]
+- length: Final displacement
+- length: Initial displacement
 - time: Final [time]
 - time: Initial [time]

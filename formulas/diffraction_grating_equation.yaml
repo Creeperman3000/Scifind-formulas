@@ -1,7 +1,13 @@
-name: Diffraction grating equation (diffraction_grating_equation)
+name: Diffraction grating equation
 id: diffraction_grating_equation
 topic: diffraction
 difficulty: 7
+links:
+  - https://www.newport.com/n/the-grating-equation
+  - https://openstax.org/books/college-physics-ap-courses/pages/27-4-multiple-slit-diffraction
+  - https://vikdhillon.staff.shef.ac.uk/teaching/phy217/instruments/phy217_inst_grating.html
+  - https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/8-superposition/8-4-the-diffraction-grating/the-diffraction-grating/
+description: "The grating equation gives the discrete angles at which light of a given wavelength leaves a diffraction grating as bright principal maxima, arising where the path difference between adjacent slits equals an integer number of wavelengths. It underpins grating spectrometers and wavelength measurement, with normal incidence assumed in this simple form."
 equation: dimensionless mul length eq length mul sin angle
 symbol_overrides:
 - dimensionless: m

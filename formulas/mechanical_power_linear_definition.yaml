@@ -2,10 +2,16 @@ name: Mechanical power
 id: mechanical_power_linear_definition
 topic: power
 difficulty: 5
-equation: power eq work frac time
+links:
+  - https://en.wikipedia.org/wiki/Power_(physics)
+  - https://www.britannica.com/science/power-physics
+  - https://openstax.org/books/university-physics-volume-1/pages/7-8-power
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy/7.08%3A_Power
+description: "Average mechanical power is defined as the amount of work done (or energy transferred) divided by the time interval over which it is done, with the SI unit of the watt. Instantaneous power is recovered in the limit as the time interval approaches zero, giving the time derivative of the work."
+equation: power eq energy frac time
 symbol_overrides:
-- power: P
-- work: W
+- energy: W
 - time: Δt
 name_overrides:
 - power: Average [power]
+- energy: Work

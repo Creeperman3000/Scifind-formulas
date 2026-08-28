@@ -2,10 +2,17 @@ name: Poisson distribution mean
 id: poisson_distribution_mean
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Poisson_distribution
+  - https://mathworld.wolfram.com/PoissonDistribution.html
+  - https://www.britannica.com/science/Poisson-distribution
+  - https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-mean-and-variance/a/poisson-distribution
+  - https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Poisson.html
+description: "For a Poisson-distributed random variable counting the number of independent events in a fixed interval, the expected value (mean) equals the rate parameter \u03bb, the average number of events per interval. The variance of the distribution also equals \u03bb."
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: E[X]
 - dimensionless: λ
 name_overrides:
-- dimensionless: Expected value of Poisson [distribution]
-- dimensionless: '[Rate]'
+- dimensionless: Expected value of Poisson distribution
+- dimensionless: Rate

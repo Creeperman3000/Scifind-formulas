@@ -2,12 +2,23 @@ name: Optical purity
 id: optical_purity
 topic: organic_chemistry
 difficulty: 8
-equation: dimensionless eq 100 mul (angle frac angle )
+links:
+- https://en.wikipedia.org/wiki/Enantiomeric_excess
+- https://goldbook.iupac.org/terms/view/O04310.html
+- https://www.chemistrysteps.com/enantiomeric-excess/
+- https://www.masterorganicchemistry.com/2012/04/09/racemic-mixtures-and-enantiomeric-excess/
+description: Optical purity is a measure of chiral purity expressed as the ratio of
+  the observed specific rotation of a sample to the specific rotation of the enantiopure
+  compound, usually given as a percentage. When the optical rotation of each enantiomer
+  is proportional to its mole fraction, optical purity is numerically equal to the
+  enantiomeric excess, although the two can diverge in cases such as concentration-dependent
+  rotation or aggregation effects.
+equation: dimensionless eq 100 mul angle frac angle
 symbol_overrides:
 - dimensionless: OP
 - angle: '[α]_{obs}'
 - angle: '[α]_{pure}'
 name_overrides:
-- dimensionless: Optical [purity]
+- dimensionless: Optical purity
 - angle: Observed rotation
 - angle: Pure rotation

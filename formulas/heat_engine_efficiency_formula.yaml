@@ -2,12 +2,19 @@ name: Heat engine efficiency
 id: heat_engine_efficiency_formula
 topic: heat_engines
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Thermal_efficiency
+  - https://en.wikipedia.org/wiki/Heat_engine
+  - https://www.britannica.com/technology/heat-engine
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/03%3A_The_Second_Law_of_Thermodynamics/3.05%3A_Heat_Engines
+  - https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/heat-engines
+  - https://courses.lumenlearning.com/suny-physics/chapter/15-5-the-second-law-of-thermodynamics/
+description: "Heat engine efficiency is the ratio of useful work output produced by a heat engine to the heat energy supplied from the high-temperature reservoir. By the second law of thermodynamics, this efficiency is always less than one, with the Carnot efficiency (depending only on the temperatures of the hot and cold reservoirs) setting the upper bound."
 equation: heat_engine_efficiency eq energy frac energy
 symbol_overrides:
-- heat_engine_efficiency: ''
 - energy: ''
 - energy: Q_H
 name_overrides:
-- heat_engine_efficiency: '[Efficiency]'
-- energy: '[Work] output'
-- energy: '[Heat] input'
+- heat_engine_efficiency: Efficiency
+- energy: Work output
+- energy: Heat input

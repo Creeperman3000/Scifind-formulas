@@ -2,8 +2,15 @@ name: Optimal launch angle for maximum range
 id: projectile_optimal_angle
 topic: projectile_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion#Maximum_distance_of_projectile
+  - https://en.wikipedia.org/wiki/Range_of_a_projectile
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_1e_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.04%3A_Projectile_Motion
+  - https://www.physicsclassroom.com/Class/vectors/u3l2d.cfm
+  - https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/projectiles-launched-at-an-angle
+description: "The launch angle that maximizes the horizontal range of a projectile on level ground is 45°. This follows from the fact that the range is proportional to the sine of twice the launch angle, which is unity only at this angle. Valid for the ideal case with no air resistance."
 equation: angle eq pi frac 4
 symbol_overrides:
-- angle: θ_{max}
+  - angle: θ_{max}
 name_overrides:
-- angle: Optimal launch [angle]
+  - angle: Optimal launch [angle]

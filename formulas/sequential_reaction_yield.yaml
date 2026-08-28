@@ -2,6 +2,13 @@ name: Overall yield of sequential reactions
 id: sequential_reaction_yield
 topic: chemical_reactions
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Consecutive_reactions
+  - https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Reactions/Overview_of_Reactions/Reaction_Overview
+  - https://www.masterorganicchemistry.com/2017/09/20/multistep-synthesis-yield/
+  - https://www.chemguide.co.uk/organicprops/amines/synthesis/yield.html
+  - https://www.thoughtco.com/definition-of-percent-yield-605896
+description: "For a synthetic sequence in which one step feeds the next, the overall percent yield is the product of the individual step yields (each expressed as a decimal fraction). Knowing this, chemists can predict how many starting equivalents a long multi-step synthesis will require to obtain a target amount of product."
 equation: dimensionless eq dimensionless mul (dimensionless) mul dimensionless
 symbol_overrides:
 - dimensionless: Y_{total}
@@ -9,7 +16,7 @@ symbol_overrides:
 - dimensionless: y_2
 - dimensionless: y_3
 name_overrides:
-- dimensionless: Overall [yield]
+- dimensionless: Overall yield
 - dimensionless: Yield of step 1
 - dimensionless: Yield of step 2
 - dimensionless: Yield of step 3

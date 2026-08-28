@@ -2,7 +2,12 @@ name: Average impact force from momentum change
 id: impact_force_impulse
 topic: collisions
 difficulty: 6
-description: "Average impact force from impulse; F_avg = Δp / Δt."
+links:
+  - https://en.wikipedia.org/wiki/Impulse_(physics)
+  - https://en.wikipedia.org/wiki/Collision
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Linear_Momentum_and_Collisions
+  - https://en.wikipedia.org/wiki/Impact_force
+description: "The average force experienced by an object during a brief impact or collision equals its change in momentum divided by the duration of the contact, a direct consequence of the impulse-momentum theorem. This expression is useful for estimating peak loads in crashes, sports impacts, and protective-equipment design."
 equation: force eq Delta momentum frac time
 symbol_overrides:
 - force: F_{avg}
@@ -11,4 +16,4 @@ symbol_overrides:
 name_overrides:
 - force: Average [force]
 - momentum: Change in [momentum]
-- time: Collision time
+- time: Collision [time]

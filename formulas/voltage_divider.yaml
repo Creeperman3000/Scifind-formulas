@@ -2,7 +2,16 @@ name: Voltage divider
 id: voltage_divider
 topic: circuits
 difficulty: 5
-equation: electric_potential eq electric_potential mul (resistance) frac resistance
+links:
+- https://en.wikipedia.org/wiki/Voltage_divider
+- https://en.wikipedia.org/wiki/Resistor#Voltage_divider
+- https://en.wikipedia.org/wiki/Series_and_parallel_circuits
+- https://en.wikipedia.org/wiki/Ohm%27s_law
+description: A voltage divider produces an output voltage that is a fixed fraction
+  of the input voltage using two resistors in series. The relationship assumes an
+  ideal load (no current drawn from the output); if current is drawn the result is
+  approximated by Thevenin's theorem.
+equation: electric_potential eq electric_potential mul resistance frac resistance
   add resistance
 symbol_overrides:
 - electric_potential: V_{out}
@@ -11,8 +20,8 @@ symbol_overrides:
 - resistance: R_1
 - resistance: R_2
 name_overrides:
-- electric_potential: Output [voltage]
-- electric_potential: Input [voltage]
+- electric_potential: Output voltage
+- electric_potential: Input voltage
 - resistance: Second [resistance]
 - resistance: First [resistance]
 - resistance: Second [resistance]

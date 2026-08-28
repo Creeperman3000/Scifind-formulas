@@ -2,14 +2,21 @@ name: Slope-intercept form
 id: slope_intercept_form
 topic: equations
 difficulty: 3
-equation: length eq reynolds_number mul (length) add length
+links:
+  - https://en.wikipedia.org/wiki/Linear_equation#Slope%E2%80%93intercept_form_or_Gradient-intercept_form
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/v/slope-intercept-form
+  - https://math.libretexts.org/Bookshelves/Algebra/Book%3A_Intermediate_Algebra_(OpenStax)/03%3A_Graphs_and_Functions/3.2%3A_Linear_Functions
+  - https://www.cuemath.com/geometry/slope-intercept-form/
+  - https://www.mathsisfun.com/equation_of_line.html
+description: "The slope-intercept form expresses a non-vertical straight line in the Cartesian plane as y equal to its slope times x plus its y-intercept. It is the most common way to write the equation of a line because it makes the slope and the point where the line crosses the y-axis immediately readable."
+equation: length eq dimensionless mul length add length
 symbol_overrides:
 - length: y
-- reynolds_number: m
+- dimensionless: m
 - length: x
 - length: b
 name_overrides:
 - length: y-coordinate
-- reynolds_number: Slope
+- dimensionless: Slope
 - length: x-coordinate
 - length: y-intercept

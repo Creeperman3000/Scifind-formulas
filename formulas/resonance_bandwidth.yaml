@@ -2,12 +2,18 @@ name: Resonance bandwidth
 id: resonance_bandwidth
 topic: circuits
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Q_factor
+  - https://en.wikipedia.org/wiki/Bandwidth_(signal_processing)
+  - https://en.wikipedia.org/wiki/Resonance
+  - https://en.wikipedia.org/wiki/RLC_circuit
+description: The bandwidth of a resonant system is inversely proportional to its quality factor, with higher Q producing narrower resonances and greater frequency selectivity. It is typically defined as the full width at half maximum of the resonance peak, governing how sharply a tuned circuit or filter responds around its center frequency.
 equation: frequency eq frequency frac dimensionless
 symbol_overrides:
-- frequency: Δf
-- frequency: f₀
-- dimensionless: Q
+  - frequency: Δf
+  - frequency: f_0
+  - dimensionless: Q
 name_overrides:
-- frequency: Bandwidth
-- frequency: Resonant [frequency]
-- dimensionless: Quality [factor]
+  - frequency: Bandwidth
+  - frequency: Resonant [frequency]
+  - dimensionless: Quality factor

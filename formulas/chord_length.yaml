@@ -2,6 +2,11 @@ name: Chord length
 id: chord_length
 topic: circles
 difficulty: 5
+links:
+  - https://proofwiki.org/wiki/Length_of_Chord_of_Circle
+  - https://www.mathwords.com/c/chord.htm
+  - https://www.geeksforgeeks.org/dsa/length-of-the-chord-of-the-circle-whose-radius-and-the-angle-subtended-at-the-center-by-the-chord-is-given/
+description: "Gives the straight-line distance between two points on a circle from the circle's radius and the central angle the two radii to those points subtend. It follows from bisecting the isosceles triangle formed by the two radii. The angle may be in degrees or radians as long as the sine function matches, and the chord grows to a diameter when the angle is 180 degrees."
 equation: length eq 2 mul (length) mul sin (angle frac 2)
 symbol_overrides:
 - length: c

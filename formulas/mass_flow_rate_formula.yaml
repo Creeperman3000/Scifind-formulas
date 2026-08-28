@@ -2,16 +2,19 @@ name: Mass flow rate
 id: mass_flow_rate_formula
 topic: continuity_equation
 difficulty: 6
-equation: mass frac time eq density mul (area) mul velocity
+links:
+  - https://en.wikipedia.org/wiki/Mass_flow_rate
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/mass-flow-rate/
+  - https://www.engineersedge.com/fluid_flow/mass_flow_rate.htm
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.02%3A__Mass_Density
+  - https://www.britannica.com/science/mass-flow-rate
+description: "Mass flow rate is the mass of a fluid passing through a cross-section per unit time, commonly denoted ṁ. For a uniform flow through a pipe or duct it equals the fluid density times the cross-sectional area times the flow velocity. It is a central quantity in fluid dynamics, the continuity equation, and engine performance calculations such as those used in aerospace propulsion."
+equation: mass frac time eq density mul area mul velocity
 symbol_overrides:
 - mass: \dot{m}
-- time: ''
-- density: ρ
-- area: ''
-- velocity: ''
+- density: \rho
 name_overrides:
-- mass: Mass flow rate
-- time: ''
+- mass: '[mass] flow rate'
 - density: Fluid [density]
 - area: Cross-sectional [area]
 - velocity: Flow [velocity]

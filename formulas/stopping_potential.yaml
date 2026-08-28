@@ -2,14 +2,18 @@ name: Stopping potential in photoelectric effect
 id: stopping_potential
 topic: quantum_mechanics
 difficulty: 8
-description: "Stopping potential equals the maximum kinetic energy of photoelectrons per unit charge."
-equation: electric_potential eq (planck_constant mul (frequency) sub energy ) frac
-  elementary_charge
+links:
+  - https://en.wikipedia.org/wiki/Photoelectric_effect
+  - https://en.wikipedia.org/wiki/Work_function
+  - https://en.wikipedia.org/wiki/Einstein%27s_photoelectric_law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/05%3A_Photoelectric_Effect
+  - https://www.britannica.com/science/photoelectric-effect
+description: "The stopping (or cut-off) potential is the retarding voltage at which the photoelectric current vanishes, equal to the maximum kinetic energy of the emitted photoelectrons divided by the elementary charge. It is the experimental quantity used in Millikan-type tests of Einstein's photoelectric law and provides a direct measure of the work function when the light frequency is known."
+equation: electric_potential eq (planck_constant mul (frequency) sub energy) frac elementary_charge
 symbol_overrides:
 - electric_potential: V₀
-- frequency: ''
 - energy: φ
 name_overrides:
-- electric_potential: Stopping [potential]
+- electric_potential: Stopping potential
 - frequency: Incident light [frequency]
 - energy: Work function

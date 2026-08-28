@@ -2,12 +2,15 @@ name: Elastic potential energy from force
 id: spring_energy_from_force_formula
 topic: springs
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Elastic_energy
+  - https://en.wikipedia.org/wiki/Hooke%27s_law
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.03%3A_Energy_in_Simple_Harmonic_Motion
+description: "For a Hookean spring the restoring force grows linearly with extension, so the stored elastic energy equals the average force (half the peak) times the displacement. It is the area under the force–displacement line from the equilibrium position to a given extension."
 equation: energy eq force mul (length) frac 2
 symbol_overrides:
 - energy: E_e
-- force: ''
-- length: ''
 name_overrides:
 - energy: Elastic potential [energy]
-- force: ''
 - length: Extension

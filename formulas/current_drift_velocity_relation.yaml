@@ -2,15 +2,19 @@ name: Current from drift velocity
 id: current_drift_velocity_relation
 topic: current_electricity
 difficulty: 7
+links:
+  - https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-current-electricity/x51bd77206da864f3%3Adrift-of-electrons-the-origin-of-resistance/v/current-from-drift-velocity-i-neavd
+  - https://en.wikipedia.org/wiki/Drift_velocity
+  - https://www.electricalvolt.com/relation-between-current-and-drift-velocity
+  - https://www.electricaldeck.com/2023/07/relation-between-current-and-drift-velocity.html
+description: "This relation expresses the electric current in a conductor in terms of the microscopic drift of its charge carriers: carrier density, carrier charge, cross-sectional area, and drift speed together determine the total charge passing a section per unit time. It applies to conductors or semiconductors with a single dominant carrier type moving at a uniform average drift speed."
 equation: current eq dimensionless mul charge mul velocity mul area
 symbol_overrides:
-- current: ''
 - dimensionless: n
 - charge: e
 - velocity: v_d
-- area: ''
 name_overrides:
-- current: '[Current]'
+- current: '[current|Current]'
 - dimensionless: Charge carrier density
 - charge: Elementary [charge]
 - velocity: Drift [velocity]

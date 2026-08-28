@@ -2,6 +2,13 @@ name: Similar triangles side ratio
 id: plane_geometry_similar_triangles_ratio
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Similarity_(geometry)
+  - https://mathworld.wolfram.com/SimilarTriangles.html
+  - https://www.cuemath.com/geometry/similar-triangles/
+  - https://www.britannica.com/science/similar-triangles
+  - https://flexbooks.ck12.org/cbook/ck-12-conceptos-de-geometr%C3%ADa-de-la-escuela-secundaria-grado-10-en-espa%C3%B1ol/section/9.2/primary/lesson/tri%C3%A1ngulos-semejantes-geom-10/
+description: "When two triangles are similar, the ratios of lengths of their corresponding sides are equal, so the proportionality between any pair of corresponding sides gives the similarity (scale) factor between the figures."
 equation: length frac length eq length frac length
 symbol_overrides:
 - length: a_1

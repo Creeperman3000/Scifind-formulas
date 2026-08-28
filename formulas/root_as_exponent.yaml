@@ -2,7 +2,14 @@ name: Root as fractional exponent
 id: root_as_exponent
 topic: exponents
 difficulty: 4
-equation: dimensionless eq dimensionless pow (1 frac dimensionless )
+links:
+- https://en.wikipedia.org/wiki/Nth_root
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra_1e_(OpenStax)/08%3A_Roots_and_Radicals/8.04%3A_Simplify_Rational_Exponents
+description: An nth root can be rewritten as a fractional power, with the index of
+  the radical becoming the denominator of the exponent on the base. This equivalence,
+  introduced in modern notation by Michel Rolle in 1690, allows the usual laws of
+  exponents to be applied to radical expressions and vice versa.
+equation: dimensionless eq dimensionless pow 1 frac dimensionless
 symbol_overrides:
 - dimensionless: \sqrt[n]{a}
 - dimensionless: a

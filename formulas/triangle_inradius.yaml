@@ -2,12 +2,16 @@ name: Inradius of a triangle
 id: triangle_inradius
 topic: triangles
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Incircle_and_excircles
+  - https://en.wikipedia.org/wiki/Semiperimeter
+  - https://mathworld.wolfram.com/Inradius.html
+  - https://www.cuemath.com/geometry/inradius-of-a-triangle/
+description: "The inradius is the radius of the incircle, the largest circle that fits inside a triangle and is tangent to all three sides. It equals the triangle's area divided by its semiperimeter, a relationship that follows from the incircle splitting the triangle into three sub-triangles of heights equal to the inradius."
 equation: length eq area frac length
 symbol_overrides:
 - length: r
-- area: ''
 - length: s
 name_overrides:
 - length: Inradius
-- area: ''
 - length: Semiperimeter

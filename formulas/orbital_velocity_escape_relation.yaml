@@ -1,11 +1,21 @@
-name: Orbital velocity relation to escape velocity
+name: Relation between orbital and escape velocity
 id: orbital_velocity_escape_relation
 topic: escape_velocity
 difficulty: 7
-equation: velocity eq velocity frac sqrt 2 2
+links:
+- https://en.wikipedia.org/wiki/Escape_velocity
+- https://en.wikipedia.org/wiki/Orbital_speed
+- https://en.wikipedia.org/wiki/Circular_orbit
+- https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/05%3A_Circular_Motion/5.07%3A_Speed_and_Period_of_a_Satellite
+description: The escape speed at a given distance from a primary body is √2 times
+  the speed of a circular orbit at that same distance, because the potential energy
+  of an orbiting object is minus twice its kinetic energy while escape requires their
+  sum to be non-negative. The escape speed is also known as the second cosmic velocity
+  and is independent of direction.
+equation: velocity eq velocity mul sqrt 2 2
 symbol_overrides:
-- velocity: v_{orb}
 - velocity: v_{esc}
+- velocity: v_{orb}
 name_overrides:
-- velocity: Orbital [velocity]
 - velocity: Escape [velocity]
+- velocity: orbital [velocity]

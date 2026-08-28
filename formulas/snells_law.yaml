@@ -2,14 +2,21 @@ name: Snell's law
 id: snells_law
 topic: refraction
 difficulty: 5
-equation: dimensionless eq dimensionless mul (dimensionless) frac dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Snell%27s_law
+  - https://en.wikipedia.org/wiki/Refractive_index
+  - https://en.wikipedia.org/wiki/Total_internal_reflection
+  - https://en.wikipedia.org/wiki/Refraction
+  - https://en.wikipedia.org/wiki/Fermat%27s_principle
+description: "Snell's law, also called the Snell–Descartes law, describes the relationship between the angles of incidence and refraction when a wave crosses a boundary between two isotropic media. It underlies ray tracing in optics and is also satisfied by sound and other waves."
+equation: dimensionless mul dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: n_1
+- dimensionless: \sin\theta_1
 - dimensionless: n_2
 - dimensionless: \sin\theta_2
-- dimensionless: \sin\theta_1
 name_overrides:
-- dimensionless: n₁ sin θ₁
+- dimensionless: n₁
+- dimensionless: sin θ₁
 - dimensionless: n₂
 - dimensionless: sin θ₂
-- dimensionless: sin θ₁

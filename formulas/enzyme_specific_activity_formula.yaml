@@ -2,6 +2,10 @@ name: Enzyme assay specific activity
 id: enzyme_specific_activity_formula
 topic: biochemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Enzyme_assay
+  - https://en.wikipedia.org/wiki/Enzyme_unit
+description: "Expresses the catalytic power of an enzyme preparation relative to its protein mass, usually determined under substrate-saturating assay conditions. Because inactive or contaminating protein adds mass without contributing activity, specific activity rises as an enzyme purification proceeds and is the standard measure of enzyme purity."
 equation: catalytic_activity eq catalytic_activity frac mass
 symbol_overrides:
 - catalytic_activity: SA

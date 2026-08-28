@@ -2,12 +2,15 @@ name: Hooke's law
 id: hookes_law
 topic: springs
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Hooke%27s_law
+  - https://en.wikipedia.org/wiki/Robert_Hooke
+  - https://www.britannica.com/science/Hookes-law
+  - https://courses.lumenlearning.com/suny-physics/chapter/15-5-hookes-law/
+description: "Hooke's law states that the restoring force exerted by an ideal elastic spring is linearly proportional to its displacement from equilibrium, with the negative sign indicating the force acts opposite to the displacement. The proportionality constant k is the spring's stiffness, and the law holds only for small deformations within the elastic limit; beyond that, real materials depart from linear behavior and may yield or break. It is the foundation of the simple harmonic oscillator and underlies devices from spring scales and manometers to balance wheels in mechanical clocks."
 equation: force eq drop spring_constant sub mul length
 symbol_overrides:
-- force: F
-- spring_constant: k
 - length: x
 name_overrides:
 - force: Restoring [force]
-- spring_constant: Spring constant
 - length: Displacement

@@ -2,6 +2,11 @@ name: Net force from vector sum
 id: net_force_vector_sum
 topic: forces
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Net_force
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton's_Laws
+  - https://www.britannica.com/science/net-force
+description: "The net force on a body is the vector sum of all individual forces acting on it. It determines the body's acceleration through Newton's second law and is the basis of free-body analysis in classical mechanics."
 equation: force eq force add (force) add force
 symbol_overrides:
 - force: F_{net}
@@ -10,6 +15,6 @@ symbol_overrides:
 - force: F_3
 name_overrides:
 - force: Net [force]
-- force: '[Force] 1'
-- force: '[Force] 2'
-- force: '[Force] 3'
+- force: '[force] 1'
+- force: '[force] 2'
+- force: '[force] 3'

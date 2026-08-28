@@ -2,17 +2,22 @@ name: Kinetic energy
 id: kinetic_energy_formula
 topic: kinetic_energy
 difficulty: 4
+links:
+- https://en.wikipedia.org/wiki/Kinetic_energy
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy/7.03%3A_Kinetic_Energy
+- https://www.britannica.com/science/kinetic-energy
+description: Kinetic energy is the energy a body possesses by virtue of its motion.
+  For a non-rotating object of mass m moving at speed v, the kinetic energy is one-half
+  the product of the mass and the square of the speed, valid for speeds much less
+  than the speed of light (Newtonian regime).
 equation: energy eq dimensionless frac (dimensionless) mul (mass) mul velocity pow
   2
 symbol_overrides:
 - energy: K
 - dimensionless: '1'
 - dimensionless: '2'
-- mass: m
-- velocity: v
 name_overrides:
 - energy: Kinetic [energy]
 - dimensionless: One
 - dimensionless: Two
-- mass: Mass
 - velocity: Speed

@@ -2,7 +2,12 @@ name: Valence electrons from group number
 id: periodic_valence_electrons_formula
 topic: periodic_table
 difficulty: 4
-description: Valid only for main-group elements where the number of valence
+links:
+  - https://en.wikipedia.org/wiki/Valence_electron
+  - https://en.wikipedia.org/wiki/Periodic_table_group
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/05%3A_The_Structure_of_Atoms/5.10%3A_Periodic_Trends_in_Atomization_Energies_and_Electron_Configurations
+  - https://www.khanacademy.org/science/chemistry/periodic-table-trends-bonding/periodic-table-trends/v/the-periodic-table-classification-of-elements
+description: For main-group elements the number of valence electrons equals the group number in groups 1–2 and 13–18 (using the units digit for the latter); the relationship is less clean for transition metals where d-electrons also contribute. This rule is widely used as a teaching shortcut for predicting bonding behavior and oxidation states.
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: v

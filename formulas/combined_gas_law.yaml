@@ -2,7 +2,12 @@ name: Combined gas law
 id: combined_gas_law
 topic: ideal_gases
 difficulty: 5
-description: "Valid for a fixed amount of an ideal gas."
+links:
+  - https://chem.libretexts.org/Courses/Anoka-Ramsey_Community_College/Introduction_to_Chemistry/09%3A_Gases/9.07%3A_The_Combined_Gas_Law
+  - https://www.chemteam.info/GasLaw/Gas-Combined.html
+  - https://www.physicsclassroom.com/Chemistry-Tutorial/Gases-and-Gas-Laws/Combined-Gas-Law
+  - https://en.wikipedia.org/?title=Combined_gas_law
+description: "The combined gas law merges Boyle's, Charles's, and Gay-Lussac's laws into a single statement relating the pressure, volume, and absolute temperature of a gas sample before and after a change of state. It is used to predict how one property shifts when the other two change, and it holds for a fixed amount of ideal gas, with temperatures expressed in kelvins."
 equation: pressure mul (volume) frac temperature eq pressure mul (volume) frac temperature
 symbol_overrides:
 - pressure: P_1

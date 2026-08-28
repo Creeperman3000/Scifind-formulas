@@ -2,10 +2,21 @@ name: Pair production threshold energy
 id: pair_production_threshold
 topic: particle_physics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Pair_production
+  - https://en.wikipedia.org/wiki/Electron%E2%80%93positron_annihilation
+  - https://en.wikipedia.org/wiki/Photon
+  - https://phys.libretexts.org/Bookshelves/Modern_Physics/Book%3A_Nuclear_and_Particle_Physics_(Walet)/11%3A_Interactions_of_Photons_with_Matter/11.02%3A_Pair_Production
+description: >-
+  The minimum photon energy required for pair production equals twice the
+  rest-mass energy of the produced particle, since energy must create both a
+  particle and its antiparticle at rest. For an electron–positron pair this
+  threshold is 2 m_e c² ≈ 1.022 MeV, and a nearby nucleus is required to
+  conserve momentum.
 equation: energy eq (mass mul 2) mul speed_of_light pow 2
 symbol_overrides:
-- energy: E_{threshold}
-- mass: m_e
+  - energy: E_{threshold}
+  - mass: m_e
 name_overrides:
-- energy: Threshold [energy]
-- mass: Electron rest [mass]
+  - energy: Threshold [energy]
+  - mass: Electron rest [mass]

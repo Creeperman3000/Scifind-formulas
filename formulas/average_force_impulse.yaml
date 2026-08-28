@@ -2,12 +2,15 @@ name: Average force from impulse
 id: average_force_impulse
 topic: impulse
 difficulty: 5
+links:
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/08%3A_Linear_Momentum_and_Collisions/8.02%3A_Impulse
+  - https://en.wikipedia.org/wiki/Impulse_%28physics%29
+  - https://www.vedantu.com/jee-main/physics-average-force-formula
+description: "By the impulse-momentum theorem, the constant net force that would produce the same momentum change as a real (time-varying) force is found by dividing that momentum change by the contact time. This average force is widely used to analyze collisions and impacts, such as estimating forces in crashes or ball strikes."
 equation: force eq Delta momentum frac Delta time
 symbol_overrides:
 - force: F_{avg}
-- momentum: ''
-- time: ''
 name_overrides:
 - force: Average [force]
-- momentum: '[Momentum]'
-- time: '[Time]'
+- momentum: '[momentum]'
+- time: '[time]'

@@ -2,7 +2,18 @@ name: Integral of Natural Log
 id: integral_ln_x
 topic: integrals
 difficulty: 7
-equation: int drop drop (log euler_e angle mul rmd angle) eq (angle mul log euler_e angle) sub angle
+links:
+- https://en.wikipedia.org/wiki/Antiderivative
+- https://en.wikipedia.org/wiki/List_of_integrals_of_logarithmic_functions
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.06%3A_Integrals_Involving_Exponential_and_Logarithmic_Functions
+- https://en.wikipedia.org/wiki/Natural_logarithm
+- https://mathworld.wolfram.com/NaturalLogarithm.html
+description: The antiderivative of the natural logarithm ln(x). It is typically derived
+  by integration by parts, choosing u = ln(x) and dv = dx, which yields x ln(x) -
+  x plus an arbitrary constant. The result is the standard starting point for many
+  integrals involving logarithmic factors.
+equation: int drop drop log euler_e angle mul rmd angle eq (angle mul log euler_e
+  angle) sub angle
 symbol_overrides:
 - angle: x
 - angle: x
@@ -10,8 +21,8 @@ symbol_overrides:
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

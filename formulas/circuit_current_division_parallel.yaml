@@ -2,16 +2,27 @@ name: Current division in parallel resistors (two)
 id: circuit_current_division_parallel
 topic: circuits
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Current_divider
+- https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/02%3A_Fundamental_Laws/2.03%3A_Kirchhof%27s_Current_Law/2.3.04%3A_Kirchhoff%27s_Current_Law
+- https://www.electronics-tutorials.ws/dccircuits/current-divider.html
+- https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/current-divider-circuits/
+description: The current divider rule gives the share of a total current that flows
+  through one of two parallel resistors. Because each branch sees the same voltage,
+  the branch current is inversely proportional to its resistance, so the smaller resistor
+  draws the larger current and the formula uses the opposite branch's resistance in
+  the numerator. It applies to linear resistive networks with exactly two parallel
+  branches.
 equation: current eq current mul resistance frac resistance add resistance
 symbol_overrides:
 - current: I_1
-- current: ''
+- current: I_{total}
 - resistance: R_2
 - resistance: R_1
 - resistance: R_2
 name_overrides:
 - current: Current through R₁
 - current: Total current
-- resistance: Opposite resistance
-- resistance: '[Resistance] R₁'
-- resistance: '[Resistance] R₂'
+- resistance: Opposite [resistance]
+- resistance: '[resistance] R₁'
+- resistance: '[resistance] R₂'

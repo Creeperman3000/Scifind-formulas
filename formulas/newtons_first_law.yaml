@@ -2,6 +2,12 @@ name: Newton's first law of motion
 id: newtons_first_law
 topic: newtons_laws
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton's_Laws
+  - https://www.britannica.com/science/Newtons-first-law
+  - https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-first-law
+description: "Newton's first law, the law of inertia, states that a body remains at rest or in uniform straight-line motion unless acted upon by a net external force. A body is in equilibrium precisely when the vector sum of all forces acting on it vanishes."
 equation: force eq 0
 symbol_overrides:
 - force: ΣF

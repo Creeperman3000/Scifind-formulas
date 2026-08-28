@@ -2,12 +2,18 @@ name: Tangent definition
 id: tangent_definition
 topic: right_triangles
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions
+  - https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(OpenStax)/01%3A_Right_Triangles_and_An Introduction_to_Trigonometry/1.02:_Right_Triangles_and_Trigonometry
+  - https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-intro/v/basic-trigonometry
+  - https://www.britannica.com/science/tangent-trigonometry
+description: "In a right triangle, the tangent of an acute angle is the ratio of the length of the side opposite that angle to the length of the side adjacent to it (and not the hypotenuse). This right-triangle definition is the most elementary one and underpins the standard mnemonic SOH-CAH-TOA used in trigonometry."
 equation: tan angle eq length frac length
 symbol_overrides:
 - angle: θ
 - length: a
 - length: b
 name_overrides:
-- angle: '[Angle]'
+- angle: '[angle|Angle]'
 - length: Opposite [length]
 - length: Adjacent [length]

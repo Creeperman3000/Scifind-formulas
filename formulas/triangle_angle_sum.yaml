@@ -2,6 +2,12 @@ name: Triangle angle sum
 id: triangle_angle_sum
 topic: triangles
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Triangle
+  - https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(OpenStax)/02%3A_Reasoning_and_Proofs/2.08%3A_Proofs_in_Geometry
+  - https://www.khanacademy.org/math/geometry/triangle-properties/triangle-angles/v/sum-of-interior-angles-of-a-triangle
+  - https://mathworld.wolfram.com/TriangleInteriorAngles.html
+description: "States that the three interior angles of any Euclidean plane triangle add up to a straight angle, which is pi radians or 180 degrees. It is equivalent to Euclid's parallel postulate and fails in spherical and hyperbolic geometry. The relation lets one compute a missing angle when the other two are known and underpins many theorems in Euclidean geometry and trigonometry."
 equation: angle eq pi sub angle add angle
 symbol_overrides:
 - angle: C

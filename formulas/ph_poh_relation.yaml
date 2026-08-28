@@ -2,10 +2,17 @@ name: pH and pOH relation
 id: ph_poh_relation
 topic: acids_and_bases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/PH#pOH
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/06%3A_Chemical_Equilibrium/6.13%3A_The_pH_and_pOH_Concepts_-_Ways_to_Express_Acidity_and_Basicity
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/the-ph-scale
+  - https://www.chem.purdue.edu/~chembio/PopularTopics/pH.html
+  - https://courses.lumenlearning.com/introchem/chapter/the-ph-scale/
+description: Aqueous solutions at 25 °C have an ionic product of water Kw = 1.0 × 10⁻¹⁴, which means the acid and base exponents always sum to a constant. The relation is exact only at about 24.87 °C and should be regarded as an approximation at other temperatures.
 equation: ph add ph eq 14
 symbol_overrides:
 - ph: pH
 - ph: pOH
 name_overrides:
-- ph: '[pH]'
-- ph: '[pOH]'
+- ph: '[ph]'
+- ph: pOH

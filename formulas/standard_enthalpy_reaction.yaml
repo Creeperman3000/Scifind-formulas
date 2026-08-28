@@ -2,12 +2,20 @@ name: Standard enthalpy of reaction
 id: standard_enthalpy_reaction
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Standard_enthalpy_of_reaction
+  - https://en.wikipedia.org/wiki/Standard_enthalpy_of_formation
+  - https://en.wikipedia.org/wiki/Hess%27s_law
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/06%3A_Thermochemistry/6.06%3A_Hess%27s_Law
+  - https://www.khanacademy.org/science/chemistry/thermodynamics-chemistry
+  - https://www.britannica.com/science/standard-enthalpy-of-reaction
+description: "The standard enthalpy of reaction is the enthalpy change when a reaction proceeds under standard-state conditions, with all reactants and products in their reference states. It is calculated from tabulated standard enthalpies of formation as the difference between the sum over products and the sum over reactants (each weighted by stoichiometric coefficients), in line with Hess's law."
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ΔH°
 - energy: ΣΔH_{f°(products)}
 - energy: ΣΔH_{f°(reactants)}
 name_overrides:
-- energy: Standard enthalpy of [reaction]
-- energy: Sum of enthalpies of [formation] of products
-- energy: Sum of enthalpies of [formation] of reactants
+- energy: Standard enthalpy of reaction
+- energy: Sum of enthalpies of formation of products
+- energy: Sum of enthalpies of formation of reactants

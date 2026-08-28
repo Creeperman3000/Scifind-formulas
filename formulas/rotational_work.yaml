@@ -2,13 +2,15 @@ name: Rotational work done by a constant torque
 id: rotational_work
 topic: rotational_energy
 difficulty: 7
-description: "Valid for a constant torque; W = τ Δθ."
+links:
+  - https://en.wikipedia.org/wiki/Rotational_energy
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.08%3A_Work_and_Power_for_Rotational_Motion
+  - https://www.khanacademy.org/science/physics/torque-angular-momentum/rotational-kinetics/v/work-and-energy-for-rotational-motion
+description: "The mechanical work done by a constant torque acting through an angular displacement. It is the rotational analog of the linear work–force relation and equals the integral of torque over the angle rotated."
 equation: energy eq torque mul angle
 symbol_overrides:
-- energy: ''
-- torque: ''
-- angle: ''
+- angle: \Delta\theta
 name_overrides:
-- energy: Rotational [work]
-- torque: ''
-- angle: ''
+- energy: Rotational work
+- angle: Angular displacement

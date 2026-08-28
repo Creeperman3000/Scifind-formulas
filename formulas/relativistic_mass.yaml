@@ -2,12 +2,17 @@ name: Relativistic mass
 id: relativistic_mass
 topic: relativity
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Mass_in_special_relativity
+  - https://en.wikipedia.org/wiki/Relativistic_mass
+  - https://en.wikipedia.org/wiki/Lorentz_factor
+  - https://phys.libretexts.org/Bookshelves/Relativity/Book%3A_Special_Relativity_(Crowell)
+  - https://www.britannica.com/science/relativistic-mass
+description: "Relativistic mass is the frame-dependent mass obtained by multiplying a body's rest mass by the Lorentz factor. Modern particle and nuclear physics generally avoids the term in favor of working directly with relativistic energy, but the concept is still widely used in introductory treatments and in relativistic quantum chemistry."
 equation: mass eq mass mul lorentz_factor
 symbol_overrides:
 - mass: m_{rel}
 - mass: m₀
-- lorentz_factor: ''
 name_overrides:
 - mass: Relativistic [mass]
 - mass: Rest [mass]
-- lorentz_factor: ''

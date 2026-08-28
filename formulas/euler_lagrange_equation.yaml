@@ -2,17 +2,24 @@ name: Euler-Lagrange equation
 id: euler_lagrange_equation
 topic: differential_equations
 difficulty: 10
-equation: frac (rmd (frac (partial dimensionless) (partial dimensionless))) (rmd time) eq (frac (partial
-  dimensionless) (partial dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation
+- https://en.wikipedia.org/wiki/Calculus_of_variations
+description: 'The central condition of the calculus of variations and of Lagrangian
+  mechanics: a function that makes the action functional stationary must satisfy this
+  differential equation relating the Lagrangian, the generalized coordinate, and the
+  generalized velocity. It is used to derive the equations of motion for mechanical
+  systems and to solve optimization problems over functions, taking the same form
+  in any choice of generalized coordinates.'
+equation: frac rmd (frac partial dimensionless partial dimensionless ) rmd time eq
+  frac partial dimensionless partial dimensionless
 symbol_overrides:
 - dimensionless: L
 - dimensionless: \dot{q}
-- time: t
 - dimensionless: L
 - dimensionless: q
 name_overrides:
 - dimensionless: Lagrangian L
 - dimensionless: Generalized velocity q-dot
-- time: Time
 - dimensionless: Lagrangian L
 - dimensionless: Generalized coordinate q

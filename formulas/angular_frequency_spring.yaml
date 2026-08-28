@@ -2,12 +2,13 @@ name: Angular frequency of a spring-mass system
 id: angular_frequency_spring
 topic: harmonic_motion
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Simple_harmonic_motion
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/shm2.html
+  - https://www.webassign.net/asucolphysmechl2/lab_10/manual.pdf
+description: "A mass attached to an ideal spring oscillates in simple harmonic motion, and its angular frequency is set by the spring stiffness relative to the oscillating mass. A stiffer spring raises the frequency while a heavier mass lowers it; the result assumes Hooke's-law restoring force with damping and the spring's own mass neglected."
 equation: angular_velocity eq sqrt (spring_constant frac mass ) 2
 symbol_overrides:
-- angular_velocity: ω
-- spring_constant: ''
-- mass: ''
+- angular_velocity: \omega
 name_overrides:
 - angular_velocity: Angular frequency
-- spring_constant: ''
-- mass: ''

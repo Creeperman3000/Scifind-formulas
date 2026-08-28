@@ -2,6 +2,16 @@ name: Standard equation of an ellipse
 id: ellipse_standard_form
 topic: coordinate_geometry
 difficulty: 5
+links:
+- https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes
+- https://www.cuemath.com/geometry/ellipse/
+- https://courses.lumenlearning.com/waymakercollegealgebra/chapter/equations-of-ellipses/
+- https://mathmonks.com/ellipse
+description: This is the standard form of the equation of an ellipse centered at the
+  origin with its major axis along a coordinate axis, where a and b are the semi-major
+  and semi-minor axes. Every point (x, y) satisfying it lies on the ellipse, whose
+  foci satisfy the focal relationship with these axes. For a center at (h, k), x and
+  y are simply replaced by the translated coordinates.
 equation: dimensionless eq (dimensionless pow 2) frac (dimensionless pow 2) add (dimensionless
   pow 2) frac dimensionless pow 2
 symbol_overrides:
@@ -12,7 +22,7 @@ symbol_overrides:
 - dimensionless: b
 name_overrides:
 - dimensionless: Ellipse equation
-- dimensionless: ''
 - dimensionless: x-coordinate
 - dimensionless: Semi-major axis
 - dimensionless: y-coordinate
+- dimensionless: Semi-minor axis

@@ -2,17 +2,19 @@ name: Torque on an electric dipole in a uniform field
 id: electric_dipole_torque_uniform_field
 topic: electrostatics
 difficulty: 8
-description: "Valid in a uniform electric field; τ = pE sin θ."
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.08%3A_Electric_Dipoles
+  - https://phys.libretexts.org/Courses/Berea_College/Introductory_Physics%3A_Berea_College/16%3A_Electric_Charges_and_Fields/16.04%3A_The_Electric_Dipole
+  - https://www.physicsbootcamp.org/Torque-on-an-Electric-Dipole.html
+  - https://www.careers360.com/physics/torque-on-an-electric-dipole-in-a-uniform-electric-field-topic-pge
+description: "In a uniform electric field, an electric dipole feels equal and opposite forces on its two charges, giving no net force but a couple that twists the dipole toward alignment with the field. The turning effect grows with charge, separation, and field strength, and depends on orientation: it vanishes when the dipole is aligned with the field and is maximal when the dipole is perpendicular to it. In non-uniform fields the dipole also experiences a net translational force."
 equation: torque eq charge mul (length) mul (electric_field_strength) mul sin angle
 symbol_overrides:
 - torque: τ
 - charge: q
 - length: d
-- electric_field_strength: ''
 - angle: θ
 name_overrides:
-- torque: '[Torque] on dipole'
-- charge: ''
+- torque: '[torque] on dipole'
 - length: Dipole separation
-- electric_field_strength: ''
 - angle: Angle between dipole and field

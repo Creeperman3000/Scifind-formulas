@@ -2,12 +2,17 @@ name: Optical path length
 id: optical_path_length
 topic: interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Optical_path_length
+  - https://phys.libretexts.org/Bookshelves/Optics/Geometric_Optics_(Tatum)/02%3A_Optical_Path_Length
+  - https://www.britannica.com/science/optical-path-length
+description: "Optical path length is the product of the geometric length of a light ray's path through a medium and the refractive index of that medium, giving the equivalent distance light would travel in vacuum in the same time. It is the fundamental quantity that sets the phase accumulated by a wave, so it underlies thin-film interference, diffraction, and Fermat's principle."
 equation: length eq refractive_index mul length
 symbol_overrides:
 - length: OPL
-- refractive_index: ''
+- refractive_index: n
 - length: d
 name_overrides:
 - length: Optical path [length]
-- refractive_index: Refractive [index]
-- length: Geometric [distance]
+- refractive_index: '[refractive_index]'
+- length: Geometric distance

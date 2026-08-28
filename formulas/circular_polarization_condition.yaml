@@ -2,10 +2,20 @@ name: Circular polarization amplitude condition
 id: circular_polarization_condition
 topic: polarization
 difficulty: 9
-equation: dimensionless eq dimensionless
+links:
+- https://en.wikipedia.org/wiki/Circular_polarization
+- https://eng.libretexts.org/Bookshelves/Materials_Science/Supplemental_Modules_%28Materials_Science%29/Optical_Properties/Polarization_of_Waves
+- https://next.gr/tutorials/rf-and-wireless-basics/polarization-of-electromagnetic-waves-tutorial
+- https://www.mathworks.com/help/phased/ug/polarized-fields.html
+description: 'One of the two requirements for a monochromatic plane wave to be circularly
+  polarized: the magnitudes of its two orthogonal transverse electric-field components
+  must match, so neither axis of rotation is favored. The second requirement is a
+  relative phase shift of a quarter cycle between the components; together they make
+  the field vector rotate with constant magnitude.'
+equation: abs electric_field_strength eq abs electric_field_strength
 symbol_overrides:
-- dimensionless: '|E_y|'
-- dimensionless: '|E_x|'
+- electric_field_strength: E_y
+- electric_field_strength: E_x
 name_overrides:
-- dimensionless: Amplitude in y direction
-- dimensionless: Amplitude in x direction
+- electric_field_strength: '[electric_field_strength] amplitude in y direction'
+- electric_field_strength: '[electric_field_strength] amplitude in x direction'

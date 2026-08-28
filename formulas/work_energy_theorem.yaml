@@ -2,12 +2,18 @@ name: Work-energy theorem
 id: work_energy_theorem
 topic: work
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Work%E2%80%93energy_theorem
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy
+  - https://www.physnet.uni-hamburg.de/joomla/images/pdfs/Work_Energy_Theorem.pdf
+description: "States that the net work done by all forces acting on a particle equals the change in its kinetic energy between the initial and final states. A direct consequence of Newton's second law that connects a scalar energy balance to the underlying vector forces."
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: W_{net}
+- energy: W_{\mathrm{net}}
 - energy: K_f
 - energy: K_i
 name_overrides:
-- energy: Net [work]
+- energy: Net work
 - energy: Final kinetic [energy]
 - energy: Initial kinetic [energy]

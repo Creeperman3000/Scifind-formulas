@@ -2,12 +2,17 @@ name: Average power in an AC resistive circuit
 id: ac_power_average_resistive
 topic: circuits
 difficulty: 7
-equation: power eq current mul (electric_potential) frac 2
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.05%3A_Power_in_an_AC_Circuit
+  - https://hyperphysics.gsu.edu/hbase/electric/powerac.html
+  - https://www.miniphysics.com/power-dissipation-in-resistive-load.html
+description: "In a purely resistive AC circuit, voltage and current are in phase, so instantaneous power is always positive and oscillates at twice the line frequency. The average power delivered over a cycle equals half the product of the peak values, which is identical to using RMS values as in DC power calculations. This relation applies only to resistive loads; reactive elements contribute zero average power."
+equation: power eq (current mul electric_potential) frac 2
 symbol_overrides:
 - power: P_{avg}
 - current: I_0
 - electric_potential: V_0
 name_overrides:
-- power: Average power
+- power: Average [power]
 - current: Peak current
-- electric_potential: Peak electric_potential
+- electric_potential: Peak voltage

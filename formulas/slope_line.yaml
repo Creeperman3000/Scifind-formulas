@@ -2,15 +2,26 @@ name: Slope of a line
 id: slope_line
 topic: coordinate_geometry
 difficulty: 3
-equation: reynolds_number eq (length sub length ) frac length sub length
+links:
+- https://en.wikipedia.org/wiki/Slope
+- https://mathworld.wolfram.com/Slope.html
+- https://en.wikipedia.org/wiki/Linear_equation#Point%E2%80%93slope_form_or_Point-gradient_form
+- https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_1e_(OpenStax)/02%3A_Linear_Functions
+- https://en.wikipedia.org/wiki/Slope_(mathematics)
+description: The slope of a line in the Cartesian plane is the ratio of its vertical
+  change to its horizontal change between any two distinct points on the line. It
+  is commonly denoted m and equals the tangent of the angle the line makes with the
+  positive x-axis; horizontal lines have slope 0 and vertical lines have undefined
+  slope.
+equation: dimensionless eq (length sub length) frac length sub length
 symbol_overrides:
-- reynolds_number: m
+- dimensionless: m
 - length: y_2
 - length: y_1
 - length: x_2
 - length: x_1
 name_overrides:
-- reynolds_number: Slope
+- dimensionless: Slope
 - length: y-coordinate 2
 - length: y-coordinate 1
 - length: x-coordinate 2

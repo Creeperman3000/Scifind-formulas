@@ -2,12 +2,19 @@ name: Single-slit diffraction minima
 id: single_slit_diffraction_minima
 topic: diffraction
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Diffraction
+  - https://en.wikipedia.org/wiki/Diffraction_from_slits
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/04%3A_Diffraction/4.02%3A_Single-Slit_Diffraction
+  - https://www.brown.edu/research/labs/idles/resources-education/single-slit-diffraction
+  - https://opentextbc.ca/physicstestbook2/chapter/single-slit-diffraction/
+description: "When a wave passes through a single narrow slit, the far-field intensity pattern has destructive-interference minima where the path-length difference across the slit equals an integer number of wavelengths. The condition sets the angles of the dark fringes observed on a distant screen and is fundamental to understanding resolution limits of optical instruments."
 equation: length mul sin angle eq dimensionless mul length
 symbol_overrides:
 - length: a
-- angle: theta
+- angle: \theta
 - dimensionless: m
-- length: lambda
+- length: \lambda
 name_overrides:
 - length: Slit width
 - angle: Angle

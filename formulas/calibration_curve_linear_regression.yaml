@@ -2,6 +2,11 @@ name: Calibration curve (linear regression model)
 id: calibration_curve_linear_regression
 topic: analytical_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Calibration_curve
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_by_David_Harvey/Analytical_Chemistry_2.1_(Harvey)/05%3A_Standardizing_Analytical_Methods/5.04%3A_Linear_Regression_and_Calibration_Curves
+  - https://pubs.rsc.org/en/content/articlehtml/2023/ay/d3ay90134c?page=search
+description: "In analytical chemistry, a calibration curve relates the instrument response measured for standards of known concentration to that concentration, with the straight-line fit obtained by ordinary least-squares regression. The fitted slope and intercept are then used to determine analyte concentrations in unknown samples by inverse prediction."
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless
 symbol_overrides:
 - dimensionless: y

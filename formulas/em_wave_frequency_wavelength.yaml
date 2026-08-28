@@ -2,9 +2,14 @@ name: EM wave frequency from wavelength
 id: em_wave_frequency_wavelength
 topic: electromagnetic_waves
 difficulty: 5
+links:
+  - https://www.pw.live/school-prep/exams/wavelength-to-frequency-formula
+  - https://scienceinsights.org/how-to-calculate-wavelength-formulas-examples/
+  - https://www.physicsoftheuniverse.com/calculator/frequency_wavelength.html
+  - https://sengpielaudio.com/calculator-wavelength.htm
+description: "Relates the oscillation frequency of an electromagnetic wave to its wavelength through the speed of light, which is the same for all such waves in vacuum. Frequency and wavelength are inversely proportional: short wavelengths correspond to high frequencies, as across the spectrum from radio waves to gamma rays. In a material medium the speed of light is replaced by the slower phase velocity in the medium."
 equation: frequency eq speed_of_light frac length
 symbol_overrides:
-- frequency: ''
 - length: λ
 name_overrides:
 - frequency: Wave [frequency]

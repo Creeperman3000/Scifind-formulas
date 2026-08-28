@@ -2,12 +2,18 @@ name: Integral of sine
 id: integral_sin
 topic: integrals
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+  - https://en.wikipedia.org/wiki/Antiderivative
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.04%3A_Integration_Formulas_and_the_Net_Change_Theorem
+description: "The antiderivative of the sine function. It is one of the basic integration results used together with the fundamental theorem of calculus to evaluate definite trigonometric integrals, and follows directly from differentiating cosine."
 equation: int drop drop (sin angle mul rmd angle) eq drop cos angle sub
 symbol_overrides:
-- angle: x
-- angle: x
-- angle: x
+  - angle: x
+  - angle: x
+  - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+  - angle: '[variable]'
+  - angle: '[variable]'
+  - angle: '[variable]'

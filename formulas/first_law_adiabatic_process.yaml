@@ -2,10 +2,16 @@ name: 'First law: adiabatic process'
 id: first_law_adiabatic_process
 topic: first_law
 difficulty: 7
-description: "Valid for a reversible adiabatic process; Q = 0 and ΔU = W."
+links:
+  - https://en.wikipedia.org/wiki/Adiabatic_process
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_(Tatum)/03%3A_The_First_Law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/The_Four_Laws_of_Thermodynamics/The_First_Law_of_Thermodynamics
+  - https://www.britannica.com/science/first-law-of-thermodynamics
+description: "An adiabatic process involves no heat exchange with the surroundings. Under this constraint the first law of thermodynamics reduces to a balance between the change in internal energy and the work done on the system. Such processes approximate rapid compressions and expansions, as in engines and the atmosphere."
 equation: energy eq energy
 symbol_overrides:
-- energy: ΔU
+- energy: \Delta U
 - energy: W
 name_overrides:
 - energy: Change in internal [energy]

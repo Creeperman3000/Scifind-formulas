@@ -2,14 +2,18 @@ name: Volume of an ellipsoid
 id: volume_ellipsoid
 topic: plane_geometry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Ellipsoid
+  - https://en.wikipedia.org/wiki/Volume
+  - https://mathworld.wolfram.com/Ellipsoid.html
+  - https://en.wikipedia.org/wiki/Spheroid
+description: "The volume enclosed by a triaxial ellipsoid equals two thirds of its circumscribing elliptic cylinder, generalizing the sphere volume. When two semi-axes coincide the body becomes a spheroid, and when all three are equal it reduces to a sphere."
 equation: volume eq (4 frac 3) mul (pi) mul (length) mul (length) mul length
 symbol_overrides:
-- volume: V
-- length: a
-- length: b
-- length: c
+  - length: a
+  - length: b
+  - length: c
 name_overrides:
-- volume: Volume
-- length: Semi-axis a
-- length: Semi-axis b
-- length: Semi-axis c
+  - length: Semi-axis a
+  - length: Semi-axis b
+  - length: Semi-axis c

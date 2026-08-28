@@ -2,6 +2,13 @@ name: Identity matrix definition
 id: linear_algebra_identity_matrix
 topic: linear_algebra
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Identity_matrix
+  - https://en.wikipedia.org/wiki/General_linear_group
+  - https://mathworld.wolfram.com/IdentityMatrix.html
+  - https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/intro-to-identity-matrices
+  - https://www.britannica.com/science/identity-matrix
+description: "The identity matrix of size n is the square n-by-n matrix with ones on the main diagonal and zeros elsewhere. It is the multiplicative identity in matrix algebra, leaving any compatible matrix unchanged under left or right multiplication, and serves as the identity element of the general linear group of invertible n-by-n matrices."
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: I

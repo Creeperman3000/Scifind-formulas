@@ -2,7 +2,16 @@ name: Point-slope form of a line
 id: slope_point_form
 topic: coordinate_geometry
 difficulty: 4
-equation: (dimensionless sub dimensionless) eq dimensionless mul (dimensionless sub dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Linear_equation#Point%E2%80%93slope_form_or_Point-gradient_form
+- https://en.wikipedia.org/wiki/Slope
+- https://en.wikipedia.org/wiki/Point%E2%80%93slope_form
+- https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_1e_(OpenStax)/02%3A_Linear_Functions/2.01%3A_Linear_Functions
+- https://mathworld.wolfram.com/Slope.html
+description: The point-slope form gives the equation of a non-vertical line using
+  its slope and the coordinates of any one point on the line. It is widely used in
+  analytic geometry and is closely related to the slope-intercept form.
+equation: dimensionless sub dimensionless eq dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: y
 - dimensionless: y_1

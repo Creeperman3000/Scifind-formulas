@@ -2,12 +2,16 @@ name: Excess pressure inside a spherical bubble
 id: excess_pressure_bubble
 topic: surface_tension
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Surface_tension
+  - https://en.wikipedia.org/wiki/Young%E2%80%93Laplace_equation
+  - https://en.wikipedia.org/wiki/Laplace_pressure
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.05%3A_Cohesion_and_Adhesion_in_Liquids
+description: "A spherical bubble of gas in a liquid has an internal pressure higher than the surrounding liquid due to surface tension acting on its two interfaces (inner and outer surfaces). The excess pressure is inversely proportional to the bubble radius, so smaller bubbles require larger pressures to maintain equilibrium; this follows from the Young-Laplace equation."
 equation: pressure eq (surface_tension mul 4) frac length
 symbol_overrides:
 - pressure: ΔP
-- surface_tension: ''
 - length: r
 name_overrides:
 - pressure: Excess [pressure]
-- surface_tension: ''
 - length: Radius

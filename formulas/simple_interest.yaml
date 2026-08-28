@@ -2,6 +2,15 @@ name: Simple interest future value
 id: simple_interest
 topic: arithmetic
 difficulty: 4
+links:
+- https://en.wikipedia.org/wiki/Interest#Simple_interest
+- https://www.investopedia.com/terms/s/simple_interest.asp
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:interest-and-exponential-growth/x2f8bb11595b61c86:interest/v/introduction-to-simple-interest
+- https://math.libretexts.org/Bookshelves/Applied_Mathematics/Book%3A_College_Technology_Board_for_Certified_Accountants/05%3A_Business_Mathematics/5.02%3A_Simple_Interest_and_Aggregation
+- https://corporatefinanceinstitute.com/resources/wealth-management/simple-interest/
+description: Simple interest computes interest only on the original principal, so
+  the amount grows linearly with time. It is used in short-term loans, certain bonds,
+  and as the conceptual basis before introducing compound interest.
 equation: dimensionless eq dimensionless mul dimensionless add dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A
@@ -13,5 +22,5 @@ name_overrides:
 - dimensionless: Future value
 - dimensionless: Principal
 - dimensionless: ''
-- dimensionless: Interest rate
+- dimensionless: Rate
 - dimensionless: Time

@@ -2,13 +2,17 @@ name: Photoelectric equation
 id: photoelectric_equation
 topic: quantum_mechanics
 difficulty: 7
-description: "Valid for photon energies above the work function (hν ≥ φ); below threshold no electrons are emitted."
+links:
+  - https://en.wikipedia.org/wiki/Photoelectric_effect#Theoretical_explanation
+  - https://www.khanacademy.org/science/physics/quantum-physics/photoelectric-effect/a/photoelectric-effect
+  - https://physics.info/photoelectric/
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/02%3A_Introduction_to_Quantum_Mechanics/2.01%3A_The_Photoelectric_Effect
+  - https://opentextbc.ca/universityphysicsv3/chapter/6-2-the-photoelectric-effect/
+description: "Einstein's 1905 photoelectric equation relates the maximum kinetic energy of electrons ejected from a metal to the frequency of the incident light. Below the threshold frequency (hν < φ) no electrons are emitted, regardless of light intensity, supporting the quantum nature of light."
 equation: energy eq planck_constant mul (frequency) sub energy
 symbol_overrides:
 - energy: E_{k,max}
-- frequency: ''
 - energy: φ
 name_overrides:
 - energy: Maximum kinetic [energy]
-- frequency: ''
 - energy: Work function

@@ -2,12 +2,27 @@ name: Limit of (1-cos(x))/x as x approaches 0
 id: limit_one_minus_cos_over_x
 topic: limits
 difficulty: 7
-equation: dimensionless eq (1 sub cos angle ) frac angle
+links:
+- https://en.wikipedia.org/wiki/Small-angle_approximation
+- https://en.wikipedia.org/wiki/List_of_limits
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02:_Limits_and_Continuity/2.04:_Continuity
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-determining-limits-using-the-squeeze-theorem-and-graphs/v/limit-of-1-minus-cos-x-over-x
+- https://mathworld.wolfram.com/CosineIntegral.html
+- https://www.britannica.com/science/limit-mathematics
+description: A small-angle limit in trigonometry. The numerator 1-cos x vanishes like
+  x^2/2 near zero, which makes the ratio go to zero. The closely related limit (1-cos
+  x)/x^2 = 1/2 is the more commonly used result and underlies the second-order small-angle
+  approximation of cosine.
+equation: lim dimensionless dimensionless ((1 sub cos angle) frac angle) eq dimensionless
 symbol_overrides:
+- dimensionless: x
 - dimensionless: '0'
 - angle: x
 - angle: x
+- dimensionless: '0'
 name_overrides:
-- dimensionless: Limit
-- angle: '[Variable]'
-- angle: '[Variable]'
+- dimensionless: '[variable]'
+- dimensionless: Limit point
+- angle: '[variable]'
+- angle: '[variable]'
+- dimensionless: Limit value

@@ -2,12 +2,10 @@ name: Concentration from amount and volume
 id: concentration_formula
 topic: solution_stoichiometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Molar_concentration
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_-_An_Atoms_First_Approach_(Halpern)/Unit_3%3A_Stoichiometry/Chapter_8%3A_Aqueous_Solutions/Chapter_8.02%3A_Solution_Concentrations
+  - https://chem.libretexts.org/Courses/Shasta_College/Introduction_to_General_Chemistry_%2C_Chem_1A/06%3A_Composition_of_Substances_and_Solutions/6.04%3A_Molarity
+  - https://www.alloprof.qc.ca/en/students/vl/sciences/calculating-molar-concentration-s1622
+description: "Molar concentration (molarity) quantifies how much solute is dissolved in a given volume of solution. It is the central quantity for solution stoichiometry, allowing conversion between moles of reactants/products and measurable solution volumes. It assumes a homogeneous solution and is usually reported in mol/L (molar, M)."
 equation: concentration eq amount frac volume
-symbol_overrides:
-- concentration: ''
-- amount: ''
-- volume: ''
-name_overrides:
-- concentration: ''
-- amount: ''
-- volume: ''

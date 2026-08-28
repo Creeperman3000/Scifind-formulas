@@ -2,23 +2,30 @@ name: Bernoulli energy head form
 id: bernoulli_energy_head_form
 topic: bernoulli_equation
 difficulty: 7
-description: Valid for steady, incompressible, inviscid flow; expressed as energy
-  per unit weight (head).
-equation: length eq pressure frac (density mul acceleration ) add ((velocity pow 2
-  ) frac (2 mul acceleration )) add length
+links:
+- https://en.wikipedia.org/wiki/Bernoulli%27s_principle
+- https://whatispiping.com/bernoullis-equation-principle-examples/
+- https://miniwebtool.com/bernoulli-equation-calculator
+- https://engineeringhulk.com/civil/fluid-mechanics-hydraulics/bernoullis-equation/
+description: This is the head form of Bernoulli's equation, obtained by dividing each
+  energy term by the fluid's specific weight so that every term has dimensions of
+  length (energy per unit weight). The three heads are the pressure head, velocity
+  head, and elevation head, and their sum — the total head — stays constant along
+  a streamline for steady, incompressible, inviscid flow. It is widely used in hydraulics
+  and civil engineering, e.g. for the energy grade line.
+equation: length eq pressure frac (density mul acceleration ) add (velocity pow 2
+  ) frac (2 mul acceleration ) add length
 symbol_overrides:
 - length: H
-- pressure: ''
 - density: ρ
 - acceleration: g
-- velocity: ''
 - acceleration: g
 - length: z
 name_overrides:
-- length: Total [head]
-- pressure: '[Pressure]'
+- length: Total head
+- pressure: '[pressure]'
 - density: Fluid [density]
 - acceleration: Gravitational [acceleration]
 - velocity: Flow [velocity]
 - acceleration: Gravitational [acceleration]
-- length: Elevation [head]
+- length: Elevation head

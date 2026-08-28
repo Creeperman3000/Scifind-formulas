@@ -2,12 +2,18 @@ name: Gibbs free energy from cell potential
 id: gibbs_cell_potential
 topic: electrochemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://en.wikipedia.org/wiki/Electrochemical_cell
+  - https://en.wikipedia.org/wiki/Nernst_equation
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Reversible_Ions/Electrochemical_Cells
+description: "The maximum non-expansion work obtainable from an electrochemical reaction equals the change in Gibbs free energy, which is related to the cell potential by the negative of the number of moles of electrons transferred times the Faraday constant times the cell potential. A positive cell potential corresponds to a spontaneous reaction with negative Gibbs free energy change."
 equation: energy eq drop dimensionless sub mul (faraday_constant) mul electric_potential
 symbol_overrides:
-- energy: ΔG
+- energy: \Delta G
 - dimensionless: n
 - electric_potential: E
 name_overrides:
 - energy: Gibbs free [energy] change
-- dimensionless: Moles of electrons
-- electric_potential: Cell [potential]
+- dimensionless: Moles of electrons transferred
+- electric_potential: Cell potential

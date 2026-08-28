@@ -2,8 +2,16 @@ name: Integral of csc x cot x
 id: integral_csc_cot
 topic: integrals
 difficulty: 8
-equation: int drop drop (((frac 1 (sin angle)) mul ((cos angle) frac (sin angle))) mul (rmd angle)) eq
-  drop (frac 1 (sin angle)) sub
+links:
+- https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+- https://en.wikipedia.org/wiki/Cosecant
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.05%3A_Derivatives_of_Trigonometric_Functions
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-antiderivatives/v/antiderivative-of-cscx-cotx
+description: The antiderivative of csc x cot x is the negative cosecant. The result
+  can be obtained by direct integration using the derivative of csc x, which equals
+  -csc x cot x.
+equation: int drop drop frac 1 sin angle mul (cos angle frac sin angle ) mul rmd angle
+  eq drop frac 1 sin angle sub
 symbol_overrides:
 - &id001
   angle: x
@@ -13,7 +21,7 @@ symbol_overrides:
 - *id001
 name_overrides:
 - &id002
-  angle: '[Variable]'
+  angle: '[variable]'
 - *id002
 - *id002
 - *id002

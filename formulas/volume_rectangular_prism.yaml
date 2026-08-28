@@ -2,14 +2,18 @@ name: Volume of a rectangular prism
 id: volume_rectangular_prism
 topic: plane_geometry
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Cuboid
+  - https://mathworld.wolfram.com/Cuboid.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(OpenStax)/10%3A_Three-Dimensional_Geometry/10.05%3A_Surface_Area_and_Volume_of_Prisms
+  - https://www.cuemath.com/geometry/volume-of-rectangular-prism/
+description: "A rectangular prism (box) has three pairs of congruent rectangular faces meeting at right angles. Its volume is the product of its three edge lengths, and follows from the fact that any right prism's volume equals the area of its base times its height."
 equation: volume eq length mul (length) mul length
 symbol_overrides:
-- volume: V
-- length: l
+- length: ''
 - length: w
 - length: h
 name_overrides:
-- volume: Volume
-- length: Length
+- length: ''
 - length: Width
 - length: Height

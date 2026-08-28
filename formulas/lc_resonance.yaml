@@ -2,12 +2,15 @@ name: LC circuit resonance frequency
 id: lc_resonance
 topic: electromagnetic_induction
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/LC_circuit
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Electromagnetic_Induction/14.06%3A_Reactance_Inductive_and_Capacitive
+  - https://www.britannica.com/technology/tuned-circuit
+  - https://www.electronics-tutorials.ws/accircuits/rlc-circuit.html
+  - https://www.allaboutcircuits.com/technical-articles/lc-natural-frequency/
+description: "An LC circuit consisting of an inductor and a capacitor oscillates at a resonant angular frequency determined by the inductance and capacitance. It is the basic electrical analogue of a harmonic oscillator and forms the building block of radio tuners, filters, and oscillators."
 equation: angular_velocity eq 1 frac sqrt (inductance mul capacitance) 2
 symbol_overrides:
 - angular_velocity: ω_0
-- inductance: L
-- capacitance: C
 name_overrides:
 - angular_velocity: Resonant angular frequency
-- inductance: Inductance
-- capacitance: Capacitance

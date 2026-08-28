@@ -2,18 +2,18 @@ name: Isothermal work on ideal gas
 id: isothermal_work_gas
 topic: first_law
 difficulty: 7
-description: "Valid for an ideal gas undergoing a reversible isothermal process; W = nRT ln(V_f / V_i)."
+links:
+  - https://en.wikipedia.org/wiki/Isothermal_process
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamics_of_Chemical_Reactions/Isothermal_Expansion_Work_of_an_Ideal_Gas
+  - https://www.chemguide.co.uk/physical/entropy/isothermal.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Thermodynamics/15.04%3A_Work_done_during_Isothermal_Expansion
+description: For an ideal gas undergoing a reversible isothermal expansion or compression, the work exchanged depends logarithmically on the ratio of the final to initial volume. Because the temperature is fixed, heat must flow in or out to keep the internal energy constant.
 equation: energy eq amount mul (gas_constant) mul (temperature) mul log euler_e (volume
   frac volume)
 symbol_overrides:
-- energy: ''
-- amount: ''
-- temperature: ''
-- volume: V₂
-- volume: V₁
+  - volume: V₂
+  - volume: V₁
 name_overrides:
-- energy: Isothermal [work]
-- amount: ''
-- temperature: ''
-- volume: Final [volume]
-- volume: Initial [volume]
+  - energy: Isothermal work
+  - volume: Final [volume]
+  - volume: Initial [volume]

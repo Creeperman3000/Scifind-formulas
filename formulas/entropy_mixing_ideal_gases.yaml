@@ -2,14 +2,23 @@ name: Entropy of mixing ideal gases
 id: entropy_mixing_ideal_gases
 topic: entropy
 difficulty: 9
-description: "Valid for ideal gases mixing at constant temperature and pressure; ΔS_mix = −nR Σ x_i ln x_i."
-equation: entropy eq sum drop drop (drop (amount mul gas_constant mul log euler_e
-  dimensionless) sub)
+links:
+- https://en.wikipedia.org/wiki/Entropy_of_mixing
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Thermodynamics/Ideal_Systems/Entropy_of_Mixing
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Thermodynamics_and_Chemical_Equilibrium_%28Ellgen%29/13%3A_Equilibria_in_Reactions_of_Ideal_Gases/13.03%3A_The_Thermodynamics_of_Mixing_Ideal_Gases
+description: Quantifies the entropy increase when distinct ideal gases mix at constant
+  temperature and pressure. Because ideal-gas molecules do not interact, each component
+  expands independently into the total volume, and the entropy gain depends only on
+  the composition of the final mixture; it is always positive for genuine mixing.
+equation: entropy eq 0 sub amount mul gas_constant mul sum drop drop (dimensionless
+  mul log euler_e dimensionless)
 symbol_overrides:
 - entropy: ΔS_{mix}
-- amount: ''
+- amount: n
+- dimensionless: x_i
 - dimensionless: x_i
 name_overrides:
-- entropy: Entropy of mixing
-- amount: ''
+- entropy: '[entropy] of mixing'
+- amount: Total [amount] of gas
+- dimensionless: Mole fraction of component i
 - dimensionless: Mole fraction of component i

@@ -2,13 +2,19 @@ name: Molality from amount and mass of solvent
 id: molality
 topic: solutions
 difficulty: 6
-description: "Molality from amount of solute and mass of solvent; b = n_solute / m_solvent."
+links:
+  - https://en.wikipedia.org/wiki/Molality
+  - https://www.britannica.com/science/molality
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Phase_Equilibria/Concentration
+  - https://www.khanacademy.org/science/chemistry/states-of-matter-and-intermolecular-forces/solutions-and-mixtures/v/molarity-vs-molality
+  - https://www.thoughtco.com/definition-of-molality-604381
+description: "Molality expresses the concentration of a solution as the amount of solute (in moles) per kilogram of solvent. Because it is based on mass rather than volume, molality is independent of temperature and pressure, making it the preferred concentration unit in colligative-property calculations."
 equation: concentration eq amount frac mass
 symbol_overrides:
-- concentration: m
-- amount: n
+- concentration: b
+- amount: n_{\mathrm{solute}}
 - mass: m_{\mathrm{solvent}}
 name_overrides:
 - concentration: Molality
-- amount: Amount of solute
-- mass: Mass of solvent
+- amount: '[amount] of solute'
+- mass: '[mass] of solvent'

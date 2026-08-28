@@ -2,15 +2,15 @@ name: Capacitive reactance
 id: capacitive_reactance
 topic: circuits
 difficulty: 7
-equation: resistance eq dimensionless frac ((pi mul 2) mul frequency mul capacitance
-  )
+links:
+  - https://en.wikipedia.org/wiki/Capacitive_reactance
+  - https://www.allaboutcircuits.com/textbook/alternating-current/chpt-4/ac-capacitor-circuits/
+  - https://www.electronics-notes.com/articles/basic%5Fconcepts/capacitance/capacitive-reactance.php
+  - https://www.geeksforgeeks.org/physics/capacitive-reactance-formula/
+description: "Capacitive reactance is the opposition a capacitor offers to alternating current, arising from its repeated storage and release of charge. Measured in ohms, it decreases as the signal frequency or capacitance increases, which is why capacitors block DC but pass high-frequency AC readily. It is used in AC circuit analysis, filter design, and impedance calculations."
+equation: resistance eq dimensionless frac ((pi mul 2) mul frequency mul capacitance)
 symbol_overrides:
 - resistance: X_C
 - dimensionless: '1'
-- frequency: ''
-- capacitance: ''
 name_overrides:
 - resistance: Capacitive reactance
-- dimensionless: ''
-- frequency: ''
-- capacitance: ''

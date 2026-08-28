@@ -2,28 +2,35 @@ name: Forced damped harmonic oscillator ODE
 id: forced_oscillator_ode
 topic: differential_equations
 difficulty: 9
-equation: (frac (rmd (rmd dimensionless)) ((rmd time) pow 2)) add ((2 mul dimensionless) mul (frac (rmd
-  dimensionless) (rmd time))) add ((angular_velocity pow 2) mul length) eq force mul (cos (dimensionless
-  mul time))
+links:
+- https://en.wikipedia.org/wiki/Harmonic_oscillator
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Forced_Oscillations
+- https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_(Chasnov)/07%3A_Second-Order_Linear_Constant-Coefficient_Differential_Equations/7.05%3A_Forced_Harmonic_Oscillator
+- https://www.khanacademy.org/science/physics/oscillatory-motion/forced-oscillations-and-resonance
+- https://www.britannica.com/science/harmonic-oscillator
+description: The forced damped harmonic oscillator is a mass–spring system with viscous
+  damping acted on by a sinusoidal driving force. Its equation of motion combines
+  inertia, the velocity-proportional damping term 2γẋ, the restoring force ω₀²x, and
+  the external drive F₀cos(ωt), and is the basis of resonance, AC circuits, and many
+  models in physics and engineering. The form shown uses the normalization in which
+  the driving amplitude is written directly (so it corresponds to F₀/m when written
+  per unit mass).
+equation: frac rmd rmd dimensionless (rmd time pow 2) add (2 mul dimensionless) mul
+  frac (rmd dimensionless) (rmd time) add (angular_velocity pow 2) mul length eq force
+  mul cos (dimensionless mul time)
 symbol_overrides:
 - dimensionless: x
-- time: t
 - dimensionless: \gamma
 - dimensionless: x
-- time: t
 - angular_velocity: \omega_0
 - length: x
 - force: F_0
 - dimensionless: \omega
-- time: t
 name_overrides:
 - dimensionless: Displacement
-- time: Time
 - dimensionless: Damping coefficient
 - dimensionless: Velocity term
-- time: Time
 - angular_velocity: Natural angular [frequency]
-- length: '[Displacement]'
+- length: Displacement
 - force: Driving [force]
 - dimensionless: Driving frequency
-- time: Time

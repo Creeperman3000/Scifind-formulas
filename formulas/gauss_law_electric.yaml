@@ -2,12 +2,18 @@ name: Gauss's law for electricity
 id: gauss_law_electric
 topic: electric_fields
 difficulty: 8
-equation: electric_field_strength mul area eq charge frac vacuum_permittivity
-symbol_overrides:
-- electric_field_strength: ''
-- area: ''
-- charge: ''
+links:
+- https://en.wikipedia.org/wiki/Gauss%27s_law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/06%3A_Gauss%27s_Law
+- https://www.khanacademy.org/science/physics/charge-electric-force-and-voltage/gauss-law/v/gauss-law-overview
+- https://www.britannica.com/science/Gauss-law
+- https://courses.lumenlearning.com/suny-physics/chapter/19-2-gauss-law/
+description: Gauss's law for electricity, one of Maxwell's equations, states that
+  the net electric flux through any closed surface (a Gaussian surface) is proportional
+  to the total electric charge enclosed by that surface. It provides a powerful symmetry-based
+  method for computing electric fields of highly symmetric charge configurations and
+  is equivalent to Coulomb's law.
+equation: oint drop drop (electric_field_strength times area) eq charge frac vacuum_permittivity
 name_overrides:
 - electric_field_strength: Electric field
 - area: Surface [area]
-- charge: ''

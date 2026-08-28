@@ -2,12 +2,22 @@ name: Integral of 1/x
 id: integral_one_over_x
 topic: integrals
 difficulty: 6
-equation: int drop drop (((1 frac angle) mul (rmd angle))) eq log euler_e (abs angle)
+links:
+- https://en.wikipedia.org/wiki/Antiderivative
+- https://en.wikipedia.org/wiki/List_of_integrals_of_logarithmic_functions
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.06%3A_Integrals_Involving_Exponential_and_Logarithmic_Functions
+- https://en.wikipedia.org/wiki/Natural_logarithm
+- https://www.khanacademy.org/math/integral-calculus/indefinite-integrals/antiderivative-rules/v/antiderivatives-and-indefinite-integrals
+description: The antiderivative of the reciprocal function 1/x. Unlike most power
+  functions, x^n integrates to x^(n+1)/(n+1), but the case n = -1 must be treated
+  separately, yielding the natural logarithm. The absolute value is required so the
+  result is valid on both sides of the singularity at x = 0.
+equation: int drop drop ((1 frac angle) mul rmd angle ) eq log euler_e abs angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

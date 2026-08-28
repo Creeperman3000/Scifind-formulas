@@ -2,8 +2,18 @@ name: Binomial probability mass function
 id: binomial_probability
 topic: probability
 difficulty: 7
-equation: dimensionless eq dimensionless mul ((dimensionless pow dimensionless)) mul (((1 sub dimensionless))
-  pow (dimensionless sub dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Binomial_distribution
+- https://statisticsfundamentals.com/binomial-distribution/
+- https://www.mathwords.com/b/binomial_probability_formula.htm
+- https://statproofbook.github.io/P/bin-pmf.html
+description: The binomial probability mass function gives the probability of observing
+  exactly a specified number of successes in a fixed number of independent trials,
+  each with the same success probability and only two possible outcomes. It applies
+  when the trials are binary, independent, fixed in number, and identically distributed
+  (the BINS conditions), and is used in quality control, survey sampling, and genetics.
+equation: dimensionless eq dimensionless mul (dimensionless pow dimensionless) mul
+  (1 sub dimensionless) pow dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: C(n,k)

@@ -2,13 +2,17 @@ name: Gravitational potential energy of two point masses
 id: newtonian_gravitational_potential_energy
 topic: newtonian_gravity
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Gravitational_energy
+  - https://en.wikipedia.org/wiki/Gravitational_potential_energy
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Fitzpatrick)/04%3A_Conservative_Systems/4.02%3A_Gravitational_Potential_Energy
+  - https://www.britannica.com/science/gravitational-potential-energy
 description: "Valid for two point masses, or spherically symmetric bodies treated as point masses."
 equation: energy eq drop (gravitational_constant mul (mass) mul (mass) frac length)
   sub
 symbol_overrides:
 - energy: U
 - mass: M
-- mass: ''
 - length: r
 name_overrides:
 - energy: Gravitational potential [energy]

@@ -2,8 +2,18 @@ name: Number of combinations
 id: combinations_ncr
 topic: probability
 difficulty: 5
-equation: dimensionless eq (dimensionless factorial) frac ((dimensionless factorial) mul ((dimensionless
-  sub dimensionless) factorial))
+links:
+- https://en.wikipedia.org/wiki/Combination
+- https://mathworld.wolfram.com/BinomialCoefficient.html
+- https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_(Morris)/02%3A_Enumeration/03%3A_Permutations_Combinations_and_the_Binomial_Theorem/3.02%3A_Combinations
+- https://www.mathwords.com/c/combination_formula.htm
+description: The binomial coefficient, or n choose r, counts how many distinct subsets
+  of r items can be selected from a set of n distinguishable items when the order
+  of selection does not matter. It is central to combinatorics and probability, appearing
+  in counting arguments, lottery odds, and the binomial theorem, and applies for whole
+  numbers with zero up to r equal to n without repetition.
+equation: dimensionless eq (dimensionless factorial) frac ((dimensionless factorial)
+  mul (dimensionless sub dimensionless) factorial )
 symbol_overrides:
 - dimensionless: C(n,r)
 - dimensionless: n

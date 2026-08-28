@@ -2,15 +2,23 @@ name: Friction force on a horizontal surface
 id: friction_force_horizontal
 topic: friction
 difficulty: 4
-description: "Valid for kinetic friction on a horizontal surface; normal force equals weight (N = mg)."
-equation: force eq coefficient_of_friction mul (mass) mul acceleration
+links:
+- https://en.wikipedia.org/wiki/Friction#Kinetic_friction
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06:_Applying_Newton's_Laws
+- https://www.britannica.com/science/friction
+- https://www.physics.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dutra)/04%3A_Lagrangian_Mechanics/4.02%3A_Constraints_and_Friction
+description: On a flat horizontal surface, with no other vertical forces, the normal
+  force on an object equals its weight, so the kinetic friction force reduces to the
+  kinetic coefficient times the object's weight. The formula assumes no applied vertical
+  forces and a level surface, so that the normal force equals the gravitational force.
+equation: force eq coefficient_of_friction mul mass mul acceleration
 symbol_overrides:
 - force: f_k
-- coefficient_of_friction: μ_k
-- mass: ''
+- coefficient_of_friction: \mu_k
+- mass: m
 - acceleration: g
 name_overrides:
-- force: Kinetic [friction]
-- coefficient_of_friction: Coefficient of kinetic [friction]
-- mass: '[Mass]'
+- force: Kinetic friction
+- coefficient_of_friction: Coefficient of kinetic friction
+- mass: '[mass] of the object'
 - acceleration: Gravitational [acceleration]

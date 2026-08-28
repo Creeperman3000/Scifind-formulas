@@ -2,12 +2,10 @@ name: Density
 id: density_formula
 topic: pressure
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Density
+  - https://openstax.org/books/college-physics/pages/11-2-density
+  - https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/03%3A_Unit_2-_Mechanics_II_-_Energy_and_Momentum_Oscillations_and_Waves_Rotation_and_Fluids/07%3A_Fluids/7.03%3A_Density
+  - https://www.britannica.com/science/density
+description: "Defines density as how much mass is packed into a unit volume of a substance. It is an intensive material property used to identify substances, convert between mass and volume, and predict whether objects float or sink. For non-uniform materials it gives the average density; values change with temperature and pressure."
 equation: density eq mass frac volume
-symbol_overrides:
-- density: ''
-- mass: ''
-- volume: ''
-name_overrides:
-- density: ''
-- mass: ''
-- volume: ''

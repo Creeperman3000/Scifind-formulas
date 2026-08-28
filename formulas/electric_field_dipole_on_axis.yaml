@@ -2,15 +2,23 @@ name: Electric field on the axis of a dipole
 id: electric_field_dipole_on_axis
 topic: electric_fields
 difficulty: 8
-equation: electric_field_strength eq 2 mul (coulomb_constant mul charge mul length
-  ) frac length pow 3
+links:
+- https://byjus.com/physics/electric-field-intensity-at-any-point-due-to-an-ideal-dipole/
+- https://physicsbook.gatech.edu/Electric_Dipole
+- https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-electric-charges-and-field/x51bd77206da864f3:electric-dipoles/v/electric-field-due-to-dipole-on-the-axis-electric-charges-fields-physics-khan-academy
+- https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Essential_Graduate_Physics_-_Classical_Electrodynamics_(Likharev)/03%3A_Dipoles_and_Dielectrics/3.01%3A_Electric_Dipole
+description: Gives the electric field at a point on the axis of an electric dipole,
+  far from the dipole's centre. In this far-field limit the field falls off as the
+  cube of the distance and points along the dipole moment; it is twice as strong as
+  the equatorial field at the same distance.
+equation: electric_field_strength eq frac (2 mul coulomb_constant mul charge mul length)
+  length pow 3
 symbol_overrides:
-- electric_field_strength: E
 - charge: q
 - length: d
 - length: r
 name_overrides:
-- electric_field_strength: '[Electric field]'
+- electric_field_strength: Electric field
 - charge: Charge
 - length: Dipole separation
 - length: Distance from dipole center

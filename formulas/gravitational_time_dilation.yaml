@@ -2,8 +2,14 @@ name: Gravitational time dilation
 id: gravitational_time_dilation
 topic: relativity
 difficulty: 9
-equation: time eq time mul sqrt (1 sub 2 mul (gravitational_constant mul mass ) frac
-  length mul speed_of_light pow 2 ) 2
+links:
+  - https://en.wikipedia.org/wiki/Gravitational_time_dilation
+  - https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Cosmology_(Mehra)/4%3A_Gravity/4.2%3A_Gravitational_Redshift_and_Gravitational_Lensing
+  - https://www.britannica.com/science/gravitational-redshift
+  - https://math.temple.edu/~pasha/math144/Chapter8.pdf
+description: "Clocks deeper in a gravitational well run more slowly than clocks far from the source. The relation, derived from the Schwarzschild metric, gives the elapsed proper time t' at radius r for a clock near a non-rotating spherical mass M, in terms of the coordinate time t_0 measured by a distant observer; it is valid in the weak-field limit when r is greater than the Schwarzschild radius."
+equation: time eq time mul sqrt (1 sub 2 mul (gravitational_constant mul mass ) frac length
+  mul speed_of_light pow 2 ) 2
 symbol_overrides:
 - time: t'
 - time: t_0
@@ -12,5 +18,5 @@ symbol_overrides:
 name_overrides:
 - time: Dilated [time]
 - time: Proper [time]
-- mass: Mass of gravitating body
+- mass: '[mass] of gravitating body'
 - length: Distance from center

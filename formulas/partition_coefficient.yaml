@@ -2,12 +2,19 @@ name: Partition coefficient
 id: partition_coefficient
 topic: analytical_chemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Partition_coefficient
+  - https://goldbook.iupac.org/terms/view/P04440
+  - https://pubchem.ncbi.nlm.nih.gov/descriptor/Partition_Coefficient
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Mixtures/Partition_and_Distribution_Coefficients
+  - https://www.chem.purdue.edu/courses/chm333/Spring%202014/Lectures/Lecture%2023%20Partition%20Coefficients.pdf
+description: "The partition coefficient (K or P) is the ratio of concentrations of a solute between two immiscible solvents at equilibrium, typically reported as the concentration in the organic phase divided by that in the aqueous phase. It is widely used in pharmaceutical and environmental chemistry to characterize lipophilicity, with log P being the common logarithmic form."
 equation: dimensionless eq concentration frac concentration
 symbol_overrides:
 - dimensionless: K
 - concentration: c_{org}
 - concentration: c_{aq}
 name_overrides:
-- dimensionless: Partition [coefficient]
-- concentration: Concentration in organic phase
-- concentration: Concentration in aqueous phase
+- dimensionless: Partition coefficient
+- concentration: '[concentration] in organic phase'
+- concentration: '[concentration] in aqueous phase'

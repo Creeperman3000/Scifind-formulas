@@ -2,12 +2,16 @@ name: Angular velocity definition
 id: angular_velocity_definition
 topic: circular_motion
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Angular_velocity
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/06%3A_Uniform_Circular_Motion_and_Gravitation/6.01%3A_Rotation_Angle_and_Angular_Velocity
+  - https://www.grc.nasa.gov/www/k-12/airplane/angdva.html
+description: "Angular velocity measures how fast a body rotates: it is the angular displacement swept out per unit time, quoted in radians per second in SI. This ratio defines the average angular velocity over an interval; the instantaneous value is the limit of this ratio as the interval shrinks to zero. It is the rotational counterpart of linear speed and applies to wheels, gears, planets, and any spinning rigid body."
 equation: angular_velocity eq angle frac time
 symbol_overrides:
 - angular_velocity: ω
 - angle: θ
-- time: ''
 name_overrides:
 - angular_velocity: Angular [velocity]
-- angle: Angular [displacement]
-- time: '[Time]'
+- angle: Angular displacement
+- time: '[time]'

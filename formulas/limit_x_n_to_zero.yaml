@@ -2,14 +2,24 @@ name: Limit of x^n as x→0
 id: limit_x_n_to_zero
 topic: limits
 difficulty: 6
-equation: lim dimensionless dimensionless (dimensionless pow dimensionless) eq 0
+links:
+- https://en.wikipedia.org/wiki/Limit_of_a_function
+- https://en.wikipedia.org/wiki/Limit_(mathematics)
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02%3A_Limits_and_Continuity/2.03%3A_The_Limit_Laws
+- https://www.britannica.com/science/limit-mathematics
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-limit-laws/v/limit-laws
+- https://www.cuemath.com/calculus/limit-laws/
+description: For any fixed positive exponent n, the function x^n approaches 0 as x
+  approaches 0. This basic limit law is used together with the product rule to evaluate
+  limits of polynomials and other power expressions near the origin.
+equation: lim dimensionless dimensionless dimensionless pow dimensionless eq 0
 symbol_overrides:
 - dimensionless: x
 - dimensionless: '0'
 - dimensionless: x
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '''[variable]'''
 - dimensionless: Zero
-- dimensionless: '''[Variable]'''
+- dimensionless: '''[variable]'''
 - dimensionless: Positive exponent

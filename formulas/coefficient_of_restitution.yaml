@@ -2,16 +2,24 @@ name: Coefficient of restitution
 id: coefficient_of_restitution
 topic: collisions
 difficulty: 6
-description: "Valid for two-body collisions; e = 1 (elastic), 0 < e < 1 (inelastic), e = 0 (perfectly inelastic)."
-equation: coefficient_of_friction eq (velocity sub velocity ) frac velocity sub velocity
+links:
+- https://en.wikipedia.org/wiki/Coefficient_of_restitution
+- https://phys.libretexts.org/Courses/Merrimack_College/Conservation_Laws_Newton%27s_Laws_and_Kinematics_version_2.0/08%3A_C8)_Conservation_of_Energy-_Kinetic_and_Gravitational/8.05%3A_Relative_Velocity_and_the_Coefficient_of_Restitution
+- https://www.vedantu.com/jee-main/physics-coefficient-of-restitution
+description: A dimensionless measure of how elastic a two-body collision is, given
+  by the ratio of the relative speed of separation after impact to the relative speed
+  of approach along the line of impact. It equals one for perfectly elastic collisions
+  and vanishes when the bodies stick together in a perfectly inelastic one. It is
+  used with momentum conservation to find post-collision velocities.
+equation: dimensionless eq (velocity sub velocity) frac velocity sub velocity
 symbol_overrides:
-- coefficient_of_friction: e
+- dimensionless: e
 - velocity: v'_2
 - velocity: v'_1
 - velocity: v_1
 - velocity: v_2
 name_overrides:
-- coefficient_of_friction: Coefficient of restitution
+- dimensionless: Coefficient of restitution
 - velocity: Final [velocity] 2
 - velocity: Final [velocity] 1
 - velocity: Initial [velocity] 1

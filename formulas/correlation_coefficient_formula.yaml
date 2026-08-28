@@ -2,14 +2,23 @@ name: Pearson correlation coefficient
 id: correlation_coefficient_formula
 topic: statistics
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
+- https://stats.libretexts.org/Courses/Taft_College/PSYC_2200%3A_Elementary_Statistics_for_Behavioral_and_Social_Sciences_(Oja)/03%3A_Relationships/14%3A_Correlations/14.06%3A_Correlation_Formula-__Covariance_Divided_by_Variability
+- https://www.danielsoper.com/statcalc/formulas.aspx?id=45
+description: The Pearson correlation coefficient measures the strength and direction
+  of the linear relationship between two variables. It is a normalized, unitless version
+  of the covariance, always falling between -1 and +1. Values near the extremes indicate
+  strong linear association, while values near zero indicate little or no linear relationship;
+  it captures only linear dependence.
 equation: dimensionless eq dimensionless frac dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: r
 - dimensionless: Cov(X,Y)
-- dimensionless: σ_X
-- dimensionless: σ_Y
+- dimensionless: \sigma_X
+- dimensionless: \sigma_Y
 name_overrides:
 - dimensionless: Correlation coefficient
-- dimensionless: '[Covariance]'
+- dimensionless: Covariance
 - dimensionless: Standard deviation of X
 - dimensionless: Standard deviation of Y

@@ -1,15 +1,20 @@
-name: Gravitational binding energy of a uniform sphere (gravitational_binding_energy_uniform_sphere)
+name: Gravitational binding energy of a uniform sphere
 id: gravitational_binding_energy_uniform_sphere
 topic: newtonian_gravity
 difficulty: 9
-description: Valid for a uniform-density sphere.
-equation: energy eq (3 mul gravitational_constant mul (mass pow 2)) frac (5 mul length
-  )
+links:
+- https://en.wikipedia.org/wiki/Gravitational_binding_energy
+- https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Book%3A_Celestial_Mechanics_(Tatum)/02%3A_Gravitational_Field_and_Potential/2.06%3A_Gravitational_Binding_Energy
+- https://www.britannica.com/science/gravitational-binding-energy
+- https://farside.ph.utexas.edu/teaching/336k/Newton/node114.html
+- https://scienceworld.wolfram.com/physics/GravitationalBindingEnergy.html
+description: The gravitational binding energy of a uniform-density sphere is the minimum
+  energy required to disperse its mass to infinity, equal in magnitude to its self-gravitational
+  potential energy.
+equation: energy eq (3 mul gravitational_constant mul mass pow 2 ) frac 5 mul length
 symbol_overrides:
 - energy: E_b
-- mass: ''
 - length: R
 name_overrides:
 - energy: Binding [energy]
-- mass: ''
 - length: Sphere radius

@@ -2,16 +2,30 @@ name: Inverse of a 2×2 matrix
 id: linear_algebra_inverse_matrix_2x2
 topic: linear_algebra
 difficulty: 7
-equation: dimensionless eq dimensionless mul dimensionless frac dimensionless sub dimensionless
+links:
+- https://en.wikipedia.org/wiki/Invertible_matrix
+- https://en.wikipedia.org/wiki/Adjugate_matrix
+- https://en.wikipedia.org/wiki/Identity_matrix
+- https://mathworld.wolfram.com/MatrixInverse.html
+- https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:inverse-of-a-2x2-matrix/a/inverse-of-a-2x2-matrix
+description: The inverse of an invertible 2-by-2 matrix is the matrix's adjugate (with
+  diagonal entries swapped and off-diagonal entries sign-flipped) divided by the determinant,
+  which equals the difference of the diagonal products of the original matrix. This
+  closed form requires the determinant to be nonzero and is widely used in analytic
+  and numerical work.
+equation: dimensionless eq dimensionless frac dimensionless mul dimensionless sub
+  dimensionless mul dimensionless
 symbol_overrides:
-- dimensionless: A⁻¹
-- dimensionless: adj(A)
+- dimensionless: A^{-1}
+- dimensionless: \operatorname{adj}(A)
 - dimensionless: a
 - dimensionless: d
 - dimensionless: b
+- dimensionless: c
 name_overrides:
 - dimensionless: Inverse matrix
 - dimensionless: Adjugate
 - dimensionless: a
 - dimensionless: d
 - dimensionless: b
+- dimensionless: c

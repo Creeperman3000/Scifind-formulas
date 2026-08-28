@@ -2,13 +2,19 @@ name: Electric field of a point charge
 id: electric_field_point_charge
 topic: electric_fields
 difficulty: 6
-equation: electric_field_strength eq coulomb_constant mul (charge) frac length pow
+links:
+- https://openstax.org/books/physics/pages/18-3-electric-field
+- https://www.hyperphysics.phy-astr.gsu.edu/hbase/electric/elefie.html
+- https://www.physicsbook.gatech.edu/Point_Charge
+- https://www.miniphysics.com/uy1-electric-field-of-a-point-charge.html
+description: Gives the magnitude of the electric field produced by a point charge
+  at a distance from it, directed radially away from a positive charge or toward a
+  negative charge. It follows directly from Coulomb's law divided by the test charge,
+  falls off with the square of the distance, and is the building block for fields
+  of more complex charge distributions via superposition.
+equation: electric_field_strength eq frac (coulomb_constant mul charge) length pow
   2
 symbol_overrides:
-- electric_field_strength: ''
-- charge: ''
 - length: r
 name_overrides:
-- electric_field_strength: ''
-- charge: ''
 - length: Distance

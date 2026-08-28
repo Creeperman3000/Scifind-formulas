@@ -2,9 +2,15 @@ name: Lateral surface area of a cylinder
 id: lateral_surface_area_cylinder
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Cylinder
+  - https://mathworld.wolfram.com/Cylinder.html
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-cylinder
+  - https://www.britannica.com/science/cylinder
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(Topic_Review)/3%3A_3D_Geometry/3.01%3A_Surface_Area_of_Prisms_and_Cylinders
+description: "Gives the curved (side) surface area of a right circular cylinder, excluding its two circular bases. It is the product of the circumference of the base and the height, and is equivalent to unrolling the lateral surface into a rectangle of width equal to the height and length equal to the circumference."
 equation: area eq dimensionless mul (pi) mul (length) mul length
 symbol_overrides:
-- area: A
 - dimensionless: '2'
 - length: r
 - length: h

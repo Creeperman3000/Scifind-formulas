@@ -2,12 +2,18 @@ name: Henry's law constant definition
 id: solutions_henrys_law_constant
 topic: solutions
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Henry%27s_law
+  - https://en.wikipedia.org/wiki/Partial_pressure
+  - https://en.wikipedia.org/wiki/Solubility
+  - https://en.wikipedia.org/wiki/Concentration
+description: "Henry's law states that at constant temperature the amount of a gas dissolved in a liquid is proportional to its equilibrium partial pressure above the solution. The proportionality factor, called Henry's law constant, is tabulated for many gas-solvent pairs and is widely used in chemical engineering, environmental chemistry, and decompression physiology."
 equation: concentration eq concentration frac pressure
 symbol_overrides:
 - concentration: k_H
 - concentration: C
-- pressure: P
+- pressure: p
 name_overrides:
 - concentration: Henry's law constant
 - concentration: Gas [concentration] in solution
-- pressure: Partial pressure
+- pressure: Partial [pressure]

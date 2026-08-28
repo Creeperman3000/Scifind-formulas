@@ -2,14 +2,18 @@ name: Molar heat capacity definition
 id: molar_heat_capacity
 topic: thermochemistry
 difficulty: 6
-equation: molar_energy eq energy frac amount mul Delta temperature
+links:
+  - https://en.wikipedia.org/wiki/Heat_capacity
+  - https://en.wikipedia.org/wiki/Molar_heat_capacity
+  - https://en.wikipedia.org/wiki/Specific_heat_capacity
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Calorimetry/Heat_Capacity
+  - https://goldbook.iupac.org/terms/view/M04005.html
+description: Molar heat capacity is the amount of heat required to raise the temperature of one mole of a substance by one kelvin, i.e. the heat capacity of a sample divided by its amount of substance. It is an intensive property used to compare the thermal response of different substances on a per-mole basis.
+equation: molar_energy eq energy frac amount frac Delta temperature
 symbol_overrides:
-- molar_energy: C_m
-- energy: ''
-- amount: ''
-- temperature: ''
+  - molar_energy: C_m
+  - temperature: \Delta T
 name_overrides:
-- molar_energy: Molar heat capacity
-- energy: '[Heat]'
-- amount: ''
-- temperature: ''
+  - molar_energy: Molar heat capacity
+  - energy: Heat
+  - temperature: Temperature change

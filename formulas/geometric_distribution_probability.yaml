@@ -2,6 +2,13 @@ name: Geometric Distribution Probability
 id: geometric_distribution_probability
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Geometric_distribution
+  - https://mathworld.wolfram.com/GeometricDistribution.html
+  - https://www.britannica.com/science/geometric-distribution
+  - https://online.stat.psu.edu/stat414/lesson/15/15.1
+  - https://statproofbook.github.io/P/geopmf
+description: "The geometric distribution gives the probability that the first success in a sequence of independent Bernoulli trials with success probability p occurs on the k-th trial. The probability decreases geometrically with k because each of the first k-1 trials must be a failure."
 equation: dimensionless eq (dimensionless sub dimensionless ) pow (dimensionless sub
   1) mul dimensionless
 symbol_overrides:

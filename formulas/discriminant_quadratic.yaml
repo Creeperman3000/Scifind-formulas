@@ -2,7 +2,15 @@ name: Discriminant of a quadratic
 id: discriminant_quadratic
 topic: polynomials
 difficulty: 4
-equation: dimensionless eq (dimensionless pow 2) sub 4 mul (dimensionless) mul dimensionless
+links:
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/a/discriminant-review
+- https://www.cuemath.com/algebra/discriminant/
+- https://mathsathome.com/the-discriminant-quadratic/
+description: The expression under the square root in the quadratic formula, which
+  determines the nature of the roots of a quadratic equation without solving it. A
+  positive value gives two distinct real roots, zero gives one repeated real root,
+  and a negative value gives two complex conjugate roots.
+equation: dimensionless eq (dimensionless pow 2) sub 4 mul dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: D
 - dimensionless: b
@@ -12,4 +20,4 @@ name_overrides:
 - dimensionless: Discriminant
 - dimensionless: Coefficient b
 - dimensionless: Coefficient a
-- dimensionless: '[Constant] c'
+- dimensionless: Constant c

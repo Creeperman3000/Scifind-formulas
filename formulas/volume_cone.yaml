@@ -2,12 +2,16 @@ name: Volume of a cone
 id: volume_cone
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Cone
+  - https://en.wikipedia.org/wiki/Volume
+  - https://mathworld.wolfram.com/Cone.html
+  - https://en.wikipedia.org/wiki/Cavalieri%27s_principle
+description: "The volume of any conic solid is one third of the product of the area of its base and its height. For a right circular cone this reduces to the familiar form, and a proof without calculus can be given by comparing horizontal cross-sections with a square pyramid via Cavalieri's principle."
 equation: volume eq pi mul (length pow 2) mul (length) frac 3
 symbol_overrides:
-- volume: V
-- length: r
-- length: h
+  - length: r
+  - length: h
 name_overrides:
-- volume: Volume
-- length: Radius
-- length: Height
+  - length: Radius
+  - length: Height

@@ -2,16 +2,18 @@ name: Displacement at constant acceleration
 id: displacement_constant_acceleration
 topic: constant_acceleration
 difficulty: 4
+links:
+  - https://studyrocket.co.uk/revision/a-level-mathematics-b-mei-ocr/mechanics-kinematics/constant-acceleration-formulae
+  - https://en.neurochispas.com/physics/kinematic-equations-for-constant-acceleration
+  - https://mathsathome.com/displacement-velocity-acceleration
+description: "One of the constant-acceleration kinematics (SUVAT) equations, giving the displacement of an object moving in a straight line as the contribution of its initial velocity plus the extra distance gained from uniform acceleration. It applies only when acceleration does not change over the interval."
 equation: length eq velocity mul (time) add acceleration mul (time pow 2 ) frac 2
 symbol_overrides:
 - length: s
 - velocity: u
-- time: ''
-- acceleration: ''
-- time: ''
 name_overrides:
 - length: Displacement
 - velocity: Initial [velocity]
-- time: '[Time]'
-- acceleration: '[Acceleration]'
-- time: Fall [time]
+- time: Elapsed [time]
+- acceleration: '[acceleration]'
+- time: '[time]'

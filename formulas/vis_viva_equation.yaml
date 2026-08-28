@@ -2,10 +2,19 @@ name: Vis-viva equation
 id: vis_viva_equation
 topic: orbital_motion
 difficulty: 9
-equation: velocity pow 2 eq gravitational_constant mul (mass) mul dimensionless frac
-  (length) sub 1 frac length
+links:
+- https://en.wikipedia.org/wiki/Vis-viva_equation
+- https://en.wikipedia.org/wiki/Two-body_problem
+- https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+- https://en.wikipedia.org/wiki/Specific_orbital_energy
+description: The vis-viva equation relates the square of an orbiting body's relative
+  speed to the gravitational parameter of the central body, the instantaneous distance
+  between the bodies, and the semi-major axis of the orbit. It follows directly from
+  conservation of mechanical energy in a two-body Keplerian orbit and applies to elliptic,
+  parabolic, hyperbolic, and radial trajectories.
+equation: velocity pow 2 eq gravitational_constant mul mass mul (dimensionless frac
+  length) sub 1 frac length
 symbol_overrides:
-- velocity: ''
 - mass: M
 - dimensionless: '2'
 - length: r

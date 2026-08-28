@@ -2,13 +2,19 @@ name: Newton's second law in terms of momentum
 id: newtons_second_law_momentum_form
 topic: newtons_laws
 difficulty: 6
-description: "Newton's second law in terms of momentum; F = dp/dt."
-equation: force eq momentum (Delta) time (Delta) frac
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://en.wikipedia.org/wiki/Momentum
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton%27s_Laws/5.03%3A_Newton%27s_Second_Law
+  - https://www.britannica.com/science/Newtons-second-law
+  - https://www.khanacademy.org/science/physics/linear-momentum/momentum-tutorial/v/what-is-momentum
+description: "Expressed in terms of momentum, Newton's second law states that the net external force on a body equals the time rate of change of its linear momentum. This formulation is the more general form and remains valid for systems with variable mass, such as rockets, where F = m a alone does not apply."
+equation: force eq Delta momentum frac Delta time
 symbol_overrides:
 - force: F_{net}
-- momentum: ''
-- time: ''
+- momentum: p
+- time: t
 name_overrides:
 - force: Net [force]
-- momentum: ''
-- time: ''
+- momentum: Linear [momentum]
+- time: [time]

@@ -2,19 +2,19 @@ name: Poiseuille's law for laminar flow
 id: poiseuilles_law
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation
+  - https://www.britannica.com/science/Poiseuilles-law
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/23%3A_Fluid_Mechanics/23.05%3A_Viscosity_and_Poiseuilles_Law
+  - https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulent-flow
+  - https://www.khanacademy.org/science/physics/fluids/fluid-dynamics/a/what-is-viscosity
+description: "The Hagen–Poiseuille (Poiseuille's) law gives the steady-state volumetric flow rate of a viscous, incompressible, Newtonian fluid through a long cylindrical pipe under laminar flow conditions. The flow rate depends on the fourth power of the pipe radius and is inversely proportional to the fluid's dynamic viscosity and the pipe length."
 equation: volume frac time eq (pressure mul (length pow 4) mul pi) frac 8 mul (dynamic_viscosity)
   mul length
 symbol_overrides:
-- volume: ''
-- time: ''
 - pressure: ΔP
 - length: r
-- dynamic_viscosity: ''
 - length: L
 name_overrides:
-- volume: Volumetric flow [rate]
-- time: ''
-- pressure: Pressure [difference]
-- length: ''
-- dynamic_viscosity: ''
-- length: ''
+- volume: Volumetric flow rate
+- pressure: '[pressure] difference'

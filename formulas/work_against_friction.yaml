@@ -2,12 +2,18 @@ name: Work done against friction
 id: work_against_friction
 topic: work
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Friction
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton%27s_Laws/6.04%3A_Friction_(Part_1)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy
+description: "The work that must be supplied to overcome kinetic friction equals the product of the kinetic friction force and the displacement over which it acts. This energy is dissipated as heat and is independent of the speed of sliding (in the Coulomb model)."
 equation: energy eq force mul length
 symbol_overrides:
 - energy: W_{fric}
 - force: f_k
 - length: d
 name_overrides:
-- energy: Work against [friction]
-- force: Kinetic [friction]
-- length: '[Displacement]'
+- energy: Work against friction
+- force: Kinetic friction
+- length: Displacement

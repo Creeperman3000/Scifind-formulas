@@ -2,12 +2,19 @@ name: Image height from magnification
 id: optics_image_height_magnification
 topic: mirrors
 difficulty: 5
-equation: length eq drop (dimensionless mul length) sub
+links:
+  - https://en.wikipedia.org/wiki/Magnification
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Images_Formed_by_Mirrors
+  - https://www.britannica.com/science/optical-magnification
+  - https://www.physicsclassroom.com/class/refln/Lesson-1/Image-Formation-and-Characteristics
+  - https://www.khanacademy.org/science/physics/geometric-optics/mirrors/v/object-image-height-converging-mirrors
+description: "Linear (transverse) magnification of an optical system is the ratio of image height to object height, so the image height is simply the magnification multiplied by the object height. A negative value indicates the image is inverted relative to the object, which is characteristic of real images formed by converging mirrors and lenses."
+equation: length eq dimensionless mul length
 symbol_overrides:
 - length: h_i
 - dimensionless: m
 - length: h_o
 name_overrides:
-- length: Image [height]
+- length: Image height
 - dimensionless: Magnification
-- length: Object [height]
+- length: Object height

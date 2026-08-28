@@ -2,11 +2,17 @@ name: Free fall height from time
 id: free_fall_height
 topic: constant_acceleration
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Free_fall#Uniform_gravitational_field_without_air_resistance
+  - https://www.khanacademy.org/science/physics/one-dimensional-motion/kinematic-formulas/v/kinematic-formulas-1d
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/03%3A_Motion_Along_a_Straight_Line/3.05%3A_Free_Fall
+  - https://www.britannica.com/science/free-fall
+  - https://www.physicsclassroom.com/Class/1DKin/U1L5c.cfm
+description: "For an object released from rest in a uniform gravitational field with negligible air resistance, the vertical distance fallen is half the gravitational acceleration times the square of the elapsed time. The result is the standard kinematic relation obtained by integrating the constant downward acceleration."
 equation: length eq acceleration mul (time pow 2 ) frac 2
 symbol_overrides:
 - length: h
 - acceleration: g
-- time: ''
 name_overrides:
 - length: Height (free fall)
 - acceleration: Gravitational [acceleration]

@@ -2,10 +2,16 @@ name: Parallel lines condition
 id: parallel_lines_condition
 topic: equations
 difficulty: 3
-equation: reynolds_number eq reynolds_number
+links:
+  - https://en.wikipedia.org/wiki/Parallel_(geometry)
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/Intermediate_Algebra_(OpenStax)/03%3A_Graphs_and_Functions/3.06%3A_Slope
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:solving-slope-problems/v/slope-of-a-line
+  - https://www.britannica.com/biography/Euclid/Book-I-of-the-Elements
+description: "Two distinct non-vertical lines in the Cartesian plane are parallel if and only if they have the same slope. Vertical lines, which have undefined slope, are parallel to one another by convention when treated separately."
+equation: dimensionless eq dimensionless
 symbol_overrides:
-- reynolds_number: m_1
-- reynolds_number: m_2
+- dimensionless: m_1
+- dimensionless: m_2
 name_overrides:
-- reynolds_number: Slope of line 1
-- reynolds_number: Slope of line 2
+- dimensionless: Slope of line 1
+- dimensionless: Slope of line 2

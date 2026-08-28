@@ -2,12 +2,17 @@ name: Cosine definition
 id: cosine_definition
 topic: right_triangles
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Sine_and_cosine
+  - https://math.libretexts.org/Courses/Reedley_College/Trigonometry/01:_The_Six_Trigonometric_Functions/1.02:_Right_Triangle_Trigonometry
+  - https://www.britannica.com/science/cosine
+description: "In a right triangle, the cosine of an acute angle is defined as the ratio of the length of the side adjacent to that angle to the length of the hypotenuse. This ratio depends only on the angle, not on the triangle's size, which makes it the basis for solving right triangles. It is the 'CAH' part of the SOH-CAH-TOA mnemonic."
 equation: cos angle eq length frac length
 symbol_overrides:
-- angle: θ
+- angle: \theta
 - length: b
 - length: c
 name_overrides:
-- angle: '[Angle]'
+- angle: '[angle|Angle]'
 - length: Adjacent [length]
 - length: Hypotenuse

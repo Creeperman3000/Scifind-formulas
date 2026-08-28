@@ -2,12 +2,18 @@ name: Half Angle Tangent (Cosine Form)
 id: half_angle_tangent_cosine_form
 topic: trigonometric_identities
 difficulty: 7
-equation: tan (angle frac 2) eq (dimensionless sub cos angle ) frac sin angle
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://mathworld.wolfram.com/Half-AngleFormulas.html
+  - https://www.khanacademy.org/math/trigonometry/trig-identities-and-proofs/half-angle-identities/a/half-angle-identities
+  - https://www.cuemath.com/trigonometry/half-angle-formula/
+description: "One of the two common forms of the tangent half-angle identity; expresses tan(θ/2) in terms of cos(θ) and sin(θ). It is useful in integral calculus and anywhere the tangent half-angle substitution t = tan(θ/2) is applied, such as in the Weierstrass substitution."
+equation: tan (angle frac 2) eq (dimensionless sub cos angle) frac sin angle
 symbol_overrides:
-- angle: θ
+- angle: "θ"
 - dimensionless: '1'
-- angle: θ
-- angle: θ
+- angle: "θ"
+- angle: "θ"
 name_overrides:
 - angle: Angle θ
 - dimensionless: '1'

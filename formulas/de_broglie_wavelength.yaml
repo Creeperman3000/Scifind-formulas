@@ -2,10 +2,15 @@ name: De Broglie wavelength
 id: de_broglie_wavelength
 topic: quantum_mechanics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/De_Broglie_wavelength
+  - https://phys.libretexts.org/Courses/Muhlenberg_College/MC_%3A_Physics_213_-_Modern_Physics/03%3A_Photons_and_Matter_Waves/3.06%3A_De_Broglies_Matter_Waves
+  - https://www.geeksforgeeks.org/physics/de-broglie-wavelength-formula/
+  - http://labman.phys.utk.edu/phys222core/modules/m10/matter_waves.html
+description: "Central relation of de Broglie's matter-wave hypothesis: every moving particle behaves as a wave whose wavelength is set by its momentum through Planck's constant. Used to predict electron and neutron diffraction; the wave character becomes observable mainly for microscopic particles, since macroscopic momenta give negligibly short wavelengths."
 equation: length eq planck_constant frac momentum
 symbol_overrides:
 - length: λ
-- momentum: ''
 name_overrides:
 - length: Wavelength
-- momentum: ''
+- momentum: '[momentum] of the particle'

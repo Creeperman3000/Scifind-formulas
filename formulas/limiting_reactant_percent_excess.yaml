@@ -2,15 +2,21 @@ name: Percent excess reactant
 id: limiting_reactant_percent_excess
 topic: limiting_reactants
 difficulty: 6
-equation: dimensionless eq 100 mul ((dimensionless sub dimensionless ) frac dimensionless
-  )
+links:
+  - https://en.wikipedia.org/wiki/Limiting_reagent
+  - https://en.wikipedia.org/wiki/Extent_of_reaction
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry-_Chemical_Formulas_and_Equations/3.07%3A_Limiting_Reactants
+  - https://www.thoughtco.com/limiting-reagent-609580.html
+  - https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802%3Astoichiometry/x2eef969c74e0d802%3Alimiting-reagent/v/limiting-reactant-example-problem-1
+description: "Percent excess quantifies how much more of a reactant was supplied than the stoichiometric amount required to react completely with the limiting reactant. It is computed as the surplus amount divided by the theoretical amount needed and expressed as a percentage; values above zero indicate an excess reagent, while zero indicates a stoichiometric mixture."
+equation: dimensionless eq 100 mul ((dimensionless sub dimensionless) frac dimensionless)
 symbol_overrides:
 - dimensionless: \% excess
 - dimensionless: n_{actual}
 - dimensionless: n_{theoretical}
 - dimensionless: n_{theoretical}
 name_overrides:
-- dimensionless: Percent [excess]
+- dimensionless: Percent excess
 - dimensionless: Actual amount
 - dimensionless: Theoretical amount needed
 - dimensionless: Theoretical amount needed

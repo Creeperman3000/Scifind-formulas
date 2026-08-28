@@ -2,8 +2,18 @@ name: Integral of Exponential ax
 id: integral_exponential_ax
 topic: integrals
 difficulty: 7
-equation: int drop drop (exp (dimensionless mul angle) mul rmd angle) eq (exp (dimensionless mul angle))
-  frac dimensionless
+links:
+- https://en.wikipedia.org/wiki/Antiderivative
+- https://en.wikipedia.org/wiki/List_of_integrals_of_exponential_functions
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.06%3A_Integrals_Involving_Exponential_and_Logarithmic_Functions
+- https://en.wikipedia.org/wiki/Exponential_function
+- https://mathworld.wolfram.com/ExponentialIntegral.html
+description: The antiderivative of e^(a x) for a constant nonzero coefficient a. It
+  is most easily obtained via the substitution u = a x, after which the standard integral
+  of e^u applies; a scaling factor 1/a then emerges from the differential du = a dx.
+  This generalises the natural exponential rule to any constant scaling of the argument.
+equation: int drop drop (exp (dimensionless mul angle) mul rmd angle) eq exp (dimensionless
+  mul angle) frac dimensionless
 symbol_overrides:
 - dimensionless: a
 - angle: x
@@ -13,8 +23,8 @@ symbol_overrides:
 - dimensionless: a
 name_overrides:
 - dimensionless: Rate constant a
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
 - dimensionless: Rate constant a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Rate constant a

@@ -2,17 +2,21 @@ name: Ampere-Maxwell law
 id: amphere_maxwell_law
 topic: magnetism
 difficulty: 9
-equation: oint drop drop (magnetic_flux_density cdot length) eq vacuum_permeability
-  mul current add vacuum_permittivity mul rmd dimensionless frac rmd time
-symbol_overrides:
-- length: ''
-- magnetic_flux_density: ''
-- current: ''
-- electric_field_strength: ''
-- time: ''
+links:
+- https://en.wikipedia.org/wiki/Amp%C3%A8re%E2%80%93Maxwell_equation
+- https://physicsbook.gatech.edu/Ampere-Maxwell_Law
+- https://em.geosci.xyz/content/maxwell1_fundamentals/formative_laws/ampere_maxwell.html
+- https://galileoandeinstein.phys.virginia.edu/more_stuff/Maxwell_Eq.html
+description: 'Generalizes Ampere''s law by adding Maxwell''s displacement current:
+  a time-varying electric flux through a surface acts as a source of magnetic field
+  just as conduction current does. This makes the law consistent for any surface bounded
+  by the same loop (famously resolving the charging-capacitor paradox) and underlies
+  the prediction of electromagnetic waves.'
+equation: oint drop drop (magnetic_flux_density cdot rmd length ) eq vacuum_permeability
+  mul current add vacuum_permittivity mul frac rmd (int drop drop (electric_field_strength
+  cdot rmd area ) ) rmd time
 name_overrides:
-- length: Path length
-- magnetic_flux_density: ''
+- length: Path [length]
 - current: Conduction [current]
-- electric_field_strength: ''
-- time: ''
+- electric_field_strength: Electric field
+- area: Surface [area]

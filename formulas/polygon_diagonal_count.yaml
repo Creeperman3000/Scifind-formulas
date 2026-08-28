@@ -2,7 +2,17 @@ name: Number of diagonals in a polygon
 id: polygon_diagonal_count
 topic: polygons
 difficulty: 4
-equation: dimensionless eq dimensionless mul (dimensionless sub 3) frac 2
+links:
+- https://en.wikipedia.org/wiki/Diagonal
+- https://en.wikipedia.org/wiki/Regular_polygon
+- https://mathworld.wolfram.com/PolygonDiagonal.html
+- https://www.cuemath.com/geometry/diagonals-of-a-polygon/
+- https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(Averill_Faith)/04%3A_Polygons/4.04%3A_Regular_Polygons
+description: The number of diagonals in a convex n-gon can be obtained by counting,
+  for each vertex, the n minus 3 diagonals to all other non-adjacent vertices, then
+  dividing by two to avoid double counting. The result is a quadratic in n that vanishes
+  for the triangle.
+equation: dimensionless eq frac (dimensionless mul dimensionless sub 3 ) 2
 symbol_overrides:
 - dimensionless: d
 - dimensionless: n

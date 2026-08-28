@@ -2,6 +2,14 @@ name: Doppler effect with source approaching
 id: doppler_effect_approaching
 topic: mechanical_waves
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Doppler_effect
+- https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/17%3A_Physics_of_Hearing/17.04%3A_Doppler_Effect_and_Sonic_Booms
+description: 'Gives the higher pitch heard when a wave source moves directly toward
+  a stationary observer through a medium: wavefronts bunch up ahead of the source,
+  shortening the wavelength and raising the received frequency above the emitted one.
+  It assumes the observer is at rest relative to the medium and that the source speed
+  is less than the wave speed.'
 equation: frequency eq frequency mul velocity frac velocity sub velocity
 symbol_overrides:
 - frequency: f'
@@ -12,6 +20,6 @@ symbol_overrides:
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
-- velocity: Wave speed
-- velocity: Wave speed
-- velocity: Source [speed]
+- velocity: Wave speed in medium
+- velocity: Wave speed in medium
+- velocity: Speed of source

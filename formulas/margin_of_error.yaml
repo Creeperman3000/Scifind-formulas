@@ -2,15 +2,22 @@ name: Margin of error
 id: margin_of_error
 topic: statistics
 difficulty: 7
-equation: dimensionless eq dimensionless mul dimensionless frac sqrt dimensionless
-  2
+links:
+  - https://en.wikipedia.org/wiki/Margin_of_error
+  - https://en.wikipedia.org/wiki/Confidence_interval
+  - https://en.wikipedia.org/wiki/Standard_error
+  - https://en.wikipedia.org/wiki/Standard_score
+  - https://mathworld.wolfram.com/MarginofError.html
+description: The margin of error for a sample mean estimate is the critical z-score at the chosen confidence level multiplied by the population standard deviation divided by the square root of the sample size. It is the half-width of the corresponding confidence interval.
+equation: ((dimensionless) eq ((dimensionless mul dimensionless) frac (dimensionless
+  sqrt 2)))
 symbol_overrides:
 - dimensionless: ME
 - dimensionless: z*
 - dimensionless: σ
 - dimensionless: n
 name_overrides:
-- dimensionless: Margin of [error]
+- dimensionless: Margin of error
 - dimensionless: Critical value
 - dimensionless: Standard deviation
 - dimensionless: Sample size

@@ -2,8 +2,16 @@ name: Integral of sec x tan x
 id: integral_sec_tan
 topic: integrals
 difficulty: 7
-equation: int drop drop (((frac 1 (cos angle)) mul ((sin angle) frac (cos angle))) mul (rmd angle)) eq
-  frac 1 (cos angle)
+links:
+- https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+- https://en.wikipedia.org/wiki/Secant_(trigonometry)
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.05%3A_Derivatives_of_Trigonometric_Functions
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-antiderivatives/v/antiderivative-of-secx-tanx
+description: The antiderivative of sec x tan x is sec x, because the derivative of
+  the secant function is exactly sec x tan x. This identity is the natural companion
+  to the sec² integral and is widely applied in trigonometric integration.
+equation: int drop drop frac 1 cos angle mul (sin angle frac cos angle ) mul rmd angle
+  eq frac 1 cos angle
 symbol_overrides:
 - &id001
   angle: x
@@ -13,7 +21,7 @@ symbol_overrides:
 - *id001
 name_overrides:
 - &id002
-  angle: '[Variable]'
+  angle: '[variable]'
 - *id002
 - *id002
 - *id002

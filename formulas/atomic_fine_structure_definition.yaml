@@ -2,8 +2,19 @@ name: Fine-structure constant
 id: atomic_fine_structure_definition
 topic: atomic_physics
 difficulty: 9
-equation: dimensionless eq (elementary_charge pow 2) frac (2 mul vacuum_permittivity
-  mul planck_constant mul (speed_of_light ))
+links:
+- https://en.wikipedia.org/wiki/Fine-structure_constant
+- https://physics.nist.gov/cuu/Constants/alpha.html
+- https://www.britannica.com/science/fine-structure-constant
+- https://sciencenotes.org/fine-structure-constant
+description: A fundamental dimensionless constant characterizing the strength of the
+  electromagnetic interaction between elementary charged particles. Named for its
+  role in explaining the fine splitting of atomic spectral lines, it also equals the
+  ratio of the electron's ground-state Bohr-orbit speed to the speed of light, and
+  its smallness (about one over 137) underlies the success of perturbation methods
+  in quantum electrodynamics.
+equation: dimensionless eq (elementary_charge pow 2) frac 2 mul vacuum_permittivity
+  mul planck_constant mul speed_of_light
 symbol_overrides:
 - dimensionless: α
 name_overrides:

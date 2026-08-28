@@ -2,6 +2,12 @@ name: Cosine squared identity
 id: trigonometric_cosine_squared_identity
 topic: trigonometric_identities
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://mathworld.wolfram.com/Multiple-AngleFormulas.html
+  - https://en.wikipedia.org/wiki/De_Moivre%27s_formula
+description: "This power-reduction identity rewrites the square of the cosine of an angle in terms of the cosine of twice the angle. It is the cosine form of the half-angle / power-reduction formulas, and is useful in calculus for integrating powers of cosine and in signal processing for handling squared sinusoidal quantities."
 equation: cos angle pow 2 eq (1 add cos (angle mul 2) ) frac 2
 symbol_overrides:
 - angle: θ

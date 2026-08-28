@@ -2,7 +2,14 @@ name: Mass-to-mass stoichiometry
 id: mass_to_mass_stoichiometry
 topic: limiting_reactants
 difficulty: 6
-equation: mass eq mass frac (molar_mass) mul (dimensionless frac dimensionless ) mul
+links:
+  - https://en.wikipedia.org/wiki/Stoichiometry
+  - https://en.wikipedia.org/wiki/Stoichiometric_coefficient
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/04_Chemical_Reactions/4.4%3A_Determining_the_Limiting_Reagent
+  - https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/stoichiometry-ideal/a/stoichiometry
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry/09%3A_Quantities_in_Chemical_Reactions/9.04%3A_Mass-to-Mass_Stoichiometry
+description: "Mass-to-mass stoichiometry uses the balanced chemical equation and molar masses to convert the known mass of one substance into the mass of another participating in the reaction. The conversion chains the mass of reactant A through grams-to-moles, the mole ratio from stoichiometric coefficients, and moles-to-grams using molar mass. It assumes the reaction proceeds as written and that A is the limiting reactant."
+equation: mass eq mass frac (molar_mass) mul (dimensionless frac dimensionless) mul
   molar_mass
 symbol_overrides:
 - mass: m_B
@@ -12,9 +19,9 @@ symbol_overrides:
 - dimensionless: ν_A
 - molar_mass: M_B
 name_overrides:
-- mass: Mass of product B
-- mass: Mass of reactant A
-- molar_mass: Molar mass of A
+- mass: '[mass] of product B'
+- mass: '[mass] of reactant A'
+- molar_mass: '[molar_mass] of A'
 - dimensionless: Stoichiometric coefficient of B
 - dimensionless: Stoichiometric coefficient of A
-- molar_mass: Molar mass of B
+- molar_mass: '[molar_mass] of B'

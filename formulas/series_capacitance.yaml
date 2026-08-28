@@ -2,16 +2,20 @@ name: Capacitors in series (two)
 id: series_capacitance
 topic: circuits
 difficulty: 6
-equation: capacitance eq capacitance mul (capacitance) frac capacitance add capacitance
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Capacitors
+  - https://en.wikipedia.org/wiki/Capacitor#Capacitors_in_series
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/08%3A_Capacitance/8.03%3A_Capacitors_in_Series_and_in_Parallel
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-capacitors/v/capacitors-in-series
+  - https://www.electronics-tutorials.ws/capacitor/cap_5.html
+  - https://www.britannica.com/technology/capacitor/Capacitors-in-series
+description: "When capacitors are connected in series, each carries the same charge while the voltages across them add. The reciprocal of the equivalent capacitance equals the sum of the reciprocals of the individual capacitances, so the combined capacitance is always less than the smallest individual capacitance in the group."
+equation: 1 frac capacitance eq 1 frac capacitance add 1 frac capacitance
 symbol_overrides:
 - capacitance: C_{eq}
 - capacitance: C_1
 - capacitance: C_2
-- capacitance: C_1
-- capacitance: C_2
 name_overrides:
 - capacitance: Equivalent [capacitance]
-- capacitance: C₁
-- capacitance: C₂
-- capacitance: C₁
-- capacitance: C₂
+- capacitance: '[capacitance] 1'
+- capacitance: '[capacitance] 2'

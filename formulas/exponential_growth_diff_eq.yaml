@@ -2,14 +2,20 @@ name: Exponential growth differential equation
 id: exponential_growth_diff_eq
 topic: differential_equations
 difficulty: 7
-equation: frac (rmd amount) (rmd time) eq frequency mul amount
+links:
+- https://en.wikipedia.org/wiki/Exponential_growth
+- https://en.wikipedia.org/wiki/Malthusian_growth_model
+description: 'The first-order differential equation defining exponential growth (also
+  known as the Malthusian law): a quantity changes at a rate directly proportional
+  to its own current value. It models populations, compound interest, and chain reactions
+  under unlimited resources; its solution is the exponential function with rate constant
+  r (negative r gives decay instead).'
+equation: frac rmd amount rmd time eq frequency mul amount
 symbol_overrides:
 - amount: N
-- time: t
 - frequency: r
 - amount: N
 name_overrides:
 - amount: Population N
-- time: Time
 - frequency: Growth rate
 - amount: Population N

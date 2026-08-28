@@ -2,11 +2,17 @@ name: Resultant projectile velocity
 id: projectile_velocity_resultant
 topic: projectile_motion
 difficulty: 5
-equation: velocity eq sqrt (velocity add 2 pow velocity pow 2 ) 2
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.4%3A_Projectile_Motion
+  - https://www.britannica.com/science/projectile-motion
+  - https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion
+description: "The magnitude of a projectile's velocity at any point along its trajectory is found by combining its independent horizontal and vertical components under the Pythagorean theorem. Since horizontal velocity is constant and vertical velocity changes linearly under gravity, the resultant gives the projectile's instantaneous speed and direction."
+equation: velocity eq sqrt (velocity pow 2 add velocity pow 2) 2
 symbol_overrides:
+- velocity: v
 - velocity: v_x
 - velocity: v_y
-- velocity: ''
 name_overrides:
 - velocity: Resultant [velocity]
 - velocity: Horizontal [velocity]

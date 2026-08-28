@@ -2,12 +2,15 @@ name: Volume of a pyramid
 id: volume_pyramid
 topic: plane_geometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Pyramid_(geometry)
+  - https://mathworld.wolfram.com/Pyramid.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(OpenStax)/09%3A_Polygons_and_Polyhedra/9.05%3A_Other_Types_of_Polyhedra
+  - https://www.cuemath.com/geometry/volume-of-pyramid/
+description: "The volume of a pyramid equals one-third the product of its base area and its perpendicular height. This formula holds for any pyramid regardless of the shape of its polygonal base, and is a special case of the more general prismatoid formula."
 equation: volume eq area mul (length) frac 3
 symbol_overrides:
-- volume: V
-- area: A
 - length: h
 name_overrides:
-- volume: Volume
-- area: Base area
+- area: Base [area]
 - length: Height

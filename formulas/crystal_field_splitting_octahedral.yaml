@@ -2,12 +2,20 @@ name: Crystal field splitting energy (octahedral)
 id: crystal_field_splitting_octahedral
 topic: inorganic_chemistry
 difficulty: 9
-equation: energy eq dimensionless mul energy
+links:
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Supplemental_Modules_and_Websites_%28Inorganic_Chemistry%29/Crystal_Field_Theory/Crystal_Field_Theory
+- https://chemistry.stackexchange.com/questions/31276/in-crystal-field-theory-what-does-%CE%94o-10dq-mean
+- https://en.wikibooks.org/wiki/Introduction_to_Inorganic_Chemistry/Coordination_Chemistry_and_Crystal_Field_Theory
+description: In an octahedral transition-metal complex, the electrostatic field of
+  six surrounding ligands splits the five d orbitals into a lower t2g set and a higher
+  eg set. The octahedral crystal field splitting energy is the gap between these two
+  sets; by convention it equals ten times the ligand-field parameter Dq. Its size
+  relative to the pairing energy decides whether a complex is high-spin or low-spin
+  and largely determines its color.
+equation: energy eq 10 mul dimensionless
 symbol_overrides:
 - energy: Δ_{oct}
-- dimensionless: Δ_{oct}
-- energy: ''
+- dimensionless: D_q
 name_overrides:
 - energy: Octahedral crystal field splitting
-- dimensionless: Number of d-electrons
-- energy: Spectrochemical series parameter
+- dimensionless: Ligand field parameter Dq

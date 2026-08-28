@@ -2,12 +2,20 @@ name: Moment of inertia of a solid sphere
 id: moi_solid_sphere
 topic: moment_of_inertia
 difficulty: 7
-equation: moment_of_inertia eq 2 mul (mass) mul (length pow 2) frac 5
+links:
+- https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+- https://en.wikipedia.org/wiki/Moment_of_inertia
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10:_Rotation_of_Rigid_Bodies_About_a_Fixed_Axis
+- https://www.khanacademy.org/science/physics/torque-angular-momentum/rotational-inertia/v/rotational-inertia
+- https://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+description: The moment of inertia of a solid uniform sphere of radius R and mass
+  m about any axis through its center is the rotational analog of mass. The factor
+  2/5 arises from integrating the squared distance of each mass element from the center
+  over the volume of the sphere.
+equation: moment_of_inertia eq frac 2 5 mul mass mul length pow 2
 symbol_overrides:
-- moment_of_inertia: I
-- mass: m
+- mass: M
 - length: R
 name_overrides:
-- moment_of_inertia: '[Moment of inertia]'
-- mass: Mass
+- moment_of_inertia: '[moment_of_inertia]'
 - length: Radius

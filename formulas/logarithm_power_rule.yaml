@@ -2,15 +2,21 @@ name: Logarithm power rule
 id: logarithm_power_rule
 topic: logarithms
 difficulty: 4
-equation: log euler_e dimensionless pow dimensionless eq dimensionless mul log euler_e
-  dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Logarithm
+  - https://en.wikipedia.org/wiki/List_of_logarithmic_identities
+  - https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_(OpenStax)/12:_Introduction_to_Trigonometric_Functions/12.04:_Logarithmic_Properties
+  - https://www.khanacademy.org/math/algebra2/x2ec2f6976b45024c:logs/x2ec2f6976b45024c:log-prop/a/logarithm-power-rule
+  - https://mathworld.wolfram.com/Logarithm.html
+description: "The logarithm of a number raised to a power equals the power times the logarithm of the number. This rule, a consequence of exponentiation and logarithms being inverse operations, is widely used to simplify expressions and solve equations involving powers and roots."
+equation: log euler_e dimensionless pow dimensionless eq dimensionless mul log euler_e dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: n
 - dimensionless: n
 - dimensionless: x
 name_overrides:
-- dimensionless: Power
-- dimensionless: '[Exponent]'
-- dimensionless: '[Exponent]'
-- dimensionless: ''
+- dimensionless: Base
+- dimensionless: Exponent
+- dimensionless: Multiplier
+- dimensionless: Base

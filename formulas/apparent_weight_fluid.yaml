@@ -2,12 +2,18 @@ name: Apparent weight in fluid
 id: apparent_weight_fluid
 topic: buoyancy
 difficulty: 6
+links:
+  - http://physics.bu.edu/~duffy/sc527_notes01/apparent_weight.html
+  - https://www.webassign.net/asucolphysmechl2/lab_8/manual.html
+  - https://jwu.pressbooks.pub/collegephysics/chapter/archimedes-principle/
+  - https://www.albert.io/blog/fluid-statics-and-buoyancy-ap-physics-2-review/
+description: "An object submerged in a fluid weighs less on a scale than it does in air, because the fluid exerts an upward buoyant force (Archimedes' principle). The apparent weight is what a scale reads while the object is immersed, and comparing it with the true weight is a standard way to measure an object's volume or density."
 equation: force eq force sub force
 symbol_overrides:
 - force: W_{app}
 - force: W
 - force: F_b
 name_overrides:
-- force: Apparent [weight]
-- force: Actual [weight]
+- force: Apparent weight
+- force: Actual weight
 - force: Buoyant [force]

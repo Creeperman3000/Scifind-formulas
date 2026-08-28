@@ -2,11 +2,17 @@ name: RMS voltage from peak voltage
 id: rms_voltage
 topic: circuits
 difficulty: 7
-description: "Root-mean-square voltage for a sinusoidal waveform; V_rms = V_peak / √2."
+links:
+  - https://en.wikipedia.org/wiki/Root_mean_square
+  - https://en.wikipedia.org/wiki/Alternating_current
+  - https://en.wikipedia.org/wiki/Mains_electricity
+  - https://www.electronics-tutorials.ws/accircuits/rms-value.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.03%3A_Simple_AC_Circuits
+description: "Root-mean-square voltage for a sinusoidal waveform; the RMS value equals the peak amplitude divided by √2. Mains AC voltages are universally quoted in RMS so that the quoted number equals the equivalent DC value delivering the same average power."
 equation: electric_potential eq electric_potential frac sqrt 2 2
 symbol_overrides:
 - electric_potential: V_{rms}
 - electric_potential: V_0
 name_overrides:
-- electric_potential: RMS [voltage]
-- electric_potential: Peak [voltage]
+- electric_potential: RMS voltage
+- electric_potential: Peak voltage

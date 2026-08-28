@@ -2,6 +2,13 @@ name: Inductive reactance
 id: inductive_reactance
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Electrical_reactance#Inductive_reactance
+  - https://en.wikipedia.org/wiki/Inductance
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-ac-analysis/ee-reactance
+  - https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_(OpenStax)/15%3A_Alternating-Current_Circuits/15.03%3A_Simple_Alternating-Current_Circuits
+  - https://www.electronics-tutorials.ws/accircuits/ac-inductance.html
+description: "Inductive reactance is the opposition that an inductor presents to alternating current. It is proportional to both the angular frequency and the inductance, increasing linearly with frequency. Inductive reactance stores energy in the magnetic field during part of each AC cycle and returns it during the next quarter cycle, so no net power is dissipated."
 equation: resistance eq (pi mul 2) mul (frequency) mul inductance
 symbol_overrides:
 - resistance: X_L

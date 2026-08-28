@@ -2,8 +2,19 @@ name: Limit of a quotient
 id: limit_quotient_rule
 topic: limits
 difficulty: 6
-equation: lim dimensionless dimensionless (dimensionless frac dimensionless) eq ((lim dimensionless dimensionless
-  dimensionless) frac (lim dimensionless dimensionless dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Limit_of_a_function
+- https://en.wikipedia.org/wiki/Limit_(mathematics)
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02%3A_Limits_and_Continuity/2.03%3A_The_Limit_Laws
+- https://www.britannica.com/science/limit-mathematics
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-limit-laws/v/limit-laws
+- https://www.cuemath.com/calculus/limit-laws/
+description: The quotient rule for limits states that the limit of a quotient of two
+  functions equals the quotient of their individual limits, provided the limit of
+  the denominator is nonzero. This law allows limits of rational expressions to be
+  evaluated by treating the numerator and denominator separately.
+equation: lim dimensionless dimensionless (dimensionless frac dimensionless) eq lim
+  dimensionless dimensionless dimensionless frac lim dimensionless dimensionless dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: a
@@ -16,13 +27,13 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: g
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '''[variable]'''
 - dimensionless: Approach point
 - dimensionless: Numerator function f
 - dimensionless: Denominator function g
-- dimensionless: '''[Variable]'''
+- dimensionless: '''[variable]'''
 - dimensionless: Approach point
 - dimensionless: Numerator function f
-- dimensionless: '''[Variable]'''
+- dimensionless: '''[variable]'''
 - dimensionless: Approach point
 - dimensionless: Denominator function g

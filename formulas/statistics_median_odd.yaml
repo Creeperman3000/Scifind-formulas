@@ -2,6 +2,14 @@ name: Median of an odd-sized dataset
 id: statistics_median_odd
 topic: statistics
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Median
+  - https://en.wikipedia.org/wiki/Order_statistic
+  - https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/mean-median-basics/v/statistics-intro-mean-median-and-mode
+  - https://math.libretexts.org/Bookshelves/Statistics_and_Probability/Introductory_Statistics/02%3A_Descriptive_Statistics/2.02%3A_Measures_of_Central_Tendency
+  - https://www.cuemath.com/data/median/
+  - https://www.mathsisfun.com/median.html
+description: "For a dataset containing an odd number of values, the median is the single middle observation once the data are arranged in order. Equivalently, it is the order statistic at position (n+1)/2, where n is the sample size, making it the 2-quantile of the empirical distribution. This definition of the median is robust to outliers, since it depends only on the rank of the central value rather than its magnitude."
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: Median

@@ -2,15 +2,25 @@ name: Residual standard error
 id: residual_standard_error
 topic: statistics
 difficulty: 8
-equation: dimensionless eq sqrt (dimensionless frac ((dimensionless sub dimensionless)
-  sub 1) ) 2
+links:
+- https://en.wikipedia.org/wiki/Errors_and_residuals
+- https://en.wikipedia.org/wiki/Residual_sum_of_squares
+- https://en.wikipedia.org/wiki/Standard_error
+- https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)
+description: The residual standard error is the square root of the residual sum of
+  squares divided by the residual degrees of freedom, used to estimate the standard
+  deviation of the unobserved errors in a linear regression. It serves as a goodness-of-fit
+  measure, with smaller values indicating that observations lie closer to the fitted
+  regression line.
+equation: ((dimensionless) eq ((dimensionless frac ((dimensionless sub dimensionless)
+  sub 1)) sqrt 2))
 symbol_overrides:
 - dimensionless: s_e
 - dimensionless: SS_{\mathrm{res}}
 - dimensionless: n
 - dimensionless: p
 name_overrides:
-- dimensionless: Residual standard [error]
+- dimensionless: Residual standard error
 - dimensionless: Residual sum of squares
 - dimensionless: Sample size
 - dimensionless: Number of predictors

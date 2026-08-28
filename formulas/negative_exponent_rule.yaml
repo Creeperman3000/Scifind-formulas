@@ -2,7 +2,15 @@ name: Negative exponent rule
 id: negative_exponent_rule
 topic: exponents
 difficulty: 3
-equation: (dimensionless pow (drop dimensionless sub)) eq 1 frac ((dimensionless) pow dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Exponentiation#Negative_exponents
+- https://mathworld.wolfram.com/NegativeExponent.html
+- https://www.cuemath.com/algebra/negative-exponents/
+description: The negative exponent rule states that any nonzero base raised to a negative
+  integer power equals the reciprocal of that base raised to the corresponding positive
+  power. It is a defining identity that extends exponentiation beyond non-negative
+  integers and is consistent with the multiplication rule b^m · b^n = b^(m+n).
+equation: dimensionless pow (drop dimensionless sub) eq 1 frac dimensionless pow dimensionless
 symbol_overrides:
 - dimensionless: a
 - dimensionless: n

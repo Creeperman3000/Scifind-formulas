@@ -2,8 +2,17 @@ name: Maximum height of a projectile
 id: projectile_max_height
 topic: projectile_motion
 difficulty: 5
-equation: length eq (((velocity pow 2) mul (sin angle pow 2)) frac (2 mul standard_gravity
-  ))
+links:
+- https://en.wikipedia.org/wiki/Projectile_motion#Maximum_height_of_projectile
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_1e_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.04%3A_Projectile_Motion
+- https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/projectiles-launched-at-an-angle
+- https://www.physicsclassroom.com/Class/vectors/u3l2d.cfm
+- https://www.britannica.com/science/projectile-motion
+description: The maximum height reached by a projectile occurs when the vertical component
+  of its velocity becomes zero. It depends on the initial speed, the launch angle,
+  and the local gravitational acceleration, and is independent of the projectile's
+  mass. Applies in the idealized case of no air resistance and uniform gravity.
+equation: length eq (velocity pow 2) mul (sin angle pow 2) frac 2 mul standard_gravity
 symbol_overrides:
 - length: h_{max}
 - velocity: v_0

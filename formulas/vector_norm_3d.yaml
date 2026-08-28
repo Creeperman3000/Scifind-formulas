@@ -2,7 +2,17 @@ name: 3D vector norm (magnitude)
 id: vector_norm_3d
 topic: linear_algebra
 difficulty: 5
-equation: dimensionless eq sqrt (dimensionless pow (dimensionless) add (dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Norm_(mathematics)
+- https://en.wikipedia.org/wiki/Euclidean_vector
+- https://en.wikipedia.org/wiki/Euclidean_norm
+- https://mathworld.wolfram.com/VectorNorm.html
+- https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-magnitude-and-direction
+description: The Euclidean norm (length) of a three-dimensional vector, computed as
+  the square root of the sum of the squares of its Cartesian components. It generalizes
+  the Pythagorean theorem to vectors in R^3 and equals the distance from the origin
+  to the point (v_x, v_y, v_z).
+equation: dimensionless eq sqrt (dimensionless pow (dimensionless) add dimensionless
   pow (dimensionless) add dimensionless pow dimensionless ) 2
 symbol_overrides:
 - dimensionless: '|v|'
@@ -17,6 +27,3 @@ name_overrides:
 - dimensionless: x-component
 - dimensionless: y-component
 - dimensionless: z-component
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''

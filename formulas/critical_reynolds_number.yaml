@@ -2,8 +2,14 @@ name: Critical Reynolds number
 id: critical_reynolds_number
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Reynolds_number
+  - https://www.nuclear-power.com/nuclear-engineering/fluid-dynamics/reynolds-number/critical-reynolds-number/
+  - https://www.engineeringtoolbox.com/reynolds-number-d_237.html
+  - https://www.princeton.edu/~asmits/Bicycle_web/transition.html
+description: "The critical Reynolds number is the approximate value of the Reynolds number at which fluid flow in a circular pipe transitions from laminar to turbulent regime. It is an empirical, geometry-dependent threshold (about 2300 for fully developed pipe flow) rather than a universal constant, since inlet conditions, roughness, and disturbances shift the observed transition point."
 equation: reynolds_number approx 2300
 symbol_overrides:
 - reynolds_number: Re_c
 name_overrides:
-- reynolds_number: Critical [Reynolds number]
+- reynolds_number: Critical [reynolds_number]

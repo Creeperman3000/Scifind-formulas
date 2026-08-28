@@ -2,12 +2,16 @@ name: Proper time
 id: proper_time
 topic: relativity
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Proper_time
+  - https://en.wikipedia.org/wiki/Time_dilation
+  - https://en.wikipedia.org/wiki/Lorentz_factor
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_(OpenStax)/05%3A__Relativity/5.3%3A_Time_Dilation
+  - https://www.britannica.com/science/proper-time
+description: "Proper time is the elapsed time measured by a clock traveling between two events along its own world line, making it a Lorentz-invariant scalar. In special relativity, the proper-time interval between two events is always less than or equal to the coordinate time measured in any inertial frame, with the difference captured by the Lorentz factor. This relation underlies phenomena such as time dilation, the twin paradox, and muon lifetime extension observed in cosmic-ray experiments."
 equation: time eq time frac lorentz_factor
 symbol_overrides:
 - time: τ
-- time: ''
-- lorentz_factor: ''
 name_overrides:
 - time: Proper [time]
 - time: Coordinate [time]
-- lorentz_factor: ''

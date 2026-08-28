@@ -2,8 +2,13 @@ name: Reynolds number flow regime criterion
 id: reynolds_number_flow_regime_lam_turb
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Reynolds_number
+  - https://en.wikipedia.org/wiki/Laminar%E2%80%93turbulent_transition
+  - https://www.engineeringtoolbox.com/laminar-transitional-turbulent-flow-d_577.html
+  - https://www.britannica.com/science/Reynolds-number
+  - https://byjus.com/physics/laminar-flow/
+description: "The empirical criterion Re < 2000 indicates fully developed laminar flow in a pipe, while values above approximately 4000 indicate fully turbulent flow; intermediate values give transitional, intermittent flow. This widely used engineering rule of thumb helps predict flow regime in pipe systems."
 equation: reynolds_number lt 2000
 name_overrides:
-- reynolds_number: Reynolds number (laminar condition)
-symbol_overrides:
-- reynolds_number: ''
+- reynolds_number: '[reynolds_number] (laminar condition)'

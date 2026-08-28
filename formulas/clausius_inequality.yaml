@@ -2,12 +2,14 @@ name: Clausius inequality
 id: clausius_inequality
 topic: second_law
 difficulty: 9
-equation: entropy geq energy frac temperature
+links:
+  - https://en.wikipedia.org/wiki/Clausius_theorem
+  - https://pressbooks.pub/thermo/chapter/chapter-6-2
+  - https://www.sfu.ca/~mbahrami/ENSC%20388/Notes/Entropy.pdf
+  - https://engineerfix.com/what-the-clausius-inequality-reveals-about-entropy/
+description: "A statement of the second law of thermodynamics: evaluated over any complete cycle, the net heat delivered to a system divided by the temperature at which it is exchanged cannot be positive. The equality holds only for fully reversible cycles, while real (irreversible) cycles give a negative value. This inequality underlies the definition of entropy and limits the performance of engines and refrigerators."
+equation: oint drop drop (energy frac temperature) leq 0
 symbol_overrides:
-- entropy: dS
-- energy: δQ
-- temperature: T
+- energy: \delta Q
 name_overrides:
-- entropy: Change in [entropy]
-- energy: Reversible heat
-- temperature: ''
+- energy: '[energy|Heat] exchanged by the system around the cycle'

@@ -2,17 +2,20 @@ name: Capillary rise
 id: capillary_rise
 topic: surface_tension
 difficulty: 8
-equation: length eq 2 mul (surface_tension mul cos angle ) frac density mul (standard_gravity)
-  mul length
+links:
+  - https://en.wikipedia.org/wiki/Jurin%27s_Law
+  - https://farside.ph.utexas.edu/teaching/336L/Fluid/node45.html
+  - https://chem-textbook.ucalgary.ca/capillary-action-calculation/
+description: "Known as Jurin's law, this relation gives the height to which a wetting liquid climbs (or is depressed) in a narrow tube due to surface tension acting against the weight of the liquid column. The rise grows with surface tension and shrinks as the tube gets wider or the liquid denser; a contact angle beyond ninety degrees flips the effect to a depression, as with mercury in glass. It assumes a thin cylindrical tube and a static equilibrium meniscus."
+equation: length eq 2 mul (surface_tension mul cos angle) frac density mul (standard_gravity) mul length
 symbol_overrides:
 - length: h
 - surface_tension: γ
 - angle: θ
 - density: ρ
 - length: r
+- standard_gravity: g
 name_overrides:
 - length: Height
-- surface_tension: ''
 - angle: Contact angle
-- density: ''
 - length: Tube radius

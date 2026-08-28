@@ -2,12 +2,9 @@ name: Current density
 id: current_density_formula
 topic: current_electricity
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Current_density
+  - https://www.geeksforgeeks.org/physics/current-density/
+  - https://www.vedantu.com/physics/current-density
+description: "Current density is the amount of electric current flowing through a unit cross-sectional area of a conductor, measured in amperes per square meter. It characterizes how concentrated the charge flow is at a point and is used to size wires and analyze current distribution; the full quantity is a vector pointing along the motion of positive charge."
 equation: current_density eq current frac area
-symbol_overrides:
-- current_density: ''
-- current: ''
-- area: ''
-name_overrides:
-- current_density: ''
-- current: ''
-- area: ''

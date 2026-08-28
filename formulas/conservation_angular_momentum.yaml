@@ -2,10 +2,16 @@ name: Conservation of angular momentum
 id: conservation_angular_momentum
 topic: angular_momentum
 difficulty: 6
+links:
+  - https://openstax.org/books/college-physics-ap-courses-2e/pages/10-5-angular-momentum-and-its-conservation
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum/11.04%3A_Conservation_of_Angular_Momentum
+  - https://en.wikipedia.org/wiki/Conservation_of_angular_momentum
+  - https://brilliant.org/wiki/conservation-of-angular-momentum/
+description: "The total angular momentum of a system stays constant when no net external torque acts on it. Individual parts of the system may exchange rotational motion, but the total about the given axis cannot change. This law explains effects such as a figure skater spinning faster by pulling in their arms and governs rotating collisions and orbital motion."
 equation: angular_momentum eq angular_momentum
 symbol_overrides:
 - angular_momentum: L_i
 - angular_momentum: L_f
 name_overrides:
 - angular_momentum: Initial angular [momentum]
-- angular_momentum: ''
+- angular_momentum: Final angular [momentum]

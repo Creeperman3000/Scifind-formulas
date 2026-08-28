@@ -2,10 +2,12 @@ name: Cosecant identity
 id: cosecant_identity
 topic: trigonometric_identities
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://www.cuemath.com/trigonometry/reciprocal-identities/
+  - https://www.mathwords.com/r/reciprocal_identities.htm
+description: "The cosecant is one of the six trigonometric functions and is defined as the reciprocal of the sine, so it equals the ratio of the hypotenuse to the opposite side in a right triangle. It is undefined wherever the sine vanishes (at integer multiples of pi). This identity is used to rewrite expressions and prove other trigonometric relations."
 equation: dimensionless eq 1 frac sin angle
 symbol_overrides:
-- dimensionless: csc(θ)
-- angle: θ
-name_overrides:
-- dimensionless: ''
-- angle: ''
+- dimensionless: \csc\theta
+- angle: \theta

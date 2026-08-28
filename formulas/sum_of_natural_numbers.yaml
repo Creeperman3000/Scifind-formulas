@@ -2,6 +2,13 @@ name: Sum of first n natural numbers
 id: sum_of_natural_numbers
 topic: arithmetic
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF
+  - https://en.wikipedia.org/wiki/Triangular_number
+  - https://mathworld.wolfram.com/TriangularNumber.html
+  - https://www.cuemath.com/algebra/sum-of-natural-numbers/
+  - https://www.britannica.com/science/triangular-number
+description: "Gives the closed form for the nth triangular number, the sum of the positive integers from 1 through n. The formula is often attributed to the Pythagoreans and arises in counting, combinatorics, and proofs by induction."
 equation: dimensionless eq dimensionless mul (dimensionless add 1) frac 2
 symbol_overrides:
 - dimensionless: S

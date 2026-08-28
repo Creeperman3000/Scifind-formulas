@@ -2,14 +2,27 @@ name: Mole fraction
 id: mole_fraction
 topic: solutions
 difficulty: 5
-equation: concentration eq amount frac amount add amount
+links:
+- https://en.wikipedia.org/wiki/Mole_fraction
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Mixtures/Nonideal_Solutions/Mole_Fraction
+- https://www.khanacademy.org/science/chemistry/states-of-matter-and-intermolecular-forces/mixtures-and-solutions/a/mole-fraction
+- https://www.britannica.com/science/mole-fraction
+- https://goldbook.iupac.org/terms/view/A00295
+- https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Mole_Fraction.htm
+description: The mole fraction (or amount fraction) of a component in a mixture is
+  the ratio of its amount of substance to the total amount of all components; it is
+  a dimensionless quantity that is temperature-independent and widely used in phase
+  diagrams, gas mixtures, and colligative-property calculations. Because the mole
+  fractions of all components sum to one, the quantity for one component determines
+  the rest in a binary mixture.
+equation: dimensionless eq amount frac amount add amount
 symbol_overrides:
-- concentration: χ_A
+- dimensionless: \chi_A
 - amount: n_A
 - amount: n_A
 - amount: n_B
 name_overrides:
-- concentration: Mole fraction of A
+- dimensionless: Mole fraction of A
 - amount: Amount of A
 - amount: Amount of A
 - amount: Amount of B

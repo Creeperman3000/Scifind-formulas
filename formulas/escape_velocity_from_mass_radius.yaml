@@ -2,7 +2,11 @@ name: Escape velocity from mass and radius
 id: escape_velocity_from_mass_radius
 topic: escape_velocity
 difficulty: 6
-equation: velocity eq sqrt ((gravitational_constant mul 2) mul (mass) frac length )
+links:
+  - https://en.wikipedia.org/wiki/Escape_velocity
+  - https://en.wikipedia.org/wiki/Gravitational_potential_energy
+description: "Gives the minimum speed needed to break free from the gravitational pull of a planet or other spherical body, launched from its surface, in terms of the body's mass and radius. The required speed decreases with larger radius for a fixed mass and increases with the square root of the mass. Assumes a spherically symmetric body, no atmosphere, and no propulsion after launch."
+equation: velocity eq sqrt ((2 mul gravitational_constant) mul (mass) frac length )
   2
 symbol_overrides:
 - velocity: v_{esc}
@@ -11,4 +15,4 @@ symbol_overrides:
 name_overrides:
 - velocity: Escape [velocity]
 - mass: Planet [mass]
-- length: Planet [radius]
+- length: Planet radius

@@ -2,6 +2,13 @@ name: Geometric mean
 id: geometric_mean_formula
 topic: arithmetic
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Geometric_mean
+  - https://mathworld.wolfram.com/GeometricMean.html
+  - https://www.britannica.com/science/geometric-mean
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/06%3A_Radical_Expressions_and_Functions/6.07%3A_Geometric_Mean
+  - https://www.cuemath.com/geometry/geometric-mean/
+description: "The geometric mean of a set of positive numbers is the n-th root of their product. Unlike the arithmetic mean, it is appropriate for quantities that combine multiplicatively, such as growth rates or ratios, and is always less than or equal to the arithmetic mean."
 equation: dimensionless eq sqrt (dimensionless mul dimensionless ) 2
 symbol_overrides:
 - dimensionless: GM

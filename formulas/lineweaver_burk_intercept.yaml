@@ -2,8 +2,16 @@ name: Lineweaver-Burk y-intercept
 id: lineweaver_burk_intercept
 topic: biochemistry
 difficulty: 8
-equation: (frac 1 dimensionless) eq (frac 1 dimensionless) add ((frac dimensionless dimensionless) mul
-  (frac 1 dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot
+- https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics
+- https://www.ncbi.nlm.nih.gov/books/NBK92007/
+- https://www.chem.fsu.edu/chem-fall/chm3210/lineweaver-burk.pdf
+description: The y-intercept of a Lineweaver-Burk plot equals 1/V_max, providing a
+  direct graphical estimate of the limiting (maximum) enzyme reaction rate when the
+  substrate concentration tends to infinity.
+equation: frac 1 dimensionless eq frac 1 dimensionless add frac dimensionless dimensionless
+  mul frac 1 dimensionless
 symbol_overrides:
 - dimensionless: v
 - dimensionless: V_{max}

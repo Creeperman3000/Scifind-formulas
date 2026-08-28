@@ -2,12 +2,18 @@ name: Wave intensity
 id: wave_intensity
 topic: mechanical_waves
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Intensity_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.05%3A_Energy_and_Power_of_a_Wave
+  - https://en.wikipedia.org/wiki/Sound_intensity
+  - https://en.wikipedia.org/wiki/Poynting_vector
+description: Wave intensity is the time-averaged power transmitted by a wave per unit area perpendicular to the direction of propagation, with SI units of watts per square metre. It quantifies how concentrated a wave's energy flux is at a surface and underlies the inverse-square attenuation of a point source.
 equation: power eq power frac area
 symbol_overrides:
 - power: I
-- power: ''
-- area: ''
+- power: P
+- area: A
 name_overrides:
 - power: Intensity
-- power: '[Power]'
-- area: ''
+- power: '[power] carried by the wave'
+- area: '[area] perpendicular to propagation'

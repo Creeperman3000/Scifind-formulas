@@ -2,12 +2,17 @@ name: Standard cell potential
 id: cell_potential_standard
 topic: electrochemistry
 difficulty: 7
+links:
+  - https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Potentials/Standard_Potentials
+  - https://en.wikipedia.org/wiki/Standard_electrode_potential
+description: "The standard cell potential is the voltage of an electrochemical cell when both half-cells are in their standard states — one molar solutions, one bar gas pressures, and 25 degrees Celsius. It combines the tabulated standard reduction potentials of the two electrodes and measures the driving force of the redox reaction: a positive value indicates a spontaneous galvanic cell. It is the starting point for predicting spontaneity and calculating equilibrium constants."
 equation: electric_potential eq electric_potential sub electric_potential
 symbol_overrides:
 - electric_potential: E°_{cell}
 - electric_potential: E°_{cathode}
 - electric_potential: E°_{anode}
 name_overrides:
-- electric_potential: Standard cell [potential]
-- electric_potential: Cathode [potential]
-- electric_potential: Anode [potential]
+- electric_potential: Standard cell potential
+- electric_potential: Cathode potential
+- electric_potential: Anode potential

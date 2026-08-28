@@ -2,12 +2,16 @@ name: Temperature in Rankine from Fahrenheit
 id: temperature_rankine_from_fahrenheit
 topic: temperature
 difficulty: 6
-equation: temperature eq temperature add temperature
+links:
+  - https://en.wikipedia.org/wiki/Rankine_scale
+  - https://en.wikipedia.org/wiki/Fahrenheit
+  - https://en.wikipedia.org/wiki/Conversion_of_scales_of_temperature
+  - https://www.engineeringtoolbox.com/temperature-conversion-d_216.html
+description: "Converts a Fahrenheit reading to the equivalent temperature on the absolute Rankine scale. Because Rankine uses Fahrenheit-sized degree intervals but is anchored at absolute zero, the conversion is just a constant offset of 459.67 degrees, used in engineering systems that work in Fahrenheit while still requiring an absolute thermodynamic scale."
+equation: temperature eq temperature add 459.67
 symbol_overrides:
 - temperature: T_R
 - temperature: T_F
-- temperature: '459.67'
 name_overrides:
 - temperature: Rankine [temperature]
 - temperature: Fahrenheit [temperature]
-- temperature: Offset

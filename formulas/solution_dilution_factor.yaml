@@ -2,12 +2,18 @@ name: Dilution factor
 id: solution_dilution_factor
 topic: solution_stoichiometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Dilution_(equation)
+  - https://en.wikipedia.org/wiki/Serial_dilution
+  - https://en.wikipedia.org/wiki/Concentration
+  - https://en.wikipedia.org/wiki/Dilution_ratio
+description: "The dilution factor expresses how much a solution has been diluted, defined as the ratio of the final (diluted) solution volume to the volume of the original concentrated stock solution. Together with the dilution equation c1V1 = c2V2, it is the basis for serial-dilution protocols used in microbiology, pharmacology, and analytical chemistry."
 equation: dimensionless eq volume frac volume
 symbol_overrides:
 - dimensionless: DF
 - volume: V_{final}
 - volume: V_{initial}
 name_overrides:
-- dimensionless: Dilution [factor]
+- dimensionless: Dilution factor
 - volume: Final [volume]
 - volume: Initial [volume]

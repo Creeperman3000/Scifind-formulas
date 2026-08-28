@@ -2,10 +2,19 @@ name: Derivative of a constant
 id: derivative_constant_rule
 topic: derivatives
 difficulty: 5
-equation: frac (rmd dimensionless) (rmd dimensionless) eq 0
+links:
+- https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.03%3A_Differentiation_Rules
+- https://en.wikipedia.org/wiki/Constant_factor_rule_in_differentiation
+- https://tutorial.math.lamar.edu/classes/calci/DiffFormulas.aspx
+description: The constant rule states that the derivative of a constant function is
+  zero, since a constant function is a horizontal line with no rate of change. It
+  is one of the most basic differentiation rules and follows immediately from the
+  limit definition of the derivative.
+equation: frac rmd dimensionless rmd dimensionless eq 0
 symbol_overrides:
 - dimensionless: c
 - dimensionless: x
 name_overrides:
 - dimensionless: Constant c
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'

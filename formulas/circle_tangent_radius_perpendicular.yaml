@@ -2,10 +2,16 @@ name: Tangent-radius perpendicularity
 id: circle_tangent_radius_perpendicular
 topic: circles
 difficulty: 4
+links:
+  - https://proofwiki.org/wiki/Radius_at_Right_Angle_to_Tangent
+  - https://brilliant.org/wiki/tangent-perpendicular-to-radius/
+  - https://math.libretexts.org/Bookshelves/Geometry/Elementary_College_Geometry_(Africk)/07%3A_Regular_Polygons_and_Circles/7.03%3A_Tangents_to_the_Circle
+  - https://en.wikipedia.org/wiki/Tangent_lines_to_circles
+description: "States the tangent-to-a-circle theorem from Euclidean geometry: at the point where a tangent line touches a circle, the radius drawn to that point makes a right angle with the tangent. The converse also holds, so a line perpendicular to a radius at its endpoint on the circle is necessarily a tangent. This fact is the basis for many circle proofs and for tangent-length constructions."
 equation: angle eq angle
 symbol_overrides:
-- angle: 90°
 - angle: θ
+- angle: 90°
 name_overrides:
-- angle: Angle between radius and tangent
-- angle: Angle measure
+- angle: Angle between radius and [tangent]
+- angle: Right angle

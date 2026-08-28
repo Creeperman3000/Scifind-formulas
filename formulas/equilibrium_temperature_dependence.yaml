@@ -2,8 +2,19 @@ name: Van 't Hoff equation
 id: equilibrium_temperature_dependence
 topic: chemical_equilibrium
 difficulty: 8
-equation: log euler_e (dimensionless frac dimensionless) eq ((energy frac gas_constant) mul ((1 frac dimensionless)
-  sub (1 frac dimensionless)))
+links:
+- https://en.wikipedia.org/wiki/Van_%27t_Hoff_equation
+- https://chem.libretexts.org/Courses/Millersville_University/CHEM_341-_Physical_Chemistry_I/09%3A_Chemical_Equilibria/9.06%3A_Temperature_Dependence_of_Equilibrium_Constants_-_the_van_t_Hoff_Equation
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_%28LibreTexts%29/26%3A_Chemical_Equilibrium/26.07%3A_The_van_%27t_Hoff_Equation
+- https://sciencenotes.org/vant-hoff-equation-definition-derivation-and-applications/
+description: Describes how the equilibrium constant of a reaction changes with temperature,
+  derived by combining the Gibbs free energy relation with thermodynamics. For an
+  endothermic reaction (positive enthalpy change) the equilibrium constant increases
+  as temperature rises, while for an exothermic reaction it decreases. The integrated
+  two-temperature form assumes the standard enthalpy change stays constant over the
+  temperature range.
+equation: log euler_e (dimensionless frac dimensionless) eq (energy frac gas_constant)
+  mul ((1 frac dimensionless) sub 1 frac dimensionless )
 symbol_overrides:
 - dimensionless: K_2
 - dimensionless: K_1

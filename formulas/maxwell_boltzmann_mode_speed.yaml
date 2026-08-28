@@ -2,14 +2,20 @@ name: Most probable speed from Maxwell-Boltzmann distribution
 id: maxwell_boltzmann_mode_speed
 topic: ideal_gases
 difficulty: 9
-description: "Most probable speed from the Maxwell-Boltzmann speed distribution; v_p = √(2 k_B T / m)."
-equation: velocity eq sqrt (2 mul (gas_constant mul temperature ) frac molar_mass )
-  2
+links:
+- https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/03%3A_The_Kinetic_Theory_of_Gases/3.4%3A_The_Maxwell-Boltzmann_Distribution
+- https://www.phys.unsw.edu.au/PHYS1169/PDFs/MB.pdf
+- https://farside.ph.utexas.edu/teaching/sm1/lectures/node13.html
+description: The most probable speed is the speed at which the Maxwell-Boltzmann speed
+  distribution attains its maximum; it equals the square root of twice the product
+  of the gas constant and absolute temperature divided by the molar mass (equivalently,
+  twice the Boltzmann constant times temperature divided by the molecular mass). It
+  is the simplest characteristic speed of an ideal gas in thermal equilibrium, smaller
+  than the mean speed and the rms speed.
+equation: ((velocity) eq (((2 mul (gas_constant mul temperature)) frac molar_mass)
+  sqrt 2))
 symbol_overrides:
 - velocity: v_{mp}
-- temperature: T
-- molar_mass: M
 name_overrides:
 - velocity: Most probable speed
-- temperature: Temperature
-- molar_mass: Molar mass

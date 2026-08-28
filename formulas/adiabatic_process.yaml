@@ -2,14 +2,18 @@ name: Adiabatic Process
 id: adiabatic_process
 topic: ideal_gases
 difficulty: 7
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas
+  - https://en.wikipedia.org/wiki/Adiabatic
+  - http://hyperphysics.phy-astr.gsu.edu/HBASE/thermo/adiab.html
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/08%3A_Heat_Capacity_and_the_Expansion_of_Gases/8.04%3A_Reversible_Adiabatic_Expansion_of_an_Ideal_Gas
+description: "In a quasi-static, reversible adiabatic process an ideal gas expands or compresses with no heat exchanged with the surroundings, so pressure and volume are constrained to vary along a steeper curve than an isotherm. The exponent is the heat capacity ratio of the gas (about 1.4 for air). This condition is used to relate the states of a gas in engines, compressors, and atmospheric processes."
 equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
-- pressure: ''
-- volume: ''
-- dimensionless: γ
+- dimensionless: \gamma
 - dimensionless: C
 name_overrides:
-- pressure: '[Pressure]'
-- volume: '[Volume]'
+- pressure: '[pressure]'
+- volume: '[volume]'
 - dimensionless: Heat capacity ratio
 - dimensionless: Constant

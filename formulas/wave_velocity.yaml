@@ -2,12 +2,15 @@ name: Wave velocity
 id: wave_velocity
 topic: mechanical_waves
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Wavelength
+  - https://en.wikipedia.org/wiki/Wave#Wave_velocity
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.03%3A_Mathematics_of_Waves
+  - https://en.wikipedia.org/wiki/Phase_velocity
+description: The wave velocity, also called phase speed, relates a periodic wave's frequency and wavelength, expressing the distance a crest travels per unit time. It is set by the medium's properties, so a given frequency determines a unique wavelength and vice versa.
 equation: velocity eq frequency mul length
 symbol_overrides:
-- velocity: ''
-- frequency: ''
 - length: λ
 name_overrides:
 - velocity: Wave [velocity]
-- frequency: ''
 - length: Wavelength

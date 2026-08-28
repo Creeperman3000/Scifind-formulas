@@ -2,12 +2,18 @@ name: Integral of cosine
 id: integral_cos
 topic: integrals
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+  - https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-antiderivatives/v/antiderivative-of-cosx
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/01%3A_Functions_and_Graphs/1.04%3A_Trigonometric_Functions
+description: "The antiderivative (indefinite integral) of the cosine function is the sine function. It is one of the most basic trigonometric integrals and follows directly from the fact that the derivative of sine is cosine."
 equation: int drop drop (cos angle mul rmd angle) eq sin angle
 symbol_overrides:
-- angle: x
-- angle: x
-- angle: x
+  - angle: x
+  - angle: x
+  - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+  - angle: '[variable]'
+  - angle: '[variable]'
+  - angle: '[variable]'

@@ -2,10 +2,14 @@ name: Angular frequency
 id: angular_frequency
 topic: harmonic_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Angular_frequency
+  - https://www.geeksforgeeks.org/physics/angular-frequency/
+  - https://www.britannica.com/science/angular-frequency
+  - https://fiveable.me/principles-physics-iii-thermal-physics-waves/key-terms/angular-frequency
+description: "Angular frequency measures how quickly a periodic process advances through its cycle, expressed as an angle covered per unit time in radians per second rather than cycles per second. It is used throughout oscillation, wave, and circular-motion analysis because sinusoidal expressions become compact when written in terms of it."
 equation: angular_velocity eq (pi mul 2) mul frequency
 symbol_overrides:
-- angular_velocity: ω
-- frequency: ''
+- angular_velocity: \omega
 name_overrides:
 - angular_velocity: Angular frequency
-- frequency: ''

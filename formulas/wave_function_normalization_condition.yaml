@@ -2,7 +2,18 @@ name: Normalization condition for a wave function
 id: wave_function_normalization_condition
 topic: quantum_mechanics
 difficulty: 9
-equation: int drop drop ((((abs dimensionless) pow 2) mul rmd dimensionless)) eq 1
+links:
+- https://en.wikipedia.org/wiki/Wave_function#Position-space_wave_functions
+- https://en.wikipedia.org/wiki/Normalizable_wave_function
+- https://en.wikipedia.org/wiki/Born_rule
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(McIntyre)/02%3A_One-Dimensional_Wave_Functions/2.01%3A_The_Wave_Function_and_Its_Meaning
+- https://www.khanacademy.org/science/physics/quantum-physics-welcome/quantum-physics-basics-welcome/v/normalization-of-wave-functions
+description: The Born rule identifies the squared magnitude of a quantum-mechanical
+  wave function as a probability density, so the integral of that density over all
+  space must equal one. This normalization condition, together with the Schrodinger
+  equation, fixes the allowed scale of the wave function and underpins the probabilistic
+  interpretation of quantum mechanics.
+equation: int drop drop ((abs dimensionless pow 2) mul rmd dimensionless) eq 1
 symbol_overrides:
 - dimensionless: \psi
 - dimensionless: x

@@ -2,9 +2,14 @@ name: Venturi effect (pressure difference)
 id: venturi_effect
 topic: bernoulli_equation
 difficulty: 7
-description: "Valid for steady, incompressible, inviscid flow through a constriction."
-equation: pressure sub pressure eq density mul ((velocity pow 2) sub velocity pow
-  2 ) frac 2
+links:
+  - https://en.wikipedia.org/wiki/Venturi_effect
+  - https://en.wikipedia.org/wiki/Bernoulli%27s_principle
+  - https://en.wikipedia.org/wiki/Venturi_meter
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.06%3A_Bernoulli%27s_Equation
+  - https://www.khanacademy.org/science/physics/fluids/fluid-dynamics/v/what-is-venturi-effect
+description: "Quantifies the pressure drop that occurs when a fluid speeds up through a constriction, derived from Bernoulli's principle. Valid for steady, incompressible, inviscid flow; underlies the operation of Venturi meters, carburetors, and atomizers."
+equation: pressure sub pressure eq density mul ((velocity pow 2) sub velocity pow 2) frac 2
 symbol_overrides:
 - pressure: P_1
 - pressure: P_2
@@ -12,8 +17,8 @@ symbol_overrides:
 - velocity: v_2
 - velocity: v_1
 name_overrides:
-- pressure: '[Pressure] at point 1'
-- pressure: '[Pressure] at point 2'
+- pressure: '[pressure] at point 1'
+- pressure: '[pressure] at point 2'
 - density: Fluid [density]
 - velocity: Flow [velocity] at point 2
 - velocity: Flow [velocity] at point 1

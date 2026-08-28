@@ -2,8 +2,18 @@ name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
 difficulty: 8
-equation: wavenumber eq (dimensionless sub 1) mul ((1 frac length) sub (1 frac length))
-description: Valid for thin lenses (paraxial approximation, negligible thickness).
+links:
+- https://en.wikipedia.org/wiki/Lens_(optics)#Thin_lens_approximation
+- https://phys.libretexts.org/Bookshelves/Optics/Supplemental_Modules_(Components)/Lenses
+- https://www.britannica.com/technology/lens
+- https://www.khanacademy.org/science/physics/geometric-optics/lenses/v/lensmaker-s-equation
+- https://www.rp-photonics.com/lensmaker_equation.html
+description: The thin-lens form of the lensmaker's equation gives the reciprocal focal
+  length of a thin spherical lens in air as a function of its refractive index and
+  the radii of curvature of its two surfaces. It assumes negligible lens thickness
+  and paraxial rays, and is widely used to design and analyse optical instruments.
+equation: wavenumber eq (dimensionless sub 1) mul ((1 frac length) sub 1 frac length
+  )
 symbol_overrides:
 - dimensionless: n
 - length: R_1

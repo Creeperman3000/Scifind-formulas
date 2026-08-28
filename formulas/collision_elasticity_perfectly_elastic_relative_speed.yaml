@@ -2,14 +2,20 @@ name: Relative speed in elastic collision
 id: collision_elasticity_perfectly_elastic_relative_speed
 topic: collisions
 difficulty: 7
-equation: velocity sub velocity eq drop velocity sub velocity sub
+links:
+  - https://en.wikipedia.org/wiki/Elastic_collision
+  - https://openstax.org/books/college-physics-ap-courses/pages/8-4-elastic-collisions-in-one-dimension
+  - https://phys.libretexts.org/Courses/Merrimack_College/Conservation_Laws_Newton's_Laws_and_Kinematics_version_2.0/08%3A_C8)_Conservation_of_Energy-_Kinetic_and_Gravitational/8.05%3A_Relative_Velocity_and_the_Coefficient_of_Restitution
+  - https://brilliant.org/wiki/analyzing-elastic-collisions/
+description: "In a one-dimensional perfectly elastic collision, the relative speed at which two bodies approach each other before impact equals the relative speed at which they separate afterward. This follows from conserving both momentum and kinetic energy, and it corresponds to a coefficient of restitution of one. It serves as a shortcut equation when solving elastic collision problems."
+equation: abs (velocity sub velocity) eq abs (velocity sub velocity)
 symbol_overrides:
 - velocity: v_1
 - velocity: v_2
 - velocity: v'_1
 - velocity: v'_2
 name_overrides:
-- velocity: Speed of approach
-- velocity: Speed of separation
+- velocity: '[velocity] of approach (before collision)'
 - velocity: ''
+- velocity: '[velocity] of separation (after collision)'
 - velocity: ''

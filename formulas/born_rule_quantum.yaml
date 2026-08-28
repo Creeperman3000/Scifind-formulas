@@ -2,11 +2,17 @@ name: Born rule for probability density
 id: born_rule_quantum
 topic: quantum_mechanics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Born_rule
+  - https://en.wikipedia.org/wiki/Born_probability
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.04%3A_Wavefunctions_Have_a_Probabilistic_Interpretation
+  - https://www.physicsbook.gatech.edu/The_Born_Rule
+description: "The Born rule links the quantum wavefunction to measurable outcomes: the probability density for finding a particle at a given position equals the squared magnitude of the normalized wavefunction at that point. It was formulated by Max Born in 1926 and underlies nearly all probabilistic predictions of quantum mechanics."
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P
-- dimensionless: ψ
-- dimensionless: ψ*
+- dimensionless: \psi
+- dimensionless: \psi^*
 name_overrides:
 - dimensionless: Probability density
 - dimensionless: Wavefunction

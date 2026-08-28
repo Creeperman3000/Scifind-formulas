@@ -2,6 +2,11 @@ name: Arithmetic mean
 id: arithmetic_mean
 topic: arithmetic
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Arithmetic_mean
+  - https://www.mathwords.com/a/arithmetic_mean.htm
+  - https://www.cuemath.com/data/arithmetic-mean
+description: "The arithmetic mean is the most common measure of central tendency, obtained by summing the values in a data set and dividing by how many there are. For two values it gives their midpoint and is used everywhere from report grades to physical measurements. Unlike the median it is sensitive to extreme values, so outliers can pull it away from where most of the data lies."
 equation: dimensionless eq (dimensionless add dimensionless ) frac 2
 symbol_overrides:
 - dimensionless: x̄

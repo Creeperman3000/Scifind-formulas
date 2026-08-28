@@ -2,12 +2,18 @@ name: Momentum change from force integral
 id: momentum_force_integral
 topic: linear_momentum
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Impulse_(physics)
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://en.wikipedia.org/wiki/Momentum
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Linear_Momentum_and_Collisions/8.01%3A_Impulse
+  - https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/a/what-are-impulse-and-momentum
+description: "The impulse-momentum theorem states that the impulse delivered to an object equals its change in momentum. For a constant net force, this reduces to a simple product of the force and the time interval over which it acts. The general integral form expresses momentum change as the time integral of the net force and is foundational for analyzing collisions and short-duration forces."
 equation: Delta momentum eq force mul time
 symbol_overrides:
-- momentum: Δp
-- force: ''
-- time: Δt
+  - momentum: Δp
+  - time: Δt
 name_overrides:
-- momentum: Change in [momentum]
-- force: Net [force]
-- time: Time interval
+  - momentum: Change in [momentum]
+  - force: Net [force]
+  - time: '[time] interval'

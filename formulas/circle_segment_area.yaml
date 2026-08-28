@@ -2,14 +2,16 @@ name: Area of a circular segment
 id: circle_segment_area
 topic: circles
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Circular_segment
+  - https://mathworld.wolfram.com/CircularSegment.html
+  - https://www.mathwords.com/a/area_segment_circle.htm
+description: "Gives the area of a circular segment, the region bounded by a chord and the arc it cuts off. It equals the area of the pie-slice sector minus that of the triangle formed by the two radii and the chord, so the central angle must be expressed in radians. Used in geometry and in practical problems such as liquid volumes in horizontal cylindrical tanks."
 equation: area eq (length pow 2) mul (angle sub sin angle ) frac 2
 symbol_overrides:
-- area: ''
 - length: R
 - angle: θ
-- angle: ''
 name_overrides:
-- area: Segment area
+- area: Segment [area]
 - length: Radius
 - angle: Central [angle]
-- angle: ''

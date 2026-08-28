@@ -2,15 +2,23 @@ name: Relativistic Doppler effect (approaching)
 id: relativistic_doppler_effect
 topic: relativity
 difficulty: 9
-equation: frequency eq frequency mul sqrt ((speed_of_light add velocity ) frac speed_of_light
+links:
+- https://en.wikipedia.org/wiki/Relativistic_Doppler_effect
+- https://en.wikipedia.org/wiki/Doppler_effect#Relativistic_Doppler_effect
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/05%3A_Relativity/5.09%3A_The_Relativistic_Doppler_Effect
+- https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/SpecShift.html
+- https://www.feynmanlectures.caltech.edu/I_34.html
+description: The relativistic Doppler effect describes the frequency shift of light
+  between a source and observer moving toward or away from each other, accounting
+  for time dilation in special relativity. It predicts a larger blueshift for approach
+  than the classical Doppler formula and a redshift for recession.
+equation: frequency eq frequency mul sqrt ((speed_of_light add velocity) frac speed_of_light
   sub velocity ) 2
 symbol_overrides:
 - frequency: f'
-- frequency: ''
-- velocity: ''
-- velocity: ''
+- frequency: f
+- velocity: v
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
 - velocity: Relative [velocity]
-- velocity: ''

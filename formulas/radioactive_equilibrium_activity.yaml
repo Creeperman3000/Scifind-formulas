@@ -2,10 +2,18 @@ name: Radioactive equilibrium activity
 id: radioactive_equilibrium_activity
 topic: nuclear_physics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Secular_equilibrium
+  - https://en.wikipedia.org/wiki/Transient_equilibrium
+  - https://en.wikipedia.org/wiki/Bateman_equation
+  - https://en.wikipedia.org/wiki/Radioactive_decay
+  - https://en.wikipedia.org/wiki/Decay_chain
+  - https://goldbook.iupac.org/S05532.html
+description: "In a parent-daughter radioactive chain, secular or transient equilibrium is reached when the daughter's production rate equals its decay rate, so its activity matches the parent's. This requires the parent to have a much longer half-life than the daughter, and it underpins radionuclide generator systems such as Mo-99/Tc-99m used in medical imaging."
 equation: activity eq activity
 symbol_overrides:
 - activity: A_1
 - activity: A_2
 name_overrides:
-- activity: Activity of parent
-- activity: Activity of daughter
+- activity: '[activity] of parent'
+- activity: '[activity] of daughter'

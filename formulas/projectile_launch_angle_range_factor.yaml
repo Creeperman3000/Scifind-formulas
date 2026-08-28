@@ -2,11 +2,21 @@ name: Projectile range dependence on launch angle
 id: projectile_launch_angle_range_factor
 topic: projectile_motion
 difficulty: 6
-equation: (length frac length) eq sin (2 mul angle)
+links:
+- https://en.wikipedia.org/wiki/Projectile_motion#Maximum_distance_of_projectile
+- https://en.wikipedia.org/wiki/Range_of_a_projectile
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_1e_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.04%3A_Projectile_Motion
+- https://www.physicsclassroom.com/Class/vectors/u3l2d.cfm
+- https://www.britannica.com/science/projectile-motion
+description: The horizontal range of a projectile launched and landing at the same
+  height depends on launch angle through the sine of twice that angle, scaled by its
+  maximum value. The two complementary angles that sum to 90° produce the same range.
+  Assumes vacuum and uniform gravity.
+equation: length frac length eq sin (2 mul angle)
 symbol_overrides:
 - length: R
 - length: R_{max}
-- angle: \theta
+- angle: θ
 name_overrides:
 - length: Range at angle θ
 - length: Maximum range

@@ -2,12 +2,21 @@ name: Derivative of natural logarithm
 id: derivative_ln
 topic: derivatives
 difficulty: 6
-equation: frac (rmd (log euler_e angle)) (rmd angle) eq 1 frac angle
+links:
+- https://tutorial.math.lamar.edu/classes/calci/diffexplogfcns.aspx
+- https://math.libretexts.org/Courses/Monroe_Community_College/MTH_210_Calculus_I_(Professor_Dean)/Chapter_3%3A_Derivatives/3.9%3A_Derivatives_of_Ln_General_Exponential_and_Log_Functions_and_Logarithmic_Differentiation
+- https://proofwiki.org/wiki/Derivative_of_Natural_Logarithm
+- https://www.onlinemathlearning.com/derivative-ln.html
+description: The derivative of the natural logarithm is the reciprocal of its argument,
+  defined for positive arguments. It follows from the fact that the natural logarithm
+  is the inverse of the natural exponential function, and it underlies logarithmic
+  differentiation and many integration results.
+equation: frac rmd (log euler_e angle) rmd angle eq 1 frac angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

@@ -2,17 +2,18 @@ name: Energy stored in a capacitor
 id: capacitor_energy
 topic: capacitance
 difficulty: 6
-equation: energy eq dimensionless frac (dimensionless) mul (capacitance) mul electric_potential
-  pow 2
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/8-3-energy-stored-in-a-capacitor
+  - https://openstax.org/books/college-physics-ap-courses-2e/pages/19-7-energy-stored-in-capacitors
+  - https://hyperphysics.gsu.edu/hbase/electric/capeng2.html
+  - https://byjus.com/physics/energy-stored-in-a-capacitor/
+description: "A charged capacitor stores electrical potential energy in the electric field between its plates; the amount grows with both the capacitance and the square of the voltage across it. This energy equals half the work done by the source during charging, since the capacitor voltage rises gradually from zero. It is used to size energy-storage elements, camera flash circuits, and defibrillators."
+equation: energy eq dimensionless frac (dimensionless) mul (capacitance) mul electric_potential pow 2
 symbol_overrides:
 - energy: U
 - dimensionless: '1'
 - dimensionless: '2'
-- capacitance: C
-- electric_potential: V
 name_overrides:
-- energy: Energy
 - dimensionless: One
 - dimensionless: Two
-- capacitance: Capacitance
 - electric_potential: Voltage

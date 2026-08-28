@@ -2,12 +2,19 @@ name: Relative refractive index
 id: relative_refractive_index
 topic: refraction
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Refractive_index#Definition
+  - https://en.wikipedia.org/wiki/Snell%27s_law
+  - https://phys.libretexts.org/Bookshelves/Optics/Geometric_Optics_(Konopinski)/03%3A_Refraction/3.02%3A_Snell's_Law_and_the_Refractive_Index
+  - https://www.britannica.com/science/refractive-index
+  - https://opentextbc.ca/physicstestbook2/chapter/the-law-of-refraction/
+description: "The relative refractive index of one medium with respect to another is the ratio of the speed of light in the second medium to that in the first, and is what enters Snell's law when neither medium is vacuum."
 equation: refractive_index eq refractive_index frac refractive_index
 symbol_overrides:
 - refractive_index: n_{21}
 - refractive_index: n_2
 - refractive_index: n_1
 name_overrides:
-- refractive_index: Relative [refractive index]
-- refractive_index: '[Refractive index] of medium 2'
-- refractive_index: '[Refractive index] of medium 1'
+- refractive_index: Relative [refractive_index]
+- refractive_index: '[refractive_index] of medium 2'
+- refractive_index: '[refractive_index] of medium 1'

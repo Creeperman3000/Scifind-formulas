@@ -2,12 +2,18 @@ name: Tangent as ratio of sine and cosine
 id: trigonometric_tangent_sine_cosine_ratio
 topic: trigonometric_identities
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://mathworld.wolfram.com/Tangent.html
+  - https://en.wikipedia.org/wiki/De_Moivre%27s_formula
+description: "This fundamental identity defines the tangent of an angle as the quotient of its sine and cosine. It underlies nearly every tangent identity, including the double-angle, sum, and product-to-sum formulas, and is the analytic extension of the geometric opposite-over-adjacent definition."
 equation: tan angle eq sin angle frac cos angle
 symbol_overrides:
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: θ
+- angle: θ
+- angle: θ
 name_overrides:
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: Angle
+- angle: Angle
+- angle: Angle

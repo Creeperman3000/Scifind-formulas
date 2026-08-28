@@ -2,15 +2,17 @@ name: RLC circuit resonant frequency
 id: rlc_resonant_frequency
 topic: circuits
 difficulty: 7
-equation: frequency eq dimensionless frac ((pi mul 2) mul sqrt (inductance mul capacitance
-  ) 2)
+links:
+  - https://en.wikipedia.org/wiki/RLC_circuit
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Alternating-Current_Circuits/14.05%3A_Resonance_in_an_AC_Circuit
+  - https://en.wikipedia.org/wiki/Resonance
+  - https://www.electronics-tutorials.ws/accircuits/rlc-circuit.html
+
+description: "The resonant frequency of a series RLC circuit is the frequency at which the inductive and capacitive reactances cancel, leaving a purely resistive impedance. The same expression in angular form is ω₀ = 1/√(LC)."
+equation: frequency eq dimensionless frac ((2 mul pi) mul sqrt (inductance mul capacitance) 2)
 symbol_overrides:
 - frequency: f₀
 - dimensionless: '1'
-- inductance: L
-- capacitance: C
 name_overrides:
-- frequency: Resonant [frequency]
+- frequency: Resonant frequency
 - dimensionless: One
-- inductance: Inductance
-- capacitance: Capacitance

@@ -2,14 +2,27 @@ name: Thin film interference (constructive)
 id: thin_film_interference_constructive
 topic: interference
 difficulty: 8
-equation: dimensionless mul length eq length mul amount
+links:
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- https://en.wikipedia.org/wiki/Anti-reflective_coating
+- https://en.wikipedia.org/wiki/Reflection_phase_change
+- https://phys.libretexts.org/Bookshelves/Optics/Supplemental_Modules_(Components)
+- https://en.wikipedia.org/wiki/Thin_film
+description: Condition for constructive interference in the light reflected from a
+  thin film in which only one of the two boundaries introduces a 180° phase shift
+  (the typical case for a film of higher refractive index than both surrounding media,
+  such as a soap film in air or an oil film on water). The half-wavelength phase shift
+  displaces the constructive maxima to half-integer multiples of the wavelength.
+equation: 2 mul dimensionless mul length eq (dimensionless add dimensionless) mul
+  length
 symbol_overrides:
 - dimensionless: n
 - length: t
-- length: λ
-- amount: m
+- dimensionless: m
+- dimensionless: \frac{1}{2}
+- length: \lambda
 name_overrides:
-- dimensionless: Film [refractive index|index]
+- dimensionless: Film [refractive_index]
 - length: Film thickness
-- length: Wavelength
-- amount: Order number
+- dimensionless: Order number
+- length: Wavelength in vacuum

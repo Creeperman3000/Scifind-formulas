@@ -1,8 +1,14 @@
 name: Optical absorbance
 id: optical_absorbance
-topic: polarization
+topic: spectroscopy
 difficulty: 6
-equation: dimensionless eq drop log 10 (dimensionless frac dimensionless) sub
+links:
+  - https://en.wikipedia.org/wiki/Absorbance
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Electronic_Spectroscopy/Electronic_Spectroscopy_Basics/The_Beer-Lambert_Law
+  - https://goldbook.iupac.org/terms/view/A00028.html
+  - https://www.khanacademy.org/science/chemistry/chem-analysis-titration/titration-experiments/a/beers-law
+description: "Absorbance is the common (base-10) logarithm of the ratio of incident to transmitted radiant power through a sample. It is widely used in ultraviolet–visible absorption spectroscopy, where it is linearly proportional to the concentration of the absorbing species and to the optical path length under the Beer–Lambert law (valid for dilute, non-scattering samples)."
+equation: dimensionless eq log 10 (dimensionless frac dimensionless)
 symbol_overrides:
 - dimensionless: A
 - dimensionless: I_0

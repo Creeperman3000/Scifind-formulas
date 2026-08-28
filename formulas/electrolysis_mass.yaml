@@ -1,15 +1,17 @@
-name: Mass deposited in electrolysis (electrolysis_mass)
+name: Mass deposited in electrolysis
 id: electrolysis_mass
 topic: electrochemistry
 difficulty: 8
-equation: mass eq charge mul (mass) frac faraday_constant mul amount
+links:
+  - https://goldbook.iupac.org/terms/view/09075
+  - https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis
+  - https://www.monash.edu/student-academic-success/chemistry/primary-galvanic-cells-and-fuel-cells-as-sources-of-energy/faradays-laws
+description: "Faraday's laws of electrolysis combined into one working relation: the mass of a substance transformed at an electrode is proportional to the electric charge passed through the cell and to the substance's molar mass divided by the number of electrons exchanged per ion. It is used for electroplating calculations, coulometry, and battery capacity estimates."
+equation: mass eq charge mul molar_mass frac faraday_constant mul amount
 symbol_overrides:
-- mass: M
-- charge: ''
-- mass: ''
 - amount: z
 name_overrides:
 - mass: Deposited [mass]
-- charge: ''
-- mass: Molar [mass]
-- amount: Number of electrons
+- charge: '[charge] passed'
+- molar_mass: Molar [mass]
+- amount: Number of electrons transferred per ion

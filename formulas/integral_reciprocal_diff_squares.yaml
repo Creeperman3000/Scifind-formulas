@@ -2,8 +2,19 @@ name: Integral of 1/(a²-x²)
 id: integral_reciprocal_diff_squares
 topic: integrals
 difficulty: 8
-equation: int drop drop (((rmd angle) frac ((dimensionless pow 2) sub (angle pow 2)))) eq (1 frac (2 mul
-  dimensionless)) mul log euler_e ((dimensionless add angle) frac (dimensionless sub angle))
+links:
+- https://en.wikipedia.org/wiki/Partial_fractions_in_integration
+- https://en.wikipedia.org/wiki/Trigonometric_substitution
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.5%3A_Substitution
+- https://www.khanacademy.org/math/integral-calculus/ic-integration-techniques/ic-partial-fractions/v/partial-fraction-expansion-1
+- https://tutorial.math.lamar.edu/classes/calcii/partialfractions.aspx
+description: The antiderivative of 1/(a²-x²) is a logarithm of the ratio (a+x)/(a-x),
+  divided by 2a. The integrand is typically handled by partial fractions after factoring
+  the difference of squares, and the result is defined on each open interval between
+  the poles at x = ±a.
+equation: int drop drop (rmd angle frac ((dimensionless pow 2) sub angle pow 2 ) )
+  eq 1 frac (2 mul dimensionless) mul log euler_e ((dimensionless add angle) frac
+  dimensionless sub angle )
 symbol_overrides:
 - angle: x
 - dimensionless: a
@@ -14,11 +25,11 @@ symbol_overrides:
 - dimensionless: a
 - angle: x
 name_overrides:
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
 - dimensionless: Constant a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
-- angle: '[Variable]'
+- angle: '[variable]'

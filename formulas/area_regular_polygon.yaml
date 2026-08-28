@@ -2,14 +2,18 @@ name: Area of a regular polygon
 id: area_regular_polygon
 topic: plane_geometry
 difficulty: 5
+links:
+  - https://mathworld.wolfram.com/RegularPolygon.html
+  - https://www.mathwords.com/a/area_regular_polygon.htm
+  - https://www.wikiwand.com/en/Apothem
+  - https://math.libretexts.org/Bookshelves/Applied_Mathematics/Technical_Mathematics_2e_(Chase)/01%3A_Sections/1.23%3A_Area_of_Regular_Polygons
+  - https://calcworkshop.com/polygons-circles/area-regular-polygon/
+description: "A regular polygon can be split into n congruent isosceles triangles whose height is the apothem, the perpendicular distance from the center to a side. Summing their areas gives half the apothem times the perimeter; it applies only to polygons with all sides and angles equal."
 equation: area eq length mul (length) mul (amount) frac 2
 symbol_overrides:
-- area: ''
 - length: a
 - length: s
-- amount: ''
 name_overrides:
-- area: ''
 - length: Apothem
-- length: Side length
+- length: Side [length]
 - amount: Number of sides

@@ -2,16 +2,18 @@ name: Displacement using final velocity
 id: displacement_with_final_velocity
 topic: constant_acceleration
 difficulty: 4
+links:
+  - https://mathsathome.com/displacement-velocity-acceleration
+  - https://en.neurochispas.com/physics/kinematic-equations-for-constant-acceleration
+  - https://allphysicsfundamentals.com/kinematics-velocity-displacement/
+description: "A rearranged constant-acceleration kinematics (SUVAT) equation that expresses displacement in terms of the final velocity instead of the initial one. It applies to straight-line motion with uniform acceleration and is handy when the ending speed and elapsed time are known but the starting speed is not."
 equation: length eq velocity mul (time) sub acceleration mul (time pow 2) frac 2
 symbol_overrides:
 - length: s
-- velocity: ''
-- time: ''
-- acceleration: ''
-- time: ''
+- velocity: v
 name_overrides:
-- length: ''
+- length: Displacement
 - velocity: Final [velocity]
-- time: '[Time]'
-- acceleration: '[Acceleration]'
-- time: ''
+- time: Elapsed [time]
+- acceleration: '[acceleration]'
+- time: '[time]'

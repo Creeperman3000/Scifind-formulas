@@ -2,6 +2,12 @@ name: Image distance in a plane mirror
 id: reflection_mirror_image_distance
 topic: reflection
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Mirror_image
+  - https://en.wikipedia.org/wiki/Plane_mirror
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Image_Formation/2.02%3A_Images_Formed_by_Plane_Mirrors
+  - https://www.britannica.com/technology/plane-mirror
+description: "For an object placed in front of a plane mirror, the virtual image appears the same distance behind the mirror as the object is in front of it. The image is the same size as the object, erect, and laterally reversed."
 equation: length eq length
 symbol_overrides:
 - length: d_i

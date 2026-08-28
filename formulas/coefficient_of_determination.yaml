@@ -2,6 +2,16 @@ name: Coefficient of determination
 id: coefficient_of_determination
 topic: statistics
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/Coefficient_of_determination
+- https://www.geeksforgeeks.org/maths/r-squared/
+- https://statisticsfundamentals.com/simple-linear-regression/r-squared/
+- https://mbrenndoerfer.com/writing/r-squared-coefficient-of-determination-formula-intuition-model-fit
+description: Also known as R-squared, this statistic measures the proportion of the
+  variance in the dependent variable that is explained by a regression model. It is
+  computed from the unexplained variability left after fitting relative to the total
+  variability around the mean, and ranges from 0 to 1 for models fitted by least squares.
+  It is widely used to judge and compare goodness of fit.
 equation: dimensionless eq dimensionless sub dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: R²
@@ -9,7 +19,7 @@ symbol_overrides:
 - dimensionless: SS_{\mathrm{res}}
 - dimensionless: SS_{\mathrm{tot}}
 name_overrides:
-- dimensionless: Coefficient of [determination]
+- dimensionless: Coefficient of determination
 - dimensionless: '1'
 - dimensionless: Residual sum of squares
 - dimensionless: Total sum of squares

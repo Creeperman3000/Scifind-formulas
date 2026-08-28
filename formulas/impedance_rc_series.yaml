@@ -2,12 +2,18 @@ name: Impedance of a series RC circuit
 id: impedance_rc_series
 topic: circuits
 difficulty: 8
-equation: resistance eq sqrt (resistance add 2 pow resistance pow 2 ) 2
+links:
+  - https://en.wikipedia.org/wiki/Electrical_impedance
+  - https://en.wikipedia.org/wiki/RC_circuit
+  - https://en.wikipedia.org/wiki/Capacitive_reactance
+  - https://phys.libretexts.org/Bookshelves/College_Physics/Book%3A_College_Physics_2e_(OpenStax)/20%3A_Electric_Current_Resistance_and_Ohm's_Law/20.05%3A_Alternating_Current_versus_Direct_Current
+description: "The impedance of a series combination of a resistor and a capacitor is the magnitude of the vector sum of the resistance and the (negative) capacitive reactance. This expression governs the magnitude of the AC current drawn from the source and underlies the cutoff frequency of an RC filter."
+equation: resistance eq sqrt (resistance pow 2 add resistance pow 2) 2
 symbol_overrides:
 - resistance: Z
+- resistance: R
 - resistance: X_C
-- resistance: ''
 name_overrides:
 - resistance: Impedance
-- resistance: '[Resistance]'
+- resistance: '[resistance]'
 - resistance: Capacitive reactance

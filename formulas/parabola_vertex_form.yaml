@@ -2,8 +2,14 @@ name: Vertex form of a parabola
 id: parabola_vertex_form
 topic: coordinate_geometry
 difficulty: 5
-equation: dimensionless eq dimensionless mul ((dimensionless sub dimensionless) pow
-  2) add dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Parabola
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/Intermediate_Algebra_(OpenStax)/09%3A_Solving_Quadratic_Equations_and_Graphing_Parabolas/9.02%3A_Graphing_Quadratic_Functions_from_Standard_Form
+  - https://www.cuemath.com/geometry/vertex-form-of-a-parabola/
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:standard-form-vertex-form/v/vertex-form-introduction
+  - https://mathworld.wolfram.com/Parabola.html
+description: "The vertex form writes a quadratic (parabola with vertical axis) as a vertical scaling plus a horizontal shift, making the vertex (h, k) and opening direction (sign of a) immediately visible. It is obtained from the general form by completing the square."
+equation: dimensionless eq dimensionless mul ((dimensionless sub dimensionless) pow 2) add dimensionless
 symbol_overrides:
 - dimensionless: y
 - dimensionless: a

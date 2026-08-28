@@ -2,13 +2,24 @@ name: Magnetic field at center of a current loop
 id: magnetic_field_circular_loop
 topic: magnetism
 difficulty: 7
-equation: magnetic_flux_density eq vacuum_permeability mul (current) frac (2 mul length
-  )
+links:
+- https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law
+- https://en.wikipedia.org/wiki/Magnetic_moment
+- https://en.wikipedia.org/wiki/Magnetic_field
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12:_Sources_of_Magnetic_Fields
+- https://www.britannica.com/science/Biot-Savart-law
+description: The magnetic flux density at the center of a circular current loop of
+  radius R carrying current I, obtained by integrating the Biot–Savart law around
+  the loop. The field is directed along the loop's axis and is the foundation of magnetic
+  dipole behavior.
+equation: magnetic_flux_density eq vacuum_permeability mul (current) frac 2 mul length
 symbol_overrides:
-- magnetic_flux_density: ''
-- current: ''
+- magnetic_flux_density: B
+- vacuum_permeability: \mu_0
+- current: I
 - length: R
 name_overrides:
-- magnetic_flux_density: Magnetic field
-- current: ''
+- magnetic_flux_density: Magnetic field at loop center
+- vacuum_permeability: Vacuum permeability
+- current: Loop current
 - length: Loop radius

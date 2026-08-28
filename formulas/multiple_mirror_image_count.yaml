@@ -2,10 +2,17 @@ name: Number of images formed by two mirrors
 id: multiple_mirror_image_count
 topic: reflection
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Mirror_image
+  - https://en.wikipedia.org/wiki/Reflection_(physics)
+  - https://en.wikipedia.org/wiki/Kaleidoscope
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.02%3A_Images_Formed_by_Plane_Mirrors
+  - https://www.britannica.com/science/plane-mirror
+description: "When an object is placed between two plane mirrors inclined at an angle, multiple images are formed by successive reflections between the mirrors. The number of images depends on the angle between the mirrors, with smaller angles producing more images. This principle is the basis for kaleidoscopes and other optical devices that produce symmetric repeating patterns."
 equation: dimensionless eq 360 frac (angle) sub 1
 symbol_overrides:
-- dimensionless: n
-- angle: θ
+  - dimensionless: n
+  - angle: θ
 name_overrides:
-- dimensionless: Number of images
-- angle: Angle between mirrors
+  - dimensionless: Number of images
+  - angle: Angle between mirrors

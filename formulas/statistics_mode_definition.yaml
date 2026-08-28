@@ -2,6 +2,14 @@ name: Mode of a dataset
 id: statistics_mode_definition
 topic: statistics
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Mode_(statistics)
+  - https://www.mathsisfun.com/mode.html
+  - https://mathworld.wolfram.com/Mode.html
+  - https://www.britannica.com/science/mode-statistics
+description: The mode of a data set is the value that appears most often. It is one of
+  the principal measures of central tendency, alongside the mean and median, and is the
+  only such measure that is also meaningful for nominal (non-numeric) data.
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: Mode

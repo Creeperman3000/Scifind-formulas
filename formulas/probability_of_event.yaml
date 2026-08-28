@@ -2,6 +2,13 @@ name: Probability of an event
 id: probability_of_event
 topic: probability
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Probability
+  - https://en.wikipedia.org/wiki/Classical_definition_of_probability
+  - https://math.libretexts.org/Bookshelves/Probability_Theory/Probability%3A_for_the_Enthusiastic_Beginner
+  - https://www.britannica.com/science/probability-theory
+  - https://www.khanacademy.org/math/statistics-probability/probability-library
+description: "Classical (theoretical) probability assigns to an event the ratio of the number of favorable outcomes to the total number of equally likely outcomes in the sample space. The result is a dimensionless number between 0 and 1, and is the foundation of the frequentist interpretation of probability used in combinatorics and elementary statistics."
 equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: P(E)

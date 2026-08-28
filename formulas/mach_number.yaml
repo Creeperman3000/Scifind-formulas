@@ -2,12 +2,19 @@ name: Mach number
 id: mach_number
 topic: mechanical_waves
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Mach_number
+  - https://en.wikipedia.org/wiki/Speed_of_sound
+  - https://www.grc.nasa.gov/www/k-12/airplane/mach.html
+  - https://www.britannica.com/science/Mach-number
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/mach-number/
+description: "Dimensionless ratio of the speed of an object moving through a fluid to the local speed of sound in that fluid, named after Ernst Mach. It characterizes flow regimes (subsonic, transonic, supersonic, hypersonic) and determines when compressibility effects become significant."
 equation: dimensionless eq velocity frac velocity
 symbol_overrides:
 - dimensionless: M
+- velocity: u
 - velocity: c
-- velocity: ''
 name_overrides:
-- dimensionless: Mach [number]
-- velocity: Object [speed]
-- velocity: Speed of [sound]
+- dimensionless: Mach number
+- velocity: Object speed
+- velocity: Speed of sound

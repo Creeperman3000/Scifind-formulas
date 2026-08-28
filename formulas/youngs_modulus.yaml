@@ -2,6 +2,13 @@ name: Young's modulus
 id: youngs_modulus
 topic: forces
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Young%27s_modulus
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/12%3A_Static_Equilibrium_and_Elasticity
+  - https://www.britannica.com/science/Youngs-modulus
+  - https://www.khanacademy.org/science/physics/work-and-energy/hookes-law/a/what-is-youngs-modulus
+  - https://openstax.org/books/university-physics-volume-1/pages/12-4-stress-strain-and-tensile-modulus
+description: "Young's modulus is a mechanical property of solid materials that measures tensile or compressive stiffness when force is applied along one axis. It is defined as the ratio of uniaxial stress to the resulting strain in the linear elastic region of the material, and is valid only within the Hookean (small-strain, reversible) limit."
 equation: pressure eq pressure frac dimensionless
 symbol_overrides:
 - pressure: E

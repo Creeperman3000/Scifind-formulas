@@ -2,6 +2,12 @@ name: Neutron number
 id: neutron_number
 topic: atomic_structure
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Neutron_number
+  - https://en.wikipedia.org/wiki/Atomic_number
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/02%3A_Atoms_Molecules_and_Ions/2.03%3A_The_Atomic_Theory_of_Matter
+  - https://www.britannica.com/science/atomic-number
+description: "The neutron number N of a nuclide is the count of neutrons in its nucleus, given by the mass number A minus the atomic number Z. Together with the atomic number it identifies a specific nuclide and determines its nuclear properties."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: N

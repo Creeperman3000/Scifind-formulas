@@ -2,15 +2,19 @@ name: Relationship between Kp and Kc
 id: kp_kc_relation
 topic: chemical_equilibrium
 difficulty: 7
-equation: equilibrium_constant eq equilibrium_constant mul (gas_constant mul temperature
-  ) pow dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Equilibrium_constant
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Equilibrium_Constant
+  - https://www.khanacademy.org/science/chemistry/chemical-equilibrium
+  - https://www.chem.purdue.edu/chemed/Common/chemical_equil.html
+  - https://www.britannica.com/science/equilibrium-constant
+description: "Relates the pressure-based equilibrium constant Kp to the concentration-based equilibrium constant Kc for a gas-phase reaction. The exponent Δn is the change in the number of moles of gas between products and reactants, so the conversion factor depends on temperature and the stoichiometry of the gaseous species."
+equation: equilibrium_constant eq equilibrium_constant mul (gas_constant mul temperature) pow dimensionless
 symbol_overrides:
 - equilibrium_constant: K_p
 - equilibrium_constant: K_c
-- temperature: ''
 - dimensionless: Δn
 name_overrides:
-- equilibrium_constant: Equilibrium constant in terms of [pressure]
-- equilibrium_constant: Equilibrium constant in terms of [concentration]
-- temperature: ''
+- equilibrium_constant: '[equilibrium_constant] in terms of [pressure]'
+- equilibrium_constant: '[equilibrium_constant] in terms of [concentration]'
 - dimensionless: Change in moles of gas

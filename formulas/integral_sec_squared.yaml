@@ -2,7 +2,16 @@ name: Integral of sec² x
 id: integral_sec_squared
 topic: integrals
 difficulty: 7
-equation: int drop drop ((((frac 1 (cos angle)) pow 2) mul (rmd angle))) eq ((sin angle) frac (cos angle))
+links:
+- https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+- https://en.wikipedia.org/wiki/Secant_(trigonometry)
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.05%3A_Derivatives_of_Trigonometric_Functions
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-antiderivatives/v/antiderivative-of-sec2x
+description: The antiderivative of sec² x is tan x, since the derivative of tangent
+  is the secant squared. This identity is one of the most frequently used basic integration
+  rules and arises whenever one differentiates or integrates trigonometric functions.
+equation: int drop drop (((frac 1 cos angle ) pow 2) mul rmd angle ) eq sin angle
+  frac cos angle
 symbol_overrides:
 - &id001
   angle: x
@@ -11,7 +20,7 @@ symbol_overrides:
 - *id001
 name_overrides:
 - &id002
-  angle: '[Variable]'
+  angle: '[variable]'
 - *id002
 - *id002
 - *id002

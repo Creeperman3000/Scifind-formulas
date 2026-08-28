@@ -2,19 +2,25 @@ name: Derivative of secant
 id: derivative_sec
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (frac 1 (cos angle))) (rmd angle) eq (frac 1 (cos angle)) mul (frac (sin angle) (cos
-  angle))
+links:
+- https://proofwiki.org/wiki/Derivative_of_Secant_Function
+- https://www.cuemath.com/calculus/derivative-of-sec-x/
+- https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-10/v/derivatives-of-secx-and-cscx
+- https://www.geeksforgeeks.org/maths/derivative-of-sec-x/
+description: The derivative of the secant function is the product of secant and tangent.
+  It follows from applying the quotient rule to the reciprocal of cosine, and it is
+  valid wherever cosine is nonzero.
+equation: frac rmd (frac 1 cos angle ) rmd angle eq frac 1 cos angle mul frac sin
+  angle cos angle
 symbol_overrides:
-- &id001
-  angle: x
-- *id001
-- *id001
-- *id001
-- *id001
+- angle: x
+- angle: x
+- angle: x
+- angle: x
+- angle: x
 name_overrides:
-- &id002
-  angle: '[Variable]'
-- *id002
-- *id002
-- *id002
-- *id002
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

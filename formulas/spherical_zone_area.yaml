@@ -2,12 +2,18 @@ name: Area of a spherical zone
 id: spherical_zone_area
 topic: plane_geometry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Spherical_segment
+  - https://en.wikipedia.org/wiki/Spherical_cap
+  - https://mathworld.wolfram.com/SphericalZone.html
+  - https://www.ck12.org/geometry/spherical-zone/
+  - https://byjus.com/maths/spherical-zone/
+description: "A spherical zone (or spherical frustum) is the curved surface of a sphere bounded by two parallel planes. Its lateral area depends only on the sphere's radius and the distance between the two planes, and equals the area of a cylinder of the same radius and height."
 equation: area eq (pi mul 2) mul (length) mul length
 symbol_overrides:
-- area: ''
 - length: R
 - length: h
 name_overrides:
-- area: Area of spherical [zone]
-- length: Sphere [radius]
-- length: Zone [height]
+- area: '[area] of spherical zone'
+- length: Sphere radius
+- length: Zone height

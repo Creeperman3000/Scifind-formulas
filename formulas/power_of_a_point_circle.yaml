@@ -2,12 +2,19 @@ name: Power of a point theorem
 id: power_of_a_point_circle
 topic: circles
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Power_of_a_point
+  - https://en.wikipedia.org/wiki/Intersecting_chords_theorem
+  - https://en.wikipedia.org/wiki/Intersecting_secants_theorem
+  - https://en.wikipedia.org/wiki/Tangent%E2%80%93secant_theorem
+  - https://mathworld.wolfram.com/PowerofaPoint.html
+description: "The power of a point P with respect to a circle is the real number obtained by squaring the distance from P to the circle's center minus the square of the radius. For any chord, secant, or tangent through P meeting the circle at points A and B, the signed product PA·PB is constant and equals this value, which lies inside, on, or outside the circle depending on its sign."
 equation: dimensionless eq length mul length
 symbol_overrides:
-- dimensionless: Pow(P)
-- length: PA
-- length: PB
+  - dimensionless: \Pi(P)
+  - length: PA
+  - length: PB
 name_overrides:
-- dimensionless: Power of point P
-- length: PA (distance to near intersection)
-- length: PB (distance to far intersection)
+  - dimensionless: Power of point P
+  - length: PA (distance to near intersection)
+  - length: PB (distance to far intersection)

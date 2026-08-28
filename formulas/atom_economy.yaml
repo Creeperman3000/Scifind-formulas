@@ -2,6 +2,12 @@ name: Atom economy
 id: atom_economy
 topic: chemical_reactions
 difficulty: 6
+links:
+  - https://www.bbc.co.uk/bitesize/guides/zg9rxfr/revision/2
+  - https://www.omnicalculator.com/chemistry/atom-economy
+  - https://www.pearson.com/channels/calculators/atom-economy-calculator
+  - https://www.studypug.com/us/chemistry/percentage-yield-and-atom-economy?view=read
+description: "A green-chemistry metric, introduced by Barry Trost, that measures what fraction of the reactant mass ends up incorporated into the desired product rather than waste by-products. Unlike percentage yield, it can be assessed from the balanced equation alone and is used to compare alternative synthetic routes for sustainability."
 equation: dimensionless eq mass frac (mass) mul dimensionless
 symbol_overrides:
 - dimensionless: '\% AE'
@@ -10,6 +16,5 @@ symbol_overrides:
 - dimensionless: '100'
 name_overrides:
 - dimensionless: Atom economy
-- mass: Mass of desired product
-- mass: Total mass of reactants
-- dimensionless: ''
+- mass: '[mass] of desired product'
+- mass: Total [mass] of reactants

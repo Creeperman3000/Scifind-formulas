@@ -2,12 +2,17 @@ name: "Volume of fluid displaced by floating object"
 id: buoyant_volume_displaced
 topic: buoyancy
 difficulty: 2
-equation: "volume eq mass div density"
-so:
-  - volume: "V_{displaced}"
-  - mass: "m_{object}"
-  - density: "ρ_{fluid}"
-no:
-  - volume: "[Volume] displaced"
-  - mass: "[Mass] of object"
-  - density: "[Density] of fluid"
+links:
+  - https://en.wikipedia.org/wiki/Buoyancy
+  - https://en.wikipedia.org/wiki/Archimedes_principle
+  - https://pressbooks.bccampus.ca/collegephysics/chapter/archimedes-principle/
+description: "A floating object settles so that it displaces a weight of fluid equal to its own weight (the principle of flotation). Since the displaced fluid's mass therefore equals the object's mass, the submerged volume follows from dividing that mass by the fluid density. It applies only to objects floating in static equilibrium."
+equation: volume eq mass div density
+symbol_overrides:
+- volume: V_{displaced}
+- mass: m_{object}
+- density: \rho_{fluid}
+name_overrides:
+- volume: '[Volume] displaced'
+- mass: '[Mass] of object'
+- density: '[Density] of fluid'

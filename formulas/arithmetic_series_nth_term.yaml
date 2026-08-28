@@ -2,7 +2,12 @@ name: nth term of an arithmetic sequence
 id: arithmetic_series_nth_term
 topic: arithmetic
 difficulty: 3
-equation: dimensionless eq dimensionless add dimensionless mul dimensionless sub 1
+links:
+  - https://en.wikipedia.org/wiki/Arithmetic_progression
+  - https://www.mathwords.com/a/arithmetic_sequence.htm
+  - https://www.cuemath.com/algebra/nth-term-of-an-ap/
+description: "Gives any term of an arithmetic sequence directly from its position, without listing all preceding terms. It reflects that reaching position n requires adding the common difference one fewer times than the position number, since the first term already occupies position one. Also known as the explicit or general-term formula of an arithmetic progression."
+equation: dimensionless eq dimensionless add ( dimensionless sub 1 ) mul dimensionless
 symbol_overrides:
 - dimensionless: a_n
 - dimensionless: a₁

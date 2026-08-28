@@ -2,12 +2,13 @@ name: Cotangent identity
 id: cotangent_identity
 topic: trigonometric_identities
 difficulty: 5
+links:
+  - https://www.geeksforgeeks.org/maths/quotient-identities
+  - https://en.neurochispas.com/trigonometry/quotient-identities-formulas-and-examples/
+  - https://fiveable.me/honors-pre-calc/key-terms/quotient-identities
+description: "This quotient identity defines the cotangent as the ratio of the cosine to the sine of the same angle, equivalently the reciprocal of the tangent. In a right triangle it equals the adjacent side divided by the opposite side. It is undefined wherever the sine vanishes (at integer multiples of pi) and is used to rewrite expressions in terms of sine and cosine."
 equation: dimensionless eq cos angle frac sin angle
 symbol_overrides:
-- dimensionless: cot(θ)
-- angle: θ
-- angle: θ
-name_overrides:
-- dimensionless: ''
-- angle: ''
-- angle: ''
+- dimensionless: \cot\theta
+- angle: \theta
+- angle: \theta

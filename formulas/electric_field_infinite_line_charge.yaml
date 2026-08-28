@@ -2,13 +2,17 @@ name: Electric field of an infinite line charge
 id: electric_field_infinite_line_charge
 topic: electric_fields
 difficulty: 8
-equation: electric_field_strength eq (coulomb_constant mul 2) mul (charge_density)
-  frac length
+links:
+  - http://physics.bu.edu/~duffy/semester2/c03_infline.html
+  - https://phys.libretexts.org/Courses/Berea_College/Electromagnetics_I_(Messina)/05%3A_Electrostatics/5.06%3A_Electric_Field_Due_to_an_Infinite_Line_Charge_using_Gauss_Law
+  - https://www.vedantu.com/jee-main/physics-electric-field-due-to-infinite-linear-charge-and-cylinders
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.06%3A_Calculating_Electric_Fields_of_Charge_Distributions
+description: "Gives the electric field magnitude at a perpendicular distance from an infinitely long straight wire carrying uniform linear charge density, directed radially away from (or toward) the wire. Obtained from Gauss's law with a cylindrical surface; it also approximates a very long finite wire when the distance is small compared with its length."
+equation: electric_field_strength eq frac (2 mul coulomb_constant mul charge_density) length
 symbol_overrides:
-- electric_field_strength: ''
 - charge_density: λ
 - length: r
 name_overrides:
-- electric_field_strength: '[Electric field]'
+- electric_field_strength: Electric field
 - charge_density: Linear charge density
 - length: Radial distance

@@ -2,10 +2,17 @@ name: Secant identity
 id: secant_identity
 topic: trigonometric_identities
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://en.wikipedia.org/wiki/Secant
+  - https://mathworld.wolfram.com/Secant.html
+  - https://www.khanacademy.org/math/trigonometry/trig-function-graphs/sec-csc-graph/v/sec-and-csc
+  - https://www.britannica.com/science/secant-trigonometry
+description: "The secant is the reciprocal of the cosine, defined wherever cosine is non-zero. It is one of the six basic trigonometric functions and arises naturally as the ratio of the hypotenuse to the adjacent side of a right triangle."
 equation: dimensionless eq 1 frac cos angle
 symbol_overrides:
-- dimensionless: sec(θ)
-- angle: θ
+- dimensionless: \sec(\theta)
+- angle: \theta
 name_overrides:
-- dimensionless: ''
-- angle: ''
+- dimensionless: Secant
+- angle: Angle

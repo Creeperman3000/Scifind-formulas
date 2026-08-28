@@ -2,6 +2,13 @@ name: Matrix addition (2x2)
 id: matrix_addition_2x2
 topic: linear_algebra
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Matrix_addition
+  - https://en.wikipedia.org/wiki/Matrix_(mathematics)#Addition
+  - https://mathworld.wolfram.com/MatrixAddition.html
+  - https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-addition/v/matrix-addition-and-subtraction
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Book%3A_Mathematical_Methods_in_Chemistry_(Levitus)/11%3A_Matrices/11.2%3A_Matrix_Arithmetic
+description: "Matrix addition is performed entrywise and is only defined for matrices of the same dimensions. For two m-by-n matrices A and B, the (i,j) entry of A+B is the sum of the corresponding entries A_{i,j} and B_{i,j}. The operation is commutative and associative, and a zero matrix of the same size acts as the additive identity."
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: c_{11}

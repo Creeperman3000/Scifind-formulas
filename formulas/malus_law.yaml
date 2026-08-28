@@ -2,6 +2,13 @@ name: Malus's law
 id: malus_law
 topic: polarization
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Polarizer#Malus's_law_and_other_properties
+  - https://en.wikipedia.org/wiki/Polarization_(waves)
+  - https://en.wikipedia.org/wiki/%C3%89tienne-Louis_Malus
+  - https://phys.libretexts.org/Bookshelves/Optics
+  - https://en.wikipedia.org/wiki/Polarizing_filter_(photography)
+description: When a perfectly polarized beam of light of irradiance I₀ passes through an ideal linear polarizer whose transmission axis makes an angle θ with the beam's polarization direction, the transmitted irradiance is reduced by a factor of cos²θ. It is the basis for crossed-polarizer extinction and for quantitative polarimetry.
 equation: irradiance eq irradiance mul cos angle pow 2
 symbol_overrides:
 - irradiance: I

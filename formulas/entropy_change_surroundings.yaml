@@ -2,12 +2,21 @@ name: Entropy change of surroundings
 id: entropy_change_surroundings
 topic: entropy
 difficulty: 8
-equation: entropy eq drop (energy frac temperature) sub
+links:
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/The_Live_Textbook_of_Physical_Chemistry_(Peverati)/07%3A_Calculation_of_Entropy_and_the_Third_Law_of_Thermodynamics/7.02%3A_Calculation_of_Ssurr
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/16%3A_Entropy_and_Spontaneous_Reactions/16.13%3A_Including_the_Surroundings
+- https://chemistry.stackexchange.com/questions/133645/entropy-change-of-surroundings-and-system
+description: When the surroundings behave as a large constant-temperature reservoir,
+  any heat released by the system is absorbed reversibly by the surroundings, so their
+  entropy change follows from the heat exchanged at that reservoir temperature. This
+  lets the surroundings' contribution to the total entropy change be computed from
+  calorimetric data, usually assuming constant pressure.
+equation: entropy eq 0 sub energy frac temperature
 symbol_overrides:
 - entropy: ΔS_{surr}
-- energy: ''
-- temperature: ''
+- energy: q_{sys}
+- temperature: T
 name_overrides:
 - entropy: Change in [entropy] of surroundings
-- energy: ''
-- temperature: ''
+- energy: Heat transferred by the system
+- temperature: Constant reservoir [temperature]

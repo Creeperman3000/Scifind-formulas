@@ -2,7 +2,17 @@ name: Limiting reactant moles comparison
 id: limiting_reactant_moles_comparison
 topic: limiting_reactants
 difficulty: 6
-equation: amount eq (amount frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Limiting_reagent
+- https://en.wikipedia.org/wiki/Extent_of_reaction
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry-_Chemical_Formulas_and_Equations/3.07%3A_Limiting_Reactants
+- https://www.thoughtco.com/limiting-reagent-609580.html
+- https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802%3Astoichiometry/x2eef969c74e0d802%3Alimiting-reagent/v/limiting-reactant-example-problem-1
+description: When reactant amounts are expressed in moles, the limiting reactant is
+  identified by computing each reactant's amount of substance divided by its stoichiometric
+  coefficient. The reactant with the smallest such scaled-mole value is the limiting
+  reactant, since it is the first species to be driven to zero as the reaction proceeds.
+equation: amount eq amount frac dimensionless
 symbol_overrides:
 - amount: \tilde{n}_A
 - amount: n_A

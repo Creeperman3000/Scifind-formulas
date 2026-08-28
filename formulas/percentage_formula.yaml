@@ -2,7 +2,16 @@ name: Percentage
 id: percentage_formula
 topic: arithmetic
 difficulty: 1
-equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+links:
+- https://en.wikipedia.org/wiki/Percentage
+- https://en.wikipedia.org/wiki/Percent_sign
+- https://www.britannica.com/topic/percentage
+- https://math.libretexts.org/Courses/Arkansas_State_University-Beebe/MATH11103_Quantitative_Literacy/01%3A_Unit_I_Essentials/1.03%3A_Percentages
+description: A percentage expresses a number as a fraction of one hundred, denoted
+  by the percent sign (%). It is a dimensionless number used to indicate a proportionate
+  share of a whole, and the value is obtained by multiplying the ratio of the part
+  to the whole by 100.
+equation: dimensionless eq 100 mul dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: \%
 - dimensionless: part

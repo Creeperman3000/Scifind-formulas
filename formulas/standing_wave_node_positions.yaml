@@ -2,12 +2,20 @@ name: Standing wave node positions
 id: standing_wave_node_positions
 topic: wave_interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Standing_wave
+  - https://en.wikipedia.org/wiki/Node_(physics)
+  - https://en.wikipedia.org/wiki/Anti-node
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves_and_Acoustics/16.05%3A_Standing_Waves_and_Resonance
+  - https://www.physicsclassroom.com/class/waves/Lesson-4/Nodes-and-Antinodes
+  - https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/standing-waves/v/nodes-and-anti-nodes-of-standing-waves
+description: "Nodes are the fixed points of zero amplitude in a standing wave, located at integer multiples of half a wavelength from a reference node. They arise from destructive interference of the two counter-propagating waves that superpose to create the standing pattern, and they remain stationary in time. The spacing between adjacent nodes is therefore half the wavelength of the underlying traveling waves."
 equation: length eq length mul (dimensionless) frac 2
 symbol_overrides:
 - length: x_n
 - length: λ
 - dimensionless: n
 name_overrides:
-- length: Node [position]
+- length: Node position
 - length: Wavelength
 - dimensionless: Node number

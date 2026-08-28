@@ -2,9 +2,19 @@ name: Quotient rule
 id: derivative_quotient_rule
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (dimensionless frac dimensionless)) (rmd dimensionless) eq (((frac (rmd dimensionless)
-  (rmd dimensionless)) mul dimensionless) sub (dimensionless mul (frac (rmd dimensionless) (rmd dimensionless))))
-  frac ((dimensionless) pow 2)
+links:
+- https://en.wikipedia.org/wiki/Quotient_rule
+- https://tutorial.math.lamar.edu/Classes/CalcI/ProductQuotientRule.aspx
+- https://math.hmc.edu/calculus/hmc-mathematics-calculus-online-tutorials/single-variable-calculus/quotient-rule/
+- https://instruct.math.lsa.umich.edu/tutorial/derivative/quotient.html
+description: The quotient rule gives the derivative of a ratio of two differentiable
+  functions as the derivative of the numerator times the denominator minus the numerator
+  times the derivative of the denominator, all over the square of the denominator.
+  It requires the denominator to be nonzero and is often derived from the product
+  rule.
+equation: frac rmd (dimensionless frac dimensionless) rmd dimensionless eq ((frac
+  rmd dimensionless rmd dimensionless mul dimensionless) sub dimensionless mul frac
+  rmd dimensionless rmd dimensionless ) frac dimensionless pow 2
 symbol_overrides:
 - dimensionless: f
 - dimensionless: g
@@ -19,11 +29,11 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Numerator function f
 - dimensionless: Denominator function g
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Derivative of f
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Denominator function g
 - dimensionless: Numerator function f
 - dimensionless: Derivative of g
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Denominator function g

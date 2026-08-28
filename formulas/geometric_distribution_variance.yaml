@@ -2,6 +2,13 @@ name: Geometric distribution variance
 id: geometric_distribution_variance
 topic: probability
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Geometric_distribution
+  - https://mathworld.wolfram.com/GeometricDistribution.html
+  - https://www.britannica.com/science/geometric-distribution
+  - https://online.stat.psu.edu/stat414/lesson/15/15.1
+  - https://statproofbook.github.io/P/geovar
+description: "The variance of a geometrically distributed random variable, defined as the number of trials until the first success, equals (1-p) divided by the square of the success probability. The variance grows rapidly as the success probability approaches zero."
 equation: dimensionless eq (dimensionless sub dimensionless ) pow (dimensionless)
   frac 2
 symbol_overrides:
@@ -10,7 +17,6 @@ symbol_overrides:
 - dimensionless: p
 - dimensionless: p
 name_overrides:
-- dimensionless: Variance of geometric [distribution]
+- dimensionless: Variance of geometric distribution
 - dimensionless: '1'
 - dimensionless: Success probability
-- dimensionless: ''

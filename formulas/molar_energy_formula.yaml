@@ -2,12 +2,11 @@ name: Molar energy
 id: molar_energy_formula
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Amount_of_substance
+  - https://en.wikipedia.org/wiki/Intensive_and_extensive_properties#Molar_properties
+  - https://en.wikipedia.org/wiki/Molar_quantity
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/02%3A_Atoms_Molecules_and_Chemical_Reactions/2.10%3A_Molar_Quantities
+  - https://goldbook.iupac.org/terms/view/M04001.html
+description: Molar energy is the amount of energy per mole of substance, defined as the energy of a sample divided by its amount of substance. It is an intensive (molar) property used in thermochemistry to compare energies of different substances on a per-mole basis.
 equation: molar_energy eq energy frac amount
-symbol_overrides:
-- molar_energy: ''
-- energy: ''
-- amount: ''
-name_overrides:
-- molar_energy: ''
-- energy: ''
-- amount: ''

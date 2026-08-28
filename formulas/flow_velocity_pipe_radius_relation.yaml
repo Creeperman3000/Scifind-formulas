@@ -2,14 +2,20 @@ name: Flow velocity from pipe radius change
 id: flow_velocity_pipe_radius_relation
 topic: continuity_equation
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Continuity_equation#Fluid_dynamics
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.02%3A_What_is_a_Fluid
+  - https://www.khanacademy.org/science/physics/fluids/what-is-a-fluid/v/what-is-a-fluid
+  - https://www.britannica.com/science/continuity-equation
+description: "For an incompressible fluid flowing through a pipe whose cross-section changes, mass conservation (the continuity equation) requires the product of cross-sectional area and flow speed to remain constant. For a circular pipe, this yields the relation between downstream and upstream velocities and the corresponding radii, and is the basis of the Venturi effect."
 equation: velocity eq velocity pow (length frac length ) mul 2
 symbol_overrides:
-- velocity: v_2
-- velocity: v_1
-- length: r_1
-- length: r_2
+  - velocity: v_2
+  - velocity: v_1
+  - length: r_1
+  - length: r_2
 name_overrides:
-- velocity: Velocity at point 2
-- velocity: Velocity at point 1
-- length: Radius at point 1
-- length: Radius at point 2
+  - velocity: '[velocity] at point 2'
+  - velocity: '[velocity] at point 1'
+  - length: Radius at point 1
+  - length: Radius at point 2

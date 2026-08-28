@@ -2,12 +2,18 @@ name: Surface area of a torus
 id: surface_area_torus
 topic: plane_geometry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Torus
+  - https://mathworld.wolfram.com/Torus.html
+  - https://www.cuemath.com/geometry/surface-area-of-a-torus/
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/06%3A_Applications_of_Integration/6.02%3A_Determining_Volumes_by_Slicing/6.2.06%3A_Volume_of_a_Torus
+  - https://www.khanacademy.org/math/multivariable-calculus/integrating-multivariable-functions/double-integrals-aa/v/surface-area-of-torus
+description: "The surface area of a ring torus equals the product of the circumference of its generating circle and the circumference traced by the circle's centre, a direct consequence of Pappus's centroid theorem. \nThe formula assumes R greater than r (a non-self-intersecting ring torus) and is used in engineering analyses of pipes, gaskets, and toroidal coils."
 equation: area eq 4 mul ((pi pow 2) mul (length) mul length )
 symbol_overrides:
-- area: A
 - length: R
 - length: r
 name_overrides:
-- area: Surface area
+- area: Surface [area]
 - length: Major radius
 - length: Minor radius

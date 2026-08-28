@@ -2,8 +2,13 @@ name: Enantiomeric excess
 id: enantiomeric_excess
 topic: organic_chemistry
 difficulty: 8
-equation: dimensionless eq abs (dimensionless sub dimensionless ) frac (dimensionless
-  add dimensionless ) mul 100
+links:
+  - https://www.pearson.com/channels/calculators/enantiomeric-excess-calculator
+  - https://www.chemistrysteps.com/enantiomeric-excess-ee
+  - https://calculatorlib.com/enantiomeric-excess-calculator
+  - https://joteo.net/chemistry-calculators/enantiomeric-excess-ee-calculator/
+description: "Enantiomeric excess quantifies the optical purity of a chiral mixture by expressing how much one enantiomer outweighs its mirror image, as a percentage of the total. It runs from zero for a racemic mixture to one hundred percent for a pure enantiomer. The quantities used may be moles, concentrations, percentages, or chromatographic peak areas, provided both are in the same units."
+equation: dimensionless eq abs (dimensionless sub dimensionless ) frac (dimensionless add dimensionless ) mul 100
 symbol_overrides:
 - dimensionless: ee
 - dimensionless: R
@@ -11,7 +16,7 @@ symbol_overrides:
 - dimensionless: R
 - dimensionless: S
 name_overrides:
-- dimensionless: Enantiomeric [excess]
+- dimensionless: Enantiomeric excess
 - dimensionless: R enantiomer
 - dimensionless: S enantiomer
 - dimensionless: ''

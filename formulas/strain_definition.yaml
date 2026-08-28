@@ -2,12 +2,19 @@ name: Engineering strain
 id: strain_definition
 topic: forces
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Strain_(mechanics)
+  - https://en.wikipedia.org/wiki/Deformation_(engineering)
+  - https://en.wikipedia.org/wiki/Infinitesimal_strain_theory
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/12%3A_Static_Equilibrium_and_Elasticity/12.04%3A_Stress_Strain_and_Elastic_Modulus
+  - https://www.britannica.com/science/strain-physics
+description: "Engineering (Cauchy) strain is the ratio of an axial elongation to the original length of a material element, used in the small-deformation analysis of metals, concrete, and other structural materials. For large deformations of elastomers and polymers, alternative strain measures such as logarithmic, Green, or Almansi strain must be used."
 equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: ε
 - length: ΔL
-- length: L₀
+- length: L_0
 name_overrides:
 - dimensionless: Strain
-- length: Change in length
-- length: Original length
+- length: Change in [length]
+- length: Original [length]

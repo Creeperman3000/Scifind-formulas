@@ -2,14 +2,16 @@ name: Molar volume at STP from Avogadro's law
 id: avogadros_law_molar_volume
 topic: ideal_gases
 difficulty: 5
-equation: volume eq amount mul volume frac amount
+links:
+  - https://www.thermal-engineering.org/what-is-molar-volume-of-gases-22-4-l-mol-definition
+  - https://www.vedantu.com/chemistry/avogadro-law
+  - https://www.alloprof.qc.ca/en/students/vl/chemistry/the-molar-volume-of-gas-c1012
+  - https://www.physicsclassroom.com/Chemistry-Tutorial/Gases-and-Gas-Laws/Volume-and-the-Number-of-Moles
+description: "By Avogadro's law, gas volume is proportional to the number of moles at fixed temperature and pressure, so the volume occupied by one mole of any ideal gas is a universal quantity. At standard temperature and pressure this molar volume is essentially identical for all ideal gases (about 22.4 L/mol), which makes it a staple conversion factor in gas stoichiometry."
+equation: volume eq volume frac amount
 symbol_overrides:
 - volume: V_m
-- amount: ''
-- volume: ''
-- amount: ''
+- volume: V
 name_overrides:
-- volume: '[Volume] of gas'
-- amount: ''
 - volume: Molar [volume]
-- amount: ''
+- volume: '[volume] of the gas sample'

@@ -2,15 +2,21 @@ name: Magnetic field inside a toroid
 id: magnetic_field_toroid
 topic: magnetism
 difficulty: 8
+links:
+- http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/toroid.html
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.07%3A_Solenoids_and_Toroids
+- https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+- https://en.wikipedia.org/wiki/Toroid
+description: Gives the magnetic flux density inside a toroidal coil of N turns carrying
+  current I, where r is the radius of the circular Amperian loop threading the toroid.
+  Derived by applying Ampère's law to the symmetry of the toroid, assuming a tightly
+  wound, air-core coil of large mean radius compared with its cross-section.
 equation: magnetic_flux_density eq vacuum_permeability mul (amount mul current ) frac
-  (2 mul pi mul length )
+  2 mul pi mul length
 symbol_overrides:
-- magnetic_flux_density: ''
 - amount: N
-- current: ''
 - length: r
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - amount: Number of turns
-- current: ''
 - length: Radius

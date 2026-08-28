@@ -2,12 +2,19 @@ name: Power efficiency
 id: power_efficiency_relation
 topic: power
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Efficiency
+  - https://en.wikipedia.org/wiki/Energy_conversion_efficiency
+  - https://en.wikipedia.org/wiki/Mechanical_efficiency
+  - https://en.wikipedia.org/wiki/Thermal_efficiency
+  - https://www.britannica.com/science/efficiency-physics
+description: "Efficiency of a power-converting device is the ratio of useful output power to the input power supplied. For a lossless system the efficiency equals 1 (100%), and real systems are bounded above by unity because of unavoidable losses such as friction, heat, or electrical resistance."
 equation: dimensionless eq power frac power
 symbol_overrides:
-- dimensionless: η
-- power: P_{out}
-- power: P_{in}
+  - dimensionless: \eta
+  - power: P_{out}
+  - power: P_{in}
 name_overrides:
-- dimensionless: Efficiency
-- power: Output [power]
-- power: Input [power]
+  - dimensionless: Efficiency
+  - power: Output [power]
+  - power: Input [power]

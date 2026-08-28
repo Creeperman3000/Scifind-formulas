@@ -2,8 +2,15 @@ name: Sum of exterior angles of a polygon
 id: polygon_exterior_angle_sum
 topic: polygons
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Polygon
+  - https://en.wikipedia.org/wiki/Internal_and_external_angles
+  - https://en.wikipedia.org/wiki/Exterior_angle
+  - https://mathworld.wolfram.com/ExteriorAngle.html
+  - https://www.cuemath.com/geometry/sum-of-exterior-angles-of-a-polygon/
+description: "For any simple (non-self-intersecting) polygon, the exterior angles — taken one at each vertex — always sum to one full turn, i.e. 360° or 2π radians, regardless of the number of sides or the polygon's shape."
 equation: angle eq 360
 symbol_overrides:
-- angle: Σθ_{ext}
+- angle: \Sigma\theta_{\mathrm{ext}}
 name_overrides:
 - angle: Sum of exterior angles

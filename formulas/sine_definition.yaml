@@ -2,12 +2,19 @@ name: Sine definition
 id: sine_definition
 topic: right_triangles
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Sine
+  - https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions
+  - https://math.libretexts.org/Bookshelves/Trigonometry/Book%3A_Trigonometry_(Larson)/01%3A_Trigonometric_Angles_and_Real_Numbers/1.01%3A_Radian_and_Degree_Measure
+  - https://www.khanacademy.org/math/geometry/hs-geo-trig/hs-geo-trig-ratios-similarity/v/basic-trigonometry
+  - https://www.mathsisfun.com/definitions/sine.html
+description: "In a right triangle, the sine of an acute angle is the ratio of the length of the side opposite that angle to the length of the hypotenuse. This right-triangle definition extends via the unit circle to angles of any measure and underlies the periodic trigonometric functions used throughout geometry, physics, and signal analysis."
 equation: sin angle eq length frac length
 symbol_overrides:
-- angle: θ
+- angle: \theta
 - length: a
 - length: c
 name_overrides:
-- angle: '[Angle]'
+- angle: [angle|Angle]
 - length: Opposite [length]
 - length: Hypotenuse

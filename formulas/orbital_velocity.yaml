@@ -2,12 +2,17 @@ name: Orbital velocity
 id: orbital_velocity
 topic: orbital_motion
 difficulty: 6
-equation: velocity eq sqrt (gravitational_constant mul (mass) frac length ) 2
+links:
+  - https://en.wikipedia.org/wiki/Orbital_speed
+  - https://en.wikipedia.org/wiki/Circular_orbit
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/06%3A_Central_Forces/6.04%3A_Energy_and_Orbits
+  - https://www.britannica.com/science/orbital-motion
+  - https://www.physicsclassroom.com/class/circles/Lesson-4/Mathematics-of-Satellite-Motion
+description: "For a small body in a circular orbit around a much more massive central body, the orbital velocity is the square root of the gravitational parameter divided by the orbital radius. It equals the circular speed at that radius and is the speed required for centripetal force to balance gravitational attraction in a closed circular orbit."
+equation: velocity eq sqrt (gravitational_constant mul mass frac length) 2
 symbol_overrides:
-- velocity: ''
 - mass: M
 - length: r
 name_overrides:
 - velocity: Orbital [velocity]
-- mass: ''
 - length: Orbital radius

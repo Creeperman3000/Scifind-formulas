@@ -2,12 +2,17 @@ name: Expected value of a binomial distribution
 id: expected_value_binomial
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Binomial_distribution
+  - https://www.thoughtco.com/expected-value-of-binomial-distribution-3126551
+  - https://proofwiki.org/wiki/Expectation_of_Binomial_Distribution
+description: "The mean (expected value) of a binomial random variable, i.e. the average number of successes expected in a fixed number of independent yes/no trials with a constant success probability. It follows from linearity of expectation applied to the sum of the individual Bernoulli trials, and is used to find average outcomes in repeated-trial experiments."
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: E[X]
 - dimensionless: n
 - dimensionless: p
 name_overrides:
-- dimensionless: Expected value
+- dimensionless: Expected [value]
 - dimensionless: Number of trials
 - dimensionless: Success probability

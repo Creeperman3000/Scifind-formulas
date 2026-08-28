@@ -2,6 +2,14 @@ name: Thin film constructive interference
 id: thin_film_constructive
 topic: interference
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Thin-film_interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference/3.06%3A_Thin_Film_Interference
+  - https://www.britannica.com/science/thin-film-interference
+  - https://opentextbc.ca/universityphysicsv3/chapter/3-6-thin-film-interference/
+  - https://www.animations.physics.unsw.edu.au/jw/light/interference-thin-film.html
+  - https://www.toppr.com/guides/physics/wave-optics/thin-film-interference/
+description: "Thin-film interference arises when light reflected from the upper and lower surfaces of a thin transparent film recombines, producing constructive or destructive fringes depending on the optical path difference. The relation shown gives the bright (constructive) fringe condition for a film whose two reflected waves incur equal phase shifts, in which case the round-trip optical path 2nt must equal an integer number of wavelengths."
 equation: 2 mul length mul reflectance eq dimensionless mul length
 symbol_overrides:
 - length: n

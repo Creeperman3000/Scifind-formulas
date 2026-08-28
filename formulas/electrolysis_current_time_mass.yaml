@@ -2,16 +2,16 @@ name: Mass deposited in electrolysis
 id: electrolysis_current_time_mass
 topic: electrochemistry
 difficulty: 8
+links:
+  - https://goldbook.iupac.org/terms/view/09075
+  - https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis
+  - http://www.chem.latech.edu/~ramu/chem311/lec_notes/pchem_notes_7.pdf
+description: "Faraday's first law of electrolysis: the mass of a substance deposited or liberated at an electrode is proportional to the electric charge passed through the electrolyte. With constant current, charge is current times time, and the result also depends on the molar mass of the substance and on how many electrons its ions exchange in the electrode reaction."
 equation: mass eq molar_mass mul current mul (time) frac faraday_constant mul dimensionless
 symbol_overrides:
-- mass: ''
-- molar_mass: ''
-- current: ''
-- time: ''
 - dimensionless: z
 name_overrides:
-- mass: Mass deposited
+- mass: '[mass] deposited'
 - molar_mass: Molar [mass]
-- current: '[Current]'
-- time: ''
-- dimensionless: Number of electrons
+- current: Current
+- dimensionless: Number of electrons transferred per ion

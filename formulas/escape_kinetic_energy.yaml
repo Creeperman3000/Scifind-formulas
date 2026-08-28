@@ -2,11 +2,14 @@ name: Escape kinetic energy
 id: escape_kinetic_energy
 topic: escape_velocity
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Escape_velocity
+  - https://en.wikipedia.org/wiki/Gravitational_potential_energy
+description: "The minimum kinetic energy an object of a given mass must be given to escape from a celestial body's gravitational field starting at distance r from its center. It exactly balances the magnitude of the gravitational potential energy at that distance, so the object reaches infinity with zero speed. Assumes a spherical body, no atmosphere, and no other forces acting on the object."
 equation: energy eq gravitational_constant mul (mass) mul (mass) frac length
 symbol_overrides:
 - energy: E_{esc}
 - mass: M
-- mass: ''
 - length: r
 name_overrides:
 - energy: Escape [energy]

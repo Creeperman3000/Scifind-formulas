@@ -2,14 +2,19 @@ name: Gibbs free energy under non-standard conditions
 id: gibbs_nonstandard
 topic: chemical_equilibrium
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://en.wikipedia.org/wiki/Reaction_quotient
+  - https://en.wikipedia.org/wiki/Chemical_equilibrium
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/Free_Energy_and_Chemical_Equilibria
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Equilibrium_Constants_and_Gibbs_Energy
+description: "The Gibbs free energy change of a chemical reaction at arbitrary composition is given by the standard Gibbs energy change plus a temperature-dependent correction involving the reaction quotient. This expression, which is the thermodynamic form of the Nernst equation, lets one compute the spontaneity of a reaction away from standard state and reduces to the standard change when all activities are unity."
 equation: energy eq energy add gas_constant mul (temperature) mul log euler_e dimensionless
 symbol_overrides:
-- energy: ΔG
-- energy: ΔG°
-- temperature: ''
+- energy: \Delta G
+- energy: \Delta G^{\circ}
 - dimensionless: Q
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Standard Gibbs [energy] change
-- temperature: ''
 - dimensionless: Reaction quotient

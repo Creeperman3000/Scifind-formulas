@@ -2,7 +2,16 @@ name: Kepler's third law
 id: keplers_third_law
 topic: orbital_motion
 difficulty: 6
-equation: time pow 2 eq ((2 mul pi ) pow 2) mul ((length pow 3) frac gravitational_constant
+links:
+- https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+- https://en.wikipedia.org/wiki/Orbital_period
+- https://en.wikipedia.org/wiki/Kepler_orbit
+- https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
+description: Kepler's third law states that the square of a planet's orbital period
+  is proportional to the cube of the semi-major axis of its orbit. In its Newtonian
+  form it relates the period to the mass of the central body and the gravitational
+  constant, and underlies calculations of planetary and satellite orbits.
+equation: time pow 2 eq ((2 mul pi) pow 2) mul ((length pow 3) frac gravitational_constant
   mul mass )
 symbol_overrides:
 - time: T

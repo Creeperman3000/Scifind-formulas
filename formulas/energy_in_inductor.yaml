@@ -2,12 +2,14 @@ name: Energy stored in an inductor
 id: energy_in_inductor
 topic: electromagnetic_induction
 difficulty: 7
+links:
+  - https://www.engineeringtoolbox.com/inductors-energy-stored-d_1391.html
+  - http://www.hyperphysics.phy-astr.gsu.edu/hbase/electric/indeng.html
+  - https://www.omnicalculator.com/physics/inductor-energy
+  - https://www.miniphysics.com/energy-in-inductor.html
+description: "An inductor carrying a current stores energy in the magnetic field it produces, and this energy can be recovered when the current falls. The stored energy grows with the square of the current, so doubling the current quadruples it, assuming constant inductance. This relation is used in RL and LC circuit analysis and in power-electronics designs such as switching converters."
 equation: energy eq inductance mul (current pow 2) frac 2
 symbol_overrides:
 - energy: E_L
-- inductance: ''
-- current: ''
 name_overrides:
 - energy: Stored [energy]
-- inductance: ''
-- current: ''

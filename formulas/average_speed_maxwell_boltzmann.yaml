@@ -2,16 +2,19 @@ name: Average speed from Maxwell-Boltzmann distribution
 id: average_speed_maxwell_boltzmann
 topic: ideal_gases
 difficulty: 8
-description: "Mean speed from the Maxwell-Boltzmann speed distribution; v̄ = √(8 k_B T / π m)."
-equation: velocity eq sqrt (dimensionless mul (gas_constant) mul (temperature) frac
+links:
+- https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution
+- https://chem.libretexts.org/Courses/City_College_of_San_Francisco/Chemistry_101A/03%3A_Topic_C-_Gas_Laws_and_Kinetic_Molecular_Theory/3.01%3A_Gases/3.1.10%3A_Molecular_Speed_Distribution
+- https://completeera.com/maxwell-boltzmann-distribution-calculating-the-average-molecular-speed/
+description: This gives the mean molecular speed of a gas obtained by averaging over
+  the Maxwell-Boltzmann speed distribution at absolute temperature. The average speed
+  always lies between the most probable speed and the root-mean-square speed, and
+  it grows with temperature while shrinking for heavier gases.
+equation: velocity eq sqrt ((dimensionless mul gas_constant mul temperature) frac
   pi mul molar_mass ) 2
 symbol_overrides:
 - velocity: v_{avg}
 - dimensionless: '8'
-- temperature: T
-- molar_mass: M
 name_overrides:
 - velocity: Average speed
 - dimensionless: Eight
-- temperature: Temperature
-- molar_mass: Molar mass

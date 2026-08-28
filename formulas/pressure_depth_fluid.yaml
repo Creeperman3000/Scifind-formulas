@@ -2,9 +2,16 @@ name: Pressure at a depth in fluid
 id: pressure_depth_fluid
 topic: pressure
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pressure
+  - https://en.wikipedia.org/wiki/Hydrostatic_pressure
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.04%3A_Measuring_Pressure
+  - https://www.britannica.com/science/hydrostatic-pressure
+  - https://en.wikipedia.org/wiki/Fluid_pressure
+  - https://www.physicsclassroom.com/class/fluids/Lesson-3/Fluid-Pressures
+description: "The hydrostatic pressure exerted by a fluid at rest at depth h below its surface equals the product of the fluid's density, gravitational acceleration, and depth. This relation holds for incompressible fluids with a free surface, neglecting variations of g with position."
 equation: pressure eq density mul (acceleration) mul length
 symbol_overrides:
-- pressure: ''
 - density: ρ
 - acceleration: g
 - length: h

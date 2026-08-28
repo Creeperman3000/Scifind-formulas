@@ -2,13 +2,16 @@ name: Magnetic flux density from magnetic field intensity
 id: magnetism_magnetic_flux_density_from_h
 topic: magnetism
 difficulty: 8
-description: "Linear magnetic medium (no hysteresis); B = μ H = μ₀ μ_r H."
+links:
+  - https://en.wikipedia.org/wiki/Permeability_(electromagnetism)
+  - https://en.wikipedia.org/wiki/Magnetic_field
+  - https://en.wikipedia.org/wiki/Vacuum_permeability
+  - https://en.wikipedia.org/wiki/Magnetic_susceptibility
+description: In a linear, isotropic, non-hysteretic medium the magnetic flux density B is proportional to the magnetizing field intensity H, with the permeability μ of the material as the proportionality constant (B = μ₀ μᵣ H in vacuum-free form).
 equation: magnetic_flux_density eq permeability mul magnetic_field_strength
 symbol_overrides:
-- magnetic_flux_density: ''
 - permeability: μ
-- magnetic_field_strength: ''
 name_overrides:
 - magnetic_flux_density: Magnetic flux [density]
-- permeability: '[Permeability] of medium'
-- magnetic_field_strength: Magnetic field [intensity]
+- permeability: '[permeability] of medium'
+- magnetic_field_strength: Magnetic field intensity

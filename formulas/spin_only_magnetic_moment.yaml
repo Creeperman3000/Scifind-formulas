@@ -2,12 +2,22 @@ name: Spin-only magnetic moment
 id: spin_only_magnetic_moment
 topic: inorganic_chemistry
 difficulty: 8
-equation: torque eq dimensionless mul sqrt (dimensionless add 2) 2
+links:
+- https://en.wikipedia.org/wiki/Magnetic_moment#Atoms,_molecules,_and_elementary_particles
+- https://en.wikipedia.org/wiki/Bohr_magneton
+- https://en.wikipedia.org/wiki/Spin_(physics)
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/10%3A_Coordination_Chemistry_-_Bonding/10.05%3A_Crystal_Field_Theory
+- https://byjus.com/chemistry/magnetic-moment/
+description: The spin-only formula estimates the magnetic moment of a transition-metal
+  complex (in Bohr magnetons) by neglecting the orbital contribution and considering
+  only the spin angular momentum of unpaired electrons. It is a good first approximation
+  for high-spin complexes of first-row transition metals.
+equation: torque eq sqrt (dimensionless mul dimensionless add 2 ) 2
 symbol_overrides:
 - torque: μ
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- torque: Magnetic [moment] (BM)
+- torque: '[torque] (magnetic moment, BM)'
 - dimensionless: Number of unpaired electrons
 - dimensionless: Number of unpaired electrons

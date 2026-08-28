@@ -2,6 +2,11 @@ name: Gas constant from Boltzmann constant
 id: gas_constant_boltzmann
 topic: ideal_gases
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Gas_constant
+  - https://en.wikipedia.org/wiki/Boltzmann_constant
+  - https://en.wikipedia.org/wiki/Avogadro_constant
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Laws/The_Ideal_Gas_Law
+  - https://physics.nist.gov/cgi-bin/cuu/Value?r
+description: "The molar gas constant is the Avogadro constant multiplied by the Boltzmann constant. It converts between the per-particle energy scale of statistical mechanics and the per-mole energy scale used in macroscopic thermodynamics and chemistry, appearing in the ideal gas law and many other fundamental equations."
 equation: gas_constant eq boltzmann_constant mul avogadro_number
-symbol_overrides: null
-name_overrides: null

@@ -2,6 +2,11 @@ name: Two-point form of a line
 id: two_point_form_line
 topic: equations
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Linear_equation#Two-point_form
+  - https://mathworld.wolfram.com/Two-PointForm.html
+  - https://en.wikipedia.org/wiki/Determinant
+description: "A linear equation that passes through two given distinct points in the plane. It can be rearranged into the determinant form and into the symmetric form."
 equation: (length sub length ) frac length sub length eq (length sub length ) frac length
   sub length
 symbol_overrides:

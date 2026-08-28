@@ -2,6 +2,11 @@ name: Angular Radius Of The Airy Disk
 id: angular_radius_of_the_airy_disk
 topic: diffraction
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Airy_disk
+  - https://astronomy.swin.edu.au/cosmos/A/Airy+Disk
+  - https://astronomy.swin.edu.au/cosmos/R/Resolution
+description: "Light focused through a circular aperture does not form a perfect point but a diffraction pattern whose bright central spot is the Airy disk. The angular radius measures the angle from the pattern's center to the first dark ring, and it sets the diffraction-limited resolving power of telescopes, microscopes, and cameras via the Rayleigh criterion. Valid in the far field with the small-angle approximation."
 equation: angle eq dimensionless mul length frac length
 symbol_overrides:
 - angle: θ
@@ -9,7 +14,6 @@ symbol_overrides:
 - length: λ
 - length: D
 name_overrides:
-- angle: Angular [radius] of Airy disk
-- dimensionless: ''
+- angle: Angular radius of Airy disk
 - length: Wavelength
 - length: Aperture diameter

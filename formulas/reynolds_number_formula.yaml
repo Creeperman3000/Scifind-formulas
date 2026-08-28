@@ -2,16 +2,24 @@ name: Reynolds number
 id: reynolds_number_formula
 topic: reynolds_number
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Reynolds_number
+  - https://www.britannica.com/science/Reynolds-number
+  - https://eng.libretexts.org/Bookshelves/Chemical_Engineering/Fluid_Mechanics_(Barmeier)/08%3A_Flow_in_Pipes/8.1%3A_Flow_Regimes
+  - https://www.khanacademy.org/science/physics/fluids/fluid-dynamics/v/reynolds-number
+  - https://byjus.com/physics/reynolds-number/
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.07%3A_Reynolds_Number
+description: "The Reynolds number is a dimensionless quantity that quantifies the ratio of inertial to viscous forces in a fluid, predicting whether flow will be laminar or turbulent. It is fundamental in fluid dynamics for scaling experiments, designing pipe systems, and modeling flow around objects such as aircraft wings."
 equation: reynolds_number eq density mul (velocity) mul (length) frac dynamic_viscosity
 symbol_overrides:
-- reynolds_number: ''
-- density: ''
-- velocity: ''
+- reynolds_number: Re
+- density: \rho
+- velocity: u
 - length: L
-- dynamic_viscosity: ''
+- dynamic_viscosity: \mu
 name_overrides:
-- reynolds_number: ''
-- density: ''
-- velocity: ''
-- length: Characteristic length
-- dynamic_viscosity: ''
+- reynolds_number: '[reynolds_number]'
+- density: '[density] of the fluid'
+- velocity: Flow [velocity]
+- length: Characteristic [length]
+- dynamic_viscosity: '[dynamic_viscosity] of the fluid'

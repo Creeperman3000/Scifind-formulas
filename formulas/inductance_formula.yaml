@@ -2,12 +2,10 @@ name: Inductance definition
 id: inductance_formula
 topic: electromagnetic_induction
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Inductance
+  - https://en.wikipedia.org/wiki/Inductor
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Inductance/14.02%3A_Self-Inductance_and_Inductors
+  - https://www.britannica.com/technology/inductor-electronics
+description: Inductance is defined as the ratio of the magnetic flux linkage through a circuit to the current that produces it. It measures the ability of a circuit to store energy in a magnetic field and is measured in henries.
 equation: inductance eq magnetic_flux frac current
-symbol_overrides:
-- inductance: ''
-- magnetic_flux: ''
-- current: ''
-name_overrides:
-- inductance: ''
-- magnetic_flux: ''
-- current: ''

@@ -2,12 +2,19 @@ name: Equivalent resistance of n equal parallel resistors
 id: parallel_resistors_n_equal
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Resistor#Series_and_parallel_resistors
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits
+  - https://en.wikipedia.org/wiki/Dalton%27s_law
+  - https://www.electronics-tutorials.ws/resistor/res_4.html
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/parallel-circuits
+description: "When n identical resistors are wired in parallel, the equivalent resistance of the combination is the value of one resistor divided by the number of resistors. This special case of the parallel-resistance rule is widely used to design current dividers and to obtain standard resistance values from a single resistor stock."
 equation: resistance eq resistance frac dimensionless
 symbol_overrides:
-- resistance: R_{eq}
-- resistance: ''
-- dimensionless: n
+  - resistance: R_{eq}
+  - resistance: R
+  - dimensionless: n
 name_overrides:
-- resistance: Equivalent [resistance]
-- resistance: Each [resistance]
-- dimensionless: Number of resistors
+  - resistance: Equivalent [resistance]
+  - resistance: Each [resistance]
+  - dimensionless: Number of resistors

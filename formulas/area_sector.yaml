@@ -2,12 +2,18 @@ name: Area of a sector
 id: area_sector
 topic: circles
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Circular_sector
+  - https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/04%3A_Radian_Measure/4.03%3A_Area_of_a_Sector
+  - https://mathworld.wolfram.com/CircularSector.html
+  - https://www.cuemath.com/measurement/area-of-a-sector/
+  - https://www.omnicalculator.com/math/sector-area
+description: "A sector is the pie-slice region of a circle bounded by two radii and an arc. Its area is the fraction of the full circle corresponding to the central angle, which must be expressed in radians for this form of the relation."
 equation: area eq (length pow 2) mul (angle) frac 2
 symbol_overrides:
-- area: ''
 - length: r
 - angle: θ
 name_overrides:
 - area: Sector [area]
 - length: Radius
-- angle: Central angle (radians)
+- angle: Central angle in radians

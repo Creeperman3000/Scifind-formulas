@@ -2,13 +2,18 @@ name: Gravitational field strength
 id: gravitational_field_strength
 topic: newtonian_gravity
 difficulty: 5
-description: "Valid outside a spherically symmetric mass; the body is treated as a point mass at its centre."
+links:
+  - https://en.wikipedia.org/wiki/Gravitational_acceleration
+  - https://en.wikipedia.org/wiki/Gravitational_field
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/13%3A_Gravitation/13.02%3A_Newton's_Law_of_Universal_Gravitation
+  - https://farside.ph.utexas.edu/teaching/336k/Newton/node113.html
+  - https://www.britannica.com/science/gravity-physics
+  - https://www.physicsclassroom.com/class/circles/Lesson-3/Newton-s-Law-of-Universal-Gravitation
+description: "The gravitational field strength at a point equals the gravitational force per unit test mass placed there; for a spherically symmetric body treated as a point mass at its centre, the field falls off as the inverse square of the distance from the centre."
 equation: acceleration eq gravitational_constant mul (mass) frac length pow 2
 symbol_overrides:
 - acceleration: g
-- mass: ''
 - length: r
 name_overrides:
 - acceleration: Gravitational field strength
-- mass: ''
 - length: Distance

@@ -2,12 +2,16 @@ name: Force from pressure
 id: force_from_pressure
 topic: pressure
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Pressure
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.04%3A_Measuring_Pressure
+  - https://www.britannica.com/science/pressure
+  - https://www.physicsclassroom.com/class/fluids/Lesson-1/Pressure
+  - https://www.khanacademy.org/science/physics/fluids/density-and-pressure/a/what-is-pressure
+description: "Pressure is the normal force applied per unit area, so the force on a surface equals the pressure times the area on which it acts. This relation is used to convert between pressure (e.g. fluid or gas) and the total force exerted on a surface of known area, such as a piston, wall, or valve."
 equation: force eq pressure mul area
 symbol_overrides:
-- force: ''
-- pressure: ''
-- area: ''
+  - pressure: P
+  - area: A
 name_overrides:
-- force: ''
-- pressure: ''
-- area: ''
+  - force: F

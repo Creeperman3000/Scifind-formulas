@@ -2,8 +2,13 @@ name: Work done when force is perpendicular to displacement
 id: work_zero_displacement
 topic: work
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy
+  - https://www.physicsclassroom.com/Class/energy/u5l1c.cfm
+  - https://www.britannica.com/science/work-physics
+  - https://openstax.org/books/university-physics-volume-1/pages/7-1-work
+description: "When a force is perpendicular to the displacement of its point of application, it does no work on the object, because W = F s cos θ and cos 90° = 0. This is why the normal force from a surface, the gravitational force on a horizontally moving object, and centripetal forces do no work."
 equation: energy eq 0
 name_overrides:
-- energy: '[Work]'
-symbol_overrides:
-- energy: ''
+- energy: Work

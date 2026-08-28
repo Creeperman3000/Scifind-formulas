@@ -2,14 +2,17 @@ name: Velocity at constant acceleration
 id: velocity_constant_acceleration
 topic: constant_acceleration
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Kinematics
+  - https://en.wikipedia.org/wiki/Equations_of_motion
+  - https://en.wikipedia.org/wiki/Acceleration
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/03%3A_Motion_Along_a_Straight_Line/3.04%3A_Constant_Acceleration
+  - https://www.khanacademy.org/science/physics/one-dimensional-motion/kinematic-formulas/v/kinematic-formulas
+description: "First kinematic equation: the velocity of an object under uniform acceleration increases linearly with time, given an initial velocity. It is valid when the acceleration is constant and motion is along a straight line."
 equation: velocity eq velocity add acceleration mul time
 symbol_overrides:
-- velocity: v
+- velocity: ''
 - velocity: u
-- acceleration: a
-- time: t
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
-- acceleration: Acceleration
-- time: Time

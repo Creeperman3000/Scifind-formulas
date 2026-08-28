@@ -2,16 +2,23 @@ name: Limiting reactant identification
 id: limiting_reactant_identification
 topic: limiting_reactants
 difficulty: 5
-equation: dimensionless eq dimensionless frac dimensionless gt dimensionless frac dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Limiting_reagent
+  - https://en.wikipedia.org/wiki/Extent_of_reaction
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry-_Chemical_Formulas_and_Equations/3.07%3A_Limiting_Reactants
+  - https://www.thoughtco.com/limiting-reagent-609580.html
+  - https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802%3Astoichiometry/x2eef969c74e0d802%3Alimiting-reagent/v/limiting-reactant-example-problem-1
+description: "The limiting reactant is the reactant that is fully consumed first and therefore caps the amount of product formed. For two reactants A and B, the one whose amount-of-substance divided by its stoichiometric coefficient is smallest is the limiting reactant, because that ratio equals the extent of reaction needed to drive that reagent to zero."
+equation: dimensionless eq dimensionless frac dimensionless lt dimensionless frac dimensionless
 symbol_overrides:
-- dimensionless: ratio_A
+- dimensionless: \text{ratio}_A
 - dimensionless: n_A
-- dimensionless: ν_A
+- dimensionless: \nu_A
 - dimensionless: n_B
-- dimensionless: ν_B
+- dimensionless: \nu_B
 name_overrides:
-- dimensionless: Actual mole ratio
-- dimensionless: Amount of A
+- dimensionless: Actual-to-stoichiometric mole ratio of A
+- dimensionless: '[amount] of A'
 - dimensionless: Stoichiometric coefficient of A
-- dimensionless: Amount of B
+- dimensionless: '[amount] of B'
 - dimensionless: Stoichiometric coefficient of B

@@ -2,6 +2,11 @@ name: Coordination number definition
 id: coordination_number_definition
 topic: inorganic_chemistry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Coordination_number
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/09:_Coordination_Chemistry_I_-_Structure_and_Isomers/9.05:_Coordination_Numbers_and_Structures
+  - https://www.britannica.com/science/coordination-number
+description: "In coordination chemistry, the coordination number of a central metal atom or ion is the count of ligand donor atoms directly bonded to it. For monodentate ligands this equals the number of ligands, while chelating (polydentate) ligands contribute one attachment point per donor atom. It determines the geometry of the complex, with values of 2, 4, and 6 being most common for transition metals."
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: CN

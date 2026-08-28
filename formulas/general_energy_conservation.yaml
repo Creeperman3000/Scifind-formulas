@@ -2,10 +2,17 @@ name: General conservation of energy
 id: general_energy_conservation
 topic: conservation_of_energy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Conservation_of_energy
+  - https://www.britannica.com/science/conservation-of-energy
+  - https://courses.lumenlearning.com/suny-physics/chapter/7-1-conservation-of-energy/
+  - https://www.physics.gov.au/learn/sites/default/files/Conservation_of_Energy.pdf
+  - https://opentextbc.ca/physicstestbook2/chapter/conservation-of-energy/
+description: "The law of conservation of energy states that the total energy of an isolated system remains constant over time. Energy may be transformed from one form to another (kinetic, potential, thermal, etc.) or transferred between objects, but it is neither created nor destroyed."
 equation: energy eq energy
 symbol_overrides:
-- energy: E_{total,i}
-- energy: E_{total,f}
+  - energy: E_{total,i}
+  - energy: E_{total,f}
 name_overrides:
-- energy: Initial total [energy]
-- energy: Final total [energy]
+  - energy: Initial total [energy]
+  - energy: Final total [energy]

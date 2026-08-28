@@ -2,14 +2,19 @@ name: Microscopic current density
 id: current_density_definition_microscopic
 topic: current_electricity
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Drift_velocity
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Introductory_Physics_-_Building_Models_to_Describe_Our_World_%28Martin_Neary_Rinaldo_and_Woodman%29/19%3A_Electric_Current/19.02%3A_Microscopic_model_of_current
+  - https://academic.mu.edu/phys/matthysd/web004/L0204.htm
+description: "This relation connects the macroscopic current density in a conductor to the microscopic motion of its charge carriers: it equals the carrier number density times the charge per carrier times the average drift velocity. It applies when carriers of a single type drift through the material, as in metals or doped semiconductors, and shows why even tiny drift speeds yield sizable currents given enormous carrier densities."
 equation: current_density eq dimensionless mul (charge) mul velocity
 symbol_overrides:
 - current_density: J
-- charge: ''
 - dimensionless: n
+- charge: q
 - velocity: v_d
 name_overrides:
-- current_density: '[Current density]'
-- charge: ''
+- current_density: '[current_density]'
 - dimensionless: Charge carrier density
-- velocity: Drift velocity
+- charge: '[charge] of each carrier'
+- velocity: Drift [velocity]

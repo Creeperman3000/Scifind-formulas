@@ -2,15 +2,15 @@ name: Angular velocity at constant angular acceleration
 id: angular_velocity_constant_acceleration
 topic: circular_motion
 difficulty: 6
-description: "Valid for constant angular acceleration; ω = ω₀ + α t."
+links:
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/10%3A_Rotational_Motion_and_Angular_Momentum/10.02%3A_Kinematics_of_Rotational_Motion
+  - https://openstax.org/books/college-physics-2e/pages/10-2-kinematics-of-rotational-motion
+  - https://www.physicsclassroom.com/class/Balance-and-Rotation/Lesson-1-Rotational-Kinematics/Equations-of-Rotational-Kinematics
+description: "This rotational kinematic relation gives the angular speed of a spinning body after a known time interval when its angular acceleration is constant. It is the exact rotational analogue of the straight-line motion equation for final velocity, obtained by replacing displacement, velocity, and acceleration with their angular counterparts. Commonly used for wheels, turbines, and other objects spun up or braked at a steady rate."
 equation: angular_velocity eq angular_velocity add angular_acceleration mul time
 symbol_overrides:
 - angular_velocity: ω
 - angular_velocity: ω₀
-- angular_acceleration: ''
-- time: ''
 name_overrides:
 - angular_velocity: Final angular [velocity|velocity]
 - angular_velocity: Initial angular [velocity|velocity]
-- angular_acceleration: ''
-- time: ''

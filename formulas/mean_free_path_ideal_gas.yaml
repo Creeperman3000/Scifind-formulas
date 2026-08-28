@@ -2,16 +2,21 @@ name: Mean free path of an ideal gas molecule
 id: mean_free_path_ideal_gas
 topic: ideal_gases
 difficulty: 9
-description: "Valid for an ideal gas; λ = 1 / (√2 · π d² n)."
-equation: length eq boltzmann_constant mul (temperature) frac pi mul (length pow 2)
-  mul (pressure) mul sqrt 2 2
+links:
+- https://en.wikipedia.org/wiki/Mean_free_path
+- https://www.britannica.com/science/mean-free-path
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(Flexter)/03%3A_Gases/3.3%3A_Kinetic-Molecular_Theory_of_Gases/3.3.3%3A_Mean_Free_Path
+- https://farside.ph.utexas.edu/teaching/sm1/lectures/node13.html
+description: The mean free path is the average distance a gas molecule travels between
+  successive collisions with other molecules in an ideal gas. For hard-sphere molecules
+  of diameter d, it equals the Boltzmann constant times absolute temperature divided
+  by the product of the pressure, the molecular cross-sectional area, and the square
+  root of two.
+equation: ((length) eq ((boltzmann_constant mul temperature) frac ((pi mul (length
+  pow 2) mul pressure) mul (2 sqrt 2))))
 symbol_overrides:
 - length: λ
-- temperature: ''
 - length: d
-- pressure: ''
 name_overrides:
 - length: Mean free path
-- temperature: ''
 - length: Molecular diameter
-- pressure: ''

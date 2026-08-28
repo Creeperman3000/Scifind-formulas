@@ -2,10 +2,16 @@ name: Tetrahedral to octahedral crystal field splitting ratio
 id: octahedral_tetrahedral_splitting
 topic: inorganic_chemistry
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Crystal_field_theory
+  - https://en.wikipedia.org/wiki/Spectrochemical_series
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft_and_Sharpe)/Chapter_19%3A_d-Block_Metal_Chemistry_-_General_Considerations/19.3%3A_Crystal_Field_Theory
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Supplemental_Modules_and_Websites_(Inorganic_Chemistry)/Crystal_Field_Theory/Crystal_Field_Stabilization_Energy
+description: "For the same metal and ligands, the crystal field splitting in a tetrahedral complex is approximately 4/9 of the octahedral splitting. This weaker splitting, combined with the smaller crystal-field stabilization energy, is why tetrahedral complexes are almost always high-spin."
 equation: energy eq (energy mul 4) frac 9
 symbol_overrides:
-- energy: Δ_{tet}
-- energy: Δ_{oct}
+- energy: \Delta_{tet}
+- energy: \Delta_{oct}
 name_overrides:
 - energy: Tetrahedral crystal field splitting
 - energy: Octahedral crystal field splitting

@@ -2,14 +2,26 @@ name: Limit of exponential difference
 id: limit_exponential_minus_one
 topic: limits
 difficulty: 7
-equation: lim dimensionless dimensionless (((exp dimensionless) sub 1) frac dimensionless) eq 1
+links:
+- https://en.wikipedia.org/wiki/List_of_limits
+- https://en.wikipedia.org/wiki/Derivative
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02:_Limits_and_Continuity/2.04:_Continuity
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-determining-limits-using-the-squeeze-theorem-and-graphs/v/limit-of-exponential-difference
+- https://mathworld.wolfram.com/ExponentialFunction.html
+- https://www.britannica.com/science/limit-mathematics
+description: A foundational special limit in differential calculus expressing the
+  derivative of e^x at the origin. It underlies the fact that the natural exponential
+  function is its own derivative and is used in deriving rules for differentiating
+  exponential functions via the limit definition of the derivative.
+equation: lim dimensionless dimensionless ((exp dimensionless sub 1) frac dimensionless)
+  eq 1
 symbol_overrides:
 - dimensionless: x
 - dimensionless: '0'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Zero
-- dimensionless: '''[Variable]'''
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
+- dimensionless: '[variable]'

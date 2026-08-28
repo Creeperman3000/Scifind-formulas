@@ -2,14 +2,16 @@ name: Area thermal expansion
 id: area_thermal_expansion
 topic: heat
 difficulty: 6
+links:
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/13%3A_Temperature_Kinetic_Theory_and_the_Gas_Laws/13.02%3A_Thermal_Expansion_of_Solids_and_Liquids
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/12:_Temperature_and_Kinetic_Theory/12.3:_Thermal_Expansion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/01%3A_Temperature_and_Heat/1.04%3A_Thermal_Expansion
+description: "Describes how the surface area of a flat solid plate increases when heated. For an isotropic material the coefficient of area expansion equals twice the linear expansion coefficient, so the change in area can be computed directly from tabulated linear values. The relation is an approximation valid for small temperature changes."
 equation: area eq (coefficient_of_linear_expansion mul 2) mul area mul Delta temperature
 symbol_overrides:
 - area: ΔA
-- coefficient_of_linear_expansion: ''
 - area: A₀
-- temperature: ''
 name_overrides:
 - area: Change in [area]
 - coefficient_of_linear_expansion: α
-- area: Initial area
-- temperature: ''
+- area: Initial [area]

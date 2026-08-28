@@ -2,16 +2,22 @@ name: Magnetic Lorentz force
 id: lorentz_force_magnetic
 topic: magnetism
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Lorentz_force
+  - https://en.wikipedia.org/wiki/Magnetic_force
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11:_Magnetic_Forces_and_Fields
+  - https://www.britannica.com/science/Lorentz-force
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields-and-the-magnetic-force-on-a-moving-charge
+description: "The magnitude of the force on a charge q moving with velocity v through a magnetic field B, equal to qvB sinθ where θ is the angle between v and B. The force is always perpendicular to both v and B, does no work, and produces circular or helical motion in uniform fields."
 equation: force eq charge mul (velocity) mul (magnetic_flux_density) mul sin angle
 symbol_overrides:
-- force: ''
 - charge: q
-- velocity: ''
-- magnetic_flux_density: ''
-- angle: θ
+- velocity: v
+- magnetic_flux_density: B
+- angle: \theta
 name_overrides:
-- force: Magnetic Lorentz [force]
-- charge: '[Charge]'
-- velocity: '[Velocity]'
-- magnetic_flux_density: Magnetic [field]
+- force: Magnetic Lorentz force
+- charge: Charge
+- velocity: Particle velocity
+- magnetic_flux_density: Magnetic field
 - angle: Angle between v and B

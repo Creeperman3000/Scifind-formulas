@@ -2,6 +2,16 @@ name: Law of sines
 id: law_of_sines
 topic: laws_of_sines_and_cosines
 difficulty: 5
+links:
+- https://en.wikipedia.org/wiki/Law_of_sines
+- https://www.britannica.com/science/law-of-sines
+- https://www.mathsisfun.com/algebra/trig-sine-law.html
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/02%3A_General_Triangles/2.01%3A_The_Law_of_Sines
+- https://louis.pressbooks.pub/trigonometry/chapter/3-2-the-law-of-sines/
+description: The law of sines relates the side lengths of a triangle to the sines
+  of their opposite angles. It is used for triangulation when two angles and a side
+  (AAS/ASA) or two sides and a non-included angle (the ambiguous SSA case) are known,
+  and the common ratio equals the diameter of the triangle's circumscribed circle.
 equation: length frac sin angle eq length frac sin angle
 symbol_overrides:
 - length: a
@@ -9,7 +19,7 @@ symbol_overrides:
 - length: b
 - angle: B
 name_overrides:
-- length: ''
-- angle: ''
-- length: ''
-- angle: ''
+- length: Side a
+- angle: Angle A
+- length: Side b
+- angle: Angle B

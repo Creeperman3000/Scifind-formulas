@@ -2,14 +2,18 @@ name: Activity at time t
 id: activity_time
 topic: nuclear_physics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Radioactive_decay
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/13%3A_Kinetic_Methods/13.03%3A_Radiochemistry
+  - https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/23-nuclear-physics/23-2-radioactive-decay/activity-and-the-decay-constant/
+  - https://www.miniphysics.com/activity-half-life-and-decay-constant.html
+description: "Because radioactive decay is a first-order process, the activity of a sample falls off exponentially: it drops by half after each half-life. This law predicts the decay rate of a source at any elapsed time from its initial activity and the nuclide's decay constant, and is used in radiometric dating, nuclear medicine dosing, and source calibration."
 equation: activity eq activity mul exp (drop (frequency mul time) sub)
 symbol_overrides:
-- activity: A
+- activity: A(t)
 - activity: A_0
-- frequency: λ
-- time: t
+- frequency: \lambda
 name_overrides:
-- activity: '[Activity] at time t'
+- activity: '[activity] at time t'
 - activity: Initial [activity]
 - frequency: Decay constant
-- time: ''

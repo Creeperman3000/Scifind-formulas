@@ -2,7 +2,16 @@ name: Angle difference identity for cosine
 id: angle_diff_cosine
 topic: trigonometric_identities
 difficulty: 6
-equation: cos (angle sub angle ) eq cos angle mul (cos angle ) add sin angle mul sin
+links:
+- https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-2-sum-and-difference-identities
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/03%3A_Identities/3.02%3A_Sum_and_Difference_Formulas
+- https://mathworld.wolfram.com/TrigonometricAdditionFormulas.html
+description: Expresses the cosine of the difference of two angles in terms of the
+  sines and cosines of the individual angles. It holds for all real angles and is
+  one of the fundamental sum-and-difference identities, used to compute exact values
+  such as cos(15 degrees) and to derive many other trigonometric relations. Note that
+  for cosine the sign between the terms is opposite to the sign between the angles.
+equation: cos (angle sub angle) eq (cos angle mul cos angle) add sin angle mul sin
   angle
 symbol_overrides:
 - angle: A

@@ -2,21 +2,28 @@ name: Damped harmonic oscillator differential equation
 id: damped_oscillator_ode
 topic: differential_equations
 difficulty: 9
-equation: (frac (rmd (rmd dimensionless)) ((rmd time) pow 2)) add ((2 mul dimensionless) mul (frac (rmd
-  dimensionless) (rmd time))) add ((angular_velocity pow 2) mul dimensionless) eq 0
+links:
+- https://en.wikipedia.org/wiki/Harmonic_oscillator
+- https://en.wikipedia.org/wiki/Damped_harmonic_oscillator
+- https://phys.libretexts.org/Bookshelves/Mathematical_Physics_and_Pedagogy/Complex_Methods_for_the_Sciences_(Chong)/05%3A_Complex_Oscillations/5.01%3A_The_Damped_Harmonic_Oscillator
+- https://farside.ph.utexas.edu/teaching/315/Waveshtml/node12.html
+description: Second-order linear ODE governing a displaced mass acted on by a spring-like
+  restoring force and a viscous drag proportional to velocity. It is obtained from
+  Newton's second law after dividing out the mass; the balance between the damping
+  coefficient and the natural frequency determines whether the motion is underdamped,
+  critically damped, or overdamped.
+equation: frac rmd rmd dimensionless (rmd time pow 2) add (2 mul dimensionless) mul
+  frac (rmd dimensionless) (rmd time) add (angular_velocity pow 2) mul dimensionless
+  eq 0
 symbol_overrides:
 - dimensionless: x
-- time: t
 - dimensionless: \gamma
 - dimensionless: x
-- time: t
 - angular_velocity: \omega_0
 - dimensionless: x
 name_overrides:
 - dimensionless: Displacement
-- time: Time
 - dimensionless: Damping coefficient
-- dimensionless: Velocity term
-- time: Time
+- dimensionless: Displacement
 - angular_velocity: Natural angular [frequency]
 - dimensionless: Displacement

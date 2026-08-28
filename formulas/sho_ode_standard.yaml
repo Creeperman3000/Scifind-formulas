@@ -2,15 +2,24 @@ name: Simple harmonic oscillator ODE (standard form)
 id: sho_ode_standard
 topic: differential_equations
 difficulty: 8
-equation: (frac (rmd (rmd dimensionless)) ((rmd time) pow 2)) add ((angular_velocity pow 2) mul length)
-  eq 0
+links:
+- https://en.wikipedia.org/wiki/Simple_harmonic_motion
+- https://en.wikipedia.org/wiki/Harmonic_oscillator
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.01%3A_Simple_Harmonic_Motion
+- https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/introduction-to-harmonic-motion
+- https://math.libretexts.org/Bookshelves/Differential_Equations/Book%3A_Differential_Equations_for_Engineers_(Lebl)/3%3A_Systems_of_ODEs/3.1%3A_Harmonic_Oscillators
+description: The standard undamped simple harmonic oscillator equation governs the
+  motion of a mass attached to an ideal spring (and, in the small-angle limit, a pendulum).
+  Its solutions are sinusoidal, with the natural angular frequency set by the ratio
+  of spring stiffness to mass, and form the prototype for oscillations, waves, and
+  many quantum-mechanical bound states.
+equation: frac rmd rmd dimensionless (rmd time pow 2) add (angular_velocity pow 2)
+  mul length eq 0
 symbol_overrides:
 - dimensionless: x
-- time: t
 - angular_velocity: \omega_0
 - length: x
 name_overrides:
 - dimensionless: Displacement
-- time: Time
 - angular_velocity: Natural angular [frequency]
 - length: Displacement

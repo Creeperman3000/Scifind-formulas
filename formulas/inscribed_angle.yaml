@@ -2,10 +2,17 @@ name: Inscribed angle theorem
 id: inscribed_angle
 topic: circles
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Inscribed_angle
+  - https://mathworld.wolfram.com/InscribedAngle.html
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/09%3A_Circles/9.04%3A_Inscribed_Angles
+  - https://www.khanacademy.org/math/geometry/hs-geo-circles/hs-geo-inscribed-angles/v/inscribed-angle-theorem
+  - https://www.cut-the-knot.org/pythagoras/Munching/inscribed.shtml
+description: "The inscribed angle theorem states that the measure of an angle inscribed in a circle is exactly half of the central angle that subtends the same arc. As a result, every inscribed angle that intercepts a given arc has the same measure, regardless of where its vertex lies on the circle. The corollary includes Thales' theorem, that any angle inscribed in a semicircle is a right angle."
 equation: angle eq angle frac 2
 symbol_overrides:
-- angle: θ_i
-- angle: θ_c
+- angle: \theta_i
+- angle: \theta_c
 name_overrides:
 - angle: Inscribed [angle]
 - angle: Central [angle]

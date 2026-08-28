@@ -2,6 +2,13 @@ name: Matrix multiplication 2x2 (first element)
 id: matrix_multiplication_2x2
 topic: linear_algebra
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Matrix_multiplication
+  - https://en.wikipedia.org/wiki/Matrix_(mathematics)#Matrix_multiplication
+  - https://mathworld.wolfram.com/MatrixMultiplication.html
+  - https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-multiplication/v/matrix-multiplication-intro
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Book%3A_Mathematical_Methods_in_Chemistry_(Levitus)/11%3A_Matrices/11.2%3A_Matrix_Arithmetic
+description: "Matrix multiplication of a 2-by-2 matrix A by a 2-by-2 matrix B requires that the number of columns of A equals the number of rows of B; the product is then computed as the dot product of the i-th row of A with the j-th column of B for each entry. The operation is associative and distributive over addition but is generally not commutative. Shown here is the c₁₁ element of the product, obtained from the first row of A and the first column of B."
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
   dimensionless
 symbol_overrides:

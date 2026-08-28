@@ -2,12 +2,21 @@ name: Derivative of exponential
 id: derivative_exp
 topic: derivatives
 difficulty: 6
-equation: frac (rmd (exp angle)) (rmd angle) eq exp angle
+links:
+- https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM3-1-4.php
+- https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-7/a/proof-the-derivative-of-is
+- https://ximera.osu.edu/mooculus/calculus1TextbookBySection/rulesOfDifferentiation/rulesOfDifferentiation/digInTheDerivativeOfEToTheX
+- https://proofwiki.org/wiki/Exponential_Function_is_Differentiable
+description: The natural exponential function is its own derivative, which is the
+  property that makes it central to calculus and to modeling growth and decay. It
+  follows from the limit definition of the derivative together with the fact that
+  the slope of the curve equals its height at every point.
+equation: frac rmd exp angle rmd angle eq exp angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

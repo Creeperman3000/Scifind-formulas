@@ -2,6 +2,14 @@ name: Stoichiometric mole ratio calculation
 id: stoichiometric_mole_ratio
 topic: limiting_reactants
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Stoichiometry
+  - https://en.wikipedia.org/wiki/Stoichiometric_amount
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/03%3A_Chemical_Reactions_-_Quantitative_Information_from_Balanced_Equations
+  - https://www.britannica.com/science/stoichiometry
+description: "The amount of a product obtained from a given amount of a reactant is
+  found by multiplying the reactant moles by the ratio of the product\u2019s to the reactant\u2019s
+  stoichiometric coefficient. This mole ratio is the basis of reaction stoichiometry."
 equation: amount eq amount mul dimensionless frac dimensionless
 symbol_overrides:
 - amount: n_{product}
@@ -9,7 +17,7 @@ symbol_overrides:
 - dimensionless: ν_{product}
 - dimensionless: ν_{reactant}
 name_overrides:
-- amount: Moles of [product]
-- amount: Moles of [reactant]
-- dimensionless: Stoichiometric coefficient of [product]
-- dimensionless: Stoichiometric coefficient of [reactant]
+- amount: Moles of product
+- amount: Moles of reactant
+- dimensionless: Stoichiometric coefficient of product
+- dimensionless: Stoichiometric coefficient of reactant

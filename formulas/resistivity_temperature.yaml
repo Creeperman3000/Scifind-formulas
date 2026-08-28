@@ -2,10 +2,22 @@ name: Resistivity temperature dependence
 id: resistivity_temperature
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Temperature_dependence
+  - https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance
+  - https://en.wikipedia.org/wiki/Temperature_coefficient_of_resistance
+  - https://en.wikipedia.org/wiki/Resistor
+description: The resistance of a conductor varies approximately linearly with temperature over a limited range, expressed as the resistance at a reference temperature multiplied by one plus the temperature coefficient times the temperature change. This linear approximation is widely used for metals near room temperature, where the temperature coefficient of resistance is small and positive.
 equation: resistance eq resistance mul 1 add dimensionless mul temperature sub temperature
 symbol_overrides:
-- resistance: R
-- resistance: R_0
-- dimensionless: α
-- temperature: T
-- temperature: T_0
+  - resistance: ''
+  - resistance: R_0
+  - dimensionless: α
+  - temperature: ''
+  - temperature: T_0
+name_overrides:
+  - resistance: '[resistance]'
+  - resistance: Reference [resistance]
+  - dimensionless: Temperature coefficient
+  - temperature: '[temperature]'
+  - temperature: Reference [temperature]

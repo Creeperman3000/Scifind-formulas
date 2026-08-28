@@ -2,12 +2,14 @@ name: Surface energy from surface tension
 id: surface_energy_tension
 topic: surface_tension
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Surface_tension
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Liquids/Surface_Tension
+  - https://www.britannica.com/science/surface-tension
+  - https://en.wikipedia.org/wiki/Surface_energy
+  - https://physics.info/surface-tension/
+description: "The total surface energy of a liquid interface is the surface tension multiplied by the area of the interface. It represents the work required to create that surface and equals the excess free energy of molecules at the boundary compared to those in the bulk."
 equation: energy eq surface_tension mul area
 symbol_overrides:
 - energy: U
 - surface_tension: γ
-- area: ''
-name_overrides:
-- energy: ''
-- surface_tension: ''
-- area: ''

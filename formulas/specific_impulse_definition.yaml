@@ -2,12 +2,19 @@ name: Specific impulse
 id: specific_impulse_definition
 topic: newtons_laws
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Specific_impulse
+  - https://en.wikipedia.org/wiki/Thrust
+  - https://en.wikipedia.org/wiki/Mass_flow_rate
+  - https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
+  - https://www.grc.nasa.gov/www/k-12/rocket/specimp.html
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Book%3A_Classical_Mechanics_(Tatum)/19%3A_Rocket_Motion/19.02%3A_Specific_Impulse
+description: "Specific impulse measures how efficiently a reaction engine generates thrust from propellant. It is the thrust divided by the propellant mass flow rate and is also expressed in seconds by dividing further by standard gravity, so it is the time a unit mass of propellant can produce a unit of thrust."
 equation: time eq force frac mass_concentration mul standard_gravity
 symbol_overrides:
 - time: I_{sp}
-- force: ''
 - mass_concentration: \dot{m}
 name_overrides:
-- time: Specific [impulse]
+- time: Specific impulse
 - force: Thrust
-- mass_concentration: Mass flow [rate]
+- mass_concentration: Mass flow rate

@@ -2,16 +2,19 @@ name: Law of total probability
 id: law_of_total_probability
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Law_of_total_probability
+  - https://mathworld.wolfram.com/TotalProbabilityTheorem.html
+  - https://www.britannica.com/science/law-of-total-probability
+  - https://www.probabilitycourse.com/chapter1/1_4_2_total_probability.php
+  - https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Models/05%3A_Important_Distributions_and_Density_Functions/5.02%3A_Law_of_Total_Probability
+description: "The law of total probability expresses the marginal probability of an event as a weighted sum of its conditional probabilities over a partition of mutually exclusive and exhaustive events. It is a fundamental tool used together with Bayes' theorem to update probabilities in hierarchical or partitioned sampling situations."
 equation: dimensionless eq sum drop drop dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P(B)
 - dimensionless: P(B|A₁)
 - dimensionless: P(A₁)
-- dimensionless: P(B|A₂)
-- dimensionless: P(A₂)
 name_overrides:
 - dimensionless: Total probability of event B
 - dimensionless: Conditional probability given A₁
 - dimensionless: Probability of A₁
-- dimensionless: Conditional probability given A₂
-- dimensionless: Probability of A₂

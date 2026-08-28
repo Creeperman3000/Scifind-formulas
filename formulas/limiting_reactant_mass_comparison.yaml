@@ -2,19 +2,25 @@ name: Limiting reactant by mass comparison
 id: limiting_reactant_mass_comparison
 topic: limiting_reactants
 difficulty: 6
-equation: mass eq mass frac (molar_mass) frac (dimensionless) mul dimensionless mul
-  molar_mass
+links:
+  - https://en.wikipedia.org/wiki/Limiting_reagent
+  - https://en.wikipedia.org/wiki/Extent_of_reaction
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry-_Chemical_Formulas_and_Equations/3.07%3A_Limiting_Reactants
+  - https://www.thoughtco.com/limiting-reagent-609580.html
+  - https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802%3Astoichiometry/x2eef969c74e0d802%3Alimiting-reagent/v/limiting-reactant-example-problem-1
+description: "When reactant amounts are given as masses, the limiting reactant is identified by computing the mass of one reactant that is required to react completely with a given mass of the other, using molar masses and stoichiometric coefficients. The reactant whose required mass exceeds the amount actually present is the limiting reactant."
+equation: mass eq mass frac (molar_mass) frac (dimensionless) mul dimensionless mul molar_mass
 symbol_overrides:
-- mass: m_{B,from,A}
+- mass: m_{B,\text{from }A}
 - mass: m_A
 - molar_mass: M_A
-- dimensionless: ν_A
-- dimensionless: ν_B
+- dimensionless: \nu_A
+- dimensionless: \nu_B
 - molar_mass: M_B
 name_overrides:
-- mass: Mass of B from A
-- mass: Mass of reactant A
-- molar_mass: Molar mass of A
-- dimensionless: Coefficient of A
-- dimensionless: Coefficient of B
-- molar_mass: Molar mass of B
+- mass: '[mass] of B required to react with A'
+- mass: '[mass] of reactant A'
+- molar_mass: '[molar_mass] of A'
+- dimensionless: Stoichiometric coefficient of A
+- dimensionless: Stoichiometric coefficient of B
+- molar_mass: '[molar_mass] of B'

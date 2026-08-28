@@ -2,15 +2,22 @@ name: Weighted arithmetic mean
 id: weighted_arithmetic_mean
 topic: statistics
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Weighted_arithmetic_mean
+  - https://en.wikipedia.org/wiki/Weighted_average
+  - https://mathworld.wolfram.com/WeightedMean.html
+  - https://www.britannica.com/science/arithmetic-mean
+  - https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Book%3A_Introductory_Statistics_(OpenStax)/02%3A_Descriptive_Statistics/2.07%3A_Measures_of_the_Center_of_the_Data
+description: "A weighted mean generalises the ordinary arithmetic mean by attaching a separate weight to each value, so that values with larger weights contribute more strongly to the result. It is widely used for combining averages from samples of unequal size and for inverse-variance averaging in the physical sciences."
 equation: dimensionless eq sum drop drop (dimensionless mul dimensionless) frac sum
   drop drop dimensionless
 symbol_overrides:
-- dimensionless: x̄_w
+- dimensionless: \bar{x}_w
 - dimensionless: w_1
 - dimensionless: x_1
-- dimensionless: w_1
+- dimensionless: w_2
 name_overrides:
 - dimensionless: Weighted mean
 - dimensionless: Weight 1
 - dimensionless: Value 1
-- dimensionless: Weight 1
+- dimensionless: Weight 2

@@ -2,14 +2,21 @@ name: Cross product magnitude
 id: cross_product_magnitude
 topic: linear_algebra
 difficulty: 6
-equation: (abs (dimensionless times dimensionless)) eq ((abs dimensionless) mul (abs dimensionless)) mul
-  (sin angle)
+links:
+- https://en.wikipedia.org/wiki/Cross_product
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/12%3A_Vectors_in_Space/12.04%3A_The_Cross_Product
+- http://lipa.physics.oregonstate.edu/sec_cross-product.html
+description: The magnitude of the cross product of two vectors equals the area of
+  the parallelogram they span. It vanishes when the vectors are parallel or antiparallel
+  and is maximal when they are perpendicular; the cross-product vector itself points
+  perpendicular to both inputs with direction given by the right-hand rule.
+equation: abs (dimensionless times dimensionless) eq abs dimensionless mul (abs dimensionless)
+  mul sin angle
 symbol_overrides:
 - dimensionless: \vec{a}
 - dimensionless: \vec{b}
 - dimensionless: \vec{a}
 - dimensionless: \vec{b}
-- angle: \theta
 name_overrides:
 - dimensionless: Vector a
 - dimensionless: Vector b

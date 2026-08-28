@@ -2,6 +2,12 @@ name: Double-angle formula for sine
 id: double_angle_sine
 topic: trigonometric_identities
 difficulty: 5
+links:
+  - https://math.libretexts.org/Bookshelves/Algebra/Algebra_and_Trigonometry_1e_(OpenStax)/09%3A_Trigonometric_Identities_and_Equations/9.03%3A_Double-Angle_Half-Angle_and_Reduction_Formulas
+  - https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities
+  - https://proofwiki.org/wiki/Double_Angle_Formulas/Sine
+  - https://www.cuemath.com/trigonometry/sin-double-angle-formula/
+description: "Trigonometric identity expressing the sine of twice an angle as twice the product of the sine and cosine of the angle. It is a special case of the sine addition formula with both angles equal, and it also has an equivalent form written purely in terms of the tangent. Used to simplify expressions, evaluate exact trig values, and in physics for relations such as projectile range."
 equation: sin (angle mul 2) eq 2 mul (sin angle ) mul cos angle
 symbol_overrides:
 - angle: θ

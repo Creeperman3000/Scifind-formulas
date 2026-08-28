@@ -2,12 +2,9 @@ name: Irradiance from power and area
 id: irradiance_formula
 topic: electromagnetic_waves
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Irradiance
+  - https://en.wikipedia.org/wiki/Solar_irradiance
+  - https://www.britannica.com/science/irradiance
+description: Irradiance is the radiant flux received by a surface per unit area, measured in watts per square metre. It is used throughout radiometry, photometry, and solar-energy engineering to characterize how strongly electromagnetic radiation illuminates a surface.
 equation: irradiance eq power frac area
-symbol_overrides:
-- irradiance: ''
-- power: ''
-- area: ''
-name_overrides:
-- irradiance: ''
-- power: ''
-- area: ''

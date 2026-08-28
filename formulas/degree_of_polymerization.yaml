@@ -2,12 +2,18 @@ name: Degree of polymerization
 id: degree_of_polymerization
 topic: organic_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Degree_of_polymerization
+  - https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Polymer_Chemistry_(Schaller)/04%3A_Polymer_Properties/4.01%3A_Molecular_Weight
+  - https://courses.ems.psu.edu/matse202/node/7
+  - https://eng.libretexts.org/Bookshelves/Materials_Science/Polymer_Physics_(Steimel)/Chapter_2%3A_Polymerization
+description: "Gives the number of monomeric repeat units in a polymer chain, a dimensionless measure of chain length. For a homopolymer it follows from the chain's average molar mass and the repeat unit's molar mass; number-average and weight-average variants exist because real polymers have a distribution of chain lengths."
 equation: dimensionless eq molar_mass frac molar_mass
 symbol_overrides:
 - dimensionless: DP
 - molar_mass: M_{polymer}
 - molar_mass: M_{monomer}
 name_overrides:
-- dimensionless: Degree of [polymerization]
-- molar_mass: Polymer [mass]
-- molar_mass: Monomer [mass]
+- dimensionless: Degree of polymerization
+- molar_mass: Polymer [molar_mass|average molar mass]
+- molar_mass: Monomer [molar_mass|molar mass]

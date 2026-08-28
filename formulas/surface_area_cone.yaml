@@ -2,14 +2,23 @@ name: Surface area of a cone
 id: surface_area_cone
 topic: plane_geometry
 difficulty: 4
+links:
+- https://en.wikipedia.org/wiki/Cone#Surface_area
+- https://mathworld.wolfram.com/Cone.html
+- https://www.cuemath.com/geometry/surface-area-of-a-cone/
+- https://www.khanacademy.org/math/geometry/x2f8bb11595b61c86:rounded-figures/x2f8bb11595b61c86:cones/v/surface-area-of-a-cone
+- https://www.britannica.com/science/cone-mathematics
+description: Total surface area of a right circular cone, equal to the area of its
+  circular base plus the area of its lateral (side) surface. The lateral surface is
+  a circular sector of radius equal to the slant height when unrolled, giving the
+  compact factored form.
 equation: area eq pi mul length mul length add length
 symbol_overrides:
-- area: A
 - length: r
 - length: r
 - length: l
 name_overrides:
-- area: Surface area
+- area: Surface [area]
 - length: Radius
 - length: Radius
 - length: Slant height

@@ -2,14 +2,21 @@ name: Parametric form of a line
 id: parametric_line_equation
 topic: equations
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Parametric_equation
+  - https://en.wikipedia.org/wiki/Parametric_equation#Straight_line
+  - https://en.wikipedia.org/wiki/Line_(geometry)
+  - https://math.libretexts.org/Bookshelves/Precalculus/Book%3A_Precalculus_(Alder)/10%3A_Parametric_Equations_and_Polar_Coordinates/10.01%3A_Parametric_Equations
+  - https://www.britannica.com/science/parametric-equation
+description: "A straight line in the plane can be described by giving the coordinates of a point on the line and a direction vector, and letting a single parameter trace out all points. The parameter is usually denoted t (or s) and may represent time when the line describes the trajectory of a moving point."
 equation: length eq length add length mul dimensionless
 symbol_overrides:
-- length: x
-- length: x_0
-- length: a
-- dimensionless: t
+  - length: x
+  - length: x_0
+  - length: a
+  - dimensionless: t
 name_overrides:
-- length: x-coordinate
-- length: Initial x
-- length: Direction x-component
-- dimensionless: Parameter
+  - length: x-coordinate
+  - length: Initial x
+  - length: Direction x-component
+  - dimensionless: Parameter

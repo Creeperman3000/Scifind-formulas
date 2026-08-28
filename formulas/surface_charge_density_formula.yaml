@@ -2,12 +2,11 @@ name: Surface charge density
 id: surface_charge_density_formula
 topic: electrostatics
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Charge_density
+  - https://en.wikipedia.org/wiki/Surface_charge
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/06%3A_Gauss's_Law/6.01%3A_Electric_Flux
+  - https://www.britannica.com/science/charge-density
+  - https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage/electric-field/a/what-is-electric-field
+description: "Surface charge density is the amount of electric charge distributed per unit area of a surface. It is defined as the limit of charge over an infinitesimal area element and is central to electrostatics, particularly in applying Gauss's law to charged conductors and capacitor plates."
 equation: surface_charge_density eq charge frac area
-symbol_overrides:
-- surface_charge_density: ''
-- charge: ''
-- area: ''
-name_overrides:
-- surface_charge_density: ''
-- charge: ''
-- area: ''

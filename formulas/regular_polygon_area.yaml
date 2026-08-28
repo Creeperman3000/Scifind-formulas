@@ -1,18 +1,24 @@
-name: Area of a regular polygon (regular_polygon_area)
+name: Area of a regular polygon
 id: regular_polygon_area
 topic: polygons
 difficulty: 5
-equation: area eq dimensionless mul (length pow 2) frac dimensionless mul tan (pi frac
-  dimensionless )
+links:
+- https://en.wikipedia.org/wiki/Regular_polygon
+- https://en.wikipedia.org/wiki/Apothem
+- https://mathworld.wolfram.com/RegularPolygon.html
+- https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)
+- https://www.cuemath.com/geometry/area-of-regular-polygon/
+description: The area of a regular n-sided polygon expressed in terms of its side
+  length s. Equivalent forms use the apothem a (A = n a² tan(π/n)) or circumradius
+  R (A = nR² sin(2π/n)/2).
+equation: area eq frac (dimensionless mul length pow 2 ) (4 mul tan (pi frac dimensionless)
+  )
 symbol_overrides:
-- area: ''
 - dimensionless: n
 - length: s
-- dimensionless: '4'
 - dimensionless: n
 name_overrides:
-- area: Area of regular [polygon]
+- area: '[area] of regular polygon'
 - dimensionless: Number of sides
 - length: Side [length]
-- dimensionless: '4'
-- dimensionless: ''
+- dimensionless: Number of sides

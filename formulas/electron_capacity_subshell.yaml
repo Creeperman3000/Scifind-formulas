@@ -2,10 +2,15 @@ name: Electron capacity of a subshell
 id: electron_capacity_subshell
 topic: periodic_table
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Electron_shell
+  - https://en.wikipedia.org/wiki/Azimuthal_quantum_number
+  - https://www.vedantu.com/physics/azimuthal-quantum-number
+description: "Gives the maximum number of electrons that can occupy an atomic subshell with azimuthal quantum number l. Each of the 2l+1 orbitals in the subshell holds at most two electrons of opposite spin (Pauli exclusion principle), so s subshells hold 2 electrons, p hold 6, d hold 10, and f hold 14. It underpins electron configurations and the structure of the periodic table."
 equation: dimensionless eq 2 mul ((dimensionless mul 2) add 1)
 symbol_overrides:
-- dimensionless: max_{electrons}
+- dimensionless: N_{max}
 - dimensionless: l
 name_overrides:
-- dimensionless: Maximum [electrons]
+- dimensionless: Maximum electrons
 - dimensionless: Azimuthal quantum number

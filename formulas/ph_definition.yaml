@@ -2,10 +2,16 @@ name: Definition of pH
 id: ph_definition
 topic: acids_and_bases
 difficulty: 5
-equation: ph eq drop log 10 concentration sub
+links:
+  - https://en.wikipedia.org/wiki/PH
+  - https://en.wikipedia.org/wiki/Hydronium
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/16%3A_Acids_and_Bases/16.04%3A_The_pH_Scale
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/ph-poh-and-the-ph-scale
+  - https://www.britannica.com/science/pH
+description: pH is the negative base-10 logarithm of the hydrogen ion activity, used to specify the acidity or basicity of aqueous solutions. Values below 7 are acidic and values above 7 are basic at 25 °C; the scale is widely used in chemistry, biology, and environmental science.
+equation: ph eq sub drop log 10 concentration
 symbol_overrides:
-- ph: ''
 - concentration: '[H⁺]'
 name_overrides:
-- ph: '[pH]'
+- ph: '[ph]'
 - concentration: Hydronium ion [concentration]

@@ -1,18 +1,26 @@
-name: Van 't Hoff equation (van_t_hoff_equation)
+name: Van 't Hoff equation
 id: van_t_hoff_equation
 topic: chemical_equilibrium
 difficulty: 8
-equation: log euler_e (equilibrium_constant frac equilibrium_constant) eq drop (energy
-  frac gas_constant) sub mul ((1 frac temperature) sub (1 frac temperature))
+links:
+- https://en.wikipedia.org/wiki/Van_%27t_Hoff_equation
+- https://en.wikipedia.org/wiki/Equilibrium_constant
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(McQuarrie_and_Simon)/29%3A_Chemical_Equilibrium/29.04%3A_Temperature_Dependence_of_the_Equilibrium_Constant
+description: Relates the change in the equilibrium constant of a chemical reaction
+  to a change in temperature, assuming a constant standard enthalpy change. The integrated
+  form is often used to estimate reaction enthalpies from equilibrium constants measured
+  at two temperatures.
+equation: log euler_e (equilibrium_constant frac equilibrium_constant) eq (energy
+  frac gas_constant) mul ((1 frac temperature) sub 1 frac temperature )
 symbol_overrides:
 - equilibrium_constant: K_2
 - equilibrium_constant: K_1
-- energy: ΔH
+- energy: ΔH°
 - temperature: T_2
 - temperature: T_1
 name_overrides:
-- equilibrium_constant: Equilibrium constant at T₂
-- equilibrium_constant: Equilibrium constant at T₁
-- energy: Enthalpy change
+- equilibrium_constant: '[equilibrium_constant] at T₂'
+- equilibrium_constant: '[equilibrium_constant] at T₁'
+- energy: Standard enthalpy change ΔH°
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

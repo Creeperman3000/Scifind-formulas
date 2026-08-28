@@ -2,10 +2,21 @@ name: Mole fraction from mass
 id: mole_fraction_mass_conversion
 topic: mole_concept
 difficulty: 6
-equation: dimensionless eq mass frac (molar_mass) frac mass frac (molar_mass) add mass
-  frac molar_mass
+links:
+- https://en.wikipedia.org/wiki/Mole_fraction
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Mixtures/Nonideal_Solutions/Mole_Fraction
+- https://www.khanacademy.org/science/chemistry/states-of-matter-and-intermolecular-forces/mixtures-and-solutions/a/mole-fraction
+- https://www.britannica.com/science/mole-fraction
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/04%3A_Reactions_in_Aqueous_Solution/4.04%3A_Concentrations_of_Solutions
+description: When only the masses of the components in a binary mixture are known,
+  the mole fraction can be computed by converting each mass to moles through its molar
+  mass, then taking the ratio of one component's moles to the total moles. This is
+  the practical form used in laboratory work where balances measure mass rather than
+  moles.
+equation: dimensionless eq (mass frac molar_mass) frac ((mass frac molar_mass) add
+  mass frac molar_mass )
 symbol_overrides:
-- dimensionless: χ_A
+- dimensionless: \chi_A
 - mass: m_A
 - molar_mass: M_A
 - mass: m_A

@@ -2,10 +2,16 @@ name: First law for a cyclic process
 id: first_law_cyclic_process
 topic: first_law
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://en.wikipedia.org/wiki/Thermodynamic_cycle
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_(Sire)/04%3A_The_First_Law_of_Thermodynamics/4.05%3A_Cyclic_Processes
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/05%3A_Phase_Diagrams/5.02%3A_First_Law_of_Thermodynamics
+description: "Internal energy is a state function, so over a complete thermodynamic cycle the net change in internal energy is zero. Equivalently, the net heat absorbed equals the net work done by the system around the cycle, which is the basis for defining heat-engine efficiency."
 equation: energy eq dimensionless
 symbol_overrides:
 - energy: ΔU_{cycle}
 - dimensionless: '0'
 name_overrides:
-- energy: Internal energy change in cyclic [process]
+- energy: Internal [energy] change in cyclic process
 - dimensionless: Zero

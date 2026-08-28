@@ -2,12 +2,16 @@ name: Mass from number of molecules
 id: molecules_to_mass
 topic: mole_concept
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Avogadro_constant
+  - https://en.wikipedia.org/wiki/Molar_mass
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/03%3A_Stoichiometry%3A_Counting_Molecules_and_Atoms/3.01%3A_Avogadro's_Number_and_Mole_Conversions
+  - https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/the-mole-and-avogadro's-number
+  - https://www.britannica.com/science/mole-chemistry
+description: "Divides a count of discrete molecules by the Avogadro number to obtain the amount of substance in moles, then multiplies by the molar mass to yield the total sample mass. It is the inverse of the particle-count from-mass conversion, and is used whenever one knows how many molecules are present (e.g. from a counting experiment) and needs the bulk mass."
 equation: mass eq dimensionless mul (molar_mass) frac avogadro_number
 symbol_overrides:
-- mass: ''
 - dimensionless: N
-- molar_mass: ''
 name_overrides:
-- mass: '[Mass]'
+- mass: Mass
 - dimensionless: Number of molecules
-- molar_mass: ''

@@ -2,6 +2,11 @@ name: Relative approach velocity in collisions
 id: collision_relative_approach_velocity
 topic: collisions
 difficulty: 7
+links:
+  - https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter15.pdf
+  - https://phys.libretexts.org/Courses/Merrimack_College/Conservation_Laws_Newton's_Laws_and_Kinematics_version_2.0/08%3A_C8)_Conservation_of_Energy-_Kinetic_and_Gravitational/8.05%3A_Relative_Velocity_and_the_Coefficient_of_Restitution
+  - https://en.wikipedia.org/wiki/Relative_velocity
+description: "The relative approach velocity is the velocity of one colliding body as seen from the other, measuring how quickly the two bodies close on each other along the line of impact. A positive value indicates they are approaching; it is a key input for the coefficient-of-restitution relation used to analyze one-dimensional collisions."
 equation: velocity eq velocity sub velocity
 symbol_overrides:
 - velocity: v_{rel}
@@ -9,5 +14,5 @@ symbol_overrides:
 - velocity: v₂
 name_overrides:
 - velocity: Relative approach [velocity]
-- velocity: Velocity of body 1
-- velocity: Velocity of body 2
+- velocity: '[velocity] of body 1'
+- velocity: '[velocity] of body 2'

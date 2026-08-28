@@ -2,6 +2,13 @@ name: Destructive interference path difference
 id: interference_destructive_path_difference
 topic: wave_interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Wave_interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference
+  - https://www.britannica.com/science/interference-physics
+  - https://byjus.com/physics/path-difference/
+  - https://opentextbc.ca/physicstestbook2/chapter/youngs-double-slit-experiment/
+description: "Destructive interference between two coherent waves of equal amplitude occurs when their path difference is an odd half-multiple of the wavelength. This condition causes the two waves to be 180° out of phase, cancelling the resultant amplitude."
 equation: length eq (dimensionless add dimensionless frac 2 ) mul length
 symbol_overrides:
 - length: ΔL
@@ -9,7 +16,7 @@ symbol_overrides:
 - dimensionless: '1'
 - length: λ
 name_overrides:
-- length: Path [difference]
+- length: Path difference
 - dimensionless: Order
 - dimensionless: One
 - length: Wavelength

@@ -2,12 +2,14 @@ name: Heat capacity of a calorimeter
 id: calorimeter_heat_capacity
 topic: thermochemistry
 difficulty: 6
+links:
+  - https://gchem.cm.utexas.edu/pdf/helpsheets/Calorimetry.pdf
+  - https://www.chemteam.info/Thermochem/Calculate-a-Calorimeter-Constant.html
+  - https://chem.libretexts.org/Courses/University_of_Toronto/Chemistry%3A_Physical_Principles/05%3A_Thermochemistry/5.05%3A_Calorimetry
+  - https://general.chemistrysteps.com/constant-pressure-calorimetry/
+description: "The calorimeter constant is the amount of heat needed to raise the temperature of the entire calorimeter (hardware plus contents) by one degree, with units of energy per degree. It is determined by calibration, e.g. by adding a known quantity of heat and measuring the resulting temperature rise, and it corrects measured heat flows for heat absorbed by the apparatus itself."
 equation: specific_heat_capacity eq energy frac Delta temperature
 symbol_overrides:
 - specific_heat_capacity: C_{cal}
-- energy: ''
-- temperature: ''
 name_overrides:
-- specific_heat_capacity: Calorimeter [heat capacity]
-- energy: ''
-- temperature: ''
+- specific_heat_capacity: Calorimeter heat capacity

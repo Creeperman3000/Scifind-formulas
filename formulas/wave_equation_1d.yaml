@@ -2,12 +2,29 @@ name: One-dimensional wave equation
 id: wave_equation_1d
 topic: differential_equations
 difficulty: 9
-equation: rmd rmd dimensionless eq rmd rmd dimensionless frac velocity pow 2
+links:
+- https://en.wikipedia.org/wiki/Wave_equation
+- https://en.wikipedia.org/wiki/D%27Alembert%27s_formula
+- https://math.libretexts.org/Bookshelves/Differential_Equations/Elementary_Differential_Equations_(Arnold)/03%3A_Second_Order_Linear_ODEs/3.04%3A_The_Wave_Equation
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_The_Wave_Equation
+- https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/wave-fundamentals/v/the-wave-equation
+description: The one-dimensional wave equation is a second-order linear partial differential
+  equation that governs the displacement of a vibrating string and many other one-dimensional
+  wave phenomena. The second time derivative of the displacement is proportional to
+  the second space derivative, with the proportionality constant being the square
+  of the wave speed; its general solution is a superposition of left- and right-traveling
+  waves known as d'Alembert's formula.
+equation: frac rmd rmd dimensionless rmd time pow 2 eq (velocity pow 2) mul frac rmd
+  rmd dimensionless rmd length pow 2
 symbol_overrides:
 - dimensionless: y
 - dimensionless: y
-- velocity: ''
+- velocity: c
+- dimensionless: y
+- dimensionless: y
 name_overrides:
-- dimensionless: ∂²y/∂x²
-- dimensionless: ∂²y/∂t²
+- dimensionless: ∂²y/∂t² — wave amplitude y
+- dimensionless: ∂²y/∂x² — wave amplitude y
 - velocity: Wave [velocity]
+- dimensionless: Wave amplitude y
+- dimensionless: Wave amplitude y

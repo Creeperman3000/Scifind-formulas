@@ -2,10 +2,18 @@ name: Angular momentum z-component eigenvalue
 id: angular_momentum_eigenvalue
 topic: quantum_mechanics
 difficulty: 10
-equation: angular_momentum eq dimensionless mul (planck_constant frac (2 mul pi ))
+links:
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introductory_Quantum_Mechanics_(Fitzpatrick)/07:_Orbital_Angular_Momentum/7.04:_Eigenvalues_of_Lz
+- https://titan.physx.u-szeged.hu/~dpiroska/atmolfiz/angular_momentum_in_quantum_mechanics.html
+description: In quantum mechanics, measurement of the projection of orbital angular
+  momentum along a chosen axis yields only discrete values. Each allowed value is
+  set by the magnetic quantum number and expressed in units of the reduced Planck
+  constant; this quantization underlies atomic energy-level splittings such as the
+  Zeeman effect.
+equation: angular_momentum eq dimensionless mul planck_constant frac 2 mul pi
 symbol_overrides:
 - angular_momentum: L_z
 - dimensionless: m_l
 name_overrides:
-- angular_momentum: z-component of angular [momentum]
-- dimensionless: Magnetic quantum [number]
+- angular_momentum: z-component of angular momentum
+- dimensionless: Magnetic quantum number

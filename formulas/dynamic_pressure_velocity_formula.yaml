@@ -2,12 +2,16 @@ name: Dynamic pressure from density and velocity
 id: dynamic_pressure_velocity_formula
 topic: bernoulli_equation
 difficulty: 6
-description: Definition of dynamic pressure; q = ½ρv².
+links:
+  - https://en.wikipedia.org/wiki/Dynamic_pressure
+  - https://www.grc.nasa.gov/www/BGH/dynpress.html
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/dynamic-pressure-2/
+  - https://www.engineeringtoolbox.com/dynamic-pressure-d_1037.html
+description: "Dynamic pressure is the kinetic energy per unit volume of a flowing fluid, i.e. the pressure associated with the bulk motion of the flow rather than its random thermal motion. It equals the pressure rise that would occur if the flow were brought to rest (stagnation), appears as a term in Bernoulli's equation, and is widely used in aerodynamics to compute lift, drag, and airspeed."
 equation: pressure eq density mul (velocity pow 2 ) frac 2
 symbol_overrides:
 - pressure: q
 - density: ρ
-- velocity: ''
 name_overrides:
 - pressure: Dynamic [pressure]
 - density: Fluid [density]

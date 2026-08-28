@@ -2,9 +2,14 @@ name: Linear velocity from angular velocity
 id: circular_motion_angular_to_linear_velocity
 topic: circular_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Angular_velocity
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Mechanics_and_Relativity_(Idema)/07%3A_General_Rotational_Motion/7.01%3A_Linear_and_Angular_Velocity
+  - https://math.libretexts.org/Bookshelves/Precalculus/Book:_Trigonometry_(Sundstrom_and_Schlicker)/01:_The_Trigonometric_Functions/1.04:_Velocity_and_Angular_Velocity
+  - https://www.geeksforgeeks.org/physics/relation-between-angular-velocity-and-linear-velocity/
+description: "Relates the tangential (linear) speed of a point moving on a circular path to how fast the angle is swept, through the radius of the path. The linear speed grows in proportion to both the rotation rate and the distance from the axis. It assumes the point stays at a fixed radius and the angle is measured in radians."
 equation: velocity eq angular_velocity mul length
 symbol_overrides:
-- velocity: ''
 - angular_velocity: ω
 - length: r
 name_overrides:

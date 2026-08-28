@@ -2,10 +2,16 @@ name: Angular wavenumber from wavelength
 id: angular_wavenumber
 topic: mechanical_waves
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Wavenumber
+  - https://www.rp-photonics.com/wavenumber.html
+  - https://brilliant.org/wiki/amplitude-frequency-wave-number-phase-shift
+  - https://byjus.com/physics/wave-number/
+description: "The angular wavenumber measures how rapidly a wave's phase changes with position: it gives the number of radians contained in one metre of propagation path. It appears as the spatial factor kx in the sinusoidal expression of a travelling wave, plays the role of spatial frequency in the wave equation, and is proportional to photon momentum in quantum mechanics. It should not be confused with the spectroscopic wavenumber, which counts full cycles per unit distance instead of radians."
 equation: wavenumber eq (pi mul 2) frac length
 symbol_overrides:
-- wavenumber: ''
+- wavenumber: k
 - length: λ
 name_overrides:
-- wavenumber: ''
+- wavenumber: Angular [wavenumber]
 - length: Wavelength

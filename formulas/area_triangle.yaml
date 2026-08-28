@@ -2,15 +2,18 @@ name: Area of a triangle
 id: area_triangle
 topic: triangles
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Area_of_a_triangle
+  - https://www.mathopenref.com/trianglearea.html
+  - https://wumbo.net/formulas/area-of-triangle
+description: "Gives the area enclosed by any triangle from the length of one side and the perpendicular distance of the opposite vertex from that side's line. It reflects that a triangle occupies exactly half of the parallelogram or rectangle sharing its base and height. The height must be measured perpendicularly to the chosen base, even when it falls outside an obtuse triangle."
 equation: area eq dimensionless frac (dimensionless) mul (length) mul length
 symbol_overrides:
-- area: A
 - dimensionless: '1'
 - dimensionless: '2'
 - length: b
 - length: h
 name_overrides:
-- area: Area
 - dimensionless: One
 - dimensionless: Two
 - length: Base

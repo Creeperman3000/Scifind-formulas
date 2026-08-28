@@ -2,17 +2,19 @@ name: RC circuit charging
 id: rc_circuit_charging
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/RC_circuit
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.06%3A_RC_Circuits
+  - https://en.wikipedia.org/wiki/Time_constant
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-natural-and-forced-response/v/ee-charging-capacitor
+description: "When a capacitor in a series RC circuit is charged by a DC source through a resistor, the charge on the capacitor grows exponentially toward its maximum value. At one time constant the capacitor holds about 63.2% of its final charge."
 equation: charge eq charge mul 1 sub exp (drop (time frac resistance mul capacitance)
   sub)
 symbol_overrides:
 - charge: q(t)
-- charge: ''
-- time: ''
-- resistance: ''
-- capacitance: ''
 name_overrides:
 - charge: Charge at time t
 - charge: Maximum [charge]
-- time: '[Time]'
-- resistance: '[Resistance]'
-- capacitance: '[Capacitance]'
+- time: '[time]'
+- resistance: '[resistance]'
+- capacitance: '[capacitance]'

@@ -2,6 +2,12 @@ name: Diffraction grating equation
 id: diffraction_grating
 topic: diffraction
 difficulty: 7
+links:
+  - https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_9B__Waves_Sound_Optics_Thermodynamics_and_Fluids/03%3A_Physical_Optics/3.03%3A_Diffraction_Gratings
+  - https://pressbooks.bccampus.ca/collegephysics/chapter/multiple-slit-diffraction/
+  - https://www.savemyexams.com/a-level/physics/aqa/17/revision-notes/3-waves/3-4-diffraction/3-4-2-the-diffraction-grating/
+  - https://www.miniphysics.com/diffraction-grating.html
+description: "This condition locates the principal maxima produced when monochromatic light hits a diffraction grating at normal incidence: bright orders appear where the path difference between adjacent slits is a whole number of wavelengths. It is the working equation of grating spectrometers, used to measure wavelengths and analyze spectra, and assumes plane waves and slits much smaller than the distance to the observer."
 equation: length mul sin angle eq amount mul length
 symbol_overrides:
 - length: d

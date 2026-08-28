@@ -2,14 +2,18 @@ name: Acid dissociation constant
 id: acid_dissociation_constant
 topic: acids_and_bases
 difficulty: 6
-equation: equilibrium_constant eq concentration mul (concentration) frac concentration
+links:
+  - https://en.wikipedia.org/wiki/Acid_dissociation_constant
+  - https://goldbook.iupac.org/terms/view/15441
+  - https://chem.libretexts.org/Courses/California_State_University_Chico/General_Chemistry_112/04%3A_Acids_and_Bases/4.04%3A_Acid_Strength_and_the_Acid_Dissociation_Constant_(Ka)
+description: "The acid dissociation constant Ka quantifies the strength of a weak acid HA in water, where HA partially dissociates into a proton and its conjugate base. A larger Ka means the equilibrium lies further toward the products, i.e. a stronger acid; values are commonly reported on the logarithmic pKa scale. Strictly it should be written with activities rather than concentrations and depends on temperature and ionic strength."
+equation: equilibrium_constant eq (concentration mul concentration) frac concentration
 symbol_overrides:
 - equilibrium_constant: K_a
 - concentration: '[H⁺]'
 - concentration: '[A⁻]'
 - concentration: '[HA]'
 name_overrides:
-- equilibrium_constant: ''
 - concentration: Hydronium [concentration]
 - concentration: Conjugate base [concentration]
 - concentration: Acid [concentration]

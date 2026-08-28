@@ -2,15 +2,18 @@ name: Work done by a spring
 id: spring_work_displacement_squared
 topic: springs
 difficulty: 5
-description: "Valid for an ideal spring; W = ½k(x_f² − x_i²)."
+links:
+  - https://en.wikipedia.org/wiki/Elastic_energy
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://en.wikipedia.org/wiki/Hooke%27s_law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.03%3A_Energy_in_Simple_Harmonic_Motion
+description: "The work done by an ideal spring as it moves between two displacements equals the change in its elastic potential energy. It is computed as the integral of the Hookean restoring force over the displacement, and it is path-independent for a conservative linear spring."
 equation: energy eq spring_constant mul ((length pow 2) sub length pow 2 ) frac 2
 symbol_overrides:
-- energy: ''
-- spring_constant: ''
 - length: x₁
 - length: x₂
 name_overrides:
-- energy: Work done by [spring]
-- spring_constant: Spring [constant]
-- length: Initial [displacement]
-- length: Final [displacement]
+- energy: Work done by spring
+- spring_constant: '[spring_constant]'
+- length: Initial displacement
+- length: Final displacement

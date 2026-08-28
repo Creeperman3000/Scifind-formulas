@@ -2,10 +2,17 @@ name: pKa from Ka
 id: pka_definition
 topic: acids_and_bases
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Acid_dissociation_constant
+  - https://en.wikipedia.org/wiki/PKa
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Ionization_Constants/Calculating_ionization_constants_using_pKa
+  - https://www.britannica.com/science/pKa
+  - https://www.chem.purdue.edu/labs/weller/pdf/Finding_pKa.pdf
+description: "Defines pKa as the negative base-10 logarithm of the acid dissociation constant Ka, providing a convenient logarithmic scale on which stronger acids have smaller (or more negative) pKa values. It is the standard way to report and compare the strengths of weak acids in chemistry, biochemistry, and pharmacology."
 equation: ph eq drop log 10 equilibrium_constant sub
 symbol_overrides:
 - ph: pK_a
 - equilibrium_constant: K_a
 name_overrides:
-- ph: '[pK_a]'
-- equilibrium_constant: Acid dissociation [constant]
+- ph: pK_a
+- equilibrium_constant: Acid dissociation constant

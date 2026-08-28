@@ -2,8 +2,18 @@ name: Rational exponent rule
 id: rational_exponent_rule
 topic: exponents
 difficulty: 4
-equation: (dimensionless pow (dimensionless frac dimensionless)) eq ((sqrt dimensionless dimensionless)
-  pow dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Exponentiation#Rational_exponents
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/04%3A_Rational_Exponents_and_Radicals
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-and-radicals
+- https://www.cuemath.com/algebra/rational-exponents/
+- https://www.britannica.com/science/exponentiation
+description: 'The rational exponent rule expresses a power with a fractional exponent
+  equivalently as a radical: a^(m/n) is the same as the n-th root of a raised to the
+  m-th power, or equivalently the n-th root of a^m. It links fractional exponents
+  to radicals and is the basis for simplifying expressions that mix roots and powers.'
+equation: dimensionless pow dimensionless frac dimensionless eq (sqrt dimensionless
+  dimensionless) pow dimensionless
 symbol_overrides:
 - dimensionless: a
 - dimensionless: m
@@ -13,8 +23,8 @@ symbol_overrides:
 - dimensionless: m
 name_overrides:
 - dimensionless: Base a
-- dimensionless: Power m
-- dimensionless: Root n
+- dimensionless: Numerator power m
+- dimensionless: Denominator root n
 - dimensionless: Base a
 - dimensionless: Root index n
 - dimensionless: Power m

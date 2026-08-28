@@ -2,12 +2,19 @@ name: Newton's second law
 id: newtons_second_law
 topic: newtons_laws
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton%27s_Laws/5.03%3A_Newton%27s_Second_Law
+  - https://www.britannica.com/science/Newtons-second-law
+  - https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-second-law
+  - https://www.physicsclassroom.com/class/newtlaws/Lesson-3/Newton-s-Second-Law
+description: "Newton's second law states that the net force on a body equals its mass times its acceleration. It is the defining dynamical relation of Newtonian mechanics, applies in inertial reference frames, and reduces to the constant-mass form F = m a; for systems with changing mass the momentum form F = dp/dt is required."
 equation: force eq mass mul acceleration
 symbol_overrides:
-- force: ''
-- mass: ''
-- acceleration: ''
+- force: F_{net}
+- mass: m
+- acceleration: a
 name_overrides:
-- force: ''
-- mass: ''
-- acceleration: ''
+- force: Net [force]
+- mass: Mass of the body
+- acceleration: '[acceleration] of the body'

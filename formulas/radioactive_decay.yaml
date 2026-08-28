@@ -2,14 +2,19 @@ name: Radioactive decay law
 id: radioactive_decay
 topic: nuclear_physics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Radioactive_decay
+  - https://en.wikipedia.org/wiki/Exponential_decay
+  - https://en.wikipedia.org/wiki/Decay_constant
+  - https://en.wikipedia.org/wiki/Mean_lifetime
+  - https://physics.info/half-life/
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Nuclear_Chemistry/Rate_of_Radioactive_Decay
+description: "The radioactive decay law states that for a sample of a single radionuclide, the number of radioactive nuclei remaining after time t follows an exponential decay governed by a characteristic decay constant lambda. Each species of unstable nucleus has its own decay constant, related to its half-life by t_{1/2} = ln(2)/lambda. The law underpins radiometric dating, nuclear medicine dosimetry, and reactor physics."
 equation: amount eq amount mul exp (drop (frequency mul time) sub)
 symbol_overrides:
 - amount: N_0
-- amount: ''
 - frequency: λ
-- time: ''
 name_overrides:
 - amount: Remaining nuclei
 - amount: Initial nuclei
 - frequency: Decay constant
-- time: ''

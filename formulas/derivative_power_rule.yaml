@@ -2,8 +2,17 @@ name: Derivative power rule
 id: derivative_power_rule
 topic: derivatives
 difficulty: 6
-equation: frac (rmd (dimensionless pow dimensionless)) (rmd dimensionless) eq dimensionless mul (dimensionless
-  pow (dimensionless sub 1))
+links:
+- https://en.wikipedia.org/wiki/Power_rule
+- https://www.whitman.edu/mathematics/calculus_online/section03.01.html
+- https://proofwiki.org/wiki/Power_Rule_for_Derivatives
+- https://www.mathsisfun.com/calculus/power-rule.html
+description: 'The power rule is the workhorse of differentiation: to differentiate
+  a variable raised to a constant exponent, bring the exponent down as a factor and
+  reduce the exponent by one. It holds for any real exponent, including negative and
+  fractional values, wherever the resulting expression is defined.'
+equation: frac rmd (dimensionless pow dimensionless) rmd dimensionless eq dimensionless
+  mul dimensionless pow dimensionless sub 1
 symbol_overrides:
 - dimensionless: x
 - dimensionless: n
@@ -12,9 +21,9 @@ symbol_overrides:
 - dimensionless: x
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Exponent
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Exponent
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Exponent

@@ -2,12 +2,17 @@ name: Enzyme turnover number
 id: enzyme_turnover_number
 topic: biochemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Turnover_number
+  - https://en.wikipedia.org/wiki/Enzyme_kinetics
+  - https://clinicalpub.com/enzymes
+description: "Gives the number of substrate molecules a single active site converts per unit time when the enzyme is saturated with substrate. As an intrinsic property of the enzyme–substrate pair, it allows catalytic efficiency to be compared across enzymes independently of how much enzyme is present."
 equation: frequency eq catalytic_activity frac amount
 symbol_overrides:
 - frequency: k_{cat}
 - catalytic_activity: V_{max}
 - amount: '[E]_{total}'
 name_overrides:
-- frequency: Turnover [number]
-- catalytic_activity: Maximum [rate]
+- frequency: Turnover number
+- catalytic_activity: Maximum rate
 - amount: Total enzyme concentration

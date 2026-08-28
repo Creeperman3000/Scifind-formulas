@@ -2,6 +2,13 @@ name: Condition for total internal reflection
 id: optics_total_internal_reflection_condition
 topic: refraction
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Total_internal_reflection
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01%3A_The_Nature_of_Light
+  - https://www.britannica.com/science/total-internal-reflection
+  - https://www.physicsclassroom.com/class/refln/Lesson-3/Total-Internal-Reflection
+  - https://opentextbc.ca/physics152/chapter/25-1-the-interaction-of-waves-at-boundaries/
+description: "Total internal reflection occurs when a wave traveling in an optically denser medium strikes a boundary with a less dense medium at an angle of incidence greater than the critical angle. Beyond this threshold Snell's law cannot be satisfied, so the wave is entirely reflected back into the denser medium, with only an evanescent field penetrating across the interface."
 equation: angle gt angle
 symbol_overrides:
 - angle: θ_i

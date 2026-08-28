@@ -2,8 +2,18 @@ name: Dot product of two 2D vectors
 id: dot_product_2d
 topic: linear_algebra
 difficulty: 5
-equation: (dimensionless cdot dimensionless) eq (dimensionless mul dimensionless) add (dimensionless mul
-  dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Dot_product
+- https://mathinsight.org/dot_product_formula_components
+- https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I%3A_Classical_Mechanics/10%3A_The_Dot_Product/10.02%3A_Component_Form
+- https://www.cuemath.com/algebra/dot-product/
+description: Computes the scalar (dot) product of two planar vectors from their Cartesian
+  components by multiplying matching coordinates and summing. The result is a single
+  number, equal to the product of the magnitudes and the cosine of the angle between
+  the vectors; it is zero exactly when the vectors are perpendicular. Used to find
+  projections, angles, and work in physics.
+equation: dimensionless cdot dimensionless eq (dimensionless mul dimensionless) add
+  dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: \vec{a}
 - dimensionless: \vec{b}

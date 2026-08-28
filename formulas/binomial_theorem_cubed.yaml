@@ -2,8 +2,18 @@ name: Binomial Theorem (Cubed)
 id: binomial_theorem_cubed
 topic: polynomials
 difficulty: 5
-equation: dimensionless dimensionless add pow 3 eq (dimensionless pow 3) add ((dimensionless
-  pow 2) mul (dimensionless) mul 3) add (dimensionless mul (dimensionless pow 2) mul
+links:
+- https://en.wikipedia.org/wiki/Binomial_theorem
+- https://proofwiki.org/wiki/Binomial_Theorem/Examples/Cube_of_Sum
+- https://www.mathsisfun.com/algebra/binomial-theorem.html
+- https://www.geeksforgeeks.org/maths/cube-of-binomial/
+- https://www.vedantu.com/maths/cube-of-a-binomial
+- https://openstax.org/books/algebra-and-trigonometry/pages/13-6-binomial-theorem
+description: The cube of a sum of two terms expands into a four-term polynomial with
+  coefficients 1, 3, 3, 1 taken from Pascal's triangle. This special case of the binomial
+  theorem (n = 3) is used to expand or factor cubic expressions in algebra.
+equation: (dimensionless add dimensionless) pow 3 eq (dimensionless pow 3) add (((dimensionless
+  pow 2) mul dimensionless) mul 3) add (dimensionless mul (dimensionless pow 2) mul
   3) add dimensionless pow 3
 symbol_overrides:
 - dimensionless: a

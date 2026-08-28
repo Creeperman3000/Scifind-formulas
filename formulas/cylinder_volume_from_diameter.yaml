@@ -2,12 +2,15 @@ name: Volume of a cylinder from diameter
 id: cylinder_volume_from_diameter
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://www.omnicalculator.com/math/cylinder-volume
+  - https://www.ck12.org/flexi/geometry/volume-of-cylinders/how-to-find-volume-of-cylinder-with-diameter/
+description: "This formula gives the volume enclosed by a right circular cylinder when its diameter rather than radius is measured directly. Since the circular base area involves half the diameter squared, a factor of four appears in the denominator. It is handy in practical settings such as piping, tanks, and machining where diameters are easier to measure than radii."
 equation: volume eq pi mul (length pow 2) mul (length) frac 4
 symbol_overrides:
-- volume: ''
 - length: d
 - length: h
 name_overrides:
-- volume: '[Volume] of cylinder'
+- volume: '[volume] of cylinder'
 - length: Diameter
 - length: Height

@@ -2,8 +2,18 @@ name: Compound interest future value
 id: compound_interest
 topic: arithmetic
 difficulty: 5
+links:
+- https://en.wikipedia.org/wiki/compound_interest
+- https://openstax.org/books/contemporary-mathematics/pages/6-4-compound-interest
+- https://math.libretexts.org/Courses/SUNY_Schenectady_County_Community_College/College_Mathematics_-_Abridged_Edition/05%3A_Savings_./5.02%3A_Compound_Interest
+- https://www.purplemath.com/modules/expofcns3.htm
+description: This formula gives the future value of a sum of money earning compound
+  interest, where interest is paid not only on the original principal but also on
+  all previously accumulated interest. The rate is a nominal annual rate expressed
+  as a decimal and applied over a whole number of compounding periods per year. It
+  is standard for comparing savings accounts, investments, and loan balances.
 equation: dimensionless eq dimensionless mul (dimensionless add dimensionless frac
-  dimensionless ) pow dimensionless mul dimensionless
+  dimensionless) pow dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A
 - dimensionless: P

@@ -2,6 +2,13 @@ name: Hydraulic piston displacement relation
 id: hydraulic_displacement
 topic: pascals_law
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pascal%27s_law
+  - https://en.wikipedia.org/wiki/Hydraulic_press
+  - https://www.physics.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.05%3A_Pascal%27s_Principle_and_Hydraulics
+  - https://www.britannica.com/science/Pascal-principle
+  - https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/Pascals_principle.html
+description: "In a hydraulic system based on Pascal's principle, the incompressibility of the fluid requires the volume displaced by one piston to equal the volume gained by the other. Combined with equal pressure, this yields the mechanical advantage that makes hydraulic lifts, brakes, and presses possible."
 equation: area mul length eq area mul length
 symbol_overrides:
 - area: A_1
@@ -10,6 +17,6 @@ symbol_overrides:
 - length: d_2
 name_overrides:
 - area: Piston 1 [area]
-- length: Piston 1 [displacement]
+- length: Piston 1 displacement
 - area: Piston 2 [area]
-- length: Piston 2 [displacement]
+- length: Piston 2 displacement

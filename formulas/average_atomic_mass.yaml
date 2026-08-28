@@ -2,6 +2,12 @@ name: Average atomic mass
 id: average_atomic_mass
 topic: atomic_structure
 difficulty: 5
+links:
+  - https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/Chem_1402%3A_General_Chemistry_1_(Kattoum)/Text/2%3A_Atoms%2C_Molecules%2C_and_Ions/2.03%3A_Isotopic_Abundance_and_Atomic_Weight
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/04%3A_Atomic_Structure/4.20%3A_Calculating_Average_Atomic_Mass
+  - https://biologyinsights.com/how-to-calculate-isotopes-and-average-atomic-mass/
+  - https://www.wikihow.com/Find-Average-Atomic-Mass
+description: "The average atomic mass of an element is the weighted mean of the masses of its naturally occurring isotopes, each weighted by its fractional abundance in nature (the fractions must sum to one). It is the decimal mass value quoted on the periodic table and is used for stoichiometry with naturally mixed samples."
 equation: mass eq mass mul (dimensionless) add mass mul dimensionless
 symbol_overrides:
 - mass: m̄
@@ -11,7 +17,7 @@ symbol_overrides:
 - dimensionless: f₂
 name_overrides:
 - mass: Average atomic [mass]
-- mass: Mass of isotope 1
+- mass: '[mass] of isotope 1'
 - dimensionless: Abundance of isotope 1
-- mass: Mass of isotope 2
+- mass: '[mass] of isotope 2'
 - dimensionless: Abundance of isotope 2

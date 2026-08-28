@@ -2,6 +2,12 @@ name: Transformer equation
 id: transformer_equation
 topic: electromagnetic_induction
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Transformer
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Electromagnetic_Induction/14.05%3A_Transformers
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/electromagnetic-induction/v/transformers
+  - https://www.allaboutcircuits.com/textbook/alternating-current/chpt-9/transformer-construction/
+description: "Relates the voltages of the secondary and primary windings of an ideal transformer to the number of turns in each winding, following directly from Faraday's law of induction. Step-up and step-down transformers are designed by choosing the appropriate turns ratio, and the same relationship holds for the equivalent inductances of the windings. It is the fundamental design equation for power and signal transformers."
 equation: electric_potential frac electric_potential eq amount frac amount
 symbol_overrides:
 - electric_potential: V_s
@@ -9,7 +15,7 @@ symbol_overrides:
 - amount: N_s
 - amount: N_p
 name_overrides:
-- electric_potential: Secondary [voltage]
-- electric_potential: Primary [voltage]
+- electric_potential: Secondary voltage
+- electric_potential: Primary voltage
 - amount: Secondary turns
 - amount: Primary turns

@@ -2,7 +2,17 @@ name: Catalytic efficiency
 id: catalytic_efficiency
 topic: biochemistry
 difficulty: 8
-equation: dimensionless eq (catalytic_activity frac concentration)
+links:
+- https://en.wikipedia.org/wiki/Catalytic_efficiency
+- https://bio.libretexts.org/Workbench/Biochem_Remix_Acevedo/06%3A_Enzyme_Activity/6.03%3A_Kinetics_with_Enzymes
+- https://www.ncbi.nlm.nih.gov/books/NBK92007/
+description: Also called the specificity constant, this second-order rate parameter
+  measures how effectively an enzyme converts its substrate into product when substrate
+  is scarce, and how strongly the enzyme discriminates between competing substrates.
+  For the fastest enzymes it approaches the diffusion-controlled limit of roughly
+  one hundred million to a billion per molar per second. It is a standard benchmark
+  for comparing enzyme performance across substrates and mutants.
+equation: dimensionless eq catalytic_activity frac concentration
 symbol_overrides:
 - dimensionless: \eta
 - catalytic_activity: k_{cat}

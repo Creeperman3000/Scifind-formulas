@@ -2,7 +2,17 @@ name: Zero exponent rule
 id: zero_exponent_rule
 topic: exponents
 difficulty: 2
-equation: (dimensionless pow 0) eq 1
+links:
+- https://en.wikipedia.org/wiki/Exponentiation#Zero_exponent
+- https://mathworld.wolfram.com/Power.html
+- https://www.cuemath.com/algebra/zero-exponent-rule/
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:exponent-properties/v/zero-exponent-property
+- https://www.britannica.com/science/exponentiation
+description: The zero exponent rule states that any nonzero base raised to the power
+  of zero equals one. It follows from the requirement that the law of exponents b^{m+n}
+  = b^m b^n remain consistent when n = 0, and is equivalent to defining exponentiation
+  as the empty product.
+equation: dimensionless pow 0 eq 1
 symbol_overrides:
 - dimensionless: a
 name_overrides:

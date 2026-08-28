@@ -2,14 +2,24 @@ name: Osmotic pressure
 id: osmotic_pressure
 topic: solutions
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Osmotic_pressure
+  - https://en.wikipedia.org/wiki/Van_%27t_Hoff_factor
+  - https://en.wikipedia.org/wiki/Colligative_property
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Mixtures/Colligative_Properties/Osmotic_Pressure
+description: >-
+  Osmotic pressure is the minimum pressure that must be applied to a solution
+  to stop the inward flow of pure solvent across a semipermeable membrane, and
+  it is a colligative property. The van 't Hoff relation gives the pressure
+  as the product of the dimensionless van 't Hoff factor (accounting for
+  dissociating solutes), the molar solute concentration, the gas constant, and
+  the absolute temperature, valid for dilute ideal solutions.
 equation: pressure eq dimensionless mul concentration mul (gas_constant) mul temperature
 symbol_overrides:
-- pressure: Π
-- dimensionless: i
-- concentration: M
-- temperature: ''
+  - pressure: Π
+  - dimensionless: i
+  - concentration: M
 name_overrides:
-- pressure: Osmotic [pressure]
-- dimensionless: Van 't Hoff factor
-- concentration: Molarity
-- temperature: ''
+  - pressure: Osmotic [pressure]
+  - dimensionless: Van 't Hoff factor
+  - concentration: Molarity

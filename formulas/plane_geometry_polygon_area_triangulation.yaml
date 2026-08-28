@@ -2,6 +2,14 @@ name: Area of a polygon by triangulation
 id: plane_geometry_polygon_area_triangulation
 topic: plane_geometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Polygon
+  - https://en.wikipedia.org/wiki/Triangle#Computing_the_area_of_a_triangle
+  - https://en.wikipedia.org/wiki/Triangulation_(geometry)
+  - https://mathworld.wolfram.com/PolygonArea.html
+  - https://mathworld.wolfram.com/PolygonTriangulation.html
+  - https://www.cut-the-knot.org/WhatIs/WhatIsPolygons.shtml
+description: "Any simple polygon can be divided into non-overlapping triangles whose vertices are vertices of the polygon (a triangulation), and the polygon's total area is the sum of the areas of those triangles. This decomposition reduces general polygon area computation to repeated triangle area calculations and is the conceptual basis of many computational geometry algorithms."
 equation: area eq area add (area) add area
 symbol_overrides:
 - area: A_{total}
@@ -10,6 +18,6 @@ symbol_overrides:
 - area: A_3
 name_overrides:
 - area: Total [area]
-- area: Triangle 1 area
-- area: Triangle 2 area
-- area: Triangle 3 area
+- area: Triangle 1 [area]
+- area: Triangle 2 [area]
+- area: Triangle 3 [area]

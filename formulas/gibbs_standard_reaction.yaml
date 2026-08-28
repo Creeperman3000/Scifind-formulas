@@ -2,16 +2,22 @@ name: Standard Gibbs free energy of reaction
 id: gibbs_standard_reaction
 topic: thermochemistry
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://en.wikipedia.org/wiki/Standard_Gibbs_energy_change_of_formation
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Standard_Free_Energy_Change
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/19%3A_Chemical_Thermodynamics/19.05%3A_Gibbs_Free_Energy
+description: "The standard Gibbs energy change of a chemical reaction is obtained by combining the standard Gibbs energies of formation of the products and reactants, each weighted by its stoichiometric coefficient. Tabulated values of standard Gibbs energies of formation at 1 bar and a specified temperature are used to predict reaction spontaneity under standard conditions."
 equation: energy eq dimensionless mul (energy) sub dimensionless mul energy
 symbol_overrides:
-- energy: ΔG°_{rxn}
-- dimensionless: ν
-- energy: ΔG°_{f(products)}
-- dimensionless: ν
-- energy: ΔG°_{f(reactants)}
+- energy: \Delta G^{\circ}_{\mathrm{rxn}}
+- dimensionless: \nu
+- energy: \Delta G^{\circ}_{f,\mathrm{products}}
+- dimensionless: \nu
+- energy: \Delta G^{\circ}_{f,\mathrm{reactants}}
 name_overrides:
-- energy: Standard Gibbs [energy] change
-- dimensionless: Stoichiometric coefficient
+- energy: Standard Gibbs [energy] change of reaction
+- dimensionless: Stoichiometric coefficient of products
 - energy: Standard Gibbs [energy] of formation of products
-- dimensionless: ''
+- dimensionless: Stoichiometric coefficient of reactants
 - energy: Standard Gibbs [energy] of formation of reactants

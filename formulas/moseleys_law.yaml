@@ -2,14 +2,20 @@ name: Moseley's law
 id: moseleys_law
 topic: periodic_table
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Moseley%27s_law
+  - https://en.wikipedia.org/wiki/Characteristic_X-ray
+  - https://en.wikipedia.org/wiki/Henry_Moseley
+  - https://en.wikipedia.org/wiki/Atomic_number
+  - https://www.britannica.com/science/Moseleys-law
+description: "Moseley's law is an empirical relationship discovered by Henry Moseley in 1913 that links the frequency of characteristic X-ray emission lines of an element to its atomic number. The square root of the X-ray frequency increases approximately linearly with the atomic number, offset by a screening constant. It provided the first physical justification for ordering the elements by atomic number rather than atomic weight and resolved several inconsistencies in the periodic table."
 equation: sqrt frequency 2 eq dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
-- frequency: ''
-- dimensionless: k
-- dimensionless: Z
-- dimensionless: \sigma
+  - dimensionless: k
+  - dimensionless: Z
+  - dimensionless: \sigma
 name_overrides:
-- frequency: Characteristic X-ray [frequency]
-- dimensionless: Proportionality constant
-- dimensionless: Atomic number
-- dimensionless: Screening constant
+  - frequency: Characteristic X-ray [frequency]
+  - dimensionless: Proportionality constant
+  - dimensionless: Atomic number
+  - dimensionless: Screening constant

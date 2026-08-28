@@ -2,10 +2,11 @@ name: Photon energy
 id: photon_energy
 topic: quantum_mechanics
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Photon#Energy_and_momentum
+  - https://en.wikipedia.org/wiki/Photon_energy
+  - https://www.khanacademy.org/science/physics/quantum-physics/photons/a/photons
+  - https://physics.info/photoelectric/
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/02%3A_Introduction_to_Quantum_Mechanics
+description: The energy of a single photon is directly proportional to the frequency of the associated electromagnetic radiation, with the proportionality constant being the Planck constant. It establishes the quantum granularity of light and is the foundation of the Planck–Einstein relation.
 equation: energy eq planck_constant mul frequency
-symbol_overrides:
-- energy: ''
-- frequency: ''
-name_overrides:
-- energy: ''
-- frequency: ''

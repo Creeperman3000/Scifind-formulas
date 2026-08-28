@@ -2,14 +2,21 @@ name: Linear equation solution
 id: linear_equation_solution
 topic: equations
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Linear_equation#One_variable
+  - https://en.wikipedia.org/wiki/Linear_equation
+  - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eq-unknown/v/solving-linear-equations-review
+  - https://math.libretexts.org/Bookshelves/Algebra/Algebra_(Boundless)/01%3A_Equations_and_Inequalities/1.01%3A_Solving_Linear_Equations_and_Inequalities_with_One_Variable
+  - https://www.britannica.com/science/linear-equation
+description: "The solution to a single-variable linear equation expresses the unknown in terms of the constants, valid for any coefficient values. This rule underpins algebraic manipulation in nearly every area of mathematics and applied science, from solving motion equations in physics to fitting straight-line models to data."
 equation: dimensionless eq (dimensionless sub dimensionless ) frac dimensionless
 symbol_overrides:
-- dimensionless: x
-- dimensionless: c
-- dimensionless: b
-- dimensionless: a
+  - dimensionless: x
+  - dimensionless: c
+  - dimensionless: b
+  - dimensionless: a
 name_overrides:
-- dimensionless: Solution
-- dimensionless: c
-- dimensionless: b
-- dimensionless: a
+  - dimensionless: Solution
+  - dimensionless: c
+  - dimensionless: b
+  - dimensionless: a

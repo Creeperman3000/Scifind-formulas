@@ -2,7 +2,17 @@ name: Sum of interior angles of a polygon
 id: sum_of_interior_angles
 topic: polygons
 difficulty: 3
-equation: angle eq 180 mul (dimensionless sub 2 )
+links:
+- https://en.wikipedia.org/wiki/Internal_and_external_angles
+- https://en.wikipedia.org/wiki/Polygon
+- https://en.wikipedia.org/wiki/Triangle
+- https://www.mathsisfun.com/geometry/interior-angles-polygons.html
+- https://mathworld.wolfram.com/Polygon.html
+description: For any simple polygon with n sides, the interior angles sum to 180(n
+  − 2) degrees or (n − 2)π radians, equivalent to partitioning the polygon into n
+  − 2 triangles. The corresponding sum of exterior angles (one per vertex) is 360
+  degrees.
+equation: angle eq 180 mul dimensionless sub 2
 symbol_overrides:
 - angle: S
 - dimensionless: n

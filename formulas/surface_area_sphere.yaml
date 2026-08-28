@@ -2,10 +2,16 @@ name: Surface area of a sphere
 id: surface_area_sphere
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Sphere
+  - https://mathworld.wolfram.com/Sphere.html
+  - https://www.cuemath.com/geometry/surface-area-of-a-sphere/
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-sphere
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/12%3A_Surface_Area/12.07%3A_Surface_Area_of_a_Sphere
+description: "The surface area of a sphere equals four times the area of a great circle on it, a result Archimedes first obtained by comparing a sphere with its circumscribed cylinder. \nIt is the limiting case for any closed surface of given volume and appears in physics wherever spherical geometry arises, from planetary science to bubble mechanics."
 equation: area eq 4 mul pi mul length pow 2
 symbol_overrides:
-- area: A
 - length: r
 name_overrides:
-- area: Surface area
+- area: Surface [area]
 - length: Radius

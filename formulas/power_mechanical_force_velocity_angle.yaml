@@ -2,14 +2,21 @@ name: Power from force, velocity and angle
 id: power_mechanical_force_velocity_angle
 topic: power
 difficulty: 6
-equation: power eq force mul (velocity) mul cos angle
+links:
+- https://en.wikipedia.org/wiki/Power_(physics)
+- https://en.wikipedia.org/wiki/Mechanical_work
+- https://en.wikipedia.org/wiki/Mechanical_power
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy/7.09%3A_Power
+- https://www.britannica.com/science/power-physics
+description: The instantaneous mechanical power delivered by a constant force equals
+  the scalar product of the force and the velocity of the point of application, so
+  only the component of the force along the direction of motion contributes to the
+  rate of doing work.
+equation: power eq force mul velocity mul cos angle
 symbol_overrides:
-- power: ''
-- force: ''
-- velocity: ''
-- angle: θ
+- angle: \theta
 name_overrides:
-- power: '[Power]'
-- force: '[Force]'
-- velocity: '[Velocity]'
+- power: '[power]'
+- force: '[force]'
+- velocity: '[velocity]'
 - angle: Angle between force and velocity

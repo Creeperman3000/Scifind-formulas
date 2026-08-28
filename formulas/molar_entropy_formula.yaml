@@ -2,12 +2,11 @@ name: Molar entropy
 id: molar_entropy_formula
 topic: entropy
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Entropy
+  - https://en.wikipedia.org/wiki/Intensive_and_extensive_properties#Molar_properties
+  - https://en.wikipedia.org/wiki/Amount_of_substance
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/02%3A_Atoms_Molecules_and_Chemical_Reactions/2.10%3A_Molar_Quantities
+  - https://goldbook.iupac.org/terms/view/M04002.html
+description: Molar entropy is the entropy of a sample divided by its amount of substance, expressing the disorder of a system per mole. It is an intensive property used to compare entropies of different substances and to compute entropy changes in chemical reactions from standard molar entropies.
 equation: molar_entropy eq entropy frac amount
-symbol_overrides:
-- molar_entropy: ''
-- entropy: ''
-- amount: ''
-name_overrides:
-- molar_entropy: ''
-- entropy: ''
-- amount: ''

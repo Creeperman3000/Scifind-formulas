@@ -2,7 +2,17 @@ name: Wedge film interference fringe spacing
 id: wedge_film_fringe_spacing
 topic: interference
 difficulty: 8
-equation: length eq length frac dimensionless mul (tan angle ) mul 2
+links:
+- https://en.wikipedia.org/wiki/Newton%27s_rings
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- https://en.wikipedia.org/wiki/Interference_(wave_propagation)
+- https://phys.libretexts.org/Bookshelves/Optics/Book%3A_Geometric_Optics_(Tatum)/05%3A_Interference
+- https://www.animations.physics.unsw.edu.au/waves/wave-interference/Newton%27s-rings.html
+description: In a thin wedge-shaped film, successive bright (or dark) interference
+  fringes are equally spaced along the film surface. The spacing is set by the wavelength,
+  the refractive index of the film and the wedge angle, and the result is widely used
+  to assess surface flatness and film thickness.
+equation: length eq length frac dimensionless mul (sin angle) mul 2
 symbol_overrides:
 - length: Δx
 - length: λ
@@ -11,5 +21,5 @@ symbol_overrides:
 name_overrides:
 - length: Fringe spacing
 - length: Wavelength
-- dimensionless: Refractive [index]
+- dimensionless: Refractive index
 - angle: Wedge angle

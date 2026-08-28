@@ -2,6 +2,12 @@ name: Rankine to Kelvin conversion
 id: temperature_rankine_kelvin
 topic: temperature
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Rankine_scale
+  - https://en.wikipedia.org/wiki/Kelvin
+  - https://en.wikipedia.org/wiki/Conversion_of_scales_of_temperature
+  - https://www.metric-conversions.org/temperature/rankine-to-kelvin.htm
+description: "Converts a temperature on the Rankine scale to kelvins. Since one Rankine degree equals 5/9 of a kelvin, dividing the Rankine value by 1.8 (or 9/5) yields the equivalent kelvin reading, preserving the absolute scale since both begin at absolute zero."
 equation: temperature eq temperature frac 1.8
 symbol_overrides:
 - temperature: K

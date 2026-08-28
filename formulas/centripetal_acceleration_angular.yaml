@@ -2,13 +2,19 @@ name: Centripetal acceleration in terms of angular velocity
 id: centripetal_acceleration_angular
 topic: circular_motion
 difficulty: 5
-description: "Valid for uniform circular motion; a_c = ω² r."
+links:
+- https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration
+- https://openstax.org/books/university-physics-volume-1/pages/6-3-centripetal-force
+- https://openbooks.lib.msu.edu/collegephysics1/chapter/centripetal-acceleration-2/
+description: Expresses the magnitude of centripetal acceleration using the angular
+  velocity of the circular motion instead of the linear speed. It is equivalent to
+  the speed-based form via the relation between arc length and angle, and is convenient
+  for rotating systems such as wheels, centrifuges, and orbits where the rotation
+  rate is known. Valid for uniform circular motion.
 equation: acceleration eq length mul angular_velocity pow 2
 symbol_overrides:
 - acceleration: a_c
 - length: r
-- angular_velocity: ''
 name_overrides:
 - acceleration: Centripetal [acceleration]
 - length: Radius
-- angular_velocity: ''

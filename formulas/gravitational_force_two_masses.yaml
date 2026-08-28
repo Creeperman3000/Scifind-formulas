@@ -2,15 +2,20 @@ name: Gravitational force between two masses
 id: gravitational_force_two_masses
 topic: newtonian_gravity
 difficulty: 5
-description: "Valid for point masses, or spherically symmetric bodies."
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/13%3A_Gravitation/13.02%3A_Newton's_Law_of_Universal_Gravitation
+  - https://www.britannica.com/science/Newtons-law-of-gravitation
+  - https://www.physicsclassroom.com/class/circles/Lesson-3/Newton-s-Law-of-Universal-Gravitation
+  - https://farside.ph.utexas.edu/teaching/336k/Newton/node112.html
+  - https://scienceworld.wolfram.com/physics/NewtonsLawofUniversalGravitation.html
+description: "Newton's law of universal gravitation states that every pair of point masses attracts each other with a force proportional to the product of the masses and inversely proportional to the square of the distance between their centres; it also applies to spherically symmetric bodies, which attract as if all their mass were concentrated at the centre."
 equation: force eq gravitational_constant mul (mass) mul (mass) frac length pow 2
 symbol_overrides:
-- force: F
 - mass: m_1
 - mass: m_2
 - length: r
 name_overrides:
-- force: Force
-- mass: Mass 1
-- mass: Mass 2
+- mass: '[mass] 1'
+- mass: '[mass] 2'
 - length: Distance

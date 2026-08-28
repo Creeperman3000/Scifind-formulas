@@ -2,17 +2,20 @@ name: Quantum tunneling probability (WKB)
 id: quantum_mechanics_tunneling_probability
 topic: quantum_mechanics
 difficulty: 10
-equation: dimensionless eq exp (drop (sqrt (mass mul energy sub energy) 2 mul (length)
-  mul 2) sub)
+links:
+- https://en.wikipedia.org/wiki/Quantum_tunnelling
+- https://en.wikipedia.org/wiki/WKB_approximation
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(McIntyre)/04%3A_The_Schrodinger_Equation/4.04%3A_Quantum_Tunneling
+- https://www.britannica.com/science/tunneling
+description: The WKB approximation gives an estimate of the probability that a quantum
+  particle tunnels through a potential barrier whose height exceeds the particle's
+  energy. The result is dominated by an exponential decay with the barrier width,
+  particle mass, and barrier height, and is the basis of alpha decay, field emission,
+  and scanning tunneling microscopy.
+equation: dimensionless eq exp (drop 2 mul length mul sqrt mass mul energy sub energy
+  )
 symbol_overrides:
-- dimensionless: ''
-- mass: ''
-- energy: ''
-- energy: ''
-- length: ''
-name_overrides:
-- dimensionless: ''
-- mass: ''
-- energy: ''
-- energy: ''
-- length: ''
+- dimensionless: T
+- length: L
+- energy: V_0
+- energy: E

@@ -2,12 +2,18 @@ name: Path length difference for two sources
 id: wave_interference_path_length_difference
 topic: wave_interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Wave_interference
+  - https://en.wikipedia.org/wiki/Wavelength#Interference_and_diffraction
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.06%3A_Interference_of_Waves
+  - https://en.wikipedia.org/wiki/Path_length
+description: "The path length difference is the difference in distances from two coherent wave sources to a given observation point, and it controls whether the waves arrive in or out of phase. Combined with the wavelength, it determines the type of interference (constructive when the path difference is an integer multiple of the wavelength and destructive when it is a half-integer multiple)."
 equation: length eq length sub length
 symbol_overrides:
 - length: Δx
 - length: r₁
 - length: r₂
 name_overrides:
-- length: Path [difference]
+- length: Path difference
 - length: Distance from source 1
 - length: Distance from source 2

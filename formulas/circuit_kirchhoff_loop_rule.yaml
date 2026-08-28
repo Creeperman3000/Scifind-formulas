@@ -2,12 +2,12 @@ name: Kirchhoff's loop rule
 id: circuit_kirchhoff_loop_rule
 topic: circuits
 difficulty: 6
-equation: electric_potential add (electric_potential) add electric_potential eq 0
-symbol_overrides:
-- electric_potential: V_1
-- electric_potential: V_2
-- electric_potential: V_3
+links:
+  - https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.04%3A_Kirchhoff%27s_Rules
+  - https://www.electronics-tutorials.ws/dccircuits/kirchhoffs-voltage-law.html
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/
+description: "Kirchhoff's loop rule (also called Kirchhoff's voltage law) states that the algebraic sum of all voltage changes around any closed loop in a circuit equals zero, reflecting conservation of energy. Sources count as rises and loads as drops relative to the chosen traversal direction. It is used together with the junction rule to analyze multi-loop circuits."
+equation: sum drop drop electric_potential eq 0
 name_overrides:
-- electric_potential: Voltage drop 1
-- electric_potential: Voltage drop 2
-- electric_potential: Voltage drop 3
+- electric_potential: Sum of potential differences

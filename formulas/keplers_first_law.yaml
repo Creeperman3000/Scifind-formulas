@@ -2,8 +2,16 @@ name: Kepler's first law of planetary motion
 id: keplers_first_law
 topic: orbital_motion
 difficulty: 6
-equation: length eq length mul (dimensionless sub dimensionless pow 2 ) frac dimensionless
-  add dimensionless mul cos angle
+links:
+- https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+- https://en.wikipedia.org/wiki/Kepler_orbit
+- https://en.wikipedia.org/wiki/Orbital_period
+- https://en.wikipedia.org/wiki/Ellipse
+description: Kepler's first law of planetary motion states that every planet's orbit
+  is an ellipse with the Sun at one focus. The polar form of the ellipse gives the
+  orbital radius in terms of the semi-major axis, eccentricity, and true anomaly.
+equation: length eq length mul (1 sub dimensionless pow 2 ) frac 1 add dimensionless
+  mul cos angle
 symbol_overrides:
 - length: r
 - length: a
@@ -11,7 +19,7 @@ symbol_overrides:
 - dimensionless: e
 - dimensionless: 1
 - dimensionless: e
-- angle: θ
+- angle: \theta
 name_overrides:
 - length: Orbital radius
 - length: Semi-major axis

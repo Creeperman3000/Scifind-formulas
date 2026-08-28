@@ -2,14 +2,20 @@ name: Velocity squared relation
 id: velocity_squared_constant_acceleration
 topic: constant_acceleration
 difficulty: 5
-equation: velocity pow 2 eq (velocity pow 2) add (2 mul acceleration mul (length ))
+links:
+- https://en.wikipedia.org/wiki/Kinematics
+- https://en.wikipedia.org/wiki/Equations_of_motion
+- https://en.wikipedia.org/wiki/Uniform_acceleration
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/03%3A_Motion_Along_a_Straight_Line/3.05%3A_Free_Fall
+- https://mathworld.wolfram.com/KinematicEquations.html
+- https://www.khanacademy.org/science/physics/one-dimensional-motion/kinematic-formulas/v/kinematic-formulas
+description: 'Third kinematic equation: it relates the squares of the initial and
+  final velocities of an object undergoing uniform acceleration to the displacement
+  traversed. It is time-independent and is useful when the time interval is unknown.'
+equation: velocity pow 2 eq (velocity pow 2) add 2 mul acceleration mul length
 symbol_overrides:
-- velocity: u
 - velocity: ''
-- acceleration: ''
-- length: ''
+- velocity: u
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
-- acceleration: ''
-- length: ''

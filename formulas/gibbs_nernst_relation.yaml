@@ -2,12 +2,19 @@ name: Gibbs free energy and cell potential
 id: gibbs_nernst_relation
 topic: electrochemistry
 difficulty: 8
-equation: energy eq drop (amount mul faraday_constant mul electric_potential) sub
+links:
+  - https://en.wikipedia.org/wiki/Nernst_equation
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://en.wikipedia.org/wiki/Electrochemical_cell
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Electrochemistry_and_Thermodynamics
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Electrochemistry/Electrochemical_Thermodynamics
+description: "The maximum non-expansion (electrical) work obtainable from a thermodynamically closed system at constant temperature and pressure equals the change in Gibbs free energy. This relation provides the thermodynamic bridge between the Gibbs free energy of a cell reaction and the measured cell potential, and underlies the derivation of the Nernst equation."
+equation: energy eq drop dimensionless sub mul faraday_constant mul electric_potential
 symbol_overrides:
-- energy: ΔG
-- amount: ''
+- energy: \Delta G
+- dimensionless: n
 - electric_potential: E
 name_overrides:
 - energy: Gibbs free [energy] change
-- amount: Number of electrons transferred
-- electric_potential: Cell [potential]
+- dimensionless: Number of electrons transferred
+- electric_potential: Cell potential

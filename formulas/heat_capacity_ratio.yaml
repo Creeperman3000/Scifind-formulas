@@ -2,6 +2,14 @@ name: Heat capacity ratio
 id: heat_capacity_ratio
 topic: ideal_gases
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Heat_capacity_ratio
+  - https://en.wikipedia.org/wiki/Relations_between_specific_heats
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Cycles/Heat_Capacity_Ratio
+  - https://www.britannica.com/science/heat-capacity-ratio
+  - https://www.engineersedge.com/heat_transfer/heat_capacity_ratio_gamma.htm
+  - https://physics.info/specific-heat/
+description: "The heat capacity ratio (also called the adiabatic index or Laplace's coefficient) is the ratio of the heat capacity at constant pressure to the heat capacity at constant volume. It plays a key role in the speed of sound in gases and in the characterization of reversible adiabatic processes of ideal gases."
 equation: dimensionless eq specific_heat_capacity frac specific_heat_capacity
 symbol_overrides:
 - dimensionless: γ

@@ -2,13 +2,22 @@ name: Eccentricity of a hyperbola
 id: hyperbola_eccentricity
 topic: coordinate_geometry
 difficulty: 6
-equation: dimensionless eq sqrt (dimensionless add (length pow 2) frac length pow 2
-  ) 2
+links:
+- https://en.wikipedia.org/wiki/Hyperbola#Eccentricity
+- https://en.wikipedia.org/wiki/Eccentricity_(mathematics)
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/Intermediate_Algebra_2e_(OpenStax)/12%3A_Conic_Sections/12.04%3A_The_Hyperbola
+- https://www.cuemath.com/geometry/eccentricity-of-hyperbola/
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:conic-sections/x2f8bb11595b61c86:hyperbola-equations/v/horizontal-hyperbola
+description: The eccentricity of a hyperbola, a dimensionless number greater than
+  1 that measures how open the curve is. It is defined in terms of the semi-transverse
+  axis a and the semi-conjugate axis b and determines the focal distance c and the
+  angle the asymptotes make with the major axis.
+equation: dimensionless eq sqrt (1 add (length pow 2) div length pow 2 ) 2
 symbol_overrides:
 - dimensionless: e
 - length: b
 - length: a
 name_overrides:
 - dimensionless: Eccentricity
-- length: b
-- length: a
+- length: Semi-conjugate axis
+- length: Semi-transverse axis

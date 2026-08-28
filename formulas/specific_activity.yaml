@@ -2,12 +2,18 @@ name: Specific activity
 id: specific_activity
 topic: nuclear_physics
 difficulty: 8
-equation: activity eq amount frac mass
+links:
+  - https://en.wikipedia.org/wiki/Specific_activity
+  - https://en.wikipedia.org/wiki/Radioactive_decay
+  - https://en.wikipedia.org/wiki/Avogadro_constant
+  - https://en.wikipedia.org/wiki/Becquerel
+description: "Specific activity is the activity of a radionuclide per unit mass, a fundamental property that quantifies how 'hot' a sample of a given isotope is. It depends only on the decay constant of the nuclide and (through the Avogadro constant and molar mass) on the number of radioactive atoms per gram, and is decisive in selecting radionuclides for radiopharmaceuticals and tracer studies."
+equation: activity eq amount mul avogadro_number frac molar_mass
 symbol_overrides:
 - activity: a
-- amount: λ
-- mass: ''
+- amount: \lambda
+- molar_mass: M
 name_overrides:
 - activity: Specific [activity]
 - amount: Decay constant
-- mass: Mass of sample
+- molar_mass: Molar [mass]

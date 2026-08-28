@@ -2,12 +2,18 @@ name: Impulse-momentum theorem
 id: impulse_momentum_theorem
 topic: impulse
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Impulse_(physics)
+  - https://www.britannica.com/science/impulse-physics
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/09%3A_Linear_Momentum_and_Collisions
+  - https://openstax.org/books/university-physics-volume-1/pages/9-introduction
+description: The impulse-momentum theorem states that the impulse delivered to an object equals its change in linear momentum. It is especially useful for analyzing forces that act over short time intervals, such as collisions, where integrating the rapidly varying force is impractical.
 equation: momentum eq momentum sub momentum
 symbol_overrides:
 - momentum: J
 - momentum: p_f
 - momentum: p_i
 name_overrides:
-- impulse: Impulse
+- momentum: Impulse
 - momentum: Final [momentum]
 - momentum: Initial [momentum]

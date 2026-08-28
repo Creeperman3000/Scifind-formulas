@@ -2,6 +2,12 @@ name: Eigenvalue equation
 id: eigenvalue_definition
 topic: linear_algebra
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
+  - https://math.libretexts.org/Courses/Mission_College/MAT_04C_Linear_Algebra_(Kravets)/06%3A_Eigenvalues_and_Eigenvectors/6.01%3A_Eigenvalues_and_Eigenvectors
+  - https://textbooks.math.gatech.edu/ila/eigenvectors.html
+  - https://mathworld.wolfram.com/Eigenvalue.html
+description: "The defining relation of the eigenvalue problem: an eigenvector of a square matrix is a nonzero vector whose direction is unchanged when the matrix is applied to it, being merely stretched or shrunk by a scalar factor called the eigenvalue. Finding these pairs underlies matrix diagonalization and applications from vibration analysis and stability theory to quantum mechanics."
 equation: dimensionless mul dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A

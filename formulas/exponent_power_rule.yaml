@@ -2,6 +2,11 @@ name: Exponent power rule
 id: exponent_power_rule
 topic: exponents
 difficulty: 3
+links:
+  - https://mathworld.wolfram.com/ExponentLaws.html
+  - https://www.cuemath.com/algebra/power-of-a-power-rule/
+  - https://www.mathsisfun.com/algebra/exponent-laws.html
+description: "Also called the power of a power rule, this law of exponents says that raising an already-exponentiated quantity to another power multiplies the two exponents while keeping the base unchanged. It comes from counting repeated copies of the inner power and is used constantly when simplifying algebraic expressions and solving exponential equations."
 equation: (dimensionless pow dimensionless ) pow dimensionless eq dimensionless pow
   dimensionless mul dimensionless
 symbol_overrides:
@@ -12,9 +17,9 @@ symbol_overrides:
 - dimensionless: m
 - dimensionless: n
 name_overrides:
-- dimensionless: a
+- dimensionless: Base a
 - dimensionless: Inner exponent m
 - dimensionless: Outer exponent n
-- dimensionless: a
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Base a
+- ""
+- ""

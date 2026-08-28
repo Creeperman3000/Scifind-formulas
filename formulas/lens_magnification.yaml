@@ -2,12 +2,19 @@ name: Lens Magnification
 id: lens_magnification
 topic: lenses
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Magnification
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.06%3A_Thin_Lenses
+  - https://www.britannica.com/technology/magnification
+  - https://www.physics.lensless.org/notes/thin-lenses
+  - https://www.electronics-tutorials.ws/optics/lenses.html
+description: "The transverse magnification of a thin lens equals the ratio of image distance to object distance, with a sign indicating whether the image is upright or inverted relative to the object. It is fundamental to image formation in cameras, microscopes, telescopes, and the human eye."
 equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: m
 - length: v
 - length: u
 name_overrides:
-- dimensionless: '[Magnification]'
+- dimensionless: Magnification
 - length: Image distance
 - length: Object distance

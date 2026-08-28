@@ -2,12 +2,10 @@ name: Mechanical rotational power
 id: mechanical_power_rotational
 topic: power
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Power_(physics)
+  - https://en.wikipedia.org/wiki/Torque
+  - https://openstax.org/books/university-physics-volume-1/pages/10-8-work-and-power-for-rotational-motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation__Introduction/10.08%3A_Work_and_Power_for_Rotational_Motion
+description: "For a rigid body rotating about a fixed axis, the instantaneous mechanical power delivered by a torque equals the scalar product of the torque and the angular velocity. This is the rotational analogue of the linear relation P = F·v and gives the rate at which rotational work is done on the shaft."
 equation: power eq torque mul angular_velocity
-symbol_overrides:
-- power: ''
-- torque: ''
-- angular_velocity: ''
-name_overrides:
-- power: ''
-- torque: ''
-- angular_velocity: ''

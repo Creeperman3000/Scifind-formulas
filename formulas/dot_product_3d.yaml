@@ -2,8 +2,18 @@ name: Dot product of two 3D vectors
 id: dot_product_3d
 topic: linear_algebra
 difficulty: 6
-equation: (dimensionless cdot dimensionless) eq (dimensionless mul dimensionless) add (dimensionless mul
-  dimensionless) add (dimensionless mul dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Dot_product
+- https://mathinsight.org/dot_product_formula_components
+- https://calcworkshop.com/vectors-and-the-geometry-of-space/dot-product-in-3d/
+- https://www.storyofmathematics.com/vector-dot-product/
+description: Computes the scalar (dot) product of two spatial vectors by multiplying
+  matching Cartesian components and adding the three products. The value equals the
+  product of the vectors' magnitudes and the cosine of the angle between them, so
+  it vanishes for perpendicular vectors and is maximal for parallel ones. Widely used
+  in physics and engineering to compute work, projections, and angles in space.
+equation: dimensionless cdot dimensionless eq (dimensionless mul dimensionless) add
+  (dimensionless mul dimensionless) add dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: \vec{a}
 - dimensionless: \vec{b}

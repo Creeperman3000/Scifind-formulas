@@ -2,15 +2,23 @@ name: Equivalent spring constant (series)
 id: effective_spring_constant_series
 topic: springs
 difficulty: 6
-equation: spring_constant pow (drop 1 sub) eq ((spring_constant pow (drop 1 sub) )
-  spring_constant pow (drop 1 sub) add) spring_constant pow (drop 1 sub) add
+links:
+- https://en.wikipedia.org/wiki/Series_and_parallel_springs
+- https://www.engineersedge.com/calculators/series_and_parallel_spring_15648.htm
+- https://study.com/skill/learn/how-to-find-the-effective-spring-constant-of-a-set-of-springs-in-series-explanation.html
+description: Springs connected end-to-end in series all carry the same force while
+  their individual extensions add, so the combination behaves like a single spring
+  that is softer than the softest spring in the chain. This relation is used to reduce
+  multi-spring arrangements to one effective stiffness for Hooke's-law analysis.
+equation: frac 1 spring_constant eq frac 1 spring_constant add frac 1 spring_constant
+  add frac 1 spring_constant
 symbol_overrides:
 - spring_constant: k_{eq}
 - spring_constant: k_1
 - spring_constant: k_2
 - spring_constant: k_3
 name_overrides:
-- spring_constant: Effective [spring constant]
-- spring_constant: '[Spring constant] 1'
-- spring_constant: '[Spring constant] 2'
-- spring_constant: '[Spring constant] 3'
+- spring_constant: Effective [spring_constant]
+- spring_constant: '[spring_constant] 1'
+- spring_constant: '[spring_constant] 2'
+- spring_constant: '[spring_constant] 3'

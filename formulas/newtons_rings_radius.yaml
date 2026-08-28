@@ -2,12 +2,21 @@ name: Newton's rings radius
 id: newtons_rings_radius
 topic: interference
 difficulty: 8
-equation: length eq sqrt (dimensionless mul length) 2
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_rings
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_(OpenStax)/03%3A_Interference/3.05%3A_Newton%27s_Rings
+  - https://www.britannica.com/science/Newton-s-rings
+  - https://opentextbc.ca/universityphysicsv3/chapter/3-5-newtons-rings/
+  - https://scienceworld.wolfram.com/physics/NewtonsRings.html
+description: "Newton's rings are concentric bright and dark fringes produced by interference between light reflected from a plano-convex lens and an underlying flat glass surface. The radius of the m-th dark ring is given by a square root involving the ring order, the light wavelength, and the radius of curvature of the lens; this relation is the basis for using Newton's rings to measure lens curvature or wavelength."
+equation: length eq sqrt (dimensionless mul length mul length) 2
 symbol_overrides:
 - length: r_m
-- dimensionless: mλ
+- dimensionless: m
+- length: \lambda
 - length: R
 name_overrides:
-- length: Radius of m-th ring
-- dimensionless: Order times wavelength
+- length: Radius of the m-th ring
+- dimensionless: Ring order
+- length: Wavelength of light
 - length: Lens radius of curvature

@@ -2,16 +2,25 @@ name: Acceleration of an Atwood machine
 id: acceleration_atwood_machine
 topic: newtons_laws
 difficulty: 6
-equation: acceleration eq standard_gravity mul (mass sub mass ) frac mass add mass
+links:
+- https://en.wikipedia.org/wiki/Atwood%5fmachine
+- https://web.physics.ucsb.edu/~lecturedemonstrations/Composer/Pages/12.33.html
+- https://www.sciencing.com/solve-atwood-machine-problems-7349290/
+description: An Atwood machine consists of two masses connected by a light string
+  over an ideal frictionless pulley; the heavier mass accelerates downward while the
+  lighter one rises. The magnitude of that acceleration is set by the imbalance of
+  the two weights relative to the total inertia being accelerated. The result assumes
+  a massless, inextensible string and a massless, frictionless pulley.
+equation: acceleration eq standard_gravity mul ((mass sub mass) frac mass add mass
+  )
 symbol_overrides:
-- acceleration: ''
 - mass: m_1
 - mass: m_2
 - mass: m_1
 - mass: m_2
 name_overrides:
-- acceleration: '[Acceleration]'
-- mass: Mass 1
-- mass: Mass 2
-- mass: Mass 1
-- mass: Mass 2
+- acceleration: '[acceleration]'
+- mass: '[mass] 1'
+- mass: '[mass] 2'
+- mass: '[mass] 1'
+- mass: '[mass] 2'

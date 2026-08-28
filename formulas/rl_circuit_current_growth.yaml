@@ -2,21 +2,26 @@ name: Current growth in an RL circuit
 id: rl_circuit_current_growth
 topic: circuits
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/RL_circuit
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/13%3A_Electromagnetic_Induction/13.06%3A_RL_Circuits
+- https://www.khanacademy.org/science/physics/electromagnetic-induction/induction-ac-circuits/v/rl-circuit-growth-time-constant
+- https://www.britannica.com/science/RL-circuit
+- https://byjus.com/physics/rl-circuit/
+description: When a DC voltage is suddenly applied to a series RL circuit, the current
+  rises exponentially from zero toward its steady-state value V/R with time constant
+  τ = L/R. This transient growth arises because the inductor opposes changes in current,
+  and it characterizes the delay before circuits reach steady operation.
 equation: current eq electric_potential frac (resistance) mul dimensionless sub exp
-  (time mul (resistance) frac (drop inductance sub) )
+  (0 sub time mul (resistance) frac inductance )
 symbol_overrides:
 - current: I(t)
-- electric_potential: ''
-- resistance: ''
-- dimensionless: ''
-- time: ''
-- resistance: ''
-- inductance: ''
+- electric_potential: V
+- resistance: R
+- inductance: L
 name_overrides:
 - current: Current at time t
-- electric_potential: ''
-- resistance: ''
-- dimensionless: ''
-- time: ''
-- resistance: ''
-- inductance: ''
+- electric_potential: '[electric_potential] of the source'
+- resistance: '[resistance]'
+- inductance: '[inductance]'
+- time: Time [time]

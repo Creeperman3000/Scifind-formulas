@@ -2,8 +2,14 @@ name: 'Product-to-sum: cos A cos B'
 id: product_to_sum_cosine_cosine
 topic: trigonometric_identities
 difficulty: 7
-equation: cos angle mul cos angle eq dimensionless mul cos (angle sub angle ) add
-  cos (angle add angle )
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Product-to-sum_identities
+  - https://en.wikipedia.org/wiki/Product-to-sum_identities
+  - https://math.libretexts.org/Bookshelves/Trigonometry
+  - https://www.cuemath.com/trigonometry/product-to-sum-formulas/
+  - https://www.khanacademy.org/math/trigonometry
+description: "Expresses the product of two cosines as a sum of cosines. It is widely used to simplify integrals of products of trigonometric functions and to convert products into sums in physics and engineering signal analysis."
+equation: cos angle mul cos angle eq dimensionless mul cos (angle sub angle ) add cos (angle add angle )
 symbol_overrides:
 - angle: A
 - angle: B
@@ -13,10 +19,5 @@ symbol_overrides:
 - angle: A
 - angle: B
 name_overrides:
-- angle: '[Angle] A'
-- angle: '[Angle] B'
-- dimensionless: ''
-- angle: ''
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: '[angle|Angle] A'
+- angle: '[angle|Angle] B'

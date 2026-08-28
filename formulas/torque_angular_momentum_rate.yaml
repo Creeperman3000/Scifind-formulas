@@ -2,12 +2,17 @@ name: Torque as rate of change of angular momentum
 id: torque_angular_momentum_rate
 topic: angular_momentum
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Torque
+  - https://en.wikipedia.org/wiki/Angular_momentum
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics
+  - https://en.wikipedia.org/wiki/Rotational_energy
+description: "The net external torque on a system equals the time rate of change of its angular momentum, the rotational analogue of Newton's second law. This is the finite-difference form used for impulsive interactions; when the net external torque is zero, the total angular momentum of an isolated system is conserved."
 equation: torque eq Delta angular_momentum frac Delta time
 symbol_overrides:
 - torque: τ
-- angular_momentum: ''
-- time: ''
 name_overrides:
 - torque: Net [torque]
-- angular_momentum: '[Angular momentum]'
-- time: '[Time]'
+- angular_momentum: Change in [angular_momentum]
+- time: '[time]'

@@ -2,12 +2,19 @@ name: Resistors in parallel (two)
 id: parallel_resistance
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistance
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/09%3A_Current_and_Resistance/9.04%3A_Resistors_in_Series_and_Parallel
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-resistors/v/parallel-resistors
+  - https://www.electronics-tutorials.ws/resistor/res_4.html
+  - https://www.britannica.com/science/parallel-resistance
+description: "When two resistors are connected in parallel, they share the same voltage drop while the total current splits between them. The reciprocal of the equivalent resistance equals the sum of the reciprocals of the individual resistances, so the combined resistance is always less than the smallest individual resistance."
 equation: 1 frac resistance eq 1 frac (resistance) add 1 frac resistance
 symbol_overrides:
+- resistance: R_{total}
 - resistance: R_1
 - resistance: R_2
-- resistance: R_{total}
 name_overrides:
-- resistance: '[Resistance] 1'
-- resistance: '[Resistance] 2'
 - resistance: Total [resistance]
+- resistance: '[resistance] 1'
+- resistance: '[resistance] 2'

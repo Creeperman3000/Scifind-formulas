@@ -2,6 +2,13 @@ name: Thermal efficiency of a heat engine
 id: heat_engine_thermal_efficiency
 topic: heat_engines
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Thermal_efficiency
+  - https://en.wikipedia.org/wiki/Heat_engine
+  - https://www.britannica.com/technology/heat-engine
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/03%3A_The_Second_Law_of_Thermodynamics/3.05%3A_Heat_Engines
+  - https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/heat-engines
+description: "The thermal efficiency of a heat engine is the fraction of the heat input from the high-temperature reservoir that is converted into useful work. By the first law of thermodynamics, the work output equals the heat input minus the heat rejected to the cold reservoir, so the efficiency can also be written as one minus the ratio of rejected to absorbed heat. The second law of thermodynamics constrains this efficiency to be less than the Carnot efficiency determined by the reservoir temperatures."
 equation: dimensionless eq (energy sub energy ) frac energy
 symbol_overrides:
 - dimensionless: η
@@ -9,7 +16,7 @@ symbol_overrides:
 - energy: Q_c
 - energy: Q_h
 name_overrides:
-- dimensionless: Thermal [efficiency]
+- dimensionless: Thermal efficiency
 - energy: Heat input
 - energy: Heat rejected
 - energy: Heat input

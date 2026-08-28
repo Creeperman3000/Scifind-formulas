@@ -2,14 +2,21 @@ name: Gay-Lussac's law
 id: gay_lussacs_law
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Gay-Lussac%27s_law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Laws/Gay-Lussac's_Law
+  - https://www.britannica.com/science/Gay-Lussacs-law
+  - https://www.thoughtco.com/gay-lussaces-law-606469
+  - https://www.grc.nasa.gov/www/k-12/airplane/glussac.html
+description: "Gay-Lussac's law, in its pressure-temperature form, states that the pressure of a fixed amount of gas held at constant volume is directly proportional to its absolute temperature. It is one of the special cases of the ideal gas law, applying when volume and the amount of gas are held constant."
 equation: pressure frac temperature eq pressure frac temperature
 symbol_overrides:
-- pressure: P_1
-- temperature: T_1
-- pressure: P_2
-- temperature: T_2
+  - pressure: P_1
+  - temperature: T_1
+  - pressure: P_2
+  - temperature: T_2
 name_overrides:
-- pressure: Initial [pressure]
-- temperature: Initial [temperature]
-- pressure: Final [pressure]
-- temperature: Final [temperature]
+  - pressure: Initial [pressure]
+  - temperature: Initial [temperature]
+  - pressure: Final [pressure]
+  - temperature: Final [temperature]

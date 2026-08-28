@@ -2,6 +2,14 @@ name: Solubility product for A₂B-type salt
 id: solubility_product_a2b
 topic: solutions
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Solubility_equilibrium
+  - https://en.wikipedia.org/wiki/Solubility_product
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Equilibria/Additional_Exercises/Solubility_Product
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Solubilty/Solubility_Product
+  - https://www.britannica.com/science/solubility-product
+  - https://www.khanacademy.org/science/chemistry/chemical-equilibrium-topic/solubility-equilibrium-topic/v/solubility-product-constant
+description: "The solubility product K_sp expresses the equilibrium between a sparingly soluble ionic salt and its saturated solution, written as the product of the dissolved ion concentrations each raised to the power of its stoichiometric coefficient in the dissociation reaction. For a salt of stoichiometry A₂B that dissociates into 2 A ions and 1 B ion, K_sp governs solubility and the common-ion effect."
 equation: dimensionless eq (concentration pow 2) mul concentration
 symbol_overrides:
 - dimensionless: K_{sp}
@@ -9,5 +17,5 @@ symbol_overrides:
 - concentration: '[B]'
 name_overrides:
 - dimensionless: Solubility product
-- concentration: '[A⁺]'
-- concentration: '[B²⁻]'
+- concentration: A ion
+- concentration: B ion

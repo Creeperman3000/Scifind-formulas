@@ -2,14 +2,21 @@ name: Parallel axis theorem
 id: parallel_axis_theorem
 topic: moment_of_inertia
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Parallel_axis_theorem
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.05%3A_Moments_of_Inertia
+  - https://scienceworld.wolfram.com/physics/ParallelAxisTheorem.html
+  - https://www.britannica.com/science/parallel-axis-theorem
+  - https://www.khanacademy.org/science/physics/torque-angular-momentum/rotational-inertia/v/moment-of-inertia
+description: "The parallel axis theorem (Huygens-Steiner) relates the moment of inertia of a rigid body about any axis to its moment of inertia about a parallel axis through the center of mass, adding the body's mass times the squared perpendicular distance between the axes. It is used to compute the inertia of composite bodies from a catalog of standard shapes."
 equation: moment_of_inertia eq moment_of_inertia add mass mul length pow 2
 symbol_overrides:
+- moment_of_inertia: I
 - moment_of_inertia: I_{cm}
-- moment_of_inertia: ''
-- mass: ''
+- mass: m
 - length: d
 name_overrides:
-- moment_of_inertia: Moment of inertia about any axis
-- moment_of_inertia: Moment of inertia about center of mass
-- mass: ''
+- moment_of_inertia: '[moment_of_inertia] about any axis'
+- moment_of_inertia: '[moment_of_inertia] about center of mass'
+- mass: Mass of the body
 - length: Distance between axes

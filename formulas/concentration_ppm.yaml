@@ -2,12 +2,22 @@ name: Concentration in ppm
 id: concentration_ppm
 topic: solution_stoichiometry
 difficulty: 4
-equation: dimensionless eq (mass frac mass) mul (10 pow 6)
+links:
+- https://chem.libretexts.org/Courses/Los_Angeles_Southwest_College/LASC__Chemistry_60_-_Introduction_to_General_Chemistry/03%3A_Composition_of_Substances_and_Solutions/3.05%3A_Other_Units_for_Solution_Concentrations
+- https://pressbooks.online.ucf.edu/chemistryfundamentals/chapter/other-units-for-solution-concentrations/
+- https://chem-textbook.ucalgary.ca/version2/review-of-background-topics/measurements-and-data/measurements-in-chemistry/parts-per-million-ppm-and-parts-per-billion-ppb/
+- https://www.chemistrylearner.com/concentration-of-solution/parts-per-million
+description: 'Parts per million expresses trace-level concentrations: how many parts
+  of solute are present per million parts of solution, by mass. It is used for very
+  dilute mixtures such as pollutants in water or air, where molarity would be an unwieldy
+  tiny number. Both masses must be in the same units, and the mass of solution includes
+  the solute itself.'
+equation: dimensionless eq (mass frac mass) mul 10 pow 6
 symbol_overrides:
 - dimensionless: ppm
 - mass: m_{solute}
 - mass: m_{solution}
 name_overrides:
 - dimensionless: Parts per million
-- mass: Mass of solute
-- mass: Mass of solution
+- mass: '[mass] of solute'
+- mass: '[mass] of solution'

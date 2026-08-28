@@ -2,13 +2,15 @@ name: Internal energy of an ideal monatomic gas
 id: internal_energy_ideal_gas
 topic: ideal_gases
 difficulty: 7
-description: "Valid for an ideal monatomic gas; U = (3/2) n R T."
+links:
+  - https://en.wikipedia.org/wiki/Ideal_gas
+  - https://en.wikipedia.org/wiki/Internal_energy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_Kinetic_Theory_of_Gases
+  - https://www.britannica.com/science/internal-energy
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Thermodynamic_Systems/Internal_Energy
+description: "For an ideal monatomic gas, the internal energy depends only on temperature, scaling linearly with the amount of substance. It follows from the kinetic theory that each translational degree of freedom contributes (1/2)k_BT per molecule, giving (3/2)nRT for three translational modes. Polyatomic gases with rotational and vibrational modes require additional terms."
 equation: energy eq (amount mul (gas_constant) mul (temperature) mul 3) frac 2
 symbol_overrides:
 - energy: U
-- amount: ''
-- temperature: ''
 name_overrides:
 - energy: Internal [energy]
-- amount: ''
-- temperature: ''

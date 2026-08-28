@@ -2,7 +2,12 @@ name: Speed of light from permittivity and permeability
 id: speed_of_light_from_permittivity
 topic: electromagnetic_waves
 difficulty: 8
-description: "c = 1 / √(μ₀ ε₀); exact by SI definition."
-equation: speed_of_light eq sqrt (vacuum_permittivity mul vacuum_permeability ) 2
-  frac 1
-symbol_overrides: []
+links:
+  - https://en.wikipedia.org/wiki/Speed_of_light
+  - https://en.wikipedia.org/wiki/Vacuum_permittivity
+  - https://en.wikipedia.org/wiki/Vacuum_permeability
+  - https://en.wikipedia.org/wiki/Maxwell%27s_equations
+  - https://physics.info/speed-light/
+  - https://www.britannica.com/science/speed-of-light
+description: "The speed of light in vacuum can be derived from the electromagnetic constants through Maxwell's equations. This relationship, exact in SI units, was historically used to compute c before the metre was redefined in terms of the speed of light in 1983."
+equation: speed_of_light eq sqrt (vacuum_permittivity mul vacuum_permeability ) 2 frac 1

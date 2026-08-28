@@ -2,12 +2,14 @@ name: RL circuit time constant
 id: rl_time_constant
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/RL_circuit
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11%3A_Further_Applications_of_Magnetism/11.04%3A_RL_Circuits
+  - https://www.electronics-tutorials.ws/inductor/rl-circuits.html
+  - https://en.wikipedia.org/wiki/Time_constant
+description: "The time constant of an RL circuit characterizes how quickly the current reaches its steady-state value after a step change in voltage, governing the exponential transient response of the circuit. It equals the ratio of inductance to resistance."
 equation: time eq inductance frac resistance
 symbol_overrides:
 - time: τ
-- inductance: ''
-- resistance: ''
 name_overrides:
 - time: Time constant
-- inductance: ''
-- resistance: ''

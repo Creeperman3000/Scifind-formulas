@@ -2,13 +2,15 @@ name: Enthalpy change from heat at constant pressure
 id: enthalpy_from_heat
 topic: thermochemistry
 difficulty: 6
-description: "Valid for a constant-pressure process; ΔH = Q_p."
-equation: energy eq energy frac amount
+links:
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map:_Chemistry_-_The_Central_Science_(Brown_et_al.)/05:_Thermochemistry/5.03:_Enthalpy
+  - https://chem.libretexts.org/Courses/University_of_Toronto/Chemistry%3A_Physical_Principles/05%3A_Thermochemistry/5.04%3A_Enthalpy
+  - https://chem.academy/book/enthalpy.html
+description: "At constant pressure, and assuming only pressure–volume work is possible, the enthalpy change of a system equals the heat exchanged with its surroundings. This makes enthalpy experimentally convenient, since most laboratory reactions run in open containers at atmospheric pressure."
+equation: energy eq energy
 symbol_overrides:
 - energy: ΔH
-- energy: q
-- amount: ''
+- energy: q_p
 name_overrides:
-- energy: Molar enthalpy change
-- energy: '[Heat]'
-- amount: ''
+- energy: Enthalpy change
+- energy: Heat transferred at constant pressure

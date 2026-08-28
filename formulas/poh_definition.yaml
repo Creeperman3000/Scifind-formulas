@@ -2,10 +2,17 @@ name: Definition of pOH
 id: poh_definition
 topic: acids_and_bases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/PH#pOH
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/08%3A_Properties_of_Solutions/8.13%3A_pH_and_pOH
+  - https://www.britannica.com/science/pH
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/the-ph-scale
+  - https://www.thoughtco.com/definition-of-ph-and-ph-605890
+description: "pOH is defined as the negative base-10 logarithm of the hydroxide ion concentration in an aqueous solution. It is the complement of pH and is commonly used in basic (alkaline) solutions, where the hydroxide ion concentration is high."
 equation: ph eq drop sub log 10 concentration
 symbol_overrides:
 - ph: pOH
 - concentration: '[OH⁻]'
 name_overrides:
-- ph: '[pOH]'
+- ph: pOH
 - concentration: Hydroxide ion [concentration]

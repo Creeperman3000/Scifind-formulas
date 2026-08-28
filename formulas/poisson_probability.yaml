@@ -2,6 +2,13 @@ name: Poisson probability mass function
 id: poisson_probability
 topic: probability
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Poisson_distribution
+  - https://mathworld.wolfram.com/PoissonDistribution.html
+  - https://www.britannica.com/science/Poisson-distribution
+  - https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-mean-and-variance/a/poisson-distribution
+  - https://stattrek.com/probability-distributions/poisson
+description: "The Poisson probability mass function gives the probability of observing exactly k events in a fixed interval, given that the events occur independently at a constant average rate \u03bb. It applies to rare events and counts the number of occurrences in a defined region of time, space, or another domain."
 equation: dimensionless eq dimensionless pow (dimensionless) mul exp (drop dimensionless
   sub) frac factorial dimensionless
 symbol_overrides:
@@ -9,10 +16,7 @@ symbol_overrides:
 - dimensionless: λ
 - dimensionless: k
 - dimensionless: k
-- dimensionless: ''
 name_overrides:
 - dimensionless: Probability
-- dimensionless: Mean [rate]
+- dimensionless: Mean rate
 - dimensionless: Number of events
-- dimensionless: ''
-- dimensionless: ''

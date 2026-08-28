@@ -2,12 +2,20 @@ name: Moment of inertia of a thin hoop
 id: moi_thin_hoop
 topic: moment_of_inertia
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+- https://en.wikipedia.org/wiki/Moment_of_inertia
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10:_Rotation_of_Rigid_Bodies_About_a_Fixed_Axis
+- https://www.khanacademy.org/science/physics/torque-angular-momentum/rotational-inertia/v/rotational-inertia
+- https://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+description: The moment of inertia of a thin circular hoop (ring) of radius R and
+  mass m about an axis through its center and perpendicular to the plane of the hoop.
+  Because every element of mass lies at the same distance R from the axis, the moment
+  of inertia simply equals mR².
 equation: moment_of_inertia eq mass mul length pow 2
 symbol_overrides:
-- moment_of_inertia: ''
 - mass: M
 - length: R
 name_overrides:
-- moment_of_inertia: Moment of [inertia]
-- mass: ''
+- moment_of_inertia: '[moment_of_inertia]'
 - length: Radius

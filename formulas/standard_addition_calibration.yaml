@@ -2,6 +2,13 @@ name: Standard addition calibration
 id: standard_addition_calibration
 topic: analytical_chemistry
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Standard_addition
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/05%3A_Standardizing_Analytical_Methods/5.04%3A_Standard_Addition_Method
+  - https://www.khanacademy.org/science/chemistry/chem-analysis-topic
+  - https://byjus.com/chemistry/standard-addition-method/
+  - https://pubs.acs.org/doi/abs/10.1021/ed057p703
+description: "The standard addition (known addition) method determines an unknown analyte concentration by spiking the sample with a known quantity of the analyte. For a single-point addition, the unknown concentration is recovered from the ratio of the unspiked signal, the spiked signal, and the concentration of the standard added. The technique minimizes matrix-effect bias by ensuring the calibration standards experience the same matrix as the unknown."
 equation: dimensionless eq dimensionless mul (dimensionless) frac dimensionless sub
   dimensionless
 symbol_overrides:

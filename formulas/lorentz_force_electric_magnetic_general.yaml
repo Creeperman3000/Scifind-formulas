@@ -2,16 +2,27 @@ name: General Lorentz force (electric and magnetic)
 id: lorentz_force_electric_magnetic_general
 topic: magnetism
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/Lorentz_force
+- https://en.wikipedia.org/wiki/Maxwell%27s_equations
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11:_Magnetic_Forces_and_Fields
+- https://www.britannica.com/science/Lorentz-force
+- https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields-and-the-magnetic-force-on-a-moving-charge
+description: The complete electromagnetic force on a point charge q moving with velocity
+  v through electric field E and magnetic field B, given by the Lorentz force law.
+  The electric component accelerates the particle along E, while the magnetic component
+  qv×B deflects it perpendicular to both v and B. Together with Maxwell's equations
+  it forms the foundation of classical electrodynamics.
 equation: force eq charge mul electric_field_strength add velocity times magnetic_flux_density
-name_overrides:
-- force: Lorentz [force]
-- charge: ''
-- electric_field_strength: ''
-- velocity: ''
-- magnetic_flux_density: ''
 symbol_overrides:
-- force: ''
-- charge: ''
-- electric_field_strength: ''
-- velocity: ''
-- magnetic_flux_density: ''
+- force: \mathbf{F}
+- charge: q
+- electric_field_strength: \mathbf{E}
+- velocity: \mathbf{v}
+- magnetic_flux_density: \mathbf{B}
+name_overrides:
+- force: Lorentz force
+- charge: Electric charge
+- electric_field_strength: Electric field
+- velocity: Particle velocity
+- magnetic_flux_density: Magnetic flux density

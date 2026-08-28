@@ -2,13 +2,15 @@ name: Capacitor energy from voltage and charge
 id: capacitor_energy_voltage_charge
 topic: capacitance
 difficulty: 6
-description: "Capacitor energy stored; U = ½ Q V."
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/8-3-energy-stored-in-a-capacitor
+  - https://openstax.org/books/college-physics-ap-courses-2e/pages/19-7-energy-stored-in-capacitors
+  - https://hyperphysics.gsu.edu/hbase/electric/capeng2.html
+description: "This form of the stored-energy relation uses both the charge held on the plates and the final voltage between them. The energy is half of their product because the capacitor's voltage builds up gradually from zero during charging, so each increment of charge is moved through a lower potential difference than the last. It is useful when a capacitor's charge and operating voltage are both known."
 equation: energy eq charge mul (electric_potential) frac 2
 symbol_overrides:
 - energy: U
-- charge: ''
-- electric_potential: ''
 name_overrides:
 - energy: Stored [energy]
-- charge: '[Charge]'
+- charge: '[charge|Charge]'
 - electric_potential: Voltage

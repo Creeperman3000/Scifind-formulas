@@ -2,12 +2,19 @@ name: Equivalent resistance of n equal series resistors
 id: series_resistors_n_equal
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Resistance
+  - https://www.physicsclassroom.com/class/circuits/Lesson-4/Combination-Circuits
+  - https://www.electronics-tutorials.ws/resistor/res_3.html
+  - https://www.britannica.com/science/series-resistance
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/component-failure-analysis/
+description: "For n identical resistors of value R connected in series, the equivalent resistance is the count multiplied by the individual resistance. This simplification is a special case of the general series rule, useful for designing matched networks, voltage dividers, and identical current-limiting strings."
 equation: resistance eq dimensionless mul resistance
 symbol_overrides:
-- resistance: R_{eq}
-- dimensionless: n
-- resistance: ''
+  - resistance: R_{eq}
+  - dimensionless: n
+  - resistance: R
 name_overrides:
-- resistance: Equivalent [resistance]
-- dimensionless: Number of resistors
-- resistance: Each [resistance]
+  - resistance: Equivalent [resistance]
+  - dimensionless: Number of resistors
+  - resistance: Each [resistance]

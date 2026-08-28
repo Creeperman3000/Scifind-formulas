@@ -2,10 +2,17 @@ name: Critical Reynolds number for transition to turbulence
 id: reynolds_number_critical_flow
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Reynolds_number
+  - https://en.wikipedia.org/wiki/Laminar%E2%80%93turbulent_transition
+  - https://www.britannica.com/science/Reynolds-number
+  - https://eng.libretexts.org/Bookshelves/Chemical_Engineering/Fluid_Mechanics_(Barmeier)/08%3A_Flow_in_Pipes/8.3%3A_Flow_Transitions_in_Pipes
+  - https://byjus.com/physics/reynolds-number/
+description: "The critical (or transitional) Reynolds number marks the threshold above which pipe flow becomes unstable and transitions from laminar to turbulent. The value is geometry-dependent, typically Re_D ≈ 2300 for flow in a circular pipe, and is widely used to predict flow regime in engineering design."
 equation: reynolds_number gt reynolds_number
 symbol_overrides:
 - reynolds_number: Re
 - reynolds_number: Re_c
 name_overrides:
-- reynolds_number: Critical [Reynolds number]
-- reynolds_number: ''
+- reynolds_number: '[reynolds_number]'
+- reynolds_number: Critical [reynolds_number]

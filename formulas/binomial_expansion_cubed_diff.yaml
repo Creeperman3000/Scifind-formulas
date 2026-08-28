@@ -2,17 +2,27 @@ name: Binomial Expansion (Cubed Difference)
 id: binomial_expansion_cubed_diff
 topic: polynomials
 difficulty: 5
-equation: dimensionless dimensionless sub pow 3 eq (dimensionless pow 3) sub ((dimensionless
-  pow 2) mul (dimensionless) mul 3) add (dimensionless mul (dimensionless pow 2) mul
+links:
+- https://www.cuemath.com/a-b-cube-formula
+- https://proofwiki.org/wiki/Cube_of_Difference
+- https://onlinemschool.com/math/library/multiplication_formulas/dif3/
+- https://www.math-only-math.com/cube-of-the-difference-of-two-binomials.html
+description: This algebraic identity, also known as the cube of a difference, expands
+  the cube of a two-term binomial where one term is subtracted from the other. It
+  is a special case of the binomial theorem with alternating signs and is used to
+  expand expressions, factor cubics, and simplify mental arithmetic such as cubing
+  numbers near round values.
+equation: (dimensionless sub dimensionless) pow 3 eq (dimensionless pow 3) sub ((dimensionless
+  pow 2) mul dimensionless mul 3) add (dimensionless mul (dimensionless pow 2) mul
   3) sub dimensionless pow 3
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
-- dimensionless: b
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
+- dimensionless: b
 - dimensionless: b
 name_overrides:
 - dimensionless: a

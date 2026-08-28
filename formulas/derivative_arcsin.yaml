@@ -2,10 +2,22 @@ name: Derivative of arcsine
 id: derivative_arcsin
 topic: derivatives
 difficulty: 7
-equation: rmd (angle asin ) eq 1 frac sqrt (1 sub angle pow 2 ) 2
+links:
+- https://proofwiki.org/wiki/Derivative_of_Arcsine_Function/Proof
+- https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/857933bc947b1ed184c79a5710fc86bc_MIT18_01SCF10_Ses15c.pdf
+- https://math.libretexts.org/Courses/Monroe_Community_College/MTH_211_Calculus_II/Calculus_I_Review/Derivatives_of_the_Inverse_Trigonometric_Functions
+- https://www.whitman.edu/mathematics/calculus_late_online/section09.05.html
+description: Gives the slope of the inverse sine function on its principal branch,
+  where the graph rises steeply near the endpoints. The slope is always positive and
+  grows without bound as the input approaches -1 or 1; the formula holds for inputs
+  strictly between those limits and follows from implicit differentiation of the sine
+  relation.
+equation: frac rmd asin angle rmd angle eq frac 1 sqrt (1 sub angle pow 2 ) 2
 symbol_overrides:
 - angle: x
 - angle: x
+- angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

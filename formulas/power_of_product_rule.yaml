@@ -2,21 +2,27 @@ name: Power of a product
 id: power_of_product_rule
 topic: exponents
 difficulty: 2
-equation: (dimensionless mul dimensionless ) pow dimensionless eq dimensionless pow
-  (dimensionless) mul dimensionless pow dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Exponentiation
+  - https://en.wikipedia.org/wiki/Exponent
+  - https://math.libretexts.org/Bookshelves/Algebra/Elementary_Algebra_(Wade)/02%3A_Introduction_to_Algebra/2.04%3A_Exponents_and_Scientific_Notation
+  - https://www.khanacademy.org/math/pre-algebra/pre-algebra-exponents-radicals/pre-algebra-exponents/v/exponent-properties-involving-products
+  - https://mathworld.wolfram.com/ExponentLaws.html
+description: "The power of a product rule states that raising a product to an exponent is equivalent to raising each factor to that exponent and then multiplying the results. This identity, together with the corresponding rule for quotients, follows from the repeated-multiplication definition of positive integer exponents."
+equation: (dimensionless mul dimensionless) pow dimensionless eq dimensionless pow dimensionless mul dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: a
-- dimensionless: b
-- dimensionless: n
-- dimensionless: a
-- dimensionless: n
-- dimensionless: b
-- dimensionless: n
+  - dimensionless: a
+  - dimensionless: b
+  - dimensionless: n
+  - dimensionless: a
+  - dimensionless: n
+  - dimensionless: b
+  - dimensionless: n
 name_overrides:
-- dimensionless: First factor
-- dimensionless: Second factor
-- dimensionless: Exponent
-- dimensionless: First factor
-- dimensionless: Exponent
-- dimensionless: Second factor
-- dimensionless: Exponent
+  - dimensionless: First factor
+  - dimensionless: Second factor
+  - dimensionless: Exponent
+  - dimensionless: First factor
+  - dimensionless: Exponent
+  - dimensionless: Second factor
+  - dimensionless: Exponent

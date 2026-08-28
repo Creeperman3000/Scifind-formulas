@@ -2,15 +2,19 @@ name: Magnetic field inside an ideal solenoid
 id: magnetic_field_solenoid_ideal
 topic: magnetism
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Solenoid
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.07%3A_Solenoids_and_Toroids
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html
+  - https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+description: "Same as the standard solenoid-field expression but written using the total number of turns N and the solenoid length L instead of the turn density, so the turns-per-unit-length factor n becomes N/L. Useful when N and L are the directly measured quantities."
 equation: magnetic_flux_density eq vacuum_permeability mul dimensionless frac (length)
   mul current
 symbol_overrides:
-- magnetic_flux_density: ''
 - dimensionless: N
 - length: L
-- current: ''
 name_overrides:
-- magnetic_flux_density: Magnetic [field]
+- magnetic_flux_density: Magnetic field
 - dimensionless: Total turns
 - length: Solenoid [length]
-- current: '[Current]'
+- current: '[current|Current]'

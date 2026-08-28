@@ -2,14 +2,11 @@ name: Ideal gas law (molecular form)
 id: ideal_gas_law_molecular
 topic: ideal_gases
 difficulty: 6
-equation: pressure mul volume eq amount mul (boltzmann_constant) mul temperature
-symbol_overrides:
-- pressure: ''
-- volume: ''
-- amount: ''
-- temperature: ''
-name_overrides:
-- pressure: ''
-- volume: ''
-- amount: ''
-- temperature: ''
+links:
+  - https://en.wikipedia.org/wiki/Ideal_gas_law
+  - https://en.wikipedia.org/wiki/Boltzmann_constant
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/The_Ideal_Gas_Law
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book:_Thermodynamics_(Tatum)/04:_Ideal_Gases
+  - https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/v/ideal-gas-law-equation
+description: "The molecular form of the ideal gas law expresses the relationship between macroscopic state variables in terms of the number of gas particles and the Boltzmann constant rather than the moles and gas constant. It is equivalent to the standard form since nR = Nk_B, and is often used in statistical mechanics."
+equation: pressure mul volume eq amount mul boltzmann_constant mul temperature

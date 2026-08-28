@@ -2,12 +2,21 @@ name: Parts per billion
 id: parts_per_formula
 topic: solution_stoichiometry
 difficulty: 4
-equation: dimensionless eq (mass frac mass) mul (10 pow 9)
+links:
+- https://en.wikipedia.org/wiki/Parts-per_notation
+- https://www.bipm.org/en/publications/si-brochure
+- https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Quantitative_Analysis/04%3A_General_Aspects_of_Quantitative_Analysis/4.3%3A_Parts_per_Million_and_Other_Parts_per_Notation
+- https://www.nist.gov/pml/special-publication-811
+description: Parts per billion (ppb) is a dimensionless quantity expressing a mass
+  (or mole) ratio as a fraction of 10⁻⁹. It is commonly used to report trace concentrations
+  of dissolved substances, pollutants, or impurities, with the ratio of solute mass
+  to total solution mass multiplied by 10⁹.
+equation: dimensionless eq (mass frac mass) mul 10 pow 9
 symbol_overrides:
 - dimensionless: ppb
 - mass: m_{solute}
 - mass: m_{solution}
 name_overrides:
 - dimensionless: Parts per billion
-- mass: Mass of solute
-- mass: Mass of solution
+- mass: '[mass] of solute'
+- mass: '[mass] of solution'

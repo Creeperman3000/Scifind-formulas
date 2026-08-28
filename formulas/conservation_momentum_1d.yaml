@@ -2,8 +2,13 @@ name: Conservation of momentum in one dimension
 id: conservation_momentum_1d
 topic: linear_momentum
 difficulty: 5
-equation: mass mul (velocity) add mass mul velocity eq mass mul (velocity) add mass
-  mul velocity
+links:
+  - https://openstax.org/books/college-physics/pages/8-4-elastic-collisions-in-one-dimension
+  - http://farside.ph.utexas.edu/teaching/301/lectures/node76.html
+  - http://www.studyphysics.ca/2007/30/05_momentum/03_1d.pdf
+  - https://ocw.mit.edu/courses/16-07-dynamics-fall-2009/a867999737497c79fd8ffe97641c503f_MIT16_07F09_Lec09.pdf
+description: "In an isolated system of two colliding bodies moving along one line, the total linear momentum before the collision equals the total after, even though each body's momentum generally changes. This holds for elastic and inelastic collisions alike and follows from Newton's third law when no net external force acts. Velocities are signed, so direction is handled by sign convention."
+equation: mass mul (velocity) add mass mul velocity eq mass mul (velocity) add mass mul velocity
 symbol_overrides:
 - mass: m_1
 - velocity: v_1
@@ -14,11 +19,11 @@ symbol_overrides:
 - mass: m_2
 - velocity: v'_2
 name_overrides:
-- mass: Mass of object 1
+- mass: '[mass] of object 1'
 - velocity: Initial [velocity] of object 1
-- mass: Mass of object 2
+- mass: '[mass] of object 2'
 - velocity: Initial [velocity] of object 2
-- mass: Mass of object 1
+- mass: '[mass] of object 1'
 - velocity: Final [velocity] of object 1
-- mass: Mass of object 2
+- mass: '[mass] of object 2'
 - velocity: Final [velocity] of object 2

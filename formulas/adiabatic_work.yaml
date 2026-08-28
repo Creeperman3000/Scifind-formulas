@@ -2,18 +2,24 @@ name: Adiabatic work of an ideal gas
 id: adiabatic_work
 topic: heat
 difficulty: 8
-description: "Valid for an ideal gas undergoing a reversible adiabatic process; W = (P_i V_i − P_f V_f) / (γ − 1)."
-equation: energy eq (pressure mul (volume) sub pressure mul volume ) frac dimensionless
+links:
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/08%3A_Heat_Capacity_and_the_Expansion_of_Gases/8.04%3A_Reversible_Adiabatic_Expansion_of_an_Ideal_Gas
+- https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas
+- https://www.vedantu.com/jee-main/physics-work-done-during-adiabatic-expansion
+description: Gives the work done by an ideal gas during a reversible adiabatic process,
+  obtained by integrating the adiabatic pressure-volume condition. Because no heat
+  is exchanged, this work equals the decrease in the gas's internal energy; it is
+  positive for expansion and negative for compression.
+equation: energy eq ((pressure mul volume) sub pressure mul volume ) frac dimensionless
   sub 1
 symbol_overrides:
-- energy: ''
 - pressure: P_1
 - volume: V_1
 - pressure: P_2
 - volume: V_2
-- dimensionless: γ
+- dimensionless: \gamma
 name_overrides:
-- energy: Adiabatic [work]
+- energy: Adiabatic work
 - pressure: Initial [pressure]
 - volume: Initial [volume]
 - pressure: Final [pressure]

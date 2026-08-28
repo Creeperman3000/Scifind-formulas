@@ -2,17 +2,23 @@ name: Radiative heat transfer (Stefan-Boltzmann)
 id: heat_transfer_radiation_stefan_boltzmann
 topic: heat_transfer
 difficulty: 7
-equation: power eq dimensionless mul (dimensionless) mul (area) mul temperature pow
-  4
+links:
+- https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law
+- https://en.wikipedia.org/wiki/Thermal_radiation
+- https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_constant
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_%26_Statistical_Mechanics/Heat_and_Thermodynamics_(Cengel_and_Boles)/12%3A_Radiation_Heat_Transfer
+- https://www.khanacademy.org/science/physics/quantum-physics/photons/v/deriving-the-stefan-boltzmann-law
+description: The Stefan-Boltzmann law gives the thermal radiation power emitted by
+  a surface of area A and emissivity ε as the product of ε, the Stefan-Boltzmann constant
+  σ, the area, and the absolute temperature raised to the fourth power. It applies
+  to grey bodies in local thermodynamic equilibrium, where emissivity captures the
+  deviation from ideal black-body behavior.
+equation: power eq dimensionless mul dimensionless mul area mul temperature pow 4
 symbol_overrides:
-- power: P
-- dimensionless: eps
-- dimensionless: sigma
-- area: A
-- temperature: T
+  dimensionless: \sigma
+  area: A
 name_overrides:
-- power: Power radiated
-- dimensionless: Emissivity
-- dimensionless: Stefan-Boltzmann
-- area: Area
-- temperature: Temperature
+  power: '[power] radiated'
+  dimensionless: Stefan-Boltzmann [dimensionless]
+  area: Surface [area]
+  temperature: Absolute [temperature]

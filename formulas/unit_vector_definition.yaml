@@ -2,11 +2,16 @@ name: Unit vector definition
 id: unit_vector_definition
 topic: linear_algebra
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Unit_vector
+  - https://en.wikipedia.org/wiki/Vector_space
+  - https://mathworld.wolfram.com/UnitVector.html
+description: "A unit vector in a normed vector space is a vector of length one, conventionally written with a circumflex (hat). Every non-zero vector can be normalized by dividing it by its own magnitude, and unit vectors are widely used to express direction and to form orthonormal bases."
 equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: \hat{u}
-- dimensionless: v
-- dimensionless: '|v|'
+- dimensionless: \mathbf{v}
+- dimensionless: '||\mathbf{v}||'
 name_overrides:
 - dimensionless: Unit vector
 - dimensionless: Vector

@@ -2,11 +2,20 @@ name: Nuclear magneton
 id: nuclear_magneton_definition
 topic: nuclear_physics
 difficulty: 9
-equation: torque eq elementary_charge mul (planck_constant frac (2 mul pi )) frac
-  (2 mul mass )
+links:
+- https://en.wikipedia.org/wiki/Nuclear_magneton
+- https://physics.nist.gov/cgi-bin/cuu/Value?mun
+- https://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/nucmag.html
+- https://www.britannica.com/science/nuclear-magneton
+description: The nuclear magneton is the natural unit of magnetic dipole moment for
+  heavy particles such as nucleons and nuclei, defined from the elementary charge,
+  the reduced Planck constant, and the proton rest mass. It serves the same role for
+  nuclear magnetic moments that the Bohr magneton serves for atomic magnetic moments.
+equation: torque eq elementary_charge mul (planck_constant frac 2 mul pi ) frac 2
+  mul mass
 symbol_overrides:
-- torque: μ_N
+- torque: \mu_N
 - mass: m_p
 name_overrides:
-- torque: Nuclear [magneton]
+- torque: Nuclear magneton
 - mass: Proton [mass]

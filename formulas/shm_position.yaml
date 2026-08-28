@@ -2,14 +2,19 @@ name: Position in simple harmonic motion
 id: shm_position
 topic: harmonic_motion
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Simple_harmonic_motion#Dynamics
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.02%3A_Simple_Harmonic_Motion
+  - https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/introduction-to-harmonic-motion
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/shm.html
+  - https://www.britannica.com/science/simple-harmonic-motion
+description: "The instantaneous position of an undamped simple harmonic oscillator, expressed as a cosine of the angular frequency times elapsed time. With the standard choice of zero phase, the oscillator starts at maximum displacement; an arbitrary initial phase can be absorbed into the time origin for any equivalent sinusoidal description."
 equation: length eq length mul cos (angular_velocity mul time )
 symbol_overrides:
-- length: ''
-- length: A
-- angular_velocity: ω
-- time: ''
+  - length: ''
+  - length: A
+  - angular_velocity: ω
 name_overrides:
-- length: ''
-- length: Amplitude
-- angular_velocity: Angular frequency
-- time: ''
+  - length: ''
+  - length: Amplitude
+  - angular_velocity: Angular frequency

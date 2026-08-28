@@ -2,10 +2,20 @@ name: Fahrenheit to Celsius conversion
 id: temperature_fahrenheit_celsius
 topic: temperature
 difficulty: 2
-equation: temperature eq (temperature sub 32) mul (5 frac 9)
+links:
+- https://en.wikipedia.org/wiki/Conversion_of_scales_of_temperature
+- https://en.wikipedia.org/wiki/Fahrenheit
+- https://en.wikipedia.org/wiki/Celsius
+- https://www.britannica.com/science/Fahrenheit-temperature-scale
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/02%3A_Atoms_Molecules_and_Chemical_Reactions/2.08%3A_Temperature
+description: Linear conversion between temperatures expressed on the Fahrenheit and
+  Celsius scales. The Fahrenheit value is first shifted by −32 to align the two scales'
+  zero points, then scaled by 5/9 to convert from Fahrenheit-sized to Celsius-sized
+  degrees.
+equation: temperature eq (temperature sub 32) mul 5 frac 9
 symbol_overrides:
 - temperature: °C
 - temperature: °F
 name_overrides:
-- temperature: Temperature in [Celsius]
-- temperature: Temperature in [Fahrenheit]
+- temperature: '[temperature] in Celsius'
+- temperature: '[temperature] in Fahrenheit'

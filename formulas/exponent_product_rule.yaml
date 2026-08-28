@@ -2,6 +2,11 @@ name: Exponent product rule
 id: exponent_product_rule
 topic: exponents
 difficulty: 2
+links:
+  - https://math.libretexts.org/Bookshelves/Applied_Mathematics/Calculus_for_Business_and_Social_Sciences_Corequisite_Workbook_(Dominguez_Martinez_and_Saykali)/05%3A_Exponents_and_Exponent_Rules/5.02%3A_The_Product_Rule_for_Exponents
+  - https://www.cuemath.com/numbers/multiplying-exponents/
+  - https://www.mathdoubts.com/indices-product-rule-same-base/
+description: "Also called the product law of exponents, this rule states that multiplying two powers that share the same base gives a single power whose exponent is the sum of the two exponents. It follows directly from counting factors of the base and is one of the fundamental laws used to simplify algebraic expressions."
 equation: dimensionless pow (dimensionless) mul dimensionless pow dimensionless eq
   dimensionless pow dimensionless add dimensionless
 symbol_overrides:
@@ -13,10 +18,10 @@ symbol_overrides:
 - dimensionless: m
 - dimensionless: n
 name_overrides:
-- dimensionless: a
+- dimensionless: Base a
 - dimensionless: Exponent m
-- dimensionless: a
+- dimensionless: Base a
 - dimensionless: Exponent n
-- dimensionless: a
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Base a
+- ""
+- ""

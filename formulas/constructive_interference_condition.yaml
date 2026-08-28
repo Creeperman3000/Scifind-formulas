@@ -2,6 +2,12 @@ name: Constructive interference condition
 id: constructive_interference_condition
 topic: wave_interference
 difficulty: 7
+links:
+  - https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference
+  - https://openstax.org/books/college-physics-2e/pages/27-3-youngs-double-slit-experiment
+  - https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/c1ef2e99446d7c4255e32752af8f6d26_ch14_inter_diffr.pdf
+  - https://lipa.physics.oregonstate.edu/sec_phase_diff.html
+description: "Two waves that start out in phase reinforce each other — producing a maximum or bright fringe — whenever the extra distance traveled by one wave is a whole number of wavelengths. This condition locates the maxima in interference patterns such as Young's double-slit experiment, thin films, and diffraction gratings. The integer n is called the order number; it assumes coherent, in-phase sources."
 equation: length eq dimensionless mul length
 symbol_overrides:
 - length: ΔL

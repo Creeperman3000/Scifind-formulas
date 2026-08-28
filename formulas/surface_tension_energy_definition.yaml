@@ -2,12 +2,19 @@ name: Surface tension from surface energy
 id: surface_tension_energy_definition
 topic: surface_tension
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Surface_tension
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Liquids/Surface_Tension
+  - https://www.britannica.com/science/surface-tension
+  - https://en.wikipedia.org/wiki/Surface_energy
+  - https://physics.info/surface-tension/
+description: "Surface tension can be defined as the change in surface free energy per unit change in surface area of the liquid interface. This energy-based definition is equivalent to the force-per-length definition through dimensional analysis."
 equation: surface_tension eq energy frac area
 symbol_overrides:
 - surface_tension: γ
 - energy: ΔE
 - area: ΔA
 name_overrides:
-- surface_tension: Surface [tension]
+- surface_tension: '[surface_tension]'
 - energy: Change in surface [energy]
 - area: Change in [area]

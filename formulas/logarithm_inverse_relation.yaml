@@ -2,6 +2,13 @@ name: Logarithm as inverse of exponent
 id: logarithm_inverse_relation
 topic: logarithms
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Logarithm
+  - https://en.wikipedia.org/wiki/Exponential_function
+  - https://en.wikipedia.org/wiki/Natural_logarithm
+  - https://www.khanacademy.org/math/algebra2/x2ec2f6476b63c4d6:logs/x2ec2f6476b63c4d6:log-introduction/v/introduction-to-logarithms
+  - https://mathworld.wolfram.com/Logarithm.html
+description: "The logarithm is the inverse function of exponentiation: if x equals base a raised to the power y, then y is the base-a logarithm of x. This relation defines the logarithm and underlies the conversion between multiplicative and additive scales."
 equation: log dimensionless dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: a

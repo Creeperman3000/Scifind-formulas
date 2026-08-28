@@ -2,18 +2,24 @@ name: Doppler effect for sound
 id: doppler_effect_sound
 topic: mechanical_waves
 difficulty: 6
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_%28OpenStax%29/17%3A_Sound/17.08%3A_The_Doppler_Effect
+  - https://en.wikipedia.org/wiki/Doppler_effect
+  - https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_7C_-_General_Physics/8%3A_Waves/8.4%3A_Doppler_Effect
+  - http://labman.phys.utk.edu/phys221core/modules/m12/doppler_effect.html
+  - https://physicsfundamentals.uk/learn/doppler-effect
+description: "General form of the Doppler effect for sound, covering a source and an observer both moving along the line joining them. Signs are chosen by direction of motion: motion toward each other raises the observed pitch, motion apart lowers it. It assumes non-relativistic speeds relative to the wave speed in the medium and breaks down as the source speed approaches the speed of sound."
 equation: frequency eq frequency mul (velocity add velocity ) frac velocity sub velocity
 symbol_overrides:
-- frequency: f_{prime}
-- frequency: f
-- velocity: v
+- frequency: f'
+- velocity: ''
 - velocity: v_{obs}
-- velocity: v
+- velocity: ''
 - velocity: v_s
 name_overrides:
-- frequency: Observed frequency
-- frequency: Source frequency
+- frequency: Observed [frequency]
+- frequency: Source [frequency]
 - velocity: Wave speed
-- velocity: Observer velocity
+- velocity: Observer [velocity]
 - velocity: Wave speed
-- velocity: Source velocity
+- velocity: Source [velocity]

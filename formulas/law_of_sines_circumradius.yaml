@@ -2,8 +2,19 @@ name: Law of sines with circumradius
 id: law_of_sines_circumradius
 topic: laws_of_sines_and_cosines
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Law_of_sines
+- https://mathworld.wolfram.com/LawofSines.html
+- https://www.cuemath.com/geometry/law-of-sines/
+- https://www.britannica.com/science/law-of-sines
+- https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(Lumen)/09%3A_Additional_Topics/9.01%3A_Law_of_Sines
+description: The law of sines states that in any triangle the ratio of each side to
+  the sine of its opposite angle is constant, and this common value equals the diameter
+  of the triangle's circumscribed circle. It is used to compute unknown sides or angles
+  in triangulation and surveying problems, with an ambiguous case when two sides and
+  a non-included angle are given.
 equation: length frac sin angle eq length frac sin angle eq length frac sin angle
-  eq (2 mul length )
+  eq 2 mul length
 symbol_overrides:
 - length: a
 - angle: A

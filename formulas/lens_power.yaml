@@ -2,10 +2,17 @@ name: Lens power
 id: lens_power
 topic: lenses
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Optical_power
+  - https://en.wikipedia.org/wiki/Dioptre
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation
+  - https://www.britannica.com/science/optical-power
+  - https://www.khanacademy.org/science/physics/geometric-optics/lenses/v/convex-lenses
+description: "Lens power (also called optical power or dioptric power) is the degree to which a lens converges or diverges light. It is the reciprocal of the focal length, measured in dioptres when the focal length is in metres, and is positive for converging lenses and negative for diverging lenses."
 equation: wavenumber eq 1 frac length
 symbol_overrides:
 - wavenumber: P
 - length: f
 name_overrides:
 - wavenumber: Optical [power]
-- length: Focal length
+- length: Focal [length]

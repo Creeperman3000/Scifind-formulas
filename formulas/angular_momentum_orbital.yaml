@@ -2,14 +2,15 @@ name: Orbital angular momentum
 id: angular_momentum_orbital
 topic: angular_momentum
 difficulty: 8
+links:
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/amom.html
+  - https://brilliant.org/wiki/characteristics-of-circular-orbits/
+  - https://www.physicsoftheuniverse.com/calculator/angular_momentum.html
+description: "The orbital angular momentum of a body circling a central point is the rotational analogue of linear momentum, obtained from mass, orbital speed, and orbit radius. For circular orbits it stays constant because gravity exerts no torque — the basis of Kepler's second law and of analyses of satellites, planets, and orbiting electrons."
 equation: angular_momentum eq mass mul velocity mul length
 symbol_overrides:
-- angular_momentum: ''
-- mass: ''
-- velocity: ''
 - length: r
 name_overrides:
-- angular_momentum: Orbital [angular momentum]
-- mass: ''
+- angular_momentum: Orbital [angular_momentum]
 - velocity: Orbital [velocity]
 - length: Orbit radius

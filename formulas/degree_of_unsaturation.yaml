@@ -2,9 +2,13 @@ name: Degree of unsaturation
 id: degree_of_unsaturation
 topic: organic_chemistry
 difficulty: 7
-description: "Traditional degree of unsaturation (DU); omits halogens. The modern index of hydrogen deficiency (IHD/DBE) includes halogens: (2C + 2 + N − H − X)/2."
-equation: dimensionless eq (((dimensionless mul 2) add (dimensionless) add 2) sub
-  dimensionless ) frac 2
+links:
+  - https://en.wikipedia.org/wiki/Degree_of_unsaturation
+  - https://chem.libretexts.org/Courses/can/CHEM_231%3A_Organic_Chemistry_I_Textbook/07%3A_Alkenes-_Structure_and_Reactivity/7.02%3A_Calculating_Degree_of_Unsaturation
+  - https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_I_(Liu)/02%3A_Fundamental_of_Organic_Structures/2.05%3A_Degree_of_Unsaturation_Index_of_Hydrogen_Deficiency
+  - https://www.chemistrysteps.com/degree-of-unsaturation/
+description: "Counts the total number of rings plus pi bonds in an organic molecule from its molecular formula, comparing the hydrogen count against a fully saturated acyclic reference. Each ring or double bond contributes one degree and each triple bond two; oxygen and sulfur are ignored. Halogens are omitted here; subtracting them too gives the modern index of hydrogen deficiency."
+equation: dimensionless eq (((dimensionless mul 2) add dimensionless add 2) sub dimensionless) frac 2
 symbol_overrides:
 - dimensionless: DU
 - dimensionless: C

@@ -2,6 +2,12 @@ name: Destructive interference condition
 id: destructive_interference_condition
 topic: wave_interference
 difficulty: 7
+links:
+  - https://openstax.org/books/university-physics-volume-3/pages/3-2-mathematics-of-interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference/3.02%3A_Young's_Double-Slit_Interference
+  - https://www.physicsclassroom.com/class/light/lesson-3/the-path-difference
+  - http://physics.bu.edu/~redner/211-sp06/class19/notes24_int2D.html
+description: "Destructive interference occurs when the path difference between two coherent, in-phase waves is a half-integer multiple of the wavelength, so a crest from one source arrives together with a trough from the other and the waves cancel. It is used to locate dark fringes or nodal lines in double-slit and two-source interference patterns."
 equation: length eq (dimensionless add 0.5) mul length
 symbol_overrides:
 - length: ΔL

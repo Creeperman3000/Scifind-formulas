@@ -2,14 +2,16 @@ name: Centripetal acceleration (centripetal_acceleration_formula)
 id: centripetal_acceleration_formula
 topic: circular_motion
 difficulty: 5
-equation: acceleration eq velocity mul (velocity) frac length
+links:
+  - https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration
+  - https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/02%3A_Mechanics_I_-_Motion_and_Forces/01%3A_Kinematics/1.09%3A_Centripetal_Acceleration
+  - https://www.engineeringtoolbox.com/centripetal-acceleration-d_1285.html
+description: "Gives the magnitude of the center-seeking acceleration of a body following a circular or curved path in terms of its tangential speed and the radius of curvature. The acceleration is perpendicular to the velocity and points toward the center, growing with the square of the speed and shrinking as the curve widens. Used to analyze vehicles on curves, rotating machinery, and orbital motion."
+equation: acceleration eq frac (velocity pow 2) length
 symbol_overrides:
 - acceleration: a_c
-- velocity: ''
-- velocity: ''
 - length: r
 name_overrides:
 - acceleration: Centripetal [acceleration]
 - velocity: Tangential [velocity]
-- velocity: ''
 - length: Radius of curvature

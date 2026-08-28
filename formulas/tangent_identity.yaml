@@ -2,12 +2,17 @@ name: Tangent identity
 id: tangent_identity
 topic: trigonometric_identities
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Trigonometric_functions
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+  - https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(OpenStax)/01%3A_Right_Triangles_and_An_Introduction_to_Trigonometry/1.03%3A_The_Other_Four_Trigonometric_Functions
+  - https://www.khanacademy.org/math/trigonometry/trig-function-graphs/trig-identities-review/v/trig-identities
+  - https://www.britannica.com/science/tangent-trigonometry
+description: "The tangent of an angle equals the sine of that angle divided by the cosine of the same angle, with cos(θ) ≠ 0. This quotient identity is fundamental and is consistent with the right-triangle definition since sin/cos = (opposite/hypotenuse)/(adjacent/hypotenuse) = opposite/adjacent."
 equation: dimensionless eq sin angle frac cos angle
 symbol_overrides:
 - dimensionless: tan(θ)
 - angle: θ
 - angle: θ
 name_overrides:
-- dimensionless: ''
 - angle: Angle
-- angle: ''

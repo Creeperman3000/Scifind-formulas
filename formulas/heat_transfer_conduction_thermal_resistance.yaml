@@ -2,21 +2,25 @@ name: Heat transfer by conduction (Fourier's law)
 id: heat_transfer_conduction_thermal_resistance
 topic: heat_transfer
 difficulty: 7
-equation: energy frac time eq (temperature sub temperature ) frac length frac thermal_conductivity
-  mul area
+links:
+  - https://en.wikipedia.org/wiki/Thermal_conduction
+  - https://en.wikipedia.org/wiki/Fourier%27s_law_of_heat_conduction
+  - https://en.wikipedia.org/wiki/Thermal_resistance
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/01%3A_Temperature_and_Heat
+  - https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-heat-transfer/v/thermal-conduction
+description: "Fourier's law gives the rate of conductive heat transfer through a homogeneous slab of thickness L and cross-sectional area A as the product of thermal conductivity, area, and the temperature difference across the slab, divided by the thickness. It applies to one-dimensional, steady-state conduction without internal heat generation and is the thermal analog of Ohm's law for an electrical resistor."
+equation: energy frac time eq thermal_conductivity mul area mul (temperature sub temperature) frac length
 symbol_overrides:
-- energy: ''
-- time: ''
-- temperature: T_1
-- temperature: T_2
-- length: L
-- thermal_conductivity: ''
-- area: ''
+  energy: Q
+  temperature: T_1
+  temperature: T_2
+  length: L
+  thermal_conductivity: k
+  area: A
 name_overrides:
-- energy: '[Heat] transferred'
-- time: ''
-- temperature: Hot [temperature]
-- temperature: Cold [temperature]
-- length: Thickness
-- thermal_conductivity: Thermal [conductivity]
-- area: Cross-sectional [area]
+  energy: Heat transferred per unit time
+  temperature: Hot [temperature]
+  temperature: Cold [temperature]
+  length: Thickness
+  thermal_conductivity: '[thermal_conductivity]'
+  area: Cross-sectional [area]

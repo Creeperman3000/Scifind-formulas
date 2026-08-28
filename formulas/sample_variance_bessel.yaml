@@ -2,17 +2,22 @@ name: Sample variance (Bessel's correction)
 id: sample_variance_bessel
 topic: statistics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Bessel%27s_correction
+  - https://en.wikipedia.org/wiki/Sample_variance
+  - https://mathworld.wolfram.com/BesselsCorrection.html
+  - https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review
+  - https://www.britannica.com/topic/sample-variance
+description: "The unbiased estimator of population variance from a sample, obtained by replacing the divisor n with n-1. It corrects the bias introduced because the sample mean is used in place of the unknown population mean, leaving n-1 independent residuals."
 equation: dimensionless eq 1 frac (dimensionless sub 1) mul sum drop drop (dimensionless
   sub dimensionless) pow 2
 symbol_overrides:
-- dimensionless: s²
-- dimensionless: n
+- dimensionless: s^2
 - dimensionless: n
 - dimensionless: x_i
-- dimensionless: x̄
+- dimensionless: \bar{x}
 name_overrides:
-- dimensionless: Sample [variance]
-- dimensionless: Sample size
+- dimensionless: Sample variance
 - dimensionless: Sample size
 - dimensionless: Sample value
 - dimensionless: Sample mean

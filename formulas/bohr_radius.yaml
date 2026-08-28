@@ -2,11 +2,20 @@ name: Bohr radius
 id: bohr_radius
 topic: atomic_physics
 difficulty: 8
-equation: length eq vacuum_permittivity mul (planck_constant pow 2) frac pi mul mass
-  mul elementary_charge pow 2
+links:
+- https://en.wikipedia.org/wiki/Bohr_radius
+- https://goldbook.iupac.org/terms/view/B00693
+- http://www.physicsbootcamp.org/sec-The-Bohr-Model.html
+- https://math.stackexchange.com/questions/3637424/bohr-radius-of-an-atom
+description: The Bohr radius is the characteristic length scale of the hydrogen atom,
+  equal to the most probable distance between the nucleus and the electron in the
+  ground state of Bohr's model. It serves as the atomic unit of length and fixes the
+  size scale of hydrogen-like atoms.
+equation: length eq vacuum_permittivity mul (planck_constant pow 2) frac ((pi mul
+  mass) mul elementary_charge pow 2 )
 symbol_overrides:
 - length: a_0
 - mass: m_e
 name_overrides:
-- length: Bohr [radius]
+- length: Bohr radius
 - mass: Electron [mass]

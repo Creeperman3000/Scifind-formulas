@@ -2,12 +2,14 @@ name: Ohm's law
 id: ohms_law
 topic: circuits
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Ohm%27s_law
+  - https://www.britannica.com/science/Ohms-law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_(OpenStax)/09%3A_Current_and_Resistance/9.3%3A_Resistivity_and_Resistance
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ohms-law
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/electric/ohmlaw.html
+description: "Ohm's law states that the voltage across a conductor is proportional to the current through it, with the resistance as the constant of proportionality. It applies to ohmic materials, where the resistance is independent of voltage or current; non-ohmic devices such as diodes and transistors do not obey it."
 equation: electric_potential eq current mul resistance
-symbol_overrides:
-- electric_potential: V
-- current: I
-- resistance: R
 name_overrides:
 - electric_potential: Voltage
 - current: Current
-- resistance: Resistance

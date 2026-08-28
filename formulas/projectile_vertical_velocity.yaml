@@ -2,16 +2,19 @@ name: Vertical velocity of a projectile
 id: projectile_vertical_velocity
 topic: projectile_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion
+  - https://www.britannica.com/science/projectile-motion
+  - https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/03%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion
+description: "In ideal projectile motion under constant gravitational acceleration, the vertical component of velocity decreases linearly with time because gravity acts only along the vertical direction. The horizontal component remains constant, while the vertical component determines when the projectile reaches its peak and returns to launch height."
 equation: velocity eq velocity mul (sin angle ) sub acceleration mul time
 symbol_overrides:
 - velocity: v_y
 - velocity: v_0
 - angle: θ
 - acceleration: g
-- time: ''
 name_overrides:
 - velocity: Vertical [velocity]
 - velocity: Initial [velocity]
 - angle: Launch angle
-- acceleration: ''
-- time: ''

@@ -2,10 +2,16 @@ name: Reflection Law
 id: reflection_law
 topic: reflection
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Specular_reflection
+  - https://en.wikipedia.org/wiki/Law_of_reflection
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01%3A_The_Nature_of_Light/1.03%3A_The_Law_of_Reflection
+  - https://www.britannica.com/science/law-of-reflection
+description: "The law of reflection states that the angle of incidence equals the angle of reflection, and that the incident ray, reflected ray, and surface normal all lie in the same plane. It applies to specular (mirror-like) reflection from smooth surfaces."
 equation: angle eq angle
 symbol_overrides:
-- angle: θ_r
-- angle: θ_i
+- angle: \theta_r
+- angle: \theta_i
 name_overrides:
 - angle: Angle of reflection
 - angle: Angle of incidence

@@ -2,13 +2,16 @@ name: Peak frequency of blackbody radiation
 id: blackbody_radiation_peak_frequency
 topic: quantum_mechanics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Wien%27s_displacement_law
+  - https://en.wikipedia.org/wiki/Planck%27s_law_of_black-body_radiation
+  - https://astronomy.stackexchange.com/questions/55956/wiens-law-gives-two-different-results
+  - http://math_research.uct.ac.za/~siphelo/admin/interferometry/1_Radio_Science/01_05_black_body_radiation.html
 description: "Valid for blackbody radiation; relates peak emission frequency to temperature."
-equation: frequency eq wavenumber mul (temperature) mul speed_of_light
+equation: frequency eq (wiens_constant mul temperature)
 symbol_overrides:
 - frequency: ν_{peak}
-- wavenumber: b'
-- temperature: ''
+- wiens_constant: b'
 name_overrides:
-- frequency: Peak frequency
-- wavenumber: Wien frequency displacement constant
-- temperature: ''
+- frequency: Peak [frequency]
+- wiens_constant: Wien frequency displacement constant

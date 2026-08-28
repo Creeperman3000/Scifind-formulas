@@ -2,11 +2,17 @@ name: Rayleigh criterion
 id: rayleigh_criterion
 topic: diffraction
 difficulty: 8
-description: "Diffraction-limited angular resolution for a circular aperture; valid for incoherent point sources."
+links:
+  - https://en.wikipedia.org/wiki/Angular_resolution#The_Rayleigh_criterion
+  - https://en.wikipedia.org/wiki/Diffraction-limited_system
+  - https://www.britannica.com/science/Rayleigh-criterion
+  - https://www.microscopyu.com/microscopy-basics/resolution
+  - https://www.edmundoptics.com/knowledge-center/application-notes/optics/the-rayleigh-criterion/
+description: "The Rayleigh criterion is the conventional diffraction-limited angular resolution for a circular aperture, defining the minimum angular separation at which two point sources can be distinguished. Two incoherent point sources are regarded as just resolved when the principal diffraction maximum of one image coincides with the first minimum of the Airy pattern of the other."
 equation: angle eq 1.22 mul (length) frac length
 symbol_overrides:
-- angle: θ_{min}
-- length: λ
+- angle: \theta_{min}
+- length: \lambda
 - length: D
 name_overrides:
 - angle: Minimum angular resolution

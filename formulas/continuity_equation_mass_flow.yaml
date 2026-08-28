@@ -2,6 +2,12 @@ name: Mass flow rate continuity
 id: continuity_equation_mass_flow
 topic: continuity_equation
 difficulty: 6
+links:
+  - https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/mass-flow-rate-equations/
+  - https://www.grc.nasa.gov/www/K-12/airplane/mflchk.html
+  - https://eng.libretexts.org/Bookshelves/Civil_Engineering/Fluid_Mechanics_(Bar-Meir)/11%3A_Compressible_Flow_One_Dimensional/11.4_Isentropic_Flow/11.4.5%3A_Mass_Flow_Rate_(Number)
+  - http://brennen.caltech.edu/fluidbook/basicfluiddynamics/compressibleflow/onedimensionalisentropicflow.pdf
+description: "The mass of fluid crossing any cross-section of a stream tube per unit time is the same at every station along a steady flow, a direct statement of conservation of mass. Unlike the volume-based form, this version keeps the density explicit, so it applies to compressible gases as well as liquids. It is fundamental to nozzle, turbine, and duct analysis in aerodynamics and engineering."
 equation: density mul (velocity) mul area eq density mul (velocity) mul area
 symbol_overrides:
 - density: ρ_1
@@ -11,9 +17,9 @@ symbol_overrides:
 - velocity: v_2
 - area: A_2
 name_overrides:
-- density: Density at point 1
-- velocity: Velocity at point 1
-- area: Area at point 1
-- density: Density at point 2
-- velocity: Velocity at point 2
-- area: Area at point 2
+- density: '[density] at point 1'
+- velocity: '[velocity] at point 1'
+- area: '[area] at point 1'
+- density: '[density] at point 2'
+- velocity: '[velocity] at point 2'
+- area: '[area] at point 2'

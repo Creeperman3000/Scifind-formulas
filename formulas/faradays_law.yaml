@@ -2,15 +2,19 @@ name: Faraday's law of induction
 id: faradays_law
 topic: electromagnetic_induction
 difficulty: 7
-equation: electric_potential eq drop ((dimensionless mul magnetic_flux) frac Delta
-  time) sub
+links:
+  - https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction
+  - https://en.wikipedia.org/wiki/Electromagnetic_induction
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/13%3A_Electromagnetic_Induction/13.01%3A_Faradays_Law
+  - https://www.britannica.com/science/Faradays-law-of-induction
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/a/what-is-faradays-law
+description: "For a coil of N tightly wound turns in a changing magnetic field, Faraday's law states that the induced emf equals the negative of the total flux linkage rate of change. The negative sign is Lenz's law, expressing that the induced emf opposes the change producing it. This is the foundation of transformers, generators, and induction-based motors."
+equation: electric_potential eq drop ((dimensionless mul magnetic_flux) frac Delta time) sub
 symbol_overrides:
-- electric_potential: ε
+- electric_potential: \varepsilon
 - dimensionless: N
-- magnetic_flux: Φ
-- time: t
+- magnetic_flux: \Phi
 name_overrides:
 - electric_potential: Induced EMF
 - dimensionless: Number of turns
-- magnetic_flux: Magnetic flux
-- time: Time
+- magnetic_flux: Magnetic flux through one loop

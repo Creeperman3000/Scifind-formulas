@@ -2,7 +2,17 @@ name: Sum of roots of a quadratic
 id: polynomial_quadratic_sum_roots
 topic: polynomials
 difficulty: 5
-equation: (dimensionless add dimensionless) eq drop dimensionless sub frac dimensionless
+links:
+- https://en.wikipedia.org/wiki/Vieta%27s_formulas
+- https://en.wikipedia.org/wiki/Quadratic_equation
+- https://mathworld.wolfram.com/QuadraticFormula.html
+- https://www.cuemath.com/algebra/sum-of-roots-of-quadratic-equation/
+- https://www.khanacademy.org/math/algebra/x2e8-multiplication-and-factoring/x2e8-solving-quadratic-equations-by-factoring/v/using-the-quadratic-formula
+description: 'One of Vieta''s formulas: for the quadratic ax²+bx+c=0 with leading
+  coefficient a ≠ 0, the sum of its two roots equals −b/a. Combined with the product-of-roots
+  formula, this lets the quadratic be reconstructed from its roots without solving
+  it.'
+equation: dimensionless add dimensionless eq drop dimensionless sub frac dimensionless
 symbol_overrides:
 - dimensionless: \alpha
 - dimensionless: \beta

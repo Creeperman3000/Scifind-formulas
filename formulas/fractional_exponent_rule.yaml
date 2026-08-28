@@ -2,8 +2,18 @@ name: Fractional exponent rule
 id: fractional_exponent_rule
 topic: exponents
 difficulty: 4
-equation: (dimensionless pow (dimensionless frac dimensionless)) eq sqrt (dimensionless pow dimensionless)
-  dimensionless
+links:
+- https://en.wikipedia.org/wiki/Exponentiation#Rational_exponents
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:rational-exponents-radicals/x2f8bb11595b61c86:radicals-to-rational-exponents/v/rewriting-radicals-as-rational-exponents
+- https://mathworld.wolfram.com/FractionalExponent.html
+- https://www.cuemath.com/algebra/fractional-exponents/
+- https://www.britannica.com/science/exponentiation
+description: A fractional (rational) exponent m/n on a positive base a is defined
+  as the n-th root of a raised to the m-th power. The numerator m gives the power
+  and the denominator n gives the root index, so that a^(1/n) is the principal n-th
+  root of a.
+equation: dimensionless pow dimensionless frac dimensionless eq sqrt (dimensionless
+  pow dimensionless) dimensionless
 symbol_overrides:
 - dimensionless: a
 - dimensionless: m

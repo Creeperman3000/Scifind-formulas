@@ -2,12 +2,19 @@ name: Gauss's law for magnetism
 id: gauss_law_magnetic
 topic: magnetism
 difficulty: 8
-equation: magnetic_flux_density mul area eq dimensionless
+links:
+- https://en.wikipedia.org/wiki/Gauss%27s_law_for_magnetism
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/08%3A_Electromagnetic_Induction
+- https://www.khanacademy.org/science/physics/charge-electric-force-and-voltage/gauss-law/v/gauss-law-overview
+- https://www.britannica.com/science/Gauss-law
+- https://courses.lumenlearning.com/suny-physics/chapter/19-3-gauss-law-for-magnetism/
+description: 'Gauss''s law for magnetism, one of Maxwell''s equations, states that
+  the net magnetic flux through any closed surface is zero. It is equivalent to the
+  nonexistence of magnetic monopoles: magnetic field lines form closed loops with
+  no sources or sinks.'
+equation: oint drop drop (magnetic_flux_density times area) eq dimensionless
 symbol_overrides:
-- magnetic_flux_density: ''
-- area: ''
 - dimensionless: '0'
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - area: Surface [area]
-- dimensionless: ''

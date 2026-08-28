@@ -2,6 +2,13 @@ name: Odds from probability
 id: odds_formula
 topic: probability
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Odds
+  - https://en.wikipedia.org/wiki/Odds_ratio
+  - https://mathworld.wolfram.com/Odds.html
+  - https://www.britannica.com/topic/odds
+  - https://stattrek.com/statistics/dictionary?definition=odds
+description: "The odds in favor of an event are the ratio of the probability that the event occurs to the probability that it does not. This statistical formulation differs from gambling usage, where odds are often expressed as the ratio of net profit to stake; for a fair bet the two coincide."
 equation: dimensionless eq dimensionless frac dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: odds
@@ -9,7 +16,6 @@ symbol_overrides:
 - dimensionless: '1'
 - dimensionless: p
 name_overrides:
-- dimensionless: '[Odds]'
+- dimensionless: Odds
 - dimensionless: Probability
 - dimensionless: '1'
-- dimensionless: ''

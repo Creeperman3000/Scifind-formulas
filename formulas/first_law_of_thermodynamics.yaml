@@ -2,12 +2,18 @@ name: First law of thermodynamics
 id: first_law_of_thermodynamics
 topic: first_law
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/The_Four_Laws_of_Thermodynamics/First_Law_of_Thermodynamics
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_First_Law_of_Thermodynamics
+  - https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-heat-transfer/a/what-is-the-first-law-of-thermodynamics
+description: "The first law of thermodynamics states that energy is conserved: the change in a closed system's internal energy equals the heat added to the system minus the work done by the system. It is a restatement of the conservation of energy for thermodynamic processes and rules out perpetual-motion machines of the first kind."
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: ΔU
-- energy: ''
-- energy: ''
+  - energy: \Delta U
+  - energy: Q
+  - energy: W
 name_overrides:
-- energy: Change in internal [energy]
-- energy: '[Heat]'
-- energy: '[Work]'
+  - energy: Change in internal [energy]
+  - energy: Heat added to the system
+  - energy: Work done by the system

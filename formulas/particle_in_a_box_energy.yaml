@@ -2,16 +2,23 @@ name: Particle in a box energy levels
 id: particle_in_a_box_energy
 topic: quantum_mechanics
 difficulty: 9
-description: "Valid for a particle in a 1D infinite potential well; E_n = n²π²ℏ²/(2mL²)."
-equation: energy eq (dimensionless pow 2) mul (planck_constant pow 2) frac 8 mul mass
-  mul length pow 2
+links:
+  - https://en.wikipedia.org/wiki/Particle_in_a_box
+  - https://en.wikipedia.org/wiki/Particle_in_a_box#Energy_levels
+  - https://en.wikipedia.org/wiki/Infinite_potential_well
+  - https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/05.1%3A_Particle_in_a_1-Dimensional_Box
+description: "A particle confined to a one-dimensional box with infinitely high walls can only occupy discrete energy levels, which scale with the square of an integer quantum number. This simple model, sometimes called the infinite square well, is the standard pedagogical example used to introduce quantization in quantum mechanics and illustrates how wave-like boundary conditions restrict the allowed energies of a bound particle."
+equation: energy eq (dimensionless pow 2) mul (planck_constant pow 2) frac 8 mul mass mul length pow 2
 symbol_overrides:
-- energy: E_n
-- dimensionless: n
-- mass: m
-- length: L
+  - energy: E_n
+  - dimensionless: n
+  - planck_constant: ""
+  - mass: m
+  - length: L
 name_overrides:
-- energy: '[Energy] level'
-- dimensionless: Quantum number
-- mass: Particle [mass]
-- length: Box length
+  - energy: '[energy] level'
+  - dimensionless: Quantum number
+  - planck_constant: '[planck_constant]'
+  - mass: Particle [mass]
+  - length: Box [length]

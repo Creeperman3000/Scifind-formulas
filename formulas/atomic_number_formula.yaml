@@ -2,6 +2,12 @@ name: Atomic number
 id: atomic_number_formula
 topic: atomic_structure
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Atomic_number
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/04%3A_Atomic_Structure/4.16%3A_Atomic_Number
+  - https://www.britannica.com/science/atomic-number
+  - https://sciencenotes.org/what-is-an-atomic-number-definition-and-examples/
+description: "The atomic number of an element equals the number of protons in the nucleus of each of its atoms, which also gives the nuclear charge. It uniquely identifies the chemical element and fixes its position on the periodic table; in a neutral atom it additionally equals the number of electrons."
 equation: amount eq dimensionless
 symbol_overrides:
 - amount: Z

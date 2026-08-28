@@ -2,11 +2,19 @@ name: Hydrogen atom energy levels
 id: hydrogen_energy_levels
 topic: atomic_physics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Rydberg_constant
+  - https://en.wikipedia.org/wiki/Bohr_model
+  - https://en.wikipedia.org/wiki/Hydrogen_atom
+  - https://en.wikipedia.org/wiki/Hydrogen_spectral_series
+  - https://www.physics.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(I)_(Dimitri_Karafotias)/03%3A_One_Dimensional_Potentials/3.04%3A_Hydrogen_Atom
+  - https://byjus.com/physics/bohr-model-of-hydrogen-atom/
+description: "The allowed bound-state energies of an electron in a hydrogen-like atom, derived in the Bohr model and confirmed by quantum mechanics. Levels are negative, with the ground state at -13.6 eV and successive levels approaching zero as n grows large; transitions between levels produce the hydrogen spectral series."
 equation: energy eq rydberg_constant mul (planck_constant) mul (speed_of_light) frac
   (drop (dimensionless pow 2) sub)
 symbol_overrides:
 - energy: E_n
 - dimensionless: n
 name_overrides:
-- energy: '[Energy] of level n'
+- energy: '[energy] of level n'
 - dimensionless: Principal quantum number

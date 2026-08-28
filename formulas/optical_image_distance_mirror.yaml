@@ -1,15 +1,19 @@
-name: Image distance for a convex mirror
+name: Mirror equation (image distance)
 id: optical_image_distance_mirror
 topic: mirrors
 difficulty: 6
-description: "Sign convention as for the spherical-mirror equation (Cartesian, real-is-positive)."
-equation: length pow (drop 1 sub) eq length pow (drop 1 sub) add length pow (drop
-  1 sub)
+links:
+  - https://en.wikipedia.org/wiki/Curved_mirror#Mirror_equation,_magnification,_and_focal_length
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation
+  - https://www.britannica.com/science/mirror-formula
+  - https://www.physicsclassroom.com/class/refln/Lesson-3/The-Mirror-Equation
+description: "The Gaussian mirror equation relates the object distance, image distance, and focal length of a spherical mirror. Using the Cartesian sign convention (real-is-positive, virtual-is-negative) the same algebraic form applies to concave and convex mirrors, with the focal length negative for a diverging (convex) mirror so that its image is always virtual and located behind the reflecting surface."
+equation: length pow (drop 1 sub) eq length pow (drop 1 sub) add length pow (drop 1 sub)
 symbol_overrides:
 - length: f
 - length: d_o
 - length: d_i
 name_overrides:
-- length: Reciprocal focal length
-- length: Reciprocal object distance
-- length: Reciprocal image distance
+- length: Focal [length]
+- length: Object distance
+- length: Image distance

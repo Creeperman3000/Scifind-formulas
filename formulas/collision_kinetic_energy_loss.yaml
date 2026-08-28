@@ -2,6 +2,12 @@ name: Kinetic energy loss in collision
 id: collision_kinetic_energy_loss
 topic: collisions
 difficulty: 7
+links:
+  - https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension
+  - https://en.wikipedia.org/wiki/Inelastic_collision
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/inecol.html
+  - https://www.usna.edu/Users/physics/mungan/_files/documents/Scholarship/PerfectlyInelastic.pdf
+description: "This relation gives the net change in the internal kinetic energy of a system during a collision. In an elastic collision it is zero, while in an inelastic collision it is negative because some kinetic energy is converted into heat, sound, or deformation; its magnitude is then reported as the energy lost. It is used to quantify how much ordered motion a crash or impact dissipates."
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: \Delta\mathrm{KE}

@@ -2,16 +2,25 @@ name: Thin film constructive (m+½)
 id: thin_film_constructive_m_half
 topic: interference
 difficulty: 8
-equation: dimensionless mul length eq (dimensionless add dimensionless frac 2 ) mul
-  length
+links:
+  - https://en.wikipedia.org/wiki/Thin-film_interference
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference/3.06%3A_Thin_Film_Interference
+  - https://www.britannica.com/science/thin-film-interference
+  - https://opentextbc.ca/universityphysicsv3/chapter/3-6-thin-film-interference/
+  - https://www.animations.physics.unsw.edu.au/jw/light/interference-thin-film.html
+description: "When one of the two reflections at a thin film undergoes a 180° phase change (such as light reflecting off a soap film in air), the constructive interference condition shifts so that the round-trip optical path equals a half-integer number of wavelengths. The full relation for normal incidence is 2 n t = (m + 1/2) λ; the entry isolates the geometric factors for clarity."
+equation: dimensionless mul length mul length eq (dimensionless add dimensionless frac
+  2) mul length
 symbol_overrides:
 - dimensionless: '2'
+- length: n
 - length: t
 - dimensionless: m
 - dimensionless: '1'
 - length: λ
 name_overrides:
 - dimensionless: '2'
+- length: Film refractive index
 - length: Film thickness t
 - dimensionless: Order m
 - dimensionless: One

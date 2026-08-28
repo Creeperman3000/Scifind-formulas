@@ -2,11 +2,16 @@ name: Average velocity from initial and final
 id: average_velocity_initial_final
 topic: constant_acceleration
 difficulty: 3
+links:
+  - https://www.vedantu.com/jee-main/physics-average-velocity-formula
+  - https://www.azcalculator.com/calculators/constant-acceleration-average-velocity
+  - https://answers.completeera.com/post/how-to-find-initial-velocity-and-final-velocity-kinematics-made-simple
+description: "For motion with constant acceleration, the average velocity over an interval equals the arithmetic mean of the initial and final velocities. This shortcut is valid only when acceleration is uniform; with varying acceleration the average must be computed from displacement and time instead."
 equation: velocity eq (velocity add velocity ) frac 2
 symbol_overrides:
 - velocity: v_{avg}
 - velocity: u
-- velocity: ''
+- velocity: v
 name_overrides:
 - velocity: Average [velocity]
 - velocity: Initial [velocity]

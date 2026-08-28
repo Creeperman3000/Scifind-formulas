@@ -2,7 +2,12 @@ name: Center of mass of two particles
 id: center_of_mass_two_particles
 topic: linear_momentum
 difficulty: 5
-equation: length eq (mass mul (length) add mass mul length ) frac mass add mass
+links:
+  - https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_9HA__Classical_Mechanics/4%3A_Linear_Momentum/4.2%3A_Center_of_Mass
+  - http://www.geom.uiuc.edu/education/calc-init/static-beam/ctr-derive.html
+  - https://courses.physics.illinois.edu/phys211/su2012/Text/ch10.pdf
+description: "Gives the balance point of a system of two point masses along one axis as the mass-weighted average of their positions. The center of mass lies closer to the heavier particle, and it reduces to the plain midpoint when the two masses are equal. It is used in collision and rigid-body problems where the whole system can be treated as if its mass were concentrated at one point."
+equation: length eq frac (mass mul length add mass mul length) (mass add mass)
 symbol_overrides:
 - length: x_{cm}
 - mass: m_1
@@ -13,9 +18,7 @@ symbol_overrides:
 - mass: m_2
 name_overrides:
 - length: Center of [mass]
-- mass: Mass 1
+- mass: '[mass] 1'
 - length: Position 1
-- mass: Mass 2
+- mass: '[mass] 2'
 - length: Position 2
-- mass: ''
-- mass: ''

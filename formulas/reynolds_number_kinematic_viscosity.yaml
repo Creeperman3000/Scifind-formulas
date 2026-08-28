@@ -2,16 +2,23 @@ name: Reynolds number with kinematic viscosity
 id: reynolds_number_kinematic_viscosity
 topic: reynolds_number
 difficulty: 8
-equation: reynolds_number eq velocity mul (length) frac dynamic_viscosity frac density
+links:
+  - https://en.wikipedia.org/wiki/Reynolds_number
+  - https://en.wikipedia.org/wiki/Kinematic_viscosity
+  - https://www.britannica.com/science/Reynolds-number
+  - https://eng.libretexts.org/Bookshelves/Chemical_Engineering/Fluid_Mechanics_(Barmeier)/08%3A_Flow_in_Pipes/8.1%3A_Flow_Regimes
+  - https://www.engineeringtoolbox.com/reynolds-number-d_237.html
+description: "The Reynolds number can equivalently be expressed using kinematic viscosity ν = μ/ρ instead of dynamic viscosity μ, which is convenient when only kinematic viscosity is tabulated for a fluid. This form is widely used in aerodynamics and open-channel flow calculations."
+equation: reynolds_number eq velocity mul (length) mul (density) frac dynamic_viscosity
 symbol_overrides:
 - reynolds_number: Re
-- velocity: ''
+- velocity: v
 - length: L
-- dynamic_viscosity: μ
-- density: ρ
+- density: \rho
+- dynamic_viscosity: \mu
 name_overrides:
-- reynolds_number: Reynolds [number]
+- reynolds_number: '[reynolds_number]'
 - velocity: Flow [velocity]
-- length: Characteristic length
-- dynamic_viscosity: Dynamic [viscosity]
-- density: Fluid [density]
+- length: Characteristic [length]
+- density: '[density] of the fluid'
+- dynamic_viscosity: '[dynamic_viscosity] of the fluid'

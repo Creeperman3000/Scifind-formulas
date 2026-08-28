@@ -2,8 +2,18 @@ name: Clausius-Clapeyron equation
 id: clausius_clapeyron
 topic: solutions
 difficulty: 8
+links:
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Phase_Transitions/Clausius-Clapeyron_Equation
+- https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation
+- https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html
+- https://www.chemteam.info/GasLaw/Clasius-Clapeyron-Equation.html
+description: Describes how the vapor pressure of a substance changes between two temperatures
+  during a phase transition, governed by the enthalpy of vaporization. It is used
+  to estimate vapor pressures, boiling points at different pressures, or latent heats
+  from measured data. The integrated form assumes ideal vapor behavior and an approximately
+  temperature-independent enthalpy of vaporization.
 equation: log euler_e (pressure frac pressure) eq drop (molar_energy frac gas_constant)
-  sub mul ((1 frac temperature) sub (1 frac temperature))
+  sub mul ((1 frac temperature) sub 1 frac temperature )
 symbol_overrides:
 - pressure: P_2
 - pressure: P_1
@@ -13,6 +23,6 @@ symbol_overrides:
 name_overrides:
 - pressure: Final vapor [pressure]
 - pressure: Initial vapor [pressure]
-- molar_energy: Enthalpy of [vaporization]
+- molar_energy: Enthalpy of vaporization
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

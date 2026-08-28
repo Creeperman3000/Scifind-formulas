@@ -2,10 +2,15 @@ name: Wave velocity from wavelength and period
 id: wave_velocity_period
 topic: mechanical_waves
 difficulty: 5
-description: "Wave velocity from wavelength and period; v = λ / T."
+links:
+  - https://en.wikipedia.org/wiki/Phase_velocity
+  - https://en.wikipedia.org/wiki/Frequency
+  - https://en.wikipedia.org/wiki/Wavelength
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_Wave_Speed
+  - https://www.physicsclassroom.com/class/waves/Lesson-2/The-Wave-Equation
+description: "The phase velocity of a periodic wave relates how fast a wave crest travels to its spatial wavelength and its temporal period. It applies to any non-dispersive medium where the wave speed is independent of frequency, and is the basic form of the universal wave equation."
 equation: velocity eq length frac time
 symbol_overrides:
-- velocity: ''
 - length: λ
 - time: T
 name_overrides:

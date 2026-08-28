@@ -2,10 +2,22 @@ name: Translational kinetic energy of an ideal gas
 id: kinetic_energy_translational_ideal_gas
 topic: ideal_gases
 difficulty: 7
-equation: energy eq ((3 frac 2) mul (amount mul (gas_constant mul temperature)))
-description: Valid for an ideal gas; average translational kinetic energy per molecule is (3/2) k_B T.
+links:
+- https://en.wikipedia.org/wiki/Kinetic_theory_of_gases
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/02%3A_Vectors/2.06%3A_Ideal_Gas_Law
+- https://www.britannica.com/science/kinetic-theory-of-gases
+description: The total translational kinetic energy of an ideal gas depends only on
+  its amount of substance n and its absolute temperature T. Per molecule the average
+  translational kinetic energy is three halves k_B T; for n moles, multiplying by
+  Avogadro's number gives the same expression with the gas constant R.
+equation: energy eq (dimensionless frac dimensionless) mul amount mul gas_constant
+  mul temperature
+symbol_overrides:
+- energy: K_\mathrm{tr}
+- dimensionless: '3'
+- dimensionless: '2'
 name_overrides:
-- energy: Translational kinetic energy
-- amount: Amount of substance
-- gas_constant: Universal gas constant
-- temperature: Absolute temperature
+- energy: Translational kinetic [energy]
+- dimensionless: Three
+- dimensionless: Two
+- temperature: Absolute [temperature]

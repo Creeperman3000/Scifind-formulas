@@ -1,13 +1,22 @@
-name: Thin film destructive (zero order)
+name: Thin film destructive interference (zero order)
 id: thin_film_destructive_zero_order
 topic: interference
 difficulty: 8
-equation: ((2 mul dimensionless) mul length) eq (length frac 2)
+links:
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- https://en.wikipedia.org/wiki/Anti-reflective_coating
+- https://en.wikipedia.org/wiki/Reflection_phase_change
+- https://phys.libretexts.org/Bookshelves/Optics/Supplemental_Modules_(Components)
+description: The zero-order special case of the destructive-interference condition
+  for a thin film whose reflections at both boundaries undergo a 180° phase shift,
+  such as a single-layer anti-reflection coating. The required film thickness is one
+  quarter of the in-film wavelength, the standard quarter-wave coating thickness.
+equation: (2 mul dimensionless) mul length eq length frac 2
 symbol_overrides:
 - dimensionless: n
 - length: t
 - length: \lambda
 name_overrides:
-- dimensionless: Refractive index n
+- dimensionless: Film [refractive_index]
 - length: Film thickness
-- length: Wavelength in film
+- length: Wavelength in vacuum

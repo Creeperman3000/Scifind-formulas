@@ -2,22 +2,21 @@ name: Angular displacement at constant angular acceleration
 id: angular_displacement_constant_acceleration
 topic: circular_motion
 difficulty: 6
-description: "Valid for constant angular acceleration; θ = ω₀ t + ½ α t²."
+links:
+  - https://phys.libretexts.org/Workbench/PH_245_Textbook_V2/02:_Module_1-_One-Dimensional_Kinematics/2.02:_Objective_1.b./2.2.03:_Rotation_with_Constant_Angular_Acceleration
+  - https://openstax.org/books/physics/pages/6-3-rotational-motion
+  - https://www.albert.io/blog/rotational-kinematics-ap-physics-1-review
+  - https://www.miniphysics.com/kinematics-of-angular-motion.html
+description: "A rotational kinematics equation giving the angle swept by a body rotating about a fixed axis with constant angular acceleration, starting from a known initial spin rate. It is the rotational analogue of the corresponding linear motion equation and is valid only while the angular acceleration stays constant; angles must be expressed in radians."
 equation: angle eq angular_velocity mul (time) add dimensionless frac (dimensionless)
   mul (angular_acceleration) mul time pow 2
 symbol_overrides:
-- angle: \theta
 - angular_velocity: \omega_0
-- time: t
 - dimensionless: '1'
 - dimensionless: '2'
-- angular_acceleration: \alpha
-- time: t
 name_overrides:
 - angle: Angle
-- angular_velocity: Initial [velocity]
-- time: Time
+- angular_velocity: Initial angular velocity
 - dimensionless: One
 - dimensionless: Two
-- angular_acceleration: Acceleration
-- time: Time
+- angular_acceleration: Angular acceleration

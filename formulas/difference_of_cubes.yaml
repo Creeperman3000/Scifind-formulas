@@ -2,8 +2,18 @@ name: Difference of cubes
 id: difference_of_cubes
 topic: polynomials
 difficulty: 4
-equation: ((dimensionless pow 3) sub (dimensionless pow 3)) eq ((dimensionless sub dimensionless) mul
-  (((dimensionless pow 2) add (dimensionless mul dimensionless)) add ((dimensionless) pow 2)))
+links:
+- https://www.mathwarehouse.com/algebra/polynomial/how-to-expand-and-factor-difference-of-cubes.php
+- https://www.mathwords.com/p/polynomials_difference_two_cubes.htm
+- https://www.purplemath.com/modules/specfact2.htm
+- https://www.khanacademy.org/math/algebra-home/alg-polynomials/alg-advanced-polynomial-factorization-methods/v/difference-of-cubes-factoring
+description: A special factoring pattern that rewrites the difference of two perfect
+  cubes as a product of a binomial and a trinomial. It holds for all real numbers
+  and is widely used to simplify and factor cubic expressions; note the quadratic
+  factor is irreducible over the reals.
+equation: (dimensionless pow 3) sub dimensionless pow 3 eq (dimensionless sub dimensionless)
+  mul ((dimensionless pow 2) add (dimensionless mul dimensionless) add dimensionless
+  pow 2 )
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b

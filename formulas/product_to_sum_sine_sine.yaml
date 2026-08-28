@@ -2,8 +2,14 @@ name: 'Product-to-sum: sin A sin B'
 id: product_to_sum_sine_sine
 topic: trigonometric_identities
 difficulty: 7
-equation: sin angle mul sin angle eq dimensionless mul cos (angle sub angle ) sub
-  cos (angle add angle )
+links:
+  - https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Product-to-sum_identities
+  - https://en.wikipedia.org/wiki/Product-to-sum_identities
+  - https://math.libretexts.org/Bookshelves/Trigonometry
+  - https://www.cuemath.com/trigonometry/product-to-sum-formulas/
+  - https://www.khanacademy.org/math/trigonometry
+description: "Expresses the product of two sines as a difference of cosines. It is used in signal processing and physics to convert products of sinusoidal signals into sums of harmonics, which is convenient for integration and Fourier analysis."
+equation: sin angle mul sin angle eq dimensionless mul cos (angle sub angle ) sub cos (angle add angle )
 symbol_overrides:
 - angle: A
 - angle: B
@@ -13,10 +19,5 @@ symbol_overrides:
 - angle: A
 - angle: B
 name_overrides:
-- angle: '[Angle] A'
-- angle: '[Angle] B'
-- dimensionless: ''
-- angle: ''
-- angle: ''
-- angle: ''
-- angle: ''
+- angle: '[angle|Angle] A'
+- angle: '[angle|Angle] B'

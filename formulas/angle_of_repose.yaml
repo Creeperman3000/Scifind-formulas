@@ -2,11 +2,15 @@ name: Angle of repose
 id: angle_of_repose
 topic: friction
 difficulty: 7
-description: "Valid for static friction on an inclined plane; tan θ = μ_s where μ_s is the static coefficient."
+links:
+  - https://en.wikipedia.org/wiki/Angle_of_repose
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_I_-_Classical_Mechanics_(Gea-Banacloche)/08%3A_Motion_in_Two_Dimensions/8.03%3A_Inclined_Planes
+  - https://www.omnicalculator.com/physics/angle-of-repose
+description: "The angle of repose is the steepest inclination of a plane at which a body resting on it remains stationary, with static friction exactly balancing the downhill pull of gravity. It depends only on the coefficient of static friction between the surfaces and is used to characterize slopes of granular piles and the onset of sliding; cohesive or wet materials deviate from this ideal result."
 equation: angle eq atan coefficient_of_friction
 symbol_overrides:
-- angle: θ
-- coefficient_of_friction: ''
+- angle: \theta
+- coefficient_of_friction: \mu_s
 name_overrides:
-- angle: Angle of [repose]
-- coefficient_of_friction: μ_s
+- angle: Angle of repose
+- coefficient_of_friction: Coefficient of static friction

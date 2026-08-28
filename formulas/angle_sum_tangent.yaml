@@ -2,6 +2,16 @@ name: Angle sum identity for tangent
 id: angle_sum_tangent
 topic: trigonometric_identities
 difficulty: 6
+links:
+- https://www.cuemath.com/trigonometry/tan-a-plus-b/
+- https://mathworld.wolfram.com/TrigonometricAdditionFormulas.html
+- https://www.geeksforgeeks.org/maths/tangent-addition-formula/
+- https://proofwiki.org/wiki/Tangent_of_Sum
+description: The tangent addition formula gives the tangent of a compound angle in
+  terms of the tangents of its two component angles. It follows from the sine and
+  cosine addition formulas and holds whenever the tangents are defined; it is used
+  to find exact values such as the tangent of 75 degrees and to derive double-angle
+  formulas.
 equation: tan (angle add angle ) eq (tan angle add tan angle ) frac 1 sub tan angle
   mul tan angle
 symbol_overrides:

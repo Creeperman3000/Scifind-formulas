@@ -2,6 +2,11 @@ name: Bohr model electron velocity
 id: atomic_bohr_model_velocity
 topic: atomic_physics
 difficulty: 8
+links:
+  - https://en.m.wikipedia.org/wiki/Bohr_model
+  - https://learn.careers360.com/school/question-using-bohrrsquos-atomic-model-derive-the-expression-for-the-velocity-of-electron-revolving-in-the-nth-orbit-of-hydrogen-atom-113017
+  - https://www.physicsforums.com/threads/derivation-of-velocity-in-nth-bohr-orbit.481997
+description: "Gives the orbital speed of the electron in the nth circular orbit of Bohr's model of hydrogen, obtained by combining Coulomb attraction with quantized angular momentum. The speed falls off inversely with orbit number and is largest in the ground state, remaining safely below the speed of light for hydrogen. Applies to hydrogen-like single-electron atoms within the semiclassical Bohr approximation."
 equation: velocity eq (elementary_charge pow 2) frac ((vacuum_permittivity mul 2) mul
   (planck_constant) mul dimensionless )
 symbol_overrides:

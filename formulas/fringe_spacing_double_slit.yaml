@@ -2,14 +2,21 @@ name: Fringe spacing in double-slit
 id: fringe_spacing_double_slit
 topic: interference
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Double-slit_experiment
+  - https://en.wikipedia.org/wiki/Wave_interference#Between_two_plane_waves
+  - https://en.wikipedia.org/wiki/Diffraction
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_(OpenStax)/03%3A_Interference
+  - https://www.britannica.com/science/double-slit-experiment
+description: "In the Young double-slit experiment, the equally spaced bright fringes on a distant screen are separated by a fringe spacing that increases linearly with the wavelength and the slit-to-screen distance and decreases as the slits are brought closer together. The formula applies in the small-angle, far-field (Fraunhofer) approximation where the path difference across the slits is approximately m*lambda."
 equation: length eq length mul length frac length
 symbol_overrides:
-- length: Δy
-- length: λ
-- length: L
-- length: d
+  - length: \Delta y
+  - length: \lambda
+  - length: L
+  - length: d
 name_overrides:
-- length: Fringe spacing
-- length: Wavelength
-- length: Distance to screen
-- length: Slit separation
+  - length: Fringe spacing
+  - length: Wavelength
+  - length: Distance to screen
+  - length: Slit separation

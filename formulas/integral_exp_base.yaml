@@ -2,8 +2,15 @@ name: Integral of base-a exponential
 id: integral_exp_base
 topic: integrals
 difficulty: 7
-equation: int drop drop ((dimensionless pow angle) mul rmd angle) eq (dimensionless pow angle) frac log
-  euler_e dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Lists_of_integrals
+  - https://en.wikipedia.org/wiki/Antiderivative
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.06%3A_Integrals_Involving_Exponential_and_Logarithmic_Functions
+  - https://en.wikipedia.org/wiki/List_of_integrals_of_exponential_functions
+  - https://en.wikipedia.org/wiki/Exponential_function
+  - https://mathworld.wolfram.com/ExponentialIntegral.html
+description: The antiderivative of an exponential function a^x with base a > 0, a != 1. It is derived using the substitution that any a^x can be written as e^(x ln a) and then applying the chain rule in reverse. The constant of integration is conventionally appended in the result.
+equation: int drop drop ((dimensionless pow angle) mul rmd angle) eq (dimensionless pow angle) frac log euler_e dimensionless
 symbol_overrides:
 - dimensionless: a
 - angle: x
@@ -13,8 +20,8 @@ symbol_overrides:
 - dimensionless: a
 name_overrides:
 - dimensionless: Base a
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
 - dimensionless: Base a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Base a

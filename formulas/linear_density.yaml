@@ -2,12 +2,15 @@ name: Linear mass density
 id: linear_density
 topic: mechanical_waves
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Linear_density
+  - https://en.wikipedia.org/wiki/Wave_on_a_string#Wave_equation
+  - https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/wave-on-a-string/v/wave-on-a-string-introduction
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves-I
+  - https://www.britannica.com/science/density
+description: "Linear mass density describes the mass per unit length of a one-dimensional object such as a string, rod, cable, or fibre, and is conventionally denoted μ in the context of mechanical waves on strings. It governs the wave speed on a stretched string and is widely used in textile engineering to characterize yarns and fibres."
 equation: surface_density eq mass frac length
 symbol_overrides:
-- surface_density: μ
-- mass: ''
-- length: ''
+  - surface_density: μ
 name_overrides:
-- surface_density: Linear [density]
-- mass: ''
-- length: ''
+  - surface_density: Linear [density]

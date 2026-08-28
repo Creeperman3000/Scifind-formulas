@@ -2,17 +2,19 @@ name: Planck's law for blackbody radiation
 id: planck_radiation_law_energy_density
 topic: quantum_mechanics
 difficulty: 9
-description: Valid for blackbody radiation in thermal equilibrium.
-equation: energy_density eq (((8 mul pi) mul (planck_constant mul frequency pow 3
-  )) frac ((speed_of_light pow 3) mul (exp ((planck_constant mul frequency ) frac
-  (boltzmann_constant mul temperature )) sub 1)))
+links:
+- https://en.wikipedia.org/wiki/Planck%27s_law
+- https://en.wikipedia.org/wiki/Black-body_radiation
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Introduction_to_Quantum_Mechanics_(Cresser)/04%3A_Blackbody_Radiation
+- https://www.britannica.com/science/Plancks-radiation-law
+- https://hyperphysics.phy-astr.gsu.edu/hbase/mod6.html
+description: Gives the spectral energy density of electromagnetic radiation inside
+  a blackbody cavity in thermal equilibrium as a function of frequency and temperature,
+  resolving the ultraviolet catastrophe of classical Rayleigh–Jeans theory. It introduced
+  energy quantization and is the foundation of quantum mechanics and modern radiation
+  physics.
+equation: energy_density eq (8 mul pi) mul (planck_constant mul frequency pow 3) frac
+  ((speed_of_light pow 3) mul (exp ((planck_constant mul frequency) frac boltzmann_constant
+  mul temperature ) sub 1) )
 name_overrides:
 - energy_density: Spectral [energy] density
-- frequency: ''
-- frequency: ''
-- temperature: ''
-symbol_overrides:
-- energy_density: ''
-- frequency: ''
-- frequency: ''
-- temperature: ''

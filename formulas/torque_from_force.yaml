@@ -2,12 +2,15 @@ name: Torque from force
 id: torque_from_force
 topic: torque
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Torque
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.04%3A_Torque
+  - https://www.britannica.com/science/torque
+  - https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/v/introduction-to-torque
+  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/10-4-torque/
+description: "Torque is the rotational equivalent of a linear force, producing a tendency to rotate a body about an axis. The scalar (moment-arm) form states that the magnitude equals the force multiplied by the perpendicular distance from the axis to the line of action of the force."
 equation: torque eq length mul force
 symbol_overrides:
-- torque: ''
 - length: r
-- force: ''
 name_overrides:
-- torque: ''
 - length: Lever arm
-- force: ''

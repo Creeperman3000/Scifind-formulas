@@ -2,6 +2,13 @@ name: t-test statistic
 id: t_test_statistic
 topic: statistics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Student%27s_t-test
+  - https://en.wikipedia.org/wiki/Student%27s_t-distribution
+  - https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample/more-significance-testing-videos/v/small-sample-hypothesis-test
+  - https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(OpenStax)/09%3A_Hypothesis_Testing_with_One_Sample
+  - https://www.britannica.com/topic/t-test
+description: "The one-sample t-statistic measures how many standard errors the sample mean lies from a hypothesized population mean, and under the null hypothesis it follows Student's t-distribution with n−1 degrees of freedom. It is the basis of t-tests used to assess whether an observed mean is consistent with a reference value when the population standard deviation is unknown."
 equation: dimensionless eq (dimensionless sub dimensionless ) frac dimensionless frac
   sqrt dimensionless 2
 symbol_overrides:
@@ -11,7 +18,7 @@ symbol_overrides:
 - dimensionless: s
 - dimensionless: n
 name_overrides:
-- dimensionless: t-test [statistic]
+- dimensionless: t-test statistic
 - dimensionless: Sample mean
 - dimensionless: Population mean
 - dimensionless: Sample standard deviation

@@ -2,10 +2,16 @@ name: Particle decay width and lifetime
 id: particle_width_lifetime_relation
 topic: particle_physics
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Relativistic_Breit%E2%80%93Wigner_distribution
+  - https://en.wikipedia.org/wiki/Decay_width
+  - https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(Boundless)/05%3A_Uncertainty_and_Commutation_Relations/5.3%3A_Heisenberg_Uncertainty_Principle
+  - https://pdg.lbl.gov/2024/reviews/rpp2024-rev-kinematics.pdf
+description: "The decay width Γ of an unstable particle (resonance) is inversely related to its mean lifetime τ through the uncertainty principle. With natural units (ħ=1) the relation is τ = 1/Γ, and with conventional units Γ = h/(2πτ). Wider resonances correspond to shorter-lived particles, a relationship central to scattering and particle spectroscopy."
 equation: energy eq planck_constant frac (pi mul 2) frac time
 symbol_overrides:
 - energy: Γ
 - time: τ
 name_overrides:
-- energy: Decay [width]
-- time: Mean [lifetime]
+- energy: Decay width
+- time: Mean lifetime

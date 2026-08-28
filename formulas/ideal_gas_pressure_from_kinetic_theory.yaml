@@ -2,17 +2,23 @@ name: Pressure from kinetic theory
 id: ideal_gas_pressure_from_kinetic_theory
 topic: ideal_gases
 difficulty: 8
-equation: pressure eq (dimensionless mul (mass mul velocity pow 2 )) frac (3 mul volume
-  )
+links:
+- https://en.wikipedia.org/wiki/Kinetic_theory_of_gases
+- https://www.britannica.com/science/kinetic-theory-of-gases
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book:_Thermodynamics_(Tatum)/04:_Ideal_Gases
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Kinetic_Theory_of_Gases
+- https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory
+description: The kinetic theory expression for the pressure of an ideal gas relates
+  pressure to the number of molecules, the molecular mass, the mean-square molecular
+  speed, and the volume occupied. It provides the microscopic basis for the ideal
+  gas law and shows that temperature is proportional to the average translational
+  kinetic energy of the molecules.
+equation: pressure eq dimensionless mul (mass mul velocity pow 2) frac 3 mul volume
 symbol_overrides:
-- pressure: ''
 - dimensionless: N
-- mass: ''
-- velocity: v
-- volume: ''
 name_overrides:
-- pressure: '[Pressure]'
+- pressure: '[pressure]'
 - dimensionless: Number of molecules
-- mass: Mass of one molecule
+- mass: '[mass] of one molecule'
 - velocity: Mean square [velocity]
-- volume: '[Volume]'
+- volume: '[volume]'

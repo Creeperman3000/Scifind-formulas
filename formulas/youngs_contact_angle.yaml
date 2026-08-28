@@ -2,17 +2,21 @@ name: Contact angle from Young's equation
 id: youngs_contact_angle
 topic: surface_tension
 difficulty: 9
-equation: angle eq acos ((surface_tension sub surface_tension ) frac surface_tension
-  sub surface_tension )
+links:
+  - https://en.wikipedia.org/wiki/Contact_angle
+  - https://en.wikipedia.org/wiki/Wetting
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Liquids/Contact_Angles
+  - https://www.britannica.com/science/wettability
+  - https://openstax.org/books/university-physics-volume-1/pages/11-7-wetting-and-capillary-action
+description: "Young's equation relates the equilibrium contact angle of a liquid drop on a solid surface to the three interfacial surface tensions (solid-gas, solid-liquid, and liquid-gas). The contact angle quantifies the wettability of a surface; it applies to an ideal smooth, homogeneous, rigid surface in thermodynamic equilibrium."
+equation: angle eq acos ((surface_tension sub surface_tension ) frac surface_tension sub surface_tension )
 symbol_overrides:
 - angle: θ
 - surface_tension: γ_{SG}
 - surface_tension: γ_{SL}
 - surface_tension: γ_{LG}
-- surface_tension: ''
 name_overrides:
 - angle: Contact [angle]
-- surface_tension: Solid-gas [surface tension]
-- surface_tension: Solid-liquid [surface tension]
-- surface_tension: Liquid-gas [surface tension]
-- surface_tension: ''
+- surface_tension: Solid-gas [surface_tension]
+- surface_tension: Solid-liquid [surface_tension]
+- surface_tension: Liquid-gas [surface_tension]

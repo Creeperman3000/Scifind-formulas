@@ -1,11 +1,13 @@
-name: Electric energy density of an EM wave
+name: Energy density of an electromagnetic wave
 id: energy_density_electromagnetic_wave
 topic: electromagnetic_waves
 difficulty: 8
+links:
+  - https://openstax.org/books/university-physics-volume-2/pages/16-3-energy-carried-by-electromagnetic-waves
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_%28OpenStax%29/16%3A_Electromagnetic_Waves/16.04%3A_Energy_Carried_by_Electromagnetic_Waves
+  - https://pressbooks.online.ucf.edu/osuniversityphysics2/chapter/energy-carried-by-electromagnetic-waves/
+  - https://resources.system-analysis.cadence.com/blog/msa2021-the-energy-density-of-electromagnetic-waves
+description: "Gives the energy stored per unit volume in the fields of a plane electromagnetic wave traveling through vacuum. Because the electric and magnetic contributions are exactly equal at every instant, the total density can be written using the electric field alone together with the vacuum permittivity. It underlies calculations of wave intensity and of the Poynting vector, and it scales with the square of the field amplitude."
 equation: energy_density eq vacuum_permittivity mul electric_field_strength pow 2
-symbol_overrides:
-- energy_density: ''
-- electric_field_strength: ''
 name_overrides:
 - energy_density: Electromagnetic energy [density]
-- electric_field_strength: ''

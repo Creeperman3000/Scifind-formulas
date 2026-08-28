@@ -2,12 +2,13 @@ name: Mass concentration
 id: mass_concentration_formula
 topic: solutions
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Mass_concentration_(chemistry)
+  - https://goldbook.iupac.org/terms/view/M03713.html
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/03%3A_Using_Chemical_Equations_in_Calculations/3.05%3A_Mass_Concentration
+  - https://www.britannica.com/science/mass-concentration
+description: "Mass concentration (also called mass density of a component) expresses the mass of a constituent solute per unit volume of the mixture. It is widely used in chemistry, biology, and medicine, where the percent notation m/v is common for aqueous solutions. For a pure substance the mass concentration equals the bulk density."
 equation: mass_concentration eq mass frac volume
-symbol_overrides:
-- mass_concentration: ''
-- mass: ''
-- volume: ''
 name_overrides:
-- mass_concentration: ''
-- mass: ''
-- volume: ''
+- mass: '[mass] of solute'
+- volume: '[volume] of solution'

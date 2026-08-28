@@ -2,12 +2,22 @@ name: Polarization orientation angle
 id: polarization_orientation_angle
 topic: polarization
 difficulty: 8
-equation: angle eq atan (dimensionless dimensionless frac)
+links:
+- https://en.wikipedia.org/wiki/Polarization_(waves)
+- https://en.wikipedia.org/wiki/Linear_polarization
+- https://en.wikipedia.org/wiki/Polarization_ellipse
+- https://en.wikipedia.org/wiki/Jones_calculus
+- https://scienceworld.wolfram.com/physics/Polarization.html
+description: The polarization orientation angle specifies the tilt of the electric
+  field's oscillation direction relative to a reference axis in the plane perpendicular
+  to propagation. For a linearly polarized wave written as a superposition of orthogonal
+  components, the tilt is set by the ratio of the component amplitudes.
+equation: angle eq atan frac dimensionless dimensionless
 symbol_overrides:
-- angle: ψ
+- angle: \psi
 - dimensionless: E_y
 - dimensionless: E_x
 name_overrides:
-- angle: Polarization [orientation]
+- angle: Polarization orientation [angle]
 - dimensionless: Electric field y-component
 - dimensionless: Electric field x-component

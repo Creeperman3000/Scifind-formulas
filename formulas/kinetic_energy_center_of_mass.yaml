@@ -2,12 +2,21 @@ name: Kinetic energy of center of mass
 id: kinetic_energy_center_of_mass
 topic: kinetic_energy
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Kinetic_energy
+- https://en.wikipedia.org/wiki/Center_of_mass
+- https://en.wikipedia.org/wiki/Koenig%27s_theorem_(kinetics)
+description: The total kinetic energy of a system of particles decomposes into the
+  kinetic energy of the center of mass plus the kinetic energy of the motion of the
+  particles relative to the center of mass. This separation, sometimes known as Křiženecký's
+  theorem or König's theorem, makes it convenient to treat a many-body system as a
+  single point mass at the CM for translational dynamics.
 equation: energy eq (mass mul (velocity pow 2) frac 2) add energy
 symbol_overrides:
-- energy: \mathrm{KE}_{\mathrm{total}}
+- energy: KE_{\mathrm{total}}
 - mass: M
 - velocity: v_{\mathrm{cm}}
-- energy: \mathrm{KE}_{\mathrm{rel}}
+- energy: KE_{\mathrm{rel}}
 name_overrides:
 - energy: Total kinetic [energy]
 - mass: Total [mass]

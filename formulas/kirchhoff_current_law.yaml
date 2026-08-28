@@ -2,8 +2,11 @@ name: Kirchhoff's current law
 id: kirchhoff_current_law
 topic: circuits
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.03%3A_Kirchhoff%27s_Rules
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-resistors/a/kirchhoffs-voltage-law
+description: "Kirchhoff's current law (the junction rule) states that the algebraic sum of currents flowing into any node of an electrical circuit equals the sum flowing out. It is a consequence of conservation of electric charge and holds for lumped-element models."
 equation: sum drop drop current eq 0
 name_overrides:
 - current: Sum of currents
-symbol_overrides:
-- current: ''

@@ -2,12 +2,15 @@ name: Radiation exposure
 id: exposure_formula
 topic: nuclear_physics
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Radiation_exposure
+  - https://en.wikipedia.org/wiki/Roentgen_(unit)
+  - https://en.wikipedia.org/wiki/Absorbed_dose
+  - https://www.nrc.gov/about-nrc/radiation/health-effects/measuring-radiation.html
+  - https://www.icrp.org/publication.asp?id=ICRP%20Publication%20103
+description: "Radiation exposure is a dosimetric quantity that measures the ionization produced by X-ray or gamma-ray photons in air, defined as the electric charge liberated by the radiation per unit mass of air. Its SI unit is the coulomb per kilogram (C/kg), which has largely replaced the legacy röntgen (R). Exposure is used in radiation protection as an intermediate step between source activity and quantities such as absorbed or equivalent dose that more directly describe energy deposition in tissue."
 equation: exposure eq charge frac mass
-symbol_overrides:
-- exposure: ''
-- charge: ''
-- mass: ''
 name_overrides:
-- exposure: '[Exposure]'
-- charge: ''
-- mass: ''
+  - exposure: '[exposure]'
+  - charge: '[charge] liberated in air'
+  - mass: '[mass] of air'

@@ -2,6 +2,13 @@ name: Wavelength from CFSE
 id: wavelength_from_cfse
 topic: inorganic_chemistry
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Crystal_field_theory
+  - https://en.wikipedia.org/wiki/Spectrochemical_series
+  - https://en.wikipedia.org/wiki/Energy
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/24%3A_Complex_Ions_and_Coordination_Compounds/24.04%3A_Crystal_Field_Theory
+  - https://www.chemguide.co.uk/inorganic/complexions/colour.html
+description: "The wavelength of light absorbed by a transition-metal complex is set by the energy gap between split d-orbitals. Reading this wavelength from the visible spectrum gives the crystal field splitting energy directly, and the spectrochemical series is built by ranking ligands according to this absorption wavelength."
 equation: length eq planck_constant mul (speed_of_light) frac energy
 symbol_overrides:
 - length: λ

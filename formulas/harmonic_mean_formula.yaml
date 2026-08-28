@@ -2,8 +2,19 @@ name: Harmonic mean
 id: harmonic_mean_formula
 topic: arithmetic
 difficulty: 6
-equation: dimensionless eq 2 frac ((1 frac dimensionless) add (1 frac dimensionless
-  ))
+links:
+- https://en.wikipedia.org/wiki/Harmonic_mean
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/05%3A_Radical_Expressions_and_Functions/5.07%3A_Harmonic_Mean
+- https://www.britannica.com/science/harmonic-mean
+- https://www.cuemath.com/data/harmonic-mean/
+- https://www.calculator.net/harmonic-mean-calculator.html
+description: The harmonic mean of two positive numbers is the reciprocal of the arithmetic
+  mean of their reciprocals, equal to twice the product divided by the sum. It is
+  one of the three Pythagorean means and is the appropriate average for rates and
+  ratios, such as average speed over equal distances or the equivalent resistance
+  of two equal resistors in parallel.
+equation: dimensionless eq 2 frac ((1 frac dimensionless) add 1 frac dimensionless
+  )
 symbol_overrides:
 - dimensionless: HM
 - dimensionless: a

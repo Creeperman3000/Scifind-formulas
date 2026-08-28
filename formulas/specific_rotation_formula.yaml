@@ -2,14 +2,19 @@ name: Specific rotation in polarimetry
 id: specific_rotation_formula
 topic: analytical_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Specific_rotation
+  - https://en.wikipedia.org/wiki/Optical_rotation
+  - https://en.wikipedia.org/wiki/Polarimeter
+  - https://en.wikipedia.org/wiki/Enantiomeric_excess
+  - https://www.chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Infrared_Spectroscopy/6.03%3A_Physical_Constants_and_Reference_Tables
+  - https://goldbook.iupac.org/terms/view/ST07576
+description: "Specific rotation is an intensive property of a chiral compound that quantifies how much plane-polarized light is rotated per unit path length and per unit concentration. It is reported in units of deg·mL·g⁻¹·dm⁻¹ and depends on the wavelength, temperature, and solvent of the measurement."
 equation: angle eq angle frac concentration mul length
 symbol_overrides:
-- angle: '[α]'
-- angle: α
-- concentration: ''
-- length: ''
+- angle: '[\alpha]'
+- angle: \alpha
 name_overrides:
-- angle: Specific [rotation]
-- angle: Observed [rotation]
-- concentration: ''
-- length: Path length
+- angle: Specific rotation
+- angle: Observed rotation
+- length: Path [length]

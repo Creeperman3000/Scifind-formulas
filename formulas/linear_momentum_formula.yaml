@@ -2,12 +2,11 @@ name: Linear momentum
 id: linear_momentum_formula
 topic: linear_momentum
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Momentum#Single_particle
+  - https://en.wikipedia.org/wiki/Momentum
+  - https://www.britannica.com/science/momentum
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/09%3A_Linear_Momentum_and_Collisions
+  - https://www.khanacademy.org/science/physics/linear-momentum/momentum-tutorial/a/what-is-momentum
+description: "Linear momentum is the product of an object's mass and its velocity, defined for a single particle in classical mechanics. It is a vector quantity that points in the direction of motion and is central to Newton's second law, where the net force equals the time derivative of momentum."
 equation: momentum eq mass mul velocity
-symbol_overrides:
-- momentum: ''
-- mass: ''
-- velocity: ''
-name_overrides:
-- momentum: ''
-- mass: ''
-- velocity: ''

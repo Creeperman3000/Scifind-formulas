@@ -2,10 +2,17 @@ name: Percent ionic character
 id: percent_ionic_character
 topic: chemical_bonding
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Electronegativity#Methods_of_calculation
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Chemical_Bonding_I%3A_The_Ionic_Covalent_Bond_Continuum/Case_Study%3A_Percent_Ionic_Character
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Chemical_Bonding/Fundamentals_of_Chemical_Bonding/Pauling%27s_Equation
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/05%3A_Chemical_Reactivity/5.1%3A_Chemical_Bonding/Pauling%27s_Electronegativity_Equation
+  - https://www.chem.purdue.edu/gchelp/gloss/electroneg.html
+description: "Pauling's empirical relation estimates the percent ionic character of a covalent bond from the electronegativity difference between the bonded atoms. The function approaches 100% as the difference grows and is small for bonds between atoms of similar electronegativity."
 equation: dimensionless eq 100 mul 1 sub exp (drop ((dimensionless frac 2) pow 2) sub)
 symbol_overrides:
 - dimensionless: '\%'
-- dimensionless: ΔEN
+- dimensionless: \Delta EN
 name_overrides:
 - dimensionless: Percent ionic character
 - dimensionless: Electronegativity difference

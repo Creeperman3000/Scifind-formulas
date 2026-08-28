@@ -2,12 +2,15 @@ name: RC circuit cutoff frequency
 id: rc_cutoff_frequency
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/RC_circuit
+  - https://en.wikipedia.org/wiki/Cutoff_frequency
+  - https://en.wikipedia.org/wiki/Time_constant
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.06%3A_RC_Circuits
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-16/voltage-and-current-calculations/
+description: "For a first-order RC filter, the cutoff (or corner) frequency is the frequency at which the output power falls to half its passband value, corresponding to a -3 dB gain. It is the reciprocal of the time constant and marks the boundary between a filter's passband and transition band."
 equation: frequency eq 1 frac ((2 mul pi) mul resistance mul capacitance )
 symbol_overrides:
 - frequency: f_c
-- resistance: ''
-- capacitance: ''
 name_overrides:
 - frequency: Cutoff [frequency]
-- resistance: ''
-- capacitance: ''

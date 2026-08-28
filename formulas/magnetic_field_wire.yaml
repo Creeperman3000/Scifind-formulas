@@ -2,11 +2,15 @@ name: Magnetic field around a long straight wire
 id: magnetic_field_wire
 topic: magnetism
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_field
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.03%3A_Magnetic_Field_due_to_a_Thin_Straight_Wire
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/magcur.html
+  - https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+description: "The magnitude of the magnetic flux density at a perpendicular distance r from an infinitely long, straight wire carrying steady current I, due to the Biot–Savart law (equivalently Ampère's law). The field lines form concentric circles around the wire, with direction given by the right-hand grip rule."
 equation: magnetic_flux_density eq vacuum_permeability mul (current) frac 2 mul (pi)
   mul length
 symbol_overrides:
-- magnetic_flux_density: B
-- current: I
 - length: r
 name_overrides:
 - magnetic_flux_density: Magnetic field

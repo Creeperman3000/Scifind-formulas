@@ -2,14 +2,27 @@ name: Overall percent yield for multi-step synthesis
 id: percent_yield_sequential_reactions
 topic: percent_yield
 difficulty: 7
-equation: dimensionless eq 100 mul dimensionless mul (dimensionless) mul (dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Yield_(chemistry)
+- https://en.wikipedia.org/wiki/Total_synthesis
+- https://en.wikipedia.org/wiki/Convergent_synthesis
+- https://www.organic-chemistry.org/Highlights/totalsynthesis.shtm
+- https://www.chem.wisc.edu/areas/reich/syntheses/syntheses.htm
+description: In a linear multi-step synthesis each intermediate is the product of
+  one reaction and the substrate of the next, so the overall percent yield is the
+  product of the individual step yields. Because each step is typically less than
+  quantitative, the overall yield falls off rapidly with the number of steps—for example,
+  five steps each at 80% give only about 33% overall. Convergent syntheses, which
+  combine independently prepared fragments, are often favoured for complex targets
+  because their effective step count is shorter.
+equation: dimensionless eq 100 mul dimensionless mul (dimensionless) mul dimensionless
 symbol_overrides:
 - dimensionless: \%_{total}
 - dimensionless: y_1
 - dimensionless: y_2
 - dimensionless: y_3
 name_overrides:
-- dimensionless: Total percent [yield]
+- dimensionless: Total percent yield
 - dimensionless: Yield of step 1
 - dimensionless: Yield of step 2
 - dimensionless: Yield of step 3

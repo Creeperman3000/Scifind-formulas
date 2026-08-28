@@ -2,7 +2,13 @@ name: Electric potential energy of two point charges
 id: electric_potential_energy
 topic: electrostatics
 difficulty: 7
-equation: energy eq coulomb_constant mul (charge mul charge ) frac length
+links:
+  - https://en.wikipedia.org/wiki/Electric_potential_energy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/07%3A_Electric_Potential/7.02%3A_Electric_Potential_Energy
+  - https://www.physicsbook.gatech.edu/Electric_Potential_Energy
+  - https://www.concepts-of-physics.com/electromagnetism/electric-potential-energy-of-system-of-point-charges.php
+description: "Gives the potential energy stored in a pair of point charges as a function of their separation, with zero taken at infinite separation. The sign follows the product of the charges: positive (repulsive) for like charges and negative (attractive) for opposite charges; summing over pairs extends it to systems of many charges."
+equation: energy eq frac (coulomb_constant mul charge mul charge) length
 symbol_overrides:
 - energy: U_e
 - charge: q_1
@@ -10,6 +16,4 @@ symbol_overrides:
 - length: r
 name_overrides:
 - energy: Electric potential [energy]
-- charge: ''
-- charge: ''
 - length: Separation

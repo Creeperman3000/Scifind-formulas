@@ -2,15 +2,24 @@ name: Electric potential of a dipole
 id: electric_potential_dipole
 topic: electric_potential
 difficulty: 8
-equation: electric_potential eq coulomb_constant mul (torque) mul (cos angle ) frac
+links:
+- https://www2.ph.ed.ac.uk/~mevans/em/lec5.pdf
+- https://web2.ph.utexas.edu/~vadim/Classes/2017f/dipole.pdf
+- https://www.concepts-of-physics.com/electromagnetism/electric-dipole.php
+- https://www.aakash.ac.in/important-concepts/physics/potential-due-to-an-electric-dipole
+description: Gives the electric potential at a point far from an electric dipole,
+  in terms of the dipole moment and the angle between the observation direction and
+  the dipole axis. Valid in the far-field limit where the distance greatly exceeds
+  the charge separation; the potential falls off as the square of the distance, faster
+  than for a single point charge, and vanishes everywhere on the equatorial plane.
+equation: electric_potential eq frac (coulomb_constant mul torque mul cos angle )
   length pow 2
 symbol_overrides:
-- electric_potential: ''
 - torque: p
 - angle: θ
 - length: r
 name_overrides:
-- electric_potential: Electric [potential]
-- torque: Dipole [moment]
+- electric_potential: '[electric_potential]'
+- torque: Dipole moment
 - angle: Angle from dipole axis
 - length: Distance

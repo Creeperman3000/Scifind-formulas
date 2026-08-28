@@ -2,10 +2,14 @@ name: Area of a circle
 id: area_circle
 topic: circles
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Area_of_a_circle
+  - https://math.libretexts.org/Bookshelves/Geometry/Elementary_College_Geometry_(Africk)/07%3A_Regular_Polygons_and_Circles/7.06%3A_Area_of_a_Circle
+  - https://www.mathsisfun.com/geometry/circle-area.html
+  - https://www.mathwords.com/a/area_circle.htm
+description: "Gives the region enclosed by a circle of a given radius. It is one of the most widely used formulas in geometry and appears throughout physics and engineering wherever circular cross-sections or rotational symmetry occur."
 equation: area eq pi mul length pow 2
 symbol_overrides:
-- area: ''
 - length: r
 name_overrides:
-- area: ''
 - length: Radius

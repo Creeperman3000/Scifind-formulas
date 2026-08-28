@@ -2,12 +2,20 @@ name: Relationship between Ka and Kb
 id: ka_kb_relation
 topic: acids_and_bases
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Acid_dissociation_constant
+  - https://en.wikipedia.org/wiki/Self-ionization_of_water
+  - https://en.wikipedia.org/wiki/Base_dissociation_constant
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Ionization_Constants
+  - https://www.chemguide.co.uk/physical/acidbaseeqia/kakb.html
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/ka-and-kb
+description: "For a conjugate acid–base pair in aqueous solution, the product of the acid dissociation constant K_a and the base dissociation constant K_b equals the ion product of water K_w. This relation implies that a stronger acid has a weaker conjugate base, and equivalently pK_a + pK_b = pK_w at 25 °C."
 equation: equilibrium_constant mul equilibrium_constant eq equilibrium_constant
 symbol_overrides:
 - equilibrium_constant: K_a
 - equilibrium_constant: K_b
 - equilibrium_constant: K_w
 name_overrides:
-- equilibrium_constant: Acid dissociation [constant]
-- equilibrium_constant: Base dissociation [constant]
+- equilibrium_constant: Acid dissociation constant
+- equilibrium_constant: Base dissociation constant
 - equilibrium_constant: Ion product of water

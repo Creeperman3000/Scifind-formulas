@@ -2,17 +2,22 @@ name: Force between parallel current-carrying wires
 id: force_between_parallel_wires
 topic: magnetism
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Force_between_magnets#Force_between_two_parallel_electric_currents
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.04%3A_Magnetic_Force_between_Two_Parallel_Currents
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-force-on-current-carrying-wires/v/magnetic-force-between-two-wires
+  - https://www.britannica.com/science/electromagnetism/Magnetic-fields-and-forces
+description: "Two long, straight, parallel wires carrying currents exert an attractive or repulsive force on each other through their magnetic fields. The magnitude of the force per unit length is proportional to the product of the currents and inversely proportional to the separation; this relation is the basis for the formal definition of the ampere."
 equation: force eq vacuum_permeability mul (current mul current ) mul (length) frac
   ((pi mul 2) mul length )
 symbol_overrides:
-- force: ''
-- current: I₁
-- current: I₂
-- length: L
-- length: d
+  - current: I_1
+  - current: I_2
+  - length: L
+  - length: d
 name_overrides:
-- force: Magnetic [force]
-- current: Current in wire 1
-- current: Current in wire 2
-- length: Wire length
-- length: Separation distance
+  - force: Magnetic [force] between the wires
+  - current: Current in wire 1
+  - current: Current in wire 2
+  - length: Length of the wires
+  - length: Separation distance

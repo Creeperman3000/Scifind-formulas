@@ -2,14 +2,18 @@ name: Parallel plate capacitance with dielectric
 id: capacitance_parallel_plate_dielectric
 topic: capacitance
 difficulty: 7
+links:
+  - https://openstax.org/books/college-physics-2e/pages/19-5-capacitors-and-dielectrics
+  - https://phys.libretexts.org/Courses/Joliet_Junior_College/JJC_-_PHYS_110/College_Physics_for_Health_Professions/19%3A_Electric_Potential_and_Electric_Field/19.06%3A_Capacitors_and_Dielectrics
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pplate.html
+  - https://www.physicsbootcamp.org/Parallel-Plate-Capacitor.html
+description: "This gives the capacitance of a parallel-plate capacitor whose gap is completely filled by an insulating dielectric material: larger plate area and higher relative permittivity raise the capacitance, while wider plate separation lowers it. The formula neglects edge effects, so it is accurate when the plates are close together compared with their size."
 equation: capacitance eq dimensionless mul (vacuum_permittivity) mul (area) frac length
 symbol_overrides:
-- capacitance: ''
-- dimensionless: ε_r
-- area: ''
+- dimensionless: \varepsilon_r
 - length: d
 name_overrides:
-- capacitance: '[Capacitance]'
+- capacitance: '[capacitance]'
 - dimensionless: Relative permittivity
 - area: Plate [area]
 - length: Plate separation

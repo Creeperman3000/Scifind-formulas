@@ -2,17 +2,25 @@ name: Crystal field stabilization energy (octahedral)
 id: cfse_octahedral
 topic: inorganic_chemistry
 difficulty: 9
-equation: energy eq drop (dimensionless mul (energy) add dimensionless mul energy)
-  sub
+links:
+- https://chem.libretexts.org/Courses/University_of_California_Davis/Chem_124A%3A_Fundamentals_of_Inorganic_Chemistry/09%3A_Crystal_Field_Theory/9.02%3A_Crystal_Field_Stabilization_Energy
+- https://en.wikipedia.org/wiki/Crystal_field_theory
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Introduction_to_Inorganic_Chemistry_(Wikibook)/05%3A_Coordination_Chemistry_and_Crystal_Field_Theory/5.06%3A_Crystal_Field_Stabilization_Energy_Pairing_and_Hund's_Rule
+description: Net energy by which a d-electron configuration in an octahedral ligand
+  field is more stable than the same electrons spread evenly over all five d orbitals
+  (the barycenter). Electrons in the lower t2g set stabilize the complex while electrons
+  in the upper eg set destabilize it, so the balance depends on how many occupy each
+  set. Used to compare complex stabilities, site preferences, and high-spin versus
+  low-spin configurations; pairing energy must be accounted for separately.
+equation: energy eq mul (sub (dimensionless mul frac 3 5 ) dimensionless mul frac
+  2 5 ) energy
 symbol_overrides:
-- energy: CFSE
-- dimensionless: n_{t2g}
-- energy: Δ_{oct}
-- dimensionless: n_{eg}
-- energy: Δ_{oct}
+- energy: \mathrm{CFSE}
+- energy: \Delta_{oct}
+- dimensionless: n_{e_g}
+- dimensionless: n_{t_{2g}}
 name_overrides:
 - energy: Crystal field stabilization [energy]
-- dimensionless: Electrons in t₂g orbitals
-- energy: Octahedral [crystal field] splitting
+- energy: Octahedral crystal field splitting
 - dimensionless: Electrons in e_g orbitals
-- energy: Octahedral [crystal field] splitting
+- dimensionless: Electrons in t₂g orbitals

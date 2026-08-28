@@ -2,6 +2,13 @@ name: Standard deviation
 id: standard_deviation
 topic: statistics
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Standard_deviation
+  - https://en.wikipedia.org/wiki/Variance
+  - https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-population
+  - https://math.libretexts.org/Bookshelves/Statistics/Introductory_Statistics/02%3A_Descriptive_Statistics/2.05%3A_Measures_of_Variability
+  - https://www.britannica.com/topic/standard-deviation
+description: "The standard deviation quantifies the average spread of a set of values around their mean and equals the square root of the variance. It is widely used in descriptive statistics, hypothesis testing, and quality control because, unlike the variance, it is expressed in the same units as the underlying data."
 equation: dimensionless eq sqrt dimensionless 2
 symbol_overrides:
 - dimensionless: σ

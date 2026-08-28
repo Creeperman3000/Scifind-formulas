@@ -2,6 +2,12 @@ name: Continuity equation
 id: continuity_equation
 topic: continuity_equation
 difficulty: 7
+links:
+  - https://www.physicsclassroom.com/class/fluids/fluids-in-motion/equation-of-continuity
+  - https://brilliant.org/wiki/continuity-equation-fluids/
+  - https://boxsand.physics.oregonstate.edu/sites/boxsand.physics.oregonstate.edu/files/Media-3/Ryan/ph202_su18/lecture_complete/fluids/Fluid%20dynamics%20-%20continuity.pdf
+  - https://web.stanford.edu/~cantwell/AA210A_Course_Material/AA210A_Lectures/AA210A_Chapter_1_Intro_to_fluid_flow_Brian_J_Cantwell.pdf
+description: "For an incompressible fluid flowing steadily through a pipe or channel, the volume passing any cross-section per unit time is the same everywhere along the flow. Consequently, fluid speeds up where the conduit narrows and slows where it widens — the reason water squirts faster from a pinched hose. It is the conservation-of-mass statement for fluids of constant density and assumes the pipe runs completely full."
 equation: area mul velocity eq area mul velocity
 symbol_overrides:
 - area: A_1

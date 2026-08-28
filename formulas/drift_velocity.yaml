@@ -2,16 +2,14 @@ name: Drift velocity
 id: drift_velocity
 topic: current_electricity
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Drift_velocity
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/electric/ohmmic.html
+description: "Gives the slow average velocity that charge carriers (such as free electrons) acquire along a conductor when a current flows, superimposed on their much faster random thermal motion. For a conductor of uniform cross-section, the drift speed depends on the current, the carrier number density, and the cross-sectional area. It explains why electrical signals travel fast even though individual electrons move only fractions of a millimetre per second."
 equation: velocity eq current frac area mul (amount frac volume ) mul elementary_charge
 symbol_overrides:
 - velocity: v_d
-- current: ''
-- area: ''
-- amount: ''
-- volume: ''
 name_overrides:
 - velocity: Drift [velocity]
-- current: ''
-- area: ''
 - amount: Number of charge carriers
-- volume: '[Volume]'
+- volume: '[volume]'

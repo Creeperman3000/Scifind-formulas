@@ -2,16 +2,20 @@ name: Velocity as function of position in SHM
 id: shm_velocity_position
 topic: harmonic_motion
 difficulty: 7
-description: "Valid for simple harmonic motion; v = ±ω√(A² − x²) relates velocity to position."
-equation: velocity eq angular_velocity mul sqrt ((length pow 2) sub length pow 2 )
-  2
+links:
+  - https://en.wikipedia.org/wiki/Simple_harmonic_motion#Dynamics
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.02%3A_Simple_Harmonic_Motion
+  - https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/introduction-to-harmonic-motion
+  - https://hyperphysics.phy-astr.gsu.edu/hbase/shm.html
+  - https://www.britannica.com/science/simple-harmonic-motion
+description: "Relates the speed of a simple harmonic oscillator to its current position, derived from energy conservation (kinetic plus potential equals the total mechanical energy set by the amplitude). The expression under the square root vanishes at the turning points where the speed is zero, and reaches its maximum at the equilibrium position where displacement vanishes."
+equation: velocity eq angular_velocity mul sqrt ((length pow 2) sub length pow 2 ) 2
 symbol_overrides:
-- velocity: ''
-- angular_velocity: ω
-- length: A
-- length: ''
+  - angular_velocity: ω
+  - length: A
+  - length: x
 name_overrides:
-- velocity: '[Velocity]'
-- angular_velocity: Angular frequency
-- length: Amplitude
-- length: ''
+  - velocity: '[velocity]'
+  - angular_velocity: Angular frequency
+  - length: Amplitude
+  - length: Displacement

@@ -2,7 +2,19 @@ name: Zero-order reaction half-life
 id: zero_order_half_life
 topic: chemical_kinetics
 difficulty: 7
-equation: time eq concentration frac (2 mul frequency )
+links:
+- https://en.wikipedia.org/wiki/Half-life#Zero_order_kinetics
+- https://en.wikipedia.org/wiki/Rate_equation#Zero_order
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Zero-Order_Reactions
+- https://www.khanacademy.org/science/chemistry/chemical-kinetics-topic/zero-order-reactions
+- https://www.britannica.com/science/zero-order-reaction
+description: The half-life of a zero-order reaction is the time required for the reactant
+  concentration to fall to half of its initial value. Unlike first-order kinetics,
+  the half-life depends on the initial concentration and the zero-order rate constant
+  k, so it lengthens as the reaction proceeds. Zero-order behavior typically arises
+  when a catalyst or surface is saturated, such as in many enzyme-catalyzed reactions
+  at high substrate concentration.
+equation: time eq concentration frac 2 mul frequency
 symbol_overrides:
 - time: t_{1/2}
 - concentration: '[A]_0'

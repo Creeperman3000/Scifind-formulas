@@ -2,14 +2,20 @@ name: Percent ionization of a weak acid
 id: percent_ionization
 topic: acids_and_bases
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Acid_strength#Weak_acids
+  - https://en.wikipedia.org/wiki/Acid_dissociation_constant
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Ionization_Constants/Percent_Ionization
+  - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/weak-acid-equilibrium
+  - https://www.thoughtco.com/percent-ionization-609605
+description: "Percent ionization is the fraction of an initially dissolved weak acid that has dissociated into ions at equilibrium, expressed as a percentage. It is used to assess acid strength and depends on both the acid dissociation constant and the initial concentration, generally decreasing as the acid is diluted."
 equation: dimensionless eq concentration frac (concentration) mul dimensionless
 symbol_overrides:
 - dimensionless: '\% ionization'
-- concentration: '[H⁺]'
+- concentration: '[H^{+}]'
 - concentration: '[HA]_{initial}'
 - dimensionless: '100'
 name_overrides:
 - dimensionless: Percent ionization
-- concentration: Equilibrium [H⁺] concentration
+- concentration: Equilibrium H^{+} [concentration]
 - concentration: Initial acid [concentration]
-- dimensionless: ''

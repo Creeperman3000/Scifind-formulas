@@ -2,7 +2,17 @@ name: Percent yield
 id: percent_yield
 topic: percent_yield
 difficulty: 5
-equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+links:
+- https://en.wikipedia.org/wiki/Yield_(chemistry)
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Stoichiometry/Percent_Yield
+- https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiometry/limiting-reagent-stoichiometry/v/theoretical-yield-and-limiting-reagents
+- https://www.thoughtco.com/calculate-percent-yield-609580
+- https://www.britannica.com/science/chemical-yield
+description: Percent yield compares the amount of product actually obtained from a
+  chemical reaction to the maximum amount predicted from stoichiometry (the theoretical
+  yield). It is a key practical measure of reaction efficiency, accounting for losses
+  from side reactions, incomplete conversion, and product purification.
+equation: dimensionless eq 100 mul dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: \%
 - dimensionless: actual

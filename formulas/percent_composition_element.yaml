@@ -2,15 +2,24 @@ name: Percent composition of an element
 id: percent_composition_element
 topic: organic_chemistry
 difficulty: 4
-equation: dimensionless eq 100 mul ((dimensionless mul (molar_mass )) frac (molar_mass
-  ))
+links:
+- https://en.wikipedia.org/wiki/Elemental_analysis
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Chemical_Composition/Percent_Composition
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/03%3A_Stoichiometry%3A_Counting_Atoms_and_Molecules/3.3%3A_Percent_Composition_and_Empirical_Formulas
+- https://www.thoughtco.com/percent-composition-by-mass-chemistry-609585
+- https://www.britannica.com/science/elemental-analysis
+description: The percent composition of a specific element in a compound equals the
+  total mass of that element per formula unit divided by the molar mass of the whole
+  compound, expressed as a percentage. It is used in combustion analysis to confirm
+  the empirical and molecular formulas of unknown compounds.
+equation: dimensionless eq 100 mul dimensionless mul (molar_mass ) frac molar_mass
 symbol_overrides:
 - dimensionless: \%
 - dimensionless: n
 - molar_mass: M_{element}
 - molar_mass: M_{compound}
 name_overrides:
-- dimensionless: Percent [composition]
+- dimensionless: Percent composition
 - dimensionless: Number of atoms
-- molar_mass: Molar mass of [element]
-- molar_mass: Molar mass of [compound]
+- molar_mass: '[molar_mass] of element'
+- molar_mass: '[molar_mass] of compound'

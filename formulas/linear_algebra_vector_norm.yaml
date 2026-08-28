@@ -2,12 +2,21 @@ name: Euclidean norm of a vector
 id: linear_algebra_vector_norm
 topic: linear_algebra
 difficulty: 5
-equation: dimensionless eq sqrt (dimensionless add 2 pow dimensionless pow 2 ) 2
+links:
+- https://en.wikipedia.org/wiki/Norm_(mathematics)
+- https://en.wikipedia.org/wiki/Euclidean_vector
+- https://mathworld.wolfram.com/VectorNorm.html
+- https://math.libretexts.org/Bookshelves/Linear_Algebra/Interactive_Linear_Algebra_(Margalit_and_Rabinoff)/06%3A_Orthogonality/6.01%3A_Vector_Norms
+description: The Euclidean norm (also called the 2-norm or magnitude) assigns to a
+  vector in real n-dimensional space the non-negative real number that corresponds
+  to its geometric length. It satisfies absolute homogeneity, the triangle inequality,
+  and is zero only for the zero vector, and is the most commonly used norm on R^n.
+equation: dimensionless eq sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
 symbol_overrides:
 - dimensionless: '||v||'
 - dimensionless: v_x
 - dimensionless: v_y
 name_overrides:
-- dimensionless: Vector [norm]
+- dimensionless: Vector norm
 - dimensionless: x-component
 - dimensionless: y-component

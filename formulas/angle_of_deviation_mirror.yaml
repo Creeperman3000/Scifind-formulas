@@ -2,10 +2,19 @@ name: Angle of deviation by a plane mirror
 id: angle_of_deviation_mirror
 topic: reflection
 difficulty: 5
-equation: angle eq pi sub (2 mul angle )
+links:
+- https://www.brainkart.com/article/Ray-Optics_41431/
+- https://www.shaalaa.com/question-bank-solutions/what-is-angle-of-deviation-due-to-reflection_226521
+- https://www.pw.live/chapter-optics-class-12/reflection-from-a-plane-surface
+description: The angle of deviation is the angle between the original direction of
+  an incident ray and its direction after reflection by a plane mirror. Because the
+  law of reflection makes the angles of incidence and reflection equal, a single reflection
+  turns the ray through this deviation, which is largest (a full reversal) at normal
+  incidence and shrinks as the ray strikes more obliquely.
+equation: angle eq pi sub 2 mul angle
 symbol_overrides:
-- angle: δ
-- angle: θ
+- angle: \delta
+- angle: \theta
 name_overrides:
 - angle: Angle of deviation
 - angle: Angle of incidence

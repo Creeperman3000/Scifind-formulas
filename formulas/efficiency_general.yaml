@@ -2,12 +2,18 @@ name: General efficiency
 id: efficiency_general
 topic: conservation_of_energy
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Energy_conversion_efficiency
+  - https://byjus.com/efficiency-formula/
+  - https://www.savemyexams.com/as/physics/cie/25/revision-notes/5-work-energy-and-power/5-1-energy-conservation/efficiency/
+  - https://www.schoolphysics.co.uk/age16-19/Mechanics/Dynamics/text/Efficiency_/index.html
+description: "Efficiency measures how well a device or process converts input energy into useful output, expressed as a dimensionless ratio between zero and one (often quoted as a percentage). Because real machines inevitably dissipate some energy as heat, sound, or other waste forms, no real device can reach perfect efficiency; the concept is central to comparing engines, motors, and power systems."
 equation: dimensionless eq energy frac energy
 symbol_overrides:
 - dimensionless: η
 - energy: E_{out}
 - energy: E_{in}
 name_overrides:
-- dimensionless: '[Efficiency]'
+- dimensionless: Efficiency
 - energy: Useful output [energy]
 - energy: Total input [energy]

@@ -2,16 +2,20 @@ name: Area of a trapezoid
 id: area_trapezoid
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://resources.wolframcloud.com/FormulaRepository/resources/Trapezoid-Area
+  - https://www.freemathhelp.com/area
+  - https://www.basic-mathematics.com/area-of-a-trapezoid.html
+  - https://www.calculatorsoup.com/calculators/geometry-plane/trapezoid.php
+description: "Gives the area enclosed by a trapezoid, a quadrilateral with one pair of parallel sides called the bases. It can be interpreted as the average length of the two parallel sides taken over their perpendicular separation. Applies to any trapezoid (right, isosceles, or scalene) and underlies the trapezoidal rule used to approximate areas under curves."
 equation: area eq dimensionless frac (dimensionless) mul (length add length ) mul length
 symbol_overrides:
-- area: A
 - dimensionless: '1'
 - dimensionless: '2'
 - length: b_1
 - length: b_2
 - length: h
 name_overrides:
-- area: Area
 - dimensionless: One
 - dimensionless: Two
 - length: Base 1

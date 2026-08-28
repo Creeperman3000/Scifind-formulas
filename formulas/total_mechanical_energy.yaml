@@ -2,11 +2,17 @@ name: Total mechanical energy
 id: total_mechanical_energy
 topic: conservation_of_energy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Mechanical_energy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Potential_Energy_and_Conservation_of_Energy/8.01%3A_Potential_Energy_of_a_System
+  - https://www.britannica.com/science/mechanical-energy
+  - https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/v/conservation-of-energy
+  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/8-1-potential-energy-of-a-system/
+description: "Total mechanical energy is the sum of the macroscopic kinetic and potential energies of a system. In the absence of non-conservative forces such as friction, this sum is conserved over time and energy merely transfers between its kinetic and potential components."
 equation: energy eq energy add energy
 symbol_overrides:
 - energy: K
 - energy: U
-- energy: ''
 name_overrides:
 - energy: Total mechanical [energy]
 - energy: Kinetic [energy]

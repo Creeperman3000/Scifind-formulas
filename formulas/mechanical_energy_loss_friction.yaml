@@ -2,6 +2,12 @@ name: Energy loss due to friction
 id: mechanical_energy_loss_friction
 topic: conservation_of_energy
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://en.wikipedia.org/wiki/Conservation_of_energy
+  - https://openstax.org/books/university-physics-volume-1/pages/7-6-conservation-of-energy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy/7.07%3A_Conservation_of_Energy
+description: "When kinetic friction acts on a sliding object, mechanical energy is not conserved: the work done by friction is negative and removes energy from the system. Equivalently, the final mechanical energy equals the initial mechanical energy (kinetic plus potential) plus the work done by friction, illustrating the conversion of mechanical energy into heat via dissipative forces."
 equation: energy eq energy add (energy) sub energy
 symbol_overrides:
 - energy: E_f

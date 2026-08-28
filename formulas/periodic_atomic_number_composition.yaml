@@ -2,12 +2,16 @@ name: Atomic number from composition
 id: periodic_atomic_number_composition
 topic: periodic_table
 difficulty: 3
-equation: dimensionless eq dimensionless add dimensionless
+links:
+  - https://en.wikipedia.org/wiki/Atomic_number
+  - https://en.wikipedia.org/wiki/Chemical_element
+  - https://en.wikipedia.org/wiki/Proton
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/02%3A_Atoms_Molecules_and_Ions/2.03%3A_The_Atomic_Structure
+description: The atomic number (Z) of an element is defined as the number of protons in the nucleus, which uniquely identifies the element. In an electrically neutral atom, this is also equal to the number of electrons, and it is what determines the element's position in the periodic table.
+equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: Z
 - dimensionless: p
-- dimensionless: e
 name_overrides:
-- dimensionless: Atomic [number]
+- dimensionless: Atomic number
 - dimensionless: Number of protons
-- dimensionless: Number of electrons (neutral atom)

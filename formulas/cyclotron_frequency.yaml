@@ -2,13 +2,12 @@ name: Cyclotron frequency
 id: cyclotron_frequency
 topic: magnetism
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Cyclotron_motion
+  - https://www.omnicalculator.com/physics/cyclotron-frequency
+  - https://fiveable.me/principles-physics-ii/key-terms/cyclotron-frequency
+description: "The cyclotron frequency is the rate at which a charged particle completes circular orbits in a plane perpendicular to a uniform magnetic field, with the magnetic force supplying the centripetal force. Remarkably, it depends only on the particle's charge-to-mass ratio and the field strength — not on its speed or orbit radius — which is the property that makes cyclotron accelerators work; relativistic speeds cause the simple formula to break down."
 equation: frequency eq elementary_charge mul (magnetic_flux_density) frac ((2 mul pi)
   mul mass )
-symbol_overrides:
-- frequency: ''
-- magnetic_flux_density: ''
-- mass: ''
 name_overrides:
 - frequency: Cyclotron [frequency]
-- magnetic_flux_density: ''
-- mass: ''

@@ -2,6 +2,13 @@ name: Series combination of inductors
 id: inductance_series
 topic: electromagnetic_induction
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Inductors
+  - https://en.wikipedia.org/wiki/Inductance
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-natural-and-step-response/ee-inductor-networks
+  - https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_(OpenStax)/14%3A_Electromagnetic_Induction/14.06%3A_Inductance
+  - https://www.electronics-tutorials.ws/inductor/series-inductors.html
+description: "For non-coupled inductors connected in series, the equivalent inductance is the sum of the individual inductances, because the same current flows through every inductor and the total voltage is the sum of the individual voltage drops. The rule requires mutual inductance to be negligible; otherwise mutual-coupling terms appear in the expression."
 equation: inductance eq inductance add inductance
 symbol_overrides:
 - inductance: L_{eq}
@@ -9,5 +16,5 @@ symbol_overrides:
 - inductance: L₂
 name_overrides:
 - inductance: Equivalent [inductance]
-- inductance: '[Inductance] 1'
-- inductance: '[Inductance] 2'
+- inductance: '[inductance] 1'
+- inductance: '[inductance] 2'

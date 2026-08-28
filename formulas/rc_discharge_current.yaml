@@ -2,17 +2,20 @@ name: RC circuit discharge current
 id: rc_discharge_current
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/RC_circuit
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.06%3A_RC_Circuits
+  - https://en.wikipedia.org/wiki/Time_constant
+  - https://www.allaboutcircuits.com/textbook/direct-current/chpt-16/voltage-and-current-calculations/
+description: "When a charged capacitor discharges through a resistor, the current decays exponentially in magnitude. With the conventional sign choice the current flows opposite to the charging direction, so the signed current is negative of the initial value, and at one time constant it has fallen to about 36.8% of its initial magnitude."
 equation: current eq drop current mul exp (drop (time frac resistance mul capacitance)
   sub) sub
 symbol_overrides:
 - current: I(t)
 - current: I₀
-- time: ''
-- resistance: ''
-- capacitance: ''
 name_overrides:
 - current: Discharge [current]
 - current: Initial [current]
-- time: '[Time]'
-- resistance: '[Resistance]'
-- capacitance: '[Capacitance]'
+- time: '[time]'
+- resistance: '[resistance]'
+- capacitance: '[capacitance]'

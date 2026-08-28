@@ -2,12 +2,19 @@ name: Enzyme reaction velocity definition
 id: enzyme_reaction_velocity_definition
 topic: biochemistry
 difficulty: 7
-equation: catalytic_activity eq concentration frac time
+links:
+- https://en.wikipedia.org/wiki/Enzyme_kinetics
+- https://clinicalpub.com/enzymes
+- https://www.pearson.com/channels/biochemistry/study-guides/introduction-to-enzyme-kinetics-principles-and-1
+description: Defines the velocity of an enzyme-catalyzed reaction as the instantaneous
+  rate at which substrate is consumed (equivalently, the rate at which product appears
+  for one-to-one stoichiometry). Initial velocities measured this way are the raw
+  data on which enzyme kinetics, including Michaelis–Menten analysis, is built.
+equation: catalytic_activity eq 0 sub frac rmd concentration rmd time
 symbol_overrides:
 - catalytic_activity: v
 - concentration: '[S]'
-- time: ''
+- time: t
 name_overrides:
 - catalytic_activity: Reaction velocity
-- concentration: Substrate concentration
-- time: ''
+- concentration: Substrate [concentration]

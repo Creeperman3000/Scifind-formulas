@@ -2,14 +2,18 @@ name: Stokes' law for drag on a sphere
 id: stokes_law_drag
 topic: reynolds_number
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Stokes%27s_law
+  - https://en.wikipedia.org/wiki/Drag_(physics)
+  - https://en.wikipedia.org/wiki/Stokes_flow
+  - https://en.wikipedia.org/wiki/Terminal_velocity
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/21%3A_Fluid_Mechanics/21.07%3A_Terminal_Speed
+  - https://www.britannica.com/science/Stokess-law
+description: "Stokes's law gives the viscous drag force on a small sphere moving at very low Reynolds number through a fluid, assuming laminar flow, spherical shape, homogeneous material, and smooth non-interacting particles. It underlies falling-sphere viscometry and the derivation of the terminal velocity of microscopic particles settling in air or liquid."
 equation: force eq (pi mul 6) mul (dynamic_viscosity) mul (length) mul velocity
 symbol_overrides:
 - force: F_d
-- dynamic_viscosity: ''
 - length: r
-- velocity: ''
 name_overrides:
 - force: Drag [force]
-- dynamic_viscosity: ''
 - length: Sphere radius
-- velocity: ''

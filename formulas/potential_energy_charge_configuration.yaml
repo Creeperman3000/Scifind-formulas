@@ -2,14 +2,20 @@ name: Electric potential energy of a charge configuration
 id: potential_energy_charge_configuration
 topic: electric_potential
 difficulty: 8
-equation: energy eq coulomb_constant mul (charge mul charge ) frac (2 mul length )
+links:
+  - https://en.wikipedia.org/wiki/Electric_potential_energy
+  - https://en.wikipedia.org/wiki/Coulomb%27s_law
+  - https://en.wikipedia.org/wiki/Electrostatic_potential_energy_stored_in_a_system_of_point_charges
+  - https://www.khanacademy.org/science/physics/work-and-energy/work-and-potential-energy/v/potential-energy-of-charges
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/07%3A_Electric_Potential
+description: "This is the electrostatic potential energy associated with bringing two point charges from infinite separation to a fixed distance apart, equal to the work an external agent must do against the repulsive (or attractive) Coulomb force. For a general configuration of N charges the total energy is one half the sum over all distinct pairs to avoid double counting."
+equation: energy eq coulomb_constant mul charge mul charge frac length
 symbol_overrides:
-- energy: ''
-- charge: q_1
-- charge: q_2
-- length: r
+  - charge: q_1
+  - charge: q_2
+  - length: r
 name_overrides:
-- energy: Potential [energy]
-- charge: ''
-- charge: ''
-- length: Separation
+  - energy: Potential [energy]
+  - charge: Charge 1
+  - charge: Charge 2
+  - length: Separation

@@ -2,6 +2,11 @@ name: Carnot efficiency
 id: carnot_efficiency
 topic: heat_engines
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Carnot_heat_engine
+  - https://openstax.org/books/college-physics/pages/15-4-carnots-perfect-heat-engine-the-second-law-of-thermodynamics-restated
+  - https://en.wikipedia.org/wiki/Carnot_cycle
+description: "The Carnot efficiency is the maximum theoretical efficiency any heat engine can achieve while operating between a hot and a cold reservoir, set by their absolute temperatures alone. By Carnot's theorem, no real engine can exceed this bound, and the limit is reached only by an ideal, fully reversible cycle. It is used as a benchmark for power plants and engines; both temperatures must be expressed on an absolute (kelvin) scale."
 equation: dimensionless eq dimensionless sub temperature frac temperature
 symbol_overrides:
 - dimensionless: \eta
@@ -9,7 +14,7 @@ symbol_overrides:
 - temperature: T_C
 - temperature: T_H
 name_overrides:
-- dimensionless: Carnot [efficiency]
+- dimensionless: Carnot efficiency
 - dimensionless: One
 - temperature: Cold reservoir [temperature]
 - temperature: Hot reservoir [temperature]

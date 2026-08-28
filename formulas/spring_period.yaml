@@ -2,12 +2,19 @@ name: Period of a mass-spring system
 id: spring_period
 topic: harmonic_motion
 difficulty: 6
-equation: time eq 2 mul pi mul sqrt (mass frac spring_constant ) 2
+links:
+- https://en.wikipedia.org/wiki/Simple_harmonic_motion
+- https://en.wikipedia.org/wiki/Spring_(device)
+- https://en.wikipedia.org/wiki/Hooke%27s_law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.02%3A_Simple_Harmonic_Motion
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.05%3A_Pendulums
+- https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/period-of-a-mass-on-a-spring-ap-physics-1
+description: For an undamped mass on an ideal linear spring, the period of small oscillations
+  depends only on the mass and the spring constant, not on the amplitude. The motion
+  is isochronous and is the prototypical example of simple harmonic motion.
+equation: ((time) eq (2 mul pi mul ((mass div spring_constant) sqrt 2)))
 symbol_overrides:
 - time: T
-- mass: m
-- spring_constant: k
 name_overrides:
 - time: Period
-- mass: Mass
-- spring_constant: Spring [constant]
+- spring_constant: '[spring_constant]'

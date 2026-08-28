@@ -2,12 +2,23 @@ name: Iodine number of a fat
 id: iodine_number
 topic: organic_chemistry
 difficulty: 8
-equation: dimensionless eq 100 mul (mass frac (mass))
+links:
+- https://en.wikipedia.org/wiki/Iodine_value
+- https://www.britannica.com/science/iodine-value
+- https://lipidlibrary.aocs.org/resource-material/scientific-milestones-in-lipid-research/arthur-von-h%C3%BCbl-and-the-iodine-value
+- https://www.sciencedirect.com/topics/chemistry/iodine-value
+- https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.04%3A_Iodine_Value
+description: The iodine number (or iodine value) is the mass of iodine in grams that
+  is consumed by 100 grams of a chemical substance, and is a measure of the degree
+  of unsaturation in fats, oils, and waxes. It is determined by reacting the sample
+  with an excess of a halogen reagent such as Wijs solution and back-titrating the
+  unreacted halogen.
+equation: dimensionless eq 100 mul mass frac mass
 symbol_overrides:
 - dimensionless: Iodine number
 - mass: I_2 absorbed
 - mass: sample
 name_overrides:
 - dimensionless: Iodine number
-- mass: Mass of iodine absorbed
-- mass: Mass of sample
+- mass: '[mass] of iodine absorbed'
+- mass: '[mass] of sample'

@@ -2,8 +2,20 @@ name: F-statistic for regression
 id: f_statistic_regression
 topic: statistics
 difficulty: 9
-equation: dimensionless eq dimensionless frac (dimensionless) frac dimensionless frac
-  dimensionless sub (dimensionless) sub 1
+links:
+- https://en.wikipedia.org/wiki/F-test
+- https://en.wikipedia.org/wiki/F-statistic
+- https://www.itl.nist.gov/div898/handbook/eda/section3/eda3673.htm
+- https://online.stat.psu.edu/stat501/lesson/6/6.2
+- https://stattrek.com/regression/f-test
+- https://www.khanacademy.org/math/statistics-probability/significance-tests-regression-inference
+description: The F-statistic for a multiple linear regression tests whether the model
+  explains a significant portion of the response variance. It compares the mean square
+  due to regression to the mean square of the residuals; under the null hypothesis
+  that all slope coefficients are zero it follows an F-distribution with (p, n-p-1)
+  degrees of freedom.
+equation: dimensionless eq (dimensionless frac dimensionless) frac dimensionless frac
+  dimensionless sub dimensionless sub 1
 symbol_overrides:
 - dimensionless: F
 - dimensionless: SS_{\mathrm{reg}}
@@ -14,7 +26,7 @@ symbol_overrides:
 name_overrides:
 - dimensionless: F-statistic
 - dimensionless: Regression sum of squares
-- dimensionless: Predictors
+- dimensionless: Number of predictors
 - dimensionless: Residual sum of squares
 - dimensionless: Sample size
-- dimensionless: ''
+- dimensionless: Number of predictors

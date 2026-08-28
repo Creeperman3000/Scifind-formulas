@@ -2,6 +2,14 @@ name: Limit of detection
 id: limit_of_detection_formula
 topic: analytical_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Detection_limit
+  - https://goldbook.iupac.org/terms/view/L03540.html
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556583/
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/07%3A_Obtaining_and_Preparing_Samples_for_Analysis/7.4%3A_Limits_of_Detection
+  - https://www.chromatographyonline.com/view/detection-limit-and-limit-quantitation
+  - https://pubs.acs.org/doi/10.1021/ac00258a724
+description: "The limit of detection is the lowest concentration of an analyte that can be reliably distinguished from a blank measurement, typically defined as the analyte concentration producing a signal three (or 3.3) standard deviations of the blank above the blank mean. The factor 3.3 arises from the one-sided t-distribution at 99% confidence for a small number of replicate blank measurements, and the slope of the calibration curve converts the signal-based definition into a concentration."
 equation: concentration eq dimensionless mul (dimensionless) frac dimensionless
 symbol_overrides:
 - concentration: LOD
@@ -12,4 +20,3 @@ name_overrides:
 - concentration: Limit of detection
 - dimensionless: Standard deviation of blank
 - dimensionless: Slope of calibration curve
-- dimensionless: ''

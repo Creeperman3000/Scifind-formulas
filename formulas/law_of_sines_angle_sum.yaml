@@ -2,6 +2,16 @@ name: Law of sines side ratio
 id: law_of_sines_angle_sum
 topic: laws_of_sines_and_cosines
 difficulty: 5
+links:
+- https://en.wikipedia.org/wiki/Law_of_sines
+- https://www.britannica.com/science/law-of-sines
+- https://www.mathsisfun.com/algebra/trig-sine-law.html
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/02%3A_General_Triangles/2.01%3A_The_Law_of_Sines
+- https://louis.pressbooks.pub/trigonometry/chapter/3-2-the-law-of-sines/
+description: The full form of the law of sines expresses all three side-length-to-opposite-angle-sine
+  ratios at once, making it clear that each ratio is equal to a common constant equal
+  to the diameter of the triangle's circumscribed circle. This is the form most often
+  quoted in textbooks and used in derivations.
 equation: length frac sin angle eq length frac sin angle eq length frac sin angle
 symbol_overrides:
 - length: a
@@ -16,4 +26,4 @@ name_overrides:
 - length: Side b
 - angle: Angle B
 - length: Side c
-- angle: Angle C
+- angle: C

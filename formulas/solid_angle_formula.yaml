@@ -1,14 +1,19 @@
 name: Solid angle
 id: solid_angle_formula
-topic: circles
-difficulty: 8
-description: Valid for a spherical surface patch of area A at radius r (projected-area
+topic: geometry
+difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Solid_angle
+  - https://en.wikipedia.org/wiki/Steradian
+  - https://mathworld.wolfram.com/SolidAngle.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/01%3A_Units_and_Measurement/1.7%3A_Dimensional_Analysis
+  - https://www.britannica.com/science/solid-angle
+description: "The solid angle subtended at a point by a surface patch equals the projected area of that patch onto a unit sphere centered at the point, with the SI unit of steradian. A small object near the apex can subtend the same solid angle as a much larger, more distant object."
 equation: solid_angle eq area frac length pow 2
 symbol_overrides:
 - solid_angle: Ω
-- area: ''
 - length: r
 name_overrides:
-- solid_angle: ''
-- area: Surface [area]
+- solid_angle: Solid angle
+- area: Projected [area]
 - length: Radius

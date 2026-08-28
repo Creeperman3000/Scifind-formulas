@@ -2,14 +2,21 @@ name: Wheatstone bridge balance condition
 id: wheatstone_bridge_balance
 topic: circuits
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Wheatstone_bridge
+  - https://www.electronics-tutorials.ws/blog/wheatstone-bridge.html
+  - https://www.physics-and-radio-electronics.com/electronic-devices-and-circuits/uncategorized/wheatstonebridge.html
+  - https://www.britannica.com/technology/Wheatstone-bridge
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/09%3A_Current_and_Resistance/9.09%3A_Superconductors
+description: "A Wheatstone bridge is balanced when the ratio of resistances in one leg equals the ratio in the other, so that the galvanometer reads zero current. The bridge is widely used to measure an unknown resistance with high precision, and to transduce small changes in resistance due to strain, temperature, or other physical quantities."
 equation: resistance frac resistance eq resistance frac resistance
 symbol_overrides:
-- resistance: R₁
-- resistance: R₂
-- resistance: R₃
-- resistance: R₄
+- resistance: R_1
+- resistance: R_2
+- resistance: R_3
+- resistance: R_4
 name_overrides:
-- resistance: R₁
-- resistance: R₂
-- resistance: R₃
-- resistance: R₄
+- resistance: R_1
+- resistance: R_2
+- resistance: R_3
+- resistance: R_4

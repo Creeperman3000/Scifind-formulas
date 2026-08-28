@@ -1,13 +1,18 @@
 name: Reflectance
 id: reflectance_formula
-topic: polarization
+topic: optics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Reflectance
+  - https://phys.libretexts.org/Bookshelves/Optics/Geometric_Optics_(Tatum)/04%3A_Reflection_and_Refraction/4.04%3A_Reflectance_and_Transmittance
+  - https://www.britannica.com/science/reflectance-optics
+  - https://www.rp-photonics.com/reflectance.html
+description: "Reflectance is the dimensionless ratio of the radiant flux reflected by a surface to the radiant flux incident on it, characterizing how effectively a material reflects electromagnetic radiation; it generally depends on wavelength, polarization, and angle of incidence."
 equation: reflectance eq irradiance frac irradiance
 symbol_overrides:
-- reflectance: ''
 - irradiance: I_r
 - irradiance: I_i
 name_overrides:
-- reflectance: '[Reflectance]'
-- irradiance: Reflected [intensity]
-- irradiance: Incident [intensity]
+- reflectance: '[reflectance]'
+- irradiance: Reflected intensity
+- irradiance: Incident intensity

@@ -2,6 +2,12 @@ name: Angle sum identity for sine
 id: angle_sum_sine
 topic: trigonometric_identities
 difficulty: 6
+links:
+  - https://www.cuemath.com/trigonometry/sin-a-plus-b
+  - https://www.softschools.com/math/trigonometry/sum_and_difference_of_angles_identities
+  - https://www.analyzemath.com/Trigonometry_2/sum_difference_product_trigonometric_formulas_questions.html
+  - https://fiveable.me/honors-pre-calc/key-terms/sine-sum-identity
+description: "This trigonometric identity, known as the sine addition formula, expresses the sine of a compound angle as a combination of the sines and cosines of its two component angles. It holds for all real angles and is used to evaluate sines of angles not on the unit circle, and to derive double-angle and product-to-sum formulas."
 equation: sin (angle add angle ) eq sin angle mul (cos angle ) add cos angle mul sin
   angle
 symbol_overrides:

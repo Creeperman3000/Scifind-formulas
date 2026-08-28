@@ -2,12 +2,18 @@ name: Angular displacement from rotation
 id: angular_displacement_definition
 topic: circular_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Angular_displacement
+  - https://www.geeksforgeeks.org/physics/angular-displacement/
+  - https://www.vedantu.com/physics/angular-displacement
+  - https://softschools.com/formulas/physics/angular_displacement_formula/45
+description: "This relation defines plane angle in radians: the angle swept out at the center of a circle equals the arc length traversed divided by the radius. It connects linear distance along a circular path to rotational motion and underlies the radian unit, since a full turn gives an arc of one circumference."
 equation: angle eq length frac length
 symbol_overrides:
-- angle: θ
+- angle: \theta
 - length: s
 - length: r
 name_overrides:
-- angle: Angular [displacement]
+- angle: Angular displacement
 - length: Arc [length]
-- length: '[Radius]'
+- length: Radius

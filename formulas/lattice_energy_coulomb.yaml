@@ -2,8 +2,14 @@ name: Coulombic contribution to lattice energy
 id: lattice_energy_coulomb
 topic: inorganic_chemistry
 difficulty: 9
-equation: energy eq coulomb_constant mul (avogadro_number mul (dimensionless) mul
-  dimensionless mul (dimensionless) mul elementary_charge pow 2 ) frac length
+links:
+  - https://en.wikipedia.org/wiki/Born%E2%80%93Land%C3%A9_equation
+  - https://en.wikipedia.org/wiki/Madelung_constant
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Supplemental_Modules_and_Websites_(Inorganic_Chemistry)/Crystal_Lattices/Thermodynamics_of_Lattices/Lattice_Energy
+  - https://en.wikipedia.org/wiki/Lattice_energy
+  - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/06%3A_Structures_and_Energetics_of_Metallic_and_Ionic_solids/6.13%3A_Lattice_Energy_-_Estimates_from_an_Electrostatic_Model
+description: This is the purely Coulombic (Madelung) contribution to the lattice energy of an ionic crystal, summing the electrostatic interaction of every ion with all the others via the Madelung constant, which encodes the geometry of the lattice. It forms the attractive component of the Born-Landé equation, paired with a short-range repulsive term to yield the equilibrium lattice energy.
+equation: energy eq coulomb_constant mul (avogadro_number mul (dimensionless) mul dimensionless mul (dimensionless) mul elementary_charge pow 2) frac length
 symbol_overrides:
 - energy: U
 - dimensionless: M
@@ -13,6 +19,6 @@ symbol_overrides:
 name_overrides:
 - energy: Lattice [energy]
 - dimensionless: Madelung constant
-- dimensionless: Cation charge
-- dimensionless: Anion charge
+- dimensionless: Cation charge number
+- dimensionless: Anion charge number
 - length: Nearest neighbor distance

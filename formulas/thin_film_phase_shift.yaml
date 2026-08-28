@@ -2,14 +2,28 @@ name: Thin film reflection phase shift condition
 id: thin_film_phase_shift
 topic: interference
 difficulty: 8
-equation: dimensionless eq length mul (refractive_index) frac length
+links:
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- https://en.wikipedia.org/wiki/Reflection_phase_change
+- https://en.wikipedia.org/wiki/Anti-reflective_coating
+- https://phys.libretexts.org/Bookshelves/Optics/Supplemental_Modules_(Components)
+- https://en.wikipedia.org/wiki/Thin_film
+description: Interference condition for light reflected from a thin film when a 180°
+  phase change occurs on reflection, shifting the condition by a half-wavelength so
+  the optical path difference equals a half-integer multiple of the wavelength. This
+  is the situation for a film whose refractive index exceeds that of the medium on
+  at least one side, and it underlies the colors of soap bubbles and oil films on
+  water.
+equation: 2 mul refractive_index mul length eq (dimensionless add dimensionless) mul
+  length
 symbol_overrides:
-- dimensionless: m
-- length: λ
-- refractive_index: ''
+- refractive_index: n
 - length: d
+- dimensionless: m
+- dimensionless: \frac{1}{2}
+- length: \lambda
 name_overrides:
-- dimensionless: Order
-- length: '[Wavelength] in vacuum'
-- refractive_index: Film refractive index
-- length: Film [thickness]
+- refractive_index: Film [refractive_index]
+- length: Film thickness
+- dimensionless: Order number
+- length: Wavelength in vacuum

@@ -2,10 +2,16 @@ name: Surface area of a cylinder
 id: surface_area_cylinder
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Cylinder
+  - https://mathworld.wolfram.com/Cylinder.html
+  - https://www.cuemath.com/geometry/surface-area-of-a-cylinder/
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-cylinder
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/12%3A_Surface_Area/12.06%3A_Surface_Area_of_a_Cylinder
+description: "The total surface area of a right circular cylinder combines the two circular end caps with the curved lateral area obtained by unrolling the side. \nIt assumes a right circular cylinder of constant radius and is widely used in engineering contexts such as pipe, tank, and pressure-vessel design."
 equation: area eq 2 mul (pi mul length ) mul (length) add 2 mul (pi) mul length pow
   2
 symbol_overrides:
-- area: A
 - length: r
 - length: h
 - length: r

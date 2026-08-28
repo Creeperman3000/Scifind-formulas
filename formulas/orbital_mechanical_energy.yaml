@@ -2,15 +2,24 @@ name: Orbital mechanical energy
 id: orbital_mechanical_energy
 topic: orbital_motion
 difficulty: 8
-equation: energy eq drop (gravitational_constant mul (mass mul mass) frac length mul
-  2) sub
+links:
+- https://en.wikipedia.org/wiki/Vis-viva_equation
+- https://en.wikipedia.org/wiki/Specific_orbital_energy
+- https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/06%3A_Central_Forces/6.04%3A_Energy_and_Orbits
+- https://www.britannica.com/science/orbital-motion
+- https://www.physicsclassroom.com/class/circles/Lesson-4/Kepler-s-Three-Laws
+description: The total mechanical energy of a bound two-body Keplerian orbit is negative
+  and equal to minus the product of the gravitational constant, the two masses, divided
+  by twice the semi-major axis. This constant combines the kinetic energy of orbital
+  motion with the negative gravitational potential energy and is conserved throughout
+  the orbit.
+equation: energy eq drop (gravitational_constant mul mass mul mass frac length mul
+  2 ) sub
 symbol_overrides:
-- energy: ''
 - mass: M
-- mass: ''
 - length: a
 name_overrides:
 - energy: Orbital mechanical [energy]
 - mass: Central [mass]
 - mass: Orbiting [mass]
-- length: Semi-major [axis]
+- length: Semi-major axis

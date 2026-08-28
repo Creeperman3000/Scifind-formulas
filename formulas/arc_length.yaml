@@ -2,12 +2,19 @@ name: Arc length
 id: arc_length
 topic: circular_motion
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Circular_arc_length
+  - https://math.libretexts.org/Courses/Barton_Community_College/Book%3A_Technical_Mathematics_(Turner)/11%3A_Radian_Measure/11.02%3A_Arc_Length
+  - https://math.libretexts.org/Courses/Cosumnes_River_College/Math_375%3A_Pre-Calculus/04%3A_Radian_Measure_and_the_Circular_Functions/4.02%3A_Radian_Measure_and_Arc_Length
+  - https://www.mathwords.com/a/arc_circle.htm
+  - https://www.mathwarehouse.com/trigonometry/radians/s=r-theta-formula-equation.php
+description: "Gives the length of a circular arc as the radius multiplied by the central angle it subtends. The angle must be measured in radians; for angles in degrees the fraction of a full turn must be converted first. Widely used in geometry, trigonometry, and circular-motion kinematics."
 equation: length eq angle mul length
 symbol_overrides:
 - length: s
 - angle: θ
 - length: r
 name_overrides:
-- length: Arc length
-- angle: ''
+- length: Arc [length]
+- angle: Central [angle] in radians
 - length: Radius

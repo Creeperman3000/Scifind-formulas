@@ -2,7 +2,17 @@ name: Scalar projection of a onto b
 id: vector_projection_magnitude
 topic: linear_algebra
 difficulty: 7
-equation: dimensionless eq ((dimensionless cdot dimensionless)) frac (abs dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Vector_projection
+- https://en.wikipedia.org/wiki/Scalar_projection
+- https://en.wikipedia.org/wiki/Dot_product
+- https://mathworld.wolfram.com/ScalarProjection.html
+- https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/projections-using-unit-vectors
+description: The scalar (or resolute) component of a vector along the direction of
+  another nonzero vector, equal in magnitude to the length of the vector projection
+  and signed according to whether the angle is acute or obtuse. It equals the dot
+  product of a with the unit vector in the direction of b.
+equation: dimensionless eq (dimensionless cdot dimensionless) frac abs dimensionless
 symbol_overrides:
 - dimensionless: comp_b(a)
 - dimensionless: \vec{a}

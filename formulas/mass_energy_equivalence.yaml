@@ -2,10 +2,15 @@ name: Mass-energy equivalence
 id: mass_energy_equivalence
 topic: relativity
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence
+  - https://www.nist.gov/pml/energy-mass-equivalence
+  - https://www.britannica.com/science/E-mc2
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/09%3A__Relativity/9.06%3A__Energy_and_Momentum
+  - https://www.khanacademy.org/science/physics/special-relativity
+description: "Mass–energy equivalence, expressed as E = mc², states that the rest energy of a body equals its mass multiplied by the speed of light squared. Introduced by Einstein in 1905, it implies that mass and energy are interchangeable manifestations of the same physical quantity. The relation underlies nuclear reactions, where small mass deficits release enormous energies, and is the conceptual basis for nuclear power and stellar energy production."
 equation: energy eq mass mul speed_of_light pow 2
-symbol_overrides:
-- energy: ''
-- mass: ''
 name_overrides:
-- energy: ''
-- mass: ''
+- energy: '[energy]'
+- mass: '[mass]'
+- speed_of_light: '[speed_of_light] in vacuum'

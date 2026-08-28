@@ -2,14 +2,21 @@ name: Linear thermal expansion
 id: linear_thermal_expansion
 topic: temperature
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Thermal_expansion#Linear_expansion
+  - https://en.wikipedia.org/wiki/Thermal_expansion
+  - https://physics.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Temperature_and_Heat
+  - https://www.britannica.com/science/thermal-expansion
+  - https://www.khanacademy.org/science/physics/thermodynamics/temp-kinetic-theory-ideal-gas-law/a/thermal-expansion
+description: "Linear thermal expansion describes the change in length of a solid object when its temperature changes, assuming the body is free to expand. The relationship holds for small, uniform temperature changes and is widely used in engineering to design bridges, rails, bimetallic strips, and other structures that must accommodate dimensional changes."
 equation: length eq coefficient_of_linear_expansion mul (length) mul Delta temperature
 symbol_overrides:
-- length: ΔL
-- coefficient_of_linear_expansion: α
-- length: L_0
-- temperature: ΔT
+  - length: ΔL
+  - coefficient_of_linear_expansion: α
+  - length: L_0
+  - temperature: ΔT
 name_overrides:
-- length: Change in [length]
-- coefficient_of_linear_expansion: Coefficient of linear [expansion]
-- length: Original [length]
-- temperature: Change in [temperature]
+  - length: Change in [length]
+  - coefficient_of_linear_expansion: '[coefficient_of_linear_expansion]'
+  - length: Original [length]
+  - temperature: Change in [temperature]

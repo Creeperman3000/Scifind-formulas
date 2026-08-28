@@ -2,7 +2,16 @@ name: Euler's formula for triangle distance
 id: euler_triangle_formula
 topic: triangles
 difficulty: 8
-equation: length pow 2 eq length mul (length sub (2 mul length ))
+links:
+- https://en.wikipedia.org/wiki/Euler%27s_theorem_in_geometry
+- https://en.wikipedia.org/wiki/Incircle_and_excircles_of_a_triangle
+- https://mathworld.wolfram.com/EulerTriangleFormula.html
+- https://artofproblemsolving.com/wiki/index.php/Euler%27s_Formula_for_a_Triangle
+description: Euler's theorem in triangle geometry relates the distance between a triangle's
+  circumcenter and incenter to its circumradius and inradius. The formula yields the
+  well-known Euler inequality R >= 2r, with equality only for equilateral triangles,
+  and is sometimes called the Euler triangle formula.
+equation: length pow 2 eq length mul length sub 2 mul length
 symbol_overrides:
 - length: d
 - length: R

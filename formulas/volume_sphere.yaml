@@ -2,10 +2,14 @@ name: Volume of a sphere
 id: volume_sphere
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Sphere
+  - https://mathworld.wolfram.com/Sphere.html
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/06%3A_Applications_of_Integration/6.02%3A_Determining_Volumes_by_Slicing
+  - https://www.britannica.com/science/sphere-geometry
+description: "The volume enclosed by a sphere of radius r is four-thirds times pi times the cube of the radius. Archimedes first derived this result by showing that the volume of a sphere equals two-thirds the volume of its circumscribing cylinder. It is equivalent to the volume obtained by integrating circular cross-sections from one pole to the other."
 equation: volume eq (4 frac 3) mul (pi) mul length pow 3
 symbol_overrides:
-- volume: V
 - length: r
 name_overrides:
-- volume: Volume
 - length: Radius

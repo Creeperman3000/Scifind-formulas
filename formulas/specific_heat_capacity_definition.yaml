@@ -2,14 +2,19 @@ name: Specific heat capacity definition
 id: specific_heat_capacity_definition
 topic: heat
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Specific_heat_capacity
+  - https://en.wikipedia.org/wiki/Heat_capacity
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/06%3A_Thermochemistry/6.05%3A_Specific_Heat_Capacity_and_Calorimetry
+  - https://www.britannica.com/science/specific-heat
+  - https://physics.info/heat-capacity/
+  - https://www.chemteam.info/Thermochem/Heat-Capacity.html
+description: "Specific heat capacity is an intensive property of a substance equal to the heat energy required to raise the temperature of a unit mass by one kelvin. It is commonly tabulated for solids, liquids, and gases, with separate values typically reported for constant-pressure and constant-volume conditions."
 equation: specific_heat_capacity eq energy frac mass mul temperature
 symbol_overrides:
-- specific_heat_capacity: c
 - energy: Q
-- mass: m
 - temperature: \Delta T
 name_overrides:
 - specific_heat_capacity: Specific heat
 - energy: Heat
-- mass: Mass
-- temperature: Temperature change
+- temperature: '[temperature] change'

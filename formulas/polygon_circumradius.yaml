@@ -2,12 +2,21 @@ name: Polygon circumradius
 id: polygon_circumradius
 topic: polygons
 difficulty: 6
-equation: length eq (length frac (2 mul sin (pi frac angle)))
+links:
+- https://en.wikipedia.org/wiki/Regular_polygon
+- https://en.wikipedia.org/wiki/Circumradius
+- https://mathworld.wolfram.com/RegularPolygon.html
+- https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(Averill_Faith)/04%3A_Polygons/4.04%3A_Regular_Polygons
+- https://www.cuemath.com/geometry/regular-polygon/
+description: The circumradius of a regular polygon is the distance from the center
+  to any vertex. It is related to the side length s and number of sides n by the central
+  isosceles triangle formed by two adjacent vertices and the center.
+equation: length eq frac length (2 mul sin frac pi angle )
 symbol_overrides:
 - length: R
 - length: s
 - angle: n
 name_overrides:
-- length: Circum[radius]
+- length: Circumradius
 - length: Side [length]
 - angle: Number of sides

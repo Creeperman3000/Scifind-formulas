@@ -2,12 +2,12 @@ name: Amount of substance from mass
 id: mole_formula
 topic: mole_concept
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Mole_(unit)
+  - https://en.wikipedia.org/wiki/Molar_mass
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/03%3A_Stoichiometry%3A_Counting_Molecules_and_Atoms/3.01%3A_Avogadro's_Number_and_Mole_Conversions
+  - https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/the-mole-and-avogadro's-number
+  - https://www.britannica.com/science/mole-chemistry
+  - https://goldbook.iupac.org/terms/view/M03980
+description: "The amount of substance in a sample is obtained by dividing its mass by the molar mass of the substance, exploiting the SI definition that one mole corresponds to Avogadro's number of elementary entities. This conversion is the standard bridge between a bulk mass measurement and a chemical amount expressed in moles."
 equation: amount eq mass frac molar_mass
-symbol_overrides:
-- amount: ''
-- mass: ''
-- molar_mass: ''
-name_overrides:
-- amount: ''
-- mass: ''
-- molar_mass: ''

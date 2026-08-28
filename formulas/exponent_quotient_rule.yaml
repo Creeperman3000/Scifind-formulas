@@ -2,6 +2,11 @@ name: Exponent quotient rule
 id: exponent_quotient_rule
 topic: exponents
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Exponentiation
+  - https://mathworld.wolfram.com/ExponentLaws.html
+  - https://www.cuemath.com/algebra/exponent-rules/
+description: "Also called the quotient law of exponents, this rule states that dividing two powers with the same base leaves a single power whose exponent is the difference of the two exponents. It follows from canceling common factors of the base (or equivalently from adding the reciprocal with a negative exponent) and requires a nonzero base."
 equation: dimensionless pow (dimensionless) frac dimensionless pow dimensionless eq
   dimensionless pow dimensionless sub dimensionless
 symbol_overrides:
@@ -13,10 +18,10 @@ symbol_overrides:
 - dimensionless: m
 - dimensionless: n
 name_overrides:
-- dimensionless: a
+- dimensionless: Base a
 - dimensionless: Exponent m
-- dimensionless: a
+- dimensionless: Base a
 - dimensionless: Exponent n
-- dimensionless: a
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Base a
+- ""
+- ""

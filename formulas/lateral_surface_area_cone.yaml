@@ -2,14 +2,21 @@ name: Lateral surface area of a cone
 id: lateral_surface_area_cone
 topic: plane_geometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Cone
+  - https://mathworld.wolfram.com/Cone.html
+  - https://www.khanacademy.org/math/geometry/hs-geo-solids/hs-geo-solids-intro/v/surface-area-of-a-cone
+  - https://www.britannica.com/science/cone-mathematics
+  - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(Topic_Review)/3%3A_3D_Geometry/3.02%3A_Surface_Area_of_Cone_Pyramid_and_Sphere
+description: "Gives the curved surface area of a right circular cone, excluding its circular base. It is the product of the base radius, the slant height, and π, and is equivalent to the area of a circular sector of radius equal to the slant height and arc length equal to the base circumference."
 equation: area eq length mul length mul length
 symbol_overrides:
 - area: LA
 - length: π
 - length: r
-- length: ''
+- length: l
 name_overrides:
 - area: Lateral surface [area]
-- length: '[Pi]'
+- length: Pi
 - length: Radius
 - length: Slant height

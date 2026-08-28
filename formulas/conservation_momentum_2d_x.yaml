@@ -2,6 +2,12 @@ name: Conservation of momentum in 2D
 id: conservation_momentum_2d_x
 topic: linear_momentum
 difficulty: 6
+links:
+  - https://openstax.org/books/college-physics-ap-courses-2e/pages/8-6-collisions-of-point-masses-in-two-dimensions
+  - https://openstax.org/books/university-physics-volume-1/pages/9-5-collisions-in-multiple-dimensions
+  - https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I%3A_Classical_Mechanics/31%3A_Collisions/31.06%3A_Collisions_in_Two_Dimensions
+  - https://farside.ph.utexas.edu/teaching/301/lectures/node77.html
+description: "In a two-dimensional collision with no net external force, each component of the total momentum is conserved independently. This is the x-axis statement of that law: it equates the sum of the objects' initial x-components of momentum with the sum of their final x-components. It is written out alongside an identical y-component equation, giving two scalar equations for analyzing glancing collisions."
 equation: momentum add momentum eq momentum add momentum
 symbol_overrides:
 - momentum: p_{1ix}

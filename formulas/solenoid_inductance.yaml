@@ -1,15 +1,20 @@
-name: Self-inductance of a solenoid (solenoid_inductance)
+name: Self-inductance of a solenoid
 id: solenoid_inductance
 topic: electromagnetic_induction
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Solenoid
+  - https://en.wikipedia.org/wiki/Inductance
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Inductance/14.04%3A_Self-Inductance_and_Inductors
+  - https://www.britannica.com/technology/solenoid
+  - https://www.electronics-tutorials.ws/inductor/solenoid.html
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html
+description: "The self-inductance of an air-core solenoid depends only on its geometry (number of turns, cross-sectional area, and length) and is independent of the current, assuming the magnetic field is uniform and end effects are negligible."
 equation: inductance eq vacuum_permeability mul (amount pow 2) mul (area) frac length
 symbol_overrides:
-- inductance: ''
 - amount: N
-- area: ''
-- length: ''
 name_overrides:
-- inductance: ''
+- inductance: Self-inductance
 - amount: Number of turns
 - area: Cross-sectional [area]
-- length: Solenoid length
+- length: Solenoid [length]

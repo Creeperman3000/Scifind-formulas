@@ -2,15 +2,23 @@ name: Uncompetitive inhibition velocity
 id: uncompetitive_inhibition_velocity
 topic: biochemistry
 difficulty: 9
-equation: catalytic_activity eq catalytic_activity mul (concentration) frac concentration
-  add (concentration add concentration ) mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Enzyme_inhibitor#Uncompetitive
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_for_the_Biosciences_(LibreTexts)/10%3A_Enzyme_Kinetics/10.05%3A_Enzyme_Inhibition
+- https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics
+description: Rate equation for an enzyme subject to uncompetitive inhibition, in which
+  the inhibitor binds only to the enzyme–substrate complex. Both the apparent K_m
+  and V_max decrease with inhibitor concentration.
+equation: catalytic_activity eq catalytic_activity mul concentration frac (concentration
+  add concentration) mul dimensionless add concentration div dimensionless
 symbol_overrides:
 - catalytic_activity: v
 - catalytic_activity: V_{max}
 - concentration: '[S]'
 - concentration: K_m
 - concentration: '[S]'
-- concentration: I
+- concentration: '[I]'
+- dimensionless: '1'
 - dimensionless: K_i
 name_overrides:
 - catalytic_activity: Reaction [velocity]
@@ -18,5 +26,6 @@ name_overrides:
 - concentration: Substrate [concentration]
 - concentration: Michaelis constant K_m
 - concentration: Substrate [concentration]
-- concentration: Inhibitor [concentration] I
+- concentration: Inhibitor [concentration]
+- dimensionless: ''
 - dimensionless: Inhibition constant K_i

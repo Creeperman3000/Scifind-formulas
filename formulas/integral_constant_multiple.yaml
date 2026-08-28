@@ -2,8 +2,14 @@ name: Integral constant multiple rule
 id: integral_constant_multiple
 topic: integrals
 difficulty: 6
-equation: int drop drop (dimensionless mul dimensionless mul rmd angle) eq dimensionless mul int drop
-  drop (dimensionless mul rmd angle)
+links:
+  - https://en.wikipedia.org/wiki/Integral#Linearity
+  - https://mathworld.wolfram.com/ConstantFactorRule.html
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.04%3A_Differentiation_Rules
+  - https://www.khanacademy.org/math/integral-calculus/indefinite-integrals/antiderivative-rules/v/constant-multiple-rule
+  - https://en.wikipedia.org/wiki/Linearity_of_integration
+description: "The constant multiple rule for integration states that a constant factor can be moved outside the integral sign. This is a direct consequence of the linearity of integration. The rule requires c to be independent of the variable of integration; for functions or variable-dependent coefficients it does not apply."
+equation: int drop drop (dimensionless mul dimensionless mul rmd angle) eq dimensionless mul int drop drop (dimensionless mul rmd angle)
 symbol_overrides:
 - dimensionless: c
 - dimensionless: f(x)
@@ -14,7 +20,7 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Constant factor
 - dimensionless: Function f(x)
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant factor
 - dimensionless: Function f(x)
-- angle: '[Variable]'
+- angle: '[variable]'

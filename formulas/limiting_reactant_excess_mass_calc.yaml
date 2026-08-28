@@ -1,7 +1,15 @@
-name: Excess reactant remaining mass (limiting_reactant_excess_mass_calc)
+name: Excess reactant remaining mass
 id: limiting_reactant_excess_mass_calc
 topic: limiting_reactants
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Limiting_reagent
+  - https://en.wikipedia.org/wiki/Excess_(chemistry)
+  - https://www.britannica.com/science/limiting-reagent
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/04%3A_The_Structure_of_Atoms/4.08%3A_Limiting_Reactants
+  - https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiometry/v/limiting-reagent-and-theoretical-yield
+  - https://www.chem.tamu.edu/class/fyp/stone/tutorialstoich/stoich4.html
+description: "The mass of an excess reactant that remains after a chemical reaction is complete equals its initial mass minus the mass that was consumed. The consumed mass is determined by stoichiometry from the limiting reactant, so once the limiting reagent is identified the leftover excess can be computed directly."
 equation: mass eq mass sub mass
 symbol_overrides:
 - mass: m_{excess}
@@ -10,4 +18,4 @@ symbol_overrides:
 name_overrides:
 - mass: Excess [mass]
 - mass: Initial [mass]
-- mass: Mass consumed
+- mass: '[mass] consumed'

@@ -2,6 +2,12 @@ name: Circumference of a circle
 id: circumference_circle
 topic: circles
 difficulty: 1
+links:
+  - https://en.wikipedia.org/wiki/Circumference
+  - https://www.mathopenref.com/circumferencederive.html
+  - https://www.cuemath.com/geometry/circumference-of-a-circle/
+  - https://wumbo.net/formulas/circumference-of-circle
+description: "Gives the perimeter of a circle — the total distance around its boundary — from its radius. It follows directly from the definition of pi as the ratio of circumference to diameter. This relation is exact for any circle and is the basis for computing arc lengths, wheel travel distances, and rotational-to-linear motion conversions."
 equation: length eq 2 mul pi mul length
 symbol_overrides:
 - length: C

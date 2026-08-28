@@ -2,6 +2,13 @@ name: Pascal's law (hydraulic lift)
 id: pascals_law
 topic: pascals_law
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pascal%27s_law
+  - https://www.britannica.com/science/Pascals-principle
+  - https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/Pascals_principle.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.05%3A_Pascal's_Principle
+  - https://courses.lumenlearning.com/physics/chapter/11-4-pascals-principle/
+description: "Pascal's law applied to a hydraulic lift: the pressure (force per unit area) on a small piston equals the pressure on a large piston, so the output force scales with piston area. This pressure equality is the principle behind hydraulic jacks, brakes, and presses."
 equation: force frac area eq force frac area
 symbol_overrides:
 - force: F_1

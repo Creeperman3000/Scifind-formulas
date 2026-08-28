@@ -2,12 +2,18 @@ name: Ionization energy from nuclear charge
 id: ionization_energy_effective_charge
 topic: atomic_structure
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Effective_nuclear_charge
+  - https://chem.libretexts.org/Courses/Mount_Royal_University/Chem_1201/Unit_2._Periodic_Properties_of_the_Elements/2.05%3A_Effective_Nuclear_Charge
+  - https://en.wikipedia.org/wiki/Ionization_energy
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Atomic_and_Molecular_Properties/Ionization_Energy
+description: In a hydrogen-like approximation the ionization energy of an electron in the valence shell scales with the square of the effective nuclear charge it experiences, so heavier atoms tend to lose their outermost electron less readily. This relation underpins periodic trends in ionization energy across the periodic table.
 equation: energy eq energy mul dimensionless pow 2
 symbol_overrides:
-- energy: IE
-- energy: IE_H
-- dimensionless: Z_{eff}
+  - energy: IE
+  - energy: IE_H
+  - dimensionless: Z_{eff}
 name_overrides:
-- energy: '[Ionization energy]'
-- energy: Hydrogen [ionization energy]
-- dimensionless: Effective nuclear charge
+  - energy: Ionization [energy]
+  - energy: Hydrogen ionization [energy]
+  - dimensionless: Effective nuclear charge

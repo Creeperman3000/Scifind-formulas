@@ -2,12 +2,19 @@ name: Time of flight of a projectile
 id: projectile_time_of_flight
 topic: projectile_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion#Time_of_flight_or_total_time_of_the_whole_journey
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_1e_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.04%3A_Projectile_Motion
+  - https://www.khanacademy.org/science/physics/two-dimensional-motion/two-dimensional-projectile-mot/a/projectiles-launched-at-an-angle
+  - https://www.physicsclassroom.com/Class/vectors/u3l2d.cfm
+  - https://www.britannica.com/science/projectile-motion
+description: "The total time a projectile spends in the air, from launch until it returns to its original elevation, is twice the time to reach the apex. It depends on the initial vertical velocity component and the gravitational acceleration. Applies in vacuum with uniform gravity."
 equation: time eq 2 mul (velocity mul sin angle ) frac standard_gravity
 symbol_overrides:
-- time: t_{flight}
-- velocity: v_0
-- angle: θ
+  - time: t_{flight}
+  - velocity: v_0
+  - angle: θ
 name_overrides:
-- time: Time of flight
-- velocity: Initial [velocity]
-- angle: Launch angle
+  - time: '[time] of flight'
+  - velocity: Initial [velocity]
+  - angle: Launch [angle]

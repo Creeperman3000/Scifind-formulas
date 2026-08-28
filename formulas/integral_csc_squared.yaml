@@ -2,8 +2,16 @@ name: Integral of csc² x
 id: integral_csc_squared
 topic: integrals
 difficulty: 7
-equation: int drop drop ((((frac 1 (sin angle)) pow 2) mul (rmd angle))) eq drop ((cos angle) frac (sin
-  angle)) sub
+links:
+- https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions
+- https://en.wikipedia.org/wiki/Cosecant
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.05%3A_Derivatives_of_Trigonometric_Functions
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-antiderivatives/v/antiderivative-of-csc2x
+description: The antiderivative of csc squared x is the negative cotangent. The result
+  follows from the Pythagorean identity, since the derivative of cot x equals -csc²
+  x.
+equation: int drop drop (((frac 1 sin angle ) pow 2) mul rmd angle ) eq drop cos angle
+  frac (sin angle) sub
 symbol_overrides:
 - &id001
   angle: x
@@ -12,7 +20,7 @@ symbol_overrides:
 - *id001
 name_overrides:
 - &id002
-  angle: '[Variable]'
+  angle: '[variable]'
 - *id002
 - *id002
 - *id002

@@ -2,19 +2,25 @@ name: Relativistic velocity addition
 id: relativistic_velocity_addition
 topic: relativity
 difficulty: 9
+links:
+- https://en.wikipedia.org/wiki/Velocity-addition_formula
+- https://en.wikipedia.org/wiki/Special_relativity
+- https://en.wikipedia.org/wiki/Lorentz_transformation
+- https://phys.libretexts.org/Bookshelves/Relativity/Book%3A_Special_Relativity_(Crowell)
+- https://www.britannica.com/science/relativistic-mechanics
+description: The relativistic velocity-addition formula combines the velocity of an
+  object in one inertial frame with the relative velocity of a second frame, producing
+  the object's velocity as seen from the first. The result is always subluminal, in
+  agreement with the postulate that no signal can outrun light.
 equation: velocity eq (velocity add velocity) frac dimensionless add (velocity mul
   velocity) frac speed_of_light pow 2
 symbol_overrides:
 - velocity: u
 - velocity: u'
-- velocity: v
+- velocity: ''
 - dimensionless: '1'
-- velocity: u'
 - velocity: v
 name_overrides:
 - velocity: Resultant [velocity]
-- velocity: Frame [velocity]
 - velocity: Object [velocity]
-- dimensionless: ''
-- velocity: ''
-- velocity: ''
+- velocity: Frame [velocity]

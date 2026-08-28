@@ -2,12 +2,17 @@ name: Normal force on an inclined plane
 id: force_inclined_plane_normal
 topic: forces
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Inclined_plane
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton's_Laws/6.04%3A_Friction_(Part_1)
+  - https://www.physicsclassroom.com/class/vectors/Lesson-3/Inclined-Planes
+  - https://www.khanacademy.org/science/physics/forces-newtons-laws/inclined-planes-friction/a/what-are-inclined-planes
+  - https://www.britannica.com/science/inclined-plane
+description: "On a frictionless inclined plane making an angle θ with the horizontal, the component of the object's weight perpendicular to the surface is balanced by the normal force, giving N = mg cos θ. This relation is used together with the parallel component mg sin θ to analyze static and sliding motion on a slope."
 equation: force eq mass mul (standard_gravity) mul cos angle
 symbol_overrides:
-- force: N
-- mass: ''
-- angle: θ
+  - force: N
+  - angle: \theta
 name_overrides:
-- force: Normal [force]
-- mass: ''
-- angle: Incline angle
+  - force: Normal [force]
+  - angle: Incline angle

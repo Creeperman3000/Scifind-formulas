@@ -2,10 +2,17 @@ name: Quantum number magnetic range
 id: quantum_number_magnetic_range
 topic: atomic_structure
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_quantum_number
+  - https://www.britannica.com/science/magnetic-quantum-number
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/09._The_Hydrogen_Atom/Atomic_Orbitals
+  - https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Book%3A_Introduction_to_Quantum_Mechanics_(Schroeder)/03._One-Dimensional_Problems/3.04%3A_Quantum_Mechanics_in_Three_Dimensions
+  - https://www.khanacademy.org/science/physics/quantum-physics/atoms-and-electrons/a/the-quantum-number
+description: "The magnetic quantum number indexes the allowed orientations of an electron's orbital angular momentum about a chosen axis in space. For a given azimuthal quantum number l, it takes integer values from negative l to positive l, yielding 2l plus 1 orbitals in the subshell."
 equation: abs dimensionless lt dimensionless
 symbol_overrides:
 - dimensionless: m_l
 - dimensionless: l
 name_overrides:
-- dimensionless: Magnetic quantum [number]
-- dimensionless: Azimuthal quantum [number]
+- dimensionless: Magnetic quantum number
+- dimensionless: Azimuthal quantum number

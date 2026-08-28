@@ -2,6 +2,12 @@ name: Sum of finite geometric series
 id: geometric_series_sum
 topic: arithmetic
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Geometric_series
+  - https://en.wikipedia.org/wiki/Geometric_progression
+  - https://mathworld.wolfram.com/GeometricSeries.html
+  - https://en.wikibooks.org/wiki/Algebra/Chapter_15/Geometric_Progression_(GP)
+description: "The sum of the first n terms of a geometric progression with first term a and common ratio r (with r not equal to 1) equals a times the quantity one minus r to the n over one minus r. The formula follows from multiplying the sum by r and subtracting it from itself, which cancels all interior terms and leaves only the endpoints."
 equation: dimensionless eq dimensionless mul (1 sub dimensionless pow dimensionless
   ) frac 1 sub dimensionless
 symbol_overrides:
@@ -15,4 +21,4 @@ name_overrides:
 - dimensionless: First term
 - dimensionless: Common ratio
 - dimensionless: Number of terms
-- dimensionless: ''
+- dimensionless: Common ratio

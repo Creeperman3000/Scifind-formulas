@@ -2,7 +2,20 @@ name: Limit definition of e
 id: limit_e_definition
 topic: limits
 difficulty: 7
-equation: euler_e eq lim dimensionless dimensionless (((1 add (1 frac dimensionless)) pow dimensionless))
+links:
+- https://en.wikipedia.org/wiki/E_(mathematical_constant)
+- https://en.wikipedia.org/wiki/Characterizations_of_the_exponential_function
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/01:_Functions_and_Graphs/1.04:_Exponential_and_Logarithmic_Functions
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-determining-limits-using-the-squeeze-theorem-and-graphs/v/introduction-to-e
+- https://mathworld.wolfram.com/e.html
+- https://www.britannica.com/science/e-mathematical-constant
+description: Euler's number e is defined as the limit of (1 + 1/n)^n as n approaches
+  infinity, a value approximately equal to 2.71828. This limit arises naturally in
+  compound interest when the compounding interval becomes infinitesimally small, and
+  provides one of several equivalent characterizations of the natural exponential
+  function.
+equation: euler_e eq lim dimensionless dimensionless (1 add 1 frac dimensionless )
+  pow dimensionless
 symbol_overrides:
 - dimensionless: n
 - dimensionless: \infty

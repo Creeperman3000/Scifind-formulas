@@ -2,12 +2,14 @@ name: Magnetic field strength
 id: magnetic_field_strength_h
 topic: magnetism
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_field
+  - https://en.wikipedia.org/wiki/Permeability_(electromagnetism)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.08%3A_Magnetism_in_Matter
+  - https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+description: "The H-field (magnetic field strength or magnetic field intensity) is the auxiliary magnetic vector whose curl equals the free current density in Ampère's law. It is related to the magnetic flux density B and the permeability of the medium by H = B/μ, so in free space H = B/μ₀. H is measured in amperes per metre."
 equation: magnetic_field_strength eq magnetic_flux_density frac permeability
 symbol_overrides:
-- magnetic_field_strength: ''
-- magnetic_flux_density: ''
 - permeability: μ
 name_overrides:
-- magnetic_field_strength: Magnetic field [strength]
-- magnetic_flux_density: ''
-- permeability: ''
+- magnetic_field_strength: '[magnetic_field_strength]'

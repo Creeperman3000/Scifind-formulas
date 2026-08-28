@@ -2,14 +2,19 @@ name: Bohr orbital radius
 id: bohr_orbital_radius_n
 topic: atomic_physics
 difficulty: 8
-equation: length eq bohr_radius mul (dimensionless pow 2) frac dimensionless
+links:
+- https://openstax.org/books/college-physics-2e/pages/30-3-bohrs-theory-of-the-hydrogen-atom
+- https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/30%3A_Atomic_Physics/30.03%3A_Bohrs_Theory_of_the_Hydrogen_Atom
+- https://openstax.org/books/chemistry-2e/pages/6-2-the-bohr-model
+- https://en.wikipedia.org/wiki/Bohr_Radius
+description: Gives the radius of the electron's allowed circular orbit in Bohr's model
+  of the hydrogen atom, which grows with the square of the principal quantum number.
+  The innermost orbit (n = 1) equals the Bohr radius, and for hydrogen-like ions the
+  orbit radii are reduced in proportion to the nuclear charge number.
+equation: length eq (dimensionless pow 2) mul bohr_radius
 symbol_overrides:
 - length: r_n
-- bohr_radius: ''
-- dimensionless: n
 - dimensionless: n
 name_overrides:
-- length: Orbital [radius]
-- bohr_radius: ''
-- dimensionless: Principal quantum number n
-- dimensionless: Principal quantum number n
+- length: Orbital radius
+- dimensionless: Principal quantum number

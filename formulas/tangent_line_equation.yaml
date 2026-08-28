@@ -2,6 +2,13 @@ name: Tangent line equation
 id: tangent_line_equation
 topic: derivatives
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Tangent#Equations
+  - https://en.wikipedia.org/wiki/Slope#Calculus
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.02%3A_Defining_the_Derivative
+  - https://www.khanacademy.org/math/differential-calculus/dc-context-app/dc-linearization/v/linearization-and-tangents
+  - https://www.britannica.com/science/tangent-line-mathematics
+description: "Given a differentiable function and a point on its graph, the tangent line at that point is the best linear approximation to the function there. The line passes through the point and has slope equal to the derivative at that point, which is the point-slope form specialized to the derivative."
 equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless ) add
   dimensionless
 symbol_overrides:

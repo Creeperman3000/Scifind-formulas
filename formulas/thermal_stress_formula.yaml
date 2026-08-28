@@ -2,7 +2,13 @@ name: Thermal stress formula
 id: thermal_stress_formula
 topic: temperature
 difficulty: 7
-description: Valid for a fully-constrained material; sign convention as shown
+links:
+  - https://en.wikipedia.org/wiki/Thermal_stress
+  - https://www.engineersedge.com/material_science/thermal_stress.htm
+  - https://www.thomasnet.com/articles/custom-manufacturing-fabricating/thermal-stress/
+  - https://www.efatigue.com/constant_amplitude_thermal_stress/
+  - https://www.doitpoms.ac.uk/tlplib/thermal_expansion/printall.php
+description: "Thermal stress is the mechanical stress induced in a material when a temperature change is prevented from producing free thermal expansion, such as when the body is rigidly constrained. The stress is the product of Young's modulus, the linear thermal expansion coefficient, and the temperature change, and it is a key consideration in the design of bridges, rails, pipelines, and bimetallic strips."
 equation: pressure eq pressure mul (coefficient_of_linear_expansion) mul temperature
 symbol_overrides:
 - pressure: σ
@@ -10,7 +16,7 @@ symbol_overrides:
 - coefficient_of_linear_expansion: α
 - temperature: ΔT
 name_overrides:
-- pressure: Thermal [stress]
+- pressure: Thermal stress
 - pressure: Young's modulus
-- coefficient_of_linear_expansion: Expansion [coefficient]
-- temperature: Temperature [change]
+- coefficient_of_linear_expansion: Expansion coefficient
+- temperature: '[temperature] change'

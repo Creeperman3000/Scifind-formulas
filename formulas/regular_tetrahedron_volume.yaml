@@ -2,12 +2,19 @@ name: Volume of a regular tetrahedron
 id: regular_tetrahedron_volume
 topic: plane_geometry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Tetrahedron#Volume
+  - https://en.wikipedia.org/wiki/Regular_tetrahedron
+  - https://mathworld.wolfram.com/RegularTetrahedron.html
+  - https://www.cuemath.com/geometry/volume-of-tetrahedron/
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/01%3A_Units_and_Measurement/1.06%3A_Dimensional_Analysis
+description: "A regular tetrahedron is a triangular pyramid whose four faces are congruent equilateral triangles of edge length a. Its volume is one third the base area times the height, simplifying to a closed-form expression involving the square root of 2."
 equation: volume eq (length pow 3) frac dimensionless mul 6 mul sqrt 2 2
 symbol_overrides:
-- volume: ''
+- volume: V
 - length: a
 - dimensionless: '1'
 name_overrides:
-- volume: '[Volume] of regular tetrahedron'
+- volume: '[volume] of regular tetrahedron'
 - length: Edge [length]
 - dimensionless: '1'

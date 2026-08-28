@@ -2,12 +2,17 @@ name: Area of an ellipse
 id: area_ellipse
 topic: plane_geometry
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Ellipse
+  - https://mathworld.wolfram.com/Ellipse.html
+  - https://www.mathwords.com/a/area_ellipse.htm
+  - https://www.mathsisfun.com/geometry/ellipse.html
+  - https://byjus.com/maths/area-of-ellipse/
+description: "Gives the region enclosed by an ellipse in terms of its two semi-axes. It generalizes the circle-area formula, reducing to the circle case when the two semi-axes are equal. Commonly used for orbital and architectural applications."
 equation: area eq pi mul length mul length
 symbol_overrides:
-- area: ''
 - length: a
 - length: b
 name_overrides:
-- area: ''
 - length: Semi-major axis
 - length: Semi-minor axis

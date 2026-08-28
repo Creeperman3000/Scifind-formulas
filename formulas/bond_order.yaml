@@ -2,7 +2,17 @@ name: Bond order
 id: bond_order
 topic: chemical_bonding
 difficulty: 6
-equation: dimensionless eq (dimensionless sub dimensionless ) frac 2
+links:
+- https://en.wikipedia.org/wiki/Bond_order
+- https://openstax.org/books/chemistry-2e/pages/8-4-molecular-orbital-theory
+- https://chem.libretexts.org/Courses/CSU_Fullerton/Chem_325%3A_Inorganic_Chemistry_(Cooley)/02%3A_Molecules/2.06%3A_Molecular_Orbital_Theory
+- https://chem-textbook.ucalgary.ca/version2/chapter-8-main/molecular-orbital-theory/bond-order/
+description: 'In molecular orbital theory, bond order measures the net bonding between
+  two atoms from the electron populations of the bonding and antibonding orbitals.
+  It serves as an index of bond strength and stability: bond orders of one, two, and
+  three correspond to single, double, and triple bonds, while a value of zero predicts
+  that the species will not exist.'
+equation: dimensionless eq (dimensionless sub dimensionless) frac 2
 symbol_overrides:
 - dimensionless: BO
 - dimensionless: N_{bonding}

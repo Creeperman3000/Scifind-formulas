@@ -2,14 +2,20 @@ name: Stopping distance from friction
 id: stopping_distance_braking
 topic: friction
 difficulty: 6
-description: Valid for constant kinetic friction and zero final velocity.
-equation: length eq (velocity pow 2) frac (2 mul coefficient_of_friction mul (standard_gravity
-  ))
+links:
+- https://en.wikipedia.org/wiki/Braking_distance
+- https://en.wikipedia.org/wiki/Stopping_distance
+- https://en.wikipedia.org/wiki/Kinetic_friction
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton's_Laws/6.04%3A_Friction
+- https://www.physicsclassroom.com/class/newtlaws/Lesson-3/Determining-Stopping-Distance
+description: Braking distance is the distance a vehicle travels from full brake application
+  to a complete stop, derived by equating the kinetic energy of motion to the work
+  done by kinetic friction on a level surface. It is one of the two components of
+  the total stopping distance, the other being the perception-reaction distance.
+equation: length eq (velocity pow 2) frac 2 mul coefficient_of_friction mul standard_gravity
 symbol_overrides:
 - length: d
-- velocity: ''
 - coefficient_of_friction: μ
 name_overrides:
-- length: Braking [distance]
+- length: Braking distance
 - velocity: Initial [velocity]
-- coefficient_of_friction: ''

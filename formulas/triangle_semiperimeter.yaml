@@ -2,6 +2,12 @@ name: Semiperimeter of a triangle
 id: triangle_semiperimeter
 topic: triangles
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Semiperimeter
+  - https://en.wikipedia.org/wiki/Heron%27s_formula
+  - https://en.wikipedia.org/wiki/Incircle_and_excircles
+  - https://mathworld.wolfram.com/Semiperimeter.html
+description: "The semiperimeter of a triangle is half of its perimeter, equal to half the sum of the three side lengths. It appears as a building block in many triangle formulas, most notably Heron's formula for the area and the inradius relation r = A/s."
 equation: length eq (length add (length) add length ) frac 2
 symbol_overrides:
 - length: s

@@ -2,13 +2,24 @@ name: Radiance from radiant intensity and area
 id: radiance_formula
 topic: electromagnetic_waves
 difficulty: 8
-description: "Radiance from radiant intensity and projected area; L_e = I / (A cos θ)."
-equation: radiance eq radiant_intensity frac area
+links:
+- https://en.wikipedia.org/wiki/Radiance
+- https://physics.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_(OpenStax)/01%3A_The_Nature_of_Light/1.05%3A_Radiometry
+- https://www.britannica.com/science/radiance
+- https://www.rp-photonics.com/radiance.html
+- https://www.edmundoptics.com/knowledge-center/tech-tools/radiance/
+description: Radiance is the radiant flux emitted, reflected, transmitted, or received
+  by a surface per unit solid angle per unit projected area. It is a directional quantity
+  used to characterize how much power a surface delivers to an optical system observing
+  it from a given direction, and is conserved by ideal lossless optical systems.
+equation: radiance eq radiant_intensity frac area mul cos angle
 symbol_overrides:
-- radiance: ''
-- radiant_intensity: ''
-- area: ''
+- radiance: L_e
+- radiant_intensity: I_e
+- area: A
+- angle: \theta
 name_overrides:
-- radiance: ''
-- radiant_intensity: ''
-- area: ''
+- radiance: '[radiance]'
+- radiant_intensity: '[radiant_intensity]'
+- area: '[area]'
+- angle: '[angle] between viewing direction and surface normal'

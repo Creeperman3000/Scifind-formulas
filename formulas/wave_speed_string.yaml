@@ -2,14 +2,18 @@ name: Wave speed on a string
 id: wave_speed_string
 topic: mechanical_waves
 difficulty: 6
-equation: velocity eq sqrt (force frac mass frac length ) 2
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_Wave_Speed_on_a_Stretched_String
+  - https://en.wikipedia.org/wiki/Wave#Wave_in_elastic_medium
+  - https://en.wikipedia.org/wiki/String_vibration
+  - https://en.wikipedia.org/wiki/Transverse_wave
+description: The speed of a transverse wave on a stretched string is set by the balance between the restoring tension and the string's inertia, expressed as the square root of tension divided by linear mass density. It depends only on the medium's elastic and inertial properties and is independent of the wave's frequency or amplitude.
+equation: velocity eq sqrt (force frac mass frac length) 2
 symbol_overrides:
-- velocity: ''
 - force: T
-- mass: ''
-- length: L
+- length: μ
 name_overrides:
 - velocity: Wave [velocity]
-- force: Tension
-- mass: Mass of string
-- length: String length
+- force: String [force] (tension)
+- mass: '[mass] of the string'
+- length: '[length] of the string'

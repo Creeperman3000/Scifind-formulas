@@ -2,8 +2,16 @@ name: Coulomb's law
 id: coulombs_law
 topic: electrostatics
 difficulty: 6
-description: "Valid for point charges, or spherically symmetric charge distributions."
-equation: force eq coulomb_constant mul (charge mul charge ) frac length pow 2
+links:
+- https://en.wikipedia.org/wiki/Coulomb%27s_law
+- https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/18%3A_Electric_Charge_and_Electric_Field/18.03%3A_Coulomb%27s_Law
+- https://openstax.org/books/physics/pages/18-2-coulombs-law
+description: 'Coulomb''s law gives the magnitude of the electrostatic force between
+  two point charges at rest: it is proportional to the product of the charges, inversely
+  proportional to the square of their separation, and directed along the line joining
+  them. Like charges repel and opposite charges attract. It is the foundation of electrostatics,
+  valid for point charges or spherically symmetric charge distributions.'
+equation: force eq coulomb_constant mul (charge mul charge) frac length pow 2
 symbol_overrides:
 - force: F_e
 - charge: q_1
@@ -11,6 +19,4 @@ symbol_overrides:
 - length: r
 name_overrides:
 - force: Electrostatic [force]
-- charge: ''
-- charge: ''
 - length: Distance

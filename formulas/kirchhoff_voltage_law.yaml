@@ -2,8 +2,11 @@ name: Kirchhoff's voltage law
 id: kirchhoff_voltage_law
 topic: circuits
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/10%3A_Direct-Current_Circuits/10.03%3A_Kirchhoff%27s_Rules
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-resistors/a/kirchhoffs-voltage-law
+description: "Kirchhoff's voltage law (the loop rule) states that the directed sum of the potential differences around any closed loop in a circuit is zero. It follows from the conservative nature of the electrostatic field in the lumped-circuit approximation."
 equation: sum drop drop electric_potential eq 0
 name_overrides:
 - electric_potential: Sum of potential differences
-symbol_overrides:
-- electric_potential: ''

@@ -2,19 +2,27 @@ name: Quadratic formula
 id: quadratic_formula
 topic: polynomials
 difficulty: 4
-equation: dimensionless eq (drop dimensionless sub add sqrt ((dimensionless pow 2)
-  sub 4 mul (dimensionless) mul dimensionless) 2) frac 2 mul dimensionless
+links:
+- https://en.wikipedia.org/wiki/Quadratic_formula
+- https://mathworld.wolfram.com/QuadraticFormula.html
+- https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula/a/the-quadratic-formula
+- https://www.britannica.com/science/quadratic-formula
+- https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra_(OpenStax)/09%3A_Quadratic_Equations_and_Functions/9.01%3A_Solving_Quadratic_Equations_by_the_Quadratic_Formula
+description: The quadratic formula gives the roots of any quadratic equation in terms
+  of its coefficients, and applies over the real or complex numbers depending on the
+  discriminant. It is valid for any nonzero leading coefficient and handles repeated,
+  real, or complex roots via the discriminant.
+equation: dimensionless eq (pm (sub drop dimensionless) sqrt ((dimensionless pow 2)
+  sub 4 mul dimensionless mul dimensionless) 2 ) frac 2 mul dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: b
-- dimensionless: b
 - dimensionless: a
-- dimensionless: c
+- dimensionless: a
 - dimensionless: a
 name_overrides:
 - dimensionless: Solution
 - dimensionless: Coefficient b
-- dimensionless: Coefficient b
 - dimensionless: Coefficient a
-- dimensionless: '[Constant] c'
+- dimensionless: Coefficient a
 - dimensionless: Coefficient a

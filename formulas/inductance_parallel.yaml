@@ -2,6 +2,13 @@ name: Parallel combination of inductors
 id: inductance_parallel
 topic: electromagnetic_induction
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Inductors_2
+  - https://en.wikipedia.org/wiki/Inductance
+  - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-natural-and-step-response/ee-inductor-networks
+  - https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_(OpenStax)/14%3A_Electromagnetic_Induction/14.06%3A_Inductance
+  - https://www.electronics-tutorials.ws/inductor/parallel-inductors.html
+description: "For two non-coupled inductors connected in parallel, the equivalent inductance is the product of the individual inductances divided by their sum. This is the 'product over sum' rule and applies only when there is no mutual coupling between the coils; mutual inductance terms must be added when magnetic fields link the two inductors."
 equation: inductance eq (inductance mul inductance) frac inductance add inductance
 symbol_overrides:
 - inductance: L_{eq}
@@ -11,7 +18,7 @@ symbol_overrides:
 - inductance: L_2
 name_overrides:
 - inductance: Equivalent [inductance]
-- inductance: '[Inductance] 1'
-- inductance: '[Inductance] 2'
-- inductance: '[Inductance] 1'
-- inductance: '[Inductance] 2'
+- inductance: '[inductance] 1'
+- inductance: '[inductance] 2'
+- inductance: '[inductance] 1'
+- inductance: '[inductance] 2'

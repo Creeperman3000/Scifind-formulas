@@ -2,17 +2,26 @@ name: Otto cycle efficiency
 id: otto_cycle_efficiency
 topic: heat_engines
 difficulty: 9
-equation: dimensionless eq dimensionless dimensionless dimensionless sub dimensionless
-  pow frac sub 1
+links:
+- https://en.wikipedia.org/wiki/Otto_cycle
+- https://en.wikipedia.org/wiki/Heat_engine
+- https://en.wikipedia.org/wiki/Thermal_efficiency
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/11%3A_Heat_Engines/11.03%3A_The_Otto_Cycle
+description: The Otto cycle models an idealized spark-ignition internal combustion
+  engine with two isentropic and two constant-volume (isochoric) processes, and its
+  thermal efficiency depends only on the compression ratio r and the heat capacity
+  ratio γ of the working gas. Real gasoline engines approach but cannot exceed this
+  efficiency, and higher compression ratios give higher efficiency until knock limits
+  the allowable ratio.
+equation: dimensionless eq dimensionless sub frac 1 dimensionless pow dimensionless
+  sub 1
 symbol_overrides:
-- dimensionless: η_{Otto}
-- dimensionless: r
-- dimensionless: γ
+- dimensionless: \eta_{Otto}
 - dimensionless: '1'
-- dimensionless: ''
+- dimensionless: r
+- dimensionless: \gamma
 name_overrides:
-- dimensionless: Otto cycle [efficiency]
+- dimensionless: Otto cycle efficiency
+- dimensionless: '1'
 - dimensionless: Compression ratio r
 - dimensionless: Ratio of specific heats γ
-- dimensionless: ''
-- dimensionless: ''

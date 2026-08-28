@@ -2,24 +2,34 @@ name: Born-Landé lattice energy equation
 id: lattice_energy_born_lande
 topic: inorganic_chemistry
 difficulty: 10
-equation: energy eq coulomb_constant mul (avogadro_number) mul (dimensionless) mul
-  (charge) mul (charge) frac (vacuum_permittivity mul length ) mul dimensionless sub
-  dimensionless frac dimensionless
+links:
+- https://en.wikipedia.org/wiki/Born%E2%80%93Land%C3%A9_equation
+- https://en.wikipedia.org/wiki/Lattice_energy
+- https://en.wikipedia.org/wiki/Madelung_constant
+- https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/06%3A_Properties_of_Solids/6.04%3A_Lattice_Energy
+- https://www.britannica.com/science/lattice-energy
+- https://www.chemguide.co.uk/physical/energetics/lattice.html
+description: Calculates the lattice energy of an ionic crystal from the Madelung constant
+  (set by the lattice geometry), the ionic charges, the nearest-neighbor distance,
+  and the Born exponent (set by the electron configurations of the ions). The factor
+  (1 − 1/n) accounts for short-range repulsion between ions, reducing the purely electrostatic
+  Madelung energy by a small amount.
+equation: energy eq avogadro_number mul dimensionless mul charge mul charge mul elementary_charge
+  pow dimensionless mul coulomb_constant frac length mul dimensionless sub dimensionless
+  frac dimensionless
 symbol_overrides:
 - energy: U
 - dimensionless: M
 - charge: z_+
 - charge: z_-
+- dimensionless: '2'
 - length: r_0
 - dimensionless: n
-- dimensionless: n
-- dimensionless: ''
 name_overrides:
 - energy: Lattice [energy]
 - dimensionless: Madelung constant
 - charge: Cation charge
 - charge: Anion charge
+- dimensionless: Squared
 - length: Nearest neighbor distance
 - dimensionless: Born exponent
-- dimensionless: Born exponent
-- dimensionless: ''

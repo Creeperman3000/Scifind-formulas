@@ -2,13 +2,13 @@ name: Magnetic flux density (B-field) from flux
 id: magnetic_flux_density_definition
 topic: magnetism
 difficulty: 7
-description: Valid for uniform normal flux through the area. For non-uniform
+links:
+  - https://en.wikipedia.org/wiki/Magnetic_flux
+  - https://en.wikipedia.org/wiki/Magnetic_field
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields
+  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields-and-induction/magnetic-flux-faradays-law/a/magnetic-flux
+description: "Relates the magnetic flux density (B) to the magnetic flux passing through a surface, assuming the field is uniform and normal to the area. In general, the flux density equals the surface flux density and forms part of the foundation of electromagnetic induction."
 equation: magnetic_flux_density eq magnetic_flux frac area
-symbol_overrides:
-- magnetic_flux_density: ''
-- magnetic_flux: ''
-- area: ''
 name_overrides:
-- magnetic_flux_density: '[Magnetic] flux density'
-- magnetic_flux: ''
-- area: Area perpendicular to field
+- magnetic_flux_density: '[magnetic_flux_density]'
+- area: '[area] perpendicular to field'

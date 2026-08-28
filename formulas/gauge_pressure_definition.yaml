@@ -2,12 +2,19 @@ name: Gauge pressure
 id: gauge_pressure_definition
 topic: pressure
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pressure#Gauge
+  - https://en.wikipedia.org/wiki/Gauge_pressure
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.04%3A_Measuring_Pressure
+  - https://www.engineeringtoolbox.com/gauge-absolute-pressure-d_519.html
+  - https://www.bbc.co.uk/bitesize/guides/zcwyw6f/revision/4
+description: "Gauge pressure is the pressure of a system measured relative to the local ambient atmospheric pressure, so it reads zero at atmospheric conditions and is positive or negative relative to that reference. It is the quantity most pressure gauges and tire-pressure meters display directly, since they are typically referenced to the surrounding atmosphere rather than to a perfect vacuum."
 equation: pressure eq pressure sub pressure
 symbol_overrides:
-- pressure: P_{gauge}
-- pressure: P_{abs}
-- pressure: P_{atm}
+  - pressure: P_{gauge}
+  - pressure: P_{abs}
+  - pressure: P_{atm}
 name_overrides:
-- pressure: Gauge [pressure]
-- pressure: Absolute [pressure]
-- pressure: Atmospheric [pressure]
+  - pressure: Gauge [pressure]
+  - pressure: Absolute [pressure]
+  - pressure: Atmospheric [pressure]

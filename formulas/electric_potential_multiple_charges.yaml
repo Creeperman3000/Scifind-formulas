@@ -2,12 +2,16 @@ name: Electric potential from multiple point charges
 id: electric_potential_multiple_charges
 topic: electric_potential
 difficulty: 7
+links:
+  - https://hyperphysics.gsu.edu/hbase/electric/mulpoi.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/07%3A_Electric_Potential/7.04%3A_Calculations_of_Electric_Potential
+  - https://www.usna.edu/Users/physics/helton/documents/SP212_Lecture_Slides/SP212_Lecture_Slides_Lesson_11.pdf
+description: "The total electric potential at a point produced by a collection of point charges is the algebraic (scalar) sum of the contributions of the individual charges, by the superposition principle. Because potential is a scalar, no vector components are needed; each contribution carries the sign of its source charge."
 equation: electric_potential eq coulomb_constant mul sum drop drop (charge frac length)
 symbol_overrides:
-- electric_potential: ''
-- charge: ''
-- length: ''
+- charge: Q_i
+- length: r_i
 name_overrides:
-- electric_potential: Total [electric potential]
-- charge: ''
-- length: ''
+- electric_potential: Total [electric_potential]
+- charge: '[charge] of the i-th point charge'
+- length: '[distance] from the i-th charge to the field point'

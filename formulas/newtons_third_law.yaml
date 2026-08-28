@@ -2,10 +2,17 @@ name: Newton's third law
 id: newtons_third_law
 topic: newtons_laws
 difficulty: 3
-equation: force eq drop force sub
+links:
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton%27s_Laws/5.05%3A_Newton%27s_Third_Law
+  - https://www.britannica.com/science/Newtons-third-law
+  - https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-third-law
+  - https://www.physicsclassroom.com/class/newtlaws/Lesson-4/Newton-s-Third-Law
+description: "Newton's third law states that for every action there is an equal and opposite reaction: the force exerted by body 1 on body 2 is equal in magnitude and opposite in direction to the force exerted by body 2 on body 1. The two forces act on different bodies, so they do not cancel; the law is the microscopic origin of conservation of linear momentum."
+equation: ((force) eq (drop sub force))
 symbol_overrides:
 - force: F_{12}
 - force: F_{21}
 name_overrides:
-- force: Force on body 1 from body 2
-- force: Force on body 2 from body 1
+- force: '[force] on body 1 from body 2'
+- force: '[force] on body 2 from body 1'

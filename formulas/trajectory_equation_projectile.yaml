@@ -2,21 +2,28 @@ name: Projectile trajectory equation
 id: trajectory_equation_projectile
 topic: projectile_motion
 difficulty: 6
-equation: length eq length mul (tan angle ) sub (standard_gravity mul (length pow
-  2)) frac ((2 mul (velocity pow 2)) mul (cos angle pow 2 ))
+links:
+- https://en.wikipedia.org/wiki/Projectile_motion
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/03%3A_Motion_Along_a_Straight_Line
+- https://www.khanacademy.org/science/physics/two-dimensional-motion/projectile-motion/v/projectile-motion-introduction
+- https://courses.lumenlearning.com/boundless-physics/chapter/projectile-motion/
+description: Describes the parabolic path of an object launched near Earth's surface
+  and moving only under a constant gravitational acceleration, with air resistance
+  neglected. The relationship gives the vertical height as a function of horizontal
+  distance traveled from the launch point, assuming level ground and an initial height
+  of zero. It is the foundation of classical ballistics, sports trajectory analysis,
+  and water-jet or fountain modeling.
+equation: length eq length mul (tan angle ) sub standard_gravity mul (length pow 2)
+  frac 2 mul (velocity pow 2) mul cos angle pow 2
 symbol_overrides:
 - length: y
 - length: x
 - angle: θ
-- standard_gravity: ''
 - length: x
 - velocity: v_0
-- angle: ''
 name_overrides:
-- length: Vertical [displacement]
-- length: Horizontal [displacement]
+- length: Vertical displacement
+- length: Horizontal displacement
 - angle: Launch angle
-- standard_gravity: ''
-- length: Horizontal [displacement]
+- length: Horizontal displacement
 - velocity: Initial [velocity]
-- angle: ''

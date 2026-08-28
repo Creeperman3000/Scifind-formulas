@@ -2,6 +2,12 @@ name: Conservation of mechanical energy
 id: conservation_of_mechanical_energy
 topic: conservation_of_energy
 difficulty: 5
+links:
+  - https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy
+  - https://en.wikipedia.org/wiki/Conservation_of_mechanical_energy
+  - https://phys.libretexts.org/Bookshelves/Conceptual_Physics/Introduction_to_Physics_(Park)/03%3A_Unit_2-_Mechanics_II_-_Energy_and_Momentum_Oscillations_and_Waves_Rotation_and_Fluids/03%3A_Work_and_Energy/3.05%3A_Conservative_Forces_Potential_Energy_and_Conservation_of_Energy
+  - https://kpu.pressbooks.pub/foundationsofphysics/chapter/chapter-11-conservation-of-mechanical-energy/
+description: "The total mechanical energy of a system — kinetic plus potential — remains constant between two states when only conservative forces (gravity, spring forces) do work. Energy may shift form, but none is lost to friction or drag. This principle is the workhorse of mechanics problems such as falling bodies, pendulums, and roller coasters, where it relates speeds to heights without needing force details."
 equation: energy add energy eq energy add energy
 symbol_overrides:
 - energy: E_{k1}

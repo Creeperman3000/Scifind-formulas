@@ -2,12 +2,17 @@ name: Gravitational potential energy
 id: gravitational_potential_energy
 topic: potential_energy
 difficulty: 4
-equation: energy eq mass mul (standard_gravity) mul length
+links:
+  - https://en.wikipedia.org/wiki/Gravitational_energy
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy/7.03%3A_Gravitational_Potential_Energy
+  - https://www.britannica.com/science/gravitational-potential-energy
+  - https://www.physicsclassroom.com/class/energy/Lesson-2/Mechanical-Energy
+  - https://farside.ph.utexas.edu/teaching/336k/Newton/node116.html
+description: "Near the surface of a massive body such as Earth, where the gravitational field is approximately uniform, the gravitational potential energy of an object of mass m at height h above a chosen reference level is the work required to lift it there, with the constant g approximated by the standard surface gravity."
+equation: energy eq mass mul standard_gravity mul length
 symbol_overrides:
 - energy: U
-- mass: m
 - length: h
 name_overrides:
-- energy: Gravitational [PE]
-- mass: Mass
+- energy: Gravitational PE
 - length: Height

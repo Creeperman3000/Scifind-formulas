@@ -2,27 +2,17 @@ name: Van der Waals equation
 id: van_der_waals_equation
 topic: ideal_gases
 difficulty: 8
-description: "Approximate real-gas equation of state; reduces to the ideal gas law at low density."
+links:
+  - https://en.wikipedia.org/wiki/Van_der_Waals_equation
+  - https://en.wikipedia.org/wiki/Real_gas
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Gas_Laws
+description: "Approximate equation of state for real (non-ideal) gases that accounts for the finite size of molecules and the attractive forces between them. The constants a and b are substance-specific, with a representing intermolecular attraction and b the excluded volume per mole."
 equation: (pressure add (amount pow 2) mul van_der_waals_attraction frac volume pow
   2 ) mul volume sub amount mul van_der_waals_volume eq (amount mul gas_constant)
   mul temperature
-symbol_overrides:
-- pressure: P
-- amount: n
-- van_der_waals_attraction: a
-- volume: V
-- volume: V
-- amount: n
-- van_der_waals_volume: b
-- amount: n
-- temperature: T
 name_overrides:
-- pressure: Pressure
 - amount: Amount
 - van_der_waals_attraction: Attraction parameter
-- volume: Volume
-- volume: Volume
 - amount: Amount
 - van_der_waals_volume: Volume parameter
 - amount: Amount
-- temperature: Temperature

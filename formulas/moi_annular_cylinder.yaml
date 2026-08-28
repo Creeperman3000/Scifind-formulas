@@ -2,14 +2,22 @@ name: Moment of inertia of an annular cylinder
 id: moi_annular_cylinder
 topic: moment_of_inertia
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+- https://en.wikipedia.org/wiki/Moment_of_inertia
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.06%3A_Moments_of_Inertia
+- https://www.britannica.com/science/moment-of-inertia
+description: The moment of inertia of a hollow cylindrical tube (thick-walled annular
+  cylinder) about its longitudinal central axis equals one-half the total mass times
+  the sum of the squares of the inner and outer radii. It is the standard result for
+  tubes, pipes, and bearings, and reduces to the solid cylinder (R₁=0) or thin shell
+  (R₁=R₂) cases in the appropriate limits.
 equation: moment_of_inertia eq mass mul ((length pow 2) add length pow 2 ) frac 2
 symbol_overrides:
-- moment_of_inertia: ''
 - mass: M
 - length: R₁
 - length: R₂
 name_overrides:
-- moment_of_inertia: Moment of [inertia]
-- mass: ''
-- length: Inner [radius]
-- length: Outer [radius]
+- moment_of_inertia: '[moment_of_inertia]'
+- length: Inner radius
+- length: Outer radius

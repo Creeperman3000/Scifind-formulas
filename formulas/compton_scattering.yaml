@@ -2,8 +2,18 @@ name: Compton scattering wavelength shift
 id: compton_scattering
 topic: quantum_mechanics
 difficulty: 9
-equation: length eq planck_constant frac (mass mul speed_of_light ) mul cos angle sub
-  1
+links:
+- https://en.wikipedia.org/wiki/Compton_scattering
+- https://phys.libretexts.org/Bookshelves/Modern_Physics/Spiral_Modern_Physics_(D'Alessandris)/4%3A_The_Photon/4.2%3A_Compton_Scattering
+- https://www.britannica.com/science/electromagnetic-radiation/Compton-effect
+- https://www-users.york.ac.uk/~pjd113/notebooks/1_4_ComptonScattering.html
+description: The Compton shift is the increase in a photon's wavelength after it scatters
+  off a loosely bound (effectively free) electron, derived from relativistic energy
+  and momentum conservation. The shift depends only on the scattering angle and not
+  on the incident wavelength, growing from zero for forward scattering to twice the
+  electron's Compton wavelength for backscattering. Its 1923 observation was decisive
+  evidence for the particle nature of light.
+equation: length eq planck_constant frac (mass mul speed_of_light) mul 1 sub cos angle
 symbol_overrides:
 - length: Δλ
 - mass: m_e

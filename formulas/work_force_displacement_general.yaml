@@ -2,14 +2,17 @@ name: Work as dot product of force and displacement
 id: work_force_displacement_general
 topic: work
 difficulty: 6
-equation: energy eq force mul (length) mul cos angle
+links:
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy
+  - https://www.math.ubc.ca/~feldman/m120/work.pdf
+  - https://openstax.org/books/university-physics-volume-1/pages/7-2-work
+description: "For a constant force applied at a fixed angle to the displacement of its point of application, the work done equals the product of the force magnitude, the displacement magnitude, and the cosine of the angle between them. Work is positive when the force has a component along the displacement and negative when it opposes it."
+equation: energy eq force mul length mul cos angle
 symbol_overrides:
-- energy: ''
-- force: ''
-- length: ''
-- angle: θ
+- energy: W
+- length: d
+- angle: \theta
 name_overrides:
-- energy: '[Work]'
-- force: ''
-- length: ''
-- angle: Angle between [force] and [displacement]
+- energy: Work
+- angle: Angle between [force] and displacement

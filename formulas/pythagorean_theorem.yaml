@@ -2,6 +2,13 @@ name: Pythagorean theorem
 id: pythagorean_theorem
 topic: triangles
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Pythagorean_theorem
+  - https://www.britannica.com/science/Pythagorean-theorem
+  - https://mathworld.wolfram.com/PythagoreanTheorem.html
+  - https://www.khanacademy.org/math/geometry-home/triangle-properties/pythagorean-theorem/v/the-pythagorean-theorem
+  - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/05%3A_Radical_Functions_and_Equations/5.06%3A_Geometric_Applications
+description: "A cornerstone of Euclidean geometry, the Pythagorean theorem states that in any right triangle the area of the square on the hypotenuse equals the sum of the areas of the squares on the other two sides. It underlies the Euclidean distance formula, the law of cosines, and many results in analytic geometry, trigonometry, and physics."
 equation: length pow 2 eq (length pow 2) add length pow 2
 symbol_overrides:
 - length: c

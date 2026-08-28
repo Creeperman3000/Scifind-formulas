@@ -2,12 +2,18 @@ name: Sound intensity level in decibels
 id: sound_intensity_level
 topic: mechanical_waves
 difficulty: 6
-equation: logarithmic_ratio eq 10 mul log 10 (irradiance frac irradiance )
+links:
+  - https://en.wikipedia.org/wiki/Sound_intensity
+  - https://en.wikipedia.org/wiki/Decibel
+  - https://en.wikipedia.org/wiki/Level_(logarithmic_quantity)
+  - https://en.wikipedia.org/wiki/Sound_pressure
+description: "Sound intensity level is a logarithmic measure of a sound's acoustic intensity referenced to a standard threshold of audibility, expressed in decibels. Because the human ear responds to intensity on a logarithmic scale, this quantity is used to quantify loudness and is the basis of most noise-exposure standards."
+equation: logarithmic_ratio eq 10 mul log 10 (irradiance frac irradiance)
 symbol_overrides:
-- sound_intensity_level: β
+- logarithmic_ratio: L_I
 - irradiance: I
-- irradiance: I₀
+- irradiance: I_{0}
 name_overrides:
-- sound_intensity_level: Sound [level]
-- irradiance: Sound [intensity]
-- irradiance: Reference [intensity]
+- logarithmic_ratio: Sound intensity level
+- irradiance: Sound intensity
+- irradiance: Reference intensity

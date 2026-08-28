@@ -2,15 +2,20 @@ name: Heat capacity from heat and temperature change
 id: heat_capacity_definition_general
 topic: heat
 difficulty: 5
-description: "Heat capacity at constant pressure or volume; C = Q / ΔT."
+links:
+  - https://en.wikipedia.org/wiki/Heat_capacity
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/ChemPRIME_(Moore_et_al.)/15%3A_Thermodynamics-_Atoms_Molecules_and_Energy/15.08%3A_Heat_Capacity
+  - https://www.britannica.com/science/heat-capacity
+  - https://www.physicsclassroom.com/Class/thermalP/u18l1c.cfm
+  - https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-heat-of-fusion/v/heat-capacity
+  - https://courses.lumenlearning.com/suny-physics/chapter/15-1-temperature-and-thermal-equilibrium/
+description: "Heat capacity is an extensive property of a body that quantifies the amount of heat energy required to produce a unit change in temperature. It depends on the conditions of the process (e.g. constant pressure or volume) and on the mass and composition of the material."
 equation: dimensionless eq energy frac temperature sub temperature
 symbol_overrides:
 - dimensionless: C
-- energy: ''
 - temperature: T_f
 - temperature: T_i
 name_overrides:
 - dimensionless: Heat capacity
-- energy: ''
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

@@ -2,6 +2,16 @@ name: Wave superposition amplitude
 id: wave_superposition_amplitude
 topic: wave_interference
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Wave_interference
+- https://en.wikipedia.org/wiki/Superposition_principle
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.06%3A_Interference_of_Waves
+- https://en.wikipedia.org/wiki/Interference_(wave_propagation)
+description: When two coherent waves of the same frequency superpose in phase, their
+  amplitudes combine in quadrature, giving a resultant amplitude equal to the square
+  root of the sum of the squares of the individual amplitudes. This in-phase (constructive)
+  result is a special case of the more general interference law that includes a phase-dependent
+  cross term.
 equation: dimensionless eq sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
 symbol_overrides:
 - dimensionless: A

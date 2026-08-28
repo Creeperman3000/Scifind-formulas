@@ -2,6 +2,12 @@ name: Electronegativity difference
 id: electronegativity_difference
 topic: chemical_bonding
 difficulty: 5
+links:
+  - https://chem-textbook.ucalgary.ca/version2/chapter-7a-main/ionic-and-covalent-bonding/electronegativity-and-bond-type/
+  - https://chem.libretexts.org/Courses/Stanford_Online_High_School/ChemTEN_S1/02%3A_COVALENCE/2.02%3A_STRUCTURE/2.2.04%3A_Electronegativity_and_Bond_Polarity
+  - https://www.omnicalculator.com/chemistry/electronegativity
+  - https://www.chemteam.info/Bonding/Electroneg-Bond-Polarity.html
+description: "The difference in electronegativity between two bonded atoms gauges how unevenly the bonding electrons are shared and helps classify the bond. A near-zero difference indicates a nonpolar covalent bond, an intermediate value a polar covalent bond, and a large difference (roughly above 1.8-2.0 on the Pauling scale) an ionic bond. It is a rule of thumb, not an exact criterion."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: ΔEN
@@ -9,5 +15,5 @@ symbol_overrides:
 - dimensionless: EN_B
 name_overrides:
 - dimensionless: Electronegativity difference
-- dimensionless: '[Electronegativity] of A'
-- dimensionless: '[Electronegativity] of B'
+- dimensionless: Electronegativity of A
+- dimensionless: Electronegativity of B

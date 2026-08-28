@@ -2,7 +2,13 @@ name: Phase shift on reflection
 id: phase_shift_on_reflection
 topic: interference
 difficulty: 7
-description: A phase shift of π occurs for reflection at a boundary with a
+links:
+  - https://en.wikipedia.org/wiki/Reflection_phase_change
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/interf.html#c2
+  - https://www.acs.psu.edu/drussell/Demos/reflect/reflect.html
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/03%3A_Interference_of_Light_Waves
+  - https://opentextbc.ca/universityphysicsv3/chapter/3-2-interference-of-light-waves/
+description: "When a wave reflects off a boundary where the wave speed decreases (e.g., light entering a medium of higher refractive index), the reflected wave is inverted, acquiring a π radian (180°) phase shift. Waves reflecting from a faster medium back into a slower one experience no such shift."
 equation: dimensionless eq pi
 symbol_overrides:
 - dimensionless: Δφ

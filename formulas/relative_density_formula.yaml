@@ -2,11 +2,18 @@ name: Relative density (specific gravity)
 id: relative_density_formula
 topic: buoyancy
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Relative_density
+  - https://www.britannica.com/science/specific-gravity
+  - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Beginning_Chemistry_(Ball)/Chapter_03%3A_Matter_and_Energy/3.02%3A_Measuring_Matter
+  - https://www.thoughtco.com/definition-of-specific-gravity-605924
+  - https://www.engineeringtoolbox.com/specific-gravity-d_294.html
+description: "Relative density, also called specific gravity, is a dimensionless quantity defined as the ratio of the density of a substance to the density of a reference material, conventionally water at 4 degrees Celsius for liquids and solids, or air for gases."
 equation: density eq density frac density
 symbol_overrides:
-- density: ρ_{rel}
-- density: ρ_{substance}
-- density: ρ_{water}
+- density: \rho_{rel}
+- density: \rho_{substance}
+- density: \rho_{water}
 name_overrides:
 - density: Relative [density]
 - density: Substance [density]

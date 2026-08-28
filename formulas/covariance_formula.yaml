@@ -2,6 +2,12 @@ name: Covariance of two variables
 id: covariance_formula
 topic: statistics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Covariance
+  - https://www.probabilitycourse.com/chapter5/5_3_1_covariance_correlation.php
+  - https://stats.libretexts.org/Bookshelves/Probability_Theory/Applied_Probability_(Pfeiffer)/12:_Variance_Covariance_and_Linear_Regression/12.02:_Covariance_and_the_Correlation_Coefficient
+  - https://www.britannica.com/topic/covariance
+description: "Covariance measures how two random variables vary together: positive values indicate the variables tend to move in the same direction, negative values indicate opposite movement, and zero indicates no linear association. This computational form follows from expanding the definitional expectation of the product of deviations and is widely used in deriving correlations and portfolio variance."
 equation: dimensionless eq dimensionless sub dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: Cov(X,Y)
@@ -9,7 +15,7 @@ symbol_overrides:
 - dimensionless: E(X)
 - dimensionless: E(Y)
 name_overrides:
-- dimensionless: '[Covariance]'
+- dimensionless: Covariance
 - dimensionless: Expected value of XY
 - dimensionless: Expected value of X
 - dimensionless: Expected value of Y

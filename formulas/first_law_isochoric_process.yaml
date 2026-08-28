@@ -2,7 +2,12 @@ name: First law of thermodynamics for isochoric process
 id: first_law_isochoric_process
 topic: first_law
 difficulty: 7
-description: "Valid for an isochoric (constant-volume) process; W = 0 and ΔU = Q."
+links:
+  - https://en.wikipedia.org/wiki/Isochoric_process
+  - https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_(Sire)/04%3A_The_First_Law_of_Thermodynamics/4.03%3A_Heat_Capacity_at_Constant_Volume
+  - https://www.khanacademy.org/science/physics/thermodynamics-essentials
+description: "An isochoric (constant-volume) process performs no pressure-volume work because the volume cannot change. Consequently, by the first law, all heat added to a closed system at constant volume goes into changing its internal energy; the molar heat capacity at constant volume relates this energy change to the temperature change."
 equation: energy eq energy
 symbol_overrides:
 - energy: ΔU

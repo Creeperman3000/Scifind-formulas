@@ -2,15 +2,21 @@ name: Faraday's law with N turns
 id: induced_emf_faraday_flux_change_rate
 topic: electromagnetic_induction
 difficulty: 7
-equation: electromagnetic_induction eq drop (dimensionless mul magnetic_flux frac Delta
-  time) sub
+links:
+- https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction
+- https://en.wikipedia.org/wiki/Lenz%27s_law
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/13%3A_Electromagnetic_Induction/13.01%3A_Faradays_Law
+- https://www.britannica.com/science/Faradays-law-of-induction
+- https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/a/what-is-faradays-law
+description: For a tightly wound coil of N identical turns, the magnetic flux change
+  through each turn adds, multiplying the induced emf by N. This is the working principle
+  of transformers, generators, and induction coils.
+equation: electromagnetic_induction eq 0 sub dimensionless mul frac rmd magnetic_flux
+  rmd time
 symbol_overrides:
 - electromagnetic_induction: ε
 - dimensionless: N
 - magnetic_flux: Φ
-- time: t
 name_overrides:
 - electromagnetic_induction: Induced EMF
 - dimensionless: Number of turns
-- magnetic_flux: Magnetic flux
-- time: Time

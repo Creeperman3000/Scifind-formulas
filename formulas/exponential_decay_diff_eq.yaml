@@ -2,14 +2,20 @@ name: Exponential decay differential equation
 id: exponential_decay_diff_eq
 topic: differential_equations
 difficulty: 7
-equation: frac (rmd amount) (rmd time) eq drop (frequency mul amount) sub
+links:
+- https://en.wikipedia.org/wiki/Exponential_decay
+- https://en.wikipedia.org/wiki/Radioactive_decay
+description: 'The first-order differential equation defining exponential decay: a
+  quantity changes at a rate proportional to its own current value, with the negative
+  sign meaning the quantity decreases. It models processes such as radioactive disintegration,
+  capacitor discharge, and first-order chemical reactions; solving it yields the familiar
+  exponential decay law with time constant set by the decay constant.'
+equation: frac rmd amount rmd time eq drop (frequency mul amount) sub
 symbol_overrides:
 - amount: N
-- time: t
 - frequency: \lambda
 - amount: N
 name_overrides:
 - amount: Population N
-- time: Time
 - frequency: Decay constant
 - amount: Population N

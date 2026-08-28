@@ -2,8 +2,17 @@ name: Integral of 1/(a²+x²)
 id: integral_reciprocal_quadratic
 topic: integrals
 difficulty: 8
-equation: int drop drop (((rmd angle) frac ((dimensionless pow 2) add (angle pow 2)))) eq (1 frac dimensionless)
-  mul atan (angle frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Trigonometric_substitution
+- https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.5%3A_Substitution
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-basic-differentiation-rules/v/proof-of-derivative-of-arctan
+- https://tutorial.math.lamar.edu/classes/calcii/trigsub.aspx
+description: The antiderivative of 1/(a²+x²) is the inverse tangent of x/a divided
+  by a. This rule follows from the substitution x = a tan θ, which converts the sum
+  of squares into a form whose integral evaluates directly to the arctangent.
+equation: int drop drop (rmd angle frac ((dimensionless pow 2) add angle pow 2 ) )
+  eq (1 frac dimensionless) mul atan (angle frac dimensionless)
 symbol_overrides:
 - angle: x
 - dimensionless: a
@@ -12,9 +21,9 @@ symbol_overrides:
 - angle: x
 - dimensionless: a
 name_overrides:
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Constant a

@@ -2,13 +2,16 @@ name: Work done by a gas
 id: work_by_gas
 topic: first_law
 difficulty: 6
-description: "Valid for constant external pressure (isobaric process); the general work is W = ∫P dV."
+links:
+  - https://en.wikipedia.org/wiki/Work_(thermodynamics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_First_Law_of_Thermodynamics
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_for_Biological_Sciences_(LibreTexts)/07%3A_Thermodynamics/7.02%3A_Pressure-Volume_Work
+  - https://www.chem.fsu.edu/chemfsu/WORK/Gas-Work.html
+description: "Pressure-volume work performed by (or on) a gas during a process. For a constant external pressure (isobaric process) the work equals the product of the pressure and the change in volume; the general reversible form involves integrating the pressure over the volume change."
 equation: energy eq pressure mul Delta volume
-name_overrides:
-- energy: '[Work]'
-- pressure: '[Pressure]'
-- volume: '[Volume]'
 symbol_overrides:
-- energy: ''
-- pressure: ''
-- volume: ''
+- energy: W
+name_overrides:
+- energy: Work
+- pressure: Constant [pressure]
+- volume: Change in [volume]

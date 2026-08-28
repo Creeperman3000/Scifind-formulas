@@ -2,7 +2,12 @@ name: Velocity of the center of mass
 id: center_of_mass_velocity
 topic: linear_momentum
 difficulty: 6
-equation: velocity eq (mass mul (velocity) add mass mul velocity ) frac mass add mass
+links:
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_I_-_Classical_Mechanics_(Gea-Banacloche)/03%3A_Momentum_and_Inertia/3.03%3A_Extended_Systems_and_Center_of_Mass
+  - https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass
+  - http://labman.phys.utk.edu/phys135core/modules/m7/center_of_mass.html
+description: "The velocity of a system's center of mass is the mass-weighted average of the velocities of its parts, which also equals the total momentum of the system divided by the total mass. Because an isolated system's total momentum is conserved, its center of mass moves at constant velocity no matter how the individual particles move. This underlies collision analysis and the treatment of extended bodies as single particles."
+equation: velocity eq frac (mass mul velocity add mass mul velocity) (mass add mass)
 symbol_overrides:
 - velocity: v_{cm}
 - mass: m_1
@@ -13,9 +18,9 @@ symbol_overrides:
 - mass: m_2
 name_overrides:
 - velocity: Center of mass [velocity]
-- mass: Mass 1
-- velocity: '[Velocity] of mass 1'
-- mass: Mass 2
-- velocity: '[Velocity] of mass 2'
-- mass: Mass 1
-- mass: Mass 2
+- mass: '[mass] 1'
+- velocity: '[velocity] of mass 1'
+- mass: '[mass] 2'
+- velocity: '[velocity] of mass 2'
+- mass: '[mass] 1'
+- mass: '[mass] 2'

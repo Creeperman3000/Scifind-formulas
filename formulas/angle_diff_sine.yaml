@@ -2,7 +2,16 @@ name: Angle difference identity for sine
 id: angle_diff_sine
 topic: trigonometric_identities
 difficulty: 6
-equation: sin (angle sub angle ) eq sin angle mul (cos angle ) sub cos angle mul sin
+links:
+- https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-2-sum-and-difference-identities
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/03%3A_Identities/3.02%3A_Sum_and_Difference_Formulas
+- https://mathworld.wolfram.com/TrigonometricAdditionFormulas.html
+description: Expresses the sine of the difference of two angles in terms of the sines
+  and cosines of the individual angles, with the same sign between terms as the sign
+  between the angles. Valid for all real angles, it is one of the fundamental sum-and-difference
+  identities and is used for exact-value computations and derivations throughout trigonometry
+  and calculus.
+equation: sin (angle sub angle) eq (sin angle mul cos angle) sub cos angle mul sin
   angle
 symbol_overrides:
 - angle: A

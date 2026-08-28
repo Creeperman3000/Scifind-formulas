@@ -2,14 +2,17 @@ name: Exponential growth solution
 id: exponential_growth_solution
 topic: differential_equations
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Exponential_function
+  - https://en.wikipedia.org/wiki/Exponential_growth
+  - https://en.wikipedia.org/wiki/Malthusian_growth_model
+description: "The closed-form solution of the proportional-growth differential equation: a quantity grows exponentially from its initial value, with the growth rate setting how fast it multiplies over time. It applies to unconstrained population growth, continuously compounded interest, and any process whose rate of change is proportional to the amount present; it assumes the growth rate stays constant."
 equation: dimensionless eq dimensionless mul exp (frequency mul time )
 symbol_overrides:
 - dimensionless: N(t)
 - dimensionless: N_0
 - frequency: r
-- time: ''
 name_overrides:
 - dimensionless: Population at time t
 - dimensionless: Initial population
 - frequency: Growth rate
-- time: ''

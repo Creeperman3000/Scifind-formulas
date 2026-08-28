@@ -2,16 +2,19 @@ name: Standard cell potential from equilibrium
 id: standard_cell_nernst
 topic: electrochemistry
 difficulty: 8
-description: "Standard cell potential from equilibrium constant; E° = (RT / nF) ln K."
+links:
+  - https://en.wikipedia.org/wiki/Standard_electrode_potential
+  - https://en.wikipedia.org/wiki/Nernst_equation
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/20%3A_Electrochemistry/20.4%3A_Relating_E%C2%B0_to_Equilibrium_Constants
+  - https://www.khanacademy.org/science/chemistry/oxidation-reduction
+  - https://byjus.com/chemistry/nernst-equation/
+  - https://www.britannica.com/science/standard-electrode-potential
+description: "The standard cell potential is connected to the equilibrium constant of the underlying redox reaction through the Gibbs free energy. Because the cell can do electrical work only when the reaction is spontaneous, this relation lets one determine tabulated E° values from thermodynamic equilibrium data (and vice versa) at any reference temperature, normally 298 K."
 equation: electric_potential eq gas_constant mul (temperature) frac (amount mul faraday_constant)
   mul log euler_e equilibrium_constant
 symbol_overrides:
 - electric_potential: E°
-- temperature: ''
-- amount: ''
 - equilibrium_constant: K
 name_overrides:
-- electric_potential: Standard cell [potential]
-- temperature: ''
+- electric_potential: Standard cell potential
 - amount: Number of electrons transferred
-- equilibrium_constant: ''

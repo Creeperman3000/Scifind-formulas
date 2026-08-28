@@ -1,13 +1,17 @@
-name: Relativistic kinetic energy (relativistic_kinetic_energy)
+name: Relativistic kinetic energy
 id: relativistic_kinetic_energy
 topic: relativity
 difficulty: 9
+links:
+  - https://en.wikipedia.org/wiki/Kinetic_energy#Relativistic_kinetic_energy
+  - https://en.wikipedia.org/wiki/Energy%E2%80%93momentum_relation
+  - https://en.wikipedia.org/wiki/Mass_in_special_relativity
+  - https://phys.libretexts.org/Bookshelves/Relativity/Book%3A_Special_Relativity_(Crowell)
+  - https://www.britannica.com/science/relativistic-mechanics
+description: "The relativistic kinetic energy of a particle is the difference between its total relativistic energy and its rest energy. In the low-velocity limit it reduces to the familiar ½mv², while for speeds approaching the speed of light it diverges, ensuring no massive particle can reach c."
 equation: energy eq (lorentz_factor sub 1) mul mass mul speed_of_light pow 2
 symbol_overrides:
 - energy: K
-- lorentz_factor: ''
-- mass: ''
 name_overrides:
 - energy: Relativistic kinetic [energy]
-- lorentz_factor: ''
 - mass: Rest [mass]

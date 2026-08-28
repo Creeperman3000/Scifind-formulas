@@ -2,12 +2,22 @@ name: Magnetic moment from unpaired electrons
 id: magnetic_moment_unpaired_electrons
 topic: inorganic_chemistry
 difficulty: 8
-equation: dimensionless eq sqrt (dimensionless mul (dimensionless add 2 )) 2
+links:
+- https://en.wikipedia.org/wiki/Magnetic_moment#Atoms,_molecules,_and_elementary_particles
+- https://en.wikipedia.org/wiki/Bohr_magneton
+- https://en.wikipedia.org/wiki/Spin_magnetic_moment
+- https://chem.libretexts.org/Bookshelves/General_Chemistry
+- https://en.wikipedia.org/wiki/Paramagnetism
+description: The spin-only magnetic moment of a transition-metal complex or atom depends
+  only on the number of unpaired electrons, in units of the Bohr magneton. It is used
+  to deduce the electron configuration and high-spin vs. low-spin state of a complex
+  from a measured magnetic susceptibility.
+equation: ((dimensionless) eq ((dimensionless mul (dimensionless add 2)) sqrt 2))
 symbol_overrides:
 - dimensionless: μ
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: Magnetic [moment] (in Bohr magnetons)
+- dimensionless: Magnetic moment (in Bohr magnetons)
 - dimensionless: Number of unpaired electrons
 - dimensionless: Number of unpaired electrons

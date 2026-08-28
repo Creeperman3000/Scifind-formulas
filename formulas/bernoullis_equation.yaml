@@ -2,7 +2,11 @@ name: Bernoulli's equation
 id: bernoullis_equation
 topic: bernoulli_equation
 difficulty: 7
-description: "Valid for steady, incompressible, inviscid flow along a streamline."
+links:
+  - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/12%3A_Fluid_Dynamics_and_Its_Biological_and_Medical_Applications/12.02%3A_Bernoullis_Equation
+  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/14-6-bernoullis-equation
+  - https://www.engineeringtoolbox.com/bernouilli-equation-d_183.html
+description: "Bernoulli's equation is the statement of conservation of mechanical energy for a flowing fluid: the sum of static pressure, dynamic pressure, and hydrostatic pressure is the same at any two points along a streamline. It holds for steady, incompressible, inviscid flow and underlies analyses of pipe flow, venturi meters, and airfoil lift."
 equation: pressure add (density mul (velocity pow 2) frac 2) add density mul standard_gravity
   mul length eq pressure add (density mul (velocity pow 2) frac 2) add density mul
   standard_gravity mul length
@@ -18,12 +22,12 @@ symbol_overrides:
 - density: ρ
 - length: h_2
 name_overrides:
-- pressure: Pressure at point 1
+- pressure: '[pressure] at point 1'
 - density: Fluid [density]
 - velocity: Flow [velocity] at point 1
 - density: Fluid [density]
 - length: Height at point 1
-- pressure: Pressure at point 2
+- pressure: '[pressure] at point 2'
 - density: Fluid [density]
 - velocity: Flow [velocity] at point 2
 - density: Fluid [density]

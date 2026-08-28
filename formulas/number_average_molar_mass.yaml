@@ -2,21 +2,25 @@ name: Number average molar mass
 id: number_average_molar_mass
 topic: organic_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Molar_mass_distribution
+  - https://en.wikipedia.org/wiki/Number-average_molar_mass
+  - https://www.pslc.ws/macrog/number_avg.htm
+  - https://chem.libretexts.org/Bookshelves/Physical_Chemistry/Book%3A_Physical_Chemistry_(McQuarrie_and_Simon)/29%3A_Polymers/29.2%3A_Molecular_Weight_Distributions_in_Polymers
+description: "The number average molar mass of a polymer is the ordinary arithmetic mean of the molecular masses of the individual chains, weighted by the number of chains of each type. It is the first moment of the molar mass distribution and is the quantity measured by colligative methods such as osmometry."
 equation: molar_mass eq (dimensionless mul (molar_mass) add dimensionless mul molar_mass
   ) frac dimensionless add dimensionless
 symbol_overrides:
-- molar_mass: M̄_n
-- dimensionless: N₁
-- molar_mass: M₁
-- dimensionless: N₂
-- molar_mass: M₂
-- dimensionless: N₁
-- dimensionless: N₂
+- molar_mass: \overline{M}_n
+- dimensionless: N_1
+- molar_mass: M_1
+- dimensionless: N_2
+- molar_mass: M_2
+- dimensionless: N_1
+- dimensionless: N_2
 name_overrides:
-- molar_mass: Number average [molar mass]
+- molar_mass: Number average [molar_mass]
 - dimensionless: Number of chains 1
-- molar_mass: Molar mass 1
+- molar_mass: '[molar_mass] 1'
 - dimensionless: Number of chains 2
-- molar_mass: Molar mass 2
-- dimensionless: ''
-- dimensionless: ''
+- molar_mass: '[molar_mass] 2'

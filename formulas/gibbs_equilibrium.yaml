@@ -2,14 +2,15 @@ name: Gibbs free energy and equilibrium constant
 id: gibbs_equilibrium
 topic: chemical_equilibrium
 difficulty: 8
-description: "ΔG = 0 at constant temperature and pressure defines thermodynamic equilibrium."
+links:
+  - https://en.wikipedia.org/wiki/Equilibrium_constant
+  - https://en.wikipedia.org/wiki/Gibbs_free_energy
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/The_Equilibrium_Constant
+  - https://www.khanacademy.org/test-prep/mcat/chemical-processes/thermodynamics-and-equilibrium/a/free-energy-and-equilibrium
+description: "The standard Gibbs free energy change of a reaction is related to its equilibrium constant by the negative of the gas constant times absolute temperature times the natural logarithm of the equilibrium constant. A reaction with K greater than one has a negative standard free energy change and is product-favored at equilibrium."
 equation: energy eq drop (gas_constant mul (temperature) mul log euler_e equilibrium_constant)
   sub
 symbol_overrides:
-- energy: ΔG°
-- temperature: ''
-- equilibrium_constant: ''
+- energy: \Delta G^\circ
 name_overrides:
 - energy: Standard Gibbs free [energy] change
-- temperature: ''
-- equilibrium_constant: ''

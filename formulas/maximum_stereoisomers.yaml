@@ -2,6 +2,13 @@ name: Maximum number of stereoisomers
 id: maximum_stereoisomers
 topic: organic_chemistry
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Stereoisomerism
+  - https://en.wikipedia.org/wiki/Le_Bel-van%27t_Hoff_rule
+  - https://en.wikipedia.org/wiki/Enantiomer
+  - https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(Morsch_et_al.)/Chapter_05%3A_Stereochemistry_at_Tetrahedral_Centers/5.3%3A_Optical_Activity_and_the_21_Chiral_Centers
+  - https://www.masterorganicchemistry.com/2018/02/12/r-and-s-configuration-in-fischer-projections/
+description: "The Le Bel–van 't Hoff rule gives an upper bound of 2ⁿ stereoisomers for a molecule containing n stereogenic (chiral) centers. This assumes no internal symmetry; molecules with meso forms or other degeneracies will have fewer distinct stereoisomers. The bound is widely used in carbohydrate and natural-product chemistry to enumerate possible stereoisomers, for example, the 16 stereoisomers expected for an aldohexose such as glucose."
 equation: dimensionless eq 2 pow dimensionless
 symbol_overrides:
 - dimensionless: N_{max}

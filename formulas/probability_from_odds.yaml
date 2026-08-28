@@ -2,14 +2,22 @@ name: Probability from odds
 id: probability_from_odds
 topic: probability
 difficulty: 5
+links:
+- https://en.wikipedia.org/wiki/Odds
+- https://en.wikipedia.org/wiki/Probability
+- https://www.britannica.com/science/odds
+- https://en.wikipedia.org/wiki/Betting_odds
+description: The probability of an event can be recovered from its odds in favor by
+  dividing the odds by one plus the odds. Equivalently, given the odds o = p/(1-p)
+  against the alternative, p = o/(o+1).
 equation: dimensionless eq dimensionless frac dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: p
-- dimensionless: odds
-- dimensionless: '1'
-- dimensionless: odds
+- dimensionless: o
+- dimensionless: o
+- dimensionless: 1
 name_overrides:
-- dimensionless: '[Probability] from odds'
-- dimensionless: '[Odds]'
-- dimensionless: '1'
-- dimensionless: ''
+- dimensionless: Probability
+- dimensionless: Odds in favor
+- dimensionless: Odds
+- dimensionless: 1

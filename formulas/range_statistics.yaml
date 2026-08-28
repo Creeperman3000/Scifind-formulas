@@ -2,12 +2,20 @@ name: Range of a data set
 id: range_statistics
 topic: statistics
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Range_(statistics)
+  - https://en.wikipedia.org/wiki/Sample_maximum_and_minimum
+  - https://en.wikipedia.org/wiki/Order_statistic
+  - https://en.wikipedia.org/wiki/Statistical_dispersion
+  - https://www.britannica.com/statistics/range-statistics
+  - https://www.scribbr.com/statistics/range/
+description: "The range is the simplest measure of statistical dispersion of a data set, defined as the difference between the largest and smallest observed values. Although it conveys only the extremes of the sample and is sensitive to outliers, it gives a quick sense of data spread in exploratory data analysis and is closely related to the distribution of order statistics."
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: R
 - dimensionless: x_{max}
 - dimensionless: x_{min}
 name_overrides:
-- dimensionless: '[Range]'
+- dimensionless: Range
 - dimensionless: Maximum
 - dimensionless: Minimum

@@ -2,14 +2,22 @@ name: Derivative of cotangent
 id: derivative_cot
 topic: derivatives
 difficulty: 7
-equation: frac (rmd (cos angle frac sin angle)) (rmd angle) eq drop (1 frac ((sin angle) pow 2)) sub
+links:
+- https://math.dartmouth.edu/opencalc2/cole/lecture17.pdf
+- https://www.math.stonybrook.edu/Videos/MAT131Online/Handouts/Lecture-14-Handout.pdf
+- https://mathworld.wolfram.com/Cotangent.html
+- https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules
+description: The derivative of the cotangent function is the negative square of the
+  cosecant function, equivalently minus one over the squared sine. The result follows
+  from applying the quotient rule to cotangent written as cosine over sine, and is
+  valid wherever sine is nonzero and angles are in radians.
+equation: frac rmd (cos angle frac sin angle) rmd angle eq 0 sub frac 1 sin angle
+  pow 2
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
-- angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: '[variable]'
+- angle: '[variable]'
+- angle: '[variable]'

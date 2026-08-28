@@ -2,6 +2,11 @@ name: Vertical line
 id: vertical_line_equation
 topic: equations
 difficulty: 2
+links:
+  - https://en.wikipedia.org/wiki/Linear_equation
+  - https://en.wikipedia.org/wiki/Vertical_line_test
+  - https://en.wikipedia.org/wiki/Slope
+description: "A vertical line in the Cartesian plane is the set of all points sharing the same x-coordinate. It is the limiting case of a linear equation whose slope is undefined, and is the dual concept to the horizontal line y = b."
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: x

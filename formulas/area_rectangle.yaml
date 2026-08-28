@@ -2,12 +2,16 @@ name: Area of a rectangle
 id: area_rectangle
 topic: plane_geometry
 difficulty: 1
+links:
+  - https://en.wikipedia.org/wiki/Rectangle
+  - https://math.libretexts.org/Courses/Northwest_Florida_State_College/NWFSC_MGF_1130_Text/03%3A_Geometry/3.03%3A_Use_Properties_of_Rectangles_Triangles_and_Trapezoids
+  - https://brilliant.org/wiki/area-rectangles/
+  - https://www.mathwords.com/r/rectangle.htm
+description: "Gives the region enclosed by a rectangle as the product of its two perpendicular side lengths. It is the most basic area formula and the basis for tiling arguments used to derive areas of triangles, parallelograms, and other shapes."
 equation: area eq length mul length
 symbol_overrides:
-- area: ''
 - length: w
 - length: h
 name_overrides:
-- area: ''
 - length: Width
 - length: Height

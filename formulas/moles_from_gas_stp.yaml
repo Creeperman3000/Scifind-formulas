@@ -2,12 +2,17 @@ name: Moles from gas volume at STP
 id: moles_from_gas_stp
 topic: mole_concept
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Molar_volume
+  - https://en.wikipedia.org/wiki/Standard_temperature_and_pressure
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/03%3A_Stoichiometry%3A_Counting_Molecules_and_Atoms/3.02%3A_Avogadro's_Number_and_Mole_Conversions
+  - https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/states-of-matter/a/stp
+  - https://www.britannica.com/science/standard-temperature-and-pressure
+description: "At standard temperature and pressure, one mole of any ideal gas occupies a fixed molar volume (about 22.4 L at the historical 0 °C/1 atm STP, or 22.7 L at the modern IUPAC 0 °C/1 bar standard), so the amount of gas in moles is its measured volume divided by that molar volume. The relation is exact only for ideal gases, but serves as a useful approximation for many real gases near STP."
 equation: amount eq volume frac dimensionless
 symbol_overrides:
-- amount: ''
-- volume: ''
 - dimensionless: '22.4'
 name_overrides:
-- amount: Amount of [substance]
-- volume: Gas [volume] at STP
+- amount: Amount of substance
+- volume: Gas volume at STP
 - dimensionless: Molar volume at STP

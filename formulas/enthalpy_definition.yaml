@@ -2,15 +2,14 @@ name: Enthalpy definition
 id: enthalpy_definition
 topic: thermochemistry
 difficulty: 6
-description: "Defined at constant pressure; valid for ideal-gas processes and any constant-pressure process."
+links:
+  - https://en.wikipedia.org/wiki/Enthalpy
+  - https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+description: "Enthalpy is a thermodynamic state function that combines a system's internal energy with the pressure-volume product of its surroundings. Because many chemical and physical processes occur at constant atmospheric pressure, enthalpy changes are more convenient to measure than internal energy changes, making this quantity central to thermochemistry. It is an extensive property measured in joules."
 equation: energy eq energy add pressure mul volume
 symbol_overrides:
 - energy: H
 - energy: U
-- pressure: ''
-- volume: ''
 name_overrides:
-- energy: '[Enthalpy]'
+- energy: Enthalpy
 - energy: Internal [energy]
-- pressure: ''
-- volume: ''

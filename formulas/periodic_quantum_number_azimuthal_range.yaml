@@ -2,6 +2,12 @@ name: Range of azimuthal quantum number
 id: periodic_quantum_number_azimuthal_range
 topic: periodic_table
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Azimuthal_quantum_number
+  - https://en.wikipedia.org/wiki/Principal_quantum_number
+  - https://en.wikipedia.org/wiki/Quantum_number
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_(McQuarrie_and_Simon)/02%3A_Quantum_Theory/2.02%3A_The_Allowed_Quantum_Numbers
+description: For a given principal quantum number n, the azimuthal (orbital angular momentum) quantum number ℓ takes integer values from 0 to n−1, so the maximum allowed value is n−1. These ℓ values are commonly labelled s, p, d, f, ... and describe the shape of an electron's atomic orbital.
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: l

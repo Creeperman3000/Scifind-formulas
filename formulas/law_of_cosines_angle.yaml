@@ -2,8 +2,18 @@ name: Law of cosines for angle
 id: law_of_cosines_angle
 topic: laws_of_sines_and_cosines
 difficulty: 5
-equation: angle eq acos (((length pow 2) add (length pow 2 ) sub (length pow 2 ))
-  frac (2 mul length mul length ))
+links:
+- https://en.wikipedia.org/wiki/Law_of_cosines
+- https://www.britannica.com/science/law-of-cosines
+- https://www.mathsisfun.com/algebra/trig-cosine-law.html
+- https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Corral)/02%3A_General_Triangles/2.02%3A_The_Law_of_Cosines
+- https://louis.pressbooks.pub/trigonometry/chapter/3-3-the-law-of-cosines/
+description: This rearrangement of the law of cosines solves for an unknown angle
+  of a triangle when all three side lengths are known. Taking the inverse cosine of
+  the rearranged expression avoids the angle ambiguity that arises when using the
+  law of sines, since cosine distinguishes acute from obtuse angles by sign.
+equation: angle eq acos (((length pow 2) add (length pow 2) sub length pow 2 ) frac
+  2 mul length mul length )
 symbol_overrides:
 - angle: C
 - length: a

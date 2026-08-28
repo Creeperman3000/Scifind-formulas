@@ -2,15 +2,20 @@ name: Reaction rate from appearance of product
 id: reaction_rate_appearance
 topic: chemical_reactions
 difficulty: 5
-description: "Reaction rate from rate of product appearance; r = (1/ν) d[P]/dt."
-equation: concentration frac time eq concentration frac time
+links:
+- https://en.wikipedia.org/wiki/Reaction_rate
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Reaction_Rate
+- https://www.khanacademy.org/science/chemistry/chemical-kinetics/xa3595dfbab0ae5e7:rate-law/xa3595dfbab0ae5e7/reaction-rates-and-rate-laws
+description: The rate of a chemical reaction, by the IUPAC definition, equals the
+  reciprocal of the stoichiometric coefficient of a product times the time derivative
+  of its concentration; this relates the rate of product appearance to a single, species-independent
+  reaction rate.
+equation: ((catalytic_activity) eq ((frac (rmd concentration) (rmd time)) div dimensionless))
 symbol_overrides:
-- concentration: rate
-- time: Δt
-- concentration: Δ[P]
-- time: ''
+- catalytic_activity: r
+- concentration: '[P]'
+- dimensionless: p
 name_overrides:
-- concentration: Reaction rate
-- time: Change in [time]
-- concentration: Change in product [concentration]
-- time: ''
+- catalytic_activity: Reaction rate
+- concentration: Product [concentration]
+- dimensionless: Stoichiometric coefficient of product

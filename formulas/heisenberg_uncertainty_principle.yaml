@@ -2,10 +2,21 @@ name: Heisenberg uncertainty principle
 id: heisenberg_uncertainty_principle
 topic: quantum_mechanics
 difficulty: 8
-equation: length mul momentum gt planck_constant frac (4 mul pi )
+links:
+- https://en.wikipedia.org/wiki/Uncertainty_principle
+- https://en.wikipedia.org/wiki/Introduction_to_quantum_mechanics
+- https://en.wikipedia.org/wiki/Position_and_momentum
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(I)/10%3A_Measurements_in_Quantum_Mechanics
+- https://www.khanacademy.org/science/physics/quantum-physics/heisenberg-uncertainty-principle/v/position-momentum-uncertainty
+description: The position-momentum Heisenberg uncertainty relation states that the
+  product of the uncertainty in position and the uncertainty in momentum of a quantum
+  particle is bounded below by a constant of order the reduced Planck constant. It
+  reflects the non-commutativity of the position and momentum operators and is the
+  formal expression of the wave-particle duality of matter.
+equation: length mul momentum gt planck_constant frac 4 mul pi
 symbol_overrides:
-- length: Δx
-- momentum: Δp
+  length: \Delta x
+  momentum: \Delta p
 name_overrides:
-- length: Position uncertainty
-- momentum: Momentum uncertainty
+  length: Position uncertainty
+  momentum: '[momentum] uncertainty'

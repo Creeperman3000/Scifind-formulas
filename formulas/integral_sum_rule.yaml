@@ -2,8 +2,16 @@ name: Integral sum rule
 id: integral_sum_rule
 topic: integrals
 difficulty: 6
-equation: int drop drop (((dimensionless add dimensionless) mul rmd angle)) eq int drop drop (dimensionless
-  mul rmd angle) add int drop drop (dimensionless mul rmd angle)
+links:
+- https://en.wikipedia.org/wiki/Integral#Properties
+- https://en.wikipedia.org/wiki/Linearity_of_integration
+- https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/05%3A_Integration/5.04%3A_Integration_Formulas_and_the_Net_Change_Theorem
+description: 'The sum rule (a property of linearity) for integration: the integral
+  of a sum equals the sum of the integrals. It allows complex integrands to be split
+  into easier pieces and is one of the first rules used when evaluating integrals.'
+equation: int drop drop ((dimensionless add dimensionless) mul rmd angle) eq int drop
+  drop (dimensionless mul rmd angle) add int drop drop (dimensionless mul rmd angle)
 symbol_overrides:
 - dimensionless: f(x)
 - dimensionless: g(x)
@@ -15,8 +23,8 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Function f(x)
 - dimensionless: Function g(x)
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Function f(x)
-- angle: '[Variable]'
+- angle: '[variable]'
 - dimensionless: Function g(x)
-- angle: '[Variable]'
+- angle: '[variable]'

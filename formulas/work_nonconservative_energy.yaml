@@ -2,13 +2,17 @@ name: Work done by non-conservative forces
 id: work_nonconservative_energy
 topic: conservation_of_energy
 difficulty: 6
-description: ΔE_mech denotes the change in mechanical energy (kinetic + potential);
-equation: energy eq energy add energy
+links:
+  - https://en.wikipedia.org/wiki/Conservative_force
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Conservation_of_Energy
+  - https://www.khanacademy.org/science/physics/work-and-energy/conservation-of-energy/a/what-is-conservation-of-energy
+  - https://openstax.org/books/university-physics-volume-1/pages/8-2-conservative-and-nonconservative-forces
+  - https://www.britannica.com/science/conservative-force
+description: "The work done by non-conservative forces on an object equals the change in its mechanical energy, since only non-conservative forces can change the sum of kinetic and potential energy. Examples of non-conservative forces include friction, air drag, and applied (external) forces."
+equation: energy eq energy
 symbol_overrides:
-- energy: ΔE
 - energy: W_{nc}
-- energy: W_{other}
+- energy: ΔE_{mech}
 name_overrides:
+- energy: Non-conservative work
 - energy: Change in mechanical [energy]
-- energy: Non-conservative [work]
-- energy: Other [work]

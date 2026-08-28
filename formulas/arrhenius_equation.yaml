@@ -2,15 +2,19 @@ name: Arrhenius equation
 id: arrhenius_equation
 topic: chemical_kinetics
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Arrhenius_equation
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.02%3A_Temperature_Dependence_of_Reaction_Rates/6.2.03%3A_The_Arrhenius_Law/6.2.3.01%3A_Arrhenius_Equation
+  - https://sciencenotes.org/arrhenius-equation-definition-formula-and-applications/
+  - https://www.sciencedirect.com/topics/engineering/arrhenius-equation
+description: "Central relation of chemical kinetics, giving the temperature dependence of a reaction's rate constant. It combines the collision frequency with an exponential Boltzmann-type factor for the fraction of molecules able to surmount the activation energy barrier, so rates rise steeply with temperature. Assumes a constant activation energy and pre-exponential factor over the temperature range considered."
 equation: frequency eq frequency mul exp (drop (molar_energy frac gas_constant mul
   temperature) sub)
 symbol_overrides:
 - frequency: k
 - frequency: A
 - molar_energy: E_a
-- temperature: ''
 name_overrides:
 - frequency: Rate constant
 - frequency: Pre-exponential factor
 - molar_energy: Activation [energy]
-- temperature: ''

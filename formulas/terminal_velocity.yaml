@@ -2,17 +2,30 @@ name: Terminal velocity
 id: terminal_velocity
 topic: reynolds_number
 difficulty: 7
-equation: velocity eq sqrt (2 mul (mass mul standard_gravity ) frac density mul (area)
-  mul dimensionless ) 2
+links:
+- https://en.wikipedia.org/wiki/Terminal_velocity
+- https://en.wikipedia.org/wiki/Drag_equation
+- https://openstax.org/books/university-physics-volume-1/pages/6-4-drag-force-and-terminal-speed
+- https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/termvel/
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton%27s_Laws
+description: The constant speed reached by a falling object when the downward gravitational
+  force balances the upward drag force from the surrounding fluid, neglecting buoyancy.
+  It depends on the object's mass and projected area as well as the fluid's density
+  and the drag coefficient, and is widely applied in skydiving, aerosol and sediment
+  transport, and meteorology.
+equation: ((velocity) eq (((2 mul mass mul standard_gravity) frac (density mul area
+  mul dimensionless)) sqrt 2))
 symbol_overrides:
 - velocity: v_t
 - mass: m
-- density: ρ
+- standard_gravity: g
+- density: \rho
 - area: A
 - dimensionless: C_d
 name_overrides:
 - velocity: Terminal [velocity]
-- mass: Mass
+- mass: '[mass]'
+- standard_gravity: '[standard_gravity]'
 - density: Fluid [density]
-- area: Cross-sectional area
+- area: Cross-sectional [area]
 - dimensionless: Drag coefficient

@@ -2,14 +2,23 @@ name: Derivative of Absolute Value
 id: derivative_abs_x
 topic: derivatives
 difficulty: 6
-equation: frac (rmd (abs angle)) (rmd angle) eq angle frac (abs angle)
+links:
+- https://en.wikipedia.org/wiki/absolute_value
+- https://proofwiki.org/wiki/Derivative_of_Absolute_Value_Function
+- https://www.andreaminini.net/math/derivative-of-the-absolute-value
+- https://www.analyzemath.com/calculus/Differentiation/absolute_value.html
+description: Gives the slope of the absolute value function, which equals +1 where
+  its input is positive and -1 where it is negative — the sign function. The derivative
+  does not exist at the origin, where the graph has a corner, so the result holds
+  away from zero.
+equation: frac rmd abs angle rmd angle eq angle frac abs angle
 symbol_overrides:
 - angle: x
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- angle: Input variable
+- angle: Input variable
+- angle: Input variable
+- angle: Input variable

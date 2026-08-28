@@ -1,14 +1,13 @@
-name: Electrical power from current and resistance (electrical_power_current_resistance)
+name: Electrical power from current and resistance
 id: electrical_power_current_resistance
 topic: power
 difficulty: 5
-description: "Electrical power dissipated in a resistor; P = I² R."
+links:
+  - https://en.wikipedia.org/wiki/Joule_heating
+  - https://openstax.org/books/university-physics-volume-2/pages/9-5-electrical-energy-and-power
+  - https://brilliant.org/wiki/heat-dissipated-by-resistors/
+  - https://phys.libretexts.org/Courses/Coalinga_College/Physical_Science_for_Educators_Volume_2/04%3A_Electricity/4.04%3A_Electric_Current_and_Resistance/4.4.05%3A_Electric_Power_and_Energy
+description: "The rate at which a resistor converts electrical energy into heat, known as Joule heating, depends on the square of the current through it and on its resistance. This form of Joule's first law applies to ohmic resistive elements and is useful when current rather than voltage is known."
 equation: power eq (current pow 2) mul resistance
-symbol_overrides:
-- power: P
-- current: I
-- resistance: R
 name_overrides:
-- power: Power
 - current: Current
-- resistance: Resistance

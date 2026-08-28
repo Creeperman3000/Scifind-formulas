@@ -2,7 +2,23 @@ name: Limit definition of derivative
 id: limit_derivative_definition
 topic: limits
 difficulty: 7
-equation: dimensionless eq lim dimensionless dimensionless (((dimensionless sub dimensionless)) frac dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Derivative
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02%3A_Limits_and_Continuity/2.03%3A_The_Limit_Laws
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/03%3A_Derivatives/3.01%3A_Defining_the_Derivative
+- https://www.khanacademy.org/math/differential-calculus/dc-diff-intro/dc-defining-derivatives/v/derivative-as-a-concept
+- https://www.britannica.com/science/derivative-mathematics
+- https://www.cuemath.com/calculus/derivatives/
+description: The limit definition of the derivative expresses the derivative of a
+  real-valued function at a point as the limit of the slope of a secant line through
+  two points on its graph as the second point approaches the first. The defining limit
+  exists only when the function is differentiable at that point, in which case its
+  value equals the slope of the tangent line and the instantaneous rate of change
+  of the function. This definition is the foundation of differential calculus and
+  is the starting point for deriving all standard differentiation rules and the derivatives
+  of elementary functions.
+equation: dimensionless eq lim dimensionless dimensionless ((dimensionless sub dimensionless)
+  frac dimensionless)
 symbol_overrides:
 - dimensionless: f'(x)
 - dimensionless: h

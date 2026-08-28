@@ -2,13 +2,22 @@ name: Brewster's angle from refractive indices
 id: polarization_angle_brewster
 topic: polarization
 difficulty: 7
-description: "Brewster's angle from refractive indices; tan θ_B = n₂ / n₁."
-equation: angle eq atan (refractive_index frac refractive_index )
+links:
+- https://en.wikipedia.org/wiki/Brewster%27s_angle
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/01%3A_The_Nature_of_Light/1.06%3A_Polarization
+- https://www.britannica.com/science/Brewsters-angle
+- https://scienceworld.wolfram.com/physics/BrewstersAngle.html
+- https://www.rp-photonics.com/brewster_angle.html
+description: Brewster's angle, also known as the polarization angle, is the angle
+  of incidence at which light with a particular polarization is perfectly transmitted
+  through a transparent dielectric surface with no reflection. Brewster's law relates
+  this angle to the ratio of the refractive indices of the two media at the interface.
+equation: angle eq atan frac refractive_index refractive_index
 symbol_overrides:
-- angle: θ_B
+- angle: \theta_B
 - refractive_index: n_2
 - refractive_index: n_1
 name_overrides:
 - angle: Brewster's [angle]
-- refractive_index: Refractive index of transmitted medium
-- refractive_index: Refractive index of incident medium
+- refractive_index: '[refractive_index] of transmitted medium'
+- refractive_index: '[refractive_index] of incident medium'

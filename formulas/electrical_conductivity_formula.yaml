@@ -2,11 +2,16 @@ name: Electrical conductivity from resistivity
 id: electrical_conductivity_formula
 topic: current_electricity
 difficulty: 6
-description: "Electrical conductivity from resistivity; σ = 1 / ρ."
+links:
+  - https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
+  - https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Introductory_Physics_II_(1112)/05%3A_Electric_Current_Resistance_and_Ohm%27s_Law/5.06%3A_Resistivity_and_Resistance
+  - https://www.electronics-notes.com/articles/basic_concepts/resistance/electrical-conductivity-conductance.php
+  - https://spark.iop.org/conductivity-electrical
+description: "Electrical conductivity measures how well a material conducts electric current and is defined as the reciprocal of its resistivity. It is an intrinsic material property, measured in siemens per meter, commonly denoted by sigma; good conductors such as copper have high conductivity, while insulators have very low conductivity."
 equation: conductance eq resistance pow (drop 1 sub)
 symbol_overrides:
 - conductance: σ
 - resistance: ρ
 name_overrides:
-- conductance: Electrical [conductance]
+- conductance: Electrical conductivity
 - resistance: Resistivity

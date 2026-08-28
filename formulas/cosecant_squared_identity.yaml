@@ -2,16 +2,16 @@ name: Cosecant Squared Identity
 id: cosecant_squared_identity
 topic: trigonometric_identities
 difficulty: 6
-equation: ((frac 1 (sin angle)) pow 2) eq 1 add (((cos angle) frac (sin angle)) pow 2)
-symbol_overrides:
-- &id001
-  angle: \theta
-- *id001
-- *id001
-- *id001
+links:
+- https://en.wikipedia.org/wiki/Pythagorean_trigonometric_identity
+- https://www.mathdoubts.com/csc-squared-formula/
+- https://mathalino.com/reviewer/derivation-of-formulas/derivation-of-pythagorean-identities
+description: This Pythagorean identity relates the square of the cosecant to the square
+  of the cotangent. It follows from dividing the fundamental identity sin²θ + cos²θ
+  = 1 by sin²θ and holds wherever both functions are defined (sin θ ≠ 0). It is frequently
+  used to simplify trigonometric expressions and to evaluate integrals involving cosecant.
+equation: (frac 1 sin angle ) pow 2 eq 1 add (cos angle frac sin angle ) pow 2
 name_overrides:
-- &id002
-  angle: Angle θ
-- *id002
-- *id002
-- *id002
+- angle: Angle θ
+- angle: Angle θ
+- angle: Angle θ

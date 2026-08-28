@@ -2,17 +2,25 @@ name: First law of thermodynamics for isobaric process
 id: first_law_isobaric_process
 topic: first_law
 difficulty: 7
-description: "Valid for an isobaric (constant-pressure) process; ΔU = Q − P ΔV."
-equation: energy eq energy add pressure mul volume sub volume
+links:
+- https://en.wikipedia.org/wiki/Isobaric_process
+- https://en.wikipedia.org/wiki/First_law_of_thermodynamics
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Thermodynamics_(Sire)/04%3A_The_First_Law_of_Thermodynamics/4.04%3A_Heat_Capacity_at_Constant_Pressure
+- https://www.khanacademy.org/science/physics/thermodynamics-essentials
+description: For an isobaric (constant-pressure) process the first law reduces to
+  a relation between the heat added, the change in internal energy, and the pressure-volume
+  work. The work done by the system at constant pressure is P times the change in
+  volume, which is why the heat added at constant pressure equals the change in enthalpy.
+equation: Delta energy eq energy sub pressure mul volume sub volume
 symbol_overrides:
-- energy: ''
 - energy: ΔU
-- pressure: ''
+- energy: Q
+- pressure: P
 - volume: V_f
 - volume: V_i
 name_overrides:
-- energy: ''
 - energy: Change in internal [energy]
-- pressure: ''
+- energy: Heat added
+- pressure: Constant [pressure]
 - volume: Final [volume]
 - volume: Initial [volume]

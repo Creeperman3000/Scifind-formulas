@@ -2,12 +2,16 @@ name: Hydrostatic pressure
 id: hydrostatic_pressure
 topic: pressure
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Hydrostatics
+  - https://en.wikipedia.org/wiki/Hydrostatic_pressure
+  - https://en.wikipedia.org/wiki/Pascal%27s_law
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.03%3A_Hydrostatic_Pressure
+  - https://www.britannica.com/science/hydrostatics
+  - https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/hydrostatic.html
+description: "The pressure at a depth within a static fluid, due to the weight of the overlying fluid column. Used in calculations for dams, barometers, fluid columns, and the variation of pressure with depth (often combined with atmospheric pressure to give the absolute pressure)."
 equation: pressure eq density mul (standard_gravity) mul length
 symbol_overrides:
-- pressure: ''
-- density: ''
 - length: h
 name_overrides:
-- pressure: ''
-- density: ''
 - length: Depth

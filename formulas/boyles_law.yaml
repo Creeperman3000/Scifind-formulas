@@ -2,6 +2,12 @@ name: Boyle's law
 id: boyles_law
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Boyle%27s_law
+  - https://www.britannica.com/science/Boyles-law
+  - https://chem.libretexts.org/Courses/Napa_Valley_College/Chem_110%3A_Introductory_Chemistry/14%3A_Gases/14.04%3A_Boyles_Law_-_Pressure_and_Volume
+  - https://chem-textbook.ucalgary.ca/chapter-9-main/volume-and-pressure-boyles-law/
+description: "Boyle's law states that for a fixed amount of gas held at constant temperature, the pressure is inversely proportional to the volume, so the pressure-volume product stays constant between two states. It holds exactly only for an ideal gas; real gases follow it closely at low pressures."
 equation: pressure mul volume eq pressure mul volume
 symbol_overrides:
 - pressure: P_1

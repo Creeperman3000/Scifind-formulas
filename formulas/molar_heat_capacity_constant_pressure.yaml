@@ -2,16 +2,23 @@ name: Molar heat capacity at constant pressure
 id: molar_heat_capacity_constant_pressure
 topic: thermochemistry
 difficulty: 7
-equation: molar_energy eq energy frac amount mul temperature sub temperature
+links:
+- https://en.wikipedia.org/wiki/Heat_capacity
+- https://en.wikipedia.org/wiki/Molar_heat_capacity
+- https://en.wikipedia.org/wiki/Specific_heat_capacity
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/Calorimetry/Heat_Capacity
+- https://goldbook.iupac.org/terms/view/M04006.html
+description: Molar heat capacity at constant pressure (isobaric) is the heat required
+  to raise the temperature of one mole of a substance by one kelvin while the pressure
+  is held fixed. It is larger than the constant-volume value because some of the supplied
+  energy does expansion work.
+equation: molar_energy eq energy frac amount frac temperature sub temperature
 symbol_overrides:
 - molar_energy: C_p
-- energy: ''
-- amount: ''
 - temperature: T_f
 - temperature: T_i
 name_overrides:
 - molar_energy: Molar heat capacity at constant pressure
-- energy: ''
-- amount: ''
+- energy: Heat at constant pressure
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

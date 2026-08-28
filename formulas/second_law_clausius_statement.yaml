@@ -2,8 +2,12 @@ name: Clausius statement of the second law
 id: second_law_clausius_statement
 topic: second_law
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Second_law_of_thermodynamics
+  - https://en.wikipedia.org/wiki/Clausius_theorem
+  - https://en.wikipedia.org/wiki/Heat
+  - https://www.britannica.com/science/second-law-of-thermodynamics
+description: "The Clausius statement says heat cannot spontaneously flow from a colder body to a hotter body; any such transfer requires external work and produces changes elsewhere in the system. It is one of the classic equivalent formulations of the second law of thermodynamics and is equivalent to the Kelvin-Planck statement."
 equation: energy lt 0
 name_overrides:
 - energy: Heat transferred from cold to hot
-symbol_overrides:
-- energy: ''

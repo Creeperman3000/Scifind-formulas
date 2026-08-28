@@ -2,13 +2,18 @@ name: Gravitational potential of a point mass
 id: gravitational_potential_point
 topic: newtonian_gravity
 difficulty: 7
-description: "Valid for a point mass, or outside a spherically symmetric mass."
-equation: specific_energy eq drop (gravitational_constant mul (mass) frac length) sub
+links:
+  - https://en.wikipedia.org/wiki/Gravitational_potential
+  - https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Sunil_Patel)/12%3A_Gravitation/12.03%3A_Gravitational_Potential_Energy
+  - https://www.britannica.com/science/gravitational-potential
+  - https://astronomy.swin.edu.au/cosmos/g/gravitational+potential
+description: "The gravitational potential at a point is the gravitational potential energy per unit mass that would be required to bring a test mass from infinity to that point in a conservative gravitational field. By convention the potential is taken to be zero at infinity, so the value is negative everywhere outside the source. The expression applies to a true point mass and, by the shell theorem, to the exterior of any spherically symmetric body of total mass M."
+equation: specific_energy eq drop (gravitational_constant mul mass frac length) sub
 symbol_overrides:
-- specific_energy: Φ
+- specific_energy: "\u03A6"
 - mass: M
 - length: r
 name_overrides:
-- specific_energy: Gravitational [potential]
+- specific_energy: Gravitational potential
 - mass: Source [mass]
 - length: Distance from center

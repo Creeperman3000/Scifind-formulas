@@ -2,14 +2,21 @@ name: Moment of inertia of a rectangular plate (center axis)
 id: moi_rectangular_plate_center
 topic: moment_of_inertia
 difficulty: 8
+links:
+- https://en.wikipedia.org/wiki/List_of_moments_of_inertia
+- https://en.wikipedia.org/wiki/Moment_of_inertia
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/10%3A_Fixed-Axis_Rotation/10.06%3A_Moments_of_Inertia
+- https://www.britannica.com/science/moment-of-inertia
+description: The moment of inertia of a thin rectangular plate about the central axis
+  perpendicular to the plate equals one-twelfth of the mass times the sum of the squares
+  of the two side lengths. The plate is treated as flat (negligible thickness) and
+  the axis passes through the geometric center.
 equation: moment_of_inertia eq mass mul ((length pow 2) add length pow 2 ) frac 12
 symbol_overrides:
-- moment_of_inertia: ''
 - mass: M
 - length: a
 - length: b
 name_overrides:
-- moment_of_inertia: Moment of [inertia]
-- mass: ''
-- length: Side [a]
-- length: Side [b]
+- moment_of_inertia: '[moment_of_inertia]'
+- length: Side a
+- length: Side b

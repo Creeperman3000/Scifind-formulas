@@ -2,14 +2,21 @@ name: Partial pressure from mole ratio
 id: ideal_gas_partial_pressure_mole_ratio
 topic: ideal_gases
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Partial_pressure
+  - https://en.wikipedia.org/wiki/Dalton%27s_law
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/The_Ideal_Gas_Law
+  - https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory/v/daltons-law-of-partial-pressure
+  - https://www.britannica.com/science/partial-pressure
+description: "Following Dalton's law of partial pressures, the partial pressure of a component in an ideal gas mixture equals its mole fraction times the total pressure. This mole-ratio form is particularly convenient when the mole fraction can be measured more easily than the partial pressure directly."
 equation: pressure eq pressure mul amount frac amount
 symbol_overrides:
-- pressure: P_i
-- pressure: P_{total}
-- amount: n_i
-- amount: n_{total}
+  - pressure: P_i
+  - pressure: P_{total}
+  - amount: n_i
+  - amount: n_{total}
 name_overrides:
-- pressure: Partial [pressure]
-- pressure: Total [pressure]
-- amount: Moles of gas i
-- amount: Total moles
+  - pressure: Partial [pressure]
+  - pressure: Total [pressure]
+  - amount: Moles of gas i
+  - amount: Total moles

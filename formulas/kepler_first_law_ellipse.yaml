@@ -2,7 +2,17 @@ name: Kepler's first law (elliptical orbit)
 id: kepler_first_law_ellipse
 topic: orbital_motion
 difficulty: 6
-equation: length eq ((length mul (1 sub (dimensionless pow 2))) frac (1 add (dimensionless mul (cos angle))))
+links:
+- https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+- https://en.wikipedia.org/wiki/Kepler_orbit
+- https://en.wikipedia.org/wiki/Orbital_period
+- https://en.wikipedia.org/wiki/Ellipse
+description: Kepler's first law states that every planet moves in an elliptical orbit
+  with the Sun at one of the two foci. The polar form of the ellipse equation gives
+  the orbital radius as a function of the true anomaly, parameterized by the semi-major
+  axis and orbital eccentricity.
+equation: length eq length mul (1 sub dimensionless pow 2 ) frac 1 add dimensionless
+  mul cos angle
 symbol_overrides:
 - length: r
 - length: a

@@ -2,8 +2,19 @@ name: Sum of cubes
 id: sum_of_cubes
 topic: polynomials
 difficulty: 4
-equation: ((dimensionless pow 3) add (dimensionless pow 3)) eq ((dimensionless add dimensionless) mul
-  (((dimensionless pow 2) sub (dimensionless mul dimensionless)) add ((dimensionless) pow 2)))
+links:
+- https://en.wikipedia.org/wiki/Factorization
+- https://en.wikipedia.org/wiki/Cubic_function
+- https://en.wikipedia.org/wiki/Sophomore%27s_dream
+- https://mathworld.wolfram.com/SumofCubes.html
+- https://www.cuemath.com/algebra/sum-of-cubes/
+description: The sum of two cubes is the algebraic identity that decomposes a sum
+  of two cubed terms into a product of a binomial and a quadratic trinomial. It is
+  one of the standard 'recognizable patterns' used in polynomial factorization, alongside
+  the difference of squares and the difference of two cubes.
+equation: (dimensionless pow 3) add dimensionless pow 3 eq (dimensionless add dimensionless)
+  mul ((dimensionless pow 2) sub (dimensionless mul dimensionless) add dimensionless
+  pow 2 )
 symbol_overrides:
 - dimensionless: a
 - dimensionless: b

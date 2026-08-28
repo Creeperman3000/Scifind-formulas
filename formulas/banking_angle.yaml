@@ -2,12 +2,23 @@ name: Banking angle
 id: banking_angle
 topic: circular_motion
 difficulty: 7
+links:
+- https://en.wikipedia.org/wiki/Banked_turn
+- https://livephysics.com/cheat-sheets/physics-banked-curve-design-reference/
+- https://www.vedantu.com/formula/banking-of-road-formula
+description: For a curve banked at the ideal angle, the horizontal component of the
+  normal force alone supplies the required centripetal force, so a vehicle can round
+  the turn without relying on friction. The tangent of that banking angle depends
+  only on the travel speed, the radius of curvature, and gravitational acceleration;
+  it is used in highway and racetrack design and in analyzing aircraft banked turns.
 equation: tan angle eq (velocity pow 2) frac length mul standard_gravity
 symbol_overrides:
 - angle: θ
-- velocity: ''
+- velocity: v
 - length: r
+- standard_gravity: g
 name_overrides:
 - angle: Banking angle
-- velocity: ''
+- velocity: '[velocity] of the vehicle'
 - length: Radius of curvature
+- standard_gravity: '[standard gravity|acceleration due to gravity]'

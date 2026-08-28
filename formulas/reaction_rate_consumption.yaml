@@ -2,13 +2,20 @@ name: Reaction rate from reactant consumption
 id: reaction_rate_consumption
 topic: chemical_reactions
 difficulty: 5
-description: "Reaction rate from rate of reactant consumption; r = −(1/ν) d[R]/dt."
-equation: concentration rmd eq drop (dimensionless mul catalytic_activity) sub
+links:
+- https://en.wikipedia.org/wiki/Reaction_rate
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/Reaction_Rate
+- https://www.khanacademy.org/science/chemistry/chemical-kinetics/xa3595dfbab0ae5e7:rate-law/xa3595dfbab0ae5e7/reaction-rates-and-rate-laws
+description: The rate of a chemical reaction, by the IUPAC definition, equals minus
+  the reciprocal of the stoichiometric coefficient of a reactant times the time derivative
+  of its concentration, ensuring the rate is positive even as reactant concentration
+  decreases.
+equation: ((catalytic_activity) eq ((frac (rmd concentration) (rmd time)) div dimensionless))
 symbol_overrides:
+- catalytic_activity: r
 - concentration: '[A]'
 - dimensionless: ν_A
-- catalytic_activity: r
 name_overrides:
-- concentration: '[Concentration] of A'
-- dimensionless: Stoichiometric coefficient
-- catalytic_activity: Reaction [rate]
+- catalytic_activity: Reaction rate
+- concentration: '[concentration] of A'
+- dimensionless: Stoichiometric coefficient of A

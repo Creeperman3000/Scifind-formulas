@@ -2,7 +2,18 @@ name: Anti-reflective coating condition
 id: anti_reflective_coating_thickness
 topic: interference
 difficulty: 8
-equation: length eq length frac (4 mul dimensionless )
+links:
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- http://labman.phys.utk.edu/phys136core/modules/m9/Thin%20films.html
+- https://www.omnicalculator.com/physics/thin-film-optics
+description: 'This gives the thinnest layer of a transparent material that suppresses
+  reflection from a surface by destructive thin-film interference: light reflected
+  from the top and bottom of the coating emerges half a wavelength out of phase and
+  cancels. The result assumes normal incidence, a design wavelength in vacuum, and
+  a coating whose refractive index lies between those of air and the substrate. Such
+  quarter-wave coatings, typically magnesium fluoride on glass, are used on camera
+  lenses, eyeglasses, and solar cells.'
+equation: length eq length frac 4 mul dimensionless
 symbol_overrides:
 - length: t
 - length: λ

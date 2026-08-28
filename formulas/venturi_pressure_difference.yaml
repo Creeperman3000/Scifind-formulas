@@ -2,7 +2,11 @@ name: Venturi tube pressure difference
 id: venturi_pressure_difference
 topic: bernoulli_equation
 difficulty: 7
-description: "Valid for steady, incompressible, inviscid flow through a Venturi tube."
+links:
+  - https://en.wikipedia.org/wiki/Venturi_effect
+  - https://www.britannica.com/technology/venturi-tube
+  - https://en.wikipedia.org/wiki/Bernoulli%27s_principle
+description: "The Venturi tube pressure difference gives the static pressure drop between the wider inlet and the narrower throat of a Venturi tube, derived from Bernoulli's equation for steady, incompressible, inviscid flow. It is the operating principle behind Venturi meters, which infer volumetric flow rate from a measured pressure differential."
 equation: pressure eq density mul (((velocity pow 2) sub velocity pow 2 ) frac 2)
 symbol_overrides:
 - pressure: ΔP
@@ -10,7 +14,7 @@ symbol_overrides:
 - velocity: v_2
 - velocity: v_1
 name_overrides:
-- pressure: Pressure difference
+- pressure: '[pressure] difference'
 - density: Fluid [density]
-- velocity: '[Velocity] at throat'
-- velocity: '[Velocity] at inlet'
+- velocity: '[velocity] at throat'
+- velocity: '[velocity] at inlet'

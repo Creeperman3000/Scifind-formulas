@@ -2,7 +2,11 @@ name: Escape velocity from density and radius
 id: escape_velocity_density_radius
 topic: escape_velocity
 difficulty: 7
-equation: velocity eq length mul sqrt (((4 mul pi) mul gravitational_constant mul
+links:
+  - https://en.wikipedia.org/wiki/Escape_velocity
+  - https://en.wikipedia.org/wiki/Gravitational_potential_energy
+description: "Expresses the escape velocity of a uniform spherical body in terms of its average density and radius instead of its mass. Substituting the mass of a uniform sphere into the standard escape-velocity formula shows that escape speed grows linearly with radius and with the square root of the density. Assumes the body has a spherically symmetric, uniform mass distribution."
+equation: velocity eq length mul sqrt (((8 mul pi) mul gravitational_constant mul
   density) frac 3 ) 2
 symbol_overrides:
 - velocity: v_{esc}
@@ -10,5 +14,5 @@ symbol_overrides:
 - density: ρ
 name_overrides:
 - velocity: Escape [velocity]
-- length: Body [radius]
+- length: Body radius
 - density: Body [density]

@@ -2,8 +2,14 @@ name: 'Second law: entropy of isolated system'
 id: second_law_entropy_increase
 topic: second_law
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Second_law_of_thermodynamics
+  - https://en.wikipedia.org/wiki/Entropy
+  - https://en.wikipedia.org/wiki/Clausius_theorem
+  - https://www.chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Thermodynamics/The_Four_Laws_of_Thermodynamics/Second_Law_of_Thermodynamics
+description: "For any spontaneous process in an isolated thermodynamic system, the total entropy never decreases and approaches a maximum at equilibrium. This inequality, sometimes called the entropy principle, is a concise statement of the second law and underlies irreversibility in macroscopic systems."
 equation: Delta entropy geq 0
 symbol_overrides:
 - entropy: ΔS
 name_overrides:
-- entropy: Change in entropy of isolated [system]
+- entropy: Change in [entropy] of isolated system

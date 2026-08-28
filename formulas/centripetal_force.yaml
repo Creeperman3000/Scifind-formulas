@@ -2,14 +2,19 @@ name: Centripetal force
 id: centripetal_force
 topic: circular_motion
 difficulty: 5
-equation: force eq mass mul (velocity pow 2) frac length
+links:
+- https://en.wikipedia.org/wiki/Centripetal_force
+- https://openstax.org/books/college-physics/pages/6-3-centripetal-force
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06%3A_Applications_of_Newton's_Laws/6.06%3A_Centripetal_Force
+description: Net force required to keep a body of given mass moving on a circular
+  path, directed toward the center of curvature. It is not a new kind of force but
+  the name for whatever real force (tension, gravity, friction, a normal force) supplies
+  the radial acceleration. Used in designing banked roads, centrifuges, and orbits;
+  a larger required force means a tighter turn.
+equation: force eq frac (mass mul velocity pow 2 ) length
 symbol_overrides:
 - force: F_c
-- mass: ''
-- velocity: ''
 - length: r
 name_overrides:
 - force: Centripetal [force]
-- mass: ''
-- velocity: ''
 - length: Radius

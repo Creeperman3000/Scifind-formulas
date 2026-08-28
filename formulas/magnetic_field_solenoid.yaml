@@ -2,12 +2,16 @@ name: Magnetic field inside a solenoid
 id: magnetic_field_solenoid
 topic: magnetism
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Solenoid
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.07%3A_Solenoids_and_Toroids
+  - http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/solenoid.html
+  - https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law
+description: "Relates the magnetic flux density inside a long, tightly wound solenoid to the free-space permeability, the number of turns per unit length of windings, and the current carried by the wire. It is the limiting (infinite-solenoid) result of Ampère's law and assumes an air core, ignoring end and fringing effects."
 equation: magnetic_flux_density eq vacuum_permeability mul (dimensionless) mul current
 symbol_overrides:
-- magnetic_flux_density: ''
 - dimensionless: n
-- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - dimensionless: Turns per unit length
-- current: '[Current]'
+- current: '[current|Current]'

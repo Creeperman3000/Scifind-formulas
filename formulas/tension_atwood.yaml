@@ -2,16 +2,27 @@ name: Tension in an Atwood machine
 id: tension_atwood
 topic: forces
 difficulty: 6
+links:
+- https://en.wikipedia.org/wiki/Atwood_machine
+- https://openstax.org/books/university-physics-volume-1/pages/6-5-friction
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newtons_Laws/5.04%3A_Atwood_Machine
+- https://www.physicsclassroom.com/Class/newtlaws/u2l2e.cfm
+description: Gives the tension in the massless, inextensible string of an ideal Atwood
+  machine, where two hanging masses m₁ and m₂ are connected over a frictionless pulley.
+  It is derived from Newton's second law applied to each mass, and is intermediate
+  between the two weights m₁g and m₂g.
 equation: force eq (mass mul (mass) mul (standard_gravity) mul 2) frac mass add mass
 symbol_overrides:
 - force: T
-- mass: m₁
-- mass: m₂
-- mass: m₁
-- mass: m₂
+- mass: m_1
+- mass: m_2
+- standard_gravity: g
+- mass: m_1
+- mass: m_2
 name_overrides:
 - force: Tension
-- mass: Mass 1
-- mass: Mass 2
-- mass: Mass 1
-- mass: Mass 2
+- mass: '[mass] 1'
+- mass: '[mass] 2'
+- standard_gravity: Standard [standard_gravity]
+- mass: '[mass] 1'
+- mass: '[mass] 2'

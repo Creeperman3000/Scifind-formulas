@@ -2,19 +2,21 @@ name: Population variance
 id: population_variance
 topic: statistics
 difficulty: 6
-equation: dimensionless eq 1 frac dimensionless mul sum drop drop (dimensionless sub
-  dimensionless) pow 2
+links:
+  - https://en.wikipedia.org/wiki/Variance
+  - https://en.wikipedia.org/wiki/Population_variance
+  - https://en.wikipedia.org/wiki/Standard_deviation
+  - https://mathworld.wolfram.com/SampleVariance.html
+  - https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-sample/a/population-and-sample-standard-deviation-review
+description: "The population variance quantifies the dispersion of an entire finite population of values around its mean, computed as the average of the squared deviations of every member from that mean. It contrasts with the sample variance, which uses a denominator of N-1 to give an unbiased estimator."
+equation: dimensionless eq 1 frac dimensionless mul sum drop drop (dimensionless sub dimensionless) pow 2
 symbol_overrides:
-- dimensionless: σ²
-- dimensionless: x_1
-- dimensionless: μ
-- dimensionless: x_2
-- dimensionless: μ
-- dimensionless: N
+  - dimensionless: σ²
+  - dimensionless: N
+  - dimensionless: x_i
+  - dimensionless: μ
 name_overrides:
-- dimensionless: Variance
-- dimensionless: Value 1
-- dimensionless: Mean
-- dimensionless: Value 2
-- dimensionless: Mean
-- dimensionless: Number of values
+  - dimensionless: Variance
+  - dimensionless: Population size
+  - dimensionless: Value
+  - dimensionless: Population mean

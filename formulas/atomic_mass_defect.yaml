@@ -2,12 +2,18 @@ name: Atomic mass defect
 id: atomic_mass_defect
 topic: atomic_structure
 difficulty: 8
+links:
+  - https://www.geeksforgeeks.org/physics/how-to-calculate-mass-defect/
+  - https://www.miniphysics.com/mass-defect.html
+  - https://scienceinsights.org/how-to-calculate-mass-defect-formula-and-examples/
+  - https://www.aakash.ac.in/important-concepts/physics/mass-defect-and-binding-energy
+description: "The mass defect of an atomic nucleus is the amount by which the nucleus's actual mass falls short of the combined mass of its separated protons and neutrons. This missing mass was converted to binding energy when the nucleus formed, so multiplying the defect by the speed of light squared gives the nuclear binding energy."
 equation: mass eq mass sub mass
 symbol_overrides:
 - mass: Δm
 - mass: m_{nucleons}
 - mass: m_{nucleus}
 name_overrides:
-- mass: Mass [defect]
+- mass: '[mass] defect'
 - mass: Sum of nucleon masses
 - mass: Nuclear [mass]

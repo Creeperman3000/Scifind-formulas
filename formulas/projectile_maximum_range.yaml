@@ -2,14 +2,19 @@ name: Maximum range of projectile
 id: projectile_maximum_range
 topic: projectile_motion
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Projectile_motion#Maximum_distance_of_projectile
+  - https://en.wikipedia.org/wiki/Range_of_a_projectile
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_College_Physics_1e_(OpenStax)/03%3A_Two-Dimensional_Kinematics/3.04%3A_Projectile_Motion
+  - https://www.physicsclassroom.com/Class/vectors/u3l2d.cfm
+  - https://www.britannica.com/science/projectile-motion
+description: "The maximum horizontal range of a projectile launched from and landing at the same elevation is reached at a 45° launch angle and equals the square of the initial speed divided by the gravitational acceleration. Assumes vacuum, uniform gravity, and launch and landing heights equal."
 equation: length eq velocity mul (velocity) frac acceleration
 symbol_overrides:
-- length: R_{max}
-- velocity: v_0
-- velocity: ''
-- acceleration: g
+  - length: R_{max}
+  - velocity: v_0
+  - acceleration: g
 name_overrides:
-- length: Maximum [range]
-- velocity: Initial [velocity]
-- velocity: ''
-- acceleration: Gravitational [acceleration]
+  - length: Maximum range
+  - velocity: Initial [velocity]
+  - acceleration: Gravitational [acceleration]

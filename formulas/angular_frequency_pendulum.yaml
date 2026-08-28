@@ -2,10 +2,16 @@ name: Angular frequency of a simple pendulum
 id: angular_frequency_pendulum
 topic: harmonic_motion
 difficulty: 6
+links:
+  - https://openstax.org/books/university-physics-volume-1/pages/15-4-pendulums
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_I_-_Classical_Mechanics_%28Gea-Banacloche%29/11%3A_Simple_Harmonic_Motion/11.03%3A_Pendulums
+  - https://sciencenotes.org/simple-pendulum-physics-formulas-and-applications
+  - https://lipa.physics.oregonstate.edu/sec_pendula.html
+description: "For small-amplitude swings, a simple pendulum behaves as a simple harmonic oscillator whose angular frequency depends only on the local gravitational acceleration and the pendulum length — not on the bob's mass or the oscillation amplitude. This result follows from applying the small-angle approximation to the pendulum equation of motion and underlies pendulum clocks."
 equation: angular_velocity eq sqrt (standard_gravity frac length ) 2
 symbol_overrides:
-- angular_velocity: ω
+- angular_velocity: \omega
 - length: L
 name_overrides:
 - angular_velocity: Angular frequency
-- length: Pendulum length
+- length: Pendulum [length]

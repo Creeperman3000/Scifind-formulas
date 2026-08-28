@@ -2,17 +2,28 @@ name: Derivative of exponential with base
 id: derivative_exp_base
 topic: derivatives
 difficulty: 7
-equation: rmd (dimensionless pow dimensionless) eq dimensionless pow (dimensionless)
-  mul log euler_e dimensionless
+links:
+- https://tutorial.math.lamar.edu/classes/calci/DiffExpLogFcns.aspx
+- https://brilliant.org/wiki/derivatives-of-exponential-functions/
+- https://www.analyzemath.com/calculus/derivative/proof-derivative-of-a%5Ex.html
+- https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1b/v/exponential-functions-differentiation-intro
+description: The derivative of an exponential function with an arbitrary positive
+  base equals the function itself scaled by the natural logarithm of the base. It
+  generalizes the special case of the natural exponential and is valid for any base
+  greater than zero and not equal to one.
+equation: frac rmd (dimensionless pow dimensionless) rmd dimensionless eq dimensionless
+  pow dimensionless mul log euler_e dimensionless
 symbol_overrides:
 - dimensionless: a
+- dimensionless: x
 - dimensionless: x
 - dimensionless: a
 - dimensionless: x
 - dimensionless: a
 name_overrides:
-- dimensionless: a
-- dimensionless: x
-- dimensionless: a^x
-- dimensionless: x
-- dimensionless: a
+- dimensionless: Base a
+- dimensionless: '[variable|x]'
+- dimensionless: '[variable|x]'
+- dimensionless: Base a
+- dimensionless: '[variable|x]'
+- dimensionless: Base a

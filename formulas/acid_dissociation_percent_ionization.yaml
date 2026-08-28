@@ -2,8 +2,16 @@ name: Percent ionization from Ka and concentration
 id: acid_dissociation_percent_ionization
 topic: acids_and_bases
 difficulty: 7
-description: Percent ionization of a weak acid; α ≈ √(K_a / c) for small α.
-equation: dimensionless eq 100 mul (dimensionless frac concentration )
+links:
+- https://chem.libretexts.org/Courses/College_of_Wooster/Analytical_Chemistry_for_CoW/10%3A_AcidBase_Equilibria/10.06%3A_Weak_Acids
+- https://chem-textbook.ucalgary.ca/version2/chapter-14-main/relative-strengths-of-acids-and-bases/acid-and-base-ionization-constants/
+- https://courses.lumenlearning.com/suny-albany-chemistry/chapter/relative-strengths-of-acids-and-bases-2/
+description: Percent ionization expresses what fraction of a weak acid's molecules
+  have dissociated into ions at equilibrium, stated as a percentage. Unlike the ionization
+  constant, it depends on how concentrated the solution is, generally decreasing as
+  the solution becomes more concentrated and increasing upon dilution. It provides
+  an intuitive measure of acid strength in a given solution.
+equation: dimensionless eq 100 mul dimensionless frac concentration
 symbol_overrides:
 - dimensionless: \% ionization
 - dimensionless: '[H⁺]'
@@ -11,4 +19,4 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Percent ionization
 - dimensionless: Hydronium ion concentration
-- concentration: Initial acid concentration
+- concentration: Initial acid [concentration]

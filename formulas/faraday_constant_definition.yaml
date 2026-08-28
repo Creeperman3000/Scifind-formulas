@@ -2,6 +2,11 @@ name: Faraday constant in terms of fundamental constants
 id: faraday_constant_definition
 topic: electrochemistry
 difficulty: 8
-description: "Faraday constant expressed as the product of Avogadro's number and the elementary charge; F = N_A e."
+links:
+  - https://en.wikipedia.org/wiki/Faraday_constant
+  - https://physics.nist.gov/cgi-bin/cuu/Value?f
+  - https://www.britannica.com/science/Faraday-constant
+  - https://goldbook.iupac.org/terms/view/F02325
+  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Faraday's_Law
+description: "The Faraday constant represents the magnitude of electric charge carried by one mole of elementary charge carriers such as electrons or protons, expressed in coulombs per mole. Following the 2019 SI redefinition it has an exact value derived from the elementary charge and the Avogadro constant. It is widely used in electrolysis calculations to relate the amount of substance transformed to the charge passed through an electrochemical cell."
 equation: faraday_constant eq avogadro_number mul elementary_charge
-symbol_overrides: []

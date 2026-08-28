@@ -2,13 +2,15 @@ name: Work
 id: work_formula
 topic: work
 difficulty: 3
-description: Valid only for a constant force parallel to the displacement. The general
+links:
+  - https://en.wikipedia.org/wiki/Work_(physics)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/07%3A_Work_and_Kinetic_Energy
+  - https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/what-is-work
+  - https://www.britannica.com/science/work-physics
+  - https://openstax.org/books/university-physics-volume-1/pages/7-1-work
+description: "In physics, work is the energy transferred to or from an object by a force acting along a displacement. This simple form applies only when the force is constant and parallel to the direction of motion; the general expression is the line integral of force along the path."
 equation: energy eq force mul length
 name_overrides:
-- energy: '[Work]'
-- force: ''
-- length: ''
-symbol_overrides:
-- energy: ''
-- force: ''
-- length: ''
+- energy: Work
+- force: Force
+- length: Displacement

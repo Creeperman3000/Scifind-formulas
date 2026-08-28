@@ -2,6 +2,12 @@ name: Magnification from mirror equation
 id: optical_magnification_mirror
 topic: mirrors
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Magnification#Linear_or_transverse_magnification
+  - https://en.wikipedia.org/wiki/Curved_mirror#Mirror_equation,_magnification,_and_focal_length
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation
+  - https://www.physicsclassroom.com/class/refln/Lesson-3/Mirror-Magnification
+description: "The linear (transverse) magnification of an image formed by a spherical mirror is the ratio of image height to object height. With the Cartesian sign convention it is negative of the ratio of image distance to object distance, so a negative magnification indicates a real, inverted image and a positive magnification a virtual, upright image (such as the image always produced by a convex mirror)."
 equation: dimensionless eq drop (length frac length) sub
 symbol_overrides:
 - dimensionless: m

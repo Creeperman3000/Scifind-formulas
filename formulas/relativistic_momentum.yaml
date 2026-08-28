@@ -2,14 +2,13 @@ name: Relativistic momentum
 id: relativistic_momentum
 topic: relativity
 difficulty: 8
+links:
+  - https://en.wikipedia.org/wiki/Momentum#Relativistic
+  - https://en.wikipedia.org/wiki/Four-momentum
+  - https://en.wikipedia.org/wiki/Lorentz_factor
+  - https://en.wikipedia.org/wiki/Special_relativity
+  - https://phys.libretexts.org/Bookshelves/Relativity/Book%3A_Special_Relativity_(Crowell)
+description: "Relativistic momentum is the spatial part of the four-momentum of a particle: the product of rest mass, velocity, and the Lorentz factor. It is conserved in collisions consistent with special relativity and reduces to the classical expression mv in the low-velocity limit."
 equation: momentum eq lorentz_factor mul mass mul velocity
-symbol_overrides:
-- momentum: ''
-- lorentz_factor: ''
-- mass: ''
-- velocity: ''
 name_overrides:
 - momentum: Relativistic [momentum]
-- lorentz_factor: ''
-- mass: ''
-- velocity: ''

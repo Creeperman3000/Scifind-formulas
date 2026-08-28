@@ -2,12 +2,16 @@ name: Volume of a cylinder
 id: volume_cylinder
 topic: plane_geometry
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Cylinder
+  - https://en.wikipedia.org/wiki/Volume
+  - https://mathworld.wolfram.com/Cylinder.html
+  - https://en.wikipedia.org/wiki/Right_circular_cylinder
+description: "The volume of a circular cylinder equals the area of its circular base multiplied by its height. The result holds for both right and oblique cylinders, and a proof without calculus follows from Cavalieri's principle by stacking disks along the axis."
 equation: volume eq pi mul (length pow 2) mul length
 symbol_overrides:
-- volume: V
-- length: r
-- length: h
+  - length: r
+  - length: h
 name_overrides:
-- volume: Volume
-- length: Radius
-- length: Height
+  - length: Radius
+  - length: Height

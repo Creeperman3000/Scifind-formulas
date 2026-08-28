@@ -2,6 +2,12 @@ name: Latus rectum of an ellipse
 id: ellipse_latus_rectum
 topic: coordinate_geometry
 difficulty: 7
+links:
+  - https://www.cuemath.com/geometry/latus-rectum-of-ellipse
+  - https://mathmonks.com/latus-rectum
+  - https://www.mathwords.com/l/latus_rectum.htm
+  - https://allen.in/jee/maths/ellipse
+description: "The latus rectum of an ellipse is the chord that passes through a focus perpendicular to the major axis, and an ellipse has two such chords of equal length. Its length depends only on the semi-major axis a and semi-minor axis b, and it measures the width of the ellipse at the focus. This quantity appears in conic-section geometry and in the analysis of elliptical orbits."
 equation: length eq 2 mul (length pow 2) frac length
 symbol_overrides:
 - length: LR

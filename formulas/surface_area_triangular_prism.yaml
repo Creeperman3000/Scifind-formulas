@@ -2,7 +2,14 @@ name: Surface area of a triangular prism
 id: surface_area_triangular_prism
 topic: plane_geometry
 difficulty: 3
-equation: area eq length mul (length) add (length add (length) add length ) mul length
+links:
+  - https://en.wikipedia.org/wiki/Triangular_prism
+  - https://mathworld.wolfram.com/TriangularPrism.html
+  - https://www.cuemath.com/geometry/surface-area-of-a-triangular-prism/
+  - https://flexbooks.ck12.org/cbook/ck-12-conceptual-geometry-flexbook-2.0/section/11.4/primary/lesson/surface-areas-of-prisms-and-pyramids-geo/
+  - https://www.mathopenref.com/prism.html
+description: "A triangular prism has two triangular ends and three rectangular lateral faces. Its total surface area is the area of the two triangular bases plus the lateral surface area, which equals the perimeter of the triangular base multiplied by the prism length."
+equation: area eq length mul (length) add (length add (length) add length) mul length
 symbol_overrides:
 - area: SA
 - length: b
@@ -18,4 +25,4 @@ name_overrides:
 - length: Side 1
 - length: Side 2
 - length: Base
-- length: Prism length
+- length: Prism [length]

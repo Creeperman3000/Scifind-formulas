@@ -2,6 +2,13 @@ name: Mechanical advantage of a pulley system
 id: pulley_mechanical_advantage
 topic: forces
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Mechanical_advantage
+  - https://en.wikipedia.org/wiki/Pulley
+  - https://en.wikipedia.org/wiki/Block_and_tackle
+  - https://www.britannica.com/technology/pulley
+  - https://openstax.org/books/physics/pages/9-3-simple-machines
+description: "Mechanical advantage quantifies how much a pulley system multiplies the input effort force to lift or move a load. For an ideal frictionless pulley, the mechanical advantage equals the number of supporting rope sections sharing the load, while the actual (measured) value is reduced by friction, rope mass, and pulley inertia. This relation underlies the design of block-and-tackle hoists, cranes, and other lifting rigs."
 equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: MA

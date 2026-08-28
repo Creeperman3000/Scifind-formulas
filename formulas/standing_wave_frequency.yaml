@@ -2,11 +2,23 @@ name: Standing wave frequency
 id: standing_wave_frequency
 topic: wave_interference
 difficulty: 6
-equation: frequency eq (dimensionless mul (velocity)) frac (2 mul length )
+links:
+- https://en.wikipedia.org/wiki/Standing_wave
+- https://en.wikipedia.org/wiki/Harmonic
+- https://en.wikipedia.org/wiki/Acoustic_resonance
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves_and_Acoustics/16.05%3A_Standing_Waves_and_Resonance
+- https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/standing-waves/v/standing-waves-on-strings
+- https://physics.mit.edu/wp-content/uploads/2021/01/Cylinder.pdf
+description: Standing waves form on a string (or in a column) only at discrete resonant
+  frequencies, each an integer multiple of a fundamental determined by the wave speed
+  and twice the length of the medium for two-fixed-end boundary conditions. The integer
+  n labels the harmonic or mode number, and the corresponding standing-wave pattern
+  has n antinodes. These resonant frequencies underpin musical instruments and acoustic
+  resonators.
+equation: frequency eq dimensionless mul (velocity) frac 2 mul length
 symbol_overrides:
 - frequency: f_n
 - dimensionless: n
-- velocity: ''
 - length: L
 name_overrides:
 - frequency: Standing wave [frequency]

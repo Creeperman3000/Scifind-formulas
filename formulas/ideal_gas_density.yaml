@@ -2,15 +2,19 @@ name: Density of an ideal gas
 id: ideal_gas_density
 topic: ideal_gases
 difficulty: 6
-description: "Valid for an ideal gas; ρ = PM / (RT)."
-equation: density eq pressure mul (molar_mass) frac gas_constant mul temperature
+links:
+- https://en.wikipedia.org/wiki/Ideal_gas
+- https://en.wikipedia.org/wiki/Density
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gas_Density
+- https://www.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book:_Thermodynamics_(Tatum)/04:_Ideal_Gases
+description: The density of an ideal gas is the mass per unit volume expressed in
+  terms of pressure, molar mass, the gas constant, and absolute temperature. It is
+  valid only for ideal gases at conditions where intermolecular forces and finite
+  molecular size are negligible.
+equation: density eq pressure mul molar_mass frac gas_constant mul temperature
+symbol_overrides:
+- density: \rho
 name_overrides:
 - density: Gas [density]
-- pressure: ''
-- molar_mass: ''
-- temperature: ''
-symbol_overrides:
-- density: ''
-- pressure: ''
-- molar_mass: ''
-- temperature: ''
+- molar_mass: '[molar_mass] of the gas'

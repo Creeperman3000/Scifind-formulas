@@ -2,17 +2,26 @@ name: Logistic growth differential equation
 id: logistic_growth_diff_eq
 topic: differential_equations
 difficulty: 9
-equation: frac (rmd amount) (rmd time) eq (frequency mul amount) mul (1 sub (amount frac dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Logistic_function#Logistic_differential_equation
+- https://mathworld.wolfram.com/LogisticEquation.html
+- https://bio.libretexts.org/Bookshelves/Ecology/Environmental_Science_(Ha_and_Schleiger)/03:_Population_Ecology/3.03:_Population_Growth_Models/3.3.01:_Logistic_Growth
+- https://www.khanacademy.org/science/ap-biology/ecology-ap/population-ecology/a/logistic-growth
+- https://en.wikipedia.org/wiki/Logistic_growth
+description: The logistic growth model describes a population whose per-capita growth
+  rate declines linearly as the population approaches a carrying capacity. The model
+  assumes a closed environment with limited resources and is foundational in ecology,
+  epidemiology, and chemistry for modelling resource-limited growth.
+equation: frac rmd amount rmd time eq (frequency mul amount) mul 1 sub amount frac
+  dimensionless
 symbol_overrides:
 - amount: N
-- time: t
 - frequency: r
 - amount: N
-- dimensionless: K
 - amount: N
+- dimensionless: K
 name_overrides:
 - amount: Population N
-- time: Time
 - frequency: Intrinsic growth rate
 - amount: Population N
 - dimensionless: Carrying capacity K

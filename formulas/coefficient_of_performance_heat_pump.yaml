@@ -2,12 +2,18 @@ name: Coefficient of performance of a heat pump
 id: coefficient_of_performance_heat_pump
 topic: heat_engines
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Coefficient_of_performance
+  - https://www.thermal-engineering.org/what-is-coefficient-of-performance-cop-heat-pump-definition
+  - https://www.linquip.com/blog/heat-pump-efficiency
+  - https://www.araner.com/blog/what-is-the-coefficient-of-performance-of-heat-pumps
+description: "Measures how efficiently a heat pump delivers heating, defined as the useful heat supplied to the warm space per unit of net work put into the cycle. Because the device moves existing thermal energy rather than generating it, this ratio can exceed one and is largest when the two reservoir temperatures are close. It is bounded above by the Carnot limit set by those temperatures."
 equation: dimensionless eq energy frac energy
 symbol_overrides:
 - dimensionless: \mathrm{COP}_{\mathrm{HP}}
 - energy: Q_h
 - energy: W
 name_overrides:
-- dimensionless: COP of heat [pump]
-- energy: Heat delivered
-- energy: Work input
+- dimensionless: COP of heat pump
+- energy: Heat delivered to hot reservoir
+- energy: Work input to cycle

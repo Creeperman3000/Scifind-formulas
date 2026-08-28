@@ -2,6 +2,12 @@ name: Bayes' theorem
 id: bayes_theorem
 topic: probability
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Bayes%27_theorem
+  - https://plato.stanford.edu/entries/bayes-theorem
+  - https://testbook.com/maths-formulas/bayes-theorem-formula
+  - https://statisticsfundamentals.com/statistics-and-probability/bayes-theorem/
+description: "Bayes' theorem describes how to update the probability of a hypothesis when new evidence is observed, relating the posterior probability to the likelihood, the prior, and the total probability of the evidence. It is the foundation of Bayesian inference and is widely used in statistics, medical diagnosis, spam filtering, and machine learning. The denominator acts as a normalizing constant and must be nonzero."
 equation: dimensionless eq dimensionless mul (dimensionless) frac dimensionless
 symbol_overrides:
 - dimensionless: P(A|B)

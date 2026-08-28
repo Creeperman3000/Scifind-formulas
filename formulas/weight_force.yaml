@@ -2,10 +2,15 @@ name: Weight force
 id: weight_force
 topic: forces
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Weight
+  - https://en.wikipedia.org/wiki/Standard_gravity
+  - https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  - https://www.physicsclassroom.com/class/newtlaws/Lesson-3/The-Mass-Weight-Relationship
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/05%3A_Newton%27s_Laws/5.06%3A_Newton%27s_Second_Law
+description: "The weight of a body is the gravitational force exerted on it, equal to the body's mass multiplied by the local acceleration due to gravity. It is a vector quantity, measured in newtons in SI, and is distinct from the body's mass (an intrinsic scalar)."
 equation: force eq mass mul standard_gravity
 symbol_overrides:
 - force: F_g
-- mass: ''
 name_overrides:
 - force: Gravitational [force]
-- mass: ''

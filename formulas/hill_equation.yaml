@@ -2,6 +2,17 @@ name: Hill equation (cooperative binding)
 id: hill_equation
 topic: biochemistry
 difficulty: 9
+links:
+- https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)
+- https://en.wikipedia.org/wiki/Cooperative_binding
+description: 'The Hill equation describes the cooperative binding of a ligand to a
+  macromolecule with multiple binding sites. It gives the fractional occupancy (or
+  normalized response) as a sigmoidal function of ligand concentration, with the Hill
+  coefficient n measuring the degree of cooperativity: n > 1 indicates positive cooperativity,
+  n = 1 reduces to noncooperative (Michaelis-Menten-like) binding, and n < 1 indicates
+  negative cooperativity. Originally formulated by Archibald Hill in 1910 to model
+  sigmoidal oxygen binding to haemoglobin, it is widely used in pharmacology and enzyme
+  kinetics to construct dose-response curves.'
 equation: catalytic_activity eq catalytic_activity mul (concentration pow dimensionless)
   frac dimensionless add concentration pow dimensionless
 symbol_overrides:
@@ -15,8 +26,8 @@ symbol_overrides:
 name_overrides:
 - catalytic_activity: Reaction [velocity]
 - catalytic_activity: Maximum [velocity]
-- concentration: Substrate concentration
+- concentration: Substrate [concentration]
 - dimensionless: Hill coefficient
 - dimensionless: Dissociation constant
-- concentration: Substrate concentration
+- concentration: Substrate [concentration]
 - dimensionless: Hill coefficient

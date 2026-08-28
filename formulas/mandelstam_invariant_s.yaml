@@ -2,17 +2,25 @@ name: Mandelstam invariant s
 id: mandelstam_invariant_s
 topic: particle_physics
 difficulty: 10
-equation: energy pow 2 eq energy energy add pow 2 (momentum) momentum add speed_of_light
-  mul pow 2 sub
+links:
+  - https://en.wikipedia.org/wiki/Mandelstam_variables
+  - https://en.wikipedia.org/wiki/Four-momentum
+  - https://en.wikipedia.org/wiki/Invariant_mass
+  - https://en.wikipedia.org/wiki/Feynman_diagram
+  - https://en.wikipedia.org/wiki/Stanley_Mandelstam
+description: The Mandelstam variable s is a Lorentz-invariant combination of the four-momenta of two scattering particles, equal to the square of the total four-momentum and to the square of the center-of-mass energy. It is widely used to characterize the energy available in two-body scattering processes.
+equation: energy eq (energy add energy) pow 2 sub (momentum add momentum) pow 2 mul speed_of_light pow 2
 symbol_overrides:
 - energy: s
 - energy: E_1
 - energy: E_2
 - momentum: p_1
 - momentum: p_2
+- speed_of_light: c
 name_overrides:
 - energy: Mandelstam s
-- energy: Energy of particle 1
-- energy: Energy of particle 2
-- momentum: Momentum of particle 1
-- momentum: Momentum of particle 2
+- energy: '[energy] of particle 1'
+- energy: '[energy] of particle 2'
+- momentum: '[momentum] of particle 1'
+- momentum: '[momentum] of particle 2'
+- speed_of_light: '[speed_of_light] in vacuum'

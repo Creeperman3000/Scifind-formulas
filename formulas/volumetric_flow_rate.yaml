@@ -2,14 +2,17 @@ name: Volumetric flow rate
 id: volumetric_flow_rate
 topic: continuity_equation
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Volumetric_flow_rate
+  - https://en.wikipedia.org/wiki/Continuity_equation
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.04%3A_Flow_Rate_and_Its_Relation_to_Velocity
+  - https://www.khanacademy.org/science/physics/fluids/fluid-dynamics/v/what-is-volume-flow-rate
+  - https://www.britannica.com/science/flow-rate
+description: "Volumetric flow rate is the volume of fluid that passes through a given cross section per unit time, conventionally denoted Q. For uniform flow across a flat cross section it reduces to the product of the cross-sectional area and the flow speed; in general it is the surface integral of the velocity field through the section, a relation fundamental to fluid dynamics, hydrology, and the continuity equation."
 equation: volume frac time eq area mul velocity
 symbol_overrides:
 - volume: Q
-- time: ''
-- area: ''
-- velocity: ''
 name_overrides:
 - volume: Volumetric flow rate Q
-- time: ''
 - area: Cross-sectional [area]
 - velocity: Flow [velocity]

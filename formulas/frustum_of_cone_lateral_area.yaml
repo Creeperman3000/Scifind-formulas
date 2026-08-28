@@ -2,19 +2,31 @@ name: Lateral area of a conical frustum
 id: frustum_of_cone_lateral_area
 topic: plane_geometry
 difficulty: 6
-equation: area eq (pi mul length add length ) pow (length sub length ) mul sqrt (2
-  add length pow 2 ) 2
+links:
+- https://en.wikipedia.org/wiki/Frustum
+- https://mathworld.wolfram.com/ConicalFrustum.html
+- https://www.cuemath.com/geometry/frustum-of-a-cone/
+- https://math.libretexts.org/Bookshelves/Geometry/Geometry_(University_of_Utah)/05%3A_Perimeter_and_Area/5.07%3A_Frustums
+- https://www.khanacademy.org/math/geometry-home/triangle-properties/special-right-triangles/v/frustums
+- https://www.varsitytutors.com/hotmath/hotmath_help/topics/frustum
+description: The lateral (side) surface area of a right circular conical frustum with
+  top radius, bottom radius, and height. It is computed as the product of the average
+  of the two base circumferences and the slant height. The two circular bases are
+  excluded; the total surface area additionally includes the two base disks.
+equation: ((area) eq (pi mul ((length add length) mul (((length pow 2) add ((length
+  sub length) pow 2)) sqrt 2))))
 symbol_overrides:
-- area: ''
 - length: R
 - length: r
+- length: h
 - length: R
 - length: r
 - length: h
 name_overrides:
 - area: Lateral [area] of conical frustum
-- length: Top [radius]
-- length: Bottom [radius]
-- length: ''
-- length: ''
+- length: Top radius
+- length: Bottom radius
 - length: Height
+- length: ''
+- length: ''
+- length: ''

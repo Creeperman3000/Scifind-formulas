@@ -2,9 +2,19 @@ name: Exterior angle of a regular polygon
 id: polygon_exterior_angle_regular
 topic: polygons
 difficulty: 3
-equation: angle eq angle frac dimensionless
+links:
+- https://en.wikipedia.org/wiki/Regular_polygon
+- https://en.wikipedia.org/wiki/Exterior_angle
+- https://mathworld.wolfram.com/ExteriorAngle.html
+- https://www.cuemath.com/geometry/exterior-angles-of-a-polygon/
+- https://math.libretexts.org/Bookshelves/Geometry/Book%3A_Geometry_(Averill_Faith)/04%3A_Polygons/4.04%3A_Regular_Polygons
+description: The exterior angle of a regular polygon is the angle formed by one side
+  and the extension of an adjacent side. Because the n exterior angles of any convex
+  polygon sum to a full turn, each exterior angle in a regular polygon equals one
+  full turn divided by n.
+equation: angle eq frac angle dimensionless
 symbol_overrides:
-- angle: θ_{ext}
+- angle: \theta_{ext}
 - angle: '360'
 - dimensionless: n
 name_overrides:

@@ -2,14 +2,25 @@ name: Thin film interference condition
 id: thin_film_interference_condition
 topic: interference
 difficulty: 8
-equation: ((2 mul dimensionless) mul length) eq (dimensionless mul length)
+links:
+- https://en.wikipedia.org/wiki/Thin-film_interference
+- https://en.wikipedia.org/wiki/Anti-reflective_coating
+- https://en.wikipedia.org/wiki/Reflection_phase_change
+- https://phys.libretexts.org/Bookshelves/Optics/Supplemental_Modules_(Components)
+- https://en.wikipedia.org/wiki/Thin_film
+description: General condition for constructive interference in a thin film at normal
+  incidence when the reflections at both film boundaries undergo equal phase shifts
+  (or no net phase shift). The optical path difference between light reflected from
+  the top and bottom surfaces must equal an integer multiple of the wavelength in
+  vacuum.
+equation: (2 mul dimensionless) mul length eq dimensionless mul length
 symbol_overrides:
 - dimensionless: n
 - length: t
 - dimensionless: m
 - length: \lambda
 name_overrides:
-- dimensionless: Refractive index n
+- dimensionless: Film [refractive_index]
 - length: Film thickness
 - dimensionless: Interference order
 - length: Wavelength in vacuum

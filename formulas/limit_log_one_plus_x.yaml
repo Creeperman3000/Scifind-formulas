@@ -2,15 +2,25 @@ name: Limit of Log Ratio
 id: limit_log_one_plus_x
 topic: limits
 difficulty: 7
-equation: lim dimensionless dimensionless ((log euler_e (1 add dimensionless)) frac dimensionless) eq
-  1
+links:
+- https://en.wikipedia.org/wiki/Logarithm
+- https://en.wikipedia.org/wiki/Natural_logarithm
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02:_Limits_and_Continuity/2.04:_Continuity
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-determining-limits-using-the-squeeze-theorem-and-graphs/v/limit-properties-of-logarithms
+- https://mathworld.wolfram.com/NaturalLogarithm.html
+- https://www.britannica.com/science/natural-logarithm
+description: A foundational special limit establishing the derivative of the natural
+  logarithm at 1. It is the logarithmic counterpart to the exponential limit and is
+  used in deriving the derivative of ln(x) via the limit definition of the derivative.
+equation: lim dimensionless dimensionless (log euler_e (1 add dimensionless) frac
+  dimensionless) eq 1
 symbol_overrides:
 - dimensionless: x
 - dimensionless: '0'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Limit point
-- dimensionless: '''[Variable]'''
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
+- dimensionless: '[variable]'

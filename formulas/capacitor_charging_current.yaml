@@ -2,19 +2,22 @@ name: Capacitor charging current
 id: capacitor_charging_current
 topic: capacitance
 difficulty: 7
-equation: current eq electric_potential frac (resistance) mul exp (drop (time frac resistance
-  mul capacitance) sub)
+links:
+- https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/05%3A_Capacitors/5.19%3A__Charging_a_Capacitor_Through_a_Resistor
+- https://www.physicsclassroom.com/calcpad/Transient-RC-Circuits/Equation-Overview
+- http://physics.bu.edu/~duffy/semester2/c11_RC.html
+- https://www.physicsbook.gatech.edu/Charging_and_Discharging_a_Capacitor
+description: When an uncharged capacitor charges through a resistor from a constant
+  voltage source, the current is largest the instant the switch closes and then decays
+  exponentially toward zero, governed by the RC time constant. This relation is used
+  to analyze transient response in RC circuits and in timing and filter applications.
+  It assumes an ideal source, an initially uncharged capacitor, and negligible inductance.
+equation: ((current) eq ((electric_potential frac resistance) mul (exp ((drop sub
+  time) frac (resistance mul capacitance)))))
 symbol_overrides:
 - current: I(t)
-- electric_potential: ''
-- resistance: ''
-- time: ''
-- resistance: ''
-- capacitance: ''
 name_overrides:
 - current: Charging [current]
-- electric_potential: Source [voltage]
-- resistance: '[Resistance]'
-- time: '[Time]'
-- resistance: ''
-- capacitance: ''
+- electric_potential: Source voltage
+- resistance: '[resistance]'
+- time: '[time]'

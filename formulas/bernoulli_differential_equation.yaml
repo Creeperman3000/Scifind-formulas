@@ -2,8 +2,17 @@ name: Bernoulli differential equation
 id: bernoulli_differential_equation
 topic: differential_equations
 difficulty: 9
-equation: frac (rmd dimensionless) (rmd dimensionless) add (dimensionless mul dimensionless) eq (dimensionless
-  mul ((dimensionless) pow dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Bernoulli_differential_equation
+- https://tutorial.math.lamar.edu/Classes/DE/Bernoulli.aspx
+- https://mathsisfun.org/calculus/differential-equations-bernoulli
+description: The Bernoulli differential equation is a first-order ordinary differential
+  equation, named after Jacob Bernoulli, that is nonlinear unless the exponent on
+  the dependent variable is zero or one. It is solved by the substitution u = y^(1-n),
+  which converts it into a linear differential equation solvable with an integrating
+  factor. The logistic equation is a notable special case.
+equation: frac rmd dimensionless rmd dimensionless add dimensionless mul dimensionless
+  eq dimensionless mul dimensionless pow dimensionless
 symbol_overrides:
 - dimensionless: y
 - dimensionless: x

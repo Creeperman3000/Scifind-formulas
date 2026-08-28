@@ -2,14 +2,18 @@ name: Volume of an annular cylinder
 id: volume_annular_cylinder
 topic: plane_geometry
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Cylinder_(geometry)#Right_circular_hollow_cylinder_(cylindrical_shell)
+  - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/06%3A_Applications_of_Integration/6.02%3A_Determining_Volumes_by_Slicing
+  - https://www.cuemath.com/geometry/cylinder/
+  - https://en.wikipedia.org/wiki/Annulus_(mathematics)
+description: "An annular cylinder (cylindrical shell) is the region between two concentric right circular cylinders of the same height. Its volume is the difference between the outer and inner solid cylinder volumes, equal to the cross-sectional annular area multiplied by the height."
 equation: volume eq pi mul (length) mul ((length pow 2) sub length pow 2 )
 symbol_overrides:
-- volume: V
 - length: h
 - length: R
 - length: r
 name_overrides:
-- volume: Volume
 - length: Height
 - length: Outer radius
 - length: Inner radius

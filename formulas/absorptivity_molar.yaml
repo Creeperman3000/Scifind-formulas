@@ -2,15 +2,14 @@ name: Molar absorptivity from Beer-Lambert law
 id: absorptivity_molar
 topic: analytical_chemistry
 difficulty: 7
-description: "Molar absorptivity from the Beer-Lambert law"
+links:
+  - https://en.wikipedia.org/wiki/Molar_absorptivity
+  - https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law
+  - https://www.rp-photonics.com/absorbance.html
+description: "Molar absorptivity (also called molar extinction or molar attenuation coefficient) measures how strongly a chemical species absorbs light of a given wavelength per molar concentration. It is characteristic of the species and wavelength, and underlies quantitative absorption spectroscopy, allowing unknown concentrations to be determined from measured absorbance. The Beer-Lambert relation assumes dilute, homogeneous solutions and monochromatic light."
 equation: absorbance eq dimensionless mul concentration mul length
 symbol_overrides:
-- absorbance: ''
-- dimensionless: ε
-- concentration: ''
-- length: ''
+- dimensionless: \varepsilon
 name_overrides:
-- absorbance: ''
 - dimensionless: Molar absorptivity
-- concentration: ''
-- length: Path length
+- length: Path [length]

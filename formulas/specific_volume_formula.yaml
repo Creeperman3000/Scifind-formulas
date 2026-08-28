@@ -2,12 +2,12 @@ name: Specific volume
 id: specific_volume_formula
 topic: pressure
 difficulty: 6
+links:
+  - https://en.wikipedia.org/wiki/Specific_volume
+  - https://en.wikipedia.org/wiki/Density
+  - https://en.wikipedia.org/wiki/Molar_volume
+  - https://www.engineeringtoolbox.com/specific-volume-d_851.html
+  - https://www.britannica.com/science/specific-volume
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Liquids/Specific_Volume
+description: "Specific volume is the volume occupied by a unit mass of a substance and is the reciprocal of density. It is widely used in thermodynamics, particularly for gases whose specific volumes are highly sensitive to temperature and pressure changes."
 equation: specific_volume eq volume frac mass
-symbol_overrides:
-- specific_volume: ''
-- volume: ''
-- mass: ''
-name_overrides:
-- specific_volume: ''
-- volume: ''
-- mass: ''

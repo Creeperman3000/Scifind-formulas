@@ -2,6 +2,11 @@ name: Entropy change of the universe
 id: entropy_change_universe
 topic: second_law
 difficulty: 8
+links:
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_and_Decoste)/10%3A_Entropy_Gibbs_Energy_and_Spontaneity/10.05%3A_Entropy_and_the_Second_Law_of_Thermodynamics
+  - https://courses.lumenlearning.com/chemistryformajors/chapter/the-second-and-third-laws-of-thermodynamics
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Thermodynamics_and_Chemical_Equilibrium_(Ellgen)/09%3A_The_Second_Law_-_Entropy_and_Spontaneous_Change/9.08%3A_The_Entropy_of_the_Universe
+description: "Expresses the total entropy change of the universe (system plus everything outside it) as the sum of the entropy changes of the system and its surroundings. It is the quantitative basis of the second law of thermodynamics: a process is spontaneous when this total is positive and at equilibrium when it is zero."
 equation: entropy eq entropy add entropy
 symbol_overrides:
 - entropy: ΔS_{univ}

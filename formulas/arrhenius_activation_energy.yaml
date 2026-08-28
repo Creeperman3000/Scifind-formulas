@@ -2,7 +2,12 @@ name: Arrhenius activation energy from two temperatures
 id: arrhenius_activation_energy
 topic: chemical_kinetics
 difficulty: 8
-description: "Activation energy from rate constants at two temperatures; E_a = R ln(k₂/k₁) / (1/T₁ − 1/T₂)."
+links:
+  - https://en.wikipedia.org/wiki/Arrhenius_equation
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.02%3A_Temperature_Dependence_of_Reaction_Rates/6.2.03%3A_The_Arrhenius_Law/6.2.3.03%3A_The_Arrhenius_Law-_Activation_Energies
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Kinetics/06%3A_Modeling_Reaction_Kinetics/6.02%3A_Temperature_Dependence_of_Reaction_Rates/6.2.03%3A_The_Arrhenius_Law/6.2.3.01%3A_Arrhenius_Equation
+  - https://www.vcalc.com/wiki/activation-energy-arrhenius-equation
+description: "Determines a reaction's activation energy from kinetic measurements taken at just two temperatures, eliminating the need to know the pre-exponential factor or draw an Arrhenius plot. It follows by subtracting the linearized Arrhenius expressions at the two conditions, so both temperatures must be in kelvin and distinct. Widely used in chemical kinetics to characterize the energy barrier of a reaction."
 equation: energy eq gas_constant mul temperature mul (temperature) frac (temperature
   sub temperature) mul log euler_e (frequency frac frequency)
 symbol_overrides:
@@ -14,10 +19,10 @@ symbol_overrides:
 - frequency: k₂
 - frequency: k₁
 name_overrides:
-- energy: Activation energy
-- temperature: Temperature 1
-- temperature: Temperature 2
-- temperature: Temperature 2
-- temperature: Temperature 1
+- energy: Activation [energy]
+- temperature: '[temperature] 1'
+- temperature: '[temperature] 2'
+- temperature: '[temperature] 2'
+- temperature: '[temperature] 1'
 - frequency: Rate constant at T₂
 - frequency: Rate constant at T₁

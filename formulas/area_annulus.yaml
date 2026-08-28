@@ -2,12 +2,17 @@ name: Area of an annulus
 id: area_annulus
 topic: circles
 difficulty: 4
+links:
+  - https://en.wikipedia.org/wiki/Annulus_(mathematics)
+  - https://mathworld.wolfram.com/Annulus.html
+  - https://www.mathsisfun.com/geometry/annulus.html
+  - https://www.mathwords.com/a/annulus.htm
+  - https://www.geeksforgeeks.org/maths/annulus-area-formula/
+description: "An annulus is the ring-shaped region between two concentric circles. Its area equals the area of the outer disk minus that of the inner disk, so it depends only on the two radii. Used in geometry and engineering for washers, pipes, and circular rings."
 equation: area eq pi mul ((length pow 2) sub length pow 2 )
 symbol_overrides:
-- area: ''
 - length: R
 - length: r
 name_overrides:
-- area: '[Area]'
-- length: '[Pi]'
 - length: Outer radius
+- length: Inner radius

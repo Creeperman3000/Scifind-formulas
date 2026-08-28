@@ -2,6 +2,13 @@ name: Mass number
 id: mass_number_formula
 topic: atomic_structure
 difficulty: 3
+links:
+  - https://en.wikipedia.org/wiki/Mass_number
+  - https://education.jlab.org/qa/pen_number.html
+  - https://www.britannica.com/science/mass-number
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/02%3A_Atoms_and_the_Atomic_Theory/2.04%3A_Atomic_Number_and_Mass_Number
+  - https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties
+description: "The mass number A of an atomic nucleus equals the total count of protons and neutrons (nucleons) it contains, so A = Z + N where Z is the atomic number and N the neutron number. It is a dimensionless integer that distinguishes isotopes of the same element and is approximately equal to the isotopic mass in daltons. Mass number plays a key role in nuclear notation, radioactive decay classifications, and nuclear reaction accounting."
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: A

@@ -2,6 +2,14 @@ name: Solubility product for AB-type salt
 id: solubility_product_ab
 topic: solutions
 difficulty: 7
+links:
+  - https://en.wikipedia.org/wiki/Solubility_equilibrium
+  - https://en.wikipedia.org/wiki/Solubility_product
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_Supplement_(Eames)/Equilibria/Additional_Exercises/Solubility_Product
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Solubilty/Solubility_Product
+  - https://www.khanacademy.org/science/chemistry/chemical-equilibrium-topic/solubility-equilibrium-topic/v/solubility-product-constant
+  - https://www.britannica.com/science/solubility-product
+description: "The solubility product K_sp for a 1:1 salt like AgCl equals the product of the molar concentrations of its cation and anion in a saturated solution, with each raised to the first power. It is a temperature-dependent equilibrium constant that quantifies solubility and the common-ion effect."
 equation: equilibrium_constant eq concentration mul concentration
 symbol_overrides:
 - equilibrium_constant: K_{sp}

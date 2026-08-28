@@ -2,8 +2,18 @@ name: Chain rule
 id: derivative_chain_rule
 topic: derivatives
 difficulty: 7
-equation: frac (rmd dimensionless) (rmd dimensionless) eq (frac (rmd dimensionless) (rmd dimensionless))
-  mul (frac (rmd dimensionless) (rmd dimensionless))
+links:
+- https://en.wikipedia.org/wiki/Chain_rule
+- https://math.libretexts.org/Courses/Los_Angeles_City_College/MATH_261%3A_Calculus_I/01%3A_Limits/1.10%3A_Derivatives/1.10.07%3A_The_Chain_Rule
+- https://math.hmc.edu/calculus/hmc-mathematics-calculus-online-tutorials/single-variable-calculus/chain-rule/
+- https://tutorial.math.lamar.edu/classes/calci/chainrule.aspx
+- https://www.mathsisfun.com/calculus/chain-rule.html
+description: 'Rule for differentiating a composite function by introducing an intermediate
+  variable: rates of change multiply along the chain of dependencies. It applies whenever
+  the inner and outer functions are differentiable at the relevant points and is the
+  workhorse behind implicit differentiation and related-rates problems.'
+equation: frac rmd dimensionless rmd dimensionless eq frac rmd dimensionless rmd dimensionless
+  mul frac rmd dimensionless rmd dimensionless
 symbol_overrides:
 - dimensionless: y
 - dimensionless: x
@@ -13,8 +23,8 @@ symbol_overrides:
 - dimensionless: x
 name_overrides:
 - dimensionless: Dependent variable y
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'
 - dimensionless: Dependent variable y
 - dimensionless: Intermediate variable u
 - dimensionless: Intermediate variable u
-- dimensionless: '''[x]'''
+- dimensionless: '[variable|x]'

@@ -2,8 +2,19 @@ name: Limit power rule
 id: limit_power_rule
 topic: limits
 difficulty: 6
-equation: lim dimensionless dimensionless ((dimensionless) pow dimensionless) eq ((lim dimensionless dimensionless
-  dimensionless) pow dimensionless)
+links:
+- https://en.wikipedia.org/wiki/Limit_of_a_function
+- https://en.wikipedia.org/wiki/List_of_limits
+- https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02:_Limits_and_Continuity/2.03:_The_Limit_Laws
+- https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-determining-limits-using-the-squeeze-theorem-and-graphs/v/limit-laws
+- https://mathworld.wolfram.com/Limit.html
+- https://www.britannica.com/science/limit-mathematics
+description: The power rule for limits states that the limit of a function raised
+  to a constant power equals that power applied to the limit of the function, provided
+  the limit of the function exists. It is one of the standard algebraic limit laws
+  used to evaluate limits by reducing them to limits of simpler constituent functions.
+equation: lim dimensionless dimensionless dimensionless pow dimensionless eq (lim
+  dimensionless dimensionless dimensionless) pow dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: a
@@ -14,11 +25,11 @@ symbol_overrides:
 - dimensionless: f(x)
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Approach point
 - dimensionless: Function f(x)
 - dimensionless: Exponent n
-- dimensionless: '''[Variable]'''
+- dimensionless: '[variable]'
 - dimensionless: Approach point
 - dimensionless: Function f(x)
 - dimensionless: Exponent n

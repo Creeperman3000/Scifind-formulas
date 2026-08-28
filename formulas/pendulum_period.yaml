@@ -2,10 +2,16 @@ name: Period of a simple pendulum
 id: pendulum_period
 topic: harmonic_motion
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Pendulum#Period_of_oscillation
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Oscillations/16.03%3A_Period_of_a_Simple_Pendulum
+  - https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/harmonic-motion/v/simple-pendulum
+  - https://www.britannica.com/science/pendulum
+  - https://openstax.org/books/university-physics-volume-1/pages/16-3-period-of-a-simple-pendulum
+description: "The period of a simple pendulum, also called the small-angle approximation, is independent of the mass of the bob and of the swing amplitude (provided the angle is small). It depends only on the pendulum length and the local gravitational acceleration, which is the basis for using pendulums as clocks and gravimeters."
 equation: time eq 2 mul pi mul sqrt (length frac standard_gravity ) 2
 symbol_overrides:
 - time: T
 - length: L
 name_overrides:
 - time: Period
-- length: Length

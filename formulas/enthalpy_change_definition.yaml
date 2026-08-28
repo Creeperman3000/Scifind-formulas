@@ -2,14 +2,15 @@ name: Enthalpy change at constant pressure
 id: enthalpy_change_definition
 topic: thermochemistry
 difficulty: 6
-equation: energy eq energy pressure (Delta) volume mul add
+links:
+  - https://en.wikipedia.org/wiki/Enthalpy
+  - https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy
+description: "Relates the enthalpy change of a system to its internal energy change plus the expansion work against a constant external pressure. This relation follows from the definition of enthalpy and holds for processes at fixed pressure, the usual condition for laboratory chemistry. It shows why enthalpy changes, not internal energy changes, are tabulated for reactions open to the atmosphere."
+equation: energy eq energy add pressure mul Delta volume
 symbol_overrides:
 - energy: ΔH
 - energy: ΔU
-- pressure: ''
-- volume: ''
 name_overrides:
-- energy: '[Enthalpy] change'
+- energy: Enthalpy change
 - energy: Internal [energy] change
-- pressure: ''
-- volume: Volume change
+- volume: '[volume] change'

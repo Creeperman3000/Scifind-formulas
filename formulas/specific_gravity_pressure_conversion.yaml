@@ -2,14 +2,19 @@ name: Pressure conversion using specific gravity
 id: specific_gravity_pressure_conversion
 topic: pressure
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Relative_density
+  - https://en.wikipedia.org/wiki/Hydrostatic_pressure
+  - https://en.wikipedia.org/wiki/Hydrostatics
+  - https://en.wikipedia.org/wiki/Specific_weight
+  - https://www.engineersedge.com/fluid_flow/specific_gravity.htm
+  - https://www.thoughtco.com/specific-gravity-formula-609309
+description: "Hydrostatic pressure at the bottom of a fluid column equals the fluid's specific gravity times the density of water times the gravitational acceleration times the column height. It is used to convert tabulated specific-gravity values into a working pressure."
 equation: pressure eq density mul (density) mul (standard_gravity) mul length
 symbol_overrides:
-- pressure: ''
 - density: SG
-- density: ρ_{water}
-- length: ''
+- density: \rho_{water}
 name_overrides:
 - pressure: Hydrostatic [pressure]
 - density: Specific gravity
-- density: Density of water
-- length: ''
+- density: '[density] of water'

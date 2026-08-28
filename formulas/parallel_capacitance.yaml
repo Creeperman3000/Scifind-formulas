@@ -2,12 +2,19 @@ name: Capacitors in parallel
 id: parallel_capacitance
 topic: circuits
 difficulty: 5
+links:
+  - https://en.wikipedia.org/wiki/Series_and_parallel_circuits#Capacitors
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/08%3A_Capacitance/8.03%3A_Capacitors_in_Series_and_in_Parallel
+  - https://www.khanacademy.org/science/physics/circuits-topic/circuits-with-capacitors/v/capacitors-in-parallel
+  - https://www.electronics-tutorials.ws/capacitor/cap_4.html
+  - https://www.britannica.com/technology/capacitor/Capacitors-in-parallel
+description: "When capacitors are connected in parallel, the same voltage appears across each, and the charges on each plate add. The total (equivalent) capacitance of the network is simply the sum of the individual capacitances, which is always greater than any single capacitance in the group."
 equation: capacitance eq capacitance add capacitance
 symbol_overrides:
 - capacitance: C_{total}
 - capacitance: C_1
 - capacitance: C_2
 name_overrides:
-- capacitance: ''
-- capacitance: ''
-- capacitance: ''
+- capacitance: Total [capacitance]
+- capacitance: '[capacitance] 1'
+- capacitance: '[capacitance] 2'

@@ -2,6 +2,11 @@ name: Dilution Equation
 id: dilution_equation
 topic: solution_stoichiometry
 difficulty: 5
+links:
+  - https://www.aatbio.com/tools/quick-calculator/m1v1-formula-calculator
+  - https://topblogtenz.com/m1v1-m2v2-dilution-in-chemistry
+  - https://www.vaia.com/en-us/explanations/chemistry/physical-chemistry/dilution
+description: "States that the amount of solute stays constant when a solution is diluted by adding solvent: moles before dilution equal moles after. It is used to find any one of initial concentration, initial volume, final concentration, or final total volume when preparing solutions from a stock."
 equation: concentration mul volume eq concentration mul volume
 symbol_overrides:
 - concentration: c₁

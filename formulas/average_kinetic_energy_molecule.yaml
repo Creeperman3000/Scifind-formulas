@@ -2,15 +2,17 @@ name: Average kinetic energy per molecule
 id: average_kinetic_energy_molecule
 topic: ideal_gases
 difficulty: 7
-equation: energy eq dimensionless frac (dimensionless) mul (boltzmann_constant) mul
-  temperature
+links:
+  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/27%3A_The_Kinetic_Theory_of_Gases/27.01%3A_The_Average_Translational_Kinetic_Energy_of_a_Gas
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/02%3A_The_Kinetic_Theory_of_Gases/2.06%3A_The_Kinetic_Theory_of_Gases_(Summary)
+  - https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/12:_Temperature_and_Kinetic_Theory/12.5:_Kinetic_Theory
+description: "Kinetic theory shows that the mean translational kinetic energy of a single molecule in an ideal gas is fixed solely by the absolute temperature, with each of the three translational degrees of freedom contributing half of Boltzmann constant times temperature (equipartition). Notably it does not depend on the molecule's mass or identity."
+equation: energy eq dimensionless frac (dimensionless) mul (boltzmann_constant) mul temperature
 symbol_overrides:
 - energy: \langle K \rangle
 - dimensionless: '3'
 - dimensionless: '2'
-- temperature: T
 name_overrides:
 - energy: Average KE
 - dimensionless: Three
 - dimensionless: Two
-- temperature: Temperature

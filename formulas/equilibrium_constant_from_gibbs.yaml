@@ -2,11 +2,15 @@ name: Equilibrium constant from standard Gibbs
 id: equilibrium_constant_from_gibbs
 topic: chemical_equilibrium
 difficulty: 8
+links:
+  - https://chem.libretexts.org/Courses/Grand_Rapids_Community_College/CHM_120_-_Survey_of_General_Chemistry%28Neils%29/7%3A_Equilibrium_and_Thermodynamics/7.11%3A_Gibbs_Free_Energy_and_Equilibrium
+  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/19%3A_Chemical_Thermodynamics/19.07%3A_Free_Energy_and_the_Equilibrium_Constant
+  - https://www.chemguide.co.uk/physical/entropy/deltagandk.html
+description: "Relates the thermodynamic spontaneity of a reaction to its equilibrium position: the standard Gibbs free energy change determines how far a reaction proceeds toward products at equilibrium. A negative standard free energy change gives an equilibrium constant greater than one (products favored), while a positive value gives less than one. Assumes standard-state free energy data and ideal behavior at the given absolute temperature."
 equation: dimensionless eq exp (drop (energy frac gas_constant mul temperature) sub)
 symbol_overrides:
 - dimensionless: K
 - energy: ΔG°
-- temperature: ''
 name_overrides:
 - dimensionless: Equilibrium constant K
 - energy: Standard Gibbs free [energy] change

@@ -2,15 +2,15 @@ name: Area of a regular hexagon
 id: area_hexagon
 topic: polygons
 difficulty: 4
-equation: area eq (dimensionless mul sqrt 3 2 ) frac (dimensionless) mul length pow
-  2
+links:
+  - https://en.wikipedia.org/wiki/Regular_hexagon
+  - https://mathworld.wolfram.com/RegularHexagon.html
+  - https://proofwiki.org/wiki/Area_of_Regular_Hexagon
+  - https://www.cuemath.com/measurement/area-of-a-hexagon/
+  - https://www.math.net/hexagon
+description: "Gives the region enclosed by a regular hexagon from its side length. The hexagon splits into six equilateral triangles, which is where the constant factor comes from; the result applies only to regular (equal-sided) hexagons."
+equation: area eq frac (3 mul sqrt 3 2) 2 mul length pow 2
 symbol_overrides:
-- area: A
-- dimensionless: '3'
-- dimensionless: '2'
 - length: s
 name_overrides:
-- area: Area
-- dimensionless: Three
-- dimensionless: Two
 - length: Side
