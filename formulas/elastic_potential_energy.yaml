@@ -1,0 +1,13 @@
+name: Elastic potential energy
+id: elastic_potential_energy
+topic: springs
+difficulty: 2
+equation: (energy) eq (((spring_constant) mul (displacement pow 2)) div 2)
+symbol_overrides:
+- energy: E_e
+- spring_constant: ''
+- displacement: ''
+name_overrides:
+- energy: Elastic potential [energy]
+- spring_constant: ''
+- displacement: Extension

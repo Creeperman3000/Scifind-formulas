@@ -1,0 +1,13 @@
+name: Resistors in parallel (two)
+id: parallel_resistance
+topic: circuits
+difficulty: 2
+equation: ((1 frac (resistance)) eq ((1 frac (resistance)) add (1 frac (resistance))))
+symbol_overrides:
+- resistance: R_1
+- resistance: R_2
+- resistance: R_total
+name_overrides:
+- resistance: '[Resistance] 1'
+- resistance: '[Resistance] 2'
+- resistance: Total [resistance]

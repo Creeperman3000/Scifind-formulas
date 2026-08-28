@@ -1,9 +1,0 @@
-name: Magnetic energy density
-id: magnetic_energy_density_inductor
-topic: electromagnetic_induction
-difficulty: 3
-equation: (energy_density) eq ((magnetic_flux_density pow 2) div ((vacuum_permeability) mul 2))
-symbol_overrides:
-- energy_density: u_B
-name_overrides:
-- energy_density: Magnetic [energy] density

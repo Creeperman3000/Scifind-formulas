@@ -1,0 +1,15 @@
+name: Reaction rate from appearance of product
+id: reaction_rate_appearance
+topic: chemical_reactions
+difficulty: 2
+equation: ((concentration) div (time)) eq ((concentration) div (time))
+symbol_overrides:
+- concentration: rate
+- time: Δt
+- concentration: Δ[P]
+- time: ''
+name_overrides:
+- concentration: Reaction rate
+- time: Change in [time]
+- concentration: Change in product [concentration]
+- time: ''

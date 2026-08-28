@@ -1,0 +1,15 @@
+name: Enthalpy definition
+id: enthalpy_definition
+topic: thermochemistry
+difficulty: 2
+equation: (energy) eq ((energy) add ((pressure) mul (volume)))
+symbol_overrides:
+- energy: H
+- energy: U
+- pressure: ''
+- volume: ''
+name_overrides:
+- energy: '[Enthalpy]'
+- energy: Internal [energy]
+- pressure: ''
+- volume: ''

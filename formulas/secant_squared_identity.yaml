@@ -1,0 +1,13 @@
+name: Secant Squared Identity
+id: secant_squared_identity
+topic: trigonometric_identities
+difficulty: 2
+equation: (dimensionless) eq (((dimensionless) pow (tan (angle))) add 2)
+symbol_overrides:
+- dimensionless: sec²θ
+- dimensionless: '1'
+- angle: θ
+name_overrides:
+- dimensionless: Secant squared
+- dimensionless: '1'
+- angle: Angle θ

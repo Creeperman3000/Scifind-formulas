@@ -1,0 +1,13 @@
+name: Rotational work-energy theorem
+id: rotational_energy_from_work
+topic: rotational_energy
+difficulty: 2
+equation: (energy) eq ((torque) mul (angle))
+symbol_overrides:
+- energy: W
+- torque: τ
+- angle: θ
+name_overrides:
+- energy: Rotational [work]
+- torque: '[Torque]'
+- angle: Angular displacement

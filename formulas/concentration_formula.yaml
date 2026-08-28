@@ -1,0 +1,13 @@
+name: Concentration from amount and volume
+id: concentration_formula
+topic: solution_stoichiometry
+difficulty: 1
+equation: (concentration) eq ((amount) div (volume))
+symbol_overrides:
+- concentration: ''
+- amount: ''
+- volume: ''
+name_overrides:
+- concentration: ''
+- amount: ''
+- volume: ''

@@ -1,0 +1,17 @@
+name: Arrhenius pre-exponential factor
+id: chemical_kinetics_arrhenius_frequency
+topic: chemical_kinetics
+difficulty: 3
+equation: (frequency) eq ((frequency) mul (exp (neg ((energy) div ((gas_constant) mul (temperature))))))
+symbol_overrides:
+- frequency: k
+- frequency: A
+- energy: E_a
+- gas_constant: ''
+- temperature: ''
+name_overrides:
+- frequency: Rate [constant]
+- frequency: Pre-exponential factor
+- energy: Activation [energy]
+- gas_constant: ''
+- temperature: ''

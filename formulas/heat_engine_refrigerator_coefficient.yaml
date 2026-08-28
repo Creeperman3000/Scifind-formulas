@@ -1,0 +1,15 @@
+name: Coefficient of performance (refrigerator)
+id: heat_engine_refrigerator_coefficient
+topic: heat_engines
+difficulty: 2
+equation: (dimensionless) eq ((heat) div ((heat) sub (heat)))
+symbol_overrides:
+- dimensionless: COP
+- heat: Q_c
+- heat: Q_h
+- heat: Q_c
+name_overrides:
+- dimensionless: Coefficient of performance
+- heat: Heat removed from cold reservoir
+- heat: Heat from hot reservoir
+- heat: Heat removed from cold reservoir

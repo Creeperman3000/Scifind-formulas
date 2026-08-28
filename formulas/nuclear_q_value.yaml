@@ -1,0 +1,13 @@
+name: Q-value of a nuclear reaction
+id: nuclear_q_value
+topic: nuclear_physics
+difficulty: 4
+equation: (energy) eq (((mass) sub (mass)) mul (speed_of_light pow 2))
+symbol_overrides:
+- energy: Q
+- mass: m_initial
+- mass: m_final
+name_overrides:
+- energy: Reaction Q-value
+- mass: Initial [mass]
+- mass: Final [mass]

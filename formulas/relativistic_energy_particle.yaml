@@ -1,0 +1,13 @@
+name: Relativistic energy of a particle
+id: relativistic_energy_particle
+topic: particle_physics
+difficulty: 4
+equation: (energy) eq sqrt(((((momentum) mul (speed_of_light)) mul (speed_of_light)) add (((mass) mul (speed_of_light)) mul (speed_of_light))))
+symbol_overrides:
+- energy: ''
+- momentum: ''
+- mass: m_0
+name_overrides:
+- energy: Total [energy]
+- momentum: Relativistic [momentum]
+- mass: Rest [mass]

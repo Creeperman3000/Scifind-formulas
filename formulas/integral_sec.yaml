@@ -1,0 +1,19 @@
+name: Integral of sec x
+id: integral_sec
+topic: integrals
+difficulty: 4
+equation: (dimensionless) eq ((dimensionless) mul (ln (((dimensionless) add (sin (angle))) div ((dimensionless) sub (sin (angle))))))
+symbol_overrides:
+- dimensionless: ∫sec x dx
+- dimensionless: ½
+- dimensionless: '1'
+- angle: x
+- dimensionless: '1'
+- angle: x
+name_overrides:
+- dimensionless: Integral of secant
+- dimensionless: ''
+- dimensionless: ''
+- angle: '[Variable]'
+- dimensionless: ''
+- angle: ''

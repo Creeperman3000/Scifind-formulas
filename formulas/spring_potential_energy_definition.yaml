@@ -1,0 +1,13 @@
+name: Spring potential energy
+id: spring_potential_energy_definition
+topic: potential_energy
+difficulty: 1
+equation: (energy) eq (((spring_constant) mul (length pow 2)) div 2)
+symbol_overrides:
+- energy: U
+- spring_constant: ''
+- length: x
+name_overrides:
+- energy: Spring [potential] [energy]
+- spring_constant: ''
+- length: Displacement

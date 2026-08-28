@@ -1,0 +1,11 @@
+name: Number of particles from amount and Avogadro constant
+id: mole_concept_avogadro_number_particles
+topic: mole_concept
+difficulty: 1
+equation: (number_of_particles) eq ((amount) mul (avogadro_number))
+name_overrides:
+- number_of_particles: Number of [particles]
+- amount: ''
+symbol_overrides:
+- number_of_particles: ''
+- amount: ''

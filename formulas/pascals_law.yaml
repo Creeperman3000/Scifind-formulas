@@ -1,0 +1,15 @@
+name: Pascal's law (hydraulic lift)
+id: pascals_law
+topic: pascals_law
+difficulty: 2
+equation: ((force) div (area)) eq ((force) div (area))
+symbol_overrides:
+- force: F_1
+- area: A_1
+- force: F_2
+- area: A_2
+name_overrides:
+- force: Input [force]
+- area: Input [area]
+- force: Output [force]
+- area: Output [area]

@@ -1,0 +1,21 @@
+name: Projectile height at time
+id: projectile_height_at_time
+topic: projectile_motion
+difficulty: 2
+equation: (length) eq ((((velocity) mul (sin (angle))) mul (time)) sub (((acceleration) mul ((time) mul (time))) div 2))
+symbol_overrides:
+- length: y
+- velocity: v_0
+- angle: θ
+- time: ''
+- acceleration: g
+- time: ''
+- time: ''
+name_overrides:
+- length: Vertical position
+- velocity: Initial [velocity]
+- angle: Launch angle
+- time: '[Time]'
+- acceleration: Gravitational [acceleration]
+- time: ''
+- time: ''

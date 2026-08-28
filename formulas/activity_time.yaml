@@ -1,0 +1,15 @@
+name: Activity at time t
+id: activity_time
+topic: nuclear_physics
+difficulty: 3
+equation: (activity) eq ((activity) mul (exp (neg ((frequency) mul (time)))))
+symbol_overrides:
+- activity: A_0
+- activity: ''
+- frequency: λ
+- time: ''
+name_overrides:
+- activity: '[Activity] at time t'
+- activity: Initial [activity]
+- frequency: Decay constant
+- time: ''

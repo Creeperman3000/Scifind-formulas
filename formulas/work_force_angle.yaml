@@ -1,0 +1,15 @@
+name: Work by constant force at an angle
+id: work_force_angle
+topic: work
+difficulty: 1
+equation: (work) eq (((force) mul (length)) mul (cos (angle)))
+symbol_overrides:
+- work: ''
+- force: ''
+- length: ''
+- angle: θ
+name_overrides:
+- work: ''
+- force: ''
+- length: ''
+- angle: ''

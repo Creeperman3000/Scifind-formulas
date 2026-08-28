@@ -1,0 +1,15 @@
+name: Beer-Lambert law
+id: beer_lambert_law
+topic: analytical_chemistry
+difficulty: 2
+equation: (absorbance) eq (((absorbance) mul (length)) mul (concentration))
+symbol_overrides:
+- absorbance: ε
+- absorbance: ''
+- length: ''
+- concentration: ''
+name_overrides:
+- absorbance: '[Absorbance]'
+- absorbance: Molar absorptivity
+- length: Path length
+- concentration: '[Concentration]'

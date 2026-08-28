@@ -7,3 +7,7 @@ symbol_overrides:
 - amount: ''
 - mass: ''
 - molar_mass: ''
+name_overrides:
+- amount: ''
+- mass: ''
+- molar_mass: ''

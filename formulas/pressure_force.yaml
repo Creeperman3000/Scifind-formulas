@@ -1,9 +1,0 @@
-name: Pressure from force
-id: pressure_force
-topic: pressure
-difficulty: 1
-equation: (pressure) eq ((force) div (area))
-symbol_overrides:
-- area: ''
-- force: ''
-- pressure: ''

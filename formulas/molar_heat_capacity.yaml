@@ -1,0 +1,15 @@
+name: Molar heat capacity definition
+id: molar_heat_capacity
+topic: thermochemistry
+difficulty: 1
+equation: (molar_energy) eq ((heat) div ((amount) mul Delta((temperature))))
+symbol_overrides:
+- molar_energy: C_m
+- heat: ''
+- amount: ''
+- temperature: ''
+name_overrides:
+- molar_energy: Molar heat capacity
+- heat: '[Heat]'
+- amount: ''
+- temperature: ''

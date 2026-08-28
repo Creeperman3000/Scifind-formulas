@@ -1,0 +1,15 @@
+name: Linear expansion coefficient
+id: thermal_expansion_linear_coefficient
+topic: temperature
+difficulty: 2
+equation: (coefficient_of_linear_expansion) eq ((length) div ((length) mul (temperature)))
+symbol_overrides:
+- coefficient_of_linear_expansion: α
+- length: ΔL
+- length: L₀
+- temperature: ΔT
+name_overrides:
+- coefficient_of_linear_expansion: Linear expansion [coefficient]
+- length: Change in [length]
+- length: Original [length]
+- temperature: Change in [temperature]

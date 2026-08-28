@@ -1,0 +1,11 @@
+name: Frequency from period
+id: frequency_period
+topic: harmonic_motion
+difficulty: 1
+equation: (frequency) eq ((time) div 1)
+symbol_overrides:
+- frequency: ''
+- time: T
+name_overrides:
+- frequency: '[Frequency]'
+- time: Period

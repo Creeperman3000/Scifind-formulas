@@ -1,0 +1,15 @@
+name: Moment of inertia of an annular cylinder
+id: moi_annular_cylinder
+topic: moment_of_inertia
+difficulty: 3
+equation: (moment_of_inertia) eq (((mass) mul ((length pow 2) add (length pow 2))) div 2)
+symbol_overrides:
+- moment_of_inertia: ''
+- mass: M
+- length: R₁
+- length: R₂
+name_overrides:
+- moment_of_inertia: Moment of [inertia]
+- mass: ''
+- length: Inner [radius]
+- length: Outer [radius]

@@ -1,0 +1,13 @@
+name: Volume of a torus
+id: volume_torus
+topic: plane_geometry
+difficulty: 3
+equation: (volume) eq ((((pi) mul 2) mul (length)) mul ((length pow 2) mul (pi)))
+symbol_overrides:
+- volume: ''
+- length: R
+- length: r
+name_overrides:
+- volume: '[Volume]'
+- length: Major [radius]
+- length: Minor [radius]

@@ -1,0 +1,15 @@
+name: Orbital angular momentum
+id: angular_momentum_orbital
+topic: angular_momentum
+difficulty: 2
+equation: (angular_momentum) eq ((mass) mul ((velocity) mul (length)))
+symbol_overrides:
+- angular_momentum: ''
+- mass: ''
+- velocity: ''
+- length: r
+name_overrides:
+- angular_momentum: Orbital [angular momentum]
+- mass: ''
+- velocity: Orbital [velocity]
+- length: Orbit radius

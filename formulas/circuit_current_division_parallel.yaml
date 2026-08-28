@@ -1,0 +1,17 @@
+name: Current division in parallel resistors (two)
+id: circuit_current_division_parallel
+topic: circuits
+difficulty: 2
+equation: (current) eq ((current) mul ((resistance) div ((resistance) add (resistance))))
+symbol_overrides:
+- current: I_1
+- current: ''
+- resistance: R_2
+- resistance: R_1
+- resistance: R_2
+name_overrides:
+- current: Current through R₁
+- current: Total current
+- resistance: Opposite resistance
+- resistance: '[Resistance] R₁'
+- resistance: '[Resistance] R₂'

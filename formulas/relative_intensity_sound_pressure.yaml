@@ -1,0 +1,13 @@
+name: Sound intensity level from pressure amplitude
+id: relative_intensity_sound_pressure
+topic: mechanical_waves
+difficulty: 3
+equation: (sound_intensity_level) eq ((log ((pressure pow 2) div (pressure pow 2))) mul 10)
+symbol_overrides:
+- sound_intensity_level: L_p
+- pressure: p
+- pressure: p_0
+name_overrides:
+- sound_intensity_level: Sound pressure level
+- pressure: Sound pressure
+- pressure: Reference pressure

@@ -1,0 +1,23 @@
+name: Two-point form of a line
+id: two_point_form_line
+topic: equations
+difficulty: 2
+equation: (((length) sub (length)) div ((length) sub (length))) eq (((length) sub (length)) div ((length) sub (length)))
+symbol_overrides:
+- length: y
+- length: y_1
+- length: x
+- length: x_1
+- length: y_2
+- length: y_1
+- length: x_2
+- length: x_1
+name_overrides:
+- length: y-coordinate
+- length: y₁
+- length: x-coordinate
+- length: x₁
+- length: y₂
+- length: y₁
+- length: x₂
+- length: x₁

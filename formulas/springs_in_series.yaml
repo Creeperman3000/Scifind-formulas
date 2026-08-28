@@ -1,0 +1,13 @@
+name: Springs in series
+id: springs_in_series
+topic: springs
+difficulty: 2
+equation: ((spring_constant) pow -1) eq (((spring_constant) pow -1) add ((spring_constant) pow -1))
+symbol_overrides:
+- spring_constant: k_eq
+- spring_constant: k_1
+- spring_constant: k_2
+name_overrides:
+- spring_constant: Equivalent [spring constant]
+- spring_constant: '[Spring constant] 1'
+- spring_constant: '[Spring constant] 2'

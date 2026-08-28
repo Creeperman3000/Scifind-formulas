@@ -1,0 +1,13 @@
+name: Activity from decay constant
+id: activity_from_decay_constant
+topic: nuclear_physics
+difficulty: 2
+equation: (activity) eq ((amount) mul (number_of_particles))
+symbol_overrides:
+- activity: ''
+- amount: λ
+- number_of_particles: ''
+name_overrides:
+- activity: ''
+- amount: Decay constant
+- number_of_particles: ''

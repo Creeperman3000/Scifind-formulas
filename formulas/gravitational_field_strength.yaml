@@ -10,4 +10,6 @@ symbol_overrides:
 - length: r
 name_overrides:
 - acceleration: Gravitational field strength
+- gravitational_constant: ''
+- mass: ''
 - length: Distance

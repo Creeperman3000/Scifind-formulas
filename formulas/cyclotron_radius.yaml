@@ -1,0 +1,15 @@
+name: Cyclotron radius
+id: cyclotron_radius
+topic: magnetism
+difficulty: 3
+equation: (length) eq (((mass) mul (velocity)) div ((elementary_charge) mul (magnetic_flux_density)))
+symbol_overrides:
+- length: r
+- mass: ''
+- velocity: ''
+- magnetic_flux_density: ''
+name_overrides:
+- length: Cyclotron [radius]
+- mass: ''
+- velocity: ''
+- magnetic_flux_density: ''

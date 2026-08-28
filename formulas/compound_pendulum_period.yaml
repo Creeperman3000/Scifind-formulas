@@ -1,0 +1,15 @@
+name: Period of a compound (physical) pendulum
+id: compound_pendulum_period
+topic: harmonic_motion
+difficulty: 3
+equation: (time) eq (((pi) mul 2) mul (sqrt ((moment_of_inertia) div ((mass) mul ((standard_gravity) mul (length))))))
+symbol_overrides:
+- time: T
+- moment_of_inertia: ''
+- mass: ''
+- length: d
+name_overrides:
+- time: Period
+- moment_of_inertia: ''
+- mass: ''
+- length: Distance from pivot to center of mass

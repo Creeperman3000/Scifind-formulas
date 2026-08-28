@@ -1,0 +1,17 @@
+name: Mirror image distance formula
+id: mirror_image_distance_formula
+topic: mirrors
+difficulty: 2
+equation: (length) eq (((length) mul (length)) div ((length) sub (length)))
+symbol_overrides:
+- length: v
+- length: u
+- length: f
+- length: u
+- length: f
+name_overrides:
+- length: Image [distance]
+- length: Object [distance]
+- length: Focal [length]
+- length: ''
+- length: ''

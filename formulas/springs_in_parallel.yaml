@@ -1,0 +1,13 @@
+name: Springs in parallel
+id: springs_in_parallel
+topic: springs
+difficulty: 1
+equation: (spring_constant) eq ((spring_constant) add (spring_constant))
+symbol_overrides:
+- spring_constant: k_eq
+- spring_constant: k_1
+- spring_constant: k_2
+name_overrides:
+- spring_constant: Equivalent [spring constant]
+- spring_constant: '[Spring constant] 1'
+- spring_constant: '[Spring constant] 2'

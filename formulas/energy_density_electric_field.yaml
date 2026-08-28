@@ -1,7 +1,0 @@
-name: Energy density of an electric field
-id: energy_density_electric_field
-topic: electric_fields
-difficulty: 3
-equation: (energy_density) eq (((vacuum_permittivity) mul (electric_field_strength pow 2)) div 2)
-symbol_overrides:
-- energy_density: ''

@@ -1,0 +1,19 @@
+name: Law of cosines for angle
+id: law_of_cosines_angle
+topic: laws_of_sines_and_cosines
+difficulty: 2
+equation: (angle) eq acos(((((length) add (2 pow ((length) pow 2))) sub ((length) pow 2)) div ((length) mul ((length) mul 2))))
+symbol_overrides:
+- angle: C
+- length: a
+- length: b
+- length: c
+- length: a
+- length: b
+name_overrides:
+- angle: Angle C
+- length: Side a
+- length: Side b
+- length: Side c
+- length: Side a
+- length: Side b

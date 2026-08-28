@@ -1,0 +1,9 @@
+name: Fine-structure constant
+id: atomic_fine_structure_definition
+topic: atomic_physics
+difficulty: 3
+equation: (dimensionless) eq ((elementary_charge pow 2) div ((vacuum_permittivity) mul (((planck_constant) mul (speed_of_light)) mul 2)))
+symbol_overrides:
+- dimensionless: α
+name_overrides:
+- dimensionless: Fine-structure constant

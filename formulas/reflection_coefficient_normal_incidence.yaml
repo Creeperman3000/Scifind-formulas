@@ -1,0 +1,17 @@
+name: Reflection coefficient at normal incidence
+id: reflection_coefficient_normal_incidence
+topic: reflection
+difficulty: 3
+equation: (reflectance) eq (refractive_index) (refractive_index) sub (refractive_index) (refractive_index) add div pow 2
+symbol_overrides:
+- reflectance: ''
+- refractive_index: n₁
+- refractive_index: n₂
+- refractive_index: n₁
+- refractive_index: n₂
+name_overrides:
+- reflectance: Reflection [coefficient]
+- refractive_index: Incident [index]
+- refractive_index: Transmitted [index]
+- refractive_index: ''
+- refractive_index: ''

@@ -1,0 +1,13 @@
+name: Capacitance definition
+id: capacitance_formula
+topic: capacitance
+difficulty: 1
+equation: (capacitance) eq ((charge) div (electric_potential))
+symbol_overrides:
+- capacitance: ''
+- charge: ''
+- electric_potential: ''
+name_overrides:
+- capacitance: ''
+- charge: ''
+- electric_potential: ''

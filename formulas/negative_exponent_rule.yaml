@@ -1,0 +1,11 @@
+name: Negative exponent rule
+id: negative_exponent_rule
+topic: exponents
+difficulty: 1
+equation: (dimensionless) eq (1 div (dimensionless))
+symbol_overrides:
+- dimensionless: a⁻ⁿ
+- dimensionless: aⁿ
+name_overrides:
+- dimensionless: Negative exponent
+- dimensionless: a to the power n

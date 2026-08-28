@@ -1,0 +1,15 @@
+name: Torque from force and moment arm
+id: torque_moment_arm
+topic: torque
+difficulty: 1
+equation: (torque) eq (((length) mul (force)) mul (sin (angle)))
+symbol_overrides:
+- torque: τ
+- length: r
+- force: ''
+- angle: θ
+name_overrides:
+- torque: '[Torque]'
+- length: Moment arm
+- force: '[Force]'
+- angle: Angle

@@ -1,0 +1,17 @@
+name: Venturi effect (pressure difference)
+id: venturi_effect
+topic: bernoulli_equation
+difficulty: 3
+equation: ((pressure) sub (pressure)) eq (((density) mul ((velocity pow 2) sub (velocity pow 2))) div 2)
+symbol_overrides:
+- pressure: P_1
+- pressure: P_2
+- density: ρ
+- velocity: v_2
+- velocity: v_1
+name_overrides:
+- pressure: '[Pressure] at point 1'
+- pressure: '[Pressure] at point 2'
+- density: Fluid [density]
+- velocity: Flow [velocity] at point 2
+- velocity: Flow [velocity] at point 1

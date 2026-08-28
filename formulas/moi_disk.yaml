@@ -1,0 +1,13 @@
+name: Moment of inertia of a solid disk
+id: moi_disk
+topic: moment_of_inertia
+difficulty: 2
+equation: (moment_of_inertia) eq (((mass) mul (length pow 2)) div 2)
+symbol_overrides:
+- moment_of_inertia: ''
+- mass: ''
+- length: R
+name_overrides:
+- moment_of_inertia: ''
+- mass: ''
+- length: ''

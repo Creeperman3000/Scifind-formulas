@@ -1,0 +1,13 @@
+name: Carnot efficiency
+id: carnot_efficiency
+topic: heat_engines
+difficulty: 3
+equation: (heat_engine_efficiency) eq (((temperature) div (temperature)) sub 1)
+symbol_overrides:
+- heat_engine_efficiency: η
+- temperature: T_C
+- temperature: T_H
+name_overrides:
+- heat_engine_efficiency: Carnot [efficiency]
+- temperature: Cold reservoir [temperature]
+- temperature: Hot reservoir [temperature]

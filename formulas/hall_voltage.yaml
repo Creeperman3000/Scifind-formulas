@@ -1,0 +1,17 @@
+name: Hall voltage
+id: hall_voltage
+topic: magnetism
+difficulty: 4
+equation: (electric_potential) eq (((current) mul (magnetic_flux_density)) div (((concentration) mul (elementary_charge)) mul (length)))
+symbol_overrides:
+- electric_potential: V_H
+- current: ''
+- magnetic_flux_density: ''
+- concentration: n
+- length: d
+name_overrides:
+- electric_potential: Hall [voltage]
+- current: ''
+- magnetic_flux_density: ''
+- concentration: Carrier [density]
+- length: Thickness

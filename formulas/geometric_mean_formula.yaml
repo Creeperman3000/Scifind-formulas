@@ -1,0 +1,13 @@
+name: Geometric mean
+id: geometric_mean_formula
+topic: arithmetic
+difficulty: 1
+equation: (dimensionless) eq sqrt(((dimensionless) mul (dimensionless)))
+symbol_overrides:
+- dimensionless: GM
+- dimensionless: a
+- dimensionless: b
+name_overrides:
+- dimensionless: Geometric mean
+- dimensionless: Value a
+- dimensionless: Value b

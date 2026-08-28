@@ -1,0 +1,15 @@
+name: Center of mass x-coordinate
+id: center_of_mass_x_coordinate
+topic: linear_momentum
+difficulty: 2
+equation: (length) eq (sum(((mass) mul (length))) div sum((mass)))
+symbol_overrides:
+- length: x_cm
+- mass: ''
+- length: ''
+- mass: ''
+name_overrides:
+- length: Center of mass position
+- mass: ''
+- length: ''
+- mass: ''

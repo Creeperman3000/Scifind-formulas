@@ -1,0 +1,13 @@
+name: Electric current definition
+id: electric_current
+topic: current_electricity
+difficulty: 1
+equation: (current) eq ((charge) div (time))
+symbol_overrides:
+- current: ''
+- charge: ''
+- time: ''
+name_overrides:
+- current: ''
+- charge: ''
+- time: ''

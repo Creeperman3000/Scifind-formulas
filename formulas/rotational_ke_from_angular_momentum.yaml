@@ -1,0 +1,15 @@
+name: Rotational kinetic energy from angular momentum
+id: rotational_ke_from_angular_momentum
+topic: rotational_energy
+difficulty: 3
+equation: (energy) eq (((angular_momentum) mul (angular_momentum)) div ((moment_of_inertia) mul 2))
+symbol_overrides:
+- energy: K_rot
+- angular_momentum: ''
+- angular_momentum: ''
+- moment_of_inertia: ''
+name_overrides:
+- energy: Rotational kinetic [energy]
+- angular_momentum: Angular [momentum]
+- angular_momentum: ''
+- moment_of_inertia: Moment of [inertia]

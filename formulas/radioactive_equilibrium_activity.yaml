@@ -1,0 +1,11 @@
+name: Radioactive equilibrium activity
+id: radioactive_equilibrium_activity
+topic: nuclear_physics
+difficulty: 3
+equation: (activity) eq (activity)
+symbol_overrides:
+- activity: A_1
+- activity: A_2
+name_overrides:
+- activity: Activity of parent
+- activity: Activity of daughter

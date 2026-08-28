@@ -1,0 +1,15 @@
+name: Gibbs free energy and equilibrium constant
+id: gibbs_equilibrium
+topic: chemical_equilibrium
+difficulty: 4
+equation: (energy) eq (neg (((gas_constant) mul (temperature)) mul (ln (equilibrium_constant))))
+symbol_overrides:
+- energy: ΔG°
+- gas_constant: ''
+- temperature: ''
+- equilibrium_constant: ''
+name_overrides:
+- energy: Standard Gibbs free [energy] change
+- gas_constant: ''
+- temperature: ''
+- equilibrium_constant: ''

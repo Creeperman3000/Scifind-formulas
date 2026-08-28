@@ -1,0 +1,15 @@
+name: Kirchhoff's loop rule
+id: circuit_kirchhoff_loop_rule
+topic: circuits
+difficulty: 2
+equation: (electric_potential) eq ((((electric_potential) add (electric_potential)) add (electric_potential)) eq 0)
+symbol_overrides:
+- electric_potential: V_1
+- electric_potential: V_2
+- electric_potential: V_3
+- electric_potential: ''
+name_overrides:
+- electric_potential: Voltage drop 1
+- electric_potential: Voltage drop 2
+- electric_potential: Voltage drop 3
+- electric_potential: ''

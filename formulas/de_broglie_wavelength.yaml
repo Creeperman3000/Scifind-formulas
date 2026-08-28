@@ -1,0 +1,11 @@
+name: De Broglie wavelength
+id: de_broglie_wavelength
+topic: quantum_mechanics
+difficulty: 3
+equation: (length) eq ((planck_constant) div (momentum))
+symbol_overrides:
+- length: λ
+- momentum: ''
+name_overrides:
+- length: Wavelength
+- momentum: ''

@@ -1,0 +1,17 @@
+name: Mandelstam invariant s
+id: mandelstam_invariant_s
+topic: particle_physics
+difficulty: 5
+equation: (energy pow 2) eq (energy) (energy) add pow 2 (momentum) (momentum) add (speed_of_light) mul pow 2 sub
+symbol_overrides:
+- energy: s
+- energy: E_1
+- energy: E_2
+- momentum: p_1
+- momentum: p_2
+name_overrides:
+- energy: Mandelstam s
+- energy: Energy of particle 1
+- energy: Energy of particle 2
+- momentum: Momentum of particle 1
+- momentum: Momentum of particle 2

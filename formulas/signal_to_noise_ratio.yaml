@@ -1,0 +1,13 @@
+name: Signal-to-noise ratio
+id: signal_to_noise_ratio
+topic: analytical_chemistry
+difficulty: 2
+equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+symbol_overrides:
+- dimensionless: S/N
+- dimensionless: S
+- dimensionless: N
+name_overrides:
+- dimensionless: Signal-to-noise ratio
+- dimensionless: Signal magnitude
+- dimensionless: Noise magnitude

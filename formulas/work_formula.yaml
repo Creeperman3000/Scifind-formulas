@@ -1,0 +1,13 @@
+name: Work
+id: work_formula
+topic: work
+difficulty: 1
+equation: (work) eq ((force) mul (displacement))
+name_overrides:
+- work: '[Work]'
+- force: ''
+- displacement: ''
+symbol_overrides:
+- work: ''
+- force: ''
+- displacement: ''

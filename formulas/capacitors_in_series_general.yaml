@@ -1,0 +1,13 @@
+name: Capacitors in series (general formula)
+id: capacitors_in_series_general
+topic: capacitance
+difficulty: 2
+equation: ((capacitance) pow -1) eq (((capacitance) pow -1) add ((capacitance) pow -1))
+symbol_overrides:
+- capacitance: C_eq
+- capacitance: C_1
+- capacitance: C_2
+name_overrides:
+- capacitance: Equivalent [capacitance]
+- capacitance: '[Capacitance] 1'
+- capacitance: '[Capacitance] 2'

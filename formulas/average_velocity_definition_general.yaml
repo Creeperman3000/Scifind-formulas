@@ -1,0 +1,17 @@
+name: Average velocity definition
+id: average_velocity_definition_general
+topic: constant_acceleration
+difficulty: 1
+equation: (velocity) eq (((displacement) sub (displacement)) div ((time) sub (time)))
+symbol_overrides:
+- velocity: v̄
+- displacement: s₂
+- displacement: s₁
+- time: t₂
+- time: t₁
+name_overrides:
+- velocity: Average [velocity]
+- displacement: Final [displacement]
+- displacement: Initial [displacement]
+- time: Final [time]
+- time: Initial [time]

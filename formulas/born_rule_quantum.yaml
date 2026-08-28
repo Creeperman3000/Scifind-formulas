@@ -1,0 +1,13 @@
+name: Born rule for probability density
+id: born_rule_quantum
+topic: quantum_mechanics
+difficulty: 3
+equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
+symbol_overrides:
+- dimensionless: P
+- dimensionless: ψ
+- dimensionless: ψ*
+name_overrides:
+- dimensionless: Probability density
+- dimensionless: Wavefunction
+- dimensionless: Complex conjugate

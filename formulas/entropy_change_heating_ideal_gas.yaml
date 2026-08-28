@@ -1,0 +1,25 @@
+name: Entropy change of ideal gas with temperature and volume
+id: entropy_change_heating_ideal_gas
+topic: entropy
+difficulty: 3
+equation: (entropy) eq ((((amount) mul (molar_energy)) mul (ln ((temperature) div (temperature)))) add (((amount) mul (gas_constant)) mul (ln ((volume) div (volume)))))
+symbol_overrides:
+- entropy: ΔS
+- amount: ''
+- molar_energy: C_V
+- temperature: T_2
+- temperature: T_1
+- amount: ''
+- gas_constant: ''
+- volume: V_2
+- volume: V_1
+name_overrides:
+- entropy: Change in [entropy]
+- amount: Amount of [substance]
+- molar_energy: Molar heat capacity at constant [volume]
+- temperature: Final [temperature]
+- temperature: Initial [temperature]
+- amount: ''
+- gas_constant: ''
+- volume: Final [volume]
+- volume: Initial [volume]

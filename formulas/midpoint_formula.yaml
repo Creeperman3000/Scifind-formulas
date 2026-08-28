@@ -1,0 +1,13 @@
+name: Midpoint formula
+id: midpoint_formula
+topic: coordinate_geometry
+difficulty: 1
+equation: (length) eq (((length) add (length)) div 2)
+symbol_overrides:
+- length: x_m
+- length: x_1
+- length: x_2
+name_overrides:
+- length: Midpoint x-coordinate
+- length: x-coordinate 1
+- length: x-coordinate 2

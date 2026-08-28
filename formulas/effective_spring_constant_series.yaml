@@ -1,0 +1,15 @@
+name: Equivalent spring constant (series)
+id: effective_spring_constant_series
+topic: springs
+difficulty: 2
+equation: ((spring_constant) pow -1) eq ((((spring_constant) pow -1) ((spring_constant) pow -1) add) ((spring_constant) pow -1) add)
+symbol_overrides:
+- spring_constant: k_eq
+- spring_constant: k_1
+- spring_constant: k_2
+- spring_constant: k_3
+name_overrides:
+- spring_constant: Effective [spring constant]
+- spring_constant: '[Spring constant] 1'
+- spring_constant: '[Spring constant] 2'
+- spring_constant: '[Spring constant] 3'

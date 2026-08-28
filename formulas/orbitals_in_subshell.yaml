@@ -1,0 +1,13 @@
+name: Number of orbitals in a subshell
+id: orbitals_in_subshell
+topic: periodic_table
+difficulty: 2
+equation: (dimensionless) eq (((dimensionless) mul 2) add (dimensionless))
+symbol_overrides:
+- dimensionless: '#orbitals'
+- dimensionless: l
+- dimensionless: l
+name_overrides:
+- dimensionless: Number of [orbitals]
+- dimensionless: Azimuthal quantum number l
+- dimensionless: Azimuthal quantum number l

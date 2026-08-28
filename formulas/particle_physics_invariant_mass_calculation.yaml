@@ -1,0 +1,13 @@
+name: Invariant mass from energy and momentum
+id: particle_physics_invariant_mass_calculation
+topic: particle_physics
+difficulty: 4
+equation: (mass) eq ((sqrt (((energy pow 2) pow ((momentum) mul (speed_of_light))) sub 2)) div (speed_of_light pow 2))
+symbol_overrides:
+- mass: ''
+- energy: ''
+- momentum: ''
+name_overrides:
+- mass: Invariant [mass]
+- energy: Total [energy]
+- momentum: '[Momentum]'

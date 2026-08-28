@@ -1,0 +1,17 @@
+name: Molar mass from atomic masses
+id: molar_mass_from_atomic_masses
+topic: molar_mass
+difficulty: 2
+equation: (molar_mass) eq ((((mass) add (mass)) add (mass)) div (amount))
+symbol_overrides:
+- molar_mass: ''
+- mass: m_1
+- mass: m_2
+- mass: m_3
+- amount: ''
+name_overrides:
+- molar_mass: Molar [mass]
+- mass: Mass of element 1
+- mass: Mass of element 2
+- mass: Mass of element 3
+- amount: Amount of substance (moles)

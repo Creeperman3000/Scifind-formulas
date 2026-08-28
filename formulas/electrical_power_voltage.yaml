@@ -1,8 +1,0 @@
-name: Electrical power from voltage and resistance
-id: electrical_power_voltage
-topic: circuits
-difficulty: 1
-equation: (power) eq ((electric_potential pow 2) div (resistance))
-symbol_overrides:
-- power: ''
-- resistance: ''

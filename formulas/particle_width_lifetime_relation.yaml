@@ -1,0 +1,11 @@
+name: Particle decay width and lifetime
+id: particle_width_lifetime_relation
+topic: particle_physics
+difficulty: 4
+equation: (energy) eq (((planck_constant) div ((pi) mul 2)) div (time))
+symbol_overrides:
+- energy: Γ
+- time: τ
+name_overrides:
+- energy: Decay [width]
+- time: Mean [lifetime]

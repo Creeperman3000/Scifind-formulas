@@ -1,0 +1,15 @@
+name: Similar triangles side ratio
+id: plane_geometry_similar_triangles_ratio
+topic: plane_geometry
+difficulty: 1
+equation: ((length) div (length)) eq ((length) div (length))
+symbol_overrides:
+- length: a_1
+- length: a_2
+- length: b_1
+- length: b_2
+name_overrides:
+- length: Side in triangle 1
+- length: Corresponding side in triangle 2
+- length: Another side in triangle 1
+- length: Corresponding side in triangle 2

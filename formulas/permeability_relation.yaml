@@ -1,0 +1,11 @@
+name: Permeability relation
+id: permeability_relation
+topic: magnetism
+difficulty: 2
+equation: (permeability) eq ((permeability) mul (vacuum_permeability))
+symbol_overrides:
+- permeability: μ
+- permeability: μ_r
+name_overrides:
+- permeability: '[Permeability]'
+- permeability: Relative [permeability]

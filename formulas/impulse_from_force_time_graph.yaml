@@ -1,0 +1,13 @@
+name: Impulse from force-time graph area
+id: impulse_from_force_time_graph
+topic: impulse
+difficulty: 2
+equation: (impulse) eq ((force) mul (time))
+symbol_overrides:
+- impulse: ''
+- force: ''
+- time: ''
+name_overrides:
+- impulse: '[Impulse]'
+- force: ''
+- time: ''

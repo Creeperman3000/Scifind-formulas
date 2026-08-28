@@ -1,9 +1,0 @@
-name: Hydraulic pressure from force and area
-id: hydraulic_pressure_force_relation
-topic: pascals_law
-difficulty: 1
-equation: (pressure) eq ((force) div (area))
-name_overrides:
-- pressure: '[Pressure]'
-- force: '[Force]'
-- area: '[Area]'
