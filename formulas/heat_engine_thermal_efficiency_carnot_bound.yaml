@@ -1,0 +1,13 @@
+name: Carnot efficiency bound
+id: heat_engine_thermal_efficiency_carnot_bound
+topic: heat_engines
+difficulty: 2
+equation: (heat_engine_efficiency) leq ((1) sub ((temperature) frac (temperature)))
+symbol_overrides:
+- heat_engine_efficiency: \eta
+- temperature: T_c
+- temperature: T_h
+name_overrides:
+- heat_engine_efficiency: Carnot [heat_engine_efficiency]
+- temperature: Cold reservoir [temperature]
+- temperature: Hot reservoir [temperature]

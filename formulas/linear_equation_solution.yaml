@@ -1,0 +1,16 @@
+name: Linear equation solution
+id: linear_equation_solution
+topic: equations
+difficulty: 1
+equation: dimensionless eq (dimensionless sub dimensionless ) frac
+  dimensionless
+symbol_overrides:
+- dimensionless: x
+- dimensionless: c
+- dimensionless: b
+- dimensionless: a
+name_overrides:
+- dimensionless: Solution
+- dimensionless: c
+- dimensionless: b
+- dimensionless: a

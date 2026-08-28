@@ -1,0 +1,18 @@
+name: Poisson probability mass function
+id: poisson_probability
+topic: probability
+difficulty: 3
+equation: dimensionless eq dimensionless pow dimensionless mul exp neg
+  dimensionless frac factorial dimensionless
+symbol_overrides:
+- dimensionless: P(X=k)
+- dimensionless: "\\lambda"
+- dimensionless: k
+- dimensionless: k
+- dimensionless: k
+name_overrides:
+- dimensionless: Probability
+- dimensionless: Mean [rate]
+- dimensionless: Number of events
+- dimensionless: ''
+- dimensionless: Factorial argument

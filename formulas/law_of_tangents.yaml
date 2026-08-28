@@ -1,0 +1,24 @@
+name: Law of tangents
+id: law_of_tangents
+topic: laws_of_sines_and_cosines
+difficulty: 3
+equation: (length sub length ) frac (length add length ) eq tan
+  ((angle sub angle ) frac 2) frac tan ((angle add angle ) frac 2)
+symbol_overrides:
+- length: a
+- length: b
+- length: a
+- length: b
+- angle: A
+- angle: B
+- angle: A
+- angle: B
+name_overrides:
+- length: ''
+- length: ''
+- length: ''
+- length: ''
+- angle: ''
+- angle: ''
+- angle: ''
+- angle: ''

@@ -1,0 +1,16 @@
+name: Atom economy
+id: percent_yield_atom_economy
+topic: percent_yield
+difficulty: 2
+equation: dimensionless eq 100 mul (molar_mass frac (molar_mass add
+  molar_mass ) )
+symbol_overrides:
+- dimensionless: "\\%\\,\\text{AE}"
+- molar_mass: M_{\text{d}}
+- molar_mass: M_{\text{d}}
+- molar_mass: M_{\text{w}}
+name_overrides:
+- dimensionless: Atom economy
+- molar_mass: Molar mass of desired product
+- molar_mass: Molar mass of desired product
+- molar_mass: Molar mass of waste

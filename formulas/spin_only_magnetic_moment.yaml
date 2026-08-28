@@ -1,0 +1,13 @@
+name: Spin-only magnetic moment
+id: spin_only_magnetic_moment
+topic: inorganic_chemistry
+difficulty: 3
+equation: (dimensionless) eq ((sqrt (dimensionless mul (dimensionless add 2))))
+symbol_overrides:
+- dimensionless: \mu
+- dimensionless: n
+- dimensionless: n
+name_overrides:
+- dimensionless: Spin-only magnetic moment
+- dimensionless: Unpaired electrons
+- dimensionless: Unpaired electrons

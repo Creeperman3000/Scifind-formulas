@@ -1,0 +1,12 @@
+name: Hydrogen atom energy levels
+id: hydrogen_energy_levels
+topic: atomic_physics
+difficulty: 4
+equation: energy eq neg rydberg_constant mul planck_constant mul
+  speed_of_light frac (dimensionless pow 2)
+symbol_overrides:
+- energy: E_n
+- dimensionless: n
+name_overrides:
+- energy: '[Energy] of level n'
+- dimensionless: Principal quantum number

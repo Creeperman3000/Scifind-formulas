@@ -1,0 +1,11 @@
+name: Derivative of cosine
+id: derivative_cos
+topic: derivatives
+difficulty: 2
+equation: rmd cos angle eq neg sin angle
+symbol_overrides:
+- angle: x
+- angle: x
+name_overrides:
+- angle: '[Variable]'
+- angle: '[Variable]'

@@ -1,0 +1,13 @@
+name: Integral of 1/√(a²-x²)
+id: integral_reciprocal_root_quadratic
+topic: integrals
+difficulty: 3
+equation: dimensionless eq asin (dimensionless frac dimensionless )
+symbol_overrides:
+- dimensionless: "\\int \\mathrm{d}x/\\sqrt{a^2-x^2}"
+- dimensionless: x
+- dimensionless: a
+name_overrides:
+- dimensionless: Integral of reciprocal root quadratic
+- dimensionless: '[Variable]'
+- dimensionless: '[Constant]'

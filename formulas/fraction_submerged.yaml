@@ -1,0 +1,13 @@
+name: Fraction of object submerged in fluid
+id: fraction_submerged
+topic: buoyancy
+difficulty: 2
+equation: dimensionless eq density frac density
+symbol_overrides:
+- dimensionless: f
+- density: "\\rho_{\\text{obj}}"
+- density: "\\rho_{\\text{fluid}}"
+name_overrides:
+- dimensionless: Fraction submerged
+- density: Object [density]
+- density: Fluid [density]

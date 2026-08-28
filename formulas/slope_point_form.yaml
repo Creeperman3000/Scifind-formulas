@@ -1,0 +1,15 @@
+name: Point-slope form of a line
+id: slope_point_form
+topic: coordinate_geometry
+difficulty: 1
+equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless )
+symbol_overrides:
+- dimensionless: "y - y_1"
+- dimensionless: m
+- dimensionless: x
+- dimensionless: "x_1"
+name_overrides:
+- dimensionless: Difference in y
+- dimensionless: Slope
+- dimensionless: x-coordinate
+- dimensionless: Point x-coordinate

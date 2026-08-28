@@ -1,0 +1,13 @@
+name: Energy conservation with nonconservative work
+id: energy_conservation_nonconservative
+topic: conservation_of_energy
+difficulty: 2
+equation: energy add energy eq energy
+symbol_overrides:
+- energy: \Delta\text{KE}
+- energy: \Delta\text{PE}
+- energy: W_{\mathrm{nc}}
+name_overrides:
+- energy: Change in kinetic [energy]
+- energy: Change in potential [energy]
+- energy: Work by nonconservative forces

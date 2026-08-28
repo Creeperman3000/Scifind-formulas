@@ -1,0 +1,13 @@
+name: Heat engine efficiency
+id: heat_engine_efficiency_formula
+topic: heat_engines
+difficulty: 2
+equation: heat_engine_efficiency eq energy frac energy
+symbol_overrides:
+- heat_engine_efficiency: ''
+- energy: ''
+- energy: Q_H
+name_overrides:
+- heat_engine_efficiency: '[Efficiency]'
+- energy: '[Energy] output'
+- energy: '[Energy] input'

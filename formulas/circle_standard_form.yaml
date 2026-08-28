@@ -1,0 +1,17 @@
+name: Standard form of a circle
+id: circle_standard_form
+topic: circles
+difficulty: 1
+equation: ((((length sub length) pow 2) add ((length sub length) pow 2)) eq ((length) pow 2))
+symbol_overrides:
+- length: x
+- length: h
+- length: y
+- length: k
+- length: r
+name_overrides:
+- length: x-coordinate
+- length: Center x
+- length: y-coordinate
+- length: Center y
+- length: Radius

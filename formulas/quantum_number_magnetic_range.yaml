@@ -1,0 +1,11 @@
+name: Quantum number magnetic range
+id: quantum_number_magnetic_range
+topic: atomic_structure
+difficulty: 2
+equation: (abs (dimensionless)) leq (dimensionless)
+symbol_overrides:
+- dimensionless: m_l
+- dimensionless: l
+name_overrides:
+- dimensionless: Magnetic quantum number
+- dimensionless: Azimuthal quantum [number]

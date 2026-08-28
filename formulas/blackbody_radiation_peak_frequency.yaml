@@ -1,0 +1,11 @@
+name: Peak frequency of blackbody radiation
+id: blackbody_radiation_peak_frequency
+topic: quantum_mechanics
+difficulty: 3
+equation: frequency eq wiens_constant mul temperature
+symbol_overrides:
+- frequency: "\\nu_{\\text{peak}}"
+- temperature: T
+name_overrides:
+- frequency: Peak frequency
+- temperature: Temperature

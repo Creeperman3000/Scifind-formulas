@@ -1,0 +1,13 @@
+name: Capacitor energy from voltage and charge
+id: capacitor_energy_voltage_charge
+topic: capacitance
+difficulty: 2
+equation: energy eq charge mul electric_potential frac 2
+symbol_overrides:
+- energy: U
+- charge: ''
+- electric_potential: ''
+name_overrides:
+- energy: Stored [energy]
+- charge: '[Charge]'
+- electric_potential: Voltage

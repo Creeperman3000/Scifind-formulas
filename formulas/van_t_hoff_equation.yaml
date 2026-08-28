@@ -1,0 +1,16 @@
+name: Van 't Hoff equation for osmotic pressure
+id: van_t_hoff_equation
+topic: solutions
+difficulty: 3
+equation: pressure eq dimensionless mul (concentration mul (gas_constant mul temperature
+  ) )
+symbol_overrides:
+- pressure: "\\Pi"
+- dimensionless: i
+- concentration: M
+- temperature: T
+name_overrides:
+- pressure: Osmotic [pressure]
+- dimensionless: Van 't Hoff factor
+- concentration: Molarity
+- temperature: '[Temperature]'

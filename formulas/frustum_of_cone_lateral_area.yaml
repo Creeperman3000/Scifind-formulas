@@ -1,0 +1,20 @@
+name: Lateral area of a conical frustum
+id: frustum_of_cone_lateral_area
+topic: plane_geometry
+difficulty: 3
+equation: area eq (pi mul (length add length ) ) pow (length sub length ) mul sqrt
+  (2 add length pow 2 )
+symbol_overrides:
+- area: ''
+- length: R
+- length: r
+- length: R
+- length: r
+- length: h
+name_overrides:
+- area: Lateral [area] of conical frustum
+- length: Top [radius]
+- length: Bottom [radius]
+- length: ''
+- length: ''
+- length: Height

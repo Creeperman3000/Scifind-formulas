@@ -1,0 +1,11 @@
+name: Secant Squared Identity
+id: secant_squared_identity
+topic: trigonometric_identities
+difficulty: 2
+equation: dimensionless eq 1 add dimensionless
+symbol_overrides:
+- dimensionless: "\\sec^2\\theta"
+- dimensionless: "\\tan^2\\theta"
+name_overrides:
+- dimensionless: Secant squared
+- dimensionless: Tangent squared

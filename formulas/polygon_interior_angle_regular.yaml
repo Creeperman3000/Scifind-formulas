@@ -1,0 +1,13 @@
+name: Interior angle of a regular polygon
+id: polygon_interior_angle_regular
+topic: polygons
+difficulty: 1
+equation: angle eq 180 mul (dimensionless sub 2) frac dimensionless
+symbol_overrides:
+- angle: "\\theta"
+- dimensionless: n
+- dimensionless: n
+name_overrides:
+- angle: Interior [angle]
+- dimensionless: Number of sides
+- dimensionless: Number of sides

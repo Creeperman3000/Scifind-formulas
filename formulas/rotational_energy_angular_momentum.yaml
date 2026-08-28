@@ -1,0 +1,13 @@
+name: Rotational kinetic energy from angular momentum
+id: rotational_energy_angular_momentum
+topic: rotational_energy
+difficulty: 2
+equation: energy eq angular_momentum pow 2 frac (2 mul moment_of_inertia )
+symbol_overrides:
+- energy: K_{\mathrm{rot}}
+- angular_momentum: ''
+- moment_of_inertia: ''
+name_overrides:
+- energy: Rotational kinetic [energy]
+- angular_momentum: ''
+- moment_of_inertia: ''

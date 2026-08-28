@@ -1,0 +1,16 @@
+name: Variance of a binomial distribution
+id: variance_binomial
+topic: probability
+difficulty: 2
+equation: dimensionless eq dimensionless mul (dimensionless mul (1 sub dimensionless
+  ) )
+symbol_overrides:
+- dimensionless: Var[X]
+- dimensionless: n
+- dimensionless: p
+- dimensionless: p
+name_overrides:
+- dimensionless: '[Variance]'
+- dimensionless: Number of trials
+- dimensionless: Success probability
+- dimensionless: ''

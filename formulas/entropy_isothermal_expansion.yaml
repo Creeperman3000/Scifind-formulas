@@ -1,0 +1,16 @@
+name: Entropy change for isothermal expansion of ideal gas
+id: entropy_isothermal_expansion
+topic: entropy
+difficulty: 3
+equation: entropy eq amount mul gas_constant mul ln (volume frac
+  volume )
+symbol_overrides:
+- entropy: "\\Delta S"
+- amount: ''
+- volume: V_2
+- volume: V_1
+name_overrides:
+- entropy: Change in [entropy]
+- amount: ''
+- volume: Final [volume]
+- volume: Initial [volume]

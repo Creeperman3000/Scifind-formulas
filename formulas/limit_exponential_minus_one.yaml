@@ -1,0 +1,11 @@
+name: Limit of Exponential Difference
+id: limit_exponential_minus_one
+topic: limits
+difficulty: 3
+equation: dimensionless eq 1
+symbol_overrides:
+- ? ''
+  : ''
+name_overrides:
+- ? ''
+  : ''

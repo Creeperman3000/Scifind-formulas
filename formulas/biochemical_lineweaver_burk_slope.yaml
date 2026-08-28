@@ -1,0 +1,13 @@
+name: Lineweaver-Burk plot slope
+id: biochemical_lineweaver_burk_slope
+topic: biochemistry
+difficulty: 4
+equation: time eq concentration frac catalytic_activity
+symbol_overrides:
+- time: K_m/V_{\mathrm{max}}
+- concentration: K_m
+- catalytic_activity: V_{\mathrm{max}}
+name_overrides:
+- time: Slope of Lineweaver-Burk [plot]
+- concentration: Michaelis [constant]
+- catalytic_activity: Maximum [velocity]

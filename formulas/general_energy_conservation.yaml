@@ -1,0 +1,11 @@
+name: General conservation of energy
+id: general_energy_conservation
+topic: conservation_of_energy
+difficulty: 2
+equation: energy eq energy
+symbol_overrides:
+- energy: E_{total,i}
+- energy: E_{total,f}
+name_overrides:
+- energy: Initial total [energy]
+- energy: Final total [energy]

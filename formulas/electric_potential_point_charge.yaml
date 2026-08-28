@@ -1,0 +1,14 @@
+name: Electric potential of a point charge
+id: electric_potential_point_charge
+topic: electric_potential
+difficulty: 2
+equation: electric_potential eq coulomb_constant mul charge frac
+  length
+symbol_overrides:
+- electric_potential: ''
+- charge: ''
+- length: r
+name_overrides:
+- electric_potential: ''
+- charge: ''
+- length: Distance

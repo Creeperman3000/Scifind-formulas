@@ -1,0 +1,13 @@
+name: General efficiency
+id: efficiency_general
+topic: conservation_of_energy
+difficulty: 1
+equation: dimensionless eq energy frac energy
+symbol_overrides:
+- dimensionless: \eta
+- energy: E_{\mathrm{out}}
+- energy: E_{\mathrm{in}}
+name_overrides:
+- dimensionless: '[Efficiency]'
+- energy: Useful output [energy]
+- energy: Total input [energy]

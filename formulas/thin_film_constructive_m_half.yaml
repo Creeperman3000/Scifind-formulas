@@ -1,0 +1,17 @@
+name: Thin film constructive (m+½)
+id: thin_film_constructive_m_half
+topic: interference
+difficulty: 4
+equation: ((2 mul length mul length) eq (((dimensionless) add dimensionless) mul length))
+symbol_overrides:
+- length: n
+- length: t
+- dimensionless: m
+- dimensionless: \tfrac{1}{2}
+- length: \lambda
+name_overrides:
+- length: Refractive index
+- length: Film thickness
+- dimensionless: Order m
+- dimensionless: Half-integer offset
+- length: Wavelength

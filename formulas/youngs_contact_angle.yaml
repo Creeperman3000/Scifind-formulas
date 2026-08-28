@@ -1,0 +1,15 @@
+name: Contact angle from Young's equation
+id: youngs_contact_angle
+topic: surface_tension
+difficulty: 3
+equation: (angle) eq (acos (((surface_tension) sub (surface_tension)) frac (surface_tension)))
+symbol_overrides:
+- angle: \theta
+- surface_tension: \gamma_{SG}
+- surface_tension: \gamma_{SL}
+- surface_tension: \gamma_{LG}
+name_overrides:
+- angle: Contact [angle]
+- surface_tension: Solid-gas [surface tension]
+- surface_tension: Solid-liquid [surface tension]
+- surface_tension: Liquid-gas [surface tension]

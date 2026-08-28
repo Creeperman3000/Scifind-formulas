@@ -1,0 +1,10 @@
+name: Stefan-Boltzmann constant from fundamental constants
+id: stefan_boltzmann_constant_definition
+topic: heat_transfer
+difficulty: 5
+equation: dimensionless eq 2 mul pi pow 5 mul boltzmann_constant pow 4
+  frac (15 mul planck_constant pow 3 mul speed_of_light pow 2 )
+symbol_overrides:
+- dimensionless: "\\sigma"
+name_overrides:
+- dimensionless: Stefan-Boltzmann constant

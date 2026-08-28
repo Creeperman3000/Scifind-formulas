@@ -1,0 +1,13 @@
+name: Period of a mass-spring system
+id: spring_period
+topic: harmonic_motion
+difficulty: 2
+equation: time eq 2 mul pi mul sqrt (mass frac spring_constant )
+symbol_overrides:
+- time: T
+- mass: ''
+- spring_constant: ''
+name_overrides:
+- time: Period
+- mass: ''
+- spring_constant: ''

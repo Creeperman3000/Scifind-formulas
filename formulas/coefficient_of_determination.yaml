@@ -1,0 +1,13 @@
+name: Coefficient of determination
+id: coefficient_of_determination
+topic: statistics
+difficulty: 3
+equation: dimensionless eq 1 sub dimensionless frac dimensionless
+symbol_overrides:
+- dimensionless: R^2
+- dimensionless: SS_{\mathrm{res}}
+- dimensionless: SS_{\mathrm{tot}}
+name_overrides:
+- dimensionless: Coefficient of [determination]
+- dimensionless: Residual sum of squares
+- dimensionless: Total sum of squares

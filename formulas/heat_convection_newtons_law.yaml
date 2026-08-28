@@ -1,0 +1,19 @@
+name: Newton's law of cooling (convection)
+id: heat_convection_newtons_law
+topic: heat_transfer
+difficulty: 2
+equation: energy frac time eq dimensionless mul area mul (temperature sub temperature )
+symbol_overrides:
+- energy: ''
+- time: ''
+- dimensionless: h
+- area: ''
+- temperature: T_s
+- temperature: T_{\mathrm{env}}
+name_overrides:
+- energy: '[Energy] transfer rate'
+- time: ''
+- dimensionless: Convection coefficient
+- area: Surface [area]
+- temperature: Surface [temperature]
+- temperature: Ambient [temperature]

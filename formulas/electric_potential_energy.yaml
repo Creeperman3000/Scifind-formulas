@@ -1,0 +1,13 @@
+name: Electric potential energy of two point charges
+id: electric_potential_energy
+topic: electrostatics
+difficulty: 3
+equation: energy eq coulomb_constant mul charge pow 2 frac length
+symbol_overrides:
+- energy: U_e
+- charge: q_1
+- length: r
+name_overrides:
+- energy: Electric potential [energy]
+- charge: ''
+- length: Separation

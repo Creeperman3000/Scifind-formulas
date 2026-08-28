@@ -1,0 +1,15 @@
+name: Inductance definition
+id: inductance_formula
+topic: electromagnetic_induction
+difficulty: 2
+equation: inductance eq amount mul magnetic_flux frac current
+symbol_overrides:
+- inductance: ''
+- amount: N
+- magnetic_flux: "\\Phi"
+- current: ''
+name_overrides:
+- inductance: ''
+- amount: Number of turns
+- magnetic_flux: ''
+- current: ''

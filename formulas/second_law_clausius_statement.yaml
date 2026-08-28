@@ -1,0 +1,9 @@
+name: Clausius statement of the second law
+id: second_law_clausius_statement
+topic: second_law
+difficulty: 1
+equation: (energy) gt (0)
+name_overrides:
+- energy: Work required
+symbol_overrides:
+- energy: W

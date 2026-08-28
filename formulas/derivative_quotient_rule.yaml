@@ -1,0 +1,19 @@
+name: Quotient rule
+id: derivative_quotient_rule
+topic: derivatives
+difficulty: 3
+equation: (dimensionless) eq ((((dimensionless mul (dimensionless)) sub ((dimensionless) mul (dimensionless))) div ((dimensionless) pow 2)))
+symbol_overrides:
+- dimensionless: d(f/g)/dx
+- dimensionless: g
+- dimensionless: df/dx
+- dimensionless: f
+- dimensionless: dg/dx
+- dimensionless: g
+name_overrides:
+- dimensionless: Derivative of quotient
+- dimensionless: g
+- dimensionless: Derivative of f
+- dimensionless: f
+- dimensionless: Derivative of g
+- dimensionless: g

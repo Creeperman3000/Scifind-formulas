@@ -1,0 +1,13 @@
+name: Altitude of a triangle
+id: triangle_altitude_formula
+topic: triangles
+difficulty: 1
+equation: length eq 2 mul area frac length
+symbol_overrides:
+- length: h
+- area: ''
+- length: b
+name_overrides:
+- length: Altitude
+- area: ''
+- length: Base

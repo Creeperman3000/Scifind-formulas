@@ -1,0 +1,13 @@
+name: Power of a point theorem
+id: power_of_a_point_circle
+topic: circles
+difficulty: 3
+equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
+symbol_overrides:
+- dimensionless: PT^2
+- dimensionless: PA
+- dimensionless: PB
+name_overrides:
+- dimensionless: Power of point T
+- dimensionless: Distance PA
+- dimensionless: Distance PB

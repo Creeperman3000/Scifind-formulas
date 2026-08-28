@@ -1,0 +1,12 @@
+name: Rydberg unit of energy
+id: atomic_rydberg_energy_unit
+topic: atomic_physics
+difficulty: 3
+equation: energy eq mass mul elementary_charge pow 4 frac (8 mul
+  vacuum_permittivity pow 2 mul planck_constant pow 2 )
+symbol_overrides:
+- energy: E_R
+- mass: m_e
+name_overrides:
+- energy: Rydberg [energy]
+- mass: Electron [mass]

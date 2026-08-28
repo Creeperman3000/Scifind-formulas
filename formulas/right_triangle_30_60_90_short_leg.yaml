@@ -1,0 +1,11 @@
+name: 30-60-90 triangle short leg relation
+id: right_triangle_30_60_90_short_leg
+topic: right_triangles
+difficulty: 1
+equation: length eq length frac 2
+symbol_overrides:
+- length: s
+- length: h
+name_overrides:
+- length: Short leg (opposite 30°)
+- length: Hypotenuse

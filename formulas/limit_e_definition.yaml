@@ -1,0 +1,13 @@
+name: Limit definition of e
+id: limit_e_definition
+topic: limits
+difficulty: 2
+equation: euler_e eq (1 add 1 frac dimensionless ) pow dimensionless
+symbol_overrides:
+- dimensionless: n
+- dimensionless: ''
+- dimensionless: n
+name_overrides:
+- dimensionless: Index n (→∞)
+- dimensionless: ''
+- dimensionless: Index n (→∞)

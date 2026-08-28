@@ -1,0 +1,13 @@
+name: Ionization Energy
+id: ionization_energy
+topic: periodic_table
+difficulty: 2
+equation: energy eq energy sub energy
+symbol_overrides:
+- energy: \Delta E_{\text{ea}}
+- energy: E_{\mathrm{neutral}}
+- energy: E_{\mathrm{anion}}
+name_overrides:
+- energy: Electron [affinity]
+- energy: '[Energy] of neutral atom'
+- energy: '[Energy] of negative ion'

@@ -1,0 +1,18 @@
+name: t-test statistic
+id: t_test_statistic
+topic: statistics
+difficulty: 3
+equation: dimensionless eq (dimensionless sub dimensionless ) frac
+  (dimensionless frac sqrt dimensionless )
+symbol_overrides:
+- dimensionless: t
+- dimensionless: "\\bar{x}"
+- dimensionless: "\\mu_0"
+- dimensionless: s
+- dimensionless: n
+name_overrides:
+- dimensionless: t-test [statistic]
+- dimensionless: Sample mean
+- dimensionless: Population mean
+- dimensionless: Sample standard deviation
+- dimensionless: Sample size

@@ -1,0 +1,18 @@
+name: Arrhenius activation energy from two temperatures
+id: arrhenius_activation_energy
+topic: chemical_kinetics
+difficulty: 4
+equation: energy eq neg gas_constant mul ln (frequency frac frequency )
+  frac (1 frac temperature sub 1 frac temperature )
+symbol_overrides:
+- energy: E_a
+- frequency: k_2
+- frequency: k_1
+- temperature: T_2
+- temperature: T_1
+name_overrides:
+- energy: Activation [energy]
+- frequency: Rate constant at T_2
+- frequency: Rate constant at T_1
+- temperature: Temperature 2
+- temperature: Temperature 1

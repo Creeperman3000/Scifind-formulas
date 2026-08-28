@@ -1,0 +1,9 @@
+name: Derivative of a constant
+id: derivative_constant_rule
+topic: derivatives
+difficulty: 1
+equation: rmd dimensionless eq 0
+symbol_overrides:
+- dimensionless: c
+name_overrides:
+- dimensionless: Constant c

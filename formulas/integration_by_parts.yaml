@@ -1,0 +1,18 @@
+name: Integration by parts
+id: integration_by_parts
+topic: integrals
+difficulty: 3
+equation: dimensionless eq dimensionless mul dimensionless sub dimensionless
+  mul dimensionless
+symbol_overrides:
+- dimensionless: "\\int u\\,\\mathrm{d}v"
+- dimensionless: u
+- dimensionless: v
+- dimensionless: u
+- dimensionless: v
+name_overrides:
+- dimensionless: '[Integration by parts]'
+- dimensionless: '[u]'
+- dimensionless: '[v]'
+- dimensionless: '[u]'
+- dimensionless: '[v]'

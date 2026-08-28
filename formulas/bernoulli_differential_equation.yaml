@@ -1,0 +1,20 @@
+name: Bernoulli differential equation
+id: bernoulli_differential_equation
+topic: differential_equations
+difficulty: 5
+equation: dimensionless add dimensionless mul dimensionless eq dimensionless
+  mul dimensionless pow dimensionless
+symbol_overrides:
+- dimensionless: y'
+- dimensionless: P(x)
+- dimensionless: y
+- dimensionless: Q(x)
+- dimensionless: y
+- dimensionless: n
+name_overrides:
+- dimensionless: Derivative of y
+- dimensionless: '[Function]'
+- dimensionless: y
+- dimensionless: '[Function]'
+- dimensionless: y
+- dimensionless: '[Exponent] n'

@@ -1,0 +1,18 @@
+name: Slope of a line
+id: slope_line
+topic: coordinate_geometry
+difficulty: 1
+equation: reynolds_number eq (length sub length ) frac (length sub
+  length )
+symbol_overrides:
+- reynolds_number: m
+- length: y_2
+- length: y_1
+- length: x_2
+- length: x_1
+name_overrides:
+- reynolds_number: Slope
+- length: y-coordinate 2
+- length: y-coordinate 1
+- length: x-coordinate 2
+- length: x-coordinate 1

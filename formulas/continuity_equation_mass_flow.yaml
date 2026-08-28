@@ -1,0 +1,19 @@
+name: Mass flow rate continuity
+id: continuity_equation_mass_flow
+topic: continuity_equation
+difficulty: 2
+equation: density mul velocity mul area eq density mul velocity mul area
+symbol_overrides:
+- density: "\\rho_1"
+- velocity: v_1
+- area: A_1
+- density: "\\rho_2"
+- velocity: v_2
+- area: A_2
+name_overrides:
+- density: Density at point 1
+- velocity: Velocity at point 1
+- area: Area at point 1
+- density: Density at point 2
+- velocity: Velocity at point 2
+- area: Area at point 2

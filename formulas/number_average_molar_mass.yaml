@@ -1,0 +1,22 @@
+name: Number average molar mass
+id: number_average_molar_mass
+topic: organic_chemistry
+difficulty: 3
+equation: molar_mass eq (dimensionless mul molar_mass add
+  dimensionless mul molar_mass ) frac (dimensionless add dimensionless )
+symbol_overrides:
+- molar_mass: "\\bar{M}_{\\text{n}}"
+- dimensionless: "N_1"
+- molar_mass: "M_1"
+- dimensionless: "N_2"
+- molar_mass: "M_2"
+- dimensionless: "N_1"
+- dimensionless: "N_2"
+name_overrides:
+- molar_mass: Number average [molar mass]
+- dimensionless: Number of chains 1
+- molar_mass: Molar mass 1
+- dimensionless: Number of chains 2
+- molar_mass: Molar mass 2
+- dimensionless: ''
+- dimensionless: ''

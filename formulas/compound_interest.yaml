@@ -1,0 +1,15 @@
+name: Compound interest future value
+id: compound_interest
+topic: arithmetic
+difficulty: 2
+equation: dimensionless eq dimensionless mul (1 add dimensionless ) pow dimensionless
+symbol_overrides:
+- dimensionless: A
+- dimensionless: P
+- dimensionless: r
+- dimensionless: n
+name_overrides:
+- dimensionless: Future value
+- dimensionless: Principal
+- dimensionless: Interest rate
+- dimensionless: Number of periods

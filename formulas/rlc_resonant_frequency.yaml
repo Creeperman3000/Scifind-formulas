@@ -1,0 +1,14 @@
+name: RLC circuit resonant frequency
+id: rlc_resonant_frequency
+topic: circuits
+difficulty: 3
+equation: frequency eq 1 frac (2 mul pi mul sqrt (inductance mul
+  capacitance ) )
+symbol_overrides:
+- frequency: f_0
+- inductance: L
+- capacitance: C
+name_overrides:
+- frequency: Resonant [frequency]
+- inductance: '[Inductance]'
+- capacitance: '[Capacitance]'

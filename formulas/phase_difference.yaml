@@ -1,0 +1,13 @@
+name: Phase difference from path difference
+id: phase_difference
+topic: wave_interference
+difficulty: 2
+equation: angle eq length frac length mul (2 mul pi )
+symbol_overrides:
+- angle: "\\Delta\\phi"
+- length: "\\Delta x"
+- length: "\\lambda"
+name_overrides:
+- angle: Phase difference
+- length: Path difference
+- length: Wavelength

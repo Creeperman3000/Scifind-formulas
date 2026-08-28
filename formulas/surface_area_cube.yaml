@@ -1,0 +1,11 @@
+name: Surface area of a cube
+id: surface_area_cube
+topic: plane_geometry
+difficulty: 1
+equation: area eq 6 mul length pow 2
+symbol_overrides:
+- area: A
+- length: s
+name_overrides:
+- area: '[Area]'
+- length: Side length

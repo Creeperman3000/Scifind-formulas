@@ -1,0 +1,13 @@
+name: Mass number
+id: mass_number_formula
+topic: atomic_structure
+difficulty: 1
+equation: dimensionless eq dimensionless add dimensionless
+symbol_overrides:
+- dimensionless: A
+- dimensionless: Z
+- dimensionless: N
+name_overrides:
+- dimensionless: Mass number
+- dimensionless: Atomic number
+- dimensionless: Neutron number

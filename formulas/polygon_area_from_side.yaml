@@ -1,0 +1,18 @@
+name: Polygon area from side length
+id: polygon_area_from_side
+topic: polygons
+difficulty: 3
+equation: area eq length pow 2 mul (dimensionless frac dimensionless )
+  mul dimensionless
+symbol_overrides:
+- area: A
+- length: n
+- dimensionless: '4'
+- dimensionless: "\\tan(\\pi/n)"
+- dimensionless: '0.25'
+name_overrides:
+- area: Polygon area
+- length: Number of sides
+- dimensionless: '4'
+- dimensionless: tan(π/n)
+- dimensionless: 1/4

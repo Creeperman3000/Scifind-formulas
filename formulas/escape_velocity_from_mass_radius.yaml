@@ -1,0 +1,13 @@
+name: Escape velocity from mass and radius
+id: escape_velocity_from_mass_radius
+topic: escape_velocity
+difficulty: 2
+equation: velocity eq sqrt (2 mul gravitational_constant mul mass frac length )
+symbol_overrides:
+- velocity: v_{\mathrm{esc}}
+- mass: M
+- length: R
+name_overrides:
+- velocity: Escape [velocity]
+- mass: Planet [mass]
+- length: Planet [radius]

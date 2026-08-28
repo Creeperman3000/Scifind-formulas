@@ -1,0 +1,14 @@
+name: Bohr orbital radius
+id: bohr_orbital_radius_n
+topic: atomic_physics
+difficulty: 3
+equation: length eq bohr_radius mul dimensionless pow 2 frac
+  dimensionless
+symbol_overrides:
+- length: r_n
+- dimensionless: n
+- dimensionless: Z
+name_overrides:
+- length: Orbital [radius]
+- dimensionless: Principal quantum number n
+- dimensionless: Atomic number

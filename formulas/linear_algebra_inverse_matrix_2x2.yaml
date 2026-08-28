@@ -1,0 +1,19 @@
+name: Inverse of a 2×2 matrix
+id: linear_algebra_inverse_matrix_2x2
+topic: linear_algebra
+difficulty: 3
+equation: (dimensionless) eq ((dimensionless) mul ((dimensionless) frac (((dimensionless) mul (dimensionless)) sub ((dimensionless) mul (dimensionless)))))
+symbol_overrides:
+- dimensionless: A^{-1}
+- dimensionless: \mathrm{adj}(A)
+- dimensionless: a
+- dimensionless: d
+- dimensionless: b
+- dimensionless: c
+name_overrides:
+- dimensionless: Inverse matrix
+- dimensionless: Adjugate
+- dimensionless: a
+- dimensionless: d
+- dimensionless: b
+- dimensionless: c

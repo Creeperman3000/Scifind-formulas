@@ -1,0 +1,13 @@
+name: Exponential growth differential equation
+id: exponential_growth_diff_eq
+topic: differential_equations
+difficulty: 2
+equation: dimensionless eq dimensionless mul frequency
+symbol_overrides:
+- dimensionless: dN/dt
+- dimensionless: N
+- frequency: r
+name_overrides:
+- dimensionless: Rate of change
+- dimensionless: '[Population]'
+- frequency: Growth rate

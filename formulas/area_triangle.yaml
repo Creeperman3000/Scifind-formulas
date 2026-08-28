@@ -1,0 +1,13 @@
+name: Area of a triangle
+id: area_triangle
+topic: triangles
+difficulty: 1
+equation: area eq length mul length frac 2
+symbol_overrides:
+- area: ''
+- length: b
+- length: h
+name_overrides:
+- area: ''
+- length: Base
+- length: Height

@@ -1,0 +1,13 @@
+name: Area of a spherical zone
+id: spherical_zone_area
+topic: plane_geometry
+difficulty: 3
+equation: area eq 2 mul pi mul length mul length
+symbol_overrides:
+- area: ''
+- length: R
+- length: h
+name_overrides:
+- area: Area of spherical [zone]
+- length: Sphere [radius]
+- length: Zone [height]

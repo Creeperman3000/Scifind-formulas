@@ -1,0 +1,13 @@
+name: First law of thermodynamics
+id: first_law_of_thermodynamics
+topic: first_law
+difficulty: 2
+equation: energy eq energy sub energy
+symbol_overrides:
+- energy: "\\Delta U"
+- energy: Q
+- energy: W_{by}
+name_overrides:
+- energy: Change in internal [energy]
+- energy: Heat added
+- energy: Work done by system

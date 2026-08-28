@@ -1,0 +1,13 @@
+name: Mass concentration
+id: mass_concentration_formula
+topic: solutions
+difficulty: 1
+equation: mass_concentration eq mass frac volume
+symbol_overrides:
+- mass_concentration: ''
+- mass: ''
+- volume: ''
+name_overrides:
+- mass_concentration: ''
+- mass: ''
+- volume: ''

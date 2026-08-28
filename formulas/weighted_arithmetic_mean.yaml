@@ -1,0 +1,16 @@
+name: Weighted arithmetic mean
+id: weighted_arithmetic_mean
+topic: statistics
+difficulty: 2
+equation: dimensionless eq sum (dimensionless mul dimensionless ) frac
+  sum dimensionless
+symbol_overrides:
+- dimensionless: \bar{x}_w
+- dimensionless: w_i
+- dimensionless: x_i
+- dimensionless: w_i
+name_overrides:
+- dimensionless: Weighted mean
+- dimensionless: Weight i
+- dimensionless: Value i
+- dimensionless: Weight i

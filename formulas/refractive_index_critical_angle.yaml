@@ -1,0 +1,13 @@
+name: Refractive index from critical angle
+id: refractive_index_critical_angle
+topic: refraction
+difficulty: 3
+equation: refractive_index eq refractive_index frac sin angle
+symbol_overrides:
+- refractive_index: n_1
+- refractive_index: n_2
+- angle: "\\theta_{\\text{c}}"
+name_overrides:
+- refractive_index: Incident medium [refractive index]
+- refractive_index: Refracting medium [refractive index]
+- angle: Critical angle

@@ -1,0 +1,11 @@
+name: Maximum number of stereoisomers
+id: maximum_stereoisomers
+topic: organic_chemistry
+difficulty: 2
+equation: dimensionless eq 2 pow dimensionless
+symbol_overrides:
+- dimensionless: N_{\mathrm{max}}
+- dimensionless: n
+name_overrides:
+- dimensionless: Maximum number of stereoisomers
+- dimensionless: Number of chiral centers

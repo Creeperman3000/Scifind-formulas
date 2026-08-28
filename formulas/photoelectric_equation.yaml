@@ -1,0 +1,13 @@
+name: Photoelectric equation
+id: photoelectric_equation
+topic: quantum_mechanics
+difficulty: 3
+equation: energy eq planck_constant mul frequency sub energy
+symbol_overrides:
+- energy: E_{k,\max}
+- frequency: f
+- energy: "\\phi"
+name_overrides:
+- energy: Maximum kinetic [energy]
+- frequency: ''
+- energy: Work function

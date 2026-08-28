@@ -1,0 +1,15 @@
+name: Reaction rate from reactant consumption
+id: reaction_rate_consumption
+topic: chemical_reactions
+difficulty: 2
+equation: rmd concentration frac rmd time eq neg (dimensionless mul catalytic_activity )
+symbol_overrides:
+- concentration: '[A]'
+- time: t
+- dimensionless: "\u005cnu_{\u005ctext{A}}"
+- catalytic_activity: r
+name_overrides:
+- concentration: '[Concentration] of A'
+- time: Time
+- dimensionless: Stoichiometric coefficient
+- catalytic_activity: Reaction [rate]

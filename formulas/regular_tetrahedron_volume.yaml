@@ -1,0 +1,11 @@
+name: Volume of a regular tetrahedron
+id: regular_tetrahedron_volume
+topic: plane_geometry
+difficulty: 3
+equation: volume eq length pow 3 frac (6 mul sqrt 2 )
+symbol_overrides:
+- volume: V
+- length: a
+name_overrides:
+- volume: '[Volume]'
+- length: Edge [length]

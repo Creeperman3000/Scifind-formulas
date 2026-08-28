@@ -1,0 +1,13 @@
+name: Impulse from force-time graph area
+id: impulse_from_force_time_graph
+topic: impulse
+difficulty: 2
+equation: (momentum) eq ((force) mul (Delta time))
+symbol_overrides:
+- momentum: J
+- force: F
+- time: \Delta t
+name_overrides:
+- momentum: Impulse
+- force: '[Force]'
+- time: '[Time] interval'

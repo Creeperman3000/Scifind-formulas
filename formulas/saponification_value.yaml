@@ -1,0 +1,13 @@
+name: Saponification value
+id: saponification_value
+topic: organic_chemistry
+difficulty: 3
+equation: dimensionless eq 56.1 mul dimensionless mul 1000 frac mass
+symbol_overrides:
+- dimensionless: SV
+- dimensionless: n_{KOH}
+- mass: m_{fat}
+name_overrides:
+- dimensionless: Saponification [value]
+- dimensionless: Moles of KOH
+- mass: Mass of fat

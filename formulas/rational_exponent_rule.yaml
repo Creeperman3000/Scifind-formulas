@@ -1,0 +1,16 @@
+name: Rational exponent rule
+id: rational_exponent_rule
+topic: exponents
+difficulty: 2
+equation: dimensionless eq dimensionless pow (dimensionless frac
+  dimensionless )
+symbol_overrides:
+- dimensionless: "a^{m/n}"
+- dimensionless: a
+- dimensionless: m
+- dimensionless: n
+name_overrides:
+- dimensionless: Rational exponent result
+- dimensionless: Base
+- dimensionless: Numerator
+- dimensionless: Denominator

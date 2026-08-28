@@ -1,0 +1,13 @@
+name: Enzyme assay specific activity
+id: enzyme_specific_activity_formula
+topic: biochemistry
+difficulty: 3
+equation: catalytic_activity eq catalytic_activity frac mass
+symbol_overrides:
+- catalytic_activity: SA
+- catalytic_activity: V_{\mathrm{max}}
+- mass: m_{\mathrm{enzyme}}
+name_overrides:
+- catalytic_activity: Specific [activity]
+- catalytic_activity: Maximum [velocity]
+- mass: Enzyme [mass]

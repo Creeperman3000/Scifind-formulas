@@ -1,0 +1,11 @@
+name: Area of a circle
+id: area_circle
+topic: circles
+difficulty: 1
+equation: area eq pi mul length pow 2
+symbol_overrides:
+- area: ''
+- length: r
+name_overrides:
+- area: ''
+- length: Radius

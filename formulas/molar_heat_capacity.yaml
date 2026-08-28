@@ -1,0 +1,15 @@
+name: Molar heat capacity definition
+id: molar_heat_capacity
+topic: thermochemistry
+difficulty: 1
+equation: (molar_energy) eq ((energy) frac ((amount) mul (temperature)))
+symbol_overrides:
+- molar_energy: C_m
+- energy: Q
+- amount: n
+- temperature: \Delta T
+name_overrides:
+- molar_energy: Molar heat capacity
+- energy: Heat transferred
+- amount: Amount of substance
+- temperature: Temperature change

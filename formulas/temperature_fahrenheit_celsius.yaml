@@ -1,0 +1,11 @@
+name: Fahrenheit to Celsius conversion
+id: temperature_fahrenheit_celsius
+topic: temperature
+difficulty: 1
+equation: temperature eq (temperature sub 32 ) mul (5 frac 9 )
+symbol_overrides:
+- temperature: "^{\\circ}\\mathrm{C}"
+- temperature: "^{\\circ}\\mathrm{F}"
+name_overrides:
+- temperature: Temperature in [Celsius]
+- temperature: Temperature in [Fahrenheit]

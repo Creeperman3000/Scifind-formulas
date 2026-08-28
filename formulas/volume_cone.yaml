@@ -1,0 +1,13 @@
+name: Volume of a cone
+id: volume_cone
+topic: plane_geometry
+difficulty: 1
+equation: volume eq pi mul length pow 2 mul length frac 3
+symbol_overrides:
+- volume: ''
+- length: r
+- length: h
+name_overrides:
+- volume: ''
+- length: Radius
+- length: Height

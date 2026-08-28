@@ -1,0 +1,13 @@
+name: RL circuit time constant
+id: rl_time_constant
+topic: circuits
+difficulty: 2
+equation: time eq inductance frac resistance
+symbol_overrides:
+- time: "\\tau"
+- inductance: ''
+- resistance: ''
+name_overrides:
+- time: Time constant
+- inductance: ''
+- resistance: ''

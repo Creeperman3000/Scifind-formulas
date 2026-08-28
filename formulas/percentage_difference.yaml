@@ -1,0 +1,18 @@
+name: Percentage difference
+id: percentage_difference
+topic: arithmetic
+difficulty: 1
+equation: dimensionless eq 100 mul (abs (dimensionless sub
+  dimensionless ) frac ((dimensionless add dimensionless ) frac 2) )
+symbol_overrides:
+- dimensionless: "\\%\\,\\text{diff}"
+- dimensionless: a
+- dimensionless: b
+- dimensionless: a
+- dimensionless: b
+name_overrides:
+- dimensionless: Percentage difference
+- dimensionless: Value a
+- dimensionless: Value b
+- dimensionless: ''
+- dimensionless: ''

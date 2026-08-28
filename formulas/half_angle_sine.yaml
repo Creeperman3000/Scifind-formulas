@@ -1,0 +1,11 @@
+name: Half-angle sine identity
+id: half_angle_sine
+topic: trigonometric_identities
+difficulty: 2
+equation: sin (angle frac 2 ) eq sqrt ((1 sub cos angle ) frac 2 )
+symbol_overrides:
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- angle: Half-angle (θ/2)
+- angle: Angle θ

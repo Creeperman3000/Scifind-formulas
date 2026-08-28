@@ -1,0 +1,13 @@
+name: Absorption coefficient from absorbance
+id: absorption_coefficient_optical
+topic: interference
+difficulty: 2
+equation: absorption_coefficient eq absorbance frac length
+symbol_overrides:
+- absorption_coefficient: "\\alpha"
+- absorbance: A
+- length: L
+name_overrides:
+- absorption_coefficient: Absorption [coefficient]
+- absorbance: Absorbance
+- length: Path [length]

@@ -1,0 +1,16 @@
+name: Gravitational time dilation
+id: gravitational_time_dilation
+topic: relativity
+difficulty: 6
+equation: time eq time mul sqrt (1 sub 2 mul (gravitational_constant
+  mul mass ) frac (length mul speed_of_light pow 2 ) )
+symbol_overrides:
+- time: t'
+- time: t
+- mass: M
+- length: r
+name_overrides:
+- time: Dilated [time]
+- time: Proper [time]
+- mass: Mass of gravitating body
+- length: Distance from center

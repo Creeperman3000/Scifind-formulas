@@ -1,0 +1,13 @@
+name: 'Second law: maximum possible efficiency'
+id: second_law_carnot_limit
+topic: second_law
+difficulty: 2
+equation: (dimensionless) leq ((1) sub ((dimensionless) frac (dimensionless)))
+symbol_overrides:
+- dimensionless: \eta
+- dimensionless: T_c
+- dimensionless: T_h
+name_overrides:
+- dimensionless: '[Heat_engine_efficiency]'
+- dimensionless: Cold reservoir [temperature]
+- dimensionless: Hot reservoir [temperature]

@@ -1,0 +1,13 @@
+name: Mirror image magnification
+id: mirror_magnification_formula
+topic: reflection
+difficulty: 2
+equation: dimensionless eq length frac length
+symbol_overrides:
+- dimensionless: m
+- length: q
+- length: p
+name_overrides:
+- dimensionless: Magnification
+- length: Image [distance]
+- length: Object [distance]

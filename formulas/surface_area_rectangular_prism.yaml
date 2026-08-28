@@ -1,0 +1,22 @@
+name: Surface area of a rectangular prism
+id: surface_area_rectangular_prism
+topic: plane_geometry
+difficulty: 1
+equation: area eq 2 mul (length mul length add length mul length add length mul length
+  )
+symbol_overrides:
+- area: A
+- length: w
+- length: h
+- length: l
+- length: h
+- length: l
+- length: w
+name_overrides:
+- area: '[Surface area]'
+- length: Width
+- length: Height
+- length: Length
+- length: Height
+- length: Length
+- length: Width

@@ -1,0 +1,13 @@
+name: Wave speed from tension and linear density
+id: mechanical_wave_speed_tension
+topic: mechanical_waves
+difficulty: 2
+equation: velocity eq sqrt (force frac surface_density )
+symbol_overrides:
+- velocity: ''
+- force: T
+- surface_density: "\\mu"
+name_overrides:
+- velocity: Wave [velocity]
+- force: Tension
+- surface_density: Linear [density]

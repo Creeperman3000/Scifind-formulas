@@ -1,0 +1,11 @@
+name: Atomic number from composition
+id: periodic_atomic_number_composition
+topic: periodic_table
+difficulty: 1
+equation: (dimensionless) eq (dimensionless)
+symbol_overrides:
+- dimensionless: Z
+- dimensionless: p
+name_overrides:
+- dimensionless: Atomic [number]
+- dimensionless: Number of protons

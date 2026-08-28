@@ -1,0 +1,23 @@
+name: Born-Landé lattice energy equation
+id: lattice_energy_born_lande
+topic: inorganic_chemistry
+difficulty: 5
+equation: (energy) eq (neg ((((avogadro_number mul dimensionless mul charge mul charge mul (elementary_charge pow 2) mul coulomb_constant) frac length) mul (dimensionless sub (dimensionless frac dimensionless)))))
+symbol_overrides:
+- energy: U
+- dimensionless: M
+- charge: z_+
+- charge: z_-
+- length: r_0
+- dimensionless: '1'
+- dimensionless: '1'
+- dimensionless: n
+name_overrides:
+- energy: Lattice energy
+- dimensionless: Madelung constant
+- charge: Cation charge
+- charge: Anion charge
+- length: Nearest-neighbor distance
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: Born exponent

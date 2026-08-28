@@ -1,0 +1,13 @@
+name: Entropy change for reversible heat transfer
+id: entropy_change
+topic: entropy
+difficulty: 2
+equation: entropy eq energy frac temperature
+symbol_overrides:
+- entropy: \Delta S
+- energy: q_{rev}
+- temperature: T
+name_overrides:
+- entropy: Change in [entropy]
+- energy: Reversible heat
+- temperature: Temperature

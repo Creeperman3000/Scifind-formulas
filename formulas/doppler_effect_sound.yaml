@@ -1,0 +1,20 @@
+name: Doppler effect for sound
+id: doppler_effect_sound
+topic: mechanical_waves
+difficulty: 3
+equation: frequency eq frequency mul ((velocity add velocity ) frac
+  (velocity sub velocity ) )
+symbol_overrides:
+- frequency: f'
+- frequency: f
+- velocity: v
+- velocity: v_o
+- velocity: v
+- velocity: v_s
+name_overrides:
+- frequency: Observed [frequency]
+- frequency: Source [frequency]
+- velocity: Wave [speed]
+- velocity: Observer [speed]
+- velocity: Wave [speed]
+- velocity: Source [speed]

@@ -1,0 +1,13 @@
+name: Law of total probability
+id: law_of_total_probability
+topic: probability
+difficulty: 2
+equation: dimensionless eq sum dimensionless mul dimensionless
+symbol_overrides:
+- dimensionless: P(B)
+- dimensionless: P(B|A_i)
+- dimensionless: P(A_i)
+name_overrides:
+- dimensionless: Total probability of event B
+- dimensionless: Conditional probability given A_i
+- dimensionless: Probability of A_i

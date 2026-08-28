@@ -1,0 +1,14 @@
+name: Derivative of Log Base a
+id: derivative_log_base_a
+topic: derivatives
+difficulty: 3
+equation: dimensionless eq 1 frac (dimensionless mul ln dimensionless
+  )
+symbol_overrides:
+- dimensionless: d/dx(log_a x)
+- dimensionless: x
+- dimensionless: a
+name_overrides:
+- dimensionless: Derivative of log base a
+- dimensionless: '[Variable]'
+- dimensionless: '[Base]'

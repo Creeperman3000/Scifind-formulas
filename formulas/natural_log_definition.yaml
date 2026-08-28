@@ -1,0 +1,11 @@
+name: Natural logarithm definition
+id: natural_log_definition
+topic: logarithms
+difficulty: 2
+equation: dimensionless eq exp dimensionless
+symbol_overrides:
+- dimensionless: x
+- dimensionless: y
+name_overrides:
+- dimensionless: e raised to y
+- dimensionless: '[Exponent] y'

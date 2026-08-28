@@ -1,0 +1,15 @@
+name: One-dimensional wave equation
+id: wave_equation_1d
+topic: differential_equations
+difficulty: 4
+equation: (dimensionless) eq (((dimensionless) pow 2) mul (rmd ((dimensionless) pow 2) div (rmd (time) pow 2)))
+symbol_overrides:
+- dimensionless: \partial^2 y
+- dimensionless: y
+- time: t
+- length: x
+name_overrides:
+- dimensionless: Second partial derivative
+- dimensionless: Wave displacement
+- time: '[time]'
+- length: '[length]'

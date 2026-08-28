@@ -1,0 +1,11 @@
+name: Euler-Lagrange equation
+id: euler_lagrange_equation
+topic: differential_equations
+difficulty: 6
+equation: dimensionless eq dimensionless
+symbol_overrides:
+- dimensionless: "\\frac{\\mathrm{d}}{\\mathrm{d}t}\\left(\\frac{\\partial L}{\\partial \\dot{q}}\\right)"
+- dimensionless: "\\frac{\\partial L}{\\partial q}"
+name_overrides:
+- dimensionless: Time derivative of ∂L/∂q̇
+- dimensionless: Partial derivative of L with respect to q

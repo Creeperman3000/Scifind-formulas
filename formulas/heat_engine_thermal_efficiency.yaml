@@ -1,0 +1,15 @@
+name: Thermal efficiency of a heat engine
+id: heat_engine_thermal_efficiency
+topic: heat_engines
+difficulty: 2
+equation: dimensionless eq (energy sub energy ) frac energy
+symbol_overrides:
+- dimensionless: "\\eta"
+- energy: Q_h
+- energy: Q_c
+- energy: Q_h
+name_overrides:
+- dimensionless: Thermal [efficiency]
+- energy: Heat input
+- energy: Heat rejected
+- energy: Heat input

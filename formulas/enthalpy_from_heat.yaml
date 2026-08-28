@@ -1,0 +1,11 @@
+name: Enthalpy change from heat at constant pressure
+id: enthalpy_from_heat
+topic: thermochemistry
+difficulty: 2
+equation: energy eq energy
+symbol_overrides:
+- energy: \Delta H
+- energy: q_p
+name_overrides:
+- energy: Molar enthalpy change
+- energy: Heat at constant pressure

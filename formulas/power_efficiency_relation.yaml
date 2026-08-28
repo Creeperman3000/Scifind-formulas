@@ -1,0 +1,13 @@
+name: Power efficiency
+id: power_efficiency_relation
+topic: power
+difficulty: 2
+equation: dimensionless eq power frac power
+symbol_overrides:
+- dimensionless: \eta
+- power: P_{\mathrm{out}}
+- power: P_{\mathrm{in}}
+name_overrides:
+- dimensionless: Efficiency
+- power: Output [power]
+- power: Input [power]

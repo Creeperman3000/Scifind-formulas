@@ -1,0 +1,13 @@
+name: Tangent identity
+id: tangent_identity
+topic: trigonometric_identities
+difficulty: 1
+equation: dimensionless eq sin angle frac cos angle
+symbol_overrides:
+- dimensionless: "\\tan(\\theta)"
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- dimensionless: ''
+- angle: Angle
+- angle: ''

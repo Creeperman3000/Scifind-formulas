@@ -1,0 +1,13 @@
+name: Time dilation
+id: time_dilation
+topic: relativity
+difficulty: 3
+equation: time eq lorentz_factor mul time
+symbol_overrides:
+- time: "\\Delta t"
+- lorentz_factor: "\\gamma"
+- time: "\\Delta t_0"
+name_overrides:
+- time: Dilated [time]
+- lorentz_factor: '[Lorentz factor]'
+- time: Proper [time]

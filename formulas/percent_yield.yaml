@@ -1,0 +1,13 @@
+name: Percent yield
+id: percent_yield
+topic: percent_yield
+difficulty: 1
+equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+symbol_overrides:
+- dimensionless: "\\%"
+- dimensionless: actual
+- dimensionless: theoretical
+name_overrides:
+- dimensionless: Percent yield
+- dimensionless: Actual yield
+- dimensionless: Theoretical yield

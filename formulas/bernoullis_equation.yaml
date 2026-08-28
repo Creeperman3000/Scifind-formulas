@@ -1,0 +1,28 @@
+name: Bernoulli's equation
+id: bernoullis_equation
+topic: bernoulli_equation
+difficulty: 4
+equation: pressure add density mul velocity pow 2 frac 2 add density
+  mul (standard_gravity mul length ) eq pressure add density mul velocity pow 2 frac 2 add density mul (standard_gravity mul length )
+symbol_overrides:
+- pressure: P_1
+- density: "\\rho"
+- velocity: v_1
+- density: "\\rho"
+- length: h_1
+- pressure: P_2
+- density: "\\rho"
+- velocity: v_2
+- density: "\\rho"
+- length: h_2
+name_overrides:
+- pressure: Pressure at point 1
+- density: Fluid [density]
+- velocity: Flow [velocity] at point 1
+- density: Fluid [density]
+- length: Height at point 1
+- pressure: Pressure at point 2
+- density: Fluid [density]
+- velocity: Flow [velocity] at point 2
+- density: Fluid [density]
+- length: Height at point 2

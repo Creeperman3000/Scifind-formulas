@@ -1,0 +1,13 @@
+name: Kinetic energy loss in collision
+id: collision_kinetic_energy_loss
+topic: collisions
+difficulty: 2
+equation: energy eq energy sub energy
+symbol_overrides:
+- energy: \Delta\text{KE}
+- energy: KE_{\mathrm{after}}
+- energy: KE_{\mathrm{before}}
+name_overrides:
+- energy: Change in kinetic [energy]
+- energy: Kinetic [energy] after
+- energy: Kinetic [energy] before

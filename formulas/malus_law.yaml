@@ -1,0 +1,13 @@
+name: Malus's law
+id: malus_law
+topic: polarization
+difficulty: 3
+equation: irradiance eq irradiance mul cos angle pow 2
+symbol_overrides:
+- irradiance: I
+- irradiance: I_0
+- angle: ''
+name_overrides:
+- irradiance: Transmitted [irradiance]
+- irradiance: Initial [irradiance]
+- angle: ''

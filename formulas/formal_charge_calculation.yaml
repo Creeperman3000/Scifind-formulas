@@ -1,0 +1,16 @@
+name: Formal charge calculation
+id: formal_charge_calculation
+topic: chemical_bonding
+difficulty: 2
+equation: dimensionless eq dimensionless sub dimensionless sub
+  dimensionless frac 2
+symbol_overrides:
+- dimensionless: FC
+- dimensionless: V
+- dimensionless: N_L
+- dimensionless: B
+name_overrides:
+- dimensionless: Formal charge
+- dimensionless: Valence electrons
+- dimensionless: Lone-pair electrons
+- dimensionless: Bonding electrons

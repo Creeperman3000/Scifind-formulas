@@ -1,0 +1,17 @@
+name: Diesel cycle efficiency
+id: diesel_cycle_efficiency
+topic: heat_engines
+difficulty: 5
+equation: ((dimensionless) eq ((1) sub ((((dimensionless) pow ((dimensionless) sub (1))) sub (1)) frac (((dimensionless) sub (1)) mul (dimensionless)))))
+symbol_overrides:
+- dimensionless: \eta
+- dimensionless: r
+- dimensionless: \gamma
+- dimensionless: r_c
+- dimensionless: \gamma
+name_overrides:
+- dimensionless: Diesel efficiency
+- dimensionless: Compression ratio
+- dimensionless: γ
+- dimensionless: Cutoff ratio
+- dimensionless: γ

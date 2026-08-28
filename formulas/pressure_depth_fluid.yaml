@@ -1,0 +1,13 @@
+name: Pressure at a depth in fluid
+id: pressure_depth_fluid
+topic: pressure
+difficulty: 1
+equation: pressure eq density mul standard_gravity mul length
+symbol_overrides:
+- pressure: ''
+- density: "\\rho"
+- length: h
+name_overrides:
+- pressure: Gauge [pressure] at depth h
+- density: Fluid [density]
+- length: Depth

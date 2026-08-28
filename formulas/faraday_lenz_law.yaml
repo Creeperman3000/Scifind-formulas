@@ -1,0 +1,14 @@
+name: Faraday-Lenz law
+id: faraday_lenz_law
+topic: electromagnetic_induction
+difficulty: 3
+equation: electromagnetic_induction eq neg (rmd magnetic_flux frac rmd
+  time )
+symbol_overrides:
+- electromagnetic_induction: "\\epsilon"
+- magnetic_flux: ''
+- time: ''
+name_overrides:
+- electromagnetic_induction: Induced EMF
+- magnetic_flux: ''
+- time: ''

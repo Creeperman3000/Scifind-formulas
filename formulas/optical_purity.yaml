@@ -1,0 +1,13 @@
+name: Optical purity
+id: optical_purity
+topic: organic_chemistry
+difficulty: 2
+equation: dimensionless eq 100 mul (angle frac angle )
+symbol_overrides:
+- dimensionless: OP
+- angle: "[\\alpha]_{\\text{obs}}"
+- angle: "[\\alpha]_{\\text{pure}}"
+name_overrides:
+- dimensionless: Optical [purity]
+- angle: Observed rotation
+- angle: Pure rotation

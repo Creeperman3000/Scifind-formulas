@@ -1,0 +1,13 @@
+name: Mass-volume percent concentration
+id: mass_volume_percent
+topic: solution_stoichiometry
+difficulty: 1
+equation: dimensionless eq 100 mul (mass frac volume )
+symbol_overrides:
+- dimensionless: \%\,\text{m/v}
+- mass: m_{\mathrm{solute}}
+- volume: V_{\mathrm{solution}}
+name_overrides:
+- dimensionless: Mass-volume percent
+- mass: Mass of solute
+- volume: '[Volume] of solution'

@@ -1,0 +1,13 @@
+name: Reaction rate from appearance of product
+id: reaction_rate_appearance
+topic: chemical_reactions
+difficulty: 2
+equation: catalytic_activity eq concentration frac time
+symbol_overrides:
+- catalytic_activity: r
+- concentration: "\\Delta[\\mathrm{P}]"
+- time: "\\Delta t"
+name_overrides:
+- catalytic_activity: Reaction rate
+- concentration: Change in product [concentration]
+- time: Change in [time]

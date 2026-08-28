@@ -1,0 +1,12 @@
+name: Percent ionic character
+id: percent_ionic_character
+topic: chemical_bonding
+difficulty: 3
+equation: dimensionless eq 100 mul (1 sub exp neg (0.25 mul dimensionless
+  pow 2 ) )
+symbol_overrides:
+- dimensionless: "\\%"
+- dimensionless: "\\Delta\\text{EN}"
+name_overrides:
+- dimensionless: Percent ionic character
+- dimensionless: Electronegativity difference

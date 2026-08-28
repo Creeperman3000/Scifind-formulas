@@ -1,0 +1,13 @@
+name: Exterior angle of a regular polygon
+id: polygon_exterior_angle_regular
+topic: polygons
+difficulty: 1
+equation: angle eq angle frac dimensionless
+symbol_overrides:
+- angle: "\\theta_{\\text{ext}}"
+- angle: '360'
+- dimensionless: n
+name_overrides:
+- angle: Exterior [angle]
+- angle: 360°
+- dimensionless: Number of sides

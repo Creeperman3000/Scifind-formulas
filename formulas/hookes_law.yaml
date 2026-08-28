@@ -1,0 +1,13 @@
+name: Hooke's law
+id: hookes_law
+topic: springs
+difficulty: 1
+equation: force eq spring_constant mul length
+symbol_overrides:
+- force: ''
+- spring_constant: ''
+- length: ''
+name_overrides:
+- force: Spring [force]
+- spring_constant: ''
+- length: Extension

@@ -1,0 +1,15 @@
+name: Vertical velocity of a projectile
+id: projectile_vertical_velocity
+topic: projectile_motion
+difficulty: 2
+equation: velocity eq velocity mul sin angle sub standard_gravity mul time
+symbol_overrides:
+- velocity: v_y
+- velocity: v_0
+- angle: "\\theta"
+- time: ''
+name_overrides:
+- velocity: Vertical [velocity]
+- velocity: Initial [velocity]
+- angle: Launch angle
+- time: ''

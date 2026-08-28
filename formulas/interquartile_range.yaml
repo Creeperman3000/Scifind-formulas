@@ -1,0 +1,13 @@
+name: Interquartile range
+id: interquartile_range
+topic: statistics
+difficulty: 1
+equation: dimensionless eq dimensionless sub dimensionless
+symbol_overrides:
+- dimensionless: IQR
+- dimensionless: "Q_3"
+- dimensionless: "Q_1"
+name_overrides:
+- dimensionless: Interquartile range
+- dimensionless: Third quartile
+- dimensionless: First quartile

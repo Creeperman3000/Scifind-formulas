@@ -1,0 +1,9 @@
+name: Tangent-radius perpendicularity
+id: circle_tangent_radius_perpendicular
+topic: circles
+difficulty: 1
+equation: (angle) eq (pi div 2)
+symbol_overrides:
+- angle: \theta
+name_overrides:
+- angle: Angle between tangent and radius

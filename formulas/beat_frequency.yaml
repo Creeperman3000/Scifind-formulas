@@ -1,0 +1,13 @@
+name: Beat frequency
+id: beat_frequency
+topic: wave_interference
+difficulty: 2
+equation: frequency eq abs (frequency sub frequency )
+symbol_overrides:
+- frequency: f_{\mathrm{beat}}
+- frequency: f_1
+- frequency: f_2
+name_overrides:
+- frequency: Beat [frequency]
+- frequency: '[Frequency] 1'
+- frequency: '[Frequency] 2'

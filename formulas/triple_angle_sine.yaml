@@ -1,0 +1,14 @@
+name: Triple Angle Sine
+id: triple_angle_sine
+topic: trigonometric_identities
+difficulty: 3
+equation: sin (3 mul angle ) eq 3 mul sin angle sub 4 mul sin angle pow
+  3
+symbol_overrides:
+- angle: "\\theta"
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- angle: Triple angle
+- angle: Angle θ
+- angle: Angle θ

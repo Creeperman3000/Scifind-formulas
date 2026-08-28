@@ -1,0 +1,16 @@
+name: Radiative heat transfer (Stefan-Boltzmann)
+id: heat_transfer_radiation_stefan_boltzmann
+topic: heat_transfer
+difficulty: 3
+equation: power eq dimensionless mul stefan_boltzmann_constant mul area mul temperature
+  pow 4
+symbol_overrides:
+- power: ''
+- dimensionless: "\\epsilon"
+- area: ''
+- temperature: ''
+name_overrides:
+- power: Radiative [power]
+- dimensionless: Emissivity
+- area: Surface [area]
+- temperature: ''

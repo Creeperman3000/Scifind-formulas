@@ -1,0 +1,13 @@
+name: Atomic mass defect
+id: atomic_mass_defect
+topic: atomic_structure
+difficulty: 3
+equation: mass eq mass sub mass
+symbol_overrides:
+- mass: \Delta m
+- mass: m_{\mathrm{nucleons}}
+- mass: m_{\mathrm{nucleus}}
+name_overrides:
+- mass: Mass [defect]
+- mass: Sum of nucleon masses
+- mass: Nuclear [mass]

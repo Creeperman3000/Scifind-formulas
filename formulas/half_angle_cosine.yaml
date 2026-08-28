@@ -1,0 +1,11 @@
+name: Half-angle cosine identity
+id: half_angle_cosine
+topic: trigonometric_identities
+difficulty: 2
+equation: cos (angle frac 2 ) eq sqrt ((1 add cos angle ) frac 2 )
+symbol_overrides:
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- angle: Half-angle (θ/2)
+- angle: Angle θ

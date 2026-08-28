@@ -1,0 +1,15 @@
+name: Mass flow rate
+id: mass_flow_rate_formula
+topic: continuity_equation
+difficulty: 1
+equation: mass eq density mul area mul velocity
+symbol_overrides:
+- mass: "\\dot{m}"
+- density: "\\rho"
+- area: A
+- velocity: v
+name_overrides:
+- mass: Mass flow rate
+- density: Fluid [density]
+- area: Cross-sectional [area]
+- velocity: Flow [velocity]

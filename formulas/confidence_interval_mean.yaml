@@ -1,0 +1,16 @@
+name: Confidence interval margin of error
+id: confidence_interval_mean
+topic: statistics
+difficulty: 3
+equation: dimensionless eq dimensionless mul dimensionless frac sqrt
+  dimensionless
+symbol_overrides:
+- dimensionless: E
+- dimensionless: z^*
+- dimensionless: \sigma
+- dimensionless: n
+name_overrides:
+- dimensionless: Margin of error
+- dimensionless: Critical value
+- dimensionless: Standard deviation
+- dimensionless: Sample size

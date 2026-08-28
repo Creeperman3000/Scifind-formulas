@@ -1,0 +1,15 @@
+name: Magnetic flux
+id: magnetic_flux_formula
+topic: magnetism
+difficulty: 2
+equation: magnetic_flux eq magnetic_flux_density mul area mul cos angle
+symbol_overrides:
+- magnetic_flux: "\\Phi_{\\text{B}}"
+- magnetic_flux_density: B
+- area: A
+- angle: "\\theta"
+name_overrides:
+- magnetic_flux: '[Magnetic flux]'
+- magnetic_flux_density: '[Magnetic flux density]'
+- area: '[Area]'
+- angle: Angle between field and normal

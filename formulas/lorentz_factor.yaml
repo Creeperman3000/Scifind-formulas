@@ -1,0 +1,12 @@
+name: Lorentz factor
+id: lorentz_factor
+topic: relativity
+difficulty: 3
+equation: lorentz_factor eq 1 frac sqrt (1 sub velocity pow 2 frac
+  speed_of_light pow 2 )
+symbol_overrides:
+- lorentz_factor: "\\gamma"
+- velocity: v
+name_overrides:
+- lorentz_factor: '[Lorentz factor]'
+- velocity: ''

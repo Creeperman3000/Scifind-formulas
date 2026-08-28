@@ -1,0 +1,15 @@
+name: Ideal gas law
+id: ideal_gas_law
+topic: ideal_gases
+difficulty: 2
+equation: pressure mul volume eq amount mul gas_constant mul temperature
+symbol_overrides:
+- pressure: ''
+- volume: ''
+- amount: ''
+- temperature: ''
+name_overrides:
+- pressure: ''
+- volume: ''
+- amount: ''
+- temperature: ''

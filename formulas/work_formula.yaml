@@ -1,0 +1,13 @@
+name: Work
+id: work_formula
+topic: work
+difficulty: 1
+equation: energy eq force mul length
+name_overrides:
+- energy: '[Energy]'
+- force: ''
+- length: ''
+symbol_overrides:
+- energy: ''
+- force: ''
+- length: ''

@@ -1,0 +1,17 @@
+name: Molar mass of a compound
+id: molar_mass_compound
+topic: molar_mass
+difficulty: 1
+equation: molar_mass eq molar_mass mul dimensionless add molar_mass mul dimensionless
+symbol_overrides:
+- molar_mass: M_A
+- molar_mass: M_B
+- dimensionless: x
+- molar_mass: M_C
+- dimensionless: y
+name_overrides:
+- molar_mass: Compound [molar mass]
+- molar_mass: Atomic [mass] of B
+- dimensionless: Number of B atoms
+- molar_mass: Atomic [mass] of C
+- dimensionless: Number of C atoms

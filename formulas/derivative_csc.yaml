@@ -1,0 +1,16 @@
+name: Derivative of cosecant
+id: derivative_csc
+topic: derivatives
+difficulty: 2
+equation: rmd (1 frac sin angle ) eq neg (1 frac sin
+  angle mul (cos angle frac sin angle ) )
+symbol_overrides:
+- angle: x
+- angle: x
+- angle: x
+- angle: x
+name_overrides:
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

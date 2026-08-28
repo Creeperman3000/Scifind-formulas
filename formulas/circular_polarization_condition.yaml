@@ -1,0 +1,15 @@
+name: Circular polarization condition
+id: circular_polarization_condition
+topic: polarization
+difficulty: 3
+equation: (((dimensionless) eq (dimensionless)) prop ((dimensionless) pm ((pi) frac (dimensionless))))
+symbol_overrides:
+- dimensionless: '|E_x|'
+- dimensionless: '|E_y|'
+- dimensionless: \Delta\phi
+- dimensionless: '2'
+name_overrides:
+- dimensionless: x-amplitude
+- dimensionless: y-amplitude
+- dimensionless: Phase difference
+- dimensionless: ''

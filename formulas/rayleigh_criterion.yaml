@@ -1,0 +1,13 @@
+name: Rayleigh criterion
+id: rayleigh_criterion
+topic: diffraction
+difficulty: 4
+equation: angle eq 1.22 mul length frac length
+symbol_overrides:
+- angle: "\\theta_{\\text{min}}"
+- length: "\\lambda"
+- length: D
+name_overrides:
+- angle: Minimum angular resolution
+- length: Wavelength
+- length: Aperture diameter

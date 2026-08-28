@@ -1,0 +1,15 @@
+name: Radiocarbon dating formula
+id: radioactive_carbon_dating
+topic: nuclear_physics
+difficulty: 3
+equation: ((time) eq (((time) mul ((dimensionless) frac (dimensionless))) frac ((2) ln)))
+symbol_overrides:
+- time: t
+- time: t_{1/2}
+- dimensionless: N_0
+- dimensionless: N
+name_overrides:
+- time: Age of sample
+- time: Half-life
+- dimensionless: Initial count
+- dimensionless: Current count

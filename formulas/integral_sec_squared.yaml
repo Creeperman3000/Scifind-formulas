@@ -1,0 +1,11 @@
+name: Integral of sec² x
+id: integral_sec_squared
+topic: integrals
+difficulty: 2
+equation: dimensionless eq dimensionless
+symbol_overrides:
+- dimensionless: \int \sec^2 x dx
+- dimensionless: \tan x
+name_overrides:
+- dimensionless: Integral of sec²x
+- dimensionless: tangent

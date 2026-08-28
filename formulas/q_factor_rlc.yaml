@@ -1,0 +1,13 @@
+name: Q factor of an RLC circuit
+id: q_factor_rlc
+topic: circuits
+difficulty: 3
+equation: ((dimensionless) eq (sqrt ((dimensionless) mul (dimensionless))))
+symbol_overrides:
+- dimensionless: Q
+- dimensionless: L
+- dimensionless: R
+name_overrides:
+- dimensionless: Quality factor
+- dimensionless: Inductance
+- dimensionless: Resistance

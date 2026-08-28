@@ -1,0 +1,17 @@
+name: Average velocity definition
+id: average_velocity_definition_general
+topic: constant_acceleration
+difficulty: 1
+equation: velocity eq (length sub length ) frac (time sub time )
+symbol_overrides:
+- velocity: "\\bar{v}"
+- length: "s_2"
+- length: "s_1"
+- time: "t_2"
+- time: "t_1"
+name_overrides:
+- velocity: Average [velocity]
+- length: Final [displacement]
+- length: Initial [displacement]
+- time: Final [time]
+- time: Initial [time]

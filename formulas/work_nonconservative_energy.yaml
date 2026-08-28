@@ -1,0 +1,13 @@
+name: Work done by non-conservative forces
+id: work_nonconservative_energy
+topic: conservation_of_energy
+difficulty: 2
+equation: energy eq energy add energy
+symbol_overrides:
+- energy: \Delta E
+- energy: W_{\mathrm{nc}}
+- energy: W_{\mathrm{other}}
+name_overrides:
+- energy: Change in mechanical [energy]
+- energy: Non-conservative [work]
+- energy: Other [work]

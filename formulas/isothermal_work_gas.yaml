@@ -1,0 +1,18 @@
+name: Isothermal work on ideal gas
+id: isothermal_work_gas
+topic: first_law
+difficulty: 3
+equation: energy eq amount mul gas_constant mul temperature mul ln
+  (volume frac volume )
+symbol_overrides:
+- energy: ''
+- amount: ''
+- temperature: ''
+- volume: "V_2"
+- volume: "V_1"
+name_overrides:
+- energy: Isothermal [work]
+- amount: ''
+- temperature: ''
+- volume: Final [volume]
+- volume: Initial [volume]

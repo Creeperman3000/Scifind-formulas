@@ -1,0 +1,16 @@
+name: Faraday's law of induction
+id: faradays_law
+topic: electromagnetic_induction
+difficulty: 3
+equation: electric_potential eq neg amount mul magnetic_flux frac Delta
+  time
+symbol_overrides:
+- electric_potential: "\\epsilon"
+- amount: N
+- magnetic_flux: "\\Delta\\Phi"
+- time: t
+name_overrides:
+- electric_potential: Induced EMF
+- amount: Number of turns
+- magnetic_flux: Change in flux
+- time: Time interval

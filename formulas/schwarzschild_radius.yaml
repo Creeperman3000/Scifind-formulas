@@ -1,0 +1,12 @@
+name: Schwarzschild radius
+id: schwarzschild_radius
+topic: escape_velocity
+difficulty: 4
+equation: length eq 2 mul gravitational_constant mul mass frac
+  speed_of_light pow 2
+symbol_overrides:
+- length: r_s
+- mass: M
+name_overrides:
+- length: Schwarzschild [radius]
+- mass: ''

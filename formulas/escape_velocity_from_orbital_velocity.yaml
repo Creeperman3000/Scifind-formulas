@@ -1,0 +1,11 @@
+name: Escape velocity from orbital velocity
+id: escape_velocity_from_orbital_velocity
+topic: escape_velocity
+difficulty: 2
+equation: velocity eq velocity mul 2 sqrt
+symbol_overrides:
+- velocity: v_{\mathrm{esc}}
+- velocity: v_{\mathrm{orb}}
+name_overrides:
+- velocity: Escape [velocity]
+- velocity: Orbital [velocity]

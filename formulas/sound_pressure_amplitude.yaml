@@ -1,0 +1,15 @@
+name: Sound pressure amplitude from intensity
+id: sound_pressure_amplitude
+topic: mechanical_waves
+difficulty: 3
+equation: (pressure) eq ((sqrt ((density) mul (velocity) mul (power))))
+symbol_overrides:
+- pressure: p_0
+- density: \rho
+- velocity: v
+- power: I
+name_overrides:
+- pressure: Pressure amplitude
+- density: Medium [density]
+- velocity: Speed of sound
+- power: Sound [intensity]

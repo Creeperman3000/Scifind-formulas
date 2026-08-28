@@ -1,0 +1,11 @@
+name: Derivative of tangent
+id: derivative_tan
+topic: derivatives
+difficulty: 2
+equation: rmd tan angle eq 1 frac cos angle pow 2
+symbol_overrides:
+- angle: x
+- angle: x
+name_overrides:
+- angle: '[Variable]'
+- angle: '[Variable]'

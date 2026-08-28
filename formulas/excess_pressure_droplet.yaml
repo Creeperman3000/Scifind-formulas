@@ -1,0 +1,13 @@
+name: Excess pressure inside a spherical droplet
+id: excess_pressure_droplet
+topic: surface_tension
+difficulty: 2
+equation: pressure eq 2 mul surface_tension frac length
+symbol_overrides:
+- pressure: "\\Delta P"
+- surface_tension: ''
+- length: r
+name_overrides:
+- pressure: Excess [pressure]
+- surface_tension: ''
+- length: Radius

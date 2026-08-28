@@ -1,0 +1,13 @@
+name: 'Dynamics: tension in a hanging mass'
+id: tension_hanging_mass
+topic: forces
+difficulty: 2
+equation: force eq mass mul (standard_gravity sub acceleration )
+symbol_overrides:
+- force: T
+- mass: ''
+- acceleration: ''
+name_overrides:
+- force: Tension
+- mass: '[Mass]'
+- acceleration: '[Acceleration]'

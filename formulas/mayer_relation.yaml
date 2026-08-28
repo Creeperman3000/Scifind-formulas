@@ -1,0 +1,11 @@
+name: Mayer's relation for ideal gases
+id: mayer_relation
+topic: ideal_gases
+difficulty: 2
+equation: molar_energy eq molar_energy add gas_constant
+symbol_overrides:
+- molar_energy: C_p
+- molar_energy: C_V
+name_overrides:
+- molar_energy: Molar heat capacity at constant [pressure]
+- molar_energy: Molar heat capacity at constant [volume]

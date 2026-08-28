@@ -1,0 +1,13 @@
+name: Limit of a product
+id: limit_product_rule
+topic: limits
+difficulty: 2
+equation: dimensionless eq dimensionless mul dimensionless
+symbol_overrides:
+- dimensionless: \lim(f\cdot g)
+- dimensionless: \lim f
+- dimensionless: \lim g
+name_overrides:
+- dimensionless: Limit of product
+- dimensionless: Limit of f
+- dimensionless: Limit of g

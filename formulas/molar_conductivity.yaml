@@ -1,0 +1,13 @@
+name: Molar conductivity
+id: molar_conductivity
+topic: electrochemistry
+difficulty: 2
+equation: conductance eq conductance frac concentration
+symbol_overrides:
+- conductance: "\\Lambda_{\\text{m}}"
+- conductance: "\\kappa"
+- concentration: ''
+name_overrides:
+- conductance: Molar [conductivity]
+- conductance: Specific conductivity
+- concentration: ''

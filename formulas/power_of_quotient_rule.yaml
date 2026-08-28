@@ -1,0 +1,21 @@
+name: Power of a quotient
+id: power_of_quotient_rule
+topic: exponents
+difficulty: 2
+equation: (((dimensionless) frac (dimensionless)) pow dimensionless) eq ((dimensionless) pow (dimensionless) frac (dimensionless) pow (dimensionless))
+symbol_overrides:
+- dimensionless: a
+- dimensionless: b
+- dimensionless: n
+- dimensionless: a
+- dimensionless: n
+- dimensionless: b
+- dimensionless: n
+name_overrides:
+- dimensionless: Numerator a
+- dimensionless: Denominator b
+- dimensionless: Exponent n
+- dimensionless: Numerator a
+- dimensionless: Exponent n
+- dimensionless: Denominator b
+- dimensionless: Exponent n

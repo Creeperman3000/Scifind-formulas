@@ -1,0 +1,13 @@
+name: Mass percent concentration
+id: solution_concentration_mass_percent
+topic: solution_stoichiometry
+difficulty: 1
+equation: dimensionless eq 100 mul (mass frac mass )
+symbol_overrides:
+- dimensionless: \%\,\text{m/m}
+- mass: m_{\mathrm{solute}}
+- mass: m_{\mathrm{solution}}
+name_overrides:
+- dimensionless: Mass percent
+- mass: Mass of solute
+- mass: Mass of solution

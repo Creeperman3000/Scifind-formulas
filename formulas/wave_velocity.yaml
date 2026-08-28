@@ -1,0 +1,13 @@
+name: Wave velocity
+id: wave_velocity
+topic: mechanical_waves
+difficulty: 1
+equation: velocity eq frequency mul length
+symbol_overrides:
+- velocity: ''
+- frequency: ''
+- length: "\\lambda"
+name_overrides:
+- velocity: Wave [velocity]
+- frequency: ''
+- length: Wavelength

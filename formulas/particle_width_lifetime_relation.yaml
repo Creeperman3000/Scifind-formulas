@@ -1,0 +1,11 @@
+name: Particle decay width and lifetime
+id: particle_width_lifetime_relation
+topic: particle_physics
+difficulty: 4
+equation: energy eq planck_constant frac (2 mul pi ) frac time
+symbol_overrides:
+- energy: "\\Gamma"
+- time: "\\tau"
+name_overrides:
+- energy: Decay [width]
+- time: Mean [lifetime]

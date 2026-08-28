@@ -1,0 +1,11 @@
+name: Activity ratio in secular equilibrium
+id: nuclear_decay_chain_activity_ratio
+topic: nuclear_physics
+difficulty: 3
+equation: activity frac activity approx 1
+symbol_overrides:
+- activity: A_2
+- activity: A_1
+name_overrides:
+- activity: Daughter [activity]
+- activity: Parent [activity]

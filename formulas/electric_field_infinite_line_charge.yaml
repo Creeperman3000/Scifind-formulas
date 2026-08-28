@@ -1,0 +1,14 @@
+name: Electric field of an infinite line charge
+id: electric_field_infinite_line_charge
+topic: electric_fields
+difficulty: 3
+equation: electric_field_strength eq 2 mul coulomb_constant mul
+  charge_density frac length
+symbol_overrides:
+- electric_field_strength: ''
+- charge_density: "\\lambda"
+- length: r
+name_overrides:
+- electric_field_strength: '[Electric field]'
+- charge_density: Linear charge density
+- length: Radial distance

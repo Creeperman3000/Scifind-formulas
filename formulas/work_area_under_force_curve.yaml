@@ -1,0 +1,13 @@
+name: Work from force-displacement graph
+id: work_area_under_force_curve
+topic: work
+difficulty: 2
+equation: (energy) eq ((force) mul (length))
+symbol_overrides:
+- energy: W
+- force: F_{avg}
+- length: \Delta x
+name_overrides:
+- energy: '[Work]'
+- force: Average [force]
+- length: Displacement

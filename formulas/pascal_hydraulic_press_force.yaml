@@ -1,0 +1,15 @@
+name: Pascal's principle (hydraulic press)
+id: pascal_hydraulic_press_force
+topic: pascals_law
+difficulty: 2
+equation: force eq force mul (area frac area )
+symbol_overrides:
+- force: F_{\mathrm{out}}
+- force: F_{\mathrm{in}}
+- area: A_{\mathrm{out}}
+- area: A_{\mathrm{in}}
+name_overrides:
+- force: Output [force]
+- force: Input [force]
+- area: Output piston [area]
+- area: Output piston [area]

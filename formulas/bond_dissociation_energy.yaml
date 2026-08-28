@@ -1,0 +1,13 @@
+name: Bond Dissociation Energy
+id: bond_dissociation_energy
+topic: chemical_bonding
+difficulty: 3
+equation: energy eq energy sub energy
+symbol_overrides:
+- energy: "\\Delta H_{\\text{atom}}"
+- energy: "\\Sigma D_{\\text{broken}}"
+- energy: "\\Sigma D_{\\text{formed}}"
+name_overrides:
+- energy: Atomization [enthalpy]
+- energy: Sum of bond energies broken
+- energy: Sum of bond energies formed

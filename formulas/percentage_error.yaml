@@ -1,0 +1,16 @@
+name: Percentage error
+id: percentage_error
+topic: arithmetic
+difficulty: 1
+equation: dimensionless eq 100 mul abs ((dimensionless sub
+  dimensionless ) frac dimensionless )
+symbol_overrides:
+- dimensionless: "\\%\\,\\text{error}"
+- dimensionless: experimental
+- dimensionless: theoretical
+- dimensionless: theoretical
+name_overrides:
+- dimensionless: Percentage error
+- dimensionless: Experimental value
+- dimensionless: Theoretical value
+- dimensionless: ''

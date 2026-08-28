@@ -1,0 +1,16 @@
+name: Pitot tube dynamic pressure
+id: pitot_tube_dynamic_pressure
+topic: bernoulli_equation
+difficulty: 3
+equation: velocity eq sqrt (2 mul (pressure sub pressure ) frac
+  density )
+symbol_overrides:
+- velocity: v
+- pressure: P_{total}
+- pressure: P_{static}
+- density: \rho
+name_overrides:
+- velocity: Flow [velocity]
+- pressure: Total pressure
+- pressure: Static pressure
+- density: Fluid [density]

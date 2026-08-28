@@ -1,0 +1,15 @@
+name: Transformer current relationship
+id: transformer_current
+topic: electromagnetic_induction
+difficulty: 2
+equation: ((current) frac (current)) eq ((electric_potential) frac (electric_potential))
+symbol_overrides:
+- current: I_p
+- current: I_s
+- electric_potential: V_s
+- electric_potential: V_p
+name_overrides:
+- current: Primary [current]
+- current: Secondary [current]
+- electric_potential: Secondary [voltage]
+- electric_potential: Primary [voltage]

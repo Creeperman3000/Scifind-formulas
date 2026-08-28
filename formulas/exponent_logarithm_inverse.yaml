@@ -1,0 +1,13 @@
+name: Exponent as inverse of logarithm
+id: exponent_logarithm_inverse
+topic: logarithms
+difficulty: 1
+equation: dimensionless eq dimensionless pow dimensionless
+symbol_overrides:
+- dimensionless: x
+- dimensionless: a
+- dimensionless: \log_a x
+name_overrides:
+- dimensionless: Result
+- dimensionless: Base
+- dimensionless: Logarithm

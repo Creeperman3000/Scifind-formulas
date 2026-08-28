@@ -1,0 +1,15 @@
+name: Area of a regular polygon
+id: regular_polygon_area
+topic: polygons
+difficulty: 3
+equation: (area) eq ((dimensionless) mul ((length) pow 2) frac (4 mul (tan (pi frac dimensionless))))
+symbol_overrides:
+- area: A
+- dimensionless: n
+- length: s
+- dimensionless: n
+name_overrides:
+- area: Polygon [area]
+- dimensionless: Number of sides
+- length: Side [length]
+- dimensionless: Number of sides

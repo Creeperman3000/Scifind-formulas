@@ -1,0 +1,23 @@
+name: Derivative sum rule
+id: derivative_sum_rule
+topic: derivatives
+difficulty: 1
+equation: rmd (dimensionless add dimensionless ) frac rmd dimensionless
+  eq rmd dimensionless frac rmd dimensionless add rmd dimensionless
+  frac rmd dimensionless
+symbol_overrides:
+- dimensionless: f
+- dimensionless: g
+- dimensionless: x
+- dimensionless: f
+- dimensionless: x
+- dimensionless: g
+- dimensionless: x
+name_overrides:
+- dimensionless: Function f
+- dimensionless: Function g
+- dimensionless: '[Variable]'
+- dimensionless: Function f
+- dimensionless: '[Variable]'
+- dimensionless: Function g
+- dimensionless: '[Variable]'

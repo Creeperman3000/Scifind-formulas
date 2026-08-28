@@ -1,0 +1,13 @@
+name: Excess reactant remaining
+id: excess_reactant_remaining
+topic: limiting_reactants
+difficulty: 2
+equation: amount eq amount sub amount
+symbol_overrides:
+- amount: n_{\mathrm{excess}}
+- amount: n_{\mathrm{initial}}
+- amount: n_{\mathrm{consumed}}
+name_overrides:
+- amount: Excess remaining [amount]
+- amount: Initial [amount]
+- amount: Consumed [amount]

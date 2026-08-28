@@ -1,0 +1,18 @@
+name: Reynolds number
+id: reynolds_number_formula
+topic: reynolds_number
+difficulty: 3
+equation: reynolds_number eq density mul velocity mul length frac
+  dynamic_viscosity
+symbol_overrides:
+- reynolds_number: ''
+- density: ''
+- velocity: ''
+- length: L
+- dynamic_viscosity: ''
+name_overrides:
+- reynolds_number: ''
+- density: ''
+- velocity: ''
+- length: Characteristic length
+- dynamic_viscosity: ''

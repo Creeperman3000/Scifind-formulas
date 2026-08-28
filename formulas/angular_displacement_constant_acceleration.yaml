@@ -1,0 +1,18 @@
+name: Angular displacement at constant angular acceleration
+id: angular_displacement_constant_acceleration
+topic: circular_motion
+difficulty: 2
+equation: angle eq angular_velocity mul time add angular_acceleration
+  mul time pow 2 frac 2
+symbol_overrides:
+- angle: "\\theta"
+- angular_velocity: "\\omega_0"
+- time: ''
+- angular_acceleration: ''
+- time: ''
+name_overrides:
+- angle: Angular displacement
+- angular_velocity: Initial angular [velocity]
+- time: ''
+- angular_acceleration: ''
+- time: ''

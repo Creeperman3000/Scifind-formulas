@@ -1,0 +1,15 @@
+name: Resistance of a conductor
+id: resistance_formula
+topic: circuits
+difficulty: 2
+equation: (resistance) eq (((dimensionless) mul (length)) frac (area))
+symbol_overrides:
+- resistance: R
+- dimensionless: \rho
+- length: L
+- area: A
+name_overrides:
+- resistance: '[Resistance]'
+- dimensionless: Resistivity
+- length: '[Length]'
+- area: Cross-sectional [area]

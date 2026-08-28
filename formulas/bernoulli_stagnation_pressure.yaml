@@ -1,0 +1,15 @@
+name: Bernoulli stagnation pressure
+id: bernoulli_stagnation_pressure
+topic: bernoulli_equation
+difficulty: 3
+equation: pressure eq pressure add density mul velocity pow 2 frac 2
+symbol_overrides:
+- pressure: P_0
+- pressure: ''
+- density: "\\rho"
+- velocity: ''
+name_overrides:
+- pressure: Stagnation [pressure]
+- pressure: Static [pressure]
+- density: Fluid [density]
+- velocity: Flow [velocity]

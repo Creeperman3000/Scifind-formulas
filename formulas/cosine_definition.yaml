@@ -1,0 +1,13 @@
+name: Cosine definition
+id: cosine_definition
+topic: right_triangles
+difficulty: 1
+equation: cos angle eq length frac length
+symbol_overrides:
+- angle: "\\theta"
+- length: b
+- length: c
+name_overrides:
+- angle: '[Angle]'
+- length: Adjacent [length]
+- length: Hypotenuse

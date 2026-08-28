@@ -1,0 +1,13 @@
+name: Logarithm base definition
+id: logarithm_base_definition
+topic: logarithms
+difficulty: 2
+equation: dimensionless eq dimensionless frac dimensionless
+symbol_overrides:
+- dimensionless: log_a(x)
+- dimensionless: log_b(x)
+- dimensionless: log_b(a)
+name_overrides:
+- dimensionless: Log base a of x
+- dimensionless: Log base b of x
+- dimensionless: Log base b of a

@@ -1,0 +1,18 @@
+name: Clausius-Clapeyron equation
+id: clausius_clapeyron
+topic: solutions
+difficulty: 5
+equation: ln (pressure frac pressure ) eq neg (molar_energy frac
+  gas_constant ) mul (1 frac temperature sub 1 frac temperature )
+symbol_overrides:
+- pressure: P_2
+- pressure: P_1
+- molar_energy: "\\Delta H_{\\text{vap}}"
+- temperature: T_2
+- temperature: T_1
+name_overrides:
+- pressure: Final vapor [pressure]
+- pressure: Initial vapor [pressure]
+- molar_energy: Enthalpy of [vaporization]
+- temperature: Final [temperature]
+- temperature: Initial [temperature]

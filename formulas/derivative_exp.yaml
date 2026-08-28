@@ -1,0 +1,13 @@
+name: Derivative of exponential
+id: derivative_exp
+topic: derivatives
+difficulty: 2
+equation: rmd (exp angle ) frac rmd angle eq exp angle
+symbol_overrides:
+- angle: x
+- angle: x
+- angle: x
+name_overrides:
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

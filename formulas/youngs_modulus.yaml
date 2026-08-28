@@ -1,0 +1,13 @@
+name: Young's modulus
+id: youngs_modulus
+topic: forces
+difficulty: 2
+equation: pressure eq pressure frac dimensionless
+symbol_overrides:
+- pressure: E
+- pressure: "\\sigma"
+- dimensionless: "\\epsilon"
+name_overrides:
+- pressure: Young's modulus
+- pressure: Stress
+- dimensionless: Strain

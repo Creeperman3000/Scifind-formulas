@@ -1,0 +1,11 @@
+name: Cosine double angle (cosine form)
+id: trigonometric_cosine_double_angle_alternate
+topic: trigonometric_identities
+difficulty: 1
+equation: cos (2 mul angle ) eq 2 mul cos angle pow 2 sub 1
+symbol_overrides:
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- angle: Double angle
+- angle: Angle θ

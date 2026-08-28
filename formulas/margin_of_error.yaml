@@ -1,0 +1,16 @@
+name: Margin of error
+id: margin_of_error
+topic: statistics
+difficulty: 2
+equation: dimensionless eq dimensionless mul (dimensionless frac sqrt
+  dimensionless )
+symbol_overrides:
+- dimensionless: ME
+- dimensionless: "z^*"
+- dimensionless: "\\sigma"
+- dimensionless: n
+name_overrides:
+- dimensionless: Margin of [error]
+- dimensionless: Critical value
+- dimensionless: Standard deviation
+- dimensionless: Sample size

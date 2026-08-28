@@ -1,0 +1,16 @@
+name: Venturi tube pressure difference
+id: venturi_pressure_difference
+topic: bernoulli_equation
+difficulty: 3
+equation: pressure eq density mul ((velocity pow 2 sub velocity pow 2
+  ) frac 2)
+symbol_overrides:
+- pressure: "\\Delta P"
+- density: "\\rho"
+- velocity: v_2
+- velocity: v_1
+name_overrides:
+- pressure: Pressure difference
+- density: Fluid [density]
+- velocity: '[Velocity] at throat'
+- velocity: '[Velocity] at inlet'

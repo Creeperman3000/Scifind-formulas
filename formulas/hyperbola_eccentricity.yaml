@@ -1,0 +1,18 @@
+name: Eccentricity of a hyperbola
+id: hyperbola_eccentricity
+topic: coordinate_geometry
+difficulty: 2
+equation: dimensionless eq dimensionless add (length pow 2 frac length
+  pow 2 ) sqrt
+symbol_overrides:
+- dimensionless: e
+- length: b
+- length: a
+- ? ''
+  : ''
+name_overrides:
+- dimensionless: '[Eccentricity]'
+- length: Semi-conjugate axis
+- length: Semi-transverse axis
+- ? ''
+  : ''

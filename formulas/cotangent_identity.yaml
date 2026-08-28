@@ -1,0 +1,13 @@
+name: Cotangent identity
+id: cotangent_identity
+topic: trigonometric_identities
+difficulty: 1
+equation: dimensionless eq cos angle frac sin angle
+symbol_overrides:
+- dimensionless: "\\cot(\\theta)"
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- dimensionless: ''
+- angle: ''
+- angle: ''

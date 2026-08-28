@@ -1,0 +1,16 @@
+name: Van 't Hoff equation
+id: equilibrium_temperature_dependence
+topic: chemical_equilibrium
+difficulty: 4
+equation: dimensionless eq neg energy frac gas_constant mul (dimensionless
+  sub dimensionless )
+symbol_overrides:
+- dimensionless: "\\ln(K_2/K_1)"
+- energy: "\\Delta H^{\\circ}"
+- dimensionless: "1/T_2"
+- dimensionless: "1/T_1"
+name_overrides:
+- dimensionless: Log ratio of equilibrium constants
+- energy: Standard [enthalpy] change
+- dimensionless: Reciprocal of final temperature
+- dimensionless: Reciprocal of initial temperature

@@ -1,0 +1,10 @@
+name: Fine-structure constant
+id: atomic_fine_structure_definition
+topic: atomic_physics
+difficulty: 3
+equation: dimensionless eq elementary_charge pow 2 frac (2 mul
+  vacuum_permittivity mul planck_constant mul speed_of_light )
+symbol_overrides:
+- dimensionless: \alpha
+name_overrides:
+- dimensionless: Fine-structure constant

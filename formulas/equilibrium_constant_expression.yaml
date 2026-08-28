@@ -1,0 +1,26 @@
+name: Equilibrium constant from concentrations
+id: equilibrium_constant_expression
+topic: chemical_equilibrium
+difficulty: 2
+equation: equilibrium_constant eq concentration pow dimensionless mul
+  concentration pow dimensionless frac (concentration pow dimensionless mul concentration pow dimensionless )
+symbol_overrides:
+- equilibrium_constant: K_c
+- concentration: '[C]'
+- dimensionless: c
+- concentration: '[D]'
+- dimensionless: d
+- concentration: '[A]'
+- dimensionless: a
+- concentration: '[B]'
+- dimensionless: b
+name_overrides:
+- equilibrium_constant: ''
+- concentration: Concentration of C
+- dimensionless: Stoichiometric coefficient of C
+- concentration: Concentration of D
+- dimensionless: Stoichiometric coefficient of D
+- concentration: Concentration of A
+- dimensionless: Stoichiometric coefficient of A
+- concentration: Concentration of B
+- dimensionless: Stoichiometric coefficient of B

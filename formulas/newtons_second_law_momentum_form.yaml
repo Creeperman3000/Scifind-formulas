@@ -1,0 +1,13 @@
+name: Newton's second law in terms of momentum
+id: newtons_second_law_momentum_form
+topic: newtons_laws
+difficulty: 2
+equation: force eq momentum (Delta) time (Delta) frac
+symbol_overrides:
+- force: F_{\mathrm{net}}
+- momentum: ''
+- time: ''
+name_overrides:
+- force: Net [force]
+- momentum: ''
+- time: ''

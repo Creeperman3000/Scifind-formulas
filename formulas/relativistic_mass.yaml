@@ -1,0 +1,13 @@
+name: Relativistic mass
+id: relativistic_mass
+topic: relativity
+difficulty: 3
+equation: mass eq mass mul lorentz_factor
+symbol_overrides:
+- mass: m_{\mathrm{rel}}
+- mass: m_0
+- lorentz_factor: ''
+name_overrides:
+- mass: Relativistic [mass]
+- mass: Rest [mass]
+- lorentz_factor: ''

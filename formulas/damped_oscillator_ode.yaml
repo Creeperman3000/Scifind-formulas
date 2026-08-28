@@ -1,0 +1,16 @@
+name: Damped harmonic oscillator differential equation
+id: damped_oscillator_ode
+topic: differential_equations
+difficulty: 5
+equation: dimensionless add dimensionless add angular_velocity pow 2 mul
+  length eq 0
+symbol_overrides:
+- dimensionless: "\\frac{\\mathrm{d}^2x}{\\mathrm{d}t^2}"
+- dimensionless: "2\\gamma\\,\\frac{\\mathrm{d}x}{\\mathrm{d}t}"
+- angular_velocity: "\\omega_0"
+- length: x
+name_overrides:
+- dimensionless: Second derivative
+- dimensionless: Damping term
+- angular_velocity: Natural [angular frequency]
+- length: Position

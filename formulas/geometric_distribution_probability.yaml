@@ -1,0 +1,15 @@
+name: Geometric Distribution Probability
+id: geometric_distribution_probability
+topic: probability
+difficulty: 3
+equation: dimensionless eq (1 sub dimensionless ) pow (dimensionless sub 1) mul dimensionless
+symbol_overrides:
+- dimensionless: P(X=k)
+- dimensionless: p
+- dimensionless: k
+- dimensionless: p
+name_overrides:
+- dimensionless: Geometric probability
+- dimensionless: Failure probability
+- dimensionless: Trial number
+- dimensionless: Success probability

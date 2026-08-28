@@ -1,0 +1,13 @@
+name: Volumetric flow rate
+id: volumetric_flow_rate
+topic: continuity_equation
+difficulty: 1
+equation: volume eq area mul velocity
+symbol_overrides:
+- volume: Q
+- area: A
+- velocity: v
+name_overrides:
+- volume: Volumetric flow rate Q
+- area: Cross-sectional [area]
+- velocity: Flow [velocity]

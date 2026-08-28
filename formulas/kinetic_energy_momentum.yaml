@@ -1,0 +1,13 @@
+name: Kinetic energy from momentum
+id: kinetic_energy_momentum
+topic: kinetic_energy
+difficulty: 2
+equation: energy eq momentum pow 2 frac (2 mul mass )
+symbol_overrides:
+- energy: E_k
+- momentum: ''
+- mass: ''
+name_overrides:
+- energy: Kinetic [energy]
+- momentum: ''
+- mass: ''

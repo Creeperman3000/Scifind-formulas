@@ -1,0 +1,17 @@
+name: Pressure from kinetic theory
+id: ideal_gas_pressure_from_kinetic_theory
+topic: ideal_gases
+difficulty: 3
+equation: ((pressure) eq ((((dimensionless) mul (mass)) mul (dimensionless)) frac ((3) mul (volume))))
+symbol_overrides:
+- pressure: P
+- dimensionless: N
+- mass: m
+- dimensionless: \langle v^2\rangle
+- volume: V
+name_overrides:
+- pressure: Pressure
+- dimensionless: Number of molecules
+- mass: Molecular mass
+- dimensionless: Mean square velocity
+- volume: '[Volume]'

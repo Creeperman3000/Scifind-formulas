@@ -1,0 +1,13 @@
+name: Magnetic flux linkage
+id: electromagnetic_induction_flux_linkage
+topic: electromagnetic_induction
+difficulty: 2
+equation: magnetic_flux eq magnetic_flux mul dimensionless
+symbol_overrides:
+- magnetic_flux: "\\Lambda"
+- magnetic_flux: "\\Phi"
+- dimensionless: N
+name_overrides:
+- magnetic_flux: Flux [linkage]
+- magnetic_flux: Magnetic [flux]
+- dimensionless: Number of turns

@@ -1,0 +1,13 @@
+name: Angular displacement from rotation
+id: angular_displacement_definition
+topic: circular_motion
+difficulty: 1
+equation: angle eq length frac length
+symbol_overrides:
+- angle: "\\theta"
+- length: s
+- length: r
+name_overrides:
+- angle: Angular [displacement]
+- length: Arc [length]
+- length: '[Radius]'

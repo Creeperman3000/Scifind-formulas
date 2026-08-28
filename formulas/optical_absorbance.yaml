@@ -1,0 +1,13 @@
+name: Optical absorbance
+id: optical_absorbance
+topic: polarization
+difficulty: 1
+equation: dimensionless eq log (power frac power )
+symbol_overrides:
+- dimensionless: A
+- power: I_0
+- power: I
+name_overrides:
+- dimensionless: Absorbance
+- power: ''
+- power: ''

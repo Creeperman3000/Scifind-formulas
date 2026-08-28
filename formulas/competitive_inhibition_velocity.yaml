@@ -1,0 +1,21 @@
+name: Competitive inhibition velocity
+id: competitive_inhibition_velocity
+topic: biochemistry
+difficulty: 4
+equation: catalytic_activity eq catalytic_activity mul concentration frac (dimensionless mul (1 add concentration frac dimensionless ) add concentration )
+symbol_overrides:
+- catalytic_activity: v
+- catalytic_activity: V_{\mathrm{max}}
+- concentration: '[S]'
+- dimensionless: K_m
+- concentration: '[I]'
+- dimensionless: K_i
+- concentration: '[S]'
+name_overrides:
+- catalytic_activity: Reaction [velocity]
+- catalytic_activity: Maximum [velocity]
+- concentration: Substrate concentration
+- dimensionless: Michaelis constant
+- concentration: Inhibitor concentration
+- dimensionless: ''
+- concentration: Substrate concentration

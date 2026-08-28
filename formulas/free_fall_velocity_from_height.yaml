@@ -1,0 +1,11 @@
+name: Free fall velocity from height
+id: free_fall_velocity_from_height
+topic: constant_acceleration
+difficulty: 1
+equation: velocity eq sqrt (2 mul (standard_gravity mul length ) )
+symbol_overrides:
+- velocity: v
+- length: h
+name_overrides:
+- velocity: Final [velocity]
+- length: Height

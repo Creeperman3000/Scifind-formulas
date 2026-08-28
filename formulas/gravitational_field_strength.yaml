@@ -1,0 +1,14 @@
+name: Gravitational field strength
+id: gravitational_field_strength
+topic: newtonian_gravity
+difficulty: 2
+equation: acceleration eq gravitational_constant mul mass frac length
+  pow 2
+symbol_overrides:
+- acceleration: g
+- mass: M
+- length: r
+name_overrides:
+- acceleration: Gravitational field strength
+- mass: Mass [of body]
+- length: Distance

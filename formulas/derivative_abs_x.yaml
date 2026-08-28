@@ -1,0 +1,13 @@
+name: Derivative of Absolute Value
+id: derivative_abs_x
+topic: derivatives
+difficulty: 3
+equation: (dimensionless) eq ((dimensionless) frac (abs (dimensionless)))
+symbol_overrides:
+- dimensionless: d|x|/dx
+- dimensionless: x
+- dimensionless: x
+name_overrides:
+- dimensionless: Derivative of |x|
+- dimensionless: '[Variable]'
+- dimensionless: '[Variable]'

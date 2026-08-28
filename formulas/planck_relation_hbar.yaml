@@ -1,0 +1,12 @@
+name: Planck relation (reduced Planck constant)
+id: planck_relation_hbar
+topic: quantum_mechanics
+difficulty: 2
+equation: energy eq planck_constant frac (2 mul pi ) mul
+  angular_velocity
+symbol_overrides:
+- energy: ''
+- angular_velocity: "\\omega"
+name_overrides:
+- energy: Photon [energy]
+- angular_velocity: Angular [frequency]

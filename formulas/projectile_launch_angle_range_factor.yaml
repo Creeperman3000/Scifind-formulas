@@ -1,0 +1,13 @@
+name: Projectile range dependence on launch angle
+id: projectile_launch_angle_range_factor
+topic: projectile_motion
+difficulty: 2
+equation: (dimensionless) eq (((velocity) pow 2) mul (sin ((2 mul angle))))
+symbol_overrides:
+- dimensionless: R
+- velocity: v_0
+- angle: \theta
+name_overrides:
+- dimensionless: Range
+- velocity: Initial [velocity]
+- angle: Launch [angle]

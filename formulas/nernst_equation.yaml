@@ -1,0 +1,18 @@
+name: Nernst equation
+id: nernst_equation
+topic: electrochemistry
+difficulty: 5
+equation: electric_potential eq electric_potential sub gas_constant
+  mul temperature frac (amount mul faraday_constant ) mul ln dimensionless
+symbol_overrides:
+- electric_potential: E
+- electric_potential: "E^{\\circ}"
+- temperature: T
+- amount: n
+- dimensionless: Q
+name_overrides:
+- electric_potential: Cell [potential]
+- electric_potential: Standard cell [potential]
+- temperature: '[Temperature]'
+- amount: Moles of electrons
+- dimensionless: Reaction quotient

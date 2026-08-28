@@ -1,0 +1,13 @@
+name: Limiting reactant moles comparison
+id: limiting_reactant_moles_comparison
+topic: limiting_reactants
+difficulty: 2
+equation: amount eq amount frac dimensionless
+symbol_overrides:
+- amount: "n_{\\text{A}}/\\nu_{\\text{A}}"
+- amount: n_A
+- dimensionless: "\\nu_{\\text{A}}"
+name_overrides:
+- amount: Scaled moles of A
+- amount: Moles of reactant A
+- dimensionless: Stoichiometric coefficient of A

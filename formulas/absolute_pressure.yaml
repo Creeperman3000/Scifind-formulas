@@ -1,0 +1,13 @@
+name: Absolute pressure
+id: absolute_pressure
+topic: pressure
+difficulty: 1
+equation: pressure eq pressure add pressure
+symbol_overrides:
+- pressure: P_{\mathrm{abs}}
+- pressure: P_{\mathrm{gauge}}
+- pressure: P_{\mathrm{atm}}
+name_overrides:
+- pressure: Absolute [pressure]
+- pressure: Gauge [pressure]
+- pressure: Atmospheric [pressure]

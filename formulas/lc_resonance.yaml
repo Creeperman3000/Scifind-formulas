@@ -1,0 +1,14 @@
+name: LC circuit resonance frequency
+id: lc_resonance
+topic: electromagnetic_induction
+difficulty: 3
+equation: angular_velocity eq 1 frac sqrt (inductance mul capacitance
+  )
+symbol_overrides:
+- angular_velocity: "\\omega"
+- inductance: ''
+- capacitance: ''
+name_overrides:
+- angular_velocity: Resonant angular frequency
+- inductance: ''
+- capacitance: ''

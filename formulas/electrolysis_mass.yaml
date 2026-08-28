@@ -1,0 +1,15 @@
+name: Mass deposited in electrolysis
+id: electrolysis_mass
+topic: electrochemistry
+difficulty: 3
+equation: (mass) eq (((charge) mul (mass)) frac ((faraday_constant) mul (amount)))
+symbol_overrides:
+- mass: m
+- charge: Q
+- mass: M
+- amount: z
+name_overrides:
+- mass: Deposited [mass]
+- charge: Total charge
+- mass: Molar [mass]
+- amount: Electrons per ion

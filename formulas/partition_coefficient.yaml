@@ -1,0 +1,13 @@
+name: Partition coefficient
+id: partition_coefficient
+topic: analytical_chemistry
+difficulty: 2
+equation: dimensionless eq concentration frac concentration
+symbol_overrides:
+- dimensionless: K
+- concentration: c_{\mathrm{org}}
+- concentration: c_{\mathrm{aq}}
+name_overrides:
+- dimensionless: Partition [coefficient]
+- concentration: Concentration in organic phase
+- concentration: Concentration in aqueous phase

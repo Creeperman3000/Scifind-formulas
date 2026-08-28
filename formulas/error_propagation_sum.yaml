@@ -1,0 +1,13 @@
+name: Error propagation for sum
+id: error_propagation_sum
+topic: statistics
+difficulty: 3
+equation: dimensionless eq sqrt (dimensionless pow 2 add dimensionless pow 2 )
+symbol_overrides:
+- dimensionless: "\\sigma_{\\text{f}}"
+- dimensionless: "\\sigma_{\\text{x}}"
+- dimensionless: "\\sigma_{\\text{y}}"
+name_overrides:
+- dimensionless: Error propagation for [sum]
+- dimensionless: Error in x
+- dimensionless: Error in y

@@ -1,0 +1,13 @@
+name: Kinetic energy from work done
+id: kinetic_energy_definition_work
+topic: kinetic_energy
+difficulty: 1
+equation: energy eq force mul length
+symbol_overrides:
+- energy: "\\Delta\\text{KE}"
+- force: ''
+- length: d
+name_overrides:
+- energy: Change in kinetic [energy]
+- force: Net [force]
+- length: Displacement

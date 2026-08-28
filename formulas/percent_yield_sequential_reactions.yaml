@@ -1,0 +1,13 @@
+name: Overall percent yield for multi-step synthesis
+id: percent_yield_sequential_reactions
+topic: percent_yield
+difficulty: 2
+equation: dimensionless eq ((100 cdot dimensionless) cdot dimensionless)
+symbol_overrides:
+- dimensionless: "\\%_{\\text{total}}"
+- dimensionless: y_1
+- dimensionless: y_2
+name_overrides:
+- dimensionless: Total percent [yield]
+- dimensionless: Yield of step 1
+- dimensionless: Yield of step 2

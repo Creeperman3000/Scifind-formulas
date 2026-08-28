@@ -1,0 +1,13 @@
+name: Coefficient of static friction
+id: friction_coefficient_static_definition
+topic: friction
+difficulty: 1
+equation: coefficient_of_friction eq force frac force
+symbol_overrides:
+- coefficient_of_friction: "\\mu_{\\text{s}}"
+- force: F_{s,\max}
+- force: N
+name_overrides:
+- coefficient_of_friction: Coefficient of static friction
+- force: Maximum static friction [force]
+- force: Normal [force]

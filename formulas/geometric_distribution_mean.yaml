@@ -1,0 +1,11 @@
+name: Geometric distribution mean
+id: geometric_distribution_mean
+topic: probability
+difficulty: 2
+equation: dimensionless eq 1 frac dimensionless
+symbol_overrides:
+- dimensionless: E[X]
+- dimensionless: p
+name_overrides:
+- dimensionless: Expected value of geometric [distribution]
+- dimensionless: Success probability

@@ -1,0 +1,17 @@
+name: Voltage divider
+id: voltage_divider
+topic: circuits
+difficulty: 2
+equation: electric_potential eq electric_potential mul resistance frac (resistance add resistance )
+symbol_overrides:
+- electric_potential: V_{\mathrm{out}}
+- electric_potential: V_{\mathrm{in}}
+- resistance: R_2
+- resistance: R_1
+- resistance: R_2
+name_overrides:
+- electric_potential: Output [voltage]
+- electric_potential: Input [voltage]
+- resistance: Second [resistance]
+- resistance: First [resistance]
+- resistance: Second [resistance]

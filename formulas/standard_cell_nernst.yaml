@@ -1,0 +1,16 @@
+name: Standard cell potential from equilibrium
+id: standard_cell_nernst
+topic: electrochemistry
+difficulty: 3
+equation: electric_potential eq gas_constant mul temperature frac
+  (amount mul faraday_constant ) mul ln dimensionless
+symbol_overrides:
+- electric_potential: "E^{\\circ}"
+- temperature: T
+- amount: n
+- dimensionless: K
+name_overrides:
+- electric_potential: Standard cell [potential]
+- temperature: '[Temperature]'
+- amount: Number of electrons transferred
+- dimensionless: Equilibrium constant

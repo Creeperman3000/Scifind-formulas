@@ -1,0 +1,13 @@
+name: Law of sines with circumradius
+id: law_of_sines_circumradius
+topic: laws_of_sines_and_cosines
+difficulty: 2
+equation: length frac sin angle eq 2 mul length
+symbol_overrides:
+- length: a
+- angle: A
+- length: R
+name_overrides:
+- length: Side a
+- angle: Angle A
+- length: Circumradius

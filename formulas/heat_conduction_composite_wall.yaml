@@ -1,0 +1,20 @@
+name: Heat conduction through a composite wall
+id: heat_conduction_composite_wall
+topic: heat_transfer
+difficulty: 3
+equation: power eq (temperature sub temperature ) mul area frac
+  (dimensionless add dimensionless )
+symbol_overrides:
+- power: ''
+- temperature: T_1
+- temperature: T_2
+- area: ''
+- dimensionless: R_1
+- dimensionless: R_2
+name_overrides:
+- power: Heat transfer rate
+- temperature: Hot side [temperature]
+- temperature: Cold side [temperature]
+- area: Cross-sectional [area]
+- dimensionless: Thermal resistance 1
+- dimensionless: Thermal resistance 2

@@ -1,0 +1,14 @@
+name: Gravitational potential at surface
+id: gravitational_potential_surface
+topic: newtonian_gravity
+difficulty: 3
+equation: energy eq neg (gravitational_constant mul mass
+  frac length )
+symbol_overrides:
+- energy: "\\Phi"
+- mass: M
+- length: R
+name_overrides:
+- energy: Gravitational [potential]
+- mass: Mass [of body]
+- length: Body [radius]

@@ -1,0 +1,18 @@
+name: RC circuit charging
+id: rc_circuit_charging
+topic: circuits
+difficulty: 4
+equation: charge eq charge mul (1 sub exp neg (time frac (resistance
+  mul capacitance ) ) )
+symbol_overrides:
+- charge: q(t)
+- charge: ''
+- time: ''
+- resistance: ''
+- capacitance: ''
+name_overrides:
+- charge: Charge at time t
+- charge: Maximum [charge]
+- time: '[Time]'
+- resistance: '[Resistance]'
+- capacitance: '[Capacitance]'

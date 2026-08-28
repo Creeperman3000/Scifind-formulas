@@ -1,0 +1,13 @@
+name: Limit of a quotient
+id: limit_quotient_rule
+topic: limits
+difficulty: 2
+equation: dimensionless eq dimensionless frac dimensionless
+symbol_overrides:
+- dimensionless: lim(f/g)
+- dimensionless: lim f
+- dimensionless: lim g
+name_overrides:
+- dimensionless: Limit of f(x)/g(x)
+- dimensionless: Limit of f(x)
+- dimensionless: Limit of g(x)

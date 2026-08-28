@@ -1,0 +1,13 @@
+name: Entropy change of surroundings at constant pressure
+id: entropy_surroundings_constant_pressure
+topic: second_law
+difficulty: 3
+equation: entropy eq neg energy frac temperature
+symbol_overrides:
+- entropy: "\\Delta S_{\\text{surr}}"
+- energy: "\\Delta H"
+- temperature: ''
+name_overrides:
+- entropy: '[Entropy] change of surroundings'
+- energy: '[Enthalpy] change of system'
+- temperature: ''

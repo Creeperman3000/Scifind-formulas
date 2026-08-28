@@ -1,0 +1,13 @@
+name: Pressure from force and area
+id: pressure_force_area_definition
+topic: pressure
+difficulty: 1
+equation: pressure eq force frac area
+name_overrides:
+- pressure: '[Pressure]'
+- force: Normal [force]
+- area: '[Area]'
+symbol_overrides:
+- pressure: ''
+- force: ''
+- area: ''

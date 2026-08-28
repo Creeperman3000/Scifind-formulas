@@ -1,0 +1,15 @@
+name: Velocity-squared relation at constant acceleration
+id: constant_acceleration_velocity_squared_formula
+topic: constant_acceleration
+difficulty: 1
+equation: velocity pow 2 eq velocity pow 2 add 2 mul (acceleration mul length )
+symbol_overrides:
+- velocity: ''
+- velocity: u
+- acceleration: ''
+- length: s
+name_overrides:
+- velocity: Final [velocity]
+- velocity: Initial [velocity]
+- acceleration: '[Acceleration]'
+- length: '[Displacement]'

@@ -1,0 +1,16 @@
+name: Derivative of secant
+id: derivative_sec
+topic: derivatives
+difficulty: 2
+equation: rmd (1 frac cos angle ) eq 1 frac cos
+  angle mul (sin angle frac cos angle )
+symbol_overrides:
+- angle: x
+- angle: x
+- angle: x
+- angle: x
+name_overrides:
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

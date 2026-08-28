@@ -1,0 +1,16 @@
+name: Electric field inside a uniformly charged sphere
+id: electric_field_charged_sphere_inside
+topic: electrostatics
+difficulty: 4
+equation: electric_field_strength eq coulomb_constant mul charge mul
+  length frac length pow 3
+symbol_overrides:
+- electric_field_strength: ''
+- charge: ''
+- length: r
+- length: R
+name_overrides:
+- electric_field_strength: Electric [field] inside sphere
+- charge: '[Charge]'
+- length: Distance from center
+- length: Sphere [radius]

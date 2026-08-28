@@ -1,0 +1,11 @@
+name: Boltzmann's entropy formula
+id: boltzmann_entropy_formula
+topic: entropy
+difficulty: 4
+equation: entropy eq boltzmann_constant mul ln dimensionless
+symbol_overrides:
+- entropy: S
+- dimensionless: \Omega
+name_overrides:
+- entropy: '[Entropy]'
+- dimensionless: Number of microstates

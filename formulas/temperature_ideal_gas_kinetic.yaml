@@ -1,0 +1,11 @@
+name: Temperature from average kinetic energy
+id: temperature_ideal_gas_kinetic
+topic: temperature
+difficulty: 3
+equation: temperature eq 2 mul energy frac (3 mul boltzmann_constant )
+symbol_overrides:
+- temperature: ''
+- energy: KE_{\mathrm{avg}}
+name_overrides:
+- temperature: '[Temperature]'
+- energy: Average kinetic [energy] per molecule

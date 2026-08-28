@@ -1,0 +1,13 @@
+name: Factorial definition
+id: factorial_definition
+topic: arithmetic
+difficulty: 1
+equation: dimensionless eq dimensionless mul dimensionless
+symbol_overrides:
+- dimensionless: n!
+- dimensionless: n
+- dimensionless: (n-1)!
+name_overrides:
+- dimensionless: n factorial
+- dimensionless: n
+- dimensionless: (n minus 1) factorial

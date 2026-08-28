@@ -1,0 +1,15 @@
+name: Gibbs free energy under non-standard conditions
+id: gibbs_nonstandard
+topic: chemical_equilibrium
+difficulty: 3
+equation: energy eq energy add gas_constant mul temperature mul ln dimensionless
+symbol_overrides:
+- energy: "\\Delta G"
+- energy: "\\Delta G^{\\circ}"
+- temperature: T
+- dimensionless: Q
+name_overrides:
+- energy: Gibbs free [energy] change
+- energy: Standard Gibbs [energy] change
+- temperature: '[Temperature]'
+- dimensionless: Reaction quotient

@@ -1,0 +1,15 @@
+name: Parametric form of a line
+id: parametric_line_equation
+topic: equations
+difficulty: 2
+equation: length eq length add length mul dimensionless
+symbol_overrides:
+- length: x
+- length: x_0
+- length: a
+- dimensionless: t
+name_overrides:
+- length: x-coordinate
+- length: Initial x
+- length: Direction x-component
+- dimensionless: Parameter

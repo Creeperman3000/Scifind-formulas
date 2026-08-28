@@ -1,0 +1,13 @@
+name: Work done by a gas
+id: work_by_gas
+topic: first_law
+difficulty: 2
+equation: (energy) eq ((pressure) mul (Delta volume))
+name_overrides:
+- energy: '[Work]'
+- pressure: Constant [pressure]
+- volume: '[Volume] change'
+symbol_overrides:
+- energy: W
+- pressure: P
+- volume: \Delta V

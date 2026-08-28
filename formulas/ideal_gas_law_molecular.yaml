@@ -1,0 +1,15 @@
+name: Ideal gas law (molecular form)
+id: ideal_gas_law_molecular
+topic: ideal_gases
+difficulty: 2
+equation: pressure mul volume eq dimensionless mul boltzmann_constant mul temperature
+symbol_overrides:
+- pressure: P
+- volume: V
+- dimensionless: N
+- temperature: T
+name_overrides:
+- pressure: ''
+- volume: ''
+- dimensionless: ''
+- temperature: ''

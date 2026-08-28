@@ -1,0 +1,18 @@
+name: Capillary rise
+id: capillary_rise
+topic: surface_tension
+difficulty: 3
+equation: length eq 2 mul (surface_tension mul cos angle ) frac
+  (density mul standard_gravity mul length )
+symbol_overrides:
+- length: h
+- surface_tension: "\\gamma"
+- angle: "\\theta"
+- density: "\\rho"
+- length: r
+name_overrides:
+- length: Height
+- surface_tension: ''
+- angle: Contact angle
+- density: ''
+- length: Tube radius

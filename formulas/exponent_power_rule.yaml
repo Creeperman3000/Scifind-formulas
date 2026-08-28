@@ -1,0 +1,20 @@
+name: Exponent power rule
+id: exponent_power_rule
+topic: exponents
+difficulty: 1
+equation: (dimensionless pow dimensionless ) pow dimensionless eq dimensionless
+  pow (dimensionless mul dimensionless )
+symbol_overrides:
+- dimensionless: a
+- dimensionless: m
+- dimensionless: n
+- dimensionless: a
+- dimensionless: m
+- dimensionless: n
+name_overrides:
+- dimensionless: a
+- dimensionless: Inner exponent m
+- dimensionless: Outer exponent n
+- dimensionless: a
+- dimensionless: ''
+- dimensionless: ''

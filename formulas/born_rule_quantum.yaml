@@ -1,0 +1,11 @@
+name: Born rule for probability density
+id: born_rule_quantum
+topic: quantum_mechanics
+difficulty: 3
+equation: dimensionless eq dimensionless
+symbol_overrides:
+- dimensionless: P(x)
+- dimensionless: '|\psi(x)|^2'
+name_overrides:
+- dimensionless: Probability density
+- dimensionless: Magnitude-squared wavefunction

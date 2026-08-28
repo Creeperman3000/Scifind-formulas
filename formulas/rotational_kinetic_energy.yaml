@@ -1,0 +1,14 @@
+name: Rotational kinetic energy
+id: rotational_kinetic_energy
+topic: rotational_energy
+difficulty: 2
+equation: energy eq moment_of_inertia mul angular_velocity pow 2 frac
+  2
+symbol_overrides:
+- energy: E_{k,rot}
+- moment_of_inertia: I
+- angular_velocity: "\\omega"
+name_overrides:
+- energy: Rotational kinetic [energy]
+- moment_of_inertia: ''
+- angular_velocity: ''

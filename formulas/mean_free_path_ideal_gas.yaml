@@ -1,0 +1,16 @@
+name: Mean free path of an ideal gas molecule
+id: mean_free_path_ideal_gas
+topic: ideal_gases
+difficulty: 4
+equation: length eq boltzmann_constant mul temperature frac (sqrt 2 mul
+  pi mul length pow 2 mul pressure )
+symbol_overrides:
+- length: "\\lambda"
+- temperature: T
+- length: d
+- pressure: P
+name_overrides:
+- length: Mean free path
+- temperature: Temperature
+- length: Molecular diameter
+- pressure: '[Pressure]'

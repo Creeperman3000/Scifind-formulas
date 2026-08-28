@@ -1,0 +1,11 @@
+name: Integral of tan x
+id: integral_tan
+topic: integrals
+difficulty: 3
+equation: dimensionless eq neg ln cos angle
+symbol_overrides:
+- dimensionless: "\\int\\tan x\\,\\mathrm{d}x"
+- angle: x
+name_overrides:
+- dimensionless: Integral of tangent
+- angle: '[Variable]'

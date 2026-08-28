@@ -1,0 +1,11 @@
+name: De Broglie wavelength
+id: de_broglie_wavelength
+topic: quantum_mechanics
+difficulty: 3
+equation: length eq planck_constant frac momentum
+symbol_overrides:
+- length: "\\lambda"
+- momentum: ''
+name_overrides:
+- length: Wavelength
+- momentum: ''

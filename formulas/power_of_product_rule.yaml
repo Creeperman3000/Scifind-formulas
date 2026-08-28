@@ -1,0 +1,21 @@
+name: Power of a product
+id: power_of_product_rule
+topic: exponents
+difficulty: 2
+equation: (((dimensionless) mul (dimensionless)) pow dimensionless) eq (((dimensionless) pow (dimensionless)) mul ((dimensionless) pow (dimensionless)))
+symbol_overrides:
+- dimensionless: a
+- dimensionless: b
+- dimensionless: n
+- dimensionless: a
+- dimensionless: n
+- dimensionless: b
+- dimensionless: n
+name_overrides:
+- dimensionless: Base a
+- dimensionless: Base b
+- dimensionless: Exponent n
+- dimensionless: Base a
+- dimensionless: Exponent n
+- dimensionless: Base b
+- dimensionless: Exponent n

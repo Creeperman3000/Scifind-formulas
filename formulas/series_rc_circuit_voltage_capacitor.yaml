@@ -1,0 +1,18 @@
+name: Voltage across capacitor in RC circuit (discharging)
+id: series_rc_circuit_voltage_capacitor
+topic: circuits
+difficulty: 3
+equation: electric_potential eq electric_potential mul exp neg (time
+  frac (resistance mul capacitance ) )
+symbol_overrides:
+- electric_potential: V(t)
+- electric_potential: V_0
+- time: ''
+- resistance: ''
+- capacitance: ''
+name_overrides:
+- electric_potential: Voltage at time t
+- electric_potential: Initial voltage
+- time: ''
+- resistance: ''
+- capacitance: ''

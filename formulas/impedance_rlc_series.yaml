@@ -1,0 +1,16 @@
+name: Impedance of a series RLC circuit
+id: impedance_rlc_series
+topic: circuits
+difficulty: 3
+equation: resistance eq sqrt (resistance pow 2 add (resistance sub resistance ) pow
+  2 )
+symbol_overrides:
+- resistance: Z
+- resistance: R
+- resistance: X_L
+- resistance: X_C
+name_overrides:
+- resistance: '[Impedance]'
+- resistance: '[Resistance]'
+- resistance: Inductive reactance
+- resistance: Capacitive reactance

@@ -1,0 +1,15 @@
+name: Degree of unsaturation
+id: degree_of_unsaturation
+topic: organic_chemistry
+difficulty: 2
+equation: (dimensionless) eq (((((2 mul dimensionless) add (dimensionless)) sub (dimensionless)) add 2) div 2)
+symbol_overrides:
+- dimensionless: DU
+- dimensionless: C
+- dimensionless: N
+- dimensionless: H
+name_overrides:
+- dimensionless: Degree of unsaturation
+- dimensionless: Number of carbons
+- dimensionless: Number of nitrogens
+- dimensionless: Number of hydrogens

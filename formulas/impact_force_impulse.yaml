@@ -1,0 +1,13 @@
+name: Average impact force from momentum change
+id: impact_force_impulse
+topic: collisions
+difficulty: 2
+equation: force eq Delta momentum frac time
+symbol_overrides:
+- force: F_{\mathrm{avg}}
+- momentum: \Delta p
+- time: \Delta t
+name_overrides:
+- force: Average [force]
+- momentum: Change in [momentum]
+- time: Collision time

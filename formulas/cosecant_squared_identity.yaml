@@ -1,0 +1,13 @@
+name: Cosecant Squared Identity
+id: cosecant_squared_identity
+topic: trigonometric_identities
+difficulty: 2
+equation: dimensionless eq 1 add (cos angle frac sin angle ) pow 2
+symbol_overrides:
+- dimensionless: "\\csc^2\\theta"
+- angle: "\\theta"
+- angle: "\\theta"
+name_overrides:
+- dimensionless: Cosecant squared
+- angle: Angle θ
+- angle: ''

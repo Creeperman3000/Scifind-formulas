@@ -1,0 +1,19 @@
+name: Ampere-Maxwell law
+id: amphere_maxwell_law
+topic: magnetism
+difficulty: 4
+equation: ((length mul magnetic_flux_density) eq (vacuum_permeability mul (current add ((vacuum_permittivity mul area mul electric_field_strength) div time))))
+symbol_overrides:
+- length: l
+- magnetic_flux_density: B
+- current: I_{enc}
+- area: A
+- electric_field_strength: E
+- time: \Delta t
+name_overrides:
+- length: Path length
+- magnetic_flux_density: Magnetic field
+- current: Enclosed current
+- area: Loop area
+- electric_field_strength: Electric field
+- time: Time interval

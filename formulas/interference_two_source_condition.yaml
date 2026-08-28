@@ -1,0 +1,13 @@
+name: Two-source interference condition
+id: interference_two_source_condition
+topic: interference
+difficulty: 2
+equation: length eq dimensionless mul length
+symbol_overrides:
+- length: "\\Delta L"
+- dimensionless: m
+- length: "\\lambda"
+name_overrides:
+- length: Path [difference]
+- dimensionless: Order number
+- length: Wavelength

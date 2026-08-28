@@ -1,0 +1,17 @@
+name: Circumradius of a triangle
+id: triangle_circumradius
+topic: triangles
+difficulty: 2
+equation: length eq length mul length mul length frac (4 mul area )
+symbol_overrides:
+- length: R
+- length: a
+- length: b
+- length: c
+- area: A
+name_overrides:
+- length: Circumradius
+- length: Side a
+- length: Side b
+- length: Side c
+- area: Triangle area

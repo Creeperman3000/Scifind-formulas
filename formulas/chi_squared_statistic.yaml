@@ -1,0 +1,21 @@
+name: Chi-squared statistic
+id: chi_squared_statistic
+topic: statistics
+difficulty: 3
+equation: (dimensionless) eq ((((dimensionless sub dimensionless) pow 2) frac (dimensionless)) add (((dimensionless sub dimensionless) pow 2) frac (dimensionless)))
+symbol_overrides:
+- dimensionless: \chi^2
+- dimensionless: O_1
+- dimensionless: E_1
+- dimensionless: E_1
+- dimensionless: O_2
+- dimensionless: E_2
+- dimensionless: E_2
+name_overrides:
+- dimensionless: Chi-squared statistic
+- dimensionless: Observed 1
+- dimensionless: Expected 1
+- dimensionless: ''
+- dimensionless: Observed 2
+- dimensionless: Expected 2
+- dimensionless: ''

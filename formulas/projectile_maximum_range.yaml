@@ -1,0 +1,11 @@
+name: Maximum range of projectile
+id: projectile_maximum_range
+topic: projectile_motion
+difficulty: 2
+equation: length eq velocity pow 2 frac standard_gravity
+symbol_overrides:
+- length: R_{\mathrm{max}}
+- velocity: v_0
+name_overrides:
+- length: Maximum [range]
+- velocity: Initial [velocity]

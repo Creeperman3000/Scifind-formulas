@@ -1,0 +1,13 @@
+name: Horizontal velocity of a projectile
+id: projectile_horizontal_velocity
+topic: projectile_motion
+difficulty: 1
+equation: velocity eq velocity mul cos angle
+symbol_overrides:
+- velocity: v_x
+- velocity: v_0
+- angle: "\\theta"
+name_overrides:
+- velocity: Horizontal [velocity]
+- velocity: Initial [velocity]
+- angle: Launch angle

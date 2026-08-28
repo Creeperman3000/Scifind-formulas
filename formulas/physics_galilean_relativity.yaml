@@ -1,0 +1,13 @@
+name: Galilean velocity addition
+id: physics_galilean_relativity
+topic: relativity
+difficulty: 1
+equation: velocity eq velocity add velocity
+symbol_overrides:
+- velocity: v_{\mathrm{AB}}
+- velocity: v_{\mathrm{AC}}
+- velocity: v_{\mathrm{CB}}
+name_overrides:
+- velocity: Velocity of A relative to B
+- velocity: Velocity of A relative to C
+- velocity: Velocity of C relative to B

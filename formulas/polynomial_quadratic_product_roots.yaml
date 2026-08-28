@@ -1,0 +1,13 @@
+name: Product of roots of a quadratic
+id: polynomial_quadratic_product_roots
+topic: polynomials
+difficulty: 2
+equation: dimensionless eq dimensionless frac dimensionless
+symbol_overrides:
+- dimensionless: "\\alpha\\beta"
+- dimensionless: c
+- dimensionless: a
+name_overrides:
+- dimensionless: Product of roots
+- dimensionless: Constant term c
+- dimensionless: Coefficient a
