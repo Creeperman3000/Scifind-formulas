@@ -1,8 +1,8 @@
 name: Doppler effect with source approaching
 id: doppler_effect_approaching
 topic: mechanical_waves
-difficulty: 6
-equation: frequency eq frequency mul velocity frac velocity sub velocity
+difficulty: 3
+equation: frequency eq frequency mul velocity div velocity sub velocity
 symbol_overrides:
 - frequency: f'
 - frequency: f

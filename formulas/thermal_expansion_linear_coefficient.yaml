@@ -1,8 +1,8 @@
 name: Linear expansion coefficient
 id: thermal_expansion_linear_coefficient
 topic: temperature
-difficulty: 5
-equation: coefficient_of_linear_expansion eq length frac length mul temperature
+difficulty: 2
+equation: coefficient_of_linear_expansion eq length div length mul temperature
 symbol_overrides:
 - coefficient_of_linear_expansion: α
 - length: ΔL

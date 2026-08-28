@@ -1,7 +1,7 @@
 name: Standard deviation
 id: standard_deviation
 topic: statistics
-difficulty: 5
+difficulty: 2
 equation: dimensionless eq sqrt dimensionless 2
 symbol_overrides:
 - dimensionless: σ

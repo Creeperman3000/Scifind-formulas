@@ -1,10 +1,10 @@
 name: Springs in parallel
 id: springs_in_parallel
 topic: springs
-difficulty: 5
+difficulty: 1
 equation: spring_constant eq spring_constant add spring_constant
 symbol_overrides:
-- spring_constant: k_{eq}
+- spring_constant: k_eq
 - spring_constant: k_1
 - spring_constant: k_2
 name_overrides:

@@ -1,13 +1,13 @@
 name: Conservation of mechanical energy
 id: conservation_of_mechanical_energy
 topic: conservation_of_energy
-difficulty: 5
+difficulty: 2
 equation: energy add energy eq energy add energy
 symbol_overrides:
-- energy: E_{k1}
-- energy: E_{p1}
-- energy: E_{k2}
-- energy: E_{p2}
+- energy: E_k1
+- energy: E_p1
+- energy: E_k2
+- energy: E_p2
 name_overrides:
 - energy: Initial kinetic [energy]
 - energy: Initial potential [energy]

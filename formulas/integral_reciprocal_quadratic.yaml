@@ -1,9 +1,9 @@
 name: Integral of 1/(a²+x²)
 id: integral_reciprocal_quadratic
 topic: integrals
-difficulty: 8
-equation: dimensionless eq dimensionless frac (dimensionless) mul atan (dimensionless
-  frac dimensionless )
+difficulty: 3
+equation: dimensionless eq dimensionless div (dimensionless) mul atan (dimensionless
+  div dimensionless )
 symbol_overrides:
 - dimensionless: ∫dx/(a²+x²)
 - dimensionless: '1'

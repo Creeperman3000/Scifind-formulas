@@ -1,7 +1,7 @@
 name: Activity from decay constant
 id: activity_from_decay_constant
 topic: nuclear_physics
-difficulty: 7
+difficulty: 2
 equation: activity eq amount mul amount
 symbol_overrides:
 - activity: ''

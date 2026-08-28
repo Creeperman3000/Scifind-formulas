@@ -1,7 +1,7 @@
 name: Variance shortcut formula
 id: variance_shortcut
 topic: statistics
-difficulty: 7
+difficulty: 2
 equation: dimensionless eq dimensionless sub dimensionless pow 2
 symbol_overrides:
 - dimensionless: Var(X)

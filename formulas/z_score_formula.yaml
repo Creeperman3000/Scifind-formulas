@@ -1,8 +1,8 @@
 name: Z-score
 id: z_score_formula
 topic: statistics
-difficulty: 6
-equation: dimensionless eq (dimensionless sub dimensionless ) frac dimensionless
+difficulty: 2
+equation: dimensionless eq (dimensionless sub dimensionless ) div dimensionless
 symbol_overrides:
 - dimensionless: z
 - dimensionless: x

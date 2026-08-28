@@ -1,7 +1,7 @@
 name: Addition rule for probability
 id: probability_addition_rule
 topic: probability
-difficulty: 5
+difficulty: 2
 equation: dimensionless eq dimensionless add (dimensionless) sub dimensionless mul
   dimensionless
 symbol_overrides:

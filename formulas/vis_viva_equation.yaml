@@ -1,9 +1,9 @@
 name: Vis-viva equation
 id: vis_viva_equation
 topic: orbital_motion
-difficulty: 9
-equation: velocity pow 2 eq gravitational_constant mul (mass) mul dimensionless frac
-  (length) sub 1 frac length
+difficulty: 4
+equation: velocity pow 2 eq gravitational_constant mul (mass) mul dimensionless div
+  (length) sub 1 div length
 symbol_overrides:
 - velocity: ''
 - mass: M

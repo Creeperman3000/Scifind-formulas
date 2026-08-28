@@ -1,7 +1,7 @@
 name: Derivative constant multiple rule
 id: derivative_constant_multiple_rule
 topic: derivatives
-difficulty: 5
+difficulty: 1
 equation: dimensionless mul dimensionless mul dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: d/dx

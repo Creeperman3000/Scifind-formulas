@@ -1,10 +1,10 @@
 name: Solubility product for AB-type salt
 id: solubility_product_ab
 topic: solutions
-difficulty: 7
+difficulty: 2
 equation: equilibrium_constant eq concentration mul concentration
 symbol_overrides:
-- equilibrium_constant: K_{sp}
+- equilibrium_constant: K_sp
 - concentration: '[A⁺]'
 - concentration: '[B⁻]'
 name_overrides:

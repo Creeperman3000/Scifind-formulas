@@ -1,10 +1,10 @@
 name: Maximum acceleration in SHM
 id: shm_max_acceleration
 topic: harmonic_motion
-difficulty: 6
+difficulty: 2
 equation: acceleration eq (angular_velocity pow 2) mul length
 symbol_overrides:
-- acceleration: a_{max}
+- acceleration: a_max
 - angular_velocity: ω
 - length: A
 name_overrides:

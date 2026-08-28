@@ -1,8 +1,8 @@
 name: Faraday's law with N turns
 id: induced_emf_faraday_flux_change_rate
 topic: electromagnetic_induction
-difficulty: 7
-equation: electromagnetic_induction eq drop (dimensionless mul magnetic_flux frac Delta
+difficulty: 2
+equation: electromagnetic_induction eq drop (dimensionless mul magnetic_flux div Delta
   time) sub
 symbol_overrides:
 - electromagnetic_induction: ε

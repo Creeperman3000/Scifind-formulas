@@ -1,7 +1,7 @@
 name: Normal force on an inclined plane
 id: force_inclined_plane_normal
 topic: forces
-difficulty: 5
+difficulty: 2
 equation: force eq mass mul (standard_gravity) mul cos angle
 symbol_overrides:
 - force: N

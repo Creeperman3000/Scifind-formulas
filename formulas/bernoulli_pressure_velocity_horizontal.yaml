@@ -1,8 +1,8 @@
 name: 'Bernoulli: pressure-velocity relation (horizontal)'
 id: bernoulli_pressure_velocity_horizontal
 topic: bernoulli_equation
-difficulty: 7
-equation: pressure eq density mul (velocity pow 2) frac 2
+difficulty: 2
+equation: pressure eq density mul (velocity pow 2) div 2
 symbol_overrides:
 - pressure: P_1
 - density: ρ

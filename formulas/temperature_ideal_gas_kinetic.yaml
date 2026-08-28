@@ -1,10 +1,8 @@
 name: Temperature from average kinetic energy
 id: temperature_ideal_gas_kinetic
 topic: temperature
-difficulty: 7
-description: Valid for an ideal gas; relates absolute temperature to average translational
-  kinetic energy per molecule.
-equation: temperature eq (2 mul energy) frac (3 mul boltzmann_constant )
+difficulty: 3
+equation: temperature eq (energy mul 2) div boltzmann_constant mul 3
 symbol_overrides:
 - temperature: T
 - energy: \langle\mathrm{KE}\rangle

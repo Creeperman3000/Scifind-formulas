@@ -1,10 +1,10 @@
 name: Escape kinetic energy
 id: escape_kinetic_energy
 topic: escape_velocity
-difficulty: 6
-equation: energy eq gravitational_constant mul (mass) mul (mass) frac length
+difficulty: 3
+equation: energy eq gravitational_constant mul (mass) mul (mass) div length
 symbol_overrides:
-- energy: E_{esc}
+- energy: E_esc
 - mass: M
 - mass: ''
 - length: r

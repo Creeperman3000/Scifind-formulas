@@ -1,9 +1,8 @@
 name: Spring potential energy
 id: spring_potential_energy_definition
 topic: potential_energy
-difficulty: 5
-description: "Valid for an ideal spring obeying Hooke's law (linear regime); U = ½kx²."
-equation: energy eq spring_constant mul (length pow 2) frac 2
+difficulty: 1
+equation: energy eq spring_constant mul (length pow 2) div 2
 symbol_overrides:
 - energy: U
 - spring_constant: ''

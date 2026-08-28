@@ -1,8 +1,8 @@
 name: Displacement using final velocity
 id: displacement_with_final_velocity
 topic: constant_acceleration
-difficulty: 4
-equation: length eq velocity mul (time) sub acceleration mul (time pow 2) frac 2
+difficulty: 2
+equation: length eq velocity mul (time) sub acceleration mul (time pow 2) div 2
 symbol_overrides:
 - length: s
 - velocity: ''

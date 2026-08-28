@@ -1,8 +1,8 @@
 name: Resonance bandwidth
 id: resonance_bandwidth
 topic: circuits
-difficulty: 8
-equation: frequency eq frequency frac dimensionless
+difficulty: 4
+equation: frequency eq frequency div dimensionless
 symbol_overrides:
 - frequency: Δf
 - frequency: f₀

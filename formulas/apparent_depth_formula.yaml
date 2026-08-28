@@ -1,8 +1,8 @@
 name: Apparent depth formula
 id: apparent_depth_formula
 topic: refraction
-difficulty: 6
-equation: length eq length frac refractive_index
+difficulty: 2
+equation: length eq length div refractive_index
 symbol_overrides:
 - length: d'
 - length: d

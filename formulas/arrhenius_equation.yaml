@@ -1,8 +1,8 @@
 name: Arrhenius equation
 id: arrhenius_equation
 topic: chemical_kinetics
-difficulty: 7
-equation: frequency eq frequency mul exp (drop (molar_energy frac gas_constant mul
+difficulty: 4
+equation: frequency eq frequency mul exp (drop (molar_energy div gas_constant mul
   temperature) sub)
 symbol_overrides:
 - frequency: k

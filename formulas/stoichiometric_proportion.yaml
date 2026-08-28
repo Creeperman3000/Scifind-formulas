@@ -1,8 +1,8 @@
 name: Stoichiometric proportion for a reaction
 id: stoichiometric_proportion
 topic: chemical_reactions
-difficulty: 5
-equation: amount frac dimensionless eq amount frac dimensionless
+difficulty: 2
+equation: amount div dimensionless eq amount div dimensionless
 symbol_overrides:
 - amount: n_A
 - dimensionless: ν_A

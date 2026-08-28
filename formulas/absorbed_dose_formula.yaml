@@ -1,13 +1,13 @@
 name: Absorbed dose
 id: absorbed_dose_formula
 topic: nuclear_physics
-difficulty: 7
-equation: absorbed_dose eq energy frac mass
+difficulty: 2
+equation: absorbed_dose eq energy div mass
 symbol_overrides:
 - absorbed_dose: ''
 - energy: ''
 - mass: ''
 name_overrides:
-- absorbed_dose: ''
+- absorbed_dose: Absorbed [dose]
 - energy: ''
 - mass: ''

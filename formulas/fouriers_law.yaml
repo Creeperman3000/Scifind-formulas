@@ -1,8 +1,8 @@
 name: Heat conduction (Fourier's law)
 id: fouriers_law
 topic: heat_transfer
-difficulty: 7
-equation: power eq thermal_conductivity mul (area) mul temperature frac length
+difficulty: 4
+equation: power eq thermal_conductivity mul (area) mul temperature div length
 symbol_overrides:
 - power: Φ
 - thermal_conductivity: ''

@@ -1,7 +1,7 @@
 name: Exponential growth differential equation
 id: exponential_growth_diff_eq
 topic: differential_equations
-difficulty: 7
+difficulty: 2
 equation: dimensionless eq amount mul frequency
 symbol_overrides:
 - dimensionless: dN/dt

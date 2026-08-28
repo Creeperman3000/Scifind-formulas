@@ -1,8 +1,8 @@
 name: Angular wavenumber from wavelength
 id: angular_wavenumber
 topic: mechanical_waves
-difficulty: 7
-equation: wavenumber eq (pi mul 2) frac length
+difficulty: 2
+equation: wavenumber eq (pi mul 2) div length
 symbol_overrides:
 - wavenumber: ''
 - length: λ

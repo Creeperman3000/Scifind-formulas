@@ -1,7 +1,7 @@
 name: Position in simple harmonic motion
 id: shm_position
 topic: harmonic_motion
-difficulty: 6
+difficulty: 3
 equation: length eq length mul cos (angular_velocity mul time )
 symbol_overrides:
 - length: ''

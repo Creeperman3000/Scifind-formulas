@@ -1,7 +1,7 @@
 name: Magnetic flux linkage
 id: electromagnetic_induction_flux_linkage
 topic: electromagnetic_induction
-difficulty: 7
+difficulty: 2
 equation: magnetic_flux eq magnetic_flux mul dimensionless
 symbol_overrides:
 - magnetic_flux: Λ

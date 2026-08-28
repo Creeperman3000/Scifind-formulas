@@ -1,8 +1,8 @@
 name: Clausius inequality
 id: clausius_inequality
 topic: second_law
-difficulty: 9
-equation: entropy geq energy frac temperature
+difficulty: 4
+equation: entropy geq energy div temperature
 symbol_overrides:
 - entropy: dS
 - energy: δQ

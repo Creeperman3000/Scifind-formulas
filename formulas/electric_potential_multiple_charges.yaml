@@ -1,7 +1,7 @@
 name: Electric potential from multiple point charges
 id: electric_potential_multiple_charges
 topic: electric_potential
-difficulty: 7
+difficulty: 3
 equation: electric_potential eq coulomb_constant mul sum drop drop (charge frac length)
 symbol_overrides:
 - electric_potential: ''

@@ -1,7 +1,7 @@
 name: Henry's law constant definition
 id: solutions_henrys_law_constant
 topic: solutions
-difficulty: 7
+difficulty: 2
 equation: concentration eq concentration mul pressure
 symbol_overrides:
 - concentration: k_H

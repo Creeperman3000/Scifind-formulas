@@ -1,8 +1,8 @@
 name: Odds from probability
 id: odds_formula
 topic: probability
-difficulty: 4
-equation: dimensionless eq dimensionless frac dimensionless sub dimensionless
+difficulty: 1
+equation: dimensionless eq dimensionless div dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: odds
 - dimensionless: p

@@ -1,8 +1,8 @@
 name: Kepler's first law of planetary motion
 id: keplers_first_law
 topic: orbital_motion
-difficulty: 6
-equation: length eq length mul (dimensionless sub dimensionless pow 2 ) frac dimensionless
+difficulty: 3
+equation: length eq length mul (dimensionless sub dimensionless pow 2 ) div dimensionless
   add dimensionless mul cos angle
 symbol_overrides:
 - length: r

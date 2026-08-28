@@ -1,7 +1,7 @@
 name: Osmotic pressure
 id: osmotic_pressure
 topic: solutions
-difficulty: 7
+difficulty: 3
 equation: pressure eq dimensionless mul concentration mul (gas_constant) mul temperature
 symbol_overrides:
 - pressure: Π

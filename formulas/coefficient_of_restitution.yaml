@@ -1,9 +1,8 @@
 name: Coefficient of restitution
 id: coefficient_of_restitution
 topic: collisions
-difficulty: 6
-description: "Valid for two-body collisions; e = 1 (elastic), 0 < e < 1 (inelastic), e = 0 (perfectly inelastic)."
-equation: coefficient_of_friction eq (velocity sub velocity ) frac velocity sub velocity
+difficulty: 2
+equation: coefficient_of_friction eq (velocity sub velocity ) div velocity sub velocity
 symbol_overrides:
 - coefficient_of_friction: e
 - velocity: v'_2

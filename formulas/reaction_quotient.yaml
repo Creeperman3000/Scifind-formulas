@@ -1,9 +1,9 @@
 name: Reaction quotient
 id: reaction_quotient
 topic: chemical_equilibrium
-difficulty: 7
+difficulty: 3
 equation: equilibrium_constant eq concentration pow (dimensionless) mul (concentration)
-  pow (dimensionless) frac concentration pow (dimensionless) mul concentration pow
+  pow (dimensionless) div concentration pow (dimensionless) mul concentration pow
   dimensionless
 symbol_overrides:
 - equilibrium_constant: Q

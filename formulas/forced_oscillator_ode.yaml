@@ -1,7 +1,7 @@
 name: Forced damped harmonic oscillator ODE
 id: forced_oscillator_ode
 topic: differential_equations
-difficulty: 9
+difficulty: 4
 equation: rmd rmd dimensionless add rmd dimensionless add (angular_velocity pow 2)
   mul length eq force mul cos angle
 symbol_overrides:

@@ -1,7 +1,7 @@
 name: Mass from moles
 id: mass_from_moles
 topic: mole_concept
-difficulty: 4
+difficulty: 1
 equation: mass eq amount mul molar_mass
 name_overrides:
 - mass: '[Mass]'

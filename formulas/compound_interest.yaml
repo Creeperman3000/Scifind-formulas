@@ -1,8 +1,8 @@
 name: Compound interest future value
 id: compound_interest
 topic: arithmetic
-difficulty: 5
-equation: dimensionless eq dimensionless mul (dimensionless add dimensionless frac
+difficulty: 2
+equation: dimensionless eq dimensionless mul (dimensionless add dimensionless div
   dimensionless ) pow dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A

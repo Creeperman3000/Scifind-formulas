@@ -1,8 +1,8 @@
 name: Conditional probability
 id: conditional_probability
 topic: probability
-difficulty: 6
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 2
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: P(A|B)
 - dimensionless: P(A∩B)

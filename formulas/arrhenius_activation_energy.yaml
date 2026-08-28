@@ -1,10 +1,9 @@
 name: Arrhenius activation energy from two temperatures
 id: arrhenius_activation_energy
 topic: chemical_kinetics
-difficulty: 8
-description: "Activation energy from rate constants at two temperatures; E_a = R ln(k₂/k₁) / (1/T₁ − 1/T₂)."
-equation: energy eq gas_constant mul temperature mul (temperature) frac (temperature
-  sub temperature) mul log euler_e (frequency frac frequency)
+difficulty: 4
+equation: energy eq gas_constant mul temperature mul (temperature) div (temperature
+  sub temperature) mul log euler_e (frequency div frequency)
 symbol_overrides:
 - energy: E_a
 - temperature: T₁

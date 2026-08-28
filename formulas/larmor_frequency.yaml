@@ -1,7 +1,7 @@
 name: Larmor precession frequency
 id: larmor_frequency
 topic: magnetism
-difficulty: 9
+difficulty: 4
 equation: angular_velocity eq dimensionless mul magnetic_flux_density
 symbol_overrides:
 - angular_velocity: ω_L

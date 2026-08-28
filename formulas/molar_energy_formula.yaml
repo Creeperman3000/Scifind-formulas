@@ -1,8 +1,8 @@
 name: Molar energy
 id: molar_energy_formula
 topic: thermochemistry
-difficulty: 7
-equation: molar_energy eq energy frac amount
+difficulty: 1
+equation: molar_energy eq energy div amount
 symbol_overrides:
 - molar_energy: ''
 - energy: ''

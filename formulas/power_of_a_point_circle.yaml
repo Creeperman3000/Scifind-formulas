@@ -1,7 +1,7 @@
 name: Power of a point theorem
 id: power_of_a_point_circle
 topic: circles
-difficulty: 6
+difficulty: 3
 equation: dimensionless eq length mul length
 symbol_overrides:
 - dimensionless: Pow(P)

@@ -1,8 +1,8 @@
 name: Slope of a line
 id: slope_line
 topic: coordinate_geometry
-difficulty: 3
-equation: reynolds_number eq (length sub length ) frac length sub length
+difficulty: 1
+equation: reynolds_number eq (length sub length ) div length sub length
 symbol_overrides:
 - reynolds_number: m
 - length: y_2

@@ -1,7 +1,7 @@
 name: Hydraulic piston displacement relation
 id: hydraulic_displacement
 topic: pascals_law
-difficulty: 5
+difficulty: 2
 equation: area mul length eq area mul length
 symbol_overrides:
 - area: A_1

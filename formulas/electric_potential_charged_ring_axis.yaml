@@ -1,9 +1,8 @@
 name: Electric potential on axis of a charged ring
 id: electric_potential_charged_ring_axis
 topic: electric_potential
-difficulty: 8
-description: "Valid on the axis of a uniformly charged ring."
-equation: electric_potential eq coulomb_constant mul (charge) frac sqrt ((length pow
+difficulty: 4
+equation: electric_potential eq coulomb_constant mul (charge) div sqrt ((length pow
   2) add length pow 2 ) 2
 symbol_overrides:
 - electric_potential: ''

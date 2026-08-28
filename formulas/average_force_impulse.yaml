@@ -1,10 +1,10 @@
 name: Average force from impulse
 id: average_force_impulse
 topic: impulse
-difficulty: 5
-equation: force eq Delta momentum frac Delta time
+difficulty: 2
+equation: force eq Delta momentum div Delta time
 symbol_overrides:
-- force: F_{avg}
+- force: F_avg
 - momentum: ''
 - time: ''
 name_overrides:

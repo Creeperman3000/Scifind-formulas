@@ -1,8 +1,8 @@
 name: Cosine double angle (cosine form)
 id: trigonometric_cosine_double_angle_alternate
 topic: trigonometric_identities
-difficulty: 5
-equation: cos (angle mul 2) eq (cos angle pow 2) sub 1 sub (cos angle pow 2)
+difficulty: 1
+equation: cos (angle mul 2) eq cos (angle pow 2) sub 1 sub cos (angle pow 2)
 symbol_overrides:
 - angle: ''
 - angle: ''

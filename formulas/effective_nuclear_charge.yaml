@@ -1,10 +1,10 @@
 name: Effective nuclear charge (Slater's rules)
 id: effective_nuclear_charge
 topic: atomic_structure
-difficulty: 8
+difficulty: 2
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
-- dimensionless: Z_{eff}
+- dimensionless: Z_eff
 - dimensionless: Z
 - dimensionless: σ
 name_overrides:

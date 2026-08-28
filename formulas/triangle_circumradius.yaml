@@ -1,8 +1,8 @@
 name: Circumradius of a triangle
 id: triangle_circumradius
 topic: triangles
-difficulty: 6
-equation: length eq (length mul (length) mul (length)) frac (4 mul area )
+difficulty: 2
+equation: length eq length mul (length) mul (length) div area mul 4
 symbol_overrides:
 - length: R
 - length: a

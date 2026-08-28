@@ -1,7 +1,7 @@
 name: Work as dot product of force and displacement
 id: work_force_displacement_general
 topic: work
-difficulty: 6
+difficulty: 1
 equation: energy eq force mul (length) mul cos angle
 symbol_overrides:
 - energy: ''

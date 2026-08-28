@@ -1,8 +1,7 @@
 name: Electrical power from current and resistance (electrical_power_current_resistance)
 id: electrical_power_current_resistance
 topic: power
-difficulty: 5
-description: "Electrical power dissipated in a resistor; P = I² R."
+difficulty: 1
 equation: power eq (current pow 2) mul resistance
 symbol_overrides:
 - power: P

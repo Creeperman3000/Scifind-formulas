@@ -1,7 +1,7 @@
 name: Natural logarithm definition
 id: natural_log_definition
 topic: logarithms
-difficulty: 5
+difficulty: 2
 equation: log euler_e dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: ln(x)

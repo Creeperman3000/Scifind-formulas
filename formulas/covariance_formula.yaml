@@ -1,7 +1,7 @@
 name: Covariance of two variables
 id: covariance_formula
 topic: statistics
-difficulty: 7
+difficulty: 3
 equation: dimensionless eq dimensionless sub dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: Cov(X,Y)

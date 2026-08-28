@@ -1,10 +1,9 @@
 name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
-difficulty: 8
-description: "Valid for thin lenses (paraxial approximation, negligible thickness)."
-equation: dimensionless eq (dimensionless sub dimensionless ) mul dimensionless frac
-  (length) sub dimensionless frac length
+difficulty: 4
+equation: dimensionless eq (dimensionless sub dimensionless ) mul dimensionless div
+  (length) sub dimensionless div length
 symbol_overrides:
 - dimensionless: 1/f
 - dimensionless: n

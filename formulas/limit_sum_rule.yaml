@@ -1,7 +1,7 @@
 name: Limit of a sum
 id: limit_sum_rule
 topic: limits
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: lim(f+g)

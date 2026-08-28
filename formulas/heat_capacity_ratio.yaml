@@ -1,8 +1,8 @@
 name: Heat capacity ratio
 id: heat_capacity_ratio
 topic: ideal_gases
-difficulty: 7
-equation: dimensionless eq specific_heat_capacity frac specific_heat_capacity
+difficulty: 1
+equation: dimensionless eq specific_heat_capacity div specific_heat_capacity
 symbol_overrides:
 - dimensionless: γ
 - specific_heat_capacity: C_p

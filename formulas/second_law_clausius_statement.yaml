@@ -1,7 +1,7 @@
 name: Clausius statement of the second law
 id: second_law_clausius_statement
 topic: second_law
-difficulty: 8
+difficulty: 1
 equation: energy lt 0
 name_overrides:
 - energy: Heat transferred from cold to hot

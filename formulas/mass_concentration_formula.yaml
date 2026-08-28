@@ -1,8 +1,8 @@
 name: Mass concentration
 id: mass_concentration_formula
 topic: solutions
-difficulty: 4
-equation: mass_concentration eq mass frac volume
+difficulty: 1
+equation: mass_concentration eq mass div volume
 symbol_overrides:
 - mass_concentration: ''
 - mass: ''

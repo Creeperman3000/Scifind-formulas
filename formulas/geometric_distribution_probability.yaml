@@ -1,7 +1,7 @@
 name: Geometric Distribution Probability
 id: geometric_distribution_probability
 topic: probability
-difficulty: 7
+difficulty: 3
 equation: dimensionless eq (dimensionless sub dimensionless ) pow (dimensionless sub
   1) mul dimensionless
 symbol_overrides:

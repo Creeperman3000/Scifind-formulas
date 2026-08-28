@@ -1,10 +1,10 @@
 name: Apparent weight in fluid
 id: apparent_weight_fluid
 topic: buoyancy
-difficulty: 6
+difficulty: 2
 equation: force eq force sub force
 symbol_overrides:
-- force: W_{app}
+- force: W_app
 - force: W
 - force: F_b
 name_overrides:

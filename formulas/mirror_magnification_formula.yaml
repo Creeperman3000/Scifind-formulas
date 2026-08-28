@@ -1,8 +1,8 @@
 name: Mirror image magnification
 id: mirror_magnification_formula
 topic: reflection
-difficulty: 5
-equation: dimensionless eq length frac length
+difficulty: 2
+equation: dimensionless eq length div length
 symbol_overrides:
 - dimensionless: m
 - length: q

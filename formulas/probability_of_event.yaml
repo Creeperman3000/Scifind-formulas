@@ -1,8 +1,8 @@
 name: Probability of an event
 id: probability_of_event
 topic: probability
-difficulty: 3
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 1
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: P(E)
 - dimensionless: n(E)

@@ -1,15 +1,15 @@
 name: Newton's law of cooling (convection)
 id: heat_convection_newtons_law
 topic: heat_transfer
-difficulty: 7
-equation: energy frac time eq dimensionless mul (area) mul temperature sub temperature
+difficulty: 2
+equation: energy div time eq dimensionless mul (area) mul temperature sub temperature
 symbol_overrides:
 - energy: ''
 - time: ''
 - dimensionless: h
 - area: ''
 - temperature: T_s
-- temperature: T_{env}
+- temperature: T_env
 name_overrides:
 - energy: '[Heat] transfer rate'
 - time: ''

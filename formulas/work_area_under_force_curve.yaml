@@ -1,8 +1,8 @@
 name: Work from force-displacement graph
 id: work_area_under_force_curve
 topic: work
-difficulty: 5
-equation: energy eq force mul (length) frac 2
+difficulty: 2
+equation: energy eq force mul (length) div 2
 symbol_overrides:
 - energy: ''
 - force: ''

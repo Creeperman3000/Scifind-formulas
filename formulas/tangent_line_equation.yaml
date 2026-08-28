@@ -1,7 +1,7 @@
 name: Tangent line equation
 id: tangent_line_equation
 topic: derivatives
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless ) add
   dimensionless
 symbol_overrides:

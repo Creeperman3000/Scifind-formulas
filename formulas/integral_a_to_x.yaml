@@ -1,8 +1,8 @@
 name: Integral of a to the x
 id: integral_a_to_x
 topic: integrals
-difficulty: 7
-equation: dimensionless eq dimensionless pow (dimensionless) frac log euler_e dimensionless
+difficulty: 3
+equation: dimensionless eq dimensionless pow (dimensionless) div log euler_e dimensionless
 symbol_overrides:
 - dimensionless: ∫a^x dx
 - dimensionless: a

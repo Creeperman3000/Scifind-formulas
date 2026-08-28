@@ -1,8 +1,8 @@
 name: Banking angle
 id: banking_angle
 topic: circular_motion
-difficulty: 7
-equation: tan angle eq (velocity pow 2) frac length mul standard_gravity
+difficulty: 3
+equation: tan angle eq (velocity pow 2) div length mul standard_gravity
 symbol_overrides:
 - angle: θ
 - velocity: ''

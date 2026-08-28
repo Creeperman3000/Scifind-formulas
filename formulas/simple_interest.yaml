@@ -1,7 +1,7 @@
 name: Simple interest future value
 id: simple_interest
 topic: arithmetic
-difficulty: 4
+difficulty: 1
 equation: dimensionless eq dimensionless mul dimensionless add dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: A

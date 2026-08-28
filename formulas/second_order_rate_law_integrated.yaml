@@ -1,7 +1,7 @@
 name: Integrated rate law (second order)
 id: second_order_rate_law_integrated
 topic: chemical_kinetics
-difficulty: 7
+difficulty: 3
 equation: concentration pow (drop 1 sub) eq concentration pow (drop 1 sub) add frequency
   mul time
 symbol_overrides:

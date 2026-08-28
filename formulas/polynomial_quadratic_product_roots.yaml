@@ -1,8 +1,8 @@
 name: Product of roots of a quadratic
 id: polynomial_quadratic_product_roots
 topic: polynomials
-difficulty: 5
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 2
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: αβ
 - dimensionless: c

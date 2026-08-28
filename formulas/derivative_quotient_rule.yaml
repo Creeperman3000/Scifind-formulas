@@ -1,9 +1,9 @@
 name: Quotient rule
 id: derivative_quotient_rule
 topic: derivatives
-difficulty: 7
+difficulty: 3
 equation: dimensionless eq (dimensionless mul (dimensionless) sub dimensionless mul
-  dimensionless ) frac dimensionless pow 2
+  dimensionless ) div dimensionless pow 2
 symbol_overrides:
 - dimensionless: d/dx(f/g)
 - dimensionless: df/dx

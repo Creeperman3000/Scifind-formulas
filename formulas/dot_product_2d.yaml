@@ -1,7 +1,7 @@
 name: Dot product of two 2D vectors
 id: dot_product_2d
 topic: linear_algebra
-difficulty: 5
+difficulty: 2
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
   dimensionless
 symbol_overrides:

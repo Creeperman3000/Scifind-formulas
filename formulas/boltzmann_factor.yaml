@@ -1,8 +1,8 @@
 name: Boltzmann factor
 id: boltzmann_factor
 topic: entropy
-difficulty: 8
-equation: dimensionless prop exp (drop (energy frac boltzmann_constant mul temperature)
+difficulty: 3
+equation: dimensionless prop exp (drop (energy div boltzmann_constant mul temperature)
   sub)
 symbol_overrides:
 - dimensionless: P(E)

@@ -1,8 +1,8 @@
 name: Equilibrium constant from concentrations
 id: equilibrium_constant_expression
 topic: chemical_equilibrium
-difficulty: 6
-equation: equilibrium_constant eq concentration mul (concentration) frac concentration
+difficulty: 2
+equation: equilibrium_constant eq concentration mul (concentration) div concentration
   mul concentration
 symbol_overrides:
 - equilibrium_constant: K_c

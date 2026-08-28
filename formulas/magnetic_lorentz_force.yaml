@@ -1,7 +1,7 @@
 name: Magnetic Lorentz force (magnetic_lorentz_force)
 id: magnetic_lorentz_force
 topic: magnetism
-difficulty: 7
+difficulty: 3
 equation: force eq charge mul (velocity) mul magnetic_flux_density
 symbol_overrides:
 - force: F

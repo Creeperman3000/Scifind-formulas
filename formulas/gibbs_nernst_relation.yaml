@@ -1,7 +1,7 @@
 name: Gibbs free energy and cell potential
 id: gibbs_nernst_relation
 topic: electrochemistry
-difficulty: 8
+difficulty: 3
 equation: energy eq drop (amount mul faraday_constant mul electric_potential) sub
 symbol_overrides:
 - energy: ΔG

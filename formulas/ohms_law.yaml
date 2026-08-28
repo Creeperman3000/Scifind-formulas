@@ -1,7 +1,7 @@
 name: Ohm's law
 id: ohms_law
 topic: circuits
-difficulty: 4
+difficulty: 1
 equation: electric_potential eq current mul resistance
 symbol_overrides:
 - electric_potential: V

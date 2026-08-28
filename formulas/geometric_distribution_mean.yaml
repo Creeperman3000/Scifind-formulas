@@ -1,8 +1,8 @@
 name: Geometric distribution mean
 id: geometric_distribution_mean
 topic: probability
-difficulty: 7
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 2
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: E[X]
 - dimensionless: '1'

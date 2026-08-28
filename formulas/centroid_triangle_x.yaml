@@ -1,8 +1,8 @@
 name: Centroid of a triangle (x-coordinate)
 id: centroid_triangle_x
 topic: coordinate_geometry
-difficulty: 5
-equation: length eq (length add length add length ) frac 3
+difficulty: 1
+equation: length eq (length add length add length ) div 3
 symbol_overrides:
 - length: x_c
 - length: x_1

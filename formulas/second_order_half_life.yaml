@@ -1,10 +1,10 @@
 name: Second-order reaction half-life
 id: second_order_half_life
 topic: chemical_kinetics
-difficulty: 8
-equation: time eq dimensionless frac frequency mul concentration
+difficulty: 3
+equation: time eq dimensionless div frequency mul concentration
 symbol_overrides:
-- time: t_{1/2}
+- time: t_½
 - dimensionless: '1'
 - frequency: k
 - concentration: '[A]_0'

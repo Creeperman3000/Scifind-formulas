@@ -1,8 +1,7 @@
 name: Work done by a gas
 id: work_by_gas
 topic: first_law
-difficulty: 6
-description: "Valid for constant external pressure (isobaric process); the general work is W = ∫P dV."
+difficulty: 2
 equation: energy eq pressure mul Delta volume
 name_overrides:
 - energy: '[Work]'

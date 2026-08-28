@@ -1,8 +1,8 @@
 name: Period of a simple pendulum
 id: pendulum_period
 topic: harmonic_motion
-difficulty: 5
-equation: time eq 2 mul pi mul sqrt (length frac standard_gravity ) 2
+difficulty: 2
+equation: time eq 2 mul pi mul sqrt (length div standard_gravity ) 2
 symbol_overrides:
 - time: T
 - length: L

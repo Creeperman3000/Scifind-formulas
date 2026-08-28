@@ -1,7 +1,7 @@
 name: Momentum change from force integral
 id: momentum_force_integral
 topic: linear_momentum
-difficulty: 7
+difficulty: 3
 equation: Delta momentum eq force mul time
 symbol_overrides:
 - momentum: Δp

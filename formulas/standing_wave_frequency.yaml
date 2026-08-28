@@ -1,8 +1,8 @@
 name: Standing wave frequency
 id: standing_wave_frequency
 topic: wave_interference
-difficulty: 6
-equation: frequency eq (dimensionless mul (velocity)) frac (2 mul length )
+difficulty: 3
+equation: frequency eq dimensionless mul (velocity) div length mul 2
 symbol_overrides:
 - frequency: f_n
 - dimensionless: n

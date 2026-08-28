@@ -1,7 +1,7 @@
 name: Permeability relation
 id: permeability_relation
 topic: magnetism
-difficulty: 7
+difficulty: 2
 equation: permeability eq permeability mul vacuum_permeability
 symbol_overrides:
 - permeability: μ

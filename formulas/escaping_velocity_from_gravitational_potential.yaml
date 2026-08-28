@@ -1,11 +1,10 @@
 name: Escape velocity from gravitational potential
 id: escaping_velocity_from_gravitational_potential
 topic: escape_velocity
-difficulty: 7
-description: "Escape velocity from a gravitational potential well; v = √(−2 Φ)."
-equation: velocity eq sqrt ((energy mul 2) frac mass ) 2
+difficulty: 2
+equation: velocity eq sqrt ((energy mul 2) div mass ) 2
 symbol_overrides:
-- velocity: v_{esc}
+- velocity: v_esc
 - energy: '|U|'
 - mass: ''
 name_overrides:

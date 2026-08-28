@@ -1,7 +1,7 @@
 name: Probability of independent events
 id: probability_multiplication_independent
 topic: probability
-difficulty: 4
+difficulty: 1
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P(A∩B)

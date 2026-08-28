@@ -1,9 +1,8 @@
 name: Molality from amount and mass of solvent
 id: molality
 topic: solutions
-difficulty: 6
-description: "Molality from amount of solute and mass of solvent; b = n_solute / m_solvent."
-equation: concentration eq amount frac mass
+difficulty: 1
+equation: concentration eq amount div mass
 symbol_overrides:
 - concentration: m
 - amount: n

@@ -1,7 +1,7 @@
 name: Probability of mutually exclusive events
 id: probability_mutually_exclusive
 topic: probability
-difficulty: 4
+difficulty: 1
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: P(A∪B)

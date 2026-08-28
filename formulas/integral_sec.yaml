@@ -1,12 +1,12 @@
 name: Integral of sec x
 id: integral_sec
 topic: integrals
-difficulty: 8
+difficulty: 4
 equation: dimensionless eq dimensionless mul log euler_e ((dimensionless add sin angle)
-  frac dimensionless sub sin angle)
+  div dimensionless sub sin angle)
 symbol_overrides:
 - dimensionless: ∫sec x dx
-- dimensionless: \frac{1}{2}
+- dimensionless: ½
 - dimensionless: '1'
 - angle: x
 - dimensionless: '1'

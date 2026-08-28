@@ -1,7 +1,7 @@
 name: Boiling point elevation
 id: boiling_point_elevation
 topic: solutions
-difficulty: 7
+difficulty: 2
 equation: temperature eq dimensionless mul dimensionless mul concentration
 symbol_overrides:
 - temperature: ΔT_b

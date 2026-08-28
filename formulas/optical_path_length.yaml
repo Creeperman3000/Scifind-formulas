@@ -1,7 +1,7 @@
 name: Optical path length
 id: optical_path_length
 topic: interference
-difficulty: 7
+difficulty: 2
 equation: length eq refractive_index mul length
 symbol_overrides:
 - length: OPL

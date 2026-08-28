@@ -1,8 +1,8 @@
 name: Molar volume at STP from Avogadro's law
 id: avogadros_law_molar_volume
 topic: ideal_gases
-difficulty: 5
-equation: volume eq amount mul volume frac amount
+difficulty: 1
+equation: volume eq amount mul volume div amount
 symbol_overrides:
 - volume: V_m
 - amount: ''

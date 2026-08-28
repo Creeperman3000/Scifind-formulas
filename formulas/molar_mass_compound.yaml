@@ -1,7 +1,7 @@
 name: Molar mass of a compound
 id: molar_mass_compound
 topic: molar_mass
-difficulty: 4
+difficulty: 1
 equation: molar_mass eq molar_mass mul (dimensionless) add molar_mass mul dimensionless
 symbol_overrides:
 - molar_mass: M_A

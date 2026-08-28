@@ -1,8 +1,8 @@
 name: Concentration from amount and volume
 id: concentration_formula
 topic: solution_stoichiometry
-difficulty: 4
-equation: concentration eq amount frac volume
+difficulty: 1
+equation: concentration eq amount div volume
 symbol_overrides:
 - concentration: ''
 - amount: ''

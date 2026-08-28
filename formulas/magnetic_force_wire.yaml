@@ -1,7 +1,7 @@
 name: Magnetic force on a current-carrying wire
 id: magnetic_force_wire
 topic: magnetism
-difficulty: 7
+difficulty: 3
 equation: force eq magnetic_flux_density mul (current) mul length
 symbol_overrides:
 - force: ''

@@ -1,8 +1,8 @@
 name: Gay-Lussac's law
 id: gay_lussacs_law
 topic: ideal_gases
-difficulty: 5
-equation: pressure frac temperature eq pressure frac temperature
+difficulty: 1
+equation: pressure div temperature eq pressure div temperature
 symbol_overrides:
 - pressure: P_1
 - temperature: T_1

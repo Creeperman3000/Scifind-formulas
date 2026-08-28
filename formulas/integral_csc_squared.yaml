@@ -1,8 +1,8 @@
 name: Integral of csc² x
 id: integral_csc_squared
 topic: integrals
-difficulty: 7
-equation: dimensionless eq drop (cos angle frac sin angle) sub
+difficulty: 2
+equation: dimensionless eq drop (cos angle div sin angle) sub
 symbol_overrides:
 - dimensionless: ∫csc²x dx
 - angle: x

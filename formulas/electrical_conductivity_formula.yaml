@@ -1,8 +1,7 @@
 name: Electrical conductivity from resistivity
 id: electrical_conductivity_formula
 topic: current_electricity
-difficulty: 6
-description: "Electrical conductivity from resistivity; σ = 1 / ρ."
+difficulty: 1
 equation: conductance eq resistance pow (drop 1 sub)
 symbol_overrides:
 - conductance: σ

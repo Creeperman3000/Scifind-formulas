@@ -1,10 +1,10 @@
 name: Percent ionic character
 id: percent_ionic_character
 topic: chemical_bonding
-difficulty: 7
-equation: dimensionless eq 100 mul 1 sub exp (drop ((dimensionless frac 2) pow 2) sub)
+difficulty: 3
+equation: dimensionless eq 100 mul 1 sub exp (drop ((dimensionless div 2) pow 2) sub)
 symbol_overrides:
-- dimensionless: '\%'
+- dimensionless: '%'
 - dimensionless: ΔEN
 name_overrides:
 - dimensionless: Percent ionic character

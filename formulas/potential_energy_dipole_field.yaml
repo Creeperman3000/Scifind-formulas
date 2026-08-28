@@ -1,7 +1,7 @@
 name: Potential energy of a dipole in a field
 id: potential_energy_dipole_field
 topic: electric_potential
-difficulty: 8
+difficulty: 3
 equation: energy eq drop torque sub mul (electric_field_strength) mul cos angle
 symbol_overrides:
 - energy: U

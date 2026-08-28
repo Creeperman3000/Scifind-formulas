@@ -1,8 +1,8 @@
 name: Magnetic field strength
 id: magnetic_field_strength_h
 topic: magnetism
-difficulty: 6
-equation: magnetic_field_strength eq magnetic_flux_density frac permeability
+difficulty: 3
+equation: magnetic_field_strength eq magnetic_flux_density div permeability
 symbol_overrides:
 - magnetic_field_strength: ''
 - magnetic_flux_density: ''

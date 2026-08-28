@@ -1,8 +1,8 @@
 name: Analytical Sensitivity
 id: analytical_sensitivity
 topic: analytical_chemistry
-difficulty: 8
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 2
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: S
 - dimensionless: Δsignal

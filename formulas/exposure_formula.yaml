@@ -1,8 +1,8 @@
 name: Radiation exposure
 id: exposure_formula
 topic: nuclear_physics
-difficulty: 8
-equation: exposure eq charge frac mass
+difficulty: 2
+equation: exposure eq charge div mass
 symbol_overrides:
 - exposure: ''
 - charge: ''

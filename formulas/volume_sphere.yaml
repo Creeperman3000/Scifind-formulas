@@ -1,8 +1,8 @@
 name: Volume of a sphere
 id: volume_sphere
 topic: plane_geometry
-difficulty: 3
-equation: volume eq (4 frac 3) mul (pi) mul length pow 3
+difficulty: 1
+equation: volume eq (4 div 3) mul (pi) mul length pow 3
 symbol_overrides:
 - volume: V
 - length: r

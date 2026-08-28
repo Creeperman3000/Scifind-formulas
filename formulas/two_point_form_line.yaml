@@ -1,8 +1,8 @@
 name: Two-point form of a line
 id: two_point_form_line
 topic: equations
-difficulty: 4
-equation: (length sub length ) frac length sub length eq (length sub length ) frac length
+difficulty: 2
+equation: (length sub length ) div length sub length eq (length sub length ) div length
   sub length
 symbol_overrides:
 - length: y

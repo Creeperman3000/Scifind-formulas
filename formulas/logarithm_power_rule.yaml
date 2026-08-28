@@ -1,7 +1,7 @@
 name: Logarithm power rule
 id: logarithm_power_rule
 topic: logarithms
-difficulty: 4
+difficulty: 2
 equation: log euler_e dimensionless pow dimensionless eq dimensionless mul log euler_e
   dimensionless
 symbol_overrides:

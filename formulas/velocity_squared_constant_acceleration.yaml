@@ -1,8 +1,8 @@
 name: Velocity squared relation
 id: velocity_squared_constant_acceleration
 topic: constant_acceleration
-difficulty: 5
-equation: velocity pow 2 eq (velocity pow 2) add (2 mul acceleration mul (length ))
+difficulty: 2
+equation: velocity pow 2 eq (velocity pow 2) add acceleration mul (length) mul 2
 symbol_overrides:
 - velocity: u
 - velocity: ''

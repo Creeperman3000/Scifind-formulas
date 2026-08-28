@@ -1,7 +1,7 @@
 name: Horizontal line
 id: horizontal_line_equation
 topic: equations
-difficulty: 2
+difficulty: 1
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: y

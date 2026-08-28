@@ -1,9 +1,9 @@
 name: Coulombic contribution to lattice energy
 id: lattice_energy_coulomb
 topic: inorganic_chemistry
-difficulty: 9
+difficulty: 4
 equation: energy eq coulomb_constant mul (avogadro_number mul (dimensionless) mul
-  dimensionless mul (dimensionless) mul elementary_charge pow 2 ) frac length
+  dimensionless mul (dimensionless) mul elementary_charge pow 2 ) div length
 symbol_overrides:
 - energy: U
 - dimensionless: M

@@ -1,8 +1,8 @@
 name: Excess pressure inside a spherical bubble
 id: excess_pressure_bubble
 topic: surface_tension
-difficulty: 8
-equation: pressure eq (surface_tension mul 4) frac length
+difficulty: 2
+equation: pressure eq (surface_tension mul 4) div length
 symbol_overrides:
 - pressure: ΔP
 - surface_tension: ''

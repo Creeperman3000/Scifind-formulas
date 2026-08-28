@@ -1,7 +1,7 @@
 name: Permittivity relation
 id: permittivity_relation
 topic: electrostatics
-difficulty: 7
+difficulty: 2
 equation: permittivity eq permittivity mul vacuum_permittivity
 symbol_overrides:
 - permittivity: ε

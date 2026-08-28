@@ -1,7 +1,7 @@
 name: Angular frequency
 id: angular_frequency
 topic: harmonic_motion
-difficulty: 5
+difficulty: 2
 equation: angular_velocity eq (pi mul 2) mul frequency
 symbol_overrides:
 - angular_velocity: ω

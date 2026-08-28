@@ -1,10 +1,10 @@
 name: Conversion efficiency from yield
 id: conversion_efficiency_yield
 topic: percent_yield
-difficulty: 6
-equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+difficulty: 2
+equation: dimensionless eq dimensionless div (dimensionless) mul 100
 symbol_overrides:
-- dimensionless: \%_{yield}
+- dimensionless: '%_yield'
 - dimensionless: actual
 - dimensionless: theoretical
 name_overrides:

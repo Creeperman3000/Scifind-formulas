@@ -1,10 +1,10 @@
 name: First-order half-life
 id: first_order_half_life
 topic: chemical_kinetics
-difficulty: 7
-equation: time eq log euler_e 2 frac frequency
+difficulty: 2
+equation: time eq log euler_e 2 div frequency
 symbol_overrides:
-- time: t_{half}
+- time: t_half
 - frequency: k
 name_overrides:
 - time: Half-life

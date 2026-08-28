@@ -1,7 +1,7 @@
 name: Triple Angle Cosine
 id: triple_angle_cosine
 topic: trigonometric_identities
-difficulty: 7
+difficulty: 3
 equation: cos (angle mul 3) eq 4 mul (cos angle pow 3) sub 3 mul cos angle
 symbol_overrides:
 - angle: θ

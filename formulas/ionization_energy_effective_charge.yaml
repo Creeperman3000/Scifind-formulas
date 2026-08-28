@@ -1,12 +1,12 @@
 name: Ionization energy from nuclear charge
 id: ionization_energy_effective_charge
 topic: atomic_structure
-difficulty: 8
+difficulty: 3
 equation: energy eq energy mul dimensionless pow 2
 symbol_overrides:
 - energy: IE
 - energy: IE_H
-- dimensionless: Z_{eff}
+- dimensionless: Z_eff
 name_overrides:
 - energy: '[Ionization energy]'
 - energy: Hydrogen [ionization energy]

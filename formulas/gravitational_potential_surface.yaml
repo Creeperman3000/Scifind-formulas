@@ -1,8 +1,8 @@
 name: Gravitational potential at surface
 id: gravitational_potential_surface
 topic: newtonian_gravity
-difficulty: 7
-equation: energy frac mass eq drop (gravitational_constant mul (mass) frac length) sub
+difficulty: 3
+equation: energy div mass eq drop (gravitational_constant mul (mass) div length) sub
 symbol_overrides:
 - energy: Φ
 - mass: M

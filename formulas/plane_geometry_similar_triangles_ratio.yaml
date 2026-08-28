@@ -1,8 +1,8 @@
 name: Similar triangles side ratio
 id: plane_geometry_similar_triangles_ratio
 topic: plane_geometry
-difficulty: 3
-equation: length frac length eq length frac length
+difficulty: 1
+equation: length div length eq length div length
 symbol_overrides:
 - length: a_1
 - length: a_2

@@ -1,7 +1,7 @@
 name: Raoult's law
 id: raoults_law
 topic: solutions
-difficulty: 7
+difficulty: 2
 equation: pressure eq concentration mul pressure
 symbol_overrides:
 - pressure: P°

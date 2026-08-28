@@ -1,8 +1,8 @@
 name: Coefficient of determination
 id: coefficient_of_determination
 topic: statistics
-difficulty: 8
-equation: dimensionless eq dimensionless sub dimensionless frac dimensionless
+difficulty: 3
+equation: dimensionless eq dimensionless sub dimensionless div dimensionless
 symbol_overrides:
 - dimensionless: R²
 - dimensionless: '1'

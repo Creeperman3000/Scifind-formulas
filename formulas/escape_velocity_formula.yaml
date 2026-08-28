@@ -1,9 +1,9 @@
 name: Escape velocity
 id: escape_velocity_formula
 topic: escape_velocity
-difficulty: 6
+difficulty: 3
 equation: velocity eq sqrt (dimensionless mul (gravitational_constant) mul (mass)
-  frac length ) 2
+  div length ) 2
 symbol_overrides:
 - velocity: v_{esc}
 - dimensionless: '2'

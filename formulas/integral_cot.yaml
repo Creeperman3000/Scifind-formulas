@@ -1,7 +1,7 @@
 name: Integral of cot x
 id: integral_cot
 topic: integrals
-difficulty: 7
+difficulty: 3
 equation: dimensionless eq log euler_e sin angle
 symbol_overrides:
 - dimensionless: ∫cot x dx

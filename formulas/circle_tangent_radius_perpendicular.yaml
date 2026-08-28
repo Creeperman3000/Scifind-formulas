@@ -1,7 +1,7 @@
 name: Tangent-radius perpendicularity
 id: circle_tangent_radius_perpendicular
 topic: circles
-difficulty: 4
+difficulty: 1
 equation: angle eq angle
 symbol_overrides:
 - angle: 90°

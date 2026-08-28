@@ -1,8 +1,8 @@
 name: Snell's law
 id: snells_law
 topic: refraction
-difficulty: 5
-equation: dimensionless eq dimensionless mul (dimensionless) frac dimensionless
+difficulty: 2
+equation: dimensionless eq dimensionless mul (dimensionless) div dimensionless
 symbol_overrides:
 - dimensionless: n_1
 - dimensionless: n_2

@@ -1,7 +1,7 @@
 name: Resistivity temperature dependence
 id: resistivity_temperature
 topic: circuits
-difficulty: 7
+difficulty: 3
 equation: resistance eq resistance mul 1 add dimensionless mul temperature sub temperature
 symbol_overrides:
 - resistance: R

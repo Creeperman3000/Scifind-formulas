@@ -1,8 +1,8 @@
 name: Hall voltage
 id: hall_voltage
 topic: magnetism
-difficulty: 8
-equation: electric_potential eq current mul (magnetic_flux_density) frac concentration
+difficulty: 4
+equation: electric_potential eq current mul (magnetic_flux_density) div concentration
   mul (elementary_charge) mul length
 symbol_overrides:
 - electric_potential: V_H

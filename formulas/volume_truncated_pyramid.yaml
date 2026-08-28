@@ -1,8 +1,8 @@
 name: Volume of a truncated pyramid (frustum)
 id: volume_truncated_pyramid
 topic: plane_geometry
-difficulty: 6
-equation: volume eq (length frac 3) mul ((area add area) add sqrt (area mul area) 2
+difficulty: 3
+equation: volume eq (length div 3) mul ((area add area) add sqrt (area mul area) 2
   )
 symbol_overrides:
 - volume: V

@@ -1,7 +1,7 @@
 name: Power from force, velocity and angle
 id: power_mechanical_force_velocity_angle
 topic: power
-difficulty: 6
+difficulty: 2
 equation: power eq force mul (velocity) mul cos angle
 symbol_overrides:
 - power: ''

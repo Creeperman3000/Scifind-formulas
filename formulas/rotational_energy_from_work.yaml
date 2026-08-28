@@ -1,7 +1,7 @@
 name: Rotational work-energy theorem
 id: rotational_energy_from_work
 topic: rotational_energy
-difficulty: 7
+difficulty: 2
 equation: energy eq torque mul angle
 symbol_overrides:
 - energy: W

@@ -1,11 +1,11 @@
 name: Rotational kinetic energy
 id: rotational_ke_formula
 topic: rotational_energy
-difficulty: 6
+difficulty: 2
 equation: energy eq moment_of_inertia mul (angular_velocity mul angular_velocity )
-  frac 2
+  div 2
 symbol_overrides:
-- energy: K_{rot}
+- energy: K_rot
 - moment_of_inertia: ''
 - angular_velocity: ω
 - angular_velocity: ''

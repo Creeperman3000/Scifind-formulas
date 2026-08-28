@@ -1,7 +1,7 @@
 name: Fraction raised to an exponent
 id: exponent_fraction_exponent
 topic: exponents
-difficulty: 3
+difficulty: 1
 equation: (dimensionless frac dimensionless ) pow dimensionless eq dimensionless pow
   dimensionless frac dimensionless pow dimensionless
 symbol_overrides:

@@ -1,13 +1,13 @@
 name: Damped harmonic oscillator differential equation
 id: damped_oscillator_ode
 topic: differential_equations
-difficulty: 9
+difficulty: 5
 equation: dimensionless add (dimensionless) mul (dimensionless) add (angular_velocity
   pow 2) mul dimensionless eq 0
 symbol_overrides:
-- dimensionless: \ddot{x}
+- dimensionless: ẍ
 - dimensionless: 2γ
-- dimensionless: \dot{x}
+- dimensionless: ẋ
 - angular_velocity: ω_0
 - dimensionless: x
 name_overrides:

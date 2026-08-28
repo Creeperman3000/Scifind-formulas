@@ -1,14 +1,13 @@
 name: Percent composition of an element
 id: percent_composition_element
 topic: organic_chemistry
-difficulty: 4
-equation: dimensionless eq 100 mul ((dimensionless mul (molar_mass )) frac (molar_mass
-  ))
+difficulty: 2
+equation: dimensionless eq dimensionless mul (molar_mass) div (molar_mass) mul 100
 symbol_overrides:
-- dimensionless: \%
+- dimensionless: '%'
 - dimensionless: n
-- molar_mass: M_{element}
-- molar_mass: M_{compound}
+- molar_mass: M_element
+- molar_mass: M_compound
 name_overrides:
 - dimensionless: Percent [composition]
 - dimensionless: Number of atoms

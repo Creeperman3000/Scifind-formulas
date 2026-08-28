@@ -1,7 +1,7 @@
 name: Difference of squares
 id: difference_of_squares
 topic: polynomials
-difficulty: 3
+difficulty: 1
 equation: (dimensionless pow 2) sub dimensionless pow 2 eq (dimensionless add dimensionless
   ) mul dimensionless sub dimensionless
 symbol_overrides:

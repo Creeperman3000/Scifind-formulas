@@ -1,15 +1,15 @@
 name: Crystal field stabilization energy (octahedral)
 id: cfse_octahedral
 topic: inorganic_chemistry
-difficulty: 9
+difficulty: 4
 equation: energy eq drop (dimensionless mul (energy) add dimensionless mul energy)
   sub
 symbol_overrides:
 - energy: CFSE
 - dimensionless: n_{t2g}
-- energy: Δ_{oct}
+- energy: Δ_oct
 - dimensionless: n_{eg}
-- energy: Δ_{oct}
+- energy: Δ_oct
 name_overrides:
 - energy: Crystal field stabilization [energy]
 - dimensionless: Electrons in t₂g orbitals

@@ -1,8 +1,8 @@
 name: Angular velocity definition
 id: angular_velocity_definition
 topic: circular_motion
-difficulty: 4
-equation: angular_velocity eq angle frac time
+difficulty: 1
+equation: angular_velocity eq angle div time
 symbol_overrides:
 - angular_velocity: ω
 - angle: θ

@@ -1,7 +1,7 @@
 name: Volume of a torus
 id: volume_torus
 topic: plane_geometry
-difficulty: 7
+difficulty: 3
 equation: volume eq 2 mul (pi pow 2) mul (length) mul length pow 2
 symbol_overrides:
 - volume: V

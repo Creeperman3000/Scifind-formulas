@@ -1,7 +1,7 @@
 name: Destructive interference condition
 id: destructive_interference_condition
 topic: wave_interference
-difficulty: 7
+difficulty: 2
 equation: length eq (dimensionless add 0.5) mul length
 symbol_overrides:
 - length: ΔL

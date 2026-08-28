@@ -1,8 +1,8 @@
 name: Inductance definition
 id: inductance_formula
 topic: electromagnetic_induction
-difficulty: 7
-equation: inductance eq magnetic_flux frac current
+difficulty: 2
+equation: inductance eq magnetic_flux div current
 symbol_overrides:
 - inductance: ''
 - magnetic_flux: ''

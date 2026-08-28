@@ -1,7 +1,7 @@
 name: Enthalpy change at constant pressure
 id: enthalpy_change_definition
 topic: thermochemistry
-difficulty: 6
+difficulty: 2
 equation: energy eq energy pressure (Delta) volume mul add
 symbol_overrides:
 - energy: ΔH

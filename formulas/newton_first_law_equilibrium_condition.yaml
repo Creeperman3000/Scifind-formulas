@@ -1,7 +1,7 @@
 name: 'Newton''s first law: equilibrium condition'
 id: newton_first_law_equilibrium_condition
 topic: newtons_laws
-difficulty: 4
+difficulty: 1
 equation: force eq 0
 symbol_overrides:
 - force: ΣF

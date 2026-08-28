@@ -1,7 +1,7 @@
 name: Impulse as change in momentum
 id: linear_momentum_impulse_relation
 topic: linear_momentum
-difficulty: 5
+difficulty: 1
 equation: momentum eq momentum sub momentum
 symbol_overrides:
 - momentum: J

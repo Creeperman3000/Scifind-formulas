@@ -1,10 +1,10 @@
 name: Maximum number of stereoisomers
 id: maximum_stereoisomers
 topic: organic_chemistry
-difficulty: 8
+difficulty: 2
 equation: dimensionless eq 2 pow dimensionless
 symbol_overrides:
-- dimensionless: N_{max}
+- dimensionless: N_max
 - dimensionless: n
 name_overrides:
 - dimensionless: Maximum number of stereoisomers

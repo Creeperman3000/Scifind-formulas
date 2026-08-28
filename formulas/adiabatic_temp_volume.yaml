@@ -1,7 +1,7 @@
 name: Adiabatic relation (temperature-volume)
 id: adiabatic_temp_volume
 topic: ideal_gases
-difficulty: 8
+difficulty: 3
 equation: temperature mul volume pow dimensionless sub 1 eq dimensionless
 symbol_overrides:
 - temperature: ''

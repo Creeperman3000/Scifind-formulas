@@ -1,11 +1,11 @@
 name: Rocket thrust equation
 id: rocket_thrust_equation
 topic: newtons_laws
-difficulty: 7
+difficulty: 4
 equation: force eq mass_concentration mul velocity
 symbol_overrides:
 - force: ''
-- mass_concentration: \dot{m}
+- mass_concentration: ṁ
 - velocity: v_e
 name_overrides:
 - force: Thrust

@@ -1,8 +1,8 @@
 name: Number of images formed by two mirrors
 id: multiple_mirror_image_count
 topic: reflection
-difficulty: 5
-equation: dimensionless eq 360 frac (angle) sub 1
+difficulty: 2
+equation: dimensionless eq 360 div (angle) sub 1
 symbol_overrides:
 - dimensionless: n
 - angle: θ

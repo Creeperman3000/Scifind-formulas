@@ -1,7 +1,7 @@
 name: Double-slit interference path difference
 id: double_slit_path_difference
 topic: interference
-difficulty: 7
+difficulty: 2
 equation: length eq length mul sin angle
 symbol_overrides:
 - length: Δx

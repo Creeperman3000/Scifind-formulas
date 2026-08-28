@@ -1,7 +1,7 @@
 name: Quantum number magnetic range
 id: quantum_number_magnetic_range
 topic: atomic_structure
-difficulty: 7
+difficulty: 2
 equation: abs dimensionless lt dimensionless
 symbol_overrides:
 - dimensionless: m_l

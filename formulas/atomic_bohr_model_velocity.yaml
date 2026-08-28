@@ -1,8 +1,8 @@
 name: Bohr model electron velocity
 id: atomic_bohr_model_velocity
 topic: atomic_physics
-difficulty: 8
-equation: velocity eq (elementary_charge pow 2) frac ((vacuum_permittivity mul 2) mul
+difficulty: 3
+equation: velocity eq (elementary_charge pow 2) div ((vacuum_permittivity mul 2) mul
   (planck_constant) mul dimensionless )
 symbol_overrides:
 - velocity: v_n

@@ -1,8 +1,7 @@
 name: Thermal stress formula
 id: thermal_stress_formula
 topic: temperature
-difficulty: 7
-description: Valid for a fully-constrained material; sign convention as shown
+difficulty: 3
 equation: pressure eq pressure mul (coefficient_of_linear_expansion) mul temperature
 symbol_overrides:
 - pressure: σ

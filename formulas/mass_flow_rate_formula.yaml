@@ -1,10 +1,10 @@
 name: Mass flow rate
 id: mass_flow_rate_formula
 topic: continuity_equation
-difficulty: 6
-equation: mass frac time eq density mul (area) mul velocity
+difficulty: 1
+equation: mass div time eq density mul (area) mul velocity
 symbol_overrides:
-- mass: \dot{m}
+- mass: ṁ
 - time: ''
 - density: ρ
 - area: ''

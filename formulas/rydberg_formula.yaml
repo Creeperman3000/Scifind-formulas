@@ -1,9 +1,9 @@
 name: Rydberg formula
 id: rydberg_formula
 topic: atomic_physics
-difficulty: 8
-equation: dimensionless eq rydberg_constant mul dimensionless frac (dimensionless pow
-  2) sub dimensionless frac dimensionless pow 2
+difficulty: 4
+equation: dimensionless eq rydberg_constant mul dimensionless div (dimensionless pow
+  2) sub dimensionless div dimensionless pow 2
 symbol_overrides:
 - dimensionless: 1/lambda
 - dimensionless: n1

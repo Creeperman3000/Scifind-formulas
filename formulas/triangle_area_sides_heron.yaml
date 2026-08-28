@@ -1,11 +1,10 @@
 name: Triangle area from three sides (Heron's formula)
 id: triangle_area_sides_heron
 topic: triangles
-difficulty: 5
-description: Equivalently expressed using the semiperimeter s = (a+b+c)/2 as
-equation: area eq sqrt (((length add length add length ) frac 2) mul (((length add
-  length add length ) frac 2) sub length ) mul (((length add length add length ) frac
-  2) sub length ) mul (((length add length add length ) frac 2) sub length ) ) 2
+difficulty: 3
+equation: area eq sqrt (((length add length add length ) div 2) mul (((length add
+  length add length ) div 2) sub length ) mul (((length add length add length ) div
+  2) sub length ) mul (((length add length add length ) div 2) sub length ) ) 2
 symbol_overrides:
 - area: ''
 - length: a

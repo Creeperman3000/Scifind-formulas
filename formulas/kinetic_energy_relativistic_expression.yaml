@@ -1,7 +1,7 @@
 name: Relativistic kinetic energy
 id: kinetic_energy_relativistic_expression
 topic: kinetic_energy
-difficulty: 9
+difficulty: 3
 equation: energy eq mass mul (speed_of_light pow 2) mul lorentz_factor sub 1
 symbol_overrides:
 - energy: KE

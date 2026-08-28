@@ -1,11 +1,10 @@
 name: Dynamic pressure from Bernoulli's equation
 id: dynamic_pressure_bernoulli
 topic: bernoulli_equation
-difficulty: 7
-description: "Valid for steady, incompressible, inviscid flow; q = ½ρv²."
-equation: pressure eq density mul (velocity pow 2) frac 2
+difficulty: 2
+equation: pressure eq density mul (velocity pow 2) div 2
 symbol_overrides:
-- pressure: P_{dyn}
+- pressure: P_dyn
 - density: ''
 - velocity: ''
 name_overrides:

@@ -1,8 +1,8 @@
 name: Limit of Log Ratio
 id: limit_log_one_plus_x
 topic: limits
-difficulty: 7
-equation: dimensionless eq log euler_e (dimensionless add dimensionless) frac dimensionless
+difficulty: 3
+equation: dimensionless eq log euler_e (dimensionless add dimensionless) div dimensionless
 symbol_overrides:
 - dimensionless: lim_{x→0} ln(1+x)/x
 - dimensionless: '1'

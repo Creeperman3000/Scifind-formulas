@@ -1,8 +1,8 @@
 name: Volume of a cylinder from diameter
 id: cylinder_volume_from_diameter
 topic: plane_geometry
-difficulty: 3
-equation: volume eq pi mul (length pow 2) mul (length) frac 4
+difficulty: 1
+equation: volume eq pi mul (length pow 2) mul (length) div 4
 symbol_overrides:
 - volume: ''
 - length: d

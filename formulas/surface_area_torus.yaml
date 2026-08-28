@@ -1,7 +1,7 @@
 name: Surface area of a torus
 id: surface_area_torus
 topic: plane_geometry
-difficulty: 7
+difficulty: 3
 equation: area eq 4 mul ((pi pow 2) mul (length) mul length )
 symbol_overrides:
 - area: A

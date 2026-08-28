@@ -1,12 +1,12 @@
 name: Pressure conversion using specific gravity
 id: specific_gravity_pressure_conversion
 topic: pressure
-difficulty: 5
+difficulty: 2
 equation: pressure eq density mul (density) mul (standard_gravity) mul length
 symbol_overrides:
 - pressure: ''
 - density: SG
-- density: ρ_{water}
+- density: ρ_water
 - length: ''
 name_overrides:
 - pressure: Hydrostatic [pressure]

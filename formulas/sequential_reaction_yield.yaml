@@ -1,10 +1,10 @@
 name: Overall yield of sequential reactions
 id: sequential_reaction_yield
 topic: chemical_reactions
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq dimensionless mul (dimensionless) mul dimensionless
 symbol_overrides:
-- dimensionless: Y_{total}
+- dimensionless: Y_total
 - dimensionless: y_1
 - dimensionless: y_2
 - dimensionless: y_3

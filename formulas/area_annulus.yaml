@@ -1,7 +1,7 @@
 name: Area of an annulus
 id: area_annulus
 topic: circles
-difficulty: 4
+difficulty: 2
 equation: area eq pi mul ((length pow 2) sub length pow 2 )
 symbol_overrides:
 - area: ''

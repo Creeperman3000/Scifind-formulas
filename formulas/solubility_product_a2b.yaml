@@ -1,10 +1,10 @@
 name: Solubility product for A₂B-type salt
 id: solubility_product_a2b
 topic: solutions
-difficulty: 7
+difficulty: 3
 equation: dimensionless eq (concentration pow 2) mul concentration
 symbol_overrides:
-- dimensionless: K_{sp}
+- dimensionless: K_sp
 - concentration: '[A]'
 - concentration: '[B]'
 name_overrides:

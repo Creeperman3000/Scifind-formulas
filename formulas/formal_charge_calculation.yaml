@@ -1,9 +1,9 @@
 name: Formal charge calculation
 id: formal_charge_calculation
 topic: chemical_bonding
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq dimensionless sub (dimensionless) sub dimensionless mul
-  (dimensionless) frac 2
+  (dimensionless) div 2
 symbol_overrides:
 - dimensionless: FC
 - dimensionless: V

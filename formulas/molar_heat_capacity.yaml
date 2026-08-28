@@ -1,8 +1,8 @@
 name: Molar heat capacity definition
 id: molar_heat_capacity
 topic: thermochemistry
-difficulty: 6
-equation: molar_energy eq energy frac amount mul Delta temperature
+difficulty: 1
+equation: molar_energy eq energy div amount mul Delta temperature
 symbol_overrides:
 - molar_energy: C_m
 - energy: ''

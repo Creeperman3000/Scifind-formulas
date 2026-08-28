@@ -1,8 +1,8 @@
 name: Secant identity
 id: secant_identity
 topic: trigonometric_identities
-difficulty: 5
-equation: dimensionless eq 1 frac cos angle
+difficulty: 1
+equation: dimensionless eq 1 div cos angle
 symbol_overrides:
 - dimensionless: sec(θ)
 - angle: θ

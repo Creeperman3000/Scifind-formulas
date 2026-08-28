@@ -1,10 +1,10 @@
 name: Unit vector definition
 id: unit_vector_definition
 topic: linear_algebra
-difficulty: 5
-equation: dimensionless eq dimensionless frac dimensionless
+difficulty: 1
+equation: dimensionless eq dimensionless div dimensionless
 symbol_overrides:
-- dimensionless: \hat{u}
+- dimensionless: û
 - dimensionless: v
 - dimensionless: '|v|'
 name_overrides:

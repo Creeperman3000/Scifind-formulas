@@ -1,7 +1,7 @@
 name: Sum of cubes
 id: sum_of_cubes
 topic: polynomials
-difficulty: 4
+difficulty: 2
 equation: dimensionless eq (dimensionless add dimensionless ) mul ((dimensionless
   pow 2) sub (dimensionless) mul (dimensionless) add dimensionless pow 2 )
 symbol_overrides:

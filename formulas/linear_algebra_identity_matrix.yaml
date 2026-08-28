@@ -1,7 +1,7 @@
 name: Identity matrix definition
 id: linear_algebra_identity_matrix
 topic: linear_algebra
-difficulty: 5
+difficulty: 1
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: I

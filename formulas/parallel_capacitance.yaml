@@ -1,10 +1,10 @@
 name: Capacitors in parallel
 id: parallel_capacitance
 topic: circuits
-difficulty: 5
+difficulty: 1
 equation: capacitance eq capacitance add capacitance
 symbol_overrides:
-- capacitance: C_{total}
+- capacitance: C_total
 - capacitance: C_1
 - capacitance: C_2
 name_overrides:

@@ -1,7 +1,7 @@
 name: Magnetic force on a charged particle
 id: magnetism_magnetic_force_charged_particle
 topic: magnetism
-difficulty: 7
+difficulty: 2
 equation: force eq charge mul (velocity) mul magnetic_flux_density
 symbol_overrides:
 - force: F

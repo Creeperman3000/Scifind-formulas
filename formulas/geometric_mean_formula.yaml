@@ -1,7 +1,7 @@
 name: Geometric mean
 id: geometric_mean_formula
 topic: arithmetic
-difficulty: 4
+difficulty: 1
 equation: dimensionless eq sqrt (dimensionless mul dimensionless ) 2
 symbol_overrides:
 - dimensionless: GM

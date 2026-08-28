@@ -1,8 +1,8 @@
 name: Acceleration of an Atwood machine
 id: acceleration_atwood_machine
 topic: newtons_laws
-difficulty: 6
-equation: acceleration eq standard_gravity mul (mass sub mass ) frac mass add mass
+difficulty: 2
+equation: acceleration eq standard_gravity mul (mass sub mass ) div mass add mass
 symbol_overrides:
 - acceleration: ''
 - mass: m_1

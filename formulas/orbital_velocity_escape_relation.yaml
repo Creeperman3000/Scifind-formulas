@@ -1,11 +1,11 @@
 name: Orbital velocity relation to escape velocity
 id: orbital_velocity_escape_relation
 topic: escape_velocity
-difficulty: 7
-equation: velocity eq velocity frac sqrt 2 2
+difficulty: 2
+equation: velocity eq velocity div sqrt 2 2
 symbol_overrides:
-- velocity: v_{orb}
-- velocity: v_{esc}
+- velocity: v_orb
+- velocity: v_esc
 name_overrides:
 - velocity: Orbital [velocity]
 - velocity: Escape [velocity]

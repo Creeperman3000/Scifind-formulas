@@ -1,7 +1,7 @@
 name: Inductive reactance
 id: inductive_reactance
 topic: circuits
-difficulty: 7
+difficulty: 3
 equation: resistance eq (pi mul 2) mul (frequency) mul inductance
 symbol_overrides:
 - resistance: X_L

@@ -1,8 +1,7 @@
 name: Phase shift on reflection
 id: phase_shift_on_reflection
 topic: interference
-difficulty: 7
-description: A phase shift of π occurs for reflection at a boundary with a
+difficulty: 3
 equation: dimensionless eq pi
 symbol_overrides:
 - dimensionless: Δφ

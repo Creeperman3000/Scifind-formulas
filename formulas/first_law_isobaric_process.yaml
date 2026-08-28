@@ -1,8 +1,7 @@
 name: First law of thermodynamics for isobaric process
 id: first_law_isobaric_process
 topic: first_law
-difficulty: 7
-description: "Valid for an isobaric (constant-pressure) process; ΔU = Q − P ΔV."
+difficulty: 2
 equation: energy eq energy add pressure mul volume sub volume
 symbol_overrides:
 - energy: ''

@@ -1,8 +1,8 @@
 name: Integral of sec x tan x
 id: integral_sec_tan
 topic: integrals
-difficulty: 7
-equation: dimensionless eq 1 frac cos angle
+difficulty: 3
+equation: dimensionless eq 1 div cos angle
 symbol_overrides:
 - dimensionless: ∫sec x tan x dx
 - angle: x

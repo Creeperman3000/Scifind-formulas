@@ -1,10 +1,8 @@
 name: Phase difference from path difference
 id: phase_difference
 topic: wave_interference
-difficulty: 7
-description: Phase difference from path difference; assumes a wave of wavelength λ
-  in a uniform medium.
-equation: angle eq ((2 mul pi) mul length) frac length
+difficulty: 2
+equation: angle eq length div (length) mul pi mul 2
 symbol_overrides:
 - angle: Δφ
 - length: Δx

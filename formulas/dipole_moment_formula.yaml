@@ -1,7 +1,7 @@
 name: Electric dipole moment
 id: dipole_moment_formula
 topic: chemical_bonding
-difficulty: 6
+difficulty: 2
 equation: torque eq charge mul length
 symbol_overrides:
 - torque: μ

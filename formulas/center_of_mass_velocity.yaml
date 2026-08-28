@@ -1,10 +1,10 @@
 name: Velocity of the center of mass
 id: center_of_mass_velocity
 topic: linear_momentum
-difficulty: 6
-equation: velocity eq (mass mul (velocity) add mass mul velocity ) frac mass add mass
+difficulty: 2
+equation: velocity eq (mass mul (velocity) add mass mul velocity ) div mass add mass
 symbol_overrides:
-- velocity: v_{cm}
+- velocity: v_cm
 - mass: m_1
 - velocity: v_1
 - mass: m_2

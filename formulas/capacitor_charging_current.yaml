@@ -1,8 +1,8 @@
 name: Capacitor charging current
 id: capacitor_charging_current
 topic: capacitance
-difficulty: 7
-equation: current eq electric_potential frac (resistance) mul exp (drop (time frac resistance
+difficulty: 3
+equation: current eq electric_potential div (resistance) mul exp (drop (time div resistance
   mul capacitance) sub)
 symbol_overrides:
 - current: I(t)

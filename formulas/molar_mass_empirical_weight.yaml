@@ -1,8 +1,7 @@
 name: Molar mass from empirical formula weight
 id: molar_mass_empirical_weight
 topic: molar_mass
-difficulty: 6
-description: "Molar mass from empirical formula weight."
+difficulty: 2
 equation: molar_mass eq mass mul dimensionless
 symbol_overrides:
 - molar_mass: ''

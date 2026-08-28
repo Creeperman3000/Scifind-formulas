@@ -1,15 +1,14 @@
 name: Molar mass from freezing point depression
 id: molar_mass_colligative_freezing
 topic: molar_mass
-difficulty: 8
-description: "Molar mass from freezing-point depression; M = (K_f m_solute) / (ΔT_f m_solvent)."
-equation: molar_mass eq specific_energy mul (mass) frac Delta temperature frac mass
+difficulty: 3
+equation: molar_mass eq specific_energy mul (mass) div Delta temperature div mass
 symbol_overrides:
 - molar_mass: ''
 - specific_energy: K_f
-- mass: w_{solute}
+- mass: w_solute
 - temperature: ΔT_f
-- mass: W_{solvent}
+- mass: W_solvent
 name_overrides:
 - molar_mass: Molar [mass] of solute
 - specific_energy: Cryoscopic constant

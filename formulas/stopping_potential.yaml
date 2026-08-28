@@ -1,9 +1,8 @@
 name: Stopping potential in photoelectric effect
 id: stopping_potential
 topic: quantum_mechanics
-difficulty: 8
-description: "Stopping potential equals the maximum kinetic energy of photoelectrons per unit charge."
-equation: electric_potential eq (planck_constant mul (frequency) sub energy ) frac
+difficulty: 3
+equation: electric_potential eq (planck_constant mul (frequency) sub energy ) div
   elementary_charge
 symbol_overrides:
 - electric_potential: V₀

@@ -1,10 +1,10 @@
 name: Average velocity
 id: average_velocity
 topic: constant_acceleration
-difficulty: 3
-equation: velocity eq length frac time
+difficulty: 1
+equation: velocity eq length div time
 symbol_overrides:
-- velocity: v_{avg}
+- velocity: v_avg
 - length: ''
 - time: ''
 name_overrides:

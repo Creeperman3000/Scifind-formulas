@@ -1,7 +1,7 @@
 name: Factorial definition
 id: factorial_definition
 topic: arithmetic
-difficulty: 3
+difficulty: 1
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: n!

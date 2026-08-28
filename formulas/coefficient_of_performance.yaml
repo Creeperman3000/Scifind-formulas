@@ -1,8 +1,8 @@
 name: Coefficient of performance of a refrigerator
 id: coefficient_of_performance
 topic: heat_engines
-difficulty: 7
-equation: heat_engine_efficiency eq energy frac energy
+difficulty: 3
+equation: heat_engine_efficiency eq energy div energy
 symbol_overrides:
 - heat_engine_efficiency: COP
 - energy: Q_c

@@ -1,7 +1,7 @@
 name: Ellipse area from semi-axes
 id: ellipse_area_semi_axes
 topic: coordinate_geometry
-difficulty: 5
+difficulty: 2
 equation: area eq pi mul (length) mul length
 symbol_overrides:
 - area: ''

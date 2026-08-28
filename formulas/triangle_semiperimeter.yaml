@@ -1,8 +1,8 @@
 name: Semiperimeter of a triangle
 id: triangle_semiperimeter
 topic: triangles
-difficulty: 3
-equation: length eq (length add (length) add length ) frac 2
+difficulty: 1
+equation: length eq (length add (length) add length ) div 2
 symbol_overrides:
 - length: s
 - length: a

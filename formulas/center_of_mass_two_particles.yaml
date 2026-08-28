@@ -1,10 +1,10 @@
 name: Center of mass of two particles
 id: center_of_mass_two_particles
 topic: linear_momentum
-difficulty: 5
-equation: length eq (mass mul (length) add mass mul length ) frac mass add mass
+difficulty: 2
+equation: length eq (mass mul (length) add mass mul length ) div mass add mass
 symbol_overrides:
-- length: x_{cm}
+- length: x_cm
 - mass: m_1
 - length: x_1
 - mass: m_2

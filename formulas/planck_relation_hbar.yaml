@@ -1,8 +1,8 @@
 name: Planck relation (reduced Planck constant)
 id: planck_relation_hbar
 topic: quantum_mechanics
-difficulty: 8
-equation: energy eq planck_constant frac (pi mul 2) mul angular_velocity
+difficulty: 2
+equation: energy eq planck_constant div (pi mul 2) mul angular_velocity
 symbol_overrides:
 - energy: ''
 - angular_velocity: ω

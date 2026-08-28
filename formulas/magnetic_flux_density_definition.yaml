@@ -1,9 +1,8 @@
 name: Magnetic flux density (B-field) from flux
 id: magnetic_flux_density_definition
 topic: magnetism
-difficulty: 7
-description: Valid for uniform normal flux through the area. For non-uniform
-equation: magnetic_flux_density eq magnetic_flux frac area
+difficulty: 2
+equation: magnetic_flux_density eq magnetic_flux div area
 symbol_overrides:
 - magnetic_flux_density: ''
 - magnetic_flux: ''

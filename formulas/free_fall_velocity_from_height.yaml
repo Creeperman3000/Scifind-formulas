@@ -1,7 +1,7 @@
 name: Free fall velocity from height
 id: free_fall_velocity_from_height
 topic: constant_acceleration
-difficulty: 4
+difficulty: 1
 equation: velocity eq sqrt (acceleration mul (length) mul 2) 2
 symbol_overrides:
 - velocity: ''

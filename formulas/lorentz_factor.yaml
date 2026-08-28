@@ -1,9 +1,9 @@
 name: Lorentz factor
 id: lorentz_factor
 topic: relativity
-difficulty: 8
-equation: dimensionless eq dimensionless frac sqrt (dimensionless sub (velocity pow
-  2) frac speed_of_light pow 2 ) 2
+difficulty: 3
+equation: dimensionless eq dimensionless div sqrt (dimensionless sub (velocity pow
+  2) div speed_of_light pow 2 ) 2
 symbol_overrides:
 - dimensionless: γ
 - dimensionless: '1'

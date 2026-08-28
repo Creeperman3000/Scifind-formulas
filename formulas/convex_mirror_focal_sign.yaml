@@ -1,11 +1,10 @@
 name: Convex mirror focal length sign
 id: convex_mirror_focal_sign
 topic: mirrors
-difficulty: 5
-description: "Sign convention: convex mirrors have negative focal length in the real-is-positive (Cartesian) convention."
-equation: length eq drop (length frac 2) sub
+difficulty: 2
+equation: length eq drop (length div 2) sub
 symbol_overrides:
-- length: f_{convex}
+- length: f_convex
 - length: R
 name_overrides:
 - length: Focal [length] (convex mirror)

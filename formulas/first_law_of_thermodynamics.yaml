@@ -1,7 +1,7 @@
 name: First law of thermodynamics
 id: first_law_of_thermodynamics
 topic: first_law
-difficulty: 6
+difficulty: 2
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ΔU

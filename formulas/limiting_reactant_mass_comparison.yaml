@@ -1,11 +1,11 @@
 name: Limiting reactant by mass comparison
 id: limiting_reactant_mass_comparison
 topic: limiting_reactants
-difficulty: 6
-equation: mass eq mass frac (molar_mass) frac (dimensionless) mul dimensionless mul
+difficulty: 3
+equation: mass eq mass div (molar_mass) div (dimensionless) mul dimensionless mul
   molar_mass
 symbol_overrides:
-- mass: m_{B,from,A}
+- mass: m_B_from_A
 - mass: m_A
 - molar_mass: M_A
 - dimensionless: ν_A

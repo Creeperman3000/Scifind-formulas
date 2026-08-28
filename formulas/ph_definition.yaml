@@ -1,7 +1,7 @@
 name: Definition of pH
 id: ph_definition
 topic: acids_and_bases
-difficulty: 5
+difficulty: 2
 equation: ph eq drop log 10 concentration sub
 symbol_overrides:
 - ph: ''

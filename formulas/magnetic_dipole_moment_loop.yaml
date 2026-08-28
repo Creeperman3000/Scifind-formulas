@@ -1,7 +1,7 @@
 name: Magnetic dipole moment of a current loop
 id: magnetic_dipole_moment_loop
 topic: magnetism
-difficulty: 7
+difficulty: 3
 equation: torque eq amount mul (current) mul area
 symbol_overrides:
 - torque: μ

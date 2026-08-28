@@ -1,7 +1,7 @@
 name: Integral of cosine
 id: integral_cos
 topic: integrals
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq sin angle
 symbol_overrides:
 - dimensionless: ∫cos(x)dx

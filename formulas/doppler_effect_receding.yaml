@@ -1,8 +1,8 @@
 name: Doppler effect with source receding
 id: doppler_effect_receding
 topic: mechanical_waves
-difficulty: 6
-equation: frequency eq frequency mul velocity frac velocity add velocity
+difficulty: 3
+equation: frequency eq frequency mul velocity div velocity add velocity
 symbol_overrides:
 - frequency: f'
 - frequency: f

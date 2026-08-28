@@ -1,9 +1,9 @@
 name: Volume of a spherical segment
 id: spherical_segment_volume
 topic: plane_geometry
-difficulty: 8
+difficulty: 4
 equation: volume eq pi mul (length) mul (((length pow 2) mul 3) add ((length pow 2)
-  mul 3) add length pow 2 ) frac 6
+  mul 3) add length pow 2 ) div 6
 symbol_overrides:
 - volume: ''
 - length: h

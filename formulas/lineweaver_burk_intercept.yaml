@@ -1,13 +1,13 @@
 name: Lineweaver-Burk y-intercept
 id: lineweaver_burk_intercept
 topic: biochemistry
-difficulty: 8
+difficulty: 3
 equation: catalytic_activity pow (drop 1 sub) eq catalytic_activity pow (drop 1 sub)
   add catalytic_activity pow (drop 1 sub) mul concentration pow (drop 1 sub)
 symbol_overrides:
 - catalytic_activity: 1/v
-- catalytic_activity: K_m/V_{max}
-- catalytic_activity: 1/V_{max}
+- catalytic_activity: K_m/V_max
+- catalytic_activity: 1/V_max
 - concentration: 1/[S]
 name_overrides:
 - catalytic_activity: Reciprocal [velocity]

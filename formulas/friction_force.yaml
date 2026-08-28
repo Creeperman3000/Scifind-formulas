@@ -1,8 +1,7 @@
 name: Friction force
 id: friction_force
 topic: friction
-difficulty: 4
-description: "Valid for kinetic (sliding) friction on dry surfaces; μ_k is the kinetic coefficient."
+difficulty: 1
 equation: force eq coefficient_of_friction mul force
 symbol_overrides:
 - force: F_f

@@ -1,9 +1,9 @@
 name: Van 't Hoff equation (van_t_hoff_equation)
 id: van_t_hoff_equation
 topic: chemical_equilibrium
-difficulty: 8
-equation: log euler_e (equilibrium_constant frac equilibrium_constant) eq drop (energy
-  frac gas_constant) sub mul ((1 frac temperature) sub (1 frac temperature))
+difficulty: 5
+equation: log euler_e (equilibrium_constant div equilibrium_constant) eq drop (energy
+  div gas_constant) sub mul ((temperature div 1) sub temperature div 1)
 symbol_overrides:
 - equilibrium_constant: K_2
 - equilibrium_constant: K_1

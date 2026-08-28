@@ -1,8 +1,8 @@
 name: Energy stored in a capacitor
 id: capacitor_energy
 topic: capacitance
-difficulty: 6
-equation: energy eq dimensionless frac (dimensionless) mul (capacitance) mul electric_potential
+difficulty: 2
+equation: energy eq dimensionless div (dimensionless) mul (capacitance) mul electric_potential
   pow 2
 symbol_overrides:
 - energy: U

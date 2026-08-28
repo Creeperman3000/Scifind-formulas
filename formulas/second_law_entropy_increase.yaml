@@ -1,7 +1,7 @@
 name: 'Second law: entropy of isolated system'
 id: second_law_entropy_increase
 topic: second_law
-difficulty: 7
+difficulty: 2
 equation: Delta entropy geq 0
 symbol_overrides:
 - entropy: ΔS

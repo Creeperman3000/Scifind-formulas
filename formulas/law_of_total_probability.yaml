@@ -1,7 +1,7 @@
 name: Law of total probability
 id: law_of_total_probability
 topic: probability
-difficulty: 7
+difficulty: 2
 equation: dimensionless eq sum drop drop dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P(B)

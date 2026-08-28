@@ -1,15 +1,15 @@
 name: Degree of polarization from intensity
 id: degree_of_polarization_formula
 topic: polarization
-difficulty: 8
-equation: degree_of_polarization eq (irradiance sub irradiance ) frac irradiance add
+difficulty: 3
+equation: degree_of_polarization eq (irradiance sub irradiance ) div irradiance add
   irradiance
 symbol_overrides:
 - degree_of_polarization: ''
-- irradiance: I_{max}
-- irradiance: I_{min}
-- irradiance: I_{max}
-- irradiance: I_{min}
+- irradiance: I_max
+- irradiance: I_min
+- irradiance: I_max
+- irradiance: I_min
 name_overrides:
 - degree_of_polarization: '[Degree of polarization]'
 - irradiance: Maximum [intensity]

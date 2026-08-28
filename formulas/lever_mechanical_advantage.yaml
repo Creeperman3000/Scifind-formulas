@@ -1,8 +1,8 @@
 name: Mechanical advantage of a lever
 id: lever_mechanical_advantage
 topic: forces
-difficulty: 4
-equation: dimensionless eq length frac length
+difficulty: 1
+equation: dimensionless eq length div length
 symbol_overrides:
 - dimensionless: MA
 - length: d_e

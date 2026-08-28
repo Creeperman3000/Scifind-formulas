@@ -1,7 +1,7 @@
 name: Buoyant force
 id: buoyant_force
 topic: buoyancy
-difficulty: 5
+difficulty: 2
 equation: force eq density mul (standard_gravity) mul volume
 symbol_overrides:
 - force: F_b

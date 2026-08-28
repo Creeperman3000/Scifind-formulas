@@ -1,9 +1,8 @@
 name: Heat capacity from heat and temperature change
 id: heat_capacity_definition_general
 topic: heat
-difficulty: 5
-description: "Heat capacity at constant pressure or volume; C = Q / ΔT."
-equation: dimensionless eq energy frac temperature sub temperature
+difficulty: 1
+equation: dimensionless eq energy div temperature sub temperature
 symbol_overrides:
 - dimensionless: C
 - energy: ''

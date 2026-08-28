@@ -1,8 +1,8 @@
 name: Iodine number of a fat
 id: iodine_number
 topic: organic_chemistry
-difficulty: 8
-equation: dimensionless eq 100 mul (mass frac (mass))
+difficulty: 3
+equation: dimensionless eq mass div (mass) mul 100
 symbol_overrides:
 - dimensionless: Iodine number
 - mass: I_2 absorbed

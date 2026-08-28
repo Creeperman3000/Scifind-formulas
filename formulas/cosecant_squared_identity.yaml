@@ -1,8 +1,8 @@
 name: Cosecant Squared Identity
 id: cosecant_squared_identity
 topic: trigonometric_identities
-difficulty: 6
-equation: dimensionless eq dimensionless pow (cos angle frac sin angle ) add 2
+difficulty: 2
+equation: dimensionless eq dimensionless pow (cos angle div sin angle ) add 2
 symbol_overrides:
 - dimensionless: csc²θ
 - dimensionless: '1'

@@ -1,8 +1,8 @@
 name: Linear magnification
 id: magnification_formula
 topic: lenses
-difficulty: 5
-equation: drop (length frac length) sub eq length frac length
+difficulty: 1
+equation: drop (length div length) sub eq length div length
 symbol_overrides:
 - length: h_i
 - length: h_o

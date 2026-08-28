@@ -1,7 +1,7 @@
 name: Limit of x^n as x→0
 id: limit_x_n_to_zero
 topic: limits
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq 0
 symbol_overrides:
 - dimensionless: lim_{x→0} x^n

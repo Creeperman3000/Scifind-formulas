@@ -1,8 +1,8 @@
 name: Sum of roots of a quadratic
 id: polynomial_quadratic_sum_roots
 topic: polynomials
-difficulty: 5
-equation: dimensionless eq drop dimensionless sub frac dimensionless
+difficulty: 2
+equation: dimensionless eq drop dimensionless sub div dimensionless
 symbol_overrides:
 - dimensionless: α+β
 - dimensionless: b

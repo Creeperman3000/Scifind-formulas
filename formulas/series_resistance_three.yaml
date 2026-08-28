@@ -1,10 +1,10 @@
 name: Resistors in series (three)
 id: series_resistance_three
 topic: circuits
-difficulty: 4
+difficulty: 1
 equation: resistance eq resistance add resistance add resistance
 symbol_overrides:
-- resistance: R_{total}
+- resistance: R_total
 - resistance: R_1
 - resistance: R_2
 - resistance: R_3

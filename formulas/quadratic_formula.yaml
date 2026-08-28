@@ -1,9 +1,9 @@
 name: Quadratic formula
 id: quadratic_formula
 topic: polynomials
-difficulty: 4
+difficulty: 2
 equation: dimensionless eq (drop dimensionless sub add sqrt ((dimensionless pow 2)
-  sub 4 mul (dimensionless) mul dimensionless) 2) frac 2 mul dimensionless
+  sub 4 mul (dimensionless) mul dimensionless) 2) div 2 mul dimensionless
 symbol_overrides:
 - dimensionless: x
 - dimensionless: b

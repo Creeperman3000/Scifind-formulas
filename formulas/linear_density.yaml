@@ -1,8 +1,8 @@
 name: Linear mass density
 id: linear_density
 topic: mechanical_waves
-difficulty: 4
-equation: surface_density eq mass frac length
+difficulty: 1
+equation: surface_density eq mass div length
 symbol_overrides:
 - surface_density: μ
 - mass: ''

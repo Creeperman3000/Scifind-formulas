@@ -1,10 +1,10 @@
 name: Momentum of a system of particles
 id: momentum_system_particles
 topic: linear_momentum
-difficulty: 5
+difficulty: 2
 equation: momentum eq mass mul (velocity) add (mass) mul (velocity) add mass mul velocity
 symbol_overrides:
-- momentum: p_{sys}
+- momentum: p_sys
 - mass: m_1
 - velocity: v_1
 - mass: m_2

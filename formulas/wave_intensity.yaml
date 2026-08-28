@@ -1,8 +1,8 @@
 name: Wave intensity
 id: wave_intensity
 topic: mechanical_waves
-difficulty: 6
-equation: power eq power frac area
+difficulty: 2
+equation: power eq power div area
 symbol_overrides:
 - power: I
 - power: ''

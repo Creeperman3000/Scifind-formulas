@@ -1,8 +1,8 @@
 name: Amount of substance from mass
 id: mole_formula
 topic: mole_concept
-difficulty: 4
-equation: amount eq mass frac molar_mass
+difficulty: 1
+equation: amount eq mass div molar_mass
 symbol_overrides:
 - amount: ''
 - mass: ''

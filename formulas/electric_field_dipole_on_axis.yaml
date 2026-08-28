@@ -1,9 +1,9 @@
 name: Electric field on the axis of a dipole
 id: electric_field_dipole_on_axis
 topic: electric_fields
-difficulty: 8
+difficulty: 3
 equation: electric_field_strength eq 2 mul (coulomb_constant mul charge mul length
-  ) frac length pow 3
+  ) div length pow 3
 symbol_overrides:
 - electric_field_strength: E
 - charge: q

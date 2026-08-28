@@ -1,7 +1,7 @@
 name: Matrix multiplication 2x2 (first element)
 id: matrix_multiplication_2x2
 topic: linear_algebra
-difficulty: 6
+difficulty: 3
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
   dimensionless
 symbol_overrides:

@@ -1,8 +1,8 @@
 name: Elastic potential energy from force
 id: spring_energy_from_force_formula
 topic: springs
-difficulty: 5
-equation: energy eq force mul (length) frac 2
+difficulty: 2
+equation: energy eq force mul (length) div 2
 symbol_overrides:
 - energy: E_e
 - force: ''

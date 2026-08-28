@@ -1,8 +1,8 @@
 name: Gyroscope precession angular velocity
 id: angular_momentum_gyroscope_precession
 topic: angular_momentum
-difficulty: 9
-equation: angular_velocity eq torque frac angular_momentum
+difficulty: 4
+equation: angular_velocity eq torque div angular_momentum
 symbol_overrides:
 - angular_velocity: Ω
 - torque: τ

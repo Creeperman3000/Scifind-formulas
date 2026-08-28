@@ -1,8 +1,8 @@
 name: Probability from odds
 id: probability_from_odds
 topic: probability
-difficulty: 5
-equation: dimensionless eq dimensionless frac dimensionless add dimensionless
+difficulty: 1
+equation: dimensionless eq dimensionless div dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: p
 - dimensionless: odds

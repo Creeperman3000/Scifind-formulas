@@ -1,7 +1,7 @@
 name: Lateral surface area of a cylinder
 id: lateral_surface_area_cylinder
 topic: plane_geometry
-difficulty: 3
+difficulty: 1
 equation: area eq dimensionless mul (pi) mul (length) mul length
 symbol_overrides:
 - area: A

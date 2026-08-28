@@ -1,8 +1,8 @@
 name: Optical transmittance
 id: optical_transmittance
 topic: polarization
-difficulty: 6
-equation: dimensionless eq power frac power
+difficulty: 1
+equation: dimensionless eq power div power
 symbol_overrides:
 - dimensionless: T
 - power: I

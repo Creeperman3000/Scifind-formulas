@@ -1,9 +1,9 @@
 name: Electric field of an infinite line charge
 id: electric_field_infinite_line_charge
 topic: electric_fields
-difficulty: 8
+difficulty: 3
 equation: electric_field_strength eq (coulomb_constant mul 2) mul (charge_density)
-  frac length
+  div length
 symbol_overrides:
 - electric_field_strength: ''
 - charge_density: λ

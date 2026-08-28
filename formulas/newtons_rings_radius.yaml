@@ -1,7 +1,7 @@
 name: Newton's rings radius
 id: newtons_rings_radius
 topic: interference
-difficulty: 8
+difficulty: 4
 equation: length eq sqrt (dimensionless mul length) 2
 symbol_overrides:
 - length: r_m

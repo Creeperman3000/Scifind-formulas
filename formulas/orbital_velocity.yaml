@@ -1,8 +1,8 @@
 name: Orbital velocity
 id: orbital_velocity
 topic: orbital_motion
-difficulty: 6
-equation: velocity eq sqrt (gravitational_constant mul (mass) frac length ) 2
+difficulty: 3
+equation: velocity eq sqrt (gravitational_constant mul (mass) div length ) 2
 symbol_overrides:
 - velocity: ''
 - mass: M

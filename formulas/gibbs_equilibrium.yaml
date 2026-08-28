@@ -1,8 +1,7 @@
 name: Gibbs free energy and equilibrium constant
 id: gibbs_equilibrium
 topic: chemical_equilibrium
-difficulty: 8
-description: "ΔG = 0 at constant temperature and pressure defines thermodynamic equilibrium."
+difficulty: 4
 equation: energy eq drop (gas_constant mul (temperature) mul log euler_e equilibrium_constant)
   sub
 symbol_overrides:

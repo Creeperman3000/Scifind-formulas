@@ -1,13 +1,13 @@
 name: Newton's law of cooling
 id: newtons_law_of_cooling
 topic: heat_transfer
-difficulty: 7
+difficulty: 2
 equation: power eq thermal_conductivity mul area mul temperature sub temperature
 symbol_overrides:
 - power: ''
 - thermal_conductivity: ''
 - area: ''
-- temperature: T_{env}
+- temperature: T_env
 - temperature: ''
 name_overrides:
 - power: Heat transfer rate

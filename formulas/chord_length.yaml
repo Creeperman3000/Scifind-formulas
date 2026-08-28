@@ -1,8 +1,8 @@
 name: Chord length
 id: chord_length
 topic: circles
-difficulty: 5
-equation: length eq 2 mul (length) mul sin (angle frac 2)
+difficulty: 2
+equation: length eq 2 mul (length) mul sin (angle div 2)
 symbol_overrides:
 - length: c
 - length: R

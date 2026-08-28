@@ -1,7 +1,7 @@
 name: Henry's law
 id: henrys_law
 topic: solutions
-difficulty: 7
+difficulty: 2
 equation: concentration eq pressure mul concentration
 symbol_overrides:
 - concentration: C

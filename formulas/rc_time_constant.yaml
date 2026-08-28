@@ -1,7 +1,7 @@
 name: RC time constant
 id: rc_time_constant
 topic: circuits
-difficulty: 7
+difficulty: 2
 equation: time eq resistance mul capacitance
 symbol_overrides:
 - time: τ

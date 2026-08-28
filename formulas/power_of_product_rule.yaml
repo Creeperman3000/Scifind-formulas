@@ -5,18 +5,18 @@ difficulty: 2
 equation: (dimensionless mul dimensionless ) pow dimensionless eq dimensionless pow
   (dimensionless) mul dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: a
-- dimensionless: b
-- dimensionless: n
-- dimensionless: a
-- dimensionless: n
-- dimensionless: b
-- dimensionless: n
+- dimensionless: (ab)^n
+- dimensionless: a^n
+- dimensionless: b^n
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
 name_overrides:
-- dimensionless: First factor
-- dimensionless: Second factor
-- dimensionless: Exponent
-- dimensionless: First factor
-- dimensionless: Exponent
-- dimensionless: Second factor
-- dimensionless: Exponent
+- dimensionless: Power of a product
+- dimensionless: a^n
+- dimensionless: b^n
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''
+- dimensionless: ''

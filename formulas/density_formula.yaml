@@ -1,8 +1,8 @@
 name: Density
 id: density_formula
 topic: pressure
-difficulty: 2
-equation: density eq mass frac volume
+difficulty: 1
+equation: density eq mass div volume
 symbol_overrides:
 - density: ''
 - mass: ''

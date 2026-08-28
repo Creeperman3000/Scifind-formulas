@@ -1,8 +1,8 @@
 name: Dynamic viscosity from shear stress
 id: dynamic_viscosity_definition
 topic: reynolds_number
-difficulty: 8
-equation: dynamic_viscosity eq force frac (area) frac velocity frac length
+difficulty: 4
+equation: dynamic_viscosity eq force div (area) div velocity div length
 symbol_overrides:
 - dynamic_viscosity: ''
 - force: ''

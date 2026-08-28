@@ -1,9 +1,9 @@
 name: Centroid of a triangle (coordinates)
 id: coordinate_geometry_centroid_formula
 topic: coordinate_geometry
-difficulty: 5
+difficulty: 1
 equation: dimensionless eq (dimensionless add (dimensionless) add dimensionless )
-  frac 3
+  div 3
 symbol_overrides:
 - dimensionless: x_G
 - dimensionless: x_1

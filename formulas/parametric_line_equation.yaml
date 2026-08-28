@@ -1,7 +1,7 @@
 name: Parametric form of a line
 id: parametric_line_equation
 topic: equations
-difficulty: 6
+difficulty: 2
 equation: length eq length add length mul dimensionless
 symbol_overrides:
 - length: x

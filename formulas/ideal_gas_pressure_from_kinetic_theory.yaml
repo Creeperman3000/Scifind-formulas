@@ -1,14 +1,14 @@
 name: Pressure from kinetic theory
 id: ideal_gas_pressure_from_kinetic_theory
 topic: ideal_gases
-difficulty: 8
-equation: pressure eq (dimensionless mul (mass mul velocity pow 2 )) frac (3 mul volume
-  )
+difficulty: 3
+equation: pressure eq dimensionless mul (mass mul velocity pow 2 ) div volume mul
+  3
 symbol_overrides:
 - pressure: ''
 - dimensionless: N
 - mass: ''
-- velocity: v
+- velocity: v²
 - volume: ''
 name_overrides:
 - pressure: '[Pressure]'

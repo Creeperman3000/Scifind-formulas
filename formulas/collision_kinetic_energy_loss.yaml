@@ -1,7 +1,7 @@
 name: Kinetic energy loss in collision
 id: collision_kinetic_energy_loss
 topic: collisions
-difficulty: 7
+difficulty: 2
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: \Delta\mathrm{KE}

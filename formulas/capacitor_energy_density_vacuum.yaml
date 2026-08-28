@@ -1,9 +1,9 @@
 name: Energy density in a capacitor (vacuum)
 id: capacitor_energy_density_vacuum
 topic: capacitance
-difficulty: 8
+difficulty: 3
 equation: energy_density eq vacuum_permittivity mul (electric_field_strength pow 2)
-  frac 2
+  div 2
 symbol_overrides:
 - energy_density: ''
 - electric_field_strength: ''

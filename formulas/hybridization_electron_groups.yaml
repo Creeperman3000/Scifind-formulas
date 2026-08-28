@@ -1,7 +1,7 @@
 name: Hybridization electron groups
 id: hybridization_electron_groups
 topic: chemical_bonding
-difficulty: 6
+difficulty: 2
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: N_{\mathrm{groups}}

@@ -1,11 +1,11 @@
 name: Diesel cycle efficiency
 id: diesel_cycle_efficiency
 topic: heat_engines
-difficulty: 9
+difficulty: 5
 equation: dimensionless eq dimensionless sub (dimensionless pow (dimensionless) sub
-  dimensionless ) frac ((dimensionless sub dimensionless ) mul dimensionless )
+  dimensionless ) div ((dimensionless sub dimensionless ) mul dimensionless )
 symbol_overrides:
-- dimensionless: η_{Diesel}
+- dimensionless: η_Diesel
 - dimensionless: '1'
 - dimensionless: r_c
 - dimensionless: γ

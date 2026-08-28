@@ -1,7 +1,7 @@
 name: Gravitational potential energy near Earth's surface
 id: potential_energy_gravitational_definition
 topic: potential_energy
-difficulty: 4
+difficulty: 1
 equation: energy eq mass mul (acceleration) mul length
 symbol_overrides:
 - energy: U_g

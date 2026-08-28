@@ -1,22 +1,20 @@
 name: Biot-Savart law (current element)
 id: biot_savart_law
 topic: magnetism
-difficulty: 8
-description: Valid for steady currents; gives the magnetic field contribution from
-  a current element dℓ carrying current I.
-equation: magnetic_flux_density eq ((vacuum_permeability mul current mul length mul
-  (sin angle )) frac ((4 mul pi) mul (length mul length )))
+difficulty: 4
+equation: magnetic_flux_density eq vacuum_permeability mul (current) mul (length)
+  mul (sin angle ) div ((pi mul 4) div length mul length )
 symbol_overrides:
 - magnetic_flux_density: dB
 - current: ''
 - length: dl
 - angle: θ
 - length: r
-- length: r
+- length: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field contribution
 - current: Current
 - length: Wire element
 - angle: Angle between dl and r
 - length: Distance
-- length: Distance
+- length: ''

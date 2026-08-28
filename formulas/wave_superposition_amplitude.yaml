@@ -1,7 +1,7 @@
 name: Wave superposition amplitude
 id: wave_superposition_amplitude
 topic: wave_interference
-difficulty: 6
+difficulty: 3
 equation: dimensionless eq sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
 symbol_overrides:
 - dimensionless: A

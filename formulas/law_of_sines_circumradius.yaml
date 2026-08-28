@@ -1,9 +1,9 @@
 name: Law of sines with circumradius
 id: law_of_sines_circumradius
 topic: laws_of_sines_and_cosines
-difficulty: 6
-equation: length frac sin angle eq length frac sin angle eq length frac sin angle
-  eq (2 mul length )
+difficulty: 2
+equation: length div sin angle eq length div sin angle eq length div sin angle eq
+  length mul 2
 symbol_overrides:
 - length: a
 - angle: A

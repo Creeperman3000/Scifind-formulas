@@ -1,7 +1,7 @@
 name: Surface area of a sphere
 id: surface_area_sphere
 topic: plane_geometry
-difficulty: 3
+difficulty: 1
 equation: area eq 4 mul pi mul length pow 2
 symbol_overrides:
 - area: A

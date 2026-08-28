@@ -1,8 +1,8 @@
 name: Specific heat capacity definition
 id: specific_heat_capacity_definition
 topic: heat
-difficulty: 5
-equation: specific_heat_capacity eq energy frac mass mul temperature
+difficulty: 1
+equation: specific_heat_capacity eq energy div mass mul temperature
 symbol_overrides:
 - specific_heat_capacity: c
 - energy: Q

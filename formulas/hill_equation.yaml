@@ -1,12 +1,12 @@
 name: Hill equation (cooperative binding)
 id: hill_equation
 topic: biochemistry
-difficulty: 9
+difficulty: 4
 equation: catalytic_activity eq catalytic_activity mul (concentration pow dimensionless)
-  frac dimensionless add concentration pow dimensionless
+  div dimensionless add concentration pow dimensionless
 symbol_overrides:
 - catalytic_activity: v
-- catalytic_activity: V_{max}
+- catalytic_activity: V_max
 - concentration: '[S]'
 - dimensionless: n
 - dimensionless: K_d

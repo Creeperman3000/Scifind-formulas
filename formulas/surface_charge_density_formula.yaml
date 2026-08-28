@@ -1,8 +1,8 @@
 name: Surface charge density
 id: surface_charge_density_formula
 topic: electrostatics
-difficulty: 6
-equation: surface_charge_density eq charge frac area
+difficulty: 1
+equation: surface_charge_density eq charge div area
 symbol_overrides:
 - surface_charge_density: ''
 - charge: ''

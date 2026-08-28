@@ -1,12 +1,12 @@
 name: Partial pressure from mole fraction
 id: partial_pressure_mole_fraction
 topic: ideal_gases
-difficulty: 5
+difficulty: 1
 equation: pressure eq dimensionless mul pressure
 symbol_overrides:
 - pressure: P_i
 - dimensionless: x_i
-- pressure: P_{total}
+- pressure: P_total
 name_overrides:
 - pressure: Partial [pressure] of component i
 - dimensionless: Mole fraction of i

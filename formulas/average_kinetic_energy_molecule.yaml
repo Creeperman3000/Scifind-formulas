@@ -1,8 +1,8 @@
 name: Average kinetic energy per molecule
 id: average_kinetic_energy_molecule
 topic: ideal_gases
-difficulty: 7
-equation: energy eq dimensionless frac (dimensionless) mul (boltzmann_constant) mul
+difficulty: 3
+equation: energy eq dimensionless div (dimensionless) mul (boltzmann_constant) mul
   temperature
 symbol_overrides:
 - energy: \langle K \rangle

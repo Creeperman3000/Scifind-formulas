@@ -1,7 +1,7 @@
 name: Exponent power rule
 id: exponent_power_rule
 topic: exponents
-difficulty: 3
+difficulty: 1
 equation: (dimensionless pow dimensionless ) pow dimensionless eq dimensionless pow
   dimensionless mul dimensionless
 symbol_overrides:

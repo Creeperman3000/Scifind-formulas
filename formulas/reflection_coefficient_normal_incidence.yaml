@@ -1,9 +1,9 @@
 name: Reflection coefficient at normal incidence
 id: reflection_coefficient_normal_incidence
 topic: reflection
-difficulty: 8
+difficulty: 3
 equation: reflectance eq refractive_index refractive_index sub refractive_index refractive_index
-  add frac pow 2
+  add div pow 2
 symbol_overrides:
 - reflectance: ''
 - refractive_index: n₁

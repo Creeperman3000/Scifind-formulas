@@ -1,7 +1,7 @@
 name: Born rule for probability density
 id: born_rule_quantum
 topic: quantum_mechanics
-difficulty: 9
+difficulty: 3
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: P

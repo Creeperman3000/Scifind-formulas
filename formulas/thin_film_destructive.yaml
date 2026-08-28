@@ -1,13 +1,13 @@
 name: Thin film destructive interference
 id: thin_film_destructive
 topic: interference
-difficulty: 8
+difficulty: 3
 equation: 2 mul length mul reflectance eq (dimensionless add dimensionless) mul length
 symbol_overrides:
 - length: n
 - reflectance: t
 - dimensionless: m
-- dimensionless: \frac{1}{2}
+- dimensionless: ½
 - length: λ
 name_overrides:
 - length: Film refractive index

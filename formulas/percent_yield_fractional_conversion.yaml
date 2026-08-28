@@ -1,10 +1,10 @@
 name: Fractional conversion to percent yield
 id: percent_yield_fractional_conversion
 topic: percent_yield
-difficulty: 5
-equation: dimensionless eq 100 mul (dimensionless frac dimensionless )
+difficulty: 1
+equation: dimensionless eq dimensionless div dimensionless mul 100
 symbol_overrides:
-- dimensionless: \%
+- dimensionless: '%'
 - dimensionless: actual
 - dimensionless: theoretical
 name_overrides:

@@ -1,9 +1,9 @@
 name: Number average molar mass
 id: number_average_molar_mass
 topic: organic_chemistry
-difficulty: 8
+difficulty: 3
 equation: molar_mass eq (dimensionless mul (molar_mass) add dimensionless mul molar_mass
-  ) frac dimensionless add dimensionless
+  ) div dimensionless add dimensionless
 symbol_overrides:
 - molar_mass: M̄_n
 - dimensionless: N₁

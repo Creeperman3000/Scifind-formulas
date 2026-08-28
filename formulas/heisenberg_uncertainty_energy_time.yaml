@@ -1,11 +1,13 @@
 name: Heisenberg energy-time uncertainty principle
 id: heisenberg_uncertainty_energy_time
 topic: quantum_mechanics
-difficulty: 9
-equation: energy gt (planck_constant frac ((4 mul pi) mul time ))
+difficulty: 4
+equation: energy time mul dimensionless planck_constant pi 2 mul div mul gt
 symbol_overrides:
 - energy: ΔE
 - time: Δt
+- dimensionless: ½
 name_overrides:
 - energy: Energy uncertainty
 - time: Time uncertainty
+- dimensionless: ''
