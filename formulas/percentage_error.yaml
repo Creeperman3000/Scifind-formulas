@@ -2,16 +2,14 @@ name: Percentage error
 id: percentage_error
 topic: arithmetic
 difficulty: 1
-equation: (dimensionless) eq ((((dimensionless) sub (dimensionless)) div (dimensionless)) mul (dimensionless))
+equation: (dimensionless) eq ((abs (((dimensionless) sub (dimensionless)) div (dimensionless))) mul 100)
 symbol_overrides:
 - dimensionless: '% error'
-- dimensionless: theoretical
 - dimensionless: experimental
 - dimensionless: theoretical
-- dimensionless: '100'
+- dimensionless: theoretical
 name_overrides:
 - dimensionless: Percentage error
-- dimensionless: Theoretical value
 - dimensionless: Experimental value
-- dimensionless: ''
+- dimensionless: Theoretical value
 - dimensionless: ''

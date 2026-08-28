@@ -2,12 +2,10 @@ name: Moles from gas volume at STP
 id: moles_from_gas_stp
 topic: mole_concept
 difficulty: 1
-equation: (amount) eq ((volume) div (dimensionless))
+equation: (amount) eq ((volume) div (22.4))
 symbol_overrides:
 - amount: ''
 - volume: ''
-- dimensionless: '22.4'
 name_overrides:
 - amount: Amount of [substance]
 - volume: Gas [volume] at STP
-- dimensionless: Molar volume at STP

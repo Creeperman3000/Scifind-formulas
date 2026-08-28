@@ -2,7 +2,7 @@ name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
 difficulty: 4
-equation: ((length) div 1) eq (((refractive_index) sub 1) mul (((length) div 1) sub ((length) div 1)))
+equation: (1 div (length)) eq (((refractive_index) sub 1) mul ((1 div (length)) sub (1 div (length))))
 symbol_overrides:
 - length: f
 - refractive_index: ''
@@ -10,6 +10,6 @@ symbol_overrides:
 - length: R_2
 name_overrides:
 - length: Focal length
-- refractive_index: Lens [refractive index index]
+- refractive_index: Lens [refractive index]
 - length: First radius of curvature
 - length: Second radius of curvature

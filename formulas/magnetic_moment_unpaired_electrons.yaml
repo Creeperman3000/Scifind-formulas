@@ -2,12 +2,12 @@ name: Magnetic moment from unpaired electrons
 id: magnetic_moment_unpaired_electrons
 topic: inorganic_chemistry
 difficulty: 3
-equation: (dimensionless) eq sqrt(((dimensionless) add ((dimensionless) mul 2)))
+equation: (dimensionless) eq sqrt(((dimensionless) add ((2) mul (dimensionless))))
 symbol_overrides:
 - dimensionless: μ
 - dimensionless: n
-- dimensionless: ''
+- dimensionless: 2
 name_overrides:
 - dimensionless: Magnetic [moment] (in Bohr magnetons)
 - dimensionless: Number of unpaired electrons
-- dimensionless: ''
+- dimensionless: '2'

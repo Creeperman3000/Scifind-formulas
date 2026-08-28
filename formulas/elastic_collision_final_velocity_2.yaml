@@ -2,26 +2,26 @@ name: Elastic collision final velocity 2 (1D)
 id: elastic_collision_final_velocity_2
 topic: collisions
 difficulty: 3
-equation: (velocity) eq (((((mass) mul 2) div ((mass) add (mass))) mul (velocity)) add ((((mass) sub (mass)) div ((mass) add (mass))) mul (velocity)))
+equation: (velocity) eq (((((2) mul (mass)) div ((mass) add (mass))) mul (velocity)) add ((((mass) sub (mass)) div ((mass) add (mass))) mul (velocity)))
 symbol_overrides:
 - velocity: v_{2f}
 - mass: m_1
+- mass: m_1
+- mass: m_2
+- velocity: v_{1i}
 - mass: m_2
 - mass: m_1
-- velocity: v_{1i}
-- mass: ''
-- mass: ''
-- mass: ''
-- mass: ''
+- mass: m_1
+- mass: m_2
 - velocity: v_{2i}
 name_overrides:
-- velocity: ''
-- mass: ''
-- mass: ''
-- mass: ''
-- velocity: ''
-- mass: ''
-- mass: ''
-- mass: ''
-- mass: ''
-- velocity: ''
+- velocity: Final velocity of object 2
+- mass: Mass of object 1
+- mass: Mass of object 1
+- mass: Mass of object 2
+- velocity: Initial velocity of object 1
+- mass: Mass of object 2
+- mass: Mass of object 1
+- mass: Mass of object 1
+- mass: Mass of object 2
+- velocity: Initial velocity of object 2

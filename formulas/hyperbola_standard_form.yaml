@@ -2,15 +2,14 @@ name: Standard equation of a hyperbola
 id: hyperbola_standard_form
 topic: coordinate_geometry
 difficulty: 2
-equation: (dimensionless) eq ((((dimensionless) pow 2) div ((dimensionless) pow 2)) sub (((dimensionless) pow 2) div ((dimensionless) pow 2)))
+equation: (1) eq ((((dimensionless) pow 2) div ((dimensionless) pow 2)) sub (((dimensionless)
+  pow 2) div ((dimensionless) pow 2)))
 symbol_overrides:
-- dimensionless: '1'
 - dimensionless: x
 - dimensionless: a
 - dimensionless: y
 - dimensionless: b
 name_overrides:
-- dimensionless: Hyperbola equation
 - dimensionless: ''
 - dimensionless: x-coordinate
 - dimensionless: Semi-transverse axis

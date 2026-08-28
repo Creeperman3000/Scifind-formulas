@@ -5,9 +5,11 @@ difficulty: 3
 equation: (energy) eq (((boltzmann_constant) mul (temperature)) mul (dimensionless))
 symbol_overrides:
 - energy: KE_avg
+- boltzmann_constant: k_B
 - temperature: ''
 - dimensionless: 3/2
 name_overrides:
 - energy: Average kinetic [energy] per molecule
+- boltzmann_constant: Boltzmann constant
 - temperature: ''
-- dimensionless: ''
+- dimensionless: 3/2

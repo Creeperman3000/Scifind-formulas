@@ -2,12 +2,12 @@ name: Impulse as change in momentum
 id: linear_momentum_impulse_relation
 topic: linear_momentum
 difficulty: 1
-equation: (impulse) eq ((momentum) sub (momentum))
+equation: (momentum) eq ((momentum) sub (momentum))
 symbol_overrides:
-- impulse: ''
+- momentum: ''
 - momentum: p_f
 - momentum: p_i
 name_overrides:
-- impulse: '[Impulse]'
+- momentum: '[Momentum]'
 - momentum: Final [momentum]
 - momentum: Initial [momentum]

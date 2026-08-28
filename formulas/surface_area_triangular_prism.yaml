@@ -2,7 +2,7 @@ name: Surface area of a triangular prism
 id: surface_area_triangular_prism
 topic: plane_geometry
 difficulty: 2
-equation: (area) eq ((((length) mul (length)) add (((length) add (length)) mul (length))) add ((length) mul (length)))
+equation: (area) eq ((((length) pow (2)) add (((length) add (length)) mul (length))) add ((length) pow (2)))
 symbol_overrides:
 - area: SA
 - length: b
@@ -10,8 +10,6 @@ symbol_overrides:
 - length: s₁
 - length: s₂
 - length: b
-- length: ''
-- length: ''
 name_overrides:
 - area: Surface [area]
 - length: Base width
@@ -19,5 +17,3 @@ name_overrides:
 - length: Side length 1
 - length: Side length 2
 - length: Prism length
-- length: ''
-- length: ''

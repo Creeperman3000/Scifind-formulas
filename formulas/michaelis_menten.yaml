@@ -8,10 +8,10 @@ symbol_overrides:
 - catalytic_activity: V_max
 - concentration: '[S]'
 - concentration: K_m
-- concentration: ''
+- concentration: '[S]'
 name_overrides:
 - catalytic_activity: Reaction rate
 - catalytic_activity: Maximum rate
 - concentration: Substrate [concentration]
 - concentration: Michaelis constant
-- concentration: ''
+- concentration: Substrate [concentration]

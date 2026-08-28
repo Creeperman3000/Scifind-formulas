@@ -4,8 +4,8 @@ topic: right_triangles
 difficulty: 1
 equation: (length) eq ((length) div 2)
 symbol_overrides:
-- length: short_leg
+- length: s
 - length: h
 name_overrides:
-- length: Short leg
+- length: Short leg (opposite 30°)
 - length: Hypotenuse

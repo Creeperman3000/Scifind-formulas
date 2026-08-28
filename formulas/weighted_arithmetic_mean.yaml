@@ -2,7 +2,7 @@ name: Weighted arithmetic mean
 id: weighted_arithmetic_mean
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq (((((dimensionless) mul (dimensionless)) add (dimensionless)) add (dimensionless)) div (((dimensionless) add (dimensionless)) add (dimensionless)))
+equation: (dimensionless) eq (((((dimensionless) pow (2)) add ((dimensionless) pow (2))) add ((dimensionless) pow (2))) div (((dimensionless) add (dimensionless)) add (dimensionless)))
 symbol_overrides:
 - dimensionless: x̄_w
 - dimensionless: w₁
@@ -11,7 +11,6 @@ symbol_overrides:
 - dimensionless: x₂
 - dimensionless: w₃
 - dimensionless: x₃
-- dimensionless: w₁
 name_overrides:
 - dimensionless: Weighted mean
 - dimensionless: Weight 1
@@ -20,4 +19,3 @@ name_overrides:
 - dimensionless: Value 2
 - dimensionless: Weight 3
 - dimensionless: Value 3
-- dimensionless: ''

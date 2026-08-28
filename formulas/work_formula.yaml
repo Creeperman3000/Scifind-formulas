@@ -2,12 +2,12 @@ name: Work
 id: work_formula
 topic: work
 difficulty: 1
-equation: (work) eq ((force) mul (displacement))
+equation: (energy) eq ((force) mul (length))
 name_overrides:
-- work: '[Work]'
+- energy: '[Energy]'
 - force: ''
-- displacement: ''
+- length: ''
 symbol_overrides:
-- work: ''
+- energy: ''
 - force: ''
-- displacement: ''
+- length: ''

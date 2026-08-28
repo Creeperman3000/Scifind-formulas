@@ -2,16 +2,14 @@ name: Addition rule for probability
 id: probability_addition_rule
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq (((dimensionless) add (dimensionless)) sub ((dimensionless) mul (dimensionless)))
+equation: (dimensionless) eq (((dimensionless) add (dimensionless)) sub ((dimensionless) pow (2)))
 symbol_overrides:
 - dimensionless: P(A∪B)
 - dimensionless: P(A)
 - dimensionless: P(B)
 - dimensionless: P(A)
-- dimensionless: P(B)
 name_overrides:
 - dimensionless: Probability of A or B
 - dimensionless: Probability of A
 - dimensionless: Probability of B
 - dimensionless: Probability of A
-- dimensionless: Probability of B

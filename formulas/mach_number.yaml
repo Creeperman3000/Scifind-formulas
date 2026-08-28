@@ -5,8 +5,8 @@ difficulty: 2
 equation: (dimensionless) eq ((velocity) div (velocity))
 symbol_overrides:
 - dimensionless: M
+- velocity: v
 - velocity: c
-- velocity: ''
 name_overrides:
 - dimensionless: Mach [number]
 - velocity: Object [speed]

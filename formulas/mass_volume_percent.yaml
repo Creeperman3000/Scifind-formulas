@@ -2,14 +2,12 @@ name: Mass-volume percent concentration
 id: mass_volume_percent
 topic: solution_stoichiometry
 difficulty: 1
-equation: (dimensionless) eq (((mass) div (volume)) mul (dimensionless))
+equation: (dimensionless) eq (((mass) div (volume)) mul (100))
 symbol_overrides:
 - dimensionless: '%m/v'
 - mass: m_solute
 - volume: V_solution
-- dimensionless: '100'
 name_overrides:
 - dimensionless: Mass-volume percent
 - mass: Mass of solute
 - volume: '[Volume] of solution'
-- dimensionless: ''

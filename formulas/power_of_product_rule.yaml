@@ -2,20 +2,19 @@ name: Power of a product
 id: power_of_product_rule
 topic: exponents
 difficulty: 2
-equation: (((dimensionless) mul (dimensionless)) pow (dimensionless)) eq (((dimensionless) pow (dimensionless)) mul ((dimensionless) pow (dimensionless)))
+equation: (((dimensionless) pow (2)) pow (dimensionless)) eq (((dimensionless) pow
+  (dimensionless)) mul ((dimensionless) pow (dimensionless)))
 symbol_overrides:
 - dimensionless: (ab)^n
 - dimensionless: a^n
 - dimensionless: b^n
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: a
+- dimensionless: n
+- dimensionless: b
 name_overrides:
 - dimensionless: Power of a product
 - dimensionless: a^n
 - dimensionless: b^n
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: Base a
+- dimensionless: Exponent n
+- dimensionless: Base b

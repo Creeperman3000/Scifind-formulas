@@ -6,7 +6,7 @@ equation: (dimensionless) eq (((mass) div (mass)) mul 100)
 symbol_overrides:
 - dimensionless: '%X'
 - mass: m_X
-- mass: m_total
+- mass: m_{\text{total}}
 name_overrides:
 - dimensionless: Percent composition
 - mass: Mass of element

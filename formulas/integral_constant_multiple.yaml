@@ -2,12 +2,10 @@ name: Integral constant multiple rule
 id: integral_constant_multiple
 topic: integrals
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) mul (dimensionless))
+equation: (dimensionless) eq ((dimensionless) pow (2))
 symbol_overrides:
 - dimensionless: ∫cf(x) dx
 - dimensionless: c
-- dimensionless: ∫f(x) dx
 name_overrides:
 - dimensionless: Integral of c·f(x)
 - dimensionless: Constant factor
-- dimensionless: Integral of f(x)

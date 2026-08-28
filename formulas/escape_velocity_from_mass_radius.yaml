@@ -2,7 +2,7 @@ name: Escape velocity from mass and radius
 id: escape_velocity_from_mass_radius
 topic: escape_velocity
 difficulty: 2
-equation: (velocity) eq sqrt(((((gravitational_constant) mul 2) mul (mass)) div (length)))
+equation: (velocity) eq sqrt(((((2) mul (gravitational_constant)) mul (mass)) div (length)))
 symbol_overrides:
 - velocity: v_esc
 - gravitational_constant: ''

@@ -4,9 +4,9 @@ topic: solutions
 difficulty: 2
 equation: (pressure) eq ((concentration) mul (pressure))
 symbol_overrides:
-- pressure: P°
-- concentration: χ
 - pressure: ''
+- concentration: χ
+- pressure: P°
 name_overrides:
 - pressure: Vapor [pressure] of solution
 - concentration: Mole fraction of solvent

@@ -9,7 +9,7 @@ symbol_overrides:
 - refractive_index: n_2
 - angle: θ_2
 name_overrides:
-- refractive_index: Incident medium [refractive index index]
+- refractive_index: Incident medium [refractive index]
 - angle: Angle of incidence
-- refractive_index: Refracting medium [refractive index index]
+- refractive_index: Refracting medium [refractive index]
 - angle: Angle of refraction

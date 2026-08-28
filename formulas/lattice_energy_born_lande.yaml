@@ -2,22 +2,28 @@ name: Born-Landé lattice energy equation
 id: lattice_energy_born_lande
 topic: inorganic_chemistry
 difficulty: 5
-equation: (energy) eq (((((coulomb_constant) mul (avogadro_number) mul (dimensionless)) mul (charge) mul (charge)) div ((vacuum_permittivity) mul (length))) mul ((dimensionless) sub ((dimensionless) div (dimensionless))))
+equation: (energy) eq (((((coulomb_constant) mul (avogadro_number) mul (dimensionless))
+  mul (charge) pow (2)) div ((vacuum_permittivity) mul (length))) mul ((dimensionless)
+  sub ((dimensionless) div (dimensionless))))
 symbol_overrides:
 - energy: U
-- dimensionless: M
-- charge: z_+
-- charge: z_-
+- coulomb_constant: k_e
+- avogadro_number: N_A
 - length: r_0
 - dimensionless: n
-- dimensionless: n
+- vacuum_permittivity: \varepsilon_0
 - dimensionless: ''
+- dimensionless: '1'
+- dimensionless: '1'
+- dimensionless: n
 name_overrides:
 - energy: Lattice [energy]
-- dimensionless: Madelung constant
-- charge: Cation charge
-- charge: Anion charge
+- coulomb_constant: Coulomb constant
+- avogadro_number: Avogadro number
 - length: Nearest neighbor distance
 - dimensionless: Born exponent
-- dimensionless: Born exponent
+- vacuum_permittivity: Vacuum permittivity
 - dimensionless: ''
+- dimensionless: '1'
+- dimensionless: '1'
+- dimensionless: Born exponent

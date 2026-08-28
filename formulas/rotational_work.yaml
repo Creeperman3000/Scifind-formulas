@@ -2,12 +2,12 @@ name: Rotational work done by a constant torque
 id: rotational_work
 topic: rotational_energy
 difficulty: 2
-equation: (work) eq ((torque) mul (angle))
+equation: (energy) eq ((torque) mul (angle))
 symbol_overrides:
-- work: ''
+- energy: ''
 - torque: ''
 - angle: ''
 name_overrides:
-- work: Rotational [work]
+- energy: Rotational [work]
 - torque: ''
 - angle: ''

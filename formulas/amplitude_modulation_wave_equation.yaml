@@ -7,15 +7,19 @@ symbol_overrides:
 - dimensionless: y(t)
 - dimensionless: A_c
 - frequency: f_c
-- time: ''
+- time: t
+- pi: ''
 - dimensionless: m
 - dimensionless: f_m
-- time: ''
+- time: t
+- pi: ''
 name_overrides:
 - dimensionless: Modulated signal
 - dimensionless: Carrier amplitude
 - frequency: Carrier frequency
 - time: ''
+- pi: ''
 - dimensionless: Modulation index
 - dimensionless: Modulating frequency
 - time: ''
+- pi: ''

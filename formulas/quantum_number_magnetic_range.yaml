@@ -6,6 +6,8 @@ equation: ((abs (dimensionless)) lt (dimensionless))
 symbol_overrides:
 - dimensionless: m_l
 - dimensionless: l
+- dimensionless: l
 name_overrides:
-- dimensionless: Magnetic quantum [number]
+- dimensionless: Magnetic quantum number
 - dimensionless: Azimuthal quantum [number]
+- dimensionless: Azimuthal quantum number

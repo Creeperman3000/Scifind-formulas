@@ -5,9 +5,9 @@ difficulty: 2
 equation: (dimensionless) eq ((dimensionless) sub (dimensionless))
 symbol_overrides:
 - dimensionless: π
-- dimensionless: Bond_order
-- dimensionless: σ_bonds
+- dimensionless: BO
+- dimensionless: N_{\sigma}
 name_overrides:
 - dimensionless: Pi bond count
 - dimensionless: Bond order
-- dimensionless: Sigma bond count
+- dimensionless: Number of sigma bonds

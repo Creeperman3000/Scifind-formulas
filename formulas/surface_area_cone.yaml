@@ -11,5 +11,5 @@ symbol_overrides:
 name_overrides:
 - area: ''
 - length: Radius
-- length: ''
+- length: Radius
 - length: Slant height

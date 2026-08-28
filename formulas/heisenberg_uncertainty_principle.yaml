@@ -2,10 +2,10 @@ name: Heisenberg uncertainty principle
 id: heisenberg_uncertainty_principle
 topic: quantum_mechanics
 difficulty: 4
-equation: ((displacement) mul (momentum)) gt ((planck_constant) div ((pi) mul 4))
+equation: ((length) mul (momentum)) gt ((planck_constant) div (4 mul (pi)))
 symbol_overrides:
-- displacement: Δx
+- length: Δx
 - momentum: Δp
 name_overrides:
-- displacement: Position uncertainty
+- length: Position uncertainty
 - momentum: Momentum uncertainty

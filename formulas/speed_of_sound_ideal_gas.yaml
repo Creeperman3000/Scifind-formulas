@@ -2,7 +2,7 @@ name: Speed of sound in an ideal gas
 id: speed_of_sound_ideal_gas
 topic: mechanical_waves
 difficulty: 3
-equation: (velocity) eq ((dimensionless) mul (sqrt (((gas_constant) mul (temperature)) div (molar_mass))))
+equation: (velocity) eq sqrt(((dimensionless) mul ((gas_constant) mul (temperature))) div (molar_mass))
 symbol_overrides:
 - velocity: ''
 - dimensionless: γ

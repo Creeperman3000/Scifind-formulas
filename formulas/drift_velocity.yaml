@@ -2,16 +2,14 @@ name: Drift velocity
 id: drift_velocity
 topic: current_electricity
 difficulty: 3
-equation: (velocity) eq ((current) div (((area) mul ((number_of_particles) div (volume))) mul (elementary_charge)))
+equation: (velocity) eq ((current) div (((area) mul (dimensionless)) mul (elementary_charge)))
 symbol_overrides:
 - velocity: v_d
-- current: ''
-- area: ''
-- number_of_particles: ''
-- volume: ''
+- current: I
+- area: A
+- dimensionless: n
 name_overrides:
 - velocity: Drift [velocity]
 - current: ''
-- area: ''
-- number_of_particles: Number of charge carriers
-- volume: '[Volume]'
+- area: Cross-sectional [area]
+- dimensionless: Charge carrier density

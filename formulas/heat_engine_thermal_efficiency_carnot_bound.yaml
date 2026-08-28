@@ -2,14 +2,12 @@ name: Carnot efficiency bound
 id: heat_engine_thermal_efficiency_carnot_bound
 topic: heat_engines
 difficulty: 2
-equation: (heat_engine_efficiency) lt (((temperature) sub (temperature)) div (temperature))
+equation: (heat_engine_efficiency) lt (1 sub ((temperature) div (temperature)))
 symbol_overrides:
 - heat_engine_efficiency: η
-- temperature: T_h
 - temperature: T_c
 - temperature: T_h
 name_overrides:
 - heat_engine_efficiency: Efficiency
-- temperature: Hot reservoir [temperature]
 - temperature: Cold reservoir [temperature]
 - temperature: Hot reservoir [temperature]

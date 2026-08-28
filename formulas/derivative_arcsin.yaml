@@ -2,7 +2,7 @@ name: Derivative of arcsine
 id: derivative_arcsin
 topic: derivatives
 difficulty: 3
-equation: (dimensionless) (angle) asin rmd eq (dimensionless) (angle) pow 2 sub 1 add sqrt div
+equation: (dimensionless) (angle) asin rmd eq (dimensionless) (angle) pow 2 sub sqrt div
 symbol_overrides:
 - dimensionless: d/dx
 - angle: x

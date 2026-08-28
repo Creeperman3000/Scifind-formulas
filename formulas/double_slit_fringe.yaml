@@ -2,14 +2,12 @@ name: Double slit fringe spacing
 id: double_slit_fringe
 topic: interference
 difficulty: 3
-equation: (length) eq (((length) mul (length)) div (length))
+equation: (length) eq (((length) pow (2)) div (length))
 symbol_overrides:
 - length: Δx
 - length: λ
 - length: L
-- length: d
 name_overrides:
 - length: Fringe spacing
 - length: Wavelength
 - length: Distance to screen
-- length: Slit separation

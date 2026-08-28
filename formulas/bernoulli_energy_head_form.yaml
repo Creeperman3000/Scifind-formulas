@@ -2,13 +2,12 @@ name: Bernoulli energy head form
 id: bernoulli_energy_head_form
 topic: bernoulli_equation
 difficulty: 3
-equation: (length) eq ((((pressure) div ((density) mul (acceleration))) add (((velocity) mul (velocity)) div ((acceleration) mul 2))) add (length))
+equation: (length) eq ((((pressure) div ((density) mul (acceleration))) add (((velocity) pow (2)) div ((2) mul (acceleration)))) add (length))
 symbol_overrides:
 - length: H
 - pressure: ''
 - density: ρ
 - acceleration: g
-- velocity: ''
 - velocity: ''
 - acceleration: g
 - length: z
@@ -18,6 +17,5 @@ name_overrides:
 - density: Fluid [density]
 - acceleration: Gravitational [acceleration]
 - velocity: Flow [velocity]
-- velocity: ''
 - acceleration: Gravitational [acceleration]
 - length: Elevation [head]

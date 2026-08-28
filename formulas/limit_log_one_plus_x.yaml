@@ -2,14 +2,12 @@ name: Limit of Log Ratio
 id: limit_log_one_plus_x
 topic: limits
 difficulty: 3
-equation: (dimensionless) eq ((ln ((dimensionless) add (dimensionless))) div (dimensionless))
+equation: (dimensionless) eq ((ln ((1) add (dimensionless))) div (dimensionless))
 symbol_overrides:
 - dimensionless: lim_{x→0} ln(1+x)/x
-- dimensionless: '1'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
 - dimensionless: '[Limit] of log ratio'
-- dimensionless: '1'
 - dimensionless: x
 - dimensionless: '[Variable]'

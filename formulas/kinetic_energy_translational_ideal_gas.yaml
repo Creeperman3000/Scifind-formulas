@@ -2,16 +2,14 @@ name: Translational kinetic energy of an ideal gas
 id: kinetic_energy_translational_ideal_gas
 topic: ideal_gases
 difficulty: 2
-equation: (energy) eq (((amount) mul ((gas_constant) mul (temperature))) mul (dimensionless))
+equation: (energy) eq (((amount) mul ((gas_constant) mul (temperature))) mul ((3) div (2)))
 symbol_overrides:
 - energy: KE
 - amount: ''
 - gas_constant: ''
 - temperature: ''
-- dimensionless: 3/2
 name_overrides:
 - energy: Translational kinetic [energy]
 - amount: ''
 - gas_constant: ''
 - temperature: ''
-- dimensionless: ''

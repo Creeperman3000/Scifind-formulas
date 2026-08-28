@@ -2,7 +2,7 @@ name: Beat frequency
 id: beat_frequency
 topic: wave_interference
 difficulty: 2
-equation: (frequency) eq ((frequency) sub (frequency))
+equation: (frequency) eq (abs ((frequency) sub (frequency)))
 symbol_overrides:
 - frequency: f_beat
 - frequency: f_1

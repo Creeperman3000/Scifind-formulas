@@ -8,8 +8,10 @@ symbol_overrides:
 - dimensionless: T_h
 - dimensionless: T_c
 - dimensionless: T_h
+- dimensionless: T_h
 name_overrides:
 - dimensionless: Engine [efficiency]
 - dimensionless: Hot reservoir [temperature]
 - dimensionless: Cold reservoir [temperature]
 - dimensionless: Hot reservoir [temperature]
+- dimensionless: Hot reservoir temperature

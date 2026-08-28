@@ -1,0 +1,15 @@
+name: Concentration in ppm
+id: concentration_ppm
+topic: solution_stoichiometry
+difficulty: 1
+equation: (dimensionless) eq (((mass) div (mass)) mul (dimensionless))
+symbol_overrides:
+- dimensionless: ppm
+- mass: m_solute
+- mass: m_solution
+- dimensionless: 10⁶
+name_overrides:
+- dimensionless: Parts per million
+- mass: Mass of solute
+- mass: Mass of solution
+- dimensionless: ''

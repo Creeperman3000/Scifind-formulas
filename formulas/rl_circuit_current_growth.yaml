@@ -5,17 +5,17 @@ difficulty: 3
 equation: (current) eq (((electric_potential) div (resistance)) mul ((dimensionless) sub (exp (((time) mul (resistance)) div (inductance) neg))))
 symbol_overrides:
 - current: I(t)
-- electric_potential: ''
-- resistance: ''
-- dimensionless: ''
-- time: ''
-- resistance: ''
-- inductance: ''
+- electric_potential: V
+- resistance: R
+- dimensionless: 1
+- time: t
+- resistance: R
+- inductance: L
 name_overrides:
 - current: Current at time t
-- electric_potential: ''
-- resistance: ''
-- dimensionless: ''
-- time: ''
-- resistance: ''
-- inductance: ''
+- electric_potential: Voltage
+- resistance: Resistance
+- dimensionless: '1'
+- time: Time
+- resistance: Resistance
+- inductance: Inductance

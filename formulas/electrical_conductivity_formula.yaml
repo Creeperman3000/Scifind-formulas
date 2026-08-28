@@ -7,5 +7,5 @@ symbol_overrides:
 - conductance: σ
 - resistance: ρ
 name_overrides:
-- conductance: Electrical [conductance]
+- conductance: Electrical conductivity
 - resistance: Resistivity

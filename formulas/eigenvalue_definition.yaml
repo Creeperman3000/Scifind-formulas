@@ -2,14 +2,10 @@ name: Eigenvalue equation
 id: eigenvalue_definition
 topic: linear_algebra
 difficulty: 3
-equation: ((dimensionless) mul (dimensionless)) eq ((dimensionless) mul (dimensionless))
+equation: ((dimensionless) pow (2)) eq ((dimensionless) pow (2))
 symbol_overrides:
 - dimensionless: A
 - dimensionless: v
-- dimensionless: λ
-- dimensionless: v
 name_overrides:
 - dimensionless: Matrix A
-- dimensionless: Eigenvector
-- dimensionless: Eigenvalue λ
 - dimensionless: Eigenvector

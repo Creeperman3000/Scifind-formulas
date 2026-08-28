@@ -2,7 +2,7 @@ name: Degree of unsaturation
 id: degree_of_unsaturation
 topic: organic_chemistry
 difficulty: 2
-equation: (dimensionless) eq ((((((dimensionless) mul 2) add (dimensionless)) add 2) sub (dimensionless)) div 2)
+equation: (dimensionless) eq ((((((2) mul (dimensionless)) add (dimensionless)) add 2) sub (dimensionless)) div 2)
 symbol_overrides:
 - dimensionless: DU
 - dimensionless: C

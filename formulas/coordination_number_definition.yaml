@@ -5,7 +5,7 @@ difficulty: 1
 equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
 - dimensionless: CN
-- dimensionless: N_ligands
+- dimensionless: N_{\text{L}}
 name_overrides:
 - dimensionless: Coordination number
 - dimensionless: Number of ligands

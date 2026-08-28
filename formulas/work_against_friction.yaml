@@ -2,12 +2,12 @@ name: Work done against friction
 id: work_against_friction
 topic: work
 difficulty: 2
-equation: (work) eq ((force) mul (length))
+equation: (energy) eq ((force) mul (length))
 symbol_overrides:
-- work: W_fric
+- energy: W_fric
 - force: f_k
 - length: d
 name_overrides:
-- work: Work against [friction]
+- energy: Work against [friction]
 - force: Kinetic [friction]
 - length: '[Displacement]'

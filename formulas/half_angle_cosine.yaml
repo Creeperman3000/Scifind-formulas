@@ -6,8 +6,8 @@ equation: (angle) 2 div cos pow 2 eq (((dimensionless) add cos((angle))) div 2)
 symbol_overrides:
 - angle: θ
 - dimensionless: '1'
-- angle: ''
+- angle: θ
 name_overrides:
-- angle: '[Angle]'
+- angle: Half-angle (θ/2)
 - dimensionless: ''
-- angle: ''
+- angle: Angle θ

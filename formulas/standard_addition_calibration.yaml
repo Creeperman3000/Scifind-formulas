@@ -2,16 +2,14 @@ name: Standard addition calibration
 id: standard_addition_calibration
 topic: analytical_chemistry
 difficulty: 3
-equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) div ((dimensionless) sub (dimensionless)))
+equation: (dimensionless) eq (((dimensionless) pow (2)) div ((dimensionless) sub (dimensionless)))
 symbol_overrides:
 - dimensionless: C_x
 - dimensionless: I_x
 - dimensionless: C_s
 - dimensionless: I_xs
-- dimensionless: I_x
 name_overrides:
 - dimensionless: Unknown concentration
 - dimensionless: Signal of unknown
 - dimensionless: Standard concentration
 - dimensionless: Signal of unknown + standard
-- dimensionless: Signal of unknown

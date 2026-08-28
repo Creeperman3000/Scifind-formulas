@@ -2,16 +2,14 @@ name: Gravitational potential energy (general)
 id: gravitational_potential_energy_general
 topic: potential_energy
 difficulty: 3
-equation: (energy) eq neg(((gravitational_constant) mul (((mass) mul (mass)) div (length))))
+equation: (energy) eq neg(((gravitational_constant) mul (((mass) pow (2)) div (length))))
 symbol_overrides:
 - energy: U
 - gravitational_constant: ''
 - mass: M
-- mass: ''
 - length: r
 name_overrides:
 - energy: Gravitational potential [energy]
 - gravitational_constant: ''
 - mass: Large [mass]
-- mass: Small [mass]
 - length: Separation

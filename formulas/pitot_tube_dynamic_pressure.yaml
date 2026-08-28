@@ -2,14 +2,14 @@ name: Pitot tube dynamic pressure
 id: pitot_tube_dynamic_pressure
 topic: bernoulli_equation
 difficulty: 3
-equation: (velocity) eq sqrt(((((dimensionless) mul 2) sub (pressure)) div (density)))
+equation: (velocity) eq sqrt(((((2) mul (dimensionless)) sub (pressure)) div (density)))
 symbol_overrides:
 - velocity: ''
-- dimensionless: ''
-- pressure: P_total
-- density: ''
+- dimensionless: '2'
+- pressure: P_\text{total}
+- density: \rho
 name_overrides:
 - velocity: Flow [velocity]
-- dimensionless: ''
-- pressure: Stagnation [pressure]
-- density: ''
+- dimensionless: '2'
+- pressure: Total pressure
+- density: Density

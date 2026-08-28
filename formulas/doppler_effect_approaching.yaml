@@ -5,13 +5,13 @@ difficulty: 3
 equation: (frequency) eq ((frequency) mul ((velocity) div ((velocity) sub (velocity))))
 symbol_overrides:
 - frequency: f'
-- frequency: ''
+- frequency: f
+- velocity: v
+- velocity: v
 - velocity: v_s
-- velocity: ''
-- velocity: ''
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]
 - velocity: Wave [speed]
-- velocity: ''
+- velocity: Wave [speed]
 - velocity: Source [speed]

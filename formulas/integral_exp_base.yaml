@@ -2,14 +2,14 @@ name: Integral of a^x
 id: integral_exp_base
 topic: integrals
 difficulty: 3
-equation: (dimensionless) eq (((angle) pow (dimensionless)) div (ln (dimensionless)))
+equation: (dimensionless) eq (((dimensionless) pow (angle)) div (ln (dimensionless)))
 symbol_overrides:
 - dimensionless: ∫aˣdx
-- angle: x
 - dimensionless: a
+- angle: x
 - dimensionless: a
 name_overrides:
 - dimensionless: Integral of a^x
-- angle: '[Variable]'
 - dimensionless: '[Base]'
+- angle: '[Variable]'
 - dimensionless: '[Base]'

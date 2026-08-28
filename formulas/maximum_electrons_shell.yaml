@@ -4,8 +4,8 @@ topic: periodic_table
 difficulty: 1
 equation: (dimensionless) eq ((dimensionless pow 2) mul 2)
 symbol_overrides:
-- dimensionless: e⁻_max
+- dimensionless: N_{\max}
 - dimensionless: n
 name_overrides:
-- dimensionless: Maximum [electrons]
+- dimensionless: Maximum [electrons] in shell
 - dimensionless: Principal quantum number

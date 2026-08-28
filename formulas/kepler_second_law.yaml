@@ -2,7 +2,7 @@ name: Kepler's second law (areal velocity)
 id: kepler_second_law
 topic: orbital_motion
 difficulty: 4
-equation: ((area) div (time)) eq ((angular_momentum) div ((mass) mul 2))
+equation: ((area) div (time)) eq ((angular_momentum) div ((2) mul (mass)))
 symbol_overrides:
 - area: ''
 - time: ''

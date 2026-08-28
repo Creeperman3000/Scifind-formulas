@@ -2,14 +2,12 @@ name: Electric potential energy of point charges
 id: electric_potential_energy_point_charges
 topic: potential_energy
 difficulty: 3
-equation: (energy) eq ((coulomb_constant) mul (((charge) mul (charge)) div (length)))
+equation: (energy) eq ((coulomb_constant) mul (((charge) pow (2)) div (length)))
 symbol_overrides:
 - energy: U
 - charge: q_1
-- charge: q_2
 - length: r
 name_overrides:
 - energy: Electric potential [energy]
 - charge: '[Charge] 1'
-- charge: '[Charge] 2'
 - length: Separation

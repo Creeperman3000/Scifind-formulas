@@ -2,16 +2,14 @@ name: Intercept form of a line
 id: intercept_form_line
 topic: equations
 difficulty: 2
-equation: (((length) div (length)) add ((length) div (length))) eq dimensionless
+equation: (((length) div (length)) add ((length) div (length))) eq (1)
 symbol_overrides:
 - length: x
 - length: a
 - length: y
 - length: b
-- dimensionless: ''
 name_overrides:
 - length: x-coordinate
 - length: x-intercept
 - length: y-coordinate
 - length: y-intercept
-- dimensionless: ''

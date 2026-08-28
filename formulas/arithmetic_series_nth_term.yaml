@@ -2,7 +2,7 @@ name: nth term of an arithmetic sequence
 id: arithmetic_series_nth_term
 topic: arithmetic
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) add ((dimensionless) mul ((dimensionless) sub 1)))
+equation: (dimensionless) eq ((dimensionless) add (((dimensionless) sub 1) mul (dimensionless)))
 symbol_overrides:
 - dimensionless: a_n
 - dimensionless: a₁

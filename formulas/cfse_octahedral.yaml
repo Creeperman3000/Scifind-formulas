@@ -2,7 +2,7 @@ name: Crystal field stabilization energy (octahedral)
 id: cfse_octahedral
 topic: inorganic_chemistry
 difficulty: 4
-equation: (energy) eq neg((((dimensionless) mul (energy)) add ((dimensionless) mul (energy))))
+equation: (energy) eq (((neg (0.4)) mul ((dimensionless) mul (energy))) add ((0.6) mul ((dimensionless) mul (energy))))
 symbol_overrides:
 - energy: CFSE
 - dimensionless: n_{t2g}

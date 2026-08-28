@@ -2,14 +2,12 @@ name: Lineweaver-Burk equation
 id: lineweaver_burk
 topic: biochemistry
 difficulty: 4
-equation: (dimensionless) eq (((dimensionless) mul (dimensionless)) add (dimensionless))
+equation: (dimensionless) eq (((dimensionless) pow (2)) add (dimensionless))
 symbol_overrides:
 - dimensionless: 1/v
 - dimensionless: K_m/V_max
 - dimensionless: 1/[S]
-- dimensionless: 1/V_max
 name_overrides:
 - dimensionless: Reciprocal reaction rate
 - dimensionless: Slope
 - dimensionless: Reciprocal substrate concentration
-- dimensionless: Intercept

@@ -8,6 +8,6 @@ symbol_overrides:
 - force: ''
 - time: ''
 name_overrides:
-- momentum: '[Impulse]'
+- momentum: '[Momentum]'
 - force: ''
 - time: ''

@@ -2,14 +2,14 @@ name: Energy loss due to friction
 id: mechanical_energy_loss_friction
 topic: conservation_of_energy
 difficulty: 2
-equation: (energy) eq (((energy) add (energy)) sub (work))
+equation: (energy) eq (((energy) add (energy)) sub (energy))
 symbol_overrides:
 - energy: E_f
 - energy: K_i
 - energy: U_i
-- work: W_friction
+- energy: W_friction
 name_overrides:
 - energy: Final mechanical [energy]
 - energy: Initial kinetic [energy]
 - energy: Initial potential [energy]
-- work: Work done by friction
+- energy: Work done by friction

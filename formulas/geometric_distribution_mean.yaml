@@ -2,12 +2,10 @@ name: Geometric distribution mean
 id: geometric_distribution_mean
 topic: probability
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) div (dimensionless))
+equation: (dimensionless) eq ((1) div (dimensionless))
 symbol_overrides:
 - dimensionless: E[X]
-- dimensionless: '1'
 - dimensionless: p
 name_overrides:
 - dimensionless: Expected value of geometric [distribution]
-- dimensionless: '1'
 - dimensionless: Success probability

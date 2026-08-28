@@ -6,10 +6,10 @@ equation: (dimensionless) eq ((dimensionless) sub ((dimensionless) add ((dimensi
 symbol_overrides:
 - dimensionless: FC
 - dimensionless: V
-- dimensionless: L
+- dimensionless: N
 - dimensionless: B
 name_overrides:
-- dimensionless: Formal [charge]
+- dimensionless: Formal charge
 - dimensionless: Valence electrons
-- dimensionless: Lone pair electrons
+- dimensionless: Non-bonding electrons
 - dimensionless: Bonding electrons

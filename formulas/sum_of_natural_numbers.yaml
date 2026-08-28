@@ -6,8 +6,8 @@ equation: (dimensionless) eq (((dimensionless) mul ((dimensionless) add 1)) div 
 symbol_overrides:
 - dimensionless: S
 - dimensionless: n
-- dimensionless: ''
+- dimensionless: n
 name_overrides:
 - dimensionless: Sum
 - dimensionless: Number of terms
-- dimensionless: ''
+- dimensionless: Number of terms

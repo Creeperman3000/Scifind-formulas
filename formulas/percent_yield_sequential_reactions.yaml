@@ -2,14 +2,12 @@ name: Overall percent yield for multi-step synthesis
 id: percent_yield_sequential_reactions
 topic: percent_yield
 difficulty: 2
-equation: (dimensionless) eq ((((dimensionless) mul (dimensionless)) mul (dimensionless)) mul 100)
+equation: (dimensionless) eq ((((dimensionless) pow (2)) mul (dimensionless)) mul 100)
 symbol_overrides:
 - dimensionless: '%_total'
 - dimensionless: y_1
 - dimensionless: y_2
-- dimensionless: y_3
 name_overrides:
 - dimensionless: Total percent [yield]
 - dimensionless: Yield of step 1
 - dimensionless: Yield of step 2
-- dimensionless: Yield of step 3

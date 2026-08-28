@@ -6,10 +6,10 @@ equation: (angle) eq ((angle) div ((concentration) mul (length)))
 symbol_overrides:
 - angle: '[α]'
 - angle: α
-- concentration: ''
-- length: ''
+- concentration: c
+- length: l
 name_overrides:
 - angle: Specific [rotation]
 - angle: Observed [rotation]
-- concentration: ''
+- concentration: Concentration
 - length: Path length

@@ -2,18 +2,14 @@ name: Stefan-Boltzmann law
 id: stefan_boltzmann_law
 topic: heat_transfer
 difficulty: 3
-equation: (power) eq ((area) mul (((temperature) mul (temperature)) mul ((temperature) mul (temperature))))
+equation: (power) eq ((area) mul (((temperature) pow (2)) mul ((temperature) pow (2))))
 symbol_overrides:
 - power: ''
 - area: ''
-- temperature: ''
-- temperature: ''
 - temperature: ''
 - temperature: ''
 name_overrides:
 - power: Radiated [power]
 - area: Surface [area]
 - temperature: '[Temperature]'
-- temperature: ''
-- temperature: ''
 - temperature: ''

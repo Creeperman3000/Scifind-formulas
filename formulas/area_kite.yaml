@@ -2,12 +2,10 @@ name: Area of a kite
 id: area_kite
 topic: plane_geometry
 difficulty: 1
-equation: (area) eq (((length) mul (length)) div 2)
+equation: (area) eq (((length) pow (2)) div 2)
 symbol_overrides:
 - area: ''
 - length: d_1
-- length: d_2
 name_overrides:
 - area: '[Area]'
 - length: Long diagonal
-- length: Short diagonal

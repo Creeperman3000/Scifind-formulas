@@ -2,20 +2,14 @@ name: Surface area of a rectangular prism
 id: surface_area_rectangular_prism
 topic: plane_geometry
 difficulty: 1
-equation: (area) eq (((((length) mul (length)) add ((length) mul (length))) add ((length) mul (length))) mul 2)
+equation: (area) eq (((((length) pow (2)) add ((length) pow (2))) add ((length) pow (2))) mul 2)
 symbol_overrides:
 - area: SA
 - length: w
 - length: h
 - length: w
-- length: h
-- length: ''
-- length: ''
 name_overrides:
 - area: Surface [area]
 - length: Width
 - length: ''
 - length: Height
-- length: ''
-- length: ''
-- length: ''

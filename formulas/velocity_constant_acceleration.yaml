@@ -4,8 +4,8 @@ topic: constant_acceleration
 difficulty: 1
 equation: (velocity) eq ((velocity) add ((acceleration) mul (time)))
 symbol_overrides:
-- velocity: u
 - velocity: ''
+- velocity: u
 - acceleration: ''
 - time: ''
 name_overrides:

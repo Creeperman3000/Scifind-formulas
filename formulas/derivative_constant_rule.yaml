@@ -5,7 +5,7 @@ difficulty: 1
 equation: ((dimensionless) mul (rmd (dimensionless))) eq 0
 symbol_overrides:
 - dimensionless: c
-- dimensionless: ''
+- dimensionless: c
 name_overrides:
 - dimensionless: d(c)/dx
-- dimensionless: ''
+- dimensionless: Constant c

@@ -9,7 +9,7 @@ symbol_overrides:
 - angular_acceleration: ''
 - time: ''
 name_overrides:
-- angular_velocity: Final angular [velocity velocity]
-- angular_velocity: Initial angular [velocity velocity]
+- angular_velocity: Final angular [velocity]
+- angular_velocity: Initial angular [velocity]
 - angular_acceleration: ''
 - time: ''

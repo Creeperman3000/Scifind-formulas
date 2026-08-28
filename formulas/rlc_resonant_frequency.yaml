@@ -2,14 +2,13 @@ name: RLC circuit resonant frequency
 id: rlc_resonant_frequency
 topic: circuits
 difficulty: 3
-equation: (frequency) eq ((dimensionless) div (((inductance) mul (capacitance) sqrt) mul (pi) mul 2))
+equation: (frequency) eq ((1) div (((inductance) mul (capacitance) sqrt) mul 2 mul
+  (pi)))
 symbol_overrides:
 - frequency: f₀
-- dimensionless: '1'
 - inductance: ''
 - capacitance: ''
 name_overrides:
 - frequency: Resonant [frequency]
-- dimensionless: ''
 - inductance: ''
 - capacitance: ''

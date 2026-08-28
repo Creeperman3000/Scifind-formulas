@@ -2,12 +2,15 @@ name: Torricelli's theorem
 id: torricellis_theorem
 topic: bernoulli_equation
 difficulty: 2
-equation: (velocity) eq sqrt(((((dimensionless) mul 2) mul (standard_gravity)) mul (length)))
+equation: (velocity) eq sqrt(((((2) mul (dimensionless)) mul (standard_gravity)) mul
+  (length)))
 symbol_overrides:
-- velocity: ''
-- dimensionless: ''
+- velocity: v
+- dimensionless: '2'
+- standard_gravity: g
 - length: h
 name_overrides:
-- velocity: Efflux [velocity]
-- dimensionless: ''
-- length: Depth
+- velocity: Velocity
+- dimensionless: '2'
+- standard_gravity: Standard gravity
+- length: Height

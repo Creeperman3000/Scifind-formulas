@@ -1,19 +1,17 @@
-name: Van 't Hoff equation
+name: Van 't Hoff equation for osmotic pressure
 id: van_t_hoff_equation
-topic: chemical_equilibrium
-difficulty: 5
-equation: (ln ((equilibrium_constant) div (equilibrium_constant))) eq ((neg ((energy) div (gas_constant))) mul (((temperature) div 1) sub ((temperature) div 1)))
+topic: solutions
+difficulty: 3
+equation: (pressure) eq ((dimensionless) mul ((concentration) mul ((gas_constant) mul (temperature))))
 symbol_overrides:
-- equilibrium_constant: K_2
-- equilibrium_constant: K_1
-- energy: ΔH
-- gas_constant: ''
-- temperature: T_2
-- temperature: T_1
+- pressure: Π
+- dimensionless: i
+- concentration: M
+- gas_constant: R
+- temperature: T
 name_overrides:
-- equilibrium_constant: Equilibrium constant at T₂
-- equilibrium_constant: Equilibrium constant at T₁
-- energy: Enthalpy change
+- pressure: Osmotic [pressure]
+- dimensionless: Van 't Hoff factor
+- concentration: Molarity
 - gas_constant: ''
-- temperature: Final [temperature]
-- temperature: Initial [temperature]
+- temperature: ''

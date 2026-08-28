@@ -2,14 +2,12 @@ name: Coefficient of variation
 id: coefficient_of_variation
 topic: statistics
 difficulty: 2
-equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul (dimensionless))
+equation: (dimensionless) eq (((dimensionless) div (dimensionless)) mul (100))
 symbol_overrides:
 - dimensionless: CV
 - dimensionless: σ
 - dimensionless: μ
-- dimensionless: '100'
 name_overrides:
 - dimensionless: Coefficient of variation
 - dimensionless: Standard deviation
 - dimensionless: Mean
-- dimensionless: ''

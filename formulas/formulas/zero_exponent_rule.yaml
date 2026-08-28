@@ -1,9 +1,0 @@
-name: Zero exponent rule
-id: zero_exponent_rule
-topic: exponents
-difficulty: 1
-equation: (dimensionless) eq 1
-symbol_overrides:
-- dimensionless: a⁰
-name_overrides:
-- dimensionless: Any nonzero number raised to zero

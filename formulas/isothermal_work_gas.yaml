@@ -2,16 +2,16 @@ name: Isothermal work on ideal gas
 id: isothermal_work_gas
 topic: first_law
 difficulty: 3
-equation: (work) eq ((((amount) mul (gas_constant)) mul (temperature)) mul (ln ((volume) div (volume))))
+equation: (energy) eq ((((amount) mul (gas_constant)) mul (temperature)) mul (ln ((volume) div (volume))))
 symbol_overrides:
-- work: ''
+- energy: ''
 - amount: ''
 - gas_constant: ''
 - temperature: ''
 - volume: V₂
 - volume: V₁
 name_overrides:
-- work: Isothermal [work]
+- energy: Isothermal [work]
 - amount: ''
 - gas_constant: ''
 - temperature: ''

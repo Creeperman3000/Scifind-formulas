@@ -13,5 +13,5 @@ name_overrides:
 - dimensionless: Enantiomeric [excess]
 - dimensionless: R enantiomer
 - dimensionless: S enantiomer
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: R enantiomer
+- dimensionless: S enantiomer

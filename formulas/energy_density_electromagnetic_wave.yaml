@@ -2,7 +2,7 @@ name: Electric energy density of an EM wave
 id: energy_density_electromagnetic_wave
 topic: electromagnetic_waves
 difficulty: 4
-equation: (energy_density) eq ((vacuum_permittivity) mul (electric_field_strength pow 2))
+equation: (energy_density) eq (((vacuum_permittivity) mul (electric_field_strength pow 2)) div 2)
 symbol_overrides:
 - energy_density: ''
 - electric_field_strength: ''

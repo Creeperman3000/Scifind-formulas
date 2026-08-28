@@ -2,7 +2,7 @@ name: LC circuit resonance frequency
 id: lc_resonance
 topic: electromagnetic_induction
 difficulty: 3
-equation: (angular_velocity) eq ((sqrt ((inductance) mul (capacitance))) div 1)
+equation: (angular_velocity) eq (1 div (sqrt ((inductance) mul (capacitance))))
 symbol_overrides:
 - angular_velocity: ω
 - inductance: ''

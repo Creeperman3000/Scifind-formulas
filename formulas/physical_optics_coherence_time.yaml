@@ -2,7 +2,7 @@ name: Coherence time from bandwidth
 id: physical_optics_coherence_time
 topic: interference
 difficulty: 2
-equation: (time) eq ((frequency) div 1)
+equation: (time) eq ((1) div (frequency))
 symbol_overrides:
 - time: τ_c
 - frequency: Δν

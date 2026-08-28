@@ -9,7 +9,7 @@ symbol_overrides:
 - length: λ
 - amount: m
 name_overrides:
-- dimensionless: Film [refractive index index]
+- dimensionless: Film [refractive index]
 - length: Film thickness
 - length: Wavelength
 - amount: Order number

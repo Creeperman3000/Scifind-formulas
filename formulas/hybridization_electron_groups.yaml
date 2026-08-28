@@ -4,10 +4,10 @@ topic: chemical_bonding
 difficulty: 2
 equation: (dimensionless) eq ((dimensionless) add (dimensionless))
 symbol_overrides:
-- dimensionless: N_groups
-- dimensionless: σ_bonds
-- dimensionless: lone_pairs
+- dimensionless: N_{\text{g}}
+- dimensionless: N_{\sigma}
+- dimensionless: LP
 name_overrides:
 - dimensionless: Number of electron groups
-- dimensionless: Sigma bond count
-- dimensionless: Lone pair count
+- dimensionless: Number of sigma bonds
+- dimensionless: Number of lone pairs

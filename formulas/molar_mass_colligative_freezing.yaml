@@ -6,9 +6,9 @@ equation: (molar_mass) eq (((specific_energy) mul (mass)) div (Delta((temperatur
 symbol_overrides:
 - molar_mass: ''
 - specific_energy: K_f
-- mass: w_solute
+- mass: m_{\text{solute}}
 - temperature: ΔT_f
-- mass: W_solvent
+- mass: m_{\text{solvent}}
 name_overrides:
 - molar_mass: Molar [mass] of solute
 - specific_energy: Cryoscopic constant

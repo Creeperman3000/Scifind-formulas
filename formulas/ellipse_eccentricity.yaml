@@ -2,7 +2,7 @@ name: Eccentricity of an ellipse
 id: ellipse_eccentricity
 topic: coordinate_geometry
 difficulty: 2
-equation: (dimensionless) eq ((dimensionless) sub (((length) pow 2) div ((length) pow 2)) sqrt)
+equation: (dimensionless) eq sqrt(((dimensionless) sub (((length) pow 2) div ((length) pow 2))))
 symbol_overrides:
 - dimensionless: e
 - dimensionless: '1'

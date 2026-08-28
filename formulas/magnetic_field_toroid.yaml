@@ -2,7 +2,7 @@ name: Magnetic field inside a toroid
 id: magnetic_field_toroid
 topic: magnetism
 difficulty: 3
-equation: (magnetic_flux_density) eq (((vacuum_permeability) mul ((amount) mul (current))) div ((pi) mul 2 mul (length)))
+equation: (magnetic_flux_density) eq (((vacuum_permeability) mul ((amount) mul (current))) div (2 mul (pi) mul (length)))
 symbol_overrides:
 - magnetic_flux_density: ''
 - amount: N

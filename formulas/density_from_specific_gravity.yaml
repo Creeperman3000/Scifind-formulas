@@ -4,10 +4,10 @@ topic: buoyancy
 difficulty: 1
 equation: (density) eq ((dimensionless) mul (density))
 symbol_overrides:
-- density: ρ_water
+- density: ρ_substance
 - dimensionless: SG
-- density: ''
+- density: ρ_water
 name_overrides:
-- density: Reference [density]
+- density: Substance [density]
 - dimensionless: Specific gravity
-- density: ''
+- density: Reference [density]

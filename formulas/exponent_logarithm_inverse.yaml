@@ -5,9 +5,9 @@ difficulty: 1
 equation: (dimensionless) eq ((dimensionless) pow (dimensionless))
 symbol_overrides:
 - dimensionless: x
-- dimensionless: x
-- dimensionless: ''
+- dimensionless: a
+- dimensionless: \log_a x
 name_overrides:
 - dimensionless: Result
-- dimensionless: log_a(x)
-- dimensionless: ''
+- dimensionless: Base
+- dimensionless: Logarithm

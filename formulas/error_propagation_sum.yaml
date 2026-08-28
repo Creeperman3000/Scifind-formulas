@@ -2,7 +2,7 @@ name: Error propagation for sum
 id: error_propagation_sum
 topic: statistics
 difficulty: 3
-equation: (dimensionless) eq ((dimensionless pow 2) add (dimensionless pow 2))
+equation: (dimensionless) eq sqrt(((dimensionless pow 2) add (dimensionless pow 2)))
 symbol_overrides:
 - dimensionless: σ_f
 - dimensionless: σ_x

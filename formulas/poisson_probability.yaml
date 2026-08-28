@@ -8,10 +8,10 @@ symbol_overrides:
 - dimensionless: λ
 - dimensionless: k
 - dimensionless: k
-- dimensionless: ''
+- dimensionless: k
 name_overrides:
 - dimensionless: Probability
 - dimensionless: Mean [rate]
 - dimensionless: Number of events
 - dimensionless: ''
-- dimensionless: ''
+- dimensionless: Factorial argument

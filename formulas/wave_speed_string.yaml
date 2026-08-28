@@ -2,14 +2,12 @@ name: Wave speed on a string
 id: wave_speed_string
 topic: mechanical_waves
 difficulty: 2
-equation: (velocity) eq sqrt(((force) div ((mass) div (length))))
+equation: (velocity) eq sqrt(((force) div (surface_density)))
 symbol_overrides:
-- velocity: ''
+- velocity: v
 - force: T
-- mass: ''
-- length: L
+- surface_density: μ
 name_overrides:
 - velocity: Wave [velocity]
 - force: Tension
-- mass: Mass of string
-- length: String length
+- surface_density: Linear mass [density]

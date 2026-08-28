@@ -8,7 +8,7 @@ symbol_overrides:
 - dimensionless: z*
 - dimensionless: σ
 - dimensionless: n
-- dimensionless: ''
+- dimensionless: n
 name_overrides:
 - dimensionless: Margin of error
 - dimensionless: Critical value

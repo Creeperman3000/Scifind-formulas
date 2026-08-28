@@ -2,7 +2,7 @@ name: Faraday's law with N turns
 id: induced_emf_faraday_flux_change_rate
 topic: electromagnetic_induction
 difficulty: 2
-equation: (electromagnetic_induction) eq ((dimensionless) mul neg(((magnetic_flux) mul rmd(Delta((time))))))
+equation: (electromagnetic_induction) eq (neg ((dimensionless) mul (rmd((magnetic_flux)) div rmd((time)))))
 symbol_overrides:
 - electromagnetic_induction: ε
 - dimensionless: N

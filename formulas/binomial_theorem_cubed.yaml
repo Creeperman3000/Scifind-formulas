@@ -7,10 +7,10 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
-- dimensionless: b
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
+- dimensionless: b
 - dimensionless: b
 name_overrides:
 - dimensionless: a

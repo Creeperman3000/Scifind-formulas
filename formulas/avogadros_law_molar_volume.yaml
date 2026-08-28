@@ -2,14 +2,12 @@ name: Molar volume at STP from Avogadro's law
 id: avogadros_law_molar_volume
 topic: ideal_gases
 difficulty: 1
-equation: (volume) eq ((amount) mul ((volume) div (amount)))
+equation: (volume) eq ((volume) div (amount))
 symbol_overrides:
 - volume: V_m
-- amount: ''
-- volume: ''
-- amount: ''
+- volume: V
+- amount: n
 name_overrides:
-- volume: '[Volume] of gas'
-- amount: ''
 - volume: Molar [volume]
-- amount: ''
+- volume: '[Volume]'
+- amount: '[Amount] of substance'

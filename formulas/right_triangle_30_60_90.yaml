@@ -4,10 +4,10 @@ topic: right_triangles
 difficulty: 1
 equation: (length) eq ((length) mul (dimensionless))
 symbol_overrides:
-- length: long_leg
-- length: short_leg
+- length: l
+- length: s
 - dimensionless: √3
 name_overrides:
-- length: Long leg
-- length: Short leg
+- length: Long leg (opposite 60°)
+- length: Short leg (opposite 30°)
 - dimensionless: ''

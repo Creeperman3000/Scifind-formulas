@@ -2,16 +2,18 @@ name: Ampere-Maxwell law
 id: amphere_maxwell_law
 topic: magnetism
 difficulty: 4
-equation: ((length) mul (magnetic_flux_density)) eq ((vacuum_permeability) mul ((current) add ((vacuum_permittivity) mul ((electric_field_strength) (time) (Delta) div))))
+equation: ((length) mul (magnetic_flux_density)) eq ((vacuum_permeability) mul ((current) add ((vacuum_permittivity) mul (((electric_field_strength) mul (area)) div (time)))))
 symbol_overrides:
 - length: ''
-- magnetic_flux_density: ''
-- current: ''
-- electric_field_strength: ''
-- time: ''
+- magnetic_flux_density: B
+- current: I
+- electric_field_strength: E
+- area: dA
+- time: t
 name_overrides:
 - length: Path length
 - magnetic_flux_density: ''
-- current: Conduction [current]
-- electric_field_strength: ''
-- time: ''
+- current: Conduction current
+- electric_field_strength: Electric field
+- area: Area element
+- time: Time interval

@@ -4,10 +4,10 @@ topic: linear_algebra
 difficulty: 2
 equation: (dimensionless) eq ((dimensionless) div (dimensionless))
 symbol_overrides:
-- dimensionless: comp_b(a)
+- dimensionless: \text{comp}_{\text{b}}(\text{a})
 - dimensionless: a·b
 - dimensionless: '|b|'
 name_overrides:
-- dimensionless: Scalar projection
+- dimensionless: Scalar projection of a onto b
 - dimensionless: Dot product
 - dimensionless: Magnitude of b

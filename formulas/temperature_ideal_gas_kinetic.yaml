@@ -2,7 +2,7 @@ name: Temperature from average kinetic energy
 id: temperature_ideal_gas_kinetic
 topic: temperature
 difficulty: 3
-equation: (temperature) eq (((energy) mul 2) div ((boltzmann_constant) mul 3))
+equation: (temperature) eq (((2) mul (energy)) div ((3) mul (boltzmann_constant)))
 symbol_overrides:
 - temperature: ''
 - energy: KE_avg

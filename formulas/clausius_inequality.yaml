@@ -2,12 +2,12 @@ name: Clausius inequality
 id: clausius_inequality
 topic: second_law
 difficulty: 4
-equation: (entropy) gt ((heat) div (temperature))
+equation: (entropy) gt ((energy) div (temperature))
 symbol_overrides:
 - entropy: dS
-- heat: ''
-- temperature: ''
+- energy: dQ
+- temperature: T
 name_overrides:
 - entropy: Change in [entropy]
-- heat: ''
+- energy: Heat transferred
 - temperature: ''

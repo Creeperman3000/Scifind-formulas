@@ -2,14 +2,10 @@ name: Celsius to Fahrenheit conversion
 id: temperature_celsius_fahrenheit
 topic: temperature
 difficulty: 1
-equation: (temperature) eq (((temperature) mul (dimensionless)) add (dimensionless))
+equation: (temperature) eq (((temperature) mul ((9) div (5))) add (32))
 symbol_overrides:
 - temperature: °F
 - temperature: °C
-- dimensionless: 9/5
-- dimensionless: '32'
 name_overrides:
 - temperature: Temperature in [Fahrenheit]
 - temperature: Temperature in [Celsius]
-- dimensionless: ''
-- dimensionless: ''

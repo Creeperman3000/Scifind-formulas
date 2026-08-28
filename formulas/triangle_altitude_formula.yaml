@@ -2,7 +2,7 @@ name: Altitude of a triangle
 id: triangle_altitude_formula
 topic: triangles
 difficulty: 1
-equation: (length) eq (((area) mul 2) div (length))
+equation: (length) eq (((2) mul (area)) div (length))
 symbol_overrides:
 - length: h
 - area: ''

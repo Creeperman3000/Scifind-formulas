@@ -2,16 +2,19 @@ name: Area of a regular polygon
 id: regular_polygon_area
 topic: polygons
 difficulty: 3
-equation: (area) eq (((dimensionless) mul (length pow 2)) div ((dimensionless) mul (tan ((pi) div (dimensionless)))))
+equation: (area) eq (((dimensionless) mul (length pow 2)) div ((dimensionless) mul
+  (tan ((pi) div (dimensionless)))))
 symbol_overrides:
-- area: ''
+- area: A
 - dimensionless: n
 - length: s
 - dimensionless: '4'
+- pi: ''
 - dimensionless: n
 name_overrides:
-- area: Area of regular [polygon]
+- area: Polygon area
 - dimensionless: Number of sides
 - length: Side [length]
 - dimensionless: '4'
-- dimensionless: ''
+- pi: ''
+- dimensionless: Number of sides

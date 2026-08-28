@@ -2,16 +2,14 @@ name: Newton's rings radius
 id: newtons_rings_radius
 topic: interference
 difficulty: 4
-equation: (length) eq ((((dimensionless) mul (dimensionless)) mul (dimensionless)) mul (length) sqrt)
+equation: (length) eq ((((dimensionless) pow (2)) mul (dimensionless)) mul (length) sqrt)
 symbol_overrides:
 - length: r_m
 - dimensionless: m
 - dimensionless: λ
-- dimensionless: ''
 - length: R
 name_overrides:
 - length: Radius of m-th ring
 - dimensionless: Order m
 - dimensionless: Wavelength
-- dimensionless: ''
 - length: Lens radius of curvature

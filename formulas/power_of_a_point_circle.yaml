@@ -2,12 +2,10 @@ name: Power of a point theorem
 id: power_of_a_point_circle
 topic: circles
 difficulty: 3
-equation: (dimensionless) eq ((length) mul (length))
+equation: (dimensionless) eq ((length) pow (2))
 symbol_overrides:
-- dimensionless: Pow(P)
+- dimensionless: Π(P)
 - length: PA
-- length: PB
 name_overrides:
 - dimensionless: Power of point P
 - length: PA (distance to near intersection)
-- length: PB (distance to far intersection)

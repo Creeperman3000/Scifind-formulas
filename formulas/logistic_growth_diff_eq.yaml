@@ -2,16 +2,17 @@ name: Logistic growth differential equation
 id: logistic_growth_diff_eq
 topic: differential_equations
 difficulty: 4
-equation: (dimensionless) eq (((number_of_particles) mul (frequency)) mul (1 sub ((number_of_particles) div (number_of_particles))))
+equation: (dimensionless) eq (((dimensionless) mul (frequency)) mul (1 sub ((dimensionless)
+  div (dimensionless))))
 symbol_overrides:
-- dimensionless: ''
-- number_of_particles: K
+- dimensionless: dN/dt
+- dimensionless: N
 - frequency: r
-- number_of_particles: ''
-- number_of_particles: ''
+- dimensionless: N
+- dimensionless: K
 name_overrides:
 - dimensionless: Rate of change
-- number_of_particles: '[Population]'
+- dimensionless: Population
 - frequency: Growth rate
-- number_of_particles: '[Population]'
-- number_of_particles: Carrying capacity
+- dimensionless: Population
+- dimensionless: Carrying capacity

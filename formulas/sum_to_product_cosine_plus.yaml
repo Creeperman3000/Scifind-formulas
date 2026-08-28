@@ -2,11 +2,11 @@ name: 'Sum-to-product: cos A + cos B'
 id: sum_to_product_cosine_plus
 topic: trigonometric_identities
 difficulty: 3
-equation: ((cos (angle)) add (cos (angle))) eq ((dimensionless) mul ((cos (((angle) add (angle)) div 2)) mul (cos (((angle) sub (angle)) div 2))))
+equation: ((cos (angle)) add (cos (angle))) eq ((2) mul ((cos (((angle) add (angle))
+  div 2)) mul (cos (((angle) sub (angle)) div 2))))
 symbol_overrides:
 - angle: A
 - angle: B
-- dimensionless: '2'
 - angle: A
 - angle: B
 - angle: A
@@ -14,7 +14,6 @@ symbol_overrides:
 name_overrides:
 - angle: '[Angle] A'
 - angle: '[Angle] B'
-- dimensionless: ''
 - angle: ''
 - angle: ''
 - angle: ''

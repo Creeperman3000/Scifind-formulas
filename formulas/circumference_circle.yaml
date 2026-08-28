@@ -2,7 +2,7 @@ name: Circumference of a circle
 id: circumference_circle
 topic: circles
 difficulty: 1
-equation: (length) eq ((pi) mul ((length) mul 2))
+equation: (length) eq ((pi) mul ((2) mul (length)))
 symbol_overrides:
 - length: C
 - length: r

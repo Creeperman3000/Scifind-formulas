@@ -2,14 +2,12 @@ name: Odds from probability
 id: odds_formula
 topic: probability
 difficulty: 1
-equation: (dimensionless) eq ((dimensionless) div ((dimensionless) sub (dimensionless)))
+equation: (dimensionless) eq ((dimensionless) div ((1) sub (dimensionless)))
 symbol_overrides:
 - dimensionless: odds
 - dimensionless: p
-- dimensionless: '1'
 - dimensionless: p
 name_overrides:
 - dimensionless: '[Odds]'
 - dimensionless: Probability
-- dimensionless: '1'
 - dimensionless: ''

@@ -8,6 +8,6 @@ symbol_overrides:
 - refractive_index: n_2
 - angle: θ_c
 name_overrides:
-- refractive_index: Incident medium [refractive index index]
-- refractive_index: Refracting medium [refractive index index]
+- refractive_index: Incident medium [refractive index]
+- refractive_index: Refracting medium [refractive index]
 - angle: Critical angle
