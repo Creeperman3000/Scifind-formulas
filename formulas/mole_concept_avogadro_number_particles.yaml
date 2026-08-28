@@ -1,7 +1,8 @@
-name: Number of particles from amount and Avogadro constant
+name: Number of particles
 id: mole_concept_avogadro_number_particles
 topic: mole_concept
 difficulty: 1
+description: "Number of particles from amount of substance; N = n N_A."
 equation: dimensionless eq amount mul avogadro_number
 name_overrides:
 - dimensionless: Number of [particles]

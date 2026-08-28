@@ -2,6 +2,7 @@ name: 'First law: adiabatic process'
 id: first_law_adiabatic_process
 topic: first_law
 difficulty: 3
+description: "Valid for a reversible adiabatic process; Q = 0 and ΔU = W."
 equation: energy eq energy
 symbol_overrides:
 - energy: "\\Delta U"

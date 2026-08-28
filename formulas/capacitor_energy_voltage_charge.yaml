@@ -1,7 +1,8 @@
-name: Capacitor energy from voltage and charge
+name: Capacitor energy
 id: capacitor_energy_voltage_charge
 topic: capacitance
 difficulty: 2
+description: "Capacitor energy stored; U = ½ Q V."
 equation: energy eq charge mul electric_potential frac 2
 symbol_overrides:
 - energy: U

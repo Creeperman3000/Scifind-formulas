@@ -1,7 +1,8 @@
-name: Energy stored in a capacitor from charge
+name: Capacitor energy
 id: capacitor_energy_q
 topic: capacitance
 difficulty: 2
+description: "Capacitor energy stored; U = Q² / (2C)."
 equation: energy eq charge pow 2 frac (2 mul capacitance )
 name_overrides:
 - energy: Stored [energy]

@@ -1,7 +1,8 @@
-name: Electrical power from current and resistance
+name: Power (I²R)
 id: electrical_power_current_resistance
 topic: power
 difficulty: 1
+description: "Electrical power dissipated in a resistor; P = I² R."
 equation: power eq current pow 2 mul resistance
 symbol_overrides:
 - power: ''

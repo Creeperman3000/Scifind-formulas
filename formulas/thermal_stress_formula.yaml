@@ -2,6 +2,8 @@ name: Thermal stress formula
 id: thermal_stress_formula
 topic: temperature
 difficulty: 3
+description: Valid for a fully-constrained material; sign convention as shown
+  (compressive stress for heating).
 equation: (pressure) eq (neg ((pressure) mul (coefficient_of_linear_expansion) mul (temperature)))
 symbol_overrides:
 - pressure: \sigma

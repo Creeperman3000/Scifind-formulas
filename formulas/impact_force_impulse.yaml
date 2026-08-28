@@ -1,7 +1,8 @@
-name: Average impact force from momentum change
+name: Average impact force
 id: impact_force_impulse
 topic: collisions
 difficulty: 2
+description: "Average impact force from impulse; F_avg = Δp / Δt."
 equation: force eq Delta momentum frac time
 symbol_overrides:
 - force: F_{\mathrm{avg}}

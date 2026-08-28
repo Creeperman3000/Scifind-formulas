@@ -1,7 +1,8 @@
-name: Activity from half-life and number of nuclei
+name: Activity (from half-life)
 id: radioactive_activity_from_half_life
 topic: nuclear_physics
 difficulty: 2
+description: "Activity from half-life; A = (N ln 2) / t_{1/2}."
 equation: activity eq dimensionless mul ln 2 frac time
 symbol_overrides:
 - activity: ''

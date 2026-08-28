@@ -2,6 +2,8 @@ name: Magnetic flux density (B-field) from flux
 id: magnetic_flux_density_definition
 topic: magnetism
 difficulty: 2
+description: Valid for uniform normal flux through the area. For non-uniform
+  flux or arbitrary orientation, B = Φ/(A cos θ) per area element.
 equation: magnetic_flux_density eq magnetic_flux frac area
 symbol_overrides:
 - magnetic_flux_density: ''

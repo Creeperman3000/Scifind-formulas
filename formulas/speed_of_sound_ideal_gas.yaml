@@ -2,6 +2,7 @@ name: Speed of sound in an ideal gas
 id: speed_of_sound_ideal_gas
 topic: mechanical_waves
 difficulty: 3
+description: "Valid for an ideal gas; v = √(γRT / M)."
 equation: velocity eq sqrt (dimensionless mul (gas_constant mul
   temperature ) frac molar_mass )
 symbol_overrides:

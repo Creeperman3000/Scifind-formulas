@@ -1,7 +1,8 @@
-name: Degree of unsaturation (DBE) definition
+name: Degree of unsaturation (DBE)
 id: organic_chemistry_dbu_definition
 topic: organic_chemistry
 difficulty: 2
+description: "Index of hydrogen deficiency (DBE); (2C + 2 + N − H − X)/2."
 equation: dimensionless eq 2 mul dimensionless add dimensionless sub
   dimensionless add 2 frac 2
 symbol_overrides:

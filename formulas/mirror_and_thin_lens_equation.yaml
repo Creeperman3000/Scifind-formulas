@@ -2,6 +2,7 @@ name: Mirror And Thin Lens Equation
 id: mirror_and_thin_lens_equation
 topic: mirrors
 difficulty: 2
+description: "Sign convention: real-is-positive for both mirrors and thin lenses; valid for paraxial rays."
 equation: 1 frac length eq 1 frac length add 1 frac length
 symbol_overrides:
 - length: f

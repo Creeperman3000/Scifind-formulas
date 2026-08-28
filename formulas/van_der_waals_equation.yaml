@@ -2,6 +2,8 @@ name: Van der Waals equation
 id: van_der_waals_equation
 topic: ideal_gases
 difficulty: 4
+description: "Approximate real-gas equation of state; reduces to the ideal gas law at low density."
+description: "Approximate real-gas equation of state; reduces to the ideal gas law at low density."
 equation: (pressure add van_der_waals_attraction mul amount pow 2 frac
   volume pow 2 ) mul (volume sub amount mul van_der_waals_volume ) eq
   amount mul gas_constant mul temperature

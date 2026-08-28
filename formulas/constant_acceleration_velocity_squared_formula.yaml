@@ -1,7 +1,8 @@
-name: Velocity-squared relation at constant acceleration
+name: Velocity-squared relation
 id: constant_acceleration_velocity_squared_formula
 topic: constant_acceleration
 difficulty: 1
+description: "Valid for constant acceleration; v² = v₀² + 2 a Δx."
 equation: velocity pow 2 eq velocity pow 2 add 2 mul (acceleration mul length )
 symbol_overrides:
 - velocity: ''

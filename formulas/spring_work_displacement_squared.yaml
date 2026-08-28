@@ -2,6 +2,7 @@ name: Work done by a spring
 id: spring_work_displacement_squared
 topic: springs
 difficulty: 2
+description: "Valid for an ideal spring; W = ½k(x_f² − x_i²)."
 equation: energy eq spring_constant mul (length pow 2 sub length pow 2
   ) frac 2
 symbol_overrides:

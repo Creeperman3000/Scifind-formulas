@@ -2,6 +2,7 @@ name: Electric field inside a uniformly charged sphere
 id: electric_field_charged_sphere_inside
 topic: electrostatics
 difficulty: 4
+description: "Valid inside a uniformly charged sphere; field varies linearly with distance from the centre."
 equation: electric_field_strength eq coulomb_constant mul charge mul
   length frac length pow 3
 symbol_overrides:

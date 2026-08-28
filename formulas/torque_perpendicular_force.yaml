@@ -1,7 +1,8 @@
-name: Torque from perpendicular force component
+name: Torque
 id: torque_perpendicular_force
 topic: torque
 difficulty: 2
+description: "Torque from force and lever arm; τ = F d sin θ."
 equation: torque eq length mul (force mul sin angle )
 symbol_overrides:
 - torque: "\\tau"

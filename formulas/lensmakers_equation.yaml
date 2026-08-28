@@ -2,6 +2,7 @@ name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
 difficulty: 4
+description: "Valid for thin lenses (paraxial approximation, negligible thickness)."
 equation: 1 frac length eq (refractive_index sub 1) mul (1 frac length
   sub 1 frac length )
 symbol_overrides:

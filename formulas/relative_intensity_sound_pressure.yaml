@@ -1,7 +1,8 @@
-name: Sound intensity level from pressure amplitude
+name: Sound intensity level
 id: relative_intensity_sound_pressure
 topic: mechanical_waves
 difficulty: 3
+description: "Sound intensity level; L_I = 10 log₁₀(I / I₀) dB."
 equation: logarithmic_ratio eq 10 mul log (pressure pow 2 frac
   pressure pow 2 )
 symbol_overrides:

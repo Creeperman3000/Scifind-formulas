@@ -1,7 +1,8 @@
-name: Entropy change of ideal gas with temperature and volume
+name: Entropy change of ideal gas
 id: entropy_change_heating_ideal_gas
 topic: entropy
 difficulty: 3
+description: "Valid for an ideal gas heated at constant volume; ΔS = n C_v ln(T_f / T_i)."
 equation: entropy eq amount mul molar_energy mul ln (temperature frac
   temperature ) add amount mul gas_constant mul ln (volume frac volume )
 symbol_overrides:

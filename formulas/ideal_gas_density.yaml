@@ -2,6 +2,7 @@ name: Density of an ideal gas
 id: ideal_gas_density
 topic: ideal_gases
 difficulty: 2
+description: "Valid for an ideal gas; ρ = PM / (RT)."
 equation: density eq pressure mul molar_mass frac (gas_constant mul
   temperature )
 name_overrides:

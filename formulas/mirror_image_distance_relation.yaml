@@ -2,6 +2,7 @@ name: Image distance for a mirror
 id: mirror_image_distance_relation
 topic: mirrors
 difficulty: 2
+description: "Sign convention (Cartesian, real-is-positive): virtual image/object distances are negative; valid for spherical mirrors."
 equation: length eq (length mul length) frac (length add length)
 symbol_overrides:
 - length: f

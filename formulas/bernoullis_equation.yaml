@@ -2,6 +2,7 @@ name: Bernoulli's equation
 id: bernoullis_equation
 topic: bernoulli_equation
 difficulty: 4
+description: "Valid for steady, incompressible, inviscid flow along a streamline."
 equation: pressure add density mul velocity pow 2 frac 2 add density
   mul (standard_gravity mul length ) eq pressure add density mul velocity pow 2 frac 2 add density mul (standard_gravity mul length )
 symbol_overrides:

@@ -2,6 +2,7 @@ name: Gravitational force between two masses
 id: gravitational_force_two_masses
 topic: newtonian_gravity
 difficulty: 1
+description: "Valid for point masses, or spherically symmetric bodies."
 equation: force eq gravitational_constant mul mass mul mass frac
   length pow 2
 symbol_overrides:

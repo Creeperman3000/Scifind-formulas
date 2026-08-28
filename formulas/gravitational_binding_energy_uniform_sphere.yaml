@@ -2,6 +2,7 @@ name: Gravitational binding energy of a uniform sphere
 id: gravitational_binding_energy_uniform_sphere
 topic: newtonian_gravity
 difficulty: 5
+description: "Valid for a uniform-density sphere."
 equation: energy eq neg (3 mul (gravitational_constant mul mass pow 2 )
   frac (5 mul length ) )
 symbol_overrides:

@@ -2,6 +2,7 @@ name: Mirror image distance formula
 id: mirror_image_distance_formula
 topic: mirrors
 difficulty: 2
+description: "Sign convention: distances measured from the mirror; for a plane mirror d_i = d_o (virtual image behind the mirror)."
 equation: (length) eq (length)
 symbol_overrides:
 - length: d_i

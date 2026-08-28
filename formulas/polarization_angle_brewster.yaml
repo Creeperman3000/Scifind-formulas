@@ -1,7 +1,8 @@
-name: Brewster's angle from refractive indices
+name: "Brewster's angle"
 id: polarization_angle_brewster
 topic: polarization
 difficulty: 2
+description: "Brewster's angle from refractive indices; tan θ_B = n₂ / n₁."
 equation: angle eq atan (refractive_index frac refractive_index )
 symbol_overrides:
 - angle: "\\theta_{\\text{B}}"

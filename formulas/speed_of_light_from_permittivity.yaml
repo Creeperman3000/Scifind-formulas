@@ -1,7 +1,8 @@
-name: Speed of light from permittivity and permeability
+name: Speed of light (from μ₀ ε₀)
 id: speed_of_light_from_permittivity
 topic: electromagnetic_waves
 difficulty: 3
+description: "c = 1 / √(μ₀ ε₀); exact by SI definition."
 equation: speed_of_light eq 1 frac sqrt (vacuum_permittivity mul
   vacuum_permeability )
 symbol_overrides: []

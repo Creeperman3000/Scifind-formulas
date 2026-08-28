@@ -2,6 +2,9 @@ name: Valence electrons from group number
 id: periodic_valence_electrons_formula
 topic: periodic_table
 difficulty: 1
+description: Valid only for main-group elements where the number of valence
+  electrons equals the main-group number. Transition metals and f-block
+  elements do not follow this rule.
 equation: (dimensionless) eq (dimensionless)
 symbol_overrides:
 - dimensionless: v

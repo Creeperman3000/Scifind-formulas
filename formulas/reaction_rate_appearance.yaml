@@ -1,7 +1,8 @@
-name: Reaction rate from appearance of product
+name: Reaction rate
 id: reaction_rate_appearance
 topic: chemical_reactions
 difficulty: 2
+description: "Reaction rate from rate of product appearance; r = (1/ν) d[P]/dt."
 equation: catalytic_activity eq concentration frac time
 symbol_overrides:
 - catalytic_activity: r

@@ -2,6 +2,7 @@ name: Gravitational potential of a point mass
 id: gravitational_potential_point
 topic: newtonian_gravity
 difficulty: 3
+description: "Valid for a point mass, or outside a spherically symmetric mass."
 equation: specific_energy eq neg (gravitational_constant mul mass frac
   length )
 symbol_overrides:

@@ -2,6 +2,7 @@ name: Phase difference from path difference
 id: phase_difference
 topic: wave_interference
 difficulty: 2
+description: "Phase difference from path difference; assumes a wave of wavelength λ in a uniform medium."
 equation: angle eq length frac length mul (2 mul pi )
 symbol_overrides:
 - angle: "\\Delta\\phi"

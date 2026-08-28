@@ -1,7 +1,8 @@
-name: Rotational kinetic energy from angular momentum
+name: Rotational kinetic energy
 id: rotational_energy_angular_momentum
 topic: rotational_energy
 difficulty: 2
+description: "Rotational kinetic energy; E = L² / (2 I)."
 equation: energy eq angular_momentum pow 2 frac (2 mul moment_of_inertia )
 symbol_overrides:
 - energy: K_{\mathrm{rot}}

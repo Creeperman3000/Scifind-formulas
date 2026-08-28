@@ -1,7 +1,8 @@
-name: Reaction rate from reactant consumption
+name: Reaction rate
 id: reaction_rate_consumption
 topic: chemical_reactions
 difficulty: 2
+description: "Reaction rate from rate of reactant consumption; r = −(1/ν) d[R]/dt."
 equation: rmd concentration frac rmd time eq neg (dimensionless mul catalytic_activity )
 symbol_overrides:
 - concentration: '[A]'

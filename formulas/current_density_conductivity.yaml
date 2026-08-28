@@ -1,7 +1,8 @@
-name: Current density from conductivity and field
+name: Current density
 id: current_density_conductivity
 topic: current_electricity
 difficulty: 2
+description: "Current density in a linear ohmic medium; J = σ E."
 equation: current_density eq conductance mul electric_field_strength
 symbol_overrides:
 - current_density: J

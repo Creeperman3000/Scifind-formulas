@@ -2,6 +2,7 @@ name: Venturi effect (pressure difference)
 id: venturi_effect
 topic: bernoulli_equation
 difficulty: 3
+description: "Valid for steady, incompressible, inviscid flow through a constriction."
 equation: pressure sub pressure eq density mul (velocity pow 2 sub
   velocity pow 2 ) frac 2
 symbol_overrides:

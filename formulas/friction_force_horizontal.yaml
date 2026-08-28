@@ -2,6 +2,7 @@ name: Friction force on a horizontal surface
 id: friction_force_horizontal
 topic: friction
 difficulty: 1
+description: "Valid for kinetic friction on a horizontal surface; normal force equals weight (N = mg)."
 equation: force eq coefficient_of_friction mul mass mul standard_gravity
 symbol_overrides:
 - force: f_k

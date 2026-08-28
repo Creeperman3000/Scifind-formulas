@@ -2,6 +2,7 @@ name: Polytropic process
 id: polytropic_process
 topic: ideal_gases
 difficulty: 3
+description: "Valid for a polytropic process PV^n = const; includes isothermal (n=1), isobaric (n=0), isochoric (n→∞), adiabatic (n=γ) as special cases."
 equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
 - pressure: ''

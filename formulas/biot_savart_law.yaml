@@ -2,6 +2,7 @@ name: Biot-Savart law (current element)
 id: biot_savart_law
 topic: magnetism
 difficulty: 4
+description: "Valid for steady currents; gives the magnetic field contribution from a current element dℓ carrying current I."
 equation: magnetic_flux_density eq vacuum_permeability mul current mul
   length mul sin angle frac (4 mul pi mul length pow 2 )
 symbol_overrides:

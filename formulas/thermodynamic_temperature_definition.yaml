@@ -1,7 +1,8 @@
-name: Thermodynamic definition of temperature
+name: Thermodynamic temperature
 id: thermodynamic_temperature_definition
 topic: second_law
 difficulty: 3
+description: "Thermodynamic definition of temperature; 1/T = ∂S / ∂U."
 equation: (temperature) eq ((energy) frac (entropy))
 symbol_overrides:
 - temperature: T

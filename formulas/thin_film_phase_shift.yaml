@@ -1,9 +1,0 @@
-name: Thin film reflection phase shift condition
-id: thin_film_phase_shift
-topic: interference
-difficulty: 3
-equation: (dimensionless) eq (pi)
-symbol_overrides:
-- dimensionless: \Delta\phi
-name_overrides:
-- dimensionless: Phase shift on reflection
