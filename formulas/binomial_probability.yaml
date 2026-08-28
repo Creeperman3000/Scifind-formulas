@@ -1,7 +1,7 @@
 name: Binomial probability mass function
 id: binomial_probability
 topic: probability
-difficulty: 3
+difficulty: 7
 equation: dimensionless eq dimensionless mul dimensionless mul (dimensionless pow
   dimensionless sub dimensionless ) pow dimensionless
 symbol_overrides:

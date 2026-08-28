@@ -1,10 +1,10 @@
 name: Work-energy theorem
 id: work_energy_theorem
 topic: work
-difficulty: 2
+difficulty: 5
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: W_net
+- energy: W_{net}
 - energy: K_f
 - energy: K_i
 name_overrides:

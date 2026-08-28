@@ -1,9 +1,10 @@
 name: Isothermal work on ideal gas
 id: isothermal_work_gas
 topic: first_law
-difficulty: 3
+difficulty: 7
+description: "Valid for an ideal gas undergoing a reversible isothermal process; W = nRT ln(V_f / V_i)."
 equation: energy eq amount mul (gas_constant) mul (temperature) mul log euler_e (volume
-  div volume)
+  frac volume)
 symbol_overrides:
 - energy: ''
 - amount: ''

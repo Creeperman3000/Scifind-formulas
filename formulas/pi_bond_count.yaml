@@ -1,7 +1,7 @@
 name: Pi bond count in multiple bonds
 id: pi_bond_count
 topic: chemical_bonding
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: \pi

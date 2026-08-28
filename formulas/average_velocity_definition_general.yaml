@@ -1,8 +1,8 @@
 name: Average velocity definition
 id: average_velocity_definition_general
 topic: constant_acceleration
-difficulty: 1
-equation: velocity eq (length sub length ) div time sub time
+difficulty: 3
+equation: velocity eq (length sub length ) frac time sub time
 symbol_overrides:
 - velocity: v̄
 - length: s₂

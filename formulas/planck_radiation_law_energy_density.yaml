@@ -1,10 +1,11 @@
 name: Planck's law for blackbody radiation
 id: planck_radiation_law_energy_density
 topic: quantum_mechanics
-difficulty: 5
-equation: energy_density eq (pi mul 8) mul (planck_constant mul frequency pow 3 )
-  mul (speed_of_light pow 3) div exp (planck_constant mul (frequency) div boltzmann_constant
-  mul temperature ) sub 1
+difficulty: 9
+description: Valid for blackbody radiation in thermal equilibrium.
+equation: energy_density eq (((8 mul pi) mul (planck_constant mul frequency pow 3
+  )) frac ((speed_of_light pow 3) mul (exp ((planck_constant mul frequency ) frac
+  (boltzmann_constant mul temperature )) sub 1)))
 name_overrides:
 - energy_density: Spectral [energy] density
 - frequency: ''

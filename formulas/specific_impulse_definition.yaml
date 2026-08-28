@@ -1,12 +1,12 @@
 name: Specific impulse
 id: specific_impulse_definition
 topic: newtons_laws
-difficulty: 3
-equation: time eq force div mass_concentration mul standard_gravity
+difficulty: 8
+equation: time eq force frac mass_concentration mul standard_gravity
 symbol_overrides:
-- time: I_sp
+- time: I_{sp}
 - force: ''
-- mass_concentration: ṁ
+- mass_concentration: \dot{m}
 name_overrides:
 - time: Specific [impulse]
 - force: Thrust

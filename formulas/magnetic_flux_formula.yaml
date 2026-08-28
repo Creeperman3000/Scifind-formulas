@@ -1,7 +1,7 @@
 name: Magnetic flux
 id: magnetic_flux_formula
 topic: magnetism
-difficulty: 2
+difficulty: 6
 equation: magnetic_flux eq magnetic_flux_density mul area
 symbol_overrides:
 - magnetic_flux: ''

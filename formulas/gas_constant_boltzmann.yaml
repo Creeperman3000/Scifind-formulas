@@ -1,7 +1,7 @@
 name: Gas constant from Boltzmann constant
 id: gas_constant_boltzmann
 topic: ideal_gases
-difficulty: 2
+difficulty: 8
 equation: gas_constant eq boltzmann_constant mul avogadro_number
 symbol_overrides: null
 name_overrides: null

@@ -1,8 +1,8 @@
 name: Orbital period of a satellite
 id: satellite_orbital_period
 topic: orbital_motion
-difficulty: 3
-equation: time eq (pi mul 2) mul sqrt ((length pow 3) div gravitational_constant mul
+difficulty: 7
+equation: time eq (pi mul 2) mul sqrt ((length pow 3) frac gravitational_constant mul
   mass ) 2
 symbol_overrides:
 - time: T

@@ -1,8 +1,8 @@
 name: Mass-to-mass stoichiometry
 id: mass_to_mass_stoichiometry
 topic: limiting_reactants
-difficulty: 3
-equation: mass eq mass div (molar_mass) mul (dimensionless div dimensionless ) mul
+difficulty: 6
+equation: mass eq mass frac (molar_mass) mul (dimensionless frac dimensionless ) mul
   molar_mass
 symbol_overrides:
 - mass: m_B

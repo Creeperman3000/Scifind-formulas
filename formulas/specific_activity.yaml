@@ -1,8 +1,8 @@
 name: Specific activity
 id: specific_activity
 topic: nuclear_physics
-difficulty: 2
-equation: activity eq amount div mass
+difficulty: 8
+equation: activity eq amount frac mass
 symbol_overrides:
 - activity: a
 - amount: λ

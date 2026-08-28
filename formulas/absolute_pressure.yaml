@@ -1,13 +1,21 @@
 name: Absolute pressure
 id: absolute_pressure
 topic: pressure
-difficulty: 1
+difficulty: 5
+links:
+  - https://byjus.com/absolute-pressure-formula/
+  - https://www.vedantu.com/jee-main/physics-absolute-pressure-formula
+  - https://www.easycalculation.com/formulas/absolute-pressure.html
+  - https://testbook.com/physics-formulas/absolute-pressure-formula
+  - https://www.geeksforgeeks.org/physics/absolute-pressure-formula/
+  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book:_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14:_Fluid_Mechanics/14.04:_Measuring_Pressure
+description: "Absolute pressure is measured relative to a perfect vacuum (zero pressure). Gauge pressure is measured relative to local atmospheric pressure. \nFor fluids at a specific depth, the formula $P_{abs} = P_{atm} + \\rho gh$ is used."
 equation: pressure eq pressure add pressure
 symbol_overrides:
-- pressure: P_abs
-- pressure: P_gauge
-- pressure: P_atm
+- pressure: P_{abs}
+- pressure: P_{atm}
+- pressure: P_{gauge}
 name_overrides:
 - pressure: Absolute [pressure]
-- pressure: Gauge [pressure]
 - pressure: Atmospheric [pressure]
+- pressure: Gauge [pressure]

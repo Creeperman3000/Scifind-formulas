@@ -1,8 +1,9 @@
 name: Coulomb's law
 id: coulombs_law
 topic: electrostatics
-difficulty: 2
-equation: force eq coulomb_constant mul (charge mul charge ) div length pow 2
+difficulty: 6
+description: "Valid for point charges, or spherically symmetric charge distributions."
+equation: force eq coulomb_constant mul (charge mul charge ) frac length pow 2
 symbol_overrides:
 - force: F_e
 - charge: q_1

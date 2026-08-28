@@ -1,8 +1,8 @@
 name: Confidence interval margin of error
 id: confidence_interval_mean
 topic: statistics
-difficulty: 3
-equation: dimensionless eq dimensionless mul dimensionless div sqrt dimensionless
+difficulty: 7
+equation: dimensionless eq dimensionless mul dimensionless frac sqrt dimensionless
   2
 symbol_overrides:
 - dimensionless: E

@@ -1,8 +1,8 @@
 name: Coherence length from bandwidth
 id: coherence_length_bandwidth
 topic: interference
-difficulty: 4
-equation: length eq speed_of_light div frequency
+difficulty: 8
+equation: length eq speed_of_light frac frequency
 symbol_overrides:
 - length: L_c
 - frequency: Δf

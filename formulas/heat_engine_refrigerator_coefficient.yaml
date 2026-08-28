@@ -1,8 +1,8 @@
 name: Coefficient of performance (refrigerator)
 id: heat_engine_refrigerator_coefficient
 topic: heat_engines
-difficulty: 2
-equation: dimensionless eq energy div energy sub energy
+difficulty: 7
+equation: dimensionless eq energy frac energy sub energy
 symbol_overrides:
 - dimensionless: COP
 - energy: Q_c

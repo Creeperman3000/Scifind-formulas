@@ -1,7 +1,7 @@
 name: Poisson distribution mean
 id: poisson_distribution_mean
 topic: probability
-difficulty: 2
+difficulty: 7
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: E[X]

@@ -1,8 +1,8 @@
 name: RC circuit charging
 id: rc_circuit_charging
 topic: circuits
-difficulty: 4
-equation: charge eq charge mul 1 sub exp (drop (time div resistance mul capacitance)
+difficulty: 7
+equation: charge eq charge mul 1 sub exp (drop (time frac resistance mul capacitance)
   sub)
 symbol_overrides:
 - charge: q(t)

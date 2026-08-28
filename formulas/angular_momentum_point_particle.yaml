@@ -1,7 +1,7 @@
 name: Angular momentum of a point particle
 id: angular_momentum_point_particle
 topic: angular_momentum
-difficulty: 2
+difficulty: 7
 equation: angular_momentum eq mass mul (velocity) mul length
 symbol_overrides:
 - angular_momentum: ''

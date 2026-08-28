@@ -1,7 +1,7 @@
 name: Exponential growth solution
 id: exponential_growth_solution
 topic: differential_equations
-difficulty: 2
+difficulty: 7
 equation: dimensionless eq dimensionless mul exp (frequency mul time )
 symbol_overrides:
 - dimensionless: N(t)

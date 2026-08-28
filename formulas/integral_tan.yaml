@@ -1,7 +1,7 @@
 name: Integral of tan x
 id: integral_tan
 topic: integrals
-difficulty: 3
+difficulty: 7
 equation: dimensionless eq drop log euler_e cos angle sub
 symbol_overrides:
 - dimensionless: ∫tan x dx

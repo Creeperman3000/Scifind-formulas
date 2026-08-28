@@ -1,7 +1,8 @@
 name: Valence electrons from group number
 id: periodic_valence_electrons_formula
 topic: periodic_table
-difficulty: 1
+difficulty: 4
+description: Valid only for main-group elements where the number of valence
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: v

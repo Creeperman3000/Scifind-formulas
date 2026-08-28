@@ -1,7 +1,7 @@
 name: Derivative of arccosine
 id: derivative_arccos
 topic: derivatives
-difficulty: 3
+difficulty: 7
 equation: rmd (angle acos) eq drop (1 frac sqrt (1 sub angle pow 2) 2) sub
 symbol_overrides:
 - angle: x

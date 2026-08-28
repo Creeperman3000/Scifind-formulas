@@ -1,8 +1,8 @@
 name: Proper time
 id: proper_time
 topic: relativity
-difficulty: 3
-equation: time eq time div lorentz_factor
+difficulty: 9
+equation: time eq time frac lorentz_factor
 symbol_overrides:
 - time: τ
 - time: ''

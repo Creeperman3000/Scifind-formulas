@@ -1,7 +1,8 @@
 name: Work
 id: work_formula
 topic: work
-difficulty: 1
+difficulty: 3
+description: Valid only for a constant force parallel to the displacement. The general
 equation: energy eq force mul length
 name_overrides:
 - energy: '[Work]'

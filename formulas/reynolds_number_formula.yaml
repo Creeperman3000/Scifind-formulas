@@ -1,8 +1,8 @@
 name: Reynolds number
 id: reynolds_number_formula
 topic: reynolds_number
-difficulty: 3
-equation: reynolds_number eq density mul (velocity) mul (length) div dynamic_viscosity
+difficulty: 7
+equation: reynolds_number eq density mul (velocity) mul (length) frac dynamic_viscosity
 symbol_overrides:
 - reynolds_number: ''
 - density: ''

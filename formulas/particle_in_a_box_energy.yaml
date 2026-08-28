@@ -1,8 +1,9 @@
 name: Particle in a box energy levels
 id: particle_in_a_box_energy
 topic: quantum_mechanics
-difficulty: 4
-equation: energy eq (dimensionless pow 2) mul (planck_constant pow 2) div 8 mul mass
+difficulty: 9
+description: "Valid for a particle in a 1D infinite potential well; E_n = n²π²ℏ²/(2mL²)."
+equation: energy eq (dimensionless pow 2) mul (planck_constant pow 2) frac 8 mul mass
   mul length pow 2
 symbol_overrides:
 - energy: E_n

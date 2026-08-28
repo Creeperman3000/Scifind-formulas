@@ -1,8 +1,8 @@
 name: Angle of deviation by a plane mirror
 id: angle_of_deviation_mirror
 topic: reflection
-difficulty: 2
-equation: angle eq pi sub angle mul 2
+difficulty: 5
+equation: angle eq pi sub (2 mul angle )
 symbol_overrides:
 - angle: δ
 - angle: θ

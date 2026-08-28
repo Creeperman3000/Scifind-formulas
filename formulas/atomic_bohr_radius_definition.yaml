@@ -1,8 +1,8 @@
 name: Bohr radius definition
 id: atomic_bohr_radius_definition
 topic: atomic_physics
-difficulty: 3
-equation: length eq vacuum_permittivity mul (planck_constant pow 2) div pi mul mass
+difficulty: 8
+equation: length eq vacuum_permittivity mul (planck_constant pow 2) frac pi mul mass
   mul elementary_charge pow 2
 symbol_overrides:
 - length: a_0

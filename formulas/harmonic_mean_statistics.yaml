@@ -1,20 +1,14 @@
 name: Harmonic mean (harmonic_mean_statistics)
 id: harmonic_mean_statistics
 topic: statistics
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless div (dimensionless) add
-  dimensionless div dimensionless
+difficulty: 6
+equation: dimensionless eq 2 frac ((1 frac dimensionless) add (1 frac dimensionless
+  ))
 symbol_overrides:
 - dimensionless: H
-- dimensionless: '2'
 - dimensionless: x₁
-- dimensionless: '1'
 - dimensionless: x₂
-- dimensionless: '1'
 name_overrides:
 - dimensionless: Harmonic [mean]
-- dimensionless: '2'
 - dimensionless: Value 1
-- dimensionless: '1'
 - dimensionless: Value 2
-- dimensionless: '1'

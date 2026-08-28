@@ -1,7 +1,7 @@
 name: Relationship between Kp and Kc
 id: kp_kc_relation
 topic: chemical_equilibrium
-difficulty: 3
+difficulty: 7
 equation: equilibrium_constant eq equilibrium_constant mul (gas_constant mul temperature
   ) pow dimensionless
 symbol_overrides:

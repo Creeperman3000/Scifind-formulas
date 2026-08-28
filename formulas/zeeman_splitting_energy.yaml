@@ -1,7 +1,7 @@
 name: Zeeman splitting energy
 id: zeeman_splitting_energy
 topic: atomic_physics
-difficulty: 4
+difficulty: 9
 equation: energy eq torque mul (magnetic_flux_density) mul (dimensionless) mul dimensionless
 symbol_overrides:
 - energy: ΔE

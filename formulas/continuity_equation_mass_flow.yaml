@@ -1,7 +1,7 @@
 name: Mass flow rate continuity
 id: continuity_equation_mass_flow
 topic: continuity_equation
-difficulty: 2
+difficulty: 6
 equation: density mul (velocity) mul area eq density mul (velocity) mul area
 symbol_overrides:
 - density: ρ_1

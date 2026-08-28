@@ -1,7 +1,8 @@
 name: Invariant mass from energy and momentum
 id: particle_physics_invariant_mass_calculation
 topic: particle_physics
-difficulty: 4
+difficulty: 9
+description: "Invariant mass from energy and momentum; M² c⁴ = E² − (pc)²."
 equation: (mass pow 2) mul speed_of_light pow 4 eq (energy pow 2) sub (momentum pow
   2) mul speed_of_light pow 2
 symbol_overrides:

@@ -1,7 +1,7 @@
 name: Continuity equation
 id: continuity_equation
 topic: continuity_equation
-difficulty: 2
+difficulty: 7
 equation: area mul velocity eq area mul velocity
 symbol_overrides:
 - area: A_1

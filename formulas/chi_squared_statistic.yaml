@@ -1,9 +1,9 @@
 name: Chi-squared statistic
 id: chi_squared_statistic
 topic: statistics
-difficulty: 3
-equation: dimensionless eq ((dimensionless sub dimensionless ) pow 2) div (dimensionless)
-  add ((dimensionless sub dimensionless ) pow 2) div dimensionless
+difficulty: 8
+equation: dimensionless eq ((dimensionless sub dimensionless ) pow 2) frac (dimensionless)
+  add ((dimensionless sub dimensionless ) pow 2) frac dimensionless
 symbol_overrides:
 - dimensionless: χ²
 - dimensionless: O₁

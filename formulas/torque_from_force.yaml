@@ -1,7 +1,7 @@
 name: Torque from force
 id: torque_from_force
 topic: torque
-difficulty: 2
+difficulty: 5
 equation: torque eq length mul force
 symbol_overrides:
 - torque: ''

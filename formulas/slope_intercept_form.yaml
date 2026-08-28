@@ -1,7 +1,7 @@
 name: Slope-intercept form
 id: slope_intercept_form
 topic: equations
-difficulty: 1
+difficulty: 3
 equation: length eq reynolds_number mul (length) add length
 symbol_overrides:
 - length: y

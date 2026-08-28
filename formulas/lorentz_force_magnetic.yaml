@@ -1,7 +1,7 @@
 name: Magnetic Lorentz force
 id: lorentz_force_magnetic
 topic: magnetism
-difficulty: 3
+difficulty: 6
 equation: force eq charge mul (velocity) mul (magnetic_flux_density) mul sin angle
 symbol_overrides:
 - force: ''

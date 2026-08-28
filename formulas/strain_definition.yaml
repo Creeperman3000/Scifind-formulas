@@ -1,8 +1,8 @@
 name: Engineering strain
 id: strain_definition
 topic: forces
-difficulty: 1
-equation: dimensionless eq length div length
+difficulty: 6
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: ε
 - length: ΔL

@@ -1,8 +1,8 @@
 name: Current division in parallel resistors (two)
 id: circuit_current_division_parallel
 topic: circuits
-difficulty: 2
-equation: current eq current mul resistance div resistance add resistance
+difficulty: 6
+equation: current eq current mul resistance frac resistance add resistance
 symbol_overrides:
 - current: I_1
 - current: ''

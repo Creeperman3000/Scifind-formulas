@@ -1,7 +1,7 @@
 name: Integral of 1/x
 id: integral_one_over_x
 topic: integrals
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq log euler_e dimensionless
 symbol_overrides:
 - dimensionless: ∫1/x dx

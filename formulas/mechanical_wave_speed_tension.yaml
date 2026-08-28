@@ -1,8 +1,9 @@
 name: Wave speed from tension and linear density
 id: mechanical_wave_speed_tension
 topic: mechanical_waves
-difficulty: 2
-equation: velocity eq sqrt (force div mass_concentration ) 2
+difficulty: 7
+description: "Wave speed on a string from tension and linear mass density; v = √(T / μ)."
+equation: velocity eq sqrt (force frac mass_concentration ) 2
 symbol_overrides:
 - velocity: v
 - force: T

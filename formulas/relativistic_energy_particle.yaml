@@ -1,7 +1,7 @@
 name: Relativistic energy of a particle
 id: relativistic_energy_particle
 topic: particle_physics
-difficulty: 4
+difficulty: 9
 equation: energy eq sqrt ((momentum pow 2) mul (speed_of_light pow 2) add (mass pow
   2) mul speed_of_light pow 4 ) 2
 symbol_overrides:

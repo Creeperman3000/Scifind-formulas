@@ -1,7 +1,7 @@
 name: Weighted arithmetic mean
 id: weighted_arithmetic_mean
 topic: statistics
-difficulty: 2
+difficulty: 5
 equation: dimensionless eq sum drop drop (dimensionless mul dimensionless) frac sum
   drop drop dimensionless
 symbol_overrides:

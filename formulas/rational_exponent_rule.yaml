@@ -1,8 +1,8 @@
 name: Rational exponent rule
 id: rational_exponent_rule
 topic: exponents
-difficulty: 2
-equation: dimensionless eq dimensionless pow dimensionless div dimensionless
+difficulty: 4
+equation: dimensionless eq dimensionless pow dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: a^(m/n)
 - dimensionless: a

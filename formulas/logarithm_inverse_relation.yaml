@@ -1,7 +1,7 @@
 name: Logarithm as inverse of exponent
 id: logarithm_inverse_relation
 topic: logarithms
-difficulty: 1
+difficulty: 4
 equation: log dimensionless dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: a

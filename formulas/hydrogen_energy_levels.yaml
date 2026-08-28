@@ -1,8 +1,8 @@
 name: Hydrogen atom energy levels
 id: hydrogen_energy_levels
 topic: atomic_physics
-difficulty: 4
-equation: energy eq rydberg_constant mul (planck_constant) mul (speed_of_light) div
+difficulty: 8
+equation: energy eq rydberg_constant mul (planck_constant) mul (speed_of_light) frac
   (drop (dimensionless pow 2) sub)
 symbol_overrides:
 - energy: E_n

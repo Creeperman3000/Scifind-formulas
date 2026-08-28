@@ -1,7 +1,7 @@
 name: Gibbs free energy from cell potential
 id: gibbs_cell_potential
 topic: electrochemistry
-difficulty: 3
+difficulty: 8
 equation: energy eq drop dimensionless sub mul (faraday_constant) mul electric_potential
 symbol_overrides:
 - energy: ΔG

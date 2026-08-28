@@ -1,7 +1,7 @@
 name: Integral of sine
 id: integral_sin
 topic: integrals
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq drop cos angle sub
 symbol_overrides:
 - dimensionless: ∫sin(x)dx

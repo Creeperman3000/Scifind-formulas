@@ -1,7 +1,7 @@
 name: Calibration curve (linear regression model)
 id: calibration_curve_linear_regression
 topic: analytical_chemistry
-difficulty: 3
+difficulty: 8
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless
 symbol_overrides:
 - dimensionless: y

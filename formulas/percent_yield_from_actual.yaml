@@ -1,12 +1,12 @@
 name: Percent yield from actual and theoretical
 id: percent_yield_from_actual
 topic: chemical_reactions
-difficulty: 1
-equation: dimensionless eq mass div (mass) mul 100
+difficulty: 5
+equation: dimensionless eq 100 mul (mass frac mass )
 symbol_overrides:
-- dimensionless: '% yield'
-- mass: m_actual
-- mass: m_theoretical
+- dimensionless: \% yield
+- mass: m_{actual}
+- mass: m_{theoretical}
 name_overrides:
 - dimensionless: Percent [yield]
 - mass: Actual [mass] produced

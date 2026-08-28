@@ -1,7 +1,7 @@
 name: Energy loss due to kinetic friction
 id: friction_kinetic_energy_loss
 topic: friction
-difficulty: 2
+difficulty: 5
 equation: energy eq force mul length
 symbol_overrides:
 - energy: ΔE

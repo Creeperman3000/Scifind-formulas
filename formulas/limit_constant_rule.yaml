@@ -1,7 +1,7 @@
 name: Limit of a constant
 id: limit_constant_rule
 topic: limits
-difficulty: 1
+difficulty: 5
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: lim(c)

@@ -1,7 +1,7 @@
 name: Euler-Lagrange equation
 id: euler_lagrange_equation
 topic: differential_equations
-difficulty: 6
+difficulty: 10
 equation: rmd dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: d/dt (∂L/∂q̇)

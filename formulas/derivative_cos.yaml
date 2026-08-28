@@ -1,7 +1,7 @@
 name: Derivative of cosine
 id: derivative_cos
 topic: derivatives
-difficulty: 2
+difficulty: 6
 equation: dimensionless mul rmd cos angle eq drop sin angle sub
 symbol_overrides:
 - dimensionless: d/dx

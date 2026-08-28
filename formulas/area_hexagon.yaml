@@ -1,8 +1,8 @@
 name: Area of a regular hexagon
 id: area_hexagon
 topic: polygons
-difficulty: 2
-equation: area eq (dimensionless mul sqrt 3 2 ) div (dimensionless) mul length pow
+difficulty: 4
+equation: area eq (dimensionless mul sqrt 3 2 ) frac (dimensionless) mul length pow
   2
 symbol_overrides:
 - area: A

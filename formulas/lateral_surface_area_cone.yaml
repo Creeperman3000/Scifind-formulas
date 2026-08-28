@@ -1,7 +1,7 @@
 name: Lateral surface area of a cone
 id: lateral_surface_area_cone
 topic: plane_geometry
-difficulty: 2
+difficulty: 4
 equation: area eq length mul length mul length
 symbol_overrides:
 - area: LA

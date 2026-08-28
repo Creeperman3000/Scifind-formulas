@@ -1,8 +1,9 @@
 name: Combined gas law
 id: combined_gas_law
 topic: ideal_gases
-difficulty: 2
-equation: pressure mul (volume) div temperature eq pressure mul (volume) div temperature
+difficulty: 5
+description: "Valid for a fixed amount of an ideal gas."
+equation: pressure mul (volume) frac temperature eq pressure mul (volume) frac temperature
 symbol_overrides:
 - pressure: P_1
 - volume: V_1

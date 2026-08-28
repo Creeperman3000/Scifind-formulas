@@ -1,15 +1,15 @@
 name: Destructive interference path difference
 id: interference_destructive_path_difference
 topic: wave_interference
-difficulty: 2
-equation: length eq (dimensionless add dimensionless div 2 ) mul length
+difficulty: 7
+equation: length eq (dimensionless add dimensionless frac 2 ) mul length
 symbol_overrides:
 - length: ΔL
 - dimensionless: m
-- dimensionless: ''
+- dimensionless: '1'
 - length: λ
 name_overrides:
 - length: Path [difference]
 - dimensionless: Order
-- dimensionless: ''
+- dimensionless: One
 - length: Wavelength

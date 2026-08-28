@@ -1,7 +1,7 @@
 name: Impedance of a series RLC circuit
 id: impedance_rlc_series
 topic: circuits
-difficulty: 3
+difficulty: 8
 equation: resistance eq sqrt (resistance pow 2 sub ((resistance) pow resistance )
   add 2) 2
 symbol_overrides:

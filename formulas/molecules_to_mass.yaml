@@ -1,8 +1,8 @@
 name: Mass from number of molecules
 id: molecules_to_mass
 topic: mole_concept
-difficulty: 2
-equation: mass eq dimensionless mul (molar_mass) div avogadro_number
+difficulty: 5
+equation: mass eq dimensionless mul (molar_mass) frac avogadro_number
 symbol_overrides:
 - mass: ''
 - dimensionless: N

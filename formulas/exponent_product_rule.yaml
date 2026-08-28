@@ -1,7 +1,7 @@
 name: Exponent product rule
 id: exponent_product_rule
 topic: exponents
-difficulty: 1
+difficulty: 2
 equation: dimensionless pow (dimensionless) mul dimensionless pow dimensionless eq
   dimensionless pow dimensionless add dimensionless
 symbol_overrides:

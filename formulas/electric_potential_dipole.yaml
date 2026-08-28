@@ -1,8 +1,8 @@
 name: Electric potential of a dipole
 id: electric_potential_dipole
 topic: electric_potential
-difficulty: 3
-equation: electric_potential eq coulomb_constant mul (torque) mul (cos angle ) div
+difficulty: 8
+equation: electric_potential eq coulomb_constant mul (torque) mul (cos angle ) frac
   length pow 2
 symbol_overrides:
 - electric_potential: ''

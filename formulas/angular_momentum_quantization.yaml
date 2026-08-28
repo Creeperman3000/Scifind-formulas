@@ -1,9 +1,9 @@
 name: Angular momentum quantization
 id: angular_momentum_quantization
 topic: quantum_mechanics
-difficulty: 4
+difficulty: 9
 equation: angular_momentum eq sqrt (dimensionless mul dimensionless add 1 ) 2 mul
-  planck_constant div pi mul 2
+  planck_constant frac (2 mul pi )
 symbol_overrides:
 - angular_momentum: ''
 - dimensionless: l

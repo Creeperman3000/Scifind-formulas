@@ -1,10 +1,11 @@
 name: RMS voltage from peak voltage
 id: rms_voltage
 topic: circuits
-difficulty: 1
-equation: electric_potential eq electric_potential div sqrt 2 2
+difficulty: 7
+description: "Root-mean-square voltage for a sinusoidal waveform; V_rms = V_peak / √2."
+equation: electric_potential eq electric_potential frac sqrt 2 2
 symbol_overrides:
-- electric_potential: V_rms
+- electric_potential: V_{rms}
 - electric_potential: V_0
 name_overrides:
 - electric_potential: RMS [voltage]

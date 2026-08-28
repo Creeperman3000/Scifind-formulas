@@ -1,7 +1,7 @@
 name: Atomic number from composition
 id: periodic_atomic_number_composition
 topic: periodic_table
-difficulty: 1
+difficulty: 3
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: Z

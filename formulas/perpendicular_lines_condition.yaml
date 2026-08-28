@@ -1,7 +1,7 @@
 name: Perpendicular lines condition
 id: perpendicular_lines_condition
 topic: equations
-difficulty: 1
+difficulty: 4
 equation: reynolds_number mul reynolds_number eq drop 1 sub
 symbol_overrides:
 - reynolds_number: m_1

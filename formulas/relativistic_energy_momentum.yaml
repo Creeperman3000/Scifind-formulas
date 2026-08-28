@@ -1,7 +1,7 @@
 name: Relativistic energy-momentum relation
 id: relativistic_energy_momentum
 topic: relativity
-difficulty: 4
+difficulty: 9
 equation: energy pow 2 eq ((momentum mul speed_of_light) pow 2) add (mass mul speed_of_light
   pow 2 ) pow 2
 symbol_overrides:

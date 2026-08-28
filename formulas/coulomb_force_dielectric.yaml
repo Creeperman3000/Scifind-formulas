@@ -1,8 +1,8 @@
 name: Coulomb force in a dielectric medium
 id: coulomb_force_dielectric
 topic: electrostatics
-difficulty: 2
-equation: force eq coulomb_constant mul (charge) mul (charge) div dimensionless mul
+difficulty: 7
+equation: force eq coulomb_constant mul (charge) mul (charge) frac dimensionless mul
   length pow 2
 symbol_overrides:
 - force: ''

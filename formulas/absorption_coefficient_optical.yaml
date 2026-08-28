@@ -1,8 +1,8 @@
 name: Absorption coefficient from absorbance
 id: absorption_coefficient_optical
 topic: interference
-difficulty: 2
-equation: length eq dimensionless div length
+difficulty: 7
+equation: length eq dimensionless frac length
 symbol_overrides:
 - length: α
 - dimensionless: A

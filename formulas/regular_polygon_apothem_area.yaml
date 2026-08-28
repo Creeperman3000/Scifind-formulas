@@ -1,8 +1,8 @@
 name: Regular polygon apothem area
 id: regular_polygon_apothem_area
 topic: polygons
-difficulty: 2
-equation: area eq length mul (length) div 2
+difficulty: 5
+equation: area eq length mul (length) frac 2
 symbol_overrides:
 - area: ''
 - length: a

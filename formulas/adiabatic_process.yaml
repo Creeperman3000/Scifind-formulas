@@ -1,7 +1,7 @@
 name: Adiabatic Process
 id: adiabatic_process
 topic: ideal_gases
-difficulty: 3
+difficulty: 7
 equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
 - pressure: ''

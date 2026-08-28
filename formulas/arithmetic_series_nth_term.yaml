@@ -1,7 +1,7 @@
 name: nth term of an arithmetic sequence
 id: arithmetic_series_nth_term
 topic: arithmetic
-difficulty: 1
+difficulty: 3
 equation: dimensionless eq dimensionless add dimensionless mul dimensionless sub 1
 symbol_overrides:
 - dimensionless: a_n

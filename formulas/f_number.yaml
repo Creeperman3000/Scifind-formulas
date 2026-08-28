@@ -1,8 +1,8 @@
 name: F-number of a lens
 id: f_number
 topic: lenses
-difficulty: 2
-equation: dimensionless eq length div length
+difficulty: 7
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: N
 - length: f

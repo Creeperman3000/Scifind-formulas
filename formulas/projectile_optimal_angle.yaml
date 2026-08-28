@@ -1,9 +1,9 @@
 name: Optimal launch angle for maximum range
 id: projectile_optimal_angle
 topic: projectile_motion
-difficulty: 2
-equation: angle eq pi div 4
+difficulty: 5
+equation: angle eq pi frac 4
 symbol_overrides:
-- angle: θ_max
+- angle: θ_{max}
 name_overrides:
 - angle: Optimal launch [angle]

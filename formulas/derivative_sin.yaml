@@ -1,7 +1,7 @@
 name: Derivative of sine
 id: derivative_sin
 topic: derivatives
-difficulty: 2
+difficulty: 6
 equation: dimensionless mul rmd sin angle eq cos angle
 symbol_overrides:
 - dimensionless: d/dx

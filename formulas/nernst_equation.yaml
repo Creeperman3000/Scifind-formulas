@@ -1,9 +1,9 @@
 name: Nernst equation
 id: nernst_equation
 topic: electrochemistry
-difficulty: 5
+difficulty: 8
 equation: electric_potential eq electric_potential sub gas_constant mul (temperature)
-  div (amount mul (elementary_charge) mul avogadro_number) mul log euler_e equilibrium_constant
+  frac (amount mul (elementary_charge) mul avogadro_number) mul log euler_e equilibrium_constant
 symbol_overrides:
 - electric_potential: E
 - electric_potential: E°

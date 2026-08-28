@@ -1,10 +1,10 @@
 name: Entropy change of surroundings (reversible)
 id: entropy_change_surroundings_reversible
 topic: entropy
-difficulty: 3
-equation: entropy eq energy div temperature
+difficulty: 8
+equation: entropy eq energy frac temperature
 symbol_overrides:
-- entropy: ΔS_surr
+- entropy: ΔS_{surr}
 - energy: Q
 - temperature: ''
 name_overrides:

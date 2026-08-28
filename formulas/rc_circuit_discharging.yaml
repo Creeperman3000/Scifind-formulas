@@ -1,8 +1,8 @@
 name: RC circuit discharging
 id: rc_circuit_discharging
 topic: circuits
-difficulty: 4
-equation: charge eq charge mul exp (drop (time div resistance mul capacitance) sub)
+difficulty: 7
+equation: charge eq charge mul exp (drop (time frac resistance mul capacitance) sub)
 symbol_overrides:
 - charge: q(t)
 - charge: Q_0

@@ -1,8 +1,8 @@
 name: Integral of csc x cot x
 id: integral_csc_cot
 topic: integrals
-difficulty: 3
-equation: dimensionless eq drop (1 div sin angle) sub
+difficulty: 8
+equation: dimensionless eq drop (1 frac sin angle) sub
 symbol_overrides:
 - dimensionless: ∫csc x cot x dx
 - angle: x

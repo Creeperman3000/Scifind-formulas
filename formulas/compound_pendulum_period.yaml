@@ -1,8 +1,8 @@
 name: Period of a compound (physical) pendulum
 id: compound_pendulum_period
 topic: harmonic_motion
-difficulty: 3
-equation: time eq 2 mul pi mul sqrt (moment_of_inertia div mass mul (standard_gravity)
+difficulty: 8
+equation: time eq 2 mul pi mul sqrt (moment_of_inertia frac mass mul (standard_gravity)
   mul length ) 2
 symbol_overrides:
 - time: T

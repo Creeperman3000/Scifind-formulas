@@ -1,8 +1,8 @@
 name: Coefficient of performance of a heat pump
 id: coefficient_of_performance_heat_pump
 topic: heat_engines
-difficulty: 3
-equation: dimensionless eq energy div energy
+difficulty: 7
+equation: dimensionless eq energy frac energy
 symbol_overrides:
 - dimensionless: \mathrm{COP}_{\mathrm{HP}}
 - energy: Q_h

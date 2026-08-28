@@ -1,8 +1,8 @@
 name: Charge density from charge and volume
 id: charge_density_formula
 topic: electrostatics
-difficulty: 1
-equation: charge_density eq charge div volume
+difficulty: 6
+equation: charge_density eq charge frac volume
 symbol_overrides:
 - charge_density: ''
 - charge: ''

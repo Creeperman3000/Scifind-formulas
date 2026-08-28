@@ -1,12 +1,12 @@
 name: Competitive inhibition velocity
 id: competitive_inhibition_velocity
 topic: biochemistry
-difficulty: 4
-equation: catalytic_activity eq catalytic_activity mul (concentration) div dimensionless
-  mul (dimensionless add concentration div dimensionless ) add concentration
+difficulty: 9
+equation: catalytic_activity eq catalytic_activity mul (concentration) frac dimensionless
+  mul (dimensionless add concentration frac dimensionless ) add concentration
 symbol_overrides:
 - catalytic_activity: v
-- catalytic_activity: V_max
+- catalytic_activity: V_{max}
 - concentration: '[S]'
 - dimensionless: K_m
 - dimensionless: '1'

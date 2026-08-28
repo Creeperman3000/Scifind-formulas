@@ -1,12 +1,12 @@
 name: Atomic mass defect
 id: atomic_mass_defect
 topic: atomic_structure
-difficulty: 3
+difficulty: 8
 equation: mass eq mass sub mass
 symbol_overrides:
 - mass: Δm
-- mass: m_nucleons
-- mass: m_nucleus
+- mass: m_{nucleons}
+- mass: m_{nucleus}
 name_overrides:
 - mass: Mass [defect]
 - mass: Sum of nucleon masses

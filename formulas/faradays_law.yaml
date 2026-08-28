@@ -1,8 +1,8 @@
 name: Faraday's law of induction
 id: faradays_law
 topic: electromagnetic_induction
-difficulty: 3
-equation: electric_potential eq drop ((dimensionless mul magnetic_flux) div Delta
+difficulty: 7
+equation: electric_potential eq drop ((dimensionless mul magnetic_flux) frac Delta
   time) sub
 symbol_overrides:
 - electric_potential: ε

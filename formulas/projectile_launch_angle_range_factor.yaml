@@ -1,7 +1,7 @@
 name: Projectile range dependence on launch angle
 id: projectile_launch_angle_range_factor
 topic: projectile_motion
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq sin (angle mul 2)
 symbol_overrides:
 - dimensionless: sin(2θ)

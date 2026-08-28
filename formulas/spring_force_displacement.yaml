@@ -1,7 +1,8 @@
 name: Spring force and displacement
 id: spring_force_displacement
 topic: springs
-difficulty: 1
+difficulty: 4
+description: "Valid for an ideal spring in the linear regime; F = −k x (Hooke's law)."
 equation: force eq drop spring_constant sub mul length
 symbol_overrides:
 - force: ''

@@ -1,8 +1,8 @@
 name: Eccentricity of an ellipse
 id: ellipse_eccentricity
 topic: coordinate_geometry
-difficulty: 2
-equation: dimensionless eq dimensionless sub sqrt ((length pow 2) div length pow 2
+difficulty: 6
+equation: dimensionless eq dimensionless sub sqrt ((length pow 2) frac length pow 2
   ) 2
 symbol_overrides:
 - dimensionless: e

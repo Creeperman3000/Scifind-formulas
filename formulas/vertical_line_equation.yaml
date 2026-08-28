@@ -1,7 +1,7 @@
 name: Vertical line
 id: vertical_line_equation
 topic: equations
-difficulty: 1
+difficulty: 2
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: x

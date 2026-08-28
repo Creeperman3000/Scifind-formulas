@@ -1,8 +1,8 @@
 name: De Broglie wavelength
 id: de_broglie_wavelength
 topic: quantum_mechanics
-difficulty: 3
-equation: length eq planck_constant div momentum
+difficulty: 8
+equation: length eq planck_constant frac momentum
 symbol_overrides:
 - length: λ
 - momentum: ''

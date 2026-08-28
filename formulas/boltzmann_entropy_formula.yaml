@@ -1,7 +1,7 @@
 name: Boltzmann's entropy formula
 id: boltzmann_entropy_formula
 topic: entropy
-difficulty: 4
+difficulty: 9
 equation: entropy eq boltzmann_constant mul log euler_e dimensionless
 symbol_overrides:
 - entropy: ''

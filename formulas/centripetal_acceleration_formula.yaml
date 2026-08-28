@@ -1,8 +1,8 @@
 name: Centripetal acceleration (centripetal_acceleration_formula)
 id: centripetal_acceleration_formula
 topic: circular_motion
-difficulty: 1
-equation: acceleration eq velocity mul (velocity) div length
+difficulty: 5
+equation: acceleration eq velocity mul (velocity) frac length
 symbol_overrides:
 - acceleration: a_c
 - velocity: ''

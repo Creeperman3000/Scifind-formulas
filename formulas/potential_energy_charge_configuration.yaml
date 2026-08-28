@@ -1,8 +1,8 @@
 name: Electric potential energy of a charge configuration
 id: potential_energy_charge_configuration
 topic: electric_potential
-difficulty: 3
-equation: energy eq coulomb_constant mul (charge mul charge ) div length mul 2
+difficulty: 8
+equation: energy eq coulomb_constant mul (charge mul charge ) frac (2 mul length )
 symbol_overrides:
 - energy: ''
 - charge: q_1

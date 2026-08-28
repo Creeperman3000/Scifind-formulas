@@ -1,13 +1,13 @@
 name: 'Product-to-sum: cos A cos B'
 id: product_to_sum_cosine_cosine
 topic: trigonometric_identities
-difficulty: 3
+difficulty: 7
 equation: cos angle mul cos angle eq dimensionless mul cos (angle sub angle ) add
   cos (angle add angle )
 symbol_overrides:
 - angle: A
 - angle: B
-- dimensionless: ½
+- dimensionless: \frac{1}{2}
 - angle: A
 - angle: B
 - angle: A

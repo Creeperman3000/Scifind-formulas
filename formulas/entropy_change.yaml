@@ -1,8 +1,9 @@
 name: Entropy change for reversible heat transfer
 id: entropy_change
 topic: entropy
-difficulty: 2
-equation: entropy eq energy div temperature
+difficulty: 8
+description: Valid only at constant temperature. The general reversible expression
+equation: entropy eq energy frac temperature
 symbol_overrides:
 - entropy: ΔS
 - energy: ''

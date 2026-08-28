@@ -1,8 +1,8 @@
 name: Gravitational potential energy (general)
 id: gravitational_potential_energy_general
 topic: potential_energy
-difficulty: 3
-equation: energy eq drop (gravitational_constant mul mass mul (mass) div length) sub
+difficulty: 6
+equation: energy eq drop (gravitational_constant mul mass mul (mass) frac length) sub
 symbol_overrides:
 - energy: U
 - mass: M

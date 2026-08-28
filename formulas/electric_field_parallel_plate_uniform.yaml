@@ -1,8 +1,8 @@
 name: Electric field between parallel plates
 id: electric_field_parallel_plate_uniform
 topic: electrostatics
-difficulty: 1
-equation: electric_field_strength eq electric_potential div length
+difficulty: 6
+equation: electric_field_strength eq electric_potential frac length
 symbol_overrides:
 - electric_field_strength: ''
 - electric_potential: ''

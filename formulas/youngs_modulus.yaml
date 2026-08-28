@@ -1,8 +1,8 @@
 name: Young's modulus
 id: youngs_modulus
 topic: forces
-difficulty: 2
-equation: pressure eq pressure div dimensionless
+difficulty: 6
+equation: pressure eq pressure frac dimensionless
 symbol_overrides:
 - pressure: E
 - pressure: σ

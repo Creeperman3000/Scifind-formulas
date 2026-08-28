@@ -1,7 +1,7 @@
 name: Pythagorean theorem
 id: pythagorean_theorem
 topic: triangles
-difficulty: 1
+difficulty: 3
 equation: length pow 2 eq (length pow 2) add length pow 2
 symbol_overrides:
 - length: c

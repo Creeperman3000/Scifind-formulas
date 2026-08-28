@@ -1,7 +1,7 @@
 name: Integral sum rule
 id: integral_sum_rule
 topic: integrals
-difficulty: 1
+difficulty: 6
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: ∫[f(x)+g(x)] dx

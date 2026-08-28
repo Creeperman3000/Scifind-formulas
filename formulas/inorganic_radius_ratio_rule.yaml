@@ -1,12 +1,12 @@
 name: Ionic radius ratio for coordination
 id: inorganic_radius_ratio_rule
 topic: inorganic_chemistry
-difficulty: 3
-equation: dimensionless eq length div length
+difficulty: 9
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: r₊/r₋
-- length: r_cation
-- length: r_anion
+- length: r_{cation}
+- length: r_{anion}
 name_overrides:
 - dimensionless: Radius [ratio]
 - length: Cation [radius]

@@ -1,10 +1,11 @@
 name: Wien's displacement law
 id: wiens_displacement_law
 topic: heat_transfer
-difficulty: 3
+difficulty: 8
+description: "Valid for blackbody radiation; relates peak emission wavelength to temperature."
 equation: length mul temperature eq wiens_constant
 symbol_overrides:
-- length: λ_max
+- length: λ_{max}
 - temperature: ''
 name_overrides:
 - length: Peak wavelength

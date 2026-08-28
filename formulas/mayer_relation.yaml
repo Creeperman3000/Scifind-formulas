@@ -1,7 +1,8 @@
 name: Mayer's relation for ideal gases
 id: mayer_relation
 topic: ideal_gases
-difficulty: 2
+difficulty: 8
+description: "Valid for an ideal gas; C_p − C_v = R."
 equation: molar_energy eq molar_energy add gas_constant
 symbol_overrides:
 - molar_energy: C_p

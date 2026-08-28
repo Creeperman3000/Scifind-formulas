@@ -1,8 +1,8 @@
 name: Photon momentum
 id: photon_momentum
 topic: quantum_mechanics
-difficulty: 3
-equation: momentum eq planck_constant div length
+difficulty: 7
+equation: momentum eq planck_constant frac length
 symbol_overrides:
 - momentum: ''
 - length: λ

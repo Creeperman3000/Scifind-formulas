@@ -1,7 +1,7 @@
 name: Impulse from force-time graph area
 id: impulse_from_force_time_graph
 topic: impulse
-difficulty: 2
+difficulty: 5
 equation: momentum eq force mul time
 symbol_overrides:
 - momentum: J

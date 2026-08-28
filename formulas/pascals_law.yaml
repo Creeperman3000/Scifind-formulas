@@ -1,8 +1,8 @@
 name: Pascal's law (hydraulic lift)
 id: pascals_law
 topic: pascals_law
-difficulty: 2
-equation: force div area eq force div area
+difficulty: 5
+equation: force frac area eq force frac area
 symbol_overrides:
 - force: F_1
 - area: A_1

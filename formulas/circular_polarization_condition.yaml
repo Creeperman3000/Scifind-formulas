@@ -1,7 +1,7 @@
 name: Circular polarization amplitude condition
 id: circular_polarization_condition
 topic: polarization
-difficulty: 3
+difficulty: 9
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: '|E_y|'

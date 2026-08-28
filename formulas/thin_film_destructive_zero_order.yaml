@@ -1,8 +1,8 @@
 name: Thin film destructive (zero order)
 id: thin_film_destructive_zero_order
 topic: interference
-difficulty: 4
-equation: dimensionless mul length eq length div 2
+difficulty: 8
+equation: dimensionless mul length eq length frac 2
 symbol_overrides:
 - dimensionless: 2n
 - length: t

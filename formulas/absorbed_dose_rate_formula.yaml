@@ -1,10 +1,10 @@
 name: Absorbed dose rate
 id: absorbed_dose_rate_formula
 topic: nuclear_physics
-difficulty: 2
-equation: absorbed_dose_rate eq absorbed_dose div time
+difficulty: 8
+equation: absorbed_dose_rate eq absorbed_dose frac time
 symbol_overrides:
-- absorbed_dose_rate: Ḋ
+- absorbed_dose_rate: \dot{D}
 - absorbed_dose: ''
 - time: ''
 name_overrides:

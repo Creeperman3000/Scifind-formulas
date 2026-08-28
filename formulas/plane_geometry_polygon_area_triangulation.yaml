@@ -1,10 +1,10 @@
 name: Area of a polygon by triangulation
 id: plane_geometry_polygon_area_triangulation
 topic: plane_geometry
-difficulty: 3
+difficulty: 4
 equation: area eq area add (area) add area
 symbol_overrides:
-- area: A_total
+- area: A_{total}
 - area: A_1
 - area: A_2
 - area: A_3

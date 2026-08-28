@@ -1,8 +1,8 @@
 name: Single-slit diffraction intensity pattern
 id: diffraction_single_slit_intensity
 topic: diffraction
-difficulty: 5
-equation: dimensionless eq dimensionless mul (sin dimensionless div dimensionless
+difficulty: 9
+equation: dimensionless eq dimensionless mul (sin dimensionless frac dimensionless
   ) pow 2
 symbol_overrides:
 - dimensionless: I(θ)

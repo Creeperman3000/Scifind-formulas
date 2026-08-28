@@ -1,7 +1,8 @@
 name: Image distance for a convex mirror
 id: optical_image_distance_mirror
 topic: mirrors
-difficulty: 2
+difficulty: 6
+description: "Sign convention as for the spherical-mirror equation (Cartesian, real-is-positive)."
 equation: length pow (drop 1 sub) eq length pow (drop 1 sub) add length pow (drop
   1 sub)
 symbol_overrides:

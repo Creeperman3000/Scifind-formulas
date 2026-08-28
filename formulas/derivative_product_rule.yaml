@@ -1,7 +1,7 @@
 name: Product rule
 id: derivative_product_rule
 topic: derivatives
-difficulty: 3
+difficulty: 7
 equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
   dimensionless
 symbol_overrides:

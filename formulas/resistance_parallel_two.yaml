@@ -1,10 +1,10 @@
 name: Two resistors in parallel
 id: resistance_parallel_two
 topic: circuits
-difficulty: 2
-equation: 1 div resistance eq 1 div (resistance) add 1 div resistance
+difficulty: 5
+equation: 1 frac resistance eq 1 frac (resistance) add 1 frac resistance
 symbol_overrides:
-- resistance: R_eq
+- resistance: R_{eq}
 - resistance: R_1
 - resistance: R_2
 name_overrides:

@@ -1,14 +1,14 @@
 name: Percent excess reactant
 id: limiting_reactant_percent_excess
 topic: limiting_reactants
-difficulty: 2
-equation: dimensionless eq (dimensionless sub dimensionless ) div (dimensionless)
-  mul 100
+difficulty: 6
+equation: dimensionless eq 100 mul ((dimensionless sub dimensionless ) frac dimensionless
+  )
 symbol_overrides:
-- dimensionless: '% excess'
-- dimensionless: n_actual
-- dimensionless: n_theoretical
-- dimensionless: n_theoretical
+- dimensionless: \% excess
+- dimensionless: n_{actual}
+- dimensionless: n_{theoretical}
+- dimensionless: n_{theoretical}
 name_overrides:
 - dimensionless: Percent [excess]
 - dimensionless: Actual amount

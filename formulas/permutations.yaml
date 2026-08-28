@@ -1,8 +1,8 @@
 name: Number of permutations
 id: permutations
 topic: probability
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 5
+equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: P(n,r)
 - dimensionless: n!

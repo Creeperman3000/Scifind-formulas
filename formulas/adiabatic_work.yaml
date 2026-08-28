@@ -1,8 +1,9 @@
 name: Adiabatic work of an ideal gas
 id: adiabatic_work
 topic: heat
-difficulty: 4
-equation: energy eq (pressure mul (volume) sub pressure mul volume ) div dimensionless
+difficulty: 8
+description: "Valid for an ideal gas undergoing a reversible adiabatic process; W = (P_i V_i − P_f V_f) / (γ − 1)."
+equation: energy eq (pressure mul (volume) sub pressure mul volume ) frac dimensionless
   sub 1
 symbol_overrides:
 - energy: ''

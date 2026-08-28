@@ -1,7 +1,7 @@
 name: 'Dynamics: normal force on incline'
 id: normal_force_incline
 topic: forces
-difficulty: 2
+difficulty: 5
 equation: force eq mass mul (acceleration) mul cos angle
 symbol_overrides:
 - force: N

@@ -1,7 +1,7 @@
 name: Image distance in a plane mirror
 id: reflection_mirror_image_distance
 topic: reflection
-difficulty: 1
+difficulty: 4
 equation: length eq length
 symbol_overrides:
 - length: d_i

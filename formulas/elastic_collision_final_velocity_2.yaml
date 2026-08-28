@@ -1,9 +1,9 @@
 name: Elastic collision final velocity 2 (1D)
 id: elastic_collision_final_velocity_2
 topic: collisions
-difficulty: 3
-equation: velocity eq 2 mul (mass) div (mass add mass ) mul (velocity) add (mass sub
-  mass ) div (mass add mass ) mul velocity
+difficulty: 7
+equation: velocity eq 2 mul (mass) frac (mass add mass ) mul (velocity) add (mass sub
+  mass ) frac (mass add mass ) mul velocity
 symbol_overrides:
 - velocity: v_{2f}
 - mass: m_1

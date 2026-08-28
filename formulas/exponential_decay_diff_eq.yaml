@@ -1,7 +1,7 @@
 name: Exponential decay differential equation
 id: exponential_decay_diff_eq
 topic: differential_equations
-difficulty: 3
+difficulty: 7
 equation: dimensionless eq drop (amount mul frequency) sub
 symbol_overrides:
 - dimensionless: dN/dt

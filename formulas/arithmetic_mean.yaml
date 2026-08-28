@@ -1,8 +1,8 @@
 name: Arithmetic mean
 id: arithmetic_mean
 topic: arithmetic
-difficulty: 1
-equation: dimensionless eq (dimensionless add dimensionless ) div 2
+difficulty: 2
+equation: dimensionless eq (dimensionless add dimensionless ) frac 2
 symbol_overrides:
 - dimensionless: x̄
 - dimensionless: a

@@ -1,8 +1,8 @@
 name: Bayes factor
 id: bayes_factor
 topic: probability
-difficulty: 3
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 9
+equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: BF
 - dimensionless: P(D|H₁)

@@ -1,8 +1,8 @@
 name: Kepler's third law
 id: keplers_third_law
 topic: orbital_motion
-difficulty: 3
-equation: time pow 2 eq ((2 mul pi ) pow 2) mul ((length pow 3) div gravitational_constant
+difficulty: 6
+equation: time pow 2 eq ((2 mul pi ) pow 2) mul ((length pow 3) frac gravitational_constant
   mul mass )
 symbol_overrides:
 - time: T

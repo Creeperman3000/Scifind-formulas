@@ -1,7 +1,7 @@
 name: Population variance
 id: population_variance
 topic: statistics
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq 1 frac dimensionless mul sum drop drop (dimensionless sub
   dimensionless) pow 2
 symbol_overrides:

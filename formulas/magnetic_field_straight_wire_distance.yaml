@@ -1,8 +1,9 @@
 name: Magnetic field from a long straight wire
 id: magnetic_field_straight_wire_distance
 topic: magnetism
-difficulty: 2
-equation: magnetic_flux_density eq vacuum_permeability mul (current) div ((pi mul
+difficulty: 7
+description: "Magnetic field from a long straight current-carrying wire; B = μ₀ I / (2π r)."
+equation: magnetic_flux_density eq vacuum_permeability mul (current) frac ((pi mul
   2) mul length )
 symbol_overrides:
 - magnetic_flux_density: ''

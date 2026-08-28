@@ -1,7 +1,7 @@
 name: Spin-only magnetic moment
 id: spin_only_magnetic_moment
 topic: inorganic_chemistry
-difficulty: 3
+difficulty: 8
 equation: torque eq dimensionless mul sqrt (dimensionless add 2) 2
 symbol_overrides:
 - torque: μ

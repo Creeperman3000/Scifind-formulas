@@ -1,8 +1,8 @@
 name: Carnot efficiency
 id: carnot_efficiency
 topic: heat_engines
-difficulty: 3
-equation: dimensionless eq dimensionless sub temperature div temperature
+difficulty: 7
+equation: dimensionless eq dimensionless sub temperature frac temperature
 symbol_overrides:
 - dimensionless: \eta
 - dimensionless: '1'

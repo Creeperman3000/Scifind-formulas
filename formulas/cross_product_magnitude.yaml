@@ -1,7 +1,7 @@
 name: Cross product magnitude
 id: cross_product_magnitude
 topic: linear_algebra
-difficulty: 2
+difficulty: 6
 equation: dimensionless eq dimensionless mul dimensionless mul sin angle
 symbol_overrides:
 - dimensionless: '|a×b|'

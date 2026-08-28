@@ -1,7 +1,7 @@
 name: Mass number
 id: mass_number_formula
 topic: atomic_structure
-difficulty: 1
+difficulty: 3
 equation: dimensionless eq dimensionless add dimensionless
 symbol_overrides:
 - dimensionless: A

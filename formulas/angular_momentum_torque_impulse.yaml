@@ -1,7 +1,7 @@
 name: Angular momentum from torque impulse
 id: angular_momentum_torque_impulse
 topic: angular_momentum
-difficulty: 2
+difficulty: 7
 equation: Delta angular_momentum eq torque mul time
 symbol_overrides:
 - angular_momentum: L

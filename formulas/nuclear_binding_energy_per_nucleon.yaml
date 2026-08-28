@@ -1,8 +1,8 @@
 name: Binding energy per nucleon
 id: nuclear_binding_energy_per_nucleon
 topic: nuclear_physics
-difficulty: 2
-equation: energy eq energy div dimensionless
+difficulty: 8
+equation: energy eq energy frac dimensionless
 symbol_overrides:
 - energy: E_b/A
 - energy: E_b

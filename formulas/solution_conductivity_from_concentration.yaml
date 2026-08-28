@@ -1,7 +1,8 @@
 name: Solution conductivity from concentration and molar conductivity
 id: solution_conductivity_from_concentration
 topic: solution_stoichiometry
-difficulty: 2
+difficulty: 8
+description: "Solution conductivity at infinite dilution (Kohlrausch's law); κ = Σ λ_i c_i."
 equation: conductance eq conductance mul concentration
 symbol_overrides:
 - conductance: κ

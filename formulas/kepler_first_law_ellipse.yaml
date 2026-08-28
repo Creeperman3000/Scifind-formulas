@@ -1,8 +1,8 @@
 name: Kepler's first law (elliptical orbit)
 id: kepler_first_law_ellipse
 topic: orbital_motion
-difficulty: 2
-equation: length eq (length mul dimensionless) div 1 add dimensionless mul cos angle
+difficulty: 6
+equation: length eq (length mul dimensionless) frac 1 add dimensionless mul cos angle
 symbol_overrides:
 - length: r
 - length: a

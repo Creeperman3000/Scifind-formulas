@@ -1,7 +1,7 @@
 name: Gibbs free energy under non-standard conditions
 id: gibbs_nonstandard
 topic: chemical_equilibrium
-difficulty: 3
+difficulty: 8
 equation: energy eq energy add gas_constant mul (temperature) mul log euler_e dimensionless
 symbol_overrides:
 - energy: ΔG

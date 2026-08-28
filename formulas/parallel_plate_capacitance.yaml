@@ -1,8 +1,8 @@
 name: Parallel plate capacitance
 id: parallel_plate_capacitance
 topic: capacitance
-difficulty: 2
-equation: capacitance eq vacuum_permittivity mul (area) div length
+difficulty: 6
+equation: capacitance eq vacuum_permittivity mul (area) frac length
 symbol_overrides:
 - capacitance: ''
 - area: ''

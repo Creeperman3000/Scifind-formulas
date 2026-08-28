@@ -1,7 +1,7 @@
 name: Torricelli's theorem
 id: torricellis_theorem
 topic: bernoulli_equation
-difficulty: 2
+difficulty: 6
 equation: velocity eq sqrt ((dimensionless mul 2) mul (standard_gravity) mul length
   ) 2
 symbol_overrides:

@@ -1,7 +1,7 @@
 name: Malus's law
 id: malus_law
 topic: polarization
-difficulty: 3
+difficulty: 7
 equation: irradiance eq irradiance mul cos angle pow 2
 symbol_overrides:
 - irradiance: I

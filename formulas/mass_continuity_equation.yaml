@@ -1,7 +1,7 @@
 name: Mass continuity equation
 id: mass_continuity_equation
 topic: continuity_equation
-difficulty: 2
+difficulty: 7
 equation: density mul area mul velocity eq density mul area mul velocity
 symbol_overrides:
 - density: ρ_1

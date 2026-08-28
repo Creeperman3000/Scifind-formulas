@@ -1,8 +1,8 @@
 name: Rankine to Kelvin conversion
 id: temperature_rankine_kelvin
 topic: temperature
-difficulty: 1
-equation: temperature eq temperature div 1.8
+difficulty: 5
+equation: temperature eq temperature frac 1.8
 symbol_overrides:
 - temperature: K
 - temperature: °R

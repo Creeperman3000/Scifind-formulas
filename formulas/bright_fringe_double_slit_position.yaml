@@ -1,8 +1,8 @@
 name: Position of bright fringes in double-slit
 id: bright_fringe_double_slit_position
 topic: diffraction
-difficulty: 2
-equation: length eq dimensionless mul (length) mul (length) div length
+difficulty: 7
+equation: length eq dimensionless mul (length) mul (length) frac length
 symbol_overrides:
 - length: y_m
 - dimensionless: m

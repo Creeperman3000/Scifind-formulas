@@ -1,7 +1,7 @@
 name: Beer-Lambert law
 id: beer_lambert_law
 topic: analytical_chemistry
-difficulty: 2
+difficulty: 7
 equation: absorbance eq molar_absorptivity mul (concentration) mul length
 symbol_overrides:
 - absorbance: A

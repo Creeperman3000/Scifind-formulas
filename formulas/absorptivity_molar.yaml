@@ -1,7 +1,8 @@
 name: Molar absorptivity from Beer-Lambert law
 id: absorptivity_molar
 topic: analytical_chemistry
-difficulty: 2
+difficulty: 7
+description: "Molar absorptivity from the Beer-Lambert law; ε = A / (l c)."
 equation: absorbance eq dimensionless mul concentration mul length
 symbol_overrides:
 - absorbance: ''

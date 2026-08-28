@@ -1,8 +1,8 @@
 name: Resistivity from resistance
 id: resistivity_from_resistance
 topic: circuits
-difficulty: 2
-equation: resistance eq resistance mul (area) div length
+difficulty: 6
+equation: resistance eq resistance mul (area) frac length
 symbol_overrides:
 - resistance: ρ
 - resistance: ''

@@ -1,8 +1,8 @@
 name: Euler's formula for triangle distance
 id: euler_triangle_formula
 topic: triangles
-difficulty: 4
-equation: length pow 2 eq length mul length sub length mul 2
+difficulty: 8
+equation: length pow 2 eq length mul (length sub (2 mul length ))
 symbol_overrides:
 - length: d
 - length: R

@@ -1,8 +1,8 @@
 name: Molar mass from ideal gas law
 id: molar_mass_from_ideal_gas_law
 topic: molar_mass
-difficulty: 2
-equation: molar_mass eq density mul gas_constant mul (temperature) div pressure
+difficulty: 7
+equation: molar_mass eq density mul gas_constant mul (temperature) frac pressure
 symbol_overrides:
 - molar_mass: ''
 - density: ''

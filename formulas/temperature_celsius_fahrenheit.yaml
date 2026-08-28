@@ -1,7 +1,7 @@
 name: Celsius to Fahrenheit conversion
 id: temperature_celsius_fahrenheit
 topic: temperature
-difficulty: 1
+difficulty: 2
 equation: temperature eq temperature mul (dimensionless) add dimensionless
 symbol_overrides:
 - temperature: °F

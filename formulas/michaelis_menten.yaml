@@ -1,12 +1,12 @@
 name: Michaelis-Menten equation
 id: michaelis_menten
 topic: biochemistry
-difficulty: 4
-equation: catalytic_activity eq catalytic_activity mul (concentration) div concentration
+difficulty: 8
+equation: catalytic_activity eq catalytic_activity mul (concentration) frac concentration
   add concentration
 symbol_overrides:
 - catalytic_activity: v
-- catalytic_activity: V_max
+- catalytic_activity: V_{max}
 - concentration: '[S]'
 - concentration: K_m
 - concentration: '[S]'

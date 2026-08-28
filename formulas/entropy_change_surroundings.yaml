@@ -1,10 +1,10 @@
 name: Entropy change of surroundings
 id: entropy_change_surroundings
 topic: entropy
-difficulty: 2
-equation: entropy eq drop (energy div temperature) sub
+difficulty: 8
+equation: entropy eq drop (energy frac temperature) sub
 symbol_overrides:
-- entropy: ΔS_surr
+- entropy: ΔS_{surr}
 - energy: ''
 - temperature: ''
 name_overrides:

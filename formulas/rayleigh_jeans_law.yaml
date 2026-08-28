@@ -1,9 +1,10 @@
 name: Rayleigh-Jeans law (blackbody radiation)
 id: rayleigh_jeans_law
 topic: quantum_mechanics
-difficulty: 4
+difficulty: 9
+description: "Classical low-frequency limit of blackbody radiation; diverges at high frequencies (ultraviolet catastrophe)."
 equation: energy_density eq (pi mul 8) mul (frequency pow 2) mul (boltzmann_constant)
-  mul (temperature) div speed_of_light pow 3
+  mul (temperature) frac speed_of_light pow 3
 name_overrides:
 - energy_density: Spectral [energy] density
 - frequency: ''

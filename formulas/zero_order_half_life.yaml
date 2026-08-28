@@ -1,10 +1,10 @@
 name: Zero-order reaction half-life
 id: zero_order_half_life
 topic: chemical_kinetics
-difficulty: 3
-equation: time eq concentration div frequency mul 2
+difficulty: 7
+equation: time eq concentration frac (2 mul frequency )
 symbol_overrides:
-- time: t_½
+- time: t_{1/2}
 - concentration: '[A]_0'
 - frequency: k
 name_overrides:

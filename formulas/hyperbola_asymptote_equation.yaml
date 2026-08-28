@@ -1,8 +1,8 @@
 name: Asymptote equation of a hyperbola
 id: hyperbola_asymptote_equation
 topic: coordinate_geometry
-difficulty: 2
-equation: dimensionless eq length div (length) mul dimensionless
+difficulty: 6
+equation: dimensionless eq length frac (length) mul dimensionless
 symbol_overrides:
 - dimensionless: y
 - length: b

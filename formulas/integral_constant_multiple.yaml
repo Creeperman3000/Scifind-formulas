@@ -1,7 +1,7 @@
 name: Integral constant multiple rule
 id: integral_constant_multiple
 topic: integrals
-difficulty: 1
+difficulty: 6
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: ∫cf(x) dx

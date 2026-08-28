@@ -1,7 +1,8 @@
 name: 'Second law: Kelvin-Planck statement'
 id: kelvin_planck_statement
 topic: second_law
-difficulty: 4
+difficulty: 8
+description: "No heat engine operating between two thermal reservoirs can have 100% efficiency (η < 1)."
 equation: energy prop energy
 symbol_overrides:
 - energy: Q_H

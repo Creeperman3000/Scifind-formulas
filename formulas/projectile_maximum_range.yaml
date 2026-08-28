@@ -1,10 +1,10 @@
 name: Maximum range of projectile
 id: projectile_maximum_range
 topic: projectile_motion
-difficulty: 2
-equation: length eq velocity mul (velocity) div acceleration
+difficulty: 6
+equation: length eq velocity mul (velocity) frac acceleration
 symbol_overrides:
-- length: R_max
+- length: R_{max}
 - velocity: v_0
 - velocity: ''
 - acceleration: g

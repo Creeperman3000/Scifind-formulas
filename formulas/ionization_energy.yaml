@@ -1,12 +1,12 @@
 name: Ionization Energy
 id: ionization_energy
 topic: periodic_table
-difficulty: 2
+difficulty: 5
 equation: energy eq energy sub energy
 symbol_overrides:
-- energy: ΔE_ea
-- energy: E_neutral
-- energy: E_anion
+- energy: ΔE_{ea}
+- energy: E_{neutral}
+- energy: E_{anion}
 name_overrides:
 - energy: Electron [affinity]
 - energy: '[Energy] of neutral atom'

@@ -1,11 +1,11 @@
 name: Catalytic efficiency
 id: catalytic_efficiency
 topic: biochemistry
-difficulty: 3
-equation: frequency eq catalytic_activity div concentration
+difficulty: 8
+equation: frequency eq catalytic_activity frac concentration
 symbol_overrides:
-- frequency: k_cat/K_m
-- catalytic_activity: V_max
+- frequency: k_{cat}/K_m
+- catalytic_activity: V_{max}
 - concentration: K_m
 name_overrides:
 - frequency: ''

@@ -1,7 +1,7 @@
 name: Pressure at depth in a fluid
 id: fluid_pressure_depth_relation
 topic: pressure
-difficulty: 1
+difficulty: 5
 equation: pressure eq pressure add density mul (standard_gravity) mul length
 symbol_overrides:
 - pressure: P_0
