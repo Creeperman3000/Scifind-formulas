@@ -1,7 +1,7 @@
 name: Area of an ellipse
 id: area_ellipse
 topic: plane_geometry
-difficulty: 1
+difficulty: 4
 equation: area eq pi mul length mul length
 symbol_overrides:
 - area: ''

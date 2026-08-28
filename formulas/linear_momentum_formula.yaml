@@ -1,7 +1,7 @@
 name: Linear momentum
 id: linear_momentum_formula
 topic: linear_momentum
-difficulty: 1
+difficulty: 4
 equation: momentum eq mass mul velocity
 symbol_overrides:
 - momentum: ''

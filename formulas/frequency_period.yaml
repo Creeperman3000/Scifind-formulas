@@ -1,8 +1,8 @@
 name: Frequency from period
 id: frequency_period
 topic: harmonic_motion
-difficulty: 1
-equation: frequency eq dimensionless div time
+difficulty: 3
+equation: frequency eq dimensionless frac time
 symbol_overrides:
 - frequency: f
 - dimensionless: '1'

@@ -1,13 +1,13 @@
 name: Henry's law constant definition
 id: solutions_henrys_law_constant
 topic: solutions
-difficulty: 2
-equation: concentration eq concentration mul pressure
+difficulty: 7
+equation: concentration eq concentration frac pressure
 symbol_overrides:
 - concentration: k_H
-- concentration: ''
-- pressure: ''
+- concentration: C
+- pressure: P
 name_overrides:
-- concentration: Gas [concentration] in solution
 - concentration: Henry's law constant
+- concentration: Gas [concentration] in solution
 - pressure: Partial pressure

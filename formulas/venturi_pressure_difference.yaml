@@ -1,8 +1,9 @@
 name: Venturi tube pressure difference
 id: venturi_pressure_difference
 topic: bernoulli_equation
-difficulty: 3
-equation: pressure eq density mul (((velocity pow 2) sub velocity pow 2 ) div 2)
+difficulty: 7
+description: "Valid for steady, incompressible, inviscid flow through a Venturi tube."
+equation: pressure eq density mul (((velocity pow 2) sub velocity pow 2 ) frac 2)
 symbol_overrides:
 - pressure: ΔP
 - density: ρ

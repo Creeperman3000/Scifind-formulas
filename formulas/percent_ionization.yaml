@@ -1,12 +1,12 @@
 name: Percent ionization of a weak acid
 id: percent_ionization
 topic: acids_and_bases
-difficulty: 2
-equation: dimensionless eq concentration div (concentration) mul dimensionless
+difficulty: 7
+equation: dimensionless eq concentration frac (concentration) mul dimensionless
 symbol_overrides:
-- dimensionless: '% ionization'
+- dimensionless: '\% ionization'
 - concentration: '[H⁺]'
-- concentration: '[HA]_initial'
+- concentration: '[HA]_{initial}'
 - dimensionless: '100'
 name_overrides:
 - dimensionless: Percent ionization

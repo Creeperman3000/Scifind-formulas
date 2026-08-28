@@ -1,8 +1,8 @@
 name: RL circuit time constant
 id: rl_time_constant
 topic: circuits
-difficulty: 2
-equation: time eq inductance div resistance
+difficulty: 7
+equation: time eq inductance frac resistance
 symbol_overrides:
 - time: τ
 - inductance: ''

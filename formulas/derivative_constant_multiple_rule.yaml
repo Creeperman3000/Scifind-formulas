@@ -1,17 +1,20 @@
 name: Derivative constant multiple rule
 id: derivative_constant_multiple_rule
 topic: derivatives
-difficulty: 1
-equation: dimensionless mul dimensionless mul dimensionless eq dimensionless mul dimensionless
+difficulty: 5
+equation: frac (rmd (dimensionless mul dimensionless)) (rmd dimensionless) eq dimensionless mul (frac
+  (rmd dimensionless) (rmd dimensionless))
 symbol_overrides:
-- dimensionless: d/dx
 - dimensionless: c
 - dimensionless: f
+- dimensionless: x
 - dimensionless: c
-- dimensionless: df/dx
+- dimensionless: f
+- dimensionless: x
 name_overrides:
-- dimensionless: Derivative
-- dimensionless: Constant
-- dimensionless: Function
-- dimensionless: Constant
+- dimensionless: Constant factor
+- dimensionless: Function f
+- dimensionless: '''[x]'''
+- dimensionless: Constant factor
 - dimensionless: Derivative of f
+- dimensionless: '''[x]'''

@@ -1,20 +1,22 @@
 name: Bernoulli differential equation
 id: bernoulli_differential_equation
 topic: differential_equations
-difficulty: 5
-equation: rmd dimensionless add dimensionless mul dimensionless eq dimensionless mul
-  dimensionless pow dimensionless
+difficulty: 9
+equation: frac (rmd dimensionless) (rmd dimensionless) add (dimensionless mul dimensionless) eq (dimensionless
+  mul ((dimensionless) pow dimensionless))
 symbol_overrides:
-- dimensionless: dy/dx
+- dimensionless: y
+- dimensionless: x
 - dimensionless: P(x)
 - dimensionless: y
 - dimensionless: Q(x)
 - dimensionless: y
 - dimensionless: n
 name_overrides:
-- dimensionless: Derivative of y
-- dimensionless: P(x)
-- dimensionless: y
-- dimensionless: Q(x)
-- dimensionless: y^n
-- dimensionless: Power n
+- dimensionless: Dependent variable y
+- dimensionless: Independent variable x
+- dimensionless: Coefficient function P(x)
+- dimensionless: Dependent variable y
+- dimensionless: Forcing function Q(x)
+- dimensionless: Dependent variable y
+- dimensionless: Degree n

@@ -1,7 +1,7 @@
 name: Relative speed in elastic collision
 id: collision_elasticity_perfectly_elastic_relative_speed
 topic: collisions
-difficulty: 2
+difficulty: 7
 equation: velocity sub velocity eq drop velocity sub velocity sub
 symbol_overrides:
 - velocity: v_1

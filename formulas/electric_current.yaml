@@ -1,8 +1,8 @@
 name: Electric current definition
 id: electric_current
 topic: current_electricity
-difficulty: 1
-equation: current eq charge div time
+difficulty: 4
+equation: current eq charge frac time
 symbol_overrides:
 - current: ''
 - charge: ''

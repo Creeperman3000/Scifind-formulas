@@ -1,15 +1,19 @@
 name: Limit definition of derivative
 id: limit_derivative_definition
 topic: limits
-difficulty: 2
-equation: dimensionless eq (dimensionless sub dimensionless ) div dimensionless
+difficulty: 7
+equation: dimensionless eq lim dimensionless dimensionless (((dimensionless sub dimensionless)) frac dimensionless)
 symbol_overrides:
 - dimensionless: f'(x)
+- dimensionless: h
+- dimensionless: '0'
 - dimensionless: f(x+h)
 - dimensionless: f(x)
 - dimensionless: h
 name_overrides:
 - dimensionless: Derivative
-- dimensionless: '[f(x+h)]'
-- dimensionless: '[f(x)]'
+- dimensionless: Increment
+- dimensionless: Limit value
+- dimensionless: Shifted function
+- dimensionless: Original function
 - dimensionless: Increment

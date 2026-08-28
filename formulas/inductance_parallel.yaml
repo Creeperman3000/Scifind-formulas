@@ -1,10 +1,10 @@
 name: Parallel combination of inductors
 id: inductance_parallel
 topic: electromagnetic_induction
-difficulty: 2
-equation: inductance eq (inductance mul inductance) div inductance add inductance
+difficulty: 7
+equation: inductance eq (inductance mul inductance) frac inductance add inductance
 symbol_overrides:
-- inductance: L_eq
+- inductance: L_{eq}
 - inductance: L_1
 - inductance: L_2
 - inductance: L_1

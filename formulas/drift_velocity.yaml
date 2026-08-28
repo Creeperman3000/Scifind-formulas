@@ -1,8 +1,8 @@
 name: Drift velocity
 id: drift_velocity
 topic: current_electricity
-difficulty: 3
-equation: velocity eq current div area mul (amount div volume ) mul elementary_charge
+difficulty: 7
+equation: velocity eq current frac area mul (amount frac volume ) mul elementary_charge
 symbol_overrides:
 - velocity: v_d
 - current: ''

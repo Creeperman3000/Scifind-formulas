@@ -1,8 +1,9 @@
 name: Elastic energy density
 id: spring_energy_density
 topic: springs
-difficulty: 3
-equation: energy_density eq spring_constant mul (length pow 2) div volume mul 2
+difficulty: 8
+equation: energy_density eq spring_constant mul (length pow 2) frac (2 mul volume
+  )
 symbol_overrides:
 - energy_density: ''
 - spring_constant: ''

@@ -1,7 +1,7 @@
 name: Diffraction grating equation
 id: diffraction_grating
 topic: diffraction
-difficulty: 3
+difficulty: 7
 equation: length mul sin angle eq amount mul length
 symbol_overrides:
 - length: d

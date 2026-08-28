@@ -1,15 +1,17 @@
 name: Derivative of Log Base a
 id: derivative_log_base_a
 topic: derivatives
-difficulty: 3
-equation: dimensionless eq dimensionless div dimensionless mul log euler_e dimensionless
+difficulty: 7
+equation: frac (rmd (log dimensionless angle)) (rmd angle) eq 1 frac (angle mul log euler_e dimensionless)
 symbol_overrides:
-- dimensionless: d/dx(log_a x)
-- dimensionless: '1'
-- dimensionless: x
 - dimensionless: a
+- dimensionless: a
+- angle: x
+- angle: x
+- angle: x
 name_overrides:
-- dimensionless: Derivative of log base a
-- dimensionless: '1'
-- dimensionless: '[Variable]'
-- dimensionless: '[Base]'
+- dimensionless: Base a
+- dimensionless: Base a
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

@@ -1,13 +1,15 @@
 name: Number of permutations
 id: permutations
 topic: probability
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 5
+equation: dimensionless eq (dimensionless factorial) frac ((dimensionless sub dimensionless) factorial)
 symbol_overrides:
 - dimensionless: P(n,r)
-- dimensionless: n!
-- dimensionless: (n-r)!
+- dimensionless: n
+- dimensionless: n
+- dimensionless: r
 name_overrides:
 - dimensionless: Number of permutations
-- dimensionless: n factorial
-- dimensionless: (n minus r) factorial
+- dimensionless: Total items n
+- dimensionless: Total items n
+- dimensionless: Chosen items r

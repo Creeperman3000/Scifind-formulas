@@ -1,13 +1,20 @@
 name: Chain rule
 id: derivative_chain_rule
 topic: derivatives
-difficulty: 3
-equation: dimensionless eq dimensionless mul dimensionless
+difficulty: 7
+equation: frac (rmd dimensionless) (rmd dimensionless) eq (frac (rmd dimensionless) (rmd dimensionless))
+  mul (frac (rmd dimensionless) (rmd dimensionless))
 symbol_overrides:
-- dimensionless: dy/dx
-- dimensionless: dy/du
-- dimensionless: du/dx
+- dimensionless: y
+- dimensionless: x
+- dimensionless: y
+- dimensionless: u
+- dimensionless: u
+- dimensionless: x
 name_overrides:
-- dimensionless: Derivative of composite function
-- dimensionless: Derivative of outer
-- dimensionless: Derivative of inner
+- dimensionless: Dependent variable y
+- dimensionless: '''[x]'''
+- dimensionless: Dependent variable y
+- dimensionless: Intermediate variable u
+- dimensionless: Intermediate variable u
+- dimensionless: '''[x]'''

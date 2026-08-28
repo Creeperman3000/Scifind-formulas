@@ -1,11 +1,15 @@
 name: Limit of a constant
 id: limit_constant_rule
 topic: limits
-difficulty: 1
-equation: dimensionless eq dimensionless
+difficulty: 5
+equation: lim dimensionless dimensionless dimensionless eq dimensionless
 symbol_overrides:
-- dimensionless: lim(c)
+- dimensionless: x
+- dimensionless: a
+- dimensionless: c
 - dimensionless: c
 name_overrides:
-- dimensionless: Limit of constant c
+- dimensionless: '''[Variable]'''
+- dimensionless: Approach point
+- dimensionless: Constant c
 - dimensionless: Constant c

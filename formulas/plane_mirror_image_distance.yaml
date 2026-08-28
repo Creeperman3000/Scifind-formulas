@@ -1,7 +1,8 @@
 name: Plane mirror image distance
 id: plane_mirror_image_distance
 topic: reflection
-difficulty: 1
+difficulty: 4
+description: "Sign convention: image distance is negative (virtual image behind the mirror) when the object distance is positive."
 equation: length eq drop length sub
 symbol_overrides:
 - length: d_i

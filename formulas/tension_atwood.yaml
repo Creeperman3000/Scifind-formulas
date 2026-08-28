@@ -1,8 +1,8 @@
 name: Tension in an Atwood machine
 id: tension_atwood
 topic: forces
-difficulty: 3
-equation: force eq (mass mul (mass) mul (standard_gravity) mul 2) div mass add mass
+difficulty: 6
+equation: force eq (mass mul (mass) mul (standard_gravity) mul 2) frac mass add mass
 symbol_overrides:
 - force: T
 - mass: m₁

@@ -1,15 +1,13 @@
 name: Parts per billion
 id: parts_per_formula
 topic: solution_stoichiometry
-difficulty: 1
-equation: dimensionless eq (mass div mass) mul dimensionless
+difficulty: 4
+equation: dimensionless eq (mass frac mass) mul (10 pow 9)
 symbol_overrides:
 - dimensionless: ppb
-- mass: m_solute
-- mass: m_solution
-- dimensionless: 10⁹
+- mass: m_{solute}
+- mass: m_{solution}
 name_overrides:
 - dimensionless: Parts per billion
 - mass: Mass of solute
 - mass: Mass of solution
-- dimensionless: ''

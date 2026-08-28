@@ -1,8 +1,8 @@
 name: 'Right triangle: trigonometric ratios (SOH CAH TOA)'
 id: soh_cah_toa_sine
 topic: right_triangles
-difficulty: 1
-equation: dimensionless eq length div length
+difficulty: 3
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: sin θ
 - length: opposite

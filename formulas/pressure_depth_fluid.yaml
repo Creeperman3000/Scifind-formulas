@@ -1,7 +1,7 @@
 name: Pressure at a depth in fluid
 id: pressure_depth_fluid
 topic: pressure
-difficulty: 1
+difficulty: 5
 equation: pressure eq density mul (acceleration) mul length
 symbol_overrides:
 - pressure: ''

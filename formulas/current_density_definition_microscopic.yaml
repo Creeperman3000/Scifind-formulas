@@ -1,7 +1,7 @@
 name: Microscopic current density
 id: current_density_definition_microscopic
 topic: current_electricity
-difficulty: 2
+difficulty: 7
 equation: current_density eq dimensionless mul (charge) mul velocity
 symbol_overrides:
 - current_density: J

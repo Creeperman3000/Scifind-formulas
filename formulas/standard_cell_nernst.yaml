@@ -1,8 +1,9 @@
 name: Standard cell potential from equilibrium
 id: standard_cell_nernst
 topic: electrochemistry
-difficulty: 3
-equation: electric_potential eq gas_constant mul (temperature) div (amount mul faraday_constant)
+difficulty: 8
+description: "Standard cell potential from equilibrium constant; E° = (RT / nF) ln K."
+equation: electric_potential eq gas_constant mul (temperature) frac (amount mul faraday_constant)
   mul log euler_e equilibrium_constant
 symbol_overrides:
 - electric_potential: E°

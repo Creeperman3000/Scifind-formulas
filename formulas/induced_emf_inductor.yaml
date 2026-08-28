@@ -1,8 +1,8 @@
 name: EMF induced in an inductor
 id: induced_emf_inductor
 topic: electromagnetic_induction
-difficulty: 3
-equation: electric_potential eq drop (inductance mul current div Delta time) sub
+difficulty: 7
+equation: electric_potential eq drop (inductance mul current frac Delta time) sub
 symbol_overrides:
 - electric_potential: ε
 - inductance: L

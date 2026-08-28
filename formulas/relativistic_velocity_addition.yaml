@@ -1,9 +1,9 @@
 name: Relativistic velocity addition
 id: relativistic_velocity_addition
 topic: relativity
-difficulty: 4
-equation: velocity eq (velocity add velocity) div dimensionless add (velocity mul
-  velocity) div speed_of_light pow 2
+difficulty: 9
+equation: velocity eq (velocity add velocity) frac dimensionless add (velocity mul
+  velocity) frac speed_of_light pow 2
 symbol_overrides:
 - velocity: u
 - velocity: u'

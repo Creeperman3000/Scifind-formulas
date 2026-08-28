@@ -1,22 +1,22 @@
 name: Power of a quotient
 id: power_of_quotient_rule
 topic: exponents
-difficulty: 2
-equation: (dimensionless div dimensionless ) pow dimensionless eq dimensionless pow
-  (dimensionless) div dimensionless pow dimensionless
+difficulty: 3
+equation: (dimensionless frac dimensionless ) pow dimensionless eq dimensionless pow
+  (dimensionless) frac dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: (a/b)^n
-- dimensionless: a^n
-- dimensionless: b^n
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: a
+- dimensionless: b
+- dimensionless: n
+- dimensionless: a
+- dimensionless: n
+- dimensionless: b
+- dimensionless: n
 name_overrides:
-- dimensionless: Power of a quotient
-- dimensionless: a^n
-- dimensionless: b^n
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: ''
+- dimensionless: First factor
+- dimensionless: Second factor
+- dimensionless: Exponent
+- dimensionless: First factor
+- dimensionless: Exponent
+- dimensionless: Second factor
+- dimensionless: Exponent

@@ -1,8 +1,8 @@
 name: Froude number
 id: froude_number
 topic: reynolds_number
-difficulty: 2
-equation: dimensionless eq velocity div sqrt (standard_gravity mul length ) 2
+difficulty: 8
+equation: dimensionless eq velocity frac sqrt (standard_gravity mul length ) 2
 symbol_overrides:
 - dimensionless: Fr
 - velocity: ''

@@ -1,7 +1,7 @@
 name: Radioactive decay law
 id: radioactive_decay
 topic: nuclear_physics
-difficulty: 3
+difficulty: 7
 equation: amount eq amount mul exp (drop (frequency mul time) sub)
 symbol_overrides:
 - amount: N_0

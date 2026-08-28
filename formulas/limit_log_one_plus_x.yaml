@@ -1,15 +1,16 @@
 name: Limit of Log Ratio
 id: limit_log_one_plus_x
 topic: limits
-difficulty: 3
-equation: dimensionless eq log euler_e (dimensionless add dimensionless) div dimensionless
+difficulty: 7
+equation: lim dimensionless dimensionless ((log euler_e (1 add dimensionless)) frac dimensionless) eq
+  1
 symbol_overrides:
-- dimensionless: lim_{x→0} ln(1+x)/x
-- dimensionless: '1'
+- dimensionless: x
+- dimensionless: '0'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
-- dimensionless: '[Limit] of log ratio'
-- dimensionless: '1'
-- dimensionless: x
-- dimensionless: '[Variable]'
+- dimensionless: '''[Variable]'''
+- dimensionless: Limit point
+- dimensionless: '''[Variable]'''
+- dimensionless: '''[Variable]'''

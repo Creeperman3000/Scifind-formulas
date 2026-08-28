@@ -1,7 +1,7 @@
 name: Rate law
 id: rate_law
 topic: chemical_kinetics
-difficulty: 3
+difficulty: 6
 equation: frequency eq frequency mul (concentration) pow (dimensionless) mul concentration
   pow dimensionless
 symbol_overrides:

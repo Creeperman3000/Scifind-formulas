@@ -1,7 +1,7 @@
 name: Vertex form of a parabola
 id: parabola_vertex_form
 topic: coordinate_geometry
-difficulty: 2
+difficulty: 5
 equation: dimensionless eq dimensionless mul ((dimensionless sub dimensionless) pow
   2) add dimensionless
 symbol_overrides:

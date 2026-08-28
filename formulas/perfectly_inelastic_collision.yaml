@@ -1,7 +1,7 @@
 name: Perfectly inelastic collision
 id: perfectly_inelastic_collision
 topic: collisions
-difficulty: 2
+difficulty: 6
 equation: mass mul (velocity) add mass mul velocity eq (mass add mass ) mul velocity
 symbol_overrides:
 - mass: m_1

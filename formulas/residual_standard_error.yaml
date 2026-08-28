@@ -1,8 +1,8 @@
 name: Residual standard error
 id: residual_standard_error
 topic: statistics
-difficulty: 3
-equation: dimensionless eq sqrt (dimensionless div ((dimensionless sub dimensionless)
+difficulty: 8
+equation: dimensionless eq sqrt (dimensionless frac ((dimensionless sub dimensionless)
   sub 1) ) 2
 symbol_overrides:
 - dimensionless: s_e

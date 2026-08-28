@@ -1,15 +1,13 @@
 name: Concentration in ppm
 id: concentration_ppm
 topic: solution_stoichiometry
-difficulty: 1
-equation: dimensionless eq mass frac mass mul dimensionless
+difficulty: 4
+equation: dimensionless eq (mass frac mass) mul (10 pow 6)
 symbol_overrides:
 - dimensionless: ppm
-- mass: m_{\mathrm{solute}}
-- mass: m_{\mathrm{solution}}
-- dimensionless: 10^6
+- mass: m_{solute}
+- mass: m_{solution}
 name_overrides:
 - dimensionless: Parts per million
 - mass: Mass of solute
 - mass: Mass of solution
-- dimensionless: ''

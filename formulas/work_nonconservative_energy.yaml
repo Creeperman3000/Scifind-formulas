@@ -1,12 +1,13 @@
 name: Work done by non-conservative forces
 id: work_nonconservative_energy
 topic: conservation_of_energy
-difficulty: 2
+difficulty: 6
+description: ΔE_mech denotes the change in mechanical energy (kinetic + potential);
 equation: energy eq energy add energy
 symbol_overrides:
 - energy: ΔE
-- energy: W_nc
-- energy: W_other
+- energy: W_{nc}
+- energy: W_{other}
 name_overrides:
 - energy: Change in mechanical [energy]
 - energy: Non-conservative [work]

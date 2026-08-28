@@ -1,22 +1,14 @@
 name: Lensmaker's equation (thin lens)
 id: lensmakers_equation
 topic: lenses
-difficulty: 4
-equation: dimensionless eq (dimensionless sub dimensionless ) mul dimensionless div
-  (length) sub dimensionless div length
+difficulty: 8
+equation: wavenumber eq (dimensionless sub 1) mul ((1 frac length) sub (1 frac length))
+description: Valid for thin lenses (paraxial approximation, negligible thickness).
 symbol_overrides:
-- dimensionless: 1/f
 - dimensionless: n
-- dimensionless: '1'
-- dimensionless: '1'
 - length: R_1
-- dimensionless: '1'
 - length: R_2
 name_overrides:
-- dimensionless: Reciprocal focal length
-- dimensionless: Refractive index
-- dimensionless: One
-- dimensionless: One
-- length: First radius
-- dimensionless: One
-- length: Second radius
+- dimensionless: Refractive index of lens
+- length: First radius of curvature
+- length: Second radius of curvature

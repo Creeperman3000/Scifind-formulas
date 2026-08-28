@@ -1,8 +1,8 @@
 name: Tangent definition
 id: tangent_definition
 topic: right_triangles
-difficulty: 1
-equation: tan angle eq length div length
+difficulty: 3
+equation: tan angle eq length frac length
 symbol_overrides:
 - angle: θ
 - length: a

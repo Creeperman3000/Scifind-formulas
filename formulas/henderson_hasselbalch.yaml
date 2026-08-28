@@ -1,7 +1,7 @@
 name: Henderson-Hasselbalch equation
 id: henderson_hasselbalch
 topic: acids_and_bases
-difficulty: 3
+difficulty: 7
 equation: ph eq drop log 10 equilibrium_constant sub add log 10 (concentration frac
   concentration)
 symbol_overrides:

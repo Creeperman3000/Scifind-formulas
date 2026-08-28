@@ -1,7 +1,7 @@
 name: Gibbs free energy spontaneity condition
 id: gibbs_spontaneity_condition
 topic: second_law
-difficulty: 2
+difficulty: 7
 equation: energy lt 0
 symbol_overrides:
 - energy: ΔG

@@ -1,10 +1,10 @@
 name: Pair production threshold energy
 id: pair_production_threshold
 topic: particle_physics
-difficulty: 3
+difficulty: 9
 equation: energy eq (mass mul 2) mul speed_of_light pow 2
 symbol_overrides:
-- energy: E_threshold
+- energy: E_{threshold}
 - mass: m_e
 name_overrides:
 - energy: Threshold [energy]

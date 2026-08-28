@@ -1,8 +1,8 @@
 name: Limit of detection
 id: limit_of_detection_formula
 topic: analytical_chemistry
-difficulty: 3
-equation: concentration eq dimensionless mul (dimensionless) div dimensionless
+difficulty: 8
+equation: concentration eq dimensionless mul (dimensionless) frac dimensionless
 symbol_overrides:
 - concentration: LOD
 - dimensionless: '3.3'

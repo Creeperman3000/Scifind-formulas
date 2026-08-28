@@ -1,11 +1,20 @@
 name: Integral of csc x cot x
 id: integral_csc_cot
 topic: integrals
-difficulty: 3
-equation: dimensionless eq drop (1 div sin angle) sub
+difficulty: 8
+equation: int drop drop (((frac 1 (sin angle)) mul ((cos angle) frac (sin angle))) mul (rmd angle)) eq
+  drop (frac 1 (sin angle)) sub
 symbol_overrides:
-- dimensionless: ∫csc x cot x dx
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
+- *id001
+- *id001
 name_overrides:
-- dimensionless: Integral of csc x cot x
-- angle: '[Variable]'
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002
+- *id002
+- *id002

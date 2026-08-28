@@ -1,8 +1,8 @@
 name: Standing wave node positions
 id: standing_wave_node_positions
 topic: wave_interference
-difficulty: 3
-equation: length eq length mul (dimensionless) div 2
+difficulty: 7
+equation: length eq length mul (dimensionless) frac 2
 symbol_overrides:
 - length: x_n
 - length: λ

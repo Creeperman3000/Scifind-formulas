@@ -1,7 +1,7 @@
 name: Ampere-Maxwell law
 id: amphere_maxwell_law
 topic: magnetism
-difficulty: 4
+difficulty: 9
 equation: oint drop drop (magnetic_flux_density cdot length) eq vacuum_permeability
   mul current add vacuum_permittivity mul rmd dimensionless frac rmd time
 symbol_overrides:

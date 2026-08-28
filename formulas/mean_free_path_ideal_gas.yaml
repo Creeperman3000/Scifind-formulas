@@ -1,8 +1,9 @@
 name: Mean free path of an ideal gas molecule
 id: mean_free_path_ideal_gas
 topic: ideal_gases
-difficulty: 4
-equation: length eq boltzmann_constant mul (temperature) div pi mul (length pow 2)
+difficulty: 9
+description: "Valid for an ideal gas; λ = 1 / (√2 · π d² n)."
+equation: length eq boltzmann_constant mul (temperature) frac pi mul (length pow 2)
   mul (pressure) mul sqrt 2 2
 symbol_overrides:
 - length: λ

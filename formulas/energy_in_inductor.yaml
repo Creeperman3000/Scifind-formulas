@@ -1,8 +1,8 @@
 name: Energy stored in an inductor
 id: energy_in_inductor
 topic: electromagnetic_induction
-difficulty: 3
-equation: energy eq inductance mul (current pow 2) div 2
+difficulty: 7
+equation: energy eq inductance mul (current pow 2) frac 2
 symbol_overrides:
 - energy: E_L
 - inductance: ''

@@ -1,7 +1,7 @@
 name: Surface area of a cylinder
 id: surface_area_cylinder
 topic: plane_geometry
-difficulty: 2
+difficulty: 3
 equation: area eq 2 mul (pi mul length ) mul (length) add 2 mul (pi) mul length pow
   2
 symbol_overrides:

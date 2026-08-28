@@ -1,8 +1,8 @@
 name: Capacitors in series (two)
 id: series_capacitance
 topic: circuits
-difficulty: 2
-equation: capacitance eq capacitance mul (capacitance) div capacitance add capacitance
+difficulty: 6
+equation: capacitance eq capacitance mul (capacitance) frac capacitance add capacitance
 symbol_overrides:
 - capacitance: C_{eq}
 - capacitance: C_1

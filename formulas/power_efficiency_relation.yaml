@@ -1,12 +1,12 @@
 name: Power efficiency
 id: power_efficiency_relation
 topic: power
-difficulty: 2
-equation: dimensionless eq power div power
+difficulty: 4
+equation: dimensionless eq power frac power
 symbol_overrides:
 - dimensionless: η
-- power: P_out
-- power: P_in
+- power: P_{out}
+- power: P_{in}
 name_overrides:
 - dimensionless: Efficiency
 - power: Output [power]

@@ -1,16 +1,15 @@
 name: Derivative of cotangent
 id: derivative_cot
 topic: derivatives
-difficulty: 2
-equation: dimensionless mul rmd (cos angle div sin angle) eq drop (1 div sin angle
-  pow 2) sub
+difficulty: 7
+equation: frac (rmd (cos angle frac sin angle)) (rmd angle) eq drop (1 frac ((sin angle) pow 2)) sub
 symbol_overrides:
-- dimensionless: d/dx
+- angle: x
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- dimensionless: Derivative
+- angle: '[Variable]'
 - angle: '[Variable]'
 - angle: '[Variable]'
 - angle: '[Variable]'

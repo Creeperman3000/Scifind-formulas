@@ -1,7 +1,7 @@
 name: Logarithm base definition
 id: logarithm_base_definition
 topic: logarithms
-difficulty: 2
+difficulty: 4
 equation: dimensionless eq dimensionless mul dimensionless
 symbol_overrides:
 - dimensionless: log_a(x)

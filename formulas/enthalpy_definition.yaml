@@ -1,7 +1,8 @@
 name: Enthalpy definition
 id: enthalpy_definition
 topic: thermochemistry
-difficulty: 2
+difficulty: 6
+description: "Defined at constant pressure; valid for ideal-gas processes and any constant-pressure process."
 equation: energy eq energy add pressure mul volume
 symbol_overrides:
 - energy: H

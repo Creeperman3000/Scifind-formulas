@@ -1,20 +1,29 @@
 name: Quotient rule
 id: derivative_quotient_rule
 topic: derivatives
-difficulty: 3
-equation: dimensionless eq (dimensionless mul (dimensionless) sub dimensionless mul
-  dimensionless ) div dimensionless pow 2
+difficulty: 7
+equation: frac (rmd (dimensionless frac dimensionless)) (rmd dimensionless) eq (((frac (rmd dimensionless)
+  (rmd dimensionless)) mul dimensionless) sub (dimensionless mul (frac (rmd dimensionless) (rmd dimensionless))))
+  frac ((dimensionless) pow 2)
 symbol_overrides:
-- dimensionless: d/dx(f/g)
-- dimensionless: df/dx
+- dimensionless: f
+- dimensionless: g
+- dimensionless: x
+- dimensionless: f
+- dimensionless: x
 - dimensionless: g
 - dimensionless: f
-- dimensionless: dg/dx
+- dimensionless: g
+- dimensionless: x
 - dimensionless: g
 name_overrides:
-- dimensionless: Derivative of quotient
+- dimensionless: Numerator function f
+- dimensionless: Denominator function g
+- dimensionless: '''[x]'''
 - dimensionless: Derivative of f
-- dimensionless: g
-- dimensionless: f
+- dimensionless: '''[x]'''
+- dimensionless: Denominator function g
+- dimensionless: Numerator function f
 - dimensionless: Derivative of g
-- dimensionless: g
+- dimensionless: '''[x]'''
+- dimensionless: Denominator function g

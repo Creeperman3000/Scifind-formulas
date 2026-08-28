@@ -1,8 +1,8 @@
 name: Magnetic moment from unpaired electrons
 id: magnetic_moment_unpaired_electrons
 topic: inorganic_chemistry
-difficulty: 3
-equation: dimensionless eq sqrt (dimensionless add dimensionless mul 2 ) 2
+difficulty: 8
+equation: dimensionless eq sqrt (dimensionless mul (dimensionless add 2 )) 2
 symbol_overrides:
 - dimensionless: μ
 - dimensionless: n

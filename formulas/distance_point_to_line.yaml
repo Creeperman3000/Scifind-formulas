@@ -1,9 +1,9 @@
 name: Distance from a point to a line
 id: distance_point_to_line
 topic: coordinate_geometry
-difficulty: 3
+difficulty: 5
 equation: length eq dimensionless length mul dimensionless length mul add (length)
-  add pow 2 (dimensionless pow 2) (dimensionless pow 2) add sqrt div 2
+  add pow 2 (dimensionless pow 2) (dimensionless pow 2) add sqrt frac 2
 symbol_overrides:
 - length: d
 - dimensionless: A

@@ -1,10 +1,10 @@
 name: Signal-to-noise ratio
 id: signal_to_noise_ratio
 topic: analytical_chemistry
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 7
+equation: dimensionless eq (dimensionless frac dimensionless)
 symbol_overrides:
-- dimensionless: S/N
+- dimensionless: SNR
 - dimensionless: S
 - dimensionless: N
 name_overrides:

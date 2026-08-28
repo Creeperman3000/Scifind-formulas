@@ -1,17 +1,17 @@
 name: Derivative of cosecant
 id: derivative_csc
 topic: derivatives
-difficulty: 2
-equation: dimensionless mul rmd (1 div sin angle) eq drop (1 div (sin angle) mul cos
-  angle div sin angle) sub
+difficulty: 7
+equation: frac (rmd (frac 1 (sin angle))) (rmd angle) eq drop ((frac 1 (sin angle)) mul (frac (cos angle)
+  (sin angle))) sub
 symbol_overrides:
-- dimensionless: d/dx
+- angle: x
 - angle: x
 - angle: x
 - angle: x
 - angle: x
 name_overrides:
-- dimensionless: Derivative
+- angle: '[Variable]'
 - angle: '[Variable]'
 - angle: '[Variable]'
 - angle: '[Variable]'

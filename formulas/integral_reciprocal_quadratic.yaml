@@ -1,18 +1,20 @@
 name: Integral of 1/(a²+x²)
 id: integral_reciprocal_quadratic
 topic: integrals
-difficulty: 3
-equation: dimensionless eq dimensionless div (dimensionless) mul atan (dimensionless
-  div dimensionless )
+difficulty: 8
+equation: int drop drop (((rmd angle) frac ((dimensionless pow 2) add (angle pow 2)))) eq (1 frac dimensionless)
+  mul atan (angle frac dimensionless)
 symbol_overrides:
-- dimensionless: ∫dx/(a²+x²)
-- dimensionless: '1'
+- angle: x
 - dimensionless: a
-- dimensionless: x
+- angle: x
+- dimensionless: a
+- angle: x
 - dimensionless: a
 name_overrides:
-- dimensionless: Integral of reciprocal quadratic
-- dimensionless: ''
-- dimensionless: '[Constant]'
-- dimensionless: '[Variable]'
-- dimensionless: ''
+- angle: '[Variable]'
+- dimensionless: Constant a
+- angle: '[Variable]'
+- dimensionless: Constant a
+- angle: '[Variable]'
+- dimensionless: Constant a

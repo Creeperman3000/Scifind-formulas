@@ -1,11 +1,13 @@
 name: Integral of cosine
 id: integral_cos
 topic: integrals
-difficulty: 2
-equation: dimensionless eq sin angle
+difficulty: 6
+equation: int drop drop (cos angle mul rmd angle) eq sin angle
 symbol_overrides:
-- dimensionless: ∫cos(x)dx
+- angle: x
+- angle: x
 - angle: x
 name_overrides:
-- dimensionless: ∫ cos(x) dx
+- angle: '[Variable]'
+- angle: '[Variable]'
 - angle: '[Variable]'

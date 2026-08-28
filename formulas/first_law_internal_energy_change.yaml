@@ -1,7 +1,7 @@
 name: 'First law: internal energy change'
 id: first_law_internal_energy_change
 topic: first_law
-difficulty: 2
+difficulty: 7
 equation: Delta energy eq energy add energy
 symbol_overrides:
 - energy: ΔU

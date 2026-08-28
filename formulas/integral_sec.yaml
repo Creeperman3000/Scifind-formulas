@@ -1,20 +1,18 @@
 name: Integral of sec x
 id: integral_sec
 topic: integrals
-difficulty: 4
-equation: dimensionless eq dimensionless mul log euler_e ((dimensionless add sin angle)
-  div dimensionless sub sin angle)
+difficulty: 8
+equation: int drop drop (((frac 1 (cos angle)) mul (rmd angle))) eq (1 frac 2) mul log euler_e ((1 add
+  (sin angle)) frac (1 sub (sin angle)))
 symbol_overrides:
-- dimensionless: ∫sec x dx
-- dimensionless: ½
-- dimensionless: '1'
-- angle: x
-- dimensionless: '1'
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
+- *id001
 name_overrides:
-- dimensionless: Integral of secant
-- dimensionless: ''
-- dimensionless: ''
-- angle: '[Variable]'
-- dimensionless: ''
-- angle: ''
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002
+- *id002

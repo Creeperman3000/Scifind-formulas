@@ -1,8 +1,8 @@
 name: Conductance from resistance
 id: conductance_formula
 topic: circuits
-difficulty: 1
-equation: conductance eq resistance div 1
+difficulty: 5
+equation: conductance eq 1 frac resistance
 symbol_overrides:
 - conductance: ''
 - resistance: ''

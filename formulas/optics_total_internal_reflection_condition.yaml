@@ -1,7 +1,7 @@
 name: Condition for total internal reflection
 id: optics_total_internal_reflection_condition
 topic: refraction
-difficulty: 2
+difficulty: 6
 equation: angle gt angle
 symbol_overrides:
 - angle: θ_i

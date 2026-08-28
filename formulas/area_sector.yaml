@@ -1,8 +1,8 @@
 name: Area of a sector
 id: area_sector
 topic: circles
-difficulty: 2
-equation: area eq (length pow 2) mul (angle) div 2
+difficulty: 4
+equation: area eq (length pow 2) mul (angle) frac 2
 symbol_overrides:
 - area: ''
 - length: r

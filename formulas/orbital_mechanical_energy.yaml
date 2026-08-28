@@ -1,8 +1,8 @@
 name: Orbital mechanical energy
 id: orbital_mechanical_energy
 topic: orbital_motion
-difficulty: 4
-equation: energy eq drop (gravitational_constant mul (mass mul mass) div length mul
+difficulty: 8
+equation: energy eq drop (gravitational_constant mul (mass mul mass) frac length mul
   2) sub
 symbol_overrides:
 - energy: ''

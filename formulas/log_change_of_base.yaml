@@ -1,8 +1,8 @@
 name: Logarithm change of base
 id: log_change_of_base
 topic: logarithms
-difficulty: 2
-equation: dimensionless eq log euler_e dimensionless div log euler_e dimensionless
+difficulty: 5
+equation: dimensionless eq log euler_e dimensionless frac log euler_e dimensionless
 symbol_overrides:
 - dimensionless: log_a(x)
 - dimensionless: x

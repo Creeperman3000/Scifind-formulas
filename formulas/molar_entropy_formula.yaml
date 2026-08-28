@@ -1,8 +1,8 @@
 name: Molar entropy
 id: molar_entropy_formula
 topic: entropy
-difficulty: 1
-equation: molar_entropy eq entropy div amount
+difficulty: 7
+equation: molar_entropy eq entropy frac amount
 symbol_overrides:
 - molar_entropy: ''
 - entropy: ''

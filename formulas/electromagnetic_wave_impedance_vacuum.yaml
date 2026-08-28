@@ -1,8 +1,8 @@
 name: Impedance of free space
 id: electromagnetic_wave_impedance_vacuum
 topic: electromagnetic_waves
-difficulty: 3
-equation: resistance eq sqrt (vacuum_permeability div vacuum_permittivity ) 2
+difficulty: 8
+equation: resistance eq sqrt (vacuum_permeability frac vacuum_permittivity ) 2
 symbol_overrides:
 - resistance: Z_0
 name_overrides:

@@ -1,13 +1,20 @@
 name: Definite integral as area
 id: integral_definite_definition
 topic: integrals
-difficulty: 3
-equation: dimensionless eq sum drop drop (dimensionless mul dimensionless)
+difficulty: 7
+equation: int dimensionless dimensionless (dimensionless mul dimensionless) eq sum drop drop (dimensionless
+  mul dimensionless)
 symbol_overrides:
-- dimensionless: ∫_a^b f(x) dx
+- dimensionless: a
+- dimensionless: b
 - dimensionless: f(x_i)
-- dimensionless: Δx
+- dimensionless: \Delta x
+- dimensionless: f(x_i)
+- dimensionless: \Delta x
 name_overrides:
-- dimensionless: Definite integral
+- dimensionless: Lower bound
+- dimensionless: Upper bound
+- dimensionless: Function value
+- dimensionless: Interval width
 - dimensionless: Function value
 - dimensionless: Interval width

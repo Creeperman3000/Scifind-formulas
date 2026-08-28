@@ -1,9 +1,11 @@
 name: Derivative of a constant
 id: derivative_constant_rule
 topic: derivatives
-difficulty: 1
-equation: dimensionless eq 0
+difficulty: 5
+equation: frac (rmd dimensionless) (rmd dimensionless) eq 0
 symbol_overrides:
-- dimensionless: dc/dx
+- dimensionless: c
+- dimensionless: x
 name_overrides:
-- dimensionless: Derivative of a constant
+- dimensionless: Constant c
+- dimensionless: '''[x]'''

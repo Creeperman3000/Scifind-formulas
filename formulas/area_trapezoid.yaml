@@ -1,8 +1,8 @@
 name: Area of a trapezoid
 id: area_trapezoid
 topic: plane_geometry
-difficulty: 1
-equation: area eq dimensionless div (dimensionless) mul (length add length ) mul length
+difficulty: 3
+equation: area eq dimensionless frac (dimensionless) mul (length add length ) mul length
 symbol_overrides:
 - area: A
 - dimensionless: '1'

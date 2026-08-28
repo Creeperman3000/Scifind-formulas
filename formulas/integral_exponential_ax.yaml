@@ -1,15 +1,20 @@
 name: Integral of Exponential ax
 id: integral_exponential_ax
 topic: integrals
-difficulty: 3
-equation: dimensionless eq exp (dimensionless mul dimensionless ) div dimensionless
+difficulty: 7
+equation: int drop drop (exp (dimensionless mul angle) mul rmd angle) eq (exp (dimensionless mul angle))
+  frac dimensionless
 symbol_overrides:
-- dimensionless: ∫e^(ax) dx
 - dimensionless: a
-- dimensionless: x
+- angle: x
+- angle: x
+- dimensionless: a
+- angle: x
 - dimensionless: a
 name_overrides:
-- dimensionless: '[Integral] of exp(ax)'
-- dimensionless: '[Constant]'
-- dimensionless: '[Variable]'
-- dimensionless: '[Constant]'
+- dimensionless: Rate constant a
+- angle: '[Variable]'
+- angle: '[Variable]'
+- dimensionless: Rate constant a
+- angle: '[Variable]'
+- dimensionless: Rate constant a

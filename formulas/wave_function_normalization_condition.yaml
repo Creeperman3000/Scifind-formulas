@@ -1,9 +1,11 @@
 name: Normalization condition for a wave function
 id: wave_function_normalization_condition
 topic: quantum_mechanics
-difficulty: 4
-equation: dimensionless eq 1
+difficulty: 9
+equation: int drop drop ((((abs dimensionless) pow 2) mul rmd dimensionless)) eq 1
 symbol_overrides:
-- dimensionless: ∫|ψ|²dx
+- dimensionless: \psi
+- dimensionless: x
 name_overrides:
-- dimensionless: Normalization integral
+- dimensionless: Wave function
+- dimensionless: Position

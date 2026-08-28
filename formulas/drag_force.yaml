@@ -1,8 +1,9 @@
 name: Drag force on an object in a fluid
 id: drag_force
 topic: reynolds_number
-difficulty: 3
-equation: force eq density mul (velocity pow 2) mul (area) mul (dimensionless) div
+difficulty: 7
+description: "Drag-force form F_d = ½ρv²C_d A; valid for high-Reynolds-number flow where viscous drag is negligible compared to pressure drag."
+equation: force eq density mul (velocity pow 2) mul (area) mul (dimensionless) frac
   2
 symbol_overrides:
 - force: F_d

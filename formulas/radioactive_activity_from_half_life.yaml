@@ -1,12 +1,13 @@
 name: Activity from half-life and number of nuclei
 id: radioactive_activity_from_half_life
 topic: nuclear_physics
-difficulty: 2
-equation: activity eq dimensionless mul log euler_e 2 div time
+difficulty: 8
+description: "Activity from half-life; A = (N ln 2) / t_{1/2}."
+equation: activity eq dimensionless mul log euler_e 2 frac time
 symbol_overrides:
 - activity: ''
 - dimensionless: N
-- time: t_½
+- time: t_{1/2}
 name_overrides:
 - activity: '[Activity]'
 - dimensionless: Number of nuclei

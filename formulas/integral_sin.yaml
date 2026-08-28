@@ -1,11 +1,13 @@
 name: Integral of sine
 id: integral_sin
 topic: integrals
-difficulty: 2
-equation: dimensionless eq drop cos angle sub
+difficulty: 6
+equation: int drop drop (sin angle mul rmd angle) eq drop cos angle sub
 symbol_overrides:
-- dimensionless: ∫sin(x)dx
+- angle: x
+- angle: x
 - angle: x
 name_overrides:
-- dimensionless: ∫ sin(x) dx
+- angle: '[Variable]'
+- angle: '[Variable]'
 - angle: '[Variable]'

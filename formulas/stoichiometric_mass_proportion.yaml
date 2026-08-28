@@ -1,8 +1,9 @@
 name: Mass ratio from stoichiometric coefficients
 id: stoichiometric_mass_proportion
 topic: chemical_reactions
-difficulty: 2
-equation: mass div mass eq dimensionless mul (molar_mass) div dimensionless mul molar_mass
+difficulty: 5
+description: "Mass ratio from stoichiometric coefficients and molar masses."
+equation: mass frac mass eq dimensionless mul (molar_mass) frac dimensionless mul molar_mass
 symbol_overrides:
 - mass: m_A
 - mass: m_B

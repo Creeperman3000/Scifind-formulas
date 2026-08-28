@@ -1,7 +1,7 @@
 name: Hooke's law
 id: hookes_law
 topic: springs
-difficulty: 1
+difficulty: 4
 equation: force eq drop spring_constant sub mul length
 symbol_overrides:
 - force: F

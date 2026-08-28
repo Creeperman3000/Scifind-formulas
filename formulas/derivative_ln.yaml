@@ -1,13 +1,13 @@
 name: Derivative of natural logarithm
 id: derivative_ln
 topic: derivatives
-difficulty: 2
-equation: dimensionless mul rmd log euler_e angle eq 1 div angle
+difficulty: 6
+equation: frac (rmd (log euler_e angle)) (rmd angle) eq 1 frac angle
 symbol_overrides:
-- dimensionless: d/dx
+- angle: x
 - angle: x
 - angle: x
 name_overrides:
-- dimensionless: Derivative
+- angle: '[Variable]'
 - angle: '[Variable]'
 - angle: '[Variable]'

@@ -1,7 +1,7 @@
 name: Parallel lines condition
 id: parallel_lines_condition
 topic: equations
-difficulty: 1
+difficulty: 3
 equation: reynolds_number eq reynolds_number
 symbol_overrides:
 - reynolds_number: m_1

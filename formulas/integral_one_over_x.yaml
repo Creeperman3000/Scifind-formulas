@@ -1,11 +1,13 @@
 name: Integral of 1/x
 id: integral_one_over_x
 topic: integrals
-difficulty: 2
-equation: dimensionless eq log euler_e dimensionless
+difficulty: 6
+equation: int drop drop (((1 frac angle) mul (rmd angle))) eq log euler_e (abs angle)
 symbol_overrides:
-- dimensionless: ∫1/x dx
-- dimensionless: '|x|'
+- angle: x
+- angle: x
+- angle: x
 name_overrides:
-- dimensionless: Integral of reciprocal
-- dimensionless: Absolute value
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

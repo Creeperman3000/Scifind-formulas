@@ -1,7 +1,7 @@
 name: Impulse-momentum theorem
 id: impulse_momentum_theorem
 topic: impulse
-difficulty: 2
+difficulty: 5
 equation: momentum eq momentum sub momentum
 symbol_overrides:
 - momentum: J

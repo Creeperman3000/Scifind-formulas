@@ -1,9 +1,9 @@
 name: Sum of finite geometric series
 id: geometric_series_sum
 topic: arithmetic
-difficulty: 2
+difficulty: 5
 equation: dimensionless eq dimensionless mul (1 sub dimensionless pow dimensionless
-  ) div 1 sub dimensionless
+  ) frac 1 sub dimensionless
 symbol_overrides:
 - dimensionless: S_n
 - dimensionless: a

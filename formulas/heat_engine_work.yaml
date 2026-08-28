@@ -1,7 +1,7 @@
 name: Work done by a heat engine
 id: heat_engine_work
 topic: heat_engines
-difficulty: 2
+difficulty: 6
 equation: energy eq energy sub energy
 symbol_overrides:
 - energy: ''

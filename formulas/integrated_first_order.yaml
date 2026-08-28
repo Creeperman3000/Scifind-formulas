@@ -1,7 +1,7 @@
 name: Integrated rate law (first order)
 id: integrated_first_order
 topic: chemical_kinetics
-difficulty: 3
+difficulty: 7
 equation: log euler_e concentration eq log euler_e concentration sub frequency mul
   time
 symbol_overrides:

@@ -1,12 +1,12 @@
 name: Retention factor in chromatography
 id: retention_factor
 topic: analytical_chemistry
-difficulty: 2
-equation: dimensionless eq length div length
+difficulty: 7
+equation: dimensionless eq length frac length
 symbol_overrides:
 - dimensionless: R_f
-- length: d_compound
-- length: d_solvent
+- length: d_{compound}
+- length: d_{solvent}
 name_overrides:
 - dimensionless: Retention factor
 - length: Distance traveled by compound

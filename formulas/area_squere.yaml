@@ -2,12 +2,10 @@ name: Area of a squere
 id: area_squere
 topic: plane_geometry
 difficulty: 1
-equation: area eq length mul length
+equation: area eq length pow 2
 symbol_overrides:
 - area: ''
 - length: a
-- length: a
 name_overrides:
-- area: ''
-- length: Side
-- length: Side
+- area: Area of square
+- length: Side length

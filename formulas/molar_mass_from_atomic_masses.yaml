@@ -1,7 +1,7 @@
 name: Molar mass from atomic masses
 id: molar_mass_from_atomic_masses
 topic: molar_mass
-difficulty: 2
+difficulty: 4
 equation: molar_mass eq sum drop drop (amount mul mass)
 symbol_overrides:
 - molar_mass: M

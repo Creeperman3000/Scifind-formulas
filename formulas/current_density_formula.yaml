@@ -1,8 +1,8 @@
 name: Current density
 id: current_density_formula
 topic: current_electricity
-difficulty: 2
-equation: current_density eq current div area
+difficulty: 7
+equation: current_density eq current frac area
 symbol_overrides:
 - current_density: ''
 - current: ''

@@ -1,15 +1,17 @@
 name: Integral of Natural Log
 id: integral_ln_x
 topic: integrals
-difficulty: 3
-equation: dimensionless eq dimensionless mul log euler_e dimensionless sub dimensionless
+difficulty: 7
+equation: int drop drop (log euler_e angle mul rmd angle) eq (angle mul log euler_e angle) sub angle
 symbol_overrides:
-- dimensionless: ∫ln x dx
-- dimensionless: x
-- dimensionless: x
-- dimensionless: x
+- angle: x
+- angle: x
+- angle: x
+- angle: x
+- angle: x
 name_overrides:
-- dimensionless: '[Integral] of natural log'
-- dimensionless: '[Variable]'
-- dimensionless: ''
-- dimensionless: ''
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

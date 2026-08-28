@@ -1,13 +1,24 @@
 name: Limit power rule
 id: limit_power_rule
 topic: limits
-difficulty: 2
-equation: dimensionless eq dimensionless pow dimensionless
+difficulty: 6
+equation: lim dimensionless dimensionless ((dimensionless) pow dimensionless) eq ((lim dimensionless dimensionless
+  dimensionless) pow dimensionless)
 symbol_overrides:
-- dimensionless: lim[x→a] f(x)^n
-- dimensionless: lim[x→a] f(x)
+- dimensionless: x
+- dimensionless: a
+- dimensionless: f(x)
+- dimensionless: n
+- dimensionless: x
+- dimensionless: a
+- dimensionless: f(x)
 - dimensionless: n
 name_overrides:
-- dimensionless: Limit of f(x)^n
-- dimensionless: Limit of f(x)
-- dimensionless: Power
+- dimensionless: '''[Variable]'''
+- dimensionless: Approach point
+- dimensionless: Function f(x)
+- dimensionless: Exponent n
+- dimensionless: '''[Variable]'''
+- dimensionless: Approach point
+- dimensionless: Function f(x)
+- dimensionless: Exponent n

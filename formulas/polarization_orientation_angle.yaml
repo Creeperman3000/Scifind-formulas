@@ -1,8 +1,8 @@
 name: Polarization orientation angle
 id: polarization_orientation_angle
 topic: polarization
-difficulty: 2
-equation: angle eq atan (dimensionless dimensionless div)
+difficulty: 8
+equation: angle eq atan (dimensionless dimensionless frac)
 symbol_overrides:
 - angle: ψ
 - dimensionless: E_y

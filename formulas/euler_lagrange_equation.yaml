@@ -1,11 +1,18 @@
 name: Euler-Lagrange equation
 id: euler_lagrange_equation
 topic: differential_equations
-difficulty: 6
-equation: rmd dimensionless eq dimensionless
+difficulty: 10
+equation: frac (rmd (frac (partial dimensionless) (partial dimensionless))) (rmd time) eq (frac (partial
+  dimensionless) (partial dimensionless))
 symbol_overrides:
-- dimensionless: d/dt (∂L/∂q̇)
-- dimensionless: ∂L/∂q
+- dimensionless: L
+- dimensionless: \dot{q}
+- time: t
+- dimensionless: L
+- dimensionless: q
 name_overrides:
-- dimensionless: Time derivative of ∂L/∂q̇
-- dimensionless: Partial derivative of L with respect to q
+- dimensionless: Lagrangian L
+- dimensionless: Generalized velocity q-dot
+- time: Time
+- dimensionless: Lagrangian L
+- dimensionless: Generalized coordinate q

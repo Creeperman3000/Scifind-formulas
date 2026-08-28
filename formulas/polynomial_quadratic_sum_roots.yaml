@@ -1,13 +1,15 @@
 name: Sum of roots of a quadratic
 id: polynomial_quadratic_sum_roots
 topic: polynomials
-difficulty: 2
-equation: dimensionless eq drop dimensionless sub div dimensionless
+difficulty: 5
+equation: (dimensionless add dimensionless) eq drop dimensionless sub frac dimensionless
 symbol_overrides:
-- dimensionless: α+β
+- dimensionless: \alpha
+- dimensionless: \beta
 - dimensionless: b
 - dimensionless: a
 name_overrides:
-- dimensionless: Sum of roots
+- dimensionless: First root
+- dimensionless: Second root
 - dimensionless: Coefficient b
 - dimensionless: Coefficient a

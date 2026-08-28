@@ -1,20 +1,29 @@
 name: Forced damped harmonic oscillator ODE
 id: forced_oscillator_ode
 topic: differential_equations
-difficulty: 4
-equation: rmd rmd dimensionless add rmd dimensionless add (angular_velocity pow 2)
-  mul length eq force mul cos angle
+difficulty: 9
+equation: (frac (rmd (rmd dimensionless)) ((rmd time) pow 2)) add ((2 mul dimensionless) mul (frac (rmd
+  dimensionless) (rmd time))) add ((angular_velocity pow 2) mul length) eq force mul (cos (dimensionless
+  mul time))
 symbol_overrides:
-- dimensionless: d²x/dt²
-- dimensionless: 2γ dx/dt
-- angular_velocity: ω₀
+- dimensionless: x
+- time: t
+- dimensionless: \gamma
+- dimensionless: x
+- time: t
+- angular_velocity: \omega_0
 - length: x
-- force: F₀
-- angle: ωt
+- force: F_0
+- dimensionless: \omega
+- time: t
 name_overrides:
-- dimensionless: '[Second derivative]'
-- dimensionless: '[Damping term]'
-- angular_velocity: Natural [angular frequency]
+- dimensionless: Displacement
+- time: Time
+- dimensionless: Damping coefficient
+- dimensionless: Velocity term
+- time: Time
+- angular_velocity: Natural angular [frequency]
 - length: '[Displacement]'
 - force: Driving [force]
-- angle: Angular frequency × [time]
+- dimensionless: Driving frequency
+- time: Time

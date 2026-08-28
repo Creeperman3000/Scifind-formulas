@@ -1,15 +1,20 @@
 name: Derivative power rule
 id: derivative_power_rule
 topic: derivatives
-difficulty: 2
-equation: dimensionless eq dimensionless mul dimensionless pow dimensionless sub 1
+difficulty: 6
+equation: frac (rmd (dimensionless pow dimensionless)) (rmd dimensionless) eq dimensionless mul (dimensionless
+  pow (dimensionless sub 1))
 symbol_overrides:
-- dimensionless: d/dx(x^n)
+- dimensionless: x
+- dimensionless: n
+- dimensionless: x
 - dimensionless: n
 - dimensionless: x
 - dimensionless: n
 name_overrides:
-- dimensionless: Derivative of x^n
+- dimensionless: '''[Variable]'''
 - dimensionless: Exponent
-- dimensionless: '[Variable]'
-- dimensionless: '[Exponent]'
+- dimensionless: '''[Variable]'''
+- dimensionless: Exponent
+- dimensionless: '''[Variable]'''
+- dimensionless: Exponent

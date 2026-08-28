@@ -1,8 +1,8 @@
 name: Margin of error
 id: margin_of_error
 topic: statistics
-difficulty: 2
-equation: dimensionless eq dimensionless mul dimensionless div sqrt dimensionless
+difficulty: 7
+equation: dimensionless eq dimensionless mul dimensionless frac sqrt dimensionless
   2
 symbol_overrides:
 - dimensionless: ME

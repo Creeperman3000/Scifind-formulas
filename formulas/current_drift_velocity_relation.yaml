@@ -1,7 +1,7 @@
 name: Current from drift velocity
 id: current_drift_velocity_relation
 topic: current_electricity
-difficulty: 3
+difficulty: 7
 equation: current eq dimensionless mul charge mul velocity mul area
 symbol_overrides:
 - current: ''

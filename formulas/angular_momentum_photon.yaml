@@ -1,8 +1,8 @@
 name: Photon angular momentum
 id: angular_momentum_photon
 topic: quantum_mechanics
-difficulty: 4
-equation: angular_momentum eq planck_constant div pi mul 2
+difficulty: 9
+equation: angular_momentum eq (planck_constant frac (2 mul pi ))
 symbol_overrides:
 - angular_momentum: ''
 name_overrides:

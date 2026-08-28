@@ -1,8 +1,8 @@
 name: Interior angle of a regular polygon
 id: polygon_interior_angle_regular
 topic: polygons
-difficulty: 1
-equation: angle eq dimensionless mul (dimensionless sub 2) div dimensionless
+difficulty: 4
+equation: angle eq dimensionless mul (dimensionless sub 2) frac dimensionless
 symbol_overrides:
 - angle: θ
 - dimensionless: '180'

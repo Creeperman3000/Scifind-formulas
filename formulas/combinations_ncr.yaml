@@ -1,15 +1,18 @@
 name: Number of combinations
 id: combinations_ncr
 topic: probability
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless mul dimensionless
+difficulty: 5
+equation: dimensionless eq (dimensionless factorial) frac ((dimensionless factorial) mul ((dimensionless
+  sub dimensionless) factorial))
 symbol_overrides:
 - dimensionless: C(n,r)
-- dimensionless: n!
-- dimensionless: r!
-- dimensionless: (n-r)!
+- dimensionless: n
+- dimensionless: r
+- dimensionless: n
+- dimensionless: r
 name_overrides:
 - dimensionless: Number of combinations
-- dimensionless: n factorial
-- dimensionless: r factorial
-- dimensionless: (n-r) factorial
+- dimensionless: Total items n
+- dimensionless: Chosen items r
+- dimensionless: Total items n
+- dimensionless: Chosen items r

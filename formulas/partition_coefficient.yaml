@@ -1,12 +1,12 @@
 name: Partition coefficient
 id: partition_coefficient
 topic: analytical_chemistry
-difficulty: 2
-equation: dimensionless eq concentration div concentration
+difficulty: 7
+equation: dimensionless eq concentration frac concentration
 symbol_overrides:
 - dimensionless: K
-- concentration: c_org
-- concentration: c_aq
+- concentration: c_{org}
+- concentration: c_{aq}
 name_overrides:
 - dimensionless: Partition [coefficient]
 - concentration: Concentration in organic phase

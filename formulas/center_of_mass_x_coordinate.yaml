@@ -1,10 +1,10 @@
 name: Center of mass x-coordinate
 id: center_of_mass_x_coordinate
 topic: linear_momentum
-difficulty: 2
+difficulty: 6
 equation: length eq sum drop drop (mass mul length) frac sum drop drop mass
 symbol_overrides:
-- length: x_cm
+- length: x_{cm}
 - mass: ''
 - length: ''
 - mass: ''

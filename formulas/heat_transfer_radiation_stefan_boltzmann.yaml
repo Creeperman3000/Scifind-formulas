@@ -1,7 +1,7 @@
 name: Radiative heat transfer (Stefan-Boltzmann)
 id: heat_transfer_radiation_stefan_boltzmann
 topic: heat_transfer
-difficulty: 3
+difficulty: 7
 equation: power eq dimensionless mul (dimensionless) mul (area) mul temperature pow
   4
 symbol_overrides:

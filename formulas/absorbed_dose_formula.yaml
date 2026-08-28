@@ -1,13 +1,16 @@
 name: Absorbed dose
 id: absorbed_dose_formula
 topic: nuclear_physics
-difficulty: 2
-equation: absorbed_dose eq energy div mass
+difficulty: 7
+links:
+  - https://www.radiation-dosimetry.org/what-is-absorbed-dose-formula-equation-definition/
+description: Absorbed dose is defined as the energy absorbed per unit mass of the irradiated material.
+equation: absorbed_dose eq energy frac mass
 symbol_overrides:
 - absorbed_dose: ''
 - energy: ''
 - mass: ''
 name_overrides:
-- absorbed_dose: Absorbed [dose]
-- energy: ''
-- mass: ''
+- absorbed_dose: ''
+- energy: '[Energy] imparted by ionizing radiation'
+- mass: '[Mass] of the absorbing material'

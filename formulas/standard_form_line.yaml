@@ -1,7 +1,7 @@
 name: Standard form of a line
 id: standard_form_line
 topic: equations
-difficulty: 1
+difficulty: 3
 equation: dimensionless mul (length) add dimensionless mul length eq dimensionless
 symbol_overrides:
 - dimensionless: A

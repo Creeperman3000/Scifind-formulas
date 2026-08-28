@@ -1,8 +1,8 @@
 name: Wedge film interference fringe spacing
 id: wedge_film_fringe_spacing
 topic: interference
-difficulty: 4
-equation: length eq length div dimensionless mul (tan angle ) mul 2
+difficulty: 8
+equation: length eq length frac dimensionless mul (tan angle ) mul 2
 symbol_overrides:
 - length: Δx
 - length: λ

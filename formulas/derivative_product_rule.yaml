@@ -1,18 +1,26 @@
 name: Product rule
 id: derivative_product_rule
 topic: derivatives
-difficulty: 3
-equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless mul
-  dimensionless
+difficulty: 7
+equation: frac (rmd (dimensionless mul dimensionless)) (rmd dimensionless) eq ((frac (rmd dimensionless)
+  (rmd dimensionless)) mul dimensionless) add (dimensionless mul (frac (rmd dimensionless) (rmd dimensionless)))
 symbol_overrides:
-- dimensionless: d/dx(f·g)
-- dimensionless: df/dx
+- dimensionless: f
+- dimensionless: g
+- dimensionless: x
+- dimensionless: f
+- dimensionless: x
 - dimensionless: g
 - dimensionless: f
-- dimensionless: dg/dx
+- dimensionless: g
+- dimensionless: x
 name_overrides:
-- dimensionless: Derivative of product
+- dimensionless: Function f
+- dimensionless: Function g
+- dimensionless: '''[x]'''
 - dimensionless: Derivative of f
-- dimensionless: g
-- dimensionless: f
+- dimensionless: '''[x]'''
+- dimensionless: Function g
+- dimensionless: Function f
 - dimensionless: Derivative of g
+- dimensionless: '''[x]'''

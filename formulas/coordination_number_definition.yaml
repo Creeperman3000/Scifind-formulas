@@ -1,11 +1,11 @@
 name: Coordination number definition
 id: coordination_number_definition
 topic: inorganic_chemistry
-difficulty: 1
+difficulty: 6
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: CN
-- dimensionless: N_ligands
+- dimensionless: N_{ligands}
 name_overrides:
 - dimensionless: Coordination number
 - dimensionless: Number of ligands

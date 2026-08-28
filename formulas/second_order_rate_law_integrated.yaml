@@ -1,16 +1,13 @@
 name: Integrated rate law (second order)
 id: second_order_rate_law_integrated
 topic: chemical_kinetics
-difficulty: 3
-equation: concentration pow (drop 1 sub) eq concentration pow (drop 1 sub) add frequency
-  mul time
+difficulty: 7
+equation: (frac 1 concentration) eq (frac 1 concentration) add (frequency mul time)
 symbol_overrides:
-- concentration: 1/[A]_t
-- concentration: 1/[A]_0
+- concentration: '[A]_t'
+- concentration: '[A]_0'
 - frequency: k
-- time: ''
 name_overrides:
-- concentration: Reciprocal [concentration] at time t
-- concentration: Reciprocal initial [concentration]
+- concentration: Concentration at time t
+- concentration: Initial [concentration]
 - frequency: Rate constant
-- time: ''

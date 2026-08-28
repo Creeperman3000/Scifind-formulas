@@ -1,8 +1,8 @@
 name: Half-angle cosine identity
 id: half_angle_cosine
 topic: trigonometric_identities
-difficulty: 2
-equation: angle 2 div cos pow 2 eq (dimensionless add cos angle ) div 2
+difficulty: 6
+equation: angle 2 frac cos pow 2 eq (dimensionless add cos angle ) frac 2
 symbol_overrides:
 - angle: θ
 - dimensionless: '1'

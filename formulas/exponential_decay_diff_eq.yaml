@@ -1,13 +1,15 @@
 name: Exponential decay differential equation
 id: exponential_decay_diff_eq
 topic: differential_equations
-difficulty: 3
-equation: dimensionless eq drop (amount mul frequency) sub
+difficulty: 7
+equation: frac (rmd amount) (rmd time) eq drop (frequency mul amount) sub
 symbol_overrides:
-- dimensionless: dN/dt
-- amount: ''
-- frequency: λ
+- amount: N
+- time: t
+- frequency: \lambda
+- amount: N
 name_overrides:
-- dimensionless: Rate of change
-- amount: '[Population]'
+- amount: Population N
+- time: Time
 - frequency: Decay constant
+- amount: Population N

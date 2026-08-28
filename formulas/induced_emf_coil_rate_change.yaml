@@ -1,8 +1,8 @@
 name: Induced EMF from rate of change of magnetic flux
 id: induced_emf_coil_rate_change
 topic: electromagnetic_induction
-difficulty: 2
-equation: electromagnetic_induction eq drop (magnetic_flux div Delta time) sub
+difficulty: 7
+equation: electromagnetic_induction eq drop (magnetic_flux frac Delta time) sub
 symbol_overrides:
 - electromagnetic_induction: ε
 - magnetic_flux: Φ

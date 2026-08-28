@@ -1,8 +1,8 @@
 name: Q factor of an RLC circuit
 id: q_factor_rlc
 topic: circuits
-difficulty: 3
-equation: dimensionless eq 1 div (resistance) mul sqrt (inductance div capacitance
+difficulty: 8
+equation: dimensionless eq 1 frac (resistance) mul sqrt (inductance frac capacitance
   ) 2
 symbol_overrides:
 - dimensionless: Q

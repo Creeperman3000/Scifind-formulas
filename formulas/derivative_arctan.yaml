@@ -1,7 +1,7 @@
 name: Derivative of arctangent
 id: derivative_arctan
 topic: derivatives
-difficulty: 3
+difficulty: 7
 equation: rmd (angle atan ) eq 1 frac 1 add angle pow 2
 symbol_overrides:
 - angle: x

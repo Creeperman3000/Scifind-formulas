@@ -1,8 +1,8 @@
 name: Area of a regular polygon (regular_polygon_area)
 id: regular_polygon_area
 topic: polygons
-difficulty: 3
-equation: area eq dimensionless mul (length pow 2) div dimensionless mul tan (pi div
+difficulty: 5
+equation: area eq dimensionless mul (length pow 2) frac dimensionless mul tan (pi frac
   dimensionless )
 symbol_overrides:
 - area: ''

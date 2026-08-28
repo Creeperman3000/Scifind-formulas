@@ -1,7 +1,7 @@
 name: Force from pressure
 id: force_from_pressure
 topic: pressure
-difficulty: 1
+difficulty: 4
 equation: force eq pressure mul area
 symbol_overrides:
 - force: ''

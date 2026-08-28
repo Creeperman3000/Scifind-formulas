@@ -1,13 +1,16 @@
 name: Simple harmonic oscillator ODE (standard form)
 id: sho_ode_standard
 topic: differential_equations
-difficulty: 4
-equation: rmd rmd dimensionless add (angular_velocity pow 2) mul length eq 0
+difficulty: 8
+equation: (frac (rmd (rmd dimensionless)) ((rmd time) pow 2)) add ((angular_velocity pow 2) mul length)
+  eq 0
 symbol_overrides:
-- dimensionless: d²x/dt²
-- angular_velocity: ω
+- dimensionless: x
+- time: t
+- angular_velocity: \omega_0
 - length: x
 name_overrides:
-- dimensionless: '[Second derivative]'
-- angular_velocity: Angular [frequency]
-- length: '[Displacement]'
+- dimensionless: Displacement
+- time: Time
+- angular_velocity: Natural angular [frequency]
+- length: Displacement

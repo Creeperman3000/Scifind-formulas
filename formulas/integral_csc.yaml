@@ -1,11 +1,15 @@
 name: Integral of csc x
 id: integral_csc
 topic: integrals
-difficulty: 4
-equation: dimensionless eq log euler_e tan (angle div 2)
+difficulty: 8
+equation: int drop drop (((frac 1 (sin angle)) mul (rmd angle))) eq log euler_e (tan (angle frac 2))
 symbol_overrides:
-- dimensionless: ∫csc x dx
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
 name_overrides:
-- dimensionless: Integral of cosecant
-- angle: '[Variable]'
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002

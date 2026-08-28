@@ -1,10 +1,10 @@
 name: Maximum number of electrons in a shell
 id: maximum_electrons_shell
 topic: periodic_table
-difficulty: 1
+difficulty: 5
 equation: dimensionless eq 2 mul dimensionless pow 2
 symbol_overrides:
-- dimensionless: e⁻_max
+- dimensionless: e⁻_{max}
 - dimensionless: n
 name_overrides:
 - dimensionless: Maximum [electrons]

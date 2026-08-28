@@ -1,8 +1,8 @@
 name: Cosecant identity
 id: cosecant_identity
 topic: trigonometric_identities
-difficulty: 1
-equation: dimensionless eq 1 div sin angle
+difficulty: 5
+equation: dimensionless eq 1 frac sin angle
 symbol_overrides:
 - dimensionless: csc(θ)
 - angle: θ

@@ -1,11 +1,11 @@
 name: Percentage difference
 id: percentage_difference
 topic: arithmetic
-difficulty: 1
-equation: dimensionless eq (dimensionless sub dimensionless ) div ((dimensionless
-  add dimensionless ) div 2) mul dimensionless
+difficulty: 3
+equation: dimensionless eq (dimensionless sub dimensionless ) frac ((dimensionless
+  add dimensionless ) frac 2) mul dimensionless
 symbol_overrides:
-- dimensionless: '% diff'
+- dimensionless: '\% diff'
 - dimensionless: a
 - dimensionless: b
 - dimensionless: '100'

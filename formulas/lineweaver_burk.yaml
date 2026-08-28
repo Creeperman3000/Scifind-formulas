@@ -1,15 +1,18 @@
 name: Lineweaver-Burk equation
 id: lineweaver_burk
 topic: biochemistry
-difficulty: 4
-equation: dimensionless eq dimensionless mul (dimensionless) add dimensionless
+difficulty: 8
+equation: (frac 1 dimensionless) eq ((frac dimensionless dimensionless) mul (frac 1 dimensionless)) add
+  (frac 1 dimensionless)
 symbol_overrides:
-- dimensionless: 1/v
-- dimensionless: K_m/V_max
-- dimensionless: 1/[S]
-- dimensionless: 1/V_max
+- dimensionless: v
+- dimensionless: K_m
+- dimensionless: V_{max}
+- dimensionless: '[S]'
+- dimensionless: V_{max}
 name_overrides:
-- dimensionless: Reciprocal reaction rate
-- dimensionless: Slope
-- dimensionless: Reciprocal substrate concentration
-- dimensionless: Intercept
+- dimensionless: Reaction rate v
+- dimensionless: Michaelis constant
+- dimensionless: Maximum rate
+- dimensionless: Substrate concentration
+- dimensionless: Maximum rate

@@ -1,13 +1,13 @@
 name: Polygon circumradius
 id: polygon_circumradius
 topic: polygons
-difficulty: 3
-equation: length eq (length div 2) div sin angle
+difficulty: 6
+equation: length eq (length frac (2 mul sin (pi frac angle)))
 symbol_overrides:
 - length: R
 - length: s
-- angle: π/n
+- angle: n
 name_overrides:
 - length: Circum[radius]
 - length: Side [length]
-- angle: Central angle
+- angle: Number of sides

@@ -1,18 +1,20 @@
 name: Derivative of secant
 id: derivative_sec
 topic: derivatives
-difficulty: 2
-equation: dimensionless mul rmd (1 div cos angle ) eq 1 div (cos angle ) mul sin angle
-  div cos angle
+difficulty: 7
+equation: frac (rmd (frac 1 (cos angle))) (rmd angle) eq (frac 1 (cos angle)) mul (frac (sin angle) (cos
+  angle))
 symbol_overrides:
-- dimensionless: d/dx
-- angle: x
-- angle: x
-- angle: x
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
+- *id001
+- *id001
 name_overrides:
-- dimensionless: Derivative
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
-- angle: '[Variable]'
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002
+- *id002
+- *id002

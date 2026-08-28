@@ -1,7 +1,7 @@
 name: Principle of wave superposition
 id: wave_superposition_principle
 topic: wave_interference
-difficulty: 1
+difficulty: 5
 equation: length eq length add length
 symbol_overrides:
 - length: y

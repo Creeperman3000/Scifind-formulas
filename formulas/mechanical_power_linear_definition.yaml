@@ -1,0 +1,11 @@
+name: Mechanical power
+id: mechanical_power_linear_definition
+topic: power
+difficulty: 5
+equation: power eq work frac time
+symbol_overrides:
+- power: P
+- work: W
+- time: Δt
+name_overrides:
+- power: Average [power]

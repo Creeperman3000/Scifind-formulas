@@ -1,11 +1,12 @@
 name: Difference of cubes
 id: difference_of_cubes
 topic: polynomials
-difficulty: 2
-equation: dimensionless eq (dimensionless sub dimensionless ) mul ((dimensionless
-  pow 2) add (dimensionless) mul (dimensionless) add dimensionless pow 2 )
+difficulty: 4
+equation: ((dimensionless pow 3) sub (dimensionless pow 3)) eq ((dimensionless sub dimensionless) mul
+  (((dimensionless pow 2) add (dimensionless mul dimensionless)) add ((dimensionless) pow 2)))
 symbol_overrides:
-- dimensionless: a³ - b³
+- dimensionless: a
+- dimensionless: b
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
@@ -13,10 +14,11 @@ symbol_overrides:
 - dimensionless: b
 - dimensionless: b
 name_overrides:
-- dimensionless: Difference of cubes
-- dimensionless: a
-- dimensionless: b
-- dimensionless: a
-- dimensionless: a
-- dimensionless: b
-- dimensionless: b
+- dimensionless: First cube base a
+- dimensionless: Second cube base b
+- dimensionless: First base a
+- dimensionless: Second base b
+- dimensionless: First base a
+- dimensionless: First base a
+- dimensionless: Second base b
+- dimensionless: Second base b

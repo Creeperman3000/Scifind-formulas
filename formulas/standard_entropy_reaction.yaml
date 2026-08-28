@@ -1,7 +1,7 @@
 name: Standard entropy change of reaction
 id: standard_entropy_reaction
 topic: thermochemistry
-difficulty: 2
+difficulty: 7
 equation: entropy eq entropy sub entropy
 symbol_overrides:
 - entropy: ΔS°

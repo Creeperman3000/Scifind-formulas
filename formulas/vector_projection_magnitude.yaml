@@ -1,13 +1,15 @@
 name: Scalar projection of a onto b
 id: vector_projection_magnitude
 topic: linear_algebra
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 7
+equation: dimensionless eq ((dimensionless cdot dimensionless)) frac (abs dimensionless)
 symbol_overrides:
 - dimensionless: comp_b(a)
-- dimensionless: a·b
-- dimensionless: '|b|'
+- dimensionless: \vec{a}
+- dimensionless: \vec{b}
+- dimensionless: \vec{b}
 name_overrides:
 - dimensionless: Scalar projection
-- dimensionless: Dot product
-- dimensionless: Magnitude of b
+- dimensionless: Vector a
+- dimensionless: Vector b
+- dimensionless: Vector b

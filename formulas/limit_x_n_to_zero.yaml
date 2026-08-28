@@ -1,9 +1,15 @@
 name: Limit of x^n as x→0
 id: limit_x_n_to_zero
 topic: limits
-difficulty: 2
-equation: dimensionless eq 0
+difficulty: 6
+equation: lim dimensionless dimensionless (dimensionless pow dimensionless) eq 0
 symbol_overrides:
-- dimensionless: lim_{x→0} x^n
+- dimensionless: x
+- dimensionless: '0'
+- dimensionless: x
+- dimensionless: n
 name_overrides:
-- dimensionless: Limit of x^n as x approaches 0 (n>0)
+- dimensionless: '''[Variable]'''
+- dimensionless: Zero
+- dimensionless: '''[Variable]'''
+- dimensionless: Positive exponent

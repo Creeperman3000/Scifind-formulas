@@ -1,11 +1,11 @@
 name: Percentage error
 id: percentage_error
 topic: arithmetic
-difficulty: 1
-equation: dimensionless eq (dimensionless sub dimensionless ) div (dimensionless)
+difficulty: 3
+equation: dimensionless eq (dimensionless sub dimensionless ) frac (dimensionless)
   mul dimensionless
 symbol_overrides:
-- dimensionless: '% error'
+- dimensionless: '\% error'
 - dimensionless: theoretical
 - dimensionless: experimental
 - dimensionless: theoretical

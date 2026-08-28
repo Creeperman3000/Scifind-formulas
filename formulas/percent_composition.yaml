@@ -1,12 +1,12 @@
 name: Percent composition
 id: percent_composition
 topic: chemical_reactions
-difficulty: 1
-equation: dimensionless eq mass div (mass) mul 100
+difficulty: 4
+equation: dimensionless eq 100 mul (mass frac mass )
 symbol_overrides:
-- dimensionless: '%X'
+- dimensionless: \%X
 - mass: m_X
-- mass: m_total
+- mass: m_{total}
 name_overrides:
 - dimensionless: Percent composition
 - mass: Mass of element

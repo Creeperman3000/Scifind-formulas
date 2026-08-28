@@ -1,12 +1,12 @@
 name: Dilution factor
 id: solution_dilution_factor
 topic: solution_stoichiometry
-difficulty: 1
-equation: dimensionless eq volume div volume
+difficulty: 4
+equation: dimensionless eq volume frac volume
 symbol_overrides:
 - dimensionless: DF
-- volume: V_final
-- volume: V_initial
+- volume: V_{final}
+- volume: V_{initial}
 name_overrides:
 - dimensionless: Dilution [factor]
 - volume: Final [volume]

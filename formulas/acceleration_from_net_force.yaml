@@ -1,8 +1,8 @@
 name: Acceleration from net force
 id: acceleration_from_net_force
 topic: newtons_laws
-difficulty: 1
-equation: acceleration eq force div mass
+difficulty: 4
+equation: acceleration eq force frac mass
 symbol_overrides:
 - acceleration: a
 - force: F

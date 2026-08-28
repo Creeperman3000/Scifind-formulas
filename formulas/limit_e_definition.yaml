@@ -1,15 +1,15 @@
 name: Limit definition of e
 id: limit_e_definition
 topic: limits
-difficulty: 2
-equation: euler_e eq lim dimensionless drop (1 add 1 div dimensionless) pow dimensionless
+difficulty: 7
+equation: euler_e eq lim dimensionless dimensionless (((1 add (1 frac dimensionless)) pow dimensionless))
 symbol_overrides:
-- dimensionless: lim_{n→∞} (1+1/n)^n
-- dimensionless: ''
+- dimensionless: n
+- dimensionless: \infty
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: Limit definition of e
-- dimensionless: ''
-- dimensionless: Index
-- dimensionless: Index
+- dimensionless: Index n
+- dimensionless: Infinity
+- dimensionless: Index n
+- dimensionless: Exponent n

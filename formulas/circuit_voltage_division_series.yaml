@@ -1,8 +1,8 @@
 name: Voltage division in series resistors
 id: circuit_voltage_division_series
 topic: circuits
-difficulty: 2
-equation: electric_potential eq electric_potential mul resistance div resistance add
+difficulty: 6
+equation: electric_potential eq electric_potential mul resistance frac resistance add
   resistance
 symbol_overrides:
 - electric_potential: V_1

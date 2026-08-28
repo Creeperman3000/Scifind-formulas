@@ -1,13 +1,17 @@
 name: Integral of sec² x
 id: integral_sec_squared
 topic: integrals
-difficulty: 2
-equation: dimensionless eq sin angle div cos angle
+difficulty: 7
+equation: int drop drop ((((frac 1 (cos angle)) pow 2) mul (rmd angle))) eq ((sin angle) frac (cos angle))
 symbol_overrides:
-- dimensionless: ∫sec²x dx
-- angle: x
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
+- *id001
 name_overrides:
-- dimensionless: ∫ sec² x dx
-- angle: '[Variable]'
-- angle: '[Variable]'
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002
+- *id002

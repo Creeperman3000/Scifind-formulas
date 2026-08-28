@@ -1,16 +1,15 @@
 name: Limit of exponential difference
 id: limit_exponential_minus_one
 topic: limits
-difficulty: 3
-equation: lim dimensionless drop ((exp dimensionless sub 1) div dimensionless) eq
-  1
+difficulty: 7
+equation: lim dimensionless dimensionless (((exp dimensionless) sub 1) frac dimensionless) eq 1
 symbol_overrides:
-- dimensionless: x→0
-- dimensionless: ''
+- dimensionless: x
+- dimensionless: '0'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
-- dimensionless: As x approaches 0
-- dimensionless: ''
-- dimensionless: Variable
-- dimensionless: Variable
+- dimensionless: '''[Variable]'''
+- dimensionless: Zero
+- dimensionless: '''[Variable]'''
+- dimensionless: '''[Variable]'''

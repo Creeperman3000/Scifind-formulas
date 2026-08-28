@@ -1,12 +1,12 @@
 name: Mechanical advantage of a pulley system
 id: pulley_mechanical_advantage
 topic: forces
-difficulty: 2
-equation: dimensionless eq dimensionless div dimensionless
+difficulty: 4
+equation: dimensionless eq dimensionless frac dimensionless
 symbol_overrides:
 - dimensionless: MA
-- dimensionless: F_load
-- dimensionless: F_effort
+- dimensionless: F_{load}
+- dimensionless: F_{effort}
 name_overrides:
 - dimensionless: Mechanical advantage
 - dimensionless: Load force

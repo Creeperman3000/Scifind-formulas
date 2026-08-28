@@ -1,8 +1,9 @@
 name: Enthalpy change from heat at constant pressure
 id: enthalpy_from_heat
 topic: thermochemistry
-difficulty: 2
-equation: energy eq energy div amount
+difficulty: 6
+description: "Valid for a constant-pressure process; ΔH = Q_p."
+equation: energy eq energy frac amount
 symbol_overrides:
 - energy: ΔH
 - energy: q

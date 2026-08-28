@@ -1,8 +1,8 @@
 name: Irradiance from power and area
 id: irradiance_formula
 topic: electromagnetic_waves
-difficulty: 2
-equation: irradiance eq power div area
+difficulty: 6
+equation: irradiance eq power frac area
 symbol_overrides:
 - irradiance: ''
 - power: ''

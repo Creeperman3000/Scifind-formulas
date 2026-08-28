@@ -1,8 +1,8 @@
 name: Moment of inertia of a thin spherical shell
 id: moi_spherical_shell
 topic: moment_of_inertia
-difficulty: 2
-equation: moment_of_inertia eq 2 mul (mass) mul (length pow 2) div 3
+difficulty: 7
+equation: moment_of_inertia eq 2 mul (mass) mul (length pow 2) frac 3
 symbol_overrides:
 - moment_of_inertia: I
 - mass: m

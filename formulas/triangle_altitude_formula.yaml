@@ -1,8 +1,8 @@
 name: Altitude of a triangle
 id: triangle_altitude_formula
 topic: triangles
-difficulty: 1
-equation: length eq (area mul 2) div length
+difficulty: 4
+equation: length eq (area mul 2) frac length
 symbol_overrides:
 - length: h
 - area: ''

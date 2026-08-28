@@ -1,7 +1,7 @@
 name: Optical power of combined thin lenses
 id: optical_power_combination
 topic: lenses
-difficulty: 2
+difficulty: 7
 equation: wavenumber eq wavenumber add wavenumber
 symbol_overrides:
 - wavenumber: P

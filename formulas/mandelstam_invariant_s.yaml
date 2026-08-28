@@ -1,7 +1,7 @@
 name: Mandelstam invariant s
 id: mandelstam_invariant_s
 topic: particle_physics
-difficulty: 5
+difficulty: 10
 equation: energy pow 2 eq energy energy add pow 2 (momentum) momentum add speed_of_light
   mul pow 2 sub
 symbol_overrides:

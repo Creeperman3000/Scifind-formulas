@@ -1,8 +1,8 @@
 name: Moles from gas volume at STP
 id: moles_from_gas_stp
 topic: mole_concept
-difficulty: 1
-equation: amount eq volume div dimensionless
+difficulty: 5
+equation: amount eq volume frac dimensionless
 symbol_overrides:
 - amount: ''
 - volume: ''

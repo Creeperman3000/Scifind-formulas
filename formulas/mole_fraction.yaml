@@ -1,8 +1,8 @@
 name: Mole fraction
 id: mole_fraction
 topic: solutions
-difficulty: 1
-equation: concentration eq amount div amount add amount
+difficulty: 5
+equation: concentration eq amount frac amount add amount
 symbol_overrides:
 - concentration: χ_A
 - amount: n_A

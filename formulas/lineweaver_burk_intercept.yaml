@@ -1,16 +1,18 @@
 name: Lineweaver-Burk y-intercept
 id: lineweaver_burk_intercept
 topic: biochemistry
-difficulty: 3
-equation: catalytic_activity pow (drop 1 sub) eq catalytic_activity pow (drop 1 sub)
-  add catalytic_activity pow (drop 1 sub) mul concentration pow (drop 1 sub)
+difficulty: 8
+equation: (frac 1 dimensionless) eq (frac 1 dimensionless) add ((frac dimensionless dimensionless) mul
+  (frac 1 dimensionless))
 symbol_overrides:
-- catalytic_activity: 1/v
-- catalytic_activity: K_m/V_max
-- catalytic_activity: 1/V_max
-- concentration: 1/[S]
+- dimensionless: v
+- dimensionless: V_{max}
+- dimensionless: K_m
+- dimensionless: V_{max}
+- dimensionless: '[S]'
 name_overrides:
-- catalytic_activity: Reciprocal [velocity]
-- catalytic_activity: Slope term
-- catalytic_activity: Intercept
-- concentration: Reciprocal [substrate]
+- dimensionless: Reaction rate v
+- dimensionless: Maximum rate
+- dimensionless: Michaelis constant
+- dimensionless: Maximum rate
+- dimensionless: Substrate concentration

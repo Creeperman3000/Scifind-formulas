@@ -1,13 +1,13 @@
 name: Catalytic efficiency
 id: catalytic_efficiency
 topic: biochemistry
-difficulty: 3
-equation: frequency eq catalytic_activity div concentration
+difficulty: 8
+equation: dimensionless eq (catalytic_activity frac concentration)
 symbol_overrides:
-- frequency: k_cat/K_m
-- catalytic_activity: V_max
-- concentration: K_m
+- dimensionless: \eta
+- catalytic_activity: k_{cat}
+- concentration: K_M
 name_overrides:
-- frequency: ''
-- catalytic_activity: ''
-- concentration: ''
+- dimensionless: Catalytic efficiency
+- catalytic_activity: Turnover number k_cat
+- concentration: Michaelis constant K_M

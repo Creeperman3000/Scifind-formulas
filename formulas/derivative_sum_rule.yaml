@@ -1,7 +1,7 @@
 name: Derivative sum rule
 id: derivative_sum_rule
 topic: derivatives
-difficulty: 1
+difficulty: 5
 equation: rmd (dimensionless add dimensionless) eq rmd dimensionless add rmd dimensionless
 symbol_overrides:
 - dimensionless: f

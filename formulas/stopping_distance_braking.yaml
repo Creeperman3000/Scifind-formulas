@@ -1,9 +1,10 @@
 name: Stopping distance from friction
 id: stopping_distance_braking
 topic: friction
-difficulty: 2
-equation: length eq (velocity pow 2) div coefficient_of_friction mul (standard_gravity)
-  mul 2
+difficulty: 6
+description: Valid for constant kinetic friction and zero final velocity.
+equation: length eq (velocity pow 2) frac (2 mul coefficient_of_friction mul (standard_gravity
+  ))
 symbol_overrides:
 - length: d
 - velocity: ''

@@ -1,13 +1,13 @@
 name: Thin film destructive (zero order)
 id: thin_film_destructive_zero_order
 topic: interference
-difficulty: 4
-equation: dimensionless mul length eq length div 2
+difficulty: 8
+equation: ((2 mul dimensionless) mul length) eq (length frac 2)
 symbol_overrides:
-- dimensionless: 2n
+- dimensionless: n
 - length: t
-- length: λ/2
+- length: \lambda
 name_overrides:
-- dimensionless: Optical path difference 2nt
+- dimensionless: Refractive index n
 - length: Film thickness
-- length: Half wavelength
+- length: Wavelength in film

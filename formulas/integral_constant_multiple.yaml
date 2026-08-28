@@ -1,13 +1,20 @@
 name: Integral constant multiple rule
 id: integral_constant_multiple
 topic: integrals
-difficulty: 1
-equation: dimensionless eq dimensionless mul dimensionless
+difficulty: 6
+equation: int drop drop (dimensionless mul dimensionless mul rmd angle) eq dimensionless mul int drop
+  drop (dimensionless mul rmd angle)
 symbol_overrides:
-- dimensionless: ∫cf(x) dx
 - dimensionless: c
-- dimensionless: ∫f(x) dx
+- dimensionless: f(x)
+- angle: x
+- dimensionless: c
+- dimensionless: f(x)
+- angle: x
 name_overrides:
-- dimensionless: Integral of c·f(x)
 - dimensionless: Constant factor
-- dimensionless: Integral of f(x)
+- dimensionless: Function f(x)
+- angle: '[Variable]'
+- dimensionless: Constant factor
+- dimensionless: Function f(x)
+- angle: '[Variable]'

@@ -1,7 +1,7 @@
 name: Triangle angle sum
 id: triangle_angle_sum
 topic: triangles
-difficulty: 1
+difficulty: 2
 equation: angle eq pi sub angle add angle
 symbol_overrides:
 - angle: C

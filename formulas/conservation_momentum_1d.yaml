@@ -1,7 +1,7 @@
 name: Conservation of momentum in one dimension
 id: conservation_momentum_1d
 topic: linear_momentum
-difficulty: 2
+difficulty: 5
 equation: mass mul (velocity) add mass mul velocity eq mass mul (velocity) add mass
   mul velocity
 symbol_overrides:

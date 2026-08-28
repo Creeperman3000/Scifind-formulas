@@ -1,13 +1,13 @@
 name: Mass of product from limiting reactant
 id: chemical_reaction_yield_mass_product
 topic: chemical_reactions
-difficulty: 2
-equation: mass eq mass div (molar_mass) mul molar_mass
+difficulty: 6
+equation: mass eq mass frac (molar_mass) mul molar_mass
 symbol_overrides:
-- mass: m_product
-- mass: m_limiting
-- molar_mass: M_limiting
-- molar_mass: M_product
+- mass: m_{product}
+- mass: m_{limiting}
+- molar_mass: M_{limiting}
+- molar_mass: M_{product}
 name_overrides:
 - mass: Mass of [product]
 - mass: Mass of limiting [reactant]

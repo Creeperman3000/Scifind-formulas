@@ -1,8 +1,8 @@
 name: Heat conduction through a composite wall
 id: heat_conduction_composite_wall
 topic: heat_transfer
-difficulty: 3
-equation: energy div time eq (temperature sub temperature ) mul (area) div dimensionless
+difficulty: 8
+equation: energy frac time eq (temperature sub temperature ) mul (area) frac dimensionless
   add dimensionless
 symbol_overrides:
 - energy: ''

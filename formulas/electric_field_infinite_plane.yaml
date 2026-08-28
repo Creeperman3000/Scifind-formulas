@@ -1,9 +1,9 @@
 name: Electric field of an infinite plane
 id: electric_field_infinite_plane
 topic: electric_fields
-difficulty: 3
-equation: electric_field_strength eq surface_charge_density div vacuum_permittivity
-  mul 2
+difficulty: 8
+equation: electric_field_strength eq surface_charge_density frac (2 mul vacuum_permittivity
+  )
 symbol_overrides:
 - electric_field_strength: ''
 - surface_charge_density: σ

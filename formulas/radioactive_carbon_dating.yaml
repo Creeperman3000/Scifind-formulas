@@ -1,11 +1,11 @@
 name: Radiocarbon dating formula
 id: radioactive_carbon_dating
 topic: nuclear_physics
-difficulty: 3
-equation: time eq time mul log euler_e (dimensionless div dimensionless) div log euler_e
+difficulty: 8
+equation: time eq time mul log euler_e (dimensionless frac dimensionless) frac log euler_e
   2
 symbol_overrides:
-- time: t_½
+- time: t_{1/2}
 - time: ''
 - dimensionless: N_0
 - dimensionless: N

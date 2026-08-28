@@ -1,12 +1,12 @@
 name: Voltage divider
 id: voltage_divider
 topic: circuits
-difficulty: 2
-equation: electric_potential eq electric_potential mul (resistance) div resistance
+difficulty: 5
+equation: electric_potential eq electric_potential mul (resistance) frac resistance
   add resistance
 symbol_overrides:
-- electric_potential: V_out
-- electric_potential: V_in
+- electric_potential: V_{out}
+- electric_potential: V_{in}
 - resistance: R_2
 - resistance: R_1
 - resistance: R_2

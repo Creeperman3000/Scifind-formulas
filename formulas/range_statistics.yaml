@@ -1,12 +1,12 @@
 name: Range of a data set
 id: range_statistics
 topic: statistics
-difficulty: 1
+difficulty: 2
 equation: dimensionless eq dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: R
-- dimensionless: x_max
-- dimensionless: x_min
+- dimensionless: x_{max}
+- dimensionless: x_{min}
 name_overrides:
 - dimensionless: '[Range]'
 - dimensionless: Maximum

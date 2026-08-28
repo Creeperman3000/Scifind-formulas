@@ -1,13 +1,22 @@
 name: Integral sum rule
 id: integral_sum_rule
 topic: integrals
-difficulty: 1
-equation: dimensionless eq dimensionless add dimensionless
+difficulty: 6
+equation: int drop drop (((dimensionless add dimensionless) mul rmd angle)) eq int drop drop (dimensionless
+  mul rmd angle) add int drop drop (dimensionless mul rmd angle)
 symbol_overrides:
-- dimensionless: ∫[f(x)+g(x)] dx
-- dimensionless: ∫f(x) dx
-- dimensionless: ∫g(x) dx
+- dimensionless: f(x)
+- dimensionless: g(x)
+- angle: x
+- dimensionless: f(x)
+- angle: x
+- dimensionless: g(x)
+- angle: x
 name_overrides:
-- dimensionless: Integral of sum
-- dimensionless: Integral of f(x)
-- dimensionless: Integral of g(x)
+- dimensionless: Function f(x)
+- dimensionless: Function g(x)
+- angle: '[Variable]'
+- dimensionless: Function f(x)
+- angle: '[Variable]'
+- dimensionless: Function g(x)
+- angle: '[Variable]'

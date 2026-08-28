@@ -1,10 +1,10 @@
 name: Born-Landé lattice energy equation
 id: lattice_energy_born_lande
 topic: inorganic_chemistry
-difficulty: 5
+difficulty: 10
 equation: energy eq coulomb_constant mul (avogadro_number) mul (dimensionless) mul
-  (charge) mul (charge) div (vacuum_permittivity mul length ) mul dimensionless sub
-  dimensionless div dimensionless
+  (charge) mul (charge) frac (vacuum_permittivity mul length ) mul dimensionless sub
+  dimensionless frac dimensionless
 symbol_overrides:
 - energy: U
 - dimensionless: M

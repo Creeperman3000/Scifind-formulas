@@ -1,13 +1,18 @@
 name: Integral of csc² x
 id: integral_csc_squared
 topic: integrals
-difficulty: 2
-equation: dimensionless eq drop (cos angle div sin angle) sub
+difficulty: 7
+equation: int drop drop ((((frac 1 (sin angle)) pow 2) mul (rmd angle))) eq drop ((cos angle) frac (sin
+  angle)) sub
 symbol_overrides:
-- dimensionless: ∫csc²x dx
-- angle: x
-- angle: x
+- &id001
+  angle: x
+- *id001
+- *id001
+- *id001
 name_overrides:
-- dimensionless: ∫ csc² x dx
-- angle: '[Variable]'
-- angle: '[Variable]'
+- &id002
+  angle: '[Variable]'
+- *id002
+- *id002
+- *id002

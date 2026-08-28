@@ -1,7 +1,7 @@
 name: Angle difference identity for sine
 id: angle_diff_sine
 topic: trigonometric_identities
-difficulty: 2
+difficulty: 6
 equation: sin (angle sub angle ) eq sin angle mul (cos angle ) sub cos angle mul sin
   angle
 symbol_overrides:

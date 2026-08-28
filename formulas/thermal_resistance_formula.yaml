@@ -1,8 +1,8 @@
 name: Thermal resistance (R-value)
 id: thermal_resistance_formula
 topic: heat_transfer
-difficulty: 2
-equation: dimensionless eq length div thermal_conductivity
+difficulty: 7
+equation: dimensionless eq length frac thermal_conductivity
 symbol_overrides:
 - dimensionless: R
 - length: L

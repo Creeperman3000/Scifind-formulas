@@ -1,22 +1,22 @@
 name: Binomial probability mass function
 id: binomial_probability
 topic: probability
-difficulty: 3
-equation: dimensionless eq dimensionless mul dimensionless mul (dimensionless pow
-  dimensionless sub dimensionless ) pow dimensionless
+difficulty: 7
+equation: dimensionless eq dimensionless mul ((dimensionless pow dimensionless)) mul (((1 sub dimensionless))
+  pow (dimensionless sub dimensionless))
 symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: C(n,k)
 - dimensionless: p
 - dimensionless: k
-- dimensionless: '1'
 - dimensionless: p
-- dimensionless: n-k
+- dimensionless: n
+- dimensionless: k
 name_overrides:
 - dimensionless: Probability
-- dimensionless: Combinations
-- dimensionless: Success [probability]
-- dimensionless: Number of successes
-- dimensionless: ''
-- dimensionless: ''
-- dimensionless: Number of failures
+- dimensionless: Combinations C(n,k)
+- dimensionless: Success probability p
+- dimensionless: Number of successes k
+- dimensionless: Failure probability 1-p
+- dimensionless: Trials n
+- dimensionless: Successes k

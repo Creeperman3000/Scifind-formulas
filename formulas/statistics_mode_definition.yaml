@@ -1,7 +1,7 @@
 name: Mode of a dataset
 id: statistics_mode_definition
 topic: statistics
-difficulty: 1
+difficulty: 2
 equation: dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: Mode

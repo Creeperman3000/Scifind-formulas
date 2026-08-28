@@ -1,13 +1,18 @@
 name: Integral of 1/√(a²-x²)
 id: integral_reciprocal_root_quadratic
 topic: integrals
-difficulty: 3
-equation: dimensionless eq asin (dimensionless div dimensionless )
+difficulty: 8
+equation: int drop drop (((rmd angle) frac (sqrt ((dimensionless pow 2) sub (angle pow 2)) 2))) eq asin
+  (angle frac dimensionless)
 symbol_overrides:
-- dimensionless: ∫dx/√(a²-x²)
-- dimensionless: x
+- angle: x
+- dimensionless: a
+- angle: x
+- angle: x
 - dimensionless: a
 name_overrides:
-- dimensionless: Integral of reciprocal root quadratic
-- dimensionless: '[Variable]'
-- dimensionless: '[Constant]'
+- angle: '[Variable]'
+- dimensionless: Constant a
+- angle: '[Variable]'
+- angle: '[Variable]'
+- dimensionless: Constant a

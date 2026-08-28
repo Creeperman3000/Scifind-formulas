@@ -1,9 +1,9 @@
 name: 'Sum-to-product: sin A + sin B'
 id: sum_to_product_sine_plus
 topic: trigonometric_identities
-difficulty: 3
-equation: sin angle add sin angle eq dimensionless mul (cos ((angle add angle ) div
-  2) mul sin ((angle sub angle ) div 2) )
+difficulty: 7
+equation: sin angle add sin angle eq dimensionless mul (cos ((angle add angle ) frac
+  2) mul sin ((angle sub angle ) frac 2) )
 symbol_overrides:
 - angle: A
 - angle: B

@@ -1,11 +1,12 @@
 name: Dot product of two 3D vectors
 id: dot_product_3d
 topic: linear_algebra
-difficulty: 1
-equation: dimensionless eq dimensionless mul (dimensionless) add (dimensionless) mul
-  (dimensionless) add dimensionless mul dimensionless
+difficulty: 6
+equation: (dimensionless cdot dimensionless) eq (dimensionless mul dimensionless) add (dimensionless mul
+  dimensionless) add (dimensionless mul dimensionless)
 symbol_overrides:
-- dimensionless: a·b
+- dimensionless: \vec{a}
+- dimensionless: \vec{b}
 - dimensionless: a_x
 - dimensionless: b_x
 - dimensionless: a_y
@@ -13,7 +14,8 @@ symbol_overrides:
 - dimensionless: a_z
 - dimensionless: b_z
 name_overrides:
-- dimensionless: Dot product
+- dimensionless: Vector a
+- dimensionless: Vector b
 - dimensionless: x-component of a
 - dimensionless: x-component of b
 - dimensionless: y-component of a

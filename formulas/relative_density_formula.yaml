@@ -1,12 +1,12 @@
 name: Relative density (specific gravity)
 id: relative_density_formula
 topic: buoyancy
-difficulty: 1
-equation: density eq density div density
+difficulty: 4
+equation: density eq density frac density
 symbol_overrides:
-- density: ρ_rel
-- density: ρ_substance
-- density: ρ_water
+- density: ρ_{rel}
+- density: ρ_{substance}
+- density: ρ_{water}
 name_overrides:
 - density: Relative [density]
 - density: Substance [density]

@@ -1,8 +1,8 @@
 name: Coulomb force in vacuum
 id: coulomb_force_vacuum
 topic: electrostatics
-difficulty: 2
-equation: force eq charge mul (charge) div vacuum_permittivity mul (pi mul 4) mul
+difficulty: 6
+equation: force eq charge mul (charge) frac vacuum_permittivity mul (pi mul 4) mul
   length pow 2
 symbol_overrides:
 - force: F_e

@@ -1,8 +1,8 @@
 name: Mach number
 id: mach_number
 topic: mechanical_waves
-difficulty: 2
-equation: dimensionless eq velocity div velocity
+difficulty: 6
+equation: dimensionless eq velocity frac velocity
 symbol_overrides:
 - dimensionless: M
 - velocity: c

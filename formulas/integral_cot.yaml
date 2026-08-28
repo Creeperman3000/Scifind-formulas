@@ -1,11 +1,15 @@
 name: Integral of cot x
 id: integral_cot
 topic: integrals
-difficulty: 3
-equation: dimensionless eq log euler_e sin angle
+difficulty: 7
+equation: int drop drop ((cos angle frac sin angle) mul rmd angle) eq log euler_e (sin angle)
 symbol_overrides:
-- dimensionless: ∫cot x dx
+- angle: x
+- angle: x
+- angle: x
 - angle: x
 name_overrides:
-- dimensionless: Integral of cotangent
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'
 - angle: '[Variable]'

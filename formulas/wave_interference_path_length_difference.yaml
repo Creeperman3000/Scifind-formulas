@@ -1,7 +1,7 @@
 name: Path length difference for two sources
 id: wave_interference_path_length_difference
 topic: wave_interference
-difficulty: 2
+difficulty: 7
 equation: length eq length sub length
 symbol_overrides:
 - length: Δx

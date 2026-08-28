@@ -1,7 +1,7 @@
 name: Electric potential energy in uniform field
 id: potential_energy_electric_field
 topic: potential_energy
-difficulty: 1
+difficulty: 6
 equation: energy eq charge mul (electric_field_strength) mul length
 symbol_overrides:
 - energy: ΔU

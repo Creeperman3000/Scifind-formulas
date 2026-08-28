@@ -1,8 +1,8 @@
 name: Faraday-Lenz law
 id: faraday_lenz_law
 topic: electromagnetic_induction
-difficulty: 3
-equation: electric_potential eq drop rmd magnetic_flux sub div rmd time
+difficulty: 7
+equation: electric_potential eq drop rmd magnetic_flux sub frac rmd time
 symbol_overrides:
 - electric_potential: EMF
 name_overrides:

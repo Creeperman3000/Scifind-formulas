@@ -1,11 +1,11 @@
 name: Escape velocity from mass and radius
 id: escape_velocity_from_mass_radius
 topic: escape_velocity
-difficulty: 2
-equation: velocity eq sqrt ((gravitational_constant mul 2) mul (mass) div length )
+difficulty: 6
+equation: velocity eq sqrt ((gravitational_constant mul 2) mul (mass) frac length )
   2
 symbol_overrides:
-- velocity: v_esc
+- velocity: v_{esc}
 - mass: M
 - length: R
 name_overrides:

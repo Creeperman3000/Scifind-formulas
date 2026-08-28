@@ -1,7 +1,7 @@
 name: Weight force
 id: weight_force
 topic: forces
-difficulty: 1
+difficulty: 3
 equation: force eq mass mul standard_gravity
 symbol_overrides:
 - force: F_g

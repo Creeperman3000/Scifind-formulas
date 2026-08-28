@@ -1,15 +1,20 @@
 name: Rational exponent rule
 id: rational_exponent_rule
 topic: exponents
-difficulty: 2
-equation: dimensionless eq dimensionless pow dimensionless div dimensionless
+difficulty: 4
+equation: (dimensionless pow (dimensionless frac dimensionless)) eq ((sqrt dimensionless dimensionless)
+  pow dimensionless)
 symbol_overrides:
-- dimensionless: a^(m/n)
 - dimensionless: a
 - dimensionless: m
 - dimensionless: n
+- dimensionless: a
+- dimensionless: n
+- dimensionless: m
 name_overrides:
-- dimensionless: Rational exponent result
-- dimensionless: Base
-- dimensionless: Numerator
-- dimensionless: Denominator
+- dimensionless: Base a
+- dimensionless: Power m
+- dimensionless: Root n
+- dimensionless: Base a
+- dimensionless: Root index n
+- dimensionless: Power m

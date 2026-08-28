@@ -1,10 +1,10 @@
 name: Work done against friction
 id: work_against_friction
 topic: work
-difficulty: 2
+difficulty: 5
 equation: energy eq force mul length
 symbol_overrides:
-- energy: W_fric
+- energy: W_{fric}
 - force: f_k
 - length: d
 name_overrides:

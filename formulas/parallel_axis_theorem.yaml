@@ -1,10 +1,10 @@
 name: Parallel axis theorem
 id: parallel_axis_theorem
 topic: moment_of_inertia
-difficulty: 3
+difficulty: 8
 equation: moment_of_inertia eq moment_of_inertia add mass mul length pow 2
 symbol_overrides:
-- moment_of_inertia: I_cm
+- moment_of_inertia: I_{cm}
 - moment_of_inertia: ''
 - mass: ''
 - length: d

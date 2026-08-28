@@ -1,7 +1,7 @@
 name: Gibbs free energy
 id: gibbs_free_energy
 topic: thermochemistry
-difficulty: 3
+difficulty: 7
 equation: energy eq energy sub temperature mul entropy
 symbol_overrides:
 - energy: ΔG

@@ -1,15 +1,18 @@
 name: Van 't Hoff equation
 id: equilibrium_temperature_dependence
 topic: chemical_equilibrium
-difficulty: 4
-equation: dimensionless eq energy div (gas_constant) mul dimensionless sub dimensionless
+difficulty: 8
+equation: log euler_e (dimensionless frac dimensionless) eq ((energy frac gas_constant) mul ((1 frac dimensionless)
+  sub (1 frac dimensionless)))
 symbol_overrides:
-- dimensionless: ln(K₂/K₁)
-- energy: ΔH°
-- dimensionless: 1/T₁
-- dimensionless: 1/T₂
+- dimensionless: K_2
+- dimensionless: K_1
+- energy: \Delta H^\circ
+- dimensionless: T_1
+- dimensionless: T_2
 name_overrides:
-- dimensionless: Log ratio of equilibrium constants
-- energy: Standard [enthalpy] change
-- dimensionless: Reciprocal of initial temperature
-- dimensionless: Reciprocal of final temperature
+- dimensionless: Equilibrium constant at T₂
+- dimensionless: Equilibrium constant at T₁
+- energy: Standard enthalpy change
+- dimensionless: Initial temperature T₁
+- dimensionless: Final temperature T₂

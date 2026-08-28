@@ -1,8 +1,8 @@
 name: Thermal efficiency of a heat engine
 id: heat_engine_thermal_efficiency
 topic: heat_engines
-difficulty: 2
-equation: dimensionless eq (energy sub energy ) div energy
+difficulty: 6
+equation: dimensionless eq (energy sub energy ) frac energy
 symbol_overrides:
 - dimensionless: η
 - energy: Q_h

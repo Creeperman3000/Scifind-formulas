@@ -1,7 +1,7 @@
 name: Variance of a binomial distribution
 id: variance_binomial
 topic: probability
-difficulty: 2
+difficulty: 7
 equation: dimensionless eq dimensionless mul dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
 - dimensionless: Var[X]

@@ -1,10 +1,11 @@
 name: Percent ionization from Ka and concentration
 id: acid_dissociation_percent_ionization
 topic: acids_and_bases
-difficulty: 3
-equation: dimensionless eq dimensionless div (concentration) mul 100
+difficulty: 7
+description: Percent ionization of a weak acid; α ≈ √(K_a / c) for small α.
+equation: dimensionless eq 100 mul (dimensionless frac concentration )
 symbol_overrides:
-- dimensionless: '% ionization'
+- dimensionless: \% ionization
 - dimensionless: '[H⁺]'
 - concentration: '[HA]_0'
 name_overrides:

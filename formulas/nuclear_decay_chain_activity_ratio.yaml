@@ -1,13 +1,13 @@
 name: Activity ratio in secular equilibrium
 id: nuclear_decay_chain_activity_ratio
 topic: nuclear_physics
-difficulty: 3
-equation: activity div activity eq time div time
+difficulty: 9
+equation: activity frac activity eq time frac time
 symbol_overrides:
 - activity: A_2
 - activity: A_1
-- time: t_½_2
-- time: t_½_1
+- time: t_{1/2,2}
+- time: t_{1/2,1}
 name_overrides:
 - activity: Daughter activity
 - activity: Parent activity

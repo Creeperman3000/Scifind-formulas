@@ -1,17 +1,18 @@
 name: Logistic growth differential equation
 id: logistic_growth_diff_eq
 topic: differential_equations
-difficulty: 4
-equation: dimensionless eq (amount mul frequency) mul 1 sub amount div amount
+difficulty: 9
+equation: frac (rmd amount) (rmd time) eq (frequency mul amount) mul (1 sub (amount frac dimensionless))
 symbol_overrides:
-- dimensionless: dN/dt
 - amount: N
+- time: t
 - frequency: r
 - amount: N
-- amount: K
+- dimensionless: K
+- amount: N
 name_overrides:
-- dimensionless: Rate of change of population
-- amount: Population
-- frequency: Growth rate
-- amount: Population
-- amount: Carrying capacity
+- amount: Population N
+- time: Time
+- frequency: Intrinsic growth rate
+- amount: Population N
+- dimensionless: Carrying capacity K

@@ -1,11 +1,13 @@
 name: Integral of Exponential
 id: integral_exponential
 topic: integrals
-difficulty: 2
-equation: dimensionless eq exp dimensionless
+difficulty: 7
+equation: int drop drop (exp angle mul rmd angle) eq exp angle
 symbol_overrides:
-- dimensionless: ∫eˣ dx
-- dimensionless: x
+- angle: x
+- angle: x
+- angle: x
 name_overrides:
-- dimensionless: '[Integral] of exp(x)'
-- dimensionless: exp(x)
+- angle: '[Variable]'
+- angle: '[Variable]'
+- angle: '[Variable]'

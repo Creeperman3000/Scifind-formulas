@@ -1,8 +1,8 @@
 name: Mean lifetime from decay constant
 id: particle_decay_constant_lifetime
 topic: particle_physics
-difficulty: 1
-equation: time eq frequency div 1
+difficulty: 7
+equation: time eq 1 frac frequency
 symbol_overrides:
 - time: τ
 - frequency: λ
