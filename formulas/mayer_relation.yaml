@@ -3,15 +3,15 @@ id: mayer_relation
 topic: ideal_gases
 difficulty: 8
 links:
-  - https://en.wikipedia.org/wiki/Mayer%27s_relation
-  - https://www.britannica.com/science/Mayers-relation
-  - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/09%3A_Ideal_Gases/9.07%3A_Specific_Heats_of_an_Ideal_Gas
-  - https://openstax.org/books/university-physics-volume-2/pages/3-5-heat-capacities-of-an-ideal-gas
+- https://en.wikipedia.org/wiki/Mayer%27s_relation
+- https://www.britannica.com/science/Mayers-relation
+- https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/09%3A_Ideal_Gases/9.07%3A_Specific_Heats_of_an_Ideal_Gas
+- https://openstax.org/books/university-physics-volume-2/pages/3-5-heat-capacities-of-an-ideal-gas
 description: "Mayer's relation states that for an ideal gas the difference between the molar heat capacity at constant pressure and the molar heat capacity at constant volume is exactly the gas constant. It is a direct consequence of the first law of thermodynamics applied to a constant-pressure process and links the two principal specific heats of an ideal gas."
-equation: molar_energy eq molar_energy add gas_constant
+equation: molar_heat_capacity eq molar_heat_capacity add gas_constant
 symbol_overrides:
-- molar_energy: C_p
-- molar_energy: C_V
+- molar_heat_capacity: C_p
+- molar_heat_capacity: C_V
 name_overrides:
-- molar_energy: Molar heat capacity at constant [pressure]
-- molar_energy: Molar heat capacity at constant [volume]
+- molar_heat_capacity: Molar heat capacity at constant [pressure]
+- molar_heat_capacity: Molar heat capacity at constant [volume]

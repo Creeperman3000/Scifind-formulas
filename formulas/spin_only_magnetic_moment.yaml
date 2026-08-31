@@ -9,15 +9,15 @@ links:
 - https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)/10%3A_Coordination_Chemistry_-_Bonding/10.05%3A_Crystal_Field_Theory
 - https://byjus.com/chemistry/magnetic-moment/
 description: The spin-only formula estimates the magnetic moment of a transition-metal
-  complex (in Bohr magnetons) by neglecting the orbital contribution and considering
+  complex (inBohrmagnetons) by neglecting the orbital contribution and considering
   only the spin angular momentum of unpaired electrons. It is a good first approximation
   for high-spin complexes of first-row transition metals.
-equation: torque eq sqrt (dimensionless mul dimensionless add 2 ) 2
+equation: magnetic_moment eq sqrt (dimensionless mul (dimensionless add 2)) 2
 symbol_overrides:
-- torque: μ
+- magnetic_moment: μ
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- torque: '[torque] (magnetic moment, BM)'
+- magnetic_moment: '[magnetic_moment] (magnetic moment, BM)'
 - dimensionless: Number of unpaired electrons
 - dimensionless: Number of unpaired electrons

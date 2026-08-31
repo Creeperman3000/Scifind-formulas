@@ -12,12 +12,12 @@ description: The polarization orientation angle specifies the tilt of the electr
   field's oscillation direction relative to a reference axis in the plane perpendicular
   to propagation. For a linearly polarized wave written as a superposition of orthogonal
   components, the tilt is set by the ratio of the component amplitudes.
-equation: angle eq atan frac dimensionless dimensionless
+equation: angle eq atan (electric_field_strength frac electric_field_strength)
 symbol_overrides:
 - angle: \psi
-- dimensionless: E_y
-- dimensionless: E_x
+- electric_field_strength: E_y
+- electric_field_strength: E_x
 name_overrides:
 - angle: Polarization orientation [angle]
-- dimensionless: Electric field y-component
-- dimensionless: Electric field x-component
+- electric_field_strength: Electric field y-component
+- electric_field_strength: Electric field x-component

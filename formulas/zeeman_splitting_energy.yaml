@@ -3,21 +3,21 @@ id: zeeman_splitting_energy
 topic: atomic_physics
 difficulty: 9
 links:
-  - https://en.wikipedia.org/wiki/Zeeman_effect
-  - https://en.wikipedia.org/wiki/Land%C3%A9_g-factor
-  - https://en.wikipedia.org/wiki/Bohr_magneton
-  - https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(McIntyre)/04%3A_Foundations_of_Quantum_Mechanics/4.09%3A_The_Zeeman_Effect
-  - https://www.britannica.com/science/Zeeman-effect
+- https://en.wikipedia.org/wiki/Zeeman_effect
+- https://en.wikipedia.org/wiki/Land%C3%A9_g-factor
+- https://en.wikipedia.org/wiki/Bohr_magneton
+- https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(McIntyre)/04%3A_Foundations_of_Quantum_Mechanics/4.09%3A_The_Zeeman_Effect
+- https://www.britannica.com/science/Zeeman-effect
 description: "In the weak-field (anomalous) Zeeman effect, an external magnetic field shifts atomic energy levels by an amount proportional to the Bohr magneton, the magnetic field strength, the Landé g-factor, and the magnetic quantum number for the total electronic angular momentum. This splitting of degenerate atomic states into multiple sublevels is the basis for techniques such as electron spin resonance and for measuring stellar and laboratory magnetic fields."
-equation: energy eq torque mul (magnetic_flux_density) mul (dimensionless) mul dimensionless
+equation: energy eq magnetic_moment mul magnetic_flux_density mul dimensionless mul dimensionless
 symbol_overrides:
 - energy: ΔE
-- torque: μ_B
+- magnetic_moment: μ_B
 - dimensionless: m_j
 - dimensionless: g_J
 name_overrides:
 - energy: Zeeman splitting
-- torque: Bohr magneton
+- magnetic_moment: Bohr magneton
 - magnetic_flux_density: Magnetic field
 - dimensionless: Magnetic quantum number
 - dimensionless: Landé g-factor

@@ -3,16 +3,16 @@ id: molar_conductivity
 topic: electrochemistry
 difficulty: 7
 links:
-  - https://en.wikipedia.org/wiki/Molar_conductivity
-  - https://www.britannica.com/science/molar-conductivity
-  - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Conductivity
-  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Phase_Equilibria/Colligative_Properties/Determination_of_Molar_Mass
-  - https://www.khanacademy.org/science/chemistry/oxidation-reduction
-description: "Molar conductivity is the conductivity of an electrolyte solution divided by its molar concentration of electrolyte, with SI units of S m² mol⁻¹. It is used to compare the conducting ability of different electrolytes and forms the basis of Kohlrausch's law of independent ionic migration."
-equation: conductance eq conductance frac concentration
+- https://en.wikipedia.org/wiki/Molar_conductivity
+- https://www.britannica.com/science/molar-conductivity
+- https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Conductivity
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Solutions_and_Phase_Equilibria/Colligative_Properties/Determination_of_Molar_Mass
+- https://www.khanacademy.org/science/chemistry/oxidation-reduction
+description: Molar conductivity is the conductivity of an electrolyte solution divided by its molar concentration of electrolyte, with SI units of S m² mol⁻¹. It is used to compare the conducting ability of different electrolytes and forms the basis of Kohlrausch's law of independent ionic migration.
+equation: molar_conductivity eq conductance frac concentration
 symbol_overrides:
-- conductance: Λ_m
+- molar_conductivity: Λ_m
 - conductance: κ
 name_overrides:
-- conductance: Molar conductivity
+- molar_conductivity: Molar conductivity
 - conductance: Specific conductivity

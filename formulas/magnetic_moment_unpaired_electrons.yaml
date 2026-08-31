@@ -12,12 +12,12 @@ description: The spin-only magnetic moment of a transition-metal complex or atom
   only on the number of unpaired electrons, in units of the Bohr magneton. It is used
   to deduce the electron configuration and high-spin vs. low-spin state of a complex
   from a measured magnetic susceptibility.
-equation: ((dimensionless) eq ((dimensionless mul (dimensionless add 2)) sqrt 2))
+equation: magnetic_moment eq sqrt (dimensionless mul (dimensionless add 2)) 2
 symbol_overrides:
-- dimensionless: μ
+- magnetic_moment: μ
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: Magnetic moment (in Bohr magnetons)
+- magnetic_moment: Magnetic moment (in Bohr magnetons)
 - dimensionless: Number of unpaired electrons
 - dimensionless: Number of unpaired electrons

@@ -9,12 +9,12 @@ links:
   - https://en.wikipedia.org/wiki/Ideal_solution
   - https://www.chem.purdue.edu/ outreach/chemcamp/Resources/09_Raoult's_Law.pdf
 description: "Raoult's law states that the partial vapor pressure of each component of an ideal solution is equal to the vapor pressure of the pure component multiplied by its mole fraction. It serves as the defining characteristic of an ideal solution and provides the basis for understanding vapor–liquid equilibrium, distillation, and the colligative lowering of vapor pressure when a nonvolatile solute is dissolved in a solvent."
-equation: pressure eq concentration mul pressure
+equation: pressure eq dimensionless mul pressure
 symbol_overrides:
 - pressure: P
-- concentration: \chi
+- dimensionless: \chi
 - pressure: P^{\circ}
 name_overrides:
 - pressure: Vapor [pressure] of the component
-- concentration: Mole fraction
+- dimensionless: Mole fraction
 - pressure: Vapor [pressure] of the pure component

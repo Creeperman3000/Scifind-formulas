@@ -10,12 +10,12 @@ links:
   - https://www.electronics-tutorials.ws/electromagnetism/hall-effect.html
   - https://www.physics-and-radio-electronics.com/electronic-devices-and-circuits/sensors/hallsensor/halleffectformula.html
 description: "The Hall voltage is the transverse potential difference that develops across a current-carrying conductor or semiconductor placed in a magnetic field perpendicular to the current. It is widely used to measure magnetic field strength and to characterize charge carrier type, density, and mobility in materials."
-equation: electric_potential eq current mul (magnetic_flux_density) frac concentration mul (elementary_charge) mul length
+equation: electric_potential eq current mul magnetic_flux_density frac (number_density mul elementary_charge mul length)
 symbol_overrides:
 - electric_potential: V_H
-- concentration: n
+- number_density: n
 - length: d
 name_overrides:
 - electric_potential: Hall voltage
-- concentration: Carrier [density]
+- number_density: Carrier [number density]
 - length: Thickness

@@ -5,12 +5,10 @@ difficulty: 7
 links:
   - https://en.wikipedia.org/wiki/Radioactive_decay
   - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/31%3A_Radioactivity_and_Nuclear_Physics/31.05%3A_Half-Life_and_Activity
-  - https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/23-nuclear-physics/23-2-radioactive-decay/activity-and-the-decay-constant/
+  - https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/23-nuclear-physics/23-2-radioactive-decay/activity-and-decay-constant/
 description: "The activity of a radioactive sample is its rate of decay, measured in becquerels (decays per second). It is directly proportional to the number of undecayed radioactive nuclei present, with the decay constant as the proportionality factor representing the per-nucleus decay probability per unit time. As nuclei decay, both their number and the sample's activity fall off exponentially together."
-equation: activity eq amount mul amount
+equation: activity eq decay_constant mul amount
 symbol_overrides:
 - amount: N
-- amount: \lambda
 name_overrides:
 - amount: Number of radioactive nuclei
-- amount: Decay constant

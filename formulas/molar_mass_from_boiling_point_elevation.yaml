@@ -3,21 +3,21 @@ id: molar_mass_from_boiling_point_elevation
 topic: molar_mass
 difficulty: 8
 links:
-  - https://en.wikipedia.org/wiki/Boiling-point_elevation
-  - https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/13%3A_Properties_of_Solutions/13.05%3A_Colligative_Properties
-  - https://www.khanacademy.org/science/chemistry/thermodynamics/v/freezing-point-depression-and-boiling-point-elevation
-  - https://www.thoughtco.com/boiling-point-elevation-609301
-  - https://www.chemistryexplained.com/Bo-Ca/Boiling-Point-Elevation.html
-description: "Boiling-point elevation is a colligative property, so a measured rise in boiling point of a solvent (with a known ebullioscopic constant Kb) can be inverted to obtain the molar mass of a dissolved solute. The technique, called ebullioscopy, requires careful temperature measurement to avoid superheating and is used in classical molecular-weight determination."
-equation: molar_mass eq temperature mul (mass) frac temperature mul mass
+- https://en.wikipedia.org/wiki/Boiling-point_elevation
+- https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/13%3A_Properties_of_Solutions/13.05%3A_Colligative_Properties
+- https://www.khanacademy.org/science/chemistry/thermodynamics/v/freezing-point-depression-and-boiling-point-elevation
+- https://www.thoughtco.com/boiling-point-elevation-609301
+- https://www.chemistryexplained.com/Bo-Ca/Boiling-Point-Elevation.html
+description: Boiling-point elevation is a colligative property, so a measured rise in boiling point of a solvent (with a known ebullioscopic constant Kb) can be inverted to obtain the molar mass of a dissolved solute. The technique, called ebullioscopy, requires careful temperature measurement to avoid superheating and is used in classical molecular-weight determination.
+equation: molar_mass eq ebullioscopic_constant mul mass frac (temperature mul mass)
 symbol_overrides:
-- temperature: K_b
+- ebullioscopic_constant: K_b
 - mass: m_{solute}
 - temperature: ΔT_b
 - mass: m_{solvent}
 name_overrides:
 - molar_mass: '[molar_mass]'
-- temperature: Ebullioscopic constant
+- ebullioscopic_constant: Ebullioscopic constant
 - mass: '[mass] of solute'
 - temperature: Boiling point elevation
 - mass: '[mass] of solvent'

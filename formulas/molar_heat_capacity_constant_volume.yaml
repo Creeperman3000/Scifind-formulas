@@ -12,14 +12,14 @@ description: Molar heat capacity at constant volume (isochoric) is the heat requ
   to raise the temperature of one mole of a substance by one kelvin at fixed volume,
   and equals the change in internal energy per mole per kelvin. It is smaller than
   the constant-pressure value because no expansion work is done.
-equation: molar_energy eq energy frac amount frac temperature sub temperature
+equation: molar_heat_capacity eq energy frac (amount mul (temperature sub temperature))
 symbol_overrides:
-- molar_energy: C_v
+- molar_heat_capacity: C_v
 - energy: \Delta U
 - temperature: T_f
 - temperature: T_i
 name_overrides:
-- molar_energy: Molar heat capacity at constant volume
+- molar_heat_capacity: Molar heat capacity at constant volume
 - energy: Change in internal [energy]
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

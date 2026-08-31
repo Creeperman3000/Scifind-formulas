@@ -5,14 +5,14 @@ difficulty: 6
 links:
   - https://en.wikipedia.org/wiki/Electric_dipole_moment
   - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Physical_Properties_of_Matter/Atomic_and_Molecular_Properties/Dipole_Moments
-  - https://www.chemistrylearner.com/dipole-moment.html
+  - https://www.chemistrylearner.com/dipole-moment-formula
 description: "Measures the polarity of a bond or molecule as the product of the magnitude of the separated charge and the distance between the charge centers, with SI units of coulomb-meters (often expressed in debyes). It is used to predict molecular polarity and how molecules align in electric fields; it applies to two equal and opposite charges separated by a fixed distance."
-equation: torque eq charge mul length
+equation: electric_dipole_moment eq charge mul length
 symbol_overrides:
-- torque: μ
-- charge: q
-- length: d
+  - electric_dipole_moment: μ
+  - charge: q
+  - length: d
 name_overrides:
-- torque: Dipole moment
-- charge: Charge
-- length: Separation distance
+  - electric_dipole_moment: Dipole moment
+  - charge: Charge
+  - length: Separation distance

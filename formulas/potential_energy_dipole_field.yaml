@@ -3,20 +3,20 @@ id: potential_energy_dipole_field
 topic: electric_potential
 difficulty: 8
 links:
-  - https://en.wikipedia.org/wiki/Electric_dipole_moment
-  - https://en.wikipedia.org/wiki/Electric_potential_energy
-  - https://en.wikipedia.org/wiki/Energy_and_torque
-  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields
-  - https://www.physics.sjsu.edu/becker/physics51/24%20Dipole%20in%20Field.htm
+- https://en.wikipedia.org/wiki/Electric_dipole_moment
+- https://en.wikipedia.org/wiki/Electric_potential_energy
+- https://en.wikipedia.org/wiki/Energy_and_torque
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields
+- https://www.physics.sjsu.edu/~becker/physics51/24%20Dipole%20in%20Field.htm
 description: "An electric dipole in a uniform external electric field possesses an orientation-dependent potential energy that is minimum when the dipole moment is aligned parallel to the field and maximum when anti-parallel. The interaction is conservative and produces a torque that tends to align the dipole with the field."
-equation: ((energy) eq (drop sub (torque mul (electric_field_strength mul (cos angle)))))
+equation: energy eq drop sub (electric_dipole_moment mul electric_field_strength mul cos angle)
 symbol_overrides:
-  - energy: U
-  - torque: p
-  - electric_field_strength: E
-  - angle: θ
+- energy: U
+- electric_dipole_moment: p
+- electric_field_strength: E
+- angle: θ
 name_overrides:
-  - energy: Potential [energy]
-  - torque: Dipole moment
-  - electric_field_strength: Electric field
-  - angle: Angle
+- energy: Potential [energy]
+- electric_dipole_moment: Dipole moment
+- electric_field_strength: Electric field
+- angle: Angle

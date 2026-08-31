@@ -15,8 +15,8 @@ description: The amount of heat transferred to or from an object equals the prod
   constant over the temperature interval of interest.
 equation: energy eq mass mul specific_heat_capacity mul Delta temperature
 symbol_overrides:
-  energy: Q
-  specific_heat_capacity: c
+  - energy: Q
+  - specific_heat_capacity: c
 name_overrides:
-  energy: Heat transferred
-  specific_heat_capacity: Specific [heat capacity]
+  - energy: Heat transferred
+  - specific_heat_capacity: Specific [heat capacity]

@@ -7,11 +7,11 @@ links:
   - https://openstax.org/books/university-physics-volume-2/pages/16-3-energy-carried-by-electromagnetic-waves
   - https://www.britannica.com/science/Poynting-vector
 description: "The Poynting vector gives the directional energy flux of an electromagnetic field, that is, the power transported per unit area, measured in watts per square meter. Its magnitude equals the product of the electric and magnetic field magnitudes divided by the vacuum permeability, valid when the fields are perpendicular as in a plane wave; its direction is the direction of energy flow."
-equation: power eq electric_field_strength mul (magnetic_field_strength) frac vacuum_permeability
+equation: irradiance eq electric_field_strength mul magnetic_field_strength frac vacuum_permeability
 symbol_overrides:
-- power: S
+- irradiance: S
 - magnetic_field_strength: B
 name_overrides:
-- power: Poynting vector magnitude
+- irradiance: Poynting vector magnitude
 - electric_field_strength: Electric field
 - magnetic_field_strength: Magnetic field

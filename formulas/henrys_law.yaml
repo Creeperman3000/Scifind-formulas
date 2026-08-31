@@ -3,16 +3,16 @@ id: henrys_law
 topic: solutions
 difficulty: 7
 links:
-  - https://en.wikipedia.org/wiki/Henry%27s_law
-  - https://www.britannica.com/science/Henrys-law
-  - https://en.wikipedia.org/wiki/William_Henry_(chemist)
+- https://en.wikipedia.org/wiki/Henry%27s_law
+- https://www.britannica.com/science/Henrys-law
+- https://en.wikipedia.org/wiki/William_Henry_(chemist)
 description: "Henry's law states that at constant temperature, the amount (or concentration) of a dissolved gas in a liquid is directly proportional to the partial pressure of that gas above the liquid. The proportionality factor is Henry's law constant, which depends on the gas, the solvent, and the temperature. The relation holds only for dilute solutions and gases that do not react chemically with the solvent; it underlies gas-solubility phenomena from carbonated beverages to decompression sickness in divers."
-equation: concentration eq concentration mul pressure
+equation: concentration eq henrys_law_constant mul pressure
 symbol_overrides:
-- concentration: k_H
+- henrys_law_constant: k_H
 - concentration: C_a
 - pressure: p
 name_overrides:
-- concentration: Henry's law constant
 - concentration: Dissolved gas [concentration]
+- henrys_law_constant: Henry's law constant
 - pressure: Partial [pressure] of the gas

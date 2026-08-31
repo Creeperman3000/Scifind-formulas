@@ -15,22 +15,24 @@ description: The forced damped harmonic oscillator is a mass–spring system wit
   models in physics and engineering. The form shown uses the normalization in which
   the driving amplitude is written directly (so it corresponds to F₀/m when written
   per unit mass).
-equation: frac rmd rmd dimensionless (rmd time pow 2) add (2 mul dimensionless) mul
-  frac (rmd dimensionless) (rmd time) add (angular_velocity pow 2) mul length eq force
-  mul cos (dimensionless mul time)
+equation: frac rmd rmd length (rmd time pow 2) add ((2 mul frequency) mul frac (rmd
+  length) (rmd time)) add (angular_velocity pow 2) mul length eq (force frac mass)
+  mul cos (angular_velocity mul time)
 symbol_overrides:
-- dimensionless: x
-- dimensionless: \gamma
-- dimensionless: x
+- length: x
+- frequency: \gamma
+- length: x
 - angular_velocity: \omega_0
 - length: x
 - force: F_0
-- dimensionless: \omega
+- mass: m
+- angular_velocity: \omega
 name_overrides:
-- dimensionless: Displacement
-- dimensionless: Damping coefficient
-- dimensionless: Velocity term
+- length: Displacement
+- frequency: Damping coefficient
+- length: Displacement
 - angular_velocity: Natural angular [frequency]
 - length: Displacement
 - force: Driving [force]
-- dimensionless: Driving frequency
+- mass: Driven [mass]
+- angular_velocity: Driving [frequency]

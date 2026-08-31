@@ -3,16 +3,16 @@ id: resistance_formula
 topic: circuits
 difficulty: 5
 links:
-  - https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
-  - https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance
-  - https://en.wikipedia.org/wiki/Resistor
-  - https://en.wikipedia.org/wiki/Pouillet%27s_law
+- https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
+- https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance
+- https://en.wikipedia.org/wiki/Resistor
+- https://en.wikipedia.org/wiki/Pouillet%27s_law
 description: The electrical resistance of a uniform conductor is proportional to its length and inversely proportional to its cross-sectional area, with the resistivity as the constant of proportionality. This relation, sometimes called Pouillet's law, applies to ohmic materials with uniform geometry and resistivity.
-equation: resistance eq resistance mul (length) frac area
+equation: resistance eq resistivity mul length frac area
 symbol_overrides:
-  - resistance: ρ
-  - length: L
+- resistivity: ρ
+- length: L
 name_overrides:
-  - resistance: '[resistance]'
-  - resistance: Resistivity
-  - area: Cross-sectional [area]
+- resistance: Resistance
+- resistivity: Resistivity
+- area: Cross-sectional [area]

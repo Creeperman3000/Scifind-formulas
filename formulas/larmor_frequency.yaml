@@ -3,17 +3,17 @@ id: larmor_frequency
 topic: magnetism
 difficulty: 9
 links:
-  - https://en.wikipedia.org/wiki/Larmor_precession
-  - https://en.wikipedia.org/wiki/Gyromagnetic_ratio
-  - http://hyperphysics.phy-astr.gsu.edu/hbase/nuclear/larmor.html
-  - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Magnetic_Resonance_Spectroscopies/Nuclear_Magnetic_Resonance_Theory
-  - https://www.britannica.com/science/Larmor-precession
-description: "Gives the angular frequency at which the magnetic moment of a particle (such as an electron or nucleus) precesses about an external magnetic field. It is central to nuclear magnetic resonance, electron paramagnetic resonance, and magnetic resonance imaging, and depends only on the field magnitude and the particle's gyromagnetic ratio, not on the orientation of the moment."
-equation: angular_velocity eq dimensionless mul magnetic_flux_density
+- https://en.wikipedia.org/wiki/Larmor_precession
+- https://en.wikipedia.org/wiki/Gyromagnetic_ratio
+- http://hyperphysics.phy-astr.gsu.edu/hbase/nuclear/larmor.html
+- https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Magnetic_Resonance_Spectroscopies/Nuclear_Magnetic_Resonance_Theory
+- https://www.britannica.com/science/Larmor-precession
+description: Gives the angular frequency at which the magnetic moment of a particle (such as an electron or nucleus) precesses about an external magnetic field. It is central to nuclear magnetic resonance, electron paramagnetic resonance, and magnetic resonance imaging, and depends only on the field magnitude and the particle's gyromagnetic ratio, not on the orientation of the moment.
+equation: angular_velocity eq gyromagnetic_ratio mul magnetic_flux_density
 symbol_overrides:
 - angular_velocity: ω_L
-- dimensionless: γ
+- gyromagnetic_ratio: γ
 name_overrides:
 - angular_velocity: Larmor frequency
-- dimensionless: Gyromagnetic ratio
+- gyromagnetic_ratio: Gyromagnetic ratio
 - magnetic_flux_density: Magnetic field

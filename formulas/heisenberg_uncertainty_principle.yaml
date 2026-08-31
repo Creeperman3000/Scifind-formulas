@@ -15,8 +15,8 @@ description: The position-momentum Heisenberg uncertainty relation states that t
   formal expression of the wave-particle duality of matter.
 equation: length mul momentum gt planck_constant frac 4 mul pi
 symbol_overrides:
-  length: \Delta x
-  momentum: \Delta p
+  - length: \Delta x
+  - momentum: \Delta p
 name_overrides:
-  length: Position uncertainty
-  momentum: '[momentum] uncertainty'
+  - length: Position uncertainty
+  - momentum: '[momentum] uncertainty'

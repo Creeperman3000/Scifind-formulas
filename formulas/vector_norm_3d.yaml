@@ -12,18 +12,14 @@ description: The Euclidean norm (length) of a three-dimensional vector, computed
   the square root of the sum of the squares of its Cartesian components. It generalizes
   the Pythagorean theorem to vectors in R^3 and equals the distance from the origin
   to the point (v_x, v_y, v_z).
-equation: dimensionless eq sqrt (dimensionless pow (dimensionless) add dimensionless
-  pow (dimensionless) add dimensionless pow dimensionless ) 2
+equation: length eq sqrt ((length pow 2) add (length pow 2) add (length pow 2)) 2
 symbol_overrides:
-- dimensionless: '|v|'
-- dimensionless: v_x
-- dimensionless: '2'
-- dimensionless: v_y
-- dimensionless: '2'
-- dimensionless: v_z
-- dimensionless: '2'
+- length: '|v|'
+- length: v_x
+- length: v_y
+- length: v_z
 name_overrides:
-- dimensionless: Vector magnitude
-- dimensionless: x-component
-- dimensionless: y-component
-- dimensionless: z-component
+- length: Vector magnitude
+- length: x-component
+- length: y-component
+- length: z-component

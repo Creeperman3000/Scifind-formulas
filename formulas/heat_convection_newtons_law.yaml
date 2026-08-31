@@ -10,14 +10,14 @@ links:
   - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/02%3A_Heat_as_a_Form_of_Energy/2.05%3A_Newton's_Law_of_Cooling
   - https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/a/what-is-convection
 description: "Newton's law of cooling states that the rate of convective heat transfer from a body to its surroundings is proportional to the temperature difference between the body and the surrounding fluid. The proportionality constant is the convective heat transfer coefficient, which depends on the fluid properties, flow regime, and surface geometry. The law is most accurate for forced convection with small temperature differences; it is only approximate for natural (buoyancy-driven) convection and does not apply to radiative cooling."
-equation: energy frac time eq dimensionless mul (area) mul temperature sub temperature
+equation: energy frac time eq heat_transfer_coefficient mul area mul (temperature sub temperature)
 symbol_overrides:
-- dimensionless: h
+- heat_transfer_coefficient: h
 - temperature: T_s
 - temperature: T_{env}
 name_overrides:
 - energy: Heat transfer rate
-- dimensionless: Convection coefficient
+- heat_transfer_coefficient: Convection coefficient
 - area: Surface [area]
 - temperature: Surface [temperature]
 - temperature: Ambient [temperature]

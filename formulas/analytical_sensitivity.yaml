@@ -7,12 +7,10 @@ links:
   - https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_by_David_Harvey/Analytical_Chemistry_2.1_(Harvey)/05%3A_Standardizing_Analytical_Methods/5.03%3A_Determining_the_Sensitivity
   - https://media.iupac.org/publications/analytical_compendium/Cha18sec432.pdf
 description: "In analytical chemistry, sensitivity measures how strongly a method responds to changes in the amount of analyte: it is the slope of the calibration curve relating the instrument's measured signal to the analyte concentration. A steeper calibration line means smaller concentration differences can be distinguished. For nonlinear calibration curves the sensitivity varies with concentration and equals the local slope."
-equation: dimensionless eq dimensionless frac dimensionless
+equation: dimensionless eq dimensionless frac concentration
 symbol_overrides:
 - dimensionless: S
 - dimensionless: \Delta signal
-- dimensionless: \Delta concentration
 name_overrides:
 - dimensionless: Sensitivity
 - dimensionless: Change in signal
-- dimensionless: Change in concentration

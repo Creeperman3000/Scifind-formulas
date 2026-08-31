@@ -3,19 +3,18 @@ id: boiling_point_elevation
 topic: solutions
 difficulty: 7
 links:
-  - https://en.m.wikipedia.org/wiki/Boiling-point_elevation
-  - https://en.wikipedia.org/wiki/Ebullioscopic_constant
-  - https://www.chemteam.info/Solutions/BP-elevation.html
-  - https://www.omnicalculator.com/chemistry/boiling-point-elevation
+- https://en.m.wikipedia.org/wiki/Boiling-point_elevation
+- https://en.wikipedia.org/wiki/Ebullioscopic_constant
+- https://www.chemteam.info/Solutions/BP-elevation.html
+- https://www.omnicalculator.com/chemistry/boiling-point-elevation
 description: "A colligative property of dilute ideal solutions: dissolving a nonvolatile solute raises the boiling point of a solvent in proportion to the molal concentration of dissolved particles. It is used in ebullioscopy to estimate molar masses of solutes and their degree of dissociation into ions."
-equation: temperature eq dimensionless mul dimensionless mul concentration
+equation: temperature eq dimensionless mul ebullioscopic_constant mul molality
 symbol_overrides:
 - temperature: ΔT_b
 - dimensionless: i
-- dimensionless: K_b
-- concentration: m
+- ebullioscopic_constant: K_b
 name_overrides:
 - temperature: Boiling point elevation
 - dimensionless: Van 't Hoff factor
-- dimensionless: Ebullioscopic constant
-- concentration: Molality
+- ebullioscopic_constant: Ebullioscopic constant
+- molality: Molality

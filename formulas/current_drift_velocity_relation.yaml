@@ -3,19 +3,19 @@ id: current_drift_velocity_relation
 topic: current_electricity
 difficulty: 7
 links:
-  - https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-current-electricity/x51bd77206da864f3%3Adrift-of-electrons-the-origin-of-resistance/v/current-from-drift-velocity-i-neavd
-  - https://en.wikipedia.org/wiki/Drift_velocity
-  - https://www.electricalvolt.com/relation-between-current-and-drift-velocity
-  - https://www.electricaldeck.com/2023/07/relation-between-current-and-drift-velocity.html
+- https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-current-electricity/x51bd77206da864f3%3Adrift-of-electrons-the-origin-of-resistance/v/current-from-drift-velocity-i-neavd
+- https://en.wikipedia.org/wiki/Drift_velocity
+- https://www.electricalvolt.com/relation-between-current-and-drift-velocity
+- https://www.electricaldeck.com/2023/07/relation-between-current-and-drift-velocity.html
 description: "This relation expresses the electric current in a conductor in terms of the microscopic drift of its charge carriers: carrier density, carrier charge, cross-sectional area, and drift speed together determine the total charge passing a section per unit time. It applies to conductors or semiconductors with a single dominant carrier type moving at a uniform average drift speed."
-equation: current eq dimensionless mul charge mul velocity mul area
+equation: current eq number_density mul charge mul velocity mul area
 symbol_overrides:
-- dimensionless: n
+- number_density: n
 - charge: e
 - velocity: v_d
 name_overrides:
 - current: '[current|Current]'
-- dimensionless: Charge carrier density
+- number_density: Charge carrier [number density]
 - charge: Elementary [charge]
 - velocity: Drift [velocity]
 - area: Cross-sectional [area]

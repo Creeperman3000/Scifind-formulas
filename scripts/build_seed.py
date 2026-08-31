@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Migrate /home/admin/equations/formulas/*.yaml to seed.sql.
+"""Migrate /home/admin/Projects/Scifind-formulas/formulas/*.yaml to seed.sql.
 
 Mirrors the algorithm used by Scifind's /create page
 (`build_create_sql` in scifind_lib.py). The migration replaces the existing
 formula / formula_token blocks in seed.sql with the result of running every
 yaml file through that pipeline.
 
-Run from any CWD; the script reads from /home/admin/equations/formulas/
+Run from any CWD; the script reads from /home/admin/Projects/Scifind-formulas/formulas/
 and rewrites /home/admin/Projects/Scifind/seed.sql in place (after stashing
 the previous copy at seed.sql.bak next to it — but only once every yaml
 has processed cleanly).
@@ -40,68 +40,15 @@ import yaml
 # the same shape as if the user had typed the equation into /create.
 SCIFIND_DIR = Path("/home/admin/Projects/Scifind")
 sys.path.insert(0, str(SCIFIND_DIR))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import scifind_lib  # noqa: E402
-from scifind_lib.parser import parse_equation  # noqa: E402
+from yaml_overrides import build_overrides  # noqa: E402
 
-FORMULAS_DIR = Path("/home/admin/equations/formulas")
+FORMULAS_DIR = Path("/home/admin/Projects/Scifind-formulas/formulas")
 SEED_PATH = SCIFIND_DIR / "seed.sql"
 SEED_BAK_PATH = SCIFIND_DIR / "seed.sql.bak"
 DB_PATH = SCIFIND_DIR / "scifind.db"
-
-
-def build_overrides(conn, equation: str, sym_ov: Any, nm_ov: Any) -> dict:
-    """Translate yaml's position-indexed override lists into the
-    ``{<qid>||<pos>: {symbol, name}}`` dict used by build_create_sql.
-
-    yaml distributes each list's entries from left to right across
-    occurrences of the same quantity_id in the equation.  Empty-string
-    values advance the slot without recording a value (padding).  The
-    two lists maintain independent cursors per quantity_id, matching
-    the documented yaml semantics.
-    """
-    overrides: dict[str, dict[str, str]] = {}
-    if not (sym_ov or nm_ov):
-        return overrides
-    tokens = parse_equation(conn, equation)
-
-    occ_pos: dict[str, list[int]] = {}
-    for rpn_pos, tok in enumerate(tokens, start=1):
-        if tok.get("token_kind") == "quantity":
-            qid = tok["quantity_id"]
-            occ_pos.setdefault(qid, []).append(rpn_pos)
-
-    def advance(qid: str, val: Any, state: dict[str, int]) -> None:
-        if val is None:
-            val = ""
-        val = str(val)
-        positions = occ_pos.get(qid, [])
-        cursor = state.get(qid, 0)
-        if cursor >= len(positions):
-            return
-        actual_pos = positions[cursor]
-        state[qid] = cursor + 1
-        if val == "":
-            return
-        key = f"{qid}||{actual_pos}"
-        overrides.setdefault(key, {})[field] = val
-
-    # Each list owns its own per-qid cursor so an empty-string padding
-    # entry in symbol_overrides does not also skip a slot in
-    # name_overrides (and vice versa).
-    sym_state: dict[str, int] = {}
-    nm_state: dict[str, int] = {}
-    for ov_list, field, state in (
-        (sym_ov, "symbol", sym_state),
-        (nm_ov, "name", nm_state),
-    ):
-        if not isinstance(ov_list, list):
-            continue
-        for ov in ov_list:
-            if not isinstance(ov, dict):
-                continue
-            for qid, val in ov.items():
-                advance(qid, val, state)
-    return overrides
+MAX_OLD_BACKUPS = 5
 
 
 class MigrationError(Exception):
@@ -139,6 +86,10 @@ def process_yaml(conn, yaml_path: Path) -> tuple[str, str, str, str]:
     description = (data.get("description") or "").strip()
     yaml_id = (data.get("id") or "").strip()
     difficulty = data.get("difficulty", 2)
+    if not isinstance(name, str) or not isinstance(topic, str) \
+            or not isinstance(equation, str) or not isinstance(description, str):
+        raise MigrationError(
+            f"{yaml_path.name}: name/topic/equation/description must be strings")
     if not name or not topic or not equation:
         raise MigrationError(
             f"{yaml_path.name}: missing name/topic/equation")
@@ -152,6 +103,12 @@ def process_yaml(conn, yaml_path: Path) -> tuple[str, str, str, str]:
         raise MigrationError(
             f"{yaml_path.name}: yaml id {yaml_id!r} does not match "
             f"filename {stem!r}")
+    if not isinstance(difficulty, int) or isinstance(difficulty, bool):
+        try:
+            difficulty = int(difficulty)
+        except (ValueError, TypeError):
+            raise MigrationError(
+                f"{yaml_path.name}: difficulty {difficulty!r} is not an integer")
 
     sym_ov = data.get("symbol_overrides") or []
     nm_ov = data.get("name_overrides") or []
@@ -167,11 +124,19 @@ def process_yaml(conn, yaml_path: Path) -> tuple[str, str, str, str]:
     # formula.links column.  Tolerate non-list values and blank entries so a
     # malformed yaml degrades to NULL rather than failing the migration.
     raw_links = data.get("links")
-    if isinstance(raw_links, list):
-        links = [u.strip() for u in raw_links if isinstance(u, str) and u.strip()]
+    if raw_links is None:
+        links = None
+    elif isinstance(raw_links, list):
+        bad = [type(u).__name__ for u in raw_links if not isinstance(u, str)]
+        if bad:
+            raise MigrationError(
+                f"{yaml_path.name}: `links` must be a list of strings; "
+                f"found {bad}")
+        links = [u.strip() for u in raw_links if u.strip()]
     else:
-        links = []
-    links = links or None
+        raise MigrationError(
+            f"{yaml_path.name}: `links` must be a list, got "
+            f"{type(raw_links).__name__}")
 
     try:
         f_sql, t_sql = scifind_lib.build_create_sql(
@@ -204,104 +169,200 @@ def process_yaml(conn, yaml_path: Path) -> tuple[str, str, str, str]:
     return stem, yaml_id, f_sql, t_sql
 
 
+def _extract_values_body(sql: str) -> str | None:
+    """Return the comma-separated row tuples that follow a ``VALUES`` keyword.
+
+    Walks the SQL character-by-character after `VALUES` to find the closing
+    `;` while respecting single-quoted string literals (where `;` inside
+    them is data, not a terminator). Returns None if the structure isn't a
+    well-formed `VALUES ... ;` block.
+    """
+    m = re.search(r"\bVALUES\b", sql, re.IGNORECASE)
+    if not m:
+        return None
+    i = m.end()
+    n = len(sql)
+    in_quote = False
+    while i < n:
+        c = sql[i]
+        if c == "'":
+            # Doubled '' inside a string literal is an escaped quote, not a close.
+            if in_quote and i + 1 < n and sql[i + 1] == "'":
+                i += 2
+                continue
+            in_quote = not in_quote
+        elif c == ";" and not in_quote:
+            return sql[m.end():i].strip()
+        i += 1
+    return None
+
+
+def _split_value_rows(body: str) -> list[str]:
+    """Split a `VALUES` body into one trimmed row tuple per formula token.
+
+    Walks the body looking for top-level `(` that starts a row tuple and
+    matches its closing `)`, again respecting single-quoted string literals.
+    """
+    rows: list[str] = []
+    n = len(body)
+    i = 0
+    while i < n:
+        if body[i] != "(":
+            i += 1
+            continue
+        depth = 0
+        in_quote = False
+        j = i
+        while j < n:
+            c = body[j]
+            if c == "'":
+                if in_quote and j + 1 < n and body[j + 1] == "'":
+                    j += 2
+                    continue
+                in_quote = not in_quote
+            elif not in_quote:
+                if c == "(":
+                    depth += 1
+                elif c == ")":
+                    depth -= 1
+                    if depth == 0:
+                        rows.append(body[i:j + 1].strip())
+                        i = j + 1
+                        break
+            j += 1
+        else:
+            break
+        i = max(i, j + 1)
+    return rows
+
+
+def _strip_column(row: str, col_index: int) -> str:
+    """Remove the value at *col_index* (0-based) from a SQL row tuple.
+
+    ``_split_value_rows`` hands us strings like
+    ``('a', 'b', 'c')``.  This function rewrites the tuple to drop
+    the *col_index*-th value, respecting single-quoted string literals
+    and ``''`` escapes.
+    """
+    row = row.strip()
+    assert row.startswith("(") and row.endswith(")")
+    values: list[str] = []
+    i, n = 1, len(row) - 1          # skip ( … )
+    start = i
+    in_quote = False
+    while i < n:
+        c = row[i]
+        if c == "'":
+            if in_quote and i + 1 < n and row[i + 1] == "'":
+                i += 2
+                continue
+            in_quote = not in_quote
+        elif c == "," and not in_quote:
+            values.append(row[start:i].strip())
+            start = i + 1
+        i += 1
+    values.append(row[start:n].strip())
+    del values[col_index]
+    return "(" + ", ".join(values) + ")"
+
+
+def _is_migration_insert(cur: str) -> bool:
+    """True if `cur` starts an INSERT into a table this migration owns.
+
+    Matches ``formula``, ``formula_token``, ``formula_relation``, and
+    ``formula_relations`` (the legacy plural), requiring a space, newline,
+    or open paren after the table name so ``formula_token_xyz`` would not
+    match.
+    """
+    s = cur.lstrip().lower()
+    if not s.startswith("insert or ignore into "):
+        return False
+    rest = s[len("insert or ignore into "):]
+    for table in ("formula ", "formula_token", "formula_relation",
+                  "formula_relations"):
+        if not rest.startswith(table):
+            continue
+        # Peek the next character; if it's space, '(', or newline the line
+        # is a well-formed INSERT start for this table. Don't .lstrip()
+        # here — a newline at end-of-line means "header continues on the
+        # next line" (column list), which is the normal layout.
+        if len(rest) == len(table):
+            nxt = ""
+        else:
+            nxt = rest[len(table)]
+        if nxt in "(\n ":
+            return True
+    return False
+
+
 def split_seed(seed_text: str) -> str:
-    """    Drop every existing INSERT block targeting
-    formula / formula_token / formula_relations, plus the comment header
-    banner that marks a previous migration's output.
+    """Strip every existing formula/formula_token/formula_relation INSERT block
+    plus the comment header banner that marks a previous migration's output.
 
-    Returns ``seed_text`` with those blocks removed. The migration
-    replaces the formulas wholesale, so the old formula rows, their
-    tokens, and the relations (which all key off the old formula
-    ids) must all go.  Stripping the migration banner lets the
-    script be idempotent across multiple runs.
+    Returns ``seed_text`` with those blocks removed. The migration replaces
+    the formulas wholesale, so the old formula rows, their tokens, and the
+    relations (which all key off the old formula ids) must all go. Stripping
+    the migration banner lets the script be idempotent across multiple runs.
 
-    Banner stripping is conservative: when we see a banner comment,
-    we drop every banner+INSERT bundle following it until the next
-    line that doesn't match either pattern.  In practice the
-    migration always emits exactly one banner + one formula block +
-    one formula_token block, with no intervening blank lines, so a
-    simple two-pass approach is sufficient.
+    Algorithm: single left-to-right scan over the seed's lines. When we see
+    the start of an INSERT into one of the targeted tables, drop every line
+    up to and including its closing ``;``. When we see the first line of a
+    migration banner (a line starting with ``--`` whose content matches one
+    of the banner markers), drop the banner and any continuation lines that
+    are themselves banner markers, blank lines, or INSERT-marker lines,
+    until the next non-banner content.
     """
     lines = seed_text.splitlines(keepends=True)
+    drop: set[int] = set()
 
-    # Pass 1: identify the line ranges that belong to a previous
-    # migration output and to the original seed's formula/relation
-    # blocks.  We build a set of indices to drop.
-    drop = set()
-    i = 0
+    banner_match = (
+        lambda cur: cur.startswith("--") and (
+            "Formulas migrated from" in cur
+            or "via build_create_sql" in cur
+            or cur.rstrip().endswith("=" * 10)
+            or cur.rstrip().endswith("=" * 20)
+        )
+    )
+
     n = len(lines)
+    i = 0
     while i < n:
         line = lines[i]
-        stripped = line.lstrip().lower()
-        if (
-            stripped.startswith("insert or ignore into formula ")
-            or stripped.startswith("insert or ignore into formula_token ")
-            or stripped.startswith("insert or ignore into formula_relation ")
-            or stripped.startswith("insert or ignore into formula_relations ")
-        ):
+
+        # Targeted INSERT blocks: drop from this line through the closing ';'.
+        if _is_migration_insert(line):
             j = i
             while j < n and lines[j].strip() != ";":
                 drop.add(j)
                 j += 1
             if j < n:
-                drop.add(j)  # the terminator `;`
+                drop.add(j)
             i = j + 1
             continue
-        # Lines that look like part of the migration banner.  The
-        # banner spans 3 lines: "-- ====...", "-- Formulas migrated
-        # from ...", "-- ====...".  We strip every line that's a
-        # banner separator ("-- =...") or that mentions the migration
-        # source — that way any partially-stripped banner left over
-        # from a previous broken run is also removed.
-        if line.startswith("--") and (
-            "Formulas migrated from" in line
-            or "via build_create_sql" in line
-            or line.rstrip().endswith("=" * 10)
-            or line.rstrip().endswith("=" * 20)
-        ):
+
+        # Banner block: drop this line plus any further banner-marker / blank /
+        # INSERT-marker lines until we hit unrelated content. If the banner
+        # is followed by an INSERT block, drop that INSERT too.
+        if banner_match(line):
             j = i
-            # Drop everything from the banner up to (and including) the
-            # terminator of the matching INSERT block.  The migration
-            # always emits banner -> blank -> banner -> ... -> blank ->
-            # INSERT (formula) -> INSERT (formula_token); a previous
-            # broken run may stack banners without blanks, so we treat
-            # any further banner, blank, or INSERT-marker line as part
-            # of the same dropped region until we hit a `;` that
-            # closes a formula/formula_token INSERT.
-            in_insert_block = False
             while j < n:
                 cur = lines[j]
-                s = cur.lstrip().lower()
-                if s.startswith("insert or ignore into formula ") or s.startswith(
-                    "insert or ignore into formula_token "
-                ):
-                    in_insert_block = True
+                if _is_migration_insert(cur):
                     while j < n and lines[j].strip() != ";":
                         drop.add(j)
                         j += 1
                     if j < n:
-                        drop.add(j)  # terminator `;`
-                        j += 1
-                    in_insert_block = False
-                    continue
-                if in_insert_block:
+                        drop.add(j)
                     j += 1
                     continue
-                if cur.strip() == "" or (
-                    cur.startswith("--")
-                    and (
-                        "Formulas migrated from" in cur
-                        or "via build_create_sql" in cur
-                        or cur.rstrip().endswith("=" * 10)
-                        or cur.rstrip().endswith("=" * 20)
-                    )
-                ):
+                if cur.strip() == "" or banner_match(cur):
                     drop.add(j)
                     j += 1
                     continue
                 break
             i = j
             continue
+
         i += 1
 
     return "".join(line for idx, line in enumerate(lines) if idx not in drop)
@@ -374,31 +435,25 @@ def main() -> int:
     formula_rows = []
     token_rows = []
     for _yaml_id, f_sql, t_sql in formula_sql_blocks:
-        # Strip the leading "INSERT OR IGNORE INTO formula (id, name, ...)"
-        # header + the closing `;`; we want only the row tuple(s).
-        m = re.search(r"VALUES\s*(.+?);\s*$", f_sql, re.DOTALL)
-        if not m:
-            continue
-        rows_str = m.group(1).strip()
-        # The /create algorithm emits exactly one row per formula.
-        formula_rows.append(f"  {rows_str}")
-        m = re.search(r"VALUES\s*(.+?);\s*$", t_sql, re.DOTALL)
-        if not m:
-            continue
-        rows_str = m.group(1).strip()
-        for row in rows_str.splitlines():
-            row = row.strip().rstrip(",")
-            if not row:
-                continue
-            token_rows.append(f"  {row}")
+        # Extract the row tuple(s) — everything between the VALUES keyword
+        # and the closing `;`. Each row is parenthesised SQL; we anchor on
+        # balanced parens so an embedded `;` inside a string literal (which
+        # sql_literal does NOT escape) doesn't truncate the match early.
+        f_body = _extract_values_body(f_sql)
+        if f_body is not None:
+            formula_rows.append(f"  {f_body}")
+        t_body = _extract_values_body(t_sql)
+        if t_body is not None:
+            for row in _split_value_rows(t_body):
+                token_rows.append(f"  {_strip_column(row, 7)}")
 
     new_blocks = []
     if formula_rows:
         new_blocks.append(
-            "-- ============================================================\n"
-            "-- Formulas migrated from /home/admin/equations/formulas/\n"
-            "-- via build_create_sql (mirrors Scifind's /create page).\n"
-            "-- ============================================================\n"
+            "-- ==========================================\n"
+            "-- Formulas migrated with build_seed.py from \n"
+            "-- ~/Projects/Scifind-formulas/formulas/\n"
+            "-- ==========================================\n"
             "INSERT OR IGNORE INTO formula (id, name, topic, difficulty, description, links) VALUES\n"
             + ",\n".join(formula_rows)
             + ";\n"
@@ -407,7 +462,7 @@ def main() -> int:
         new_blocks.append(
             "INSERT OR IGNORE INTO formula_token\n"
             "  (formula_id, position, token_kind, quantity_id, constant_id,\n"
-            "   operator_id, value, label, name_overwrite, symbol_overwrite)\n"
+            "   operator_id, value, name_overwrite, symbol_overwrite)\n"
             "VALUES\n"
             + ",\n".join(token_rows)
             + ";\n"
@@ -416,19 +471,23 @@ def main() -> int:
     new_seed = seed_head.rstrip() + "\n\n" + "\n\n".join(new_blocks) + "\n"
 
     # Rotate the previous seed to seed.sql.bak — only after every yaml
-    # processed cleanly, so crashed runs don't leave backups behind.
-    # If a .bak already exists from an earlier run we don't clobber it —
-    # name the new copy seed.sql.bak.<UTC-timestamp> instead so both
-    # copies survive.
+    # processed cleanly, so crashed runs don't leave backups behind. The
+    # previous run's `seed.sql.bak` (which holds the state before *that*
+    # run) is preserved as a timestamped copy so it survives this run's
+    # rotation. Cap the number of timestamped backups we keep around so
+    # repeated runs don't accumulate files indefinitely.
+    from datetime import datetime, timezone
     if SEED_BAK_PATH.exists():
-        from datetime import datetime, timezone
         stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-        backup = SEED_BAK_PATH.with_name(f"{SEED_BAK_PATH.name}.{stamp}")
-        shutil.copy2(SEED_PATH, backup)
-        print(f"preserved existing {SEED_BAK_PATH.name} at {backup.name}", file=sys.stderr)
-    else:
-        shutil.copy2(SEED_PATH, SEED_BAK_PATH)
-        print(f"saved backup as {SEED_BAK_PATH.name}", file=sys.stderr)
+        prev = SEED_BAK_PATH.with_name(f"{SEED_BAK_PATH.name}.{stamp}")
+        shutil.copy2(SEED_BAK_PATH, prev)
+        print(f"preserved prior backup as {prev.name}", file=sys.stderr)
+        # Trim older timestamped backups, keep at most MAX_OLD_BACKUPS.
+        siblings = sorted(SEED_BAK_PATH.parent.glob(f"{SEED_BAK_PATH.name}.*"))
+        for old in siblings[: max(0, len(siblings) - MAX_OLD_BACKUPS)]:
+            old.unlink()
+    shutil.copy2(SEED_PATH, SEED_BAK_PATH)
+    print(f"saved current seed as {SEED_BAK_PATH.name}", file=sys.stderr)
 
     SEED_PATH.write_text(new_seed)
     print(f"wrote {SEED_PATH}", file=sys.stderr)

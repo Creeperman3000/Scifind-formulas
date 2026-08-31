@@ -11,16 +11,16 @@ links:
 description: "Fourier's law gives the rate of conductive heat transfer through a homogeneous slab of thickness L and cross-sectional area A as the product of thermal conductivity, area, and the temperature difference across the slab, divided by the thickness. It applies to one-dimensional, steady-state conduction without internal heat generation and is the thermal analog of Ohm's law for an electrical resistor."
 equation: energy frac time eq thermal_conductivity mul area mul (temperature sub temperature) frac length
 symbol_overrides:
-  energy: Q
-  temperature: T_1
-  temperature: T_2
-  length: L
-  thermal_conductivity: k
-  area: A
+  - energy: Q
+  - temperature: T_1
+  - temperature: T_2
+  - length: L
+  - thermal_conductivity: k
+  - area: A
 name_overrides:
-  energy: Heat transferred per unit time
-  temperature: Hot [temperature]
-  temperature: Cold [temperature]
-  length: Thickness
-  thermal_conductivity: '[thermal_conductivity]'
-  area: Cross-sectional [area]
+  - energy: Heat transferred per unit time
+  - temperature: Hot [temperature]
+  - temperature: Cold [temperature]
+  - length: Thickness
+  - thermal_conductivity: '[thermal_conductivity]'
+  - area: Cross-sectional [area]

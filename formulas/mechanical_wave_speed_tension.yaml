@@ -3,16 +3,16 @@ id: mechanical_wave_speed_tension
 topic: mechanical_waves
 difficulty: 7
 links:
-  - https://en.wikipedia.org/wiki/Mechanical_wave
-  - https://en.wikipedia.org/wiki/Linear_density
-  - https://en.wikipedia.org/wiki/String_vibration
-  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_The_Speed_of_a_Traveling_Wave_on_a_String
+- https://en.wikipedia.org/wiki/Mechanical_wave
+- https://en.wikipedia.org/wiki/Linear_density
+- https://en.wikipedia.org/wiki/String_vibration
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_The_Speed_of_a_Traveling_Wave_on_a_String
 description: Gives the phase speed of small-amplitude transverse waves on an ideal stretched string under tension, assuming a perfectly flexible, uniform string. Applies to strings, wires, and ropes, and is the basis of stringed musical instrument acoustics.
-equation: velocity eq sqrt (force frac mass_concentration) 2
+equation: velocity eq sqrt (force frac linear_density) 2
 symbol_overrides:
 - force: T
-- mass_concentration: \mu
+- linear_density: \mu
 name_overrides:
 - velocity: Wave speed
 - force: Tension
-- mass_concentration: Linear mass density
+- linear_density: Linear mass density

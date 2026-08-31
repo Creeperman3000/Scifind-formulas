@@ -9,10 +9,10 @@ links:
   - https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(I)/10%3A_Measurements_in_Quantum_Mechanics
   - https://www.khanacademy.org/science/physics/quantum-physics/heisenberg-uncertainty-principle/v/energy-time-uncertainty-principle
 description: "The energy-time uncertainty relation bounds the product of the uncertainty in the energy of a quantum state and the characteristic time interval over which that state evolves. A short-lived excited state therefore has a large energy width, which is the basis for the natural linewidth of spectral lines and the lifetime-broadening observed in particle decays and resonances."
-equation: energy gt planck_constant frac ((4 mul pi) mul time)
+equation: energy mul time gt planck_constant frac (4 mul pi)
 symbol_overrides:
-  energy: \Delta E
-  time: \Delta t
+  - energy: \Delta E
+  - time: \Delta t
 name_overrides:
-  energy: Energy uncertainty
-  time: Time interval
+  - energy: Energy uncertainty
+  - time: Time interval

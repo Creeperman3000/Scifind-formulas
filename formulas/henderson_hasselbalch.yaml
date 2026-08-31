@@ -16,10 +16,10 @@ description: The Henderson-Hasselbalch equation relates the pH of a buffer solut
 equation: ph eq (drop sub log 10 equilibrium_constant ) add log 10 (concentration
   frac concentration)
 symbol_overrides:
-  ph: pH
-  equilibrium_constant: K_a
-  concentration: '[HA]'
+  - ph: pH
+  - equilibrium_constant: K_a
+  - concentration: '[HA]'
 name_overrides:
-  ph: '[ph]'
-  equilibrium_constant: Acid dissociation constant
-  concentration: Acid [concentration]
+  - ph: '[ph]'
+  - equilibrium_constant: Acid dissociation constant
+  - concentration: Acid [concentration]

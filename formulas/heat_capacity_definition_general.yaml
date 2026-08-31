@@ -10,12 +10,12 @@ links:
   - https://www.khanacademy.org/science/physics/thermodynamics/specific-heat-and-heat-of-fusion/v/heat-capacity
   - https://courses.lumenlearning.com/suny-physics/chapter/15-1-temperature-and-thermal-equilibrium/
 description: "Heat capacity is an extensive property of a body that quantifies the amount of heat energy required to produce a unit change in temperature. It depends on the conditions of the process (e.g. constant pressure or volume) and on the mass and composition of the material."
-equation: dimensionless eq energy frac temperature sub temperature
+equation: heat_capacity eq energy frac (temperature sub temperature)
 symbol_overrides:
-- dimensionless: C
+- heat_capacity: C
 - temperature: T_f
 - temperature: T_i
 name_overrides:
-- dimensionless: Heat capacity
+- heat_capacity: Heat capacity
 - temperature: Final [temperature]
 - temperature: Initial [temperature]

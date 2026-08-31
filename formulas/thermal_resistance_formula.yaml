@@ -3,16 +3,16 @@ id: thermal_resistance_formula
 topic: heat_transfer
 difficulty: 7
 links:
-  - https://en.wikipedia.org/wiki/Thermal_resistance
-  - https://www.energy.gov/energysaver/insulation-r-value
-  - https://www.archtoolbox.com/materials-systems/insulation/r-value.html
-  - https://www.omnicalculator.com/physics/r-value
-  - https://www.thoughtco.com/what-is-r-value-4071782
+- https://en.wikipedia.org/wiki/Thermal_resistance
+- https://www.energy.gov/energysaver/insulation-r-value
+- https://www.archtoolbox.com/materials-systems/insulation/r-value.html
+- https://www.omnicalculator.com/physics/r-value
+- https://www.thoughtco.com/what-is-r-value-4071782
 description: "Thermal resistance (the R-value used in building insulation) is the thickness of a material divided by its thermal conductivity, giving a measure of how well the material resists conductive heat flow per unit area. It assumes one-dimensional steady-state conduction and is most useful for comparing insulating layers of different materials and thicknesses."
-equation: dimensionless eq length frac thermal_conductivity
+equation: thermal_resistance eq length frac thermal_conductivity
 symbol_overrides:
-- dimensionless: R
+- thermal_resistance: R
 - length: L
 name_overrides:
-- dimensionless: Thermal resistance
+- thermal_resistance: Thermal resistance
 - length: Thickness

@@ -3,19 +3,18 @@ id: torque_on_current_loop
 topic: magnetism
 difficulty: 7
 links:
-  - https://en.wikipedia.org/wiki/Magnetic_moment
-  - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.04%3A_Magnetic_Field_of_a_Current_Loop
-  - https://www.britannica.com/science/magnetic-dipole-moment
-  - https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/v/magnetic-flux
-  - https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/12-4-magnetic-field-of-a-current-loop/
+- https://en.wikipedia.org/wiki/Magnetic_moment
+- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.04%3A_Magnetic_Field_of_a_Current_Loop
+- https://www.britannica.com/science/magnetic-dipole-moment
+- https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/v/magnetic-flux
+- https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/12-4-magnetic-field-of-a-current-loop/
 description: "A current loop placed in a uniform external magnetic field experiences a torque that tends to align the loop's magnetic moment with the field. The torque is maximum when the plane of the loop lies along the field and zero when the loop's normal is parallel or antiparallel to the field."
-equation: torque eq current mul (area) mul (amount) mul (magnetic_flux_density) mul sin angle
+equation: torque eq magnetic_moment mul magnetic_flux_density mul sin angle
 symbol_overrides:
 - torque: τ
-- amount: N
+- magnetic_moment: μ
 - angle: θ
 name_overrides:
 - torque: '[torque]'
-- area: Loop [area]
-- amount: Number of turns
+- magnetic_moment: Magnetic [magnetic_moment]
 - angle: Angle between normal and B

@@ -6,10 +6,9 @@ links:
   - https://en.wikipedia.org/wiki/Impulse_(physics)
   - https://en.wikipedia.org/wiki/Momentum
   - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Linear_Momentum_and_Collisions/8.02%3A_Impulse_and_Collisions
-  - https://www.britannica.com/science/impulse-physics
 description: "In classical mechanics, impulse is the integral of force over the time during which it acts, so for a constant force it is simply the product of force and the time interval. Impulse equals the change in momentum of the body on which the force acts, the basis of the impulse-momentum theorem."
-equation: momentum eq force mul time
+equation: impulse eq force mul time
 symbol_overrides:
-- momentum: J
+  - impulse: J
 name_overrides:
-- momentum: Impulse
+  - impulse: Impulse
