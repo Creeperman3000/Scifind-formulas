@@ -462,7 +462,7 @@ def main() -> int:
         new_blocks.append(
             "INSERT OR IGNORE INTO formula_token\n"
             "  (formula_id, position, token_kind, quantity_id, constant_id,\n"
-            "   operator_id, value, name_overwrite, symbol_overwrite)\n"
+            "   operator_id, value, symbol_overwrite, name_overwrite)\n"
             "VALUES\n"
             + ",\n".join(token_rows)
             + ";\n"
