@@ -11,9 +11,5 @@ links:
 description: The Stefan–Boltzmann constant can be expressed entirely in terms of Boltzmann’s
   constant, Planck’s constant, the speed of light, and π. Following the 2019 SI redefinition,
   k, h, and c are fixed exactly, so σ is also exactly determined.
-equation: dimensionless eq 2 mul (pi pow 5) mul (boltzmann_constant pow 4) frac 15
-  mul (planck_constant pow 3) mul speed_of_light pow 2
-symbol_overrides:
-- dimensionless: σ
-name_overrides:
-- dimensionless: Stefan-Boltzmann constant
+equation: stefan_boltzmann_constant eq 2 mul (pi pow 5) mul (boltzmann_constant
+  pow 4) frac 15 mul (planck_constant pow 3) mul speed_of_light pow 2

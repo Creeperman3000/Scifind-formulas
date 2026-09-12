@@ -6163,14 +6163,14 @@ statistics_mode_definition:
     Mode: Mode (Dimensionless)
     most frequent value: Most frequent value (Dimensionless)
 stefan_boltzmann_constant_definition:
-  latex: σ = \frac{2\left(\pi^{5}\right) \left(k_\mathrm{B}^{4}\right)}{15\left(h^{3}\right)
+  latex: \sigma = \frac{2\left(\pi^{5}\right) \left(k_\mathrm{B}^{4}\right)}{15\left(h^{3}\right)
     c^{2}}
   symbols:
+    \sigma: Stefan-Boltzmann constant
     \pi: Pi
     k_\mathrm{B}: Boltzmann constant
     h: Planck constant
     c: Speed of light in vacuum
-    σ: Stefan-Boltzmann constant (Dimensionless)
 stefan_boltzmann_law:
   latex: P = A \left(\sigma T^{4}\right)
   symbols:
