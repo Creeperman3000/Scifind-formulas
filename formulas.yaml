@@ -4,11 +4,6 @@ absolute_pressure:
     P_{abs}: Absolute [pressure] (Pressure)
     P_{atm}: Atmospheric [pressure] (Pressure)
     P_{gauge}: Gauge [pressure] (Pressure)
-absorbance_transmittance:
-  latex: A = -\log_{10}{T}
-  symbols:
-    A: Absorbance
-    T: Transmittance (Dimensionless)
 absorbed_dose_formula:
   latex: D = \frac{E}{m}
   symbols:
@@ -27,13 +22,6 @@ absorption_coefficient_optical:
     \alpha: Absorption coefficient (Wavenumber)
     A: Absorbance (Dimensionless)
     t: Sample thickness (Length)
-absorptivity_molar:
-  latex: \varepsilon = \frac{A}{c l}
-  symbols:
-    \varepsilon: Molar absorptivity (Molar absorptivity)
-    A: Absorbance
-    c: Concentration
-    l: Path [length] (Length)
 ac_circuit_power_factor:
   latex: PF = \frac{P}{V_{rms} I_{rms}}
   symbols:
@@ -54,12 +42,6 @@ acceleration_atwood_machine:
     a: '[acceleration] (Acceleration)'
     m_1: '[mass] 1 (Mass)'
     m_2: '[mass] 2 (Mass)'
-acceleration_from_net_force:
-  latex: a = \frac{F}{m}
-  symbols:
-    a: Acceleration
-    F: Net [force] (Force)
-    m: Mass
 acid_dissociation_constant:
   latex: K_a = \frac{[H⁺] [A⁻]}{[HA]}
   symbols:
@@ -67,12 +49,6 @@ acid_dissociation_constant:
     '[H⁺]': Hydronium [concentration] (Concentration)
     '[A⁻]': Conjugate base [concentration] (Concentration)
     '[HA]': Acid [concentration] (Concentration)
-acid_dissociation_percent_ionization:
-  latex: \% ionization = 100\,\frac{[H⁺]}{[HA]_0}
-  symbols:
-    \% ionization: Percent ionization (Dimensionless)
-    '[H⁺]': Hydronium ion concentration (Dimensionless)
-    '[HA]_0': Initial acid [concentration] (Concentration)
 activity_from_decay_constant:
   latex: A = f N
   symbols:
@@ -192,12 +168,6 @@ angle_sum_tangent:
   symbols:
     A: Angle A (Plane angle)
     B: Angle B (Plane angle)
-angular_acceleration_from_torque:
-  latex: \alpha = \frac{\tau}{I}
-  symbols:
-    \alpha: Angular acceleration
-    \tau: Torque
-    I: Moment of inertia
 angular_displacement_constant_acceleration:
   latex: \theta = \omega_0 t + \frac{1}{2} \alpha t^{2}
   symbols:
@@ -207,12 +177,6 @@ angular_displacement_constant_acceleration:
     '1': One (Dimensionless)
     '2': Two (Dimensionless)
     \alpha: Angular acceleration (Angular acceleration)
-angular_displacement_definition:
-  latex: \theta = \frac{s}{r}
-  symbols:
-    \theta: Angular displacement (Plane angle)
-    s: Arc [length] (Length)
-    r: Radius (Length)
 angular_frequency:
   latex: \omega = \left(\pi\,2\right) f
   symbols:
@@ -635,14 +599,6 @@ bernoulli_horizontal_flow:
     v_1: '[velocity] at point 1 (Velocity)'
     P_2: '[pressure] at point 2 (Pressure)'
     v_2: '[velocity] at point 2 (Velocity)'
-bernoulli_pressure_velocity_horizontal:
-  latex: P_1 - P_2 = \frac{ρ \left(\left(v_2^{2}\right) - v_1^{2}\right)}{2}
-  symbols:
-    P_1: '[pressure] at point 1 (Pressure)'
-    P_2: '[pressure] at point 2 (Pressure)'
-    ρ: Fluid [density] (Density)
-    v_2: '[velocity] at point 2 (Velocity)'
-    v_1: '[velocity] at point 1 (Velocity)'
 bernoulli_stagnation_pressure:
   latex: P_0 = P + \frac{\rho \left(v^{2}\right)}{2}
   symbols:
@@ -781,14 +737,6 @@ braggs_law:
     \lambda: Wavelength (Length)
     d: Crystal lattice spacing (Length)
     \theta: Glancing angle (Plane angle)
-bright_fringe_double_slit_position:
-  latex: y_m = \frac{m \lambda L}{d}
-  symbols:
-    y_m: Fringe position (Length)
-    m: Order number (Dimensionless)
-    \lambda: Wavelength (Length)
-    L: Screen distance (Length)
-    d: Slit separation (Length)
 buoyant_density_relation:
   latex: \rho_{object} = \rho_{fluid} \left(\frac{W}{W - W_{apparent}}\right)
   symbols:
@@ -803,13 +751,6 @@ buoyant_force:
     F_b: Buoyant [force] (Force)
     \rho: Fluid [density] (Density)
     V: Displaced volume (Volume)
-buoyant_force_displaced_volume:
-  latex: F_b = \rho_{fluid} g V_{displaced}
-  symbols:
-    F_b: Buoyant [force] (Force)
-    \rho_{fluid}: Fluid [density] (Density)
-    g: Gravitational [acceleration] (Acceleration)
-    V_{displaced}: '[volume] of displaced fluid (Volume)'
 buoyant_volume_displaced:
   latex: V_{displaced} = m_{object} / \rho_{fluid}
   symbols:
@@ -873,18 +814,6 @@ capacitor_energy_density_vacuum:
     \varepsilon_0: Vacuum permittivity
     u: Energy density
     E: Electric field strength
-capacitor_energy_q:
-  latex: E = \frac{Q^{2}}{2C}
-  symbols:
-    E: Stored [energy] (Energy)
-    Q: Electric charge
-    C: Capacitance
-capacitor_energy_voltage_charge:
-  latex: U = \frac{Q V}{2}
-  symbols:
-    U: Stored [energy] (Energy)
-    Q: '[charge|Charge] (Electric charge)'
-    V: Voltage (Electric potential)
 capacitors_in_series_general:
   latex: C_{eq}^{-1} = C_1^{-1} + C_2^{-1}
   symbols:
@@ -1001,12 +930,6 @@ charge_density_formula:
     \rho: Electric charge density
     Q: Electric charge
     V: Volume
-charge_on_capacitor:
-  latex: Q = C V
-  symbols:
-    Q: Electric charge
-    C: Capacitance
-    V: Electric potential
 charles_law:
   latex: \frac{V_1}{T_1} = \frac{V_2}{T_2}
   symbols:
@@ -1092,19 +1015,6 @@ circuit_kirchhoff_loop_rule:
   latex: \sum{V} = 0
   symbols:
     V: Sum of potential differences (Electric potential)
-circuit_voltage_division_series:
-  latex: V_1 = V_{total} \left(\frac{R_1}{R_1 + R_2}\right)
-  symbols:
-    V_1: Voltage across R₁ (Electric potential)
-    V_{total}: Total voltage (Electric potential)
-    R_1: '[resistance] R₁ (Resistance)'
-    R_2: '[resistance] R₂ (Resistance)'
-circular_motion_angular_to_linear_velocity:
-  latex: v = ω r
-  symbols:
-    v: Linear [velocity] (Velocity)
-    ω: Angular [angular_velocity|velocity] (Angular velocity)
-    r: Radius (Length)
 circular_polarization_condition:
   latex: \left|E_y\right| = \left|E_x\right|
   symbols:
@@ -1261,13 +1171,6 @@ concentration_formula:
     c: Concentration
     n: Amount of substance
     V: Volume
-concentration_from_mass_volume:
-  latex: c = \frac{\frac{m}{M}}{V}
-  symbols:
-    c: Molar [concentration] (Concentration)
-    m: '[mass] of solute (Mass)'
-    M: Molar [molar_mass|mass] (Molar mass)
-    V: '[volume] of solution (Volume)'
 concentration_ppm:
   latex: ppm = \left(\frac{m_{solute}}{m_{solution}}\right) 10^{6}
   symbols:
@@ -1335,24 +1238,11 @@ continuity_equation_mass_flow:
     ρ_2: '[density] at point 2 (Density)'
     v_2: '[velocity] at point 2 (Velocity)'
     A_2: '[area] at point 2 (Area)'
-conversion_efficiency_yield:
-  latex: \%_{yield} = 100\,\frac{actual}{theoretical}
-  symbols:
-    \%_{yield}: Percent yield (Dimensionless)
-    actual: Actual amount (Dimensionless)
-    theoretical: Theoretical amount (Dimensionless)
 convex_mirror_focal_sign:
   latex: f_{convex} = 0 - \frac{R}{2}
   symbols:
     f_{convex}: Focal [length] (convex mirror) (Length)
     R: Radius of curvature (Length)
-coordinate_geometry_centroid_formula:
-  latex: x_G = \frac{x_1 + x_2 + x_3}{3}
-  symbols:
-    x_G: Centroid x-coordinate (Variable)
-    x_1: x₁ (Dimensionless)
-    x_2: x₂ (Dimensionless)
-    x_3: x₃ (Dimensionless)
 coordination_number_definition:
   latex: CN = N_{ligands}
   symbols:
@@ -1845,13 +1735,6 @@ double_slit_bright_fringe_position:
     λ: Wavelength (Length)
     L: Distance to screen (Length)
     d: Slit separation (Length)
-double_slit_fringe:
-  latex: Δx = \frac{λ L}{d}
-  symbols:
-    Δx: Fringe spacing (Length)
-    λ: Wavelength (Length)
-    L: Distance to screen (Length)
-    d: Slit separation (Length)
 double_slit_path_difference:
   latex: Δx = d \sin {θ}
   symbols:
@@ -1866,14 +1749,6 @@ drag_force:
     v: Velocity
     A: Area
     C_d: Drag coefficient (Dimensionless)
-drift_velocity:
-  latex: v_d = \frac{I}{n \left(Q A\right)}
-  symbols:
-    v_d: Drift [velocity] (Velocity)
-    I: Electric current
-    n: Charge carrier [number_density] (Number density)
-    Q: Electric charge
-    A: Area
 dynamic_pressure_velocity_formula:
   latex: q = \frac{ρ \left(v^{2}\right)}{2}
   symbols:
@@ -2013,12 +1888,6 @@ electric_field_point_charge:
     E: Electric field strength
     Q: Electric charge
     r: Distance (Length)
-electric_force_field:
-  latex: F = Q E
-  symbols:
-    F: Force
-    Q: Electric charge
-    E: Electric field strength
 electric_potential_charged_ring_axis:
   latex: V = \frac{k_\mathrm{e} Q}{\sqrt{\left(R^{2}\right) + x^{2}}}
   symbols:
@@ -2639,12 +2508,6 @@ frequency_period:
     f: Frequency
     '1': One (Dimensionless)
     T: Period (Time)
-friction_coefficient_static_definition:
-  latex: \mu_s = \frac{F_{s,\mathrm{max}}}{N}
-  symbols:
-    \mu_s: Coefficient of static friction (Coefficient of friction)
-    F_{s,\mathrm{max}}: Maximum static friction [force] (Force)
-    N: Normal [force] (Force)
 friction_force:
   latex: F_f = \mu N
   symbols:
@@ -2800,13 +2663,6 @@ gibbs_free_energy:
     \Delta H: Enthalpy change (Energy)
     T: Temperature
     \Delta S: '[entropy] change (Entropy)'
-gibbs_nernst_relation:
-  latex: \Delta G = -n \left(F E\right)
-  symbols:
-    F: Faraday constant
-    \Delta G: Gibbs free [energy] change (Energy)
-    n: Number of electrons transferred (Dimensionless)
-    E: Cell potential (Electric potential)
 gibbs_nonstandard:
   latex: \Delta G = \Delta G^{\circ} + R T \ln{Q}
   symbols:
@@ -2866,14 +2722,6 @@ gravitational_field_strength:
     G: Gravitational constant
     g: Gravitational field strength (Acceleration)
     m: Mass
-    r: Distance (Length)
-gravitational_force_two_masses:
-  latex: F = \frac{G m_1 m_2}{r^{2}}
-  symbols:
-    G: Gravitational constant
-    F: Force
-    m_1: '[mass] 1 (Mass)'
-    m_2: '[mass] 2 (Mass)'
     r: Distance (Length)
 gravitational_potential_energy:
   latex: U = m \left(g_0 h\right)
@@ -3015,16 +2863,6 @@ heat_transfer:
     m: Mass
     c: Specific [specific_heat_capacity|heat capacity] (Specific heat capacity)
     T: Temperature
-heat_transfer_conduction_thermal_resistance:
-  latex: \frac{Q}{t} = k \left(\frac{A \left(T_1 - T_2\right)}{L}\right)
-  symbols:
-    Q: Heat transferred per unit time (Energy)
-    t: Time
-    k: '[thermal_conductivity] (Thermal conductivity)'
-    A: Cross-sectional [area] (Area)
-    T_1: Hot [temperature] (Temperature)
-    T_2: Cold [temperature] (Temperature)
-    L: Thickness (Length)
 heat_transfer_radiation_stefan_boltzmann:
   latex: P = \sigma \left(ε \left(A T^{4}\right)\right)
   symbols:
@@ -3231,12 +3069,6 @@ index_hydrogen_deficiency_formula:
     N: Number of nitrogen atoms (Dimensionless)
     H: Number of hydrogen atoms (Dimensionless)
     X: Number of halogen atoms (Dimensionless)
-induced_emf_coil_rate_change:
-  latex: ε = 0 - \frac{\mathrm{d} {Φ}}{\mathrm{d} {t}}
-  symbols:
-    ε: Induced EMF (Electromagnetic induction)
-    Φ: Magnetic flux
-    t: Time
 induced_emf_faraday_flux_change_rate:
   latex: ε = 0 - N \left(\frac{\mathrm{d} {Φ}}{\mathrm{d} {t}}\right)
   symbols:
@@ -3487,12 +3319,6 @@ isothermal_work_gas:
     T: Temperature
     V₂: Final [volume] (Volume)
     V₁: Initial [volume] (Volume)
-isotope_notation_formula:
-  latex: A = Z + N
-  symbols:
-    A: Mass number (Dimensionless)
-    Z: Atomic number (Dimensionless)
-    N: Neutron number (Dimensionless)
 ka_kb_relation:
   latex: K_a K_b = K_w
   symbols:
@@ -3644,14 +3470,6 @@ law_of_cosines:
     a: Side a (Length)
     b: Side b (Length)
     C: Angle C (Plane angle)
-law_of_cosines_angle:
-  latex: C = \arccos {\left(\frac{\left(a^{2}\right) + \left(b^{2}\right) - c^{2}}{2\left(a
-    b\right)}\right)}
-  symbols:
-    C: Angle C (Plane angle)
-    a: Side a (Length)
-    b: Side b (Length)
-    c: Side c (Length)
 law_of_sines:
   latex: \frac{a}{\sin {A}} = \frac{b}{\sin {B}}
   symbols:
@@ -3917,13 +3735,6 @@ lineweaver_burk:
     K_m: Michaelis constant (Dimensionless)
     V_{max}: Maximum rate (Dimensionless)
     '[S]': Substrate concentration (Dimensionless)
-lineweaver_burk_intercept:
-  latex: \frac{1}{v} = \frac{1}{V_{max}} + \frac{K_m}{V_{max}} \left(\frac{1}{[S]}\right)
-  symbols:
-    v: Reaction rate v (Dimensionless)
-    V_{max}: Maximum rate (Dimensionless)
-    K_m: Michaelis constant (Dimensionless)
-    '[S]': Substrate concentration (Dimensionless)
 log_change_of_base:
   latex: log_a(x) = \frac{\ln{x}}{\ln{a}}
   symbols:
@@ -4068,12 +3879,6 @@ magnetic_flux_angle_dependence:
     B: Magnetic flux density
     A: Area
     θ: Angle between field and normal (Plane angle)
-magnetic_flux_density_definition:
-  latex: B = \frac{\Phi}{A}
-  symbols:
-    B: '[magnetic_flux_density] (Magnetic flux density)'
-    \Phi: Magnetic flux
-    A: '[area] perpendicular to field (Area)'
 magnetic_flux_formula:
   latex: \Phi = B A
   symbols:
@@ -4272,12 +4077,6 @@ mechanical_power_rotational:
     P: Power
     \tau: Torque
     \omega: Angular velocity
-mechanical_wave_frequency:
-  latex: f = \frac{v}{\lambda}
-  symbols:
-    f: Frequency
-    v: Wave [velocity] (Velocity)
-    \lambda: Wavelength (Length)
 mechanical_wave_speed_tension:
   latex: v = \sqrt{\frac{T}{\mu}}
   symbols:
@@ -4309,12 +4108,6 @@ mirror_image_distance_formula:
     v: Image distance (Length)
     u: Object distance (Length)
     f: Focal [length] (Length)
-mirror_magnification_formula:
-  latex: m = \frac{0 - q}{p}
-  symbols:
-    m: Magnification (Dimensionless)
-    q: Image distance (Length)
-    p: Object distance (Length)
 moi_annular_cylinder:
   latex: I = \frac{M \left(\left(R₁^{2}\right) + R₂^{2}\right)}{2}
   symbols:
@@ -4629,13 +4422,6 @@ newtons_third_law:
   symbols:
     F_{12}: '[force] on body 1 from body 2 (Force)'
     F_{21}: '[force] on body 2 from body 1 (Force)'
-normal_force_incline:
-  latex: N = m g \cos {θ}
-  symbols:
-    N: Normal [force] (Force)
-    m: '[mass] (Mass)'
-    g: Gravitational [acceleration] (Acceleration)
-    θ: Incline angle (Plane angle)
 nuclear_binding_energy_per_nucleon:
   latex: \varepsilon = \frac{E_b}{A}
   symbols:
@@ -4762,13 +4548,6 @@ optics_total_internal_reflection_condition:
   symbols:
     θ_i: Angle of incidence (Plane angle)
     θ_c: Critical [angle] (Plane angle)
-orbital_angular_momentum_kepler:
-  latex: A / t = L / \left(m\,2\right)
-  symbols:
-    A: Swept [area] (Area)
-    t: '[time] interval (Time)'
-    L: Orbital [angular_momentum] (Angular momentum)
-    m: Orbiting [mass] (Mass)
 orbital_mechanical_energy:
   latex: E = -\left(G \left(M \left(\frac{m}{a\,2}\right)\right)\right)
   symbols:
@@ -4794,14 +4573,6 @@ orbitals_in_subshell:
   symbols:
     \#orbitals: Number of orbitals (Dimensionless)
     l: Azimuthal quantum number (Dimensionless)
-organic_chemistry_index_hydrogen_deficiency:
-  latex: IHD = \frac{\left(2C\right) + 2 + \left(N - \left(H - X\right)\right)}{2}
-  symbols:
-    IHD: Index of hydrogen deficiency (Dimensionless)
-    C: Number of carbons (Dimensionless)
-    N: Number of nitrogens (Dimensionless)
-    H: Number of hydrogens (Dimensionless)
-    X: Number of halogens (Dimensionless)
 osmotic_pressure:
   latex: Π = i \left(M R T\right)
   symbols:
@@ -4920,13 +4691,6 @@ parts_per_formula:
     ppb: Parts per billion (Dimensionless)
     m_{solute}: '[mass] of solute (Mass)'
     m_{solution}: '[mass] of solution (Mass)'
-pascal_hydraulic_press_force:
-  latex: F_{out} = F_{in} \left(\frac{A_{out}}{A_{in}}\right)
-  symbols:
-    F_{out}: Output [force] (Force)
-    F_{in}: Input [force] (Force)
-    A_{out}: Output piston [area] (Area)
-    A_{in}: Input piston [area] (Area)
 pascals_law:
   latex: \frac{F_1}{A_1} = \frac{F_2}{A_2}
   symbols:
@@ -5039,11 +4803,6 @@ perfectly_inelastic_collision:
     m_2: Mass
     v_2: Initial [velocity] 2 (Velocity)
     v_f: Final [velocity] (Velocity)
-periodic_atomic_number_composition:
-  latex: Z = p
-  symbols:
-    Z: Atomic number (Dimensionless)
-    p: Number of protons (Dimensionless)
 periodic_quantum_number_azimuthal_range:
   latex: l = n - 1
   symbols:
@@ -5113,12 +4872,6 @@ photon_energy:
     h: Planck constant
     E: Energy
     f: Frequency
-photon_momentum:
-  latex: p = \frac{h}{λ}
-  symbols:
-    h: Planck constant
-    p: Momentum
-    λ: Wavelength (Length)
 physics_galilean_relativity:
   latex: v_{AB} = v_{AC} + v_{CB}
   symbols:
@@ -5211,13 +4964,6 @@ polarization_orientation_angle:
     \psi: Polarization orientation [angle] (Plane angle)
     E_y: Electric field y-component (Electric field strength)
     E_x: Electric field x-component (Electric field strength)
-polygon_area_from_side:
-  latex: A = \frac{n s^{2}}{4\tan {\left(\frac{\pi}{n}\right)}}
-  symbols:
-    \pi: Pi
-    A: Area
-    n: Number of sides n (Dimensionless)
-    s: Side [length] (Length)
 polygon_circumradius:
   latex: R = \frac{s}{2\sin {\left(\frac{\pi}{n}\right)}}
   symbols:
@@ -5303,20 +5049,6 @@ potential_energy_electric_field:
     q: '[charge|Charge] (Electric charge)'
     E: Electric field (Electric field strength)
     d: Displacement (Length)
-potential_energy_gravitational_definition:
-  latex: U_g = m g h
-  symbols:
-    U_g: Gravitational potential [energy] (Energy)
-    m: Mass
-    g: Gravitational [acceleration] (Acceleration)
-    h: Height above reference (Length)
-potential_energy_gravitational_near_surface:
-  latex: U = m \left(g h\right)
-  symbols:
-    U: Gravitational potential [energy] (Energy)
-    m: Mass
-    g: Gravitational [acceleration] (Acceleration)
-    h: Height (Length)
 power_efficiency_relation:
   latex: \eta = \frac{P_{out}}{P_{in}}
   symbols:
@@ -5354,13 +5086,6 @@ power_resistive_circuit_voltage:
     P: Power
     V: Voltage (Electric potential)
     R: Resistance
-pressure_depth_fluid:
-  latex: P = ρ g h
-  symbols:
-    P: Gauge [pressure] at depth h (Pressure)
-    ρ: Fluid [density] (Density)
-    g: Gravitational [acceleration] (Acceleration)
-    h: Depth (Length)
 probability_addition_rule:
   latex: P(A∪B) = P(A) + \left(P(B) - P(A∩B)\right)
   symbols:
@@ -5799,13 +5524,6 @@ relativistic_energy_momentum:
     E: Total [energy] (Energy)
     p: Momentum
     m_0: Rest [mass] (Mass)
-relativistic_energy_particle:
-  latex: E = \sqrt{\left(p^{2c^{2}}\right) + m_0^{2c^{4}}}
-  symbols:
-    c: Speed of light in vacuum
-    E: Total [energy] (Energy)
-    p: Relativistic [momentum] (Momentum)
-    m_0: Rest [mass] (Mass)
 relativistic_kinetic_energy:
   latex: K = \left(\gamma - 1\right) \left(m c^{2}\right)
   symbols:
@@ -5891,14 +5609,6 @@ reynolds_number_formula:
     \rho: '[density] of the fluid (Density)'
     u: Flow [velocity] (Velocity)
     L: Characteristic [length] (Length)
-    \mu: '[dynamic_viscosity] of the fluid (Dynamic viscosity)'
-reynolds_number_kinematic_viscosity:
-  latex: Re = \frac{v L \rho}{\mu}
-  symbols:
-    Re: '[reynolds_number] (Reynolds number)'
-    v: Flow [velocity] (Velocity)
-    L: Characteristic [length] (Length)
-    \rho: '[density] of the fluid (Density)'
     \mu: '[dynamic_viscosity] of the fluid (Dynamic viscosity)'
 right_triangle_30_60_90:
   latex: l_{\mathrm{long}} = l_{\mathrm{short}} \sqrt{3}
@@ -6189,24 +5899,6 @@ snells_law:
     \sin\theta_1: sin θ₁ (Dimensionless)
     n_2: n₂ (Dimensionless)
     \sin\theta_2: sin θ₂ (Dimensionless)
-soh_cah_toa_cosine:
-  latex: \cos\theta = \frac{adjacent}{hypotenuse}
-  symbols:
-    \cos\theta: Cosine (Dimensionless)
-    adjacent: Adjacent side (Length)
-    hypotenuse: Hypotenuse (Length)
-soh_cah_toa_sine:
-  latex: \sin\theta = \frac{opposite}{hypotenuse}
-  symbols:
-    \sin\theta: Sine (Dimensionless)
-    opposite: Opposite side (Length)
-    hypotenuse: Hypotenuse (Length)
-soh_cah_toa_tangent:
-  latex: \tan\theta = \frac{opposite}{adjacent}
-  symbols:
-    \tan\theta: Tangent (Dimensionless)
-    opposite: Opposite side (Length)
-    adjacent: Adjacent side (Length)
 solenoid_inductance:
   latex: L = \frac{\mu_0 \left(N^{2}\right) A}{l}
   symbols:
@@ -6427,14 +6119,6 @@ standard_enthalpy_reaction:
     ΔH°: Standard enthalpy of reaction (Energy)
     ΣΔH_{f°(products)}: Sum of enthalpies of formation of products (Energy)
     ΣΔH_{f°(reactants)}: Sum of enthalpies of formation of reactants (Energy)
-standard_entropy_of_reaction:
-  latex: ΔS°_{rxn} = S°_C + \left(S°_D - \left(S°_A + S°_B\right)\right)
-  symbols:
-    ΔS°_{rxn}: Standard [entropy] of reaction (Entropy)
-    S°_C: Standard [entropy] of product C (Entropy)
-    S°_D: Standard [entropy] of product D (Entropy)
-    S°_A: Standard [entropy] of reactant A (Entropy)
-    S°_B: Standard [entropy] of reactant B (Entropy)
 standard_entropy_reaction:
   latex: ΔS° = ΣS°(products) - ΣS°(reactants)
   symbols:
@@ -6657,12 +6341,6 @@ surface_density_formula:
     \rho_A: Surface density
     m: Mass
     A: Area
-surface_energy_tension:
-  latex: U = γ A
-  symbols:
-    U: Energy
-    γ: Surface tension
-    A: Area
 surface_tension_energy_definition:
   latex: γ = \frac{ΔE}{ΔA}
   symbols:
@@ -6675,12 +6353,6 @@ surface_tension_force:
     F: Surface tension [force] (Force)
     γ: '[surface_tension] (Surface tension)'
     L: Contact [length] (Length)
-surface_tension_formula:
-  latex: γ = \frac{F}{L}
-  symbols:
-    γ: Surface tension
-    F: Force
-    L: '[length] of contact line (Length)'
 t_test_statistic:
   latex: t = \frac{x̄ - μ₀}{\frac{s}{\sqrt{n}}}
   symbols:
@@ -6735,22 +6407,6 @@ temperature_celsius_fahrenheit:
   symbols:
     °F: '[temperature] in Fahrenheit (Temperature)'
     °C: '[temperature] in Celsius (Temperature)'
-temperature_fahrenheit_celsius:
-  latex: °C = \left(°F - 32\right) \left(\frac{5}{9}\right)
-  symbols:
-    °C: '[temperature] in Celsius (Temperature)'
-    °F: '[temperature] in Fahrenheit (Temperature)'
-temperature_ideal_gas_kinetic:
-  latex: T = \frac{2\,\langle\mathrm{KE}\rangle}{3k_\mathrm{B}}
-  symbols:
-    k_\mathrm{B}: Boltzmann constant
-    T: '[temperature] (Temperature)'
-    \langle\mathrm{KE}\rangle: Average kinetic [energy] per molecule (Energy)
-temperature_rankine_conversion:
-  latex: °F = °R - 459.67
-  symbols:
-    °F: Fahrenheit (Temperature)
-    °R: Rankine (Temperature)
 temperature_rankine_from_fahrenheit:
   latex: T_R = T_F + 459.67
   symbols:
@@ -6828,14 +6484,6 @@ thin_film_constructive_m_half:
     m: Order m (Dimensionless)
     '1': One (Dimensionless)
     λ: Wavelength (Length)
-thin_film_destructive:
-  latex: 2\left(n t\right) = \left(m + \frac{1}{2}\right) \lambda
-  symbols:
-    n: Film [length|refractive_index] (Length)
-    t: Film thickness (Reflectance)
-    m: Interference order (Dimensionless)
-    \frac{1}{2}: Dimensionless
-    \lambda: Wavelength in vacuum (Length)
 thin_film_destructive_zero_order:
   latex: \left(2n\right) t = \frac{\lambda}{2}
   symbols:
@@ -7105,14 +6753,6 @@ velocity_squared_constant_acceleration:
     u: Initial [velocity] (Velocity)
     a: Acceleration
     l: Length
-venturi_effect:
-  latex: P_1 - P_2 = \frac{ρ \left(\left(v_2^{2}\right) - v_1^{2}\right)}{2}
-  symbols:
-    P_1: '[pressure] at point 1 (Pressure)'
-    P_2: '[pressure] at point 2 (Pressure)'
-    ρ: Fluid [density] (Density)
-    v_2: Flow [velocity] at point 2 (Velocity)
-    v_1: Flow [velocity] at point 1 (Velocity)
 venturi_pressure_difference:
   latex: ΔP = ρ \left(\frac{\left(v_2^{2}\right) - v_1^{2}}{2}\right)
   symbols:
@@ -7352,18 +6992,6 @@ wiens_displacement_law:
     b: Wien's displacement constant
     \lambda_{\max}: Peak wavelength (Length)
     T: Temperature
-work_against_friction:
-  latex: W_{fric} = f_k d
-  symbols:
-    W_{fric}: Work against friction (Energy)
-    f_k: Kinetic friction (Force)
-    d: Displacement (Length)
-work_area_under_force_curve:
-  latex: W = F_{\mathrm{avg}} d
-  symbols:
-    W: Work (Energy)
-    F_{\mathrm{avg}}: Average [force] (Force)
-    d: Displacement (Length)
 work_by_gas:
   latex: W = P \Delta {V}
   symbols:
