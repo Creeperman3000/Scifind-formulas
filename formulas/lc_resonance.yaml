@@ -12,5 +12,9 @@ description: "An LC circuit consisting of an inductor and a capacitor oscillates
 equation: angular_velocity eq 1 frac sqrt (inductance mul capacitance) 2
 symbol_overrides:
 - angular_velocity: ω_0
+- inductance: ''
+- capacitance: ''
 name_overrides:
 - angular_velocity: Resonant angular frequency
+- inductance: ''
+- capacitance: ''

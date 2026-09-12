@@ -14,9 +14,9 @@ description: Calculates the lattice energy of an ionic crystal from the Madelung
   and the Born exponent (set by the electron configurations of the ions). The factor
   (1 − 1/n) accounts for short-range repulsion between ions, reducing the purely electrostatic
   Madelung energy by a small amount.
-equation: energy eq avogadro_number mul dimensionless mul charge mul charge mul elementary_charge
-  pow dimensionless mul coulomb_constant frac length mul dimensionless sub dimensionless
-  frac dimensionless
+equation: energy eq avogadro_number mul dimensionless mul charge mul charge mul ((elementary_charge
+  pow dimensionless) mul coulomb_constant frac length) mul (dimensionless sub dimensionless
+  frac dimensionless)
 symbol_overrides:
 - energy: U
 - dimensionless: M
@@ -24,6 +24,8 @@ symbol_overrides:
 - charge: z_-
 - dimensionless: '2'
 - length: r_0
+- dimensionless: '1'
+- dimensionless: '1'
 - dimensionless: n
 name_overrides:
 - energy: Lattice [energy]
@@ -32,4 +34,6 @@ name_overrides:
 - charge: Anion charge
 - dimensionless: Squared
 - length: Nearest neighbor distance
+- dimensionless: One
+- dimensionless: One
 - dimensionless: Born exponent

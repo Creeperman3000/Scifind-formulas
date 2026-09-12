@@ -10,7 +10,7 @@ links:
 description: "The gravitational potential at the surface of a spherically symmetric body equals the value of the point-mass potential evaluated at the body's radius R. It is the negative of the work per unit mass needed to move a test mass from the surface to infinity, and provides a quick estimate of how strongly a body retains nearby objects."
 equation: energy frac mass eq drop (gravitational_constant mul (mass) frac length) sub
 symbol_overrides:
-- energy: "\u03A6"
+- energy: Φ
 - mass: M
 - mass: M
 - length: R

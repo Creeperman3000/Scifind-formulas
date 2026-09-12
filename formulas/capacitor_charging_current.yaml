@@ -16,8 +16,15 @@ equation: ((current) eq ((electric_potential frac resistance) mul (exp ((drop su
   time) frac (resistance mul capacitance)))))
 symbol_overrides:
 - current: I(t)
+- electric_potential: ''
+- resistance: ''
+- resistance: ''
+- time: ''
+- capacitance: ''
 name_overrides:
 - current: Charging [current]
 - electric_potential: Source voltage
 - resistance: '[resistance]'
 - time: '[time]'
+- resistance: ''
+- capacitance: ''

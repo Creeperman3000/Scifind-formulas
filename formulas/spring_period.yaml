@@ -15,6 +15,9 @@ description: For an undamped mass on an ideal linear spring, the period of small
 equation: ((time) eq (2 mul pi mul ((mass div spring_constant) sqrt 2)))
 symbol_overrides:
 - time: T
+- mass: ''
+- spring_constant: ''
 name_overrides:
 - time: Period
 - spring_constant: '[spring_constant]'
+- mass: ''

@@ -12,5 +12,10 @@ equation: resistance eq dimensionless frac ((pi mul 2) mul frequency mul capacit
 symbol_overrides:
 - resistance: X_C
 - dimensionless: '1'
+- frequency: ''
+- capacitance: ''
 name_overrides:
 - resistance: Capacitive reactance
+- dimensionless: ''
+- frequency: ''
+- capacitance: ''

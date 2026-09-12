@@ -18,7 +18,9 @@ symbol_overrides:
 - concentration: '[A]_t'
 - concentration: '[A]_0'
 - frequency: k
+- time: ''
 name_overrides:
 - concentration: '[concentration] at time t'
 - concentration: Initial [concentration]
 - frequency: Rate constant
+- time: ''

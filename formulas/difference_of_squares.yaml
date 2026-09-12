@@ -11,17 +11,17 @@ description: A fundamental factoring identity stating that the difference of two
   factors into the product of a sum and a difference of the two base terms. It holds
   in any commutative ring and is used constantly to factor binomials, simplify rational
   expressions, and perform mental arithmetic.
-equation: (dimensionless pow 2) sub dimensionless pow 2 eq (dimensionless add dimensionless)
+equation: (variable pow 2) sub dimensionless pow 2 eq (dimensionless add dimensionless)
   mul dimensionless sub dimensionless
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: b
 name_overrides:
-- dimensionless: First squared term a
+- variable: First squared term a
 - dimensionless: Second squared term b
 - dimensionless: First base a
 - dimensionless: Second base b

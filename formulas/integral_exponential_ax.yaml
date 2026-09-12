@@ -23,8 +23,8 @@ symbol_overrides:
 - dimensionless: a
 name_overrides:
 - dimensionless: Rate constant a
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'
 - dimensionless: Rate constant a
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Rate constant a

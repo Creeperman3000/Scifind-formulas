@@ -11,7 +11,7 @@ links:
 description: "Percent ionization is the fraction of an initially dissolved weak acid that has dissociated into ions at equilibrium, expressed as a percentage. It is used to assess acid strength and depends on both the acid dissociation constant and the initial concentration, generally decreasing as the acid is diluted."
 equation: dimensionless eq concentration frac (concentration) mul dimensionless
 symbol_overrides:
-- dimensionless: '\% ionization'
+- dimensionless: \% ionization
 - concentration: '[H^{+}]'
 - concentration: '[HA]_{initial}'
 - dimensionless: '100'
@@ -19,3 +19,4 @@ name_overrides:
 - dimensionless: Percent ionization
 - concentration: Equilibrium H^{+} [concentration]
 - concentration: Initial acid [concentration]
+- dimensionless: ''

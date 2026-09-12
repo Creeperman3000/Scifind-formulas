@@ -13,7 +13,9 @@ symbol_overrides:
 - torque: τ
 - electric_dipole_moment: p
 - angle: θ
+- electric_field_strength: ''
 name_overrides:
 - torque: '[torque] on dipole'
 - electric_dipole_moment: Dipole moment
 - angle: Angle between dipole and field
+- electric_field_strength: ''

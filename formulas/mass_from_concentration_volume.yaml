@@ -12,5 +12,5 @@ equation: mass eq concentration mul molar_mass mul volume
 name_overrides:
 - mass: '[mass] of solute'
 - concentration: Molar [concentration]
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]
 - volume: '[volume] of solution'

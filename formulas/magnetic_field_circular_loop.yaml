@@ -15,11 +15,9 @@ description: The magnetic flux density at the center of a circular current loop 
 equation: magnetic_flux_density eq vacuum_permeability mul (current) frac 2 mul length
 symbol_overrides:
 - magnetic_flux_density: B
-- vacuum_permeability: \mu_0
 - current: I
 - length: R
 name_overrides:
 - magnetic_flux_density: Magnetic field at loop center
-- vacuum_permeability: Vacuum permeability
 - current: Loop current
 - length: Loop radius

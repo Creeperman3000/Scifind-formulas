@@ -9,12 +9,12 @@ links:
   - https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-addition/v/matrix-addition-and-subtraction
   - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Book%3A_Mathematical_Methods_in_Chemistry_(Levitus)/11%3A_Matrices/11.2%3A_Matrix_Arithmetic
 description: "Matrix addition is performed entrywise and is only defined for matrices of the same dimensions. For two m-by-n matrices A and B, the (i,j) entry of A+B is the sum of the corresponding entries A_{i,j} and B_{i,j}. The operation is commutative and associative, and a zero matrix of the same size acts as the additive identity."
-equation: dimensionless eq dimensionless add dimensionless
+equation: variable eq dimensionless add dimensionless
 symbol_overrides:
-- dimensionless: c_{11}
+- variable: c_{11}
 - dimensionless: a_{11}
 - dimensionless: b_{11}
 name_overrides:
-- dimensionless: Result element c₁₁
+- variable: Result element c₁₁
 - dimensionless: Matrix A element a₁₁
 - dimensionless: Matrix B element b₁₁

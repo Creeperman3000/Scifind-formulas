@@ -10,5 +10,11 @@ description: "The cyclotron radius (also called Larmor radius or gyroradius) is 
 equation: length eq mass mul (velocity) frac elementary_charge mul magnetic_flux_density
 symbol_overrides:
 - length: r
+- mass: ''
+- velocity: ''
+- magnetic_flux_density: ''
 name_overrides:
 - length: Cyclotron radius
+- mass: ''
+- velocity: ''
+- magnetic_flux_density: ''

@@ -13,10 +13,10 @@ description: The sum rule for limits states that the limit of a sum of two funct
   equals the sum of their individual limits, when those limits exist. It is one of
   the basic algebraic limit laws used to evaluate limits of sums and differences by
   handling each term independently.
-equation: lim dimensionless dimensionless (dimensionless add dimensionless) eq lim
+equation: lim variable dimensionless (dimensionless add dimensionless) eq lim
   dimensionless dimensionless dimensionless add lim dimensionless dimensionless dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: f
 - dimensionless: g
@@ -27,13 +27,13 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: g
 name_overrides:
-- dimensionless: '''[variable]'''
+- variable: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function f
 - dimensionless: Function g
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function f
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function g

@@ -19,7 +19,9 @@ symbol_overrides:
   - ph: pH
   - equilibrium_constant: K_a
   - concentration: '[HA]'
+  - concentration: ''
 name_overrides:
   - ph: '[ph]'
   - equilibrium_constant: Acid dissociation constant
   - concentration: Acid [concentration]
+  - concentration: ''

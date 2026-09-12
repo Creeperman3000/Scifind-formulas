@@ -18,14 +18,12 @@ equation: ((velocity) eq (((2 mul mass mul standard_gravity) frac (density mul a
 symbol_overrides:
 - velocity: v_t
 - mass: m
-- standard_gravity: g
 - density: \rho
 - area: A
 - dimensionless: C_d
 name_overrides:
 - velocity: Terminal [velocity]
 - mass: '[mass]'
-- standard_gravity: '[standard_gravity]'
 - density: Fluid [density]
 - area: Cross-sectional [area]
 - dimensionless: Drag coefficient

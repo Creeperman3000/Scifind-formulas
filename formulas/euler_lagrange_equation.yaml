@@ -11,15 +11,17 @@ description: 'The central condition of the calculus of variations and of Lagrang
   generalized velocity. It is used to derive the equations of motion for mechanical
   systems and to solve optimization problems over functions, taking the same form
   in any choice of generalized coordinates.'
-equation: frac rmd (frac partial dimensionless partial dimensionless ) rmd time eq
+equation: frac rmd (frac partial variable partial dimensionless ) rmd time eq
   frac partial dimensionless partial dimensionless
 symbol_overrides:
-- dimensionless: L
+- variable: L
 - dimensionless: \dot{q}
 - dimensionless: L
 - dimensionless: q
+- time: ''
 name_overrides:
-- dimensionless: Lagrangian L
+- variable: Lagrangian L
 - dimensionless: Generalized velocity q-dot
 - dimensionless: Lagrangian L
 - dimensionless: Generalized coordinate q
+- time: ''

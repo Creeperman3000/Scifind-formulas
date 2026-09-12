@@ -19,8 +19,11 @@ symbol_overrides:
 - length: z
 - length: z
 - length: R
+- electric_field_strength: ''
+- charge: ''
 name_overrides:
 - electric_field_strength: Electric field
 - length: Distance on axis
 - length: Distance on axis
 - length: Ring radius
+- charge: ''

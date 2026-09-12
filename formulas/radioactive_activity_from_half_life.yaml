@@ -14,6 +14,7 @@ equation: activity eq dimensionless mul log euler_e 2 frac time
 symbol_overrides:
 - dimensionless: N
 - time: t_{1/2}
+- activity: ''
 name_overrides:
 - activity: '[activity]'
 - dimensionless: Number of nuclei

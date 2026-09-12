@@ -21,6 +21,8 @@ symbol_overrides:
 - acceleration: g
 - acceleration: g
 - length: z
+- pressure: ''
+- velocity: ''
 name_overrides:
 - length: Total head
 - pressure: '[pressure]'

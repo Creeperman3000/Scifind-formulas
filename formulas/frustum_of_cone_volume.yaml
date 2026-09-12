@@ -20,6 +20,7 @@ symbol_overrides:
 - length: R
 - length: r
 - length: r
+- volume: ''
 name_overrides:
 - volume: '[volume] of conical frustum'
 - length: Height

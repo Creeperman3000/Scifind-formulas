@@ -20,6 +20,7 @@ symbol_overrides:
 - area: A
 - temperature: T
 - temperature: T_{env}
+- power: ''
 name_overrides:
 - power: Heat transfer rate
 - thermal_conductivity: Heat transfer coefficient

@@ -12,6 +12,7 @@ description: pH is the negative base-10 logarithm of the hydrogen ion activity, 
 equation: ph eq sub drop log 10 concentration
 symbol_overrides:
 - concentration: '[H⁺]'
+- ph: ''
 name_overrides:
 - ph: '[ph]'
 - concentration: Hydronium ion [concentration]

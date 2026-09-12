@@ -14,7 +14,11 @@ description: Elastic energy density is the elastic potential energy stored per u
 equation: energy_density eq spring_constant mul (length pow 2) frac 2 mul volume
 symbol_overrides:
 - length: x
+- energy_density: ''
+- spring_constant: ''
+- volume: ''
 name_overrides:
 - energy_density: Elastic [energy_density]
 - spring_constant: '[spring_constant]'
 - length: Displacement
+- volume: ''

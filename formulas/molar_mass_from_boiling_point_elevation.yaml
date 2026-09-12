@@ -15,6 +15,7 @@ symbol_overrides:
 - mass: m_{solute}
 - temperature: ΔT_b
 - mass: m_{solvent}
+- molar_mass: ''
 name_overrides:
 - molar_mass: '[molar_mass]'
 - ebullioscopic_constant: Ebullioscopic constant

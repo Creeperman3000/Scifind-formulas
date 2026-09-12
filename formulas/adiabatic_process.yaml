@@ -12,6 +12,8 @@ equation: pressure mul volume pow dimensionless eq dimensionless
 symbol_overrides:
 - dimensionless: \gamma
 - dimensionless: C
+- pressure: ''
+- volume: ''
 name_overrides:
 - pressure: '[pressure]'
 - volume: '[volume]'

@@ -16,7 +16,10 @@ symbol_overrides:
 - dimensionless: n
 - dimensionless: n
 - equilibrium_constant: K
+- temperature: ''
 name_overrides:
 - electric_potential: Standard cell potential
 - dimensionless: Number of electrons transferred
 - dimensionless: Number of electrons transferred
+- temperature: ''
+- equilibrium_constant: ''

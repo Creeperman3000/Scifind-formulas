@@ -10,4 +10,5 @@ links:
 description: "Gives the energy stored per unit volume in the fields of a plane electromagnetic wave traveling through vacuum. Because the electric and magnetic contributions are exactly equal at every instant, the total density can be written using the electric field alone together with the vacuum permittivity. It underlies calculations of wave intensity and of the Poynting vector, and it scales with the square of the field amplitude."
 equation: energy_density eq vacuum_permittivity mul electric_field_strength pow 2
 name_overrides:
-- energy_density: Electromagnetic energy [density]
+- energy_density: Electromagnetic energy [energy_density|density]
+- electric_field_strength: ''

@@ -11,6 +11,7 @@ description: "Central relation of de Broglie's matter-wave hypothesis: every mov
 equation: length eq planck_constant frac momentum
 symbol_overrides:
 - length: λ
+- momentum: ''
 name_overrides:
 - length: Wavelength
 - momentum: '[momentum] of the particle'

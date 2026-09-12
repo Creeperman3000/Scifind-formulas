@@ -13,10 +13,10 @@ description: The quotient rule for limits states that the limit of a quotient of
   functions equals the quotient of their individual limits, provided the limit of
   the denominator is nonzero. This law allows limits of rational expressions to be
   evaluated by treating the numerator and denominator separately.
-equation: lim dimensionless dimensionless (dimensionless frac dimensionless) eq lim
+equation: lim variable dimensionless (dimensionless frac dimensionless) eq lim
   dimensionless dimensionless dimensionless frac lim dimensionless dimensionless dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: f
 - dimensionless: g
@@ -27,13 +27,13 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: g
 name_overrides:
-- dimensionless: '''[variable]'''
+- variable: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Numerator function f
 - dimensionless: Denominator function g
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Numerator function f
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Denominator function g

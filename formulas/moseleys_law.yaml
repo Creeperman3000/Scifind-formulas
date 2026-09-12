@@ -14,6 +14,7 @@ symbol_overrides:
   - dimensionless: k
   - dimensionless: Z
   - dimensionless: \sigma
+  - frequency: ''
 name_overrides:
   - frequency: Characteristic X-ray [frequency]
   - dimensionless: Proportionality constant

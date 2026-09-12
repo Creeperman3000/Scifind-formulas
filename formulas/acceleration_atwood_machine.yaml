@@ -18,6 +18,7 @@ symbol_overrides:
 - mass: m_2
 - mass: m_1
 - mass: m_2
+- acceleration: ''
 name_overrides:
 - acceleration: '[acceleration]'
 - mass: '[mass] 1'

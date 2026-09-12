@@ -11,6 +11,7 @@ description: "The foundational relation of statistical mechanics, connecting the
 equation: entropy eq boltzmann_constant mul log euler_e dimensionless
 symbol_overrides:
 - dimensionless: Ω
+- entropy: ''
 name_overrides:
 - entropy: '[entropy]'
 - dimensionless: Number of microstates

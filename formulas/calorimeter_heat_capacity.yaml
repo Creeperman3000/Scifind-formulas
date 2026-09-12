@@ -11,5 +11,9 @@ description: "The calorimeter constant is the amount of heat needed to raise the
 equation: specific_heat_capacity eq energy frac Delta temperature
 symbol_overrides:
 - specific_heat_capacity: C_{cal}
+- energy: ''
+- temperature: ''
 name_overrides:
 - specific_heat_capacity: Calorimeter heat capacity
+- energy: ''
+- temperature: ''

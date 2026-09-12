@@ -15,7 +15,9 @@ symbol_overrides:
 - mass: m_1
 - mass: m_2
 - length: r
+- force: ''
 name_overrides:
 - mass: '[mass] 1'
 - mass: '[mass] 2'
 - length: Distance
+- force: ''

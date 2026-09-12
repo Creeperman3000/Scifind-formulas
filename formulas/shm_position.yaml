@@ -14,7 +14,9 @@ symbol_overrides:
   - length: ''
   - length: A
   - angular_velocity: ω
+  - time: ''
 name_overrides:
   - length: ''
   - length: Amplitude
   - angular_velocity: Angular frequency
+  - time: ''

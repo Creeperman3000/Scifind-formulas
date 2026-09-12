@@ -10,6 +10,7 @@ equation: volume eq pi mul (length pow 2) mul (length) frac 4
 symbol_overrides:
 - length: d
 - length: h
+- volume: ''
 name_overrides:
 - volume: '[volume] of cylinder'
 - length: Diameter

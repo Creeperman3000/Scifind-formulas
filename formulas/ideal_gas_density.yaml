@@ -15,6 +15,11 @@ description: The density of an ideal gas is the mass per unit volume expressed i
 equation: density eq pressure mul molar_mass frac gas_constant mul temperature
 symbol_overrides:
 - density: \rho
+- pressure: ''
+- molar_mass: ''
+- temperature: ''
 name_overrides:
 - density: Gas [density]
 - molar_mass: '[molar_mass] of the gas'
+- pressure: ''
+- temperature: ''

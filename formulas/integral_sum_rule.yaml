@@ -23,8 +23,8 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Function f(x)
 - dimensionless: Function g(x)
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Function f(x)
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Function g(x)
-- angle: '[variable]'
+- angle: '[angle|variable]'

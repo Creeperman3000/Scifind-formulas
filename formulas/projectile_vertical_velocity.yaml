@@ -14,7 +14,10 @@ symbol_overrides:
 - velocity: v_0
 - angle: θ
 - acceleration: g
+- time: ''
 name_overrides:
 - velocity: Vertical [velocity]
 - velocity: Initial [velocity]
 - angle: Launch angle
+- acceleration: ''
+- time: ''

@@ -17,6 +17,11 @@ equation: velocity eq sqrt (dimensionless mul (gas_constant mul temperature) fra
   molar_mass) 2
 symbol_overrides:
 - dimensionless: γ
+- velocity: ''
+- temperature: ''
+- molar_mass: ''
 name_overrides:
 - velocity: Speed of sound
 - dimensionless: Adiabatic index
+- temperature: ''
+- molar_mass: ''

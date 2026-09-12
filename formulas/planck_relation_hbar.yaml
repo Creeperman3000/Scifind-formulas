@@ -12,6 +12,7 @@ description: "Relates the energy of a photon to its angular frequency through th
 equation: energy eq planck_constant frac (pi mul 2) mul angular_velocity
 symbol_overrides:
 - angular_velocity: ω
+- energy: ''
 name_overrides:
 - energy: Photon [energy]
-- angular_velocity: Angular [frequency]
+- angular_velocity: Angular [angular_velocity|frequency]

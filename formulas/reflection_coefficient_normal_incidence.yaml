@@ -19,8 +19,10 @@ symbol_overrides:
 - refractive_index: n_2
 - refractive_index: n_1
 - refractive_index: n_2
+- reflectance: ''
 name_overrides:
 - refractive_index: '[refractive_index] of incident medium'
 - refractive_index: '[refractive_index] of transmitted medium'
 - refractive_index: '[refractive_index] of incident medium'
 - refractive_index: '[refractive_index] of transmitted medium'
+- reflectance: ''

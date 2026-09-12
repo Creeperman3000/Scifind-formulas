@@ -17,6 +17,7 @@ symbol_overrides:
   - length: L
   - thermal_conductivity: k
   - area: A
+  - time: ''
 name_overrides:
   - energy: Heat transferred per unit time
   - temperature: Hot [temperature]
@@ -24,3 +25,4 @@ name_overrides:
   - length: Thickness
   - thermal_conductivity: '[thermal_conductivity]'
   - area: Cross-sectional [area]
+  - time: ''

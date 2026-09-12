@@ -11,6 +11,12 @@ links:
 description: "The ideal gas law relates the pressure, volume, temperature, and amount of an ideal gas in a single equation of state. It is an extension of Boyle's, Charles's, and Avogadro's laws and provides a good approximation for real gases at low density and high temperature."
 equation: pressure mul volume eq amount mul gas_constant mul temperature
 symbol_overrides:
-  - gas_constant: R
+  - pressure: ''
+  - volume: ''
+  - amount: ''
+  - temperature: ''
 name_overrides:
   - amount: Moles
+  - pressure: ''
+  - volume: ''
+  - temperature: ''

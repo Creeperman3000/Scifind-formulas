@@ -11,6 +11,7 @@ description: "Gives the fractional transmittance of light through a sample direc
 equation: dimensionless eq 10 pow (drop absorbance sub)
 symbol_overrides:
 - dimensionless: T
+- absorbance: ''
 name_overrides:
 - dimensionless: Transmittance
 - absorbance: Absorbance

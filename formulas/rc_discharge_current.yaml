@@ -13,6 +13,9 @@ equation: current eq drop current mul exp (drop (time frac resistance mul capaci
 symbol_overrides:
 - current: I(t)
 - current: I₀
+- time: ''
+- resistance: ''
+- capacitance: ''
 name_overrides:
 - current: Discharge [current]
 - current: Initial [current]

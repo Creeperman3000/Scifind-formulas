@@ -18,7 +18,7 @@ symbol_overrides:
 - dimensionless: \nu_B
 name_overrides:
 - dimensionless: Actual-to-stoichiometric mole ratio of A
-- dimensionless: '[amount] of A'
+- dimensionless: '[dimensionless|amount] of A'
 - dimensionless: Stoichiometric coefficient of A
-- dimensionless: '[amount] of B'
+- dimensionless: '[dimensionless|amount] of B'
 - dimensionless: Stoichiometric coefficient of B

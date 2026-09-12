@@ -18,6 +18,7 @@ symbol_overrides:
 - charge: q_2
 - dimensionless: \varepsilon_r
 - length: r
+- force: ''
 name_overrides:
 - force: Coulomb [force]
 - charge: Charge 1

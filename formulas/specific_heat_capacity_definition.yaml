@@ -14,7 +14,10 @@ equation: specific_heat_capacity eq energy frac mass mul temperature
 symbol_overrides:
 - energy: Q
 - temperature: \Delta T
+- specific_heat_capacity: ''
+- mass: ''
 name_overrides:
 - specific_heat_capacity: Specific heat
 - energy: Heat
 - temperature: '[temperature] change'
+- mass: ''

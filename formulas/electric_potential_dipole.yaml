@@ -17,6 +17,7 @@ symbol_overrides:
 - electric_dipole_moment: p
 - angle: θ
 - length: r
+- electric_potential: ''
 name_overrides:
 - electric_potential: '[electric_potential]'
 - electric_dipole_moment: Dipole moment

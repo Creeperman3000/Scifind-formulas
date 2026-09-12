@@ -9,12 +9,12 @@ links:
   - https://www.cuemath.com/algebra/square-of-a-trinomial/
   - https://www.khanacademy.org/math/algebra/x2e8-multiplication-and-factoring/x2e8-factoring-polynomials-perfect-square/a/factoring-quadratics-perfect-squares
 description: "The square of a three-term sum (a+b+c) expands to the sum of the three individual squares plus twice every cross-product pair. The same structure underlies the multinomial theorem and is the natural generalization of the two-term perfect-square identity."
-equation: (dimensionless add dimensionless add dimensionless) pow 2 eq (dimensionless
+equation: (variable add dimensionless add dimensionless) pow 2 eq (dimensionless
   pow 2) add (dimensionless pow 2) add (dimensionless pow 2) add (2 mul dimensionless
   mul dimensionless ) add (2 mul dimensionless mul dimensionless ) add 2 mul dimensionless
   mul dimensionless
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: c
 - dimensionless: a
@@ -27,7 +27,7 @@ symbol_overrides:
 - dimensionless: b
 - dimensionless: c
 name_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: c
 - dimensionless: a²
@@ -39,4 +39,3 @@ name_overrides:
 - dimensionless: a
 - dimensionless: c
 - dimensionless: b
-- dimensionless: c

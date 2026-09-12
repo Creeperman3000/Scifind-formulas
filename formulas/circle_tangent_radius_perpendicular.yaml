@@ -13,5 +13,5 @@ symbol_overrides:
 - angle: θ
 - angle: 90°
 name_overrides:
-- angle: Angle between radius and [tangent]
+- angle: Angle between radius and tangent
 - angle: Right angle

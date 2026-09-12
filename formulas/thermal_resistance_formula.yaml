@@ -13,6 +13,8 @@ equation: thermal_resistance eq length frac thermal_conductivity
 symbol_overrides:
 - thermal_resistance: R
 - length: L
+- thermal_conductivity: ''
 name_overrides:
 - thermal_resistance: Thermal resistance
 - length: Thickness
+- thermal_conductivity: ''

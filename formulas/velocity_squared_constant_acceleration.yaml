@@ -16,6 +16,10 @@ equation: velocity pow 2 eq (velocity pow 2) add 2 mul acceleration mul length
 symbol_overrides:
 - velocity: ''
 - velocity: u
+- acceleration: ''
+- length: ''
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
+- acceleration: ''
+- length: ''

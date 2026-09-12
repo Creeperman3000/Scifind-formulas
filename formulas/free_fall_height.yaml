@@ -13,6 +13,7 @@ equation: length eq acceleration mul (time pow 2 ) frac 2
 symbol_overrides:
 - length: h
 - acceleration: g
+- time: ''
 name_overrides:
 - length: Height (free fall)
 - acceleration: Gravitational [acceleration]

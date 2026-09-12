@@ -13,5 +13,9 @@ description: "The pressure at a depth within a static fluid, due to the weight o
 equation: pressure eq density mul (standard_gravity) mul length
 symbol_overrides:
 - length: h
+- pressure: ''
+- density: ''
 name_overrides:
 - length: Depth
+- pressure: ''
+- density: ''

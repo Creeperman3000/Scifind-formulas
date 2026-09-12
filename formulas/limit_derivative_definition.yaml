@@ -17,17 +17,17 @@ description: The limit definition of the derivative expresses the derivative of 
   of the function. This definition is the foundation of differential calculus and
   is the starting point for deriving all standard differentiation rules and the derivatives
   of elementary functions.
-equation: dimensionless eq lim dimensionless dimensionless ((dimensionless sub dimensionless)
+equation: variable eq lim dimensionless dimensionless ((dimensionless sub dimensionless)
   frac dimensionless)
 symbol_overrides:
-- dimensionless: f'(x)
+- variable: f'(x)
 - dimensionless: h
 - dimensionless: '0'
 - dimensionless: f(x+h)
 - dimensionless: f(x)
 - dimensionless: h
 name_overrides:
-- dimensionless: Derivative
+- variable: Derivative
 - dimensionless: Increment
 - dimensionless: Limit value
 - dimensionless: Shifted function

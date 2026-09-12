@@ -15,3 +15,5 @@ description: The moment of inertia of a thin uniform rod about a perpendicular a
 equation: moment_of_inertia eq mass mul (length pow 2) frac 12
 symbol_overrides:
 - length: L
+- moment_of_inertia: ''
+- mass: ''

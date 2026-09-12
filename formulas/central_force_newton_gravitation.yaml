@@ -15,6 +15,10 @@ equation: force eq frac (gravitational_constant mul mass mul mass) length pow 2
 symbol_overrides:
 - mass: M
 - length: r
+- force: ''
+- mass: ''
 name_overrides:
 - force: Gravitational [force]
 - length: Separation
+- mass: ''
+- mass: ''

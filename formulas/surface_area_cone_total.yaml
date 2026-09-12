@@ -12,14 +12,16 @@ description: "The total surface area of a right circular cone includes its circu
   \ base plus the lateral area swept out by the slant height. \nIt assumes a right\
   \ circular cone and uses the radius of the base together with the slant height measured\
   \ from the base edge to the apex."
-equation: area eq pi mul length mul length add length
+equation: area eq (pi mul length mul length) add (pi mul length mul length)
 symbol_overrides:
 - area: SA
 - length: r
-- length: ''
 - length: r
+- length: r
+- length: l
 name_overrides:
 - area: Total surface [area]
 - length: Radius
-- length: Slant height
 - length: Radius
+- length: Radius
+- length: Slant height

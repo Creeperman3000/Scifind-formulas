@@ -13,5 +13,5 @@ symbol_overrides:
 - molar_heat_capacity: C_p
 - molar_heat_capacity: C_V
 name_overrides:
-- molar_heat_capacity: Molar heat capacity at constant [pressure]
-- molar_heat_capacity: Molar heat capacity at constant [volume]
+- molar_heat_capacity: Molar heat capacity at constant [molar_heat_capacity|pressure]
+- molar_heat_capacity: Molar heat capacity at constant [molar_heat_capacity|volume]

@@ -17,3 +17,4 @@ symbol_overrides:
 name_overrides:
 - pressure: Sound [pressure]
 - pressure: Reference [pressure]
+- logarithmic_ratio: ''

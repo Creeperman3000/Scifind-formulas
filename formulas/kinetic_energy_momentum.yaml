@@ -11,6 +11,10 @@ equation: energy eq frac (momentum pow 2) (dimensionless mul mass)
 symbol_overrides:
 - energy: E_k
 - dimensionless: '2'
+- momentum: ''
+- mass: ''
 name_overrides:
 - energy: Kinetic [energy]
 - dimensionless: Two
+- momentum: ''
+- mass: ''

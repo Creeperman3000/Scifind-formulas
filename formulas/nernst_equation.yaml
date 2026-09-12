@@ -14,8 +14,11 @@ symbol_overrides:
 - electric_potential: E
 - electric_potential: E°
 - equilibrium_constant: Q
+- temperature: ''
+- amount: ''
 name_overrides:
 - electric_potential: Cell potential
 - electric_potential: Standard cell potential
 - amount: Moles of electrons
 - equilibrium_constant: Reaction quotient
+- temperature: ''

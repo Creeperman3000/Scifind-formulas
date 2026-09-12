@@ -16,6 +16,8 @@ equation: energy eq sqrt ( (momentum pow 2 mul speed_of_light pow 2) add mass po
   2 mul speed_of_light pow 4 ) 2
 symbol_overrides:
 - mass: m_0
+- energy: ''
+- momentum: ''
 name_overrides:
 - energy: Total [energy]
 - momentum: Relativistic [momentum]

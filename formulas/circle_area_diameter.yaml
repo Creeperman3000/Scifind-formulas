@@ -10,6 +10,7 @@ description: "Computes the area enclosed by a circle directly from its diameter,
 equation: area eq pi mul (length pow 2) frac 4
 symbol_overrides:
 - length: d
+- area: ''
 name_overrides:
 - area: '[area] of circle'
 - length: Diameter

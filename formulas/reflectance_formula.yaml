@@ -1,6 +1,6 @@
 name: Reflectance
 id: reflectance_formula
-topic: optics
+topic: reflection
 difficulty: 7
 links:
   - https://en.wikipedia.org/wiki/Reflectance
@@ -12,6 +12,7 @@ equation: reflectance eq irradiance frac irradiance
 symbol_overrides:
 - irradiance: I_r
 - irradiance: I_i
+- reflectance: ''
 name_overrides:
 - reflectance: '[reflectance]'
 - irradiance: Reflected intensity

@@ -14,6 +14,6 @@ symbol_overrides:
 - wavenumber: P_1
 - wavenumber: P_2
 name_overrides:
-- wavenumber: Total optical [power]
-- wavenumber: Lens [power] 1
-- wavenumber: Lens [power] 2
+- wavenumber: Total optical [wavenumber|power]
+- wavenumber: Lens [wavenumber|power] 1
+- wavenumber: Lens [wavenumber|power] 2

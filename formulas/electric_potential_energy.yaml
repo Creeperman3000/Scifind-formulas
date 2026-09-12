@@ -17,3 +17,5 @@ symbol_overrides:
 name_overrides:
 - energy: Electric potential [energy]
 - length: Separation
+- charge: ''
+- charge: ''

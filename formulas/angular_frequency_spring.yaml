@@ -10,5 +10,9 @@ description: "A mass attached to an ideal spring oscillates in simple harmonic m
 equation: angular_velocity eq sqrt (spring_constant frac mass ) 2
 symbol_overrides:
 - angular_velocity: \omega
+- spring_constant: ''
+- mass: ''
 name_overrides:
 - angular_velocity: Angular frequency
+- spring_constant: ''
+- mass: ''

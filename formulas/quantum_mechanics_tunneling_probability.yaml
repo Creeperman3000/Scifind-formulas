@@ -19,3 +19,4 @@ symbol_overrides:
 - length: L
 - energy: V_0
 - energy: E
+- mass: ''

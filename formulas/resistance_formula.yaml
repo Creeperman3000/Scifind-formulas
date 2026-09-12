@@ -12,7 +12,10 @@ equation: resistance eq resistivity mul length frac area
 symbol_overrides:
 - resistivity: ρ
 - length: L
+- resistance: ''
+- area: ''
 name_overrides:
 - resistance: Resistance
 - resistivity: Resistivity
 - area: Cross-sectional [area]
+- length: ''

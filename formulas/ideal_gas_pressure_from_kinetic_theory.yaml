@@ -16,6 +16,10 @@ description: The kinetic theory expression for the pressure of an ideal gas rela
 equation: pressure eq dimensionless mul (mass mul velocity pow 2) frac 3 mul volume
 symbol_overrides:
 - dimensionless: N
+- pressure: ''
+- mass: ''
+- velocity: ''
+- volume: ''
 name_overrides:
 - pressure: '[pressure]'
 - dimensionless: Number of molecules

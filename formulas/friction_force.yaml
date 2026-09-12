@@ -16,3 +16,4 @@ symbol_overrides:
 name_overrides:
   - force: Friction [force]
   - force: Normal [force]
+  - coefficient_of_friction: ''

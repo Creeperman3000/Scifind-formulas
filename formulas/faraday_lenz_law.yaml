@@ -12,5 +12,9 @@ description: "The Faraday-Lenz law states that the electromotive force induced i
 equation: electric_potential eq drop rmd magnetic_flux sub frac rmd time
 symbol_overrides:
 - electric_potential: \mathcal{E}
+- magnetic_flux: ''
+- time: ''
 name_overrides:
-- electric_potential: '[electromotive force]'
+- electric_potential: electromotive force
+- magnetic_flux: ''
+- time: ''

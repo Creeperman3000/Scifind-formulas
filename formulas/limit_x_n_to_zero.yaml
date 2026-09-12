@@ -12,14 +12,14 @@ links:
 description: For any fixed positive exponent n, the function x^n approaches 0 as x
   approaches 0. This basic limit law is used together with the product rule to evaluate
   limits of polynomials and other power expressions near the origin.
-equation: lim dimensionless dimensionless dimensionless pow dimensionless eq 0
+equation: lim variable dimensionless dimensionless pow dimensionless eq 0
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: '0'
 - dimensionless: x
 - dimensionless: n
 name_overrides:
-- dimensionless: '''[variable]'''
+- variable: "'[dimensionless|variable]'"
 - dimensionless: Zero
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Positive exponent

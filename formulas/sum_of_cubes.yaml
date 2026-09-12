@@ -12,11 +12,11 @@ description: The sum of two cubes is the algebraic identity that decomposes a su
   of two cubed terms into a product of a binomial and a quadratic trinomial. It is
   one of the standard 'recognizable patterns' used in polynomial factorization, alongside
   the difference of squares and the difference of two cubes.
-equation: (dimensionless pow 3) add dimensionless pow 3 eq (dimensionless add dimensionless)
+equation: (variable pow 3) add dimensionless pow 3 eq (dimensionless add dimensionless)
   mul ((dimensionless pow 2) sub (dimensionless mul dimensionless) add dimensionless
   pow 2 )
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: b
@@ -25,7 +25,7 @@ symbol_overrides:
 - dimensionless: b
 - dimensionless: b
 name_overrides:
-- dimensionless: First cube base a
+- variable: First cube base a
 - dimensionless: Second cube base b
 - dimensionless: First base a
 - dimensionless: Second base b

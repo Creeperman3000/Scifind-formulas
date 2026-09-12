@@ -16,13 +16,11 @@ description: Every point mass attracts every other point mass with a force direc
 equation: force eq gravitational_constant mul (mass mul mass) frac length pow 2
 symbol_overrides:
 - force: F_g
-- gravitational_constant: G
 - mass: m_1
 - mass: m_2
 - length: r
 name_overrides:
 - force: Gravitational [force]
-- gravitational_constant: Gravitational [gravitational_constant]
 - mass: Mass of body 1
 - mass: Mass of body 2
 - length: Center-to-center distance

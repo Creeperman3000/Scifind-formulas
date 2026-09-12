@@ -12,6 +12,9 @@ description: "The linear speed of a point moving along a circular path, equal to
 equation: velocity eq length mul angular_velocity
 symbol_overrides:
 - length: r
+- velocity: ''
+- angular_velocity: ''
 name_overrides:
 - velocity: Tangential [velocity]
 - length: Radius
+- angular_velocity: ''

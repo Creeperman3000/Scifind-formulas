@@ -17,3 +17,4 @@ equation: oint drop drop (electric_field_strength times area) eq charge frac vac
 name_overrides:
 - electric_field_strength: Electric field
 - area: Surface [area]
+- charge: ''

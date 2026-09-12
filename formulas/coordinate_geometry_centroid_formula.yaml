@@ -7,15 +7,15 @@ links:
   - https://www.cuemath.com/centroid-formula
   - https://www.cuemath.com/geometry/centroid-of-a-triangle/
 description: "The centroid of a triangle is the point where its three medians intersect, and it acts as the triangle's center of mass for a uniform lamina. In coordinates it is found by averaging the vertices' positions separately in each direction. The centroid always lies inside the triangle and divides each median in a 2:1 ratio."
-equation: dimensionless eq (dimensionless add (dimensionless) add dimensionless )
+equation: variable eq (dimensionless add (dimensionless) add dimensionless )
   frac 3
 symbol_overrides:
-- dimensionless: x_G
+- variable: x_G
 - dimensionless: x_1
 - dimensionless: x_2
 - dimensionless: x_3
 name_overrides:
-- dimensionless: Centroid x-coordinate
+- variable: Centroid x-coordinate
 - dimensionless: x₁
 - dimensionless: x₂
 - dimensionless: x₃

@@ -18,3 +18,4 @@ symbol_overrides:
 name_overrides:
 - catalytic_activity: Reaction velocity
 - concentration: Substrate [concentration]
+- time: ''

@@ -13,6 +13,8 @@ equation: velocity eq sqrt (gravitational_constant mul mass frac length) 2
 symbol_overrides:
 - mass: M
 - length: r
+- velocity: ''
 name_overrides:
 - velocity: Orbital [velocity]
 - length: Orbital radius
+- mass: ''

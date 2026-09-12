@@ -12,16 +12,14 @@ description: The standard Cartesian form of a hyperbola centered at the origin w
   its transverse axis along the x-axis, where a is the semi-transverse axis and b
   is the semi-conjugate axis. Replacing x by (x-h) and y by (y-k) shifts the center
   to (h, k).
-equation: dimensionless eq (dimensionless pow 2) frac (dimensionless pow 2) sub (dimensionless
+equation: 1 eq (dimensionless pow 2) frac (dimensionless pow 2) sub (dimensionless
   pow 2) frac dimensionless pow 2
 symbol_overrides:
-- dimensionless: '1'
 - dimensionless: x
 - dimensionless: a
 - dimensionless: y
 - dimensionless: b
 name_overrides:
-- dimensionless: Hyperbola equation
 - dimensionless: x-coordinate
 - dimensionless: Semi-transverse axis
 - dimensionless: y-coordinate

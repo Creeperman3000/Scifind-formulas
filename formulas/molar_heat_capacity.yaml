@@ -13,7 +13,10 @@ equation: molar_heat_capacity eq energy frac (amount mul (Delta temperature))
 symbol_overrides:
 - molar_heat_capacity: C_m
 - temperature: \Delta T
+- energy: ''
+- amount: ''
 name_overrides:
 - molar_heat_capacity: Molar heat capacity
 - energy: Heat
 - temperature: Temperature change
+- amount: ''

@@ -12,4 +12,4 @@ description: Each photon carries an intrinsic (spin) angular momentum whose magn
   particles and spin-to-orbital angular momentum conversion.
 equation: angular_momentum eq planck_constant frac 2 mul pi
 name_overrides:
-- angular_momentum: Photon angular [momentum]
+- angular_momentum: Photon angular [angular_momentum|momentum]

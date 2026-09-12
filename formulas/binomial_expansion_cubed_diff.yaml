@@ -12,11 +12,11 @@ description: This algebraic identity, also known as the cube of a difference, ex
   is a special case of the binomial theorem with alternating signs and is used to
   expand expressions, factor cubics, and simplify mental arithmetic such as cubing
   numbers near round values.
-equation: (dimensionless sub dimensionless) pow 3 eq (dimensionless pow 3) sub ((dimensionless
+equation: (variable sub dimensionless) pow 3 eq (dimensionless pow 3) sub ((dimensionless
   pow 2) mul dimensionless mul 3) add (dimensionless mul (dimensionless pow 2) mul
   3) sub dimensionless pow 3
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: a
@@ -25,7 +25,7 @@ symbol_overrides:
 - dimensionless: b
 - dimensionless: b
 name_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a³
 - dimensionless: ''

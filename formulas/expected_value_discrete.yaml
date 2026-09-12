@@ -13,6 +13,6 @@ symbol_overrides:
 - dimensionless: x_i
 - dimensionless: p_i
 name_overrides:
-- dimensionless: Expected [value]
+- dimensionless: Expected value
 - dimensionless: Possible value of X
 - dimensionless: Probability of that value

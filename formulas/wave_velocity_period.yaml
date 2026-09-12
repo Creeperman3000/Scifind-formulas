@@ -13,6 +13,7 @@ equation: velocity eq length frac time
 symbol_overrides:
 - length: λ
 - time: T
+- velocity: ''
 name_overrides:
 - velocity: Wave [velocity]
 - length: Wavelength

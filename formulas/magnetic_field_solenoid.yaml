@@ -11,6 +11,8 @@ description: "Relates the magnetic flux density inside a long, tightly wound sol
 equation: magnetic_flux_density eq vacuum_permeability mul (dimensionless) mul current
 symbol_overrides:
 - dimensionless: n
+- magnetic_flux_density: ''
+- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - dimensionless: Turns per unit length

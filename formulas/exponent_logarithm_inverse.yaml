@@ -7,12 +7,12 @@ links:
   - https://mathmonks.com/logarithm/logarithm-rules-properties
   - https://k12.libretexts.org/Bookshelves/Mathematics/Analysis/3%3A_Exponential_and_Logarithmic_Functions/3.3%3A_Properties_of_Logarithms/3.3.3%3A_Inverse_Properties_of_Logarithms
 description: "States the inverse property connecting exponentials and logarithms with the same base: taking a logarithm and then exponentiating undoes itself, returning the original number. It holds for any valid logarithm base (positive and not equal to one) acting on a positive argument, and underpins solving exponential equations by taking logarithms."
-equation: dimensionless eq dimensionless pow dimensionless
+equation: variable eq dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: \log_{a}{x}
 name_overrides:
-- dimensionless: Value being recovered
+- variable: Value being recovered
 - dimensionless: Base a
 - dimensionless: Logarithm of x in base a

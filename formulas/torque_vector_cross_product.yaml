@@ -13,6 +13,7 @@ equation: torque eq length times force
 symbol_overrides:
 - torque: τ
 - length: r
+- force: ''
 name_overrides:
 - torque: '[torque]'
 - length: Position vector

@@ -9,9 +9,9 @@ links:
   - https://www.khanacademy.org/math/pre-algebra/pre-algebra-exponents-radicals/pre-algebra-exponents/v/exponent-properties-involving-quotients
   - https://mathworld.wolfram.com/ExponentLaws.html
 description: "The power of a quotient rule states that raising a quotient to an exponent is equivalent to separately raising the numerator and denominator to that exponent and then dividing. It follows directly from the power-of-a-product rule together with the definition of negative exponents."
-equation: (dimensionless frac dimensionless) pow dimensionless eq dimensionless pow dimensionless frac dimensionless pow dimensionless
+equation: (variable frac dimensionless) pow dimensionless eq dimensionless pow dimensionless frac dimensionless pow dimensionless
 symbol_overrides:
-  - dimensionless: a
+  - variable: a
   - dimensionless: b
   - dimensionless: n
   - dimensionless: a
@@ -19,7 +19,7 @@ symbol_overrides:
   - dimensionless: b
   - dimensionless: n
 name_overrides:
-  - dimensionless: First factor
+  - variable: First factor
   - dimensionless: Second factor
   - dimensionless: Exponent
   - dimensionless: First factor

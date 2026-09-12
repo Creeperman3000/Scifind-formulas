@@ -11,5 +11,9 @@ description: "An inductor carrying a current stores energy in the magnetic field
 equation: energy eq inductance mul (current pow 2) frac 2
 symbol_overrides:
 - energy: E_L
+- inductance: ''
+- current: ''
 name_overrides:
 - energy: Stored [energy]
+- inductance: ''
+- current: ''

@@ -11,5 +11,9 @@ description: "Relates the volume of a right prism or cylinder-like solid to its 
 equation: volume eq area mul length
 symbol_overrides:
   - length: h
+  - volume: ''
+  - area: ''
 name_overrides:
   - length: Height
+  - volume: ''
+  - area: ''

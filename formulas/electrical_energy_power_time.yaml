@@ -10,3 +10,5 @@ description: "The electrical energy consumed or supplied by a device equals its 
 equation: energy eq power mul time
 name_overrides:
 - energy: Electrical [energy]
+- power: ''
+- time: ''

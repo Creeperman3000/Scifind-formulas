@@ -13,6 +13,7 @@ equation: area eq 4 mul ((pi pow 2) mul (length) mul length )
 symbol_overrides:
 - length: R
 - length: r
+- area: ''
 name_overrides:
 - area: Surface [area]
 - length: Major radius

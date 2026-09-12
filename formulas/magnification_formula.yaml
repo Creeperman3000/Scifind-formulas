@@ -14,9 +14,7 @@ symbol_overrides:
 - dimensionless: m
 - length: h_i
 - length: h_o
-- length: ''
 name_overrides:
 - dimensionless: Magnification
 - length: Image height
 - length: Object height
-- length: ''

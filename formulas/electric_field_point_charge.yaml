@@ -16,5 +16,9 @@ equation: electric_field_strength eq frac (coulomb_constant mul charge) length p
   2
 symbol_overrides:
 - length: r
+- electric_field_strength: ''
+- charge: ''
 name_overrides:
 - length: Distance
+- electric_field_strength: ''
+- charge: ''

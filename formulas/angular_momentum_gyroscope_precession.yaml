@@ -11,6 +11,7 @@ equation: angular_velocity eq torque frac angular_momentum
 symbol_overrides:
 - angular_velocity: \Omega
 - torque: \tau
+- angular_momentum: ''
 name_overrides:
 - angular_velocity: Precession angular velocity
 - torque: Applied [torque]

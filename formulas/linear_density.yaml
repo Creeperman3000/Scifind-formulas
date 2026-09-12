@@ -12,5 +12,9 @@ description: "Linear mass density describes the mass per unit length of a one-di
 equation: linear_density eq mass frac length
 symbol_overrides:
   - linear_density: μ
+  - mass: ''
+  - length: ''
 name_overrides:
-  - linear_density: Linear [density]
+  - linear_density: Linear [linear_density|density]
+  - mass: ''
+  - length: ''

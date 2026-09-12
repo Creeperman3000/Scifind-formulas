@@ -16,6 +16,8 @@ equation: length eq (velocity pow 2) frac 2 mul coefficient_of_friction mul stan
 symbol_overrides:
 - length: d
 - coefficient_of_friction: μ
+- velocity: ''
 name_overrides:
 - length: Braking distance
 - velocity: Initial [velocity]
+- coefficient_of_friction: ''

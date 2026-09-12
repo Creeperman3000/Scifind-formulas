@@ -14,6 +14,10 @@ equation: force eq (pi mul 6) mul (dynamic_viscosity) mul (length) mul velocity
 symbol_overrides:
 - force: F_d
 - length: r
+- dynamic_viscosity: ''
+- velocity: ''
 name_overrides:
 - force: Drag [force]
 - length: Sphere radius
+- dynamic_viscosity: ''
+- velocity: ''

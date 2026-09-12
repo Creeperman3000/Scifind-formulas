@@ -12,6 +12,8 @@ equation: energy eq spring_constant mul ((length pow 2) sub length pow 2 ) frac 
 symbol_overrides:
 - length: x₁
 - length: x₂
+- energy: ''
+- spring_constant: ''
 name_overrides:
 - energy: Work done by spring
 - spring_constant: '[spring_constant]'

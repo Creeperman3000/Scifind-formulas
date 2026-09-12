@@ -21,3 +21,7 @@ name_overrides:
 - velocity: Initial [velocity] 1
 - velocity: Initial [velocity] 2
 - velocity: Final [velocity]
+- mass: ''
+- mass: ''
+- mass: ''
+- mass: ''

@@ -12,6 +12,8 @@ equation: velocity eq sqrt (force frac mass frac length) 2
 symbol_overrides:
 - force: T
 - length: μ
+- velocity: ''
+- mass: ''
 name_overrides:
 - velocity: Wave [velocity]
 - force: String [force] (tension)

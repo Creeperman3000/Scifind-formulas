@@ -12,6 +12,8 @@ description: "At standard temperature and pressure, one mole of any ideal gas oc
 equation: amount eq volume frac molar_volume
 symbol_overrides:
 - molar_volume: '22.4'
+- amount: ''
+- volume: ''
 name_overrides:
 - amount: Amount of substance
 - volume: Gas volume at STP

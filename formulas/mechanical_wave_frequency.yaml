@@ -12,6 +12,9 @@ description: Relates the frequency of a periodic traveling wave to its phase spe
 equation: frequency eq velocity frac length
 symbol_overrides:
 - length: \lambda
+- frequency: ''
+- velocity: ''
 name_overrides:
 - velocity: Wave [velocity]
 - length: Wavelength
+- frequency: ''

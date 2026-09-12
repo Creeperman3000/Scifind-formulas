@@ -13,6 +13,10 @@ equation: velocity eq velocity add acceleration mul time
 symbol_overrides:
 - velocity: ''
 - velocity: u
+- acceleration: ''
+- time: ''
 name_overrides:
 - velocity: Final [velocity]
 - velocity: Initial [velocity]
+- acceleration: ''
+- time: ''

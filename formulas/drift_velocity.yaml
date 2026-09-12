@@ -9,6 +9,13 @@ description: Gives the slow average velocity that charge carriers (such as free 
 equation: velocity eq current frac (number_density mul charge mul area)
 symbol_overrides:
 - velocity: v_d
+- current: ''
+- number_density: ''
+- charge: ''
+- area: ''
 name_overrides:
 - velocity: Drift [velocity]
-- number_density: Charge carrier [number density]
+- number_density: Charge carrier [number_density]
+- current: ''
+- charge: ''
+- area: ''

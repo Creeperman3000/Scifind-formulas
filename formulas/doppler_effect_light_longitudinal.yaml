@@ -15,9 +15,9 @@ equation: frequency eq frequency mul sqrt ((dimensionless sub dimensionless) fra
 symbol_overrides:
 - frequency: f'
 - frequency: f
-- dimensionless: 1
+- dimensionless: '1'
 - dimensionless: \beta
-- dimensionless: 1
+- dimensionless: '1'
 - dimensionless: \beta
 name_overrides:
 - frequency: Observed [frequency]

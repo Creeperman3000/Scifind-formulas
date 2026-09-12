@@ -11,7 +11,7 @@ links:
 description: "Volume percent expresses the concentration of a solute in a solution as the volume of solute divided by the total volume of the solution, multiplied by 100. It is most commonly used when mixing two fluids such as liquids or gases, although percentages are strictly additive only for ideal mixtures."
 equation: dimensionless eq volume frac (volume) mul dimensionless
 symbol_overrides:
-  - dimensionless: '\%v/v'
+  - dimensionless: \%v/v
   - volume: V_{solute}
   - volume: V_{solution}
   - dimensionless: '100'
@@ -19,3 +19,4 @@ name_overrides:
   - dimensionless: Volume percent
   - volume: '[volume] of solute'
   - volume: '[volume] of solution'
+  - dimensionless: ''

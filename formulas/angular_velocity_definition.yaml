@@ -11,7 +11,8 @@ equation: angular_velocity eq angle frac time
 symbol_overrides:
 - angular_velocity: ω
 - angle: θ
+- time: ''
 name_overrides:
-- angular_velocity: Angular [velocity]
+- angular_velocity: Angular [angular_velocity|velocity]
 - angle: Angular displacement
 - time: '[time]'

@@ -8,7 +8,7 @@ links:
   - https://en.wikipedia.org/wiki/Zero_of_a_function
   - https://www.encyclopediaofmath.org/index.php?title=Linear_equation
 description: "The intercept form expresses the equation of a non-vertical, non-horizontal straight line in the Cartesian plane that crosses both coordinate axes, using the x- and y-intercepts as parameters. The form is convenient for reading the two axis-intersection points directly and for computing the area of the right triangle formed by the line and the axes. It is derived from the two-point form and applies only when neither intercept is zero, i.e. the line does not pass through the origin and is not parallel to either axis."
-equation: length frac (length) add length frac length eq dimensionless
+equation: length frac (length) add length frac length eq 1
 symbol_overrides:
 - length: x
 - length: a

@@ -13,8 +13,10 @@ symbol_overrides:
 - dimensionless: '2'
 - length: b
 - length: h
+- area: ''
 name_overrides:
 - dimensionless: One
 - dimensionless: Two
 - length: Base
 - length: Height
+- area: ''

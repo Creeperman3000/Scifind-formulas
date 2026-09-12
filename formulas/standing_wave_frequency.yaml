@@ -20,6 +20,7 @@ symbol_overrides:
 - frequency: f_n
 - dimensionless: n
 - length: L
+- velocity: ''
 name_overrides:
 - frequency: Standing wave [frequency]
 - dimensionless: Harmonic number

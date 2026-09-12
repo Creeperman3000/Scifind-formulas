@@ -10,6 +10,8 @@ description: "Magnitude of the acceleration of an object in uniform circular mot
 equation: acceleration eq frac (velocity pow 2) length
 symbol_overrides:
 - length: r
+- acceleration: ''
+- velocity: ''
 name_overrides:
 - acceleration: Centripetal [acceleration]
 - velocity: Speed

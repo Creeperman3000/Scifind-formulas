@@ -13,6 +13,7 @@ equation: area eq (pi mul 2) mul (length) mul length
 symbol_overrides:
 - length: R
 - length: h
+- area: ''
 name_overrides:
 - area: '[area] of spherical zone'
 - length: Sphere radius

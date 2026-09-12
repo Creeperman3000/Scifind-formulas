@@ -15,9 +15,13 @@ symbol_overrides:
 - heat_transfer_coefficient: h
 - temperature: T_s
 - temperature: T_{env}
+- energy: ''
+- time: ''
+- area: ''
 name_overrides:
 - energy: Heat transfer rate
 - heat_transfer_coefficient: Convection coefficient
 - area: Surface [area]
 - temperature: Surface [temperature]
 - temperature: Ambient [temperature]
+- time: ''

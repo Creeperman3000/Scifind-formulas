@@ -13,9 +13,11 @@ symbol_overrides:
 - number_density: n
 - charge: e
 - velocity: v_d
+- current: ''
+- area: ''
 name_overrides:
 - current: '[current|Current]'
-- number_density: Charge carrier [number density]
+- number_density: Charge carrier [number_density]
 - charge: Elementary [charge]
 - velocity: Drift [velocity]
 - area: Cross-sectional [area]

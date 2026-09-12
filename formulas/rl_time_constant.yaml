@@ -11,5 +11,9 @@ description: "The time constant of an RL circuit characterizes how quickly the c
 equation: time eq inductance frac resistance
 symbol_overrides:
 - time: τ
+- inductance: ''
+- resistance: ''
 name_overrides:
 - time: Time constant
+- inductance: ''
+- resistance: ''

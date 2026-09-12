@@ -13,7 +13,11 @@ symbol_overrides:
 - energy: U
 - dimensionless: '1'
 - dimensionless: '2'
+- capacitance: ''
+- electric_potential: ''
 name_overrides:
 - dimensionless: One
 - dimensionless: Two
 - electric_potential: Voltage
+- energy: ''
+- capacitance: ''

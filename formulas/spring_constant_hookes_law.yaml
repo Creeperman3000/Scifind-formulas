@@ -12,3 +12,5 @@ description: "Hooke's law states that the restoring force exerted by an ideal sp
 equation: spring_constant eq force frac length
 name_overrides:
 - length: Extension
+- spring_constant: ''
+- force: ''

@@ -13,6 +13,8 @@ equation: mass eq mass mul lorentz_factor
 symbol_overrides:
 - mass: m_{rel}
 - mass: m₀
+- lorentz_factor: ''
 name_overrides:
 - mass: Relativistic [mass]
 - mass: Rest [mass]
+- lorentz_factor: ''

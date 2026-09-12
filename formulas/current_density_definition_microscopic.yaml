@@ -15,6 +15,6 @@ symbol_overrides:
 - velocity: v_d
 name_overrides:
 - current_density: '[current_density]'
-- number_density: Charge carrier [number density]
+- number_density: Charge carrier [number_density]
 - charge: '[charge] of each carrier'
 - velocity: Drift [velocity]

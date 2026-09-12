@@ -9,12 +9,12 @@ description: An nth root can be rewritten as a fractional power, with the index 
   the radical becoming the denominator of the exponent on the base. This equivalence,
   introduced in modern notation by Michel Rolle in 1690, allows the usual laws of
   exponents to be applied to radical expressions and vice versa.
-equation: dimensionless eq dimensionless pow 1 frac dimensionless
+equation: variable eq dimensionless pow 1 frac dimensionless
 symbol_overrides:
-- dimensionless: \sqrt[n]{a}
+- variable: \sqrt[n]{a}
 - dimensionless: a
 - dimensionless: n
 name_overrides:
-- dimensionless: nth root of a
+- variable: nth root of a
 - dimensionless: Base
 - dimensionless: Root index

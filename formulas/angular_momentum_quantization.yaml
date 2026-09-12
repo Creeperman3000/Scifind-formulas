@@ -16,7 +16,8 @@ equation: angular_momentum eq sqrt (dimensionless mul dimensionless add 1 ) 2 mu
 symbol_overrides:
 - dimensionless: l
 - dimensionless: l
+- angular_momentum: ''
 name_overrides:
-- angular_momentum: Orbital angular [momentum]
+- angular_momentum: Orbital angular [angular_momentum|momentum]
 - dimensionless: Azimuthal quantum number
 - dimensionless: Azimuthal quantum number

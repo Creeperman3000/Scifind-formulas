@@ -12,7 +12,11 @@ description: "Volumetric flow rate is the volume of fluid that passes through a 
 equation: volume frac time eq area mul velocity
 symbol_overrides:
 - volume: Q
+- time: ''
+- area: ''
+- velocity: ''
 name_overrides:
 - volume: Volumetric flow rate Q
 - area: Cross-sectional [area]
 - velocity: Flow [velocity]
+- time: ''

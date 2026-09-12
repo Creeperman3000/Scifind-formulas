@@ -18,6 +18,8 @@ equation: wavenumber eq rydberg_constant mul 1 frac (dimensionless pow 2) sub 1 
 symbol_overrides:
 - dimensionless: n_1
 - dimensionless: n_2
+- wavenumber: ''
 name_overrides:
 - dimensionless: Lower level n₁
 - dimensionless: Upper level n₂
+- wavenumber: ''

@@ -11,6 +11,11 @@ description: "Often called the Laplace force, this gives the mechanical force ex
 equation: force eq magnetic_flux_density mul (current) mul length
 symbol_overrides:
 - length: L
+- force: ''
+- magnetic_flux_density: ''
+- current: ''
 name_overrides:
 - force: Magnetic [force]
 - length: Wire [length]
+- magnetic_flux_density: ''
+- current: ''

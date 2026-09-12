@@ -13,7 +13,12 @@ equation: energy eq amount mul (gas_constant) mul (temperature) mul log euler_e 
 symbol_overrides:
   - volume: V₂
   - volume: V₁
+  - energy: ''
+  - amount: ''
+  - temperature: ''
 name_overrides:
   - energy: Isothermal work
   - volume: Final [volume]
   - volume: Initial [volume]
+  - amount: ''
+  - temperature: ''

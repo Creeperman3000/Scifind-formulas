@@ -34,3 +34,4 @@ name_overrides:
 - dimensionless: Coefficient of A
 - concentration: '[concentration] of B'
 - dimensionless: Coefficient of B
+- equilibrium_constant: ''

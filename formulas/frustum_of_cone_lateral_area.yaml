@@ -21,12 +21,11 @@ symbol_overrides:
 - length: h
 - length: R
 - length: r
-- length: h
+- area: ''
 name_overrides:
 - area: Lateral [area] of conical frustum
 - length: Top radius
 - length: Bottom radius
 - length: Height
-- length: ''
 - length: ''
 - length: ''

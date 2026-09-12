@@ -11,6 +11,11 @@ description: "The magnetic component of the Lorentz force is the sideways force 
 equation: force eq charge mul (velocity) mul magnetic_flux_density
 symbol_overrides:
 - charge: q
+- force: ''
+- velocity: ''
+- magnetic_flux_density: ''
 name_overrides:
 - charge: Charge
 - magnetic_flux_density: Field
+- force: ''
+- velocity: ''

@@ -14,6 +14,7 @@ equation: time eq force frac mass_concentration mul standard_gravity
 symbol_overrides:
 - time: I_{sp}
 - mass_concentration: \dot{m}
+- force: ''
 name_overrides:
 - time: Specific impulse
 - force: Thrust

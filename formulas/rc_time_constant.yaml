@@ -11,5 +11,9 @@ description: "The RC time constant characterizes how quickly a first-order RC ci
 equation: time eq resistance mul capacitance
 symbol_overrides:
 - time: τ
+- resistance: ''
+- capacitance: ''
 name_overrides:
 - time: '[time] constant'
+- resistance: ''
+- capacitance: ''

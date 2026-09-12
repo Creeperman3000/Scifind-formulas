@@ -17,8 +17,10 @@ symbol_overrides:
 - mass: m_1
 - mass: m_2
 name_overrides:
-- length: Center of [mass]
+- length: Center of [length|mass]
 - mass: '[mass] 1'
 - length: Position 1
 - mass: '[mass] 2'
 - length: Position 2
+- mass: ''
+- mass: ''

@@ -8,14 +8,14 @@ links:
   - https://mathworld.wolfram.com/GeometricSeries.html
   - https://en.wikibooks.org/wiki/Algebra/Chapter_15/Geometric_Progression_(GP)
 description: "The nth term of a geometric sequence with first term a_1 and common ratio r is obtained by multiplying a_1 by r raised to the power (n-1). This explicit formula generalizes the recursive definition in which each term equals the previous term multiplied by r."
-equation: dimensionless eq dimensionless mul dimensionless pow dimensionless sub 1
+equation: variable eq dimensionless mul dimensionless pow dimensionless sub 1
 symbol_overrides:
-- dimensionless: a_n
+- variable: a_n
 - dimensionless: a_1
 - dimensionless: r
 - dimensionless: n
 name_overrides:
-- dimensionless: nth term
+- variable: nth term
 - dimensionless: First term
 - dimensionless: Common ratio
 - dimensionless: Term number

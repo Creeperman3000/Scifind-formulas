@@ -12,13 +12,12 @@ description: Total surface area of a right circular cone, equal to the area of i
   circular base plus the area of its lateral (side) surface. The lateral surface is
   a circular sector of radius equal to the slant height when unrolled, giving the
   compact factored form.
-equation: area eq pi mul length mul length add length
+equation: area eq pi mul length mul length
 symbol_overrides:
 - length: r
-- length: r
 - length: l
+- area: ''
 name_overrides:
 - area: Surface [area]
-- length: Radius
 - length: Radius
 - length: Slant height

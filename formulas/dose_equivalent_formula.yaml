@@ -11,6 +11,9 @@ description: "Dose (equivalent) is a radiation-protection quantity that scales t
 equation: dose_equivalent eq absorbed_dose mul dimensionless
 symbol_overrides:
 - dimensionless: w_R
+- dose_equivalent: ''
+- absorbed_dose: ''
 name_overrides:
 - absorbed_dose: '[absorbed_dose]'
 - dimensionless: Radiation weighting factor
+- dose_equivalent: ''

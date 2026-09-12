@@ -7,10 +7,10 @@ links:
   - https://en.wikipedia.org/wiki/Vertical_line_test
   - https://en.wikipedia.org/wiki/Slope
 description: "A vertical line in the Cartesian plane is the set of all points sharing the same x-coordinate. It is the limiting case of a linear equation whose slope is undefined, and is the dual concept to the horizontal line y = b."
-equation: dimensionless eq dimensionless
+equation: variable eq dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 name_overrides:
-- dimensionless: x-coordinate
+- variable: x-coordinate
 - dimensionless: Constant

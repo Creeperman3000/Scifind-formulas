@@ -10,6 +10,8 @@ description: "By the impulse-momentum theorem, the constant net force that would
 equation: force eq Delta momentum frac Delta time
 symbol_overrides:
 - force: F_{avg}
+- momentum: ''
+- time: ''
 name_overrides:
 - force: Average [force]
 - momentum: '[momentum]'

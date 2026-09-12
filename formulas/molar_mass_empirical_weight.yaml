@@ -12,6 +12,7 @@ equation: molar_mass eq molar_mass mul dimensionless
 symbol_overrides:
 - molar_mass: EFW
 - dimensionless: n
+- molar_mass: ''
 name_overrides:
 - molar_mass: Empirical formula weight
 - dimensionless: Multiplier n

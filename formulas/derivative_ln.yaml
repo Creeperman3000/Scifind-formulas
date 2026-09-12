@@ -17,6 +17,6 @@ symbol_overrides:
 - angle: x
 - angle: x
 name_overrides:
-- angle: '[variable]'
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'

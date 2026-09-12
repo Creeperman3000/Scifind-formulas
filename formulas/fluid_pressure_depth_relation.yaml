@@ -13,7 +13,9 @@ symbol_overrides:
   - pressure: P
   - pressure: P_0
   - length: h
+  - density: ''
 name_overrides:
-  - pressure: "[pressure] at depth"
+  - pressure: '[pressure] at depth'
   - pressure: Surface [pressure]
   - length: Depth
+  - density: ''

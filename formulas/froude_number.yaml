@@ -12,6 +12,7 @@ equation: dimensionless eq velocity frac sqrt (standard_gravity mul length) 2
 symbol_overrides:
   - dimensionless: Fr
   - length: L
+  - velocity: ''
 name_overrides:
   - dimensionless: Froude number
   - velocity: Flow [velocity]

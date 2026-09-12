@@ -22,3 +22,4 @@ name_overrides:
 - time: Half-life
 - frequency: Rate constant
 - concentration: Initial [concentration]
+- dimensionless: ''

@@ -13,6 +13,6 @@ symbol_overrides:
 - dimensionless: n
 - dimensionless: p
 name_overrides:
-- dimensionless: Expected [value]
+- dimensionless: Expected value
 - dimensionless: Number of trials
 - dimensionless: Success probability

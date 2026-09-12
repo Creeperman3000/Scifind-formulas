@@ -14,6 +14,8 @@ equation: acceleration eq gravitational_constant mul (mass) frac length pow 2
 symbol_overrides:
 - acceleration: g
 - length: r
+- mass: ''
 name_overrides:
 - acceleration: Gravitational field strength
 - length: Distance
+- mass: ''

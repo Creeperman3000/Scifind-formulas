@@ -14,7 +14,11 @@ description: Stagnation pressure (total pressure) is the pressure a flowing flui
 equation: pressure eq pressure add density mul (velocity pow 2) frac 2
 symbol_overrides:
 - pressure: P_0
+- pressure: ''
+- density: ''
+- velocity: ''
 name_overrides:
 - pressure: Stagnation [pressure]
 - pressure: Static [pressure]
 - velocity: Speed
+- density: ''

@@ -13,5 +13,8 @@ equation: surface_tension eq force frac length
 symbol_overrides:
 - surface_tension: γ
 - length: L
+- force: ''
 name_overrides:
 - length: '[length] of contact line'
+- surface_tension: ''
+- force: ''

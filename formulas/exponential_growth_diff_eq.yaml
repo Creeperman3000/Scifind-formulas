@@ -15,7 +15,9 @@ symbol_overrides:
 - amount: N
 - frequency: r
 - amount: N
+- time: ''
 name_overrides:
 - amount: Population N
 - frequency: Growth rate
 - amount: Population N
+- time: ''

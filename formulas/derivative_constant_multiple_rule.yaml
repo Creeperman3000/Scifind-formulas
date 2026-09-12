@@ -11,19 +11,19 @@ description: 'The constant multiple rule states that a multiplicative constant c
   be factored out of a derivative: differentiating a constant times a function gives
   the constant times the derivative of the function. It is one of the basic differentiation
   rules and follows directly from the limit definition of the derivative.'
-equation: frac rmd (dimensionless mul dimensionless) rmd dimensionless eq dimensionless
+equation: frac rmd (variable mul dimensionless) rmd dimensionless eq dimensionless
   mul frac rmd dimensionless rmd dimensionless
 symbol_overrides:
-- dimensionless: c
+- variable: c
 - dimensionless: f
 - dimensionless: x
 - dimensionless: c
 - dimensionless: f
 - dimensionless: x
 name_overrides:
-- dimensionless: Constant factor
+- variable: Constant factor
 - dimensionless: Function f
-- dimensionless: '[variable|x]'
+- dimensionless: '[dimensionless|x]'
 - dimensionless: Constant factor
 - dimensionless: Derivative of f
-- dimensionless: '[variable|x]'
+- dimensionless: '[dimensionless|x]'

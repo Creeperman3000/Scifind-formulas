@@ -19,6 +19,7 @@ symbol_overrides:
 - dimensionless: '2'
 - length: r
 - length: a
+- velocity: ''
 name_overrides:
 - velocity: Orbital [velocity]
 - mass: Central [mass]

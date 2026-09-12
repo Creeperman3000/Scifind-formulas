@@ -11,5 +11,7 @@ description: "The volume enclosed by a sphere of radius r is four-thirds times p
 equation: volume eq (4 frac 3) mul (pi) mul length pow 3
 symbol_overrides:
 - length: r
+- volume: ''
 name_overrides:
 - length: Radius
+- volume: ''

@@ -13,6 +13,6 @@ symbol_overrides:
 - mass: m_{object}
 - density: \rho_{fluid}
 name_overrides:
-- volume: '[Volume] displaced'
-- mass: '[Mass] of object'
-- density: '[Density] of fluid'
+- volume: '[volume] displaced'
+- mass: '[mass] of object'
+- density: '[density] of fluid'

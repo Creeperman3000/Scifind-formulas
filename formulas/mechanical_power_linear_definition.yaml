@@ -12,6 +12,8 @@ equation: power eq energy frac time
 symbol_overrides:
 - energy: W
 - time: Δt
+- power: ''
 name_overrides:
 - power: Average [power]
 - energy: Work
+- time: ''

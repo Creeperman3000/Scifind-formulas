@@ -15,6 +15,7 @@ symbol_overrides:
 - density: ρ
 - acceleration: g
 - length: h
+- pressure: ''
 name_overrides:
 - pressure: Gauge [pressure] at depth h
 - density: Fluid [density]

@@ -12,6 +12,7 @@ description: "A cube has six congruent square faces, so its total surface area i
 equation: area eq 6 mul length pow 2
 symbol_overrides:
 - length: s
+- area: ''
 name_overrides:
 - area: Surface [area]
 - length: Side

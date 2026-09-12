@@ -13,6 +13,8 @@ equation: frequency eq dimensionless frac time
 symbol_overrides:
 - dimensionless: '1'
 - time: T
+- frequency: ''
 name_overrides:
 - dimensionless: One
 - time: Period
+- frequency: ''

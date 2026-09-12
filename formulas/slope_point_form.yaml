@@ -11,15 +11,15 @@ links:
 description: The point-slope form gives the equation of a non-vertical line using
   its slope and the coordinates of any one point on the line. It is widely used in
   analytic geometry and is closely related to the slope-intercept form.
-equation: dimensionless sub dimensionless eq dimensionless mul dimensionless sub dimensionless
+equation: variable sub dimensionless eq dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - dimensionless: y_1
 - dimensionless: m
 - dimensionless: x
 - dimensionless: x_1
 name_overrides:
-- dimensionless: Point ordinate y
+- variable: Point ordinate y
 - dimensionless: Known point ordinate y₁
 - dimensionless: Slope m
 - dimensionless: Point abscissa x

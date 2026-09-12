@@ -12,6 +12,7 @@ equation: pressure eq density mul (velocity pow 2 ) frac 2
 symbol_overrides:
 - pressure: q
 - density: ρ
+- velocity: ''
 name_overrides:
 - pressure: Dynamic [pressure]
 - density: Fluid [density]

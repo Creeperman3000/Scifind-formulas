@@ -12,6 +12,8 @@ equation: capacitance eq dimensionless mul (vacuum_permittivity) mul (area) frac
 symbol_overrides:
 - dimensionless: \varepsilon_r
 - length: d
+- capacitance: ''
+- area: ''
 name_overrides:
 - capacitance: '[capacitance]'
 - dimensionless: Relative permittivity

@@ -20,8 +20,8 @@ symbol_overrides:
 - dimensionless: a
 name_overrides:
 - dimensionless: Base a
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'
 - dimensionless: Base a
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Base a

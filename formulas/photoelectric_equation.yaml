@@ -13,6 +13,8 @@ equation: energy eq planck_constant mul (frequency) sub energy
 symbol_overrides:
 - energy: E_{k,max}
 - energy: φ
+- frequency: ''
 name_overrides:
 - energy: Maximum kinetic [energy]
 - energy: Work function
+- frequency: ''

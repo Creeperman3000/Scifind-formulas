@@ -18,8 +18,10 @@ symbol_overrides:
 - energy: \Delta U
 - temperature: T_f
 - temperature: T_i
+- amount: ''
 name_overrides:
 - molar_heat_capacity: Molar heat capacity at constant volume
 - energy: Change in internal [energy]
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
+- amount: ''

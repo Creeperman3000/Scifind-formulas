@@ -11,6 +11,9 @@ description: The wave velocity, also called phase speed, relates a periodic wave
 equation: velocity eq frequency mul length
 symbol_overrides:
 - length: λ
+- velocity: ''
+- frequency: ''
 name_overrides:
 - velocity: Wave [velocity]
 - length: Wavelength
+- frequency: ''

@@ -15,6 +15,9 @@ description: 'Gauss''s law for magnetism, one of Maxwell''s equations, states th
 equation: oint drop drop (magnetic_flux_density times area) eq dimensionless
 symbol_overrides:
 - dimensionless: '0'
+- magnetic_flux_density: ''
+- area: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - area: Surface [area]
+- dimensionless: ''

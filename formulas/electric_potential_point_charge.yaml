@@ -10,5 +10,9 @@ description: "Valid for a point charge, or outside a spherically symmetric charg
 equation: electric_potential eq coulomb_constant mul (charge) frac length
 symbol_overrides:
 - length: r
+- electric_potential: ''
+- charge: ''
 name_overrides:
 - length: Distance
+- electric_potential: ''
+- charge: ''

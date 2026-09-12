@@ -13,6 +13,7 @@ symbol_overrides:
 - temperature: ΔT_b
 - dimensionless: i
 - ebullioscopic_constant: K_b
+- molality: ''
 name_overrides:
 - temperature: Boiling point elevation
 - dimensionless: Van 't Hoff factor

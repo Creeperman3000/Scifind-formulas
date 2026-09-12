@@ -11,6 +11,7 @@ symbol_overrides:
 - energy: E_{esc}
 - mass: M
 - length: r
+- mass: ''
 name_overrides:
 - energy: Escape [energy]
 - mass: Planet [mass]

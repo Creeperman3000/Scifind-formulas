@@ -12,6 +12,9 @@ equation: charge eq charge mul exp (drop (time frac resistance mul capacitance) 
 symbol_overrides:
 - charge: q(t)
 - charge: Q_0
+- time: ''
+- resistance: ''
+- capacitance: ''
 name_overrides:
 - charge: Charge at time t
 - charge: Initial [charge]

@@ -14,6 +14,8 @@ equation: heat_engine_efficiency eq energy frac energy
 symbol_overrides:
 - heat_engine_efficiency: W
 - energy: Q_H
+- energy: ''
 name_overrides:
 - heat_engine_efficiency: Work output
 - energy: Heat input
+- energy: ''

@@ -16,7 +16,10 @@ equation: magnetic_flux_density eq vacuum_permeability mul (amount mul current )
 symbol_overrides:
 - amount: N
 - length: r
+- magnetic_flux_density: ''
+- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - amount: Number of turns
 - length: Radius
+- current: ''

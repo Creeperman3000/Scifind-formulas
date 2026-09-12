@@ -16,13 +16,11 @@ symbol_overrides:
 - force: T
 - mass: m_1
 - mass: m_2
-- standard_gravity: g
 - mass: m_1
 - mass: m_2
 name_overrides:
 - force: Tension
 - mass: '[mass] 1'
 - mass: '[mass] 2'
-- standard_gravity: Standard [standard_gravity]
 - mass: '[mass] 1'
 - mass: '[mass] 2'

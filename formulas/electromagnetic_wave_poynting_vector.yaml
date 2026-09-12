@@ -11,6 +11,7 @@ equation: irradiance eq electric_field_strength mul magnetic_field_strength frac
 symbol_overrides:
 - irradiance: S
 - magnetic_field_strength: B
+- electric_field_strength: ''
 name_overrides:
 - irradiance: Poynting vector magnitude
 - electric_field_strength: Electric field

@@ -17,6 +17,8 @@ equation: electric_potential eq frac (coulomb_constant mul charge) sqrt ((length
 symbol_overrides:
 - length: R
 - length: x
+- electric_potential: ''
+- charge: ''
 name_overrides:
 - electric_potential: '[electric_potential]'
 - charge: '[charge|Charge]'

@@ -13,7 +13,9 @@ symbol_overrides:
 - energy: \Delta G
 - energy: \Delta H
 - entropy: \Delta S
+- temperature: ''
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Enthalpy change
 - entropy: '[entropy] change'
+- temperature: ''

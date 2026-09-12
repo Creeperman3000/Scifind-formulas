@@ -9,14 +9,14 @@ links:
   - https://www.britannica.com/science/hyperbola
   - https://byjus.com/maths/hyperbola/
 description: "The straight line that the branches of a centered hyperbola approach at large distance, used to sketch the curve and to analyze its behavior at infinity. A standard hyperbola has two symmetric asymptotes passing through the center with slope determined by the ratio of the semi-conjugate to the semi-transverse axis."
-equation: dimensionless eq length frac (length) mul dimensionless
+equation: variable eq length frac (length) mul dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - length: b
 - length: a
 - dimensionless: x
 name_overrides:
-- dimensionless: y-coordinate
+- variable: y-coordinate
 - length: Semi-conjugate axis
 - length: Semi-transverse axis
 - dimensionless: x-coordinate

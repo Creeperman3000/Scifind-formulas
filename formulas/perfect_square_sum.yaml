@@ -8,17 +8,17 @@ links:
   - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra
   - https://www.cuemath.com/algebra/perfect-square-trinomial/
 description: The square of a binomial sum expands to a perfect square trinomial with a positive cross term, a common pattern used in expanding polynomials and in completing the square. The result factors back into the original binomial squared.
-equation: (dimensionless add dimensionless ) pow 2 eq (dimensionless pow 2) add (2
+equation: (variable add dimensionless ) pow 2 eq (dimensionless pow 2) add (2
   mul (dimensionless) mul dimensionless) add dimensionless pow 2
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: a
 - dimensionless: b
 - dimensionless: b
 name_overrides:
-- dimensionless: Term a
+- variable: Term a
 - dimensionless: Term b
 - dimensionless: a²
 - dimensionless: ''

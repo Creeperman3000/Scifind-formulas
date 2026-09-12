@@ -11,6 +11,9 @@ description: "The volume of a pyramid equals one-third the product of its base a
 equation: volume eq area mul (length) frac 3
 symbol_overrides:
 - length: h
+- volume: ''
+- area: ''
 name_overrides:
 - area: Base [area]
 - length: Height
+- volume: ''

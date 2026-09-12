@@ -11,6 +11,9 @@ description: "The mechanical work done by a constant torque acting through an an
 equation: energy eq torque mul angle
 symbol_overrides:
 - angle: \Delta\theta
+- energy: ''
+- torque: ''
 name_overrides:
 - energy: Rotational work
 - angle: Angular displacement
+- torque: ''

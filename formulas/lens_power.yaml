@@ -14,5 +14,5 @@ symbol_overrides:
 - wavenumber: P
 - length: f
 name_overrides:
-- wavenumber: Optical [power]
+- wavenumber: Optical [wavenumber|power]
 - length: Focal [length]

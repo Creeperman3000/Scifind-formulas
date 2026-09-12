@@ -12,14 +12,14 @@ description: 'One of Vieta''s formulas: for the quadratic ax²+bx+c=0 with leadi
   coefficient a ≠ 0, the sum of its two roots equals −b/a. Combined with the product-of-roots
   formula, this lets the quadratic be reconstructed from its roots without solving
   it.'
-equation: dimensionless add dimensionless eq drop dimensionless sub frac dimensionless
+equation: variable add dimensionless eq drop dimensionless sub frac dimensionless
 symbol_overrides:
-- dimensionless: \alpha
+- variable: \alpha
 - dimensionless: \beta
 - dimensionless: b
 - dimensionless: a
 name_overrides:
-- dimensionless: First root
+- variable: First root
 - dimensionless: Second root
 - dimensionless: Coefficient b
 - dimensionless: Coefficient a

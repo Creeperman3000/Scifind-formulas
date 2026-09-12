@@ -13,6 +13,7 @@ equation: force eq mass_concentration mul velocity
 symbol_overrides:
 - mass_concentration: \dot{m}
 - velocity: v_e
+- force: ''
 name_overrides:
 - force: Thrust
 - mass_concentration: Mass flow rate

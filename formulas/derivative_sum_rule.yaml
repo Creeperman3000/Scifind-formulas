@@ -11,10 +11,10 @@ description: The sum rule in differentiation states that the derivative of a sum
   differentiable functions is the sum of their derivatives. It follows directly from
   the limit definition of the derivative and the sum law for limits, and extends to
   sums of any number of terms.
-equation: frac rmd (dimensionless add dimensionless) rmd dimensionless eq frac rmd
+equation: frac rmd (variable add dimensionless) rmd dimensionless eq frac rmd
   dimensionless rmd dimensionless add frac rmd dimensionless rmd dimensionless
 symbol_overrides:
-- dimensionless: f
+- variable: f
 - dimensionless: g
 - dimensionless: x
 - dimensionless: f
@@ -22,10 +22,10 @@ symbol_overrides:
 - dimensionless: g
 - dimensionless: x
 name_overrides:
-- dimensionless: Function f
+- variable: Function f
 - dimensionless: Function g
-- dimensionless: '[variable|x]'
+- dimensionless: '[dimensionless|x]'
 - dimensionless: Derivative of f
-- dimensionless: '[variable|x]'
+- dimensionless: '[dimensionless|x]'
 - dimensionless: Derivative of g
-- dimensionless: '[variable|x]'
+- dimensionless: '[dimensionless|x]'

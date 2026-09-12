@@ -1,6 +1,6 @@
 name: Solid angle
 id: solid_angle_formula
-topic: geometry
+topic: plane_geometry
 difficulty: 7
 links:
   - https://en.wikipedia.org/wiki/Solid_angle
@@ -13,6 +13,7 @@ equation: solid_angle eq area frac length pow 2
 symbol_overrides:
 - solid_angle: Ω
 - length: r
+- area: ''
 name_overrides:
 - solid_angle: Solid angle
 - area: Projected [area]

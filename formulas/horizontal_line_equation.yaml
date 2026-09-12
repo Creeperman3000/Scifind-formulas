@@ -7,10 +7,10 @@ links:
   - https://en.wikipedia.org/wiki/Horizontal_line_test
   - https://mathworld.wolfram.com/HorizontalLine.html
 description: "A horizontal line in the Cartesian plane is the set of all points that share the same y-coordinate, so its equation simply states that y equals a constant. Geometrically, it is a line parallel to the x-axis at a fixed height b, with slope zero. Such lines arise as constant functions, as level curves of the form f(x,y)=b, and as the special case of the slope-intercept form y = mx + b with m = 0."
-equation: dimensionless eq dimensionless
+equation: variable eq dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - dimensionless: b
 name_overrides:
-- dimensionless: y-coordinate
+- variable: y-coordinate
 - dimensionless: Constant

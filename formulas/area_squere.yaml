@@ -12,6 +12,7 @@ description: "Gives the region enclosed by a square from its single side length;
 equation: area eq length pow 2
 symbol_overrides:
 - length: a
+- area: ''
 name_overrides:
 - area: '[area] of square'
 - length: Side [length]

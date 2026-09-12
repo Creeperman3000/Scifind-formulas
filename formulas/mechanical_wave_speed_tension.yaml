@@ -12,6 +12,7 @@ equation: velocity eq sqrt (force frac linear_density) 2
 symbol_overrides:
 - force: T
 - linear_density: \mu
+- velocity: ''
 name_overrides:
 - velocity: Wave speed
 - force: Tension

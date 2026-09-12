@@ -15,7 +15,9 @@ symbol_overrides:
 - heat_capacity: C
 - temperature: T_f
 - temperature: T_i
+- energy: ''
 name_overrides:
 - heat_capacity: Heat capacity
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
+- energy: ''

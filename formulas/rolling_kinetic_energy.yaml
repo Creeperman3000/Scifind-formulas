@@ -11,5 +11,13 @@ description: The total kinetic energy of a rigid body rolling without slipping i
 equation: energy eq (mass mul (velocity pow 2) frac 2) add moment_of_inertia mul (angular_velocity pow 2) frac 2
 symbol_overrides:
 - energy: KE
+- mass: ''
+- velocity: ''
+- moment_of_inertia: ''
+- angular_velocity: ''
 name_overrides:
 - energy: Total kinetic [energy]
+- mass: ''
+- velocity: ''
+- moment_of_inertia: ''
+- angular_velocity: ''

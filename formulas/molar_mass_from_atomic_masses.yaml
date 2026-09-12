@@ -12,6 +12,8 @@ equation: molar_mass eq sum drop drop (amount mul mass)
 symbol_overrides:
 - amount: n_1
 - mass: m_1
+- molar_mass: ''
 name_overrides:
 - amount: Moles of element 1
 - mass: Atomic [mass] of element 1
+- molar_mass: ''

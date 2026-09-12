@@ -10,7 +10,11 @@ description: "The orbital angular momentum of a body circling a central point is
 equation: angular_momentum eq mass mul velocity mul length
 symbol_overrides:
 - length: r
+- angular_momentum: ''
+- mass: ''
+- velocity: ''
 name_overrides:
 - angular_momentum: Orbital [angular_momentum]
 - velocity: Orbital [velocity]
 - length: Orbit radius
+- mass: ''

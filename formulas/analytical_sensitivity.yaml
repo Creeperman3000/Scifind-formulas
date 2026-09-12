@@ -11,6 +11,8 @@ equation: dimensionless eq dimensionless frac concentration
 symbol_overrides:
 - dimensionless: S
 - dimensionless: \Delta signal
+- concentration: ''
 name_overrides:
 - dimensionless: Sensitivity
 - dimensionless: Change in signal
+- concentration: ''

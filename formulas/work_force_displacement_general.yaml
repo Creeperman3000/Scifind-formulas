@@ -13,6 +13,9 @@ symbol_overrides:
 - energy: W
 - length: d
 - angle: \theta
+- force: ''
 name_overrides:
 - energy: Work
-- angle: Angle between [force] and displacement
+- angle: Angle between [angle|force] and displacement
+- force: ''
+- length: ''

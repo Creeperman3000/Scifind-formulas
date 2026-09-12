@@ -11,5 +11,7 @@ description: "Gives the region enclosed by a circle of a given radius. It is one
 equation: area eq pi mul length pow 2
 symbol_overrides:
 - length: r
+- area: ''
 name_overrides:
 - length: Radius
+- area: ''

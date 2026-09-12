@@ -12,6 +12,7 @@ symbol_overrides:
 - angle: θ
 - length: R
 - length: r
+- area: ''
 name_overrides:
 - area: '[area] of annular sector'
 - angle: Central [angle]

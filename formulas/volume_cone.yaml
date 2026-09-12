@@ -12,6 +12,8 @@ equation: volume eq pi mul (length pow 2) mul (length) frac 3
 symbol_overrides:
   - length: r
   - length: h
+  - volume: ''
 name_overrides:
   - length: Radius
   - length: Height
+  - volume: ''

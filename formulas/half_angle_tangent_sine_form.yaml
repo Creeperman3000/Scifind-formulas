@@ -22,3 +22,4 @@ name_overrides:
 - angle: Angle θ
 - angle: Angle θ
 - dimensionless: '1'
+- angle: ''

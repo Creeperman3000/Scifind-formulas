@@ -15,8 +15,9 @@ symbol_overrides:
 - mass: w_{solute}
 - temperature: \Delta T_f
 - mass: W_{solvent}
+- molar_mass: ''
 name_overrides:
-- molar_mass: Molar [mass] of solute
+- molar_mass: Molar [molar_mass|mass] of solute
 - cryoscopic_constant: Cryoscopic constant
 - mass: '[mass] of solute'
 - temperature: Freezing point depression

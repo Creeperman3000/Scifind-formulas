@@ -11,6 +11,7 @@ description: "Relates the oscillation frequency of an electromagnetic wave to it
 equation: frequency eq speed_of_light frac length
 symbol_overrides:
 - length: λ
+- frequency: ''
 name_overrides:
 - frequency: Wave [frequency]
 - length: Wavelength

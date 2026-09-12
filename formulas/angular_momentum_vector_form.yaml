@@ -11,7 +11,10 @@ equation: angular_momentum eq length mul momentum mul sin angle
 symbol_overrides:
 - length: r
 - angle: θ
+- angular_momentum: ''
+- momentum: ''
 name_overrides:
 - angular_momentum: '[angular_momentum]'
 - length: Radius
-- angle: Angle between radius and [momentum]
+- angle: Angle between radius and [angle|momentum]
+- momentum: ''

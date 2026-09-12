@@ -12,5 +12,9 @@ description: "Torque is the rotational equivalent of a linear force, producing a
 equation: torque eq length mul force
 symbol_overrides:
 - length: r
+- torque: ''
+- force: ''
 name_overrides:
 - length: Lever arm
+- torque: ''
+- force: ''

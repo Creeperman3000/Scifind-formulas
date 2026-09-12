@@ -12,6 +12,8 @@ equation: area eq length mul length
 symbol_overrides:
 - length: w
 - length: h
+- area: ''
 name_overrides:
 - length: Width
 - length: Height
+- area: ''

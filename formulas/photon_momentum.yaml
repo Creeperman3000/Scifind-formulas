@@ -12,5 +12,7 @@ description: A photon carries momentum even though it has zero rest mass, a dire
 equation: momentum eq planck_constant frac length
 symbol_overrides:
 - length: λ
+- momentum: ''
 name_overrides:
 - length: Wavelength
+- momentum: ''

@@ -16,8 +16,6 @@ equation: energy_density eq (magnetic_flux_density pow 2) frac 2 mul vacuum_perm
 symbol_overrides:
 - energy_density: u_B
 - magnetic_flux_density: B
-- vacuum_permeability: \mu_0
 name_overrides:
-- energy_density: Magnetic energy [density]
+- energy_density: Magnetic energy [energy_density|density]
 - magnetic_flux_density: Magnetic flux density
-- vacuum_permeability: Vacuum permeability

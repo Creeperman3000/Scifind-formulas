@@ -16,3 +16,5 @@ symbol_overrides:
 - power: I_0
 name_overrides:
 - dimensionless: Transmittance
+- power: ''
+- power: ''

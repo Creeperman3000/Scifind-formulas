@@ -14,8 +14,9 @@ symbol_overrides:
 - angle: θ
 - density: ρ
 - length: r
-- standard_gravity: g
 name_overrides:
 - length: Height
 - angle: Contact angle
 - length: Tube radius
+- surface_tension: ''
+- density: ''

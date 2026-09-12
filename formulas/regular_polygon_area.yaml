@@ -1,4 +1,4 @@
-name: Area of a regular polygon
+name: Area of a regular polygon (side length)
 id: regular_polygon_area
 topic: polygons
 difficulty: 5
@@ -17,6 +17,7 @@ symbol_overrides:
 - dimensionless: n
 - length: s
 - dimensionless: n
+- area: ''
 name_overrides:
 - area: '[area] of regular polygon'
 - dimensionless: Number of sides

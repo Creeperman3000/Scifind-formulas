@@ -13,6 +13,7 @@ description: Valid for an ideal gas; relates absolute temperature to average tra
 equation: temperature eq (2 mul energy) frac 3 mul boltzmann_constant
 symbol_overrides:
 - energy: \langle\mathrm{KE}\rangle
+- temperature: ''
 name_overrides:
 - temperature: '[temperature]'
 - energy: Average kinetic [energy] per molecule

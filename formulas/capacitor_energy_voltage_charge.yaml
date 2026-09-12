@@ -10,6 +10,8 @@ description: "This form of the stored-energy relation uses both the charge held 
 equation: energy eq charge mul (electric_potential) frac 2
 symbol_overrides:
 - energy: U
+- charge: ''
+- electric_potential: ''
 name_overrides:
 - energy: Stored [energy]
 - charge: '[charge|Charge]'

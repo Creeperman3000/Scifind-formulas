@@ -19,7 +19,9 @@ symbol_overrides:
   - pressure: Π
   - dimensionless: i
   - concentration: M
+  - temperature: ''
 name_overrides:
   - pressure: Osmotic [pressure]
   - dimensionless: Van 't Hoff factor
   - concentration: Molarity
+  - temperature: ''

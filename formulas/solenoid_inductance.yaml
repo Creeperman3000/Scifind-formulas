@@ -13,6 +13,9 @@ description: "The self-inductance of an air-core solenoid depends only on its ge
 equation: inductance eq vacuum_permeability mul (amount pow 2) mul (area) frac length
 symbol_overrides:
 - amount: N
+- inductance: ''
+- area: ''
+- length: ''
 name_overrides:
 - inductance: Self-inductance
 - amount: Number of turns

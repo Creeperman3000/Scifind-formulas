@@ -17,6 +17,10 @@ equation: ((length) eq ((boltzmann_constant mul temperature) frac ((pi mul (leng
 symbol_overrides:
 - length: λ
 - length: d
+- temperature: ''
+- pressure: ''
 name_overrides:
 - length: Mean free path
 - length: Molecular diameter
+- temperature: ''
+- pressure: ''

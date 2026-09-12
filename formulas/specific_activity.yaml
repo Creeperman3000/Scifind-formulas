@@ -16,4 +16,4 @@ symbol_overrides:
 name_overrides:
 - activity: Specific [activity]
 - amount: Decay constant
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]

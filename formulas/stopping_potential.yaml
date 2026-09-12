@@ -13,6 +13,7 @@ equation: electric_potential eq (planck_constant mul (frequency) sub energy) fra
 symbol_overrides:
 - electric_potential: V₀
 - energy: φ
+- frequency: ''
 name_overrides:
 - electric_potential: Stopping potential
 - frequency: Incident light [frequency]

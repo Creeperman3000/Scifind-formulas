@@ -10,8 +10,13 @@ description: "Faraday's first law of electrolysis: the mass of a substance depos
 equation: mass eq molar_mass mul current mul (time) frac faraday_constant mul dimensionless
 symbol_overrides:
 - dimensionless: z
+- mass: ''
+- molar_mass: ''
+- current: ''
+- time: ''
 name_overrides:
 - mass: '[mass] deposited'
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]
 - current: Current
 - dimensionless: Number of electrons transferred per ion
+- time: ''

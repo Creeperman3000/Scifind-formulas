@@ -25,11 +25,11 @@ symbol_overrides:
 - dimensionless: a
 - angle: x
 name_overrides:
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Constant a
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Constant a
 - dimensionless: Constant a
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Constant a
-- angle: '[variable]'
+- angle: '[angle|variable]'

@@ -1,6 +1,6 @@
 name: Optical absorbance
 id: optical_absorbance
-topic: spectroscopy
+topic: analytical_chemistry
 difficulty: 6
 links:
   - https://en.wikipedia.org/wiki/Absorbance

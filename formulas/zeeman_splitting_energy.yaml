@@ -15,6 +15,7 @@ symbol_overrides:
 - magnetic_moment: μ_B
 - dimensionless: m_j
 - dimensionless: g_J
+- magnetic_flux_density: ''
 name_overrides:
 - energy: Zeeman splitting
 - magnetic_moment: Bohr magneton

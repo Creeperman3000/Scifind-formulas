@@ -14,7 +14,9 @@ symbol_overrides:
   - length: R_{max}
   - velocity: v_0
   - acceleration: g
+  - velocity: ''
 name_overrides:
   - length: Maximum range
   - velocity: Initial [velocity]
   - acceleration: Gravitational [acceleration]
+  - velocity: ''

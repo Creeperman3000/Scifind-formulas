@@ -101,9 +101,13 @@ def _render_all(conn) -> dict:
             print(f"error: {p.name}: missing `equation` field", file=sys.stderr)
             sys.exit(1)
 
-        overrides = build_overrides(
-            conn, eq, data.get("symbol_overrides"), data.get("name_overrides")
-        )
+        try:
+            overrides = build_overrides(
+                conn, eq, data.get("symbol_overrides"), data.get("name_overrides")
+            )
+        except Exception as e:  # noqa: BLE001
+            print(f"error: {p.name}: overrides failed: {e}", file=sys.stderr)
+            sys.exit(1)
         result = parse_and_preview_equation(
             conn, eq, locale=LOCALE, overrides=overrides
         )

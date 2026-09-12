@@ -15,8 +15,10 @@ symbol_overrides:
 - surface_tension: γ_{SG}
 - surface_tension: γ_{SL}
 - surface_tension: γ_{LG}
+- surface_tension: ''
 name_overrides:
 - angle: Contact [angle]
 - surface_tension: Solid-gas [surface_tension]
 - surface_tension: Solid-liquid [surface_tension]
 - surface_tension: Liquid-gas [surface_tension]
+- surface_tension: ''

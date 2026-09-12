@@ -11,6 +11,8 @@ description: "Converts the molar concentration of a dissolved substance into its
 equation: mass_concentration eq concentration mul molar_mass
 symbol_overrides:
 - mass_concentration: \rho_{solute}
+- concentration: ''
+- molar_mass: ''
 name_overrides:
 - mass_concentration: '[mass_concentration|Solute mass concentration]'
 - concentration: Molar [concentration]

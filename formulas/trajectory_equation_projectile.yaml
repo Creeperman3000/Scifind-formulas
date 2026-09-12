@@ -21,9 +21,11 @@ symbol_overrides:
 - angle: θ
 - length: x
 - velocity: v_0
+- angle: ''
 name_overrides:
 - length: Vertical displacement
 - length: Horizontal displacement
 - angle: Launch angle
 - length: Horizontal displacement
 - velocity: Initial [velocity]
+- angle: ''

@@ -11,6 +11,8 @@ description: "Relates the uniform electric field in the central region between t
 equation: electric_field_strength eq electric_potential frac length
 symbol_overrides:
 - length: d
+- electric_field_strength: ''
+- electric_potential: ''
 name_overrides:
 - electric_field_strength: Electric field
 - electric_potential: Potential difference

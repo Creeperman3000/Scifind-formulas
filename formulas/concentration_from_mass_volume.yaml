@@ -12,5 +12,5 @@ equation: concentration eq (mass frac molar_mass) frac volume
 name_overrides:
 - concentration: Molar [concentration]
 - mass: '[mass] of solute'
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]
 - volume: '[volume] of solution'

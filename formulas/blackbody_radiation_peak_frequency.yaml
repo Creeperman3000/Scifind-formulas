@@ -11,7 +11,7 @@ description: "Valid for blackbody radiation; relates peak emission frequency to 
 equation: frequency eq (wiens_constant mul temperature)
 symbol_overrides:
 - frequency: ν_{peak}
-- wiens_constant: b'
+- temperature: ''
 name_overrides:
 - frequency: Peak [frequency]
-- wiens_constant: Wien frequency displacement constant
+- temperature: ''

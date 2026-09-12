@@ -12,7 +12,9 @@ symbol_overrides:
 - energy: \langle K \rangle
 - dimensionless: '3'
 - dimensionless: '2'
+- temperature: ''
 name_overrides:
 - energy: Average KE
 - dimensionless: Three
 - dimensionless: Two
+- temperature: ''

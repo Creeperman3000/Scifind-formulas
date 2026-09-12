@@ -12,6 +12,8 @@ description: "The net external torque on a system equals the time rate of change
 equation: torque eq Delta angular_momentum frac Delta time
 symbol_overrides:
 - torque: τ
+- angular_momentum: ''
+- time: ''
 name_overrides:
 - torque: Net [torque]
 - angular_momentum: Change in [angular_momentum]

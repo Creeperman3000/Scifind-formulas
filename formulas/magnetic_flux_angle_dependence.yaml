@@ -12,6 +12,10 @@ equation: magnetic_flux eq magnetic_flux_density mul (area) mul cos angle
 symbol_overrides:
 - magnetic_flux: Φ_B
 - angle: θ
+- magnetic_flux_density: ''
+- area: ''
 name_overrides:
 - magnetic_flux: '[magnetic_flux]'
 - angle: Angle between field and normal
+- magnetic_flux_density: ''
+- area: ''

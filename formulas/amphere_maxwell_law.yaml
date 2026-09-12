@@ -20,3 +20,5 @@ name_overrides:
 - current: Conduction [current]
 - electric_field_strength: Electric field
 - area: Surface [area]
+- magnetic_flux_density: ''
+- time: ''

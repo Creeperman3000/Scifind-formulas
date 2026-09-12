@@ -18,7 +18,8 @@ symbol_overrides:
 - dimensionless: \frac{1}{2}
 - length: \lambda
 name_overrides:
-- length: Film [refractive_index]
+- length: Film [length|refractive_index]
 - reflectance: Film thickness
 - dimensionless: Interference order
 - length: Wavelength in vacuum
+- dimensionless: ''

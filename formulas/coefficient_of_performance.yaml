@@ -7,12 +7,12 @@ links:
   - https://www.nuclear-power.com/nuclear-engineering/thermodynamics/thermodynamic-cycles/heating-and-air-conditioning/coefficient-of-performance-cop-refrigerator-air-conditioner/
   - https://www.geeksforgeeks.org/physics/coefficient-of-performance-formula/
 description: "Measures how efficiently a refrigerator moves heat, defined as the heat removed from the cold space per unit of net work supplied to the cycle, typically by the compressor. Unlike a heat-engine efficiency it can exceed one, since it compares useful heat moved rather than converted energy. Real values depend strongly on the temperature difference between reservoirs."
-equation: heat_engine_efficiency eq energy frac energy
+equation: dimensionless eq energy frac energy
 symbol_overrides:
-- heat_engine_efficiency: COP
+- dimensionless: COP
 - energy: Q_c
 - energy: W_{in}
 name_overrides:
-- heat_engine_efficiency: Coefficient of performance
+- dimensionless: Coefficient of performance
 - energy: Heat extracted from cold reservoir
 - energy: Net [energy|work] input to the cycle

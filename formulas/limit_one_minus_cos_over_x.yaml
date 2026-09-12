@@ -13,16 +13,16 @@ description: A small-angle limit in trigonometry. The numerator 1-cos x vanishes
   x^2/2 near zero, which makes the ratio go to zero. The closely related limit (1-cos
   x)/x^2 = 1/2 is the more commonly used result and underlies the second-order small-angle
   approximation of cosine.
-equation: lim dimensionless dimensionless ((1 sub cos angle) frac angle) eq dimensionless
+equation: lim variable dimensionless ((1 sub cos angle) frac angle) eq dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: '0'
 - angle: x
 - angle: x
 - dimensionless: '0'
 name_overrides:
-- dimensionless: '[variable]'
+- variable: '[dimensionless|variable]'
 - dimensionless: Limit point
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'
 - dimensionless: Limit value

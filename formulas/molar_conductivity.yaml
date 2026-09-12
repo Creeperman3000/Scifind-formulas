@@ -13,6 +13,8 @@ equation: molar_conductivity eq conductance frac concentration
 symbol_overrides:
 - molar_conductivity: Λ_m
 - conductance: κ
+- concentration: ''
 name_overrides:
 - molar_conductivity: Molar conductivity
 - conductance: Specific conductivity
+- concentration: ''

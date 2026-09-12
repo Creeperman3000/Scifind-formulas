@@ -11,5 +11,7 @@ description: "A statement of the second law of thermodynamics: evaluated over an
 equation: oint drop drop (energy frac temperature) leq 0
 symbol_overrides:
 - energy: \delta Q
+- temperature: ''
 name_overrides:
 - energy: '[energy|Heat] exchanged by the system around the cycle'
+- temperature: ''

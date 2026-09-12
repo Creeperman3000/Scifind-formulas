@@ -11,7 +11,8 @@ equation: electric_potential eq coulomb_constant mul sum drop drop (charge frac 
 symbol_overrides:
 - charge: Q_i
 - length: r_i
+- electric_potential: ''
 name_overrides:
 - electric_potential: Total [electric_potential]
 - charge: '[charge] of the i-th point charge'
-- length: '[distance] from the i-th charge to the field point'
+- length: distance from the i-th charge to the field point

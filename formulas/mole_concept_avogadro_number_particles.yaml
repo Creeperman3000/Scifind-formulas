@@ -12,7 +12,6 @@ equation: dimensionless eq amount mul avogadro_number
 symbol_overrides:
 - dimensionless: N
 - amount: n
-- avogadro_number: N_\mathrm{A}
 name_overrides:
 - dimensionless: Number of particles
 - amount: Amount of substance

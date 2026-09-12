@@ -13,6 +13,7 @@ equation: temperature eq energy frac entropy
 symbol_overrides:
 - energy: ΔQ_{rev}
 - entropy: ΔS
+- temperature: ''
 name_overrides:
 - temperature: Thermodynamic [temperature]
 - energy: Reversible heat transfer

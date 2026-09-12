@@ -11,7 +11,7 @@ links:
 description: "Mass/volume percent is a common way to express the concentration of a solute in a solution, defined as the mass of solute per 100 mL of solution. It is widely used in clinical and pharmaceutical contexts (e.g. mg/mL is equivalent to 1% m/v) where the solute is a solid dissolved in a liquid. The expression is not the same as mass percent (m/m) or volume percent (v/v)."
 equation: dimensionless eq mass frac (volume) mul dimensionless
 symbol_overrides:
-- dimensionless: '\%m/v'
+- dimensionless: \%m/v
 - mass: m_{solute}
 - volume: V_{solution}
 - dimensionless: '100'
@@ -19,3 +19,4 @@ name_overrides:
 - dimensionless: Mass-volume percent
 - mass: '[mass] of solute'
 - volume: '[volume] of solution'
+- dimensionless: ''

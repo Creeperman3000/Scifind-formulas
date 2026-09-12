@@ -18,7 +18,9 @@ symbol_overrides:
 - dimensionless: n
 - length: R_1
 - length: R_2
+- wavenumber: ''
 name_overrides:
 - dimensionless: Refractive index of lens
 - length: First radius of curvature
 - length: Second radius of curvature
+- wavenumber: ''

@@ -9,16 +9,16 @@ links:
   - https://www.khanacademy.org/math/differential-calculus/dc-context-app/dc-linearization/v/linearization-and-tangents
   - https://www.britannica.com/science/tangent-line-mathematics
 description: "Given a differentiable function and a point on its graph, the tangent line at that point is the best linear approximation to the function there. The line passes through the point and has slope equal to the derivative at that point, which is the point-slope form specialized to the derivative."
-equation: dimensionless eq dimensionless mul (dimensionless sub dimensionless ) add
+equation: variable eq dimensionless mul (dimensionless sub dimensionless ) add
   dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - dimensionless: f'(x₀)
 - dimensionless: x
 - dimensionless: x₀
 - dimensionless: f(x₀)
 name_overrides:
-- dimensionless: y-coordinate
+- variable: y-coordinate
 - dimensionless: Slope at point
 - dimensionless: x-coordinate
 - dimensionless: Point x-coordinate

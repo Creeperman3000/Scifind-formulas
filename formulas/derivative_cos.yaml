@@ -15,6 +15,8 @@ equation: frac rmd cos angle rmd angle eq 0 sub sin angle
 symbol_overrides:
 - angle: x
 - angle: x
+- angle: ''
 name_overrides:
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'
+- angle: ''

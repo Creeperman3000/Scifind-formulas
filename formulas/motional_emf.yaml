@@ -13,7 +13,10 @@ equation: electric_potential eq magnetic_flux_density mul length mul velocity
 symbol_overrides:
   - electric_potential: ε
   - length: L
+  - magnetic_flux_density: ''
+  - velocity: ''
 name_overrides:
   - electric_potential: Induced EMF
   - magnetic_flux_density: Magnetic field
   - length: Conductor [length]
+  - velocity: ''

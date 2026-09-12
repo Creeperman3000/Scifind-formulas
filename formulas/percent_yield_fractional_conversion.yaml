@@ -10,7 +10,7 @@ links:
 description: "In a single-reaction process with no competing side products, the selectivity is unity and the fractional conversion of the limiting reactant equals the fractional yield. The percent yield is therefore simply 100 times the fractional conversion. For multi-reaction systems the relation generalises to Y = X·S, where S is the selectivity to the desired product."
 equation: dimensionless eq 100 mul dimensionless
 symbol_overrides:
-- dimensionless: '\%'
+- dimensionless: \%
 - dimensionless: X
 name_overrides:
 - dimensionless: Percent yield

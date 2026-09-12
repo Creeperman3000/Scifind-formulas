@@ -12,5 +12,7 @@ description: "The weight of a body is the gravitational force exerted on it, equ
 equation: force eq mass mul standard_gravity
 symbol_overrides:
 - force: F_g
+- mass: ''
 name_overrides:
 - force: Gravitational [force]
+- mass: ''

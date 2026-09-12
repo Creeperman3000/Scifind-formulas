@@ -9,12 +9,12 @@ links:
   - https://www.cuemath.com/algebra/product-of-roots-of-quadratic-equation/
   - https://www.khanacademy.org/math/algebra/x2e8-multiplication-and-factoring/x2e8-solving-quadratic-equations-by-factoring/v/using-the-quadratic-formula
 description: "One of Vieta's formulas: for the quadratic ax²+bx+c=0 with leading coefficient a ≠ 0 and constant term c, the product of its two roots equals c/a. This lets the roots be found or constrained without ever computing them individually."
-equation: dimensionless eq dimensionless frac dimensionless
+equation: variable eq dimensionless frac dimensionless
 symbol_overrides:
-- dimensionless: \alpha\beta
+- variable: \alpha\beta
 - dimensionless: c
 - dimensionless: a
 name_overrides:
-- dimensionless: Product of roots
+- variable: Product of roots
 - dimensionless: Constant term c
 - dimensionless: Coefficient a

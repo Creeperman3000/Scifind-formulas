@@ -20,7 +20,7 @@ symbol_overrides:
 name_overrides:
 - dimensionless: Constant factor
 - dimensionless: Function f(x)
-- angle: '[variable]'
+- angle: '[angle|variable]'
 - dimensionless: Constant factor
 - dimensionless: Function f(x)
-- angle: '[variable]'
+- angle: '[angle|variable]'

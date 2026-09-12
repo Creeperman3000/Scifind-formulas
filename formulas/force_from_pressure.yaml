@@ -13,5 +13,8 @@ equation: force eq pressure mul area
 symbol_overrides:
   - pressure: P
   - area: A
+  - force: ''
 name_overrides:
   - force: F
+  - pressure: ''
+  - area: ''

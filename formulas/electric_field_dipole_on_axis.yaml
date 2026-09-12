@@ -17,6 +17,7 @@ symbol_overrides:
 - charge: q
 - length: d
 - length: r
+- electric_field_strength: ''
 name_overrides:
 - electric_field_strength: Electric field
 - charge: Charge

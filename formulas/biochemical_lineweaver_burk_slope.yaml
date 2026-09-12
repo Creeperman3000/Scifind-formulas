@@ -20,4 +20,4 @@ symbol_overrides:
 name_overrides:
 - time: Lineweaver-Burk plot slope
 - concentration: Michaelis constant
-- catalytic_activity: Maximum [velocity]
+- catalytic_activity: Maximum [catalytic_activity|velocity]

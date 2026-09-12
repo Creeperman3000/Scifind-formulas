@@ -14,7 +14,10 @@ equation: pressure eq dimensionless mul density mul standard_gravity mul length
 symbol_overrides:
 - dimensionless: SG
 - density: \rho_{water}
+- pressure: ''
+- length: ''
 name_overrides:
 - pressure: Hydrostatic [pressure]
 - dimensionless: Specific gravity
 - density: '[density] of water'
+- length: ''

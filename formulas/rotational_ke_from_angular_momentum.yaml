@@ -14,7 +14,9 @@ description: For a rigid body rotating about a fixed axis, the angular momentum 
 equation: energy eq (angular_momentum pow 2) frac 2 mul moment_of_inertia
 symbol_overrides:
 - energy: K_{rot}
+- angular_momentum: ''
+- moment_of_inertia: ''
 name_overrides:
 - energy: Rotational kinetic [energy]
-- angular_momentum: Angular [momentum]
+- angular_momentum: Angular [angular_momentum|momentum]
 - moment_of_inertia: '[moment_of_inertia]'

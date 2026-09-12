@@ -8,11 +8,13 @@ tool whose checks are clean, independent functions.
 
 Checks (select with --check NAME; default runs every check):
 
-  yaml_schema   YAML parses; id present and matches filename; topic is a leaf
-                of tree.yaml; equation present; difficulty in [1,10].
+  yaml_schema   YAML parses; id present and matches filename; topic is a
+                leaf of Scifind's tree.json; equation present; difficulty
+                in [1,10].
   overrides     symbol_overrides / name_overrides length matches the number of
                 quantity tokens; no override references a quantity absent from
-                the equation.
+                the equation or targets a constant (constants take no
+                overrides).
   refs          every quantity / constant / operator the equation references
                 exists in the scifind.db vocabulary.
   dim_lhs       the LHS dimensions correspond to at least one quantity in the
@@ -58,8 +60,8 @@ for _p in (str(_SCIFIND), str(_HERE)):
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
-from scifind_lib import localise, open_database, parse_and_preview_equation  # noqa: E402
-from scifind_lib.dimensions import (  # noqa: E402
+from scifind_lib import open_database, parse_and_preview_equation  # noqa: E402
+from scifind_lib.formula import (  # noqa: E402
     DimensionMismatchError,
     _BASE_DIMENSION_ORDER,
     _collect_qid_dimensions,
@@ -67,13 +69,12 @@ from scifind_lib.dimensions import (  # noqa: E402
     _walk_dimensions,
     dimension_columns,
 )
-from scifind_lib.parser import parse_equation  # noqa: E402
-from scifind_lib.renderer import reduce_rpn_to_tree  # noqa: E402
+from scifind_lib.parser import parse_equation, reduce_rpn_to_tree  # noqa: E402
+from scifind_lib.tree import leaf_ids, load_tree  # noqa: E402
 
 from yaml_overrides import build_overrides  # noqa: E402
 
 FORMULAS_DIR = _REPO / "formulas"
-TOPIC_YAML = _REPO / "tree.yaml"
 LOCALE = "en-us"
 
 _SEVERITY_ORDER = {"info": 0, "warning": 1, "error": 2}
@@ -116,10 +117,21 @@ def load_formulas() -> list[tuple[Path, dict]]:
 
 def tokenize(conn, equation: str):
     """Return parsed RPN tokens, or None if parsing fails."""
+    tokens, _ = parse_with_error(conn, equation)
+    return tokens
+
+
+def parse_with_error(conn, equation: str):
+    """Return (RPN tokens, error message); tokens is None on parse failure.
+
+    The error text names the offending identifier, so checks that cannot
+    proceed without tokens (refs, render) can still file a finding
+    instead of silently skipping the formula.
+    """
     try:
-        return parse_equation(conn, equation)
-    except (ValueError, KeyError, IndexError, TypeError, sqlite3.Error):
-        return None
+        return parse_equation(conn, equation), ""
+    except (ValueError, KeyError, IndexError, TypeError, sqlite3.Error) as e:
+        return None, f"{type(e).__name__}: {e}"
 
 
 def reduce(conn, tokens):
@@ -136,24 +148,15 @@ def reduce(conn, tokens):
 
 
 def leaf_topics() -> set[str]:
-    """Extract leaf topic ids from tree.yaml (a leaf has no more-indented child).
+    """Return the leaf topic ids of Scifind's canonical science tree.
 
-    tree.yaml is an indented list; PyYAML flattens branches to strings, so we
-    parse indentation manually. A topic is a leaf iff no subsequent entry has a
-    strictly greater indent than it.
+    Scifind owns the topic taxonomy in `tree.json` (see
+    `scifind_lib.tree`); a topic is valid for a formula iff it is a
+    leaf there, i.e. a node with no children.
     """
-    raw = [
-        l for l in TOPIC_YAML.read_text().split("\n") if l.lstrip().startswith("-")
-    ]
-    items = []
-    for line in raw:
-        indent = len(line) - len(line.lstrip())
-        items.append((indent, line.lstrip()[1:].strip()))
     leaves = set()
-    for i, (indent, _) in enumerate(items):
-        has_deeper = any(items[j][0] > indent for j in range(i + 1, len(items)))
-        if not has_deeper:
-            leaves.add(items[i][1])
+    for root in load_tree():
+        leaves |= leaf_ids(root)
     return leaves
 
 
@@ -223,7 +226,7 @@ def check_yaml_schema(conn, formulas) -> list[Finding]:
         elif topic not in valid_topics:
             findings.append(Finding(
                 check="yaml_schema", formula_id=fid, severity="warning",
-                message=f"topic {topic!r} is not a leaf topic in tree.yaml",
+                message=f"topic {topic!r} is not a leaf topic in Scifind's tree.json",
                 context={"file": path.name},
             ))
 
@@ -272,9 +275,17 @@ def check_overrides(conn, formulas) -> list[Finding]:
         if tokens is None:
             continue
         qty_tokens = [t for t in tokens if t.get("token_kind") == "quantity"]
-        num_qty = len(qty_tokens)
+        # Per-qid occurrence counts, excluding `drop` placeholders (structural
+        # tokens that never render; they take no overrides by convention).
+        occ: dict[str, int] = {}
+        for t in qty_tokens:
+            qid = t.get("quantity_id")
+            if qid and qid != "drop":
+                occ[qid] = occ.get(qid, 0) + 1
 
         for field_name in ("symbol_overrides", "name_overrides"):
+            if data.get(field_name) is None:
+                continue  # omit convention: defaults suffice, nothing to check
             ov = data.get(field_name) or []
             if not isinstance(ov, list):
                 findings.append(Finding(
@@ -283,21 +294,62 @@ def check_overrides(conn, formulas) -> list[Finding]:
                     context={"file": path.name},
                 ))
                 continue
-            if len(ov) != num_qty:
+            non_dict = [e for e in ov if not isinstance(e, dict)]
+            if non_dict:
                 findings.append(Finding(
                     check="overrides", formula_id=fid, severity="error",
-                    message=f"{field_name} count {len(ov)} != quantity tokens {num_qty}",
+                    message=f"{field_name} has {len(non_dict)} non-mapping "
+                            f"entr(ies); use `- <qid>: <value>` (or `- <qid>: ''` "
+                            f"for padding)",
+                    context={"file": path.name},
+                ))
+            have: dict[str, int] = {}
+            for entry in ov:
+                if isinstance(entry, dict):
+                    for k in entry:
+                        have[k] = have.get(k, 0) + 1
+            # Ignore `drop` entries on both sides (harmless no-ops).
+            have.pop("drop", None)
+            missing = {q: occ[q] - have.get(q, 0) for q in occ if have.get(q, 0) < occ[q]}
+            extra = {q: have[q] - occ.get(q, 0) for q in have if have[q] > occ.get(q, 0)}
+            # Entries keyed by constants/phantoms are reported below; exclude
+            # them from the per-qid arithmetic so each finding names one cause.
+            extra = {q: n for q, n in extra.items() if q in occ}
+            if missing or extra:
+                detail = []
+                if missing:
+                    detail.append("missing " + ", ".join(f"{q}×{n}" for q, n in sorted(missing.items())))
+                if extra:
+                    detail.append("extra " + ", ".join(f"{q}×{n}" for q, n in sorted(extra.items())))
+                findings.append(Finding(
+                    check="overrides", formula_id=fid, severity="error",
+                    message=f"{field_name} per-qid count mismatch: {'; '.join(detail)}",
                     context={"file": path.name},
                 ))
 
-        # Phantom quantity ids referenced by overrides but absent from equation.
+        # Override targets split three ways: quantities present in the
+        # equation (the only ones overrides can land on), constants
+        # present in the equation (Scifind takes no overrides for
+        # constant tokens, so these entries are dead weight), and true
+        # phantoms absent from the equation entirely.
         actual_qids = {t.get("quantity_id") for t in qty_tokens}
+        actual_cids = {t.get("constant_id") for t in tokens
+                       if t.get("token_kind") == "constant"}
         for field_name in ("symbol_overrides", "name_overrides"):
             referenced = set()
             for entry in data.get(field_name) or []:
                 if isinstance(entry, dict):
                     referenced.update(k for k in entry if k)
-            phantom = referenced - actual_qids
+            const_targets = referenced & actual_cids
+            if const_targets:
+                findings.append(Finding(
+                    check="overrides", formula_id=fid, severity="warning",
+                    message=f"{field_name} targets constant(s) "
+                            f"{sorted(const_targets)}, which take no "
+                            f"overrides; remove these entries",
+                    context={"file": path.name},
+                ))
+            phantom = referenced - actual_qids - actual_cids
             if phantom:
                 findings.append(Finding(
                     check="overrides", formula_id=fid, severity="warning",
@@ -309,7 +361,13 @@ def check_overrides(conn, formulas) -> list[Finding]:
 
 
 def check_refs(conn, formulas) -> list[Finding]:
-    """Every quantity / constant / operator must exist in the DB."""
+    """Every quantity / constant / operator must exist in the DB.
+
+    Equations that fail to parse (e.g. an unknown identifier) are
+    reported here with the parser's error text instead of being
+    silently skipped — otherwise a renamed vocabulary entry would
+    vanish from every downstream check without a trace.
+    """
     quantities, constants, operators = db_vocab(conn)
     findings = []
     for path, data in formulas:
@@ -319,8 +377,13 @@ def check_refs(conn, formulas) -> list[Finding]:
         eq = (data.get("equation") or "").strip()
         if not eq:
             continue
-        tokens = tokenize(conn, eq)
+        tokens, err = parse_with_error(conn, eq)
         if tokens is None:
+            findings.append(Finding(
+                check="refs", formula_id=fid, severity="error",
+                message=f"equation failed to parse: {err}",
+                context={"file": path.name},
+            ))
             continue
         for tok in tokens:
             kind = tok.get("token_kind")
@@ -359,6 +422,35 @@ def _dim_str(dims) -> str:
     return "·".join(parts) if parts else "∅"
 
 
+# Formulas whose LHS is a composite with no single-quantity counterpart in
+# the DB, reviewed individually. Reasons: iconic textbook form (reciprocal,
+# squared, product) or a two-state/integral identity, not a modelling error.
+# New composite-LHS formulas still flag until added here with a reason.
+_DIM_LHS_ALLOWLIST = {
+    "adiabatic_temp_volume": "TV^(γ-1)=const; γ-dependent dims",
+    "amperes_law": "integral LHS (∮B·dl circulation)",
+    "amphere_maxwell_law": "integral LHS (∮B·dl circulation)",
+    "braggs_law": "nλ order-times-wavelength",
+    "charles_law": "V/T two-state identity",
+    "continuity_equation": "A·v volume flow; no DB quantity",
+    "continuity_equation_mass_flow": "ρ·v·A mass flow; no DB quantity",
+    "effective_spring_constant_series": "1/k reciprocal textbook form",
+    "gauss_law_electric": "integral LHS (electric flux); no DB quantity",
+    "gay_lussacs_law": "P/T two-state identity",
+    "kepler_second_law": "areal velocity L²·T⁻¹; no DB quantity",
+    "keplers_third_law": "T² iconic form",
+    "mass_flow_rate_formula": "m/t mass flow; no DB quantity",
+    "orbital_angular_momentum_kepler": "areal velocity L²·T⁻¹; no DB quantity",
+    "particle_physics_invariant_mass_calculation": "E² invariant form",
+    "poiseuilles_law": "volume flow L³·T⁻¹; no DB quantity",
+    "relativistic_energy_momentum": "E² invariant form",
+    "relativity_energy_momentum_invariant": "E² invariant form",
+    "series_capacitance": "1/C reciprocal textbook form",
+    "volumetric_flow_rate": "V/t volume flow; no DB quantity",
+    "wiens_displacement_law": "λT=b iconic form",
+}
+
+
 def check_dim_lhs(conn, formulas) -> list[Finding]:
     """LHS dimensions must correspond to some quantity in the database."""
     qid_to_dims = _collect_qid_dimensions(conn)
@@ -368,6 +460,8 @@ def check_dim_lhs(conn, formulas) -> list[Finding]:
         if "_yaml_error" in data:
             continue
         fid = path.stem
+        if fid in _DIM_LHS_ALLOWLIST:
+            continue
         eq = (data.get("equation") or "").strip()
         if not eq:
             continue
@@ -469,20 +563,8 @@ def check_dim_strict(conn, formulas) -> list[Finding]:
                 message="equation failed to parse", context={"file": path.name},
             ))
             continue
-        overrides = build_overrides(
-            conn, eq, data.get("symbol_overrides"), data.get("name_overrides"),
-        )
-        tokens = [dict(t) for t in tokens]
-        for pos, tok in enumerate(tokens, start=1):
-            if tok["token_kind"] != "quantity":
-                continue
-            tok["pos"] = pos
-            key = tok["quantity_id"] + "|" + (tok.get("label") or "") + "|" + str(pos)
-            ov = overrides.get(key) or {}
-            if ov.get("symbol"):
-                tok["symbol_overwrite"] = ov["symbol"]
-            if ov.get("name_overwrite"):
-                tok["name_overwrite"] = ov["name_overwrite"]
+        # Dimension analysis only looks at quantity/constant ids, so no
+        # overrides need to be attached to the tokens here.
         tree = reduce(conn, tokens)
         if tree is None:
             findings.append(Finding(
@@ -551,9 +633,17 @@ def check_render(conn, formulas) -> list[Finding]:
         eq = (data.get("equation") or "").strip()
         if not eq:
             continue
-        overrides = build_overrides(
-            conn, eq, data.get("symbol_overrides"), data.get("name_overrides"),
-        )
+        try:
+            overrides = build_overrides(
+                conn, eq, data.get("symbol_overrides"), data.get("name_overrides"),
+            )
+        except Exception as e:  # noqa: BLE001
+            findings.append(Finding(
+                check="render", formula_id=fid, severity="error",
+                message=f"overrides failed: {type(e).__name__}: {e}",
+                context={"file": path.name},
+            ))
+            continue
         try:
             result = parse_and_preview_equation(
                 conn, eq, locale=LOCALE, overrides=overrides,
@@ -579,8 +669,11 @@ def check_render(conn, formulas) -> list[Finding]:
             for s in result.get("variables", [])
         ]
         for sym in symbols:
+            # Single-character subscripts (m_e, v_d, p_i) are valid bare
+            # LaTeX and need no braces; only flag multi-character ones
+            # (x_cm) that would misrender without _{...} wrapping.
             if (isinstance(sym, str) and "_" in sym and not sym.startswith("\\")
-                    and re.search(r"[a-z]_[a-z]", sym)):
+                    and re.search(r"[A-Za-z0-9]_[A-Za-z0-9]{2,}", sym)):
                 findings.append(Finding(
                     check="render", formula_id=fid, severity="warning",
                     message=f"snake_case leaked into symbol {sym!r}",
@@ -680,6 +773,62 @@ def _all_leaves(node):
     return out
 
 
+# Reviewed duplicate groups (hybrid policy): same equation skeleton or tree,
+# distinct meaning — merges/deletes were executed for the true dupes, these
+# remain deliberately. A finding is suppressed only when its file set matches
+# an entry exactly, so a new file joining a group (or a group shrinking)
+# flags again for review.
+_DUPLICATE_ALLOWLIST = {
+    frozenset(['f_number', 'inorganic_radius_ratio_rule', 'lens_magnification', 'lever_mechanical_advantage', 'magnification_formula', 'retention_factor', 'soh_cah_toa_cosine', 'soh_cah_toa_sine', 'soh_cah_toa_tangent', 'strain_definition']),  # exact: dimensionless ratio skeleton across optics/mechanics/chemistry
+    frozenset(['adiabatic_process', 'polytropic_process']),  # exact: polytropic family; adiabatic is the gamma-specialized case
+    frozenset(['area_ellipse', 'surface_area_cone']),  # exact: pi*x*y skeleton; ellipse area vs cone lateral area
+    frozenset(['area_rectangle', 'power_of_a_point_circle']),  # exact: L^2 skeleton; rectangle area vs point power
+    frozenset(['atomic_mass_defect', 'limiting_reactant_excess_mass_calc']),  # exact: difference skeleton; mass defect vs excess reactant
+    frozenset(['average_force_impulse', 'newtons_second_law_momentum_form']),  # exact: F=dp/dt; average vs instantaneous framing
+    frozenset(['average_velocity', 'wave_velocity_period']),  # exact: v=d/t; kinematics vs wave specialization
+    frozenset(['bohr_magneton_definition', 'nuclear_magneton_definition']),  # exact: same form, electron vs proton mass
+    frozenset(['circle_tangent_radius_perpendicular', 'reflection_law']),  # exact: angle identity; tangent-radius vs reflection law
+    frozenset(['circuit_voltage_division_series', 'voltage_divider']),  # exact: same rule applied to R1 vs R2 output
+    frozenset(['eigenvalue_definition', 'snells_law']),  # exact: a*b=c*d skeleton; eigenvalue vs Snell law
+    frozenset(['entropy_change_surroundings', 'entropy_surroundings_constant_pressure']),  # exact: general heat vs constant-pressure enthalpy form
+    frozenset(['gibbs_spontaneity_condition', 'second_law_clausius_statement']),  # exact: X<0 skeleton; Gibbs vs Clausius statements
+    frozenset(['hesss_law_enthalpy', 'total_mechanical_energy']),  # exact: E=E1+E2 skeleton; Hess vs mechanical energy
+    frozenset(['horizontal_line_equation', 'vertical_line_equation']),  # exact: x/y line pair
+    frozenset(['molar_heat_capacity_constant_pressure', 'molar_heat_capacity_constant_volume']),  # exact: same form; Cp vs Cv
+    frozenset(['optical_transmittance', 'power_efficiency_relation']),  # exact: output/input skeleton; transmittance vs efficiency
+    frozenset(['partial_pressure_mole_fraction', 'raoults_law']),  # exact: p=x*P skeleton; Dalton vs Raoult
+    frozenset(['reaction_rate_appearance', 'reaction_rate_consumption']),  # exact: product appearance vs reactant consumption
+    frozenset(['solubility_product_ab', 'water_ion_product']),  # exact: K=[A][B] skeleton; solubility product vs water ion product
+    frozenset(['born_rule_quantum', 'expected_value_binomial', 'probability_multiplication_independent']),  # exact: P=A*B skeleton; Born rule vs binomial cases
+    frozenset(['coefficient_of_performance', 'coefficient_of_performance_heat_pump', 'efficiency_general']),  # exact: Q/W skeleton; fridge COP, heat-pump COP, general efficiency
+    frozenset(['constructive_interference_condition', 'optics_image_height_magnification', 'regular_polygon_perimeter']),  # exact: scaling skeleton; interference vs magnification vs perimeter
+    frozenset(['conversion_efficiency_yield', 'percent_yield', 'percentage_formula']),  # exact: percent-yield skeleton variants
+    frozenset(['error_propagation_sum', 'linear_algebra_vector_norm', 'wave_superposition_amplitude']),  # exact: hypotenuse skeleton; uncertainty vs norm vs amplitude
+    frozenset(['hybridization_electron_groups', 'isotope_notation_formula', 'mass_number_formula', 'probability_mutually_exclusive']),  # exact: counting skeleton variants
+    frozenset(['iodine_number', 'percent_composition', 'percent_yield_from_actual', 'solution_concentration_mass_percent']),  # exact: mass-percent skeleton variants
+    frozenset(['enthalpy_from_heat', 'first_law_adiabatic_process', 'first_law_isochoric_process', 'general_energy_conservation', 'work_nonconservative_energy']),  # exact: E=E skeleton; first-law and energy variants
+    frozenset(['friction_kinetic_energy_loss', 'kinetic_energy_definition_work', 'work_against_friction', 'work_area_under_force_curve', 'work_formula']),  # exact: W=F*d skeleton; work variants
+    frozenset(['bayes_factor', 'conditional_probability', 'geometric_distribution_mean', 'probability_of_event', 'signal_to_noise_ratio', 'unit_vector_definition']),  # exact: ratio skeleton; probability variants
+    frozenset(['bond_dissociation_energy', 'collision_kinetic_energy_loss', 'first_law_of_thermodynamics', 'heat_engine_work', 'ionization_energy', 'standard_enthalpy_reaction', 'work_energy_theorem']),  # exact: difference-of-energies skeleton; thermo variants
+    frozenset(['arithmetic_series_common_difference', 'effective_nuclear_charge', 'electronegativity_difference', 'interquartile_range', 'neutron_number', 'periodic_quantum_number_azimuthal_range', 'pi_bond_count', 'range_statistics']),  # exact: difference skeleton; counts and ranges
+    frozenset(['coordination_number_definition', 'linear_algebra_identity_matrix', 'parallel_lines_condition', 'periodic_atomic_number_composition', 'periodic_valence_electrons_formula', 'poisson_distribution_mean', 'statistics_median_odd', 'statistics_mode_definition']),  # exact: identity skeleton; definitions
+    frozenset(['area_kite', 'regular_polygon_apothem_area']),  # structural: A=b*h/2 variants
+    frozenset(['bernoulli_pressure_velocity_horizontal', 'venturi_effect']),  # structural: Bernoulli vs Venturi framing
+    frozenset(['central_force_newton_gravitation', 'newtons_law_of_gravitation']),  # structural: Newton gravitation wordings
+    frozenset(['centripetal_acceleration_angular', 'shm_max_acceleration']),  # structural: a=w^2*r shared form
+    frozenset(['chemical_reaction_yield_mass_product', 'mass_to_mass_stoichiometry']),  # structural: stoichiometry wordings
+    frozenset(['circular_motion_angular_to_linear_velocity', 'tangential_velocity']),  # structural: v=w*r wordings
+    frozenset(['elastic_collision_final_velocity_1', 'elastic_collision_final_velocity_2']),  # structural: collision pair (body 1 vs body 2)
+    frozenset(['equilibrium_constant_definition', 'reaction_quotient']),  # structural: K vs Q same form
+    frozenset(['lineweaver_burk', 'lineweaver_burk_intercept']),  # structural: Lineweaver-Burk slope vs intercept forms
+    frozenset(['logarithm_base_definition', 'polynomial_quadratic_product_roots']),  # structural: X=Y/Z skeleton coincidence
+    frozenset(['ph_definition', 'poh_definition']),  # structural: pH vs pOH pair
+    frozenset(['polygon_area_from_side', 'regular_polygon_area']),  # structural: polygon area wordings
+    frozenset(['coefficient_of_variation', 'conversion_efficiency_yield', 'percent_yield', 'percentage_formula']),  # structural: percent skeleton variants
+    frozenset(['constructive_interference_condition', 'optics_image_height_magnification', 'regular_polygon_perimeter', 'right_triangle_30_60_90']),  # structural: scaling skeleton variants
+}
+
+
 def check_duplicates(conn, formulas) -> list[Finding]:
     """Duplicates by exact equation, normalized tree, and yaml `name`."""
     findings = []
@@ -708,6 +857,8 @@ def check_duplicates(conn, formulas) -> list[Finding]:
         by_eq[p["equation"]].append(p)
     for eq_str, group in by_eq.items():
         if len(group) > 1:
+            if frozenset(p["fid"] for p in group) in _DUPLICATE_ALLOWLIST:
+                continue
             findings.append(Finding(
                 check="duplicates", severity="warning",
                 message=f"exact equation duplicated {len(group)}x",
@@ -725,6 +876,8 @@ def check_duplicates(conn, formulas) -> list[Finding]:
             by_norm[p["norm"]].append(p)
     for norm, group in by_norm.items():
         if len(group) > 1 and len({p["equation"] for p in group}) > 1:
+            if frozenset(p["fid"] for p in group) in _DUPLICATE_ALLOWLIST:
+                continue
             findings.append(Finding(
                 check="duplicates", severity="warning",
                 message=f"structural duplicate ({len(group)} files)",
@@ -799,9 +952,6 @@ def main() -> int:
 
     if not FORMULAS_DIR.is_dir():
         print(f"audit.py: missing formulas directory {FORMULAS_DIR}", file=sys.stderr)
-        return 2
-    if not TOPIC_YAML.is_file():
-        print(f"audit.py: missing topic tree {TOPIC_YAML}", file=sys.stderr)
         return 2
 
     formulas = load_formulas()

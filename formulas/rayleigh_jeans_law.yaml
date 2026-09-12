@@ -13,8 +13,8 @@ equation: energy_density eq (pi mul 8) mul (frequency pow 2) mul (boltzmann_cons
 symbol_overrides:
 - energy_density: u(\nu,T)
 - frequency: \nu
-- boltzmann_constant: k_{\mathrm{B}}
 - temperature: T
-- speed_of_light: c
 name_overrides:
-- energy_density: Spectral [energy] density
+- energy_density: Spectral [energy_density|energy] density
+- frequency: ''
+- temperature: ''

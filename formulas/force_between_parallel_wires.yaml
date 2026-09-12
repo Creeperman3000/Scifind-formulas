@@ -15,6 +15,7 @@ symbol_overrides:
   - current: I_2
   - length: L
   - length: d
+  - force: ''
 name_overrides:
   - force: Magnetic [force] between the wires
   - current: Current in wire 1

@@ -18,7 +18,9 @@ symbol_overrides:
 - dimensionless: n
 - length: s
 - dimensionless: n
+- area: ''
 name_overrides:
 - dimensionless: Number of sides n
 - length: Side [length]
 - dimensionless: Number of sides n
+- area: ''

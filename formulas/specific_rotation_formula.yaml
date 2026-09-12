@@ -14,7 +14,10 @@ equation: angle eq angle frac concentration mul length
 symbol_overrides:
 - angle: '[\alpha]'
 - angle: \alpha
+- concentration: ''
+- length: ''
 name_overrides:
 - angle: Specific rotation
 - angle: Observed rotation
 - length: Path [length]
+- concentration: ''

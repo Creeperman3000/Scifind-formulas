@@ -17,8 +17,11 @@ symbol_overrides:
 - molar_heat_capacity: C_p
 - temperature: T_f
 - temperature: T_i
+- energy: ''
+- amount: ''
 name_overrides:
 - molar_heat_capacity: Molar heat capacity at constant pressure
 - energy: Heat at constant pressure
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
+- amount: ''

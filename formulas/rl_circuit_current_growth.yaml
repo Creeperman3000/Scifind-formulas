@@ -19,9 +19,14 @@ symbol_overrides:
 - electric_potential: V
 - resistance: R
 - inductance: L
+- resistance: ''
+- dimensionless: '1'
+- time: ''
 name_overrides:
 - current: Current at time t
 - electric_potential: '[electric_potential] of the source'
 - resistance: '[resistance]'
 - inductance: '[inductance]'
 - time: Time [time]
+- resistance: ''
+- dimensionless: One

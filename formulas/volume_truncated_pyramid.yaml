@@ -16,9 +16,11 @@ symbol_overrides:
 - area: A_2
 - area: A_1
 - area: A_2
+- volume: ''
 name_overrides:
 - length: Height of frustum
 - area: '[area] of top base'
 - area: '[area] of bottom base'
 - area: Top base [area]
 - area: Bottom base [area]
+- volume: ''

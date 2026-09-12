@@ -17,3 +17,4 @@ name_overrides:
 - angle: Angular radius of Airy disk
 - length: Wavelength
 - length: Aperture diameter
+- dimensionless: ''

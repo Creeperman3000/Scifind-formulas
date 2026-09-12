@@ -12,5 +12,9 @@ description: "For an ideal monatomic gas, the internal energy depends only on te
 equation: energy eq (amount mul (gas_constant) mul (temperature) mul 3) frac 2
 symbol_overrides:
 - energy: U
+- amount: ''
+- temperature: ''
 name_overrides:
 - energy: Internal [energy]
+- amount: ''
+- temperature: ''

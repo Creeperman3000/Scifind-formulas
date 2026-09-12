@@ -14,7 +14,9 @@ symbol_overrides:
 - length: t
 - dimensionless: m
 - length: λ
+- refractive_index: ''
 name_overrides:
 - length: Film thickness
 - dimensionless: Order
 - length: Wavelength in vacuum
+- refractive_index: ''

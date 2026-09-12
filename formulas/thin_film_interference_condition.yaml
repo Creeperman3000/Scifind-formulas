@@ -20,7 +20,7 @@ symbol_overrides:
 - dimensionless: m
 - length: \lambda
 name_overrides:
-- dimensionless: Film [refractive_index]
+- dimensionless: Film [dimensionless|refractive_index]
 - length: Film thickness
 - dimensionless: Interference order
 - length: Wavelength in vacuum

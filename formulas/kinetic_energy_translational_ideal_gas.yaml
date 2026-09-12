@@ -16,8 +16,11 @@ symbol_overrides:
 - energy: K_\mathrm{tr}
 - dimensionless: '3'
 - dimensionless: '2'
+- amount: ''
+- temperature: ''
 name_overrides:
 - energy: Translational kinetic [energy]
 - dimensionless: Three
 - dimensionless: Two
 - temperature: Absolute [temperature]
+- amount: ''

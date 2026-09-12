@@ -10,7 +10,7 @@ links:
 description: "A green-chemistry metric, introduced by Barry Trost, that measures what fraction of the reactant mass ends up incorporated into the desired product rather than waste by-products. Unlike percentage yield, it can be assessed from the balanced equation alone and is used to compare alternative synthetic routes for sustainability."
 equation: dimensionless eq mass frac (mass) mul dimensionless
 symbol_overrides:
-- dimensionless: '\% AE'
+- dimensionless: \% AE
 - mass: m_{desired}
 - mass: m_{total}
 - dimensionless: '100'
@@ -18,3 +18,4 @@ name_overrides:
 - dimensionless: Atom economy
 - mass: '[mass] of desired product'
 - mass: Total [mass] of reactants
+- dimensionless: ''

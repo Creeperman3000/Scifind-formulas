@@ -13,6 +13,8 @@ equation: magnetic_flux_density eq vacuum_permeability mul dimensionless frac (l
 symbol_overrides:
 - dimensionless: N
 - length: L
+- magnetic_flux_density: ''
+- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field
 - dimensionless: Total turns

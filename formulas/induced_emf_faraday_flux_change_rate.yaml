@@ -17,6 +17,9 @@ symbol_overrides:
 - electromagnetic_induction: ε
 - dimensionless: N
 - magnetic_flux: Φ
+- time: ''
 name_overrides:
 - electromagnetic_induction: Induced EMF
 - dimensionless: Number of turns
+- magnetic_flux: ''
+- time: ''

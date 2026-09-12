@@ -13,7 +13,9 @@ symbol_overrides:
 - activity: A(t)
 - activity: A_0
 - frequency: \lambda
+- time: ''
 name_overrides:
 - activity: '[activity] at time t'
 - activity: Initial [activity]
 - frequency: Decay constant
+- time: ''

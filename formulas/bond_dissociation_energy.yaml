@@ -14,6 +14,6 @@ symbol_overrides:
 - energy: ΣD_{broken}
 - energy: ΣD_{formed}
 name_overrides:
-- energy: Reaction [enthalpy]
+- energy: Reaction enthalpy
 - energy: Sum of bond energies broken
 - energy: Sum of bond energies formed

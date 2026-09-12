@@ -15,6 +15,6 @@ symbol_overrides:
 - length: a
 - length: c
 name_overrides:
-- angle: [angle|Angle]
+- angle: '[angle|Angle]'
 - length: Opposite [length]
 - length: Hypotenuse

@@ -12,8 +12,8 @@ description: The zero exponent rule states that any nonzero base raised to the p
   of zero equals one. It follows from the requirement that the law of exponents b^{m+n}
   = b^m b^n remain consistent when n = 0, and is equivalent to defining exponentiation
   as the empty product.
-equation: dimensionless pow 0 eq 1
+equation: variable pow 0 eq 1
 symbol_overrides:
-- dimensionless: a
+- variable: a
 name_overrides:
-- dimensionless: Nonzero base a
+- variable: Nonzero base a

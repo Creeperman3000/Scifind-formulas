@@ -15,3 +15,4 @@ symbol_overrides:
 - length: L
 name_overrides:
 - time: Period
+- length: ''

@@ -13,4 +13,3 @@ equation: energy eq mass mul speed_of_light pow 2
 name_overrides:
 - energy: '[energy]'
 - mass: '[mass]'
-- speed_of_light: '[speed_of_light] in vacuum'

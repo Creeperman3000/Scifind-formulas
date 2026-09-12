@@ -20,8 +20,11 @@ symbol_overrides:
 - amount: N
 - amount: N
 - dimensionless: K
+- time: ''
 name_overrides:
 - amount: Population N
 - frequency: Intrinsic growth rate
 - amount: Population N
 - dimensionless: Carrying capacity K
+- amount: ''
+- time: ''

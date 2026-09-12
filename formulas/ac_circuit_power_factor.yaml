@@ -13,6 +13,7 @@ symbol_overrides:
 - dimensionless: PF
 - electric_potential: V_{rms}
 - current: I_{rms}
+- power: ''
 name_overrides:
 - dimensionless: Power factor
 - power: Real [power]

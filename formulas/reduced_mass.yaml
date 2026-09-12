@@ -1,6 +1,6 @@
 name: Reduced mass
 id: reduced_mass
-topic: classical_mechanics
+topic: orbital_motion
 difficulty: 8
 links:
   - https://en.wikipedia.org/wiki/Reduced_mass
@@ -14,7 +14,11 @@ symbol_overrides:
 - mass: μ
 - mass: m₁
 - mass: m₂
+- mass: ''
+- mass: ''
 name_overrides:
 - mass: Reduced [mass]
 - mass: '[mass] 1'
 - mass: '[mass] 2'
+- mass: ''
+- mass: ''

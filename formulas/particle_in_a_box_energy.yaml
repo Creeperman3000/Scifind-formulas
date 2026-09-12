@@ -13,12 +13,10 @@ equation: energy eq (dimensionless pow 2) mul (planck_constant pow 2) frac 8 mul
 symbol_overrides:
   - energy: E_n
   - dimensionless: n
-  - planck_constant: ""
   - mass: m
   - length: L
 name_overrides:
   - energy: '[energy] level'
   - dimensionless: Quantum number
-  - planck_constant: '[planck_constant]'
   - mass: Particle [mass]
   - length: Box [length]

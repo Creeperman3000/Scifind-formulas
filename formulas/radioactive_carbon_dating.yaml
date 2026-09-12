@@ -16,6 +16,7 @@ symbol_overrides:
 - time: t_{1/2}
 - dimensionless: N_0
 - dimensionless: N
+- time: ''
 name_overrides:
 - time: Age of sample
 - time: Half-life

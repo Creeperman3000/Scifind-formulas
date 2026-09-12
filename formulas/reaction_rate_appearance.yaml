@@ -15,7 +15,9 @@ symbol_overrides:
 - catalytic_activity: r
 - concentration: '[P]'
 - dimensionless: p
+- time: ''
 name_overrides:
 - catalytic_activity: Reaction rate
 - concentration: Product [concentration]
 - dimensionless: Stoichiometric coefficient of product
+- time: ''

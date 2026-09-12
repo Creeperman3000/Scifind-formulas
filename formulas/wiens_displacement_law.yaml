@@ -11,5 +11,7 @@ description: "States that the wavelength at which a blackbody's spectral radianc
 equation: length mul temperature eq wiens_constant
 symbol_overrides:
 - length: \lambda_{\max}
+- temperature: ''
 name_overrides:
 - length: Peak wavelength
+- temperature: ''

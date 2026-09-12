@@ -11,3 +11,6 @@ description: "The Beer-Lambert law states that the absorbance of monochromatic l
 equation: absorbance eq molar_absorptivity mul (concentration) mul length
 name_overrides:
 - length: Path [length]
+- absorbance: ''
+- molar_absorptivity: ''
+- concentration: ''

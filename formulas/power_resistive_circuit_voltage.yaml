@@ -12,3 +12,5 @@ description: "In a purely resistive element, the power dissipated equals the squ
 equation: power eq (electric_potential pow 2) frac resistance
 name_overrides:
   - electric_potential: Voltage
+  - power: ''
+  - resistance: ''

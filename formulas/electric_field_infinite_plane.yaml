@@ -11,6 +11,7 @@ description: "Gives the electric field of a thin, infinitely extended sheet carr
 equation: electric_field_strength eq frac surface_charge_density (2 mul vacuum_permittivity)
 symbol_overrides:
 - surface_charge_density: σ
+- electric_field_strength: ''
 name_overrides:
 - electric_field_strength: Electric field
-- surface_charge_density: Surface charge [density]
+- surface_charge_density: Surface charge [surface_charge_density|density]

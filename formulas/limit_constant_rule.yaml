@@ -9,14 +9,14 @@ links:
   - https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/02%3A_Limits_and_Continuity/2.02%3A_Limit_Laws
   - https://www.britannica.com/science/limit-mathematics
 description: "The limit of a constant is the constant itself, regardless of the point the variable approaches. This is one of the basic limit laws used in calculus to evaluate limits of more complicated expressions."
-equation: lim dimensionless dimensionless dimensionless eq dimensionless
+equation: lim variable dimensionless dimensionless eq dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: c
 - dimensionless: c
 name_overrides:
-- dimensionless: Variable
+- variable: Variable
 - dimensionless: Approach point
 - dimensionless: Constant c
 - dimensionless: Constant c

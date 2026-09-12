@@ -18,8 +18,10 @@ symbol_overrides:
 - length: a
 - length: b
 - length: c
+- area: ''
 name_overrides:
 - length: Circumradius
 - length: Side a
 - length: Side b
 - length: Side c
+- area: ''

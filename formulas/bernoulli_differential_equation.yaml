@@ -11,10 +11,10 @@ description: The Bernoulli differential equation is a first-order ordinary diffe
   the dependent variable is zero or one. It is solved by the substitution u = y^(1-n),
   which converts it into a linear differential equation solvable with an integrating
   factor. The logistic equation is a notable special case.
-equation: frac rmd dimensionless rmd dimensionless add dimensionless mul dimensionless
+equation: frac rmd variable rmd dimensionless add dimensionless mul dimensionless
   eq dimensionless mul dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - dimensionless: x
 - dimensionless: P(x)
 - dimensionless: y
@@ -22,7 +22,7 @@ symbol_overrides:
 - dimensionless: y
 - dimensionless: n
 name_overrides:
-- dimensionless: Dependent variable y
+- variable: Dependent variable y
 - dimensionless: Independent variable x
 - dimensionless: Coefficient function P(x)
 - dimensionless: Dependent variable y

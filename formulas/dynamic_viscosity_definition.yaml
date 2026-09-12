@@ -16,8 +16,13 @@ description: 'Dynamic viscosity measures a fluid''s internal resistance to flow:
 equation: dynamic_viscosity eq (force frac area) frac velocity frac length
 symbol_overrides:
 - length: d
+- dynamic_viscosity: ''
+- force: ''
+- area: ''
+- velocity: ''
 name_overrides:
 - force: Shear [force]
 - area: Plate [area]
 - velocity: Flow [velocity]
 - length: Separation
+- dynamic_viscosity: ''

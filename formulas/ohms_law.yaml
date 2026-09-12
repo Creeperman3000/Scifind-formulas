@@ -13,3 +13,4 @@ equation: electric_potential eq current mul resistance
 name_overrides:
 - electric_potential: Voltage
 - current: Current
+- resistance: ''

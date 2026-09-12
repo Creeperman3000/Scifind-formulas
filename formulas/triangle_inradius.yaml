@@ -12,6 +12,8 @@ equation: length eq area frac length
 symbol_overrides:
 - length: r
 - length: s
+- area: ''
 name_overrides:
 - length: Inradius
 - length: Semiperimeter
+- area: ''

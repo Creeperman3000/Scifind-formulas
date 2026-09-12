@@ -11,6 +11,8 @@ description: "Pressure-volume work performed by (or on) a gas during a process. 
 equation: energy eq pressure mul Delta volume
 symbol_overrides:
 - energy: W
+- pressure: ''
+- volume: ''
 name_overrides:
 - energy: Work
 - pressure: Constant [pressure]

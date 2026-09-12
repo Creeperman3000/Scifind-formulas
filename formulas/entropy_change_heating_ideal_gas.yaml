@@ -15,10 +15,12 @@ symbol_overrides:
 - temperature: T_1
 - volume: V_2
 - volume: V_1
+- amount: ''
+- amount: ''
 name_overrides:
 - entropy: Change in [entropy]
 - amount: '[amount] of gas'
-- molar_energy: Molar heat capacity at constant [volume]
+- molar_energy: Molar heat capacity at constant [molar_energy|volume]
 - temperature: Final [temperature]
 - temperature: Initial [temperature]
 - amount: '[amount] of gas'

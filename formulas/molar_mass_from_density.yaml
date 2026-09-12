@@ -11,9 +11,12 @@ links:
 description: "Combining the ideal gas law with the definition of density (ρ = m/V) gives a direct route to the molar mass of a gas from its measured density at a known temperature and pressure. This relation underlies the classical vapour-density method of determining molecular weights, and is exact for an ideal gas and a good approximation for real gases at low pressure."
 equation: molar_mass eq density mul (gas_constant) mul (temperature) frac pressure
 name_overrides:
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]
 - density: Gas [density]
 - temperature: '[temperature]'
 - pressure: '[pressure]'
 symbol_overrides:
 - density: ρ
+- molar_mass: ''
+- temperature: ''
+- pressure: ''

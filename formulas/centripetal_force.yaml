@@ -15,6 +15,10 @@ equation: force eq frac (mass mul velocity pow 2 ) length
 symbol_overrides:
 - force: F_c
 - length: r
+- mass: ''
+- velocity: ''
 name_overrides:
 - force: Centripetal [force]
 - length: Radius
+- mass: ''
+- velocity: ''

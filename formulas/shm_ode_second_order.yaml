@@ -14,13 +14,15 @@ description: The second-order linear differential equation governing undamped si
   coefficient under the square root of the restoring-force-to-mass ratio, and it is
   the limiting case of the damped harmonic oscillator when the damping coefficient
   vanishes.
-equation: frac rmd rmd dimensionless (rmd time pow 2) add (angular_velocity pow 2)
+equation: frac rmd rmd variable (rmd time pow 2) add (angular_velocity pow 2)
   mul dimensionless eq 0
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: x
 - angular_velocity: ω
+- time: ''
 name_overrides:
+- variable: Displacement
 - dimensionless: Displacement
-- dimensionless: Displacement
-- angular_velocity: Angular [frequency]
+- angular_velocity: Angular [angular_velocity|frequency]
+- time: ''

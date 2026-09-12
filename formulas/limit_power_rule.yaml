@@ -13,10 +13,10 @@ description: The power rule for limits states that the limit of a function raise
   to a constant power equals that power applied to the limit of the function, provided
   the limit of the function exists. It is one of the standard algebraic limit laws
   used to evaluate limits by reducing them to limits of simpler constituent functions.
-equation: lim dimensionless dimensionless dimensionless pow dimensionless eq (lim
+equation: lim variable dimensionless dimensionless pow dimensionless eq (lim
   dimensionless dimensionless dimensionless) pow dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: f(x)
 - dimensionless: n
@@ -25,11 +25,11 @@ symbol_overrides:
 - dimensionless: f(x)
 - dimensionless: n
 name_overrides:
-- dimensionless: '[variable]'
+- variable: '[dimensionless|variable]'
 - dimensionless: Approach point
 - dimensionless: Function f(x)
 - dimensionless: Exponent n
-- dimensionless: '[variable]'
+- dimensionless: '[dimensionless|variable]'
 - dimensionless: Approach point
 - dimensionless: Function f(x)
 - dimensionless: Exponent n

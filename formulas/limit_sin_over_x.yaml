@@ -10,12 +10,10 @@ links:
   - https://www.britannica.com/science/limit-mathematics
   - https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity/cs1-continuity-limit-laws/v/sinx-x
 description: "This is a foundational trigonometric limit that evaluates to 1 when x is measured in radians. It underlies the small-angle approximation sin(x) ≈ x and is essential for deriving derivatives of sine and cosine in differential calculus."
-equation: dimensionless eq sin angle frac angle
+equation: 1 eq sin angle frac angle
 symbol_overrides:
-- dimensionless: '1'
 - angle: x
 - angle: x
 name_overrides:
-- dimensionless: Limit
-- angle: '[variable]'
-- angle: '[variable]'
+- angle: '[angle|variable]'
+- angle: '[angle|variable]'

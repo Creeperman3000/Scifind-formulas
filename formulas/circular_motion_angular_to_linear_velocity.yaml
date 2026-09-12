@@ -12,7 +12,8 @@ equation: velocity eq angular_velocity mul length
 symbol_overrides:
 - angular_velocity: ω
 - length: r
+- velocity: ''
 name_overrides:
 - velocity: Linear [velocity]
-- angular_velocity: Angular [velocity]
+- angular_velocity: Angular [angular_velocity|velocity]
 - length: Radius

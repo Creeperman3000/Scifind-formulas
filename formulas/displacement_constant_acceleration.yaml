@@ -11,6 +11,9 @@ equation: length eq velocity mul (time) add acceleration mul (time pow 2 ) frac 
 symbol_overrides:
 - length: s
 - velocity: u
+- time: ''
+- time: ''
+- acceleration: ''
 name_overrides:
 - length: Displacement
 - velocity: Initial [velocity]

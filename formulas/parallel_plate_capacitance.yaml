@@ -12,7 +12,6 @@ description: "An ideal parallel-plate capacitor consists of two equal conducting
 equation: capacitance eq vacuum_permittivity mul (area) frac length
 symbol_overrides:
 - capacitance: C
-- vacuum_permittivity: \varepsilon_0
 - area: A
 - length: d
 name_overrides:

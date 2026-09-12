@@ -12,6 +12,7 @@ symbol_overrides:
 - entropy: ΔS
 - volume: V_2
 - volume: V_1
+- amount: ''
 name_overrides:
 - entropy: Change in [entropy]
 - amount: '[amount] of gas'

@@ -16,6 +16,8 @@ equation: moment_of_inertia eq mass mul length pow 2
 symbol_overrides:
 - mass: M
 - length: R
+- moment_of_inertia: ''
 name_overrides:
 - moment_of_inertia: '[moment_of_inertia]'
 - length: Radius
+- mass: ''

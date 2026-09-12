@@ -12,3 +12,4 @@ equation: magnetic_flux_density eq magnetic_flux frac area
 name_overrides:
 - magnetic_flux_density: '[magnetic_flux_density]'
 - area: '[area] perpendicular to field'
+- magnetic_flux: ''

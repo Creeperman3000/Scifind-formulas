@@ -21,8 +21,8 @@ symbol_overrides:
 - dimensionless: '1'
 - dimensionless: K_i
 name_overrides:
-- catalytic_activity: Reaction [velocity]
-- catalytic_activity: Maximum [velocity]
+- catalytic_activity: Reaction [catalytic_activity|velocity]
+- catalytic_activity: Maximum [catalytic_activity|velocity]
 - concentration: Substrate [concentration]
 - concentration: Michaelis constant K_m
 - concentration: Substrate [concentration]

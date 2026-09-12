@@ -16,7 +16,7 @@ symbol_overrides:
 - angular_momentum: L_2
 - angular_momentum: L_3
 name_overrides:
-- angular_momentum: Total angular [momentum]
-- angular_momentum: Particle 1 angular [momentum]
-- angular_momentum: Particle 2 angular [momentum]
-- angular_momentum: Particle 3 angular [momentum]
+- angular_momentum: Total angular [angular_momentum|momentum]
+- angular_momentum: Particle 1 angular [angular_momentum|momentum]
+- angular_momentum: Particle 2 angular [angular_momentum|momentum]
+- angular_momentum: Particle 3 angular [angular_momentum|momentum]

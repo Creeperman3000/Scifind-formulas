@@ -11,11 +11,11 @@ description: A special factoring pattern that rewrites the difference of two per
   cubes as a product of a binomial and a trinomial. It holds for all real numbers
   and is widely used to simplify and factor cubic expressions; note the quadratic
   factor is irreducible over the reals.
-equation: (dimensionless pow 3) sub dimensionless pow 3 eq (dimensionless sub dimensionless)
+equation: (variable pow 3) sub dimensionless pow 3 eq (dimensionless sub dimensionless)
   mul ((dimensionless pow 2) add (dimensionless mul dimensionless) add dimensionless
   pow 2 )
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: b
 - dimensionless: a
 - dimensionless: b
@@ -24,7 +24,7 @@ symbol_overrides:
 - dimensionless: b
 - dimensionless: b
 name_overrides:
-- dimensionless: First cube base a
+- variable: First cube base a
 - dimensionless: Second cube base b
 - dimensionless: First base a
 - dimensionless: Second base b

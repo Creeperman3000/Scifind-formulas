@@ -20,7 +20,7 @@ symbol_overrides:
 - *id001
 name_overrides:
 - &id002
-  angle: '[variable]'
+  angle: '[angle|variable]'
 - *id002
 - *id002
 - *id002

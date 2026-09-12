@@ -16,6 +16,9 @@ description: The Stefan-Boltzmann law gives the thermal radiation power emitted 
 equation: power eq stefan_boltzmann_constant mul dimensionless mul area mul temperature pow 4
 symbol_overrides:
   - area: A
+  - power: ''
+  - dimensionless: ε
+  - temperature: ''
 name_overrides:
   - power: '[power] radiated'
   - dimensionless: Emissivity

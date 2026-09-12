@@ -15,3 +15,5 @@ description: This form of the capacitor energy relation applies when the charge 
 equation: energy eq (charge pow 2) frac 2 mul capacitance
 name_overrides:
 - energy: Stored [energy]
+- charge: ''
+- capacitance: ''

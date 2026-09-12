@@ -13,6 +13,8 @@ equation: acceleration eq length mul angular_acceleration
 symbol_overrides:
 - acceleration: a_t
 - length: r
+- angular_acceleration: ''
 name_overrides:
 - acceleration: Tangential [acceleration]
 - length: Radius
+- angular_acceleration: ''

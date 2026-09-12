@@ -11,5 +11,9 @@ description: "The H-field (magnetic field strength or magnetic field intensity) 
 equation: magnetic_field_strength eq magnetic_flux_density frac permeability
 symbol_overrides:
 - permeability: μ
+- magnetic_field_strength: ''
+- magnetic_flux_density: ''
 name_overrides:
 - magnetic_field_strength: '[magnetic_field_strength]'
+- magnetic_flux_density: ''
+- permeability: ''

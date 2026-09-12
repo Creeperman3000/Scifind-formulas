@@ -12,6 +12,7 @@ description: "The surface area of a sphere equals four times the area of a great
 equation: area eq 4 mul pi mul length pow 2
 symbol_overrides:
 - length: r
+- area: ''
 name_overrides:
 - area: Surface [area]
 - length: Radius

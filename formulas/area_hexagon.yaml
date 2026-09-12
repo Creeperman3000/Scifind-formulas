@@ -12,5 +12,7 @@ description: "Gives the region enclosed by a regular hexagon from its side lengt
 equation: area eq frac (3 mul sqrt 3 2) 2 mul length pow 2
 symbol_overrides:
 - length: s
+- area: ''
 name_overrides:
 - length: Side
+- area: ''

@@ -18,7 +18,9 @@ symbol_overrides:
 - dimensionless: γ
 - dimensionless: '1'
 - dimensionless: '1'
+- velocity: ''
 name_overrides:
 - dimensionless: Lorentz factor γ
 - dimensionless: Numerator one
 - dimensionless: One inside the radical
+- velocity: ''

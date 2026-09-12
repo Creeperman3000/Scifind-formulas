@@ -11,6 +11,7 @@ equation: Delta angular_momentum eq torque mul time
 symbol_overrides:
 - torque: τ
 - time: Δt
+- angular_momentum: ''
 name_overrides:
 - angular_momentum: Change in [angular_momentum]
 - torque: '[torque]'

@@ -13,3 +13,4 @@ equation: current eq electric_potential frac resistance
 name_overrides:
 - current: Current
 - electric_potential: Voltage
+- resistance: ''

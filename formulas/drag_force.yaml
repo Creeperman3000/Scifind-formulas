@@ -13,7 +13,11 @@ symbol_overrides:
 - force: F_d
 - density: ρ
 - dimensionless: C_d
+- velocity: ''
+- area: ''
 name_overrides:
 - force: Drag [force]
 - density: Fluid [density]
 - dimensionless: Drag coefficient
+- velocity: ''
+- area: ''

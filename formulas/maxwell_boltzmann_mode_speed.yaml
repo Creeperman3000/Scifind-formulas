@@ -17,5 +17,9 @@ equation: ((velocity) eq (((2 mul (gas_constant mul temperature)) frac molar_mas
   sqrt 2))
 symbol_overrides:
 - velocity: v_{mp}
+- temperature: ''
+- molar_mass: ''
 name_overrides:
 - velocity: Most probable speed
+- temperature: ''
+- molar_mass: ''

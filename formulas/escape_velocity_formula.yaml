@@ -17,3 +17,4 @@ name_overrides:
 - velocity: Escape [velocity]
 - dimensionless: Factor of two
 - length: Distance from center
+- mass: ''

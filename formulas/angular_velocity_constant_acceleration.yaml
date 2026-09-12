@@ -11,6 +11,10 @@ equation: angular_velocity eq angular_velocity add angular_acceleration mul time
 symbol_overrides:
 - angular_velocity: ω
 - angular_velocity: ω₀
+- angular_acceleration: ''
+- time: ''
 name_overrides:
-- angular_velocity: Final angular [velocity|velocity]
-- angular_velocity: Initial angular [velocity|velocity]
+- angular_velocity: Final angular [angular_velocity|velocity]
+- angular_velocity: Initial angular [angular_velocity|velocity]
+- angular_acceleration: ''
+- time: ''

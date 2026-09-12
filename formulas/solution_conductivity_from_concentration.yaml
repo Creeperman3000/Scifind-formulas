@@ -14,6 +14,8 @@ equation: conductance eq conductance mul concentration
 symbol_overrides:
 - conductance: κ
 - conductance: Λ_m
+- concentration: ''
 name_overrides:
 - conductance: Specific conductivity
 - conductance: Molar conductivity
+- concentration: ''

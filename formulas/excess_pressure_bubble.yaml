@@ -12,6 +12,8 @@ equation: pressure eq (surface_tension mul 4) frac length
 symbol_overrides:
 - pressure: ΔP
 - length: r
+- surface_tension: ''
 name_overrides:
 - pressure: Excess [pressure]
 - length: Radius
+- surface_tension: ''

@@ -18,6 +18,7 @@ symbol_overrides:
 - pressure: P_2
 - volume: V_2
 - dimensionless: \gamma
+- energy: ''
 name_overrides:
 - energy: Adiabatic work
 - pressure: Initial [pressure]

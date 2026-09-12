@@ -13,7 +13,9 @@ symbol_overrides:
 - mass: m_{excess}
 - mass: m_{initial}
 - dimensionless: n_{used}
+- molar_mass: ''
 name_overrides:
 - mass: Excess [mass] remaining
 - mass: Initial [mass] of excess reactant
 - dimensionless: Moles of excess reactant consumed
+- molar_mass: ''

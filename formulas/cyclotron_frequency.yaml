@@ -11,3 +11,5 @@ equation: frequency eq elementary_charge mul (magnetic_flux_density) frac ((2 mu
   mul mass )
 name_overrides:
 - frequency: Cyclotron [frequency]
+- magnetic_flux_density: ''
+- mass: ''

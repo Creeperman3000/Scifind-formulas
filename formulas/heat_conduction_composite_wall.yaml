@@ -16,6 +16,9 @@ symbol_overrides:
 - temperature: T_2
 - thermal_resistance: R_1
 - thermal_resistance: R_2
+- energy: ''
+- time: ''
+- area: ''
 name_overrides:
 - energy: Heat transferred
 - temperature: Hot side [temperature]
@@ -23,3 +26,4 @@ name_overrides:
 - area: Cross-sectional [area]
 - thermal_resistance: Thermal resistance 1
 - thermal_resistance: Thermal resistance 2
+- time: ''

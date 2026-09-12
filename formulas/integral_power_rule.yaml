@@ -23,9 +23,9 @@ symbol_overrides:
 - dimensionless: n
 - dimensionless: n
 name_overrides:
-- dimensionless: '[variable]'
+- dimensionless: '[dimensionless|variable]'
 - dimensionless: Exponent
-- dimensionless: '[variable]'
-- dimensionless: '[variable]'
+- dimensionless: '[dimensionless|variable]'
+- dimensionless: '[dimensionless|variable]'
 - dimensionless: Exponent
 - dimensionless: Exponent

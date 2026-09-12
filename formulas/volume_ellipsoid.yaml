@@ -13,7 +13,9 @@ symbol_overrides:
   - length: a
   - length: b
   - length: c
+  - volume: ''
 name_overrides:
   - length: Semi-axis a
   - length: Semi-axis b
   - length: Semi-axis c
+  - volume: ''

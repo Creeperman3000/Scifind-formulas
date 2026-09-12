@@ -11,7 +11,7 @@ links:
 description: "Pauling's empirical relation estimates the percent ionic character of a covalent bond from the electronegativity difference between the bonded atoms. The function approaches 100% as the difference grows and is small for bonds between atoms of similar electronegativity."
 equation: dimensionless eq 100 mul 1 sub exp (drop ((dimensionless frac 2) pow 2) sub)
 symbol_overrides:
-- dimensionless: '\%'
+- dimensionless: \%
 - dimensionless: \Delta EN
 name_overrides:
 - dimensionless: Percent ionic character

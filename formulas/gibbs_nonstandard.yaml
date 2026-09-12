@@ -14,7 +14,9 @@ symbol_overrides:
 - energy: \Delta G
 - energy: \Delta G^{\circ}
 - dimensionless: Q
+- temperature: ''
 name_overrides:
 - energy: Gibbs free [energy] change
 - energy: Standard Gibbs [energy] change
 - dimensionless: Reaction quotient
+- temperature: ''

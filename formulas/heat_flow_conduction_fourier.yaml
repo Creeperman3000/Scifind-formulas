@@ -21,8 +21,15 @@ symbol_overrides:
 - length: d
 - temperature: T_2
 - temperature: T_1
+- energy: ''
+- time: ''
+- thermal_conductivity: ''
+- area: ''
 name_overrides:
 - energy: Heat flow
 - length: Thickness
 - temperature: Hot [temperature]
 - temperature: Cold [temperature]
+- time: ''
+- thermal_conductivity: ''
+- area: ''

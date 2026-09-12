@@ -12,6 +12,8 @@ equation: length eq (area mul 2) frac length
 symbol_overrides:
 - length: h
 - length: b
+- area: ''
 name_overrides:
 - length: Altitude
 - length: Base
+- area: ''

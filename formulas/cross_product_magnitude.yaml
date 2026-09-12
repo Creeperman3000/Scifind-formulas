@@ -17,6 +17,7 @@ symbol_overrides:
 - dimensionless: \vec{b}
 - dimensionless: \vec{a}
 - dimensionless: \vec{b}
+- angle: ''
 name_overrides:
 - dimensionless: Vector a
 - dimensionless: Vector b

@@ -10,3 +10,5 @@ description: "This is Newton's second law solved for acceleration: a body's acce
 equation: acceleration eq force frac mass
 name_overrides:
 - force: Net [force]
+- acceleration: ''
+- mass: ''

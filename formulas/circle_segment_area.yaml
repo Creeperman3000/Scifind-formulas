@@ -11,7 +11,10 @@ equation: area eq (length pow 2) mul (angle sub sin angle ) frac 2
 symbol_overrides:
 - length: R
 - angle: θ
+- area: ''
+- angle: ''
 name_overrides:
 - area: Segment [area]
 - length: Radius
 - angle: Central [angle]
+- angle: ''

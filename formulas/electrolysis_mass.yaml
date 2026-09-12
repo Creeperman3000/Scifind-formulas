@@ -1,4 +1,4 @@
-name: Mass deposited in electrolysis
+name: Mass deposited in electrolysis (from charge)
 id: electrolysis_mass
 topic: electrochemistry
 difficulty: 8
@@ -10,8 +10,11 @@ description: "Faraday's laws of electrolysis combined into one working relation:
 equation: mass eq charge mul molar_mass frac faraday_constant mul amount
 symbol_overrides:
 - amount: z
+- mass: ''
+- charge: ''
+- molar_mass: ''
 name_overrides:
 - mass: Deposited [mass]
 - charge: '[charge] passed'
-- molar_mass: Molar [mass]
+- molar_mass: Molar [molar_mass|mass]
 - amount: Number of electrons transferred per ion

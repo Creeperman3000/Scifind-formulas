@@ -12,6 +12,7 @@ equation: energy eq force mul length
 symbol_overrides:
 - energy: \Delta KE
 - length: d
+- force: ''
 name_overrides:
 - energy: Change in kinetic [energy]
 - force: Net [force]

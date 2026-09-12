@@ -14,6 +14,7 @@ symbol_overrides:
   - charge: q_1
   - charge: q_2
   - length: r
+  - energy: ''
 name_overrides:
   - energy: Potential [energy]
   - charge: Charge 1

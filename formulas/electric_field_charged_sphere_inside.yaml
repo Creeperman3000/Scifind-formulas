@@ -16,6 +16,8 @@ equation: electric_field_strength eq frac (coulomb_constant mul (charge) mul len
 symbol_overrides:
 - length: r
 - length: R
+- electric_field_strength: ''
+- charge: ''
 name_overrides:
 - electric_field_strength: Electric field inside sphere
 - charge: '[charge|Charge]'

@@ -18,8 +18,10 @@ symbol_overrides:
 - length: a
 - length: b
 - length: h
+- volume: ''
 name_overrides:
 - volume: '[volume] of spherical segment'
 - length: Height
 - length: Lower radius
 - length: Upper radius
+- length: ''

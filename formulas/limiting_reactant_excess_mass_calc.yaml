@@ -1,4 +1,4 @@
-name: Excess reactant remaining mass
+name: Excess reactant mass from limiting reactant
 id: limiting_reactant_excess_mass_calc
 topic: limiting_reactants
 difficulty: 6

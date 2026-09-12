@@ -10,6 +10,7 @@ description: "Dalton's law states that the total pressure exerted by a mixture o
 equation: pressure eq sum drop drop pressure
 symbol_overrides:
 - pressure: P_{total}
+- pressure: ''
 name_overrides:
 - pressure: Total [pressure]
 - pressure: Partial pressures

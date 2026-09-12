@@ -12,6 +12,8 @@ equation: volume eq volume frac amount
 symbol_overrides:
 - volume: V_m
 - volume: V
+- amount: ''
 name_overrides:
 - volume: Molar [volume]
 - volume: '[volume] of the gas sample'
+- amount: ''

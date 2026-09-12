@@ -20,3 +20,4 @@ name_overrides:
 - concentration: Limit of detection
 - dimensionless: Standard deviation of blank
 - dimensionless: Slope of calibration curve
+- dimensionless: ''

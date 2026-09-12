@@ -15,3 +15,4 @@ symbol_overrides:
 name_overrides:
 - pressure: Excess [pressure]
 - length: Radius of the droplet
+- surface_tension: ''

@@ -13,6 +13,7 @@ equation: Delta momentum eq force mul time
 symbol_overrides:
   - momentum: Δp
   - time: Δt
+  - force: ''
 name_overrides:
   - momentum: Change in [momentum]
   - force: Net [force]

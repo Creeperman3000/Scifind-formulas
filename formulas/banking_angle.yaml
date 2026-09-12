@@ -16,9 +16,7 @@ symbol_overrides:
 - angle: θ
 - velocity: v
 - length: r
-- standard_gravity: g
 name_overrides:
 - angle: Banking angle
 - velocity: '[velocity] of the vehicle'
 - length: Radius of curvature
-- standard_gravity: '[standard gravity|acceleration due to gravity]'

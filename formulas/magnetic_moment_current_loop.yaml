@@ -12,6 +12,8 @@ equation: magnetic_moment eq dimensionless mul current mul area
 symbol_overrides:
 - magnetic_moment: μ
 - dimensionless: N
+- current: ''
+- area: ''
 name_overrides:
 - magnetic_moment: Magnetic dipole moment
 - dimensionless: Number of turns

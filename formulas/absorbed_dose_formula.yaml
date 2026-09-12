@@ -12,3 +12,4 @@ equation: absorbed_dose eq energy frac mass
 name_overrides:
 - energy: '[energy] imparted by ionizing radiation'
 - mass: '[mass] of the absorbing material'
+- absorbed_dose: ''

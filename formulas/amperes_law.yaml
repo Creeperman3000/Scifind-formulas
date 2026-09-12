@@ -15,6 +15,8 @@ equation: oint drop drop (magnetic_flux_density cdot rmd length ) eq vacuum_perm
   mul current
 symbol_overrides:
 - current: I_{enc}
+- magnetic_flux_density: ''
+- length: ''
 name_overrides:
 - length: Path [length]
 - magnetic_flux_density: Field

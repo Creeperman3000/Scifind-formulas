@@ -11,3 +11,4 @@ equation: power eq current mul electric_potential
 name_overrides:
 - current: Current
 - electric_potential: Voltage
+- power: ''

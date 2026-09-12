@@ -13,7 +13,9 @@ symbol_overrides:
 - length: a
 - length: b
 - angle: C
+- area: ''
 name_overrides:
 - length: Side a
 - length: Side b
 - angle: Included [angle]
+- area: ''

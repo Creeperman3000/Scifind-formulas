@@ -7,10 +7,10 @@ links:
   - https://www.cuemath.com/numbers/multiplying-exponents/
   - https://www.mathdoubts.com/indices-product-rule-same-base/
 description: "Also called the product law of exponents, this rule states that multiplying two powers that share the same base gives a single power whose exponent is the sum of the two exponents. It follows directly from counting factors of the base and is one of the fundamental laws used to simplify algebraic expressions."
-equation: dimensionless pow (dimensionless) mul dimensionless pow dimensionless eq
+equation: variable pow (dimensionless) mul dimensionless pow dimensionless eq
   dimensionless pow dimensionless add dimensionless
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: m
 - dimensionless: a
 - dimensionless: n
@@ -18,10 +18,10 @@ symbol_overrides:
 - dimensionless: m
 - dimensionless: n
 name_overrides:
-- dimensionless: Base a
+- variable: Base a
 - dimensionless: Exponent m
 - dimensionless: Base a
 - dimensionless: Exponent n
 - dimensionless: Base a
-- ""
-- ""
+- dimensionless: ''
+- dimensionless: ''

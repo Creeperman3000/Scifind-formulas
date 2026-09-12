@@ -11,7 +11,10 @@ equation: area eq (coefficient_of_linear_expansion mul 2) mul area mul Delta tem
 symbol_overrides:
 - area: ΔA
 - area: A₀
+- coefficient_of_linear_expansion: ''
+- temperature: ''
 name_overrides:
 - area: Change in [area]
 - coefficient_of_linear_expansion: α
 - area: Initial [area]
+- temperature: ''

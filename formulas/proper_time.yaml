@@ -12,6 +12,9 @@ description: "Proper time is the elapsed time measured by a clock traveling betw
 equation: time eq time frac lorentz_factor
 symbol_overrides:
 - time: τ
+- time: ''
+- lorentz_factor: ''
 name_overrides:
 - time: Proper [time]
 - time: Coordinate [time]
+- lorentz_factor: ''

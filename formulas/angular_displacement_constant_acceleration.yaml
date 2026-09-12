@@ -14,9 +14,15 @@ symbol_overrides:
 - angular_velocity: \omega_0
 - dimensionless: '1'
 - dimensionless: '2'
+- angle: ''
+- time: ''
+- time: ''
+- angular_acceleration: ''
 name_overrides:
 - angle: Angle
 - angular_velocity: Initial angular velocity
 - dimensionless: One
 - dimensionless: Two
 - angular_acceleration: Angular acceleration
+- time: ''
+- time: ''

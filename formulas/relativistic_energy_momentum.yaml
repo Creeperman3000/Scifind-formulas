@@ -13,6 +13,9 @@ equation: energy pow 2 eq ((momentum mul speed_of_light) pow 2) add (mass mul sp
   pow 2) pow 2
 symbol_overrides:
 - mass: m_0
+- energy: ''
+- momentum: ''
 name_overrides:
 - energy: Total [energy]
 - mass: Rest [mass]
+- momentum: ''

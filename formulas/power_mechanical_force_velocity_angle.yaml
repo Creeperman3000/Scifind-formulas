@@ -15,6 +15,9 @@ description: The instantaneous mechanical power delivered by a constant force eq
 equation: power eq force mul velocity mul cos angle
 symbol_overrides:
 - angle: \theta
+- power: ''
+- force: ''
+- velocity: ''
 name_overrides:
 - power: '[power]'
 - force: '[force]'

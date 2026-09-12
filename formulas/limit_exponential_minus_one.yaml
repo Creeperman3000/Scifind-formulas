@@ -13,15 +13,15 @@ description: A foundational special limit in differential calculus expressing th
   derivative of e^x at the origin. It underlies the fact that the natural exponential
   function is its own derivative and is used in deriving rules for differentiating
   exponential functions via the limit definition of the derivative.
-equation: lim dimensionless dimensionless ((exp dimensionless sub 1) frac dimensionless)
+equation: lim variable dimensionless ((exp dimensionless sub 1) frac dimensionless)
   eq 1
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: '0'
 - dimensionless: x
 - dimensionless: x
 name_overrides:
-- dimensionless: '[variable]'
+- variable: '[dimensionless|variable]'
 - dimensionless: Zero
-- dimensionless: '[variable]'
-- dimensionless: '[variable]'
+- dimensionless: '[dimensionless|variable]'
+- dimensionless: '[dimensionless|variable]'

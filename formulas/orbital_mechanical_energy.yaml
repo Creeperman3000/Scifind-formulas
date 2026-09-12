@@ -18,6 +18,8 @@ equation: energy eq drop (gravitational_constant mul mass mul mass frac length m
 symbol_overrides:
 - mass: M
 - length: a
+- energy: ''
+- mass: ''
 name_overrides:
 - energy: Orbital mechanical [energy]
 - mass: Central [mass]

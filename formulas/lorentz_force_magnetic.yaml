@@ -15,6 +15,7 @@ symbol_overrides:
 - velocity: v
 - magnetic_flux_density: B
 - angle: \theta
+- force: ''
 name_overrides:
 - force: Magnetic Lorentz force
 - charge: Charge

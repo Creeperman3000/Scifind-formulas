@@ -15,6 +15,10 @@ equation: velocity eq sqrt ((dimensionless mul gas_constant mul temperature) fra
 symbol_overrides:
 - velocity: v_{avg}
 - dimensionless: '8'
+- temperature: ''
+- molar_mass: ''
 name_overrides:
 - velocity: Average speed
 - dimensionless: Eight
+- temperature: ''
+- molar_mass: ''

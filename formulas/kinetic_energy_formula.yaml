@@ -16,8 +16,11 @@ symbol_overrides:
 - energy: K
 - dimensionless: '1'
 - dimensionless: '2'
+- mass: ''
+- velocity: ''
 name_overrides:
 - energy: Kinetic [energy]
 - dimensionless: One
 - dimensionless: Two
 - velocity: Speed
+- mass: ''

@@ -13,6 +13,7 @@ symbol_overrides:
   - force: N
   - acceleration: g
   - angle: θ
+  - mass: ''
 name_overrides:
   - force: Normal [force]
   - mass: '[mass]'

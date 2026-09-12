@@ -17,7 +17,9 @@ symbol_overrides:
 - length: h
 - length: R
 - length: h
+- volume: ''
 name_overrides:
 - volume: '[volume] of spherical cap'
 - length: Height of cap
 - length: Sphere radius
+- length: ''

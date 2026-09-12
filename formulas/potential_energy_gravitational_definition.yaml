@@ -14,7 +14,9 @@ symbol_overrides:
   - energy: U_g
   - acceleration: g
   - length: h
+  - mass: ''
 name_overrides:
   - energy: Gravitational potential [energy]
   - acceleration: Gravitational [acceleration]
   - length: Height above reference
+  - mass: ''

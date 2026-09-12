@@ -20,9 +20,13 @@ symbol_overrides:
 - dimensionless: m
 - dimensionless: f_m
 - frequency: f_c
+- time: ''
+- time: ''
 name_overrides:
 - dimensionless: Modulated signal
 - dimensionless: Carrier amplitude
 - frequency: Carrier [frequency]
 - dimensionless: Modulation index
 - dimensionless: Modulating frequency
+- time: ''
+- time: ''

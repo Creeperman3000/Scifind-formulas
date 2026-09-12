@@ -12,6 +12,8 @@ description: "The buoyant force is the upward force a fluid exerts on an immerse
 equation: force eq density mul (standard_gravity) mul volume
 symbol_overrides:
 - force: F_b
+- density: ''
+- volume: ''
 name_overrides:
 - force: Buoyant [force]
 - density: Fluid [density]

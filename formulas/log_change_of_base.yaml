@@ -9,12 +9,12 @@ links:
   - https://mathworld.wolfram.com/ChangeofBaseFormula.html
   - https://www.khanacademy.org/math/algebra2/x2ec2f6476b63c4d6:logs/x2ec2f6476b63c4d6:change-of-base/v/change-of-base-formula
 description: "The change-of-base formula expresses a logarithm in one base as a ratio of logarithms in another base, allowing logarithms with arbitrary bases to be computed using a calculator that only supports two fixed bases such as e or 10."
-equation: dimensionless eq log euler_e dimensionless frac log euler_e dimensionless
+equation: variable eq log euler_e dimensionless frac log euler_e dimensionless
 symbol_overrides:
-- dimensionless: log_a(x)
+- variable: log_a(x)
 - dimensionless: x
 - dimensionless: a
 name_overrides:
-- dimensionless: Logarithm with new base
+- variable: Logarithm with new base
 - dimensionless: Argument
 - dimensionless: Base

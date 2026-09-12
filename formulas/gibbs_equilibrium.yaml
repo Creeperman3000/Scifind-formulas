@@ -12,5 +12,9 @@ equation: energy eq drop (gas_constant mul (temperature) mul log euler_e equilib
   sub
 symbol_overrides:
 - energy: \Delta G^\circ
+- temperature: ''
+- equilibrium_constant: ''
 name_overrides:
 - energy: Standard Gibbs free [energy] change
+- temperature: ''
+- equilibrium_constant: ''

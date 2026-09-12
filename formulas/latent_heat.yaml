@@ -12,5 +12,9 @@ description: "Relates the energy absorbed or released during a phase change (suc
 equation: energy eq mass mul specific_energy
 symbol_overrides:
 - specific_energy: L
+- energy: ''
+- mass: ''
 name_overrides:
 - specific_energy: Latent heat
+- energy: ''
+- mass: ''

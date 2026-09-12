@@ -14,7 +14,10 @@ equation: amount eq amount mul exp (drop (frequency mul time) sub)
 symbol_overrides:
 - amount: N_0
 - frequency: λ
+- amount: ''
+- time: ''
 name_overrides:
 - amount: Remaining nuclei
 - amount: Initial nuclei
 - frequency: Decay constant
+- time: ''

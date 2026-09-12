@@ -12,8 +12,11 @@ symbol_overrides:
 - angular_velocity: ω
 - angular_velocity: \omega_0
 - dimensionless: '2'
+- angular_acceleration: ''
+- angle: ''
 name_overrides:
-- angular_velocity: Final angular [velocity|velocity]
-- angular_velocity: Initial angular [velocity|velocity]
+- angular_velocity: Final angular [angular_velocity|velocity]
+- angular_velocity: Initial angular [angular_velocity|velocity]
 - dimensionless: Two
 - angle: Angle
+- angular_acceleration: ''

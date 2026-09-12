@@ -12,16 +12,14 @@ description: This is the standard form of the equation of an ellipse centered at
   and semi-minor axes. Every point (x, y) satisfying it lies on the ellipse, whose
   foci satisfy the focal relationship with these axes. For a center at (h, k), x and
   y are simply replaced by the translated coordinates.
-equation: dimensionless eq (dimensionless pow 2) frac (dimensionless pow 2) add (dimensionless
+equation: 1 eq (dimensionless pow 2) frac (dimensionless pow 2) add (dimensionless
   pow 2) frac dimensionless pow 2
 symbol_overrides:
-- dimensionless: '1'
 - dimensionless: x
 - dimensionless: a
 - dimensionless: y
 - dimensionless: b
 name_overrides:
-- dimensionless: Ellipse equation
 - dimensionless: x-coordinate
 - dimensionless: Semi-major axis
 - dimensionless: y-coordinate

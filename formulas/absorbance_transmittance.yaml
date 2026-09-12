@@ -11,5 +11,7 @@ description: "This relationship is derived from the Beer-Lambert Law. \nTransmit
 equation: absorbance eq drop sub log 10 dimensionless
 symbol_overrides:
 - dimensionless: T
+- absorbance: ''
 name_overrides:
 - dimensionless: Transmittance
+- absorbance: ''

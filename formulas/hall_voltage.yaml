@@ -15,7 +15,11 @@ symbol_overrides:
 - electric_potential: V_H
 - number_density: n
 - length: d
+- current: ''
+- magnetic_flux_density: ''
 name_overrides:
 - electric_potential: Hall voltage
-- number_density: Carrier [number density]
+- number_density: Carrier [number_density]
 - length: Thickness
+- current: ''
+- magnetic_flux_density: ''

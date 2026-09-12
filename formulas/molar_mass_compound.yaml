@@ -14,9 +14,10 @@ symbol_overrides:
 - molar_mass: M_B
 - dimensionless: x
 - dimensionless: y
+- molar_mass: ''
 name_overrides:
 - molar_mass: Compound [molar_mass]
-- molar_mass: Atomic [mass] of A
+- molar_mass: Atomic [molar_mass|mass] of A
 - dimensionless: Number of A atoms
-- molar_mass: Atomic [mass] of B
+- molar_mass: Atomic [molar_mass|mass] of B
 - dimensionless: Number of B atoms

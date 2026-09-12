@@ -12,16 +12,16 @@ the previous copy at seed.sql.bak next to it — but only once every yaml
 has processed cleanly).
 
 Usage:
-    python3 scripts/migrate_formulas_to_seed.py
+    python3 scripts/build_seed.py
 
 Exit codes:
     0  on success
     1  on any problem: a broken/unparseable yaml, missing fields, an id
-       that doesn't match its filename, an equation referencing an
-       unknown identifier, or a filesystem failure that prevents the
-       migration from completing. The error message names the offending
-       file; seed.sql is left untouched. Broken files are never
-       silently skipped.
+        that doesn't match its filename, an equation referencing an
+        unknown identifier, or a filesystem failure that prevents the
+        migration from completing. Every offending file is reported by
+        name before the run aborts; seed.sql is left untouched. Broken
+        files are never silently skipped.
 """
 from __future__ import annotations
 
@@ -148,24 +148,15 @@ def process_yaml(conn, yaml_path: Path) -> tuple[str, str, str, str]:
             overrides=overrides,
             description=description or None,
             links=links,
+            formula_id=yaml_id,
         )
     except Exception as e:
         raise MigrationError(
             f"{yaml_path.name}: build_create_sql failed: {e!r}") from e
 
-    # build_create_sql derived the formula_id from the English name.
-    # Rewrite it to match the yaml's `id:` field so filename, yaml
-    # id, and SQL formula_id all agree.  The /create page algorithm
-    # always emits exactly one formula row, so the formula SQL has
-    # exactly one `('<id>',` occurrence; the token SQL may have many.
-    derived_fid_match = re.search(r"\('([^']+)'", f_sql)
-    if not derived_fid_match:
-        raise MigrationError(
-            f"{yaml_path.name}: could not parse formula_id from SQL")
-    derived_fid = derived_fid_match.group(1)
-    if derived_fid != yaml_id:
-        f_sql = f_sql.replace(f"('{derived_fid}',", f"('{yaml_id}',", 1)
-        t_sql = t_sql.replace(f"('{derived_fid}',", f"('{yaml_id}',")
+    # `formula_id=yaml_id` above guarantees filename, yaml id, and SQL
+    # formula_id are the same string, so no post-processing of the SQL
+    # is needed.
     return stem, yaml_id, f_sql, t_sql
 
 
@@ -236,36 +227,6 @@ def _split_value_rows(body: str) -> list[str]:
     return rows
 
 
-def _strip_column(row: str, col_index: int) -> str:
-    """Remove the value at *col_index* (0-based) from a SQL row tuple.
-
-    ``_split_value_rows`` hands us strings like
-    ``('a', 'b', 'c')``.  This function rewrites the tuple to drop
-    the *col_index*-th value, respecting single-quoted string literals
-    and ``''`` escapes.
-    """
-    row = row.strip()
-    assert row.startswith("(") and row.endswith(")")
-    values: list[str] = []
-    i, n = 1, len(row) - 1          # skip ( … )
-    start = i
-    in_quote = False
-    while i < n:
-        c = row[i]
-        if c == "'":
-            if in_quote and i + 1 < n and row[i + 1] == "'":
-                i += 2
-                continue
-            in_quote = not in_quote
-        elif c == "," and not in_quote:
-            values.append(row[start:i].strip())
-            start = i + 1
-        i += 1
-    values.append(row[start:n].strip())
-    del values[col_index]
-    return "(" + ", ".join(values) + ")"
-
-
 def _is_migration_insert(cur: str) -> bool:
     """True if `cur` starts an INSERT into a table this migration owns.
 
@@ -293,6 +254,37 @@ def _is_migration_insert(cur: str) -> bool:
         if nxt in "(\n ":
             return True
     return False
+
+
+def _statement_end(lines: list[str], start: int) -> int:
+    """Return the index of the line holding the `;` that terminates the
+    SQL statement starting at line *start*.
+
+    Scans quote-aware (respecting single-quoted literals and ``''``
+    escapes) so a `;` inside a description or name string is data, not
+    a terminator. Handles both the current seed.sql style, where the
+    final row ends with ``...);``, and the older style with a bare
+    ``;`` on its own line. Falls back to the last line if no
+    terminator is found.
+    """
+    in_quote = False
+    n = len(lines)
+    j = start
+    while j < n:
+        line = lines[j]
+        k = 0
+        while k < len(line):
+            c = line[k]
+            if c == "'":
+                if in_quote and k + 1 < len(line) and line[k + 1] == "'":
+                    k += 2
+                    continue
+                in_quote = not in_quote
+            elif c == ";" and not in_quote:
+                return j
+            k += 1
+        j += 1
+    return n - 1
 
 
 def split_seed(seed_text: str) -> str:
@@ -329,14 +321,12 @@ def split_seed(seed_text: str) -> str:
     while i < n:
         line = lines[i]
 
-        # Targeted INSERT blocks: drop from this line through the closing ';'.
+        # Targeted INSERT blocks: drop from this line through the line
+        # holding the statement-terminating `;`.
         if _is_migration_insert(line):
-            j = i
-            while j < n and lines[j].strip() != ";":
-                drop.add(j)
-                j += 1
-            if j < n:
-                drop.add(j)
+            j = _statement_end(lines, i)
+            for k in range(i, j + 1):
+                drop.add(k)
             i = j + 1
             continue
 
@@ -348,12 +338,10 @@ def split_seed(seed_text: str) -> str:
             while j < n:
                 cur = lines[j]
                 if _is_migration_insert(cur):
-                    while j < n and lines[j].strip() != ";":
-                        drop.add(j)
-                        j += 1
-                    if j < n:
-                        drop.add(j)
-                    j += 1
+                    end = _statement_end(lines, j)
+                    for k in range(j, end + 1):
+                        drop.add(k)
+                    j = end + 1
                     continue
                 if cur.strip() == "" or banner_match(cur):
                     drop.add(j)
@@ -391,29 +379,41 @@ def main() -> int:
     # don't need any collision handling: the yaml authoring contract
     # is that those three are the same string, and we reject yamls
     # whose `id:` doesn't match their filename in process_yaml().
+    #
+    # Two phases: first process every yaml, collecting per-file errors,
+    # so a run with several broken files reports all of them at once
+    # instead of forcing fix-and-rerun cycles. Only when every yaml is
+    # clean do we touch seed.sql — a failed run never leaves a partial
+    # migration behind, and broken files are never silently skipped.
     formula_sql_blocks: list[tuple[str, str, str]] = []
+    failures: list[str] = []
     seen_ids: set[str] = set()
     for p in yaml_paths:
         try:
             result = process_yaml(conn, p)
         except MigrationError as e:
-            print(f"error: {e}", file=sys.stderr)
-            print("migration aborted; seed.sql left untouched",
-                  file=sys.stderr)
-            return 1
+            failures.append(str(e))
+            continue
         stem, yaml_id, f_sql, t_sql = result
         if yaml_id in seen_ids:
             # Should be unreachable given process_yaml()'s checks,
             # but defend against future changes (e.g. a symlink that
             # points two filenames at the same yaml content).
-            print(
-                f"error: {p.name}: duplicate yaml id {yaml_id!r} "
-                f"(already emitted; check the yaml directory for duplicates)",
-                file=sys.stderr,
+            failures.append(
+                f"{p.name}: duplicate yaml id {yaml_id!r} "
+                f"(already emitted; check the yaml directory for duplicates)"
             )
-            return 1
+            continue
         seen_ids.add(yaml_id)
         formula_sql_blocks.append((yaml_id, f_sql, t_sql))
+
+    if failures:
+        for msg in failures:
+            print(f"error: {msg}", file=sys.stderr)
+        print(f"migration aborted ({len(failures)} broken "
+              f"file{'s' if len(failures) != 1 else ''}); "
+              f"seed.sql left untouched", file=sys.stderr)
+        return 1
 
     # Sort by yaml id (case-insensitive).  The token rows ride along
     # with their parent formula so a stable sort here also groups all
@@ -445,15 +445,15 @@ def main() -> int:
         t_body = _extract_values_body(t_sql)
         if t_body is not None:
             for row in _split_value_rows(t_body):
-                token_rows.append(f"  {_strip_column(row, 7)}")
+                token_rows.append(f"  {row}")
 
     new_blocks = []
     if formula_rows:
         new_blocks.append(
-            "-- ==========================================\n"
-            "-- Formulas migrated with build_seed.py from \n"
-            "-- ~/Projects/Scifind-formulas/formulas/\n"
-            "-- ==========================================\n"
+            "-- ============================================================\n"
+            "-- Formulas migrated from Scifind-formulas/formulas/\n"
+            "-- via build_create_sql (mirrors Scifind's /create page).\n"
+            "-- ============================================================\n"
             "INSERT OR IGNORE INTO formula (id, name, topic, difficulty, description, links) VALUES\n"
             + ",\n".join(formula_rows)
             + ";\n"

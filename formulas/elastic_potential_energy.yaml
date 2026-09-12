@@ -12,6 +12,8 @@ equation: energy eq spring_constant mul (length pow 2) frac 2
 symbol_overrides:
 - energy: E_e
 - length: x
+- spring_constant: ''
 name_overrides:
 - energy: Elastic potential [energy]
 - length: Extension
+- spring_constant: ''

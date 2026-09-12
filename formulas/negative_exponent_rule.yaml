@@ -10,14 +10,14 @@ description: The negative exponent rule states that any nonzero base raised to a
   integer power equals the reciprocal of that base raised to the corresponding positive
   power. It is a defining identity that extends exponentiation beyond non-negative
   integers and is consistent with the multiplication rule b^m · b^n = b^(m+n).
-equation: dimensionless pow (drop dimensionless sub) eq 1 frac dimensionless pow dimensionless
+equation: variable pow (drop dimensionless sub) eq 1 frac dimensionless pow dimensionless
 symbol_overrides:
-- dimensionless: a
+- variable: a
 - dimensionless: n
 - dimensionless: a
 - dimensionless: n
 name_overrides:
-- dimensionless: Base a
+- variable: Base a
 - dimensionless: Positive exponent n
 - dimensionless: Base a
 - dimensionless: Exponent n

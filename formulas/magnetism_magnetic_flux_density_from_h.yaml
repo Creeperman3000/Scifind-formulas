@@ -11,7 +11,9 @@ description: In a linear, isotropic, non-hysteretic medium the magnetic flux den
 equation: magnetic_flux_density eq permeability mul magnetic_field_strength
 symbol_overrides:
 - permeability: μ
+- magnetic_flux_density: ''
+- magnetic_field_strength: ''
 name_overrides:
-- magnetic_flux_density: Magnetic flux [density]
+- magnetic_flux_density: Magnetic flux [magnetic_flux_density|density]
 - permeability: '[permeability] of medium'
 - magnetic_field_strength: Magnetic field intensity

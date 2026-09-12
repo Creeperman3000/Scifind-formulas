@@ -11,6 +11,9 @@ description: "For a Hookean spring the restoring force grows linearly with exten
 equation: energy eq force mul (length) frac 2
 symbol_overrides:
 - energy: E_e
+- force: ''
+- length: ''
 name_overrides:
 - energy: Elastic potential [energy]
 - length: Extension
+- force: ''

@@ -16,11 +16,9 @@ symbol_overrides:
 - energy: E_2
 - momentum: p_1
 - momentum: p_2
-- speed_of_light: c
 name_overrides:
 - energy: Mandelstam s
 - energy: '[energy] of particle 1'
 - energy: '[energy] of particle 2'
 - momentum: '[momentum] of particle 1'
 - momentum: '[momentum] of particle 2'
-- speed_of_light: '[speed_of_light] in vacuum'

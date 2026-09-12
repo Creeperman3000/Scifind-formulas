@@ -17,3 +17,4 @@ name_overrides:
 - concentration: Hydronium [concentration]
 - concentration: Conjugate base [concentration]
 - concentration: Acid [concentration]
+- equilibrium_constant: ''

@@ -15,6 +15,8 @@ equation: energy eq (3 mul gravitational_constant mul mass pow 2 ) frac 5 mul le
 symbol_overrides:
 - energy: E_b
 - length: R
+- mass: ''
 name_overrides:
 - energy: Binding [energy]
 - length: Sphere radius
+- mass: ''

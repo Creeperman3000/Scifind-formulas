@@ -15,7 +15,9 @@ symbol_overrides:
 - amount: N
 - frequency: \lambda
 - amount: N
+- time: ''
 name_overrides:
 - amount: Population N
 - frequency: Decay constant
 - amount: Population N
+- time: ''

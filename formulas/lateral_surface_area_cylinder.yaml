@@ -14,6 +14,7 @@ symbol_overrides:
 - dimensionless: '2'
 - length: r
 - length: h
+- area: ''
 name_overrides:
 - area: Lateral [area]
 - dimensionless: Two

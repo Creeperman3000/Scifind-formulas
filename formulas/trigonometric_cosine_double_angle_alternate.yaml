@@ -17,8 +17,6 @@ equation: cos (angle mul 2) eq 2 mul (cos angle pow 2) sub 1
 symbol_overrides:
 - angle: θ
 - angle: θ
-- angle: θ
 name_overrides:
-- angle: Angle
 - angle: Angle
 - angle: Angle

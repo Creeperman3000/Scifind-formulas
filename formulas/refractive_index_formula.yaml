@@ -12,6 +12,7 @@ description: "The absolute refractive index of a medium is the ratio of the spee
 equation: dimensionless eq speed_of_light frac velocity
 symbol_overrides:
 - dimensionless: n
+- velocity: ''
 name_overrides:
 - dimensionless: Refractive index
 - velocity: Speed in medium

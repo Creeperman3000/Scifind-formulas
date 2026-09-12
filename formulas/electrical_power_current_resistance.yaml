@@ -11,3 +11,5 @@ description: "The rate at which a resistor converts electrical energy into heat,
 equation: power eq (current pow 2) mul resistance
 name_overrides:
 - current: Current
+- power: ''
+- resistance: ''

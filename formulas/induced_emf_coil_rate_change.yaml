@@ -16,5 +16,8 @@ equation: electromagnetic_induction eq 0 sub frac rmd magnetic_flux rmd time
 symbol_overrides:
 - electromagnetic_induction: ε
 - magnetic_flux: Φ
+- time: ''
 name_overrides:
 - electromagnetic_induction: Induced EMF
+- magnetic_flux: ''
+- time: ''

@@ -1,4 +1,4 @@
-name: Atom economy
+name: Atom economy from molar masses
 id: percent_yield_atom_economy
 topic: percent_yield
 difficulty: 6
@@ -11,7 +11,7 @@ links:
 description: "Atom economy, introduced by Barry Trost in 1991, is a measure of how efficiently a chemical reaction incorporates the atoms of its reactants into the desired product. It is a key metric of green chemistry and complements percent yield, because even a high-yielding reaction can produce large amounts of unwanted byproducts. The ideal value is 100%, achieved only when every reactant atom ends up in the target molecule."
 equation: dimensionless eq molar_mass frac (molar_mass add molar_mass) mul 100
 symbol_overrides:
-- dimensionless: '\% AE'
+- dimensionless: \% AE
 - molar_mass: M_{desired}
 - molar_mass: M_{desired}
 - molar_mass: M_{waste}

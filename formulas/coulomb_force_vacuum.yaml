@@ -21,3 +21,5 @@ symbol_overrides:
 name_overrides:
 - force: Electrostatic [force]
 - length: Separation distance
+- charge: ''
+- charge: ''

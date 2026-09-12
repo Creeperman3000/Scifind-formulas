@@ -13,5 +13,5 @@ symbol_overrides:
 - angular_momentum: L_i
 - angular_momentum: L_f
 name_overrides:
-- angular_momentum: Initial angular [momentum]
-- angular_momentum: Final angular [momentum]
+- angular_momentum: Initial angular [angular_momentum|momentum]
+- angular_momentum: Final angular [angular_momentum|momentum]

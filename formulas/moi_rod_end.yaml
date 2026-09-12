@@ -13,3 +13,4 @@ equation: moment_of_inertia eq mass mul (length pow 2) frac 3
 symbol_overrides:
 - mass: M
 - length: L
+- moment_of_inertia: ''

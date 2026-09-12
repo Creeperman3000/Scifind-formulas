@@ -18,3 +18,4 @@ name_overrides:
 - volume: Change in [volume]
 - volume: Initial [volume]
 - temperature: Change in [temperature]
+- coefficient_of_linear_expansion: ''

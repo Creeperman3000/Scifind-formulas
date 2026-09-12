@@ -13,6 +13,8 @@ equation: area eq pi mul length mul length
 symbol_overrides:
 - length: a
 - length: b
+- area: ''
 name_overrides:
 - length: Semi-major axis
 - length: Semi-minor axis
+- area: ''

@@ -11,6 +11,8 @@ description: "The first law of thermodynamics expresses conservation of energy: 
 equation: Delta energy eq energy add energy
 symbol_overrides:
 - energy: ΔU
+- energy: ''
+- energy: ''
 name_overrides:
 - energy: Change in internal [energy]
 - energy: Heat added

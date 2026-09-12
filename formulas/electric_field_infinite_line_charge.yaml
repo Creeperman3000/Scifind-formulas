@@ -12,6 +12,7 @@ equation: electric_field_strength eq frac (2 mul coulomb_constant mul charge_den
 symbol_overrides:
 - charge_density: λ
 - length: r
+- electric_field_strength: ''
 name_overrides:
 - electric_field_strength: Electric field
 - charge_density: Linear charge density

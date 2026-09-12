@@ -15,9 +15,11 @@ symbol_overrides:
 - length: b_1
 - length: b_2
 - length: h
+- area: ''
 name_overrides:
 - dimensionless: One
 - dimensionless: Two
 - length: Base 1
 - length: Base 2
 - length: Height
+- area: ''

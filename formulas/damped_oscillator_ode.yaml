@@ -20,9 +20,13 @@ symbol_overrides:
 - length: x
 - angular_velocity: \omega_0
 - length: x
+- time: ''
+- time: ''
 name_overrides:
 - length: Displacement
 - frequency: Damping coefficient
 - length: Displacement
-- angular_velocity: Natural angular [frequency]
+- angular_velocity: Natural angular [angular_velocity|frequency]
 - length: Displacement
+- time: ''
+- time: ''

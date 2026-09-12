@@ -17,6 +17,7 @@ symbol_overrides:
 - angle: θ
 - length: r
 - length: r
+- current: ''
 name_overrides:
 - magnetic_flux_density: Magnetic field contribution
 - current: Current

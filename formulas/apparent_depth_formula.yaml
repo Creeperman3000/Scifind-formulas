@@ -13,6 +13,7 @@ equation: length eq length frac refractive_index
 symbol_overrides:
 - length: d'
 - length: d
+- refractive_index: ''
 name_overrides:
 - length: Apparent depth
 - length: Real depth

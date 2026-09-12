@@ -15,6 +15,8 @@ equation: moment_of_inertia eq 3 mul (mass mul length pow 2 ) frac 10
 symbol_overrides:
 - mass: M
 - length: R
+- moment_of_inertia: ''
 name_overrides:
 - moment_of_inertia: '[moment_of_inertia]'
 - length: Base radius
+- mass: ''

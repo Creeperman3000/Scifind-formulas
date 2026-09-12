@@ -18,7 +18,10 @@ equation: ((time) eq (2 mul pi mul ((moment_of_inertia frac (mass mul (standard_
 symbol_overrides:
 - time: T
 - length: d
+- moment_of_inertia: ''
+- mass: ''
 name_overrides:
 - time: Period
 - moment_of_inertia: Inertia
 - length: Distance to pivot
+- mass: ''

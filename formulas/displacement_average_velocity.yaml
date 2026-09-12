@@ -12,7 +12,9 @@ symbol_overrides:
 - length: s
 - velocity: u
 - velocity: v
+- time: ''
 name_overrides:
 - length: Displacement
 - velocity: Initial [velocity]
 - velocity: Final [velocity]
+- time: ''

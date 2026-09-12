@@ -17,7 +17,9 @@ symbol_overrides:
 - mass: M
 - length: R₁
 - length: R₂
+- moment_of_inertia: ''
 name_overrides:
 - moment_of_inertia: '[moment_of_inertia]'
 - length: Inner radius
 - length: Outer radius
+- mass: ''

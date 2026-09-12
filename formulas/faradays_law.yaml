@@ -14,7 +14,9 @@ symbol_overrides:
 - electric_potential: \varepsilon
 - dimensionless: N
 - magnetic_flux: \Phi
+- time: ''
 name_overrides:
 - electric_potential: Induced EMF
 - dimensionless: Number of turns
 - magnetic_flux: Magnetic flux through one loop
+- time: ''

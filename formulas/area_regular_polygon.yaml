@@ -1,4 +1,4 @@
-name: Area of a regular polygon
+name: Area of a regular polygon (apothem)
 id: area_regular_polygon
 topic: plane_geometry
 difficulty: 5
@@ -13,7 +13,10 @@ equation: area eq length mul (length) mul (amount) frac 2
 symbol_overrides:
 - length: a
 - length: s
+- area: ''
+- amount: ''
 name_overrides:
 - length: Apothem
 - length: Side [length]
 - amount: Number of sides
+- area: ''

@@ -10,6 +10,9 @@ description: "In a uniform electric field, such as that between parallel conduct
 equation: electric_potential eq electric_field_strength mul length
 symbol_overrides:
 - length: d
+- electric_potential: ''
+- electric_field_strength: ''
 name_overrides:
 - electric_potential: Potential difference
 - length: Distance
+- electric_field_strength: ''

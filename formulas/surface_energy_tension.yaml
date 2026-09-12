@@ -13,3 +13,4 @@ equation: energy eq surface_tension mul area
 symbol_overrides:
 - energy: U
 - surface_tension: γ
+- area: ''

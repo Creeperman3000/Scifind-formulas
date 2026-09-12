@@ -15,6 +15,7 @@ symbol_overrides:
 - velocity: ''
 - velocity: ''
 - velocity: v_s
+- frequency: ''
 name_overrides:
 - frequency: Observed [frequency]
 - frequency: Source [frequency]

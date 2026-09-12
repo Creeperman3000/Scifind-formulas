@@ -17,3 +17,4 @@ symbol_overrides:
 name_overrides:
 - length: Long leg
 - length: Short leg
+- dimensionless: ''

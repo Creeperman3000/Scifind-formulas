@@ -11,5 +11,7 @@ description: "The volume of a cube is the side length raised to the third power,
 equation: volume eq length pow 3
 symbol_overrides:
   - length: s
+  - volume: ''
 name_overrides:
   - length: Side
+  - volume: ''

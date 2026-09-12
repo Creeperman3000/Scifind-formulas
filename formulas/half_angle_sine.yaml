@@ -10,7 +10,10 @@ links:
 description: "Expresses the square of the sine of half an angle in terms of the cosine of the full angle. It follows from the angle-addition identity cos(2a) = 1 - 2sin\u00b2(a), and is widely used to evaluate trigonometric expressions at angles such as 22.5\u00b0 or 75\u00b0."
 equation: angle 2 frac sin pow 2 eq (dimensionless sub cos angle) frac 2
 symbol_overrides:
-- angle: "\u03B8"
+- angle: θ
 - dimensionless: '1'
+- angle: ''
 name_overrides:
 - angle: '[angle|Angle]'
+- angle: ''
+- dimensionless: ''

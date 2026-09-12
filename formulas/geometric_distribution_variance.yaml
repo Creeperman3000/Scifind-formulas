@@ -20,3 +20,4 @@ name_overrides:
 - dimensionless: Variance of geometric distribution
 - dimensionless: '1'
 - dimensionless: Success probability
+- dimensionless: ''

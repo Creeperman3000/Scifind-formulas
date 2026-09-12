@@ -13,6 +13,7 @@ equation: force eq surface_tension mul length
 symbol_overrides:
 - surface_tension: γ
 - length: L
+- force: ''
 name_overrides:
 - force: Surface tension [force]
 - surface_tension: '[surface_tension]'

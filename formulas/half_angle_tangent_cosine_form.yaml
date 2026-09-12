@@ -10,10 +10,10 @@ links:
 description: "One of the two common forms of the tangent half-angle identity; expresses tan(θ/2) in terms of cos(θ) and sin(θ). It is useful in integral calculus and anywhere the tangent half-angle substitution t = tan(θ/2) is applied, such as in the Weierstrass substitution."
 equation: tan (angle frac 2) eq (dimensionless sub cos angle) frac sin angle
 symbol_overrides:
-- angle: "θ"
+- angle: θ
 - dimensionless: '1'
-- angle: "θ"
-- angle: "θ"
+- angle: θ
+- angle: θ
 name_overrides:
 - angle: Angle θ
 - dimensionless: '1'

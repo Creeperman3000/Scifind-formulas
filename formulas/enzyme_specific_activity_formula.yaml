@@ -12,6 +12,6 @@ symbol_overrides:
 - catalytic_activity: V_{max}
 - mass: m_{enzyme}
 name_overrides:
-- catalytic_activity: Specific [activity]
-- catalytic_activity: Maximum [velocity]
+- catalytic_activity: Specific [catalytic_activity|activity]
+- catalytic_activity: Maximum [catalytic_activity|velocity]
 - mass: Enzyme [mass]

@@ -15,6 +15,7 @@ symbol_overrides:
 - length: r
 - length: h
 - length: r
+- area: ''
 name_overrides:
 - area: Surface [area]
 - length: Radius

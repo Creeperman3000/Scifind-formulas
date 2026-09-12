@@ -20,3 +20,4 @@ name_overrides:
 - concentration: '[concentration] of D'
 - concentration: '[concentration] of A'
 - concentration: '[concentration] of B'
+- equilibrium_constant: ''

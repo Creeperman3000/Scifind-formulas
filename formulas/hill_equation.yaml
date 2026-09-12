@@ -24,8 +24,8 @@ symbol_overrides:
 - concentration: '[S]'
 - dimensionless: n
 name_overrides:
-- catalytic_activity: Reaction [velocity]
-- catalytic_activity: Maximum [velocity]
+- catalytic_activity: Reaction [catalytic_activity|velocity]
+- catalytic_activity: Maximum [catalytic_activity|velocity]
 - concentration: Substrate [concentration]
 - dimensionless: Hill coefficient
 - dimensionless: Dissociation constant

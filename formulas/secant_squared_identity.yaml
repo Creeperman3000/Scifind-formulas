@@ -15,8 +15,6 @@ equation: frac 1 cos angle pow 2 eq 1 add tan angle pow 2
 symbol_overrides:
 - angle: θ
 - angle: θ
-- angle: θ
 name_overrides:
-- angle: Angle θ
 - angle: Angle θ
 - angle: Angle θ

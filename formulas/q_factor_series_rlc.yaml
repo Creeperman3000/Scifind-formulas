@@ -11,5 +11,11 @@ description: "The Q factor of a series RLC circuit describes how underdamped the
 equation: dimensionless eq sqrt (inductance frac capacitance) 2 frac resistance
 symbol_overrides:
 - dimensionless: Q
+- inductance: ''
+- capacitance: ''
+- resistance: ''
 name_overrides:
 - dimensionless: Quality factor
+- inductance: ''
+- capacitance: ''
+- resistance: ''

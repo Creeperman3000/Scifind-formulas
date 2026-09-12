@@ -14,7 +14,9 @@ symbol_overrides:
 - equilibrium_constant: K_p
 - equilibrium_constant: K_c
 - dimensionless: Δn
+- temperature: ''
 name_overrides:
-- equilibrium_constant: '[equilibrium_constant] in terms of [pressure]'
-- equilibrium_constant: '[equilibrium_constant] in terms of [concentration]'
+- equilibrium_constant: '[equilibrium_constant] in terms of [equilibrium_constant|pressure]'
+- equilibrium_constant: '[equilibrium_constant] in terms of [equilibrium_constant|concentration]'
 - dimensionless: Change in moles of gas
+- temperature: ''

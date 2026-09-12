@@ -22,7 +22,8 @@ symbol_overrides:
 - dimensionless: \frac{1}{2}
 - length: \lambda
 name_overrides:
-- dimensionless: Film [refractive_index]
+- dimensionless: Film [dimensionless|refractive_index]
 - length: Film thickness
 - dimensionless: Order number
 - length: Wavelength in vacuum
+- dimensionless: ''

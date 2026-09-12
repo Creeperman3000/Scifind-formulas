@@ -14,3 +14,5 @@ description: The moment of inertia of a uniform solid disk about the symmetry ax
 equation: moment_of_inertia eq mass mul (length pow 2) frac 2
 symbol_overrides:
 - length: R
+- moment_of_inertia: ''
+- mass: ''

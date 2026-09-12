@@ -10,6 +10,11 @@ description: Molar absorptivity (also called molar extinction or molar attenuati
 equation: molar_absorptivity eq absorbance frac (concentration mul length)
 symbol_overrides:
 - molar_absorptivity: \varepsilon
+- absorbance: ''
+- concentration: ''
+- length: ''
 name_overrides:
 - molar_absorptivity: Molar absorptivity
 - length: Path [length]
+- absorbance: ''
+- concentration: ''

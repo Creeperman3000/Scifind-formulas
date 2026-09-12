@@ -11,5 +11,7 @@ description: "Angular frequency measures how quickly a periodic process advances
 equation: angular_velocity eq (pi mul 2) mul frequency
 symbol_overrides:
 - angular_velocity: \omega
+- frequency: ''
 name_overrides:
 - angular_velocity: Angular frequency
+- frequency: ''

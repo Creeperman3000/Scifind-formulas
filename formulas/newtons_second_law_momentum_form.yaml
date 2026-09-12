@@ -17,4 +17,4 @@ symbol_overrides:
 name_overrides:
 - force: Net [force]
 - momentum: Linear [momentum]
-- time: [time]
+- time: '[time]'

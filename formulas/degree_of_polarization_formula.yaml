@@ -14,6 +14,7 @@ symbol_overrides:
 - irradiance: I_{min}
 - irradiance: I_{max}
 - irradiance: I_{min}
+- degree_of_polarization: ''
 name_overrides:
 - degree_of_polarization: Degree of polarization
 - irradiance: Maximum intensity

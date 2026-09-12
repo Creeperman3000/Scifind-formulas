@@ -14,7 +14,11 @@ symbol_overrides:
 - power: \Phi
 - temperature: \Delta T
 - length: d
+- thermal_conductivity: ''
+- area: ''
 name_overrides:
 - power: Heat flux
 - area: Cross-sectional [area]
 - length: Thickness
+- thermal_conductivity: ''
+- temperature: ''

@@ -20,3 +20,5 @@ name_overrides:
 - length: Image distance
 - length: Object distance
 - length: Focal [length]
+- length: ''
+- length: ''

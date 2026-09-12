@@ -9,15 +9,15 @@ links:
   - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:standard-form-vertex-form/v/vertex-form-introduction
   - https://mathworld.wolfram.com/Parabola.html
 description: "The vertex form writes a quadratic (parabola with vertical axis) as a vertical scaling plus a horizontal shift, making the vertex (h, k) and opening direction (sign of a) immediately visible. It is obtained from the general form by completing the square."
-equation: dimensionless eq dimensionless mul ((dimensionless sub dimensionless) pow 2) add dimensionless
+equation: variable eq dimensionless mul ((dimensionless sub dimensionless) pow 2) add dimensionless
 symbol_overrides:
-- dimensionless: y
+- variable: y
 - dimensionless: a
 - dimensionless: x
 - dimensionless: h
 - dimensionless: k
 name_overrides:
-- dimensionless: y-coordinate
+- variable: y-coordinate
 - dimensionless: Leading coefficient
 - dimensionless: x-coordinate
 - dimensionless: Vertex x

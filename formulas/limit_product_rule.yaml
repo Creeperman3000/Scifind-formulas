@@ -13,10 +13,10 @@ description: The product rule for limits states that the limit of a product of t
   functions equals the product of their individual limits, when those limits exist.
   This is one of the fundamental algebraic limit laws used to evaluate limits of more
   complex expressions by breaking them into simpler pieces.
-equation: lim dimensionless dimensionless (dimensionless cdot dimensionless) eq lim
+equation: lim variable dimensionless (dimensionless cdot dimensionless) eq lim
   dimensionless dimensionless dimensionless mul lim dimensionless dimensionless dimensionless
 symbol_overrides:
-- dimensionless: x
+- variable: x
 - dimensionless: a
 - dimensionless: f
 - dimensionless: g
@@ -27,13 +27,13 @@ symbol_overrides:
 - dimensionless: a
 - dimensionless: g
 name_overrides:
-- dimensionless: '''[variable]'''
+- variable: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function f
 - dimensionless: Function g
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function f
-- dimensionless: '''[variable]'''
+- dimensionless: "'[dimensionless|variable]'"
 - dimensionless: Approach point
 - dimensionless: Function g

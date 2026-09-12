@@ -15,9 +15,9 @@ symbol_overrides:
 - dimensionless: p
 - dimensionless: o
 - dimensionless: o
-- dimensionless: 1
+- dimensionless: '1'
 name_overrides:
 - dimensionless: Probability
 - dimensionless: Odds in favor
 - dimensionless: Odds
-- dimensionless: 1
+- dimensionless: '1'

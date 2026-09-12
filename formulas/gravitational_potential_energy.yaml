@@ -13,6 +13,8 @@ equation: energy eq mass mul standard_gravity mul length
 symbol_overrides:
 - energy: U
 - length: h
+- mass: ''
 name_overrides:
 - energy: Gravitational PE
 - length: Height
+- mass: ''

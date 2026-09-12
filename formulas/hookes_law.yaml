@@ -11,6 +11,9 @@ description: "Hooke's law states that the restoring force exerted by an ideal el
 equation: force eq drop spring_constant sub mul length
 symbol_overrides:
 - length: x
+- force: ''
+- spring_constant: ''
 name_overrides:
 - force: Restoring [force]
 - length: Displacement
+- spring_constant: ''
