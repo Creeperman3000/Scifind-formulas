@@ -12,8 +12,8 @@ description: The WKB approximation gives an estimate of the probability that a q
   energy. The result is dominated by an exponential decay with the barrier width,
   particle mass, and barrier height, and is the basis of alpha decay, field emission,
   and scanning tunneling microscopy.
-equation: dimensionless eq exp (drop 2 mul length mul sqrt mass mul energy sub energy
-  )
+equation: dimensionless eq exp (drop sub 2 mul length mul ((mass mul (energy sub
+  energy)) sqrt 2))
 symbol_overrides:
 - dimensionless: T
 - length: L

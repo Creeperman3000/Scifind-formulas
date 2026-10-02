@@ -10,8 +10,7 @@ description: This gives the mean molecular speed of a gas obtained by averaging 
   the Maxwell-Boltzmann speed distribution at absolute temperature. The average speed
   always lies between the most probable speed and the root-mean-square speed, and
   it grows with temperature while shrinking for heavier gases.
-equation: velocity eq sqrt ((dimensionless mul gas_constant mul temperature) frac
-  pi mul molar_mass ) 2
+equation: velocity eq ( ( ( dimensionless mul gas_constant mul temperature ) frac pi mul molar_mass ) sqrt 2 )
 symbol_overrides:
 - velocity: v_{avg}
 - dimensionless: '8'

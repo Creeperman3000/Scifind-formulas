@@ -9,8 +9,7 @@ links:
   - https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(OpenStax)/09%3A_Hypothesis_Testing_with_One_Sample
   - https://www.britannica.com/topic/t-test
 description: "The one-sample t-statistic measures how many standard errors the sample mean lies from a hypothesized population mean, and under the null hypothesis it follows Student's t-distribution with n−1 degrees of freedom. It is the basis of t-tests used to assess whether an observed mean is consistent with a reference value when the population standard deviation is unknown."
-equation: dimensionless eq (dimensionless sub dimensionless ) frac dimensionless frac
-  sqrt dimensionless 2
+equation: dimensionless eq ( dimensionless sub dimensionless ) frac dimensionless frac ( dimensionless sqrt 2 )
 symbol_overrides:
 - dimensionless: t
 - dimensionless: x̄

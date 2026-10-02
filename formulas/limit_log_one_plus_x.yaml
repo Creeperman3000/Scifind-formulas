@@ -12,8 +12,7 @@ links:
 description: A foundational special limit establishing the derivative of the natural
   logarithm at 1. It is the logarithmic counterpart to the exponential limit and is
   used in deriving the derivative of ln(x) via the limit definition of the derivative.
-equation: lim variable dimensionless (log euler_e (1 add dimensionless) frac
-  dimensionless) eq 1
+equation: lim variable dimensionless ( ( euler_e log ( 1 add dimensionless ) ) frac dimensionless ) eq 1
 symbol_overrides:
 - variable: x
 - dimensionless: '0'

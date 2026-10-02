@@ -10,7 +10,7 @@ links:
   - https://www.nuclear-power.com/nuclear-engineering/radiation-detection/activity/
   - https://physics.info/half-life/
 description: "The activity of a radioactive sample is the number of nuclear decays per unit time. It equals the decay constant lambda times the number of remaining nuclei, and since the decay constant is related to the half-life by t_{1/2} = ln(2)/lambda, the activity can be written directly in terms of the half-life and the number of parent nuclei. This relation is used to compute activities from known half-lives, particularly in radiometric dating and radioactive-equilibrium problems."
-equation: activity eq dimensionless mul log euler_e 2 frac time
+equation: activity eq dimensionless mul ( euler_e log 2 ) frac time
 symbol_overrides:
 - dimensionless: N
 - time: t_{1/2}

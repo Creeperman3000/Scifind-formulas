@@ -8,4 +8,4 @@ links:
   - https://en.wikipedia.org/wiki/Natural_logarithm
   - https://www.khanacademy.org/math/algebra2/x2ec2f6476b63c4d6:logs/x2ec2f6476b63c4d6:log-introduction/v/introduction-to-logarithms
 description: "For any valid base b of a logarithm, the logarithm of the base itself equals 1, since b raised to the power 1 is b. This special value reflects the defining relationship that the logarithm answers the question 'to what power must the base be raised to obtain the argument.'"
-equation: log 10 10 eq 1
+equation: ( 10 log 10 ) eq 1

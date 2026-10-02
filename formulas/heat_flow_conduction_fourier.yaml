@@ -15,8 +15,7 @@ description: Fourier's law of heat conduction states that the time rate of heat 
   law for heat conduction under steady-state conditions and assumes the material is
   homogeneous and isotropic; a more general differential form uses the temperature
   gradient.
-equation: energy frac time eq thermal_conductivity mul (area) mul frac (temperature
-  sub temperature) length
+equation: energy frac time eq thermal_conductivity mul ( area ) mul ( ( temperature sub temperature ) frac length )
 symbol_overrides:
 - length: d
 - temperature: T_2

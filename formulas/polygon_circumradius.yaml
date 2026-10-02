@@ -11,7 +11,7 @@ links:
 description: The circumradius of a regular polygon is the distance from the center
   to any vertex. It is related to the side length s and number of sides n by the central
   isosceles triangle formed by two adjacent vertices and the center.
-equation: length eq frac length (2 mul sin frac pi angle )
+equation: length eq ( length frac ( 2 mul sin ( pi frac angle ) ) )
 symbol_overrides:
 - length: R
 - length: s

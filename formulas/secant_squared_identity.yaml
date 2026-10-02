@@ -11,7 +11,7 @@ description: A Pythagorean trigonometric identity obtained by dividing the funda
   identity sin²θ + cos²θ = 1 by cos²θ. It expresses the secant function in terms of
   the tangent and is valid wherever cos θ is nonzero. It is frequently used in calculus
   for integrating secant-based expressions and in derivations of integration formulas.
-equation: frac 1 cos angle pow 2 eq 1 add tan angle pow 2
+equation: ( 1 frac cos angle ) pow 2 eq 1 add tan angle pow 2
 symbol_overrides:
 - angle: θ
 - angle: θ

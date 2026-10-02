@@ -9,7 +9,7 @@ links:
   - https://www.khanacademy.org/math/algebra2/x2ec2f6976b45024c:logs/x2ec2f6976b45024c:log-prop/a/logarithm-properties-review
   - https://mathworld.wolfram.com/Logarithm.html
 description: "The logarithm of a product equals the sum of the logarithms of the factors. This identity, which historically justified the use of logarithm tables for multiplying large numbers, requires the base and the arguments to be positive."
-equation: log euler_e (dimensionless mul dimensionless) eq log euler_e dimensionless add log euler_e dimensionless
+equation: ( euler_e log ( dimensionless mul dimensionless ) ) eq ( euler_e log dimensionless ) add ( euler_e log dimensionless )
 symbol_overrides:
 - dimensionless: x
 - dimensionless: y

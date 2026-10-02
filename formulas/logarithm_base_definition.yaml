@@ -11,7 +11,7 @@ links:
 description: The change-of-base identity expresses a logarithm with one base as the
   ratio of logarithms with another base, providing a unified way to convert between
   bases such as 2, 10, and e.
-equation: variable eq frac dimensionless dimensionless
+equation: variable eq ( dimensionless frac dimensionless )
 symbol_overrides:
 - variable: log_a(x)
 - dimensionless: log_b(x)

@@ -7,7 +7,7 @@ links:
   - https://en.wikipedia.org/wiki/Intrinsic_impedance
   - https://proofwiki.org/wiki/Definition:Impedance_of_Free_Space
 description: "The impedance of free space, also called the wave impedance of a vacuum, is the constant ratio of the electric field strength to the magnetic field strength for a plane electromagnetic wave traveling through vacuum, equal to about 376.7 ohms. It follows from Maxwell's equations and is often approximated in engineering as 120 pi ohms."
-equation: resistance eq sqrt (vacuum_permeability frac vacuum_permittivity ) 2
+equation: resistance eq ( ( vacuum_permeability frac vacuum_permittivity ) sqrt 2 )
 symbol_overrides:
 - resistance: Z_0
 name_overrides:

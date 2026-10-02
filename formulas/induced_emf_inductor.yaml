@@ -11,7 +11,7 @@ description: The voltage induced across an inductor equals the negative of its i
   times the time-rate-of-change of current through it. This is the defining constitutive
   relation of an ideal inductor and reflects the fact that an inductor opposes any
   change in current.
-equation: electric_potential eq 0 sub inductance mul frac rmd current rmd time
+equation: electric_potential eq 0 sub inductance mul ( rmd current frac rmd time )
 symbol_overrides:
 - electric_potential: ε
 - inductance: ''

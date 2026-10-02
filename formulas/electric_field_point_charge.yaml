@@ -12,8 +12,7 @@ description: Gives the magnitude of the electric field produced by a point charg
   negative charge. It follows directly from Coulomb's law divided by the test charge,
   falls off with the square of the distance, and is the building block for fields
   of more complex charge distributions via superposition.
-equation: electric_field_strength eq frac (coulomb_constant mul charge) length pow
-  2
+equation: electric_field_strength eq ( ( coulomb_constant mul charge ) frac length ) pow 2
 symbol_overrides:
 - length: r
 - electric_field_strength: ''

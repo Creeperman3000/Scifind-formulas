@@ -10,8 +10,7 @@ description: Quantifies the entropy increase when distinct ideal gases mix at co
   temperature and pressure. Because ideal-gas molecules do not interact, each component
   expands independently into the total volume, and the entropy gain depends only on
   the composition of the final mixture; it is always positive for genuine mixing.
-equation: entropy eq 0 sub amount mul gas_constant mul sum drop drop (dimensionless
-  mul log euler_e dimensionless)
+equation: entropy eq 0 sub amount mul gas_constant mul sum drop drop ( dimensionless mul ( euler_e log dimensionless ) )
 symbol_overrides:
 - entropy: ΔS_{mix}
 - amount: n

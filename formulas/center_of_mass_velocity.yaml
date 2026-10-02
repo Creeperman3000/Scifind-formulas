@@ -7,7 +7,7 @@ links:
   - https://openstax.org/books/university-physics-volume-1/pages/9-6-center-of-mass
   - http://labman.phys.utk.edu/phys135core/modules/m7/center_of_mass.html
 description: "The velocity of a system's center of mass is the mass-weighted average of the velocities of its parts, which also equals the total momentum of the system divided by the total mass. Because an isolated system's total momentum is conserved, its center of mass moves at constant velocity no matter how the individual particles move. This underlies collision analysis and the treatment of extended bodies as single particles."
-equation: velocity eq frac (mass mul velocity add mass mul velocity) (mass add mass)
+equation: velocity eq ( ( mass mul velocity add mass mul velocity ) frac ( mass add mass ) )
 symbol_overrides:
 - velocity: v_{cm}
 - mass: m_1

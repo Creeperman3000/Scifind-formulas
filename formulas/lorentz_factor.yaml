@@ -12,8 +12,7 @@ description: The Lorentz factor is a dimensionless quantity that quantifies how 
   effects such as time dilation, length contraction, and relativistic mass increase
   scale with a particle's velocity. It appears throughout special relativity and approaches
   infinity as the speed approaches that of light.
-equation: dimensionless eq dimensionless frac sqrt (dimensionless sub frac (velocity
-  pow 2) speed_of_light pow 2 ) 2
+equation: dimensionless eq dimensionless frac ( ( dimensionless sub ( ( velocity pow 2 ) frac speed_of_light ) pow 2 ) sqrt 2 )
 symbol_overrides:
 - dimensionless: γ
 - dimensionless: '1'

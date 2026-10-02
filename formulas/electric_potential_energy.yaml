@@ -8,7 +8,7 @@ links:
   - https://www.physicsbook.gatech.edu/Electric_Potential_Energy
   - https://www.concepts-of-physics.com/electromagnetism/electric-potential-energy-of-system-of-point-charges.php
 description: "Gives the potential energy stored in a pair of point charges as a function of their separation, with zero taken at infinite separation. The sign follows the product of the charges: positive (repulsive) for like charges and negative (attractive) for opposite charges; summing over pairs extends it to systems of many charges."
-equation: energy eq frac (coulomb_constant mul charge mul charge) length
+equation: energy eq ( ( coulomb_constant mul charge mul charge ) frac length )
 symbol_overrides:
 - energy: U_e
 - charge: q_1

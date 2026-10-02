@@ -12,8 +12,7 @@ description: The relativistic Doppler effect describes the frequency shift of li
   between a source and observer moving toward or away from each other, accounting
   for time dilation in special relativity. It predicts a larger blueshift for approach
   than the classical Doppler formula and a redshift for recession.
-equation: frequency eq frequency mul sqrt ((speed_of_light add velocity) frac speed_of_light
-  sub velocity ) 2
+equation: frequency eq frequency mul ( ( ( speed_of_light add velocity ) frac speed_of_light sub velocity ) sqrt 2 )
 symbol_overrides:
 - frequency: f'
 - frequency: f

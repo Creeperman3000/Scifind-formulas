@@ -8,7 +8,7 @@ links:
   - https://www.chemguide.co.uk/physical/equilibria/kc.html
   - https://unacademy.com/content/jee/study-material/chemistry/equilibrium-constant-kp-and-kc
 description: "The law of mass action states that for a reversible reaction at equilibrium and constant temperature, the ratio of product concentrations to reactant concentrations is constant. Each concentration is raised to the power of its stoichiometric coefficient in the balanced equation; only gaseous and aqueous species are included, since pure solids and liquids have effectively constant concentration."
-equation: equilibrium_constant eq frac (concentration mul concentration) (concentration mul concentration)
+equation: equilibrium_constant eq ( ( concentration mul concentration ) frac ( concentration mul concentration ) )
 symbol_overrides:
 - equilibrium_constant: K_c
 - concentration: '[C]'

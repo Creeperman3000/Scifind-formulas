@@ -12,8 +12,7 @@ description: 'The rational exponent rule expresses a power with a fractional exp
   equivalently as a radical: a^(m/n) is the same as the n-th root of a raised to the
   m-th power, or equivalently the n-th root of a^m. It links fractional exponents
   to radicals and is the basis for simplifying expressions that mix roots and powers.'
-equation: variable pow dimensionless frac dimensionless eq (sqrt dimensionless
-  dimensionless) pow dimensionless
+equation: variable pow dimensionless frac dimensionless eq ( ( dimensionless sqrt dimensionless ) ) pow dimensionless
 symbol_overrides:
 - variable: a
 - dimensionless: m

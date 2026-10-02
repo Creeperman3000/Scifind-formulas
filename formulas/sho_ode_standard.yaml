@@ -13,8 +13,7 @@ description: The standard undamped simple harmonic oscillator equation governs t
   Its solutions are sinusoidal, with the natural angular frequency set by the ratio
   of spring stiffness to mass, and form the prototype for oscillations, waves, and
   many quantum-mechanical bound states.
-equation: frac rmd rmd length (rmd time pow 2) add (angular_velocity pow 2) mul length
-  eq 0
+equation: ( rmd rmd length frac ( rmd time pow 2 ) ) add ( angular_velocity pow 2 ) mul length eq 0
 symbol_overrides:
 - length: x
 - angular_velocity: \omega_0

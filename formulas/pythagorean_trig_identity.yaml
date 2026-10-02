@@ -9,4 +9,4 @@ links:
   - https://www.khanacademy.org/math/trigonometry/trig-identities-and-proofs/trig-id-article-2/v/sin2x-plus-cos2x-equals-1
   - https://math.libretexts.org/Bookshelves/Trigonometry/Trigonometry_(Lumen)/07%3A_Trigonometric_Identities_and_Equations/7.01%3A_Trigonometric_Identities
 description: "The Pythagorean identity states that for any real angle, the sum of the squares of its sine and cosine equals one. It follows directly from the unit-circle equation x² + y² = 1, since (cos θ, sin θ) is a point on that circle. This identity is the foundation for the angle-addition formulas, the double- and half-angle identities, and many calculus simplifications."
-equation: angle sin pow 2 angle cos pow 2 add eq 1
+equation: sin angle pow 2 add cos angle pow 2 eq 1

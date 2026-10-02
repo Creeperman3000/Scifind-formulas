@@ -10,7 +10,7 @@ links:
 description: The derivative of the tangent function is the secant squared, equivalently
   the reciprocal of cosine squared. It follows from applying the quotient rule to
   tangent written as sine over cosine, and holds wherever cosine is nonzero.
-equation: frac rmd tan angle rmd angle eq frac 1 pow cos angle 2
+equation: (rmd tan angle frac rmd angle) eq (1 frac (cos angle pow 2))
 symbol_overrides:
 - angle: x
 - angle: x

@@ -13,8 +13,7 @@ description: The Otto cycle models an idealized spark-ignition internal combusti
   ratio γ of the working gas. Real gasoline engines approach but cannot exceed this
   efficiency, and higher compression ratios give higher efficiency until knock limits
   the allowable ratio.
-equation: dimensionless eq dimensionless sub frac 1 dimensionless pow dimensionless
-  sub 1
+equation: dimensionless eq dimensionless sub ( 1 frac dimensionless ) pow dimensionless sub 1
 symbol_overrides:
 - dimensionless: \eta_{Otto}
 - dimensionless: '1'

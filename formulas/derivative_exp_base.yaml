@@ -11,8 +11,7 @@ description: The derivative of an exponential function with an arbitrary positiv
   base equals the function itself scaled by the natural logarithm of the base. It
   generalizes the special case of the natural exponential and is valid for any base
   greater than zero and not equal to one.
-equation: frac rmd (variable pow dimensionless) rmd dimensionless eq dimensionless
-  pow dimensionless mul log euler_e dimensionless
+equation: ( rmd ( variable pow dimensionless ) frac rmd dimensionless ) eq dimensionless pow dimensionless mul ( euler_e log dimensionless )
 symbol_overrides:
 - variable: a
 - dimensionless: x

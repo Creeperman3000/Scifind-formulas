@@ -13,8 +13,7 @@ description: Describes how the equilibrium constant of a reaction changes with t
   as temperature rises, while for an exothermic reaction it decreases. The integrated
   two-temperature form assumes the standard enthalpy change stays constant over the
   temperature range.
-equation: log euler_e (dimensionless frac dimensionless) eq (energy frac gas_constant)
-  mul ((1 frac dimensionless) sub 1 frac dimensionless )
+equation: ( euler_e log ( dimensionless frac dimensionless ) ) eq ( energy frac gas_constant ) mul ( ( 1 frac dimensionless ) sub 1 frac dimensionless )
 symbol_overrides:
 - dimensionless: K_2
 - dimensionless: K_1

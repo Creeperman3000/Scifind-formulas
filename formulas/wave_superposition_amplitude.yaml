@@ -12,7 +12,7 @@ description: When two coherent waves of the same frequency superpose in phase, t
   root of the sum of the squares of the individual amplitudes. This in-phase (constructive)
   result is a special case of the more general interference law that includes a phase-dependent
   cross term.
-equation: dimensionless eq sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
+equation: dimensionless eq ( ( ( dimensionless pow 2 ) add dimensionless pow 2 ) sqrt 2 )
 symbol_overrides:
 - dimensionless: A
 - dimensionless: A_1

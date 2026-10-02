@@ -11,7 +11,7 @@ description: The constant rule states that the derivative of a constant function
   zero, since a constant function is a horizontal line with no rate of change. It
   is one of the most basic differentiation rules and follows immediately from the
   limit definition of the derivative.
-equation: frac rmd variable rmd dimensionless eq 0
+equation: ( rmd variable frac rmd dimensionless ) eq 0
 symbol_overrides:
 - variable: c
 - dimensionless: x

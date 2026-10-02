@@ -9,7 +9,7 @@ links:
   - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/ph-poh-and-the-ph-scale
   - https://www.britannica.com/science/pH
 description: pH is the negative base-10 logarithm of the hydrogen ion activity, used to specify the acidity or basicity of aqueous solutions. Values below 7 are acidic and values above 7 are basic at 25 °C; the scale is widely used in chemistry, biology, and environmental science.
-equation: ph eq sub drop log 10 concentration
+equation: ph eq drop sub 10 log concentration
 symbol_overrides:
 - concentration: '[H⁺]'
 - ph: ''

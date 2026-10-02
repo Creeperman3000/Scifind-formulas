@@ -9,7 +9,7 @@ links:
   - https://hyperphysics.phy-astr.gsu.edu/hbase/shm.html
   - https://www.britannica.com/science/simple-harmonic-motion
 description: "Relates the speed of a simple harmonic oscillator to its current position, derived from energy conservation (kinetic plus potential equals the total mechanical energy set by the amplitude). The expression under the square root vanishes at the turning points where the speed is zero, and reaches its maximum at the equilibrium position where displacement vanishes."
-equation: velocity eq angular_velocity mul sqrt ((length pow 2) sub length pow 2 ) 2
+equation: velocity eq angular_velocity mul ( ( ( length pow 2 ) sub length pow 2 ) sqrt 2 )
 symbol_overrides:
   - angular_velocity: ω
   - length: A

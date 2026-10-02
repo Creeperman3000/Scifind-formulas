@@ -12,7 +12,7 @@ description: The antiderivative of the reciprocal function 1/x. Unlike most powe
   functions, x^n integrates to x^(n+1)/(n+1), but the case n = -1 must be treated
   separately, yielding the natural logarithm. The absolute value is required so the
   result is valid on both sides of the singularity at x = 0.
-equation: int drop drop ((1 frac angle) mul rmd angle ) eq log euler_e abs angle
+equation: int drop drop ( ( 1 frac angle ) mul rmd angle ) eq ( euler_e log abs angle )
 symbol_overrides:
 - angle: x
 - angle: x

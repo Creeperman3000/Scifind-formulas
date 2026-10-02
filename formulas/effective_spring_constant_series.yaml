@@ -10,8 +10,7 @@ description: Springs connected end-to-end in series all carry the same force whi
   their individual extensions add, so the combination behaves like a single spring
   that is softer than the softest spring in the chain. This relation is used to reduce
   multi-spring arrangements to one effective stiffness for Hooke's-law analysis.
-equation: frac 1 spring_constant eq frac 1 spring_constant add frac 1 spring_constant
-  add frac 1 spring_constant
+equation: ( 1 frac spring_constant ) eq ( 1 frac spring_constant ) add ( 1 frac spring_constant ) add ( 1 frac spring_constant )
 symbol_overrides:
 - spring_constant: k_{eq}
 - spring_constant: k_1

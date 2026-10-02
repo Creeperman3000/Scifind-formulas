@@ -9,7 +9,7 @@ links:
   - https://www.cuemath.com/measurement/area-of-a-hexagon/
   - https://www.math.net/hexagon
 description: "Gives the region enclosed by a regular hexagon from its side length. The hexagon splits into six equilateral triangles, which is where the constant factor comes from; the result applies only to regular (equal-sided) hexagons."
-equation: area eq frac (3 mul sqrt 3 2) 2 mul length pow 2
+equation: area eq ( ( 3 mul ( 3 sqrt 2 ) ) frac 2 ) mul length pow 2
 symbol_overrides:
 - length: s
 - area: ''

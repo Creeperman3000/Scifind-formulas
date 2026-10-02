@@ -10,7 +10,7 @@ description: 'The first-order differential equation defining exponential decay: 
   sign meaning the quantity decreases. It models processes such as radioactive disintegration,
   capacitor discharge, and first-order chemical reactions; solving it yields the familiar
   exponential decay law with time constant set by the decay constant.'
-equation: frac rmd amount rmd time eq drop (frequency mul amount) sub
+equation: ( rmd amount frac rmd time ) eq drop ( frequency mul amount ) sub
 symbol_overrides:
 - amount: N
 - frequency: \lambda

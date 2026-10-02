@@ -9,7 +9,7 @@ links:
   - https://www.khanacademy.org/math/geometry/hs-geo-circles/hs-geo-tangent-secant-angles/v/tangent-secant-angles
   - https://www.britannica.com/science/power-of-a-point
 description: "If a tangent from an external point meets a circle at T and a secant from the same point meets the circle at A (near) and B (far), then the squared tangent length equals the product of the external and whole secant segments. It is one of three classical cases (along with the intersecting chords and intersecting secants theorems) of the more general power-of-a-point theorem, originally proved in Euclid's Elements (Book III, Proposition 36)."
-equation: length eq sqrt (length mul length ) 2
+equation: length eq ( ( length mul length ) sqrt 2 )
 symbol_overrides:
 - length: PT
 - length: PA

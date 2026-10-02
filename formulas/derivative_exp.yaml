@@ -11,7 +11,7 @@ description: The natural exponential function is its own derivative, which is th
   property that makes it central to calculus and to modeling growth and decay. It
   follows from the limit definition of the derivative together with the fact that
   the slope of the curve equals its height at every point.
-equation: frac rmd exp angle rmd angle eq exp angle
+equation: ( rmd exp angle frac rmd angle ) eq exp angle
 symbol_overrides:
 - angle: x
 - angle: x

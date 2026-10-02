@@ -12,8 +12,7 @@ description: The Lineweaver-Burk equation (double-reciprocal plot) is a lineariz
   form of the Michaelis-Menten equation obtained by taking reciprocals. It is widely
   used to determine the Michaelis constant K_m and the limiting rate V_max graphically,
   although non-linear regression is now preferred for parameter estimation.
-equation: frac 1 dimensionless eq (frac dimensionless dimensionless mul frac 1 dimensionless
-  ) add frac 1 dimensionless
+equation: ( 1 frac dimensionless ) eq ( ( dimensionless frac dimensionless ) mul ( 1 frac dimensionless ) ) add ( 1 frac dimensionless )
 symbol_overrides:
 - dimensionless: v
 - dimensionless: K_m

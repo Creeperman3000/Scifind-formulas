@@ -11,8 +11,7 @@ description: 'In quantum mechanics the orbital angular momentum of a particle (s
   as an electron in an atom) is quantized: its magnitude can only take discrete values
   determined by the azimuthal quantum number l. This result explains the shapes of
   atomic orbitals and underlies selection rules in atomic spectroscopy.'
-equation: angular_momentum eq sqrt (dimensionless mul dimensionless add 1 ) 2 mul
-  planck_constant frac 2 mul pi
+equation: angular_momentum eq ( ( dimensionless mul dimensionless add 1 ) sqrt 2 ) mul planck_constant frac 2 mul pi
 symbol_overrides:
 - dimensionless: l
 - dimensionless: l

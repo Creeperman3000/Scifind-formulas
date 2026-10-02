@@ -12,7 +12,7 @@ description: The moment of inertia of a thin spherical shell (hollow sphere) of 
   R and mass m about any axis through its center. All of the mass lies at the same
   distance R from the axis, so the result is larger than that of a solid sphere of
   the same mass and radius.
-equation: moment_of_inertia eq frac 2 3 mul mass mul length pow 2
+equation: moment_of_inertia eq ( 2 frac 3 ) mul mass mul length pow 2
 symbol_overrides:
 - mass: M
 - length: R

@@ -12,8 +12,8 @@ description: Gives the slope of the inverse cosine function on its principal bra
   is undefined at the endpoints, where the graph becomes vertical. It is the mirror
   image of the arcsine slope and follows from implicit differentiation of the cosine
   relation.
-equation: frac rmd acos angle rmd angle eq 0 sub frac 1 sqrt (1 sub angle pow 2 )
-  2
+equation: (rmd acos angle frac rmd angle) eq (0 sub (1 frac ((1 sub angle pow
+  2) sqrt 2)))
 symbol_overrides:
 - angle: x
 - angle: x

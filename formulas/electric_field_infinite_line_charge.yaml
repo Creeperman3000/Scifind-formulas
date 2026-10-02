@@ -8,7 +8,7 @@ links:
   - https://www.vedantu.com/jee-main/physics-electric-field-due-to-infinite-linear-charge-and-cylinders
   - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/05%3A_Electric_Charges_and_Fields/5.06%3A_Calculating_Electric_Fields_of_Charge_Distributions
 description: "Gives the electric field magnitude at a perpendicular distance from an infinitely long straight wire carrying uniform linear charge density, directed radially away from (or toward) the wire. Obtained from Gauss's law with a cylindrical surface; it also approximates a very long finite wire when the distance is small compared with its length."
-equation: electric_field_strength eq frac (2 mul coulomb_constant mul charge_density) length
+equation: electric_field_strength eq ( ( 2 mul coulomb_constant mul charge_density ) frac length )
 symbol_overrides:
 - charge_density: λ
 - length: r

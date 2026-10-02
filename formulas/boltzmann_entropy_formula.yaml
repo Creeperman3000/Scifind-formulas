@@ -8,7 +8,7 @@ links:
   - https://chem.libretexts.org/Courses/University_of_Wisconsin_Oshkosh/Chem_370%3A_Physical_Chemistry_1_-_Thermodynamics_(Gutow)/01%3A_Thermodynamics/1.05%3A_The_Boltzmann_Distribution_and_the_Statistical_Definition_of_Entropy
   - https://barbatti.org/2022/05/23/is-boltzmanns-s-k-log-w-right/
 description: "The foundational relation of statistical mechanics, connecting the thermodynamic entropy of a system to the number of microscopic arrangements (microstates) consistent with its observed macrostate. It assumes all accessible microstates are equally probable and is engraved on Boltzmann's tombstone."
-equation: entropy eq boltzmann_constant mul log euler_e dimensionless
+equation: entropy eq boltzmann_constant mul ( euler_e log dimensionless )
 symbol_overrides:
 - dimensionless: Ω
 - entropy: ''

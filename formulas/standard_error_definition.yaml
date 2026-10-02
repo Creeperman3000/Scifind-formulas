@@ -10,7 +10,7 @@ links:
   - https://www.bmj.com/content/331/7521/903
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1255808/
 description: "The standard error of the mean (SE) is the standard deviation of the sampling distribution of the sample mean, measuring how precisely the sample mean estimates the population mean. It equals the population standard deviation divided by the square root of the sample size, shrinking as more observations are collected. It is widely used to construct confidence intervals and to quantify the uncertainty of an estimated mean."
-equation: dimensionless eq dimensionless frac sqrt dimensionless 2
+equation: dimensionless eq dimensionless frac ( dimensionless sqrt 2 )
 symbol_overrides:
 - dimensionless: SE
 - dimensionless: σ

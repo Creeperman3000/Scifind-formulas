@@ -10,7 +10,7 @@ links:
   - https://byjus.com/chemistry/nernst-equation/
   - https://www.britannica.com/science/standard-electrode-potential
 description: "The standard cell potential is connected to the equilibrium constant of the underlying redox reaction through the Gibbs free energy. Because the cell can do electrical work only when the reaction is spontaneous, this relation lets one determine tabulated E° values from thermodynamic equilibrium data (and vice versa) at any reference temperature, normally 298 K."
-equation: electric_potential eq dimensionless mul (gas_constant mul temperature) frac (dimensionless mul faraday_constant) mul log euler_e equilibrium_constant
+equation: electric_potential eq dimensionless mul ( gas_constant mul temperature ) frac ( dimensionless mul faraday_constant ) mul ( euler_e log equilibrium_constant )
 symbol_overrides:
 - electric_potential: E°
 - dimensionless: n

@@ -9,8 +9,7 @@ links:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resonance/a/ee-resonance-overview
   - https://www.britannica.com/technology/Q-factor
 description: "The Q factor of a series RLC circuit is a dimensionless measure of the sharpness of its resonance, equal to the ratio of reactive to resistive impedance at resonance. Higher Q means narrower bandwidth and slower decay of oscillations."
-equation: dimensionless eq 1 frac (resistance) mul sqrt (inductance frac capacitance
-  ) 2
+equation: dimensionless eq 1 frac ( resistance ) mul ( ( inductance frac capacitance ) sqrt 2 )
 symbol_overrides:
 - dimensionless: Q
 - resistance: ''

@@ -8,7 +8,7 @@ links:
   - https://interactivetextbooks.tudelft.nl/interactive-optics/content/Chap4_Polarisation/Polarization_2022_01Clean.html
   - https://www.pw.live/school-prep/exams/polarization-formula
 description: "Measures what fraction of a light beam's intensity is polarized, obtained by rotating an ideal analyzer and recording the maximum and minimum transmitted intensities. It runs from 0 for unpolarized light to 1 for fully polarized light; the max/min form applies to partially linearly polarized beams."
-equation: degree_of_polarization eq frac (irradiance sub irradiance) (irradiance add irradiance)
+equation: degree_of_polarization eq ( ( irradiance sub irradiance ) frac ( irradiance add irradiance ) )
 symbol_overrides:
 - irradiance: I_{max}
 - irradiance: I_{min}

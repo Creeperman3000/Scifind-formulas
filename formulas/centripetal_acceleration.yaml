@@ -7,7 +7,7 @@ links:
   - https://phys.libretexts.org/Courses/Texas_AM_University/TAMU_SA_GENERAL_PHYSICS_1301/06%3A_Uniform_Circular_Motion_and_Gravitation/6.03%3A_Centripetal_Acceleration
   - https://openstax.org/books/physics/pages/6-2-uniform-circular-motion
 description: "Magnitude of the acceleration of an object in uniform circular motion, directed toward the center of the circular path. It arises because the velocity's direction changes even while the speed stays constant, and it is perpendicular to the instantaneous velocity. Larger speeds and tighter turns demand greater centripetal acceleration."
-equation: acceleration eq frac (velocity pow 2) length
+equation: acceleration eq ( ( velocity pow 2 ) frac length )
 symbol_overrides:
 - length: r
 - acceleration: ''

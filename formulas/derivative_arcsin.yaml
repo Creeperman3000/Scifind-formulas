@@ -12,7 +12,8 @@ description: Gives the slope of the inverse sine function on its principal branc
   grows without bound as the input approaches -1 or 1; the formula holds for inputs
   strictly between those limits and follows from implicit differentiation of the sine
   relation.
-equation: frac rmd asin angle rmd angle eq frac 1 sqrt (1 sub angle pow 2 ) 2
+equation: (rmd asin angle frac rmd angle) eq (1 frac ((1 sub angle pow 2) sqrt
+  2))
 symbol_overrides:
 - angle: x
 - angle: x

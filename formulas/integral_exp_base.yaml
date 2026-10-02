@@ -10,7 +10,7 @@ links:
   - https://en.wikipedia.org/wiki/Exponential_function
   - https://mathworld.wolfram.com/ExponentialIntegral.html
 description: The antiderivative of an exponential function a^x with base a > 0, a != 1. It is derived using the substitution that any a^x can be written as e^(x ln a) and then applying the chain rule in reverse. The constant of integration is conventionally appended in the result.
-equation: int drop drop ((dimensionless pow angle) mul rmd angle) eq (dimensionless pow angle) frac log euler_e dimensionless
+equation: int drop drop ( ( dimensionless pow angle ) mul rmd angle ) eq ( dimensionless pow angle ) frac ( euler_e log dimensionless )
 symbol_overrides:
 - dimensionless: a
 - angle: x

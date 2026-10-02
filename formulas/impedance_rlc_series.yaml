@@ -8,7 +8,7 @@ links:
   - https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_2e_(OpenStax)/21%3A_Circuits_Bioelectricity_and_DC_Instruments/21.06%3A_RLC_Series_Circuits
   - https://en.wikipedia.org/wiki/Reactance_(electronics)
 description: "The impedance of a series combination of a resistor, inductor, and capacitor is the magnitude of the vector sum of the resistance and the net reactance. At resonance X_L equals X_C so the impedance collapses to R; off-resonance it grows with the reactance difference."
-equation: resistance eq sqrt (resistance pow 2 add (resistance sub resistance) pow 2) 2
+equation: resistance eq ( ( resistance pow 2 add ( resistance sub resistance ) pow 2 ) sqrt 2 )
 symbol_overrides:
 - resistance: Z
 - resistance: R

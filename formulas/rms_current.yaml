@@ -9,7 +9,7 @@ links:
   - https://www.electronics-tutorials.ws/accircuits/rms-value.html
   - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/15%3A_Alternating-Current_Circuits/15.03%3A_Simple_AC_Circuits
 description: "Root-mean-square current for a sinusoidal waveform; the RMS value equals the peak amplitude divided by √2, and represents the equivalent DC current that delivers the same average power to a resistive load."
-equation: current eq current frac sqrt 2 2
+equation: current eq current frac ( 2 sqrt 2 )
 symbol_overrides:
 - current: I_{rms}
 - current: I_0

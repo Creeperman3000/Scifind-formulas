@@ -11,8 +11,7 @@ links:
 description: The area of a regular n-sided polygon expressed in terms of its side
   length s. Equivalent forms use the apothem a (A = n a² tan(π/n)) or circumradius
   R (A = nR² sin(2π/n)/2).
-equation: area eq frac (dimensionless mul length pow 2 ) (4 mul tan (pi frac dimensionless)
-  )
+equation: area eq ( ( dimensionless mul length pow 2 ) frac ( 4 mul tan ( pi frac dimensionless ) ) )
 symbol_overrides:
 - dimensionless: n
 - length: s

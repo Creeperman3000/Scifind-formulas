@@ -10,8 +10,7 @@ description: Gives the frequency of light measured by an observer when the sourc
   classical wave-front bunching with relativistic time dilation. The result is the
   redshift used to interpret recession speeds of stars and galaxies; it involves no
   medium, unlike the sound Doppler effect.
-equation: frequency eq frequency mul sqrt ((dimensionless sub dimensionless) frac
-  dimensionless add dimensionless ) 2
+equation: frequency eq frequency mul ( ( ( dimensionless sub dimensionless ) frac dimensionless add dimensionless ) sqrt 2 )
 symbol_overrides:
 - frequency: f'
 - frequency: f

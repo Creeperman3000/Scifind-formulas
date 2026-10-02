@@ -8,7 +8,7 @@ links:
   - https://en.wikipedia.org/wiki/Second_law_of_thermodynamics
   - https://phys.libretexts.org/Bookshelves/Thermodynamics_%26_Statistical_Mechanics/Book%3A_Thermodynamics_(Tietjen)/11%3A_The_Second_Law_of_Thermodynamics/11.02%3A_Carnot_Efficiency
 description: "Carnot's theorem places an upper bound on the efficiency of any heat engine operating between two thermal reservoirs, the maximum being attained by a reversible (Carnot) cycle. The result follows from the second law of thermodynamics and depends only on the absolute temperatures of the hot and cold reservoirs."
-equation: dimensionless lt frac (temperature sub temperature) temperature
+equation: dimensionless lt ( ( temperature sub temperature ) frac temperature )
 symbol_overrides:
 - dimensionless: η
 - temperature: T_h

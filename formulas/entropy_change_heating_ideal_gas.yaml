@@ -7,7 +7,7 @@ links:
   - https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node40.html
   - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(Fleming)/05%3A_The_Second_Law/5.04%3A_Calculating_Entropy_Changes
 description: "Gives the total entropy change of a fixed quantity of ideal gas between two states, combining a temperature contribution through the constant-volume molar heat capacity and a volume contribution through the gas constant. Because entropy is a state function, this value holds for any path between the same initial and final states."
-equation: entropy eq amount mul molar_energy mul log euler_e (temperature frac temperature) add amount mul gas_constant mul log euler_e (volume frac volume)
+equation: entropy eq amount mul molar_energy mul ( euler_e log ( temperature frac temperature ) ) add amount mul gas_constant mul ( euler_e log ( volume frac volume ) )
 symbol_overrides:
 - entropy: ΔS
 - molar_energy: C_V

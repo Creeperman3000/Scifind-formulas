@@ -12,7 +12,7 @@ description: The moment of inertia of a solid uniform sphere of radius R and mas
   m about any axis through its center is the rotational analog of mass. The factor
   2/5 arises from integrating the squared distance of each mass element from the center
   over the volume of the sphere.
-equation: moment_of_inertia eq frac 2 5 mul mass mul length pow 2
+equation: moment_of_inertia eq ( 2 frac 5 ) mul mass mul length pow 2
 symbol_overrides:
 - mass: M
 - length: R

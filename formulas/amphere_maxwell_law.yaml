@@ -12,9 +12,7 @@ description: 'Generalizes Ampere''s law by adding Maxwell''s displacement curren
   just as conduction current does. This makes the law consistent for any surface bounded
   by the same loop (famously resolving the charging-capacitor paradox) and underlies
   the prediction of electromagnetic waves.'
-equation: oint drop drop (magnetic_flux_density cdot rmd length ) eq vacuum_permeability
-  mul current add vacuum_permittivity mul frac rmd (int drop drop (electric_field_strength
-  cdot rmd area ) ) rmd time
+equation: oint drop drop ( magnetic_flux_density cdot rmd length ) eq vacuum_permeability mul current add vacuum_permittivity mul ( rmd ( int drop drop ( electric_field_strength cdot rmd area ) ) frac rmd time )
 name_overrides:
 - length: Path [length]
 - current: Conduction [current]

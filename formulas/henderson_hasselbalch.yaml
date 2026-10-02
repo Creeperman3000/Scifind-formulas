@@ -13,8 +13,7 @@ description: The Henderson-Hasselbalch equation relates the pH of a buffer solut
   of its conjugate base and the acid itself. It is derived from the acid dissociation
   equilibrium and applies in the buffer region where the concentrations of conjugate
   base and acid are both larger than the dissociated hydrogen ion concentration.
-equation: ph eq (drop sub log 10 equilibrium_constant ) add log 10 (concentration
-  frac concentration)
+equation: ph eq ( drop sub ( 10 log equilibrium_constant ) ) add ( 10 log ( concentration frac concentration ) )
 symbol_overrides:
   - ph: pH
   - equilibrium_constant: K_a

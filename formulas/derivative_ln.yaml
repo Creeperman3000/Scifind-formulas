@@ -11,7 +11,7 @@ description: The derivative of the natural logarithm is the reciprocal of its ar
   defined for positive arguments. It follows from the fact that the natural logarithm
   is the inverse of the natural exponential function, and it underlies logarithmic
   differentiation and many integration results.
-equation: frac rmd (log euler_e angle) rmd angle eq 1 frac angle
+equation: ( rmd ( ( euler_e log angle ) ) frac rmd angle ) eq 1 frac angle
 symbol_overrides:
 - angle: x
 - angle: x

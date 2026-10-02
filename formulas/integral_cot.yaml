@@ -11,8 +11,7 @@ description: The antiderivative of the cotangent function is the natural logarit
   of the absolute value of sine. The absolute value is required because the integrand
   is undefined where sine is zero, so the antiderivative must be defined throughout
   each interval of continuity.
-equation: int drop drop ((cos angle frac sin angle) mul rmd angle) eq log euler_e
-  abs sin angle
+equation: int drop drop ( ( cos angle frac sin angle ) mul rmd angle ) eq ( euler_e log abs sin angle )
 symbol_overrides:
 - angle: x
 - angle: x

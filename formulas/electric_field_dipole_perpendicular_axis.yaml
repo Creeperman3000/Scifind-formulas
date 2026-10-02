@@ -12,8 +12,7 @@ description: Gives the electric field at a point on the equatorial line (perpend
   farther from the dipole than the charge separation. The field falls off as the cube
   of the distance, is half the axial field at the same distance, and points opposite
   to the dipole moment.
-equation: electric_field_strength eq frac (coulomb_constant mul charge mul length)
-  length pow 3
+equation: electric_field_strength eq ( ( coulomb_constant mul charge mul length ) frac length ) pow 3
 symbol_overrides:
 - charge: q
 - length: d

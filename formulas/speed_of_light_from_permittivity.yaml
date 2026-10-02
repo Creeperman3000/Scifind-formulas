@@ -10,4 +10,4 @@ links:
   - https://physics.info/speed-light/
   - https://www.britannica.com/science/speed-of-light
 description: "The speed of light in vacuum can be derived from the electromagnetic constants through Maxwell's equations. This relationship, exact in SI units, was historically used to compute c before the metre was redefined in terms of the speed of light in 1983."
-equation: speed_of_light eq sqrt (vacuum_permittivity mul vacuum_permeability ) 2 frac 1
+equation: speed_of_light eq 1 frac ((vacuum_permittivity mul vacuum_permeability) sqrt 2)

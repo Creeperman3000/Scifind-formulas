@@ -11,8 +11,7 @@ description: 'The power rule is the workhorse of differentiation: to differentia
   a variable raised to a constant exponent, bring the exponent down as a factor and
   reduce the exponent by one. It holds for any real exponent, including negative and
   fractional values, wherever the resulting expression is defined.'
-equation: frac rmd (variable pow dimensionless) rmd dimensionless eq dimensionless
-  mul dimensionless pow dimensionless sub 1
+equation: ( rmd ( variable pow dimensionless ) frac rmd dimensionless ) eq dimensionless mul dimensionless pow dimensionless sub 1
 symbol_overrides:
 - variable: x
 - dimensionless: n

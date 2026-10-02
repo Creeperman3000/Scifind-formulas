@@ -10,8 +10,7 @@ links:
   - https://www.britannica.com/science/radiocarbon-dating
   - https://www.radiocarbon.com/carbon-dating.htm
 description: "Radiocarbon dating determines the age of an organic sample by measuring how much carbon-14 remains relative to the original amount. The technique, developed by Willard Libby, relies on the fact that a living organism exchanges carbon with the atmosphere and so maintains a known C-14 fraction, but after death the C-14 decays with its characteristic half-life. Calibrated against tree-ring and other records, the formula is foundational to archaeology and Quaternary geology."
-equation: time eq time mul log euler_e (dimensionless frac dimensionless) frac log
-  euler_e 2
+equation: time eq time mul ( euler_e log ( dimensionless frac dimensionless ) ) frac ( euler_e log 2 )
 symbol_overrides:
 - time: t_{1/2}
 - dimensionless: N_0

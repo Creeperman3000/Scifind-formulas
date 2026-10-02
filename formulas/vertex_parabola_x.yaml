@@ -8,7 +8,7 @@ links:
   - https://math.libretexts.org/Bookshelves/Algebra/Algebra_and_Trigonometry_1e_(OpenStax)/05%3A_Polynomial_and_Rational_Functions/5.05%3A_Zeros_of_Polynomial_Functions
   - https://www.cuemath.com/geometry/vertex-of-a-parabola/
 description: "The vertex of a parabola is the point at which it attains its maximum or minimum value, lying on the axis of symmetry. The vertex x-coordinate is found by completing the square or by setting the first derivative of the quadratic to zero, depending only on the linear and quadratic coefficients of the parabola."
-equation: variable eq frac (sub 0 dimensionless) (2 mul dimensionless)
+equation: variable eq ((0 sub dimensionless) frac (2 mul dimensionless))
 symbol_overrides:
 - variable: x_v
 - dimensionless: b

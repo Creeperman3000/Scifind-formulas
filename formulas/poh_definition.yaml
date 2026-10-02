@@ -9,7 +9,7 @@ links:
   - https://www.khanacademy.org/science/chemistry/acids-and-bases-topic/acids-and-bases/a/the-ph-scale
   - https://www.thoughtco.com/definition-of-ph-and-ph-605890
 description: "pOH is defined as the negative base-10 logarithm of the hydroxide ion concentration in an aqueous solution. It is the complement of pH and is commonly used in basic (alkaline) solutions, where the hydroxide ion concentration is high."
-equation: ph eq drop sub log 10 concentration
+equation: ph eq drop sub ( 10 log concentration )
 symbol_overrides:
 - ph: pOH
 - concentration: '[OH⁻]'

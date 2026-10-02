@@ -8,7 +8,7 @@ links:
   - https://goldbook.iupac.org/terms/view/A00028.html
   - https://www.khanacademy.org/science/chemistry/chem-analysis-titration/titration-experiments/a/beers-law
 description: "Absorbance is the common (base-10) logarithm of the ratio of incident to transmitted radiant power through a sample. It is widely used in ultraviolet–visible absorption spectroscopy, where it is linearly proportional to the concentration of the absorbing species and to the optical path length under the Beer–Lambert law (valid for dilute, non-scattering samples)."
-equation: dimensionless eq log 10 (dimensionless frac dimensionless)
+equation: dimensionless eq ( 10 log ( dimensionless frac dimensionless ) )
 symbol_overrides:
 - dimensionless: A
 - dimensionless: I_0

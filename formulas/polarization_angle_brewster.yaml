@@ -12,7 +12,7 @@ description: Brewster's angle, also known as the polarization angle, is the angl
   of incidence at which light with a particular polarization is perfectly transmitted
   through a transparent dielectric surface with no reflection. Brewster's law relates
   this angle to the ratio of the refractive indices of the two media at the interface.
-equation: angle eq atan frac refractive_index refractive_index
+equation: angle eq atan ( refractive_index frac refractive_index )
 symbol_overrides:
 - angle: \theta_B
 - refractive_index: n_2

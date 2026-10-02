@@ -11,7 +11,7 @@ description: The derivative of the cosine function is the negative of the sine f
   This means cosine is a decreasing function wherever its sine counterpart is increasing,
   and vice versa. The result holds when the angle is measured in radians and can be
   proved from the limit definition of the derivative.
-equation: frac rmd cos angle rmd angle eq 0 sub sin angle
+equation: ( rmd cos angle frac rmd angle ) eq 0 sub sin angle
 symbol_overrides:
 - angle: x
 - angle: x

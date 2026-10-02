@@ -12,8 +12,7 @@ description: Second-order linear ODE governing a displaced mass acted on by a sp
   Newton's second law after dividing out the mass; the balance between the damping
   coefficient and the natural frequency determines whether the motion is underdamped,
   critically damped, or overdamped.
-equation: frac rmd rmd length (rmd time pow 2) add ((2 mul frequency) mul frac (rmd
-  length) (rmd time)) add (angular_velocity pow 2) mul length eq 0
+equation: ( rmd rmd length frac ( rmd time pow 2 ) ) add ( ( 2 mul frequency ) mul ( ( rmd length ) frac ( rmd time ) ) ) add ( angular_velocity pow 2 ) mul length eq 0
 symbol_overrides:
 - length: x
 - frequency: \gamma

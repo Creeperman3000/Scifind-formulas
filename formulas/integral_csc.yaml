@@ -10,8 +10,7 @@ links:
 description: The antiderivative of the cosecant function is the natural logarithm
   of the absolute value of the tangent of half the angle. The absolute value is required
   because csc x is undefined where sin x equals zero.
-equation: int drop drop frac 1 sin angle mul rmd angle eq log euler_e abs tan (angle
-  frac 2)
+equation: int drop drop frac 1 sin angle mul rmd angle eq ( euler_e log abs tan ( angle frac 2 ) )
 symbol_overrides:
 - &id001
   angle: x

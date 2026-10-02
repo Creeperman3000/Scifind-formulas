@@ -13,8 +13,7 @@ description: The Newton–Laplace relation for an ideal gas expresses the speed 
   absolute temperature, and the molar mass. It assumes the medium behaves as an ideal
   gas undergoing adiabatic compression, so it is accurate at low pressures and for
   small-amplitude perturbations.
-equation: velocity eq sqrt (dimensionless mul (gas_constant mul temperature) frac
-  molar_mass) 2
+equation: velocity eq ( ( dimensionless mul ( gas_constant mul temperature ) frac molar_mass ) sqrt 2 )
 symbol_overrides:
 - dimensionless: γ
 - velocity: ''

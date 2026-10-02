@@ -10,7 +10,7 @@ description: Defines the velocity of an enzyme-catalyzed reaction as the instant
   rate at which substrate is consumed (equivalently, the rate at which product appears
   for one-to-one stoichiometry). Initial velocities measured this way are the raw
   data on which enzyme kinetics, including Michaelis–Menten analysis, is built.
-equation: catalytic_activity eq 0 sub frac rmd concentration rmd time
+equation: catalytic_activity eq 0 sub ( rmd concentration frac rmd time )
 symbol_overrides:
 - catalytic_activity: v
 - concentration: '[S]'

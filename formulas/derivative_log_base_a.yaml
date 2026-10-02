@@ -11,8 +11,7 @@ description: The derivative of a logarithm with an arbitrary base is the recipro
   of the argument times the natural logarithm of the base. It follows from rewriting
   the general logarithm in terms of the natural logarithm via the change-of-base formula,
   and holds for any positive base other than one.
-equation: frac rmd (log variable angle) rmd angle eq 1 frac angle mul log euler_e
-  dimensionless
+equation: ( rmd ( ( variable log angle ) ) frac rmd angle ) eq 1 frac angle mul ( euler_e log dimensionless )
 symbol_overrides:
 - variable: a
 - dimensionless: a

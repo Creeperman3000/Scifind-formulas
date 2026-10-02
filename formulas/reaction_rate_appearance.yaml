@@ -10,7 +10,7 @@ description: The rate of a chemical reaction, by the IUPAC definition, equals th
   reciprocal of the stoichiometric coefficient of a product times the time derivative
   of its concentration; this relates the rate of product appearance to a single, species-independent
   reaction rate.
-equation: ((catalytic_activity) eq ((frac (rmd concentration) (rmd time)) div dimensionless))
+equation: ( ( catalytic_activity ) eq ( ( ( ( rmd concentration ) frac ( rmd time ) ) ) div dimensionless ) )
 symbol_overrides:
 - catalytic_activity: r
 - concentration: '[P]'

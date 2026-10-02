@@ -10,8 +10,7 @@ links:
 description: The antiderivative of sec x tan x is sec x, because the derivative of
   the secant function is exactly sec x tan x. This identity is the natural companion
   to the sec² integral and is widely applied in trigonometric integration.
-equation: int drop drop frac 1 cos angle mul (sin angle frac cos angle ) mul rmd angle
-  eq frac 1 cos angle
+equation: int drop drop frac 1 cos angle mul ( sin angle frac cos angle ) mul rmd angle eq ( 1 frac cos angle )
 symbol_overrides:
 - &id001
   angle: x

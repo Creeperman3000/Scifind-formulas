@@ -12,8 +12,8 @@ description: Net energy by which a d-electron configuration in an octahedral lig
   in the upper eg set destabilize it, so the balance depends on how many occupy each
   set. Used to compare complex stabilities, site preferences, and high-spin versus
   low-spin configurations; pairing energy must be accounted for separately.
-equation: energy eq mul (sub (dimensionless mul frac 3 5 ) dimensionless mul frac
-  2 5 ) energy
+equation: energy eq ((dimensionless mul (3 frac 5) sub dimensionless mul (2 frac
+  5)) mul energy)
 symbol_overrides:
 - energy: \mathrm{CFSE}
 - energy: \Delta_{oct}

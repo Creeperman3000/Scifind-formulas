@@ -10,7 +10,7 @@ links:
 description: The derivative of the sine function is the cosine function, proved from
   the limit definition of the derivative using standard trigonometric limits. The
   angle must be measured in radians for this result to hold.
-equation: frac rmd sin angle rmd angle eq cos angle
+equation: ( rmd sin angle frac rmd angle ) eq cos angle
 symbol_overrides:
 - angle: x
 - angle: x

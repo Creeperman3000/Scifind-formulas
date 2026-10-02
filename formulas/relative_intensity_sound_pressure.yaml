@@ -9,7 +9,7 @@ links:
   - https://www.engineeringtoolbox.com/sound-intensity-d_739.html
   - https://www.animations.physics.unsw.edu.au/jw/dB.htm
 description: "Because sound intensity is proportional to the square of the sound pressure amplitude, the sound intensity level in decibels can equivalently be expressed in terms of the sound pressure and a reference pressure. This is sometimes called the sound pressure level when referenced to the standard threshold of human hearing."
-equation: logarithmic_ratio eq 10 mul log 10 pressure pow 2 frac pressure pow 2
+equation: logarithmic_ratio eq 10 mul ( 10 log pressure ) pow 2 frac pressure pow 2
 symbol_overrides:
 - logarithmic_ratio: L_I
 - pressure: p

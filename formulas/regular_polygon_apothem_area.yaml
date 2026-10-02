@@ -9,7 +9,7 @@ links:
   - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)
   - https://www.cuemath.com/geometry/area-of-regular-polygon/
 description: "The area of a regular polygon equals half the product of its apothem (perpendicular distance from the center to a side) and its perimeter. This follows from decomposing the polygon into n congruent isosceles triangles of equal height."
-equation: area eq frac (length mul length) 2
+equation: area eq ( ( length mul length ) frac 2 )
 symbol_overrides:
 - length: a
 - length: P

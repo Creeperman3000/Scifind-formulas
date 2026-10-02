@@ -12,8 +12,7 @@ description: The antiderivative of the natural logarithm ln(x). It is typically 
   by integration by parts, choosing u = ln(x) and dv = dx, which yields x ln(x) -
   x plus an arbitrary constant. The result is the standard starting point for many
   integrals involving logarithmic factors.
-equation: int drop drop log euler_e angle mul rmd angle eq (angle mul log euler_e
-  angle) sub angle
+equation: int drop drop log euler_e angle mul rmd angle eq ( angle mul ( euler_e log angle ) ) sub angle
 symbol_overrides:
 - angle: x
 - angle: x

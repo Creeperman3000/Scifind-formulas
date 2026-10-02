@@ -9,7 +9,7 @@ links:
   - https://math.libretexts.org/Bookshelves/Geometry/Geometry_(OpenStax)/11%3A_Measurement_and_Geometry/11.04%3A_Volume
   - https://www.cuemath.com/geometry/volume-of-a-frustum/
 description: "A pyramidal frustum is the portion of a pyramid cut off by a plane parallel to its base. The volume of any pyramidal or conical frustum is one third of the perpendicular height times the Heronian mean of the two base areas, a result known since Heron of Alexandria and recorded even earlier for square frusta in the Moscow Mathematical Papyrus."
-equation: volume eq (length frac 3) mul ((area add area) add sqrt (area mul area) 2)
+equation: volume eq ( length frac 3 ) mul ( ( area add area ) add ( ( area mul area ) sqrt 2 ) )
 symbol_overrides:
 - length: h
 - area: A_1

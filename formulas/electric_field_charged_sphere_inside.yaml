@@ -11,8 +11,7 @@ description: Gives the electric field at a point inside a non-conducting sphere 
   charge uniformly throughout its volume. Derived from Gauss's law, the field grows
   linearly with distance from the centre, is zero at the centre, and matches the exterior
   point-charge field at the surface.
-equation: electric_field_strength eq frac (coulomb_constant mul (charge) mul length
-  ) length pow 3
+equation: electric_field_strength eq ( ( coulomb_constant mul ( charge ) mul length ) frac length ) pow 3
 symbol_overrides:
 - length: r
 - length: R

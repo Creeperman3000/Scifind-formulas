@@ -8,4 +8,4 @@ links:
   - https://www.khanacademy.org/math/algebra2/x2ec2f6976b45024c:logs/x2ec2f6976b45024c:log-intro/a/intro-to-logarithms
   - https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_(OpenStax)/12:_Introduction_to_Trigonometric_Functions/12.04:_Logarithmic_Properties
 description: "For any valid logarithm base, the logarithm of one equals zero, because raising the base to the power zero yields one. This identity is one of the fundamental logarithmic laws and follows directly from the definition of the logarithm as the inverse of exponentiation."
-equation: log 10 1 eq 0
+equation: ( 10 log 1 ) eq 0

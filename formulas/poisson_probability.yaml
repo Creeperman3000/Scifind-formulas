@@ -9,8 +9,7 @@ links:
   - https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-mean-and-variance/a/poisson-distribution
   - https://stattrek.com/probability-distributions/poisson
 description: "The Poisson probability mass function gives the probability of observing exactly k events in a fixed interval, given that the events occur independently at a constant average rate \u03bb. It applies to rare events and counts the number of occurrences in a defined region of time, space, or another domain."
-equation: dimensionless eq dimensionless pow (dimensionless) mul exp (drop dimensionless
-  sub) frac factorial dimensionless
+equation: dimensionless eq dimensionless pow ( dimensionless ) mul exp ( drop dimensionless sub ) frac ( dimensionless factorial )
 symbol_overrides:
 - dimensionless: P(X=k)
 - dimensionless: λ

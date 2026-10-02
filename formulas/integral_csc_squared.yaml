@@ -10,8 +10,7 @@ links:
 description: The antiderivative of csc squared x is the negative cotangent. The result
   follows from the Pythagorean identity, since the derivative of cot x equals -csc²
   x.
-equation: int drop drop (((frac 1 sin angle ) pow 2) mul rmd angle ) eq drop cos angle
-  frac (sin angle) sub
+equation: int drop drop ( ( ( ( 1 frac sin angle ) ) pow 2 ) mul rmd angle ) eq drop cos angle frac ( sin angle ) sub
 symbol_overrides:
 - &id001
   angle: x

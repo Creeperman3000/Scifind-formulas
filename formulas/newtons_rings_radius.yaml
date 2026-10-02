@@ -9,7 +9,7 @@ links:
   - https://opentextbc.ca/universityphysicsv3/chapter/3-5-newtons-rings/
   - https://scienceworld.wolfram.com/physics/NewtonsRings.html
 description: "Newton's rings are concentric bright and dark fringes produced by interference between light reflected from a plano-convex lens and an underlying flat glass surface. The radius of the m-th dark ring is given by a square root involving the ring order, the light wavelength, and the radius of curvature of the lens; this relation is the basis for using Newton's rings to measure lens curvature or wavelength."
-equation: length eq sqrt (dimensionless mul length mul length) 2
+equation: length eq ( ( dimensionless mul length mul length ) sqrt 2 )
 symbol_overrides:
 - length: r_m
 - dimensionless: m

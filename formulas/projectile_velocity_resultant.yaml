@@ -8,7 +8,7 @@ links:
   - https://www.britannica.com/science/projectile-motion
   - https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion
 description: "The magnitude of a projectile's velocity at any point along its trajectory is found by combining its independent horizontal and vertical components under the Pythagorean theorem. Since horizontal velocity is constant and vertical velocity changes linearly under gravity, the resultant gives the projectile's instantaneous speed and direction."
-equation: velocity eq sqrt (velocity pow 2 add velocity pow 2) 2
+equation: velocity eq ( ( velocity pow 2 add velocity pow 2 ) sqrt 2 )
 symbol_overrides:
 - velocity: v
 - velocity: v_x

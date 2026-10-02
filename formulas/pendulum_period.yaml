@@ -9,7 +9,7 @@ links:
   - https://www.britannica.com/science/pendulum
   - https://openstax.org/books/university-physics-volume-1/pages/16-3-period-of-a-simple-pendulum
 description: "The period of a simple pendulum, also called the small-angle approximation, is independent of the mass of the bob and of the swing amplitude (provided the angle is small). It depends only on the pendulum length and the local gravitational acceleration, which is the basis for using pendulums as clocks and gravimeters."
-equation: time eq 2 mul pi mul sqrt (length frac standard_gravity ) 2
+equation: time eq 2 mul pi mul ( ( length frac standard_gravity ) sqrt 2 )
 symbol_overrides:
 - time: T
 - length: L

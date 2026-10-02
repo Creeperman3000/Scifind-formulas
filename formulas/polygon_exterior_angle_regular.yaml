@@ -12,7 +12,7 @@ description: The exterior angle of a regular polygon is the angle formed by one 
   and the extension of an adjacent side. Because the n exterior angles of any convex
   polygon sum to a full turn, each exterior angle in a regular polygon equals one
   full turn divided by n.
-equation: angle eq frac angle dimensionless
+equation: angle eq ( angle frac dimensionless )
 symbol_overrides:
 - angle: \theta_{ext}
 - angle: '360'

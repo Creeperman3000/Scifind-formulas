@@ -10,8 +10,7 @@ description: Relates the change in the equilibrium constant of a chemical reacti
   to a change in temperature, assuming a constant standard enthalpy change. The integrated
   form is often used to estimate reaction enthalpies from equilibrium constants measured
   at two temperatures.
-equation: log euler_e (equilibrium_constant frac equilibrium_constant) eq (energy
-  frac gas_constant) mul ((1 frac temperature) sub 1 frac temperature )
+equation: ( euler_e log ( equilibrium_constant frac equilibrium_constant ) ) eq ( energy frac gas_constant ) mul ( ( 1 frac temperature ) sub 1 frac temperature )
 symbol_overrides:
 - equilibrium_constant: K_2
 - equilibrium_constant: K_1

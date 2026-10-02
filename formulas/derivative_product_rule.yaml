@@ -11,9 +11,7 @@ description: The product rule gives the derivative of a product of two different
   functions as the first function's derivative times the second plus the first times
   the second's derivative. It is essential because, unlike with sums, the derivative
   of a product is not simply the product of the derivatives.
-equation: frac rmd (variable mul dimensionless) rmd dimensionless eq (frac rmd
-  dimensionless rmd dimensionless mul dimensionless) add dimensionless mul frac rmd
-  dimensionless rmd dimensionless
+equation: ( rmd ( variable mul dimensionless ) frac rmd dimensionless ) eq ( ( rmd dimensionless frac rmd dimensionless ) mul dimensionless ) add dimensionless mul ( rmd dimensionless frac rmd dimensionless )
 symbol_overrides:
 - variable: f
 - dimensionless: g

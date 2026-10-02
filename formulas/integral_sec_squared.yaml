@@ -10,8 +10,7 @@ links:
 description: The antiderivative of sec² x is tan x, since the derivative of tangent
   is the secant squared. This identity is one of the most frequently used basic integration
   rules and arises whenever one differentiates or integrates trigonometric functions.
-equation: int drop drop (((frac 1 cos angle ) pow 2) mul rmd angle ) eq sin angle
-  frac cos angle
+equation: int drop drop ( ( ( ( 1 frac cos angle ) ) pow 2 ) mul rmd angle ) eq sin angle frac cos angle
 symbol_overrides:
 - &id001
   angle: x

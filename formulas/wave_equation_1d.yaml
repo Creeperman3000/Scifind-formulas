@@ -14,8 +14,7 @@ description: The one-dimensional wave equation is a second-order linear partial 
   the second space derivative, with the proportionality constant being the square
   of the wave speed; its general solution is a superposition of left- and right-traveling
   waves known as d'Alembert's formula.
-equation: frac rmd rmd variable rmd time pow 2 eq (velocity pow 2) mul frac rmd
-  rmd dimensionless rmd length pow 2
+equation: ( rmd rmd variable frac rmd time ) pow 2 eq ( velocity pow 2 ) mul ( rmd rmd dimensionless frac rmd length ) pow 2
 symbol_overrides:
 - variable: y
 - dimensionless: y

@@ -9,7 +9,7 @@ links:
   - https://www.cuemath.com/geometry/volume-of-tetrahedron/
   - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/01%3A_Units_and_Measurement/1.06%3A_Dimensional_Analysis
 description: "A regular tetrahedron is a triangular pyramid whose four faces are congruent equilateral triangles of edge length a. Its volume is one third the base area times the height, simplifying to a closed-form expression involving the square root of 2."
-equation: volume eq (length pow 3) frac dimensionless mul 6 mul sqrt 2 2
+equation: volume eq ( length pow 3 ) frac dimensionless mul 6 mul ( 2 sqrt 2 )
 symbol_overrides:
 - volume: V
 - length: a

@@ -12,7 +12,7 @@ description: The escape speed at a given distance from a primary body is √2 ti
   of an orbiting object is minus twice its kinetic energy while escape requires their
   sum to be non-negative. The escape speed is also known as the second cosmic velocity
   and is independent of direction.
-equation: velocity eq velocity mul sqrt 2 2
+equation: velocity eq velocity mul ( 2 sqrt 2 )
 symbol_overrides:
 - velocity: v_{esc}
 - velocity: v_{orb}

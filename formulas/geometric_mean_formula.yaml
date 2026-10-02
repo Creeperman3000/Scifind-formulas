@@ -9,7 +9,7 @@ links:
   - https://math.libretexts.org/Bookshelves/Algebra/Intermediate_Algebra/06%3A_Radical_Expressions_and_Functions/6.07%3A_Geometric_Mean
   - https://www.cuemath.com/geometry/geometric-mean/
 description: "The geometric mean of a set of positive numbers is the n-th root of their product. Unlike the arithmetic mean, it is appropriate for quantities that combine multiplicatively, such as growth rates or ratios, and is always less than or equal to the arithmetic mean."
-equation: dimensionless eq sqrt (dimensionless mul dimensionless ) 2
+equation: dimensionless eq ( ( dimensionless mul dimensionless ) sqrt 2 )
 symbol_overrides:
 - dimensionless: GM
 - dimensionless: a

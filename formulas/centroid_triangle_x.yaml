@@ -7,7 +7,7 @@ links:
   - https://brilliant.org/wiki/triangles-centroid/
   - https://www.mathwords.com/t/triangle_centroid.htm
 description: "Finds the x-coordinate of a triangle's centroid — the point where its three medians intersect, also the geometric center of mass of a uniform triangular lamina. It is simply the arithmetic mean of the three vertices' x-coordinates, and the centroid always lies inside the triangle. The y-coordinate is found the same way from the vertices' y-values."
-equation: length eq frac (length add length add length) 3
+equation: length eq ( ( length add length add length ) frac 3 )
 symbol_overrides:
 - length: x_c
 - length: x_1

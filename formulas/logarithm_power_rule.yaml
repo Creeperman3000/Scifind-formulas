@@ -9,7 +9,7 @@ links:
   - https://www.khanacademy.org/math/algebra2/x2ec2f6976b45024c:logs/x2ec2f6976b45024c:log-prop/a/logarithm-power-rule
   - https://mathworld.wolfram.com/Logarithm.html
 description: "The logarithm of a number raised to a power equals the power times the logarithm of the number. This rule, a consequence of exponentiation and logarithms being inverse operations, is widely used to simplify expressions and solve equations involving powers and roots."
-equation: log euler_e dimensionless pow dimensionless eq dimensionless mul log euler_e dimensionless
+equation: ( euler_e log dimensionless ) pow dimensionless eq dimensionless mul ( euler_e log dimensionless )
 symbol_overrides:
 - dimensionless: x
 - dimensionless: n

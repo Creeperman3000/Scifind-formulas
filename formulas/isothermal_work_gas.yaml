@@ -8,8 +8,7 @@ links:
   - https://www.chemguide.co.uk/physical/entropy/isothermal.html
   - https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Thermodynamics/15.04%3A_Work_done_during_Isothermal_Expansion
 description: For an ideal gas undergoing a reversible isothermal expansion or compression, the work exchanged depends logarithmically on the ratio of the final to initial volume. Because the temperature is fixed, heat must flow in or out to keep the internal energy constant.
-equation: energy eq amount mul (gas_constant) mul (temperature) mul log euler_e (volume
-  frac volume)
+equation: energy eq amount mul ( gas_constant ) mul ( temperature ) mul ( euler_e log ( volume frac volume ) )
 symbol_overrides:
   - volume: V₂
   - volume: V₁

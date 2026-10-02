@@ -11,8 +11,7 @@ description: Gives the electric field at a point on the axis of an electric dipo
   far from the dipole's centre. In this far-field limit the field falls off as the
   cube of the distance and points along the dipole moment; it is twice as strong as
   the equatorial field at the same distance.
-equation: electric_field_strength eq frac (2 mul coulomb_constant mul charge mul length)
-  length pow 3
+equation: electric_field_strength eq ( ( 2 mul coulomb_constant mul charge mul length ) frac length ) pow 3
 symbol_overrides:
 - charge: q
 - length: d

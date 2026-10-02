@@ -8,7 +8,7 @@ links:
   - https://en.wikipedia.org/wiki/String_vibration
   - https://en.wikipedia.org/wiki/Transverse_wave
 description: The speed of a transverse wave on a stretched string is set by the balance between the restoring tension and the string's inertia, expressed as the square root of tension divided by linear mass density. It depends only on the medium's elastic and inertial properties and is independent of the wave's frequency or amplitude.
-equation: velocity eq sqrt (force frac mass frac length) 2
+equation: velocity eq ( ( force frac mass frac length ) sqrt 2 )
 symbol_overrides:
 - force: T
 - length: μ

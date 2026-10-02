@@ -12,8 +12,8 @@ description: The reflectance at normal incidence from a single interface between
   non-absorbing media, derived from the Fresnel equations. It gives the fraction of
   incident optical power reflected; for example, an air-glass interface (n ≈ 1.5)
   reflects about 4% of normally incident light per surface.
-equation: reflectance eq pow (frac (refractive_index sub refractive_index) (refractive_index
-  add refractive_index) ) 2
+equation: reflectance eq (((refractive_index sub refractive_index) frac (refractive_index
+  add refractive_index)) pow 2)
 symbol_overrides:
 - refractive_index: n_1
 - refractive_index: n_2

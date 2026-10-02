@@ -12,7 +12,7 @@ description: Gives the electric potential at a point far from an electric dipole
   the dipole axis. Valid in the far-field limit where the distance greatly exceeds
   the charge separation; the potential falls off as the square of the distance, faster
   than for a single point charge, and vanishes everywhere on the equatorial plane.
-equation: electric_potential eq frac (coulomb_constant mul electric_dipole_moment mul cos angle) length pow 2
+equation: electric_potential eq ( ( coulomb_constant mul electric_dipole_moment mul cos angle ) frac length ) pow 2
 symbol_overrides:
 - electric_dipole_moment: p
 - angle: θ

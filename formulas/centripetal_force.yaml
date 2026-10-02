@@ -11,7 +11,7 @@ description: Net force required to keep a body of given mass moving on a circula
   the name for whatever real force (tension, gravity, friction, a normal force) supplies
   the radial acceleration. Used in designing banked roads, centrifuges, and orbits;
   a larger required force means a tighter turn.
-equation: force eq frac (mass mul velocity pow 2 ) length
+equation: force eq ( ( mass mul velocity pow 2 ) frac length )
 symbol_overrides:
 - force: F_c
 - length: r

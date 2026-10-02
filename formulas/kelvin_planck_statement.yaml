@@ -10,7 +10,7 @@ links:
   - https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Book%3A_Heat_and_Thermodynamics_(Tatum)/03%3A_The_Second_Law_of_Thermodynamics/3.02%3A_Kelvin%E2%80%93Planck_and_Clausius_Statements
   - https://courses.lumenlearning.com/suny-physics/chapter/15-5-the-second-law-of-thermodynamics/
 description: "It is impossible to construct a device that, operating in a thermodynamic cycle, converts heat absorbed from a single thermal reservoir entirely into work. Every cyclic heat engine must reject some heat to a lower-temperature sink, ruling out a perpetual-motion machine of the second kind."
-equation: frac energy energy gt 0
+equation: ( energy frac energy ) gt 0
 symbol_overrides:
 - energy: Q_C
 - energy: Q_H

@@ -12,7 +12,7 @@ description: The number of diagonals in a convex n-gon can be obtained by counti
   for each vertex, the n minus 3 diagonals to all other non-adjacent vertices, then
   dividing by two to avoid double counting. The result is a quadratic in n that vanishes
   for the triangle.
-equation: dimensionless eq frac (dimensionless mul dimensionless sub 3 ) 2
+equation: dimensionless eq ( ( dimensionless mul dimensionless sub 3 ) frac 2 )
 symbol_overrides:
 - dimensionless: d
 - dimensionless: n

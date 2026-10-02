@@ -9,7 +9,7 @@ links:
   - https://www.electronics-tutorials.ws/accircuits/rlc-circuit.html
   - https://www.allaboutcircuits.com/technical-articles/lc-natural-frequency/
 description: "An LC circuit consisting of an inductor and a capacitor oscillates at a resonant angular frequency determined by the inductance and capacitance. It is the basic electrical analogue of a harmonic oscillator and forms the building block of radio tuners, filters, and oscillators."
-equation: angular_velocity eq 1 frac sqrt (inductance mul capacitance) 2
+equation: angular_velocity eq 1 frac ( ( inductance mul capacitance ) sqrt 2 )
 symbol_overrides:
 - angular_velocity: ω_0
 - inductance: ''

@@ -9,7 +9,8 @@ links:
   - https://www.thoughtco.com/limiting-reagent-609580.html
   - https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802%3Astoichiometry/x2eef969c74e0d802%3Alimiting-reagent/v/limiting-reactant-example-problem-1
 description: "The limiting reactant is the reactant that is fully consumed first and therefore caps the amount of product formed. For two reactants A and B, the one whose amount-of-substance divided by its stoichiometric coefficient is smallest is the limiting reactant, because that ratio equals the extent of reaction needed to drive that reagent to zero."
-equation: dimensionless eq dimensionless frac dimensionless lt dimensionless frac dimensionless
+equation: dimensionless eq ((dimensionless frac dimensionless) lt (dimensionless frac
+  dimensionless))
 symbol_overrides:
 - dimensionless: \text{ratio}_A
 - dimensionless: n_A

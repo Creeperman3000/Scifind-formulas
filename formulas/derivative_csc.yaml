@@ -10,8 +10,7 @@ links:
 description: The derivative of the cosecant function is the negative product of cosecant
   and cotangent. It follows from applying the quotient rule to cosecant written as
   one over sine, and holds wherever sine is nonzero with angles measured in radians.
-equation: frac rmd (frac 1 sin angle ) rmd angle eq 0 sub frac 1 sin angle mul frac
-  cos angle sin angle
+equation: ( rmd ( ( 1 frac sin angle ) ) frac rmd angle ) eq 0 sub ( 1 frac sin angle ) mul ( cos angle frac sin angle )
 symbol_overrides:
 - angle: x
 - angle: x

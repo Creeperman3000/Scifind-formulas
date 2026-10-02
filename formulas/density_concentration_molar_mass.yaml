@@ -8,12 +8,12 @@ links:
   - https://chem.libretexts.org/Courses/Fullerton_College/Introductory_Biochemistry/11%3A9_Solutions/11.03%3A_Concentration
   - https://www.omnicalculator.com/chemistry/concentration
 description: "Converts the molar concentration of a dissolved substance into its mass concentration by way of its molar mass, letting chemists switch between moles-per-liter and grams-per-liter when preparing solutions or running stoichiometry. Note it counts only solute mass per liter of solution, so it equals the solution's density only for a pure substance."
-equation: mass_concentration eq concentration mul molar_mass
+equation: density eq concentration mul molar_mass
 symbol_overrides:
-- mass_concentration: \rho_{solute}
+- density: \rho_{solute}
 - concentration: ''
 - molar_mass: ''
 name_overrides:
-- mass_concentration: '[mass_concentration|Solute mass concentration]'
+- density: '[density|Solute mass concentration]'
 - concentration: Molar [concentration]
 - molar_mass: Molar mass

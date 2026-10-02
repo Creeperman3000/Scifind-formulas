@@ -12,8 +12,8 @@ description: Describes how the vapor pressure of a substance changes between two
   to estimate vapor pressures, boiling points at different pressures, or latent heats
   from measured data. The integrated form assumes ideal vapor behavior and an approximately
   temperature-independent enthalpy of vaporization.
-equation: log euler_e (pressure frac pressure) eq drop (molar_energy frac gas_constant)
-  sub mul ((1 frac temperature) sub 1 frac temperature )
+equation: (euler_e log (pressure frac pressure)) eq ((drop sub (molar_energy frac
+  gas_constant)) mul ((1 frac temperature) sub (1 frac temperature)))
 symbol_overrides:
 - pressure: P_2
 - pressure: P_1

@@ -11,8 +11,7 @@ links:
 description: The antiderivative of the secant function is a logarithm of a rational
   expression in sin x, multiplied by 1/2. It was first evaluated by James Gregory
   in 1668 and historically underpinned the construction of the Mercator projection.
-equation: int drop drop frac 1 cos angle mul rmd angle eq (1 frac 2) mul log euler_e
-  ((1 add sin angle ) frac 1 sub sin angle )
+equation: int drop drop frac 1 cos angle mul rmd angle eq ( 1 frac 2 ) mul ( euler_e log ( ( 1 add sin angle ) frac 1 sub sin angle ) )
 symbol_overrides:
 - &id001
   angle: x

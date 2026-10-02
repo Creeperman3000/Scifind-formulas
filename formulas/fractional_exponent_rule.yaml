@@ -12,8 +12,7 @@ description: A fractional (rational) exponent m/n on a positive base a is define
   as the n-th root of a raised to the m-th power. The numerator m gives the power
   and the denominator n gives the root index, so that a^(1/n) is the principal n-th
   root of a.
-equation: variable pow dimensionless frac dimensionless eq sqrt (dimensionless
-  pow dimensionless) dimensionless
+equation: variable pow dimensionless frac dimensionless eq ( ( dimensionless pow dimensionless ) sqrt dimensionless )
 symbol_overrides:
 - variable: a
 - dimensionless: m

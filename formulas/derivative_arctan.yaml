@@ -11,7 +11,7 @@ description: Gives the slope of the inverse tangent function, which is always po
   and defined for every real input. The graph flattens toward horizontal as the input
   grows large in magnitude, reflecting the function's horizontal asymptotes; the result
   follows from implicit differentiation of the tangent relation.
-equation: frac rmd atan angle rmd angle eq frac 1 (1 add angle pow 2 )
+equation: ( rmd atan angle frac rmd angle ) eq ( 1 frac ( 1 add angle pow 2 ) )
 symbol_overrides:
 - angle: x
 - angle: x

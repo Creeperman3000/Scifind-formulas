@@ -10,7 +10,7 @@ description: 'The first-order differential equation defining exponential growth 
   to its own current value. It models populations, compound interest, and chain reactions
   under unlimited resources; its solution is the exponential function with rate constant
   r (negative r gives decay instead).'
-equation: frac rmd amount rmd time eq frequency mul amount
+equation: ( rmd amount frac rmd time ) eq frequency mul amount
 symbol_overrides:
 - amount: N
 - frequency: r

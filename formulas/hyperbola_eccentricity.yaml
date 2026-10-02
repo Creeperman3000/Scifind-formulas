@@ -12,7 +12,7 @@ description: The eccentricity of a hyperbola, a dimensionless number greater tha
   1 that measures how open the curve is. It is defined in terms of the semi-transverse
   axis a and the semi-conjugate axis b and determines the focal distance c and the
   angle the asymptotes make with the major axis.
-equation: dimensionless eq sqrt (1 add (length pow 2) div length pow 2 ) 2
+equation: dimensionless eq ( ( 1 add ( length pow 2 ) div length pow 2 ) sqrt 2 )
 symbol_overrides:
 - dimensionless: e
 - length: b

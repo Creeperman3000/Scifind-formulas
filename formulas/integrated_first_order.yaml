@@ -8,8 +8,7 @@ links:
   - https://en.wikipedia.org/wiki/Order_of_reaction
   - https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/Reaction_Rates/First-Order_Reactions
 description: "The integrated form of the first-order rate law. Obtained by integrating the differential form d[A]/dt = -k[A], it relates the concentration of a reactant at time t to its initial concentration and the rate constant. A plot of ln[A] versus t is linear with slope -k."
-equation: log euler_e concentration eq log euler_e concentration sub frequency mul
-  time
+equation: ( euler_e log concentration ) eq ( euler_e log concentration ) sub frequency mul time
 symbol_overrides:
 - concentration: '[A]_t'
 - concentration: '[A]_0'

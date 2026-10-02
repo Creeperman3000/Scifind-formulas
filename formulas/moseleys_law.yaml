@@ -9,7 +9,7 @@ links:
   - https://en.wikipedia.org/wiki/Atomic_number
   - https://www.britannica.com/science/Moseleys-law
 description: "Moseley's law is an empirical relationship discovered by Henry Moseley in 1913 that links the frequency of characteristic X-ray emission lines of an element to its atomic number. The square root of the X-ray frequency increases approximately linearly with the atomic number, offset by a screening constant. It provided the first physical justification for ordering the elements by atomic number rather than atomic weight and resolved several inconsistencies in the periodic table."
-equation: sqrt frequency 2 eq dimensionless mul dimensionless sub dimensionless
+equation: ( frequency sqrt 2 ) eq dimensionless mul dimensionless sub dimensionless
 symbol_overrides:
   - dimensionless: k
   - dimensionless: Z

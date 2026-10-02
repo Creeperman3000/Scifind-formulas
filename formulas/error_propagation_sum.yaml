@@ -7,7 +7,7 @@ links:
   - https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-5-combined-standard-uncertainty
   - https://www.datacamp.com/tutorial/error-propogation
 description: "Gives the uncertainty of a quantity computed as the sum (or difference) of two independent measured values. The individual uncertainties combine in quadrature rather than adding directly, so the combined uncertainty is always smaller than a plain addition of errors would suggest. Assumes the input uncertainties are independent and expressed as standard deviations; correlated inputs require an extra covariance term."
-equation: dimensionless eq sqrt ((dimensionless pow 2) add dimensionless pow 2 ) 2
+equation: dimensionless eq ( ( ( dimensionless pow 2 ) add dimensionless pow 2 ) sqrt 2 )
 symbol_overrides:
 - dimensionless: σ_f
 - dimensionless: σ_x

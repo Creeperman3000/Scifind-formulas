@@ -11,8 +11,7 @@ description: The derivative of the cotangent function is the negative square of 
   cosecant function, equivalently minus one over the squared sine. The result follows
   from applying the quotient rule to cotangent written as cosine over sine, and is
   valid wherever sine is nonzero and angles are in radians.
-equation: frac rmd (cos angle frac sin angle) rmd angle eq 0 sub frac 1 sin angle
-  pow 2
+equation: ( rmd ( cos angle frac sin angle ) frac rmd angle ) eq 0 sub ( 1 frac sin angle ) pow 2
 symbol_overrides:
 - angle: x
 - angle: x

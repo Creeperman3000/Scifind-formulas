@@ -11,8 +11,7 @@ description: The length of a triangle's median to side a is determined by the tw
   sides b and c adjacent to that median and by side a itself, via Apollonius's theorem.
   The three medians always meet at the centroid, which divides each in a 2:1 ratio
   measured from the vertex.
-equation: length eq sqrt ((2 mul length pow 2) add (2 mul length pow 2) sub length
-  pow 2 ) 2 frac 2
+equation: length eq ( ( ( 2 mul length pow 2 ) add ( 2 mul length pow 2 ) sub length pow 2 ) sqrt 2 ) frac 2
 symbol_overrides:
 - length: m_a
 - length: b

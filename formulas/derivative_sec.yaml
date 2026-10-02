@@ -10,8 +10,7 @@ links:
 description: The derivative of the secant function is the product of secant and tangent.
   It follows from applying the quotient rule to the reciprocal of cosine, and it is
   valid wherever cosine is nonzero.
-equation: frac rmd (frac 1 cos angle ) rmd angle eq frac 1 cos angle mul frac sin
-  angle cos angle
+equation: ( rmd ( ( 1 frac cos angle ) ) frac rmd angle ) eq ( 1 frac cos angle ) mul ( sin angle frac cos angle )
 symbol_overrides:
 - angle: x
 - angle: x

@@ -8,8 +8,7 @@ links:
   - https://www.britannica.com/science/gravitational-redshift
   - https://math.temple.edu/~pasha/math144/Chapter8.pdf
 description: "Clocks deeper in a gravitational well run more slowly than clocks far from the source. The relation, derived from the Schwarzschild metric, gives the elapsed proper time t' at radius r for a clock near a non-rotating spherical mass M, in terms of the coordinate time t_0 measured by a distant observer; it is valid in the weak-field limit when r is greater than the Schwarzschild radius."
-equation: time eq time mul sqrt (1 sub 2 mul (gravitational_constant mul mass ) frac length
-  mul speed_of_light pow 2 ) 2
+equation: time eq time mul ( ( 1 sub 2 mul ( gravitational_constant mul mass ) frac length mul speed_of_light pow 2 ) sqrt 2 )
 symbol_overrides:
 - time: t'
 - time: t_0

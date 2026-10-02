@@ -9,9 +9,7 @@ links:
   - https://mathworld.wolfram.com/HeronsFormula.html
   - https://www.cuemath.com/geometry/herons-formula/
 description: "Heron's formula expresses the area of a triangle purely in terms of the three side lengths a, b, and c, using the semiperimeter s = (a+b+c)/2. It is attributed to Heron of Alexandria and is widely applied in surveying, navigation, and any setting where side lengths are easier to obtain than heights."
-equation: area eq sqrt ( ((length add length add length) frac 2) mul (((length add length add length)
-  frac 2) sub length) mul (((length add length add length) frac 2) sub length) mul (((length
-  add length add length) frac 2) sub length) ) 2
+equation: area eq ( ( ( ( length add length add length ) frac 2 ) mul ( ( ( length add length add length ) frac 2 ) sub length ) mul ( ( ( length add length add length ) frac 2 ) sub length ) mul ( ( ( length add length add length ) frac 2 ) sub length ) ) sqrt 2 )
 symbol_overrides:
 - length: a
 - length: b

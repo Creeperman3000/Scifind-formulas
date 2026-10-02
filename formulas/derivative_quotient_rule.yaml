@@ -12,9 +12,7 @@ description: The quotient rule gives the derivative of a ratio of two differenti
   times the derivative of the denominator, all over the square of the denominator.
   It requires the denominator to be nonzero and is often derived from the product
   rule.
-equation: frac rmd (variable frac dimensionless) rmd dimensionless eq ((frac
-  rmd dimensionless rmd dimensionless mul dimensionless) sub dimensionless mul frac
-  rmd dimensionless rmd dimensionless ) frac dimensionless pow 2
+equation: ( rmd ( variable frac dimensionless ) frac rmd dimensionless ) eq ( ( ( rmd dimensionless frac rmd dimensionless ) mul dimensionless ) sub dimensionless mul ( rmd dimensionless frac rmd dimensionless ) ) frac dimensionless pow 2
 symbol_overrides:
 - variable: f
 - dimensionless: g

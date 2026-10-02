@@ -9,7 +9,7 @@ links:
   - https://mathworld.wolfram.com/NaturalLogarithm.html
   - https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-intro/v/natural-logarithm
 description: "The natural logarithm is the logarithm taken to the base e, where e is Euler's number, an irrational and transcendental constant approximately equal to 2.718. It is the inverse of the natural exponential function, and it is the logarithm that arises most naturally in calculus, particularly as the integral of 1/x. Natural logarithms are used throughout mathematics and science wherever continuous growth, decay, or integration is involved."
-equation: log euler_e dimensionless eq dimensionless
+equation: ( euler_e log dimensionless ) eq dimensionless
 symbol_overrides:
   - dimensionless: ln(x)
   - dimensionless: y

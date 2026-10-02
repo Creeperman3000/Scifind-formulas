@@ -8,7 +8,7 @@ links:
   - https://www.engineersedge.com/fluid_flow/froude_number.htm
   - https://www.powderprocess.net/Mixing.html
 description: "The Froude number is a dimensionless ratio of flow inertia to gravitational forces in free-surface or stratified flows, named after William Froude. It is widely used in naval architecture to compare wave-making resistance between ships of different sizes, in open-channel hydraulics to distinguish subcritical from supercritical flow, and in studies of animal locomotion."
-equation: dimensionless eq velocity frac sqrt (standard_gravity mul length) 2
+equation: dimensionless eq velocity frac ( ( standard_gravity mul length ) sqrt 2 )
 symbol_overrides:
   - dimensionless: Fr
   - length: L
